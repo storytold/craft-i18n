@@ -1,0 +1,1105 @@
+# עברית (he) interface catalog for CADCraft.
+# Columns, separated by a TAB:  context <TAB> English source text <TAB> translation
+#   context  usually empty. `@plural`, `@id` and `@msg` mean something to the apps; any other
+#            word is a label that tells apart two meanings of the same English.
+#   escapes  \n  \t  \\  inside a column. `{name}` placeholders must appear in both columns (in any
+#            order), and a trailing "…" in one needs one in the other.
+#   @plural  English `one|other`; the translation lists this language's plural forms, `|`-separated.
+#   Lines starting with # and blank lines are ignored. A missing entry shows in English.
+#
+# Clean room: every entry was written from the plain meaning of the English text in ordinary
+# computing vocabulary. No other product's localisation, string table or translated UI was
+# consulted or copied; add entries the same way.
+
+	  Cancel  	  ביטול  
+	  OK  	  אישור  
+#	 or [	
+	* Wildcard Match	* התאמת תווים כלליים
+	*VARIES*	*משתנה*
+#	+  |  Top  |  2D Wireframe	
+#	+Bin	
+#	+LOC	
+	1 Viewport	חלון תצוגה 1
+	2 Points	2 נקודות
+	2 Viewports	2 חלונות תצוגה
+	2D Solid	גוף דו-ממדי מלא
+	3 Points	3 נקודות
+	3 Viewports	3 חלונות תצוגה
+	3D Face	פאה תלת-ממדית
+	3D Mouse	עכבר תלת-ממדי
+#	3D mouse busy, possibly 3DxWare or missing device permissions	
+	3D mouse connected	עכבר תלת-ממדי מחובר
+	3D mouse disconnected	עכבר תלת-ממדי מנותק
+#	3D mouse input could not be started	
+#	3D mouse input is unavailable on this platform	
+	3D Mouse Navigation	ניווט עכבר תלת-ממדי
+#	3D Mouse...	
+	3D Operations	פעולות תלת-ממד
+	3D Polyline	קו רב-קטעי תלת-ממדי
+	4 Viewports	4 חלונות תצוגה
+	< Less than	< קטן מ-
+	<> Not Equal	<> שונה מ-
+	= Equals	= שווה ל-
+	> Greater than	> גדול מ-
+#	A built-in table: editing it keeps an edited copy in the drawing.	
+#	A drawing opened from a file keeps that file's format.	
+#	A variable name starts with a letter and has only letters, digits and _	
+	About CADCraft	אודות CADCraft
+	Add Current Scale	הוסף קנה מידה נוכחי
+	Add Leader	הוסף קו הובלה
+	Add to Working Set	הוסף לערכת העבודה
+	Add Vertex	הוסף קודקוד
+#	Add/Delete Scales...	
+#	Add: Pick points	
+#	Add: Select objects	
+#	Additional angles	
+#	Align Multileaders	
+	Aligned	מיושר
+	All Annotation Objects	כל אובייקטי ההערות
+	All Scales	כל קני המידה
+	All Used Layers	כל השכבות שבשימוש
+#	An array that would create more objects than this is refused.	
+	Animation Effects	אפקטי הנפשה
+	Annotation scale	קנה מידה להערות
+	Annotation Visibility	נראות הערות
+#	Annotative Object Scale	
+#	Annotative Update	
+	Apparent Intersection	חיתוך מדומה
+#	Append to current selection set	
+#	Apply true color	
+	Arc Length	אורך קשת
+	Arrange Panel	סדר חלונית
+	Array	מערך
+	Associative	אסוציאטיבי
+	Attach	צרף
+#	Attach DWG...	
+	Attribute	תכונה
+	Attribute Definition	הגדרת תכונה
+	Attribute Display	תצוגת תכונות
+	Audit	ביקורת
+	Auto (system language)	אוטומטי (שפת המערכת)
+	Auto Constrain	אילוץ אוטומטי
+#	AutoConstrain	
+	Automatic save every	שמירה אוטומטית כל
+	Automatic save file location	מיקום קובץ שמירה אוטומטית
+#	Axis, End	
+#	B	
+	Base	בסיס
+	Batch Publish	פרסום אצווה
+#	Batch Publish...	
+	Bind	קשר
+#	Bind...	
+	Blend	מיזוג
+#	Block Attribute Manager...	
+	Block Editor	עורך בלוקים
+	Block Reference	הפניית בלוק
+#	Block to create or edit	
+#	Block...	
+	Boolean	בוליאני
+	Bottom left	למטה משמאל
+	Bottom right	למטה מימין
+	Boundaries	גבולות
+	Boundaries picked: {n}	גבולות שנבחרו: {n}
+	Boundary	גבול
+#	Boundary...	
+	Box	תיבה
+	Break	שבירה
+	Break At Point	שבירה בנקודה
+	Bring Above Objects	הבא מעל אובייקטים
+	Bring Annotations to Front	הבא הערות לחזית
+	Bulleted list	רשימה עם תבליטים
+#	ByBlock	
+#	ByColor	
+#	ByLayer	
+	CADCraft	CADCraft
+	CADCraft Help	עזרה של CADCraft
+#	CADCraft keeps these preferences, object snap modes and drafting toggles for your user account and restores them when it starts.	
+	Calibrate	כיול
+#	Calibrate 3D Mouse	
+	Cartesian (x, y)	קרטזי (x, y)
+	Center Line	קו מרכז
+	Center Mark	סימן מרכז
+	Center Z	מרכז Z
+	Center, Diameter	מרכז, קוטר
+	Center, Radius	מרכז, רדיוס
+#	Center, Start, Angle	
+#	Center, Start, End	
+#	Center, Start, Length	
+	Change Space	שנה מרחב
+	Change to Current Layer	שנה לשכבה הנוכחית
+	Changed: {n}	שונו: {n}
+#	Changes apply at once and are kept for next time.	
+	Circumference	היקף מעגל
+	Clear Command History	נקה היסטוריית פקודות
+#	Click the ruler to add a tab stop, right-click to remove one	
+	Click to set new origin	לחץ להגדרת ראשית צירים חדשה
+	Clip	חיתוך
+	Clip Viewport	חתוך חלון תצוגה
+	Close All Other Drawings	סגור את כל השרטוטים האחרים
+	Close Array Editing	סגור עריכת מערך
+	Close Block Editor	סגור עורך בלוקים
+	Close Comparison	סגור השוואה
+	Closed	סגור
+	Coincident	מתלכד
+	Collapse Palettes	כווץ לוחות כלים
+	Collapse Tool Sets	כווץ ערכות כלים
+	Collect	אסוף
+#	Collect Multileaders	
+	Collinear	על ישר אחד
+	Color 1	צבע 1
+	Color 2	צבע 2
+#	Color 8	
+#	Color 9	
+#	Color Index	
+#	Color-dependent	
+#	Color...	
+#	Command Aliases	
+#	Command History	
+#	Command Line	
+#	Command line history	
+#	Command Line History Lines	
+#	Command Reference	
+#	Compare Drawings...	
+#	Computer-aided design and drafting: an open-source, clean-room CAD application written in pure Rust.	
+#	Concentric	
+#	Constraint Bars	
+#	Constraint Settings	
+#	Construction Line	
+#	contains authoring elements. Open in Block Editor?	
+#	Contents	
+#	Control Vertices	
+#	Convert to Arc	
+#	Convert to Line	
+#	Copy as JSON	
+#	Copy Full File Path	
+#	Copy History	
+#	Copy Layout	
+#	Copy Nested Objects	
+#	Copy Selection	
+#	Copy with Base Point	
+#	Count	
+#	Count List	
+#	Count Table	
+#	Create Block	
+#	Create separate hatches	
+#	Creates a user parameter	
+#	Crosshair size	
+#	Crossing selection color:	
+#	Ctrl+Enter to finish	
+#	Current layer	
+#	Current Scale Only	
+#	Current selection	
+#	Current: {color}	
+#	Curved	
+#	Cylinder	
+#	Data Extraction...	
+#	Data Link...	
+#	Default Save Format	
+#	Default Save Version	
+#	Default save version	
+#	Default to boundary extents	
+#	Define Attributes	
+#	Define Attributes...	
+#	Defined width	
+#	Degree	
+#	Degrees of Freedom	
+#	Degrees of freedom: {n}	
+#	Delete Column	
+#	Delete Constraints	
+#	Delete Current Scale	
+#	Delete Dimension Style	
+#	Delete Duplicate Objects	
+#	Delete Layer State	
+#	Delete Layout	
+#	Delete Row	
+#	Delete Text Style	
+#	Delta X	
+#	Delta Y	
+#	Detach	
+#	Dim style	
+#	Dimension	
+#menu	Dimension	
+#	Dimension Break	
+#	Dimension Edit	
+#	Dimension Objects Only	
+#	Dimension Space	
+#	Dimension style	
+#	Dimension Style Override	
+#	Dimension Style...	
+#	Dimension Text Edit	
+#	Dimensional Constraint	
+#	Dimensional Constraint Parameters	
+#	Dimensional Constraints	
+#	Disassociate Dimensions	
+#	Display plot styles	
+#	Do not plot (click: plot)	
+#	Donut	
+#	Double-click to edit the description	
+#	Drafting	
+#	Drafting Settings	
+#	Drafting Settings...	
+#	Drag Dynamic Grip	
+#menu	Draw	
+#	Draw Order	
+#	Drawing (DWG)	
+#	Drawing (DXF)	
+#	Drawing as bytes	
+#	Drawing Limits	
+#	Drawing Recovery Manager...	
+#	Drawing Template (DWT)	
+#	Drawing Utilities	
+#	Drawings (DWG, DXF)	
+#	Drawings with no file yet are saved in the default version. 0 minutes turns automatic save off.	
+#	DWG	
+#	DWG Reference...	
+#	DXF	
+#	Dynamic Block Data	
+#	Dynamic Block Grips	
+#	Dynamic Block Reference	
+#	Dynamic Dimensions	
+#	Dynamic Input	
+#	Dynamic Input (F12)	
+#	E	
+#	Edit Array	
+#	Edit Attributes...	
+#	Edit Block Definition	
+#	Edit Multileader	
+#	Edit Reference In-Place	
+#	Edit Table Cell	
+#	Edit Text...	
+#	Elliptical Arc	
+#	Enable 3D mouse navigation	
+#	Enable Dynamic Input (F12)	
+#	End angle	
+#	End Object Isolation	
+#	End Width	
+#	End X	
+#	End Y	
+#	Enter a fit data option	
+#	Enter a pattern name	
+#	Enter a vertex editing option	
+#	Enter an option	
+#	Enter angle of xline	
+#	Enter angle of xline (0) or	
+#	Enter area of rectangle in current units	
+#	Enter attribute prompt	
+#	Enter attribute tag name	
+#	Enter attribute value	
+#	Enter block name	
+#	Enter constraint type	
+#	Enter continuity	
+#	Enter default attribute value	
+#	Enter degree of spline	
+#	Enter delta angle	
+#	Enter delta length or	
+#	Enter dimension text	
+#	Enter dimension text (<> = measurement)	
+#	Enter dimension value or [name=expression]	
+#	Enter dimension variable name to override	
+#	Enter justification type	
+#	Enter leader text	
+#	Enter mline scale	
+#	Enter mode	
+#	Enter name of block to insert	
+#	Enter new text	
+#	Enter next point	
+#	Enter number of columns	
+#	Enter number of data rows	
+#	Enter number of items	
+#	Enter number of items along path	
+#	Enter number of sides	
+#	Enter number of turns	
+#	Enter percentage length	
+#	Enter rectangle length	
+#	Enter rectangle width	
+#	Enter scale factor	
+#	Enter text	
+#	Enter text (use \\P for new paragraphs)	
+#	Enter the number of segments	
+#	Enter Top, Zero or Bottom.	
+#	Enter twist direction of helix	
+#	Entire drawing	
+#	Equal	
+#	error	
+#	Evaluate	
+#	Evaluate LISP	
+#	Exclude from new selection set	
+#	Exclude:	
+#	Explode	
+#	Export Table	
+#	Export to PDF...	
+#	Export...	
+#	Extend	
+#	Extension	
+#	Extents	
+#	External Reference	
+#	External References	
+#	Extrude	
+#	File Tab	
+#	Fillet	
+#	Filters	
+#	Find...	
+#	Fit Points	
+#	Fix	
+#	Flatten Objects	
+#	Freehand	
+#	Freeze	
+#	Freeze in new viewports	
+#	Freeze Layer	
+#	Freeze/Thaw	
+#	Freeze/Thaw in all viewports	
+#	Freeze/Thaw in the current viewport	
+#	From Template...	
+#	Geometric Center	
+#	Geometric Constraint	
+#	Geometric Constraints	
+#	Get from the Drawing	
+#	Get Variable	
+#	Get View	
+#	Global width	
+#	Grab bag	
+#	Gradient...	
+#	Grid (F7)	
+#	Grid Display	
+#	Grid On (F7)	
+#	Grid snap	
+#	Grid spacing	
+#	Grip Edit	
+#	Grip Mirror	
+#	Grip Option	
+#	Grip Rotate	
+#	Grip Scale	
+#	Grip size	
+#	Grip Stretch	
+#	Grips	
+#	Group Edit	
+#	Group Options	
+#	Group Selection	
+#	Hatch	
+#	Hatch and Gradient	
+#	Hatch Edit	
+#	Hatch origin	
+#	Hatch Pattern	
+#	Hatch Patterns	
+#	Hatch Pick	
+#	Hatch...	
+#	Hatches	
+#	Height: {height}	
+#	Helix	
+#	Hemispherical	
+#	Hide All Constraint Bars	
+#	Hide All Dynamic Dimensions	
+#	Hide CADCraft	
+#	Hide Layer List	
+#	Hide Objects	
+#	Hide Palette	
+#	Hide Palettes	
+#	Hold Shift to add to the selection	
+#	HorizontalDistance	
+#	How to apply:	
+#	ID Point	
+#	Import...	
+#	In	
+#	In-window Menu Bar	
+#	Include in new selection set	
+#	Increment angle	
+#	Index Color	
+#	Index color: {index}	
+#	Indicate selection area	
+#	Infer Constraints	
+#	Inquiry	
+#	Insert Block	
+#	Insert Column	
+#	Insert Row	
+#	Insert tab	
+#	Insert Table Formula	
+#	Insert this block	
+#	Insertion	
+#	Insertion X	
+#	Insertion Y	
+#	Insertion Z	
+#	Inspect Constraints	
+#	Inspect Drawing	
+#	Inspection	
+#	Interface theme	
+#	Inverted	
+#	Island detection	
+#	Isolate Layer	
+#	Isolate Objects	
+#	Isometric Drafting	
+#	Isometric Plane	
+#	Isometric snap	
+#	Jogged	
+#	Jogged Linear	
+#	Keep an editable copy of this table in the drawing	
+#	Keep the system cursor visible over the drawing area	
+#	Largest array	
+#	Layer contains objects (double-click to make current)	
+#	Layer Delete	
+#	Layer is empty (double-click to make current)	
+#	Layer Match	
+#	Layer Merge	
+#	Layer Off	
+#	Layer Properties	
+#	Layer Properties Manager	
+#	Layer Properties Manager — current viewport	
+#	Layer State	
+#	Layer States Manager...	
+#	Layer Tools	
+#	Layers displayed: {shown} of {total}.   Current layer: {layer}	
+#	Layers Palette	
+#	Layout list	
+#	Layout paper	
+#	Layout {name}: {table}	
+#	Leader	
+#	Leaders Only	
+#	Left device button: zoom extents. Right device button: calibrate.	
+#	Length X	
+#	Length Y	
+#	Lengthen	
+#	Lines of Command History	
+#	Linetype	
+#	Linetype Scale	
+#	Linetype scale	
+#	Linetype...	
+#	Lineweight	
+#	Lineweight...	
+#	List Blocks	
+#	List Dimension Styles	
+#	List Groups	
+#	List Layer States	
+#	List Layouts	
+#	List System Variables	
+#	List Text Styles	
+#	Load all	
+#	Load Application...	
+#	Load...	
+#	Loaded	
+#	Loaded linetypes	
+#	Lock Layer	
+#	Lock viewport	
+#	Lock/Unlock	
+#	Loft	
+#	Ltscale	
+#	Major line every	
+#	Make Current	
+#	Make it a block of this drawing, keeping its layer names	
+#	Make it a block of this drawing; its layers become NAME$0$LAYER	
+#	Make Object's Layer Current	
+#	Make...	
+#	Match Layer	
+#	Match Properties	
+#	Measure Distance	
+#	Measure Geometry	
+#	Mid Between 2 Points	
+#	min	
+#	MIT OR Apache-2.0. Not affiliated with Autodesk, Inc.	
+#	MODEL	
+#	Model background	
+#	Model Space (in viewport)	
+#	Modeling	
+#menu	Modify	
+#	More toolbar commands	
+#	Move sideways to pan; push/pull or twist to zoom.	
+#	MText	
+#	Multileader	
+#	Multileader style	
+#	Multileader Style...	
+#	Multiline	
+#	Multiline Style...	
+#	Multiline Text	
+#	Multiline text	
+#	Multiline Text...	
+#	Multiline...	
+#	Multiple	
+#	Multiple Point	
+#	My	
+#	My properties: not available yet	
+#	N	
+#	Named	
+#	Named Views...	
+#	Nearest	
+#	New (metric)	
+#	New block	
+#	New CTB	
+#	New Drawing	
+#	New Drawing (⌘N)	
+#	New Drawing...	
+#	New from Template...	
+#	New Layout	
+#	New layout	
+#	New state name	
+#	New STB	
+#	New style	
+#	New Viewports...	
+#	New VP Freeze	
+#	No blocks defined in this drawing.	
+#	No contributor data was built into this copy.	
+#	No external references are attached.	
+#	No model credits were built into this copy.	
+#	No plot style tables.	
+#	No saved layer states	
+#	No supported 3D mouse found	
+#	Node	
+#	Not a number or distance: {text}	
+#	Not available yet	
+#	Not Found	
+#	Not loaded	
+#	Numbered list	
+#	Object grouping	
+#	Object selection limit for display of grips	
+#	Object Snap	
+#	Object Snap (F3)	
+#	Object snap aperture	
+#	Object snap marker size	
+#	Object Snap On (F3)	
+#	Object Snap Tracking	
+#	Object Snap Tracking (F11)	
+#	Object Snap Tracking Settings	
+#	Object type:	
+#	objects	
+#	Objects on locked layers	
+#	Oblique	
+#	On/Off	
+#	One of the Crafting Apps by the ArtCraft team and community.	
+#	Only in this drawing: {n}	
+#	Only in {name}: {n}	
+#	Open (⌘O)	
+#	Open a drawing first.	
+#	Open and Save	
+#	Open in Block Editor	
+#	Open Sample Drawing	
+#	Open sample drawing	
+#	Open Xref	
+#	Open...	
+#	Operator:	
+#	Options...	
+#	Orbit	
+#	Ordinate	
+#	Origin: {x}, {y}	
+#	Ortho (F8)	
+#	Ortho Mode	
+#	Ortho Mode (F8)	
+#	Osnap Settings...	
+#	Out	
+#	Outer	
+#	Over-constrained	
+#	Overline	
+#	Override	
+#	Page Setup Manager	
+#	Page Setup Manager...	
+#	Pan	
+#	Pan Down	
+#	Pan Left	
+#	Pan Right	
+#	Pan sensitivity	
+#	Pan Up	
+#	PAPER	
+#	Paper Space	
+#	Parallel	
+#	Parameters Manager	
+#	Parametric	
+#	Paste as Block	
+#	Paste to Command Line	
+#	Paste to Original Coordinates	
+#	Path Array	
+#	Perpendicular	
+#	Pickbox size	
+#	Plot	
+#	Plot (click: do not plot)	
+#	Plot Preview	
+#	Plot style	
+#	Plot style attached to	
+#	Plot Style Manager	
+#	Plot Style Manager...	
+#	Plot style table	
+#	Plot Style...	
+#	Plot Styles...	
+#	Plot table type	
+#	Plot Window	
+#	Plotter Manager	
+#	Plotter Manager...	
+#	Plus/minus	
+#	Point Filters	
+#	Point Style...	
+#	Polar (distance < angle)	
+#	Polar angle measurement	
+#	Polar Array	
+#	Polar distance	
+#	Polar Tracking	
+#	Polar Tracking (F10)	
+#	Polar Tracking On (F10)	
+#	Polar: {distance} < {angle}°	
+#	PolarSnap	
+#	Polygonal	
+#	Polygonal Viewport	
+#	Polyline Edit	
+#	Position X	
+#	Position Y	
+#	Position Z	
+#	Previous Layer	
+#	Primitives	
+#	Print...	
+#	Profiles	
+#	Properties Inspector	
+#	Properties:	
+#	Proxy	
+#	Purge	
+#	Quadrant	
+#	Query Entities	
+#	Query Texts	
+#	Quick	
+#	Quick Dimension	
+#	Quick Properties	
+#	Quick Select	
+#	Quick Select Properties	
+#	Quick Select...	
+#	QuickCalc	
+#	QuickCalc Pick	
+#	Quit CADCraft	
+#	Raster Image	
+#	Ray	
+#	Read-only	
+#	Realtime	
+#	Reassociate Dimensions	
+#	Recalculate Table Formulas	
+#	Recent Commands	
+#	Recent Input	
+#	Recover...	
+#	Rectangular Array	
+#	Rectangular snap	
+#	Redo (⇧⌘Z)	
+#	Redraw	
+#	Reference Manager	
+#	Reference Name	
+#	References: {n}	
+#	Regen	
+#	Regen All	
+#	Region	
+#	Region/Mass Properties	
+#	Reinitialize	
+#	Relative to last segment	
+#	Release the 3D mouse to calibrate its resting position	
+#	Reload All	
+#	Remove Leader	
+#	Remove the viewport override	
+#	Remove Vertex	
+#	Rename Dimension Style	
+#	Rename Layer	
+#	Rename Layer State	
+#	Rename Layout	
+#	Rename Text Style	
+#	Rename...	
+#	Repeat {command}	
+#	Requires a point (x,y, @dx,dy or @d<a).	
+#	Reset keeps the interface language.	
+#	Reset Palettes	
+#	Reset Panel Layout	
+#	Reset to Defaults	
+#	Restore Layer State	
+#	Reverse zoom direction	
+#	Revision Cloud	
+#	Revolve	
+#	Run Script...	
+#	S	
+#	Save (⌘S)	
+#	Save As...	
+#	Save Block	
+#	Save Block As	
+#	Save Layer State	
+#	Save new drawings as	
+#	Save Reference Edits	
+#	Save State	
+#	Saved Path	
+#	Scale List...	
+#	Screen magnifiers, screen readers and recorders follow the system cursor.	
+#	Screening	
+#	Search for layer	
+#	Search for parameter	
+#	Search for pattern	
+#	Second and next points:	
+#	Select 2D polyline	
+#	Select a 2D polyline.	
+#	Select a block reference.	
+#	Select a circle or arc.	
+#	Select a closed polyline	
+#	Select a closed polyline, circle, ellipse or closed spline.	
+#	Select a closed polyline.	
+#	Select a curve as the path.	
+#	Select a dimension constraint type	
+#	Select a line object	
+#	Select a line object.	
+#	Select a line or an arc.	
+#	Select a line or polyline segment	
+#	Select a line, arc or open polyline.	
+#	Select a line, arc, circle, polyline, ellipse or spline as the path.	
+#	Select a line, circle, arc or polyline segment.	
+#	Select a line.	
+#	Select a polyline.	
+#	Select a text, mtext, attribute definition or dimension.	
+#	Select an annotation object	
+#	Select an arc or circle	
+#	Select an arc.	
+#	Select an object	
+#	Select an object to change or	
+#	Select an object to measure or	
+#	Select an object.	
+#	Select an open curve.	
+#	Select an open line, arc, polyline, ellipse arc or spline.	
+#	Select arc or circle	
+#	Select arc or polyline arc segment	
+#	Select arc style	
+#	Select arc, circle, line	
+#	Select at least two objects to join.	
+#	Select circle or arc to add center mark	
+#	Select closed objects (regions, closed polylines, circles).	
+#	Select first line	
+#	Select first line or arc	
+#	Select first object	
+#	Select first object or	
+#	Select first point	
+#	Select nested objects to copy or	
+#	Select object	
+#	Select object to dimension	
+#	Select object to divide	
+#	Select object to extend or shift-select to trim	
+#	Select object to measure	
+#	Select object to offset	
+#	Select object to trim or shift-select to extend	
+#	Select objects	
+#	Select objects (crossing window first corner)	
+#	Select objects first, then choose a command	
+#	Select objects to array.	
+#	Select objects to stretch by crossing-window or crossing-polygon...	
+#	Select objects:	
+#	Select one polyline (Multiple is available through the JSON form).	
+#	Select path curve	
+#	Select point or object	
+#	Select polyline or	
+#	Select second line	
+#	Select second line or shift-select to apply corner	
+#	Select second object	
+#	Select second object or shift-select to apply corner	
+#	Select second point	
+#	Select Similar	
+#	Select spline	
+#	Select symmetry line	
+#	Select two points	
+#	Selection Area Effect	
+#	Selection area opacity:	
+#	Selection Cycling	
+#	Selection effect color	
+#	Selection modes	
+#	Selection preview	
+#	Selection Preview Filter	
+#	Send Hatches to Back	
+#	Send Under Objects	
+#	Set Current	
+#	Set Current Dimension Style	
+#	Set Current Text Style	
+#	Set Current Viewport	
+#	Set Dynamic Property	
+#	Set Layer Properties	
+#	Set Properties	
+#	Set Table Cell	
+#	Set Table Cell Style	
+#	Set Variable	
+#	Set View	
+#	Settings...	
+#	Sheet Books to PDF...	
+#	Show All Constraint Bars	
+#	Show All Dynamic Dimensions	
+#	Show and hide the tools of this category	
+#	Show Annotative Objects	
+#	Show command prompting near the crosshairs	
+#	Show grips	
+#	Show in Tool Sets	
+#	Show Layer List	
+#	Show Quick Properties for selected objects	
+#	Show System Cursor	
+#	Show/Hide Lineweight	
+#	Show/Hide Transparency	
+#	Single Line Text	
+#	Single Point	
+#	Single...	
+#	Smooth	
+#	Snap	
+#	Snap and Grid	
+#	Snap Mode	
+#	Snap Mode (F9)	
+#	Snap On (F9)	
+#	Snap Overrides	
+#	Snap type	
+#	Snap X spacing	
+#	Snap, grid, polar tracking and Dynamic Input:	
+#	Solid	
+#	Solid Editing	
+#	Specified origin	
+#	Specify a point	
+#	Specify a scale for the hatch pattern	
+#	Specify a second extension line origin	
+#	Specify an angle for the hatch pattern	
+#	Specify angle end point	
+#	Specify angle of dimension line	
+#	Specify angle of dimension text	
+#	Specify angle start point	
+#	Specify angle vertex	
+#	Specify angle vertex point	
+#	Specify arc length dimension location	
+#	Specify axis endpoint of ellipse	
+#	Specify base diameter	
+#	Specify base point	
+#	Specify base point or	
+#	Specify base point or displacement (drag with the middle mouse button for realtime pan)	
+#	Specify base radius or	
+#	Specify center of donut	
+#	Specify center of ellipse	
+#	Specify center of polygon	
+#	Specify center point for circle	
+#	Specify center point of arc	
+#	Specify center point of array	
+#	Specify center point of base	
+#	Specify corner of viewport	
+#	Specify corner of window, enter a scale factor (nX or nXP)	
+#	Specify diameter of circle	
+#	Specify dimension arc line location	
+#	Specify dimension line location	
+#	Specify distance between turns	
+#	Specify distance to other axis	
+#	Specify end angle	
+#	Specify end point of arc	
+#	Specify end point of arc (hold Ctrl to switch direction)	
+#	Specify ending width	
+#	Specify ending width for next segment	
+#	Specify endpoint of arc	
+#	Specify endpoint of axis	
+#	Specify endpoint of line	
+#	Specify feature location	
+#	Specify fillet radius	
+#	Specify fillet radius for rectangles	
+#	Specify first angle endpoint	
+#	Specify first chamfer distance	
+#	Specify first chamfer distance for rectangles	
+#	Specify first constraint point	
+#	Specify first corner	
+#	Specify first corner point	
+#	Specify first destination point	
+#	Specify first end point of circle's diameter	
+#	Specify first endpoint of edge	
+#	Specify first extension line origin	
+#	Specify first point	
+#	Specify first point of mirror line	
+#	Specify first point on circle	
+#	Specify first point on circle: _tan to	
+#	Specify first source point	
+#	Specify height	
+#	Specify helix height or	
+#	Specify included angle	
+#	Specify insertion base point	
+#	Specify insertion point	
+#	Specify inside diameter of donut	
+#	Specify leader arrowhead location	
+#	Specify leader endpoint	
+#	Specify leader landing location	
+#	Specify length for rectangles	
+#	Specify length of chord	
+#	Specify length of segment	
+#	Specify line width for rectangles	
+#	Specify location for new vertex	
+#	Specify minimum length of arc	
+#	Specify new end point	
+#	Specify new location for marked vertex	
+#	Specify new width for all segments	
+#	Specify next point	
+#	Specify offset distance	
+#	Specify offset distance or	
+#	Specify opposite corner	
+#	Specify other corner point	
+#	Specify other endpoint of axis	
+#	Specify outside diameter of donut	
+#	Specify point	
+#	Specify point on object for first tangent of circle	
+#	Specify point on object for second tangent of circle	
+#	Specify point on side to offset	
+#	Specify radius of arc	
+#	Specify radius of circle	
+#	Specify rotation angle	
+#	Specify rotation angle of text	
+#	Specify rotation angle or	
+#	Specify scale factor	
+#	Specify second angle endpoint	
+#	Specify second break point	
+#	Specify second chamfer distance for rectangles	
+#	Specify second constraint point	
+#	Specify second destination point	
+#	Specify second end point of circle's diameter	
+#	Specify second endpoint of edge	
+#	Specify second extension line origin	
+#	Specify second point	
+#	Specify second point of arc	
+#	Specify second point of mirror line	
+#	Specify second point on circle	
+#	Specify second point on circle: _tan to	
+#	Specify second point or <use first point as displacement>	
+#	Specify second source point	
+#	Specify side to offset	
+#	Specify start angle	
+#	Specify start point	
+#	Specify start point of arc	
+#	Specify start point of polyline	
+#	Specify start point of text	
+#	Specify starting width	
+#	Specify starting width for next segment	
+#	Specify tangent direction for the start point of arc	
+#	Specify the elevation for rectangles	
+#	Specify thickness for rectangles	
+#	Specify third point on circle	
+#	Specify third point on circle: _tan to	
+#	Specify third source point or <continue>	
+#	Specify through point	
+#	Specify top diameter	
+#	Specify top radius or	
+#	Specify total angle	
+#	Specify total length or	
+#	Specify width for rectangles	
+#	Sphere	
+#	Spherical	
+#	Spline	
+#	Spline Edit	
+#	Stack (type 1/2 then select)	
+#	Start	
+#	Start angle	
+#	Start Width	
+#	Start X	
+#	Start Y	
+#	Start, Center, Angle	
+#	Start, Center, End	
+#	Start, Center, Length	
+#	Start, End, Angle	
+#	Start, End, Direction	
+#	Start, End, Radius	
+#	Stretch Vertex	
+#	Style: Standard	
+#	SVG drawings (SVG, SVGZ)	
+#	Sweep	
+#	Switch between model space in a viewport and paper space	
+#	Switch Drawing	
+#	Switch Layout	
+#	Symmetric	
+#	Synchronize Attributes	
+#	Synchronize Multiple-scale Positions	
+#	Table Breaks	
+#	Table Cell Style	
+#	Table Style...	
+#	Table...	
+#	Tan, Tan, Radius	
+#	Tan, Tan, Tan	
+#	Tangent	
+#	Temporary track point	
+#	Text Editor	
+#	Text Height	
+#	Text height	
+#	Text Objects Only	
+#	Text override	
+#	Text style	
+#	Text Style...	
+#	Thaw All Layers	
+#	Thaw Layer	
+#	The aperture is how near the cursor must come to a point for an object snap to find it.	
+#	There is nothing here yet.	
+#	This drawing	
+#	Time-sensitive right-click: a quick click is Enter, holding opens the menu	
+#	To get started, create or open a drawing.	
+#	Toggle PICKADD (off: each pick replaces the selection)	
+#	Toggle PICKADD (on: picks add to the selection)	
+#	Tolerance...	
+#	Tool Bar	
+#	Tool Sets	
+#	TOP	
+#	Top left	
+#	Top right	
+#	Torus	
+#	Trace	
+#	Track orthogonally only	
+#	Track using all polar angle settings	
+#	Trim	
+#	True Color	
+#	Turn All Layers On	
+#	Turn Off Layer	
+#	Turn On Layer	
+#	Turn Quick Properties off (QPMODE)	
+#	Turned off, a right-click while a command runs always opens the shortcut menu.	
+#	Type a command	
+#	Type text; Enter starts a new paragraph	
+#	UCS Icon	
+#	Undo (⌘Z)	
+#	Unisolate Layer	
+#	Units Conversion	
+#	Units...	
+#	Unload	
+#	Unloaded	
+#	Unlock Layer	
+#	Unlock viewport	
+#	Unmerge Cells	
+#	Unreferenced	
+#	Unresolved	
+#	Unsaved Layer State	
+#	Update Data Links	
+#	Use current origin	
+#	Use for this layout	
+#	Use object linetype	
+#	Use object lineweight	
+#	Use System Setting	
+#	User Parameters	
+#	User Preferences	
+#	Version 2000	
+#	Version 2004	
+#	Version 2007	
+#	Version 2010	
+#	Version 2013	
+#	Version 2018	
+#	VerticalDistance	
+#menu	View	
+#	ViewCube	
+#	Viewport	
+#	Viewport is locked	
+#	Viewport Layer Freeze	
+#	Viewport Properties	
+#	Viewport scale	
+#	Viewport {id}	
+#	Viewports	
+#	Visual Effect Settings	
+#	Visual Effect Settings...	
+#	Volume	
+#	VP Color	
+#	VP Freeze	
+#	W	
+#	WCS ⌄	
+#	When a command is active	
+#	When no command is active	
+#	Width factor	
+#	Window selection color:	
+#	Wipeout	
+#	Working Set	
+#	Workspace Switching	
+#	Write Block	
+#	Xline	
+#	Xref and Block In-place Editing	
+#	Xrefs	
+#	Zoom All	
+#	Zoom Dynamic	
+#	Zoom Extents	
+#	Zoom Object	
+#	Zoom Previous	
+#	Zoom Realtime	
+#	Zoom sensitivity	
+#	Zoom Window	
+#	{contributors} · {commits}	
+#	{kind} (constraint {id})	
+#	{kind} constraint {name} = {expression}  (double-click to edit)	
+#	{name}: {distance} < {angle}°	
+#@plural	{n} contributor|{n} contributors	
+#	ƒx  New User Parameter	
+#	ΔLOC	
+#	−LOC	
+#	⌘↩ to finish	
