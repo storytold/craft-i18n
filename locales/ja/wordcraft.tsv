@@ -20,6 +20,7 @@
 	(normal text)	(標準テキスト)
 	(not matched)	（未対応）
 	(picture or object)	（画像またはオブジェクト）
+	(space)	(スペース)
 	0 or More Characters	0 文字以上の文字列
 	1. Formatting restrictions	1. 書式の制限
 	1.5 Line Spacing	1.5 行
@@ -159,6 +160,7 @@
 	Arrange\nAll	整列
 	Article I.	第 I 条
 	Artistic Effects	アート効果
+	As in Word	Word と同様
 	As Recommended	推奨順
 	As you type	入力中
 	Asian text font:	アジア文字のフォント:
@@ -270,6 +272,7 @@
 	Capitalize names of days	曜日の先頭文字を大文字にする
 	Caption	図表番号
 	Caption Numbering	図表番号の書式
+	Caption style:	図表番号のスタイル:
 	Caption text	図表番号の文字列
 	Caption:	図表番号:
 	Captions	図表番号
@@ -461,6 +464,7 @@
 	Custom range	ページ範囲を指定
 	Custom size	ユーザー定義サイズ
 	Custom Table of Contents…	ユーザー設定の目次…
+	Custom template	ユーザー設定のテンプレート
 	Custom Watermark	ユーザー設定の透かし
 	Custom Watermark…	ユーザー設定の透かし…
 	Customize	ユーザー設定
@@ -653,9 +657,11 @@
 	Equal to	等しい
 	Equals:	等しい値:
 	Equation	数式
+	Equation Caption	図表番号（数式）
 	Equation Gallery	数式ギャラリー
 	Equation Info	数式の情報
 	Equation Number	数式番号
+	Equation number	数式番号
 	Equation Options	数式のオプション
 	Erase Ink	インクを消す
 	Errors ({n})	エラー ({n})
@@ -694,6 +700,8 @@
 	Field:	フィールド:
 	Field…	フィールド…
 	Figure	図
+	Figure Caption	図表番号（図）
+	Figure caption	図表番号（図）
 	File locations	ファイルの場所
 	File name:	ファイル名:
 	File › New lists the .dotx and .dotm templates here under Personal; Save as Word Template starts here.	[ファイル] › [新規] の [個人用] に、ここにある .dotx と .dotm のテンプレートが表示されます。[Word テンプレートとして保存] はここから始まります。
@@ -763,6 +771,7 @@
 	From Bottom Right Corner	右下の角から
 	From Center	中央から
 	From text:	本文からの距離:
+	From the style	スタイルに従う
 	From Top Left Corner	左上の角から
 	From Top Right Corner	右上の角から
 	from Unicode (hex)	Unicode (16 進)
@@ -973,7 +982,11 @@
 	Kerning for fonts:	カーニングを行う:
 	Keyboard shortcuts:	キーボード ショートカット:
 	Keys for this command:	このコマンドのキー:
+	Label and number	ラベルと番号
 	Label changes with:	変更者のラベル:
+	Label number – title	ラベル 番号 – 題名
+	Label number. title	ラベル 番号. 題名
+	Label number: title	ラベル 番号: 題名
 	Label:	ラベル:
 	Language Preferences…	言語の設定…
 	Large\nOperator	大型\n演算子
@@ -998,6 +1011,7 @@
 	Left border	左罫線
 	Left indent	左インデント
 	Left Margin	左余白
+	Left of the item	オブジェクトの左
 	Left Only	左側のみ
 	Left-to-right	左から右
 	Left-to-Right Text Direction	左から右への文字方向
@@ -1250,12 +1264,14 @@
 	Number	番号
 	Number alignment:	番号の配置:
 	Number format	番号書式
+	Number in parentheses	括弧付きの番号
 	Number of columns:	列数:
 	Number of rows:	行数:
 	Number of the page the field sits on	現在のページ番号
 	Number of the section the field sits in	現在のセクション番号
 	Number only, without the label's words	ラベルの語を除いて番号のみ
 	Number style for this level:	このレベルの番号の種類:
+	Number:	番号:
 	Numbering	段落番号
 	Numbering:	番号の付け方:
 	Numbering…	番号付け…
@@ -1578,6 +1594,7 @@
 	Right border	右罫線
 	Right indent	右インデント
 	Right Margin	右余白
+	Right of the item	オブジェクトの右
 	Right Only	右側のみ
 	Right-to-left	右から左
 	Right-to-Left Section	右から左のセクション
@@ -1874,6 +1891,8 @@
 	Tab leader:	タブ リーダー:
 	Tab stop position:	タブ位置:
 	Tab stops to be cleared:	削除するタブ:
+	Table Caption	図表番号（表）
+	Table caption	図表番号（表）
 	Table Column Width	表の列の幅
 	Table Design	テーブル デザイン
 	Table direction:	表の方向:
@@ -1896,6 +1915,7 @@
 	Take your time. The page isn't going anywhere. Neither am I. Ever.	ごゆっくり。ページはどこにも行きません。わたしもです。ずっと。
 	TC entry fields	TC 項目フィールド
 	Technology	テクノロジー
+	Template:	テンプレート:
 	Templates and Add-ins	テンプレートとアドイン
 	Templates you save in your templates folder show up here.	テンプレート フォルダーに保存したテンプレートがここに表示されます。
 	Text Box	テキスト ボックス
@@ -1979,6 +1999,7 @@
 	Tips ({n})	ヒント ({n})
 	Title Bar	タイトル バー
 	Title from the document properties	文書のタイトル
+	Title separator:	題名の区切り:
 	Title:	タイトル:
 	To open Word documents with WordCraft by default: select one in Finder, choose File › Get Info, pick WordCraft under Open with, then click Change All.	Word 文書を既定で WordCraft で開くには: Finder で文書を選び、ファイル › 情報を見る を選んで、「このアプリケーションで開く」で WordCraft を選び、「すべてを変更」をクリックします。
 	To:	終了:

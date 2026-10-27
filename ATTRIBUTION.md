@@ -84,3 +84,16 @@ storytold/wordcraft#4237) in `ar`, `bg`, `cs`, `da`, `de`, `es`, `et`, `fr`,
 `sv`, `tr`, `uk`, `vi`, `zh-hans` and `zh-hant`, AI-assisted with Claude Code and written from the
 English meaning, using each locale's existing WordCraft terms (its name for the Normal style,
 template, default and Reset). No native-speaker review is recorded.
+
+## WordCraft: Insert Caption dialog
+
+Nikitamce contributed the Insert Caption rows (`Left of the item`, `Right of the item`,
+`From the style`, `Caption style:`, the name templates, `Template:`, `Title separator:`,
+`(space)`, `Number:`, `Presets:`, `As in Word`, `Figure caption`, `Table caption`,
+`Equation number`, `Figure Caption`, `Table Caption` and `Equation Caption`, and `Justified`
+or `Presets:` where that catalog did not already have them) in `bg`, `cs`, `da`, `de`, `es`,
+`et`, `fr`, `hr`, `hu`, `it`, `ja`, `ka`, `ko`, `nl`, `pl`, `pt-br`, `ro`, `ru`, `sl`, `sr`,
+`sr-latn`, `sv`, `tr`, `uk`, `vi`, `zh-hans` and `zh-hant`. They were written clean-room from
+the English meaning, with AI assistance (Grok), and reuse each catalog's existing words for
+caption and equation where those rows already had one. No native-speaker review is recorded.
+They belong to the WordCraft change in storytold/wordcraft#4106.
