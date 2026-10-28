@@ -139,6 +139,7 @@
 	Any Letter	Bilo koje slovo
 	Anyone can open this document. Encrypt it with a password to keep it private.	Svako može da otvori ovaj dokument. Šifrujte ga lozinkom da bi ostao privatan.
 	Anyone who opens the document will need this password.	Svakome ko otvori dokument biće potrebna ova lozinka.
+	Applies to new and opened documents. Saved document zoom takes priority unless you override it.	Primenjuje se na nove i otvorene dokumente. Sačuvano uvećanje dokumenta ima prednost osim ako ga zamenite.
 	Apply as you type	Primeni dok kucaš
 	Apply Asian line-breaking rules (kinsoku)	Primeni azijska pravila preloma redova (kinsoku)
 	Apply formatting to:	Primeni formatiranje na:
@@ -164,6 +165,7 @@
 	Atmosphere	Atmosfera
 	Attach Template	Priloži šablon
 	Attach…	Priloži…
+	Auto orientation	Automatska orijentacija
 	AutoCorrect	Automatska ispravka
 	AutoCorrect Options	Opcije automatske ispravke
 	AutoFit	Automatsko uklapanje
@@ -221,6 +223,9 @@
 	Bold choice. Ctrl+Z is right there if you need it.	Hrabar izbor. Ctrl+Z je tu ako zatreba.
 	Book	Knjiga
 	Book title	Naslov knjige
+	Booklet (left binding)	Knjižica (povez levo)
+	Booklet (right binding)	Knjižica (povez desno)
+	Booklets: duplex on the short edge. Blank pages are added at the end.	Knjižice: dvostrano štampanje po kraćoj ivici. Prazne stranice se dodaju na kraju.
 	Bookmark	Obeleživač
 	Bookmark name:	Naziv obeleživača:
 	Border lines	Linije ivica
@@ -422,10 +427,6 @@
 	Crop	Iseci
 	Cross-reference	Unakrsna referenca
 	Cross-reference:	Unakrsna referenca:
-	{key} starts a new page. Much tidier than pressing Enter until it happens.	{key} počinje novu stranicu. Mnogo urednije nego pritiskati Enter dok se ne desi.
-	{key} finds and replaces text, formatting and special characters.	{key} pronalazi i zamenjuje tekst, oblikovanje i specijalne znakove.
-	{key} turns the selected text into a link.	{key} pretvara izabrani tekst u vezu.
-	{key} counts your words, characters and paragraphs.	{key} broji vaše reči, znakove i pasuse.
 	Current	Trenutna
 	Current Position	Trenutni položaj
 	Current record	Trenutni zapis
@@ -463,6 +464,7 @@
 	Decorative objects only add visual interest: screen readers skip them.	Dekorativni objekti samo doprinose izgledu: čitači ekrana ih preskaču.
 	Decrease Indent	Smanji uvlačenje
 	Deep	Dubok
+	Default document zoom:	Podrazumevano uvećanje dokumenta:
 	Default formatting	Podrazumevano oblikovanje
 	Default tab stops:	Podrazumevani tabulatori:
 	Define New Bullet	Definiši novu oznaku
@@ -647,8 +649,6 @@
 	Export Page as PNG	Izvezi stranu kao PNG
 	Extend Selection	Proširi izbor
 	Extend Selection by Units	Proširi izbor po jedinicama
-	{key} repeats your last action. Formatting ten headings is suddenly one click and nine taps.	{key} ponavlja poslednju radnju. Formatiranje deset naslova odjednom postaje jedan klik i devet pritisaka.
-	{key} checks the spelling and grammar of the whole document.	{key} proverava pravopis i gramatiku celog dokumenta.
 	Faster: {command} is {key} on the keyboard.	Brže: {command} je {key} na tastaturi.
 	Field code:	Kod polja:
 	Field Codes	Kodovi polja
@@ -662,6 +662,7 @@
 	Figure	Slika
 	File locations	Lokacije datoteka
 	File name:	Ime datoteke:
+	File not found	Datoteka nije pronađena
 	File › New lists the .dotx and .dotm templates here under Personal; Save as Word Template starts here.	Fajl › Novo prikazuje .dotx i .dotm šablone odavde pod Lični; Sačuvaj kao Word šablon počinje ovde.
 	Fill	Ispuna
 	Fill color:	Boja popune:
@@ -1130,6 +1131,7 @@
 	Next Section	Sledeći odeljak
 	Next Sentence	Sledeća rečenica
 	Next sentence	Sledeća rečenica
+	Next sheet	Sledeći list
 	Nib floats over the window with tips and the occasional remark.	Nib lebdi iznad prozora sa savetima i ponekom primedbom.
 	Nib, your assistant. Drag to move; right-click for options.	Nib, vaš asistent. Prevucite da biste ga pomerili; desni klik za opcije.
 	No accessibility issues found.	Nije pronađen nijedan problem pristupačnosti.
@@ -1152,6 +1154,7 @@
 	No Paragraph Space	Bez razmaka pasusa
 	No printers found. Configure a system printer or export a PDF.	Nisu pronađeni štampači. Podesite sistemski štampač ili izvezite PDF.
 	No Reflection	Bez odraza
+	No Scaling	Bez skaliranja
 	No Shadow	Bez senke
 	No Soft Edges	Bez mekih ivica
 	No sources yet.	Još nema izvora.
@@ -1259,6 +1262,7 @@
 	Outside border	Spoljna ivica
 	Outside Borders	Spoljašnje ivice
 	Outside:	Spolja:
+	Override zoom saved in documents	Zameni uvećanje sačuvano u dokumentima
 	Overtype	Prepisivanje
 	Overtype (typing replaces the characters after the caret)	Prepisivanje (otkucano zamenjuje znakove posle kursora)
 	Page Background	Pozadina strane
@@ -1291,6 +1295,7 @@
 	Page\nNumber	Broj\nstrane
 	Pages like 1-3, 5	Stranice poput 1-3, 5
 	Pages of bookmark:	Stranice obeleživača:
+	Pages per sheet	Stranica po listu
 	Paper size:	Veličina papira:
 	Paragraph Character	Simbol pasusa
 	Paragraph Details	Detalji pasusa
@@ -1357,6 +1362,7 @@
 	Previous Section	Prethodni odeljak
 	Previous Sentence	Prethodna rečenica
 	Previous sentence	Prethodna rečenica
+	Previous sheet	Prethodni list
 	Print Documents	Štampaj dokumente
 	Print Documents…	Štampaj dokumente…
 	Print failed: the printing worker stopped.	Štampanje nije uspelo: proces štampanja je zaustavljen.
@@ -1540,6 +1546,7 @@
 	Sayings:	Dosetke:
 	Scale	Razmera
 	Scale Drawing	Skaliraj crtež
+	Scale to paper size	Prilagodi veličini papira
 	Scatter	Raspršeni
 	Script	Indeks
 	Scripts	Scripts
@@ -1627,7 +1634,7 @@
 	Shape Format	Format oblika
 	Shape Outline	Kontura oblika
 	Shape Styles	Stilovi oblika
-	{key} starts a new line without starting a new paragraph.	{key} počinje novi red bez započinjanja novog pasusa.
+	Sheet {page} of {pages}	List {page} od {pages}
 	Shift+Tab	Shift+Tab
 	Shipping labels	Nalepnice za pošiljke
 	Shortcut key:	Prečica na tastaturi:
@@ -1829,6 +1836,7 @@
 	Text size	Veličina teksta
 	Text snaps to characters	Tekst se poravnava sa znakovima
 	Text to display:	Tekst za prikaz:
+	Text Width	Širina teksta
 	Text Wrapping	Prelamanje teksta
 	Text\nBox	Okvir\nza tekst
 	Text\nDirection	Smer\nteksta
@@ -1968,6 +1976,7 @@
 	Update to Match Selection	Ažuriraj prema izboru
 	URL	URL
 	Use an Existing List…	Koristi postojeću listu…
+	Use document zoom	Koristi uvećanje iz dokumenta
 	Use system setting	Prema podešavanju sistema
 	Use the browser's full screen (F11)	Koristite prikaz preko celog ekrana u pregledaču (F11)
 	Use the current style set and theme for all new documents?	Koristiti trenutni skup stilova i temu za sve nove dokumente?
@@ -2052,6 +2061,13 @@
 	{count} of {total} pages will print	Štampaće se {count} od {total} stranica
 	{count} of {total} recipients will be merged.	Primalaca za spajanje: {count} od {total}.
 	{group} settings	Podešavanja za {group}
+	{key} checks the spelling and grammar of the whole document.	{key} proverava pravopis i gramatiku celog dokumenta.
+	{key} counts your words, characters and paragraphs.	{key} broji vaše reči, znakove i pasuse.
+	{key} finds and replaces text, formatting and special characters.	{key} pronalazi i zamenjuje tekst, oblikovanje i specijalne znakove.
+	{key} repeats your last action. Formatting ten headings is suddenly one click and nine taps.	{key} ponavlja poslednju radnju. Formatiranje deset naslova odjednom postaje jedan klik i devet pritisaka.
+	{key} starts a new line without starting a new paragraph.	{key} počinje novi red bez započinjanja novog pasusa.
+	{key} starts a new page. Much tidier than pressing Enter until it happens.	{key} počinje novu stranicu. Mnogo urednije nego pritiskati Enter dok se ne desi.
+	{key} turns the selected text into a link.	{key} pretvara izabrani tekst u vezu.
 	{key}+Click to follow link	{key}+klik za otvaranje veze
 	{kind}, {columns} × {rows}, {size} ({paper})	{kind}, {columns} × {rows}, {size} ({paper})
 	{language} (no dictionary)	{language} (nema rečnika)

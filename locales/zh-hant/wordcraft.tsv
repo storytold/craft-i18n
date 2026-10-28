@@ -143,6 +143,7 @@
 	Any Letter	任意字母
 	Anyone can open this document. Encrypt it with a password to keep it private.	任何人都可以開啟此文件。以密碼加密可保護其隱私。
 	Anyone who opens the document will need this password.	開啟文件的任何人都需要此密碼。
+	Applies to new and opened documents. Saved document zoom takes priority unless you override it.	適用於新建和開啟的文件。除非啟用覆寫，否則優先使用文件中儲存的縮放比例。
 	Apply as you type	輸入時套用
 	Apply Asian line-breaking rules (kinsoku)	套用亞洲文字的斷行規則（禁則）
 	Apply formatting to:	將格式套用至：
@@ -169,6 +170,7 @@
 	Atmosphere	大氣
 	Attach Template	附加範本
 	Attach…	附加…
+	Auto orientation	自動方向
 	AutoCorrect	自動校正
 	AutoCorrect Options	自動校正選項
 	AutoFit	自動調整
@@ -229,6 +231,9 @@
 	Bold choice. Ctrl+Z is right there if you need it.	大膽的選擇。需要的話，Ctrl+Z 就在旁邊。
 	Book	書籍
 	Book title	書名
+	Booklet (left binding)	小冊子（左側裝訂）
+	Booklet (right binding)	小冊子（右側裝訂）
+	Booklets: duplex on the short edge. Blank pages are added at the end.	小冊子：沿短邊雙面列印。空白頁將加入末尾。
 	Bookmark	書籤
 	Bookmark name:	書籤名稱：
 	Border lines	框線
@@ -434,10 +439,6 @@
 	Crop	裁剪
 	Cross-reference	交互參照
 	Cross-reference:	交互參照：
-	{key} starts a new page. Much tidier than pressing Enter until it happens.	{key} 可以開始新的一頁。比一直按 Enter 直到換頁整齊多了。
-	{key} finds and replaces text, formatting and special characters.	{key} 可以尋找及取代文字、格式和特殊字元。
-	{key} turns the selected text into a link.	{key} 可以將選取的文字變成連結。
-	{key} counts your words, characters and paragraphs.	{key} 可以計算字數、字元數和段落數。
 	Current page	目前頁面
 	Current Position	目前位置
 	Current record	目前記錄
@@ -476,6 +477,7 @@
 	Decrease Font Size	縮小字型大小
 	Decrease Indent	減少縮排
 	Deep	深沉
+	Default document zoom:	預設文件縮放：
 	Default formatting	預設格式設定
 	Default tab stops:	預設定位點間距：
 	Define New Bullet	定義新的項目符號
@@ -660,8 +662,6 @@
 	Export Page as PNG	將頁面匯出為 PNG
 	Extend Selection	擴大選取範圍
 	Extend Selection by Units	按單位擴大選取範圍
-	{key} repeats your last action. Formatting ten headings is suddenly one click and nine taps.	{key} 可以重複上一個動作。設定十個標題的格式，一下子就變成點一下再按九下。
-	{key} checks the spelling and grammar of the whole document.	{key} 可以檢查整份文件的拼字及文法。
 	Faster: {command} is {key} on the keyboard.	更快的方法：{command} 的鍵盤快速鍵是 {key}。
 	Field	功能變數
 	Field code:	功能變數代碼：
@@ -678,6 +678,7 @@
 	Figure	圖
 	File locations	檔案位置
 	File name:	檔案名稱:
+	File not found	找不到檔案
 	File › New lists the .dotx and .dotm templates here under Personal; Save as Word Template starts here.	「檔案 › 新增」會在「個人」下列出此處的 .dotx 和 .dotm 範本；「另存為 Word 範本」從這裡開始。
 	Fill color:	填滿色彩：
 	Filling in forms	填寫表單
@@ -1157,6 +1158,7 @@
 	Next Section	下一節
 	Next Sentence	下一句
 	Next sentence	下一句
+	Next sheet	下一張
 	Nib floats over the window with tips and the occasional remark.	Nib 漂浮在視窗上方，提供提示，偶爾也發表點意見。
 	Nib, your assistant. Drag to move; right-click for options.	你的助理 Nib。拖曳可移動；按右鍵開啟選項。
 	No accessibility issues found.	找不到協助工具問題。
@@ -1181,6 +1183,7 @@
 	No Paragraph Space	無段落間距
 	No printers found. Configure a system printer or export a PDF.	找不到印表機。請在系統中設定印表機或匯出 PDF。
 	No Reflection	無反射
+	No Scaling	不縮放
 	No Shadow	無陰影
 	No Soft Edges	無柔化邊緣
 	No sources yet.	尚無來源。
@@ -1291,6 +1294,7 @@
 	Outside border	外側框線
 	Outside Borders	外框線
 	Outside:	外側：
+	Override zoom saved in documents	覆寫文件中儲存的縮放比例
 	Overtype	取代
 	Overtype (typing replaces the characters after the caret)	取代（輸入的內容會取代插入點後的字元）
 	Page Background	頁面背景
@@ -1323,6 +1327,7 @@
 	Page\nNumber	頁碼
 	Pages like 1-3, 5	頁碼,如 1-3, 5
 	Pages of bookmark:	書籤所在頁：
+	Pages per sheet	每張紙的頁數
 	Paper size:	紙張大小：
 	Paragraph Character	段落符號
 	Paragraph Details	段落詳細資料
@@ -1391,6 +1396,7 @@
 	Previous Section	上一節
 	Previous Sentence	上一句
 	Previous sentence	上一句
+	Previous sheet	上一張
 	Print Documents	列印文件
 	Print Documents…	列印文件…
 	Print failed: the printing worker stopped.	列印失敗：列印工作執行緒已停止。
@@ -1577,6 +1583,7 @@
 	Sayings	俏皮話
 	Sayings:	俏皮話：
 	Scale Drawing	縮放繪圖
+	Scale to paper size	縮放至紙張大小
 	Scatter	散佈圖
 	Script	上下標
 	Scripts	Scripts
@@ -1669,7 +1676,7 @@
 	Shape Outline	圖案外框
 	Shape Styles	圖案樣式
 	Shapes	圖案
-	{key} starts a new line without starting a new paragraph.	{key} 可以換行，但不開始新段落。
+	Sheet {page} of {pages}	第 {page} 張，共 {pages} 張
 	Shift+Tab	Shift+Tab
 	Shipping labels	寄送標籤
 	Shortcut key:	快速鍵：
@@ -1875,6 +1882,7 @@
 	Text size	文字大小
 	Text snaps to characters	文字貼齊字元格線
 	Text to display:	要顯示的文字：
+	Text Width	文字寬度
 	Text Wrapping	文繞圖
 	Text\nBox	文字方塊
 	Text\nDirection	文字方向
@@ -2016,6 +2024,7 @@
 	Update to Match Selection	更新以符合選取範圍
 	URL	URL
 	Use an Existing List…	使用現有清單…
+	Use document zoom	使用文件的縮放比例
 	Use system setting	使用系統設定
 	Use the browser's full screen (F11)	請使用瀏覽器的全螢幕模式 (F11)
 	Use the current style set and theme for all new documents?	要將目前的樣式集和佈景主題用於所有新文件嗎？
@@ -2102,6 +2111,13 @@
 	{count} of {total} pages will print	將列印 {total} 頁中的 {count} 頁
 	{count} of {total} recipients will be merged.	將合併 {total} 位收件者中的 {count} 位。
 	{group} settings	{group}設定
+	{key} checks the spelling and grammar of the whole document.	{key} 可以檢查整份文件的拼字及文法。
+	{key} counts your words, characters and paragraphs.	{key} 可以計算字數、字元數和段落數。
+	{key} finds and replaces text, formatting and special characters.	{key} 可以尋找及取代文字、格式和特殊字元。
+	{key} repeats your last action. Formatting ten headings is suddenly one click and nine taps.	{key} 可以重複上一個動作。設定十個標題的格式，一下子就變成點一下再按九下。
+	{key} starts a new line without starting a new paragraph.	{key} 可以換行，但不開始新段落。
+	{key} starts a new page. Much tidier than pressing Enter until it happens.	{key} 可以開始新的一頁。比一直按 Enter 直到換頁整齊多了。
+	{key} turns the selected text into a link.	{key} 可以將選取的文字變成連結。
 	{key}+Click to follow link	按住 {key} 並按一下以追蹤連結
 	{kind}, {columns} × {rows}, {size} ({paper})	{kind}，{columns} × {rows}，{size}（{paper}）
 	{language} (no dictionary)	{language}（無字典）

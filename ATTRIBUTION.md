@@ -64,6 +64,10 @@ storytold/wordcraft#3570) in `bg`, `cs`, `da`, `de`, `es`, `et`, `fr`, `hr`, `hu
 `zh-hant`, AI-assisted with Claude Code and written from the English meaning. `ro` is by a native
 speaker; no native-speaker review is recorded for the other 25.
 
+## Pending WordCraft preference and printing translations
+
+@LQRD, with OpenAI Codex (AI-assisted), contributed 408 rows in 27 locales: `bg`, `cs`, `da`, `de`, `es`, `et`, `fr`, `hr`, `hu`, `it`, `ja`, `ka`, `ko`, `nl`, `pl`, `pt-br`, `ro`, `ru`, `sl`, `sr`, `sr-latn`, `sv`, `tr`, `uk`, `vi`, `zh-hans`, `zh-hant`. These rows were prepared from the plain English meaning for WordCraft PRs [#3336](https://github.com/storytold/wordcraft/pull/3336), [#3378](https://github.com/storytold/wordcraft/pull/3378) and [#3916](https://github.com/storytold/wordcraft/pull/3916), then moved here after the catalog cutover. They cover missing recent files, default document zoom, and print sheet controls, including the imposed-sheet counter and previous/next sheet navigation. Native-speaker review is pending; this credit does not claim review of the rest of each catalog.
+
 ## WordCraft: the Assistant, Nib
 
 Martin Ball (@benandez) contributed the rows for WordCraft's Assistant, Nib (its tips, sayings and

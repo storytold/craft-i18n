@@ -139,6 +139,7 @@
 	Any Letter	Suvaline täht
 	Anyone can open this document. Encrypt it with a password to keep it private.	Seda dokumenti saab avada igaüks. Privaatsena hoidmiseks krüpti see parooliga.
 	Anyone who opens the document will need this password.	Igaüks, kes dokumendi avab, vajab seda parooli.
+	Applies to new and opened documents. Saved document zoom takes priority unless you override it.	Kehtib uutele ja avatavatele dokumentidele. Dokumendis salvestatud suum on eelistatud, kui seda ei asendata.
 	Apply as you type	Rakenda tippimise ajal
 	Apply Asian line-breaking rules (kinsoku)	Rakenda Aasia reamurdmisreegleid (kinsoku)
 	Apply formatting to:	Rakenda vormindus:
@@ -162,6 +163,7 @@
 	Atmosphere	Atmosfäär
 	Attach Template	Manusta mall
 	Attach…	Manusta…
+	Auto orientation	Automaatne suund
 	AutoCorrect	Automaatparandus
 	AutoCorrect Options	Automaatparanduse valikud
 	AutoFit	Automaatne sobitus
@@ -220,6 +222,9 @@
 	Book	Raamat
 	Book Title	Raamatu pealkiri
 	Book title	Raamatu pealkiri
+	Booklet (left binding)	Brošüür (köide vasakul)
+	Booklet (right binding)	Brošüür (köide paremal)
+	Booklets: duplex on the short edge. Blank pages are added at the end.	Brošüürid: kahepoolne printimine mööda lühikest serva. Tühjad leheküljed lisatakse lõppu.
 	Bookmark	Järjehoidja
 	Bookmark name:	Järjehoidja nimi:
 	Border lines	Äärisjooned
@@ -416,10 +421,6 @@
 	Croatian	Horvaadi
 	Cross-reference	Ristviide
 	Cross-reference:	Ristviide:
-	{key} starts a new page. Much tidier than pressing Enter until it happens.	{key} alustab uut lehekülge. Palju korralikum kui Enterit vajutada, kuni see juhtub.
-	{key} finds and replaces text, formatting and special characters.	{key} otsib ja asendab teksti, vormingut ja erimärke.
-	{key} turns the selected text into a link.	{key} muudab valitud teksti lingiks.
-	{key} counts your words, characters and paragraphs.	{key} loendab sinu sõnad, märgid ja lõigud.
 	Current Position	Praegune asukoht
 	Current record	Praegune kirje
 	Current style: {style}	Praegune stiil: {style}
@@ -456,6 +457,7 @@
 	Decorative objects only add visual interest: screen readers skip them.	Dekoratiivsed objektid lisavad ainult visuaalset huvi: ekraanilugerid jätavad need vahele.
 	Decrease Indent	Vähenda taanet
 	Deep	Sügav
+	Default document zoom:	Dokumendi vaikesuum:
 	Default formatting	Vaikevorming
 	Default tab stops:	Vaikimisi tabelduskohad:
 	Define New Bullet	Määra uus täpitähis
@@ -639,8 +641,6 @@
 	Export Page as PNG	Ekspordi leht PNG-na
 	Extend Selection	Laienda valikut
 	Extend Selection by Units	Laienda valikut ühikute kaupa
-	{key} repeats your last action. Formatting ten headings is suddenly one click and nine taps.	{key} kordab viimast toimingut. Kümne pealkirja vormindamine on äkki üks klõps ja üheksa toksu.
-	{key} checks the spelling and grammar of the whole document.	{key} kontrollib kogu dokumendi õigekirja ja grammatikat.
 	Faster: {command} is {key} on the keyboard.	Kiiremini: {command} on klaviatuuril {key}.
 	Field code:	Väljakood:
 	Field Codes	Väljakoodid
@@ -654,6 +654,7 @@
 	Figure	Joonis
 	File locations	Failide asukohad
 	File name:	Faili nimi:
+	File not found	Faili ei leitud
 	File › New lists the .dotx and .dotm templates here under Personal; Save as Word Template starts here.	Fail › Uus loetleb siinsed .dotx- ja .dotm-mallid jaotises Isiklik; Salvesta Wordi mallina alustab siit.
 	Fill color:	Täitevärv:
 	Filling in forms	Vormide täitmine
@@ -1122,6 +1123,7 @@
 	Next Section	Järgmine jaotis
 	Next Sentence	Järgmine lause
 	Next sentence	Järgmine lause
+	Next sheet	Järgmine leht
 	Nib floats over the window with tips and the occasional remark.	Nib hõljub akna kohal nõuannete ja aeg-ajalt mõne märkusega.
 	Nib, your assistant. Drag to move; right-click for options.	Nib, sinu assistent. Lohista liigutamiseks; paremklõps valikute jaoks.
 	No accessibility issues found.	Ligipääsetavuse probleeme ei leitud.
@@ -1144,6 +1146,7 @@
 	No Paragraph Space	Lõiguvaheta
 	No printers found. Configure a system printer or export a PDF.	Printereid ei leitud. Seadista süsteemis printer või ekspordi PDF.
 	No Reflection	Peegelduseta
+	No Scaling	Ilma mastaapimiseta
 	No Shadow	Varjuta
 	No Soft Edges	Pehmete servadeta
 	No sources yet.	Allikaid veel pole.
@@ -1251,6 +1254,7 @@
 	Outside border	Väliääris
 	Outside Borders	Välisäärised
 	Outside:	Välimine:
+	Override zoom saved in documents	Asenda dokumentides salvestatud suum
 	Overtype	Ülekirjutus
 	Overtype (typing replaces the characters after the caret)	Ülekirjutus (kirjutatu asendab kursori järel olevad märgid)
 	Page Background	Lehe taust
@@ -1283,6 +1287,7 @@
 	Page\nNumber	Lehekülje-\nnumber
 	Pages like 1-3, 5	Leheküljed, nt 1-3, 5
 	Pages of bookmark:	Järjehoidja leheküljed:
+	Pages per sheet	Lehekülgi lehel
 	Paper size:	Paberi suurus:
 	Paragraph Character	Lõigu sümbol
 	Paragraph Details	Lõigu üksikasjad
@@ -1349,6 +1354,7 @@
 	Previous Section	Eelmine jaotis
 	Previous Sentence	Eelmine lause
 	Previous sentence	Eelmine lause
+	Previous sheet	Eelmine leht
 	Print Documents	Prindi dokumendid
 	Print Documents…	Prindi dokumendid…
 	Print failed: the printing worker stopped.	Printimine nurjus: printimisprotsess peatus.
@@ -1530,6 +1536,7 @@
 	Sayings	Ütlused
 	Sayings:	Ütlused:
 	Scale Drawing	Muuda joonise mõõtkava
+	Scale to paper size	Sobita paberi suurusega
 	Scatter	Hajuvus
 	Script	Indeks
 	Scroll ribbon left	Keri linti vasakule
@@ -1615,7 +1622,7 @@
 	Shape Format	Kujundi vorming
 	Shape Outline	Kujundi kontuur
 	Shape Styles	Kujundistiilid
-	{key} starts a new line without starting a new paragraph.	{key} alustab uut rida ilma uut lõiku alustamata.
+	Sheet {page} of {pages}	Leht {page}/{pages}
 	Shift+Tab	Shift+Tab
 	Shipping labels	Saatmissildid
 	Shortcut key:	Kiirklahv:
@@ -1817,6 +1824,7 @@
 	Text size	Teksti suurus
 	Text snaps to characters	Tekst joondub märkide ruudustikku
 	Text to display:	Kuvatav tekst:
+	Text Width	Teksti laius
 	Text Wrapping	Tekstimähkimine
 	Text\nBox	Teksti-\nväli
 	Text\nDirection	Teksti\nsuund
@@ -1957,6 +1965,7 @@
 	Update to Match Selection	Uuenda valiku järgi
 	URL	URL
 	Use an Existing List…	Kasuta olemasolevat loendit…
+	Use document zoom	Kasuta dokumendi suumi
 	Use system setting	Kasuta süsteemi seadistust
 	Use the browser's full screen (F11)	Kasutage brauseri täisekraani (F11)
 	Use the current style set and theme for all new documents?	Kas kasutada praegust stiilikomplekti ja kujundust kõigis uutes dokumentides?
@@ -2038,6 +2047,13 @@
 	{count} of {total} pages will print	Prinditakse {count} lehekülge {total}-st
 	{count} of {total} recipients will be merged.	Ühendatavaid adressaate: {count} / {total}.
 	{group} settings	{group}: sätted
+	{key} checks the spelling and grammar of the whole document.	{key} kontrollib kogu dokumendi õigekirja ja grammatikat.
+	{key} counts your words, characters and paragraphs.	{key} loendab sinu sõnad, märgid ja lõigud.
+	{key} finds and replaces text, formatting and special characters.	{key} otsib ja asendab teksti, vormingut ja erimärke.
+	{key} repeats your last action. Formatting ten headings is suddenly one click and nine taps.	{key} kordab viimast toimingut. Kümne pealkirja vormindamine on äkki üks klõps ja üheksa toksu.
+	{key} starts a new line without starting a new paragraph.	{key} alustab uut rida ilma uut lõiku alustamata.
+	{key} starts a new page. Much tidier than pressing Enter until it happens.	{key} alustab uut lehekülge. Palju korralikum kui Enterit vajutada, kuni see juhtub.
+	{key} turns the selected text into a link.	{key} muudab valitud teksti lingiks.
 	{key}+Click to follow link	Lingi avamiseks {key}+klõps
 	{kind}, {columns} × {rows}, {size} ({paper})	{kind}, {columns} × {rows}, {size} ({paper})
 	{language} (no dictionary)	{language} (sõnastik puudub)

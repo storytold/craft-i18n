@@ -168,6 +168,7 @@
 	Any Letter	Herhangi Bir Harf
 	Anyone can open this document. Encrypt it with a password to keep it private.	Bu belgeyi herkes açabilir. Gizli tutmak için parolayla şifreleyin.
 	Anyone who opens the document will need this password.	Belgeyi açmak isteyen herkesin bu parolaya ihtiyacı olacak.
+	Applies to new and opened documents. Saved document zoom takes priority unless you override it.	Yeni ve açılan belgelere uygulanır. Geçersiz kılmadığınız sürece belgede kayıtlı yakınlaştırma önceliklidir.
 	Apply as you type	Yazarken uygula
 	Apply Asian line-breaking rules (kinsoku)	Asya satır bölme kurallarını uygula (kinsoku)
 	Apply formatting to:	Biçimlendirilecek alan:
@@ -193,6 +194,7 @@
 	Atmosphere	Atmosfer
 	Attach Template	Şablonu Ekle
 	Attach…	Ekle…
+	Auto orientation	Otomatik yönlendirme
 	AutoCorrect	Otomatik Düzelt
 	AutoCorrect Options	Otomatik Düzeltme Seçenekleri
 	AutoFit	Otomatik Sığdır
@@ -259,6 +261,9 @@
 	Book	Kitap
 	Book Title	Kitap Başlığı
 	Book title	Kitap başlığı
+	Booklet (left binding)	Kitapçık (soldan ciltli)
+	Booklet (right binding)	Kitapçık (sağdan ciltli)
+	Booklets: duplex on the short edge. Blank pages are added at the end.	Kitapçıklar: kısa kenardan çift taraflı yazdırın. Boş sayfalar sona eklenir.
 	Bookmark	Yer İşareti
 	Bookmark name:	Yer işareti adı:
 	Border lines	Kenarlık çizgileri
@@ -505,10 +510,6 @@
 	Croatian	Hırvatça
 	Cross-reference	Çapraz Başvuru
 	Cross-reference:	Çapraz başvuru:
-	{key} starts a new page. Much tidier than pressing Enter until it happens.	{key} yeni bir sayfa başlatır. Sayfa gelene kadar Enter'a basmaktan çok daha düzenli.
-	{key} finds and replaces text, formatting and special characters.	{key} metni, biçimlendirmeyi ve özel karakterleri bulur ve değiştirir.
-	{key} turns the selected text into a link.	{key} seçili metni bağlantıya dönüştürür.
-	{key} counts your words, characters and paragraphs.	{key} sözcüklerinizi, karakterlerinizi ve paragraflarınızı sayar.
 	Cube Root	Küp Kök
 	Current	Geçerli
 	Current - Linear	Geçerli - Doğrusal
@@ -549,6 +550,7 @@
 	Decorative objects only add visual interest: screen readers skip them.	Dekoratif nesneler yalnızca görsel çekicilik katar: ekran okuyucular bunları atlar.
 	Decrease Indent	Girintiyi Azalt
 	Deep	Koyu
+	Default document zoom:	Varsayılan belge yakınlaştırması:
 	Default formatting	Varsayılan biçimlendirme
 	Default Paragraph Font	Varsayılan Paragraf Yazı Tipi
 	Default tab stops:	Varsayılan sekme durakları:
@@ -767,8 +769,6 @@
 	Export Page as PNG	Sayfayı PNG Olarak Dışa Aktar
 	Extend Selection	Seçimi Genişlet
 	Extend Selection by Units	Seçimi Birimlere Göre Genişlet
-	{key} repeats your last action. Formatting ten headings is suddenly one click and nine taps.	{key} son eyleminizi yineler. On başlığı biçimlendirmek birden bir tıklama ve dokuz dokunuşa iner.
-	{key} checks the spelling and grammar of the whole document.	{key} tüm belgenin yazım ve dil bilgisini denetler.
 	Faster: {command} is {key} on the keyboard.	Daha hızlısı: {command} klavyede {key}.
 	Field code:	Alan kodu:
 	Field Codes	Alan Kodları
@@ -782,6 +782,7 @@
 	Figure	Şekil
 	File locations	Dosya konumları
 	File name:	Dosya adı:
+	File not found	Dosya bulunamadı
 	File › New lists the .dotx and .dotm templates here under Personal; Save as Word Template starts here.	Dosya › Yeni, buradaki .dotx ve .dotm şablonlarını Kişisel altında listeler; Word şablonu olarak kaydet buradan başlar.
 	Fill	Dolgu
 	Fill color:	Dolgu rengi:
@@ -1342,6 +1343,7 @@
 	Next Section	Sonraki Bölüm
 	Next Sentence	Sonraki Cümle
 	Next sentence	Sonraki cümle
+	Next sheet	Sonraki yaprak
 	Nib floats over the window with tips and the occasional remark.	Nib, ipuçları ve ara sıra yorumlarla pencerenin üzerinde süzülür.
 	Nib, your assistant. Drag to move; right-click for options.	Asistanınız Nib. Taşımak için sürükleyin; seçenekler için sağ tıklayın.
 	No accessibility issues found.	Erişilebilirlik sorunu bulunamadı.
@@ -1365,6 +1367,7 @@
 	No Paragraph Space	Paragraf Boşluğu Yok
 	No printers found. Configure a system printer or export a PDF.	Yazıcı bulunamadı. Sistemde bir yazıcı yapılandırın veya PDF olarak dışa aktarın.
 	No Reflection	Yansıma Yok
+	No Scaling	Ölçeklendirme yok
 	No Shadow	Gölge Yok
 	No Soft Edges	Yumuşak Kenar Yok
 	No sources yet.	Henüz kaynak yok.
@@ -1488,6 +1491,7 @@
 	Overbar	Üst Çizgi
 	Overbars and Underbars	Üst ve Alt Çizgiler
 	Overbrace	Üst Küme Parantezi
+	Override zoom saved in documents	Belgelerde kayıtlı yakınlaştırmayı geçersiz kıl
 	Overtype	Üzerine yaz
 	Overtype (typing replaces the characters after the caret)	Üzerine yazma (yazılan metin imleçten sonraki karakterlerin yerine geçer)
 	Page Background	Sayfa Arka Planı
@@ -1520,6 +1524,7 @@
 	Page\nNumber	Sayfa\nNumarası
 	Pages like 1-3, 5	Sayfalar, örn. 1-3, 5
 	Pages of bookmark:	Yer işaretinin sayfaları:
+	Pages per sheet	Yaprak başına sayfa
 	Paper size:	Kağıt boyutu:
 	Paragraph Character	Paragraf Karakteri
 	Paragraph Details	Paragraf Ayrıntıları
@@ -1598,6 +1603,7 @@
 	Previous Section	Önceki Bölüm
 	Previous Sentence	Önceki Cümle
 	Previous sentence	Önceki cümle
+	Previous sheet	Önceki yaprak
 	Print Documents	Belgeleri Yazdır
 	Print Documents…	Belgeleri Yazdır…
 	Print failed: the printing worker stopped.	Yazdırma başarısız oldu: yazdırma işlemi durdu.
@@ -1799,6 +1805,7 @@
 	Sayings:	Sözler:
 	Scale	Ölçek
 	Scale Drawing	Çizimi Ölçeklendir
+	Scale to paper size	Kağıt boyutuna sığdır
 	Scatter	Dağılım
 	Script	Üst/Alt Simge
 	Scripts	İndisler
@@ -1886,7 +1893,7 @@
 	Shape Format	Şekil Biçimi
 	Shape Outline	Şekil Çizgisi
 	Shape Styles	Şekil Stilleri
-	{key} starts a new line without starting a new paragraph.	{key} yeni bir paragraf başlatmadan yeni bir satır başlatır.
+	Sheet {page} of {pages}	Yaprak {page} / {pages}
 	Shift+Tab	Shift+Tab
 	Shipping labels	Kargo etiketleri
 	Shortcut key:	Kısayol tuşu:
@@ -2136,6 +2143,7 @@
 	Text size	Metin boyutu
 	Text snaps to characters	Metin karakterlere yapışır
 	Text to display:	Görüntülenecek metin:
+	Text Width	Metin genişliği
 	Text Wrapping	Metin Kaydırma
 	Text\nBox	Metin\nKutusu
 	Text\nDirection	Metin\nYönü
@@ -2301,6 +2309,7 @@ preview	Title	Örnek
 	URGENT	ACİL
 	URL	URL
 	Use an Existing List…	Var Olan Listeyi Kullan…
+	Use document zoom	Belgedeki yakınlaştırmayı kullan
 	Use system setting	Sistem ayarını kullan
 	Use the browser's full screen (F11)	Tarayıcının tam ekran modunu kullanın (F11)
 	Use the current style set and theme for all new documents?	Geçerli stil kümesi ve tema tüm yeni belgeler için kullanılsın mı?
@@ -2392,6 +2401,13 @@ preview	Title	Örnek
 	{count} of {total} pages will print	{total} sayfadan {count} sayfa yazdırılacak
 	{count} of {total} recipients will be merged.	Birleştirilecek alıcılar: {count} / {total}.
 	{group} settings	{group} ayarları
+	{key} checks the spelling and grammar of the whole document.	{key} tüm belgenin yazım ve dil bilgisini denetler.
+	{key} counts your words, characters and paragraphs.	{key} sözcüklerinizi, karakterlerinizi ve paragraflarınızı sayar.
+	{key} finds and replaces text, formatting and special characters.	{key} metni, biçimlendirmeyi ve özel karakterleri bulur ve değiştirir.
+	{key} repeats your last action. Formatting ten headings is suddenly one click and nine taps.	{key} son eyleminizi yineler. On başlığı biçimlendirmek birden bir tıklama ve dokuz dokunuşa iner.
+	{key} starts a new line without starting a new paragraph.	{key} yeni bir paragraf başlatmadan yeni bir satır başlatır.
+	{key} starts a new page. Much tidier than pressing Enter until it happens.	{key} yeni bir sayfa başlatır. Sayfa gelene kadar Enter'a basmaktan çok daha düzenli.
+	{key} turns the selected text into a link.	{key} seçili metni bağlantıya dönüştürür.
 	{key}+Click to follow link	Bağlantıyı açmak için {key} tuşunu basılı tutup tıklayın
 	{kind}, {columns} × {rows}, {size} ({paper})	{kind}, {columns} × {rows}, {size} ({paper})
 	{language} (no dictionary)	{language} (sözlük yok)

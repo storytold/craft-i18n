@@ -140,6 +140,7 @@
 	Any Letter	Beliebiger Buchstabe
 	Anyone can open this document. Encrypt it with a password to keep it private.	Jeder kann dieses Dokument öffnen. Verschlüsseln Sie es mit einem Kennwort, um es privat zu halten.
 	Anyone who opens the document will need this password.	Jeder, der das Dokument öffnet, braucht dieses Kennwort.
+	Applies to new and opened documents. Saved document zoom takes priority unless you override it.	Gilt für neue und geöffnete Dokumente. Der gespeicherte Dokumentzoom hat Vorrang, sofern er nicht überschrieben wird.
 	Apply	Übernehmen
 	Apply as you type	Während der Eingabe anwenden
 	Apply Asian line-breaking rules (kinsoku)	Asiatische Zeilenumbruchregeln anwenden (Kinsoku)
@@ -167,6 +168,7 @@
 	Attach…	Anfügen…
 	Author	Autor
 	Auto ({percent}%)	Automatisch ({percent}%)
+	Auto orientation	Automatische Ausrichtung
 	AutoCorrect	AutoKorrektur
 	AutoCorrect Options	AutoKorrektur-Optionen
 	AutoFit	Automatisch anpassen
@@ -226,6 +228,9 @@
 	Bold choice. Ctrl+Z is right there if you need it.	Mutige Wahl. Ctrl+Z ist gleich da, falls Sie es brauchen.
 	Book	Buch
 	Book title	Buchtitel
+	Booklet (left binding)	Broschüre (Bindung links)
+	Booklet (right binding)	Broschüre (Bindung rechts)
+	Booklets: duplex on the short edge. Blank pages are added at the end.	Broschüren: beidseitig an der kurzen Kante drucken. Leere Seiten werden am Ende ergänzt.
 	Bookmark	Textmarke
 	Bookmark name:	Textmarkenname:
 	Border lines	Rahmenlinien
@@ -431,10 +436,6 @@
 	Crop	Zuschneiden
 	Cross-reference	Querverweis
 	Cross-reference:	Querverweis:
-	{key} starts a new page. Much tidier than pressing Enter until it happens.	{key} beginnt eine neue Seite. Viel ordentlicher, als so lange die Eingabetaste zu drücken, bis es passiert.
-	{key} finds and replaces text, formatting and special characters.	{key} sucht und ersetzt Text, Formatierungen und Sonderzeichen.
-	{key} turns the selected text into a link.	{key} macht aus dem markierten Text einen Link.
-	{key} counts your words, characters and paragraphs.	{key} zählt Ihre Wörter, Zeichen und Absätze.
 	Current Position	Aktuelle Position
 	Current record	Aktueller Datensatz
 	Current style: {style}	Aktuelle Formatvorlage: {style}
@@ -472,6 +473,7 @@
 	Decrease Font Size	Schriftgrad verkleinern
 	Decrease Indent	Einzug verkleinern
 	Deep	Tief
+	Default document zoom:	Standard-Dokumentzoom:
 	Default formatting	Standardformatierung
 	Default tab stops:	Standardtabstopps:
 	Define New Bullet	Neues Aufzählungszeichen definieren
@@ -656,8 +658,6 @@
 	Exported {path}	Exportiert: {path}
 	Extend Selection	Auswahl erweitern
 	Extend Selection by Units	Auswahl einheitenweise erweitern
-	{key} repeats your last action. Formatting ten headings is suddenly one click and nine taps.	{key} wiederholt Ihre letzte Aktion. Zehn Überschriften formatieren? Plötzlich nur noch ein Klick und neun Tastendrücke.
-	{key} checks the spelling and grammar of the whole document.	{key} prüft Rechtschreibung und Grammatik im ganzen Dokument.
 	Faster: {command} is {key} on the keyboard.	Schneller: {command} geht auch mit {key} auf der Tastatur.
 	Field code:	Feldfunktion:
 	Field Codes	Feldfunktionen
@@ -671,6 +671,7 @@
 	Figure	Abbildung
 	File locations	Dateispeicherorte
 	File name:	Dateiname:
+	File not found	Datei nicht gefunden
 	File › New lists the .dotx and .dotm templates here under Personal; Save as Word Template starts here.	Datei › Neu zeigt die .dotx- und .dotm-Vorlagen von hier unter Persönlich; Als Word-Vorlage speichern beginnt hier.
 	Fill color:	Füllfarbe:
 	Filling in forms	Ausfüllen von Formularen
@@ -1154,6 +1155,7 @@
 	Next Section	Nächster Abschnitt
 	Next Sentence	Nächster Satz
 	Next sentence	Nächster Satz
+	Next sheet	Nächstes Blatt
 	Nib floats over the window with tips and the occasional remark.	Nib schwebt mit Tipps und gelegentlichen Bemerkungen über dem Fenster.
 	Nib, your assistant. Drag to move; right-click for options.	Nib, Ihr Assistent. Zum Verschieben ziehen; Rechtsklick für Optionen.
 	No accessibility issues found.	Keine Probleme mit der Barrierefreiheit gefunden.
@@ -1178,6 +1180,7 @@
 	No Paragraph Space	Kein Absatzabstand
 	No printers found. Configure a system printer or export a PDF.	Keine Drucker gefunden. Richten Sie einen Systemdrucker ein oder exportieren Sie ein PDF.
 	No Reflection	Keine Spiegelung
+	No Scaling	Keine Skalierung
 	No Shadow	Kein Schatten
 	No Soft Edges	Keine weichen Kanten
 	No sources yet.	Noch keine Quellen.
@@ -1288,6 +1291,7 @@
 	Outside Borders	Außenrahmen
 	Outside:	Außen:
 	Oval	Oval
+	Override zoom saved in documents	Im Dokument gespeicherten Zoom überschreiben
 	Overtype	Überschreiben
 	Overtype (typing replaces the characters after the caret)	Überschreiben (die Eingabe ersetzt die Zeichen nach der Einfügemarke)
 	Page Background	Seitenhintergrund
@@ -1320,6 +1324,7 @@
 	Page\nNumber	Seiten-\nzahl
 	Pages like 1-3, 5	Seiten wie 1-3, 5
 	Pages of bookmark:	Seiten der Textmarke:
+	Pages per sheet	Seiten pro Blatt
 	Paper size:	Papierformat:
 	Paragraph Character	Absatzmarke
 	Paragraph Details	Absatzdetails
@@ -1390,6 +1395,7 @@
 	Previous Section	Vorheriger Abschnitt
 	Previous Sentence	Vorheriger Satz
 	Previous sentence	Vorheriger Satz
+	Previous sheet	Vorheriges Blatt
 	Print Documents	Dokumente drucken
 	Print Documents…	Dokumente drucken…
 	Print failed: the printing worker stopped.	Drucken fehlgeschlagen: Der Druckvorgang wurde angehalten.
@@ -1572,6 +1578,7 @@
 	Sayings:	Sprüche:
 	Scale	Skalierung
 	Scale Drawing	Zeichnung skalieren
+	Scale to paper size	An Papiergröße anpassen
 	Scatter	Punkt (XY)
 	Script	Index
 	Scripts	Scripts
@@ -1659,7 +1666,7 @@
 	Shape Format	Formformat
 	Shape Outline	Formkontur
 	Shape Styles	Formformate
-	{key} starts a new line without starting a new paragraph.	{key} beginnt eine neue Zeile, ohne einen neuen Absatz zu beginnen.
+	Sheet {page} of {pages}	Blatt {page} von {pages}
 	Shift+Tab	Shift+Tab
 	Shipping labels	Versandetiketten
 	Shortcut key:	Tastenkombination:
@@ -1868,6 +1875,7 @@
 	Text size	Textgröße
 	Text snaps to characters	Text am Zeichenraster ausrichten
 	Text to display:	Anzuzeigender Text:
+	Text Width	Textbreite
 	Text Wrapping	Zeilenumbruch
 	Text\nBox	Text-\nfeld
 	Text\nDirection	Text-\nrichtung
@@ -2009,6 +2017,7 @@
 	Update to Match Selection	An Auswahl anpassen
 	URL	URL
 	Use an Existing List…	Vorhandene Liste verwenden…
+	Use document zoom	Zoom aus dem Dokument verwenden
 	Use system setting	Systemeinstellung verwenden
 	Use the browser's full screen (F11)	Verwenden Sie den Vollbildmodus des Browsers (F11)
 	Use the current style set and theme for all new documents?	Den aktuellen Formatvorlagensatz und das aktuelle Design für alle neuen Dokumente verwenden?
@@ -2091,6 +2100,13 @@
 	{count} of {total} pages will print	{count} von {total} Seiten werden gedruckt
 	{count} of {total} recipients will be merged.	{count} von {total} Empfängern werden zusammengeführt.
 	{group} settings	{group}-Einstellungen
+	{key} checks the spelling and grammar of the whole document.	{key} prüft Rechtschreibung und Grammatik im ganzen Dokument.
+	{key} counts your words, characters and paragraphs.	{key} zählt Ihre Wörter, Zeichen und Absätze.
+	{key} finds and replaces text, formatting and special characters.	{key} sucht und ersetzt Text, Formatierungen und Sonderzeichen.
+	{key} repeats your last action. Formatting ten headings is suddenly one click and nine taps.	{key} wiederholt Ihre letzte Aktion. Zehn Überschriften formatieren? Plötzlich nur noch ein Klick und neun Tastendrücke.
+	{key} starts a new line without starting a new paragraph.	{key} beginnt eine neue Zeile, ohne einen neuen Absatz zu beginnen.
+	{key} starts a new page. Much tidier than pressing Enter until it happens.	{key} beginnt eine neue Seite. Viel ordentlicher, als so lange die Eingabetaste zu drücken, bis es passiert.
+	{key} turns the selected text into a link.	{key} macht aus dem markierten Text einen Link.
 	{key}+Click to follow link	{key}+Klick, um dem Link zu folgen
 	{kind}, {columns} × {rows}, {size} ({paper})	{kind}, {columns} × {rows}, {size} ({paper})
 	{language} (no dictionary)	{language} (kein Wörterbuch)

@@ -185,6 +185,7 @@
 	Anyone can open this document. Encrypt it with a password to keep it private.	ამ დოკუმენტის გახსნა ნებისმიერს შეუძლია. დაშიფრეთ პაროლით, რომ დაიცვათ.
 	Anyone who opens the document will need this password.	დოკუმენტის გამხსნელ ყველას ეს პაროლი დასჭირდება.
 	APA	APA
+	Applies to new and opened documents. Saved document zoom takes priority unless you override it.	ვრცელდება ახალ და გახსნილ დოკუმენტებზე. დოკუმენტში შენახულ მასშტაბს უპირატესობა ენიჭება, თუ მას არ ჩაანაცვლებთ.
 	Apply	გამოყენება
 	Apply as you type	ავტომატურად აკრეფისას
 	Apply Asian line-breaking rules (kinsoku)	აზიური გადატანის წესების გამოყენება (kinsoku)
@@ -219,6 +220,7 @@
 	Author	ავტორი
 	Auto	ავტომატური
 	Auto ({percent}%)	ავტომატური ({percent}%)
+	Auto orientation	ავტომატური ორიენტაცია
 	AutoCorrect	ავტოშესწორება
 	AutoCorrect Options	ავტოშესწორების პარამეტრები
 	AutoFit	ავტომორგება
@@ -292,6 +294,9 @@
 	Book	წიგნი
 	Book Title	წიგნის სათაური
 	Book title	წიგნის სათაური
+	Booklet (left binding)	ბუკლეტი (მარცხენა აკინძვა)
+	Booklet (right binding)	ბუკლეტი (მარჯვენა აკინძვა)
+	Booklets: duplex on the short edge. Blank pages are added at the end.	ბუკლეტები: ორმხრივი ბეჭდვა მოკლე კიდეზე გადაბრუნებით. ცარიელი გვერდები ემატება ბოლოში.
 	Bookmark	სანიშნე
 	Bookmark name:	სანიშნის სახელი:
 	Border lines	ჩარჩოს ხაზები
@@ -640,6 +645,7 @@
 	Decrease Indent	შეწევის შემცირება
 	Deep	ღრმა
 	Default	ნაგულისხმევი
+	Default document zoom:	დოკუმენტის ნაგულისხმევი მასშტაბი:
 	Default formatting	ნაგულისხმევი ფორმატირება
 	Default Paragraph Font	აბზაცის ნაგულისხმევი შრიფტი
 	Default tab stops:	ნაგულისხმევი ტაბულაციის გაჩერებები:
@@ -918,6 +924,7 @@
 	File	ფაილი
 	File locations	ფაილების მდებარეობა
 	File name:	ფაილის სახელი:
+	File not found	ფაილი ვერ მოიძებნა
 	File › New lists the .dotx and .dotm templates here under Personal; Save as Word Template starts here.	ფაილი › ახალი აქ არსებულ .dotx და .dotm შაბლონებს „პირადში“ აჩვენებს; „Word-ის შაბლონად შენახვა“ აქედან იწყება.
 	Fill	შევსება
 	Fill color:	შევსების ფერი:
@@ -1586,6 +1593,7 @@ template	Letter	წერილი
 	Next Section	შემდეგი სექცია
 	Next Sentence	შემდეგი წინადადება
 	Next sentence	შემდეგი წინადადება
+	Next sheet	შემდეგი ფურცელი
 	No	არა
 	No accessibility issues found.	ხელმისაწვდომობის პრობლემები არ მოიძებნა.
 	No Border	ჩარჩოს გარეშე
@@ -1610,6 +1618,7 @@ template	Letter	წერილი
 	No Paragraph Space	აბზაცთაშორისი ინტერვალის გარეშე
 	No printers found. Configure a system printer or export a PDF.	პრინტერი ვერ მოიძებნა. დააყენეთ სისტემის პრინტერი ან გააკეთეთ PDF ექსპორტი.
 	No Reflection	არეკვლის გარეშე
+	No Scaling	მასშტაბირების გარეშე
 	No Shadow	ჩრდილის გარეშე
 	No Soft Edges	რბილი კიდეების გარეშე
 	No sources yet.	წყაროები ჯერ არ არის.
@@ -1747,6 +1756,7 @@ template	Letter	წერილი
 	Overbar	ზედა ხაზი
 	Overbars and Underbars	ზედა და ქვედა ხაზები
 	Overbrace	ზედა ფიგურული ფრჩხილი
+	Override zoom saved in documents	დოკუმენტებში შენახული მასშტაბის ჩანაცვლება
 	Overtype	გადაწერა
 	Overtype (typing replaces the characters after the caret)	გადაწერა (აკრეფილი ტექსტი კურსორის შემდეგ სიმბოლოებს ანაცვლებს)
 	Page	გვერდი
@@ -1783,6 +1793,7 @@ template	Letter	წერილი
 	Pages	გვერდები
 	Pages like 1-3, 5	გვერდები, მაგ. 1-3, 5
 	Pages of bookmark:	სანიშნის გვერდები:
+	Pages per sheet	გვერდები ერთ ფურცელზე
 	Paper	ქაღალდი
 	Paper size:	ფურცლის ზომა:
 	Paragraph	აბზაცი
@@ -1876,6 +1887,7 @@ template	Letter	წერილი
 	Previous Section	წინა სექცია
 	Previous Sentence	წინა წინადადება
 	Previous sentence	წინა წინადადება
+	Previous sheet	წინა ფურცელი
 	Print	დაბეჭდვა
 	Print Documents	დოკუმენტების დაბეჭდვა
 	Print Documents…	დოკუმენტების დაბეჭდვა…
@@ -2113,6 +2125,7 @@ template	Letter	წერილი
 	Saving {name} was cancelled, so it is still open and nothing was lost.	შენახვა გაუქმდა ({name}): დოკუმენტი ისევ ღიაა და არაფერი დაკარგულა.
 	Scale	მასშტაბი
 	Scale Drawing	ნახატის მასშტაბირება
+	Scale to paper size	ქაღალდის ზომაზე მორგება
 	Scatter	წერტილოვანი
 	Script	სკრიპტი
 	Scripts	სკრიპტები
@@ -2215,6 +2228,7 @@ template	Letter	წერილი
 	Shape Styles	ფიგურის სტილები
 	Shapes	ფიგურები
 	Share	გაზიარება
+	Sheet {page} of {pages}	ფურცელი {page} / {pages}
 	Shift+Tab	Shift+Tab
 	Shipping labels	გზავნილის იარლიყები
 	Shortcut key:	კლავიშების კომბინაცია:
@@ -2503,6 +2517,7 @@ template	Letter	წერილი
 	Text size	ტექსტის ზომა
 	Text snaps to characters	ტექსტის მიბმა სიმბოლოებზე
 	Text to display:	საჩვენებელი ტექსტი:
+	Text Width	ტექსტის სიგანე
 	Text Wrapping	ტექსტით გარშემოვლება
 	Text:	ტექსტი:
 	Text\nBox	ტექსტური\nბლოკი
@@ -2693,6 +2708,7 @@ preview	Title	სათაური
 	Use "a" before a consonant sound	თანხმოვანი ბგერის წინ გამოიყენეთ „a“
 	Use "an" before a vowel sound	ხმოვანი ბგერის წინ გამოიყენეთ „an“
 	Use an Existing List…	არსებული სიის გამოყენება…
+	Use document zoom	დოკუმენტის მასშტაბის გამოყენება
 	Use system setting	სისტემის პარამეტრის მიხედვით
 	Use the browser's full screen (F11)	გამოიყენეთ ბრაუზერის სრულეკრანიანი რეჟიმი (F11)
 	Use the current style set and theme for all new documents?	გამოვიყენოთ მიმდინარე სტილების ნაკრები და თემა ყველა ახალ დოკუმენტში?
