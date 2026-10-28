@@ -84,3 +84,19 @@ storytold/wordcraft#4237) in `ar`, `bg`, `cs`, `da`, `de`, `es`, `et`, `fr`,
 `sv`, `tr`, `uk`, `vi`, `zh-hans` and `zh-hant`, AI-assisted with Claude Code and written from the
 English meaning, using each locale's existing WordCraft terms (its name for the Normal style,
 template, default and Reset). No native-speaker review is recorded.
+
+## WordCraft: Hangul-style Create Table and Korean interface strings
+
+@BBQ-MAN contributed, AI-assisted with Claude Code (Opus 5.5) and written from the English meaning:
+
+- the five Create Table (Hangul Style) dialog strings (storytold/wordcraft#2063, synced from
+  `wordcraft@7ec7b21`) in `bg`, `cs`, `hr`, `hu`, `it`, `ko`, `pl`, `ro`, `ru`, `sl`, `sv`, `tr`
+  and `vi`;
+- the recovery page, Insert Link place, crop and save-error strings (storytold/wordcraft#2064,
+  synced from `wordcraft@1d4675b`) in `hr`, `ko`, `ro`, `sl` and `vi`. Their Polish
+  rows are left to storytold/craft-i18n#52.
+
+Both were written into `locales/` with `tools/sync_app.py` from base `wordcraft@806a945`.
+
+No native-speaker review is recorded. They are separate from the catalog migrations and
+translator credits above.
