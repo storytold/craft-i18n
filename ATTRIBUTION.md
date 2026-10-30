@@ -64,7 +64,7 @@ speaker; no native-speaker review is recorded for the other 25.
 ## WordCraft: the language name "Hungarian"
 
 @Skaywalker contributed the `Hungarian` row (the language name, for WordCraft's Hungarian proofing,
-storytold/wordcraft#4575 and the PRs that follow it) in `ar`, `bg`, `cs`, `da`, `de`, `es`, `et`,
+storytold/wordcraft#2385) in `ar`, `bg`, `cs`, `da`, `de`, `es`, `et`,
 `fr`, `hr`, `hu`, `it`, `ja`, `ka`, `ko`, `nl`, `pl`, `pt-br`, `ro`, `ru`, `sk`, `sl`, `sr`,
 `sr-latn`, `sv`, `tr`, `uk`, `vi`, `zh-hans` and `zh-hant`, written from the English meaning. `hu`
 is by a native speaker; no native-speaker review is recorded for the other 28.
