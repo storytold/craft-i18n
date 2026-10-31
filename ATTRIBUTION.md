@@ -84,3 +84,14 @@ storytold/wordcraft#4237) in `ar`, `bg`, `cs`, `da`, `de`, `es`, `et`, `fr`,
 `sv`, `tr`, `uk`, `vi`, `zh-hans` and `zh-hant`, AI-assisted with Claude Code and written from the
 English meaning, using each locale's existing WordCraft terms (its name for the Normal style,
 template, default and Reset). No native-speaker review is recorded.
+
+## WordCraft: Ask Agent
+
+@CouchRiv contributed the rows for WordCraft's Ask Agent (handing a selection and an instruction to
+your own agent, storytold/wordcraft#1413): all 13 strings in `hr` and `pl` (`pl` overrides the shared
+`Any`, `Dowolne`, with `Dowolny`, which agrees with "agent") and 12 in `fr` and `vi` (they
+keep the shared `Any`); the ribbon label `Ask\nAgent` in all 21 of `bg`, `cs`, `de`, `es`, `et`,
+`fr`, `hr`, `hu`, `it`, `ja`, `pl`, `pt-br`, `ru`, `sr`, `sr-latn`, `sv`, `tr`, `uk`, `vi`,
+`zh-hans` and `zh-hant`; and the `--control` hint in `bg`, `cs`, `hu`, `it`, `ru`, `sv` and `tr`.
+AI-assisted with Claude Code (Opus 5.5) and written from the English meaning. No native-speaker
+review is recorded.
