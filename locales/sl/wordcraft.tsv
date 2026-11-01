@@ -19,6 +19,7 @@
 	(normal text)	(navadno besedilo)
 	(not matched)	(ni ujemanja)
 	(picture or object)	(slika ali predmet)
+	*Bold* and _italic_ as real formatting	*Krepko* in _ležeče_ v pravo oblikovanje
 	0 or More Characters	0 ali več znakov
 	1. Formatting restrictions	1. Omejitve oblikovanja
 	1.5 Line Spacing	Razmik vrstic 1,5
@@ -45,7 +46,7 @@
 	<< Less	<< Manj
 	<< Remove	<< Odstrani
 	a drawing canvas can't be ungrouped	risalnega platna ni mogoče razdružiti
-	a drawing canvas can't go inside a text box	risalnega platna ni mogoče postaviti v besedilno polje
+	a drawing canvas can't go inside a text box	risalnega platna ni mogoče postaviti v polje z besedilom
 	A file dialog is already open.	Pogovorno okno za datoteke je že odprto.
 	A free, open-source word processor written from scratch in Rust.\nPart of the Crafting Apps from the ArtCraft team.	Brezplačen odprtokodni urejevalnik besedil, iz nič napisan v jeziku Rust.\nDel zbirke Crafting Apps ekipe ArtCraft.
 	a group holding Word ink can't be ungrouped yet	skupine s Wordovim črnilom še ni mogoče razdružiti
@@ -61,6 +62,7 @@
 	About WordCraft	O programu WordCraft
 	Above Chart	Nad grafikonom
 	Above the item	Nad elementom
+	Above/below	Nad/pod
 	Absolute value cases	Primeri absolutne vrednosti
 	Accent	Poudarek
 	Accent Gradient	Poudarek s prelivom
@@ -69,19 +71,22 @@
 	Accents	Naglasi
 	Accept	Sprejmi
 	Accept All Changes	Sprejmi vse spremembe
+	Accept All Changes and Stop Tracking	Sprejmi vse spremembe in ustavi sledenje
+	Accept and Move to Next	Sprejmi in pojdi na naslednjo
 	Accept This Change	Sprejmi to spremembo
 	Accessed on	Datum dostopa
 	Accessibility Pane	Podokno za dostopnost
 	Account	Račun
 	Acute	Ostrivec
 	Add >>	Dodaj >>
+	Add a period with double-space	Dvojni presledek v piko
 	Add a Table	Dodaj tabelo
 	Add at least one field.	Dodajte vsaj eno polje.
 	Add Chart Element	Dodaj element grafikona
 	Add Condition	Dodaj pogoj
 	Add Field	Dodaj polje
 	Add Font…	Dodaj pisavo …
-	Add gradient stop	Add gradient stop
+	Add gradient stop	Dodaj točko preliva
 	Add line numbering	Dodaj oštevilčenje vrstic
 	Add New Source…	Dodaj nov vir …
 	Add Object to Selection	Dodaj predmet v izbor
@@ -105,9 +110,9 @@
 	Add\nNote	Dodaj\nopombo
 	Add\nPen	Dodaj\npero
 	Add\nShape	Dodaj\nobliko
-	Added 1 font	Added 1 font
+	Added 1 font	Dodana je 1 pisava
 	Added Fonts	Dodane pisave
-	Added {n} fonts	Added {n} fonts
+	Added {n} fonts	Dodane pisave: {n}
 	Address	Naslov
 	Address Block	Blok z naslovom
 	Address labels	Naslovne nalepke
@@ -116,11 +121,12 @@
 	Adjust	Prilagodi
 	Advanced Find	Napredno iskanje
 	Advanced Find…	Napredno iskanje …
+	Advanced Properties…	Dodatne lastnosti …
 	After:	Za:
 	Agents	Agenti
 	Agents connected to WordCraft can show you messages through the Assistant. Muted, they're told you'd rather not.	Agenti, povezani z WordCraftom, vam lahko prek Pomočnika prikazujejo sporočila. Če so utišani, izvedo, da raje ne bi bili moteni.
-	Ah, Latin. The language of deadlines.	Ah, latinščina. Materni jezik vseh rokov za oddajo.
-	Ah, the editing phase. My favourite. Very decisive.	Ah, faza urejanja. Moja najljubša. Zelo odločna.
+	Ah, Latin. The language of deadlines.	Ah, latinščina. Jezik rokov za oddajo.
+	Ah, the editing phase. My favourite. Very decisive.	Ah, faza urejanja. Moja najljubša. Polna odločnosti.
 	Align Bottom Center	Poravnaj spodaj na sredino
 	Align Bottom Left	Poravnaj spodaj levo
 	Align Bottom Right	Poravnaj spodaj desno
@@ -143,7 +149,7 @@
 	All Commands	Vsi ukazi
 	All documents based on the Normal template?	Vse dokumente, ki temeljijo na predlogi Navadno?
 	All files	Vse datoteke
-	All Fonts	All Fonts
+	All Fonts	Vse pisave
 	All Levels	Vse ravni
 	All Markup	Vse oznake
 	All pages in the range	Vse strani v obsegu
@@ -161,7 +167,6 @@
 	Alt\nText	Nadomestno\nbesedilo
 	an agent	agent
 	And	In
-	Angle	Angle
 	Angle Brackets	Lomljeni oklepaji
 	Angle Brackets with Separator	Lomljeni oklepaji z ločilom
 	Angle Brackets with Two Separators	Lomljeni oklepaji z dvema ločiloma
@@ -175,7 +180,7 @@
 	Another file	Druga datoteka
 	Any Character	Poljuben znak
 	Any Digit	Poljubna števka
-	Any field	Any field
+	Any field	Katero koli polje
 	Any Letter	Poljubna črka
 	Anyone can open this document. Encrypt it with a password to keep it private.	Ta dokument lahko odpre kdor koli. Če želite, da ostane zaseben, ga šifrirajte z geslom.
 	Anyone who opens the document will need this password.	Vsak, ki odpre dokument, bo potreboval to geslo.
@@ -187,14 +192,15 @@
 	Apply Style	Uporabi slog
 	Apply Styles	Uporabi sloge
 	Apply to:	Uporabi za:
-	Arabic	Arabske številke
+	Arabic	Arabščina
+numerals	Arabic	Arabske
 	Arch Down	Lok navzdol
 	Arch Up	Lok navzgor
 	Area	Ploščinski
 	Arrange	Razporedi
 	Arrange\nAll	Razporedi\nvse
 	Arrows	Puščice
-	Article I.	Article I.
+	Article I.	Člen I.
 	Artistic Effects	Umetniški učinki
 	As Recommended	Kot je priporočeno
 	As you type	Med tipkanjem
@@ -211,14 +217,15 @@
 	Atmosphere	Vzdušje
 	Attach Template	Pripni predlogo
 	Attach…	Pripni …
+	Auto orientation	Samodejna usmerjenost
 	AutoCorrect	Samopopravki
 	AutoCorrect Options	Možnosti samopopravkov
 	AutoFit	Samodejno prilagodi
-	AutoFit behavior	AutoFit behavior
+	AutoFit behavior	Samodejno prilagajanje
 	AutoFit Column by Double-Clicking	Samodejno prilagodi stolpec z dvoklikom
 	AutoFit Contents	Samodejno prilagodi vsebini
-	AutoFit to contents	AutoFit to contents
-	AutoFit to window	AutoFit to window
+	AutoFit to contents	Samodejno prilagodi vsebini
+	AutoFit to window	Samodejno prilagodi oknu
 	AutoFit Window	Samodejno prilagodi oknu
 	AutoFormat As You Type	Samooblikovanje med tipkanjem
 	Automatic	Samodejno
@@ -229,6 +236,9 @@
 	Automatic numbered lists	Samodejni oštevilčeni seznami
 	Automatic Table 1 (3 levels)	Samodejna tabela 1 (3 ravni)
 	Automatic Table 2 (2 levels)	Samodejna tabela 2 (2 ravni)
+	Automatically add words to list (First Letter)	Samodejno dodajaj besede na seznam (prva črka stavka)
+	Automatically add words to list (INitial CAps)	Samodejno dodajaj besede na seznam (DVe ZAčetni VEliki črki)
+	Automatically as you type	Samodejno med tipkanjem
 	Automatically hyphenate document	Samodejno deli besede v dokumentu
 	Automatically Update Document Styles	Samodejno posodobi sloge dokumenta
 	Automatically update document styles	Samodejno posodobi sloge dokumenta
@@ -244,8 +254,8 @@
 	B5 (JIS)   7.17" × 10.12"	B5 (JIS)   7.17" × 10.12"
 	Backspace	Vračalka
 	Balloons	Oblački
-	Banded Columns	Pasovni stolpci
-	Banded Rows	Pasovne vrstice
+	Banded Columns	Pasasti stolpci
+	Banded Rows	Pasaste vrstice
 	Bar	Palični
 	Base text:	Osnovno besedilo:
 	Based on: {style}	Temelji na: {style}
@@ -280,12 +290,15 @@
 	Blue:	Modra:
 	Body Text	Telo besedila
 	Body text in a short paragraph to show spacing.	Telo besedila v kratkem odstavku za prikaz razmikov.
-	Bold choice. Ctrl+Z is right there if you need it.	Drzna izbira. Ctrl+Z je tik ob vas, če ga boste potrebovali.
+	Bold choice. Ctrl+Z is right there if you need it.	Drzna izbira. Ctrl+Z je pri roki, če ga boste potrebovali.
 	Book	Knjiga
 	Book Title	Naslov knjige
 	Book title	Naslov knjige
 	Bookmark	Zaznamek
 	Bookmark name:	Ime zaznamka:
+	Bookmark text	Besedilo zaznamka
+	Bookmarks	Zaznamki
+	Border	Obroba
 	Border lines	Črte obrobe
 	Border Painter	Čopič za obrobe
 	Border\nPainter	Čopič za\nobrobe
@@ -310,11 +323,14 @@
 	Break Link	Prekini povezavo
 	Breaks	Prelomi
 	Breve	Breve
+	Brighter +20%	Svetleje +20 %
+	Brightness, contrast and sharpness	Svetlost, kontrast in ostrina
 	Bring Forward	Premakni naprej
 	Browse in WordCraft…	Prebrskaj v programu WordCraft …
 	Browse…	Prebrskaj …
 	Building Block Gallery Content Control	Kontrolnik vsebine galerije gradnikov
 	Built-In	Vgrajeno
+	Built-in Heading styles	Vgrajeni slogi naslovov
 	Built-in style	Vgrajeni slog
 	Built-in styles can't be deleted.	Vgrajenih slogov ni mogoče izbrisati.
 	Bullet	Oznaka
@@ -327,10 +343,10 @@
 	can't split at the first row	tabele ni mogoče razdeliti pri prvi vrstici
 	Canvas Member	Element platna
 	Capitalize Each Word	Vsaka Beseda Z Veliko Začetnico
-	Capitalize first letter of sentences	Prva črka stavka velika
-	Capitalize first letter of table cells	Prva črka v celicah tabele velika
-	Capitalize names of days	Imena dni z veliko začetnico
-	Capitalize the first word of a sentence	Prva beseda stavka z veliko začetnico
+	Capitalize first letter of sentences	Začni stavke z veliko začetnico
+	Capitalize first letter of table cells	Začni celice tabele z veliko začetnico
+	Capitalize names of days	Imena dni piši z veliko začetnico
+	Capitalize the first word of a sentence	Prvo besedo stavka piši z veliko začetnico
 	Caption	Napis
 	Caption Numbering	Oštevilčenje napisov
 	Caption text	Besedilo napisa
@@ -352,7 +368,7 @@
 	Cell Size	Velikost celice
 	Cell\nMargins	Robovi\ncelic
 	Center	Sredina
-	Center Glow	Center Glow
+	Center Glow	Sij iz sredine
 	Centered	Na sredini
 	Centered as Group	Na sredini kot skupina
 	Centimeters	Centimetri
@@ -383,7 +399,7 @@
 	Change\nColors	Spremeni\nbarve
 	Changed lines:	Spremenjene vrstice:
 	Changes	Spremembe
-	Chapter 1	Chapter 1
+	Chapter 1	Poglavje 1
 	Chapter in a book	Poglavje v knjigi
 	Chapters begin at:	Poglavja se začnejo pri:
 	Character	Znak
@@ -410,11 +426,14 @@
 	Check Box Content Control	Kontrolnik vsebine potrditvenega polja
 	Check Compatibility	Preveri združljivost
 	Check for Errors	Preveri napake
+	Check for Updates	Preveri posodobitve
+	Check for\nUpdates…	Preveri\nposodobitve …
 	Check Spelling as You Type	Preverjaj črkovanje med tipkanjem
 	Check spelling as you type	Preverjaj črkovanje med tipkanjem
 	Check\nAccessibility	Preveri\ndostopnost
 	Checked styles are allowed:	Dovoljeni so označeni slogi:
 	Checked symbol	Simbol za označeno polje
+	Checking for updates…	Preverjanje posodobitev …
 	Chevron Down	Ševron navzdol
 	Chevron Up	Ševron navzgor
 	Chicago	Chicago
@@ -437,7 +456,7 @@
 	Clear Character Style	Počisti znakovni slog
 	Clear Formatting Level	Počisti raven oblikovanja
 	Clear Paragraph Formatting	Počisti oblikovanje odstavka
-	Click a border between two cells to merge them. Esc stops.	Kliknite mejo med celicama, da ju spojite. Esc ustavi.
+	Click a border between two cells to merge them. Esc stops.	Kliknite mejo med celicama, da ju spojite. Za konec pritisnite Esc.
 	Click an item to paste it.	Kliknite element, da ga prilepite.
 	Click level to modify:	Kliknite raven, ki jo želite spremeniti:
 	Click the empty text box the text should continue in (Esc cancels)	Kliknite prazno polje z besedilom, v katerem naj se besedilo nadaljuje (Esc prekliče)
@@ -445,6 +464,7 @@
 	Clipboard Contents	Vsebina odložišča
 	Clipboard Items	Elementi odložišča
 	Clipboard Pane	Podokno odložišča
+	Close Document	Zapri dokument
 	Close Equation	Zapri enačbo
 	Close Header and Footer	Zapri glavo in nogo
 	Close Outline View	Zapri pogled orisa
@@ -454,7 +474,7 @@
 	cm	cm
 	Col #:	Stolpec št.:
 	Collapse Selection	Skrči izbor
-	Collate copies	Zbiraj kopije
+	Collate copies	Zloži kopije po vrsti
 	Collect entries from:	Zberi vnose iz:
 	Colon Equal	Dvopičje in enačaj
 	Color	Barva
@@ -476,9 +496,10 @@
 	Combo Box Content Control	Kontrolnik vsebine kombiniranega polja
 	Commands	Ukazi
 	Commands:	Ukazi:
-	Commas	Commas
+	Commas	Vejice
 	Comment	Komentar
 	Comments beside each page and tracked changes in PDFs, prints and images; a comment list at the end of web pages, Markdown and text.	Komentarji ob vsaki strani in sledene spremembe v datotekah PDF, natisih in slikah; seznam komentarjev na koncu spletnih strani, Markdowna in besedila.
+	Comments from the document properties	Komentarji iz lastnosti dokumenta
 	Comments Pane	Podokno s komentarji
 	Commits	Potrditve
 	Common Accent Objects	Pogosti naglasni predmeti
@@ -512,7 +533,9 @@
 	Content Control Properties	Lastnosti kontrolnika vsebine
 	Contents can't be edited	Vsebine ni mogoče urejati
 	Context	Kontekst
-	Continue from previous section	Continue from previous section
+numerals	Context	Glede na okoliško besedilo
+	Continue from previous section	Nadaljuj iz prejšnjega odseka
+	Continue without restoring	Nadaljuj brez obnovitve
 	Continuous	Neprekinjeno
 	Continuous numbering	Neprekinjeno oštevilčenje
 	Contour Integral	Krivuljni integral
@@ -545,10 +568,12 @@
 	Cosine 2x	Kosinus 2x
 	Cosine Function	Funkcija kosinusa
 	Cotangent Function	Funkcija kotangensa
+	Could not check for updates:\n{error}	Posodobitev ni bilo mogoče preveriti:\n{error}
 	Couldn't download {name}: {error}	Prenos {name} ni uspel: {error}
 	Couldn't make WordCraft the default: {error}	WordCraft ni bilo mogoče nastaviti kot privzeti program: {error}
 	Couldn't open {path}: {error}	Ni mogoče odpreti {path}: {error}
-	Count by:	Štej po:
+	Couldn't save {name}, so it is still open and nothing was lost: {error}	Dokumenta {name} ni bilo mogoče shraniti, zato je še vedno odprt in nič ni bilo izgubljeno: {error}
+	Count by:	Korak številčenja:
 	Count words in text boxes and notes	Štej besede v poljih z besedilom in opombah
 	Country	Država
 	Courtesy Title	Naziv
@@ -562,18 +587,21 @@
 	Create Source	Ustvari vir
 	Croatian	Hrvaščina
 	Crop	Obreži
+	Crop on the page works on unturned pictures: set Rotation to 0° first, or use the crop boxes	Obrezovanje na strani deluje samo pri nezasukanih slikah: najprej nastavite zasuk na 0° ali uporabite polja za obrezovanje
 	Cross-reference	Navzkrižni sklic
 	Cross-reference:	Navzkrižni sklic:
 	Cube Root	Kubični koren
 	Current	Trenutno
 	Current - Linear	Trenutno – linearno
 	Current - Professional	Trenutno – profesionalno
+	Current Document	Trenutni dokument
 	Current Position	Trenutni položaj
 	Current record	Trenutni zapis
 	Current style: {style}	Trenutni slog: {style}
 	Curved Arrow Connector	Ukrivljen puščični povezovalnik
 	Curved Connector	Ukrivljen povezovalnik
 	Custom dictionary	Slovar po meri
+	Custom Document Properties	Lastnosti dokumenta po meri
 	Custom Margins…	Robovi po meri …
 	Custom mark:	Oznaka po meri:
 	Custom range	Obseg po meri
@@ -593,8 +621,9 @@
 	Danish	Danščina
 	Dark Mode	Temni način
 	Dark page (white text on black)	Temna stran (belo besedilo na črnem)
-	Dark Variations	Dark Variations
+	Dark Variations	Temne različice
 	Dark with Shadow	Temno s senco
+	Darker −20%	Temneje −20 %
 	Darkroom	Temnica
 	Data	Podatki
 	Data Labels	Oznake podatkov
@@ -607,7 +636,7 @@
 	Decorative objects only add visual interest: screen readers skip them.	Okrasni predmeti so zgolj vizualni dodatek: bralniki zaslona jih preskočijo.
 	Decrease Font Size	Zmanjšaj velikost pisave
 	Decrease Indent	Zmanjšaj zamik
-	Deep	Deep
+	Deep	Globoko
 	Default formatting	Privzeto oblikovanje
 	Default Paragraph Font	Privzeta pisava odstavka
 	Default tab stops:	Privzeti tabulatorji:
@@ -661,15 +690,18 @@
 	Differential y	Diferencial y
 	Differentials	Diferenciali
 	Direct formatting	Neposredno oblikovanje
-	Direction	Direction
+	Direction	Smer
 	Directory	Imenik
+	Discard recovery copy	Zavrzi obnovitveno kopijo
+	Discard the recovery copy of {name}?	Želite zavreči obnovitveno kopijo dokumenta {name}?
+	Discard…	Zavrzi …
 	Discord	Discord
 	Discord community	Skupnost na Discordu
 	Display	Prikaz
 	Display for Review	Prikaz za pregled
 	Display text	Prikazano besedilo
-	Distance from text	Distance from text
-	Distance from text:	Distance from text:
+	Distance from text	Razdalja od besedila
+	Distance from text:	Razdalja od besedila:
 	Distribute Columns	Enakomerno razporedi stolpce
 	Distribute letters	Razporedi črke
 	Distribute Rows	Enakomerno razporedi vrstice
@@ -679,7 +711,9 @@
 	Do not check spelling or grammar	Ne preverjaj črkovanja ali slovnice
 	DO NOT COPY	NE KOPIRAJ
 	Do Not Show in TOC	Ne prikaži v kazalu vsebine
-	Do you want to save changes to {name}?	Ali želite shraniti spremembe v {name}?
+	Do you want to save changes to {name}?	Ali želite shraniti spremembe dokumenta {name}?
+	Dock Left	Zasidraj levo
+	Dock Right	Zasidraj desno
 	Document End	Konec dokumenta
 	Document Formatting	Oblikovanje dokumenta
 	Document Grid	Mreža dokumenta
@@ -703,7 +737,7 @@
 	Don't show me this tip again	Tega namiga ne prikaži več
 	Dot dash	Pika črta
 	Dot-dash	Pika-črta
-	Dot-dot-dash	Dot-dot-dash
+	Dot-dot-dash	Pika-pika-črta
 	Dots	Pike
 	Dotted	Pikčasto
 	Double	Dvojno
@@ -731,7 +765,7 @@
 	Down	Navzdol
 	DRAFT	OSNUTEK
 	Draft	Osnutek
-	Drag a rectangle to draw a table, or a line across cells to split them. Esc stops.	Povlecite pravokotnik, da narišete tabelo, ali črto čez celice, da jih razdelite. Esc ustavi.
+	Drag a rectangle to draw a table, or a line across cells to split them. Esc stops.	Povlecite pravokotnik, da narišete tabelo, ali črto čez celice, da jih razdelite. Za konec pritisnite Esc.
 	Draw	Risanje
 	Draw Ink	Riši s črnilom
 	Draw Table	Nariši tabelo
@@ -741,10 +775,10 @@
 	Drawing\nCanvas	Risalno\nplatno
 	Drop Cap	Spuščena začetnica
 	Drop cap	Spuščena začetnica
-	Drop Cap Options…	Drop Cap Options…
+	Drop Cap Options…	Možnosti spuščene začetnice …
 	drop caps can't go in a table	začetnice ni mogoče postaviti v tabelo
 	Drop-Down List Content Control	Kontrolnik vsebine spustnega seznama
-	Dropped	Dropped
+	Dropped	V besedilu
 	Drops all formatting and pastes plain text.	Odstrani vse oblikovanje in prilepi navadno besedilo.
 	Dutch	Nizozemščina
 	E-mail Messages	E-poštna sporočila
@@ -756,15 +790,15 @@
 	Edit Field…	Uredi polje …
 	Edit Footer	Uredi nogo
 	Edit Header	Uredi glavo
-	Edit Individual Documents…	Uredi posamezne dokumente…
+	Edit Individual Documents…	Uredi posamezne dokumente …
 	Edit Items	Uredi elemente
 	Edit Recipient List	Uredi seznam prejemnikov
 	Edit Source	Uredi vir
 	Edit\nData	Uredi\npodatke
 	Edit\nRecipient List	Uredi seznam\nprejemnikov
 	Edited	Urejeno
-	Editing endnote	Editing endnote
-	Editing footnote	Editing footnote
+	Editing endnote	Urejanje končne opombe
+	Editing footnote	Urejanje sprotne opombe
 	Editing header/footer	Urejanje glave/noge
 	Editing in this document is restricted.	Urejanje tega dokumenta je omejeno.
 	Editing — edit the document directly	Urejanje – neposredno urejajte dokument
@@ -793,12 +827,12 @@
 	Endnote Text	Besedilo končne opombe
 	Endnotes	Končne opombe
 	Endnotes to footnotes	Končne opombe v sprotne opombe
-	English (Australia)	English (Australia)
-	English (Canada)	English (Canada)
-	English (India)	English (India)
-	English (Ireland)	English (Ireland)
-	English (New Zealand)	English (New Zealand)
-	English (South Africa)	English (South Africa)
+	English (Australia)	Angleščina (Avstralija)
+	English (Canada)	Angleščina (Kanada)
+	English (India)	Angleščina (Indija)
+	English (Ireland)	Angleščina (Irska)
+	English (New Zealand)	Angleščina (Nova Zelandija)
+	English (South Africa)	Angleščina (Južna Afrika)
 	English (United Kingdom)	Angleščina (Združeno kraljestvo)
 	English (United States)	Angleščina (Združene države)
 	Engrave	Vgravirano
@@ -808,11 +842,12 @@
 	Enter formatting for number:	Vnesite oblikovanje za številko:
 	Enter in Equation	Enter v enačbi
 	Enter page number:	Vnesite številko strani:
+	Entire caption	Celoten napis
 	Entry marked.	Vnos je označen.
-	Envelope #10	Kuverta #10
+	Envelope #10	Ovojnica #10
 	Envelope #10   4.12" × 9.50"	Ovojnica #10   4.12" × 9.50"
 	Envelope Address	Naslov na ovojnici
-	Envelope DL	Kuverta DL
+	Envelope DL	Ovojnica DL
 	Envelope DL   4.33" × 8.66"	Ovojnica DL   4.33" × 8.66"
 	Envelope Return	Povratni naslov na ovojnici
 	Envelope size:	Velikost ovojnice:
@@ -867,9 +902,10 @@
 	Fields:	Polja:
 	Field…	Polje …
 	Figure	Slika
-	File locations	File locations
+	File locations	Mesta datotek
 	File name:	Ime datoteke:
-	File › New lists the .dotx and .dotm templates here under Personal; Save as Word Template starts here.	File › New lists the .dotx and .dotm templates here under Personal; Save as Word Template starts here.
+	File type	Vrsta datoteke
+	File › New lists the .dotx and .dotm templates here under Personal; Save as Word Template starts here.	Predloge .dotx in .dotm iz te mape so v razdelku Datoteka › Nov navedene pod Osebno; ukaz Shrani kot predlogo Word začne v tej mapi.
 	Fill	Polnilo
 	Fill color:	Barva polnila:
 	Filling in forms	Izpolnjevanje obrazcev
@@ -878,7 +914,7 @@
 	Filter Recipients	Filtriraj prejemnike
 	Find	Najdi
 	Find and Replace	Iskanje in zamenjava
-	Find in list:	Find in list:
+	Find in list:	Najdi na seznamu:
 	Find Next	Najdi naslednje
 	Find Next Editable Region	Najdi naslednje področje za urejanje
 	Find Previous	Najdi prejšnje
@@ -888,7 +924,7 @@
 	Find what:	Najdi:
 	Find “{text}” in the document	Najdi »{text}« v dokumentu
 	Find:	Najdi:
-	Finding printers…	Iskanje tiskalnikov…
+	Finding printers…	Iskanje tiskalnikov …
 	Finish	Dokončaj
 	Finish & Merge	Dokončaj in spoji
 	Finish &\nMerge	Dokončaj\nin spoji
@@ -904,8 +940,10 @@
 	First row of data contains column headers	Prva vrstica podatkov vsebuje glave stolpcev
 	Fix Position on Page	Pritrdi položaj na strani
 	Fixed Column Width	Fiksna širina stolpca
+	Float	Plavajoče
 	Floor	Spodnji celi del
 	Focus	Osredotočenje
+	Folder path	Pot do mape
 	Follow number with:	Za številko vstavi:
 	Font	Pisava
 	Font Color	Barva pisave
@@ -925,10 +963,10 @@
 	For which item:	Za kateri element:
 	Format Page Numbers	Oblikuj številke strani
 	Format Page Numbers…	Oblikuj številke strani …
-	Format Painter	Preslikovalnik oblike
-	Format Shape	Format Shape
-	Format Shape Pane	Format Shape Pane
-	Format Shape…	Format Shape…
+	Format Painter	Čopič za oblikovanje
+	Format Shape	Oblikuj obliko
+	Format Shape Pane	Podokno Oblikuj obliko
+	Format Shape…	Oblikuj obliko …
 	Formatted	Oblikovano
 	Formatted Text	Oblikovano besedilo
 	Formatting	Oblikovanje
@@ -942,19 +980,21 @@
 	Forward	Naprej
 	Fraction	Ulomek
 	Fractions (1/2) as fraction characters (½)	Ulomke (1/2) v znake ulomkov (½)
+	Frames and effects	Okvirji in učinki
 	French (France)	Francoščina (Francija)
-	From Bottom Left Corner	From Bottom Left Corner
-	From Bottom Right Corner	From Bottom Right Corner
-	From Center	From Center
+	From Bottom Left Corner	Iz spodnjega levega kota
+	From Bottom Right Corner	Iz spodnjega desnega kota
+	From Center	Iz sredine
 	From text:	Iz besedila:
-	From Top Left Corner	From Top Left Corner
-	From Top Right Corner	From Top Right Corner
+	From Top Left Corner	Iz zgornjega levega kota
+	From Top Right Corner	Iz zgornjega desnega kota
 	from Unicode (hex)	iz Unicode (šestnajstiško)
 	From {name}	Pošiljatelj: {name}
 	From:	Od:
 	Full page of the same label	Cela stran iste nalepke
+	Full Saturation 100%	Polna nasičenost 100 %
 	Full Screen	Celozaslonski način
-	Full Screen View	Full Screen View
+	Full Screen View	Celozaslonski pogled
 	Full\nScreen	Celozaslonski\nnačin
 	Fun fact: a blank page is just a draft that hasn't been told yet.	Zanimivost: prazna stran je le osnutek, ki tega še ne ve.
 	Function	Funkcija
@@ -980,10 +1020,11 @@
 	GOST (name sort)	GOST (razvrščanje po imenu)
 	GOST (title sort)	GOST (razvrščanje po naslovu)
 	Grab bag	Mešanica
-	Gradient	Gradient
-	Gradient fill	Gradient fill
-	Gradient stops	Gradient stops
+	Gradient	Preliv
+	Gradient fill	Polnilo s prelivom
+	Gradient stops	Točke preliva
 	Grave	Krativec
+	Gray 0%	Sivo 0 %
 	Grayscale	Odtenki sive
 	Greater than	Večje od
 	Greater than or equal	Večje ali enako
@@ -1029,21 +1070,24 @@
 	Hide Codes	Skrij kode
 	Hide from style lists	Skrij s seznamov slogov
 	Hide Ink	Skrij črnilo
-	Hide Quick Access Toolbar	Hide Quick Access Toolbar
+	Hide Quick Access Toolbar	Skrij orodno vrstico za hitri dostop
 	Hide White Space	Skrij prazen prostor
 	Hide\nInk	Skrij\nčrnilo
 	Hierarchy	Hierarhija
-	Highlight	Označi
+	Highlight	Označevanje
 	Highlight Merge Fields	Označi polja spajanja
 	Highlight\nMerge Fields	Označi polja\nspajanja
 	Highlighter	Označevalnik
 	Hindi	Hindijščina
+numerals	Hindi	Hindijske
 	Hollow	Votlo
 	Home	Osnovno
 	Home folder	Domača mapa
 	Horizontal Line	Vodoravna črta
+	How many characters the document holds	Koliko znakov vsebuje dokument
 	How many pages the whole document has	Koliko strani ima celoten dokument
 	How many pages this section has	Koliko strani ima ta odsek
+	How many times the document has been saved	Kolikokrat je bil dokument shranjen
 	How many words the document holds	Koliko besed vsebuje dokument
 	HTML Format	Oblika HTML
 	Hue:	Odtenek:
@@ -1083,15 +1127,17 @@
 	Immersive	Poglobljeno
 	Immersive Reader	Poglobljeni bralnik
 	Immersive\nReader	Poglobljeni\nbralnik
-	Import…	Import…
+	Imported 1 source	Uvožen je 1 vir
+	Imported {n} sources	Uvoženi viri: {n}
+	Import…	Uvozi …
 	In Default apps, choose WordCraft for the document types you want it to open.	V privzetih aplikacijah izberite WordCraft za vrste dokumentov, ki naj jih odpira.
 	In equations, typing a name after a backslash replaces it with its symbol.	Ko v enačbi za poševnico nazaj vtipkate ime, ga zamenja ustrezni simbol.
 	In Front of Text	Pred besedilom
 	In Line with Text	V vrstici z besedilom
-	In margin	In margin
+	In margin	Na robu
 	In the margin	Na robu
 	Inches	Palci
-	Include label and number	Include label and number
+	Include label and number	Vključi oznako in številko
 	Include level number from:	Vključi številko ravni od:
 	Include page numbers	Vključi številke strani
 	Increase Font Size	Povečaj velikost pisave
@@ -1106,10 +1152,10 @@
 	Index and Tables	Kazala in tabele
 	Index Heading	Naslov stvarnega kazala
 	Index {n}	Stvarno kazalo {n}
-	Indonesian	Indonesian
+	Indonesian	Indonezijščina
 	Inflate	Napihni
 	Info	Informacije
-	Initial column width:	Initial column width:
+	Initial column width:	Začetna širina stolpca:
 	Initials:	Začetnice:
 	Ink	Črnilo
 	Ink Replay	Predvajanje črnila
@@ -1147,7 +1193,7 @@
 	Insert Rows Below	Vstavi vrstice spodaj
 	Insert Shapes	Vstavi oblike
 	Insert SmartArt	Vstavi SmartArt
-	Insert Spike	Insert Spike
+	Insert Spike	Vstavi zbiralnik izrezkov
 	Insert Structure	Vstavi strukturo
 	Insert Symbol	Vstavi simbol
 	Insert Table	Vstavi tabelo
@@ -1186,6 +1232,7 @@
 	Intersection with Limits	Presek z mejama
 	Intersection with Lower Limit	Presek s spodnjo mejo
 	Intersection with Subscript-Superscript Limits	Presek z mejama v indeksu
+	Inverse	Obrnjeno
 	Inverse Cosecant Function	Funkcija inverznega kosekansa
 	Inverse Cosine Function	Funkcija inverznega kosinusa
 	Inverse Cotangent Function	Funkcija inverznega kotangensa
@@ -1212,6 +1259,7 @@
 	Join the ArtCraft community on Discord	Pridružite se skupnosti ArtCraft na Discordu
 	Join us on Discord: discord.gg/artcraft	Pridružite se nam na Discordu: discord.gg/artcraft
 	Journal	Revija
+	Journal article	Članek v strokovni reviji
 	Justification	Poravnava
 	Justification of a display equation	Poravnava prikazne enačbe
 	Justified	Obojestransko
@@ -1224,14 +1272,15 @@
 	Keep with Next	Obdrži z naslednjim
 	Keep with next	Obdrži z naslednjim
 	Keeps the fonts and formatting of the copied text.	Ohrani pisave in oblikovanje kopiranega besedila.
-	Kerning for fonts:	Kerning for fonts:
+	Kerning for fonts:	Spodsekavanje za pisave:
 	Keyboard shortcuts:	Bližnjice na tipkovnici:
 	Keys for this command:	Tipke za ta ukaz:
+	Keywords from the document properties	Ključne besede iz lastnosti dokumenta
 	Korean	Korejščina
 	Label changes with:	Oznaka se spreminja z:
 	Label:	Oznaka:
 	Labels	Nalepke
-	Language Preferences…	Jezikovne nastavitve…
+	Language Preferences…	Jezikovne nastavitve …
 	Large	Veliko
 	Large\nOperator	Veliki\noperator
 	Largest Only	Samo največji
@@ -1250,7 +1299,7 @@
 	Leader	Vodilni znak
 	Leave a recipient out of the merge when a field has this value.	Izpusti prejemnika iz spajanja, kadar ima polje to vrednost.
 	Leave Equation	Zapusti enačbo
-	Leave out the date and time of comments and tracked changes when saving	Pri shranjevanju izpusti datum in uro komentarjev ter sprememb s sledenjem
+	Leave out the date and time of comments and tracked changes when saving	Pri shranjevanju izpusti datum in uro komentarjev ter sledenih sprememb
 	Leave the equation (Esc)	Zapusti enačbo (Esc)
 	leave the equation first	najprej zapustite enačbo
 	Leave the label out of the caption	Izpusti oznako iz napisa
@@ -1271,11 +1320,13 @@
 	Leftwards Arrow Above	Puščica levo zgoraj
 	Leftwards Harpoon Above	Harpuna levo zgoraj
 	Legal   8.50" × 14.00"	Legal   8.50" × 14.00"
-	Legal style numbering	Pravni slog oštevilčenja
+	Legal style numbering	Oštevilčenje v pravnem slogu
 	Legend	Legenda
+	Less Contrast −20%	Manj kontrasta −20 %
 	Less than	Manjše od
 	Less than or equal	Manjše ali enako
 	Letter	Pismo
+template	Letter	Pismo
 	Letter   8.50" × 11.00"	Letter   8.50" × 11.00"
 	Letter headings	Naslovi s črkami
 	Letter template	Predloga za pismo
@@ -1292,7 +1343,7 @@
 	Level 9	Raven 9
 	Level {n}	Raven {n}
 	Levels:	Ravni:
-	Light Variations	Light Variations
+	Light Variations	Svetle različice
 	Light with Outline	Svetlo z obrisom
 	Limit	Limita
 	Limit and	Limita in
@@ -1316,20 +1367,20 @@
 	Line spacing:	Razmik vrstic:
 	Line Start	Začetek vrstice
 	Linear	Linearno
-	Linear Diagonal - Bottom Left to Top Right	Linear Diagonal - Bottom Left to Top Right
-	Linear Diagonal - Bottom Right to Top Left	Linear Diagonal - Bottom Right to Top Left
-	Linear Diagonal - Top Left to Bottom Right	Linear Diagonal - Top Left to Bottom Right
-	Linear Diagonal - Top Right to Bottom Left	Linear Diagonal - Top Right to Bottom Left
-	Linear Down	Linear Down
+	Linear Diagonal - Bottom Left to Top Right	Linearno diagonalno – od spodaj levo proti zgoraj desno
+	Linear Diagonal - Bottom Right to Top Left	Linearno diagonalno – od spodaj desno proti zgoraj levo
+	Linear Diagonal - Top Left to Bottom Right	Linearno diagonalno – od zgoraj levo proti spodaj desno
+	Linear Diagonal - Top Right to Bottom Left	Linearno diagonalno – od zgoraj desno proti spodaj levo
+	Linear Down	Linearno navzdol
 	Linear Fraction	Linearni ulomek
-	Linear Left	Linear Left
-	Linear Right	Linear Right
-	Linear Up	Linear Up
+	Linear Left	Linearno levo
+	Linear Right	Linearno desno
+	Linear Up	Linearno navzgor
 	Lines	Vrstice
 	Lines and characters	Vrstice in znaki
 	Lines only	Samo vrstice
 	Lines per page:	Število vrstic na stran:
-	Lines to drop:	Lines to drop:
+	Lines to drop:	Višina v vrsticah:
 	Link entries to their headings	Poveži vnose z njihovimi naslovi
 	Link level to style:	Poveži raven s slogom:
 	Link to Previous	Poveži s prejšnjim
@@ -1345,15 +1396,16 @@
 	List Table 3 – Green	Seznamska tabela 3 – zelena
 	List Table 3 – Orange	Seznamska tabela 3 – oranžna
 	List Table 3 – Purple	Seznamska tabela 3 – vijolična
-	Lit from Bottom	Lit from Bottom
-	Lit from Top	Lit from Top
-	Load System Installed Fonts…	Naloži nameščene sistemske pisave…
+	Lit from Bottom	Osvetljeno od spodaj
+	Lit from Top	Osvetljeno od zgoraj
+	Load System Installed Fonts…	Naloži nameščene sistemske pisave …
 	Loaded {count} system fonts.	Naloženih sistemskih pisav: {count}.
 	Local font access is not supported by your browser.	Vaš brskalnik ne podpira dostopa do lokalnih pisav.
 	Local font access was denied.	Dostop do lokalnih pisav je bil zavrnjen.
+	Local recovery is unavailable or still loading.	Lokalna obnovitev ni na voljo ali se še nalaga.
 	Location	Mesto
 	Location: {path}	Mesto: {path}
-	Lock aspect ratio	Lock aspect ratio
+	Lock aspect ratio	Zakleni razmerje stranic
 	Lock Fields	Zakleni polja
 	Log	Logaritem
 	Logarithm	Logaritem
@@ -1396,9 +1448,9 @@
 	Markdown (*.md)	Markdown (*.md)
 	Match case	Razlikuj velike in male črke
 	Match Fields	Uskladi polja
-	Match prefix	Ujemanje predpone
-	Match suffix	Ujemanje pripone
-	Matches: {count}	Matches: {count}
+	Match prefix	Ujemaj predpono
+	Match suffix	Ujemaj pripono
+	Matches: {count}	Zadetki: {count}
 	Math AutoCorrect	Matematični samopopravki
 	Matrices with Brackets	Matrike z oklepaji
 	Matrix	Matrika
@@ -1409,7 +1461,7 @@
 	Medium	Srednje
 	Merge	Spoji
 	Merge Cells	Spoji celice
-	Merge cells before split	Merge cells before split
+	Merge cells before split	Pred razdelitvijo spoji celice
 	Merge Formatting	Združi oblikovanje
 	Merge Record #	Zapis spajanja št.
 	Mesosphere	Mezosfera
@@ -1425,6 +1477,7 @@
 	MLA	MLA
 	mm	mm
 	Moderate	Zmerno
+	Modify	Spremeni
 	Modify Style	Spremeni slog
 	Modify Table Style	Spremeni slog tabele
 	Modify Table Style…	Spremeni slog tabele …
@@ -1435,15 +1488,17 @@
 	More Colors…	Več barv …
 	More Columns…	Več stolpcev …
 	More Commands…	Več ukazov …
-	More Gradients…	More Gradients…
-	More Paper Sizes…	Več velikosti papirja…
+	More Contrast +20%	Več kontrasta +20 %
+	More Gradients…	Več prelivov …
+	More Paper Sizes…	Več velikosti papirja …
 	More Symbols…	Več simbolov …
-	More tabs	More tabs
+	More tabs	Več zavihkov
 	More templates →	Več predlog →
-	More Underlines…	More Underlines…
+	More Underlines…	Več podčrtanj …
 	Move Down	Premakni navzdol
 	Move in Equation	Premik v enačbi
 	Move or Resize	Premakni ali spremeni velikost
+	Move Pane: {title}	Premakni podokno: {title}
 	Move Paragraph Down	Premakni odstavek navzdol
 	Move Paragraph Up	Premakni odstavek navzgor
 	Move Past Citation	Premakni se za citat
@@ -1453,15 +1508,16 @@
 	Move Up	Premakni navzgor
 	Move with Text	Premikaj z besedilom
 	Moved from	Premaknjeno iz
-	Moved from:	Moved from:
-	Moved objects snap to the page's edges and centre, the margins and other objects. Hold Alt to move freely.	Premaknjeni predmeti se prilepijo na robove in središče strani, na robove in na druge predmete. Držite Alt za prosto premikanje.
+	Moved from:	Premaknjeno iz:
+	Moved objects snap to the page's edges and centre, the margins and other objects. Hold Alt to move freely.	Premaknjeni predmeti se pripnejo na meje in središče strani, na robove in na druge predmete. Za prosto premikanje držite Alt.
 	Moved to	Premaknjeno v
-	Moved to:	Moved to:
+	Moved to:	Premaknjeno v:
 	Moves	Premiki
 	Multilevel List	Večravenski seznam
-	Multilevel List Library	Multilevel List Library
+	Multilevel List Library	Knjižnica večravenskih seznamov
 	Multiple Pages	Več strani
 	Mute agent messages	Utišaj sporočila agentov
+	Muted 50%	Pridušeno 50 %
 	My list has	Moj seznam ima
 	Name of the file this document is saved as	Ime datoteke, v katero je shranjen ta dokument
 	Narrow	Ozko
@@ -1522,19 +1578,23 @@
 	no equation at the caret	pri kazalcu ni enačbe
 	No errors found: every merge field is in the recipient list.	Ni napak: vsa polja spajanja so na seznamu prejemnikov.
 	No Fill	Brez polnila
-	No fill	No fill
+	No fill	Brez polnila
 	No Glow	Brez sija
-	No Gradient	No Gradient
+	No Gradient	Brez preliva
 	No grid	Brez mreže
 	No header row	Brez vrstice z glavo
 	No icons match your search.	Nobena ikona se ne ujema z iskanjem.
-	No items to show.	No items to show.
+	No items to show.	Ni elementov za prikaz.
 	No Markup	Brez oznak
+	No matching commands	Ni ustreznih ukazov
 	No model credits were built into this copy.	V to kopijo ni vgrajenih podatkov o modelih.
+	No new sources in that file	V tej datoteki ni novih virov
 	No Outline	Brez obrisa
 	No Paragraph Space	Brez razmika med odstavki
 	No printers found. Configure a system printer or export a PDF.	Ni najdenih tiskalnikov. Nastavite sistemski tiskalnik ali izvozite PDF.
+	No recovery copies.	Ni obnovitvenih kopij.
 	No Reflection	Brez odseva
+	No Scaling	Brez prilagajanja velikosti
 	No Shadow	Brez sence
 	No Soft Edges	Brez mehkih robov
 	No sources yet.	Virov še ni.
@@ -1566,13 +1626,14 @@
 	Not now	Ne zdaj
 	Not saved	Ni shranjeno
 	Not saved yet	Še ni shranjeno
-	Not set	Not set
+	Not set	Ni nastavljeno
 	Not set: the system's usual places	Ni nastavljeno: običajna sistemska mesta
 	Not used by any command	Ni uporabljeno v nobenem ukazu
 	Not {name}	Ni {name}
 	Nothing	Nič
 	Nothing collected yet. Items you copy or cut appear here.	Zbranega še ni nič. Tukaj se prikažejo elementi, ki jih kopirate ali izrežete.
-	nothing is selected	nothing is selected
+	nothing is selected	nič ni izbrano
+	Nothing of this type in the document.	V dokumentu ni ničesar te vrste.
 	Now used by {command}	Zdaj jo uporablja ukaz {command}
 	Nudge	Rahlo premakni
 	Num Occurrences	Število pojavitev
@@ -1585,9 +1646,9 @@
 	Number only, without the label's words	Samo številka, brez besed oznake
 	Number style for this level:	Slog številk za to raven:
 	Number the equation; the number sits at the right margin (or type # then the number)	Oštevilčite enačbo; številka je ob desnem robu (ali vtipkajte # in številko)
-	Numbering	Oštevilčevanje
-	Numbering:	Oštevilčevanje:
-	Numbering…	Oštevilčevanje …
+	Numbering	Oštevilčenje
+	Numbering:	Oštevilčenje:
+	Numbering…	Oštevilčenje …
 	Numerals	Števke
 	Numerals:	Števke:
 	n×n Identity Matrix	Enotska matrika n×n
@@ -1608,7 +1669,7 @@
 	Offset: Top	Odmik: zgoraj
 	Offset: Top Left	Odmik: zgoraj levo
 	Offset: Top Right	Odmik: zgoraj desno
-	Old menu keys: Alt, {keys}. Keep typing, or press Esc to cancel.	Old menu keys: Alt, {keys}. Keep typing, or press Esc to cancel.
+	Old menu keys: Alt, {keys}. Keep typing, or press Esc to cancel.	Stare tipke menijev: Alt, {keys}. Tipkajte naprej ali pritisnite Esc za preklic.
 	Omit	Izpusti
 	On	Vklopljeno
 	On: the caret glides to its new place when you type or use the arrow keys, and its blink fades. Off: it jumps and blinks on and off.	Vklopljeno: kazalec med tipkanjem ali uporabo puščičnih tipk zdrsne na novo mesto, utripanje pa pojema. Izklopljeno: kazalec skoči in utripa.
@@ -1625,10 +1686,13 @@
 	Only form fields can be filled in.	Izpolnjevati je mogoče samo polja obrazca.
 	only in Outline view	samo v pogledu orisa
 	Only in this document	Samo v tem dokumentu
+	Only label and number	Samo oznaka in številka
+	Only text properties can be changed.	Spremeniti je mogoče samo besedilne lastnosti.
 	Only the allowed styles can be applied.	Uporabiti je mogoče samo dovoljene sloge.
 	Only web (http, https) and email (mailto) links can be followed	Slediti je mogoče samo spletnim (http, https) in e-poštnim (mailto) povezavam
+spacing	Open	Razmaknjeno
 	Open a document first	Najprej odprite dokument
-	Open a file with WordCraft's own browser when the system file dialog doesn't appear.	Odpri datoteko z WordCraftovim brskalnikom, kadar se sistemsko pogovorno okno ne prikaže.
+	Open a file with WordCraft's own browser when the system file dialog doesn't appear.	Odpri datoteko z WordCraftovim brskalnikom datotek, kadar se sistemsko pogovorno okno ne prikaže.
 	OpenDocument Text (*.odt)	Besedilo OpenDocument (*.odt)
 	Opening print dialog…	Odpiranje pogovornega okna za tiskanje …
 	Opens .docx, .doc, .rtf and .odt files and Word templates with WordCraft from now on.	Odslej odpira datoteke .docx, .doc, .rtf in .odt ter predloge Word s programom WordCraft.
@@ -1645,11 +1709,11 @@
 	Organizer…	Organizator …
 	Orientation	Usmerjenost
 	Original document	Izvirni dokument
-	Original size	Original size
+	Original size	Izvirna velikost
 	Other	Drugo
 	Other Large Operators	Drugi veliki operatorji
 	Other styles and their TOC level:	Drugi slogi in njihova raven v kazalu vsebine:
-	Other:	Other:
+	Other:	Drugo:
 	Otherwise insert:	Sicer vstavi:
 	Outline Level	Raven orisa
 	Outline level	Raven orisa
@@ -1674,14 +1738,16 @@
 	Page break before	Prelom strani pred
 	Page Breaks	Prelomi strani
 	Page Color	Barva strani
+	Page color	Barva strani
 	Page display	Prikaz strani
 	Page Down	Stran navzdol
 	Page image (*.png)	Slika strani (*.png)
 	Page Movement	Premikanje po straneh
 	Page Number	Številka strani
-	Page Number Format	Page Number Format
+	Page number	Številka strani
+	Page Number Format	Oblika številk strani
 	Page number style	Slog številk strani
-	Page numbering	Page numbering
+	Page numbering	Oštevilčenje strani
 	Page numbers at the right margin	Številke strani ob desnem robu
 	Page on which a bookmarked passage falls	Stran, na kateri je odlomek z zaznamkom
 	Page Setup	Nastavitev strani
@@ -1695,8 +1761,10 @@
 	Page\nBorders	Obrobe\nstrani
 	Page\nColor	Barva\nstrani
 	Page\nNumber	Številka\nstrani
+	Pages in the range	Strani v obsegu
 	Pages like 1-3, 5	Strani, npr. 1-3, 5
 	Pages of bookmark:	Strani zaznamka:
+	Pane Options	Možnosti podokna
 	Paper	Papir
 	Paper size:	Velikost papirja:
 	Paragraph	Odstavek
@@ -1727,7 +1795,7 @@
 	Paste: Keep Text Only	Prilepi: ohrani samo besedilo
 	Paste: Merge Formatting	Prilepi: združi oblikovanje
 	Pastes the clipboard's picture.	Prilepi sliko iz odložišča.
-	Path	Path
+	Path	Po obliki
 	Pause	Začasno ustavi
 	Paused	Začasno ustavljeno
 	PDF document (*.pdf)	Dokument PDF (*.pdf)
@@ -1736,8 +1804,8 @@
 	Pens	Peresa
 	People	Ljudje
 	Periodical	Periodična publikacija
-	Personal	Personal
-	Personal Templates	Personal Templates
+	Personal	Osebno
+	Personal Templates	Osebne predloge
 	Personalize	Prilagoditev
 	Phonetic Guide	Fonetični vodnik
 	pi	pi
@@ -1747,13 +1815,15 @@
 	Pick a field from the list	Izberite polje s seznama
 	Picture	Slika
 	Picture Border	Obroba slike
+	Picture border	Obroba slike
 	Picture Content Control	Kontrolnik vsebine za sliko
 	Picture Format	Oblika slike
 	Picture Styles	Slogi slik
+	Picture transparency	Prosojnost slike
 	Pictures	Slike
 	Pie	Tortni
 	Place in This Document	Mesto v tem dokumentu
-	Placeholder text	Nadomestno besedilo
+	Placeholder text	Besedilo ograde
 	Plain Table 1	Navadna tabela 1
 	Plain text (*.txt)	Navadno besedilo (*.txt)
 	Plain Text Content Control	Kontrolnik vsebine z navadnim besedilom
@@ -1761,7 +1831,7 @@
 	Play/Pause	Predvajaj/začasno ustavi
 	Plus Equal	Plus enako
 	Points	Točke
-	Points and above	Points and above
+	Points and above	točk in več
 	Polish	Poljščina
 	Portuguese (Brazil)	Portugalščina (Brazilija)
 	Portuguese (Portugal)	Portugalščina (Portugalska)
@@ -1771,13 +1841,13 @@
 	Power series of (1+x)ⁿ	Potenčna vrsta (1+x)ⁿ
 	Preferred width:	Želena širina:
 	Preserve formatting during updates	Ohrani oblikovanje ob posodobitvah
-	Preset gradients	Preset gradients
+	Preset gradients	Prednastavljeni prelivi
 	Presets	Prednastavitve
 	Press a key combination	Pritisnite kombinacijo tipk
 	Preview Results	Predogled rezultatov
 	Preview\nResults	Predogled\nrezultatov
 	Previous	Nazaj
-	Previous 1 or More	Prejšnji 1 ali več
+	Previous 1 or More	Prejšnji izraz 1-krat ali večkrat
 	Previous Change	Prejšnja sprememba
 	Previous Comment	Prejšnji komentar
 	Previous Field	Prejšnje polje
@@ -1787,18 +1857,18 @@
 	Previous Sentence	Prejšnji stavek
 	Previous sentence	Prejšnji stavek
 	Print Documents	Natisni dokumente
-	Print Documents…	Natisni dokumente…
+	Print Documents…	Natisni dokumente …
 	Print failed: the printing worker stopped.	Tiskanje ni uspelo: proces za tiskanje se je ustavil.
 	Print failed: {error}	Tiskanje ni uspelo: {error}
 	Print job submitted.	Tiskalni posel je poslan.
-	Print job submitted: spooled {count} sheet(s)	Print job submitted: spooled {count} sheet(s)
+	Print job submitted: spooled {count} sheet(s)	Tiskalni posel je poslan (listi v čakalni vrsti: {count})
 	Print job submitted: {receipt}	Tiskalni posel je poslan: {receipt}
-	Print Layout	Postavitev tiskanja
+	Print Layout	Postavitev za tiskanje
 	Print Markup	Natisni oznake
 	Print settings	Nastavitve tiskanja
 	Print the page color	Natisni barvo strani
 	Print to PDF	Natisni v PDF
-	Print\nLayout	Postavitev\ntiskanja
+	Print\nLayout	Postavitev\nza tiskanje
 	Printer	Tiskalnik
 	Printer default	Privzeto za tiskalnik
 	Printer discovery failed.	Iskanje tiskalnikov ni uspelo.
@@ -1819,6 +1889,8 @@
 	Proofing Issues	Težave pri preverjanju
 	Proofing language	Jezik preverjanja
 	Properties	Lastnosti
+	Property names are 1–{max} characters.	Ime lastnosti mora imeti 1–{max} znakov.
+	Property values are at most {max} bytes.	Vrednost lastnosti ima lahko največ {max} bajtov.
 	Protect Document	Zaščiti dokument
 	pt	pt
 	Publisher	Založnik
@@ -1830,28 +1902,29 @@
 	Quick Parts	Hitri deli
 	Quick Tables	Hitre tabele
 	Quote	Citat
-	Radial	Radial
+	Radial	Radialno
 	Radical	Koren
 	Radical with Degree	Koren s stopnjo
 	Radicals	Koreni
 	Raised/lowered	Dvignjeno/spuščeno
-	Read Aloud	Beri na glas
+	Read Aloud	Preberi na glas
 	Read Aloud Status	Stanje branja na glas
 	Read Mode	Način branja
-	Read\nAloud	Beri\nna glas
+	Read\nAloud	Preberi\nna glas
 	Read\nMode	Način\nbranja
 	Reading	Branje
 	Reading Column Width	Širina stolpca za branje
 	Reading Highlight	Poudarek pri branju
 	Reading Line Spacing	Razmik vrstic za branje
 	Reading Mode	Način branja
+	Reading Page Color	Barva strani za branje
 	Reading Speed	Hitrost branja
 	Reading Text Size	Velikost besedila za branje
 	Reads the clipboard's rich text and keeps its formatting.	Prebere obogateno besedilo iz odložišča in ohrani njegovo oblikovanje.
 	Reads the clipboard's web content and keeps its formatting.	Prebere spletno vsebino iz odložišča in ohrani njeno oblikovanje.
 	Recent Colors	Nedavne barve
 	Recent documents to show:	Število prikazanih nedavnih dokumentov:
-	Recently Used Fonts	Recently Used Fonts
+	Recently Used Fonts	Nedavno uporabljene pisave
 	Recently used symbols:	Nedavno uporabljeni simboli:
 	Recipient List	Seznam prejemnikov
 	Recipient lists	Seznami prejemnikov
@@ -1859,8 +1932,11 @@
 	Recolor a one-color picture, such as an icon	Prebarvaj enobarvno sliko, na primer ikono
 	Recolor Selected Ink	Prebarvaj izbrano črnilo
 	Record Macro	Posnemi makro
+	Recover documents	Obnovi dokumente
 	Recover Unsaved Documents	Obnovi neshranjene dokumente
-	Rectangular	Rectangular
+	Recovery copy	Obnovitvena kopija
+	Recovery is disabled while this document has a password.	Obnovitev je onemogočena, dokler ima ta dokument geslo.
+	Rectangular	Pravokotno
 	Red:	Rdeča:
 	Redo	Uveljavi znova
 	Reduce Hanging Indent	Zmanjšaj viseči zamik
@@ -1875,9 +1951,11 @@
 	Regular expressions	Regularni izrazi
 	Reject	Zavrni
 	Reject All Changes	Zavrni vse spremembe
+	Reject All Changes and Stop Tracking	Zavrni vse spremembe in ustavi sledenje
+	Reject and Move to Next	Zavrni in pojdi na naslednjo
 	Reject Change	Zavrni spremembo
 	Relationship	Razmerje
-	Relative to original picture size	Relative to original picture size
+	Relative to original picture size	Glede na izvirno velikost slike
 	Relaxed	Sproščeno
 	Remove Added Font	Odstrani dodano pisavo
 	Remove Background	Odstrani ozadje
@@ -1888,7 +1966,7 @@
 	Remove field	Odstrani polje
 	Remove Footer	Odstrani nogo
 	Remove from Quick Access Toolbar	Odstrani iz orodne vrstice za hitri dostop
-	Remove gradient stop	Remove gradient stop
+	Remove gradient stop	Odstrani točko preliva
 	Remove Header	Odstrani glavo
 	Remove Hyperlink	Odstrani hiperpovezavo
 	Remove my name from comments, changes and file properties when saving	Pri shranjevanju odstrani moje ime iz komentarjev, sprememb in lastnosti datoteke
@@ -1932,6 +2010,7 @@
 	Reset to Normal	Ponastavi na Navadno
 	Reset\nGraphic	Ponastavi\ngrafiko
 	Reset…	Ponastavi …
+	Resize Pane	Spremeni velikost podokna
 	Resize Table by Dragging	Spreminjaj velikost tabele z vlečenjem
 	Resolve	Razreši
 	Resolved	Razrešeno
@@ -1939,6 +2018,7 @@
 	Restart Each Page	Začni znova na vsaki strani
 	Restart Each Section	Začni znova v vsakem odseku
 	Restart list after:	Začni seznam znova po:
+	Restore opens an unsaved copy. Your original file stays unchanged.	Ukaz Obnovi odpre neshranjeno kopijo. Vaša izvirna datoteka ostane nespremenjena.
 	Restrict Editing	Omeji urejanje
 	Restrict\nEditing	Omeji\nurejanje
 	Result	Rezultat
@@ -1980,9 +2060,10 @@
 	Rotate all text 90°	Zasukaj vse besedilo za 90°
 	Rotate Left 90°	Zasukaj levo za 90°
 	Rotate Right 90°	Zasukaj desno za 90°
-	Rotate with shape	Rotate with shape
+	Rotate with shape	Zasukaj z obliko
 	Rotation	Zasuk
 	Rotation:	Zasuk:
+	Rounded	Zaobljeno
 	Rounded Rectangle	Zaobljen pravokotnik
 	Row	Vrstica
 	Row:	Vrstica:
@@ -1994,23 +2075,26 @@
 	Russian	Ruščina
 	Résumé	Življenjepis
 	SAMPLE	VZOREC
-	Sat:	Sob.:
+	Sat:	Nas.:
+	Saturation and recolor	Nasičenost in prebarvanje
 	Save a copy in another format. Printing goes through a PDF you can print from any viewer.	Shranite kopijo v drugi obliki. Tiskanje poteka prek datoteke PDF, ki jo lahko natisnete iz katerega koli pregledovalnika.
 	Save As	Shrani kot
 	Save as Template	Shrani kot predlogo
-	Save as Word Template…	Save as Word Template…
+	Save as Word Template…	Shrani kot predlogo Word …
 	Save documents	Shranjevanje dokumentov
 	Save the document to turn on AutoSave	Shranite dokument, da vklopite samodejno shranjevanje
 	Save the document to turn on AutoSave (a file you have only opened isn't rewritten until you save it)	Shranite dokument, da vklopite samodejno shranjevanje (datoteka, ki ste jo samo odprli, se ne prepiše, dokler je ne shranite)
 	Save these pages as PDF…	Shrani te strani kot PDF …
 	Saved	Shranjeno
 	Saved. Saved again. Still saved. It's very saved.	Shranjeno. Spet shranjeno. Še vedno shranjeno. Zelo shranjeno.
-	Saves a .dotx template in your templates folder. It shows up in File › New under Personal.	Saves a .dotx template in your templates folder. It shows up in File › New under Personal.
+	Saves a .dotx template in your templates folder. It shows up in File › New under Personal.	Shrani predlogo .dotx v mapo s predlogami. Prikaže se v razdelku Datoteka › Nov pod Osebno.
 	Saving {name} was cancelled, so it is still open and nothing was lost.	Shranjevanje dokumenta {name} je bilo preklicano, zato je še vedno odprt in nič ni bilo izgubljeno.
 	Sayings	Domislice
 	Sayings:	Domislice:
 	Scale	Merilo
 	Scale Drawing	Prilagodi merilo risbe
+	Scale Font Sizes	Prilagodi velikosti pisav
+	Scale to paper size	Prilagodi velikosti papirja
 	Scatter	Raztreseni
 	Script	Pisava
 	Scripts	Pisave
@@ -2023,7 +2107,7 @@
 	Search icons	Iskanje ikon
 	Search Options	Možnosti iskanja
 	Secant Function	Funkcija sekansa
-	Section 1.01	Section 1.01
+	Section 1.01	Razdelek 1.01
 	Section Break	Prelom odseka
 	Section Breaks	Prelomi odsekov
 	Section Character	Znak za odsek
@@ -2039,14 +2123,16 @@
 	select a floating picture or shape first	najprej izberite plavajočo sliko ali obliko
 	select a group first	najprej izberite skupino
 	select a picture first	najprej izberite sliko
-	select a picture or shape first	select a picture or shape first
+	select a picture or shape first	najprej izberite sliko ali obliko
 	Select a picture, shape, chart or table to describe it.	Izberite sliko, obliko, grafikon ali tabelo, ki jih želite opisati.
+	Select a place in this document:	Izberite mesto v tem dokumentu:
 	Select a printer	Izberite tiskalnik
+	Select a property to change.	Izberite lastnost, ki jo želite spremeniti.
 	select a shape first	najprej izberite obliko
-	Select a shape, text box or drawing canvas to format its fill.	Select a shape, text box or drawing canvas to format its fill.
+	Select a shape, text box or drawing canvas to format its fill.	Izberite obliko, polje z besedilom ali risalno platno, če želite oblikovati njegovo polnilo.
 	select a SmartArt graphic first	najprej izberite grafiko SmartArt
-	select a text box first	najprej izberite besedilno polje
-	select a text box linked to another first	najprej izberite besedilno polje, povezano z drugim
+	select a text box first	najprej izberite polje z besedilom
+	select a text box linked to another first	najprej izberite polje z besedilom, povezano z drugim
 	Select Cell	Izberi celico
 	Select Column	Izberi stolpec
 	Select Heading and Content	Izberi naslov in vsebino
@@ -2055,7 +2141,7 @@
 	Select Paragraph	Izberi odstavek
 	Select Range	Izberi obseg
 	Select Recipients	Izberi prejemnike
-	select recipients first	select recipients first
+	select recipients first	najprej izberite prejemnike
 	Select recipients first to choose from their fields.	Najprej izberite prejemnike, da lahko izbirate med njihovimi polji.
 	Select recipients first to match their fields.	Najprej izberite prejemnike, da lahko uskladite njihova polja.
 	Select Row	Izberi vrstico
@@ -2065,19 +2151,21 @@
 	Select Text	Izberi besedilo
 	Select Text with Similar Formatting	Izberi besedilo s podobnim oblikovanjem
 	Select text, then tick who can still edit it.	Izberite besedilo in nato označite, kdo ga še lahko ureja.
-	select two or more cells to merge	za združitev izberite dve ali več celic
-	select two or more pictures or shapes first (Shift+click)	select two or more pictures or shapes first (Shift+click)
+	select two or more cells to merge	za spajanje izberite vsaj dve celici
+	select two or more pictures or shapes first (Shift+click)	najprej izberite vsaj dve sliki ali obliki (Shift+klik)
 	Select Word	Izberi besedo
 	Select\nRecipients	Izberi\nprejemnike
 	Selected Fields	Izbrana polja
-	Selected text	Selected text
+	Selected text	Izbrano besedilo
 	Selection Pane	Podokno za izbor
-	Send Backward	Pomakni nazaj
+	Send Backward	Premakni nazaj
 	Send the document straight to the system print dialog, or save a copy in another format below.	Pošljite dokument neposredno v sistemsko pogovorno okno za tiskanje ali spodaj shranite kopijo v drugi obliki.
 	Sentence	Stavek
 	Sentence case.	Kot v stavku.
-	Separate text at	Separate text at
+	Separate text at	Loči besedilo pri
+	Separate text with	Loči besedilo z
 	Separator:	Ločilo:
+	Sepia	Sepija
 	Sequence name:	Ime zaporedja:
 	Serbian (Cyrillic)	Srbščina (cirilica)
 	Serbian (Latin)	Srbščina (latinica)
@@ -2093,9 +2181,10 @@
 	Set Character Formatting	Nastavi oblikovanje znakov
 	Set Date	Nastavi datum
 	Set Equation	Nastavi enačbo
-	Set Numbering Value	Nastavi vrednost oštevilčevanja
+	Set left- and first-indent with tabs and backspaces	Nastavi levi zamik in zamik prve vrstice s tabulatorji in vračalko
+	Set Numbering Value	Nastavi vrednost oštevilčenja
 	Set Paragraph Formatting	Nastavi oblikovanje odstavka
-	Set Proofing Language…	Nastavi jezik preverjanja…
+	Set Proofing Language…	Nastavi jezik preverjanja …
 	Setting:	Nastavitev:
 	Settings…	Nastavitve …
 	Shading	Senčenje
@@ -2108,6 +2197,7 @@
 	Shape Styles	Slogi oblik
 	Shapes	Oblike
 	Share	Deli
+	Sharpen	Izostri
 	Shift+Tab	Shift+Tab
 	Shipping labels	Nalepke za pošiljke
 	Shortcut key:	Bližnjična tipka:
@@ -2140,18 +2230,18 @@
 	Show Markup	Prikaži oznake
 	Show Notes	Prikaži opombe
 	Show only comments and formatting in balloons	V oblačkih prikaži samo komentarje in oblikovanje
-	Show only records that will be merged	Show only records that will be merged
+	Show only records that will be merged	Prikaži samo zapise, ki bodo spojeni
 	Show or Hide Style	Prikaži ali skrij slog
-	Show Quick Access Toolbar	Show Quick Access Toolbar
+	Show Quick Access Toolbar	Prikaži orodno vrstico za hitri dostop
 	Show revisions in balloons	Prikaži revizije v oblačkih
 	Show rulers	Prikaži ravnila
 	Show Text Formatting	Prikaži oblikovanje besedila
-	Show the Assistant	Pokaži Pomočnika
+	Show the Assistant	Prikaži Pomočnika
 	Show the community button in the title bar	Prikaži gumb skupnosti v naslovni vrstici
 	Show the equation in the line of text	Prikaži enačbo v vrstici besedila
 	Show the equation on a line of its own	Prikaži enačbo v svoji vrstici
 	Show the mini toolbar when text is selected	Ob izbiri besedila prikaži mini orodno vrstico
-	Show the ribbon	Show the ribbon
+	Show the ribbon	Prikaži trak
 	Show the Start screen when WordCraft starts	Ob zagonu programa WordCraft prikaži začetni zaslon
 	Show the tips you asked not to see again.	Znova prikaže namige, za katere ste prosili, naj se ne prikazujejo več.
 	Show/Hide ¶	Prikaži/skrij ¶
@@ -2172,6 +2262,7 @@
 	Side\nto Side	Drugo ob\ndrugem
 	Sides of a right triangle	Stranice pravokotnega trikotnika
 	Signature Line	Podpisna vrstica
+	Simple Frame	Preprost okvir
 	Sine and cosine series of f(x)	Sinusna in kosinusna vrsta f(x)
 	Sine Function	Funkcija sinusa
 	Sine theta	Sinus theta
@@ -2205,16 +2296,18 @@
 	Small Caps	Pomanjšane velike črke
 	Small caps	Pomanjšane velike črke
 	Small change	Majhna sprememba
-	Smart quotes instead of straight quotes	Pametni narekovaji namesto ravnih narekovajev
+	Smart quotes instead of straight quotes	Ravne narekovaje v pametne narekovaje
 	SmartArt	SmartArt
 	SmartArt Design	Načrt SmartArt
 	SmartArt Styles	Slogi SmartArt
 	Smooth scrolling and zooming, and menus and buttons that fade in. Off shows every change at once.	Gladko pomikanje in povečevanje ter meniji in gumbi, ki se postopno prikažejo. Če je izklopljeno, se vsaka sprememba prikaže takoj.
-	Soft	Soft
+	Soft	Mehko
+	Soft Edge	Mehak rob
 	Soft Edges	Mehki robovi
 	Soft Glow	Mehak sij
+	Soften	Zmehčaj
 	Solid Accent	Polni poudarek
-	Solid fill	Solid fill
+	Solid fill	Enobarvno polnilo
 	Sometimes	Včasih
 	Sort by:	Razvrsti po:
 	Sort order:	Vrstni red razvrščanja:
@@ -2234,8 +2327,10 @@
 	Spacing	Razmik
 	Spacing (pt):	Razmik (pt):
 	Spacing:	Razmik:
+	Spanish (Latin America)	Španščina (Latinska Amerika)
 	Spanish (Mexico)	Španščina (Mehika)
 	Spanish (Spain)	Španščina (Španija)
+	Spanish (Uruguay)	Španščina (Urugvaj)
 	Sparse Matrices	Redke matrike
 	Special Characters	Posebni znaki
 	Specify height:	Določi višino:
@@ -2246,7 +2341,7 @@
 	Spelling &\nGrammar	Črkovanje\nin slovnica
 	Spelling and grammar are checked in {language}.	Jezik preverjanja črkovanja in slovnice: {language}.
 	Spelling Suggestions	Predlogi za črkovanje
-	Spike	Spike
+	Spike	Zbiralnik izrezkov
 	Split Cells	Razdeli celice
 	Split Table	Razdeli tabelo
 	Spreadsheet Table	Tabela preglednice
@@ -2294,10 +2389,12 @@
 	Style: {style}	Slog: {style}
 	Styles	Slogi
 	Styles Pane	Podokno slogov
+	Styles Pane Position	Položaj podokna slogov
 	Styles:	Slogi:
 	Subentry:	Podvnos:
+	Subject from the document properties	Zadeva iz lastnosti dokumenta
 	Submit print job	Pošlji tiskalni posel
-	Submitting print job…	Pošiljanje tiskalnega posla…
+	Submitting print job…	Pošiljanje tiskalnega posla …
 	Subscript	Podpisano
 	Subscript-Superscript	Podpisano-nadpisano
 	Subscripts and Superscripts	Podpisani in nadpisani indeksi
@@ -2325,11 +2422,14 @@
 	Swap footnotes and endnotes	Zamenjaj sprotne in končne opombe
 	Swedish	Švedščina
 	Switch Modes	Preklopi način
+	Switch Windows	Preklopi okno
 	Switch\nModes	Preklopi\nnačin
+	Switch\nWindows	Preklopi\nokno
 	Symbol	Simbol
 	Symbols	Simboli
 	Synonyms	Sopomenke
 	System	Sistem
+numerals	System	Glede na sistem
 	Tab	Tabulator
 	Tab Character	Znak tabulatorja
 	Tab character	Znak tabulatorja
@@ -2351,7 +2451,7 @@
 	Table Properties	Lastnosti tabele
 	Table Properties…	Lastnosti tabele …
 	Table Row Height	Višina vrstice tabele
-	Table size	Table size
+	Table size	Velikost tabele
 	Table style	Slog tabele
 	Table Style Options	Možnosti sloga tabele
 	Table Styles	Slogi tabel
@@ -2368,10 +2468,10 @@
 	Technology	Tehnologija
 	Templates	Predloge
 	Templates and Add-ins	Predloge in dodatki
-	Templates you save in your templates folder show up here.	Templates you save in your templates folder show up here.
+	Templates you save in your templates folder show up here.	Tukaj se prikažejo predloge, ki jih shranite v mapo s predlogami.
 	Text Box	Polje z besedilom
 	Text boxes	Polja z besedilom
-	text boxes can't go inside a text box	text boxes can't go inside a text box
+	text boxes can't go inside a text box	polja z besedilom ni mogoče postaviti v drugo polje z besedilom
 	Text Direction	Smer besedila
 	Text Effects	Učinki besedila
 	Text Effects and Typography	Učinki besedila in tipografija
@@ -2384,6 +2484,8 @@
 	Text over Colon Equal	Besedilo nad dvopičjem in enačajem
 	Text over Equal	Besedilo nad enačajem
 	Text Pane	Podokno z besedilom
+	Text properties only: Word's number, date and yes-no types aren't offered.	Samo besedilne lastnosti: Wordove vrste za število, datum in da/ne niso na voljo.
+	Text Size	Velikost besedila
 	Text size	Velikost besedila
 	Text snaps to characters	Besedilo se poravna na znake
 	Text to display:	Prikazano besedilo:
@@ -2395,7 +2497,7 @@
 	That password isn't right. Check it (passwords are case-sensitive) and try again.	Geslo ni pravilno. Preverite ga (gesla razlikujejo velike in male črke) in poskusite znova.
 	The clipboard is empty.	Odložišče je prazno.
 	the Clipboard pane is empty	podokno Odložišče je prazno
-	the cursor isn't in a table	the cursor isn't in a table
+	the cursor isn't in a table	kazalec ni v tabeli
 	The date it is today	Današnji datum
 	The document has no bookmarks yet.	Dokument še nima zaznamkov.
 	the document is protected	dokument je zaščiten
@@ -2403,18 +2505,20 @@
 	The document will be saved with a password. Save it to protect it.	Dokument bo shranjen z geslom. Shranite ga, da ga zaščitite.
 	The document you are editing keeps the names and dates; only the saved file leaves them out.	Dokument, ki ga urejate, ohrani imena in datume; izpusti jih samo shranjena datoteka.
 	The margins don't fit on a page this size; make the margins smaller first.	Robovi ne sodijo na stran te velikosti; najprej pomanjšajte robove.
-	The measurement must be between {min} and {max}.	The measurement must be between {min} and {max}.
+	The measurement must be between {min} and {max}.	Mera mora biti med {min} in {max}.
 	The new style takes the formatting of the current paragraph.	Nov slog prevzame oblikovanje trenutnega odstavka.
 	The Normal template couldn't be read, so this document uses WordCraft's built-in formatting.	Predloge Navadno ni bilo mogoče prebrati, zato ta dokument uporablja vgrajeno oblikovanje programa WordCraft.
-	The number must be between 1 and {max}.	The number must be between 1 and {max}.
-	the paragraph is empty	the paragraph is empty
-	the paragraph starts with a space	the paragraph starts with a space
+	The number must be a divisor of {max}.	Število mora biti delitelj števila {max}.
+	The number must be between 1 and {max}.	Število mora biti med 1 in {max}.
+	the paragraph is empty	odstavek je prazen
+	the paragraph starts with a space	odstavek se začne s presledkom
 	The password is optional; without it anyone can stop the protection.	Geslo ni obvezno; brez njega lahko zaščito ustavi kdor koli.
 	The password is removed. Save the document to keep the change.	Geslo je odstranjeno. Shranite dokument, da ohranite spremembo.
 	The printer, two-sided printing and pages per sheet are chosen in that dialog.	Tiskalnik, obojestransko tiskanje in število strani na list izberete v tem pogovornem oknu.
 	The recipient-list field that fills each part of an address block and greeting line.	Polje s seznama prejemnikov, ki izpolni posamezni del bloka z naslovom in pozdravne vrstice.
 	The spelling and grammar check is complete.	Preverjanje črkovanja in slovnice je končano.
-	the Spike is empty	Spike je prazen
+	The spelling dictionary for {language} couldn't be read, so it isn't checked. File: {file}. Reason: {reason}	Slovarja za črkovanje za jezik {language} ni bilo mogoče prebrati, zato se ne preverja. Datoteka: {file}. Razlog: {reason}
+	the Spike is empty	zbiralnik izrezkov je prazen
 	The system file dialog isn't available, so WordCraft shows its own. To get the system dialog, install a file chooser portal (such as xdg-desktop-portal-gtk) or zenity.	Sistemsko pogovorno okno za datoteke ni na voljo, zato WordCraft prikaže svoje. Za sistemsko okno namestite portal za izbiro datotek (npr. xdg-desktop-portal-gtk) ali zenity.
 	The text at the insertion point is marked Do not check spelling or grammar.	Besedilo na mestu vstavljanja je označeno: Ne preverjaj črkovanja ali slovnice.
 	The time right now	Trenutni čas
@@ -2424,16 +2528,20 @@
 	Themes	Teme
 	Then by	Nato po
 	Then insert:	Potem vstavi:
-	there is no ink to replay	ni rokopisa za predvajanje
-	there is nothing to undo	ni ničesar za razveljaviti
+	there is no ink to replay	ni črnila za predvajanje
+	there is nothing to undo	ni česa razveljaviti
 	there's no citation after the caret	za kazalcem ni citata
 	Thesaurus	Slovar sopomenk
 	These marks show even when Show/Hide ¶ is off.	Te oznake so prikazane tudi, ko je Prikaži/skrij ¶ izklopljeno.
 	These merge fields aren't in the recipient list:	Teh polj spajanja ni na seznamu prejemnikov:
 	These settings will be used for new documents.	Te nastavitve bodo uporabljene za nove dokumente.
 	Thick	Debelo
+	Thick Frame	Debel okvir
+	Thin	Tanko
+	This cannot be undone. Your original file stays unchanged.	Tega ni mogoče razveljaviti. Vaša izvirna datoteka ostane nespremenjena.
 	this chart was made in another program: WordCraft shows it but can't edit it	ta grafikon je bil ustvarjen v drugem programu: WordCraft ga prikaže, vendar ga ne more urejati
 	This document	Ta dokument
+	This document has no custom properties.	Ta dokument nima lastnosti po meri.
 	This document only?	Samo ta dokument?
 	This field has no options.	To polje nima možnosti.
 	This folder can't be read: {error}	Te mape ni mogoče prebrati: {error}
@@ -2446,7 +2554,7 @@
 	this session has no Normal template (headless or without preferences)	ta seja nima predloge Navadno (brez vmesnika ali brez nastavitev)
 	this session has no Normal template (headless or without preferences): use "scope": "document"	ta seja nima predloge Navadno (brez vmesnika ali brez nastavitev): uporabite "scope": "document"
 	this SmartArt was made in another program: WordCraft shows it but can't edit it	ta SmartArt je bil ustvarjen v drugem programu: WordCraft ga prikaže, vendar ga ne more urejati
-	this text box is already linked: break the link first	to besedilno polje je že povezano: najprej prekinite povezavo
+	this text box is already linked: break the link first	to polje z besedilom je že povezano: najprej prekinite povezavo
 	Three	Tri
 	Through	Skozi
 	Tight	Tesno
@@ -2472,6 +2580,7 @@ preview	Title	Naslov
 	Top Left Cell	Zgornja leva celica
 	Top Margin	Zgornji rob
 	Top of Page	Vrh strani
+	Top of the Document	Vrh dokumenta
 	Top Right Cell	Zgornja desna celica
 	Top:	Zgoraj:
 	Total Row	Vrstica s skupno vsoto
@@ -2482,7 +2591,7 @@ preview	Title	Naslov
 	Track\nChanges	Sledenje\nspremembam
 	Track\nChanges ✓	Sledenje\nspremembam ✓
 	Tracked changes	Sledene spremembe
-	Tracking	Razmik med znaki
+	Tracking	Sledenje
 	Trademark	Blagovna znamka
 	Trademark Sign	Znak za blagovno znamko
 	Transform	Preoblikuj
@@ -2509,9 +2618,9 @@ preview	Title	Naslov
 	Type a command, e.g. "insert table"	Vtipkajte ukaz, npr. »vstavi tabelo«
 	Type a New List…	Vnesi nov seznam …
 	Type a page number, or +2 / -1.	Vnesite številko strani ali +2 / -1.
-	Type a size in any unit, such as 5 cm or 300 px. The other side follows, so the picture keeps its proportions.	Type a size in any unit, such as 5 cm or 300 px. The other side follows, so the picture keeps its proportions.
+	Type a size in any unit, such as 5 cm or 300 px. The other side follows, so the picture keeps its proportions.	Vnesite velikost v poljubni enoti, na primer 5 cm ali 300 px. Druga stranica se prilagodi, zato slika ohrani razmerje.
 	Type at least one recipient.	Vnesite vsaj enega prejemnika.
-	Type Character Code	Vnesite kodo znaka
+	Type Character Code	Vnesi kodo znaka
 	Type equations in LaTeX	Vnašaj enačbe v LaTeX-u
 	Type equations in the linear format (UnicodeMath)	Vnašaj enačbe v linearni obliki (UnicodeMath)
 	Type in Equation	Tipkanje v enačbi
@@ -2529,7 +2638,7 @@ preview	Title	Naslov
 	Underbar	Spodnja črta
 	Underbrace	Spodnji zaviti oklepaj
 	Underline	Podčrtano
-	Underline Color	Underline Color
+	Underline Color	Barva podčrtaja
 	Underline color	Barva podčrtaja
 	Underline Words Only	Podčrtaj samo besede
 	Undo 1 Action	Razveljavi 1 dejanje
@@ -2551,6 +2660,7 @@ preview	Title	Naslov
 	Unlock Fields	Odkleni polja
 	Up Diagonal Dots	Diagonalne pike navzgor
 	Up one level	Eno raven višje
+	Update check is not supported in the web browser.	Preverjanje posodobitev v spletnem brskalniku ni podprto.
 	Update Field	Posodobi polje
 	Update fields before printing	Pred tiskanjem posodobi polja
 	Update Index	Posodobi stvarno kazalo
@@ -2574,7 +2684,7 @@ preview	Title	Naslov
 	Use wildcards	Uporabi nadomestne znake
 	User Name	Uporabniško ime
 	User name:	Uporabniško ime:
-	User templates:	User templates:
+	User templates:	Uporabniške predloge:
 	Value	Vrednost
 	Vector A	Vektor A
 	Vector AB	Vektor AB
@@ -2585,11 +2695,13 @@ preview	Title	Naslov
 	Vertical Bars	Navpičnice
 	Vertical Dots	Navpične pike
 	View Alt Text…	Pokaži nadomestno besedilo …
+	View and edit the document's custom properties.	Oglejte si in uredite lastnosti dokumenta po meri.
 	View Gridlines	Pokaži mrežne črte
 	View State	Stanje pogleda
 	View › Focus hides everything but your words. I'll wait outside.	Pogled › Osredotočenje skrije vse razen vaših besed. Počakal bom zunaj.
 	Views	Pogledi
 	Visual effects	Vizualni učinki
+	Vivid 200%	Živo 200 %
 	Voice	Glas
 	Volume	Letnik
 	Volume Integral	Prostorninski integral
@@ -2597,10 +2709,11 @@ preview	Title	Naslov
 	Volume Integral with Stacked Limits	Prostorninski integral z zloženimi mejami
 	W:	Š:
 	Wait for the print job to finish submitting before closing.	Pred zapiranjem počakajte, da se tiskalni posel pošlje.
-	Waiting for the save to finish…	Čakanje na konec shranjevanja…
+	Waiting for the save to finish…	Čakanje na konec shranjevanja …
 	Waiting for Zotero…	Čakanje na Zotero …
 	Warm Gradient with Outline	Topel preliv z obrisom
 	Warnings ({n})	Opozorila ({n})
+	Washout	Izprano
 	Wave	Val
 	Weather	Vreme
 	Web Layout	Spletna postavitev
@@ -2615,6 +2728,7 @@ preview	Title	Naslov
 	When this document was most recently saved	Kdaj je bil ta dokument nazadnje shranjen
 	White Space	Prazen prostor
 	White space	Prazen prostor
+	Who last saved the document	Kdo je nazadnje shranil dokument
 	Who the document properties name as author	Kdo je v lastnostih dokumenta naveden kot avtor
 	Whole document	Cel dokument
 	Whole page	Cela stran
@@ -2634,11 +2748,13 @@ preview	Title	Naslov
 	Word Left	Beseda levo
 	Word level	Besedna raven
 	Word Right	Beseda desno
+	Word sources	Viri Word
 	Word XML Document (*.xml)	Dokument Word XML (*.xml)
 	WordArt	WordArt
 	WordArt Styles	Slogi WordArt
 	WordCraft	WordCraft
 	WordCraft is now the default app for Word documents.	WordCraft je zdaj privzeta aplikacija za dokumente Word.
+	WordCraft {version} is currently the newest version available.	WordCraft {version} je trenutno najnovejša različica.
 	Words only	Samo besede
 	Wrap Text	Obtekaj besedilo
 	Wrap Text Sides	Strani obtekanja besedila
@@ -2661,13 +2777,14 @@ preview	Title	Naslov
 	Zotero	Zotero
 	Zotero: cancelled	Zotero: preklicano
 	Zotero: done	Zotero: končano
-	{added}; {count} couldn't be read: {names}	{added}; {count} couldn't be read: {names}
-	{added}; {n} skipped (limit {max})	{added}; {n} skipped (limit {max})
+	{added}; {count} couldn't be read: {names}	{added}; ni bilo mogoče prebrati ({count}): {names}
+	{added}; {n} skipped (limit {max})	{added}; preskočeno: {n} (omejitev {max})
 	{cols}×{rows} Table	Tabela {cols}×{rows}
 	{contributors} contributors · {commits} commits	Sodelavci: {contributors} · Potrditve: {commits}
 	{count} items highlighted	Označeni elementi: {count}
-	{count} of {total} pages will print	Natisnjenih bo strani: {count} od {total}
-	{count} of {total} recipients will be merged.	Združenih bo {count} od {total} prejemnikov.
+	{count} of {total} pages will print	Strani za tiskanje: {count} od {total}
+	{count} of {total} recipients will be merged.	Prejemniki za spajanje: {count} od {total}.
+	{field}, record {n}	{field}, zapis {n}
 	{group} settings	Nastavitve: {group}
 	{key} checks the spelling and grammar of the whole document.	{key} preveri črkovanje in slovnico v celotnem dokumentu.
 	{key} counts your words, characters and paragraphs.	{key} prešteje vaše besede, znake in odstavke.
@@ -2678,17 +2795,19 @@ preview	Title	Naslov
 	{key} turns the selected text into a link.	{key} izbrano besedilo spremeni v povezavo.
 	{key}+Click to follow link	{key}+klik za odpiranje povezave
 	{kind}, {columns} × {rows}, {size} ({paper})	{kind}, {columns} × {rows}, {size} ({paper})
+	{language} (dictionary unreadable)	{language} (slovarja ni mogoče prebrati)
 	{language} (no dictionary)	{language} (ni slovarja)
 	{language} is now the document's default language.	{language} je zdaj privzeti jezik dokumenta.
 	{language}: no dictionary found	{language}: slovar ni bil najden
 	{language}: WordCraft doesn't check spelling or grammar in this language yet.	{language}: WordCraft v tem jeziku še ne preverja črkovanja ali slovnice.
 	{language}: {file}	{language}: {file}
-	{names} and {n} more	{names} and {n} more
+	{language}: {file} (unreadable: {reason})	{language}: {file} (ni mogoče prebrati: {reason})
+	{names} and {n} more	{names} in še {n}
 	{name}   {height} × {width} in	{name}   {height} × {width} in
 	{name}   {height} × {width} mm	{name}   {height} × {width} mm
 	{name} already exists. Choose Save again to replace it.	Datoteka {name} že obstaja. Znova izberite Shrani, da jo zamenjate.
-	{name} is protected with a password.	{name} je zaščiten z geslom.
-	{name} options	{name} options
+	{name} is protected with a password.	Dokument {name} je zaščiten z geslom.
+	{name} options	Možnosti: {name}
 	{name} wasn't found.	{name} ni bilo mogoče najti.
 	{n} entries marked.	Označeni vnosi: {n}.
 	{n} lines	Vrstice: {n}
@@ -2696,7 +2815,7 @@ preview	Title	Naslov
 	{selected} of {words} words	Besede: {selected} od {words}
 	{size} pt	{size} pt
 	{width} × {height} mm	{width} × {height} mm
-	{width} × {height} pixels	{width} × {height} pixels
+	{width} × {height} pixels	{width} × {height} slikovnih pik
 	{words} words	Besede: {words}
 	{words} words and counting. Literally. I'm counting.	{words} besed in številka še raste. Dobesedno. Jaz štejem.
 	{words} words! I'd throw confetti but I'd have to clean it up.	{words} besed! Vrgel bi konfete, a bi jih moral potem pospraviti.
