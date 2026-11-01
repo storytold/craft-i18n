@@ -14,17 +14,18 @@ language.
 - Data sits in `language-data/<locale>/` (lowercase BCP 47, regional falling back to its
   language). Upstream files are published with their contents unchanged (`.aff`/`.dic`, TeX
   patterns), under fixed names (`spelling.aff`, `spelling.dic`, `hyphenation.pat`); compiling
-  them is the runtime's job. Until the SCOWL files land, English is WordCraft's Moby list
-  (`en-us/en-us.dic`) and our own word lists under their current names; `hyphenation.pat` is
-  already final. The suite word list is `language-data/words.txt`, with optional
+  them is the runtime's job. WordCraft's Moby list (`en-us/en-us.dic`) stays as the hyphenation
+  word list, with our own word lists under their current names, until craft-proof no longer
+  needs them. The suite word list is `language-data/words.txt`, with optional
   `<locale>/words.txt`; it is written here, committed and embedded with English, and a locale's
   list goes in its Language pack.
-- English (en-US and en-GB, from SCOWL) is committed and embedded in every build that
-  has `CRAFT_I18N_DIR`. A build without it (a fork, docs.rs, offline) still builds, with no
-  embedded Language data: spelling falls back to the system's Hunspell dictionaries, hyphenation
-  is off. Other languages are a **manifest** pinning each file's upstream URL, commit, sha256 and
-  licence; CI fetches, checks and publishes them as release assets, so cloning stays small and
-  English-only builds stay offline.
+- English (en-US, en-GB, en-CA and en-AU, from SCOWL) is committed and embedded in every build that
+  has `CRAFT_I18N_DIR`; craft-proof may check a regional English with another's list (it checks
+  en-AU as British-spelling English). A build without it (a fork, docs.rs, offline) still builds,
+  with no embedded Language data: spelling falls back to the system's Hunspell dictionaries,
+  hyphenation is off. Other languages are a **manifest** pinning each file's upstream URL, commit,
+  sha256 and licence; CI fetches, checks and publishes them as release assets, so cloning stays
+  small and English-only builds stay offline.
 - Other languages are **Language packs**, one per locale (spelling dictionary, hyphenation
   patterns, licences), downloaded through the suite's font store, its sha256 checks and its single
   consent setting (storytold/craft-libs#223), only after the user opts in. A **Language build**

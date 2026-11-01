@@ -52,7 +52,7 @@ licence quoted) is the starting manifest.
 ## Consequences
 
 - The repository is no longer one licence: files under `language-data/` keep their upstream
-  licences, next to them as `LICENSE-<source>.txt` (until the manifest lands, the notice in each
+  licences, next to them as `LICENCE-<source>.txt` (until the manifest lands, the notice in each
   file's header and its `ATTRIBUTION.md` row). README and `ATTRIBUTION.md` say so.
 - Languages beyond English ship as Language packs (downloads), apart from the carry-over.
 - Every new dictionary needs its licence quoted and classed in the manifest; CI does the rest.
