@@ -1,0 +1,287 @@
+# עברית (he) interface catalog for ArtCraft Launcher.
+# Columns, separated by a TAB:  context <TAB> English source text <TAB> translation
+#   context  usually empty. `@plural`, `@id` and `@msg` mean something to the apps; any other
+#            word is a label that tells apart two meanings of the same English.
+#   escapes  \n  \t  \\  inside a column. `{name}` placeholders must appear in both columns (in any
+#            order), and a trailing "…" in one needs one in the other.
+#   @plural  English `one|other`; the translation lists this language's plural forms, `|`-separated.
+#   Lines starting with # and blank lines are ignored. A missing entry shows in English.
+#
+# Clean room: every entry was written from the plain meaning of the English text in ordinary
+# computing vocabulary. No other product's localisation, string table or translated UI was
+# consulted or copied; add entries the same way.
+
+	A new version is available. Would you like to relaunch with the updated version?	גרסה חדשה זמינה. האם ברצונך להפעיל מחדש עם הגרסה המעודכנת?
+	All releases	כל הגרסאות
+	App	יישום
+column	App	יישום
+	App details	פרטי היישום
+@id	app.download	הורד עבור {os}
+@id	app.github	מאגר GitHub
+@id	app.install	התקן
+@id	app.notes	הערות שחרור
+@id	app.open	פתח
+@id	app.reinstall	התקן מחדש
+@id	app.releases	כל הגרסאות
+@id	app.reveal	הצג ב-Finder
+@id	app.uninstall	הסר התקנה…
+@id	app.update	עדכן לגרסה {v}
+@id	app.website	אתר אינטרנט
+@id	appearance.theme	מראה
+	Apps are placed inside this folder.	היישומים ממוקמים בתוך תיקייה זו.
+	Apps on this computer	יישומים במחשב זה
+	Apps you can install	יישומים שניתן להתקין
+	Apps you hid	יישומים שהסתרת
+month	Apr	אפר׳
+	Arch package (.pkg.tar.zst)	חבילת Arch (.pkg.tar.zst)
+	ArtCraft Launcher	ArtCraft Launcher
+	ArtCraft Launcher {version}	ArtCraft Launcher {version}
+	ArtCraft Launcher {version} is available.	ArtCraft Launcher {version} זמין.
+@plural	ArtCraft Launcher · {n} update available|ArtCraft Launcher · {n} updates available	ArtCraft Launcher · עדכון {n} זמין|ArtCraft Launcher · {n} עדכונים זמינים|ArtCraft Launcher · {n} עדכונים זמינים
+	ArtCraft on GitHub	ArtCraft ב-GitHub
+	ArtCraft on {name}	ArtCraft ב-{name}
+month	Aug	אוג׳
+	Automatically download and install updates	הורד והתקן עדכונים באופן אוטומטי
+	Available to install	זמין להתקנה
+	Cancel download	בטל הורדה
+	Cancel update	בטל עדכון
+	Checked {ago}	נבדק {ago}
+	Checked {ago} · using {sources}	נבדק {ago} · באמצעות {sources}
+	Checking for updates…	בודק עדכונים…
+	Checking…	בודק…
+	Classic apps	יישומים קלאסיים
+	Click to enlarge	לחץ להגדלה
+	Click to reverse the order	לחץ להיפוך הסדר
+	Click to sort by this column	לחץ למיון לפי עמודה זו
+	Coming soon	בקרוב
+cadcraft	Computer-aided design and drafting	תיב״ם (תכנון ושרטוט בעזרת מחשב)
+	Couldn't change the login item: {e}	לא ניתן לשנות את פריט ההפעלה בכניסה: {e}
+	Couldn't check for updates: {f}	לא ניתן לבדוק עדכונים: {f}
+@msg	couldn't move {path} to Trash ({reason}). Remove it in Finder instead.	לא ניתן להעביר את {path} לאשפה ({reason}). הסר אותו ב-Finder במקום זאת.
+@msg	couldn't use install folder {path}: {reason}	לא ניתן להשתמש בתיקיית ההתקנה {path}: {reason}
+	Craft App Suite	חבילת יישומי Craft
+	Custom folders use AppImage on Linux.	תיקיות מותאמות אישית משתמשות ב-AppImage בלינוקס.
+@msg	custom install folders aren't supported on this system	תיקיות התקנה מותאמות אישית אינן נתמכות במערכת זו
+	Debian package (.deb)	חבילת Debian (.deb)
+month	Dec	דצמ׳
+	Default install folder	תיקיית התקנה כברירת מחדל
+	Discard download	מחק הורדה
+	Disk image (.dmg)	דמות כונן (.dmg)
+	Download again	הורד שוב
+	Download cancelled	ההורדה בוטלה
+@msg	Download cancelled	ההורדה בוטלה
+	Download for {os}	הורד עבור {os}
+	Download paused	ההורדה הושהתה
+	Downloading	מוריד
+	Downloading {done} of {total}	מוריד {done} מתוך {total}
+	Downloading…	מוריד…
+	Downloads for {platform}	הורדות עבור {platform}
+	Downloads the new version, replaces this one and opens it again	מוריד את הגרסה החדשה, מחליף את הנוכחית ופותח אותה מחדש
+	Enlarge picture	הגדל תמונה
+	Every Craft app	כל יישומי Craft
+	Features	תכונות
+month	Feb	פבר׳
+@id	filter.all	הכול
+@id	filter.installed	מותקנים
+@id	filter.notinstalled	לא מותקנים
+@id	filter.updates	עדכונים
+	Flatpak bundle	חבילת Flatpak
+	Full changelog	יומן שינויים מלא
+	GitHub limit hit; back in {min} min	מגבלת GitHub הושגה; חזרה בעוד {min} דק׳
+	GitHub repository	מאגר GitHub
+	GitHub's hourly limit was reached; full details return in {min} min	המגבלה השעתית של GitHub הושגה; הפרטים המלאים יחזרו בעוד {min} דק׳
+@id	help.discord	Discord
+@id	help.github	GitHub
+@id	help.website	אתר אינטרנט
+	Hidden Apps	יישומים מוסתרים
+	Hide App	הסתר יישום
+photocraft	Image editing	עריכת תמונות
+	Include pre-releases (betas and release candidates)	כלול גרסאות קדם-שחרור (בטא ומועמדות לשחרור)
+	Inspired by	בהשראת
+	Install	התקן
+	Install cancelled	ההתקנה בוטלה
+	Install cancelled. The download is kept for the next try.	ההתקנה בוטלה. ההורדה נשמרת לניסיון הבא.
+	Install folder	תיקיית התקנה
+	Install new apps as	התקן יישומים חדשים בתור
+	Installed	מותקן
+column	Installed	מותקנת
+filter	Installed	מותקנים
+	installed	מותקן
+	Installed apps with a newer version	יישומים מותקנים עם גרסה חדשה יותר
+	Installed version	גרסה מותקנת
+	Installed · latest {latest}	מותקן · אחרונה {latest}
+	Installed · up to date	מותקן · מעודכן
+	Installer (.msi)	תוכנית התקנה (.msi)
+	Installing for {platform}	מתקין עבור {platform}
+	Installing on Linux	מתקין בלינוקס
+	Installing on Windows	מתקין ב-Windows
+	Installing, then restarting…	מתקין ומפעיל מחדש…
+	Installing…	מתקין…
+figcraft	Interface design and prototyping	עיצוב ממשקים ואבות-טיפוס
+month	Jan	ינו׳
+	Join the ArtCraft community on Discord	הצטרפו לקהילת ArtCraft ב-Discord
+	Join the Discord	הצטרפו ל-Discord
+month	Jul	יול׳
+month	Jun	יונ׳
+	Keep running in the tray when the window is closed	המשך לפעול בשורת המשימות כשהחלון נסגר
+	Latest	אחרונה
+column	Latest	אחרונה
+	Latest release	גרסה אחרונה
+	Latest version	גרסה אחרונה
+	Launcher	משגר
+@id	launcher.dismiss	סגור
+@id	launcher.download	הורד
+@id	launcher.notes	מה חדש
+@id	launcher.update	עדכן והפעל מחדש
+	Learn more	מידע נוסף
+	Like {name}	כמו {name}
+	link	קישור
+@id	linux.preferred_kind	התקן יישומים חדשים בתור
+	Loading ArtCraft Launcher…	טוען את ArtCraft Launcher…
+	Loading pictures…	טוען תמונות…
+month	Mar	מרץ
+	Match system	התאם למערכת
+month	May	מאי
+effectcraft	Motion graphics and visual effects	גרפיקה בתנועה ואפקטים חזותיים
+	NEW	חדש
+	New apps	יישומים חדשים
+	New installs use this folder. Updates stay in their current location.	התקנות חדשות משתמשות בתיקייה זו. עדכונים נשארים במיקומם הנוכחי.
+	Newest release	הגרסה החדשה ביותר
+	Next picture (→)	התמונה הבאה (→)
+	No apps match	אין יישומים תואמים
+	No downloads for this system	אין הורדות עבור מערכת זו
+	No notes were published with this release.	לא פורסמו הערות שחרור עם גרסה זו.
+	No release published yet	טרם פורסמה גרסה
+	Not available here	לא זמין כאן
+	Not checked yet	טרם נבדק
+	Not installed	לא מותקנים
+	Notify me when an installed app has an update	עדכן אותי כשיש עדכון ליישום מותקן
+month	Nov	נוב׳
+month	Oct	אוק׳
+	Only when I ask	רק כשאני מבקש
+	Open ArtCraft Launcher to update.	פתח את ArtCraft Launcher כדי לעדכן.
+	Open on GitHub	פתח ב-GitHub
+	Open Source Tools for Creatives, Makers, and Builders	כלי קוד פתוח ליוצרים, מעצבים ובונים
+designcraft	Page layout and publishing	עימוד דפים והוצאה לאור
+	Pause download	השהה הורדה
+lightcraft	Photo library and raw development	ספריית תמונות ופיתוח RAW
+	Pictures couldn't be loaded. Reopen this page to try again.	לא ניתן היה לטעון את התמונות. פתח עמוד זה מחדש כדי לנסות שוב.
+	Platforms	פלטפורמות
+	Portable (.zip)	נייד (.zip)
+deckcraft	Presentations and slide shows	מצגות ושקופיות
+	Previous picture (←)	התמונה הקודמת (←)
+	Questions, ideas and news from the ArtCraft team	שאלות, רעיונות וחדשות מצוות ArtCraft
+	Quit ArtCraft Launcher	צא מ-ArtCraft Launcher
+pdfcraft	Reading, organizing and protecting PDFs	קריאה, ארגון והגנה על קובצי PDF
+	Reconnecting…	מתחבר מחדש…
+soundcraft	Recording, editing and mixing audio	הקלטה, עריכה ומיקס של שמע
+	Reinstall	התקן מחדש
+	Release notes	הערות שחרור
+	Released	פורסם
+column	Released	תאריך פרסום
+	Released {date}	פורסם ב-{date}
+	Releases	גרסאות
+	Removing…	מסיר…
+	Replace what's there?	להחליף את מה שקיים שם?
+	Resume download	חדש הורדה
+	Retry install	נסה להתקין שוב
+	Retry update to {version}	נסה שוב לעדכן לגרסה {version}
+	RPM package (.rpm)	חבילת RPM (.rpm)
+	Running in the background	פועל ברקע
+	Search apps	חיפוש יישומים
+month	Sep	ספט׳
+@id	settings.open	הגדרות
+@id	settings.quit	צא מ-ArtCraft Launcher
+	Show apps as a table	הצג יישומים כטבלה
+	Show apps as cards	הצג יישומים ככרטיסים
+	Show ArtCraft Launcher	הצג את ArtCraft Launcher
+	Show in Explorer	הצג בסייר הקבצים
+	Show in Files	הצג בקבצים
+	Show in Finder	הצג ב-Finder
+	Show the window on the current desktop	הצג את החלון בשולחן העבודה הנוכחי
+@id	sort.inspired	בהשראת
+@id	sort.installed	גרסה מותקנת
+@id	sort.latest	גרסה אחרונה
+@id	sort.name	שם
+@id	sort.released	הגרסה החדשה ביותר
+@id	sort.status	מצב
+@id	sort.suite	סדר החבילה
+gridcraft	Spreadsheets and data	גיליונות אלקטרוניים ונתונים
+	Start ArtCraft Launcher when I log in	הפעל את ArtCraft Launcher בעת הכניסה למערכת
+	Stop waiting; the update can be started again later	הפסק להמתין; ניתן להתחיל את העדכון שוב מאוחר יותר
+	Suite order	סדר החבילה
+	System default	ברירת המחדל של המערכת
+	System package (recommended)	חבילת מערכת (מומלץ)
+	Tarball (.tar.gz)	ארכיון (.tar.gz)
+	The app will be moved to the Trash. Your documents and settings stay.	היישום יועבר לאשפה. המסמכים וההגדרות שלך יישארו.
+	The app will be removed. Your documents and settings stay.	היישום יוסר. המסמכים וההגדרות שלך יישארו.
+	The download is still here. It's checked again, then installed.	ההורדה עדיין כאן. היא תיבדק שוב ולאחר מכן תותקן.
+	The system manages install locations here.	המערכת מנהלת כאן את מיקומי ההתקנה.
+	These notes weren't fetched (GitHub's request limit was reached). They're on the release page.	הערות אלו לא נטענו (מגבלת הבקשות של GitHub הושגה). הן זמינות בדף הגרסה.
+@msg	this release has no AppImage for a custom install folder	לגרסה זו אין AppImage עבור תיקיית התקנה מותאמת אישית
+@id	tray.close_to_tray	המשך לפעול בשורת המשימות כשהחלון נסגר
+@id	tray.login_item	הפעל את ArtCraft Launcher בעת הכניסה למערכת
+@id	tray.show_on_current_desktop	הצג את החלון בשולחן העבודה הנוכחי
+	Unhide App	בטל הסתרת יישום
+	Uninstall	הסר התקנה
+	Uninstall cancelled	הסרת ההתקנה בוטלה
+	Uninstall {name}?	להסיר את ההתקנה של {name}?
+	Uninstall…	הסר התקנה…
+	Update 1 app	עדכן יישום 1
+	Update all ({count})	עדכן הכול ({count})
+	Update and restart	עדכן והפעל מחדש
+	Update available	עדכון זמין
+	Update cancelled	העדכון בוטל
+	Update paused	העדכון הושהה
+	Update to {v}	עדכן לגרסה {v}
+@id	update.check	בדוק עדכונים
+@id	update.check_auto	בדוק עדכונים באופן אוטומטי
+@id	update.notify	עדכן אותי כשיש עדכון ליישום מותקן
+@id	update.prereleases	כלול גרסאות קדם-שחרור (בטא ומועמדות לשחרור)
+	Updates always use the format an app was installed with.	עדכונים משתמשים תמיד בתבנית שבה היישום הותקן.
+	Updating…	מעדכן…
+	Use default	השתמש בברירת מחדל
+vectorcraft	Vector illustration	איור וקטורי
+	Verifying checksum…	מאמת סכום ביקורת…
+	Verifying…	מאמת…
+	Version {latest}	גרסה {latest}
+	Version {version} installed	גרסה {version} מותקנת
+filmcraft	Video editing, color and sound	עריכת וידאו, צבע ושמע
+@id	view.grid	רשת
+@id	view.table	טבלה
+	Visit getartcraft.com	בקרו ב-getartcraft.com
+	Waiting for another app…	ממתין ליישום אחר…
+	Waiting for other installs…	ממתין להתקנות אחרות…
+	Website (coming soon)	אתר אינטרנט (בקרוב)
+	What's new	מה חדש
+	When on, opening the launcher from the menu bar brings its window to the desktop you're on. When off, macOS switches you to the desktop the window was on.	כאשר אפשרות זו פעילה, פתיחת המשגר משורת התפריטים מביאה את החלון שלו לשולחן העבודה הנוכחי. כאשר היא כבויה, macOS מעבירה אותך לשולחן העבודה שבו החלון נמצא.
+	Windows will remove it like any installed program. Your documents and settings stay.	Windows תסיר אותו כמו כל תוכנית מותקנת אחרת. המסמכים וההגדרות שלך יישארו.
+wordcraft	Writing and document design	כתיבה ועיצוב מסמכים
+	Your system's package manager will remove it, and may ask for your password. Your documents and settings stay.	מנהל החבילות של המערכת יסיר אותו, ועשוי לבקש את הסיסמה שלך. המסמכים וההגדרות שלך יישארו.
+	{a} and {b}	{a} ו-{b}
+	{count} updates are available	{count} עדכונים זמינים
+	{done} downloaded	{done} הורדו
+	{done} of {total}	{done} מתוך {total}
+	{done} of {total} downloaded	{done} מתוך {total} הורדו
+	{installed} installed · latest {latest}	{installed} מותקנת · אחרונה {latest}
+	{month} {day}, {year}	{day} ב{month} {year}
+	{name} details	פרטי {name}
+	{name} icon	סמל {name}
+@msg	{name} installed: {version}	{name} הותקן: {version}
+@msg	{name} installed: {version} (this release publishes no checksum, so only its size was checked)	{name} הותקן: {version} (גרסה זו אינה מפרסמת סכום ביקורת, לכן רק הגודל שלה נבדק)
+@msg	{name} is running. Quit it, then try again.	{name} פועל כעת. סגור אותו ונסה שוב.
+@msg	{name} updated to {version}	{name} עודכן לגרסה {version}
+@msg	{name} updated to {version} (this release publishes no checksum, so only its size was checked)	{name} עודכן לגרסה {version} (גרסה זו אינה מפרסמת סכום ביקורת, לכן רק הגודל שלה נבדק)
+@msg	{name} was removed	{name} הוסר
+	{name} {version}	{name} {version}
+	{name} {v} is available	{name} {v} זמין
+@plural	{n} app|{n} apps	יישום {n}|{n} יישומים|{n} יישומים
+@plural	{n} day ago|{n} days ago	לפני יום {n}|לפני {n} ימים|לפני {n} ימים
+@plural	{n} h ago|{n} h ago	לפני שעה ({n})|לפני {n} שעות|לפני {n} שעות
+@plural	{n} min ago|{n} min ago	לפני דקה ({n})|לפני {n} דקות|לפני {n} דקות
+@msg	{path} already exists and wasn't installed by ArtCraft Launcher	{path} כבר קיים ולא הותקן על ידי ArtCraft Launcher
+	{path} already exists. Installing {name} will overwrite it.	{path} כבר קיים. התקנת {name} תחליף אותו.
+	{version} installed → {latest} released	{version} מותקנת ← {latest} פורסמה
+	⊞  Grid	⊞  רשת
+	☰  Table	☰  טבלה
+	🔍  Search apps	🔍  חיפוש יישומים
