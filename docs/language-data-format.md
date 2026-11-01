@@ -74,9 +74,9 @@ uses its language's (`es-mx` uses `es`). **`hidden = true`** keeps a pack out of
 The reason names the engine gap in the form `craft-proof doesn't support <feature> yet (<AFF
 flag>)`; it is a statement of fact about the pinned `craft-proof`, so refresh it when the pin moves.
 As of 2026-11-01 (craft-proof at the craft-libs #482–#490 stack, rev `1a10977`): 80 locales, 3 Excluded
-(eu, ug, uk), 17 hidden (the compounding flags `COMPOUNDBEGIN`: da, de, de-at, de-ch, fa, nl;
+(eu, ug, uk), 16 hidden (the compounding flags `COMPOUNDBEGIN`: da, de, de-at, de-ch, fa, nl;
 `COMPOUNDFLAG`: eo, et, hr, hu, mn, nb, nn; `COMPOUNDPERMITFLAG`: sv, sv-fi; and th, which needs word
-segmentation; gl loads and passes but stays hidden until it is published on purpose), 60 published.
+segmentation), 61 published.
 
 ## Checks
 
