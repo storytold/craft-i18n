@@ -1,0 +1,2420 @@
+# Ελληνικά (el) interface catalog for WordCraft.
+# Columns, separated by a TAB:  context <TAB> English source text <TAB> translation
+#   context  usually empty. `@plural`, `@id` and `@msg` mean something to the apps; any other
+#            word is a label that tells apart two meanings of the same English.
+#   escapes  \n  \t  \\  inside a column. `{name}` placeholders must appear in both columns (in any
+#            order), and a trailing "…" in one needs one in the other.
+#   @plural  English `one|other`; the translation lists this language's plural forms, `|`-separated.
+#   Lines starting with # and blank lines are ignored. A missing entry shows in English.
+#
+# Clean room: every entry was written from the plain meaning of the English text in ordinary
+# computing vocabulary. No other product's localisation, string table or translated UI was
+# consulted or copied; add entries the same way.
+
+	(All)	(Όλα)
+	(no style)	(κανένα στυλ)
+	(no suggestions)	(καμία πρόταση)
+	(normal text)	(κανονικό κείμενο)
+	(not matched)	(χωρίς αντιστοίχιση)
+	(picture or object)	(εικόνα ή αντικείμενο)
+	0 or More Characters	0 ή περισσότεροι χαρακτήρες
+	1. Formatting restrictions	1. Περιορισμοί μορφοποίησης
+	1.5 Line Spacing	Διάστιχο 1,5
+	1/4 Em Space	Κενό 1/4 em
+	1×2 Empty Matrix	Κενός πίνακας 1×2
+	1×3 Empty Matrix	Κενός πίνακας 1×3
+	2. Editing restrictions	2. Περιορισμοί επεξεργασίας
+	2×1 Empty Matrix	Κενός πίνακας 2×1
+	2×2 Determinant	Ορίζουσα 2×2
+	2×2 Empty Matrix	Κενός πίνακας 2×2
+	2×2 Identity Matrix	Μοναδιαίος πίνακας 2×2
+	2×2 Identity Matrix (sparse)	Μοναδιαίος πίνακας 2×2 (αραιός)
+	2×2 Matrix in Brackets	Πίνακας 2×2 σε αγκύλες
+	2×2 Matrix in Double Bars	Πίνακας 2×2 σε διπλές μπάρες
+	2×2 Matrix in Parentheses	Πίνακας 2×2 σε παρενθέσεις
+	2×3 Empty Matrix	Κενός πίνακας 2×3
+	3-D	3D
+	3. Start enforcement	3. Έναρξη επιβολής
+	3×1 Empty Matrix	Κενός πίνακας 3×1
+	3×2 Empty Matrix	Κενός πίνακας 3×2
+	3×3 Empty Matrix	Κενός πίνακας 3×3
+	3×3 Identity Matrix	Μοναδιαίος πίνακας 3×3
+	3×3 Identity Matrix (sparse)	Μοναδιαίος πίνακας 3×3 (αραιός)
+	<< Less	<< Λιγότερα
+	<< Remove	<< Κατάργηση
+	a drawing canvas can't be ungrouped	ένας καμβάς σχεδίασης δεν μπορεί να αποομαδοποιηθεί
+	a drawing canvas can't go inside a text box	ένας καμβάς σχεδίασης δεν μπορεί να μπει μέσα σε πλαίσιο κειμένου
+	A file dialog is already open.	Ένα παράθυρο διαλόγου αρχείου είναι ήδη ανοιχτό.
+	A free, open-source word processor written from scratch in Rust.\nPart of the Crafting Apps from the ArtCraft team.	Ένας δωρεάν επεξεργαστής κειμένου ανοιχτού κώδικα, γραμμένος από το μηδέν σε Rust.\nΜέρος των Crafting Apps από την ομάδα ArtCraft.
+	a group holding Word ink can't be ungrouped yet	μια ομάδα που περιέχει μελάνι Word δεν μπορεί ακόμη να αποομαδοποιηθεί
+	A mail merge field	Ένα πεδίο συγχώνευσης αλληλογραφίας
+	A numbered sequence (figures, tables…)	Μια αριθμημένη ακολουθία (σχήματα, πίνακες…)
+	A password is required to open this document.	Απαιτείται κωδικός πρόσβασης για το άνοιγμα αυτού του εγγράφου.
+	A table of contents	Πίνακας περιεχομένων
+	A xor B	A xor B
+	A, B, C, …	A, B, C, …
+	a, b, c, …	a, b, c, …
+	AaBbCcDd	AaBbCcDd
+	AaBbYyZz	AaBbYyZz ÀàÈé
+	About WordCraft	Σχετικά με το WordCraft
+	Above Chart	Πάνω από το γράφημα
+	Above the item	Πάνω από το στοιχείο
+	Absolute value cases	Περιπτώσεις απόλυτης τιμής
+	Accent	Τόνος
+	Accent Gradient	Διαβάθμιση τόνου
+	Accent with Reflection	Τόνος με αντανάκλαση
+	Accent {n}	Τόνος {n}
+	Accents	Τόνοι
+	Accept	Αποδοχή
+	Accept and Move to Next	Αποδοχή και μετακίνηση στο επόμενο
+	Accept All Changes	Αποδοχή όλων των αλλαγών
+	Accept This Change	Αποδοχή αυτής της αλλαγής
+	Accept All Changes and Stop Tracking	Αποδοχή όλων των αλλαγών και διακοπή παρακολούθησης
+	Accessed on	Πρόσβαση στις
+	Accessibility Pane	Παράθυρο προσβασιμότητας
+	Account	Λογαριασμός
+	Acute	Οξεία
+	Add >>	Προσθήκη >>
+	Add a Table	Προσθήκη πίνακα
+	Add at least one field.	Προσθέστε τουλάχιστον ένα πεδίο.
+	Add Chart Element	Προσθήκη στοιχείου γραφήματος
+	Add Condition	Προσθήκη συνθήκης
+	Add Field	Προσθήκη πεδίου
+	Add Font…	Προσθήκη γραμματοσειράς…
+	Add gradient stop	Προσθήκη σημείου διαβάθμισης
+	Add line numbering	Προσθήκη αρίθμησης γραμμών
+	Add New Source…	Προσθήκη νέας πηγής…
+	Add Object to Selection	Προσθήκη αντικειμένου στην επιλογή
+	Add Pen	Προσθήκη στυλό
+	Add Row	Προσθήκη γραμμής
+	Add Series	Προσθήκη σειράς
+	Add Shape	Προσθήκη σχήματος
+	Add Space Before Paragraph	Προσθήκη κενού πριν από την παράγραφο
+	Add space between Asian and Latin text	Προσθήκη κενού μεταξύ ασιατικού και λατινικού κειμένου
+	Add space between Asian text and numbers	Προσθήκη κενού μεταξύ ασιατικού κειμένου και αριθμών
+	Add tab stop at:	Προσθήκη στάσης στηλοθέτη στο:
+	Add Text	Προσθήκη κειμένου
+	Add the chapter number	Προσθήκη του αριθμού κεφαλαίου
+	Add to Document	Προσθήκη στο έγγραφο
+	Add to Quick Access Toolbar	Προσθήκη στη γραμμή γρήγορης πρόσβασης
+	Add to Style Gallery	Προσθήκη στη συλλογή στυλ
+	Add whether it is above or below	Προσθήκη αν βρίσκεται πάνω ή κάτω
+	Add/Edit\nBibliography	Προσθήκη/επεξεργασία\nβιβλιογραφίας
+	Add/Edit\nCitation	Προσθήκη/επεξεργασία\nπαραπομπής
+	Add\nNote	Προσθήκη\nσημείωσης
+	Add\nPen	Προσθήκη\nστυλό
+	Add\nShape	Προσθήκη\nσχήματος
+	Added 1 font	Προστέθηκε 1 γραμματοσειρά
+	Added Fonts	Προστιθέμενες γραμματοσειρές
+	Added {n} fonts	Προστέθηκαν {n} γραμματοσειρές
+	Address	Διεύθυνση
+	Address Block	Μπλοκ διευθύνσεων
+	Address labels	Ετικέτες διευθύνσεων
+	Address:	Διεύθυνση:
+	Address\nBlock	Μπλοκ\nδιευθύνσεων
+	Advanced Find	Σύνθετη εύρεση
+	Advanced Find…	Σύνθετη εύρεση…
+	After:	Μετά:
+	Agents	Πράκτορες
+	Agents connected to WordCraft can show you messages through the Assistant. Muted, they're told you'd rather not.	Οι πράκτορες που είναι συνδεδεμένοι στο WordCraft μπορούν να σας εμφανίζουν μηνύματα μέσω του Βοηθού. Όταν είναι σε σίγαση, ενημερώνονται ότι προτιμάτε να μη λαμβάνετε.
+	Ah, Latin. The language of deadlines.	Α, τα Λατινικά. Η γλώσσα των προθεσμιών.
+	Ah, the editing phase. My favourite. Very decisive.	Α, η φάση της επεξεργασίας. Η αγαπημένη μου. Πολύ αποφασιστική.
+	Align Bottom Center	Στοίχιση κάτω στο κέντρο
+	Align Bottom Left	Στοίχιση κάτω αριστερά
+	Align Bottom Right	Στοίχιση κάτω δεξιά
+	Align Center	Στοίχιση στο κέντρο
+	Align Center Left	Στοίχιση κέντρου αριστερά
+	Align Center Right	Στοίχιση κέντρου δεξιά
+	Align Top Center	Στοίχιση πάνω στο κέντρο
+	Align Top Left	Στοίχιση πάνω αριστερά
+	Align Top Right	Στοίχιση πάνω δεξιά
+	Aligned at:	Στοίχιση στο:
+	All - Linear	Όλα - Γραμμικά
+	All - Professional	Όλα - Επαγγελματικά
+	All Borders	Όλα τα περιγράμματα
+	All caps	Όλα κεφαλαία
+	All Commands	Όλες οι εντολές
+	All Fonts	Όλες οι γραμματοσειρές
+	All Levels	Όλα τα επίπεδα
+	All Markup	Όλες οι σημάνσεις
+	All pages in the range	Όλες οι σελίδες στο εύρος
+	All symbol sets	Όλα τα σύνολα συμβόλων
+	All system fonts are already available.	Όλες οι γραμματοσειρές συστήματος είναι ήδη διαθέσιμες.
+	Allow hanging punctuation	Να επιτρέπεται εκκρεμής στίξη
+	Allow Latin text to wrap in the middle of a word	Να επιτρέπεται η αναδίπλωση λατινικού κειμένου στη μέση λέξης
+	Allow line breaks	Να επιτρέπονται αλλαγές γραμμής
+	Allow row to break across pages	Να επιτρέπεται ο διαχωρισμός γραμμής μεταξύ σελίδων
+	Alphabetical	Αλφαβητικά
+	Alt Text	Εναλλακτικό κείμενο
+	Alt text	Εναλλακτικό κείμενο
+	Alt Text Pane	Παράθυρο εναλλακτικού κειμένου
+	Alt:	Alt:
+	Alt\nText	Εναλλακτικό\nκείμενο
+	an agent	ένας πράκτορας
+	And	Και
+	Angle Brackets	Γωνιακές αγκύλες
+	Angle Brackets with Separator	Γωνιακές αγκύλες με διαχωριστικό
+	Angle Brackets with Two Separators	Γωνιακές αγκύλες με δύο διαχωριστικά
+	Animate the caret (it glides and fades)	Κίνηση του δρομέα (ολισθαίνει και ξεθωριάζει)
+	Animation effects:	Εφέ κίνησης:
+	Annotation Reference	Αναφορά σχολιασμού
+	Annotation Subject	Θέμα σχολιασμού
+	Annotation Text	Κείμενο σχολιασμού
+	Annoying	Ενοχλητικό
+	Another file	Άλλο αρχείο
+	Any Character	Οποιοσδήποτε χαρακτήρας
+	Any Digit	Οποιοδήποτε ψηφίο
+	Any field	Οποιοδήποτε πεδίο
+	Any Letter	Οποιοδήποτε γράμμα
+	Anyone can open this document. Encrypt it with a password to keep it private.	Οποιοσδήποτε μπορεί να ανοίξει αυτό το έγγραφο. Κρυπτογραφήστε το με κωδικό πρόσβασης για να το κρατήσετε ιδιωτικό.
+	Anyone who opens the document will need this password.	Όποιος ανοίξει το έγγραφο θα χρειαστεί αυτόν τον κωδικό πρόσβασης.
+	APA	APA
+	Apply as you type	Εφαρμογή κατά την πληκτρολόγηση
+	Apply Asian line-breaking rules (kinsoku)	Εφαρμογή ασιατικών κανόνων αλλαγής γραμμής (kinsoku)
+	Apply formatting to:	Εφαρμογή μορφοποίησης σε:
+	Apply Style	Εφαρμογή στυλ
+	Apply Styles	Εφαρμογή στυλ
+	Arabic	Αραβικά
+	Arch Down	Τόξο προς τα κάτω
+	Arch Up	Τόξο προς τα πάνω
+	Arrange\nAll	Τακτοποίηση\nόλων
+	Article I.	Άρθρο I.
+	Artistic Effects	Καλλιτεχνικά εφέ
+	As Recommended	Όπως συνιστάται
+	As you type	Κατά την πληκτρολόγηση
+	ASAP	ΤΟ ΣΥΝΤΟΜΟΤΕΡΟ ΔΥΝΑΤΟ
+	Asian text font:	Γραμματοσειρά ασιατικού κειμένου:
+	Asian Typography	Ασιατική τυπογραφία
+	Assistant	Βοηθός
+	Assistant Suggestions	Προτάσεις βοηθού
+	At least	Τουλάχιστον
+	At least {n}	Τουλάχιστον {n}
+	Atelier	Atelier
+	Atmosphere	Ατμόσφαιρα
+	Attach Template	Επισύναψη προτύπου
+	Attach…	Επισύναψη…
+	AutoCorrect	Αυτόματη διόρθωση
+	AutoCorrect Options	Επιλογές αυτόματης διόρθωσης
+	AutoFit	Αυτόματη προσαρμογή
+	AutoFit behavior	Συμπεριφορά αυτόματης προσαρμογής
+	AutoFit Column by Double-Clicking	Αυτόματη προσαρμογή στήλης με διπλό κλικ
+	AutoFit Contents	Αυτόματη προσαρμογή στα περιεχόμενα
+	AutoFit to contents	Αυτόματη προσαρμογή στα περιεχόμενα
+	AutoFit to window	Αυτόματη προσαρμογή στο παράθυρο
+	AutoFit Window	Αυτόματη προσαρμογή στο παράθυρο
+	AutoFormat As You Type	Αυτόματη μορφοποίηση κατά την πληκτρολόγηση
+	Automatic ({language})	Αυτόματο ({language})
+	Automatic ({region})	Αυτόματο ({region})
+	Automatic bulleted lists	Αυτόματες λίστες με κουκκίδες
+	Automatic follows your system's language. Menus and commands change; your documents don't.	Το Αυτόματο ακολουθεί τη γλώσσα του συστήματός σας. Τα μενού και οι εντολές αλλάζουν· τα έγγραφά σας όχι.
+	Automatic numbered lists	Αυτόματες αριθμημένες λίστες
+	Automatic Table 1 (3 levels)	Αυτόματος πίνακας 1 (3 επίπεδα)
+	Automatic Table 2 (2 levels)	Αυτόματος πίνακας 2 (2 επίπεδα)
+	Automatically hyphenate document	Αυτόματος συλλαβισμός εγγράφου
+	Automatically Update Document Styles	Αυτόματη ενημέρωση στυλ εγγράφου
+	Automatically update document styles	Αυτόματη ενημέρωση στυλ εγγράφου
+	AutoSave	Αυτόματη αποθήκευση
+	AutoSave documents you have saved in WordCraft	Αυτόματη αποθήκευση εγγράφων που έχετε αποθηκεύσει στο WordCraft
+	AutoSave failed: {error}. Save the document to turn AutoSave back on.	Η αυτόματη αποθήκευση απέτυχε: {error}. Αποθηκεύστε το έγγραφο για να ενεργοποιήσετε ξανά την αυτόματη αποθήκευση.
+	AutoSave isn't available in the browser: it can't write to your files. Save downloads a copy.	Η αυτόματη αποθήκευση δεν είναι διαθέσιμη στο πρόγραμμα περιήγησης: δεν μπορεί να γράψει στα αρχεία σας. Η Αποθήκευση κατεβάζει ένα αντίγραφο.
+	AutoSave only keeps .docx, .odt and .rtf files; {name} can't keep all formatting. Save as .docx to turn on AutoSave.	Η αυτόματη αποθήκευση διατηρεί μόνο αρχεία .docx, .odt και .rtf· το {name} δεν μπορεί να διατηρήσει όλη τη μορφοποίηση. Αποθηκεύστε ως .docx για να ενεργοποιήσετε την αυτόματη αποθήκευση.
+	AutoSave saves every change to the file (needs a saved document)	Η αυτόματη αποθήκευση αποθηκεύει κάθε αλλαγή στο αρχείο (απαιτείται αποθηκευμένο έγγραφο)
+	AutoSave writes your changes to the file a moment after you stop typing.	Η αυτόματη αποθήκευση γράφει τις αλλαγές σας στο αρχείο λίγο αφού σταματήσετε να πληκτρολογείτε.
+	AutoText	Αυτόματο κείμενο
+	B4 (JIS)   10.12" × 14.33"	B4 (JIS)   10,12" × 14,33"
+	B5 (JIS)   7.17" × 10.12"	B5 (JIS)   7,17" × 10,12"
+	Balloons	Φυσαλίδες
+	Banded Columns	Εναλλασσόμενες στήλες
+	Banded Rows	Εναλλασσόμενες γραμμές
+	Base text:	Βασικό κείμενο:
+	Based on: {style}	Με βάση: {style}
+	Baseline Dots	Κουκκίδες γραμμής βάσης
+	Basic Cycle	Βασικός κύκλος
+	Basic List	Βασική λίστα
+	Basic Math	Βασικά μαθηματικά
+	Basic Matrix	Βασικός πίνακας
+	Basic Process	Βασική διαδικασία
+	Basic Pyramid	Βασική πυραμίδα
+	Basic Radial	Βασικό ακτινωτό
+	Basic Venn	Βασικό Venn
+	Bayes' rule	Κανόνας Bayes
+	Before:	Πριν:
+	Beginning of Word	Αρχή λέξης
+	Behind Text	Πίσω από το κείμενο
+	Below text	Κάτω από το κείμενο
+	Below the item	Κάτω από το στοιχείο
+	Between	Μεταξύ
+	Bibliography	Βιβλιογραφία
+	Binomial Coefficient	Διωνυμικός συντελεστής
+	Binomial Coefficient (angle)	Διωνυμικός συντελεστής (γωνία)
+	Binomial Coefficient with Angle Brackets	Διωνυμικός συντελεστής με γωνιακές αγκύλες
+	Binomial expansion of (x+a)ⁿ	Διωνυμική ανάπτυξη του (x+a)ⁿ
+	Blank	Κενό
+	Blank (Three Columns)	Κενό (τρεις στήλες)
+	Blank document	Κενό έγγραφο
+	Blank Page	Κενή σελίδα
+	Block\nAuthors	Αποκλεισμός\nσυγγραφέων
+	Blue:	Μπλε:
+	Body Text	Κύριο κείμενο
+	Body text in a short paragraph to show spacing.	Κύριο κείμενο σε σύντομη παράγραφο για επίδειξη διαστημάτων.
+	Bold choice. Ctrl+Z is right there if you need it.	Τολμηρή επιλογή. Το Ctrl+Z είναι εκεί αν το χρειαστείτε.
+	Book	Βιβλίο
+	Book Title	Τίτλος βιβλίου
+	Book title	Τίτλος βιβλίου
+	Bookmark	Σελιδοδείκτης
+	Bookmark name:	Όνομα σελιδοδείκτη:
+	Border lines	Γραμμές περιγράμματος
+	Border Painter	Ζωγράφος περιγραμμάτων
+	Border\nPainter	Ζωγράφος\nπεριγραμμάτων
+	Borders and Shading	Περιγράμματα και σκίαση
+	Borders and Shading…	Περιγράμματα και σκίαση…
+	Both Sides	Και στις δύο πλευρές
+	Bottom Border	Κάτω περίγραμμα
+	Bottom Left Cell	Κάτω αριστερό κελί
+	Bottom Margin	Κάτω περιθώριο
+	Bottom of Page	Κάτω μέρος σελίδας
+	Bottom Right Cell	Κάτω δεξί κελί
+	Box	Πλαίσιο
+	Boxed Formula	Πλαισιωμένος τύπος
+	Boxed Formula (example)	Πλαισιωμένος τύπος (παράδειγμα)
+	Boxed Formulas	Πλαισιωμένοι τύποι
+	Braces	Άγκιστρα
+	Braces with Separator	Άγκιστρα με διαχωριστικό
+	Bracket	Αγκύλη
+	Brackets	Αγκύλες
+	Brackets with Separators	Αγκύλες με διαχωριστικά
+	Breaks	Αλλαγές
+	Breve	Βραχεία
+	Browse in WordCraft…	Περιήγηση στο WordCraft…
+	Building Block Gallery Content Control	Στοιχείο ελέγχου περιεχομένου συλλογής δομικών στοιχείων
+	Built-In	Ενσωματωμένο
+	Built-in style	Ενσωματωμένο στυλ
+	Built-in styles can't be deleted.	Τα ενσωματωμένα στυλ δεν μπορούν να διαγραφούν.
+	Bullet Library	Βιβλιοθήκη κουκκίδων
+	Bullets	Κουκκίδες
+	By author	Ανά συγγραφέα
+	Calendar	Ημερολόγιο
+	Can't be deleted	Δεν μπορεί να διαγραφεί
+	Can't find a command? Press Alt+Q and type what you want to do.	Δεν βρίσκετε μια εντολή; Πατήστε Alt+Q και πληκτρολογήστε τι θέλετε να κάνετε.
+	can't split at the first row	δεν είναι δυνατός ο διαχωρισμός στην πρώτη γραμμή
+	Canvas Member	Μέλος καμβά
+	Capitalize Each Word	Κεφαλαίο σε κάθε λέξη
+	Capitalize first letter of sentences	Κεφαλαίο πρώτο γράμμα προτάσεων
+	Capitalize first letter of table cells	Κεφαλαίο πρώτο γράμμα κελιών πίνακα
+	Capitalize names of days	Κεφαλαίο σε ονόματα ημερών
+	Capitalize the first word of a sentence	Κεφαλαίο στην πρώτη λέξη πρότασης
+	Caption Numbering	Αρίθμηση λεζάντας
+	Caption text	Κείμενο λεζάντας
+	Caption:	Λεζάντα:
+	Captions	Λεζάντες
+	Careful, any further back and we'll undo the invention of paper.	Προσοχή, λίγο ακόμη και θα αναιρέσουμε την εφεύρεση του χαρτιού.
+	Caret Character	Χαρακτήρας περισπωμένης
+	Case changes	Αλλαγές πεζών/κεφαλαίων
+	Cases (Three Conditions)	Περιπτώσεις (τρεις συνθήκες)
+	Cases (Two Conditions)	Περιπτώσεις (δύο συνθήκες)
+	Cases and Stacks	Περιπτώσεις και στοίβες
+	Categories	Κατηγορίες
+	Categories:	Κατηγορίες:
+	Category {n}	Κατηγορία {n}
+	Ceiling	Οροφή
+	Cell	Κελί
+	Cell Margins	Περιθώρια κελιού
+	Cell\nMargins	Περιθώρια\nκελιού
+	Center Glow	Κεντρική λάμψη
+	Centered as Group	Στο κέντρο ως ομάδα
+	Change Chart Type	Αλλαγή τύπου γραφήματος
+	Change Colors	Αλλαγή χρωμάτων
+	Change in y over change in x	Μεταβολή y προς μεταβολή x
+	Change Layout	Αλλαγή διάταξης
+	Change List Level	Αλλαγή επιπέδου λίστας
+	Change Password…	Αλλαγή κωδικού πρόσβασης…
+	Change Picture	Αλλαγή εικόνας
+	Change Picture…	Αλλαγή εικόνας…
+	Change Shape	Αλλαγή σχήματος
+	Change Structure	Αλλαγή δομής
+	Change to Display	Αλλαγή σε εμφάνιση
+	Change to Inline	Αλλαγή σε ενσωματωμένο
+	Change to Level 1	Αλλαγή σε επίπεδο 1
+	Change to Level 2	Αλλαγή σε επίπεδο 2
+	Change to Level 3	Αλλαγή σε επίπεδο 3
+	Change to Level 4	Αλλαγή σε επίπεδο 4
+	Change to Level 5	Αλλαγή σε επίπεδο 5
+	Change to Level 6	Αλλαγή σε επίπεδο 6
+	Change to Level 7	Αλλαγή σε επίπεδο 7
+	Change to Level 8	Αλλαγή σε επίπεδο 8
+	Change to Level 9	Αλλαγή σε επίπεδο 9
+	Change\nChart Type	Αλλαγή τύπου\nγραφήματος
+	Change\nColors	Αλλαγή\nχρωμάτων
+	Changed lines:	Αλλαγμένες γραμμές:
+	Changes	Αλλαγές
+	Chapter 1	Κεφάλαιο 1
+	Chapter in a book	Κεφάλαιο σε βιβλίο
+	Chapters begin at:	Τα κεφάλαια ξεκινούν από:
+	Character Border	Περίγραμμα χαρακτήρα
+	Character code:	Κωδικός χαρακτήρα:
+	Character in Range	Χαρακτήρας στο εύρος
+	Character level	Επίπεδο χαρακτήρα
+	Character Position	Θέση χαρακτήρα
+	Character Scale	Κλίμακα χαρακτήρα
+	Character Shading	Σκίαση χαρακτήρα
+	Character Spacing	Απόσταση χαρακτήρων
+	Character spacing	Απόσταση χαρακτήρων
+	Character style	Στυλ χαρακτήρα
+	Characters (no spaces)	Χαρακτήρες (χωρίς κενά)
+	Characters (with spaces)	Χαρακτήρες (με κενά)
+	Characters per line:	Χαρακτήρες ανά γραμμή:
+	Chart	Γράφημα
+	Chart Design	Σχεδίαση γραφήματος
+	Chart Layouts	Διατάξεις γραφήματος
+	Chart Title	Τίτλος γραφήματος
+	charts and diagrams can't be moved or resized yet	γραφήματα και διαγράμματα δεν μπορούν ακόμη να μετακινηθούν ή να αλλάξουν μέγεθος
+	Check	Σημάδι
+	Check Accessibility	Έλεγχος προσβασιμότητας
+	Check Box Content Control	Στοιχείο ελέγχου περιεχομένου πλαισίου ελέγχου
+	Check Compatibility	Έλεγχος συμβατότητας
+	Check for Errors	Έλεγχος για σφάλματα
+	Check Spelling as You Type	Ορθογραφικός έλεγχος κατά την πληκτρολόγηση
+	Check spelling as you type	Ορθογραφικός έλεγχος κατά την πληκτρολόγηση
+	Check\nAccessibility	Έλεγχος\nπροσβασιμότητας
+	Checked styles are allowed:	Επιτρέπονται τα επιλεγμένα στυλ:
+	Checked symbol	Επιλεγμένο σύμβολο
+	Chevron Down	Σημάδι V κάτω
+	Chevron Up	Σημάδι V πάνω
+	Chicago	Chicago
+	Chinese (Simplified)	Κινεζικά (απλοποιημένα)
+	Chinese (Traditional)	Κινεζικά (παραδοσιακά)
+	Choose a command	Επιλέξτε μια εντολή
+	Choose a shortcut	Επιλέξτε συντόμευση
+	Choose List Item	Επιλογή στοιχείου λίστας
+	Choose the sheet that holds the recipients.	Επιλέξτε το φύλλο που περιέχει τους παραλήπτες.
+	Circle area from its radius	Εμβαδόν κύκλου από την ακτίνα
+	Circled Dot	Κυκλωμένη τελεία
+	Circled Plus	Κυκλωμένο συν
+	Circled Times	Κυκλωμένο επί
+	Citation Style	Στυλ παραπομπής
+	Citations	Παραπομπές
+	Citations & Bibliography	Παραπομπές και βιβλιογραφία
+	Clear All Formatting	Εκκαθάριση όλης της μορφοποίησης
+	Clear Character Formatting	Εκκαθάριση μορφοποίησης χαρακτήρα
+	Clear Character Style	Εκκαθάριση στυλ χαρακτήρα
+	Clear Formatting Level	Εκκαθάριση επιπέδου μορφοποίησης
+	Clear Paragraph Formatting	Εκκαθάριση μορφοποίησης παραγράφου
+	Click a border between two cells to merge them. Esc stops.	Κάντε κλικ σε ένα περίγραμμα μεταξύ δύο κελιών για να τα συγχωνεύσετε. Esc για έξοδο.
+	Click an item to paste it.	Κάντε κλικ σε ένα στοιχείο για επικόλληση.
+	Click level to modify:	Κάντε κλικ στο επίπεδο για τροποποίηση:
+	Click the empty text box the text should continue in (Esc cancels)	Κάντε κλικ στο κενό πλαίσιο κειμένου όπου θα συνεχιστεί το κείμενο (Esc ακυρώνει)
+	Click to switch back to inserting	Κάντε κλικ για επιστροφή στην εισαγωγή
+	Clipboard Contents	Περιεχόμενα προχείρου
+	Clipboard Items	Στοιχεία προχείρου
+	Clipboard Pane	Παράθυρο προχείρου
+	Close Equation	Κλείσιμο εξίσωσης
+	Close Header and Footer	Κλείσιμο κεφαλίδας και υποσέλιδου
+	Close Outline View	Κλείσιμο προβολής διάρθρωσης
+	Close Outline\nView	Κλείσιμο προβολής\nδιάρθρωσης
+	Clustered Bar	Ομαδοποιημένες ράβδοι
+	Clustered Column	Ομαδοποιημένες στήλες
+	cm	cm
+	Col #:	Αρ. στήλης:
+	Collapse Selection	Σύμπτυξη επιλογής
+	Collate copies	Συγκέντρωση αντιτύπων
+	Collect entries from:	Συλλογή καταχωρήσεων από:
+	Colon Equal	Άνω-κάτω τελεία ίσον
+	Color model:	Μοντέλο χρώματος:
+	Color only	Μόνο χρώμα
+	Color: {color}	Χρώμα: {color}
+	Colorful	Πολύχρωμο
+	Column	Στήλη
+	Column Break	Αλλαγή στήλης
+	Column Selection	Επιλογή στήλης
+	Column {n}	Στήλη {n}
+	Column:	Στήλη:
+	Combine Documents	Συνδυασμός εγγράφων
+	Combo Box Content Control	Στοιχείο ελέγχου περιεχομένου σύνθετου πλαισίου
+	Commands	Εντολές
+	Commas	Κόμματα
+	Comment	Σχόλιο
+	Comments beside each page and tracked changes in PDFs, prints and images; a comment list at the end of web pages, Markdown and text.	Σχόλια δίπλα σε κάθε σελίδα και παρακολουθούμενες αλλαγές σε PDF, εκτυπώσεις και εικόνες· λίστα σχολίων στο τέλος ιστοσελίδων, Markdown και κειμένου.
+	Comments Pane	Παράθυρο σχολίων
+	Common Accent Objects	Συνήθη αντικείμενα τόνου
+	Common Brackets	Συνήθεις αγκύλες
+	Common Fractions	Συνήθη κλάσματα
+	Common Functions	Συνήθεις συναρτήσεις
+	Common Large Operators	Συνήθεις μεγάλοι τελεστές
+	Common Operator Structures	Συνήθεις δομές τελεστών
+	Common Operators	Συνήθεις τελεστές
+	Common Radicals	Συνήθη ριζικά
+	Common Subscripts and Superscripts	Συνήθεις δείκτες και εκθέτες
+	Communication	Επικοινωνία
+	Community\nDiscord	Κοινότητα\nDiscord
+	Compact	Συμπαγές
+	Compare Documents	Σύγκριση εγγράφων
+	Compare to	Σύγκριση με
+	Compared: {changes} changes	Συγκρίθηκαν: {changes} αλλαγές
+	Comparing with another file needs the desktop app.	Η σύγκριση με άλλο αρχείο απαιτεί την εφαρμογή υπολογιστή.
+	Comparison settings	Ρυθμίσεις σύγκρισης
+	Compress Pictures	Συμπίεση εικόνων
+	Compress punctuation at the start of a line	Συμπίεση στίξης στην αρχή γραμμής
+	Conference	Διάσκεψη
+	Conference paper	Εργασία διάσκεψης
+	CONFIDENTIAL	ΕΜΠΙΣΤΕΥΤΙΚΟ
+	Confirm password:	Επιβεβαίωση κωδικού πρόσβασης:
+	Connect Shapes	Σύνδεση σχημάτων
+	Container Title	Τίτλος περιέκτη
+	Content Control at Selection	Στοιχείο ελέγχου περιεχομένου στην επιλογή
+	Content Control Properties	Ιδιότητες στοιχείου ελέγχου περιεχομένου
+	Contents can't be edited	Τα περιεχόμενα δεν μπορούν να επεξεργαστούν
+	Context	Πλαίσιο
+	Continue from previous section	Συνέχεια από προηγούμενη ενότητα
+	Continuous	Συνεχές
+	Continuous numbering	Συνεχής αρίθμηση
+	Contour Integral	Επικαμπύλιο ολοκλήρωμα
+	Contour Integral with Limits	Επικαμπύλιο ολοκλήρωμα με όρια
+	Contour Integral with Stacked Limits	Επικαμπύλιο ολοκλήρωμα με στοιβαγμένα όρια
+	Contour Integrals	Επικαμπύλια ολοκληρώματα
+	Contributors	Συνεισφέροντες
+	Controls	Στοιχεία ελέγχου
+	Conversions	Μετατροπές
+	Convert between built-up and linear form	Μετατροπή μεταξύ δομημένης και γραμμικής μορφής
+	Convert Notes	Μετατροπή σημειώσεων
+	Convert Text to Table	Μετατροπή κειμένου σε πίνακα
+	Convert Text to Table…	Μετατροπή κειμένου σε πίνακα…
+	Convert to Shapes	Μετατροπή σε σχήματα
+	Convert to Text	Μετατροπή σε κείμενο
+	Coproduct	Συνγινόμενο
+	Coproduct with Limits	Συνγινόμενο με όρια
+	Coproduct with Lower Limit	Συνγινόμενο με κάτω όριο
+	Coproduct with Subscript-Superscript Limits	Συνγινόμενο με όρια δείκτη-εκθέτη
+	Copy Formatting	Αντιγραφή μορφοποίησης
+	Copy of the text a bookmark marks	Αντίγραφο του κειμένου που επισημαίνει σελιδοδείκτης
+	Copy Styles	Αντιγραφή στυλ
+	Copy to	Αντιγραφή σε
+	Copyright Sign	Σύμβολο πνευματικών δικαιωμάτων
+	Correct accidental usage of cAPS LOCK key	Διόρθωση τυχαίας χρήσης του πλήκτρου cAPS LOCK
+	Correct TWo INitial CApitals	Διόρθωση ΔΥο ΑΡχικών ΚΕφαλαίων
+	Corrections	Διορθώσεις
+	Cosecant Function	Συνάρτηση συντέμνουσας
+	Cosine 2x	Συνημίτονο 2x
+	Cosine Function	Συνάρτηση συνημιτόνου
+	Cotangent Function	Συνάρτηση συνεφαπτομένης
+	Couldn't download {name}: {error}	Δεν ήταν δυνατή η λήψη του {name}: {error}
+	Couldn't make WordCraft the default: {error}	Δεν ήταν δυνατός ο ορισμός του WordCraft ως προεπιλογής: {error}
+	Couldn't open {path}: {error}	Δεν ήταν δυνατό το άνοιγμα του {path}: {error}
+	Count by:	Μέτρηση ανά:
+	Count words in text boxes and notes	Μέτρηση λέξεων σε πλαίσια κειμένου και σημειώσεις
+	Courtesy Title	Τίτλος ευγενείας
+	Cover Page	Εξώφυλλο
+	Craft	Craft
+	Create a Style	Δημιουργία στυλ
+	Create an interactive outline of your document.\n\nIt's a great way to keep track of where you are or quickly move your content around.\n\nTo get started, go to the Home tab and apply Heading styles to the headings in your document.	Δημιουργήστε μια διαδραστική διάρθρωση του εγγράφου σας.\n\nΕίναι ένας εξαιρετικός τρόπος να παρακολουθείτε πού βρίσκεστε ή να μετακινείτε γρήγορα το περιεχόμενό σας.\n\nΓια να ξεκινήσετε, μεταβείτε στην καρτέλα Κεντρική και εφαρμόστε στυλ επικεφαλίδας στις επικεφαλίδες του εγγράφου σας.
+	Create Graphic	Δημιουργία γραφικού
+	Create Link	Δημιουργία σύνδεσης
+	Create New Style	Δημιουργία νέου στυλ
+	Create Source	Δημιουργία πηγής
+	Croatian	Κροατικά
+	Cross-reference	Παραπομπή
+	Cross-reference:	Παραπομπή:
+	{key} starts a new page. Much tidier than pressing Enter until it happens.	Το {key} ξεκινά νέα σελίδα. Πολύ πιο τακτοποιημένο από το πάτημα Enter μέχρι να συμβεί.
+	{key} finds and replaces text, formatting and special characters.	Το {key} βρίσκει και αντικαθιστά κείμενο, μορφοποίηση και ειδικούς χαρακτήρες.
+	{key} turns the selected text into a link.	Το {key} μετατρέπει το επιλεγμένο κείμενο σε σύνδεσμο.
+	{key} counts your words, characters and paragraphs.	Το {key} μετρά λέξεις, χαρακτήρες και παραγράφους.
+	Cube Root	Κυβική ρίζα
+	Current - Linear	Τρέχον - Γραμμικό
+	Current - Professional	Τρέχον - Επαγγελματικό
+	Current Position	Τρέχουσα θέση
+	Current record	Τρέχουσα εγγραφή
+	Current style: {style}	Τρέχον στυλ: {style}
+	Curved Arrow Connector	Καμπύλος συνδετήρας βέλους
+	Curved Connector	Καμπύλος συνδετήρας
+	Custom dictionary	Προσαρμοσμένο λεξικό
+	Custom Margins…	Προσαρμοσμένα περιθώρια…
+	Custom mark:	Προσαρμοσμένο σημάδι:
+	Custom range	Προσαρμοσμένο εύρος
+	Custom size	Προσαρμοσμένο μέγεθος
+	Custom Table of Contents…	Προσαρμοσμένος πίνακας περιεχομένων…
+	Custom Watermark	Προσαρμοσμένο υδατογράφημα
+	Custom Watermark…	Προσαρμοσμένο υδατογράφημα…
+	Customize	Προσαρμογή
+	Customize Keyboard	Προσαρμογή πληκτρολογίου
+	Customize Quick Access Toolbar	Προσαρμογή γραμμής γρήγορης πρόσβασης
+	Customize Quick Access Toolbar…	Προσαρμογή γραμμής γρήγορης πρόσβασης…
+	Customize Ribbon	Προσαρμογή κορδέλας
+	Customize the Ribbon…	Προσαρμογή της κορδέλας…
+	Cycle	Κύκλος
+	Czech	Τσεχικά
+	Danish	Δανικά
+	Dark Mode	Σκοτεινή λειτουργία
+	Dark page (white text on black)	Σκοτεινή σελίδα (λευκό κείμενο σε μαύρο)
+	Dark Variations	Σκοτεινές παραλλαγές
+	Dark with Shadow	Σκούρο με σκιά
+	Darkroom	Σκοτεινός θάλαμος
+	Dashed	Διακεκομμένο
+	Data Labels	Ετικέτες δεδομένων
+	Date & Time	Ημερομηνία και ώρα
+	Date formats:	Μορφές ημερομηνίας:
+	Date Picker Content Control	Στοιχείο ελέγχου περιεχομένου επιλογέα ημερομηνίας
+	Day	Ημέρα
+	Decimal	Δεκαδικό
+	Decorative objects only add visual interest: screen readers skip them.	Τα διακοσμητικά αντικείμενα προσθέτουν μόνο οπτικό ενδιαφέρον: οι αναγνώστες οθόνης τα παραλείπουν.
+	Decrease Indent	Μείωση εσοχής
+	Deep	Βαθύ
+	Default Paragraph Font	Προεπιλεγμένη γραμματοσειρά παραγράφου
+	Default tab stops:	Προεπιλεγμένοι στηλοθέτες:
+	Define New Bullet	Ορισμός νέας κουκκίδας
+	Define New Multilevel List	Ορισμός νέας λίστας πολλών επιπέδων
+	Define New Multilevel List…	Ορισμός νέας λίστας πολλών επιπέδων…
+	Define New Number Format	Ορισμός νέας μορφής αριθμού
+	Deflate	Ξεφούσκωμα
+	Delete Around Caret in Equation	Διαγραφή γύρω από τον δρομέα στην εξίσωση
+	Delete Back in Equation	Διαγραφή προς τα πίσω στην εξίσωση
+	Delete Bookmark	Διαγραφή σελιδοδείκτη
+	Delete Cells	Διαγραφή κελιών
+	Delete Clipboard Item	Διαγραφή στοιχείου προχείρου
+	Delete Columns	Διαγραφή στηλών
+	Delete Comment	Διαγραφή σχολίου
+	Delete in Equation	Διαγραφή στην εξίσωση
+	Delete Label	Διαγραφή ετικέτας
+	Delete Next Word	Διαγραφή επόμενης λέξης
+	Delete Previous Word	Διαγραφή προηγούμενης λέξης
+	Delete Rows	Διαγραφή γραμμών
+	Delete Selected Ink	Διαγραφή επιλεγμένου μελανιού
+	Delete Table	Διαγραφή πίνακα
+	Delete Table Style	Διαγραφή στυλ πίνακα
+	Deletions:	Διαγραφές:
+	Delivery address:	Διεύθυνση παράδοσης:
+	Delta Equal To	Δέλτα ίσον
+	Delta over arrow	Δέλτα πάνω από βέλος
+	Demote	Υποβιβασμός
+	Demote to Body Text	Υποβιβασμός σε Κύριο κείμενο
+	Derivative as a limit	Παράγωγος ως όριο
+	Describe what this object shows, for people who can't see it.	Περιγράψτε τι δείχνει αυτό το αντικείμενο, για όσους δεν μπορούν να το δουν.
+	Describe what this table shows, for people who can't see it.	Περιγράψτε τι δείχνει αυτός ο πίνακας, για όσους δεν μπορούν να τον δουν.
+	Design	Σχεδίαση
+	Design Mode	Λειτουργία σχεδίασης
+	Detach Template	Αποσύνδεση προτύπου
+	Detect language automatically	Αυτόματος εντοπισμός γλώσσας
+	Developer	Προγραμματιστής
+	development build	έκδοση ανάπτυξης
+	Diagonal Dots	Διαγώνιες κουκκίδες
+	Dictate	Υπαγόρευση
+	Dictionaries	Λεξικά
+	Dictionaries folder:	Φάκελος λεξικών:
+	Different First Page	Διαφορετική πρώτη σελίδα
+	Different Odd & Even Pages	Διαφορετικές μονές και ζυγές σελίδες
+	Differential	Διαφορικό
+	Differential theta	Διαφορικό θήτα
+	Differential x	Διαφορικό x
+	Differential y	Διαφορικό y
+	Differentials	Διαφορικά
+	Direct formatting	Άμεση μορφοποίηση
+	Directory	Κατάλογος
+	Discord community	Κοινότητα Discord
+	Display	Εμφάνιση
+	Display for Review	Εμφάνιση για αναθεώρηση
+	Display text	Κείμενο εμφάνισης
+	Distance from text	Απόσταση από κείμενο
+	Distance from text:	Απόσταση από κείμενο:
+	Distribute Columns	Διανομή στηλών
+	Distribute letters	Διανομή γραμμάτων
+	Distribute Rows	Διανομή γραμμών
+	Distribute spacing	Διανομή διαστήματος
+	Distributed	Κατανεμημένο
+	Do Not Check Spelling or Grammar	Να μην γίνεται ορθογραφικός ή γραμματικός έλεγχος
+	Do not check spelling or grammar	Να μην γίνεται ορθογραφικός ή γραμματικός έλεγχος
+	DO NOT COPY	ΜΗΝ ΑΝΤΙΓΡΑΦΕΤΕ
+	Do Not Show in TOC	Να μην εμφανίζεται στον πίνακα περιεχομένων
+	Do you want to save changes to {name}?	Θέλετε να αποθηκεύσετε τις αλλαγές στο {name};
+	Document End	Τέλος εγγράφου
+	Document Formatting	Μορφοποίηση εγγράφου
+	Document Grid	Πλέγμα εγγράφου
+	Document Information	Πληροφορίες εγγράφου
+	Document name	Όνομα εγγράφου
+	Document Property	Ιδιότητα εγγράφου
+	Document Start	Αρχή εγγράφου
+	Document template:	Πρότυπο εγγράφου:
+	Document Text	Κείμενο εγγράφου
+	Document1	Έγγραφο1
+	Document\nPreferences	Προτιμήσεις\nεγγράφου
+	Documents you open will show up here.	Τα έγγραφα που ανοίγετε θα εμφανίζονται εδώ.
+	Does not contain	Δεν περιέχει
+	DOI	DOI
+	Don't add space between paragraphs of the same style	Να μην προστίθεται κενό μεταξύ παραγράφων ίδιου στυλ
+	Don't capitalize after:	Να μη χρησιμοποιείται κεφαλαίο μετά από:
+	Don't hyphenate	Χωρίς συλλαβισμό
+	Don't read Zotero, Mendeley or EndNote citations and bibliographies	Να μην διαβάζονται παραπομπές και βιβλιογραφίες από Zotero, Mendeley ή EndNote
+	Don't show me this tip again	Να μην εμφανιστεί ξανά αυτή η συμβουλή
+	Dot dash	Τελεία παύλα
+	Dot-dash	Τελεία-παύλα
+	Dot-dot-dash	Τελεία τελεία παύλα
+	Double	Διπλό
+	Double Bar	Διπλή μπάρα
+	Double Closing Quote	Διπλό εισαγωγικό κλείσιμο
+	Double Dot	Διπλή τελεία
+	Double Integral	Διπλό ολοκλήρωμα
+	Double Integral with Limits	Διπλό ολοκλήρωμα με όρια
+	Double Integral with Stacked Limits	Διπλό ολοκλήρωμα με στοιβαγμένα όρια
+	Double Left Arrow with Text Above	Διπλό αριστερό βέλος με κείμενο πάνω
+	Double Left Arrow with Text Below	Διπλό αριστερό βέλος με κείμενο κάτω
+	Double Left Right Arrow with Text Above	Διπλό βέλος αριστερά-δεξιά με κείμενο πάνω
+	Double Left Right Arrow with Text Below	Διπλό βέλος αριστερά-δεξιά με κείμενο κάτω
+	Double Opening Quote	Διπλό εισαγωγικό άνοιγμα
+	Double Right Arrow with Text Above	Διπλό δεξί βέλος με κείμενο πάνω
+	Double Right Arrow with Text Below	Διπλό δεξί βέλος με κείμενο κάτω
+	Double Spacing	Διπλό διάστιχο
+	Double Square Brackets	Διπλές αγκύλες
+	Double Strikethrough	Διπλή διαγράμμιση
+	Double strikethrough	Διπλή διαγράμμιση
+	Double summation	Διπλό άθροισμα
+	Double Underline	Διπλή υπογράμμιση
+	Double Vertical Bars	Διπλές κάθετες μπάρες
+	Doughnut	Ντόνατ
+	DRAFT	ΠΡΟΧΕΙΡΟ
+	Drag a rectangle to draw a table, or a line across cells to split them. Esc stops.	Σύρετε ένα ορθογώνιο για να σχεδιάσετε πίνακα ή μια γραμμή κατά μήκος κελιών για να τα διαιρέσετε. Esc για έξοδο.
+	Draw	Σχέδιο
+	Draw Ink	Σχεδίαση με μελάνι
+	Draw Table	Σχεδίαση πίνακα
+	Draw\nTable	Σχεδίαση\nπίνακα
+	Drawing Canvas	Καμβάς σχεδίασης
+	Drawing Tools	Εργαλεία σχεδίασης
+	Drawing\nCanvas	Καμβάς\nσχεδίασης
+	Drop Cap	Αρχίγραμμα
+	Drop cap	Αρχίγραμμα
+	Drop Cap Options…	Επιλογές αρχικού γράμματος…
+	drop caps can't go in a table	τα αρχικά γράμματα δεν μπορούν να μπουν σε πίνακα
+	Drop-Down List Content Control	Στοιχείο ελέγχου περιεχομένου αναπτυσσόμενης λίστας
+	Dropped	Σε κείμενο
+	Drops all formatting and pastes plain text.	Καταργεί όλη τη μορφοποίηση και επικολλά απλό κείμενο.
+	E-mail Messages	Μηνύματα ηλεκτρονικού ταχυδρομείου
+	Edit Comment	Επεξεργασία σχολίου
+	Edit Data	Επεξεργασία δεδομένων
+	Edit Document	Επεξεργασία εγγράφου
+	Edit Equation	Επεξεργασία εξίσωσης
+	Edit Field Code	Επεξεργασία κωδικού πεδίου
+	Edit Field…	Επεξεργασία πεδίου…
+	Edit Footer	Επεξεργασία υποσέλιδου
+	Edit Header	Επεξεργασία κεφαλίδας
+	Edit Individual Documents…	Επεξεργασία μεμονωμένων εγγράφων…
+	Edit Items	Επεξεργασία στοιχείων
+	Edit Recipient List	Επεξεργασία λίστας παραληπτών
+	Edit Source	Επεξεργασία πηγής
+	Edit\nData	Επεξεργασία\nδεδομένων
+	Edit\nRecipient List	Επεξεργασία λίστας\nπαραληπτών
+	Edited	Επεξεργασμένο
+	Editing endnote	Επεξεργασία σημείωσης τέλους
+	Editing footnote	Επεξεργασία υποσημείωσης
+	Editing header/footer	Επεξεργασία κεφαλίδας/υποσέλιδου
+	Editing in this document is restricted.	Η επεξεργασία σε αυτό το έγγραφο είναι περιορισμένη.
+	Editing — edit the document directly	Επεξεργασία — επεξεργαστείτε απευθείας το έγγραφο
+	Edition	Έκδοση
+	Editor	Επεξεργαστής
+	Elbow Arrow Connector	Γωνιακός συνδετήρας βέλους
+	Elbow Connector	Γωνιακός συνδετήρας
+	Emphasis	Έμφαση
+	Empty Matrices	Κενοί πίνακες
+	Enclose Characters	Περικλείω χαρακτήρες
+	Enclosure	Περίφραξη
+	Encrypt with Password	Κρυπτογράφηση με κωδικό πρόσβασης
+	Encrypt with Password…	Κρυπτογράφηση με κωδικό πρόσβασης…
+	End of document	Τέλος εγγράφου
+	End of section	Τέλος ενότητας
+	End of Word	Τέλος λέξης
+	Endnote Reference	Αναφορά σημείωσης τέλους
+	Endnote Text	Κείμενο σημείωσης τέλους
+	Endnotes	Σημειώσεις τέλους
+	Endnotes to footnotes	Σημειώσεις τέλους σε υποσημειώσεις
+	English (Australia)	Αγγλικά (Αυστραλία)
+	English (Canada)	Αγγλικά (Καναδάς)
+	English (India)	Αγγλικά (Ινδία)
+	English (Ireland)	Αγγλικά (Ιρλανδία)
+	English (New Zealand)	Αγγλικά (Νέα Ζηλανδία)
+	English (South Africa)	Αγγλικά (Νότια Αφρική)
+	English (United Kingdom)	Αγγλικά (Ηνωμένο Βασίλειο)
+	English (United States)	Αγγλικά (Ηνωμένες Πολιτείες)
+	Engrave	Χάραξη
+	Enlarge symbol	Μεγέθυνση συμβόλου
+	Enter a number.	Εισαγάγετε έναν αριθμό.
+	Enter bookmark name:	Εισαγάγετε όνομα σελιδοδείκτη:
+	Enter formatting for number:	Μορφή για τον αριθμό:
+	Enter in Equation	Enter στην εξίσωση
+	Enter page number:	Εισαγάγετε αριθμό σελίδας:
+	Entry marked.	Η καταχώρηση επισημάνθηκε.
+	Envelope #10	Φάκελος #10
+	Envelope #10   4.12" × 9.50"	Φάκελος #10   4,12" × 9,50"
+	Envelope Address	Διεύθυνση φακέλου
+	Envelope DL   4.33" × 8.66"	Φάκελος DL   4,33" × 8,66"
+	Envelope Return	Αποστολέας φακέλου
+	Envelope size:	Μέγεθος φακέλου:
+	Envelopes	Φάκελοι
+	Equal by Definition	Ίσον εξ ορισμού
+	Equal column width	Ίσο πλάτος στηλών
+	Equal Equal	Ίσον ίσον
+	Equal to	Ίσον με
+	Equals:	Ίσον:
+	Equation	Εξίσωση
+	Equation Gallery	Συλλογή εξισώσεων
+	Equation Info	Πληροφορίες εξίσωσης
+	Equation Number	Αριθμός εξίσωσης
+	Equation Options	Επιλογές εξίσωσης
+	Erase Ink	Διαγραφή μελανιού
+	Errors ({n})	Σφάλματα ({n})
+	Estonian	Εσθονικά
+	Euler's identity	Ταυτότητα Euler
+	Even Banded Columns	Ζυγές εναλλασσόμενες στήλες
+	Even Banded Rows	Ζυγές εναλλασσόμενες γραμμές
+	Even Page	Ζυγή σελίδα
+	Every change is recorded as a tracked change.	Κάθε αλλαγή καταγράφεται ως παρακολουθούμενη αλλαγή.
+	Every command is available to scripts and AI agents: run `wordcraft-cli mcp` for an MCP server, or start the app with `--control <port>` for the JSON control channel.	Κάθε εντολή είναι διαθέσιμη σε σενάρια και πράκτορες τεχνητής νοημοσύνης: εκτελέστε `wordcraft-cli mcp` για διακομιστή MCP ή ξεκινήστε την εφαρμογή με `--control <port>` για το κανάλι ελέγχου JSON.
+	Every field needs a name.	Κάθε πεδίο χρειάζεται όνομα.
+	Everyone	Όλοι
+	Exactly	Ακριβώς
+	Exactly {n}	Ακριβώς {n}
+	Exceptions (optional)	Εξαιρέσεις (προαιρετικό)
+	Exceptions…	Εξαιρέσεις…
+	Executive   7.25" × 10.50"	Executive   7,25" × 10,50"
+	Existing File or Web Page	Υπάρχον αρχείο ή ιστοσελίδα
+	Expand or Collapse Heading	Ανάπτυξη ή σύμπτυξη επικεφαλίδας
+	Exponential	Εκθετικό
+	Exponential series	Εκθετική σειρά
+	Export a copy to share (PDF, Word document)	Εξαγωγή αντιγράφου για κοινή χρήση (PDF, έγγραφο Word)
+	Export Page as PNG	Εξαγωγή σελίδας ως PNG
+	Extend Selection	Επέκταση επιλογής
+	Extend Selection by Units	Επέκταση επιλογής ανά μονάδες
+	Extra space	Επιπλέον κενό
+	F4 repeats your last action. Formatting ten headings is suddenly one click and nine taps.	Το F4 επαναλαμβάνει την τελευταία σας ενέργεια. Η μορφοποίηση δέκα επικεφαλίδων γίνεται ξαφνικά ένα κλικ και εννέα πατήματα.
+	F7 checks the spelling and grammar of the whole document.	Το F7 ελέγχει την ορθογραφία και τη γραμματική ολόκληρου του εγγράφου.
+	Faster: {command} is {key} on the keyboard.	Πιο γρήγορα: το {command} είναι {key} στο πληκτρολόγιο.
+	Field code:	Κωδικός πεδίου:
+	Field Codes	Κωδικοί πεδίων
+	Field codes:	Κωδικοί πεδίων:
+	Field name	Όνομα πεδίου
+	Field name:	Όνομα πεδίου:
+	Field names must be different.	Τα ονόματα πεδίων πρέπει να είναι διαφορετικά.
+	Field names:	Ονόματα πεδίων:
+	Field:	Πεδίο:
+	Field…	Πεδίο…
+	Figure	Σχήμα
+	File locations	Θέσεις αρχείων
+	File name:	Όνομα αρχείου:
+	File › New lists the .dotx and .dotm templates here under Personal; Save as Word Template starts here.	Το Αρχείο › Νέο παραθέτει τα πρότυπα .dotx και .dotm εδώ στην ενότητα Προσωπικά· η Αποθήκευση ως πρότυπο Word ξεκινά εδώ.
+	Fill color:	Χρώμα γεμίσματος:
+	Filling in forms	Συμπλήρωση φορμών
+	Film	Φιλμ
+	Filter and Sort	Φιλτράρισμα και ταξινόμηση
+	Filter Recipients	Φιλτράρισμα παραληπτών
+	Find in list:	Εύρεση στη λίστα:
+	Find Next Editable Region	Εύρεση επόμενης περιοχής επεξεργασίας
+	Find Previous	Εύρεση προηγούμενου
+	Find Recipient	Εύρεση παραλήπτη
+	Find What Expression	Έκφραση προς εύρεση
+	Find What Text	Κείμενο προς εύρεση
+	Find what:	Εύρεση:
+	Find “{text}” in the document	Εύρεση του «{text}» στο έγγραφο
+	Finding printers…	Εύρεση εκτυπωτών…
+	Finish & Merge	Ολοκλήρωση και συγχώνευση
+	Finish &\nMerge	Ολοκλήρωση και\nσυγχώνευση
+	Finished	Ολοκληρώθηκε
+	Finnish	Φινλανδικά
+	First Column	Πρώτη στήλη
+	First line	Πρώτη γραμμή
+	First line:	Πρώτη γραμμή:
+	First Name	Όνομα
+	First Record	Πρώτη εγγραφή
+	First row of data contains column headers	Η πρώτη γραμμή δεδομένων περιέχει επικεφαλίδες στηλών
+	Fix Position on Page	Καρφίτσωμα θέσης στη σελίδα
+	Fixed Column Width	Σταθερό πλάτος στήλης
+	Floor	Δάπεδο
+	Follow number with:	Ακολούθηση αριθμού με:
+	Font Color	Χρώμα γραμματοσειράς
+	Font color	Χρώμα γραμματοσειράς
+	Font color:	Χρώμα γραμματοσειράς:
+	Font Dialog	Παράθυρο διαλόγου γραμματοσειράς
+	Font: {font}	Γραμματοσειρά: {font}
+	Font…	Γραμματοσειρά…
+	Footer	Υποσέλιδο
+	Footnote and Endnote	Υποσημείωση και σημείωση τέλους
+	Footnote Reference	Αναφορά υποσημείωσης
+	Footnote Text	Κείμενο υποσημείωσης
+	Footnotes	Υποσημειώσεις
+	Footnotes and endnotes	Υποσημειώσεις και σημειώσεις τέλους
+	Footnotes to endnotes	Υποσημειώσεις σε σημειώσεις τέλους
+	For which item:	Για ποιο στοιχείο:
+	Format Page Numbers	Μορφή αριθμών σελίδας
+	Format Page Numbers…	Μορφή αριθμών σελίδας…
+	Format Painter	Πινέλο μορφοποίησης
+	Format Shape	Μορφή σχήματος
+	Format Shape Pane	Παράθυρο μορφής σχήματος
+	Format Shape…	Μορφή σχήματος…
+	Formatted	Μορφοποιημένο
+	Formatted Text	Μορφοποιημένο κείμενο
+	Formatting	Μορφοποίηση
+	Formatting at Selection	Μορφοποίηση στην επιλογή
+	Formatting exceptions	Εξαιρέσεις μορφοποίησης
+	Formatting marks	Σημάδια μορφοποίησης
+	Formatting, case changes, white space and tables are compared; the other settings are kept for later.	Συγκρίνονται μορφοποίηση, αλλαγές πεζών/κεφαλαίων, κενά διαστήματα και πίνακες· οι άλλες ρυθμίσεις διατηρούνται για αργότερα.
+	Formula	Τύπος
+	Formula:	Τύπος:
+	Forward	Μπροστά
+	Fraction	Κλάσμα
+	Fractions (1/2) as fraction characters (½)	Κλάσματα (1/2) ως χαρακτήρες κλασμάτων (½)
+	French (France)	Γαλλικά (Γαλλία)
+	From Bottom Left Corner	Από την κάτω αριστερή γωνία
+	From Bottom Right Corner	Από την κάτω δεξιά γωνία
+	From Center	Από το κέντρο
+	From text:	Από κείμενο:
+	From Top Left Corner	Από την πάνω αριστερή γωνία
+	From Top Right Corner	Από την πάνω δεξιά γωνία
+	from Unicode (hex)	από Unicode (δεκαεξ.)
+	From {name}	Από {name}
+	From:	Από:
+	Full page of the same label	Πλήρης σελίδα ίδιας ετικέτας
+	Full Screen View	Προβολή πλήρους οθόνης
+	Full\nScreen	Πλήρης\nοθόνη
+	Fun fact: a blank page is just a draft that hasn't been told yet.	Διασκεδαστικό γεγονός: μια κενή σελίδα είναι απλώς ένα προσχέδιο που δεν του έχουν πει ακόμη.
+	Function	Συνάρτηση
+	Gallery	Συλλογή
+	GB/T 7714	GB/T 7714
+	German (Germany)	Γερμανικά (Γερμανία)
+	getartcraft.com/apps/wordcraft	getartcraft.com/apps/wordcraft
+	Glow Colors	Χρώματα λάμψης
+	Go Back	Επιστροφή
+	Go To	Μετάβαση σε
+	Go to	Μετάβαση σε
+	Go To (⌘⌥G)	Μετάβαση σε (⌘⌥G)
+	Go to Record	Μετάβαση σε εγγραφή
+	Go to what:	Μετάβαση σε:
+	Go To…	Μετάβαση σε…
+	Gone! Like it was never written. Mostly because it now wasn't.	Έφυγε! Σαν να μη γράφτηκε ποτέ. Κυρίως γιατί τώρα δεν είναι.
+	Good afternoon	Καλό απόγευμα
+	Good evening	Καλησπέρα
+	Good morning	Καλημέρα
+	GOST (name sort)	GOST (ταξινόμηση ονόματος)
+	GOST (title sort)	GOST (ταξινόμηση τίτλου)
+	Grab bag	Διάφορα
+	Gradient fill	Γέμισμα με διαβάθμιση
+	Gradient stops	Σημεία διαβάθμισης
+	Grave	Βαρεία
+	Greater than	Μεγαλύτερο από
+	Greater than or equal	Μεγαλύτερο ή ίσο
+	Greek	Ελληνικά
+	Greek Letters	Ελληνικά γράμματα
+	Green:	Πράσινο:
+	Greeting Line	Γραμμή χαιρετισμού
+	Greeting\nLine	Γραμμή\nχαιρετισμού
+	Grid Table 1 Light	Πίνακας πλέγματος 1 ανοιχτός
+	Grid Table 4 – Blue	Πίνακας πλέγματος 4 – Μπλε
+	Grid Table 4 – Green	Πίνακας πλέγματος 4 – Πράσινος
+	Grid Table 4 – Orange	Πίνακας πλέγματος 4 – Πορτοκαλί
+	Grid Table 4 – Purple	Πίνακας πλέγματος 4 – Μωβ
+	Gridlines	Γραμμές πλέγματος
+	Grouping Character Above	Χαρακτήρας ομαδοποίησης πάνω
+	Grouping Character Below	Χαρακτήρας ομαδοποίησης κάτω
+	Grow Font 1 Point	Αύξηση γραμματοσειράς κατά 1 σημείο
+	H:	Υ:
+	Hanging Indent	Εκκρεμής εσοχή
+	Harvard (Anglia)	Harvard (Anglia)
+	Hat	Καπέλο
+	Header	Κεφαλίδα
+	Header & Footer	Κεφαλίδα και υποσέλιδο
+	Header Row	Γραμμή κεφαλίδας
+	Header row	Γραμμή κεφαλίδας
+	Header/Footer Position	Θέση κεφαλίδας/υποσέλιδου
+	Headers and footers	Κεφαλίδες και υποσέλιδα
+	Heading	Επικεφαλίδα
+	Heading 1	Επικεφαλίδα 1
+	Heading 2	Επικεφαλίδα 2
+	Heading 3	Επικεφαλίδα 3
+	Heading styles (levels 1–{n})	Στυλ επικεφαλίδας (επίπεδα 1–{n})
+	Heading text	Κείμενο επικεφαλίδας
+	Heading {n}	Επικεφαλίδα {n}
+	Hebrew	Εβραϊκά
+	Hex:	Δεκαεξ.:
+	Hi! I'm Nib, your writing assistant. I offer tips, shortcuts and the occasional unsolicited opinion. Shall I stick around?	Γεια! Είμαι ο Nib, ο βοηθός γραφής σας. Προσφέρω συμβουλές, συντομεύσεις και περιστασιακά ανεπιθύμητες γνώμες. Να μείνω;
+	Hidden bookmarks	Κρυφοί σελιδοδείκτες
+	Hide Codes	Απόκρυψη κωδικών
+	Hide from style lists	Απόκρυψη από λίστες στυλ
+	Hide Ink	Απόκρυψη μελανιού
+	Hide Quick Access Toolbar	Απόκρυψη γραμμής γρήγορης πρόσβασης
+	Hide White Space	Απόκρυψη κενού χώρου
+	Hide\nInk	Απόκρυψη\nμελανιού
+	Hierarchy	Ιεραρχία
+	Highlight	Επισήμανση
+	Highlight Merge Fields	Επισήμανση πεδίων συγχώνευσης
+	Highlight\nMerge Fields	Επισήμανση\nπεδίων συγχώνευσης
+	Highlighter	Μαρκαδόρος
+	Home folder	Αρχικός φάκελος
+	Horizontal Line	Οριζόντια γραμμή
+	How many pages the whole document has	Πόσες σελίδες έχει ολόκληρο το έγγραφο
+	How many pages this section has	Πόσες σελίδες έχει αυτή η ενότητα
+	How many words the document holds	Πόσες λέξεις περιέχει το έγγραφο
+	HTML Format	Μορφή HTML
+	Hue:	Απόχρωση:
+	Hunspell .aff and .dic files here (pl_PL, pt_BR, it_IT, hr_HR, tr_TR) are used before the system's.	Τα αρχεία Hunspell .aff και .dic εδώ (pl_PL, pt_BR, it_IT, hr_HR, tr_TR) χρησιμοποιούνται πριν από εκείνα του συστήματος.
+	Hyperbolic Cosecant Function	Συνάρτηση υπερβολικής συντέμνουσας
+	Hyperbolic Cosine Function	Συνάρτηση υπερβολικού συνημιτόνου
+	Hyperbolic Cotangent Function	Συνάρτηση υπερβολικής συνεφαπτομένης
+	Hyperbolic Functions	Υπερβολικές συναρτήσεις
+	Hyperbolic Secant Function	Συνάρτηση υπερβολικής τέμνουσας
+	Hyperbolic Sine Function	Συνάρτηση υπερβολικού ημιτόνου
+	Hyperbolic Tangent Function	Συνάρτηση υπερβολικής εφαπτομένης
+	Hyperlink	Υπερσύνδεσμος
+	Hyphenate at:	Συλλαβισμός στο:
+	Hyphenate words in CAPS	Συλλαβισμός λέξεων σε ΚΕΦΑΛΑΙΑ
+	Hyphenation Options…	Επιλογές συλλαβισμού…
+	Hyphenation zone:	Ζώνη συλλαβισμού:
+	Hyphens (--) as dashes (—)	Παύλες (--) ως παύλες (—)
+	Hypotenuse	Υποτείνουσα
+	I promise it's saved. I checked. Twice.	Υπόσχομαι ότι είναι αποθηκευμένο. Το έλεγξα. Δύο φορές.
+	I'd write something myself, but I'm all nib and no ink.	Θα έγραφα κάτι και εγώ, αλλά είμαι όλο μύτη και καθόλου μελάνι.
+	I, II, III, …	I, II, III, …
+	i, ii, iii, …	i, ii, iii, …
+	Icon Color	Χρώμα εικονιδίου
+	Icons	Εικονίδια
+	Identity Matrices	Μοναδιαίοι πίνακες
+	IEEE	IEEE
+	If…Then…Else	Αν…Τότε…Αλλιώς
+	If…Then…Else…	Αν…Τότε…Αλλιώς…
+	Ignore punctuation characters	Αγνόηση χαρακτήρων στίξης
+	Ignore web and file addresses	Αγνόηση διευθύνσεων ιστού και αρχείων
+	Ignore white-space characters	Αγνόηση χαρακτήρων κενού διαστήματος
+	Ignore words in capitals	Αγνόηση λέξεων σε ΚΕΦΑΛΑΙΑ
+	Ignore words with numbers	Αγνόηση λέξεων με αριθμούς
+	Illustrations	Εικονογραφήσεις
+	Immersive	Immersive
+	Immersive Reader	Αναγνώστης Immersive
+	Immersive\nReader	Αναγνώστης\nImmersive
+	In Default apps, choose WordCraft for the document types you want it to open.	Στις Προεπιλεγμένες εφαρμογές, επιλέξτε WordCraft για τους τύπους εγγράφων που θέλετε να ανοίγει.
+	In equations, typing a name after a backslash replaces it with its symbol.	Στις εξισώσεις, πληκτρολογώντας ένα όνομα μετά από ανάστροφη κάθετο, αντικαθίσταται από το σύμβολό του.
+	In Front of Text	Μπροστά από το κείμενο
+	In Line with Text	Σε σειρά με το κείμενο
+	In margin	Στο περιθώριο
+	In the margin	Στο περιθώριο
+	Include label and number	Συμπερίληψη ετικέτας και αριθμού
+	Include level number from:	Συμπερίληψη αριθμού επιπέδου από:
+	Include page numbers	Συμπερίληψη αριθμών σελίδας
+	Increase Indent	Αύξηση εσοχής
+	Indent	Εσοχή
+	Indent from left:	Εσοχή από αριστερά:
+	Indentation	Εσοχές
+	Indented	Με εσοχή
+	Indents	Εσοχές
+	Indents and Spacing	Εσοχές και διάστημα
+	Index and Tables	Ευρετήρια και πίνακες
+	Index Heading	Επικεφαλίδα ευρετηρίου
+	Index {n}	Ευρετήριο {n}
+	Indonesian	Ινδονησιακά
+	Initial column width:	Αρχικό πλάτος στήλης:
+	Initials:	Αρχικά:
+	Ink	Μελάνι
+	Ink Replay	Αναπαραγωγή μελανιού
+	Ink to Shape	Μελάνι σε σχήμα
+	Ink to\nMath	Μελάνι σε\nμαθηματικά
+	Ink to\nShape	Μελάνι σε\nσχήμα
+	Ink\nReplay	Αναπαραγωγή\nμελανιού
+	Inline	Σε σειρά
+	Input Format	Μορφή εισόδου
+	Insert a new equation (Alt+=)	Εισαγωγή νέας εξίσωσης (Alt+=)
+	Insert Above	Εισαγωγή πάνω
+	Insert Below	Εισαγωγή κάτω
+	Insert Caption	Εισαγωγή λεζάντας
+	Insert Caption…	Εισαγωγή λεζάντας…
+	Insert Chart	Εισαγωγή γραφήματος
+	Insert Citation	Εισαγωγή παραπομπής
+	Insert Columns to the Left	Εισαγωγή στηλών αριστερά
+	Insert Columns to the Right	Εισαγωγή στηλών δεξιά
+	Insert Date Field	Εισαγωγή πεδίου ημερομηνίας
+	Insert Endnote	Εισαγωγή σημείωσης τέλους
+	Insert Footnote	Εισαγωγή υποσημείωσης
+	Insert Hyperlink	Εισαγωγή υπερσύνδεσμου
+	Insert Index	Εισαγωγή ευρετηρίου
+	Insert Left	Εισαγωγή αριστερά
+	Insert Merge Field	Εισαγωγή πεδίου συγχώνευσης
+	Insert Merge\nField	Εισαγωγή πεδίου\nσυγχώνευσης
+	Insert New Equation	Εισαγωγή νέας εξίσωσης
+	Insert one text or another, depending on a field's value.	Εισαγωγή ενός ή άλλου κειμένου, ανάλογα με την τιμή ενός πεδίου.
+	Insert Page Field	Εισαγωγή πεδίου σελίδας
+	Insert reference to:	Εισαγωγή αναφοράς σε:
+	Insert Right	Εισαγωγή δεξιά
+	Insert Row or Column by Clicking	Εισαγωγή γραμμής ή στήλης με κλικ
+	Insert Rows Above	Εισαγωγή γραμμών πάνω
+	Insert Rows Below	Εισαγωγή γραμμών κάτω
+	Insert Shapes	Εισαγωγή σχημάτων
+	Insert SmartArt	Εισαγωγή SmartArt
+	Insert Spike	Εισαγωγή συλλογής
+	Insert Structure	Εισαγωγή δομής
+	Insert Symbol	Εισαγωγή συμβόλου
+	Insert Table	Εισαγωγή πίνακα
+	Insert Table of Authorities	Πίνακας Νομικών Πηγών
+	Insert Table of Figures	Εισαγωγή πίνακα σχημάτων
+	Insert Table…	Εισαγωγή πίνακα…
+	Insert Time Field	Εισαγωγή πεδίου ώρας
+	Insert\nAbove	Εισαγωγή\nπάνω
+	Insert\nCaption	Εισαγωγή\nλεζάντας
+	Insert\nCitation	Εισαγωγή\nπαραπομπής
+	Insert\nFootnote	Εισαγωγή\nυποσημείωσης
+	Insertions and Deletions	Εισαγωγές και διαγραφές
+	Insertions:	Εισαγωγές:
+	Inside Borders	Εσωτερικά περιγράμματα
+	Inside Horizontal Border	Εσωτερικό οριζόντιο περίγραμμα
+	Inside Vertical Border	Εσωτερικό κάθετο περίγραμμα
+	Inside:	Εσωτερικό:
+	Inspect Styles at Selection	Επιθεώρηση στυλ στην επιλογή
+	Institution	Ίδρυμα
+	Integral	Ολοκλήρωμα
+	Integral of e^(−x²)	Ολοκλήρωμα του e^(−x²)
+	Integral with Limits	Ολοκλήρωμα με όρια
+	Integral with Stacked Limits	Ολοκλήρωμα με στοιβαγμένα όρια
+	Integrals	Ολοκληρώματα
+	Intense Emphasis	Έντονη έμφαση
+	Intense Quote	Έντονη παράθεση
+	Intense Reference	Έντονη αναφορά
+	Interface language:	Γλώσσα διεπαφής:
+	Interface size:	Μέγεθος διεπαφής:
+	Interface theme:	Θέμα διεπαφής:
+	Interface\nTheme	Θέμα\nδιεπαφής
+	Internet addresses as links	Διευθύνσεις Internet ως σύνδεσμοι
+	Intersection with Limits	Τομή με όρια
+	Intersection with Lower Limit	Τομή με κάτω όριο
+	Intersection with Subscript-Superscript Limits	Τομή με όρια δείκτη-εκθέτη
+	Inverse Cosecant Function	Αντίστροφη συνάρτηση συντέμνουσας
+	Inverse Cosine Function	Αντίστροφη συνάρτηση συνημιτόνου
+	Inverse Cotangent Function	Αντίστροφη συνάρτηση συνεφαπτομένης
+	Inverse Functions	Αντίστροφες συναρτήσεις
+	Inverse Hyperbolic Cosecant Function	Αντίστροφη συνάρτηση υπερβολικής συντέμνουσας
+	Inverse Hyperbolic Cosine Function	Αντίστροφη συνάρτηση υπερβολικού συνημιτόνου
+	Inverse Hyperbolic Cotangent Function	Αντίστροφη συνάρτηση υπερβολικής συνεφαπτομένης
+	Inverse Hyperbolic Functions	Αντίστροφες υπερβολικές συναρτήσεις
+	Inverse Hyperbolic Secant Function	Αντίστροφη συνάρτηση υπερβολικής τέμνουσας
+	Inverse Hyperbolic Sine Function	Αντίστροφη συνάρτηση υπερβολικού ημιτόνου
+	Inverse Hyperbolic Tangent Function	Αντίστροφη συνάρτηση υπερβολικής εφαπτομένης
+	Inverse Secant Function	Αντίστροφη συνάρτηση τέμνουσας
+	Inverse Sine Function	Αντίστροφη συνάρτηση ημιτόνου
+	Inverse Tangent Function	Αντίστροφη συνάρτηση εφαπτομένης
+	Ionosphere	Ιονόσφαιρα
+	Is blank	Είναι κενό
+	Is not blank	Δεν είναι κενό
+	ISO 690 (author-date)	ISO 690 (συγγραφέας-ημερομηνία)
+	ISO 690 (numerical)	ISO 690 (αριθμητικό)
+	Issue	Τεύχος
+	It looks like you're writing a letter. Want an envelope for it, or a letter template to start from?	Φαίνεται ότι γράφετε μια επιστολή. Θέλετε φάκελο γι' αυτήν ή πρότυπο επιστολής για να ξεκινήσετε;
+	Join the ArtCraft community on Discord	Γίνετε μέλος της κοινότητας ArtCraft στο Discord
+	Join us on Discord: discord.gg/artcraft	Ελάτε μαζί μας στο Discord: discord.gg/artcraft
+	Journal	Περιοδικό
+	Justification	Στοίχιση
+	Justification of a display equation	Στοίχιση εξίσωσης σε δική της γραμμή
+	Justified	Πλήρης στοίχιση
+	Keep Lines Together	Διατήρηση γραμμών μαζί
+	Keep lines together	Διατήρηση γραμμών μαζί
+	Keep me around	Κράτα με
+	Keep Text Only	Διατήρηση μόνο κειμένου
+	Keep the password somewhere safe: without it nobody, WordCraft included, can open the document. Leave both boxes empty to remove the password.	Φυλάξτε τον κωδικό πρόσβασης σε ασφαλές μέρος: χωρίς αυτόν, κανείς, ούτε το WordCraft, δεν μπορεί να ανοίξει το έγγραφο. Αφήστε και τα δύο πλαίσια κενά για να καταργήσετε τον κωδικό.
+	Keep with Next	Διατήρηση με το επόμενο
+	Keep with next	Διατήρηση με το επόμενο
+	Keeps the fonts and formatting of the copied text.	Διατηρεί τις γραμματοσειρές και τη μορφοποίηση του αντιγραμμένου κειμένου.
+	Kerning for fonts:	Πύκνωση για γραμματοσειρές:
+	Keyboard shortcuts:	Συντομεύσεις πληκτρολογίου:
+	Keys for this command:	Πλήκτρα για αυτή την εντολή:
+	Label changes with:	Ετικέτα αλλαγών με:
+	Label:	Ετικέτα:
+	Language Preferences…	Προτιμήσεις γλώσσας…
+	Large\nOperator	Μεγάλος\nτελεστής
+	Largest Only	Μόνο η μεγαλύτερη πλευρά
+	Lasso Select	Επιλογή με λάσο
+	Last Column	Τελευταία στήλη
+	Last Name	Επώνυμο
+	Last Record	Τελευταία εγγραφή
+	Last, First; Last, First	Επώνυμο, Όνομα· Επώνυμο, Όνομα
+	Latin text font:	Γραμματοσειρά λατινικού κειμένου:
+	Layout Summary	Σύνοψη διάταξης
+	Layouts	Διατάξεις
+	Leader	Οδηγός
+	Leave a recipient out of the merge when a field has this value.	Εξαίρεση παραλήπτη από τη συγχώνευση όταν ένα πεδίο έχει αυτή την τιμή.
+	Leave Equation	Έξοδος από εξίσωση
+	Leave out the date and time of comments and tracked changes when saving	Παράλειψη ημερομηνίας και ώρας σχολίων και παρακολουθούμενων αλλαγών κατά την αποθήκευση
+	Leave the equation (Esc)	Έξοδος από την εξίσωση (Esc)
+	leave the equation first	βγείτε πρώτα από την εξίσωση
+	Leave the label out of the caption	Παράλειψη ετικέτας από τη λεζάντα
+	Left Arrow with Text Above	Αριστερό βέλος με κείμενο πάνω
+	Left Arrow with Text Below	Αριστερό βέλος με κείμενο κάτω
+	Left Border	Αριστερό περίγραμμα
+	Left border	Αριστερό περίγραμμα
+	Left Bracket Twice	Αριστερή αγκύλη εις διπλούν
+	Left indent	Αριστερή εσοχή
+	Left Margin	Αριστερό περιθώριο
+	Left Only	Μόνο αριστερά
+	Left Right Arrow Above	Βέλος αριστερά-δεξιά πάνω
+	Left Right Arrow with Text Above	Βέλος αριστερά-δεξιά με κείμενο πάνω
+	Left Right Arrow with Text Below	Βέλος αριστερά-δεξιά με κείμενο κάτω
+	Left Subscript-Superscript	Δείκτης-εκθέτης αριστερά
+	Left-to-right	Αριστερά προς δεξιά
+	Left-to-Right Text Direction	Κατεύθυνση κειμένου αριστερά προς δεξιά
+	Leftwards Arrow Above	Βέλος προς αριστερά πάνω
+	Leftwards Harpoon Above	Χαρπούνι προς αριστερά πάνω
+	Legal   8.50" × 14.00"	Legal   8,50" × 14,00"
+	Legal style numbering	Αρίθμηση νομικού στυλ
+	Legend	Υπόμνημα
+	Less than	Μικρότερο από
+	Less than or equal	Μικρότερο ή ίσο
+template	Letter	Επιστολή
+	Letter   8.50" × 11.00"	Letter   8,50" × 11,00"
+	Letter headings	Επικεφαλίδες επιστολής
+	Letter template	Πρότυπο επιστολής
+	Letter-Like Symbols	Σύμβολα που μοιάζουν με γράμματα
+	Letters	Γράμματα
+	Level 5	Επίπεδο 5
+	Level 6	Επίπεδο 6
+	Level 7	Επίπεδο 7
+	Level 8	Επίπεδο 8
+	Level 9	Επίπεδο 9
+	Level {n}	Επίπεδο {n}
+	Levels:	Επίπεδα:
+	Light Variations	Ανοιχτές παραλλαγές
+	Light with Outline	Ανοιχτό με περίγραμμα
+	Limit	Όριο
+	Limit and	Όριο και
+	Limit and\nLog	Όριο και\nλογάριθμος
+	Limit consecutive hyphens to:	Περιορισμός διαδοχικών παυλών σε:
+	Limit Example	Παράδειγμα ορίου
+	Limit formatting to a selection of styles	Περιορισμός μορφοποίησης σε επιλογή στυλ
+	Line and Page Breaks	Αλλαγές γραμμής και σελίδας
+	Line and Paragraph Spacing	Διάστιχο και απόσταση παραγράφου
+	Line between	Γραμμή μεταξύ
+	Line Break	Αλλαγή γραμμής
+	Line breaking	Σπάσιμο γραμμής
+	Line End	Τέλος γραμμής
+	Line Number	Αριθμός γραμμής
+	Line Numbering Options…	Επιλογές αρίθμησης γραμμών…
+	Line Numbers	Αριθμοί γραμμών
+	Line Spacing	Διάστιχο
+	Line Spacing Options…	Επιλογές διάστιχου…
+	Line spacing:	Διάστιχο:
+	Line Start	Αρχή γραμμής
+	Linear Diagonal - Bottom Left to Top Right	Γραμμική διαγώνιος - Κάτω αριστερά προς πάνω δεξιά
+	Linear Diagonal - Bottom Right to Top Left	Γραμμική διαγώνιος - Κάτω δεξιά προς πάνω αριστερά
+	Linear Diagonal - Top Left to Bottom Right	Γραμμική διαγώνιος - Πάνω αριστερά προς κάτω δεξιά
+	Linear Diagonal - Top Right to Bottom Left	Γραμμική διαγώνιος - Πάνω δεξιά προς κάτω αριστερά
+	Linear Down	Γραμμικό προς τα κάτω
+	Linear Fraction	Γραμμικό κλάσμα
+	Linear Left	Γραμμικό προς τα αριστερά
+	Linear Right	Γραμμικό προς τα δεξιά
+	Linear Up	Γραμμικό προς τα πάνω
+	Lines and characters	Γραμμές και χαρακτήρες
+	Lines only	Μόνο γραμμές
+	Lines per page:	Γραμμές ανά σελίδα:
+	Lines to drop:	Γραμμές για πτώση:
+	Link entries to their headings	Σύνδεση καταχωρήσεων με τις επικεφαλίδες τους
+	Link level to style:	Σύνδεση επιπέδου με στυλ:
+	Link to Previous	Σύνδεση με προηγούμενο
+	Link to:	Σύνδεση με:
+	Linked style (paragraph and character)	Συνδεδεμένο στυλ (παράγραφος και χαρακτήρας)
+	Links and References	Σύνδεσμοι και αναφορές
+	Link…	Σύνδεσμος…
+	List Definition	Ορισμός λίστας
+	List entries	Καταχωρήσεις λίστας
+	List Paragraph	Παράγραφος λίστας
+	List Table 3 – Blue	Πίνακας λίστας 3 – Μπλε
+	List Table 3 – Green	Πίνακας λίστας 3 – Πράσινος
+	List Table 3 – Orange	Πίνακας λίστας 3 – Πορτοκαλί
+	List Table 3 – Purple	Πίνακας λίστας 3 – Μωβ
+	Lit from Bottom	Φωτισμένο από κάτω
+	Lit from Top	Φωτισμένο από πάνω
+	Load System Installed Fonts…	Φόρτωση εγκατεστημένων γραμματοσειρών συστήματος…
+	Loaded {count} system fonts.	Φορτώθηκαν {count} γραμματοσειρές συστήματος.
+	Local font access is not supported by your browser.	Η πρόσβαση σε τοπικές γραμματοσειρές δεν υποστηρίζεται από το πρόγραμμα περιήγησής σας.
+	Local font access was denied.	Η πρόσβαση σε τοπικές γραμματοσειρές απορρίφθηκε.
+	Location: {path}	Θέση: {path}
+	Lock aspect ratio	Κλείδωμα αναλογίας διαστάσεων
+	Lock Fields	Κλείδωμα πεδίων
+	Log	Λογάριθμος
+	Logarithm	Λογάριθμος
+	Logarithm with Base	Λογάριθμος με βάση
+	Logical AND	Λογικό AND
+	Logical AND with Limits	Λογικό AND με όρια
+	Logical OR	Λογικό OR
+	Logical OR with Limits	Λογικό OR με όρια
+	Lorem ipsum: because the real words are still at the café.	Lorem ipsum: γιατί οι αληθινές λέξεις είναι ακόμα στο καφέ.
+	Lum:	Φωτ.:
+	Macros	Μακροεντολές
+	Made from the author and year when empty	Δημιουργείται από τον συγγραφέα και το έτος όταν είναι κενό
+	Magazine or newspaper article	Άρθρο περιοδικού ή εφημερίδας
+	Mail Merge	Συγχώνευση αλληλογραφίας
+	Mailings	Αλληλογραφία
+	Main entry:	Κύρια καταχώρηση:
+	Make WordCraft the default for Word documents…	Ορισμός του WordCraft ως προεπιλογής για έγγραφα Word…
+	Makes the ribbon, menus and dialogs larger or smaller. Auto follows your system's display scaling; 100% is one screen pixel per point. Document zoom is separate.	Κάνει την κορδέλα, τα μενού και τα παράθυρα διαλόγου μεγαλύτερα ή μικρότερα. Το Αυτόματο ακολουθεί την κλιμάκωση οθόνης του συστήματός σας· 100% είναι ένα pixel οθόνης ανά σημείο. Το ζουμ εγγράφου είναι ξεχωριστό.
+	Manage Sources	Διαχείριση πηγών
+	Manage Styles	Διαχείριση στυλ
+	Manage Styles…	Διαχείριση στυλ…
+	Manual Hyphenation	Χειροκίνητος συλλαβισμός
+	Manual hyphenation is complete.	Ο χειροκίνητος συλλαβισμός ολοκληρώθηκε.
+	Manual Line Break	Χειροκίνητη αλλαγή γραμμής
+	Manual Page Break	Χειροκίνητη αλλαγή σελίδας
+	Manual…	Χειροκίνητο…
+	Many pages	Πολλές σελίδες
+	Mark	Επισήμανση
+	Mark All	Επισήμανση όλων
+	Mark as decorative	Επισήμανση ως διακοσμητικό
+	Mark Citation	Επισήμανση παραπομπής
+	Mark Entry	Σήμανση καταχώρησης
+	Mark Entry…	Σήμανση καταχώρησης…
+	Mark grammar errors as you type	Επισήμανση γραμματικών σφαλμάτων κατά την πληκτρολόγηση
+	Mark Index Entry	Επισήμανση καταχώρησης ευρετηρίου
+	Mark selected text as:	Επισήμανση επιλεγμένου κειμένου ως:
+	Mark\nCitation	Επισήμανση\nπαραπομπής
+	Mark\nEntry	Επισήμανση\nκαταχώρησης
+	Markdown (*.md)	Markdown (*.md)
+	Match case	Διάκριση πεζών/κεφαλαίων
+	Match Fields	Αντιστοίχιση πεδίων
+	Match prefix	Αντιστοίχιση προθέματος
+	Match suffix	Αντιστοίχιση καταλήξεως
+	Matches: {count}	Αντιστοιχίσεις: {count}
+	Math AutoCorrect	Αυτόματη διόρθωση μαθηματικών
+	Matrices with Brackets	Πίνακες με αγκύλες
+	Matrix	Πίνακας
+	Maximum Example	Παράδειγμα μεγίστου
+	Measured By	Μετράται από
+	Measurement units:	Μονάδες μέτρησης:
+	Merge cells before split	Συγχώνευση κελιών πριν από τη διαίρεση
+	Merge Formatting	Συγχώνευση μορφοποίησης
+	Merge Record #	Εγγραφή # συγχώνευσης
+	Mesosphere	Μεσόσφαιρα
+	Midline Dots	Κουκκίδες μέσης γραμμής
+	Minus Equal	Μείον ίσον
+	Mirror indents	Κατοπτρικές εσοχές
+	Mirror margins	Κατοπτρικά περιθώρια
+	Mirrored	Κατοπτρικά
+	MIT OR Apache-2.0. Copyright (c) 2026 ArtCraft Team and the WordCraft contributors.	MIT OR Apache-2.0. Copyright (c) 2026 ArtCraft Team και οι συνεισφέροντες του WordCraft.
+	MLA	MLA
+	mm	mm
+	Moderate	Μέτριο
+	Modify Style	Τροποποίηση στυλ
+	Modify Table Style	Τροποποίηση στυλ πίνακα
+	Modify Table Style…	Τροποποίηση στυλ πίνακα…
+	Modify…	Τροποποίηση…
+	Mon	Δευ
+	Month	Μήνας
+	More >>	Περισσότερα >>
+	More Colors…	Περισσότερα χρώματα…
+	More Columns…	Περισσότερες στήλες…
+	More Commands…	Περισσότερες εντολές…
+	More Gradients…	Περισσότερες διαβαθμίσεις…
+	More Paper Sizes…	Περισσότερα μεγέθη χαρτιού…
+	More Symbols…	Περισσότερα σύμβολα…
+	More tabs	Περισσότερες καρτέλες
+	More templates →	Περισσότερα πρότυπα →
+	More Underlines…	Περισσότερες υπογραμμίσεις…
+	Move in Equation	Μετακίνηση στην εξίσωση
+	Move or Resize	Μετακίνηση ή αλλαγή μεγέθους
+	Move Paragraph Down	Μετακίνηση παραγράφου κάτω
+	Move Paragraph Up	Μετακίνηση παραγράφου πάνω
+	Move Past Citation	Μετακίνηση μετά την παραπομπή
+	Move Past\nCitation	Μετακίνηση μετά\nτην παραπομπή
+	Move Selected Ink	Μετακίνηση επιλεγμένου μελανιού
+	Move Table by Dragging	Μετακίνηση πίνακα με σύρσιμο
+	Move with Text	Μετακίνηση με το κείμενο
+	Moved from	Μετακινήθηκε από
+	Moved from:	Μετακινήθηκε από:
+	Moved objects snap to the page's edges and centre, the margins and other objects. Hold Alt to move freely.	Τα μετακινούμενα αντικείμενα προσκολλώνται στα άκρα και το κέντρο της σελίδας, στα περιθώρια και σε άλλα αντικείμενα. Κρατήστε Alt για ελεύθερη μετακίνηση.
+	Moved to	Μετακινήθηκε σε
+	Moved to:	Μετακινήθηκε σε:
+	Moves	Μετακινήσεις
+	Multilevel List	Λίστα πολλών επιπέδων
+	Multilevel List Library	Βιβλιοθήκη λιστών πολλών επιπέδων
+	Multiple Pages	Πολλές σελίδες
+	Mute agent messages	Σίγαση μηνυμάτων πρακτόρων
+	My list has	Η λίστα μου έχει
+	Name of the file this document is saved as	Όνομα του αρχείου με το οποίο είναι αποθηκευμένο το έγγραφο
+	Narrow	Στενό
+	Narrow  {size} all	Στενό  {size} παντού
+	Natural Logarithm	Φυσικός λογάριθμος
+	Nature	Φύση
+	Navigation Pane	Παράθυρο περιήγηση
+	Negated Relations	Αρνημένες σχέσεις
+	New Comment	Νέο σχόλιο
+	New comments and tracked changes are recorded under this name and these initials.	Τα νέα σχόλια και οι παρακολουθούμενες αλλαγές καταγράφονται με αυτό το όνομα και αυτά τα αρχικά.
+	New Drawing Canvas	Νέος καμβάς σχεδίασης
+	New Entry	Νέα καταχώρηση
+	New Label	Νέα ετικέτα
+	New Label…	Νέα ετικέτα…
+	New Paragraph	Νέα παράγραφος
+	New shortcut:	Νέα συντόμευση:
+	New Tab	Νέα καρτέλα
+	New Table Style	Νέο στυλ πίνακα
+	New Table Style…	Νέο στυλ πίνακα…
+	New word	Νέα λέξη
+	New\nComment	Νέο\nσχόλιο
+	New\nWindow	Νέο\nπαράθυρο
+	Next Comment	Επόμενο σχόλιο
+	Next Field	Επόμενο πεδίο
+	Next Footnote	Επόμενη υποσημείωση
+	Next Record	Επόμενη εγγραφή
+	Next Section	Επόμενη ενότητα
+	Next Sentence	Επόμενη πρόταση
+	Next sentence	Επόμενη πρόταση
+	Nib floats over the window with tips and the occasional remark.	Ο Nib αιωρείται πάνω από το παράθυρο με συμβουλές και περιστασιακές παρατηρήσεις.
+	Nib, your assistant. Drag to move; right-click for options.	Ο Nib, ο βοηθός σας. Σύρετε για μετακίνηση· δεξί κλικ για επιλογές.
+	No accessibility issues found.	Δεν βρέθηκαν προβλήματα προσβασιμότητας.
+	No Border	Χωρίς περίγραμμα
+	No changes (read only)	Χωρίς αλλαγές (μόνο ανάγνωση)
+	No contributor data was built into this copy.	Αυτό το αντίγραφο δεν περιλαμβάνει δεδομένα συνεισφερόντων.
+	No document is open. Create a document or open one first.	Κανένα έγγραφο δεν είναι ανοιχτό. Δημιουργήστε ή ανοίξτε πρώτα ένα έγγραφο.
+	no equation at the caret	καμία εξίσωση στον δρομέα
+	No errors found: every merge field is in the recipient list.	Δεν βρέθηκαν σφάλματα: κάθε πεδίο συγχώνευσης βρίσκεται στη λίστα παραληπτών.
+	No Fill	Χωρίς γέμισμα
+	No fill	Χωρίς γέμισμα
+	No Glow	Χωρίς λάμψη
+	No Gradient	Χωρίς διαβάθμιση
+	No grid	Χωρίς πλέγμα
+	No header row	Χωρίς γραμμή κεφαλίδας
+	No icons match your search.	Κανένα εικονίδιο δεν ταιριάζει με την αναζήτησή σας.
+	No items to show.	Κανένα στοιχείο για εμφάνιση.
+	No Markup	Χωρίς αλλαγές
+	No model credits were built into this copy.	Αυτό το αντίγραφο δεν περιλαμβάνει πιστώσεις μοντέλου.
+	No Outline	Χωρίς περίγραμμα
+	No Paragraph Space	Χωρίς κενό παραγράφου
+	No printers found. Configure a system printer or export a PDF.	Δεν βρέθηκαν εκτυπωτές. Διαμορφώστε εκτυπωτή συστήματος ή εξαγάγετε PDF.
+	No Reflection	Χωρίς αντανάκλαση
+	No Shadow	Χωρίς σκιά
+	No Soft Edges	Χωρίς μαλακά άκρα
+	No sources yet.	Δεν υπάρχουν ακόμη πηγές.
+	No Spacing	Χωρίς διάστημα
+	No spelling dictionary for {language} is installed, so it isn't checked. WordCraft looks for the Hunspell dictionary {name} in the WORDCRAFT_DICTIONARIES folder and in the usual system locations.	Δεν είναι εγκατεστημένο ορθογραφικό λεξικό για {language}, επομένως δεν γίνεται έλεγχος. Το WordCraft αναζητά το λεξικό Hunspell {name} στον φάκελο WORDCRAFT_DICTIONARIES και στις συνήθεις θέσεις συστήματος.
+	No templates match your search.	Κανένα πρότυπο δεν ταιριάζει με την αναζήτησή σας.
+	No Transform	Χωρίς μετασχηματισμό
+	No words yet. Add to Dictionary on a misspelled word puts it here.	Δεν υπάρχουν λέξεις ακόμη. Η Προσθήκη στο λεξικό σε μια λανθασμένη λέξη την τοποθετεί εδώ.
+	No-Width Non Break	Μη-διακοπή μηδενικού πλάτους
+	No-Width Optional Break	Προαιρετική αλλαγή μηδενικού πλάτους
+	Nonbreaking Hyphen	Παύλα μη διακοπής
+	Nonbreaking Space	Κενό μη διακοπής
+	Normal  {size} all	Κανονικό  {size} παντού
+	Normal Indent	Κανονική εσοχή
+	Normal probability density	Πυκνότητα κανονικής πιθανότητας
+	Normal speed	Κανονική ταχύτητα
+	Normal Style	Κανονικό στυλ
+	Normal Table	Κανονικός πίνακας
+	Normal Text	Κανονικό κείμενο
+	Normal Word Document	Κανονικό έγγραφο Word
+	North	Βορράς
+	Norwegian (Bokmål)	Νορβηγικά (bokmål)
+	Not	Όχι
+	Not available right now	Μη διαθέσιμο αυτή τη στιγμή
+	not editing an equation	δεν γίνεται επεξεργασία εξίσωσης
+	Not equal to	Δεν είναι ίσο με
+	Not linked: click a text box	Μη συνδεδεμένο: κάντε κλικ σε πλαίσιο κειμένου
+	Not now	Όχι τώρα
+	Not saved	Μη αποθηκευμένο
+	Not saved yet	Δεν έχει αποθηκευτεί ακόμη
+	Not set	Μη ορισμένο
+	Not set: the system's usual places	Μη ορισμένο: οι συνήθεις θέσεις του συστήματος
+	Not used by any command	Δεν χρησιμοποιείται από καμία εντολή
+	Not {name}	Όχι {name}
+	Nothing	Τίποτα
+	Nothing collected yet. Items you copy or cut appear here.	Τίποτα δεν έχει συλλεχθεί ακόμη. Τα στοιχεία που αντιγράφετε ή αποκόπτετε εμφανίζονται εδώ.
+	nothing is selected	δεν έχει επιλεγεί τίποτα
+	Now used by {command}	Τώρα χρησιμοποιείται από {command}
+	Nudge	Μικρομετακίνηση
+	Num Occurrences	Αριθμός εμφανίσεων
+	Number alignment:	Στοίχιση αριθμού:
+	Number format	Μορφή αριθμού
+	Number of columns:	Αριθμός στηλών:
+	Number of rows:	Αριθμός γραμμών:
+	Number of the page the field sits on	Αριθμός της σελίδας στην οποία βρίσκεται το πεδίο
+	Number of the section the field sits in	Αριθμός της ενότητας στην οποία βρίσκεται το πεδίο
+	Number only, without the label's words	Μόνο ο αριθμός, χωρίς τις λέξεις της ετικέτας
+	Number style for this level:	Στυλ αριθμού για αυτό το επίπεδο:
+	Number the equation; the number sits at the right margin (or type # then the number)	Αριθμήστε την εξίσωση· ο αριθμός τοποθετείται στο δεξί περιθώριο (ή πληκτρολογήστε # και μετά τον αριθμό)
+	Numbering	Αρίθμηση
+	Numbering:	Αρίθμηση:
+	Numbering…	Αρίθμηση…
+	Numerals	Αριθμητικά ψηφία
+	Numerals:	Αριθμητικά ψηφία:
+	n×n Identity Matrix	Μοναδιαίος πίνακας n×n
+	n×n Matrix	Πίνακας n×n
+	Odd Banded Columns	Μονές εναλλασσόμενες στήλες
+	Odd Banded Rows	Μονές εναλλασσόμενες γραμμές
+	Odd Page	Μονή σελίδα
+	Office	Γραφείο
+	Office 2003 Default	Προεπιλογή Office 2003
+	Offset (pt):	Μετατόπιση (pt):
+	Offset: Bottom	Μετατόπιση: Κάτω
+	Offset: Bottom Left	Μετατόπιση: Κάτω αριστερά
+	Offset: Bottom Right	Μετατόπιση: Κάτω δεξιά
+	Offset: Center	Μετατόπιση: Κέντρο
+	Offset: Left	Μετατόπιση: Αριστερά
+	Offset: Right	Μετατόπιση: Δεξιά
+	Offset: Top	Μετατόπιση: Πάνω
+	Offset: Top Left	Μετατόπιση: Πάνω αριστερά
+	Offset: Top Right	Μετατόπιση: Πάνω δεξιά
+	Old menu keys: Alt, {keys}. Keep typing, or press Esc to cancel.	Παλιά πλήκτρα μενού: Alt, {keys}. Συνεχίστε να πληκτρολογείτε ή πατήστε Esc για ακύρωση.
+	On: the caret glides to its new place when you type or use the arrow keys, and its blink fades. Off: it jumps and blinks on and off.	Ενεργό: ο δρομέας ολισθαίνει στη νέα θέση όταν πληκτρολογείτε ή χρησιμοποιείτε τα βελάκια και το αναβόσβημά του ξεθωριάζει. Ανενεργό: πηδά και αναβοσβήνει.
+	On: WordCraft opens on File › Home, with a blank document, the templates and your recent documents. Off: it opens a blank document.	Ενεργό: το WordCraft ανοίγει στο Αρχείο › Κεντρική, με κενό έγγραφο, τα πρότυπα και τα πρόσφατα έγγραφά σας. Ανενεργό: ανοίγει κενό έγγραφο.
+	One	Ένα
+	One half	Ένα δεύτερο
+	One label per recipient	Μία ετικέτα ανά παραλήπτη
+	One line per item. Enter adds an item.	Μία γραμμή ανά στοιχείο. Το Enter προσθέτει στοιχείο.
+	One Page	Μία σελίδα
+	One-sided	Μονής όψης
+	Only allow this kind of editing:	Να επιτρέπεται μόνο αυτού του είδους επεξεργασία:
+	Only comments can be added, except in regions marked editable.	Μπορούν να προστεθούν μόνο σχόλια, εκτός από περιοχές που έχουν επισημανθεί ως επεξεργάσιμες.
+	Only for the selected text	Μόνο για το επιλεγμένο κείμενο
+	Only form fields can be filled in.	Μπορούν να συμπληρωθούν μόνο πεδία φόρμας.
+	only in Outline view	μόνο στην προβολή διάρθρωσης
+	Only the allowed styles can be applied.	Μπορούν να εφαρμοστούν μόνο τα επιτρεπόμενα στυλ.
+	Only web (http, https) and email (mailto) links can be followed	Μπορούν να ακολουθηθούν μόνο σύνδεσμοι ιστού (http, https) και email (mailto)
+	Open a document first	Ανοίξτε πρώτα ένα έγγραφο
+	Open a file with WordCraft's own browser when the system file dialog doesn't appear.	Ανοίξτε ένα αρχείο με το πρόγραμμα περιήγησης του WordCraft όταν δεν εμφανίζεται το παράθυρο διαλόγου αρχείου του συστήματος.
+	OpenDocument Text (*.odt)	Κείμενο OpenDocument (*.odt)
+	Opening print dialog…	Άνοιγμα παραθύρου διαλόγου εκτύπωσης…
+	Opens .docx, .doc, .rtf and .odt files and Word templates with WordCraft from now on.	Από εδώ και πέρα, τα αρχεία .docx, .doc, .rtf και .odt και τα πρότυπα Word ανοίγουν με το WordCraft.
+	Opens Settings › Default apps, where you choose WordCraft for .docx and the other document types.	Ανοίγει τις Ρυθμίσεις › Προεπιλεγμένες εφαρμογές, όπου επιλέγετε το WordCraft για .docx και τους άλλους τύπους εγγράφων.
+	Operator	Τελεστής
+	Operator Structures	Δομές τελεστών
+	Operators	Τελεστές
+	Optional Hyphen	Προαιρετική παύλα
+	Or	Ή
+	Or save a copy in another format:	Ή αποθηκεύστε αντίγραφο σε άλλη μορφή:
+	Ordinals (1st) as superscript	Τακτικά (1st) ως εκθέτης
+	Organizer	Οργανωτής
+	Organizer…	Οργανωτής…
+	Original document	Αρχικό έγγραφο
+	Original size	Αρχικό μέγεθος
+	Other Large Operators	Άλλοι μεγάλοι τελεστές
+	Other styles and their TOC level:	Άλλα στυλ και το επίπεδό τους στον πίνακα περιεχομένων:
+	Other:	Άλλο:
+	Otherwise insert:	Διαφορετικά εισαγάγετε:
+	Outline	Διάρθρωση
+	Outline Level	Επίπεδο διάρθρωσης
+	Outline level	Επίπεδο διάρθρωσης
+	Outline levels	Επίπεδα διάρθρωσης
+	Outline State	Κατάσταση διάρθρωσης
+	Outline Tools	Εργαλεία διάρθρωσης
+	Outlining	Διάρθρωση
+	Outside border	Εξωτερικό περίγραμμα
+	Outside Borders	Εξωτερικά περιγράμματα
+	Outside:	Εξωτερικό:
+	Outward Brackets	Αγκύλες προς τα έξω
+	Overbar	Μπάρα πάνω
+	Overbars and Underbars	Μπάρες πάνω και κάτω
+	Overbrace	Άγκιστρο πάνω
+	Overtype	Αντικατάσταση
+	Overtype (typing replaces the characters after the caret)	Αντικατάσταση (η πληκτρολόγηση αντικαθιστά τους χαρακτήρες μετά τον δρομέα)
+	Page Background	Φόντο σελίδας
+	Page Border	Περίγραμμα σελίδας
+	Page Borders	Περιγράμματα σελίδας
+	Page Break	Αλλαγή σελίδας
+	Page Break Before	Αλλαγή σελίδας πριν
+	Page break before	Αλλαγή σελίδας πριν
+	Page Breaks	Αλλαγές σελίδας
+	Page Color	Χρώμα σελίδας
+	Page display	Εμφάνιση σελίδας
+	Page Down	Σελίδα κάτω
+	Page image (*.png)	Εικόνα σελίδας (*.png)
+	Page Movement	Μετακίνηση σελίδας
+	Page Number	Αριθμός σελίδας
+	Page Number Format	Μορφή αριθμού σελίδας
+	Page number style	Στυλ αριθμού σελίδας
+	Page numbering	Αρίθμηση σελίδων
+	Page numbers at the right margin	Αριθμοί σελίδων στο δεξί περιθώριο
+	Page on which a bookmarked passage falls	Σελίδα στην οποία βρίσκεται απόσπασμα με σελιδοδείκτη
+	Page Setup	Διαμόρφωση σελίδας
+	Page title	Τίτλος σελίδας
+	Page Up	Σελίδα πάνω
+	Page Width	Πλάτος σελίδας
+	Page width	Πλάτος σελίδας
+	Page X of Y	Σελίδα X από Y
+	Page {page}	Σελίδα {page}
+	Page\nBorders	Περιγράμματα\nσελίδας
+	Page\nColor	Χρώμα\nσελίδας
+	Page\nNumber	Αριθμός\nσελίδας
+	Pages like 1-3, 5	Σελίδες όπως 1-3, 5
+	Pages of bookmark:	Σελίδες σελιδοδείκτη:
+	Paper size:	Μέγεθος χαρτιού:
+	Paragraph Character	Χαρακτήρας παραγράφου
+	Paragraph Details	Λεπτομέρειες παραγράφου
+	Paragraph Down	Παράγραφος κάτω
+	Paragraph Mark	Σημάδι παραγράφου
+	Paragraph marks	Σημάδια παραγράφου
+	Paragraph Settings	Ρυθμίσεις παραγράφου
+	Paragraph Spacing	Διάστημα παραγράφου
+	Paragraph style	Στυλ παραγράφου
+	Paragraph Up	Παράγραφος πάνω
+	Paragraphs	Παράγραφοι
+	Paragraph…	Παράγραφος…
+	Parentheses	Παρενθέσεις
+	Parentheses with Separator	Παρενθέσεις με διαχωριστικό
+	Partial Differential	Μερικό διαφορικό
+	Password:	Κωδικός πρόσβασης:
+	Paste (⌘V)	Επικόλληση (⌘V)
+	Paste All	Επικόλληση όλων
+	Paste as:	Επικόλληση ως:
+	Paste Clipboard Item	Επικόλληση στοιχείου προχείρου
+	Paste Formatting	Επικόλληση μορφοποίησης
+	Paste function:	Επικόλληση συνάρτησης:
+	Paste Special…	Ειδική επικόλληση…
+	Paste: Keep Text Only	Επικόλληση: Διατήρηση μόνο κειμένου
+	Paste: Merge Formatting	Επικόλληση: Συγχώνευση μορφοποίησης
+	Pastes the clipboard's picture.	Επικολλά την εικόνα του προχείρου.
+	Paused	Σε παύση
+	PDF document (*.pdf)	Έγγραφο PDF (*.pdf)
+	Pens	Στυλό
+	People	Άτομα
+	Periodical	Περιοδικό
+	Personal	Προσωπικά
+	Personal Templates	Προσωπικά πρότυπα
+	Personalize	Εξατομίκευση
+	Phonetic Guide	Φωνητικός οδηγός
+	pi	pi
+	Pi Over 2	Πι διά 2
+	Pick a custom group (New Group makes one)	Επιλέξτε προσαρμοσμένη ομάδα (η Νέα ομάδα δημιουργεί μία)
+	Pick a field from the list	Επιλέξτε πεδίο από τη λίστα
+	Picture	Εικόνα
+	Picture Border	Περίγραμμα εικόνας
+	Picture Content Control	Στοιχείο ελέγχου περιεχομένου εικόνας
+	Picture Format	Μορφή εικόνας
+	Picture Styles	Στυλ εικόνας
+	Pictures	Εικόνες
+	Pie	Πίτα
+	Place in This Document	Θέση σε αυτό το έγγραφο
+	Placeholder text	Κείμενο κράτησης θέσης
+	Plain Table 1	Απλός πίνακας 1
+	Plain text (*.txt)	Απλό κείμενο (*.txt)
+	Plain Text Content Control	Στοιχείο ελέγχου περιεχομένου απλού κειμένου
+	Play/Pause	Αναπαραγωγή/παύση
+	Plus Equal	Συν ίσον
+	Points and above	βαθμοί και άνω
+	Polish	Πολωνικά
+	Portuguese (Brazil)	Πορτογαλικά (Βραζιλία)
+	Portuguese (Portugal)	Πορτογαλικά (Πορτογαλία)
+	Possible spelling mistake	Πιθανό ορθογραφικό λάθος
+	Postal Code	Ταχυδρομικός κώδικας
+	Power series of (1+x)ⁿ	Δυναμοσειρά του (1+x)ⁿ
+	Preferred width:	Προτιμώμενο πλάτος:
+	Preserve formatting during updates	Διατήρηση μορφοποίησης κατά τις ενημερώσεις
+	Preset gradients	Προκαθορισμένες διαβαθμίσεις
+	Press a key combination	Πατήστε συνδυασμό πλήκτρων
+	Preview Results	Προεπισκόπηση αποτελεσμάτων
+	Preview\nResults	Προεπισκόπηση\nαποτελεσμάτων
+	Previous 1 or More	Προηγούμενο 1 ή περισσότερες φορές
+	Previous Comment	Προηγούμενο σχόλιο
+	Previous Field	Προηγούμενο πεδίο
+	Previous Record	Προηγούμενη εγγραφή
+	Previous Section	Προηγούμενη ενότητα
+	Previous Sentence	Προηγούμενη πρόταση
+	Previous sentence	Προηγούμενη πρόταση
+	Print Documents	Εκτύπωση εγγράφων
+	Print Documents…	Εκτύπωση εγγράφων…
+	Print failed: the printing worker stopped.	Η εκτύπωση απέτυχε: η διεργασία εκτύπωσης σταμάτησε.
+	Print failed: {error}	Η εκτύπωση απέτυχε: {error}
+	Print job submitted.	Η εργασία εκτύπωσης υποβλήθηκε.
+	Print job submitted: spooled {count} sheet(s)	Η εργασία εκτύπωσης υποβλήθηκε: {count} φύλλο/α στην ουρά
+	Print job submitted: {receipt}	Η εργασία εκτύπωσης υποβλήθηκε: {receipt}
+	Print Layout	Διάταξη εκτύπωσης
+	Print Markup	Εκτύπωση αλλαγών
+	Print settings	Ρυθμίσεις εκτύπωσης
+	Print the page color	Εκτύπωση χρώματος σελίδας
+	Print to PDF	Εκτύπωση σε PDF
+	Print\nLayout	Διάταξη\nεκτύπωσης
+	Printer default	Προεπιλογή εκτυπωτή
+	Printer discovery failed.	Η ανακάλυψη εκτυπωτών απέτυχε.
+	Privacy for this document	Απόρρητο για αυτό το έγγραφο
+	Privacy Options	Επιλογές απορρήτου
+	Privacy Settings	Ρυθμίσεις απορρήτου
+	Process	Διαδικασία
+	Product	Γινόμενο
+	Product of A	Γινόμενο του A
+	Product with Limits	Γινόμενο με όρια
+	Product with Lower Limit	Γινόμενο με κάτω όριο
+	Product with Subscript-Superscript Limits	Γινόμενο με όρια δείκτη-εκθέτη
+	Products and Coproducts	Γινόμενα και συνγινόμενα
+	Professional	Επαγγελματικό
+	Promote	Προβιβασμός
+	Promote to Heading 1	Προβιβασμός σε Επικεφαλίδα 1
+	Proofing	Ορθογραφικός έλεγχος
+	Proofing Issues	Ζητήματα ορθογραφικού ελέγχου
+	Proofing language	Γλώσσα ορθογραφικού ελέγχου
+	Protect Document	Προστασία εγγράφου
+	pt	pt
+	Publisher	Εκδότης
+	Put the caret in a content control first.	Τοποθετήστε πρώτα τον δρομέα σε στοιχείο ελέγχου περιεχομένου.
+	Put the default commands back on the Quick Access Toolbar?	Επαναφορά των προεπιλεγμένων εντολών στη γραμμή γρήγορης πρόσβασης;
+	Quadratic Root	Τετραγωνική ρίζα
+	Quick Access Toolbar	Γραμμή γρήγορης πρόσβασης
+	Quick Parts	Γρήγορα τμήματα
+	Quick Tables	Γρήγοροι πίνακες
+	Quote	Παράθεση
+	Radical	Ριζικό
+	Radical with Degree	Ριζικό με δείκτη
+	Radicals	Ριζικά
+	Raised/lowered	Ανεβασμένο/κατεβασμένο
+	Read Aloud	Εκφώνηση
+	Read Aloud Status	Κατάσταση Εκφώνησης
+	Read Mode	Λειτουργία ανάγνωσης
+	Read\nAloud	Ανάγνωση με\nφωνή
+	Read\nMode	Λειτουργία\nανάγνωσης
+	Reading	Ανάγνωση
+	Reading Column Width	Πλάτος στήλης ανάγνωσης
+	Reading Highlight	Επισήμανση ανάγνωσης
+	Reading Line Spacing	Διάστιχο ανάγνωσης
+	Reading Mode	Λειτουργία ανάγνωσης
+	Reading Speed	Ταχύτητα ανάγνωσης
+	Reading Text Size	Μέγεθος κειμένου ανάγνωσης
+	Reads the clipboard's rich text and keeps its formatting.	Διαβάζει το εμπλουτισμένο κείμενο του προχείρου και διατηρεί τη μορφοποίησή του.
+	Reads the clipboard's web content and keeps its formatting.	Διαβάζει το περιεχόμενο ιστού του προχείρου και διατηρεί τη μορφοποίησή του.
+	Recent documents to show:	Πρόσφατα έγγραφα για εμφάνιση:
+	Recently Used Fonts	Πρόσφατα χρησιμοποιημένες γραμματοσειρές
+	Recently used symbols:	Πρόσφατα χρησιμοποιημένα σύμβολα:
+	Recipient List	Λίστα παραληπτών
+	Recipient lists	Λίστες παραληπτών
+	Recipients: {count}	Παραλήπτες: {count}
+	Recolor a one-color picture, such as an icon	Επαναχρωματισμός μονόχρωμης εικόνας, όπως εικονιδίου
+	Recolor Selected Ink	Επαναχρωματισμός επιλεγμένου μελανιού
+	Record Macro	Εγγραφή μακροεντολής
+	Recover Unsaved Documents	Ανάκτηση μη αποθηκευμένων εγγράφων
+	Red:	Κόκκινο:
+	Reduce Hanging Indent	Μείωση εκκρεμούς εσοχής
+	Reference type:	Τύπος αναφοράς:
+	References	Αναφορές
+	Reflection	Αντανάκλαση
+	Refresh printers	Ανανέωση εκτυπωτών
+	Region:	Περιοχή:
+	Registered	Κατοχυρωμένο
+	Registered Sign	Σύμβολο κατοχυρωμένου εμπορικού σήματος
+	Regular expressions	Κανονικές εκφράσεις
+	Reject	Απόρριψη
+	Reject and Move to Next	Απόρριψη και μετακίνηση στο επόμενο
+	Reject All Changes	Απόρριψη όλων των αλλαγών
+	Reject Change	Απόρριψη αλλαγής
+	Reject All Changes and Stop Tracking	Απόρριψη όλων και διακοπή παρακολούθησης
+	Relationship	Σχέση
+	Relative to original picture size	Σε σχέση με το αρχικό μέγεθος εικόνας
+	Remove Added Font	Κατάργηση προστιθέμενης γραμματοσειράς
+	Remove condition	Κατάργηση συνθήκης
+	Remove Content Control	Κατάργηση στοιχείου ελέγχου περιεχομένου
+	Remove every custom shortcut and restore the built-in keys?	Κατάργηση όλων των προσαρμοσμένων συντομεύσεων και επαναφορά των ενσωματωμένων πλήκτρων;
+	Remove every custom tab and group and show all tabs again?	Κατάργηση όλων των προσαρμοσμένων καρτελών και ομάδων και εμφάνιση ξανά όλων των καρτελών;
+	Remove field	Κατάργηση πεδίου
+	Remove Footer	Κατάργηση υποσέλιδου
+	Remove from Quick Access Toolbar	Κατάργηση από γραμμή γρήγορης πρόσβασης
+	Remove gradient stop	Κατάργηση σημείου διαβάθμισης
+	Remove Header	Κατάργηση κεφαλίδας
+	Remove Hyperlink	Κατάργηση υπερσύνδεσμου
+	Remove my name from comments, changes and file properties when saving	Κατάργηση του ονόματός μου από σχόλια, αλλαγές και ιδιότητες αρχείου κατά την αποθήκευση
+	Remove Password	Κατάργηση κωδικού πρόσβασης
+	Remove Pen	Κατάργηση στυλό
+	Remove recipient	Κατάργηση παραλήπτη
+	Remove row	Κατάργηση γραμμής
+	Remove series	Κατάργηση σειράς
+	Remove Space After Paragraph	Κατάργηση κενού μετά την παράγραφο
+	Remove Table of Contents	Κατάργηση πίνακα περιεχομένων
+	Remove the control once edited	Κατάργηση του στοιχείου ελέγχου μετά την επεξεργασία
+	Remove the space before the punctuation	Κατάργηση του κενού πριν από τη στίξη
+	Remove Watermark	Κατάργηση υδατογραφήματος
+	Rename Document	Μετονομασία εγγράφου
+	Reopen	Επανάνοιγμα
+	Repeat as header row on each page	Επανάληψη ως γραμμή κεφαλίδας σε κάθε σελίδα
+	Repeat Header Rows	Επανάληψη γραμμών κεφαλίδας
+	Repeating Section Content Control	Στοιχείο ελέγχου περιεχομένου επαναλαμβανόμενης ενότητας
+	Replace All	Αντικατάσταση όλων
+	Replace as you type	Αντικατάσταση κατά την πληκτρολόγηση
+	Replace Document Text	Αντικατάσταση κειμένου εγγράφου
+	Replace text as you type	Αντικατάσταση κειμένου κατά την πληκτρολόγηση
+	Replace with:	Αντικατάσταση με:
+	Replay	Αναπαραγωγή
+	Research	Έρευνα
+	Researcher	Ερευνητής
+	Researcher needs an online service; WordCraft keeps your documents offline.	Ο Ερευνητής απαιτεί διαδικτυακή υπηρεσία· το WordCraft κρατά τα έγγραφά σας εκτός σύνδεσης.
+	Reset All…	Επαναφορά όλων…
+	Reset Character Formatting	Επαναφορά μορφοποίησης χαρακτήρα
+	Reset Crop	Επαναφορά περικοπής
+	Reset Graphic	Επαναφορά γραφικού
+	Reset Paragraph Formatting	Επαναφορά μορφοποίησης παραγράφου
+	Reset Picture	Επαναφορά εικόνας
+	Reset tips	Επαναφορά συμβουλών
+	Reset to Normal	Επαναφορά σε Κανονικό
+	Reset\nGraphic	Επαναφορά\nγραφικού
+	Resize Table by Dragging	Αλλαγή μεγέθους πίνακα με σύρσιμο
+	Resolve	Επίλυση
+	Resolved	Επιλύθηκε
+	Restart at 1	Επανεκκίνηση από 1
+	Restart Each Page	Επανεκκίνηση σε κάθε σελίδα
+	Restart Each Section	Επανεκκίνηση σε κάθε ενότητα
+	Restart list after:	Επανεκκίνηση λίστας μετά:
+	Restrict Editing	Περιορισμός επεξεργασίας
+	Restrict\nEditing	Περιορισμός\nεπεξεργασίας
+	Results	Αποτελέσματα
+	Return address labels	Ετικέτες διεύθυνσης επιστροφής
+	Return address:	Διεύθυνση επιστροφής:
+	Reviewing	Αναθεώρηση
+	Reviewing Pane	Παράθυρο αναθεώρησης
+	Reviewing — edits become suggestions	Αναθεώρηση — οι αλλαγές γίνονται προτάσεις
+	Revised document	Αναθεωρημένο έγγραφο
+	Rewind	Επαναφορά
+	Rewinding. Tell me when to stop.	Γυρίζω πίσω. Πείτε μου πότε να σταματήσω.
+	Ribbon	Κορδέλα
+	Ribbon and Quick Access Toolbar:	Κορδέλα και γραμμή γρήγορης πρόσβασης:
+	Ribbon tabs	Καρτέλες κορδέλας
+	Rich Text Content Control	Στοιχείο ελέγχου περιεχομένου εμπλουτισμένου κειμένου
+	Rich Text Format (*.rtf)	Μορφή εμπλουτισμένου κειμένου (*.rtf)
+	Rich Text Format (RTF)	Μορφή εμπλουτισμένου κειμένου (RTF)
+	Right (vertical)	Δεξιά (κατακόρυφα)
+	Right Arrow with Text Above	Δεξί βέλος με κείμενο πάνω
+	Right Arrow with Text Below	Δεξί βέλος με κείμενο κάτω
+	Right Border	Δεξί περίγραμμα
+	Right border	Δεξί περίγραμμα
+	Right Bracket Twice	Δεξιά αγκύλη εις διπλούν
+	Right indent	Δεξιά εσοχή
+	Right Margin	Δεξί περιθώριο
+	Right Only	Μόνο δεξιά
+	Right-to-left	Δεξιά προς αριστερά
+	Right-to-Left Section	Ενότητα δεξιά προς αριστερά
+	Right-to-Left Table	Πίνακας δεξιά προς αριστερά
+	Right-to-Left Text Direction	Κατεύθυνση κειμένου δεξιά προς αριστερά
+	Rightwards Arrow Above	Βέλος προς δεξιά πάνω
+	Rightwards Harpoon Above	Χαρπούνι προς δεξιά πάνω
+	Romanian	Ρουμανικά
+	Roots of ax²+bx+c	Ρίζες του ax²+bx+c
+	Rotate all text 270°	Περιστροφή όλου του κειμένου 270°
+	Rotate all text 90°	Περιστροφή όλου του κειμένου 90°
+	Rotate Left 90°	Περιστροφή αριστερά 90°
+	Rotate Right 90°	Περιστροφή δεξιά 90°
+	Rotate with shape	Περιστροφή με το σχήμα
+	Row	Γραμμή
+	Row:	Γραμμή:
+	Rows & Columns	Γραμμές και στήλες
+	Ruby text:	Κείμενο ruby:
+	Rules	Κανόνες
+	Run-in	Ενσωματωμένο
+	Résumé	Βιογραφικό
+	SAMPLE	ΔΕΙΓΜΑ
+	Sat:	Σάβ:
+	Save a copy in another format. Printing goes through a PDF you can print from any viewer.	Αποθηκεύστε αντίγραφο σε άλλη μορφή. Η εκτύπωση γίνεται μέσω PDF που μπορείτε να εκτυπώσετε από οποιοδήποτε πρόγραμμα προβολής.
+	Save as Word Template…	Αποθήκευση ως πρότυπο Word…
+	Save documents	Αποθήκευση εγγράφων
+	Save the document to turn on AutoSave	Αποθηκεύστε το έγγραφο για να ενεργοποιήσετε την αυτόματη αποθήκευση
+	Save the document to turn on AutoSave (a file you have only opened isn't rewritten until you save it)	Αποθηκεύστε το έγγραφο για να ενεργοποιήσετε την αυτόματη αποθήκευση (ένα αρχείο που έχετε μόνο ανοίξει δεν ξαναγράφεται μέχρι να το αποθηκεύσετε)
+	Save these pages as PDF…	Αποθήκευση αυτών των σελίδων ως PDF…
+	Saved. Saved again. Still saved. It's very saved.	Αποθηκεύτηκε. Αποθηκεύτηκε ξανά. Ακόμη αποθηκευμένο. Είναι πολύ αποθηκευμένο.
+	Saves a .dotx template in your templates folder. It shows up in File › New under Personal.	Αποθηκεύει πρότυπο .dotx στον φάκελο προτύπων σας. Εμφανίζεται στο Αρχείο › Νέο στην ενότητα Προσωπικά.
+	Saving {name} was cancelled, so it is still open and nothing was lost.	Η αποθήκευση του {name} ακυρώθηκε, οπότε παραμένει ανοιχτό και δεν χάθηκε τίποτα.
+	Sayings	Ρητά
+	Sayings:	Ρητά:
+	Scale Drawing	Κλιμάκωση σχεδίασης
+	Scatter	Διασπορά
+	Script	Script
+	Scripts	Scripts
+	Scroll ribbon left	Κύλιση κορδέλας αριστερά
+	Scroll ribbon right	Κύλιση κορδέλας δεξιά
+	Search Commands	Αναζήτηση εντολών
+	Search commands and help	Αναζήτηση εντολών και βοήθειας
+	Search document	Αναζήτηση εγγράφου
+	Search for templates	Αναζήτηση προτύπων
+	Search icons	Αναζήτηση εικονιδίων
+	Search Options	Επιλογές αναζήτησης
+	Secant Function	Συνάρτηση τέμνουσας
+	Section 1.01	Ενότητα 1.01
+	Section Break	Αλλαγή ενότητας
+	Section Breaks	Αλλαγές ενότητας
+	Section Character	Χαρακτήρας ενότητας
+	Section direction:	Κατεύθυνση ενότητας:
+	Section Mark	Σημάδι ενότητας
+	Section Properties	Ιδιότητες ενότητας
+	Sections	Ενότητες
+	See	Βλέπε
+	select a chart first	επιλέξτε πρώτα γράφημα
+	select a connector first	επιλέξτε πρώτα συνδετήρα
+	select a drawing canvas first	επιλέξτε πρώτα καμβά σχεδίασης
+	select a floating picture or shape first	επιλέξτε πρώτα αιωρούμενη εικόνα ή σχήμα
+	select a group first	επιλέξτε πρώτα ομάδα
+	select a picture first	επιλέξτε πρώτα εικόνα
+	select a picture or shape first	επιλέξτε πρώτα εικόνα ή σχήμα
+	Select a picture, shape, chart or table to describe it.	Επιλέξτε εικόνα, σχήμα, γράφημα ή πίνακα για να το περιγράψετε.
+	Select a printer	Επιλέξτε εκτυπωτή
+	select a shape first	επιλέξτε πρώτα σχήμα
+	Select a shape, text box or drawing canvas to format its fill.	Επιλέξτε σχήμα, πλαίσιο κειμένου ή καμβά σχεδίασης για να μορφοποιήσετε το γέμισμά του.
+	select a SmartArt graphic first	επιλέξτε πρώτα γραφικό SmartArt
+	select a text box first	επιλέξτε πρώτα πλαίσιο κειμένου
+	select a text box linked to another first	επιλέξτε πρώτα πλαίσιο κειμένου συνδεδεμένο με άλλο
+	Select Cell	Επιλογή κελιού
+	Select Column	Επιλογή στήλης
+	Select Heading and Content	Επιλογή επικεφαλίδας και περιεχομένου
+	Select Line	Επιλογή γραμμής
+	Select Paragraph	Επιλογή παραγράφου
+	Select Range	Επιλογή εύρους
+	Select Recipients	Επιλογή παραληπτών
+	select recipients first	επιλέξτε πρώτα παραλήπτες
+	Select recipients first to choose from their fields.	Επιλέξτε πρώτα παραλήπτες για να διαλέξετε από τα πεδία τους.
+	Select recipients first to match their fields.	Επιλέξτε πρώτα παραλήπτες για να αντιστοιχίσετε τα πεδία τους.
+	Select Row	Επιλογή γραμμής
+	Select Sentence	Επιλογή πρότασης
+	Select Table	Επιλογή πίνακα
+	Select Table Cells by Clicking	Επιλογή κελιών πίνακα με κλικ
+	Select Text	Επιλογή κειμένου
+	Select Text with Similar Formatting	Επιλογή κειμένου με παρόμοια μορφοποίηση
+	Select text, then tick who can still edit it.	Επιλέξτε κείμενο και μετά τσεκάρετε ποιος μπορεί ακόμη να το επεξεργαστεί.
+	select two or more cells to merge	επιλέξτε δύο ή περισσότερα κελιά για συγχώνευση
+	select two or more pictures or shapes first (Shift+click)	επιλέξτε πρώτα δύο ή περισσότερες εικόνες ή σχήματα (Shift+κλικ)
+	Select Word	Επιλογή λέξης
+	Select\nRecipients	Επιλογή\nπαραληπτών
+	Selected Fields	Επιλεγμένα πεδία
+	Selected text	Επιλεγμένο κείμενο
+	Selection Pane	Παράθυρο επιλογής
+	Send the document straight to the system print dialog, or save a copy in another format below.	Στείλτε το έγγραφο απευθείας στο παράθυρο διαλόγου εκτύπωσης του συστήματος ή αποθηκεύστε αντίγραφο σε άλλη μορφή παρακάτω.
+	Sentence	Πρόταση
+	Sentence case.	Πεζά με κεφαλαίο πρώτο γράμμα.
+	Separate text at	Διαχωρισμός κειμένου στο
+	Separator:	Διαχωριστικό:
+	Sequence name:	Όνομα ακολουθίας:
+	Serbian (Cyrillic)	Σερβικά (κυριλλικά)
+	Serbian (Latin)	Σερβικά (λατινικά)
+	Series name	Όνομα σειράς
+	Series {n}	Σειρά {n}
+	Set As Default	Ορισμός ως προεπιλογή
+	Set Caret	Ορισμός δρομέα
+	Set Character Formatting	Ορισμός μορφοποίησης χαρακτήρα
+	Set Date	Ορισμός ημερομηνίας
+	Set Equation	Ορισμός εξίσωσης
+	Set Numbering Value	Ορισμός τιμής αρίθμησης
+	Set Paragraph Formatting	Ορισμός μορφοποίησης παραγράφου
+	Set Proofing Language…	Ορισμός γλώσσας ορθογραφικού ελέγχου…
+	Setting:	Ρύθμιση:
+	Shading	Σκίαση
+	Shadow, glow and soft edges	Σκιά, λάμψη και μαλακά άκρα
+	Shape Fill	Γέμισμα σχήματος
+	Shape Format	Μορφή σχήματος
+	Shape Outline	Περίγραμμα σχήματος
+	Shape Styles	Στυλ σχήματος
+	Shift+Enter starts a new line without starting a new paragraph.	Το Shift+Enter ξεκινά νέα γραμμή χωρίς νέα παράγραφο.
+	Shift+Tab	Shift+Tab
+	Shipping labels	Ετικέτες αποστολής
+	Shortcut key:	Πλήκτρο συντόμευσης:
+	Show alignment guides when moving pictures and shapes	Εμφάνιση οδηγών στοίχισης κατά τη μετακίνηση εικόνων και σχημάτων
+	Show all formatting marks	Εμφάνιση όλων των σημαδιών μορφοποίησης
+	Show All Levels	Εμφάνιση όλων των επιπέδων
+	Show all revisions inline	Εμφάνιση όλων των αλλαγών σε σειρά
+	Show changes at:	Εμφάνιση αλλαγών σε επίπεδο:
+	Show changes in:	Εμφάνιση αλλαγών σε:
+	Show Comments	Εμφάνιση σχολίων
+	Show documents with their colours inverted, like View › Switch Modes. Saving, printing and PDFs are unchanged.	Εμφάνιση εγγράφων με ανεστραμμένα χρώματα, όπως Προβολή › Εναλλαγή λειτουργιών. Η αποθήκευση, η εκτύπωση και τα PDF δεν αλλάζουν.
+	Show every bibliography field	Εμφάνιση όλων των πεδίων βιβλιογραφίας
+	Show First Line Only	Εμφάνιση μόνο πρώτης γραμμής
+	Show in the Styles gallery	Εμφάνιση στη συλλογή Στυλ
+	Show its list number	Εμφάνιση του αριθμού λίστας του
+	Show its number relative to this field	Εμφάνιση του αριθμού του σε σχέση με αυτό το πεδίο
+	Show its number with all higher levels	Εμφάνιση του αριθμού του με όλα τα ανώτερα επίπεδα
+	Show KeyTips (Alt or F10)	Εμφάνιση συμβουλών πλήκτρων (Alt ή F10)
+	Show Level	Εμφάνιση επιπέδου
+	Show Level 1	Εμφάνιση επιπέδου 1
+	Show Level 2	Εμφάνιση επιπέδου 2
+	Show Level 3	Εμφάνιση επιπέδου 3
+	Show Level 4	Εμφάνιση επιπέδου 4
+	Show Level 5	Εμφάνιση επιπέδου 5
+	Show Level 6	Εμφάνιση επιπέδου 6
+	Show Level 7	Εμφάνιση επιπέδου 7
+	Show Level 8	Εμφάνιση επιπέδου 8
+	Show Level 9	Εμφάνιση επιπέδου 9
+	Show Markup	Εμφάνιση αλλαγών
+	Show Notes	Εμφάνιση σημειώσεων
+	Show only comments and formatting in balloons	Εμφάνιση μόνο σχολίων και μορφοποίησης σε φυσαλίδες
+	Show only records that will be merged	Εμφάνιση μόνο εγγραφών που θα συγχωνευτούν
+	Show or Hide Style	Εμφάνιση ή απόκρυψη στυλ
+	Show Quick Access Toolbar	Εμφάνιση γραμμής γρήγορης πρόσβασης
+	Show revisions in balloons	Εμφάνιση αλλαγών σε φυσαλίδες
+	Show Text Formatting	Εμφάνιση μορφοποίησης κειμένου
+	Show the Assistant	Εμφάνιση του Βοηθού
+	Show the community button in the title bar	Εμφάνιση του κουμπιού κοινότητας στη γραμμή τίτλου
+	Show the equation in the line of text	Εμφάνιση της εξίσωσης στη γραμμή κειμένου
+	Show the equation on a line of its own	Εμφάνιση της εξίσωσης σε δική της γραμμή
+	Show the mini toolbar when text is selected	Εμφάνιση της μίνι γραμμής εργαλείων όταν επιλέγεται κείμενο
+	Show the ribbon	Εμφάνιση της κορδέλας
+	Show the Start screen when WordCraft starts	Εμφάνιση της κεντρικής οθόνης κατά την εκκίνηση του WordCraft
+	Show the tips you asked not to see again.	Εμφάνιση των συμβουλών που ζητήσατε να μην ξαναδείτε.
+	Show/Hide ¶	Εμφάνιση/απόκρυψη ¶
+	Show/Hide ¶ ({key}) shows the spaces, tabs and breaks hiding in your text.	Η Εμφάνιση/απόκρυψη ¶ ({key}) δείχνει τα κενά, τους στηλοθέτες και τις αλλαγές που κρύβονται στο κείμενό σας.
+	Show\nComments	Εμφάνιση\nσχολίων
+	Showing the first {count} items.	Εμφάνιση των πρώτων {count} στοιχείων.
+	Shows a tree: each item below the item it belongs to.	Εμφανίζει δέντρο: κάθε στοιχείο κάτω από το στοιχείο στο οποίο ανήκει.
+	Shows items around a central idea: the first item is the centre.	Εμφανίζει στοιχεία γύρω από μια κεντρική ιδέα: το πρώτο στοιχείο είναι το κέντρο.
+	Shows items of equal weight as blocks in rows.	Εμφανίζει στοιχεία ίσης βαρύτητας ως μπλοκ σε γραμμές.
+	Shows overlapping ideas as overlapping circles.	Εμφανίζει επικαλυπτόμενες ιδέες ως επικαλυπτόμενους κύκλους.
+	Shows parts of a whole as quadrants.	Εμφανίζει μέρη ενός συνόλου ως τεταρτημόρια.
+	Shows parts that build on each other, largest at the bottom.	Εμφανίζει μέρη που χτίζονται το ένα πάνω στο άλλο, με το μεγαλύτερο στο κάτω μέρος.
+	Shows steps in order, left to right, with arrows between them.	Εμφανίζει βήματα με σειρά, από αριστερά προς τα δεξιά, με βέλη μεταξύ τους.
+	Shows steps that repeat, around a circle.	Εμφανίζει βήματα που επαναλαμβάνονται, γύρω από κύκλο.
+	Shrink Font 1 Point	Σμίκρυνση γραμματοσειράς κατά 1 σημείο
+	Shrink text	Σμίκρυνση κειμένου
+	Side to Side	Παράθεση
+	Side\nto Side	Παρά\nθεση
+	Sides of a right triangle	Πλευρές ορθογωνίου τριγώνου
+	Signature Line	Γραμμή υπογραφής
+	Sine and cosine series of f(x)	Σειρές ημιτόνου και συνημιτόνου της f(x)
+	Sine Function	Συνάρτηση ημιτόνου
+	Sine theta	Ημίτονο θήτα
+	Single	Μονό
+	Single Brackets	Μονές αγκύλες
+	Single Closing Quote	Μονό εισαγωγικό κλείσιμο
+	Single label	Μία ετικέτα
+	Single Left Angle	Μονή αριστερή γωνία
+	Single Left Bar	Μονή αριστερή μπάρα
+	Single Left Brace	Μονό αριστερό άγκιστρο
+	Single Left Bracket	Μονή αριστερή αγκύλη
+	Single Left Parenthesis	Μονή αριστερή παρένθεση
+	Single Opening Quote	Μονό εισαγωγικό άνοιγμα
+	Single Right Brace	Μονό δεξί άγκιστρο
+	Single Right Bracket	Μονή δεξιά αγκύλη
+	Single Right Parenthesis	Μονή δεξιά παρένθεση
+	Single Spacing	Μονό διάστιχο
+	SIST02	SIST02
+	Site name	Όνομα τοποθεσίας
+	Size (pt):	Μέγεθος (pt):
+	Size and Crop…	Μέγεθος και περικοπή…
+	Sketchbook	Σημειωματάριο σχεδίου
+	Skewed Fraction	Κεκλιμένο κλάσμα
+	Skip citations & bibliography	Παράλειψη παραπομπών και βιβλιογραφίας
+	Skip Citations and Bibliography	Παράλειψη παραπομπών και βιβλιογραφίας
+	Skip Record If	Παράλειψη εγγραφής αν
+	Skip Record If…	Παράλειψη εγγραφής αν…
+	Slant Down	Κλίση προς τα κάτω
+	Slant Up	Κλίση προς τα πάνω
+	Small caps	Μικρά κεφαλαία
+	Small change	Μικρή αλλαγή
+	Smart quotes instead of straight quotes	Τυπογραφικά εισαγωγικά αντί για ευθέα
+	SmartArt	SmartArt
+	SmartArt Design	Σχεδίαση SmartArt
+	SmartArt Styles	Στυλ SmartArt
+	Smooth scrolling and zooming, and menus and buttons that fade in. Off shows every change at once.	Ομαλή κύλιση και ζουμ, και μενού και κουμπιά που εμφανίζονται με ξεθώριασμα. Ανενεργό εμφανίζει κάθε αλλαγή αμέσως.
+	Soft Edges	Μαλακά άκρα
+	Soft Glow	Απαλή λάμψη
+	Solid Accent	Συμπαγής τόνος
+	Solid fill	Συμπαγές γέμισμα
+	Sometimes	Μερικές φορές
+	Sort by:	Ταξινόμηση κατά:
+	Sort order:	Σειρά ταξινόμησης:
+	Sort Recipients	Ταξινόμηση παραληπτών
+	Source code: github.com/storytold/wordcraft	Πηγαίος κώδικας: github.com/storytold/wordcraft
+	Source Manager	Διαχείριση πηγών
+	Source type:	Τύπος πηγής:
+	Sources in this document:	Πηγές σε αυτό το έγγραφο:
+	South	Νότος
+	Space	Διάστημα
+	Space after	Διάστημα μετά
+	Space after: {pt} pt	Διάστημα μετά: {pt} pt
+	Space before	Διάστημα πριν
+	Space before/after:	Διάστημα πριν/μετά:
+	Space before: {pt} pt	Διάστημα πριν: {pt} pt
+	Spacing (pt):	Απόσταση (pt):
+	Spanish (Mexico)	Ισπανικά (Μεξικό)
+	Spanish (Spain)	Ισπανικά (Ισπανία)
+	Sparse Matrices	Αραιοί πίνακες
+	Special Characters	Ειδικοί χαρακτήρες
+	Specify height:	Καθορισμός ύψους:
+	Speech	Ομιλία
+	Spelling & Grammar	Ορθογραφία και γραμματική
+	Spelling &\nGrammar	Ορθογραφία και\nγραμματική
+	Spelling and grammar are checked in {language}.	Η ορθογραφία και η γραμματική ελέγχονται στα {language}.
+	Spelling Suggestions	Ορθογραφικές προτάσεις
+	Spike	Συλλογή
+	Split Cells	Διαίρεση κελιών
+	Split Table	Διαίρεση πίνακα
+	Spreadsheet Table	Πίνακας υπολογιστικού φύλλου
+	Square	Πλαίσιο
+	Square Root	Τετραγωνική ρίζα
+	Square Root with Degree	Ρίζα με δείκτη
+	Square Union	Τετραγωνική ένωση
+	Stack Object	Αντικείμενο στοίβας
+	Stack Object (Three)	Αντικείμενο στοίβας (τρία)
+	Stacked Bar	Στοιβαγμένες ράβδοι
+	Stacked Column	Στοιβαγμένες στήλες
+	Stacked Fraction	Στοιβαγμένο κλάσμα
+	Stacked, no bar	Στοιβαγμένο, χωρίς γραμμή
+	Standard Colors	Τυπικά χρώματα
+	Start Enforcing Protection	Έναρξη επιβολής προστασίας
+	Start Mail Merge	Έναρξη συγχώνευσης αλληλογραφίας
+	Start Mail\nMerge	Έναρξη συγχώνευσης\nαλληλογραφίας
+	Start-up	Εκκίνηση
+	State	Πολιτεία
+	Statement   5.50" × 8.50"	Statement   5,50" × 8,50"
+	Still there? I can hear you thinking.	Ακόμα εκεί; Σε ακούω να σκέφτεσαι.
+	Stop Protection	Διακοπή προστασίας
+	Stop Reading	Διακοπή ανάγνωσης
+	Stopped	Σταμάτησε
+	Straight Arrow Connector	Ευθύς συνδετήρας βέλους
+	Straight Connector	Ευθύς συνδετήρας
+	Stroke {n} of {total}	Πινελιά {n} από {total}
+	Strong	Έντονο
+	Structure Actions	Ενέργειες δομής
+	Structures	Δομές
+	Studio cover	Εξώφυλλο Studio
+	Studio handbook (sample)	Εγχειρίδιο Studio (δείγμα)
+	Style based on:	Στυλ με βάση:
+	Style Inspector	Επιθεωρητής στυλ
+	Style name:	Όνομα στυλ:
+	Style Set	Σύνολο στυλ
+	Style: APA	Στυλ: APA
+	Style: {style}	Στυλ: {style}
+	Styles Pane	Παράθυρο στυλ
+	Styles:	Στυλ:
+	Subentry:	Υποκαταχώρηση:
+	Submit print job	Υποβολή εργασίας εκτύπωσης
+	Submitting print job…	Υποβολή εργασίας εκτύπωσης…
+	Subscript-Superscript	Δείκτης-εκθέτης
+	Subscripts and Superscripts	Δείκτες και εκθέτες
+	Subset:	Υποσύνολο:
+	Subtle Emphasis	Διακριτική έμφαση
+	Subtle Reference	Διακριτική αναφορά
+	Suggested	Προτεινόμενα
+	Sum	Άθροισμα
+	Sum of cosines	Άθροισμα συνημιτόνων
+	Sum or difference of sines	Άθροισμα ή διαφορά ημιτόνων
+	Summation	Άθροιση
+	Summation from 0 to n	Άθροιση από 0 έως n
+	Summation over binomials	Άθροιση διωνυμικών
+	Summation with Limits	Άθροιση με όρια
+	Summation with Lower Limit	Άθροιση με κάτω όριο
+	Summation with Subscript Limit	Άθροιση με όριο δείκτη
+	Summation with Subscript-Superscript Limits	Άθροιση με όρια δείκτη-εκθέτη
+	Summations	Αθροίσεις
+	Suppress line numbers	Καταστολή αριθμών γραμμών
+	Surface Integral	Επιφανειακό ολοκλήρωμα
+	Surface Integral with Limits	Επιφανειακό ολοκλήρωμα με όρια
+	Surface Integral with Stacked Limits	Επιφανειακό ολοκλήρωμα με στοιβαγμένα όρια
+	Swap footnotes and endnotes	Ανταλλαγή υποσημειώσεων και σημειώσεων τέλους
+	Swedish	Σουηδικά
+	Switch Modes	Εναλλαγή λειτουργιών
+	Switch\nModes	Εναλλαγή\nλειτουργιών
+	Synonyms	Συνώνυμα
+	Tab Character	Χαρακτήρας στηλοθέτη
+	Tab character	Χαρακτήρας στηλοθέτη
+	Tab characters	Χαρακτήρες στηλοθέτη
+	Tab leader:	Οδηγός στηλοθέτη:
+	Tab stop position:	Θέση στάσης στηλοθέτη:
+	Tab stops to be cleared:	Στάσεις στηλοθέτη προς εκκαθάριση:
+	Table Column Width	Πλάτος στήλης πίνακα
+	Table Design	Σχεδίαση πίνακα
+	Table direction:	Κατεύθυνση πίνακα:
+	Table Grid	Πλέγμα πίνακα
+	Table Layout	Διάταξη πίνακα
+	Table of Authorities	Πίνακας Νομικών Πηγών
+	Table of Contents	Πίνακας περιεχομένων
+	Table of Contents Options	Επιλογές πίνακα περιεχομένων
+	Table of Contents Styles	Στυλ πίνακα περιεχομένων
+	Table of Figures	Πίνακας σχημάτων
+	Table of\nContents	Πίνακας\nπεριεχομένων
+	Table Properties	Ιδιότητες πίνακα
+	Table Properties…	Ιδιότητες πίνακα…
+	Table Row Height	Ύψος γραμμής πίνακα
+	Table size	Μέγεθος πίνακα
+	Table Style Options	Επιλογές στυλ πίνακα
+	Table Styles	Στυλ πίνακα
+	Tabloid   11.00" × 17.00"	Tabloid   11,00" × 17,00"
+	Tabs…	Στηλοθέτες…
+	Tabular List	Πινακοποιημένη λίστα
+	Tag	Ετικέτα
+	Take the last match on the page	Λήψη τελευταίας αντιστοίχισης στη σελίδα
+	Take your time. The page isn't going anywhere. Neither am I. Ever.	Πάρτε τον χρόνο σας. Η σελίδα δεν πηγαίνει πουθενά. Ούτε εγώ. Ποτέ.
+	Tangent formula	Τύπος εφαπτομένης
+	Tangent Function	Συνάρτηση εφαπτομένης
+	TC entry fields	Πεδία καταχώρησης TC
+	Technology	Τεχνολογία
+	Templates and Add-ins	Πρότυπα και πρόσθετα
+	Templates you save in your templates folder show up here.	Τα πρότυπα που αποθηκεύετε στον φάκελο προτύπων σας εμφανίζονται εδώ.
+	Text Box	Πλαίσιο κειμένου
+	Text boxes	Πλαίσια κειμένου
+	text boxes can't go inside a text box	τα πλαίσια κειμένου δεν μπορούν να μπουν μέσα σε πλαίσιο κειμένου
+	Text Direction	Κατεύθυνση κειμένου
+	Text Effects	Εφέ κειμένου
+	Text Effects and Typography	Εφέ κειμένου και τυπογραφία
+	Text Fill	Γέμισμα κειμένου
+	Text from File	Κείμενο από αρχείο
+	Text Highlight Color	Χρώμα επισήμανσης κειμένου
+	Text indent at:	Εσοχή κειμένου στο:
+	Text of the nearest paragraph with a given style (running headers)	Κείμενο της πλησιέστερης παραγράφου με δεδομένο στυλ (τρέχουσες κεφαλίδες)
+	Text Outline	Περίγραμμα κειμένου
+	Text over Colon Equal	Κείμενο πάνω από άνω-κάτω τελεία ίσον
+	Text over Equal	Κείμενο πάνω από ίσον
+	Text Pane	Παράθυρο κειμένου
+	Text size	Μέγεθος κειμένου
+	Text snaps to characters	Το κείμενο προσκολλάται στους χαρακτήρες
+	Text to display:	Κείμενο προς εμφάνιση:
+	Text Wrapping	Αναδίπλωση κειμένου
+	Text\nBox	Πλαίσιο\nκειμένου
+	Text\nDirection	Κατεύθυνση\nκειμένου
+	That format doesn't keep everything, so the document is still open. Save it as a Word document (.docx) to go on.	Αυτή η μορφή δεν διατηρεί τα πάντα, οπότε το έγγραφο παραμένει ανοιχτό. Αποθηκεύστε το ως έγγραφο Word (.docx) για να συνεχίσετε.
+	That password isn't right. Check it (passwords are case-sensitive) and try again.	Ο κωδικός πρόσβασης δεν είναι σωστός. Ελέγξτε τον (οι κωδικοί διάκριση πεζών/κεφαλαίων) και δοκιμάστε ξανά.
+	The clipboard is empty.	Το πρόχειρο είναι κενό.
+	the Clipboard pane is empty	το παράθυρο Προχείρου είναι κενό
+	the cursor isn't in a table	ο δρομέας δεν βρίσκεται σε πίνακα
+	The date it is today	Η σημερινή ημερομηνία
+	The document has no bookmarks yet.	Το έγγραφο δεν έχει ακόμη σελιδοδείκτες.
+	the document is protected	το έγγραφο είναι προστατευμένο
+	The document is read only, except for regions marked editable.	Το έγγραφο είναι μόνο για ανάγνωση, εκτός από περιοχές που έχουν επισημανθεί ως επεξεργάσιμες.
+	The document will be saved with a password. Save it to protect it.	Το έγγραφο θα αποθηκευτεί με κωδικό πρόσβασης. Αποθηκεύστε το για να το προστατεύσετε.
+	The document you are editing keeps the names and dates; only the saved file leaves them out.	Το έγγραφο που επεξεργάζεστε διατηρεί τα ονόματα και τις ημερομηνίες· μόνο το αποθηκευμένο αρχείο τα παραλείπει.
+	The margins don't fit on a page this size; make the margins smaller first.	Τα περιθώρια δεν χωρούν σε σελίδα αυτού του μεγέθους· μειώστε πρώτα τα περιθώρια.
+	The measurement must be between {min} and {max}.	Η μέτρηση πρέπει να είναι μεταξύ {min} και {max}.
+	The new style takes the formatting of the current paragraph.	Το νέο στυλ λαμβάνει τη μορφοποίηση της τρέχουσας παραγράφου.
+	The number must be between 1 and {max}.	Ο αριθμός πρέπει να είναι μεταξύ 1 και {max}.
+	the paragraph is empty	η παράγραφος είναι κενή
+	the paragraph starts with a space	η παράγραφος ξεκινά με κενό
+	The password is optional; without it anyone can stop the protection.	Ο κωδικός πρόσβασης είναι προαιρετικός· χωρίς αυτόν, ο καθένας μπορεί να σταματήσει την προστασία.
+	The password is removed. Save the document to keep the change.	Ο κωδικός πρόσβασης αφαιρέθηκε. Αποθηκεύστε το έγγραφο για να διατηρήσετε την αλλαγή.
+	The printer, two-sided printing and pages per sheet are chosen in that dialog.	Ο εκτυπωτής, η αμφίπλευρη εκτύπωση και οι σελίδες ανά φύλλο επιλέγονται σε εκείνο το παράθυρο διαλόγου.
+	The recipient-list field that fills each part of an address block and greeting line.	Το πεδίο λίστας παραληπτών που συμπληρώνει κάθε μέρος ενός μπλοκ διευθύνσεων και γραμμής χαιρετισμού.
+	The spelling and grammar check is complete.	Ο ορθογραφικός και γραμματικός έλεγχος ολοκληρώθηκε.
+	the Spike is empty	η συλλογή είναι κενή
+	The system file dialog isn't available, so WordCraft shows its own. To get the system dialog, install a file chooser portal (such as xdg-desktop-portal-gtk) or zenity.	Το παράθυρο διαλόγου αρχείου του συστήματος δεν είναι διαθέσιμο, οπότε το WordCraft εμφανίζει το δικό του. Για το παράθυρο του συστήματος, εγκαταστήστε μια πύλη επιλογής αρχείων (όπως xdg-desktop-portal-gtk) ή zenity.
+	The text at the insertion point is marked Do not check spelling or grammar.	Το κείμενο στο σημείο εισαγωγής είναι επισημασμένο ως Να μην γίνεται ορθογραφικός ή γραμματικός έλεγχος.
+	The time right now	Η τρέχουσα ώρα
+	Theme Colors	Χρώματα θέματος
+	Theme Fonts	Γραμματοσειρές θέματος
+	Theme List	Λίστα θεμάτων
+	Themes	Θέματα
+	Then by	Έπειτα κατά
+	Then insert:	Τότε εισαγάγετε:
+	there is no ink to replay	δεν υπάρχει μελάνι για αναπαραγωγή
+	there is nothing to undo	δεν υπάρχει τίποτα για αναίρεση
+	there's no citation after the caret	δεν υπάρχει παραπομπή μετά τον δρομέα
+	Thesaurus	Θησαυρός
+	These marks show even when Show/Hide ¶ is off.	Αυτά τα σημάδια εμφανίζονται ακόμη και όταν η Εμφάνιση/απόκρυψη ¶ είναι ανενεργή.
+	These merge fields aren't in the recipient list:	Αυτά τα πεδία συγχώνευσης δεν βρίσκονται στη λίστα παραληπτών:
+	These settings will be used for new documents.	Αυτές οι ρυθμίσεις θα χρησιμοποιηθούν για νέα έγγραφα.
+	Thick	Παχύ
+	this chart was made in another program: WordCraft shows it but can't edit it	αυτό το γράφημα δημιουργήθηκε σε άλλο πρόγραμμα: το WordCraft το εμφανίζει αλλά δεν μπορεί να το επεξεργαστεί
+	This document	Αυτό το έγγραφο
+	This field has no options.	Αυτό το πεδίο δεν έχει επιλογές.
+	This folder can't be read: {error}	Δεν είναι δυνατή η ανάγνωση αυτού του φακέλου: {error}
+	This font has no characters to show.	Αυτή η γραμματοσειρά δεν έχει χαρακτήρες για εμφάνιση.
+	this item is already at the top level	αυτό το στοιχείο βρίσκεται ήδη στο ανώτατο επίπεδο
+	This page	Αυτή η σελίδα
+	This password type isn't supported.	Αυτός ο τύπος κωδικού πρόσβασης δεν υποστηρίζεται.
+	This point forward	Από αυτό το σημείο και μετά
+	This section	Αυτή η ενότητα
+	this SmartArt was made in another program: WordCraft shows it but can't edit it	αυτό το SmartArt δημιουργήθηκε σε άλλο πρόγραμμα: το WordCraft το εμφανίζει αλλά δεν μπορεί να το επεξεργαστεί
+	this text box is already linked: break the link first	αυτό το πλαίσιο κειμένου είναι ήδη συνδεδεμένο: σπάστε πρώτα τη σύνδεση
+	Three	Τρία
+	Through	Διαμπερές
+	Tight	Στενό
+	Tilde	Tilde
+	Tip	Συμβουλή
+	Tips ({n})	Συμβουλές ({n})
+preview	Title	Παράδειγμα
+	Title Bar	Γραμμή τίτλου
+	Title from the document properties	Τίτλος από τις ιδιότητες εγγράφου
+	Title:	Τίτλος:
+	To open Word documents with WordCraft by default: select one in Finder, choose File › Get Info, pick WordCraft under Open with, then click Change All.	Για να ανοίγετε έγγραφα Word με το WordCraft από προεπιλογή: επιλέξτε ένα στο Finder, επιλέξτε Αρχείο › Πληροφορίες, επιλέξτε WordCraft στο «Άνοιγμα με» και μετά κάντε κλικ στο «Αλλαγή όλων».
+	To:	Προς:
+	TOA Heading	Επικεφαλίδα πίνακα αρχών
+	TOC Heading	Επικεφαλίδα πίνακα περιεχομένων
+	TOC {n}	Πίνακας περιεχομένων {n}
+	Today	Σήμερα
+	tOGGLE cASE	εΝΑΛΛΑΓΗ ΠΕΖΩΝ/ΚΕΦΑΛΑΙΩΝ
+	Toggle Check Box	Εναλλαγή πλαισίου ελέγχου
+	Toggle Field Codes	Εναλλαγή κωδικών πεδίων
+	Toggle Unicode Character	Εναλλαγή χαρακτήρα Unicode
+	Top and Bottom	Πάνω και κάτω
+	Top Border	Πάνω περίγραμμα
+	Top Left Cell	Πάνω αριστερό κελί
+	Top Margin	Πάνω περιθώριο
+	Top of Page	Αρχή σελίδας
+	Top Right Cell	Πάνω δεξί κελί
+	Top:	Πάνω:
+	Total Row	Γραμμή συνόλου
+	Track Changes	Παρακολούθηση αλλαγών
+	Track Changes Options	Επιλογές παρακολούθησης αλλαγών
+	Track Changes: On	Παρακολούθηση αλλαγών: Ενεργή
+	Track formatting	Παρακολούθηση μορφοποίησης
+	Track\nChanges	Παρακολούθηση\nαλλαγών
+	Track\nChanges ✓	Παρακολούθηση\nαλλαγών ✓
+	Tracked changes	Παρακολουθούμενες αλλαγές
+	Tracking	Παρακολούθηση
+	Trademark	Εμπορικό σήμα
+	Trademark Sign	Σύμβολο εμπορικού σήματος
+	Transport	Μεταφορά
+	Triangle Down	Τρίγωνο κάτω
+	Triangle Up	Τρίγωνο πάνω
+	Trigonometric Functions	Τριγωνομετρικές συναρτήσεις
+	Triple	Τριπλό
+	Triple Dot	Τρεις τελείες
+	Triple Integral	Τριπλό ολοκλήρωμα
+	Triple Integral with Limits	Τριπλό ολοκλήρωμα με όρια
+	Triple Integral with Stacked Limits	Τριπλό ολοκλήρωμα με στοιβαγμένα όρια
+	Trust Center	Κέντρο αξιοπιστίας
+	Tue	Τρί
+	Turabian	Turabian
+	Turkish	Τουρκικά
+	Two	Δύο
+	Two-sided printing	Αμφίπλευρη εκτύπωση
+	Two-sided: long edge	Αμφίπλευρη: μακριά άκρη
+	Two-sided: short edge	Αμφίπλευρη: κοντή άκρη
+	Type +2 or -1 to move from the page you are on.	Πληκτρολογήστε +2 ή -1 για να μετακινηθείτε από την τρέχουσα σελίδα.
+	Type a command, e.g. "insert table"	Πληκτρολογήστε εντολή, π.χ. "εισαγωγή πίνακα"
+	Type a New List…	Πληκτρολογήστε νέα λίστα…
+	Type a page number, or +2 / -1.	Πληκτρολογήστε αριθμό σελίδας ή +2 / -1.
+	Type a size in any unit, such as 5 cm or 300 px. The other side follows, so the picture keeps its proportions.	Πληκτρολογήστε μέγεθος σε οποιαδήποτε μονάδα, όπως 5 cm ή 300 px. Η άλλη πλευρά ακολουθεί, ώστε η εικόνα να διατηρεί τις αναλογίες της.
+	Type at least one recipient.	Πληκτρολογήστε τουλάχιστον έναν παραλήπτη.
+	Type Character Code	Πληκτρολόγηση κωδικού χαρακτήρα
+	Type equations in LaTeX	Πληκτρολόγηση εξισώσεων σε LaTeX
+	Type equations in the linear format (UnicodeMath)	Πληκτρολόγηση εξισώσεων σε γραμμική μορφή (UnicodeMath)
+	Type in Equation	Πληκτρολόγηση στην εξίσωση
+	Type normal (non-math) text in the equation	Πληκτρολόγηση κανονικού (μη μαθηματικού) κειμένου στην εξίσωση
+	Type Text	Πληκτρολόγηση κειμένου
+	Type the categories down the side and a column of values per series.	Πληκτρολογήστε τις κατηγορίες στην πλαϊνή στήλη και μια στήλη τιμών ανά σειρά.
+	Type the field's name and its switches, for example PAGE \\* roman.	Πληκτρολογήστε το όνομα του πεδίου και τους διακόπτες του, για παράδειγμα PAGE \\* roman.
+	Type the password to stop the protection.	Πληκτρολογήστε τον κωδικό πρόσβασης για να σταματήσετε την προστασία.
+	Type the recipients, or load them from a file.	Πληκτρολογήστε τους παραλήπτες ή φορτώστε τους από αρχείο.
+	Typing replaces selected text	Η πληκτρολόγηση αντικαθιστά το επιλεγμένο κείμενο
+	Ukrainian	Ουκρανικά
+	Unchecked symbol	Μη επιλεγμένο σύμβολο
+	Underbar	Μπάρα κάτω
+	Underbrace	Άγκιστρο κάτω
+	Underline Color	Χρώμα υπογράμμισης
+	Underline color	Χρώμα υπογράμμισης
+	Underline Words Only	Υπογράμμιση μόνο λέξεων
+	Undo 1 Action	Αναίρεση 1 ενέργειας
+	Undo Actions	Αναίρεση ενεργειών
+	Undo History	Ιστορικό αναιρέσεων
+	Undo {n} Actions	Αναίρεση {n} ενεργειών
+	Undo, undo, undo… we're time travelling now.	Αναίρεση, αναίρεση, αναίρεση… τώρα ταξιδεύουμε στον χρόνο.
+	Unformatted Text	Μη μορφοποιημένο κείμενο
+	Union of intersections	Ένωση τομών
+	Union with Limits	Ένωση με όρια
+	Union with Lower Limit	Ένωση με κάτω όριο
+	Union with Plus	Ένωση με συν
+	Union with Subscript-Superscript Limits	Ένωση με όρια δείκτη-εκθέτη
+	Unions and Intersections	Ενώσεις και τομές
+	Unlink Fields	Αποσύνδεση πεδίων
+	Unlink\nCitations	Αποσύνδεση\nπαραπομπών
+	Unlock Fields	Ξεκλείδωμα πεδίων
+	Up Diagonal Dots	Ανοδικές διαγώνιες κουκκίδες
+	Up one level	Ένα επίπεδο πάνω
+	Update Field	Ενημέρωση πεδίου
+	Update fields before printing	Ενημέρωση πεδίων πριν από την εκτύπωση
+	Update Index	Ενημέρωση ευρετηρίου
+	Update Style to Match Selection	Ενημέρωση στυλ για αντιστοίχιση με την επιλογή
+	Update Styles from Template	Ενημέρωση στυλ από πρότυπο
+	Update Table	Ενημέρωση πίνακα
+	Update Table of Figures	Ενημέρωση πίνακα σχημάτων
+	Update to Match	Ενημέρωση για αντιστοίχιση
+	Update to Match Selection	Ενημέρωση για αντιστοίχιση με την επιλογή
+	URGENT	ΕΠΕΙΓΟΝ
+	URL	URL
+	Use "a" before a consonant sound	Χρήση "a" πριν από σύμφωνο
+	Use "an" before a vowel sound	Χρήση "an" πριν από φωνήεν
+	Use an Existing List…	Χρήση υπάρχουσας λίστας…
+	Use system setting	Χρήση ρύθμισης συστήματος
+	Use the browser's full screen (F11)	Χρήση πλήρους οθόνης προγράμματος περιήγησης (F11)
+	Use the Insert key to switch overtype on and off	Χρήση του πλήκτρου Insert για ενεργοποίηση/απενεργοποίηση αντικατάστασης
+	Use wildcards	Χρήση μπαλαντέρ
+	User Name	Όνομα χρήστη
+	User name:	Όνομα χρήστη:
+	User templates:	Πρότυπα χρήστη:
+	Vector A	Διάνυσμα A
+	Vector AB	Διάνυσμα AB
+	Version History	Ιστορικό εκδόσεων
+	Version {version} ({build})	Έκδοση {version} ({build})
+	Vertical alignment:	Κατακόρυφη στοίχιση:
+	Vertical Bars	Κάθετες μπάρες
+	Vertical Dots	Κατακόρυφες κουκκίδες
+	View Alt Text…	Προβολή εναλλακτικού κειμένου…
+	View Gridlines	Προβολή γραμμών πλέγματος
+	View State	Κατάσταση προβολής
+	View › Focus hides everything but your words. I'll wait outside.	Η Προβολή › Εστίαση κρύβει τα πάντα εκτός από τις λέξεις σας. Θα περιμένω έξω.
+	Views	Προβολές
+	Visual effects	Οπτικά εφέ
+	Volume	Ένταση
+	Volume Integral	Ολοκλήρωμα όγκου
+	Volume Integral with Limits	Ολοκλήρωμα όγκου με όρια
+	Volume Integral with Stacked Limits	Ολοκλήρωμα όγκου με στοιβαγμένα όρια
+	Wait for the print job to finish submitting before closing.	Περιμένετε να ολοκληρωθεί η υποβολή της εργασίας εκτύπωσης πριν κλείσετε.
+	Waiting for the save to finish…	Αναμονή ολοκλήρωσης αποθήκευσης…
+	Waiting for Zotero…	Αναμονή για Zotero…
+	Warm Gradient with Outline	Ζεστή διαβάθμιση με περίγραμμα
+	Warnings ({n})	Προειδοποιήσεις ({n})
+	Weather	Καιρός
+	Web Layout	Διάταξη ιστού
+	Web page (*.html)	Ιστοσελίδα (*.html)
+	Web\nLayout	Διάταξη\nιστού
+	Wed	Τετ
+	West	Δύση
+	When this document was first created	Όταν δημιουργήθηκε για πρώτη φορά αυτό το έγγραφο
+	When this document was most recently printed	Όταν εκτυπώθηκε τελευταία φορά αυτό το έγγραφο
+	When this document was most recently saved	Όταν αποθηκεύτηκε τελευταία φορά αυτό το έγγραφο
+	White Space	Κενός χώρος
+	White space	Κενά διαστήματα
+	Who the document properties name as author	Ποιος αναφέρεται ως συγγραφέας στις ιδιότητες εγγράφου
+	Whole document	Ολόκληρο το έγγραφο
+	Whole page	Ολόκληρη σελίδα
+	Whole Table	Ολόκληρος πίνακας
+	Whole words	Ολόκληρες λέξεις
+	Wide	Πλατύ
+	Widow/Orphan Control	Έλεγχος χήρας/ορφανού
+	Widow/Orphan control	Έλεγχος χήρας/ορφανού
+	Width and spacing	Πλάτος και διάστημα
+	Wildcards (regex)	Μπαλαντέρ (regex)
+	With:	Με:
+	Word 2003 XML Document (*.xml)	Έγγραφο Word 2003 XML (*.xml)
+	Word Count	Μέτρηση λέξεων
+	Word document	Έγγραφο Word
+	Word document (*.docx)	Έγγραφο Word (*.docx)
+	Word Left	Λέξη αριστερά
+	Word level	Επίπεδο λέξης
+	Word Right	Λέξη δεξιά
+	Word XML Document (*.xml)	Έγγραφο Word XML (*.xml)
+	WordArt	WordArt
+	WordArt Styles	Στυλ WordArt
+	WordCraft	WordCraft
+	WordCraft is now the default app for Word documents.	Το WordCraft είναι πλέον η προεπιλεγμένη εφαρμογή για έγγραφα Word.
+	Words only	Μόνο λέξεις
+	Wrap Text	Αναδίπλωση κειμένου
+	Wrap Text Sides	Πλευρές αναδίπλωσης κειμένου
+	Wrap\nText	Αναδίπλωση\nκειμένου
+	Write & Insert Fields	Εγγραφή και εισαγωγή πεδίων
+	Write a reply	Γράψτε απάντηση
+	Writer's block? I find staring at the cursor helps. It's been blinking at me for years.	Μπλοκάρισμα συγγραφέα; Εγώ βρίσκω ότι βοηθά να κοιτάζω τον δρομέα. Μου αναβοσβήνει για χρόνια.
+	x bar	x με μπάρα
+	Year	Έτος
+	Yields	Αποδίδει
+	You haven't saved in a while, and AutoSave is off. Save now?	Δεν έχετε αποθηκεύσει εδώ και λίγο και η αυτόματη αποθήκευση είναι ανενεργή. Αποθήκευση τώρα;
+	You started a list. Press Enter twice to end it, or Backspace at the start of an item to turn it back into text.	Ξεκινήσατε λίστα. Πατήστε Enter δύο φορές για να την τερματίσετε ή Backspace στην αρχή στοιχείου για να το μετατρέψετε ξανά σε κείμενο.
+	Your document is now the most saved document in history.	Το έγγραφό σας είναι τώρα το πιο αποθηκευμένο έγγραφο στην ιστορία.
+	Your system doesn't report an animation setting, so animation effects stay on.	Το σύστημά σας δεν αναφέρει ρύθμιση κίνησης, οπότε τα εφέ κίνησης παραμένουν ενεργά.
+	Your system has animation effects turned off.	Το σύστημά σας έχει απενεργοποιημένα τα εφέ κίνησης.
+	Your system has animation effects turned on.	Το σύστημά σας έχει ενεργοποιημένα τα εφέ κίνησης.
+	Zoom	Ζουμ
+	Zotero	Zotero
+	Zotero: cancelled	Zotero: ακυρώθηκε
+	Zotero: done	Zotero: ολοκληρώθηκε
+	{added}; {count} couldn't be read: {names}	{added}; {count} δεν ήταν δυνατή η ανάγνωση: {names}
+	{added}; {n} skipped (limit {max})	{added}; {n} παραλείφθηκαν (όριο {max})
+	{cols}×{rows} Table	Πίνακας {cols}×{rows}
+	{contributors} contributors · {commits} commits	Συνεισφέροντες: {contributors} · commits: {commits}
+	{count} items highlighted	{count} στοιχεία επισημάνθηκαν
+	{count} of {total} pages will print	{count} από {total} σελίδες θα εκτυπωθούν
+	{count} of {total} recipients will be merged.	{count} από {total} παραλήπτες θα συγχωνευτούν.
+	{group} settings	Ρυθμίσεις {group}
+	{key}+Click to follow link	{key}+κλικ για να ακολουθήσετε τον σύνδεσμο
+	{kind}, {columns} × {rows}, {size} ({paper})	{kind}, {columns} × {rows}, {size} ({paper})
+	{language} (no dictionary)	{language} (χωρίς λεξικό)
+	{language} is now the document's default language.	Τα {language} είναι πλέον η προεπιλεγμένη γλώσσα του εγγράφου.
+	{language}: no dictionary found	{language}: δεν βρέθηκε λεξικό
+	{language}: WordCraft doesn't check spelling or grammar in this language yet.	{language}: Το WordCraft δεν ελέγχει ακόμη ορθογραφία ή γραμματική σε αυτή τη γλώσσα.
+	{language}: {file}	{language}: {file}
+	{names} and {n} more	{names} και {n} ακόμη
+	{name}   {height} × {width} in	{name}   {height} × {width} ίντσες
+	{name}   {height} × {width} mm	{name}   {height} × {width} mm
+	{name} already exists. Choose Save again to replace it.	Το {name} υπάρχει ήδη. Επιλέξτε ξανά Αποθήκευση για αντικατάσταση.
+	{name} is protected with a password.	Το {name} είναι προστατευμένο με κωδικό πρόσβασης.
+	{name} options	Επιλογές {name}
+	{name} wasn't found.	Το {name} δεν βρέθηκε.
+	{n} entries marked.	{n} καταχωρήσεις επισημάνθηκαν.
+	{n} lines	{n} γραμμές
+	{n} pt	{n} pt
+	{selected} of {words} words	{selected} από {words} λέξεις
+	{size} pt	{size} pt
+	{width} × {height} mm	{width} × {height} mm
+	{width} × {height} pixels	{width} × {height} pixel
+	{words} words	{words} λέξεις
+	{words} words and counting. Literally. I'm counting.	{words} λέξεις και μετράμε. Κυριολεκτικά. Μετράω.
+	{words} words! I'd throw confetti but I'd have to clean it up.	{words} λέξεις! Θα πετούσα κομφετί, αλλά θα έπρεπε να τα μαζέψω.
+	{words} words. That's {words} more than I've written today.	{words} λέξεις. Αυτές είναι {words} περισσότερες από όσες έγραψα εγώ σήμερα.
+	“{text}” ({row}, {series}) isn't a number.	Το «{text}» ({row}, {series}) δεν είναι αριθμός.
+	✓ None	✓ Κανένα
+	➕ New comment	➕ Νέο σχόλιο
+	📂  Browse…	📂  Περιήγηση…
