@@ -1,6 +1,6 @@
 # craft-i18n roadmap
 
-> **Last updated:** 2026-11-01 · **Change:** patch (en-variants: judgment/judgement both right everywhere)
+> **Last updated:** 2026-11-01 · **Change:** minor (stage 4, 20 Language packs unhidden)
 
 Shared translations for the storytold Crafting Apps: one catalog per locale for shared strings,
 one per app, checked in CI and embedded by each app at build time. Vocabulary is in
@@ -16,7 +16,7 @@ one per app, checked in CI and embedded by each app at build time. Vocabulary is
 | 3b | Migrate the other TSV apps: PhotoCraft, VectorCraft, FilmCraft, CADCraft, craft-launcher | apps | catalogs moved here (shared catalog grows additively, [ADR 0003](docs/adr/0003-shared-catalog-grows-additively.md)); app wiring next |
 | 3c | Convert and migrate FigCraft (TOML), LightCraft (JSON), DesignCraft, GridCraft, EffectCraft (Rust tables) | apps | not started |
 | 3d | Add translation to DeckCraft and SoundCraft | apps | not started |
-| 4 | Language data: spelling dictionaries, hyphenation patterns and the suite word list; English embedded, other languages pinned and downloaded ([ADR 0004](docs/adr/0004-third-party-language-data.md), [ADR 0005](docs/adr/0005-language-data-lives-here.md)) | this repo, craft-libs, apps | licence table signed off 2026-11-01 (Martin Ball); phase 1 done; phase 2 (SCOWL 2026 en-US/en-GB/en-CA/en-AU dictionaries) added; phase 3 (pack manifest, checks, release workflow) done |
+| 4 | Language data: spelling dictionaries, hyphenation patterns and the suite word list; English embedded, other languages pinned and downloaded ([ADR 0004](docs/adr/0004-third-party-language-data.md), [ADR 0005](docs/adr/0005-language-data-lives-here.md)) | this repo, craft-libs, apps | licence table signed off 2026-11-01 (Martin Ball); phase 1 done; phase 2 (SCOWL 2026 en-US/en-GB/en-CA/en-AU dictionaries) added; phase 3 (pack manifest, checks, release workflow) done; phase 3 follow-up (60 of 80 locales publishable, 17 hidden, 3 Excluded) waits on craft-libs #482–#490 |
 
 Each app migration: confirm the app is MIT OR Apache-2.0, move its catalogs here (lowercase BCP 47
 names, origin recorded in `ATTRIBUTION.md`), add the `build.rs` recipe from
@@ -96,3 +96,4 @@ As surveyed on 2026-10-16 (VectorCraft recounted 2026-10-18). Locale counts excl
 | 2026-11-01 | patch | ADR 0004 licence table signed off (Martin Ball, 2026-11-01): the LGPL/MPL/LPPL/GPL switch is retired; uk Excluded pending its NC source data |
 | 2026-11-01 | minor | Milestone 4 phase 2: SCOWL `rel-2026.02.25` Hunspell dictionaries for en-US, en-GB (-ise), en-CA and en-AU in `language-data/`, unmodified, with their licence notices |
 | 2026-11-01 | patch | `en-variants.txt`: `judgment`/`judgement` (and `-al`) right in every English, now that each English checks only its own SCOWL dictionary (craft-libs#483 review) |
+| 2026-11-01 | minor | Milestone 4 phase 3 follow-up: ar, be, ca, ca-valencia, cy, el, fr, he, hy, id, is, ka, lv, mk, sk, sr, sr-latn, tr, af, ko unhidden (60 published, 17 hidden, 3 Excluded); hidden reasons name the current compounding gaps; gl check word fixed; Moby `en-us.dic` loses typos teh, abd, nad, ur, u, r; licence file names checked as the consumer does; draft until craft-libs #482–#490 merge |

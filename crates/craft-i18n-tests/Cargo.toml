@@ -24,4 +24,5 @@ zstd = "0.14.3"
 workspace = true
 
 [dev-dependencies]
-craft-proof = { git = "https://github.com/benandez/craft-libs", rev = "961162a" }
+# TODO(CP3): pin at fork rev 1a10977 (craft-libs #482-#490 stack top); move to the storytold/craft-libs merge commit once they merge.
+craft-proof = { git = "https://github.com/benandez/craft-libs", rev = "1a10977" }
