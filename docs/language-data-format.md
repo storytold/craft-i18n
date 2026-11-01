@@ -65,12 +65,18 @@ Bulgarian patterns' permissive licence). `WITH` exceptions and `+` are not allow
 correct = ["huis", "boek", "school", "water", "stad"]   # at least 5
 incorrect = ["boekk", "schooll", "werkken"]             # at least 3
 hidden = true                                          # optional
-reason = "craft-proof can't read two-character flags yet (FLAG long)"
+reason = "craft-proof doesn't support compounding yet (COMPOUNDFLAG)"
 ```
 
 Common words, written here (this repository's licence). A regional locale without its own file
 uses its language's (`es-mx` uses `es`). **`hidden = true`** keeps a pack out of releases while
 `craft-proof` can't read it; it needs a `reason`. Each reason has an engine issue in craft-libs.
+The reason names the engine gap in the form `craft-proof doesn't support <feature> yet (<AFF
+flag>)`; it is a statement of fact about the pinned `craft-proof`, so refresh it when the pin moves.
+As of 2026-11-01 (craft-proof at storytold/craft-libs rev `8f16fe5a`, the top of the #482–#490 stack): 80 locales, 3 Excluded
+(eu, ug, uk), 16 hidden (the compounding flags `COMPOUNDBEGIN`: da, de, de-at, de-ch, fa, nl;
+`COMPOUNDFLAG`: eo, et, hr, hu, mn, nb, nn; `COMPOUNDPERMITFLAG`: sv, sv-fi; and th, which needs word
+segmentation), 61 published.
 
 ## Checks
 

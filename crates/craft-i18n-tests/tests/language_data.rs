@@ -205,3 +205,19 @@ mod fixtures {
         }
     }
 }
+
+/// The Moby word list leaves out entries that are far more often typos than words (the same
+/// exclusions as craft-proof's generator), and keeps ordinary neighbours.
+#[test]
+fn moby_list_has_no_common_typos() {
+    let bytes =
+        std::fs::read(craft_i18n_tests::repo_root().join("language-data/en-us/en-us.dic")).unwrap();
+    let dict = craft_proof::dict::Dictionary::from_bytes(&bytes).unwrap();
+    let words: std::collections::HashSet<&str> = dict.iter().map(|(w, _)| w).collect();
+    for typo in ["teh", "abd", "nad", "ur", "u", "r"] {
+        assert!(!words.contains(typo), "{typo} is a typo, not a word");
+    }
+    for word in ["the", "and", "your", "tea", "ten"] {
+        assert!(words.contains(word), "{word} should still be a word");
+    }
+}

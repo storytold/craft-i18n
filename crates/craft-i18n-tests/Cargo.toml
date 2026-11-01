@@ -24,4 +24,5 @@ zstd = "0.14.3"
 workspace = true
 
 [dev-dependencies]
-craft-proof = { git = "https://github.com/benandez/craft-libs", rev = "961162a" }
+# Pinned at the top of the craft-libs #482-#490 stack (#485, restacked on #483 6e45fda); the rev stays valid once those merge with merge commits.
+craft-proof = { git = "https://github.com/storytold/craft-libs", rev = "8f16fe5a" }
