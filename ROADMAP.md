@@ -1,6 +1,6 @@
 # craft-i18n roadmap
 
-> **Last updated:** 2026-11-01 · **Change:** minor (stage 4, SCOWL English dictionaries)
+> **Last updated:** 2026-11-01 · **Change:** patch (en-variants: judgment/judgement both right everywhere)
 
 Shared translations for the storytold Crafting Apps: one catalog per locale for shared strings,
 one per app, checked in CI and embedded by each app at build time. Vocabulary is in
@@ -95,3 +95,4 @@ As surveyed on 2026-10-16 (VectorCraft recounted 2026-10-18). Locale counts excl
 | 2026-11-01 | minor | Milestone 4 phase 3: Language pack manifest (80 locales), checks, load-and-check per pack with craft-proof, release workflow (`docs/language-data-format.md`) |
 | 2026-11-01 | patch | ADR 0004 licence table signed off (Martin Ball, 2026-11-01): the LGPL/MPL/LPPL/GPL switch is retired; uk Excluded pending its NC source data |
 | 2026-11-01 | minor | Milestone 4 phase 2: SCOWL `rel-2026.02.25` Hunspell dictionaries for en-US, en-GB (-ise), en-CA and en-AU in `language-data/`, unmodified, with their licence notices |
+| 2026-11-01 | patch | `en-variants.txt`: `judgment`/`judgement` (and `-al`) right in every English, now that each English checks only its own SCOWL dictionary (craft-libs#483 review) |
