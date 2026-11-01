@@ -46,14 +46,36 @@ pub fn check_pinned_url(url: &str, commit: &str) -> Result<(), String> {
     Ok(())
 }
 
-/// Whether `name` is a usable file name in `LICENCES/`: `[A-Za-z0-9._-]`, not starting with `.`.
+/// Whether `name` is a usable file name in `LICENCES/`: `[A-Za-z0-9._-]`, at most 100 characters,
+/// not starting or ending with a dot, and not a name Windows reserves for a device. Kept in step
+/// with the consumer (craft-libs `font-store`, `licence_name`).
 #[must_use]
 pub fn safe_file_name(name: &str) -> bool {
     !name.is_empty()
+        && name.len() <= 100
         && !name.starts_with('.')
+        && !name.ends_with('.')
         && name
             .bytes()
             .all(|b| b.is_ascii_alphanumeric() || matches!(b, b'.' | b'_' | b'-'))
+        && !windows_reserved(name)
+}
+
+/// A name Windows reserves for a device (`CON`, `nul.txt`, `COM1`, `lpt9.md`), with or without an
+/// extension, in any case.
+fn windows_reserved(name: &str) -> bool {
+    let stem = name
+        .split('.')
+        .next()
+        .unwrap_or_default()
+        .to_ascii_lowercase();
+    matches!(stem.as_str(), "con" | "prn" | "aux" | "nul")
+        || (stem.len() == 4
+            && (stem.starts_with("com") || stem.starts_with("lpt"))
+            && stem
+                .as_bytes()
+                .get(3)
+                .is_some_and(|d| (b'1'..=b'9').contains(d)))
 }
 
 /// A Licence class (ADR 0004), least restricted first.

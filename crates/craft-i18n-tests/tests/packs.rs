@@ -592,3 +592,43 @@ mod fixtures {
         std::fs::remove_dir_all(&dir).unwrap();
     }
 }
+
+/// The producer's licence file names are the consumer's (craft-libs `font-store`): it refuses a
+/// trailing dot, more than 100 characters and Windows device names, so the build must too.
+#[test]
+fn safe_file_name_matches_the_consumer() {
+    for ok in [
+        "LICENSE",
+        "COPYING.txt",
+        "README_nl-NL.md",
+        "com0",
+        "com10.txt",
+        "lpt",
+        "console",
+    ] {
+        assert!(packs::safe_file_name(ok), "{ok} should be accepted");
+    }
+    let long = "a".repeat(101);
+    let longest = "a".repeat(100);
+    for bad in [
+        "",
+        ".hidden",
+        "trailing.",
+        "bad name",
+        "a/b",
+        "é.txt",
+        long.as_str(),
+        "con",
+        "CON",
+        "Prn.txt",
+        "aux.tar.gz",
+        "NUL",
+        "com1",
+        "COM9.md",
+        "lpt1",
+        "LPT9.txt",
+    ] {
+        assert!(!packs::safe_file_name(bad), "{bad} should be refused");
+    }
+    assert!(packs::safe_file_name(&longest));
+}
