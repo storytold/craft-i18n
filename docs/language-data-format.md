@@ -73,9 +73,9 @@ uses its language's (`es-mx` uses `es`). **`hidden = true`** keeps a pack out of
 `craft-proof` can't read it; it needs a `reason`. Each reason has an engine issue in craft-libs.
 The reason names the engine gap in the form `craft-proof doesn't support <feature> yet (<AFF
 flag>)`; it is a statement of fact about the pinned `craft-proof`, so refresh it when the pin moves.
-As of 2026-11-02 (craft-proof at storytold/craft-libs rev `3eaa2767`, draft #497, flag-based
-compounding): 80 locales, 3 Excluded (eu, ug, uk), 1 hidden (th, which needs word segmentation),
-76 published.
+As of 2026-11-02 (craft-proof at storytold/craft-libs rev `b8efc5ad`, draft #497, flag-based
+compounding): 80 locales, 3 Excluded (eu, ug, uk), 2 hidden (th, which needs word segmentation, and mn, whose
+suggestions take 200–580 ms over its 12,066 affix rules), 75 published.
 
 ## Checks
 
