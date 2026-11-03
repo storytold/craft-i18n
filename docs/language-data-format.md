@@ -167,3 +167,33 @@ python3 -m http.server 8765 --bind 127.0.0.1 --directory /tmp/packs
 
 Then point the app's pack index at `http://127.0.0.1:8765/index.json` with the sha256 of that
 file (`sha256sum /tmp/packs/index.json`). Leave out `--only` to build every published pack.
+
+## Explicit Khmer language builds
+
+The hidden `km` pack pins six unchanged MIT Aksara sources at
+`31740e9d51d38171ae6119fc2d18a4a18fbfb2f1`: `aksara-frequency` (frequency JSON),
+`aksara-tagger` (feature weights JSON), `aksara-spelling` and `aksara-variants` (text),
+`aksara-titles` (JSON), and `aksara-affixes` (TypeScript configuration).
+Their archive paths retain the upstream basenames. All six are required together.
+These are not Hunspell dictionaries and must not be passed to its loader.
+
+Stage an explicit build input with the same manifest cache and pin checks:
+
+```sh
+cargo run --bin language-packs -- stage --locale km --out /tmp/khmer-pack --no-download --cache /path/to/cache
+CRAFT_KHMER_DIR=/tmp/khmer-pack CRAFT_KHMER_REQUIRED=1 cargo test -p craft-khmer
+```
+
+Omit `--no-download` to populate the cache from pinned upstream URLs. Staging permits
+hidden packs but never Excluded files. It does not publish an index or install an app pack.
+`craft-khmer` performs no network access: it checks each raw SHA, converts deterministically,
+checks each canonical SHA, and compresses to Brotli quality 11/window 22 in OUT_DIR.
+Without `CRAFT_KHMER_DIR`, it embeds empty assets; `CRAFT_KHMER_REQUIRED=1` makes that
+an error. Any explicitly provided incomplete or invalid directory fails the build.
+
+The pack remains hidden pending runtime raw-source support in craft-libs. Apps do
+not yet install these source formats. English builds do not fetch or embed this pack.
+
+The `stage --out` directory must not already exist, and its parent must exist.
+Staging refuses existing directories and symlinks rather than overwriting a prior
+pack. Use a fresh destination for each staging operation.

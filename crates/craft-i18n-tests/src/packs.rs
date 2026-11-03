@@ -107,6 +107,12 @@ pub enum Kind {
     SpellingDic,
     Hyphenation,
     Licence,
+    AksaraFrequency,
+    AksaraSpelling,
+    AksaraVariants,
+    AksaraTitles,
+    AksaraAffixes,
+    AksaraTagger,
 }
 
 /// One `[[file]]` of the manifest.
@@ -137,6 +143,12 @@ impl Entry {
             Kind::SpellingAff => "spelling.aff".into(),
             Kind::SpellingDic => "spelling.dic".into(),
             Kind::Hyphenation => "hyphenation.pat".into(),
+            Kind::AksaraFrequency => "km_frequency_dictionary.json".into(),
+            Kind::AksaraSpelling => "km_symspell_dictionary.txt".into(),
+            Kind::AksaraVariants => "khmer-multiple-spellings.txt".into(),
+            Kind::AksaraTitles => "khmer-titles.json".into(),
+            Kind::AksaraAffixes => "khmer-affixes.ts".into(),
+            Kind::AksaraTagger => "km_kcc_tagger.json".into(),
             Kind::Licence => format!("LICENCES/{}", self.file_name()),
         }
     }
@@ -513,7 +525,28 @@ pub fn check(
                 ));
             }
         }
-        if !spelling && !has(Kind::Hyphenation) {
+        let aksara = [
+            Kind::AksaraFrequency,
+            Kind::AksaraSpelling,
+            Kind::AksaraVariants,
+            Kind::AksaraTitles,
+            Kind::AksaraAffixes,
+            Kind::AksaraTagger,
+        ];
+        let custom = aksara.iter().any(|kind| has(*kind));
+        if custom {
+            if locale != "km" || !aksara.iter().all(|kind| has(*kind)) {
+                errors.push(format!(
+                    "{locale}: Aksara data requires all six raw sources in km"
+                ));
+            }
+            if !checks_for(checks, locale).is_some_and(|c| c.hidden) {
+                errors.push(format!(
+                    "{locale}: Aksara raw sources must remain hidden until runtime support ships"
+                ));
+            }
+        }
+        if !spelling && !has(Kind::Hyphenation) && !custom {
             errors.push(format!("{locale}: no spelling or hyphenation file"));
         }
         if manifest

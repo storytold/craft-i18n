@@ -632,3 +632,24 @@ fn safe_file_name_matches_the_consumer() {
     }
     assert!(packs::safe_file_name(&longest));
 }
+
+#[test]
+fn aksara_sources_are_complete_hidden_and_not_hunspell() {
+    let mut repo = packs::load_repo().unwrap();
+    assert!(packs::check(&repo.manifest, &repo.checks, &repo.texts).is_empty());
+    assert!(!packs::published(&repo.manifest, &repo.checks, "km"));
+    let files: Vec<_> = repo.manifest.entries("km").collect();
+    assert_eq!(files.len(), 7);
+    assert!(
+        !files
+            .iter()
+            .any(|e| matches!(e.kind, Kind::SpellingAff | Kind::SpellingDic))
+    );
+    assert!(files.iter().any(|e| e.pack_path() == "km_kcc_tagger.json"));
+    repo.manifest.file.retain(|e| e.kind != Kind::AksaraTitles);
+    assert!(
+        packs::check(&repo.manifest, &repo.checks, &repo.texts)
+            .iter()
+            .any(|e| e.contains("all six raw sources"))
+    );
+}
