@@ -124,6 +124,7 @@
 	Agents connected to WordCraft can show you messages through the Assistant. Muted, they're told you'd rather not.	Agenter som är anslutna till WordCraft kan visa dig meddelanden via assistenten. När de är avstängda får de veta att du inte vill det.
 	Ah, Latin. The language of deadlines.	Ah, latin. Deadlinernas officiella språk.
 	Ah, the editing phase. My favourite. Very decisive.	Ah, redigeringsfasen. Min favorit. Mycket beslutsamt.
+	Albanian	Albanska
 	Align Bottom Center	Justera nere i mitten
 	Align Bottom Left	Justera nere till vänster
 	Align Bottom Right	Justera nere till höger
@@ -281,6 +282,7 @@
 	Border\nPainter	Kantlinje-\npensel
 	Borders and Shading	Kantlinjer och skuggning
 	Borders and Shading…	Kantlinjer och skuggning…
+	Bosnian	Bosniska
 	Both Sides	Båda sidor
 	Bottom Border	Nedre kantlinje
 	Bottom Left Cell	Nedre vänstra cellen
@@ -307,6 +309,7 @@
 	Built-in Heading styles	Inbyggda rubrikstilar
 	Built-in style	Inbyggd stil
 	Built-in styles can't be deleted.	Inbyggda stilar kan inte tas bort.
+	Bulgarian	Bulgariska
 	Bullet Library	Punktbibliotek
 	Bullets	Punktlista
 	By author	Efter författare
@@ -523,9 +526,13 @@
 	Cotangent Function	Cotangensfunktion
 	Could not check for updates:\n{error}	Det gick inte att söka efter uppdateringar:\n{error}
 	Couldn't download {name}: {error}	Det gick inte att ladda ner {name}: {error}
+	Couldn't get the list of languages: {error}	Det gick inte att hämta listan över språk: {error}
+	Couldn't install: {error}	Det gick inte att installera: {error}
 	Couldn't make WordCraft the default: {error}	Det gick inte att göra WordCraft till standardprogram: {error}
 	Couldn't open {path}: {error}	Det gick inte att öppna {path}: {error}
+	Couldn't remove: {error}	Det gick inte att ta bort: {error}
 	Couldn't save {name}, so it is still open and nothing was lost: {error}	Det gick inte att spara {name}, så dokumentet är fortfarande öppet och inget har gått förlorat: {error}
+	Couldn't turn on downloading: {error}	Det gick inte att slå på hämtning: {error}
 	Count by:	Intervall:
 	Count words in text boxes and notes	Räkna ord i textrutor, fotnoter och slutnoter
 	Courtesy Title	Tilltalstitel
@@ -544,22 +551,42 @@
 	Dark Blue	Mörkblå
 	Dark Red	Mörkröd
 	Dark Yellow	Mörkgul
+	Downloading is off. Clicking Show available languages, Refresh or Install turns it on: WordCraft then downloads language packs and fonts from GitHub.	Hämtning är avstängd. Om du klickar på Visa tillgängliga språk, Uppdatera eller Installera slås den på: WordCraft hämtar då språkpaket och typsnitt från GitHub.
 	East	Öster
+	Get the list of languages again	Hämta listan över språk igen
+	Getting the list of languages…	Hämtar listan över språk…
 	Gray-25%	Grå 25 %
 	Gray-50%	Grå 50 %
+	Install	Installera
+	Install ({size})	Installera ({size})
+	Installed	Installerade
+	Installing turns on downloading of fonts and Language packs from GitHub.	När du installerar slås hämtning av typsnitt och språkpaket från GitHub på.
+	Installing… {percent}%	Installerar… {percent} %
+	Language packs	Språkpaket
+	Language packs aren't available in the browser.	Språkpaket är inte tillgängliga i webbläsaren.
+	Language packs come from a test source: {source}	Språkpaketen kommer från en testkälla: {source}
+	Language packs need the font store folder, and there is none on this computer.	Språkpaket kräver mappen för typsnittsarkivet, och det finns ingen på den här datorn.
+	Licence: {licence}. Source: {source}	Licens: {licence}. Källa: {source}
+	Lithuanian	Litauiska
 	Macro name:	Makronamn:
 	More options	Fler alternativ
 	Not in Dictionary	Finns inte i ordlistan
+	Only you can turn on downloading: click the button yourself. Agents can install once it is on.	Bara du kan slå på hämtning: klicka själv på knappen. Agenter kan installera när den är på.
 spacing	Open	Öppen
 	Page number	Sidnummer
 	Picture border	Bildkantlinje
 	Record…	Spela in…
 	Run	Kör
+	Show available languages	Visa tillgängliga språk
+	Slovenian	Slovenska
 	Soft Edge	Mjuk kant
+	Source	Källa
+	Spelling dictionaries and hyphenation for more languages. English is built in.	Stavningsordlistor och avstavning för fler språk. Engelska är inbyggt.
 	Stop Recording	Stoppa inspelning
 	Suggestions	Förslag
 	Teal	Blågrön
 	The document or selection changed. Check again to continue.	Dokumentet eller markeringen har ändrats. Kontrollera igen för att fortsätta.
+	The spelling and hyphenation data WordCraft uses, and their licences.	Stavnings- och avstavningsdata som WordCraft använder, och deras licenser.
 	There are no macros yet. Record one to add it here.	Det finns inga makron än. Spela in ett för att lägga till det här.
 	Turquoise	Turkos
 	{field}, record {n}	{field}, post {n}
@@ -2532,6 +2559,7 @@ preview	Title	Titel
 	{language} (dictionary unreadable)	{language} (ordlistan är oläsbar)
 	{language} (no dictionary)	{language} (ingen ordlista)
 	{language} is now the document's default language.	{language} är nu dokumentets standardspråk.
+	{language} proofing isn't installed.	Korrektur för {language} är inte installerat.
 	{language}: no dictionary found	{language}: ingen ordlista hittades
 	{language}: WordCraft doesn't check spelling or grammar in this language yet.	{language}: WordCraft kontrollerar inte stavning eller grammatik på det här språket än.
 	{language}: {file}	{language}: {file}
@@ -2544,7 +2572,9 @@ preview	Title	Titel
 	{name} options	Alternativ för {name}
 	{name} wasn't found.	{name} hittades inte.
 	{n} entries marked.	Märkta poster: {n}.
+	{n} KB	{n} kB
 	{n} lines	{n} rader
+	{n} MB	{n} MB
 	{n} pt	{n} pt
 	{paper}   {width} × {height}	{paper}   {width} × {height}
 	{selected} of {words} words	{selected} av {words} ord
