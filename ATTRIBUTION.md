@@ -263,11 +263,11 @@ autoscroll" — the label of WordCraft's middle-click paste toggle (feature #193
 one row per locale, in `wordcraft.tsv`.
 
 The 26 rows that are not `ar` come from the contributor's WordCraft feature branch and were
-carried over from the app's own catalogs at `wordcraft@32d5de7e`; six of them (`bg`, `hr`, `sr`,
-`sr-latn`, `hu` and `de`) were reworded in review to match the wording each catalog already uses
-for its neighbouring "Use …" option labels, so they are not the text at that commit any more. The
-Arabic row was written for this repository, in the terminology `locales/ar/wordcraft.tsv` already
-uses.
+carried over from the app's own catalogs at `wordcraft@32d5de7e`, with this repository's own tool
+(`tools/sync_app.py`); six of them (`bg`, `hr`, `sr`, `sr-latn`, `hu` and `de`) were reworded in
+review to match the wording each catalog already uses for its neighbouring "Use …" option labels, so
+they are not the text at that commit any more. The Arabic row was written for this repository, in
+the terminology `locales/ar/wordcraft.tsv` already uses.
 
 AI-assisted: written from the plain meaning of the English, with no other product's localisation
 consulted (the 26 carried-over rows were drafted with an AI assistant, tool not recorded; the
