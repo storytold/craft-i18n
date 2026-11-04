@@ -105,7 +105,7 @@ def main(argv=None):
         sys.exit("the placeholders or trailing … differ: the translations need rewriting, not re-keying")
     changed, skipped = rekey(ROOT, a.app, a.old, a.new, a.context)
     for path, what in changed:
-        print(f"{path}: {what}")
+        print(f"{path.as_posix()}: {what}")
     for why in skipped:
         print(f"skipped {why}", file=sys.stderr)
     if not changed:
