@@ -15,7 +15,7 @@ One `[[file]]` per upstream file:
 ```toml
 [[file]]
 locale = "nl"                 # lowercase BCP 47
-kind = "spelling-aff"         # spelling-aff | spelling-dic | hyphenation | licence
+kind = "spelling-aff"         # see the kind list below
 url = "https://raw.githubusercontent.com/LibreOffice/dictionaries/<commit>/nl_NL/nl_NL.aff"
 commit = "<upstream commit sha>"
 sha256 = "<hex>"
@@ -23,12 +23,15 @@ size = 12345                  # bytes
 licence = "BSD-3-Clause"      # SPDX expression
 class = "Embeddable"          # Embeddable | Download-only | Excluded
 name = "Nederlands"           # optional, first entry per locale wins: endonym
-note = "…"                    # optional: the licence statements, quoted, when evidence is weak
+note = "…"                    # optional: quoted licence evidence
+filename = "LICENSE-source"   # optional licence basename; avoids upstream LICENSE collisions
 ```
 
 - **A pack is every entry of one locale.** `spelling-aff`/`spelling-dic` are a Hunspell pair,
   `hyphenation` a TeX pattern file (an unmodified `hyph-*.tex` from tex-hyphen, compiled when
-  loaded), `licence` a licence or README text that travels with the data.
+  loaded), `licence` a licence or README text that travels with the data. The proposed
+  hidden Khmer pack adds `aksara-frequency`, `aksara-spelling`, `aksara-variants`,
+  `aksara-titles`, `aksara-affixes` and `aksara-tagger`; it is not runtime-installable.
 - **`licence`** is the licence the file is used under. When upstream offers several, the one in
   the least restricted class is recorded (ADR 0004). When the evidence is weak or contradictory,
   `licence` lists every licence the statements offer, `class` is Download-only (or Excluded, if
@@ -37,6 +40,11 @@ note = "…"                    # optional: the licence statements, quoted, when
   of the data it describes.
 - **`class`** may be more restricted than the licence allows, never less; when it is, the data
   entries need a `note`.
+- A `licence` entry may set `filename` to a safe archive basename when upstream
+  licences share a name such as `LICENSE`. This changes the destination name only.
+  Licence-entry `note` text is preserved in `LICENCES/NOTICES.txt` in both staged
+  output and archives, and listed in archive metadata for About. That filename is
+  reserved. A note is evidence, not a replacement for the source licence.
 - **Licence texts.** Every locale has at least one `licence` entry, the upstream notice (a
   hyphenation file's own header counts: the `.tex` is listed again as a `licence` entry when its
   licence has no SPDX id). On top of that, every licence id its data files name must have a full
@@ -75,7 +83,7 @@ gap in the pinned `craft-proof`: an unsupported feature (`craft-proof doesn't su
 (<AFF flag>)`), missing word segmentation, or suggestions too slow to use. It is a statement of fact
 about the pinned `craft-proof`, so refresh it when the pin moves.
 As of 2026-11-02 (craft-proof at storytold/craft-libs rev `47c9f625`, the merge of #497, flag-based
-compounding): 80 locales, 3 Excluded (eu, ug, uk), 2 hidden (mn, whose suggestions take 200–580 ms over
+compounding): 81 locales, 3 Excluded (eu, ug, uk), 3 hidden (km, pending provenance/sign-off and raw-source support; mn, whose suggestions take 200–580 ms over
 its 12,066 affix rules; th, which needs word segmentation), 75 published.
 
 ## Checks
@@ -170,30 +178,38 @@ file (`sha256sum /tmp/packs/index.json`). Leave out `--only` to build every publ
 
 ## Explicit Khmer language builds
 
-The hidden `km` pack pins six unchanged MIT Aksara sources at
+The hidden `km` pack pins six unchanged Aksara sources with a root MIT grant at
 `31740e9d51d38171ae6119fc2d18a4a18fbfb2f1`: `aksara-frequency` (frequency JSON),
 `aksara-tagger` (feature weights JSON), `aksara-spelling` and `aksara-variants` (text),
 `aksara-titles` (JSON), and `aksara-affixes` (TypeScript configuration).
 Their archive paths retain the upstream basenames. All six are required together.
 These are not Hunspell dictionaries and must not be passed to its loader.
 
-Stage an explicit build input with the same manifest cache and pin checks:
+`stage` is an embedding-build helper and requires an **Embeddable** pack. It
+rejects Download-only and Excluded packs before fetching or writing anything.
+It also requires a known locale and a manifest passing all offline checks.
+Once a locale is approved, the command is:
 
 ```sh
-cargo run --bin language-packs -- stage --locale km --out /tmp/khmer-pack --no-download --cache /path/to/cache
-CRAFT_KHMER_DIR=/tmp/khmer-pack CRAFT_KHMER_REQUIRED=1 cargo test -p craft-khmer
+cargo run --bin language-packs -- stage --locale LOCALE --out /absolute/pack --no-download --cache /path/to/cache
 ```
 
-Omit `--no-download` to populate the cache from pinned upstream URLs. Staging permits
-hidden packs but never Excluded files. It does not publish an index or install an app pack.
-`craft-khmer` performs no network access: it checks each raw SHA, converts deterministically,
-checks each canonical SHA, and compresses to Brotli quality 11/window 22 in OUT_DIR.
-Without `CRAFT_KHMER_DIR`, it embeds empty assets; `CRAFT_KHMER_REQUIRED=1` makes that
-an error. Any explicitly provided incomplete or invalid directory fails the build.
+Omit `--no-download` to fetch pinned files into the cache. Staging permits hidden
+Embeddable packs; it does not publish an index or install an app pack.
+The current `km` pack is **Download-only**, pending inherited-source evidence,
+maintainer sign-off and the ADR decision for model/configuration data. It cannot
+be staged for embedding. [Per-file provenance](khmer-provenance.md) records
+Nathan Wells's SBBIC authorship and the remaining SIL/CLDR lineage questions.
 
-The pack remains hidden pending runtime raw-source support in craft-libs. Apps do
-not yet install these source formats. English builds do not fetch or embed this pack.
+The proposed consumer, `craft-khmer`, exists only in the **unmerged**
+[craft-libs #551](https://github.com/storytold/craft-libs/pull/551).
+Its build conversion, validation, compression and test instructions are documented
+in that proposal's `crates/khmer/DATA.md`; they describe pending code and are not
+an available runtime or build integration in craft-i18n. No `cargo test -p
+craft-khmer` command belongs in this repository. Runtime source-kind support is
+also pending, so the pack remains hidden independently of its licence class.
 
 The `stage --out` directory must not already exist, and its parent must exist.
 Staging refuses existing directories and symlinks rather than overwriting a prior
-pack. Use a fresh destination for each staging operation.
+pack. Use a fresh destination for each staging operation. If a write fails, the
+error identifies the incomplete output directory to remove before retrying.

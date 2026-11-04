@@ -3,6 +3,7 @@
 //! ```text
 //! language-packs check
 //! language-packs fetch [--cache DIR]
+//! language-packs stage --locale LOCALE --out DIR [--cache DIR] [--no-download]
 //! language-packs build --out DIR --release NAME --version SHA [--base-url URL]
 //!                      [--only nl,fr,pl] [--cache DIR] [--no-download]
 //! ```
@@ -109,9 +110,9 @@ fn run(argv: Vec<String>) -> Result<(), String> {
             let locale = args.required("--locale")?;
             let out = PathBuf::from(args.required("--out")?);
             if !manifest.locales().contains(locale.as_str())
-                || manifest.class(&locale) == packs::Class::Excluded
+                || manifest.class(&locale) != packs::Class::Embeddable
             {
-                return Err("stage requires a known, non-Excluded locale".into());
+                return Err("stage requires a known Embeddable locale (ADR 0004); Download-only data cannot feed an embedding build".into());
             }
             let errors = packs::check(manifest, checks, texts);
             if !errors.is_empty() {
@@ -129,6 +130,9 @@ fn run(argv: Vec<String>) -> Result<(), String> {
                 if let Some(bytes) = texts.get(&id) {
                     files.push((format!("LICENCES/{id}.txt"), bytes.clone()));
                 }
+            }
+            if let Some(notes) = packs::licence_notes(manifest, &locale) {
+                files.push(("LICENCES/NOTICES.txt".into(), notes.into_bytes()));
             }
             write_staged_files(&out, files)
         }
@@ -177,35 +181,66 @@ fn run(argv: Vec<String>) -> Result<(), String> {
 fn write_staged_files(out: &Path, files: Vec<(String, Vec<u8>)>) -> Result<(), String> {
     std::fs::create_dir(out)
         .map_err(|e| format!("stage needs a new output directory {}: {e}", out.display()))?;
-    for (name, bytes) in files {
-        let path = out.join(name);
-        if let Some(parent) = path.parent() {
-            std::fs::create_dir_all(parent).map_err(|e| e.to_string())?;
+    let result = (|| {
+        for (name, bytes) in files {
+            write_staged_file(out, &name, &bytes)?;
         }
-        // Even inside a fresh root, never follow a replacement file symlink.
-        use std::io::Write;
-        let mut file = std::fs::OpenOptions::new()
-            .write(true)
-            .create_new(true)
-            .open(path)
-            .map_err(|e| e.to_string())?;
-        file.write_all(&bytes).map_err(|e| e.to_string())?;
+        Ok(())
+    })();
+    result.map_err(|e: String| {
+        format!(
+            "staging failed: {e}; remove the incomplete output directory {} before retrying",
+            out.display()
+        )
+    })
+}
+
+/// Names come from the checked manifest. Refuse existing file symlinks and a licence-directory
+/// symlink, including when this is called after the fresh root has been created.
+fn write_staged_file(out: &Path, name: &str, bytes: &[u8]) -> Result<(), String> {
+    let path = out.join(name);
+    if let Some(parent) = path.parent().filter(|parent| *parent != out) {
+        match std::fs::create_dir(parent) {
+            Ok(()) => {}
+            Err(err) if err.kind() == std::io::ErrorKind::AlreadyExists => {
+                let meta = std::fs::symlink_metadata(parent).map_err(|e| e.to_string())?;
+                if !meta.is_dir() {
+                    return Err(format!("{} is not a plain directory", parent.display()));
+                }
+            }
+            Err(err) => return Err(err.to_string()),
+        }
     }
-    Ok(())
+    use std::io::Write;
+    let mut file = std::fs::OpenOptions::new()
+        .write(true)
+        .create_new(true)
+        .open(path)
+        .map_err(|e| e.to_string())?;
+    file.write_all(bytes).map_err(|e| e.to_string())
 }
 
 #[cfg(test)]
 mod tests {
-    use super::write_staged_files;
+    use super::{run, write_staged_file, write_staged_files};
     #[cfg(unix)]
     use std::os::unix::fs::symlink;
     use std::{error::Error, fs};
 
+    fn temp_root(label: &str) -> Result<std::path::PathBuf, Box<dyn Error>> {
+        let unique = std::time::SystemTime::now()
+            .duration_since(std::time::UNIX_EPOCH)?
+            .as_nanos();
+        Ok(std::env::temp_dir().join(format!(
+            "craft-stage-{label}-{}-{unique}",
+            std::process::id()
+        )))
+    }
+
     #[test]
     fn staging_requires_a_new_directory_and_preserves_existing_files() -> Result<(), Box<dyn Error>>
     {
-        let root =
-            std::env::temp_dir().join(format!("craft-stage-existing-test-{}", std::process::id()));
+        let root = temp_root("existing")?;
         fs::create_dir(&root)?;
         fs::write(root.join("keep.txt"), b"unchanged")?;
         assert!(
@@ -219,11 +254,52 @@ mod tests {
         Ok(())
     }
 
+    #[test]
+    fn staging_failure_explains_how_to_retry() -> Result<(), Box<dyn Error>> {
+        let root = temp_root("partial")?;
+        let result = write_staged_files(
+            &root,
+            vec![
+                ("same".into(), b"first".to_vec()),
+                ("same".into(), b"second".to_vec()),
+            ],
+        );
+        let error = result
+            .err()
+            .ok_or("duplicate staging output unexpectedly succeeded")?;
+        assert!(error.contains("remove the incomplete output directory"));
+        assert_eq!(fs::read(root.join("same"))?, b"first");
+        fs::remove_dir_all(root)?;
+        Ok(())
+    }
+
+    #[test]
+    fn staging_rejects_every_non_embeddable_locale_before_writing() -> Result<(), Box<dyn Error>> {
+        let repo = craft_i18n_tests::packs::load_repo()?;
+        let root = temp_root("restricted")?;
+        for locale in repo.manifest.locales() {
+            if repo.manifest.class(locale) == craft_i18n_tests::packs::Class::Embeddable {
+                continue;
+            }
+            let error = run(vec![
+                "stage".into(),
+                "--locale".into(),
+                locale.into(),
+                "--out".into(),
+                root.to_string_lossy().into_owned(),
+            ])
+            .err()
+            .ok_or("restricted pack was staged")?;
+            assert!(error.contains("Embeddable locale"), "{locale}: {error}");
+            assert!(!root.exists());
+        }
+        Ok(())
+    }
+
     #[cfg(unix)]
     #[test]
     fn staging_rejects_existing_file_and_licence_symlinks() -> Result<(), Box<dyn Error>> {
-        let root =
-            std::env::temp_dir().join(format!("craft-stage-symlink-test-{}", std::process::id()));
+        let root = temp_root("symlink")?;
         fs::create_dir(&root)?;
         let target = root.join("outside");
         fs::create_dir(&target)?;
@@ -242,9 +318,17 @@ mod tests {
                 },
                 out.join(name),
             )?;
-            let result = write_staged_files(&out, vec![((*name).into(), b"replacement".to_vec())]);
+            // Exercise the writer directly, after root creation, rather than failing at
+            // write_staged_files' initial create_dir guard.
+            let path = if index == 0 {
+                (*name).to_owned()
+            } else {
+                format!("{name}/new.txt")
+            };
+            let result = write_staged_file(&out, &path, b"replacement");
             assert!(result.is_err());
             assert_eq!(fs::read(target.join("keep.txt"))?, b"unchanged");
+            assert!(!target.join("new.txt").exists());
         }
         let out = root.join("fresh");
         write_staged_files(&out, vec![("LICENCES/LICENSE".into(), b"notice".to_vec())])?;

@@ -1,6 +1,6 @@
 # craft-i18n roadmap
 
-> **Last updated:** 2026-11-03 · **Change:** minor (file-size `unit` rows and a shared byte count for craft-libs#204)
+> **Last updated:** 2026-11-04 · **Change:** minor (Khmer notice preservation and pending provenance review; file-size `unit` rows and a shared byte count for craft-libs#204)
 
 Shared translations for the storytold Crafting Apps: one catalog per locale for shared strings,
 one per app, checked in CI and embedded by each app at build time. Vocabulary is in
@@ -16,7 +16,7 @@ one per app, checked in CI and embedded by each app at build time. Vocabulary is
 | 3b | Migrate the other TSV apps: PhotoCraft, VectorCraft, FilmCraft, CADCraft, craft-launcher | apps | catalogs moved here (shared catalog grows additively, [ADR 0003](docs/adr/0003-shared-catalog-grows-additively.md)); app wiring next |
 | 3c | Convert and migrate FigCraft (TOML), LightCraft (JSON), DesignCraft, GridCraft, EffectCraft (Rust tables) | apps | not started |
 | 3d | Add translation to DeckCraft and SoundCraft | apps | not started |
-| 4 | Language data: spelling dictionaries, hyphenation patterns and the suite word list; English embedded, other languages pinned and downloaded ([ADR 0004](docs/adr/0004-third-party-language-data.md), [ADR 0005](docs/adr/0005-language-data-lives-here.md)) | this repo, craft-libs, apps | licence table signed off 2026-11-01 (Martin Ball); phase 1 done; phase 2 (SCOWL 2026 en-US/en-GB/en-CA/en-AU dictionaries) added; phase 3 (pack manifest, checks, release workflow) done; phase 3 follow-up (75 of 80 locales publishable, 2 hidden, 3 Excluded); the last 14 need craft-proof at `47c9f625` (craft-libs #497 merged) |
+| 4 | Language data: spelling dictionaries, hyphenation patterns and the suite word list; English embedded, other languages pinned and downloaded ([ADR 0004](docs/adr/0004-third-party-language-data.md), [ADR 0005](docs/adr/0005-language-data-lives-here.md)) | this repo, craft-libs, apps | licence table signed off 2026-11-01 (Martin Ball); phase 1 done; phase 2 (SCOWL 2026 en-US/en-GB/en-CA/en-AU dictionaries) added; phase 3 (pack manifest, checks, release workflow) done; phase 3 follow-up (75 of 81 locales publishable, 3 hidden, 3 Excluded); the last 14 need craft-proof at `47c9f625` (craft-libs #497 merged) |
 
 Each app migration: confirm the app is MIT OR Apache-2.0, move its catalogs here (lowercase BCP 47
 names, origin recorded in `ATTRIBUTION.md`), add the `build.rs` recipe from
@@ -104,3 +104,8 @@ As surveyed on 2026-10-16 (VectorCraft recounted 2026-10-18). Locale counts excl
 | 2026-11-03 | minor | 3a: PdfCraft cutover sync (`pdfcraft@ecdd1e6`, 12 new PdfCraft locales); PdfCraft wired now, not last: it already draws logical catalogs on storytold/egui |
 | 2026-11-03 | patch | Checker takes each locale's plural form count from the runtime crate (`craft-i18n` at storytold/craft-libs `32b2fd8a`, a normal dependency; its own CLDR 48.2.1 data on `icu_plurals` since craft-libs#210), replacing `intl_pluralrules` 7.0.2 and its Hebrew workaround; `icu_plurals`' compiled data has no `ckb` rules (1 form), the crate's data has 2; `tests/runtime_agreement.rs` checks every locale's count and that the crate accepts every catalog's `@plural` rows; no existing locale's count changed |
 | 2026-11-03 | minor | File sizes (storytold/craft-libs#204): `@plural {n} byte\|{n} bytes` moved from 20 locales' `pdfcraft.tsv` to `common.tsv` (additive, ADR 0003); `unit` rows (`{n} KB`, `{n} MiB`, …) only where the symbol differs from English: `fr`, `ru`, `uk` |
+
+Khmer provenance follow-up (2026-11-04): preserve all three MIT holders in pack output, including a
+pinned SIL notice and the supplied SEAlang notice. The six-file pack remains
+Download-only and hidden pending inherited-source evidence, maintainer sign-off
+and the model/config ADR decision. Staging rejects non-Embeddable packs. See [the per-file record](docs/khmer-provenance.md).

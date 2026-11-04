@@ -133,6 +133,9 @@ pub struct Entry {
     /// weak or contradictory (required when `class` is more restricted than `licence` allows).
     #[serde(default)]
     pub note: Option<String>,
+    /// Optional archive basename for a licence whose upstream name would collide.
+    #[serde(default)]
+    pub filename: Option<String>,
 }
 
 impl Entry {
@@ -153,10 +156,12 @@ impl Entry {
         }
     }
 
-    /// The last segment of the URL.
+    /// The explicit licence basename, or the last segment of the URL.
     #[must_use]
     pub fn file_name(&self) -> &str {
-        self.url.rsplit('/').next().unwrap_or_default()
+        self.filename
+            .as_deref()
+            .unwrap_or_else(|| self.url.rsplit('/').next().unwrap_or_default())
     }
 }
 
@@ -309,7 +314,12 @@ pub fn checks_for<'a>(checks: &'a BTreeMap<String, Checks>, locale: &str) -> Opt
 #[must_use]
 pub fn published(manifest: &Manifest, checks: &BTreeMap<String, Checks>, locale: &str) -> bool {
     manifest.class(locale) != Class::Excluded
-        && manifest.entries(locale).any(|e| e.kind != Kind::Licence)
+        && manifest.entries(locale).any(|e| {
+            matches!(
+                e.kind,
+                Kind::SpellingAff | Kind::SpellingDic | Kind::Hyphenation
+            )
+        })
         && !checks_for(checks, locale).is_some_and(|c| c.hidden)
 }
 
@@ -416,6 +426,22 @@ pub fn data_licence_ids(manifest: &Manifest, locale: &str) -> BTreeSet<String> {
         .collect()
 }
 
+/// Quoted upstream licence evidence travels with staged files and archives, including notices
+/// supplied by a contributor which have no pinned raw URL of their own.
+#[must_use]
+pub fn licence_notes(manifest: &Manifest, locale: &str) -> Option<String> {
+    let notes: Vec<_> = manifest
+        .entries(locale)
+        .filter(|e| e.kind == Kind::Licence)
+        .filter_map(|e| {
+            e.note
+                .as_deref()
+                .map(|note| format!("Source: {}\n\n{note}\n", e.url))
+        })
+        .collect();
+    (!notes.is_empty()).then(|| notes.join("\n"))
+}
+
 /// Every problem with the manifest, the checks files and the standard licence texts (`texts`, by
 /// SPDX id) that needs no network.
 #[must_use]
@@ -486,6 +512,16 @@ pub fn check(
         if e.kind == Kind::Licence && !safe_file_name(e.file_name()) {
             errors.push(format!(
                 "{at}: licence file name must be [A-Za-z0-9._-], not starting with '.'"
+            ));
+        }
+        if e.filename.is_some() && e.kind != Kind::Licence {
+            errors.push(format!(
+                "{at}: filename is only allowed for a licence entry"
+            ));
+        }
+        if e.kind == Kind::Licence && e.file_name() == "NOTICES.txt" {
+            errors.push(format!(
+                "{at}: NOTICES.txt is reserved for quoted licence evidence"
             ));
         }
     }
@@ -703,7 +739,7 @@ struct PackToml<'a> {
     version: &'a str,
     #[serde(skip_serializing_if = "Option::is_none")]
     upstream: Option<String>,
-    /// Standard licence texts in `LICENCES/` (`<SPDX id>.txt`).
+    /// Standard licence texts and supplemental notice filenames in `LICENCES/`.
     licence_texts: Vec<String>,
     source: Vec<PackSource<'a>>,
 }
@@ -768,6 +804,10 @@ pub fn archive(
             .get(&id)
             .ok_or_else(|| format!("{locale}: no language-data/licences/{id}.txt"))?;
         standard.push((format!("LICENCES/{id}.txt"), text.as_slice()));
+    }
+    let notes = licence_notes(manifest, locale);
+    if let Some(notes) = &notes {
+        standard.push(("LICENCES/NOTICES.txt".into(), notes.as_bytes()));
     }
     let pack = PackToml {
         locale,

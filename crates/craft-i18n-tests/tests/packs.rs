@@ -144,6 +144,7 @@ mod fixtures {
             class,
             name: Some("Nederlands".into()),
             note: None,
+            filename: None,
         }
     }
 
@@ -639,17 +640,78 @@ fn aksara_sources_are_complete_hidden_and_not_hunspell() {
     assert!(packs::check(&repo.manifest, &repo.checks, &repo.texts).is_empty());
     assert!(!packs::published(&repo.manifest, &repo.checks, "km"));
     let files: Vec<_> = repo.manifest.entries("km").collect();
-    assert_eq!(files.len(), 7);
+    assert_eq!(files.len(), 8);
+    assert_eq!(repo.manifest.class("km"), Class::DownloadOnly);
+    let notices = packs::licence_notes(&repo.manifest, "km").unwrap();
+    assert!(notices.contains("Copyright (c) 2010, Doug Cooper"));
+    assert!(notices.contains("SIL NRSI"));
+    assert!(notices.contains("permission notice shall be included"));
+    let paths: std::collections::BTreeSet<_> = files.iter().map(|e| e.pack_path()).collect();
+    assert_eq!(paths.len(), files.len());
+    assert!(paths.contains("LICENCES/LICENSE"));
+    assert!(paths.contains("LICENCES/LICENSE-khmerlbdict"));
     assert!(
         !files
             .iter()
             .any(|e| matches!(e.kind, Kind::SpellingAff | Kind::SpellingDic))
     );
     assert!(files.iter().any(|e| e.pack_path() == "km_kcc_tagger.json"));
+    // Raw model/config kinds must stay unpublished even if someone removes the hidden flag.
+    repo.checks.get_mut("km").unwrap().hidden = false;
+    assert!(!packs::published(&repo.manifest, &repo.checks, "km"));
+    repo.checks.get_mut("km").unwrap().hidden = true;
     repo.manifest.file.retain(|e| e.kind != Kind::AksaraTitles);
     assert!(
         packs::check(&repo.manifest, &repo.checks, &repo.texts)
             .iter()
             .any(|e| e.contains("all six raw sources"))
     );
+}
+
+#[test]
+fn archives_keep_quoted_notices_and_distinct_upstream_licences() {
+    let repo = packs::load_repo().unwrap();
+    let files: Vec<_> = repo
+        .manifest
+        .entries("km")
+        .map(|e| (e, Vec::new()))
+        .collect();
+    let archive = packs::archive(&repo.manifest, "km", &files, &repo.texts, "test").unwrap();
+    let raw = zstd::stream::decode_all(archive.as_slice()).unwrap();
+    let mut archive = tar::Archive::new(raw.as_slice());
+    let mut contents = BTreeMap::new();
+    for entry in archive.entries().unwrap() {
+        use std::io::Read;
+        let mut entry = entry.unwrap();
+        let path = entry.path().unwrap().to_string_lossy().into_owned();
+        let mut bytes = Vec::new();
+        entry.read_to_end(&mut bytes).unwrap();
+        contents.insert(path, bytes);
+    }
+    assert!(contents.contains_key("LICENCES/LICENSE"));
+    assert!(contents.contains_key("LICENCES/LICENSE-khmerlbdict"));
+    let notes = std::str::from_utf8(&contents["LICENCES/NOTICES.txt"]).unwrap();
+    assert!(notes.contains("Copyright (c) 2010, Doug Cooper"));
+    assert!(notes.contains("THE SOFTWARE IS PROVIDED"));
+    let metadata = std::str::from_utf8(&contents["pack.toml"]).unwrap();
+    assert!(metadata.contains("Download-only"));
+    assert!(metadata.contains("NOTICES.txt"));
+}
+
+#[test]
+fn licence_filename_overrides_cannot_escape_or_replace_generated_notices() {
+    for name in ["../LICENSE", "/LICENSE", "a/b", "NOTICES.txt", "MIT.txt"] {
+        let mut repo = packs::load_repo().unwrap();
+        let entry = repo
+            .manifest
+            .file
+            .iter_mut()
+            .find(|e| e.locale == "km" && e.kind == Kind::Licence)
+            .unwrap();
+        entry.filename = Some(name.into());
+        assert!(
+            !packs::check(&repo.manifest, &repo.checks, &repo.texts).is_empty(),
+            "{name}"
+        );
+    }
 }
