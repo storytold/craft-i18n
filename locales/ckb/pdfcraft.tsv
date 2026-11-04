@@ -40,9 +40,12 @@
 	4 x 6 in label (101.6 x 152.4 mm)	نیشانەی 4 x 6 ئینج (101.6 x 152.4 ملم)
 	9 digit, A letter, O letter or digit, X any character	9 ژمارە، A پیت، O پیت یان ژمارە، X هەر پیتێک
 	; 1 page already had text	؛ 1 پەڕە پێشتر دەقی هەبوو
+	; 1 page skipped	؛ 1 پەڕە تێپەڕێنرا
+	; corrected {n} pages	؛ {n} پەڕە ڕاستکرانەوە
 	; failed: {list}	؛ شکستی هێنا: {list}
 	; skipped: {n}	؛ بازدرا: {n}
 	; {n} pages already had text	؛ {n} پەڕە پێشتر دەقی هەبوو
+	; {n} pages skipped	؛ {n} پەڕە تێپەڕێنران
 	? of {n}	? لە {n}
 	@{login}: {prs} PRs, {commits} commits, +{added} / −{deleted} lines (Δ {delta}), +{bin_added} / −{bin_deleted} binary assets, {first} – {last}	@{login}: {prs} داواکاری کێشانەوە، {commits} کۆمیت، +{added} / −{deleted} هێڵ (Δ {delta})، +{bin_added} / −{bin_deleted} ئاسێتی دووانی، {first} – {last}
 	[Custom]	[تایبەت]
@@ -167,6 +170,7 @@
 	Add rectangle	زیادکردنی لاکێشە
 	Add redaction mark	زیادکردنی نیشانەی شاردنەوە
 	Add search index	زیادکردنی پێڕستی گەڕان
+	Add searchable text	زیادکردنی دەقی گەڕانپێکراو
 	Add signature	زیادکردنی واژوو
 	Add squiggly underline	زیادکردنی ژێرهێڵی شەپۆلی
 	Add stamp	زیادکردنی مۆر
@@ -311,6 +315,7 @@ calendar date	August	ئاب
 	Automatic (historical model)	خۆکار (مۆدێلی مێژوویی)
 	Automatic AcroForm scripts are disabled until safe execution isolation is available; saved field values were preserved. Explicit button and console scripts are still available.	سکریپتە ئۆتۆماتیکییەکانی AcroForm ناچالاکن تاوەکو دابڕانی جێبەجێکردنی پارێزراو بەردەست بێت؛ نرخی خانە پاشەکەوتکراوەکان وەک خۆیان ماون. سکریپتەکانی دوگمە و کۆنسۆڵ هێشتا بەردەستن.
 	Automatically	بە شێوەی خۆکار
+	Automatically rotate sideways and upside-down pages	سووڕاندنەوەی خۆکاری ئەو پەڕانەی لاکەوتوون یان سەرەوخوارن
 	Automatically tag PDF	تاگکردنی خۆکاری PDF
 	Available	بەردەست
 	average	تێکڕا
@@ -627,6 +632,8 @@ certificate	Basic constraints	سنووردارکردنە بنەڕەتییەکا�
 	Copy the pages with a match as a list such as 1-3, 7	پەڕە هاوتاکان وەک لیستێکی وەک 1-3، 7 لەبەر بگرەوە
 	Copy to clipboard	کۆپیکردن بۆ کلیپبۆرد
 	Correct recognized text	ڕاستکردنەوەی دەقی ناسراو
+	Correct scans	ڕاستکردنەوەی سکانەکان
+	Corrected scan	سکانی ڕاستکراوە
 	Could not save: {e}	پاشەکەوتکردن نەکرا: {e}
 	Couldn't add {name}: {e}	نەتوانرا {name} زیاد بکرێت: {e}
 	Couldn't be read: {reason}	Couldn't be read: {reason}
@@ -709,6 +716,7 @@ certificate	Basic constraints	سنووردارکردنە بنەڕەتییەکا�
 	Crop image	بڕینەوەی وێنە
 	Crop page	بڕینەوەی پەڕە
 	Crop pages	بڕینەوەی پەڕەکان
+	Crop scanner borders to the paper edge	بڕینەوەی لێواری سکانەر تا لێواری کاغەزەکە
 	Cross	نیشانەی هەڵە
 key	Ctrl	Ctrl
 	Currency symbol:	هێمای دراو:
@@ -1787,6 +1795,7 @@ animation effects	On	چالاک
 	Only allow this if you trust the source document.	تەنها ئەگەر متمانەت بە بەڵگەنامە سەرچاوەییەکە هەیە ڕێگەی پێ بدە.
 	Only change the colour of black text or line art	تەنها ڕەنگی دەقی ڕەش یان هێڵەکان بگۆڕە
 	Only checked properties will change. Mixed means the selected fields have different values.	تەنها ئەو تایبەتمەندییانەی نیشانەکراون دەگۆڕدرێن. «تێکەڵاو» واتە خانە هەڵبژێردراوەکان بەهای جیاوازیان هەیە.
+	Only clear paper edges are cropped. Indistinguishable white borders are kept.	تەنها لێوارە ڕوونەکانی کاغەز دەبڕدرێنەوە. لێوارە سپییە جیانەکراوەکان دەهێڵدرێنەوە.
 	Only continue if you trust this document. An address can carry information from the document, such as what you typed into its form.	تەنها ئەگەر متمانەت بەم بەڵگەنامەیە هەیە بەردەوام بە. ناونیشانێک دەتوانێت زانیاری لە بەڵگەنامەکەوە هەڵبگرێت، وەک ئەوەی لە فۆڕمەکەیدا نوسیوتە.
 	Only the document's owner can change its security (open it with the permissions password)	تەنها خاوەنی بەڵگەنامەکە دەتوانێت ئاسایشەکەی بگۆڕێت (بە وشەی نهێنیی مۆڵەتەکان بیکەرەوە)
 	Only the page content changes: links, comments, form fields and bookmarks on the original pages stay.	تەنیا ناوەڕۆکی پەڕەکە دەگۆڕێت: بەستەرەکان، لێدوانەکان، خانەکانی فۆڕم و دڵخوازەکانی سەر پەڕە ئەسڵییەکان دەمێننەوە.
@@ -2303,6 +2312,7 @@ certificate	Public key	کلیلی گشتی
 	Run JavaScript	جێبەجێکردنی JavaScript
 	Running action… file {d} of {t}	لە جێبەجێکردنی کرداردایە… فایلی {d} لە {t}
 calendar weekday	Sa	شەممە
+	Safety margin (pt)	پەراوێزی سەلامەتی (pt)
 	Same as interface	وەک ڕووکار
 	Same as interface ({language})	وەک ڕووکارەکە ({language})
 	Same as text	وەک دەق
@@ -2363,7 +2373,10 @@ calendar weekday	Sa	شەممە
 	Scale relative to target page	پێوەر بە بەراورد لەگەڵ پەڕەی ئامانج
 	Scan	سکانکردن
 	Scan & OCR	سکانکردن و OCR
+	Scan and text recognition	سکانکردن و ناسینەوەی دەق
+	Scan correction	ڕاستکردنەوەی سکان
 	Scan interrupted	Scan interrupted
+	Scan processing cancelled	پرۆسەی سکان هەڵوەشێنرایەوە
 	Scan reverse side now (1 front)	Scan reverse side now (1 front)
 	Scan reverse sides	Scan reverse sides
 	Scan reverse sides now ({n} fronts)	Scan reverse sides now ({n} fronts)
@@ -2403,6 +2416,7 @@ calendar weekday	Sa	شەممە
 	Search tools and commands	گەڕان لە ئامرازەکان و فەرمانەکان
 	Search tools and commands…	گەڕان لە ئامرازەکان و فەرمانەکان…
 	Search tools…	گەڕان بەدوای ئامرازەکان…
+	Searchable Image	وێنەی گەڕانپێکراو
 	Searchable Image (Exact)	وێنەی گەڕانپێکراو (ورد)
 	Searching a folder needs the desktop app	Searching a folder needs the desktop app
 	Searching… {s} of {p} pages	لە گەڕاندایە… {s} لە {p} پەڕە
@@ -2635,6 +2649,8 @@ action wizard	Start	دەستپێکردن
 	Stopped before the end.	Stopped before the end.
 	Stopped: too many files took too long to read.	Stopped: too many files took too long to read.
 	Store JPEG images as JPEG XL (smaller, can be undone; needs a reader that supports JPEG XL)	وێنەکانی JPEG وەک JPEG XL هەڵبگرە (بچووکتر، دەتوانرێت پاشگەز بکرێتەوە؛ پێویستی بە خوێنەرێک هەیە کە JPEG XL پشتگیری بکات)
+	Straighten scanned page	ڕاستکردنەوەی پەڕەی سکانکراو
+	Straighten skewed scans	ڕاستکردنەوەی لاری سکانەکان
 	Straighten the page	Straighten the page
 	Strength: {s}	هێز: {s}
 	Strikethrough	هێڵخستنەسەر
@@ -3031,6 +3047,7 @@ signature pad	Type	تایپکردن
 	Type the web address.	ناونیشانی وێبەکە بنووسە.
 	Type your {what}.	{what}ەکەت بنووسە.
 	Typewriter	ئامێری نووسین
+	Uncertain orientations are left unchanged. Deskew fits the full image inside the page.	ئاراستە نادڵنیاکان وەک خۆیان دەمێننەوە. ڕاستکردنەوەی لاری هەموو وێنەکە لەناو پەڕەکەدا جێدەکاتەوە.
 	Unchecked	هەڵنەبژێردراو
 	Unchecked reads	Unchecked reads
 	Underline	ژێرهێڵ

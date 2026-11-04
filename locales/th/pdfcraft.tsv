@@ -40,9 +40,12 @@
 	4 x 6 in label (101.6 x 152.4 mm)	ฉลากขนาด 4 x 6 นิ้ว (101.6 x 152.4 มม.)
 	9 digit, A letter, O letter or digit, X any character	9 คือตัวเลข, A คือตัวอักษร, O คือตัวอักษรหรือตัวเลข, X คืออักขระใดก็ได้
 	; 1 page already had text	; มี 1 หน้าที่มีข้อความอยู่แล้ว
+	; 1 page skipped	; ข้าม 1 หน้า
+	; corrected {n} pages	; แก้ไข {n} หน้า
 	; failed: {list}	; ล้มเหลว: {list}
 	; skipped: {n}	; ข้าม: {n}
 	; {n} pages already had text	; มี {n} หน้าที่มีข้อความอยู่แล้ว
+	; {n} pages skipped	; ข้าม {n} หน้า
 	? of {n}	? จาก {n}
 	@{login}: {prs} PRs, {commits} commits, +{added} / −{deleted} lines (Δ {delta}), +{bin_added} / −{bin_deleted} binary assets, {first} – {last}	@{login}: {prs} PR, {commits} คอมมิต, +{added} / −{deleted} บรรทัด (Δ {delta}), ไฟล์ไบนารี +{bin_added} / −{bin_deleted}, {first} – {last}
 	[Custom]	[กำหนดเอง]
@@ -167,6 +170,7 @@
 	Add rectangle	เพิ่มสี่เหลี่ยม
 	Add redaction mark	เพิ่มเครื่องหมายปิดทับ
 	Add search index	เพิ่มดัชนีการค้นหา
+	Add searchable text	เพิ่มข้อความที่ค้นหาได้
 	Add signature	เพิ่มลายเซ็น
 	Add squiggly underline	เพิ่มเส้นใต้หยัก
 	Add stamp	เพิ่มตราประทับ
@@ -313,6 +317,7 @@ calendar date	August	สิงหาคม
 	Automatic (historical model)	อัตโนมัติ (โมเดลประวัติศาสตร์)
 	Automatic AcroForm scripts are disabled until safe execution isolation is available; saved field values were preserved. Explicit button and console scripts are still available.	สคริปต์ AcroForm อัตโนมัติถูกปิดไว้จนกว่าจะมีการแยกการทำงานที่ปลอดภัย ค่าฟิลด์ที่บันทึกไว้ยังคงเดิม สคริปต์ของปุ่มและคอนโซลยังใช้ได้
 	Automatically	อัตโนมัติ
+	Automatically rotate sideways and upside-down pages	หมุนหน้าที่ตะแคงหรือกลับหัวโดยอัตโนมัติ
 	Automatically tag PDF	ติดแท็ก PDF อัตโนมัติ
 	Available	พร้อมใช้งาน
 	average	ค่าเฉลี่ย
@@ -629,6 +634,8 @@ certificate	Basic constraints	ข้อจำกัดพื้นฐาน
 	Copy the pages with a match as a list such as 1-3, 7	คัดลอกหน้าที่ตรงกันเป็นรายการ เช่น 1-3, 7
 	Copy to clipboard	คัดลอกไปยังคลิปบอร์ด
 	Correct recognized text	แก้ไขข้อความที่รู้จำได้
+	Correct scans	แก้ไขภาพสแกน
+	Corrected scan	ภาพสแกนที่แก้ไขแล้ว
 	Could not save: {e}	บันทึกไม่ได้: {e}
 	Couldn't add {name}: {e}	เพิ่ม {name} ไม่ได้: {e}
 	Couldn't be read: {reason}	Couldn't be read: {reason}
@@ -711,6 +718,7 @@ certificate	Basic constraints	ข้อจำกัดพื้นฐาน
 	Crop image	ครอบตัดรูปภาพ
 	Crop page	ครอบตัดหน้า
 	Crop pages	ครอบตัดหน้า
+	Crop scanner borders to the paper edge	ครอบตัดขอบสแกนเนอร์ให้ถึงขอบกระดาษ
 	Cross	กากบาท
 key	Ctrl	Ctrl
 	Currency symbol:	สัญลักษณ์สกุลเงิน:
@@ -1791,6 +1799,7 @@ animation effects	On	เปิด
 	Only allow this if you trust the source document.	อนุญาตเฉพาะเมื่อคุณเชื่อถือเอกสารต้นทางเท่านั้น
 	Only change the colour of black text or line art	เปลี่ยนสีเฉพาะข้อความหรือลายเส้นสีดำ
 	Only checked properties will change. Mixed means the selected fields have different values.	เฉพาะคุณสมบัติที่เลือกไว้เท่านั้นที่จะเปลี่ยน "ผสม" หมายถึงช่องที่เลือกมีค่าต่างกัน
+	Only clear paper edges are cropped. Indistinguishable white borders are kept.	ครอบตัดเฉพาะขอบกระดาษที่ชัดเจนเท่านั้น ขอบสีขาวที่แยกไม่ออกจะถูกเก็บไว้
 	Only continue if you trust this document. An address can carry information from the document, such as what you typed into its form.	ดำเนินการต่อเฉพาะเมื่อคุณเชื่อถือเอกสารนี้ ที่อยู่อาจพาข้อมูลจากเอกสารไปด้วย เช่น สิ่งที่คุณพิมพ์ในแบบฟอร์ม
 	Only the document's owner can change its security (open it with the permissions password)	เฉพาะเจ้าของเอกสารเท่านั้นที่เปลี่ยนความปลอดภัยได้ (เปิดด้วยรหัสผ่านสิทธิ์)
 	Only the page content changes: links, comments, form fields and bookmarks on the original pages stay.	เปลี่ยนเฉพาะเนื้อหาของหน้า ลิงก์ ความคิดเห็น ช่องแบบฟอร์ม และบุ๊กมาร์กในหน้าเดิมยังคงอยู่
@@ -2309,6 +2318,7 @@ certificate	Public key	กุญแจสาธารณะ
 	Run JavaScript	รัน JavaScript
 	Running action… file {d} of {t}	กำลังรันการทำงาน… ไฟล์ {d} จาก {t}
 calendar weekday	Sa	ส
+	Safety margin (pt)	ระยะขอบปลอดภัย (pt)
 	Same as interface	เหมือนส่วนติดต่อ
 	Same as interface ({language})	เหมือนภาษาของโปรแกรม ({language})
 	Same as text	เหมือนข้อความ
@@ -2369,7 +2379,10 @@ calendar weekday	Sa	ส
 	Scale relative to target page	มาตราส่วนเทียบกับหน้าเป้าหมาย
 	Scan	สแกน
 	Scan & OCR	สแกนและ OCR
+	Scan and text recognition	การสแกนและการรู้จำข้อความ
+	Scan correction	การแก้ไขภาพสแกน
 	Scan interrupted	Scan interrupted
+	Scan processing cancelled	ยกเลิกการประมวลผลภาพสแกนแล้ว
 	Scan reverse side now (1 front)	Scan reverse side now (1 front)
 	Scan reverse sides	Scan reverse sides
 	Scan reverse sides now ({n} fronts)	Scan reverse sides now ({n} fronts)
@@ -2409,6 +2422,7 @@ calendar weekday	Sa	ส
 	Search tools and commands	ค้นหาเครื่องมือและคำสั่ง
 	Search tools and commands…	ค้นหาเครื่องมือและคำสั่ง…
 	Search tools…	ค้นหาเครื่องมือ…
+	Searchable Image	รูปภาพที่ค้นหาข้อความได้
 	Searchable Image (Exact)	รูปภาพที่ค้นหาข้อความได้ (ตรงตามต้นฉบับ)
 	Searching a folder needs the desktop app	Searching a folder needs the desktop app
 	Searching… {s} of {p} pages	กำลังค้นหา… {s} จาก {p} หน้า
@@ -2641,6 +2655,8 @@ action wizard	Start	เริ่ม
 	Stopped before the end.	Stopped before the end.
 	Stopped: too many files took too long to read.	Stopped: too many files took too long to read.
 	Store JPEG images as JPEG XL (smaller, can be undone; needs a reader that supports JPEG XL)	จัดเก็บภาพ JPEG เป็น JPEG XL (ขนาดเล็กลง ย้อนกลับได้ ต้องใช้โปรแกรมอ่านที่รองรับ JPEG XL)
+	Straighten scanned page	ปรับหน้าที่สแกนให้ตรง
+	Straighten skewed scans	ปรับภาพสแกนที่เอียงให้ตรง
 	Straighten the page	Straighten the page
 	Strength: {s}	ความแข็งแรง: {s}
 	Strikethrough	ขีดฆ่า
@@ -3038,6 +3054,7 @@ signature pad	Type	พิมพ์
 	Type the web address.	พิมพ์ที่อยู่เว็บ
 	Type your {what}.	พิมพ์{what}ของคุณ
 	Typewriter	พิมพ์ดีด
+	Uncertain orientations are left unchanged. Deskew fits the full image inside the page.	การวางแนวที่ไม่แน่ชัดจะไม่ถูกเปลี่ยน การปรับให้ตรงจะใส่ภาพทั้งหมดไว้ภายในหน้า
 	Unchecked	ไม่ได้เลือก
 	Unchecked reads	Unchecked reads
 	Underline	ขีดเส้นใต้
