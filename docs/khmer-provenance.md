@@ -35,7 +35,7 @@ authorship evidence; no separate per-file provenance headers were found.
 |---|---|---|---|
 | `public/dictionaries/km_frequency_dictionary.json` | SIL khmerlbdict combined with Nathan Wells's original SBBIC work | JSON to `frequency.tsv` | Maintainer classification/ADR sign-off; the exact SIL input and permission confirmation are recorded below |
 | `public/dictionaries/km_symspell_dictionary.txt` | Nathan Wells's original SBBIC work ("the rest was me") | Unchanged text | Maintainer review of this attestation and the MIT grant |
-| `public/dictionaries/khmer-multiple-spellings.txt` | Nathan Wells's original SBBIC work ("the rest was me") | Unchanged text | Maintainer review of this attestation and the MIT grant |
+| `public/dictionaries/khmer-multiple-spellings.txt` | Nathan Wells/SBBIC original work; explicit MIT permission confirmed 2026-11-04 | Unchanged text | Maintainer classification/ADR sign-off |
 | `lib/khmer-titles.json` | Nathan Wells's original SBBIC work ("the rest was me") | JSON array to `titles.txt` | Maintainer review of this attestation and the MIT grant |
 | `lib/khmer-affixes.ts` | Nathan Wells's original SBBIC work ("the rest was me") | Configuration parsed as data to `affixes.tsv`; never executed | Maintainer decision covering converted configuration data |
 | `public/dictionaries/km_kcc_tagger.json` | Nathan Wells's original SBBIC model; internal training documents, with permission to train reported by SBBIC | JSON weights to `kcc-weights.tsv` | Maintainer decision covering trained models and this redistribution evidence |
