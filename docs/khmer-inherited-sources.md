@@ -54,6 +54,28 @@ screenshot. It does not establish whether Aksara used SEAlang directly in additi
 to the copy recorded by SIL. The evidence URL uses HTTP; its hash records the
 retrieved bytes and is not a cryptographic authentication of the server.
 
+## Published source-level notices
+
+The [Aksara public notice](https://github.com/sbbic-khmer/aksara-khmer-word-processor/blob/e7152a2b736ed524121c1bcbfb10b68482ac7f37/THIRD_PARTY_NOTICES.md) now publishes the individual SIL input,
+build history, explicit MIT spelling-list alternative and multiple-spellings grant.
+The manifest pins its complete bytes; it is carried with the pack's notices.
+The [tiptap public notice](https://github.com/sungkhum/tiptap-khmer-line-breaker/blob/f293d73ff827ef8ff9b7f1ab4debb4faf4892a9c/THIRD_PARTY_NOTICES.md) points to the same lineage. Tiptap is
+corroborating downstream documentation, not a source dependency of this proposal.
+
+The spelling list is the SBBIC checker's `km_KH.dic`, identical across package
+versions 1.82, 1.83 and 1.90 according to Aksara's notice. Its recorded origins are
+Chuon Nath, Headley, KhmerOS and SBBIC lists. The checker package is GPLv3;
+Aksara expressly offers this word list under MIT as well. We select that explicit
+MIT alternative for the word list and correct the earlier broad SBBIC-only
+authorship description. The inherited frequency columns retain the historical
+Unicode notice alongside that MIT grant in the manifest.
+The spelling frequencies come from the February SIL/book merge. No spelling-list
+or other language payload bytes change in this notice update.
+
+Aksara's public notice labels CLDR Unicode-3.0. The historical CLDR 28 notice and
+modification record from this audit remain retained pending the maintainer's
+classification decision; the new notice is not used to erase the earlier terms.
+
 ## Input and permission confirmation
 
 On 2026-11-04 Nathan Wells/SBBIC confirmed that Aksara used the **individual nine

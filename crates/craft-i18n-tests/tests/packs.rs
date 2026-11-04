@@ -640,7 +640,7 @@ fn aksara_sources_are_complete_hidden_and_not_hunspell() {
     assert!(packs::check(&repo.manifest, &repo.checks, &repo.texts).is_empty());
     assert!(!packs::published(&repo.manifest, &repo.checks, "km"));
     let files: Vec<_> = repo.manifest.entries("km").collect();
-    assert_eq!(files.len(), 9);
+    assert_eq!(files.len(), 10);
     assert_eq!(repo.manifest.class("km"), Class::DownloadOnly);
     let notices = packs::licence_notes(&repo.manifest, "km").unwrap();
     assert!(notices.contains("Copyright (c) 2010, Doug Cooper"));
@@ -651,6 +651,7 @@ fn aksara_sources_are_complete_hidden_and_not_hunspell() {
     assert!(paths.contains("LICENCES/LICENSE"));
     assert!(paths.contains("LICENCES/LICENSE-khmerlbdict"));
     assert!(paths.contains("LICENCES/LICENSE-CLDR-28.txt"));
+    assert!(paths.contains("LICENCES/AKSARA-THIRD-PARTY-NOTICES.md"));
     assert!(
         !files
             .iter()
@@ -692,6 +693,7 @@ fn archives_keep_quoted_notices_and_distinct_upstream_licences() {
     assert!(contents.contains_key("LICENCES/LICENSE"));
     assert!(contents.contains_key("LICENCES/LICENSE-khmerlbdict"));
     assert!(contents.contains_key("LICENCES/LICENSE-CLDR-28.txt"));
+    assert!(contents.contains_key("LICENCES/AKSARA-THIRD-PARTY-NOTICES.md"));
     let unicode = std::str::from_utf8(&contents["LICENCES/Unicode-DFS-2015.txt"]).unwrap();
     assert!(unicode.contains("Copyright © 1991-2015 Unicode"));
     assert!(unicode.contains("there is clear notice in each modified Data File"));

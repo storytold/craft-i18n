@@ -3862,10 +3862,10 @@ url = "https://raw.githubusercontent.com/sbbic-khmer/aksara-khmer-word-processor
 commit = "31740e9d51d38171ae6119fc2d18a4a18fbfb2f1"
 sha256 = "a50b9b7270c062d04d5119537a35c938285d665714de60cde4cff09828c5f0c7"
 size = 2329978
-licence = "MIT"
+licence = "MIT AND Unicode-DFS-2015"
 class = "Download-only"
 name = "ខ្មែរ"
-note = "Nathan Wells, 2026-11-04, on the six named Aksara inputs: \"the rest was me (working as SBBIC)\". Original SBBIC work, covered by Aksara's MIT notice. Tagger training used internal documents SBBIC reports permission to train with; private text is not redistributed. Download-only pending maintainer sign-off for the new model/config data classes; see docs/khmer-provenance.md."
+note = "Aksara public THIRD_PARTY_NOTICES.md at e7152a2b736ed524121c1bcbfb10b68482ac7f37 identifies the word list as SBBIC checker km_KH.dic (versions 1.82/1.83/1.90), based on Chuon Nath, Headley, KhmerOS and SBBIC lists. The checker package is GPLv3; the notice explicitly offers this word list under MIT as well, and MIT is selected here. Frequencies come from the February SIL/book merge, including the CLDR-derived input. The historical Unicode notice is conservatively retained for that inherited frequency data alongside the selected word-list MIT grant. This supersedes the earlier broad original-SBBIC-only description. Download-only pending maintainer classification/ADR sign-off; the full public notice is pinned below."
 
 [[file]]
 locale = "km"
@@ -3973,3 +3973,15 @@ licence = "Unicode-DFS-2015"
 class = "Download-only"
 filename = "LICENSE-CLDR-28.txt"
 note = "Copyright 1991-2015 Unicode, Inc. This is the historical notice accompanying the matching CLDR 28 data, not a retroactive substitution of Unicode-3.0. Modification notice: SIL changes CLDR-derived place/name strings; Aksara combines these with other inputs, changes frequencies and adds/demotes entries; craft-khmer proposes JSON-to-TSV conversion and Brotli compression. These are modified derivatives, not unchanged CLDR. Keep this full notice and the modification statement with the software and its documentation. The licence is recorded conservatively as Download-only pending maintainer policy review; no Embeddable approval is implied."
+
+[[file]]
+locale = "km"
+kind = "licence"
+url = "https://raw.githubusercontent.com/sbbic-khmer/aksara-khmer-word-processor/e7152a2b736ed524121c1bcbfb10b68482ac7f37/THIRD_PARTY_NOTICES.md"
+commit = "e7152a2b736ed524121c1bcbfb10b68482ac7f37"
+sha256 = "0b46bc51b920bdd786e772c71e36cafafc54652da4d968bd777b7735a0bf1a59"
+size = 7781
+licence = "MIT AND Unicode-3.0"
+class = "Embeddable"
+filename = "AKSARA-THIRD-PARTY-NOTICES.md"
+note = "Published source-level evidence of the SIL input/build history, the SBBIC spelling-list MIT alternative, and Nathan Wells/SBBIC's multiple-spellings MIT grant. This document also contains upstream JS/UI notices; it does not introduce those code dependencies into the Rust proposal. The original six payload blobs are unchanged. Their Download-only classification and retained historical CLDR notice are unchanged pending maintainer review."
