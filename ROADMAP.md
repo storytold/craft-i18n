@@ -1,6 +1,6 @@
 # craft-i18n roadmap
 
-> **Last updated:** 2026-11-04 · **Change:** minor (Khmer notice preservation and pending provenance review; file-size `unit` rows and a shared byte count for craft-libs#204)
+> **Last updated:** 2026-11-04 · **Change:** minor (KM23: verify CLDR 28 and SEAlang notices, record inherited-source evidence; Khmer notice preservation and pending provenance review; file-size `unit` rows and a shared byte count for craft-libs#204)
 
 Shared translations for the storytold Crafting Apps: one catalog per locale for shared strings,
 one per app, checked in CI and embedded by each app at build time. Vocabulary is in
@@ -107,5 +107,12 @@ As surveyed on 2026-10-16 (VectorCraft recounted 2026-10-18). Locale counts excl
 
 Khmer provenance follow-up (2026-11-04): preserve all three MIT holders in pack output, including a
 pinned SIL notice and the supplied SEAlang notice. The six-file pack remains
-Download-only and hidden pending inherited-source evidence, maintainer sign-off
+Download-only and hidden pending maintainer classification/sign-off
 and the model/config ADR decision. Staging rejects non-Embeddable packs. See [the per-file record](docs/khmer-provenance.md).
+
+Inherited-source audit (KM23, 2026-11-04): the original SIL places list exactly
+matches CLDR 28 values, including duplicates; its historical Unicode-DFS-2015
+notice and modification record are now retained. SEAlang's notice was retrieved
+directly. All nine SIL inputs have immutable hashes and source-history records.
+Wells confirmed the input and permissions; maintainer classification remains open. Data stays
+Download-only. See [the audit](docs/khmer-inherited-sources.md).

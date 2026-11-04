@@ -196,10 +196,12 @@ cargo run --bin language-packs -- stage --locale LOCALE --out /absolute/pack --n
 
 Omit `--no-download` to fetch pinned files into the cache. Staging permits hidden
 Embeddable packs; it does not publish an index or install an app pack.
-The current `km` pack is **Download-only**, pending inherited-source evidence,
-maintainer sign-off and the ADR decision for model/configuration data. It cannot
+The current `km` pack is **Download-only**, pending maintainer classification/sign-off and the ADR decision for model/configuration data. It cannot
 be staged for embedding. [Per-file provenance](khmer-provenance.md) records
-Nathan Wells's SBBIC authorship and the remaining SIL/CLDR lineage questions.
+Nathan Wells's SBBIC authorship and the confirmed SIL input/permissions. The inherited-source audit matches
+the original CLDR-derived names to CLDR 28 and preserves its full historical
+Unicode-DFS-2015 notice with a modification statement; this does not grant
+Embeddable classification.
 
 The proposed consumer, `craft-khmer`, exists only in the **unmerged**
 [craft-libs #551](https://github.com/storytold/craft-libs/pull/551).

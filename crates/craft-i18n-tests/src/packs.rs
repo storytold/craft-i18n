@@ -338,6 +338,9 @@ const LICENCES: &[(&str, Class)] = &[
     ("MPL-1.1", Class::Embeddable),
     ("MPL-2.0", Class::Embeddable),
     ("Unicode-3.0", Class::Embeddable),
+    // Historical CLDR 28 terms; recorded without granting Embeddable approval.
+    // See docs/khmer-inherited-sources.md. Maintainers must decide the policy/class.
+    ("Unicode-DFS-2015", Class::DownloadOnly),
     ("Unlicense", Class::Embeddable),
     ("CC-BY-NC-SA-4.0", Class::Excluded),
     // Licences with no SPDX id; their text is in each pack's LICENCES/.

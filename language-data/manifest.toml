@@ -3850,10 +3850,10 @@ url = "https://raw.githubusercontent.com/sbbic-khmer/aksara-khmer-word-processor
 commit = "31740e9d51d38171ae6119fc2d18a4a18fbfb2f1"
 sha256 = "a646aa6365c064f31fc8b125263596d42c207b1c595ab479fc074872b86ad283"
 size = 758046
-licence = "MIT"
+licence = "MIT AND Unicode-DFS-2015"
 class = "Download-only"
 name = "ខ្មែរ"
-note = "Nathan Wells (SBBIC), 2026-11-04: \"Frequency dictionary was combined from SIL and myself\"; SIL source confirmed as https://github.com/silnrsi/khmerlbdict. SIL README at 54abc6b87f4ffa6a0c95c09836c7c86648002273 lists SEAlang, CLDR names and other inputs. The exact SIL input revision and inherited source notices remain unconfirmed. Download-only pending that evidence and maintainer Embeddable sign-off; see docs/khmer-provenance.md."
+note = "Nathan Wells (SBBIC), 2026-11-04: \"Frequency dictionary was combined from SIL and myself\"; SIL source confirmed as https://github.com/silnrsi/khmerlbdict. SIL README at 54abc6b87f4ffa6a0c95c09836c7c86648002273 lists SEAlang, CLDR names and other inputs. Offline audit matches all 997 original SIL places.txt lines (996 names and one blank) to CLDR 28 at 660a303bd6e60f491e53b3db88977b118897cbf3; its historical Unicode-DFS-2015 notice is pinned below. SIL edits the names, and Aksara combines/changes frequencies; this is modified data. Nathan Wells confirms the exact nine individual src files at that SIL revision were imported from the zip downloaded 2026-01-08, and that SBBIC and SIL had permission to publish their lists. An independent reproduction matches all 10,000 word/frequency pairs in the January Aksara JSON. The source/permission record is ready for maintainer review. Download-only pending maintainer classification/ADR sign-off; see docs/khmer-inherited-sources.md and docs/khmer-source-audit.json."
 
 [[file]]
 locale = "km"
@@ -3925,7 +3925,7 @@ size = 1068
 licence = "MIT"
 class = "Embeddable"
 note = '''
-SEAlang notice supplied by Nathan Wells with a screenshot of its License page on 2026-11-03 (http://sealang.net/project/list/); no pinned raw URL is available. This is contributor-supplied evidence, not independently verified file-level coverage. Preserved verbatim:
+SEAlang MIT notice supplied by Nathan Wells on 2026-11-03 and independently retrieved on 2026-11-04 from http://sealang.net/project/list/license.txt (linked by the project menu). Exact retrieved bytes: 1070; SHA256 2a98708d01f8a98765501f2cc5af607c00dcef85479518876a7b5338eaa78fd6. No raw GitHub file is available to pin. The terms below match the retrieved notice, apart from trailing blank lines. This establishes the published list notice, not the precise Aksara import route. Preserved terms:
 
 MIT LICENSE
 
@@ -3960,4 +3960,16 @@ size = 1076
 licence = "MIT"
 class = "Embeddable"
 filename = "LICENSE-khmerlbdict"
-note = "SIL NRSI copyright (2015), MIT. This pins the licence evidence, not the historical revision Nathan Wells used. SIL README lists CLDR-derived places.txt alongside SEAlang and other sources; the inherited CLDR version and notice need confirmation before the combined frequency data can be Embeddable. See docs/khmer-provenance.md."
+note = "SIL NRSI copyright (2015), MIT. Wells confirms this exact revision as the individual-file input used by Aksara. SIL README lists CLDR-derived places.txt alongside SEAlang and other sources. The original places list matches CLDR 28, whose separate notice is pinned below. Contributor permission confirmation and import reproduction are recorded in docs/khmer-inherited-sources.md; this MIT grant does not replace the Unicode notice."
+
+[[file]]
+locale = "km"
+kind = "licence"
+url = "https://raw.githubusercontent.com/unicode-org/cldr/660a303bd6e60f491e53b3db88977b118897cbf3/unicode-license.txt"
+commit = "660a303bd6e60f491e53b3db88977b118897cbf3"
+sha256 = "58c22b50508c6873d2dc27390b49f94daebeb9d311464ed3eb87282cda3321f5"
+size = 2933
+licence = "Unicode-DFS-2015"
+class = "Download-only"
+filename = "LICENSE-CLDR-28.txt"
+note = "Copyright 1991-2015 Unicode, Inc. This is the historical notice accompanying the matching CLDR 28 data, not a retroactive substitution of Unicode-3.0. Modification notice: SIL changes CLDR-derived place/name strings; Aksara combines these with other inputs, changes frequencies and adds/demotes entries; craft-khmer proposes JSON-to-TSV conversion and Brotli compression. These are modified derivatives, not unchanged CLDR. Keep this full notice and the modification statement with the software and its documentation. The licence is recorded conservatively as Download-only pending maintainer policy review; no Embeddable approval is implied."
