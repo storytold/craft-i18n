@@ -73,6 +73,7 @@
 	A local model is not a frontier cloud model: it can be wrong, and a long answer takes its time on CPU. Check anything critical, and mind a model's size against this machine before downloading it.	Yerel bir model, en iyi bulut modeli değildir: yanılabilir ve uzun bir yanıt işlemcide zaman alır. Kritik olan her şeyi denetleyin; indirmeden önce modelin boyutunu bu makineyle karşılaştırın.
 	A logo or name at the left of the tabs, where a title bar would show one: PdfCraft's own, or your company's.	Sekmelerin solunda, başlık çubuğunun göstereceği yerde bir logo veya ad: PdfCraft'ınki ya da şirketinizinki.
 	A page count stops the feeder after that many sheets. Cancel ends the transfer early; pages already received stay in the document.	Sayfa sayısı, o kadar yapraktan sonra besleyiciyi durdurur. İptal aktarımı erken bitirir; alınan sayfalar belgede kalır.
+	A password-protected file is only checked to reopen when saved; its bytes are not searched again for the removed text.	Parola korumalı bir dosya kaydedilirken yalnızca yeniden açılıp açılmadığı denetlenir; baytlarında kaldırılan metin yeniden aranmaz.
 	A picture covers page {pages} (a scan?), so the background won't show there.	Resimle kaplı sayfa (tarama mı?): {pages}; arka plan orada görünmez.
 	A placed signature is a comment until it is locked: anyone with a PDF editor can move or remove it. Locking makes your Fill & Sign text, marks and signatures part of the page.	Yerleştirilen imza, sabitlenene kadar bir yorumdur: PDF düzenleyicisi olan herkes onu taşıyabilir veya kaldırabilir. Sabitlemek, Doldur ve İmzala metnini, işaretlerini ve imzalarını sayfanın parçası yapar.
 	A PNG or SVG file. It is read from this place each time PdfCraft starts.	Bir PNG veya SVG dosyası. PdfCraft her başlatıldığında bu konumdan okunur.
@@ -304,6 +305,7 @@
 	Apply redactions…	Karartmaları uygula…
 	Apply scale	Ölçeği uygula
 	Applying a scale switches units to m / mm.	Ölçek uygulamak birimleri m / mm olarak değiştirir.
+	Applying also sanitizes the document: bookmarks, named destinations, attachments, document information, metadata and XFA form data are deleted, and hidden layers are locked hidden for good.	Uygulama belgeyi de temizler: yer imleri, adlandırılmış hedefler, ekler, belge bilgileri, meta veriler ve XFA form verileri silinir; gizli katmanlar kalıcı olarak gizli kalır.
 	Appropriate nesting	Uygun iç içe yerleştirme
 	April	Nisan
 	Arbitrary Mask	İsteğe Bağlı Maske
@@ -517,6 +519,8 @@
 	CheckBox	OnayKutusu
 	Checkbox	Onay kutusu
 	Checked	İşaretli
+	Checked when applied: 1 region found clear of the removed text. Text that exists only as pixels of an image is not searched.	Uygulama sırasında kontrol edildi: 1 bölgede kaldırılan metin bulunamadı. Yalnızca görüntü pikselleri olarak var olan metin aranmaz.
+	Checked when applied: {n} regions found clear of the removed text. Text that exists only as pixels of an image is not searched.	Uygulama sırasında kontrol edildi: {n} bölgede kaldırılan metin bulunamadı. Yalnızca görüntü pikselleri olarak var olan metin aranmaz.
 	Checked {objects} objects against the Arlington PDF Model for PDF {version}.	{objects} nesne, PDF {version} için Arlington PDF Model'e göre denetlendi.
 	Checking form detection…	Form algılama denetleniyor…
 	Checking Hungarian OCR installation…	Macarca OCR kurulumu denetleniyor…
@@ -624,6 +628,7 @@
 	Combo	AçılırKutu
 	Coming in milestone	Kilometre taşında gelecek
 	Coming in milestone {m}. Items marked Ready work today.	Kilometre taşı {m} ile gelecek. Hazır olarak işaretlenen öğeler bugün çalışmaktadır.
+	Coming soon	Yakında
 	Comment and form data	Yorum ve form verileri
 	Comment and review	Yorumla ve incele
 	Comment list	Yorum listesi
@@ -1441,6 +1446,7 @@ key	Home	Home
 	Hungarian OCR requires the desktop app with Tesseract 5 and the hun language model. Restart PdfCraft after installation.	Macarca OCR için Tesseract 5 ve hun dil modeli içeren masaüstü uygulaması gerekir. Kurulumdan sonra PdfCraft uygulamasını yeniden başlatın.
 	H{n} follows an H{d}; headings should not skip levels	H{n}, bir H{d} ardından geliyor; başlıklar düzey atlamamalı
 	I confirm sending this document to this printer	Bu belgenin bu yazıcıya gönderilmesini onaylıyorum
+	I understand that the redacted content is removed for good	Karartılan içeriğin kalıcı olarak kaldırılacağını anlıyorum
 	ICC profile: {name}	ICC profili: {name}
 	Identity	Kimlik
 	Image	Resim
@@ -1548,6 +1554,7 @@ key	Home	Home
 	JavaScript Console	JavaScript Konsolu
 	JavaScript console…	JavaScript konsolu…
 	JavaScript is turned off (Preferences ▸ JavaScript).	JavaScript kapalı (Tercihler > JavaScript).
+	JavaScript is turned off (Preferences → JavaScript).	JavaScript kapalı (Tercihler > JavaScript).
 	JavaScript is turned off by your administrator.	JavaScript yöneticiniz tarafından kapatıldı.
 	JavaScript, e.g. getField("total").value	JavaScript, ör. getField("total").value
 	JBIG2 (lossless)	JBIG2 (kayıpsız)
@@ -2679,6 +2686,7 @@ calendar weekday	Sa	Ct
 	Save the accessibility report	Erişilebilirlik raporunu kaydet
 	Save the document afterwards: saving rewrites the whole file so no trace of the removed content stays in it.	Ardından belgeyi kaydedin: Kaydetme tüm dosyayı yeniden yazar, böylece kaldırılan içeriğin hiçbir izi kalmaz.
 	Save the document afterwards; saving rewrites the whole file so nothing removed stays in it.	Ardından belgeyi kaydedin; kaydetme tüm dosyayı yeniden yazar, böylece kaldırılan hiçbir şey kalmaz.
+	Save the result under a new name: saving rewrites the whole file so no trace of the removed content stays in it, and the original file stays as it is.	Sonucu yeni bir adla kaydedin: kaydetme tüm dosyayı yeniden yazar, böylece kaldırılan içerikten hiçbir iz kalmaz ve özgün dosya olduğu gibi kalır.
 	Save the spreadsheet	Elektronik tabloyu kaydet
 	Save these pages as one PDF	Bu sayfaları tek bir PDF olarak kaydet
 	Save this document to a folder first	Önce bu belgeyi bir klasöre kaydedin
@@ -3426,6 +3434,7 @@ calendar weekday	Th	Pe
 	Thin	İnce
 	Thinking… {s}s	Düşünüyor… {s}sn
 	This area has too many overlapping paths; intersection snapping is limited.	Bu alanda çok fazla örtüşen yol var; kesişim yakalama sınırlandırıldı.
+	This cannot be undone: applying redactions clears the undo history.	Bu işlem geri alınamaz: karartmaları uygulamak geri alma geçmişini temizler.
 	This certificate is in your list of trusted certificates.	Bu sertifika güvenilen sertifikalar listenizde yer alıyor.
 	This certificate is not trusted. Signatures made with it show an unknown identity.	Bu sertifikaya güvenilmiyor. Bununla yapılan imzalar bilinmeyen bir kimlik gösterir.
 	This certificate is trusted through a certificate above it in the chain.	Bu sertifikaya, zincirdeki üst sertifika aracılığıyla güveniliyor.
@@ -3526,7 +3535,7 @@ calendar weekday	Th	Pe
 	Timed responses	Zamanlanmış yanıtlar
 	Timestamp	Zaman damgası
 	Timestamp server	Zaman damgası sunucusu
-	Timestamps and revocation information need the desktop app. Turn them off in Preferences ▸ Signatures to sign here.	Zaman damgaları ve iptal bilgileri masaüstü uygulamasını gerektirir. Burada imzalamak için bunları Tercihler ▸ İmzalar bölümünden kapatın.
+	Timestamps and revocation information need the desktop app. Turn them off in Preferences ▸ Signatures to sign here.	Zaman damgaları ve iptal bilgileri masaüstü uygulamasını gerektirir. Burada imzalamak için bunları Tercihler > İmzalar bölümünden kapatın.
 	to	bitiş
 	To change locked fields, also set Locked to No.	Kilitli alanları değiştirmek için Kilitli ayarını da Hayır olarak belirleyin.
 	To print this large file, load all of it first with Load to edit.	To print this large file, load all of it first with Load to edit.
@@ -3559,7 +3568,7 @@ calendar weekday	Th	Pe
 	Transfer format: {format}.	Aktarım biçimi: {format}.
 	Transform image	Görüntüyü dönüştür
 	Translate with AI	Yapay zekayla çevir
-	Translating...	Çevriliyor...
+	Translating…	Çevriliyor…
 	Trim marks	Kesim işaretleri
 	Trim the picture with its handles; Enter or Done applies	Resmi tutamaçlarıyla kırpın; Enter veya Bitti uygular
 	Trust	Güven

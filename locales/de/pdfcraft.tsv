@@ -45,10 +45,10 @@
 	; 1 page skipped	; 1 Seite übersprungen
 	; 1 signed file kept its images	; 1 signierte Datei behielt ihre Bilder
 	; cancelled — {n} files were not run	; abgebrochen — {n} Dateien wurden nicht verarbeitet
-	; converted to {level}, but not everything complies yet ({first}); see Apply PDF standards ▸ Save as PDF/A	; in {level} umgewandelt, aber noch nicht vollständig konform ({first}); siehe PDF-Standards anwenden ▸ Als PDF/A speichern
+	; converted to {level}, but not everything complies yet ({first}); see Apply PDF standards ▸ Save as PDF/A	; in {level} umgewandelt, aber noch nicht vollständig konform ({first}); siehe PDF-Standards anwenden > Als PDF/A speichern
 	; corrected {n} pages	; {n} Seiten korrigiert
 	; failed: {list}	; fehlgeschlagen: {list}
-	; not PDF/A yet: {list} (open them in Apply PDF standards ▸ Save as PDF/A)	; noch nicht PDF/A: {list} (in PDF-Standards anwenden ▸ Als PDF/A speichern öffnen)
+	; not PDF/A yet: {list} (open them in Apply PDF standards ▸ Save as PDF/A)	; noch nicht PDF/A: {list} (in PDF-Standards anwenden > Als PDF/A speichern öffnen)
 	; not saved as {level}: {why}	; nicht als {level} gespeichert: {why}
 	; saved as {level}	; als {level} gespeichert
 	; skipped: {n}	; übersprungen: {n}
@@ -83,6 +83,7 @@
 	A local model is not a frontier cloud model: it can be wrong, and a long answer takes its time on CPU. Check anything critical, and mind a model's size against this machine before downloading it.	Ein lokales Modell ist kein Spitzengroßmodell aus der Cloud: Es kann sich irren, und lange Antworten brauchen auf der CPU ihre Zeit. Prüfen Sie alles Entscheidende und bedenken Sie die Modellgröße gegen diesen Rechner vor dem Download.
 	A logo or name at the left of the tabs, where a title bar would show one: PdfCraft's own, or your company's.	Ein Logo oder ein Name links neben den Tabs, wo eine Titelleiste ihn zeigen würde: das von PdfCraft oder das deiner Firma.
 	A page count stops the feeder after that many sheets. Cancel ends the transfer early; pages already received stay in the document.	Eine Seitenzahl stoppt den Einzug nach so vielen Blättern. Abbrechen beendet die Übertragung früher; bereits empfangene Seiten bleiben im Dokument.
+	A password-protected file is only checked to reopen when saved; its bytes are not searched again for the removed text.	Bei einer passwortgeschützten Datei wird beim Speichern nur geprüft, ob sie sich wieder öffnen lässt; ihre Bytes werden nicht erneut nach dem entfernten Text durchsucht.
 	A picture covers page {pages} (a scan?), so the background won't show there.	Ein Bild bedeckt Seite {pages} (ein Scan?), daher ist der Hintergrund dort nicht zu sehen.
 	A placed signature is a comment until it is locked: anyone with a PDF editor can move or remove it. Locking makes your Fill & Sign text, marks and signatures part of the page.	Eine platzierte Unterschrift ist ein Kommentar, bis sie fest übernommen wird: Jeder mit einem PDF-Editor kann sie verschieben oder entfernen. Beim Übernehmen werden Text, Markierungen und Unterschriften aus „Ausfüllen und unterschreiben“ Teil der Seite.
 	A PNG or SVG file. It is read from this place each time PdfCraft starts.	Eine PNG- oder SVG-Datei. Sie wird bei jedem Start von PdfCraft von diesem Ort gelesen.
@@ -316,6 +317,7 @@
 	Apply redactions…	Schwärzungen anwenden…
 	Apply scale	Maßstab anwenden
 	Applying a scale switches units to m / mm.	Beim Anwenden eines Maßstabs werden die Einheiten auf m / mm umgestellt.
+	Applying also sanitizes the document: bookmarks, named destinations, attachments, document information, metadata and XFA form data are deleted, and hidden layers are locked hidden for good.	Beim Anwenden wird auch bereinigt: Lesezeichen, benannte Ziele, Anhänge, Dokumentinformationen, Metadaten und XFA-Formulardaten werden gelöscht, und ausgeblendete Ebenen bleiben dauerhaft gesperrt und ausgeblendet.
 	Appropriate nesting	Korrekte Verschachtelung
 	April	April
 	Arbitrary Mask	Beliebige Maske
@@ -531,6 +533,8 @@
 	CheckBox	Kontrollkästchen
 	Checkbox	Kontrollkästchen
 	Checked	Abgehakt
+	Checked when applied: 1 region found clear of the removed text. Text that exists only as pixels of an image is not searched.	Beim Anwenden geprüft: 1 Bereich ohne den entfernten Text gefunden. Text, der nur als Bildpixel existiert, wird nicht gesucht.
+	Checked when applied: {n} regions found clear of the removed text. Text that exists only as pixels of an image is not searched.	Beim Anwenden geprüft: {n} Bereiche ohne den entfernten Text gefunden. Text, der nur als Bildpixel existiert, wird nicht gesucht.
 	Checked {objects} objects against the Arlington PDF Model for PDF {version}.	{objects} Objekte anhand des Arlington PDF Model für PDF {version} geprüft.
 	Checking form detection…	Formularerkennung wird geprüft…
 	Checking Hungarian OCR installation…	Installation der ungarischen OCR wird geprüft…
@@ -643,6 +647,7 @@
 	Combo	Kombinationsfeld
 	Coming in milestone	Kommt mit Meilenstein
 	Coming in milestone {m}. Items marked Ready work today.	Kommt mit Meilenstein {m}. Als „Bereit“ markierte Einträge funktionieren schon heute.
+	Coming soon	Demnächst
 	Comment and form data	Kommentar- und Formulardaten
 	Comment and review	Kommentieren und prüfen
 	Comment list	Kommentarliste
@@ -1488,6 +1493,7 @@ key	Home	Pos1
 	Hungarian OCR requires the desktop app with Tesseract 5 and the hun language model. Restart PdfCraft after installation.	Ungarische OCR erfordert die Desktop-App mit Tesseract 5 und dem Sprachmodell hun. Starten Sie PdfCraft nach der Installation neu.
 	H{n} follows an H{d}; headings should not skip levels	Auf H{d} folgt H{n}; Überschriften sollten keine Ebenen überspringen
 	I confirm sending this document to this printer	Ich bestätige, dass dieses Dokument an diesen Drucker gesendet wird
+	I understand that the redacted content is removed for good	Ich verstehe, dass der geschwärzte Inhalt endgültig entfernt wird
 	ICC profile: {name}	ICC-Profil: {name}
 	Identity	Identität
 	Image (PNG)	Bild (PNG)
@@ -1590,6 +1596,7 @@ key	Home	Pos1
 	JavaScript Console	JavaScript-Konsole
 	JavaScript console…	JavaScript-Konsole…
 	JavaScript is turned off (Preferences ▸ JavaScript).	JavaScript ist ausgeschaltet (Einstellungen > JavaScript).
+	JavaScript is turned off (Preferences → JavaScript).	JavaScript ist ausgeschaltet (Einstellungen > JavaScript).
 	JavaScript is turned off by your administrator.	JavaScript wurde von Ihrem Administrator ausgeschaltet.
 	JavaScript, e.g. getField("total").value	JavaScript, z. B. getField("total").value
 	JBIG2 (lossless)	JBIG2 (verlustfrei)
@@ -2725,6 +2732,7 @@ calendar weekday	Sa	Sa
 	Save the accessibility report	Barrierefreiheitsbericht speichern
 	Save the document afterwards: saving rewrites the whole file so no trace of the removed content stays in it.	Speichere das Dokument danach: Beim Speichern wird die gesamte Datei neu geschrieben, sodass keine Spur des entfernten Inhalts darin bleibt.
 	Save the document afterwards; saving rewrites the whole file so nothing removed stays in it.	Speichere das Dokument anschließend. Beim Speichern wird die gesamte Datei neu geschrieben, sodass nichts Entferntes darin verbleibt.
+	Save the result under a new name: saving rewrites the whole file so no trace of the removed content stays in it, and the original file stays as it is.	Speichern Sie das Ergebnis unter einem neuen Namen: Das Speichern schreibt die ganze Datei neu, sodass keine Spur des entfernten Inhalts darin bleibt, und die Originaldatei bleibt unverändert.
 	Save the spreadsheet	Tabelle speichern
 	Save these pages as one PDF	Diese Seiten als ein PDF speichern
 	Save this document to a folder first	Speichern Sie dieses Dokument zuerst in einem Ordner
@@ -3487,6 +3495,7 @@ calendar weekday	Th	Do
 	Thin	Dünn
 	Thinking… {s}s	Denkt nach… {s} s
 	This area has too many overlapping paths; intersection snapping is limited.	Dieser Bereich hat zu viele überlappende Pfade; das Einrasten an Schnittpunkten ist eingeschränkt.
+	This cannot be undone: applying redactions clears the undo history.	Das kann nicht rückgängig gemacht werden: Das Anwenden von Schwärzungsmarkierungen leert den Verlauf.
 	This certificate is in your list of trusted certificates.	Dieses Zertifikat steht in deiner Liste vertrauenswürdiger Zertifikate.
 	This certificate is not trusted. Signatures made with it show an unknown identity.	Diesem Zertifikat wird nicht vertraut. Damit erstellte Signaturen zeigen eine unbekannte Identität.
 	This certificate is trusted through a certificate above it in the chain.	Diesem Zertifikat wird über ein übergeordnetes Zertifikat in der Kette vertraut.
@@ -3587,7 +3596,7 @@ calendar weekday	Th	Do
 	Timed responses	Zeitbegrenzte Antworten
 	Timestamp	Zeitstempel
 	Timestamp server	Zeitstempelserver
-	Timestamps and revocation information need the desktop app. Turn them off in Preferences ▸ Signatures to sign here.	Zeitstempel und Sperrinformationen brauchen die Desktop-App. Schalten Sie sie unter Einstellungen ▸ Signaturen aus, um hier zu signieren.
+	Timestamps and revocation information need the desktop app. Turn them off in Preferences ▸ Signatures to sign here.	Zeitstempel und Sperrinformationen brauchen die Desktop-App. Schalten Sie sie unter Einstellungen > Signaturen aus, um hier zu signieren.
 	Tint Strength	Deckkraft
 	to	bis
 	To change locked fields, also set Locked to No.	Um gesperrte Felder zu ändern, setze auch „Gesperrt“ auf „Nein“.

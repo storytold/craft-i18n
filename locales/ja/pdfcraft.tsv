@@ -73,6 +73,7 @@
 	A local model is not a frontier cloud model: it can be wrong, and a long answer takes its time on CPU. Check anything critical, and mind a model's size against this machine before downloading it.	ローカルモデルは最先端のクラウドモデルではありません。間違うことがあり、長い回答には CPU で時間がかかります。重要な事柄は必ず確認し、ダウンロード前にモデルのサイズをこのマシンと比べてください。
 	A logo or name at the left of the tabs, where a title bar would show one: PdfCraft's own, or your company's.	タブの左側、タイトルバーが表示する位置に出すロゴや名前。PdfCraft のもの、または会社のものを指定できます。
 	A page count stops the feeder after that many sheets. Cancel ends the transfer early; pages already received stay in the document.	ページ数を指定すると、その枚数でフィーダーが止まります。キャンセルすると転送は途中で終わり、すでに受け取ったページは文書に残ります。
+	A password-protected file is only checked to reopen when saved; its bytes are not searched again for the removed text.	パスワードで保護されたファイルは、保存時に再び開けるかどうかだけを確認します。削除したテキストをバイト列から再検索することはしません。
 	A picture covers page {pages} (a scan?), so the background won't show there.	{pages} ページは画像（スキャン？）で覆われているため、背景は表示されません。
 	A placed signature is a comment until it is locked: anyone with a PDF editor can move or remove it. Locking makes your Fill & Sign text, marks and signatures part of the page.	配置した署名は固定するまで注釈です。PDF エディターを持つ人なら誰でも移動や削除ができます。固定すると、入力と署名のテキスト、マーク、署名がページの一部になります。
 	A PNG or SVG file. It is read from this place each time PdfCraft starts.	PNG または SVG ファイル。PdfCraft の起動のたびにこの場所から読み込まれます。
@@ -300,6 +301,7 @@
 	Apply redactions…	墨消しを適用…
 	Apply scale	縮尺を適用
 	Applying a scale switches units to m / mm.	縮尺を適用すると、単位が m / mm に切り替わります。
+	Applying also sanitizes the document: bookmarks, named destinations, attachments, document information, metadata and XFA form data are deleted, and hidden layers are locked hidden for good.	適用すると文書も無害化されます。しおり、名前付き宛先、添付ファイル、文書情報、メタデータ、XFA フォームデータは削除され、非表示のレイヤーは永久に非表示のままロックされます。
 	Appropriate nesting	適切な入れ子
 	April	4月
 	Arbitrary Mask	任意のマスク
@@ -515,6 +517,8 @@
 	CheckBox	チェックボックス
 	Checkbox	チェックボックス
 	Checked	チェック済み
+	Checked when applied: 1 region found clear of the removed text. Text that exists only as pixels of an image is not searched.	適用時に確認済み: 1 か所の領域に、削除したテキストは残っていませんでした。画像のピクセルとしてのみ存在するテキストは検索されません。
+	Checked when applied: {n} regions found clear of the removed text. Text that exists only as pixels of an image is not searched.	適用時に確認済み: {n} か所の領域に、削除したテキストは残っていませんでした。画像のピクセルとしてのみ存在するテキストは検索されません。
 	Checked {objects} objects against the Arlington PDF Model for PDF {version}.	{objects} 個のオブジェクトを PDF {version} の Arlington PDF Model に照らして検査しました。
 	Checking form detection…	フォーム検出を確認中…
 	Checking Hungarian OCR installation…	ハンガリー語OCRのインストールを確認中…
@@ -637,6 +641,7 @@
 	Combo	コンボボックス
 	Coming in milestone	実装予定のマイルストーン
 	Coming in milestone {m}. Items marked Ready work today.	マイルストーン {m} で対応予定です。「利用可能」の項目は現在使用できます。
+	Coming soon	近日公開
 	Comment	Comment
 	Comment and form data	注釈とフォームデータ
 	Comment list	コメント一覧
@@ -1444,6 +1449,7 @@ key	Home	Home
 	HTML web page	HTML ウェブページ
 	Hungarian OCR requires the desktop app with Tesseract 5 and the hun language model. Restart PdfCraft after installation.	ハンガリー語OCRには、デスクトップアプリ、Tesseract 5、hun言語モデルが必要です。インストール後にPdfCraftを再起動してください。
 	I confirm sending this document to this printer	この文書をこのプリンターに送信することを確認します
+	I understand that the redacted content is removed for good	墨消しした内容が完全に削除されることを理解しました
 	ICC profile: {name}	ICC プロファイル: {name}
 	Identity	個人情報
 	Image (PNG)	画像（PNG）
@@ -1543,6 +1549,7 @@ key	Home	Home
 	JavaScript Console	JavaScript コンソール
 	JavaScript console…	JavaScript コンソール…
 	JavaScript is turned off (Preferences ▸ JavaScript).	JavaScript は無効です（環境設定 → JavaScript）。
+	JavaScript is turned off (Preferences → JavaScript).	JavaScript は無効です（環境設定 → JavaScript）。
 	JavaScript is turned off by your administrator.	JavaScript は管理者によって無効にされています。
 	JavaScript, e.g. getField("total").value	JavaScript（例: getField("total").value）
 	JBIG2 (lossless)	JBIG2（可逆）
@@ -2652,6 +2659,7 @@ animation effects	On	オン
 	Save the accessibility report	アクセシビリティレポートを保存
 	Save the document afterwards: saving rewrites the whole file so no trace of the removed content stays in it.	処理後に文書を保存してください。保存時にファイル全体を書き直し、削除した内容の痕跡を残しません。
 	Save the document afterwards; saving rewrites the whole file so nothing removed stays in it.	処理後に文書を保存してください。保存時にファイル全体を書き直し、削除した情報を残しません。
+	Save the result under a new name: saving rewrites the whole file so no trace of the removed content stays in it, and the original file stays as it is.	結果は新しい名前で保存してください。保存時にファイル全体を書き直し、削除した内容の痕跡を残しません。元のファイルはそのまま残ります。
 	Save the spreadsheet	スプレッドシートを保存
 	Save these pages as one PDF	これらのページを 1 つの PDF として保存
 	Save this document to a folder first	まずこの文書をフォルダーに保存してください
@@ -3340,6 +3348,7 @@ document scrollbar width	Standard	標準
 	Thin	細い
 	Thinking… {s}s	考えています… {s}秒
 	This area has too many overlapping paths; intersection snapping is limited.	この領域は重なるパスが多すぎるため、交点へのスナップを制限します。
+	This cannot be undone: applying redactions clears the undo history.	この操作は元に戻せません。墨消しを適用すると、取り消し履歴が消去されます。
 	This certificate is in your list of trusted certificates.	この証明書は信頼済み証明書の一覧に登録されています。
 	This certificate is not trusted. Signatures made with it show an unknown identity.	この証明書は信頼されていません。この証明書による署名は署名者不明と表示されます。
 	This certificate is trusted through a certificate above it in the chain.	この証明書は、証明書チェーンの上位にある証明書を通じて信頼されています。
@@ -3438,7 +3447,7 @@ document scrollbar width	Standard	標準
 	Timed responses	応答時間の制限
 	Timestamp	タイムスタンプ
 	Timestamp server	タイムスタンプサーバー
-	Timestamps and revocation information need the desktop app. Turn them off in Preferences ▸ Signatures to sign here.	タイムスタンプと失効情報にはデスクトップアプリが必要です。ここで署名するには、環境設定 ▸ 署名 でオフにしてください。
+	Timestamps and revocation information need the desktop app. Turn them off in Preferences ▸ Signatures to sign here.	タイムスタンプと失効情報にはデスクトップアプリが必要です。ここで署名するには、環境設定 → 署名 でオフにしてください。
 	to	終了
 	To change locked fields, also set Locked to No.	ロックされたフィールドを変更するには「ロック」を「いいえ」に設定してください。
 	To print this large file, load all of it first with Load to edit.	To print this large file, load all of it first with Load to edit.

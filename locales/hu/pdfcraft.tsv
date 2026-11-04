@@ -70,6 +70,7 @@
 	A local model is not a frontier cloud model: it can be wrong, and a long answer takes its time on CPU. Check anything critical, and mind a model's size against this machine before downloading it.	A helyi modell nem élvonalbeli felhőmodell: tévedhet, és egy hosszú válasz a processzoron időbe telik. Minden kritikus dolgot ellenőrizzen, és a letöltés előtt mérlegelje a modell méretét e géphez képest.
 	A logo or name at the left of the tabs, where a title bar would show one: PdfCraft's own, or your company's.	Egy logó vagy név a lapoktól balra, ahol a címsor mutatná: a PdfCraft sajátja vagy a cégedé.
 	A page count stops the feeder after that many sheets. Cancel ends the transfer early; pages already received stay in the document.	Az oldalszám ennyi lap után leállítja az adagolót. A megszakítás korábban véget vet az átvitelnek; a már megkapott oldalak a dokumentumban maradnak.
+	A password-protected file is only checked to reopen when saved; its bytes are not searched again for the removed text.	Jelszóval védett fájlnál mentéskor csak az ellenőrződik, hogy újra megnyitható-e; a bájtjaiban nem keresi újra az eltávolított szöveget.
 	A picture covers page {pages} (a scan?), so the background won't show there.	Egy kép fedi le ezt az oldalt: {pages} (szkennelt?), így ott nem látszik a háttér.
 	A placed signature is a comment until it is locked: anyone with a PDF editor can move or remove it. Locking makes your Fill & Sign text, marks and signatures part of the page.	Az elhelyezett aláírás megjegyzés, amíg nincs rögzítve: bárki egy PDF-szerkesztővel áthelyezheti vagy eltávolíthatja. A rögzítés a Kitöltés és aláírás szövegét, jeleit és aláírásait az oldal részévé teszi.
 	A PNG or SVG file. It is read from this place each time PdfCraft starts.	Egy PNG vagy SVG fájl. A PdfCraft minden indításakor erről a helyről olvassa be.
@@ -292,6 +293,7 @@
 	Apply redactions…	Kitakarások alkalmazása…
 	Apply scale	Méretarány alkalmazása
 	Applying a scale switches units to m / mm.	A méretarány alkalmazása m / mm mértékegységre vált.
+	Applying also sanitizes the document: bookmarks, named destinations, attachments, document information, metadata and XFA form data are deleted, and hidden layers are locked hidden for good.	Az alkalmazás tisztítást is végez: a könyvjelzők, a nevesített célpontok, a mellékletek, a dokumentuminformációk, a metaadatok és az XFA űrlapadatok törlődnek, a rejtett rétegek pedig véglegesen zártan rejtve maradnak.
 	Appropriate nesting	Megfelelő egymásba ágyazás
 	April	április
 	Arbitrary Mask	Tetszőleges maszk
@@ -500,6 +502,8 @@
 	CheckBox	Jelölőnégyzet
 	Checkbox	Jelölőnégyzet
 	Checked	Bejelölve
+	Checked when applied: 1 region found clear of the removed text. Text that exists only as pixels of an image is not searched.	Alkalmazáskor ellenőrizve: 1 terület az eltávolított szövegtől mentesen található. A csak képpontként létező szöveget nem keressük.
+	Checked when applied: {n} regions found clear of the removed text. Text that exists only as pixels of an image is not searched.	Alkalmazáskor ellenőrizve: {n} terület az eltávolított szövegtől mentesen található. A csak képpontként létező szöveget nem keressük.
 	Checked {objects} objects against the Arlington PDF Model for PDF {version}.	{objects} objektum ellenőrizve az Arlington PDF Model alapján (PDF {version}).
 	Checking form detection…	Űrlapfelismerés ellenőrzése…
 	Checking Hungarian OCR installation…	A magyar OCR telepítésének ellenőrzése…
@@ -607,6 +611,7 @@
 	Combo	Kombinált lista
 	Coming in milestone	Ebben a mérföldkőben érkezik
 	Coming in milestone {m}. Items marked Ready work today.	{m} mérföldkőben érkezik. A Kész jelölésű elemek már működnek.
+	Coming soon	Hamarosan
 	Comment	Comment
 	Comment and form data	Megjegyzés- és űrlapadatok
 	Comment list	Megjegyzéslista
@@ -1384,6 +1389,7 @@ key	Home	Home
 	HTML web page	HTML-weboldal
 	Hungarian OCR requires the desktop app with Tesseract 5 and the hun language model. Restart PdfCraft after installation.	A magyar OCR-hez az asztali alkalmazás, a Tesseract 5 és a hun nyelvi modell szükséges. Telepítés után indítsd újra a PdfCraftot.
 	I confirm sending this document to this printer	Megerősítem, hogy ezt a dokumentumot erre a nyomtatóra küldöm
+	I understand that the redacted content is removed for good	Megértem, hogy a kitakart tartalom véglegesen eltávolításra kerül
 	ICC profile: {name}	ICC-profil: {name}
 	Identity	Személyazonosság
 	Image (PNG)	Kép (PNG)
@@ -1485,6 +1491,7 @@ key	Home	Home
 	JavaScript Console	JavaScript-konzol
 	JavaScript console…	JavaScript-konzol…
 	JavaScript is turned off (Preferences ▸ JavaScript).	A JavaScript ki van kapcsolva (Beállítások > JavaScript).
+	JavaScript is turned off (Preferences → JavaScript).	A JavaScript ki van kapcsolva (Beállítások > JavaScript).
 	JavaScript is turned off by your administrator.	A JavaScriptet a rendszergazda kikapcsolta.
 	JavaScript, e.g. getField("total").value	JavaScript, pl. getField("total").value
 	JBIG2 (lossless)	JBIG2 (veszteségmentes)
@@ -2546,6 +2553,7 @@ animation effects	On	Be
 	Save the accessibility report	Akadálymentességi jelentés mentése
 	Save the document afterwards: saving rewrites the whole file so no trace of the removed content stays in it.	Utána mentsd a dokumentumot: a mentés újraírja az egész fájlt, így az eltávolított tartalomnak nem marad nyoma.
 	Save the document afterwards; saving rewrites the whole file so nothing removed stays in it.	Utána mentsd a dokumentumot; a mentés újraírja az egész fájlt, így az eltávolított részek nem maradnak benne.
+	Save the result under a new name: saving rewrites the whole file so no trace of the removed content stays in it, and the original file stays as it is.	Mentse az eredményt új néven: a mentés újraírja a teljes fájlt, így az eltávolított tartalom nyoma sem marad benne, és az eredeti fájl változatlan marad.
 	Save the spreadsheet	Táblázat mentése
 	Save these pages as one PDF	Ezeknek az oldalaknak a mentése egy PDF-be
 	Save this document to a folder first	Előbb mentse a dokumentumot egy mappába
@@ -3220,6 +3228,7 @@ action wizard	Start	Indítás
 	Thin	Vékony
 	Thinking… {s}s	Gondolkodik… {s} mp
 	This area has too many overlapping paths; intersection snapping is limited.	Ezen a területen túl sok az átfedő útvonal; a metszéspontokhoz illesztés korlátozott.
+	This cannot be undone: applying redactions clears the undo history.	Ez nem vonható vissza: a kitakarások alkalmazása törli a visszavonási előzményeket.
 	This certificate is in your list of trusted certificates.	Ez a tanúsítvány a megbízható tanúsítványaid között van.
 	This certificate is not trusted. Signatures made with it show an unknown identity.	Ez a tanúsítvány nem megbízható. A vele készült aláírások ismeretlen személyt mutatnak.
 	This certificate is trusted through a certificate above it in the chain.	Ez a tanúsítvány a láncban fölötte lévő tanúsítványon keresztül megbízható.
@@ -3315,7 +3324,7 @@ action wizard	Start	Indítás
 	Timed responses	Időzített válaszok
 	Timestamp	Időbélyeg
 	Timestamp server	Időbélyeg-kiszolgáló
-	Timestamps and revocation information need the desktop app. Turn them off in Preferences ▸ Signatures to sign here.	Az időbélyegekhez és a visszavonási adatokhoz az asztali alkalmazás szükséges. Az itteni aláíráshoz kapcsolja ki őket a Beállítások ▸ Aláírások részben.
+	Timestamps and revocation information need the desktop app. Turn them off in Preferences ▸ Signatures to sign here.	Az időbélyegekhez és a visszavonási adatokhoz az asztali alkalmazás szükséges. Az itteni aláíráshoz kapcsolja ki őket a Beállítások > Aláírások részben.
 	to	eddig
 	To change locked fields, also set Locked to No.	Zárolt mezők módosításához a „Zárolt” értékét is állítsd „Nem”-re.
 	To print this large file, load all of it first with Load to edit.	To print this large file, load all of it first with Load to edit.

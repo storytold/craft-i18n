@@ -69,6 +69,7 @@
 	A local model is not a frontier cloud model: it can be wrong, and a long answer takes its time on CPU. Check anything critical, and mind a model's size against this machine before downloading it.	Ένα τοπικό μοντέλο δεν είναι ένα κορυφαίο νεφικό μοντέλο: μπορεί να κάνει λάθη, και μια μακριά απάντηση θέλει τον χρόνο της σε επεξεργαστή. Ελέγξτε ό,τι είναι κρίσιμο και προσέξτε το μέγεθος του μοντέλου απέναντι σε αυτόν τον υπολογιστή πριν το κατεβάσετε.
 	A logo or name at the left of the tabs, where a title bar would show one: PdfCraft's own, or your company's.	Ένα λογότυπο ή όνομα αριστερά από τις καρτέλες, εκεί όπου θα το έδειχνε μια γραμμή τίτλου: του PdfCraft ή της εταιρείας σας.
 	A page count stops the feeder after that many sheets. Cancel ends the transfer early; pages already received stay in the document.	Ο αριθμός σελίδων σταματά τον τροφοδότη μετά από τόσα φύλλα. Η ακύρωση τερματίζει τη μεταφορά νωρίς· οι σελίδες που ήδη ελήφθησαν μένουν στο έγγραφο.
+	A password-protected file is only checked to reopen when saved; its bytes are not searched again for the removed text.	Ένα αρχείο με κωδικό πρόσβασης ελέγχεται κατά την αποθήκευση μόνο ως προς το αν ανοίγει ξανά· τα byte του δεν αναζητούνται ξανά για το κείμενο που αφαιρέθηκε.
 	A picture covers page {pages} (a scan?), so the background won't show there.	Μια εικόνα καλύπτει τη σελίδα {pages} (σάρωση;), οπότε το φόντο δεν θα φαίνεται εκεί.
 	A placed signature is a comment until it is locked: anyone with a PDF editor can move or remove it. Locking makes your Fill & Sign text, marks and signatures part of the page.	Μια τοποθετημένη υπογραφή είναι σχόλιο μέχρι να κλειδωθεί: οποιοσδήποτε με επεξεργαστή PDF μπορεί να τη μετακινήσει ή να την αφαιρέσει. Το κλείδωμα κάνει το κείμενο, τα σημάδια και τις υπογραφές της Συμπλήρωσης και υπογραφής μέρος της σελίδας.
 	A PNG or SVG file. It is read from this place each time PdfCraft starts.	Ένα αρχείο PNG ή SVG. Διαβάζεται από αυτή τη θέση σε κάθε εκκίνηση του PdfCraft.
@@ -287,6 +288,7 @@
 	Apply redactions…	Εφαρμογή οριστικών αποκρύψεων…
 	Apply scale	Εφαρμογή κλίμακας
 	Applying a scale switches units to m / mm.	Η εφαρμογή κλίμακας αλλάζει τις μονάδες σε m / mm.
+	Applying also sanitizes the document: bookmarks, named destinations, attachments, document information, metadata and XFA form data are deleted, and hidden layers are locked hidden for good.	Η εφαρμογή καθαρίζει επίσης το έγγραφο: διαγράφονται οι σελιδοδείκτες, οι επώνυμοι προορισμοί, τα συνημμένα, οι πληροφορίες εγγράφου, τα μεταδεδομένα και τα δεδομένα φόρμας XFA, και τα κρυφά επίπεδα κλειδώνονται οριστικά ως κρυφά.
 	Appropriate nesting	Σωστή εμφώλευση
 	April	Απρίλιος
 calendar date	April	Απρίλιος
@@ -489,6 +491,8 @@ calendar date	August	Αύγουστος
 	CheckBox	Πλαίσιο ελέγχου
 	Checkbox	Πλαίσιο ελέγχου
 	Checked	Επιλεγμένο
+	Checked when applied: 1 region found clear of the removed text. Text that exists only as pixels of an image is not searched.	Ελέγχθηκε κατά την εφαρμογή: σε 1 περιοχή δεν βρέθηκε το κείμενο που αφαιρέθηκε. Κείμενο που υπάρχει μόνο ως εικονοστοιχεία μιας εικόνας δεν αναζητείται.
+	Checked when applied: {n} regions found clear of the removed text. Text that exists only as pixels of an image is not searched.	Ελέγχθηκε κατά την εφαρμογή: σε {n} περιοχές δεν βρέθηκε το κείμενο που αφαιρέθηκε. Κείμενο που υπάρχει μόνο ως εικονοστοιχεία μιας εικόνας δεν αναζητείται.
 	Checked {objects} objects against the Arlington PDF Model for PDF {version}.	Ελέγχθηκαν {objects} αντικείμενα με βάση το Arlington PDF Model για PDF {version}.
 	Checking Hungarian OCR installation…	Έλεγχος εγκατάστασης ουγγρικού OCR…
 	Checking Options ({on} of 32 in all categories)	Επιλογές ελέγχου ({on} από 32 σε όλες τις κατηγορίες)
@@ -590,6 +594,7 @@ calendar date	August	Αύγουστος
 	Combo	Αναπτυσσόμενη λίστα
 	Coming in milestone	Θα διατεθεί στο ορόσημο
 	Coming in milestone {m}. Items marked Ready work today.	Αναμένεται στο ορόσημο {m}. Τα στοιχεία με ένδειξη «Έτοιμο» λειτουργούν ήδη.
+	Coming soon	Σύντομα
 	Comment and form data	Δεδομένα σχολίων και φόρμας
 	Comment list	Λίστα σχολίων
 	Commenting	Προσθήκη σχολίων
@@ -1333,6 +1338,7 @@ key	Home	Αρχή
 	HTML web page	Ιστοσελίδα HTML
 	Hungarian OCR requires the desktop app with Tesseract 5 and the hun language model. Restart PdfCraft after installation.	Το ουγγρικό OCR απαιτεί την εφαρμογή υπολογιστή με Tesseract 5 και το γλωσσικό μοντέλο hun. Επανεκκινήστε το PdfCraft μετά την εγκατάσταση.
 	I confirm sending this document to this printer	Επιβεβαιώνω την αποστολή αυτού του εγγράφου σε αυτόν τον εκτυπωτή
+	I understand that the redacted content is removed for good	Κατανοώ ότι το περιεχόμενο που αποκρύπτεται αφαιρείται οριστικά
 	ICC profile: {name}	Προφίλ ICC: {name}
 	Identity	Ταυτότητα
 	Image (PNG)	Εικόνα (PNG)
@@ -1430,6 +1436,7 @@ calendar date	January	Ιανουάριος
 	JavaScript Console	Κονσόλα JavaScript
 	JavaScript console…	Κονσόλα JavaScript…
 	JavaScript is turned off (Preferences ▸ JavaScript).	Η JavaScript είναι απενεργοποιημένη (Προτιμήσεις > JavaScript).
+	JavaScript is turned off (Preferences → JavaScript).	Η JavaScript είναι απενεργοποιημένη (Προτιμήσεις > JavaScript).
 	JavaScript is turned off by your administrator.	Η JavaScript έχει απενεργοποιηθεί από τον διαχειριστή σας.
 	JavaScript, e.g. getField("total").value	JavaScript, π.χ. getField("total").value
 	JBIG2 (lossless)	JBIG2 (χωρίς απώλειες)
@@ -2466,6 +2473,7 @@ animation effects	On	Ενεργά
 	Save the accessibility report	Αποθήκευση αναφοράς προσβασιμότητας
 	Save the document afterwards: saving rewrites the whole file so no trace of the removed content stays in it.	Αποθηκεύστε έπειτα το έγγραφο: η αποθήκευση επανεγγράφει ολόκληρο το αρχείο, ώστε να μη μείνει κανένα ίχνος του περιεχομένου που αφαιρέθηκε.
 	Save the document afterwards; saving rewrites the whole file so nothing removed stays in it.	Αποθηκεύστε έπειτα το έγγραφο. Η αποθήκευση επανεγγράφει ολόκληρο το αρχείο, ώστε να μη διατηρηθεί τίποτα από όσα αφαιρέθηκαν.
+	Save the result under a new name: saving rewrites the whole file so no trace of the removed content stays in it, and the original file stays as it is.	Αποθηκεύστε το αποτέλεσμα με νέο όνομα: η αποθήκευση επανεγγράφει ολόκληρο το αρχείο, ώστε να μη μείνει κανένα ίχνος του περιεχομένου που αφαιρέθηκε, και το αρχικό αρχείο μένει ως έχει.
 	Save the spreadsheet	Αποθήκευση υπολογιστικού φύλλου
 	Save these pages as one PDF	Αποθήκευση αυτών των σελίδων σε ένα PDF
 	Save this document to a folder first	Αποθηκεύστε πρώτα αυτό το έγγραφο σε φάκελο
@@ -3090,6 +3098,7 @@ certificate	Subject	Υποκείμενο πιστοποιητικού
 	Thin	Λεπτό
 	Thinking… {s}s	Σκέψη… {s}δ
 	This area has too many overlapping paths; intersection snapping is limited.	Αυτή η περιοχή έχει υπερβολικά πολλές επικαλυπτόμενες διαδρομές· η προσκόλληση σε τομές είναι περιορισμένη.
+	This cannot be undone: applying redactions clears the undo history.	Δεν είναι δυνατή η αναίρεση: η εφαρμογή των αποκρύψεων διαγράφει το ιστορικό αναίρεσης.
 	This certificate is in your list of trusted certificates.	Αυτό το πιστοποιητικό βρίσκεται στη λίστα αξιόπιστων πιστοποιητικών σας.
 	This certificate is not trusted. Signatures made with it show an unknown identity.	Αυτό το πιστοποιητικό δεν είναι αξιόπιστο. Οι υπογραφές που δημιουργούνται με αυτό εμφανίζουν άγνωστη ταυτότητα.
 	This certificate is trusted through a certificate above it in the chain.	Αυτό το πιστοποιητικό θεωρείται αξιόπιστο μέσω άλλου πιστοποιητικού της αλυσίδας.
@@ -3177,7 +3186,7 @@ certificate	Subject	Υποκείμενο πιστοποιητικού
 	Timed responses	Απαντήσεις με χρονικό περιορισμό
 	Timestamp	Χρονοσήμανση
 	Timestamp server	Διακομιστής χρονοσήμανσης
-	Timestamps and revocation information need the desktop app. Turn them off in Preferences ▸ Signatures to sign here.	Οι χρονοσημάνσεις και οι πληροφορίες ανάκλησης χρειάζονται την εφαρμογή υπολογιστή. Απενεργοποιήστε τις στις Προτιμήσεις ▸ Υπογραφές για να υπογράψετε εδώ.
+	Timestamps and revocation information need the desktop app. Turn them off in Preferences ▸ Signatures to sign here.	Οι χρονοσημάνσεις και οι πληροφορίες ανάκλησης χρειάζονται την εφαρμογή υπολογιστή. Απενεργοποιήστε τις στις Προτιμήσεις > Υπογραφές για να υπογράψετε εδώ.
 	to	έως
 	To change locked fields, also set Locked to No.	Για να αλλάξετε κλειδωμένα πεδία, ορίστε επίσης το «Κλειδωμένο» σε «Όχι».
 	To print this large file, load all of it first with Load to edit.	To print this large file, load all of it first with Load to edit.

@@ -69,6 +69,7 @@
 	A local model is not a frontier cloud model: it can be wrong, and a long answer takes its time on CPU. Check anything critical, and mind a model's size against this machine before downloading it.	Локалният модел не е водещ облачен модел: може да греши, а дълъг отговор отнема време на процесор. Проверявайте важното и съобразявайте размера на модела с тази машина, преди да го изтеглите.
 	A logo or name at the left of the tabs, where a title bar would show one: PdfCraft's own, or your company's.	Лого или име вляво от разделите, където би ги показала заглавната лента: на PdfCraft или на вашата фирма.
 	A page count stops the feeder after that many sheets. Cancel ends the transfer early; pages already received stay in the document.	Броят страници спира подавача след толкова листа. Отказът спира прехвърлянето по-рано; вече получените страници остават в документа.
+	A password-protected file is only checked to reopen when saved; its bytes are not searched again for the removed text.	Защитен с парола файл при запазване само се проверява дали се отваря отново; байтовете му не се претърсват повторно за премахнатия текст.
 	A picture covers page {pages} (a scan?), so the background won't show there.	Изображение покрива страница {pages} (сканиране?), затова фонът няма да се вижда там.
 	A placed signature is a comment until it is locked: anyone with a PDF editor can move or remove it. Locking makes your Fill & Sign text, marks and signatures part of the page.	Поставеният подпис е коментар, докато не бъде заключен: всеки с PDF редактор може да го премести или премахне. Заключването прави текста, отметките и подписите от „Попълване и подписване“ част от страницата.
 	A PNG or SVG file. It is read from this place each time PdfCraft starts.	PNG или SVG файл. Чете се от това място при всяко стартиране на PdfCraft.
@@ -293,6 +294,7 @@
 	Apply redactions…	Приложи заличаванията…
 	Apply scale	Приложи мащаба
 	Applying a scale switches units to m / mm.	Прилагането на мащаб превключва единиците на m / mm.
+	Applying also sanitizes the document: bookmarks, named destinations, attachments, document information, metadata and XFA form data are deleted, and hidden layers are locked hidden for good.	Прилагането също извършва дезинфекция: отметки, именовани дестинации, прикачени файлове, информация за документа, метаданни и данни от XFA формуляри се изтриват, а скритите слоеве остават заключени скрити завинаги.
 	Appropriate nesting	Правилно влагане
 	April	Април
 	Arbitrary Mask	Произволна маска
@@ -497,6 +499,8 @@
 	CheckBox	Квадратче за отметка
 	Checkbox	Отметка (квадратче)
 	Checked	Отметнато
+	Checked when applied: 1 region found clear of the removed text. Text that exists only as pixels of an image is not searched.	Проверено при прилагане: 1 област е намерена без премахнатия текст. Текст, съществуващ само като пиксели на изображение, не се търси.
+	Checked when applied: {n} regions found clear of the removed text. Text that exists only as pixels of an image is not searched.	Проверено при прилагане: {n} области са намерени без премахнатия текст. Текст, съществуващ само като пиксели на изображение, не се търси.
 	Checked {objects} objects against the Arlington PDF Model for PDF {version}.	Проверени обекти: {objects} спрямо Arlington PDF Model за PDF {version}.
 	Checking form detection…	Проверка на откриването на формуляри…
 	Checking Hungarian OCR installation…	Проверка на инсталацията на унгарското OCR…
@@ -608,6 +612,7 @@
 	Combo	Комбиниран списък
 	Coming in milestone	Очаква се в етап
 	Coming in milestone {m}. Items marked Ready work today.	Очаква се в етап {m}. Елементите, отбелязани като готови, работят още днес.
+	Coming soon	Очаквайте скоро
 	Comment	Comment
 	Comment and form data	Данни от коментари и формуляри
 	Comment list	Списък с коментари
@@ -1398,6 +1403,7 @@ key	Home	Home
 	HTML web page	HTML уеб страница
 	Hungarian OCR requires the desktop app with Tesseract 5 and the hun language model. Restart PdfCraft after installation.	Унгарското OCR изисква настолното приложение с Tesseract 5 и езиковия модел hun. Рестартирайте PdfCraft след инсталирането.
 	I confirm sending this document to this printer	Потвърждавам изпращането на този документ до този принтер
+	I understand that the redacted content is removed for good	Разбирам, че заличеното съдържание се премахва завинаги
 	ICC profile: {name}	ICC профил: {name}
 	Identity	Самоличност
 	Image (PNG)	Изображение (PNG)
@@ -1500,6 +1506,7 @@ key	Home	Home
 	JavaScript Console	Конзола за JavaScript
 	JavaScript console…	JavaScript конзола…
 	JavaScript is turned off (Preferences ▸ JavaScript).	JavaScript е изключен (Настройки > JavaScript).
+	JavaScript is turned off (Preferences → JavaScript).	JavaScript е изключен (Настройки > JavaScript).
 	JavaScript is turned off by your administrator.	JavaScript е изключен от вашия администратор.
 	JavaScript, e.g. getField("total").value	JavaScript, напр. getField("total").value
 	JBIG2 (lossless)	JBIG2 (без загуби)
@@ -2575,6 +2582,7 @@ animation effects	On	Включени
 	Save the accessibility report	Запиши отчета за достъпност
 	Save the document afterwards: saving rewrites the whole file so no trace of the removed content stays in it.	След това запишете документа: записването презаписва целия файл, така че в него да не остане следа от премахнатото съдържание.
 	Save the document afterwards; saving rewrites the whole file so nothing removed stays in it.	След това запишете документа; записването презаписва целия файл, така че в него да не остане нищо от премахнатото.
+	Save the result under a new name: saving rewrites the whole file so no trace of the removed content stays in it, and the original file stays as it is.	Запазете резултата под ново име: запазването пренаписва целия файл, така че никакви следи от премахнатото съдържание не остават в него, а оригиналният файл остава непроменен.
 	Save the spreadsheet	Запиши електронната таблица
 	Save these pages as one PDF	Запиши тези страници като един PDF файл
 	Save this document to a folder first	Първо запазете този документ в папка
@@ -3242,6 +3250,7 @@ action wizard	Start	Старт
 	Thin	Тънка
 	Thinking… {s}s	Мисли… {s}сек
 	This area has too many overlapping paths; intersection snapping is limited.	Тази област има твърде много припокриващи се контури; прилепването към пресечни точки е ограничено.
+	This cannot be undone: applying redactions clears the undo history.	Това не може да бъде отменено: прилагането на маркировки за заличаване изчиства историята за отмяна.
 	This certificate is in your list of trusted certificates.	Този сертификат е в списъка ви с надеждни сертификати.
 	This certificate is not trusted. Signatures made with it show an unknown identity.	Този сертификат не е надежден. Подписите, направени с него, показват неизвестна самоличност.
 	This certificate is trusted through a certificate above it in the chain.	Този сертификат е надежден чрез сертификат над него във веригата.
@@ -3336,7 +3345,7 @@ action wizard	Start	Старт
 	Timed responses	Времеви ограничения за отговор
 	Timestamp	Времеви печат
 	Timestamp server	Сървър за времеви печати
-	Timestamps and revocation information need the desktop app. Turn them off in Preferences ▸ Signatures to sign here.	Времевите печати и информацията за отмяна изискват настолното приложение. Изключете ги от Предпочитания ▸ Подписи, за да подпишете тук.
+	Timestamps and revocation information need the desktop app. Turn them off in Preferences ▸ Signatures to sign here.	Времевите печати и информацията за отмяна изискват настолното приложение. Изключете ги от Предпочитания > Подписи, за да подпишете тук.
 	to	до
 	To change locked fields, also set Locked to No.	За да промените заключени полета, задайте и „Заключено“ на „Не“.
 	To print this large file, load all of it first with Load to edit.	To print this large file, load all of it first with Load to edit.

@@ -90,6 +90,7 @@
 	A logo or name at the left of the tabs, where a title bar would show one: PdfCraft's own, or your company's.	Logotipas arba pavadinimas kairėje nuo kortelių, kur jį rodytų antraštės juosta: PdfCraft arba jūsų įmonės.
 	A mesh shading's colours change too sharply between its corners to convert to CMYK exactly	Tinklelio šešėliavimo spalvos tarp kampų kinta per staigiai, kad būtų galima jas tiksliai konvertuoti į CMYK
 	A page count stops the feeder after that many sheets. Cancel ends the transfer early; pages already received stay in the document.	Puslapių skaičius sustabdo tiekiklį po tiek lapų. Atšaukimas baigia perdavimą anksčiau; jau gauti puslapiai lieka dokumente.
+	A password-protected file is only checked to reopen when saved; its bytes are not searched again for the removed text.	Slaptažodžiu apsaugotas failas išsaugant tik patikrinamas, ar jį galima atidaryti iš naujo; jo baitai pašalinto teksto dar kartą neieškomi.
 	A pattern over RGB or device-independent colour can't be converted to CMYK yet	Rašto, paremto RGB arba nuo įrenginio nepriklausoma spalva, dar negalima konvertuoti į CMYK
 	A picture covers page {pages} (a scan?), so the background won't show there.	Paveikslėliu padengtas puslapis (nuskaitytas?): {pages}; fonas ten nesimatys.
 	A picture with a colour-key mask can't be converted to CMYK yet	Paveikslėlio su spalvos rakto kauke dar negalima konvertuoti į CMYK
@@ -347,6 +348,7 @@
 	Apply redactions…	Pritaikyti konfidencialios informacijos šalinimą…
 	Apply scale	Taikyti mastelį
 	Applying a scale switches units to m / mm.	Pritaikius mastelį, vienetai pakeičiami į m / mm.
+	Applying also sanitizes the document: bookmarks, named destinations, attachments, document information, metadata and XFA form data are deleted, and hidden layers are locked hidden for good.	Taikymas taip pat išvalo dokumentą: ištrinamos žymės, įvardyti paskirties taškai, priedai, dokumento informacija, metaduomenys ir XFA formos duomenys, o paslėpti sluoksniai visam laikui užrakinami kaip paslėpti.
 	Appropriate nesting	Tinkamas įdėjimas
 	Approve the signature on the device (for mSzafir: in CloudSigner's window and the mSzafir app)…	Patvirtinkite parašą įrenginyje („mSzafir“: „CloudSigner“ lange ir „mSzafir“ programėlėje)…
 	April	balandis
@@ -564,6 +566,8 @@ certificate	Basic constraints	Pagrindiniai apribojimai
 	CheckBox	Žymimasis langelis
 	Checkbox	Žymimasis langelis
 	Checked	Pažymėta
+	Checked when applied: 1 region found clear of the removed text. Text that exists only as pixels of an image is not searched.	Patikrinta taikant: 1 srityje nerasta pašalinto teksto. Tekstas, esantis tik kaip vaizdo pikseliai, neieškomas.
+	Checked when applied: {n} regions found clear of the removed text. Text that exists only as pixels of an image is not searched.	Patikrinta taikant: {n} srityse nerasta pašalinto teksto. Tekstas, esantis tik kaip vaizdo pikseliai, neieškomas.
 	Checked {objects} objects against the Arlington PDF Model for PDF {version}.	Patikrinta objektų: {objects} pagal Arlington PDF Model, skirtą PDF {version}.
 	Checking form detection…	Tikrinamas formų aptikimas…
 	Checking Hungarian OCR installation…	Tikrinamas vengrų kalbos OCR diegimas…
@@ -677,6 +681,7 @@ certificate	Basic constraints	Pagrindiniai apribojimai
 	Combo	Išskleidžiamasis sąrašas
 	Coming in milestone	Numatyta būsimame etape
 	Coming in milestone {m}. Items marked Ready work today.	Planuojama {m} etape. Paruoštais pažymėti elementai jau veikia.
+	Coming soon	Netrukus
 	Comment and form data	Komentarai ir formų duomenys
 	Comment and review	Komentuoti ir peržiūrėti
 	Comment list	Komentarų sąrašas
@@ -1539,6 +1544,7 @@ key	Home	Home
 	Hungarian OCR requires the desktop app with Tesseract 5 and the hun language model. Restart PdfCraft after installation.	Vengrų kalbos OCR reikia darbalaukio programos su Tesseract 5 ir hun kalbos modeliu. Įdiegę paleiskite PdfCraft iš naujo.
 	H{n} follows an H{d}; headings should not skip levels	Po H{d} eina H{n}; antraščių lygiai neturi būti praleidžiami
 	I confirm sending this document to this printer	Patvirtinu, kad šis dokumentas siunčiamas į šį spausdintuvą
+	I understand that the redacted content is removed for good	Suprantu, kad užtemdytas turinys pašalinamas visam laikui
 	ICC profile: {name}	ICC profilis: {name}
 	Identity	Tapatybė
 	Image (PNG)	Paveikslėlis (PNG)
@@ -1651,6 +1657,7 @@ calendar date	January	sausio
 	JavaScript Console	JavaScript konsolė
 	JavaScript console…	JavaScript konsolė…
 	JavaScript is turned off (Preferences ▸ JavaScript).	JavaScript išjungtas (Nuostatos > JavaScript).
+	JavaScript is turned off (Preferences → JavaScript).	JavaScript išjungtas (Nuostatos > JavaScript).
 	JavaScript is turned off by your administrator.	JavaScript išjungė jūsų administratorius.
 	JavaScript, e.g. getField("total").value	JavaScript, pvz., getField("total").value
 	JBIG2 (lossless)	JBIG2 (be nuostolių)
@@ -2810,6 +2817,7 @@ calendar weekday	Sa	Št
 	Save the accessibility report	Įrašyti prieinamumo ataskaitą
 	Save the document afterwards: saving rewrites the whole file so no trace of the removed content stays in it.	Po to įrašykite dokumentą: įrašant perrašomas visas failas, kad neliktų pašalinto turinio pėdsakų.
 	Save the document afterwards; saving rewrites the whole file so nothing removed stays in it.	Po to įrašykite dokumentą; įrašant perrašomas visas failas, kad neliktų pašalinto turinio.
+	Save the result under a new name: saving rewrites the whole file so no trace of the removed content stays in it, and the original file stays as it is.	Išsaugokite rezultatą nauju pavadinimu: išsaugant perrašomas visas failas, todėl jame neliks jokio pašalinto turinio pėdsako, o originalus failas lieka nepakeistas.
 	Save the spreadsheet	Įrašyti skaičiuoklę
 	Save these pages as one PDF	Įrašyti šiuos puslapius kaip vieną PDF
 	Save this document to a folder first	Pirmiausia išsaugokite šį dokumentą aplanke
@@ -3641,6 +3649,7 @@ calendar weekday	Th	Kt
 	Thinking… {s}s	Mąsto… {s}s
 	Thinnest line	Ploniausia linija
 	This area has too many overlapping paths; intersection snapping is limited.	Šioje srityje persidengia per daug kelių; pritraukimas prie sankirtų apribotas.
+	This cannot be undone: applying redactions clears the undo history.	Šio veiksmo atšaukti negalima: pritaikius užtemdymus išvaloma atšaukimo istorija.
 	This certificate is in your list of trusted certificates.	Šis sertifikatas yra patikimų sertifikatų sąraše.
 	This certificate is not trusted. Signatures made with it show an unknown identity.	Šis sertifikatas nepatikimas. Juo pasirašius rodoma nežinoma tapatybė.
 	This certificate is trusted through a certificate above it in the chain.	Šis sertifikatas patikimas dėl aukštesnio sertifikatų grandinės sertifikato.
@@ -3743,7 +3752,7 @@ calendar weekday	Th	Kt
 	Timed responses	Atsakymai per ribotą laiką
 	Timestamp	Laiko žyma
 	Timestamp server	Laiko žymų serveris
-	Timestamps and revocation information need the desktop app. Turn them off in Preferences ▸ Signatures to sign here.	Laiko žymoms ir atšaukimo informacijai reikia darbalaukio programos. Norėdami pasirašyti čia, išjunkite jas skiltyje Nuostatos ▸ Parašai.
+	Timestamps and revocation information need the desktop app. Turn them off in Preferences ▸ Signatures to sign here.	Laiko žymoms ir atšaukimo informacijai reikia darbalaukio programos. Norėdami pasirašyti čia, išjunkite jas skiltyje Nuostatos > Parašai.
 	to	iki
 	To change locked fields, also set Locked to No.	Norėdami keisti užrakintus laukus, nustatykite „Užrakinta“ į „Ne“.
 	To print this large file, load all of it first with Load to edit.	To print this large file, load all of it first with Load to edit.

@@ -75,6 +75,7 @@
 	A local model is not a frontier cloud model: it can be wrong, and a long answer takes its time on CPU. Check anything critical, and mind a model's size against this machine before downloading it.	Un modèle local n'est pas un modèle de pointe du cloud : il peut se tromper, et une longue réponse prend son temps sur le processeur. Vérifiez tout ce qui est critique, et pesez la taille du modèle face à cette machine avant de le télécharger.
 	A logo or name at the left of the tabs, where a title bar would show one: PdfCraft's own, or your company's.	Un logo ou un nom à gauche des onglets, là où une barre de titre l'afficherait : celui de PdfCraft ou celui de votre entreprise.
 	A page count stops the feeder after that many sheets. Cancel ends the transfer early; pages already received stay in the document.	Un nombre de pages arrête le chargeur après autant de feuilles. Annuler interrompt le transfert plus tôt ; les pages déjà reçues restent dans le document.
+	A password-protected file is only checked to reopen when saved; its bytes are not searched again for the removed text.	À l'enregistrement, un fichier protégé par mot de passe est seulement vérifié à la réouverture ; ses octets ne sont pas à nouveau parcourus à la recherche du texte supprimé.
 	A picture covers page {pages} (a scan?), so the background won't show there.	Une image couvre la page {pages} (une numérisation ?), l'arrière-plan n'y sera donc pas visible.
 	A placed signature is a comment until it is locked: anyone with a PDF editor can move or remove it. Locking makes your Fill & Sign text, marks and signatures part of the page.	Une signature placée reste un commentaire tant qu’elle n’est pas intégrée : n’importe qui avec un éditeur PDF peut la déplacer ou la supprimer. L’intégration rend le texte, les marques et les signatures de Remplir et signer partie de la page.
 	A PNG or SVG file. It is read from this place each time PdfCraft starts.	Un fichier PNG ou SVG. Il est lu à cet emplacement à chaque démarrage de PdfCraft.
@@ -309,6 +310,7 @@
 	Apply redactions…	Appliquer les biffures…
 	Apply scale	Appliquer l'échelle
 	Applying a scale switches units to m / mm.	Appliquer une échelle passe les unités en m / mm.
+	Applying also sanitizes the document: bookmarks, named destinations, attachments, document information, metadata and XFA form data are deleted, and hidden layers are locked hidden for good.	L'application assainit aussi le document : les signets, les destinations nommées, les pièces jointes, les informations du document, les métadonnées et les données de formulaire XFA sont supprimés, et les calques masqués sont verrouillés pour ne plus jamais apparaître.
 	Appropriate nesting	Imbrication appropriée
 	April	avril
 calendar date	April	avril
@@ -531,6 +533,8 @@ certificate	Basic constraints	Contraintes de base
 	CheckBox	Case à cocher
 	Checkbox	Case à cocher
 	Checked	Coché
+	Checked when applied: 1 region found clear of the removed text. Text that exists only as pixels of an image is not searched.	Vérifié à l'application : 1 zone sans trace du texte retiré. Le texte qui n'existe que sous forme de pixels d'une image n'est pas recherché.
+	Checked when applied: {n} regions found clear of the removed text. Text that exists only as pixels of an image is not searched.	Vérifié à l'application : {n} zones sans trace du texte retiré. Le texte qui n'existe que sous forme de pixels d'une image n'est pas recherché.
 	Checked {objects} objects against the Arlington PDF Model for PDF {version}.	{objects} objets vérifiés par rapport à l'Arlington PDF Model pour PDF {version}.
 	Checking form detection…	Vérification de la détection des formulaires…
 	Checking Hungarian OCR installation…	Vérification de l’installation de l’OCR hongrois…
@@ -647,6 +651,7 @@ certificate	Basic constraints	Contraintes de base
 	Combo	Liste déroulante
 	Coming in milestone	Arrivera dans le jalon
 	Coming in milestone {m}. Items marked Ready work today.	Arrivera dans le jalon {m}. Les éléments marqués Prêt fonctionnent déjà.
+	Coming soon	Bientôt
 	Comment and form data	Données de commentaires et de formulaires
 	Comment and review	Commenter et réviser
 	Comment list	Liste des commentaires
@@ -1478,6 +1483,7 @@ key	Home	Début
 	Hungarian OCR requires the desktop app with Tesseract 5 and the hun language model. Restart PdfCraft after installation.	L’OCR hongrois nécessite l’application de bureau avec Tesseract 5 et le modèle linguistique hun. Redémarrez PdfCraft après l’installation.
 	H{n} follows an H{d}; headings should not skip levels	H{n} suit H{d} ; les niveaux de titre ne doivent pas être sautés
 	I confirm sending this document to this printer	Je confirme l'envoi de ce document à cette imprimante
+	I understand that the redacted content is removed for good	Je comprends que le contenu biffé est définitivement supprimé
 	ICC profile: {name}	Profil ICC : {name}
 	Identity	Identité
 	Image (PNG)	Image (PNG)
@@ -1585,6 +1591,7 @@ calendar date	January	janvier
 	JavaScript Console	Console JavaScript
 	JavaScript console…	Console JavaScript…
 	JavaScript is turned off (Preferences ▸ JavaScript).	JavaScript est désactivé (Préférences > JavaScript).
+	JavaScript is turned off (Preferences → JavaScript).	JavaScript est désactivé (Préférences > JavaScript).
 	JavaScript is turned off by your administrator.	JavaScript a été désactivé par votre administrateur.
 	JavaScript, e.g. getField("total").value	JavaScript, p. ex. getField("total").value
 	JBIG2 (lossless)	JBIG2 (sans perte)
@@ -2746,6 +2753,7 @@ calendar weekday	Sa	Sa
 	Save the accessibility report	Enregistrer le rapport d'accessibilité
 	Save the document afterwards: saving rewrites the whole file so no trace of the removed content stays in it.	Enregistrez ensuite le document : l'enregistrement réécrit tout le fichier afin qu'il ne reste aucune trace du contenu retiré.
 	Save the document afterwards; saving rewrites the whole file so nothing removed stays in it.	Enregistrez ensuite le document ; l'enregistrement réécrit tout le fichier afin que rien de retiré n'y reste.
+	Save the result under a new name: saving rewrites the whole file so no trace of the removed content stays in it, and the original file stays as it is.	Enregistrez le résultat sous un nouveau nom : l'enregistrement réécrit tout le fichier afin qu'il ne reste aucune trace du contenu retiré, et le fichier d'origine reste inchangé.
 	Save the spreadsheet	Enregistrer la feuille de calcul
 	Save these pages as one PDF	Enregistrer ces pages dans un seul PDF
 	Save this document to a folder first	Enregistrez d'abord ce document dans un dossier
@@ -3515,6 +3523,7 @@ calendar weekday	Th	Je
 	Thin	Fin
 	Thinking… {s}s	Réflexion… {s} s
 	This area has too many overlapping paths; intersection snapping is limited.	Cette zone a trop de tracés qui se chevauchent ; l'accrochage aux intersections est limité.
+	This cannot be undone: applying redactions clears the undo history.	Cette action est irréversible : l'application des biffures efface l'historique d'annulation.
 	This certificate is in your list of trusted certificates.	Ce certificat figure dans votre liste de certificats approuvés.
 	This certificate is not trusted. Signatures made with it show an unknown identity.	Ce certificat n'est pas approuvé. Les signatures faites avec lui indiquent une identité inconnue.
 	This certificate is trusted through a certificate above it in the chain.	Ce certificat est approuvé par un certificat qui le précède dans la chaîne.
@@ -3616,7 +3625,7 @@ calendar weekday	Th	Je
 	Timed responses	Réponses minutées
 	Timestamp	Horodatage
 	Timestamp server	Serveur d'horodatage
-	Timestamps and revocation information need the desktop app. Turn them off in Preferences ▸ Signatures to sign here.	L'horodatage et les informations de révocation nécessitent l'application de bureau. Désactivez-les dans Préférences ▸ Signatures pour signer ici.
+	Timestamps and revocation information need the desktop app. Turn them off in Preferences ▸ Signatures to sign here.	L'horodatage et les informations de révocation nécessitent l'application de bureau. Désactivez-les dans Préférences > Signatures pour signer ici.
 	to	à
 	To change locked fields, also set Locked to No.	Pour modifier les champs verrouillés, réglez aussi « Verrouillé » sur « Non ».
 	To print this large file, load all of it first with Load to edit.	To print this large file, load all of it first with Load to edit.

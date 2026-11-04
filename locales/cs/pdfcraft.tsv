@@ -94,6 +94,7 @@
 	A logo or name at the left of the tabs, where a title bar would show one: PdfCraft's own, or your company's.	Logo nebo název vlevo od karet, kde by je zobrazil záhlaví okna: vlastní PdfCraft, nebo vaší firmy.
 	A mesh shading's colours change too sharply between its corners to convert to CMYK exactly	Barvy síťového stínování se mezi rohy mění příliš prudce na přesný převod do CMYK
 	A page count stops the feeder after that many sheets. Cancel ends the transfer early; pages already received stay in the document.	Počet stránek zastaví podavač po tolika listech. Storno ukončí přenos dříve; už přijaté stránky zůstanou v dokumentu.
+	A password-protected file is only checked to reopen when saved; its bytes are not searched again for the removed text.	U souboru chráněného heslem se při uložení ověří jen to, že jde znovu otevřít; jeho bajty se znovu neprohledávají na odstraněný text.
 	A pattern over RGB or device-independent colour can't be converted to CMYK yet	Vzorek přes barvu RGB nebo nezávislou na zařízení zatím nelze převést do CMYK
 	A picture covers page {pages} (a scan?), so the background won't show there.	Stránku {pages} pokrývá obrázek (sken?), takže pozadí na ní nebude vidět.
 	A picture with a colour-key mask can't be converted to CMYK yet	Obrázek s maskou barevného klíče zatím nelze převést do CMYK
@@ -348,6 +349,7 @@ theme	Appearance	Vzhled
 	Apply redactions…	Provést začernění…
 	Apply scale	Použít měřítko
 	Applying a scale switches units to m / mm.	Použití měřítka přepne jednotky na m / mm.
+	Applying also sanitizes the document: bookmarks, named destinations, attachments, document information, metadata and XFA form data are deleted, and hidden layers are locked hidden for good.	Použití také vyčistí dokument: záložky, pojmenované cíle, přílohy, informace o dokumentu, metadata a data formulářů XFA se odstraní a skryté vrstvy zůstanou trvale skryté.
 	Appropriate nesting	Správné vnoření
 	April	Duben
 calendar date	April	dubna
@@ -566,6 +568,8 @@ certificate	Basic constraints	Základní omezení
 	CheckBox	Zaškrtávací políčko
 	Checkbox	Zaškrtávací políčko
 	Checked	Zaškrtnuto
+	Checked when applied: 1 region found clear of the removed text. Text that exists only as pixels of an image is not searched.	Kontrola při použití: 1 oblast neobsahuje odstraněný text. Text existující pouze jako pixely obrázku se neprohledává.
+	Checked when applied: {n} regions found clear of the removed text. Text that exists only as pixels of an image is not searched.	Kontrola při použití: {n} oblastí neobsahuje odstraněný text. Text existující pouze jako pixely obrázku se neprohledává.
 	Checked {objects} objects against the Arlington PDF Model for PDF {version}.	Zkontrolováno {objects} objektů podle modelu Arlington PDF Model pro PDF {version}.
 	Checking form detection…	Kontrola rozpoznávání formulářů…
 	Checking Hungarian OCR installation…	Kontrola instalace maďarského OCR…
@@ -682,6 +686,7 @@ certificate	Basic constraints	Základní omezení
 	Combo	Kombinované pole
 	Coming in milestone	Přijde v milníku
 	Coming in milestone {m}. Items marked Ready work today.	Přijde v milníku {m}. Položky označené Připraveno fungují už dnes.
+	Coming soon	Již brzy
 	Comment and form data	Data komentářů a formulářů
 	Comment and review	Komentovat a revidovat
 	Comment list	Seznam komentářů
@@ -1549,6 +1554,7 @@ key	Home	Home
 	Hungarian OCR requires the desktop app with Tesseract 5 and the hun language model. Restart PdfCraft after installation.	Maďarské OCR vyžaduje desktopovou aplikaci s Tesseract 5 a jazykovým modelem hun. Po instalaci restartujte PdfCraft.
 	H{n} follows an H{d}; headings should not skip levels	H{n} následuje po H{d}; nadpisy by neměly přeskakovat úrovně
 	I confirm sending this document to this printer	Potvrzuji odeslání tohoto dokumentu na tuto tiskárnu
+	I understand that the redacted content is removed for good	Rozumím, že redigovaný obsah bude trvale odstraněn
 	ICC profile: {name}	Profil ICC: {name}
 	Identity	Identita
 	Image	Obrázek
@@ -1665,6 +1671,7 @@ calendar date	January	ledna
 	JavaScript Console	Konzole JavaScriptu
 	JavaScript console…	Konzole JavaScriptu…
 	JavaScript is turned off (Preferences ▸ JavaScript).	JavaScript je vypnutý („Předvolby > JavaScript“).
+	JavaScript is turned off (Preferences → JavaScript).	JavaScript je vypnutý („Předvolby > JavaScript“).
 	JavaScript is turned off by your administrator.	JavaScript vypnul váš správce.
 	JavaScript, e.g. getField("total").value	JavaScript, např. getField("total").value
 	JBIG2 (lossless)	JBIG2 (bezeztrátová)
@@ -2824,6 +2831,7 @@ calendar weekday	Sa	So
 	Save the accessibility report	Uložit zprávu o přístupnosti
 	Save the document afterwards: saving rewrites the whole file so no trace of the removed content stays in it.	Dokument poté uložte: uložení přepíše celý soubor, takže v něm nezůstane žádná stopa po odstraněném obsahu.
 	Save the document afterwards; saving rewrites the whole file so nothing removed stays in it.	Dokument poté uložte; uložení přepíše celý soubor, takže v něm nic odebraného nezůstane.
+	Save the result under a new name: saving rewrites the whole file so no trace of the removed content stays in it, and the original file stays as it is.	Uložte výsledek pod novým názvem: uložení přepíše celý soubor, takže v něm nezůstane žádná stopa po odstraněném obsahu, a původní soubor zůstane beze změny.
 	Save the spreadsheet	Uložit tabulku
 	Save these pages as one PDF	Uložit tyto stránky jako jedno PDF
 	Save this document to a folder first	Nejprve tento dokument uložte do složky
@@ -3655,6 +3663,7 @@ calendar weekday	Th	Čt
 	Thinking… {s}s	Přemýšlí… {s} s
 	Thinnest line	Nejtenčí čára
 	This area has too many overlapping paths; intersection snapping is limited.	Tato oblast má příliš mnoho překrývajících se cest; přichytávání k průsečíkům je omezené.
+	This cannot be undone: applying redactions clears the undo history.	Tuto akci nelze vrátit: použití redakce vymaže historii vracení změn.
 	This certificate is in your list of trusted certificates.	Tento certifikát je ve vašem seznamu důvěryhodných certifikátů.
 	This certificate is not trusted. Signatures made with it show an unknown identity.	Tento certifikát není důvěryhodný. Podpisy vytvořené tímto certifikátem mají neznámou identitu.
 	This certificate is trusted through a certificate above it in the chain.	Tento certifikát je důvěryhodný díky certifikátu nad ním v řetězci.
@@ -3756,7 +3765,7 @@ calendar weekday	Th	Čt
 	Timed responses	Časově omezené odpovědi
 	Timestamp	Časové razítko
 	Timestamp server	Server časových razítek
-	Timestamps and revocation information need the desktop app. Turn them off in Preferences ▸ Signatures to sign here.	Časová razítka a informace o odvolání vyžadují desktopovou aplikaci. Chcete-li podepsat zde, vypněte je v Předvolby ▸ Podpisy.
+	Timestamps and revocation information need the desktop app. Turn them off in Preferences ▸ Signatures to sign here.	Časová razítka a informace o odvolání vyžadují desktopovou aplikaci. Chcete-li podepsat zde, vypněte je v Předvolby > Podpisy.
 	to	až
 	To change locked fields, also set Locked to No.	Chcete-li změnit zamčená pole, nastavte také „Zamčeno“ na „Ne“.
 	To print this large file, load all of it first with Load to edit.	To print this large file, load all of it first with Load to edit.

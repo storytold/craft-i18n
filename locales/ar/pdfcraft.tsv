@@ -71,6 +71,7 @@
 	A local model is not a frontier cloud model: it can be wrong, and a long answer takes its time on CPU. Check anything critical, and mind a model's size against this machine before downloading it.	النموذج المحلي ليس نموذجًا سحابيًا ضخمًا: قد يخطئ، والإجابة الطويلة تأخذ وقتها على المعالج. تحقّق من كل أمر حرج، وانتبه لحجم النموذج مقابل هذا الجهاز قبل تنزيله.
 	A logo or name at the left of the tabs, where a title bar would show one: PdfCraft's own, or your company's.	شعار أو اسم على يسار علامات التبويب، حيث يُعرض عادةً في شريط العنوان: شعار PdfCraft أو شعار شركتك.
 	A page count stops the feeder after that many sheets. Cancel ends the transfer early; pages already received stay in the document.	عدد الصفحات يوقف المغذي بعد هذا العدد من الأوراق. الإلغاء ينهي النقل مبكراً؛ الصفحات المستلمة تبقى في المستند.
+	A password-protected file is only checked to reopen when saved; its bytes are not searched again for the removed text.	عند حفظ ملف محمي بكلمة مرور، يُتحقق فقط من إمكانية إعادة فتحه؛ ولا يُبحث في بايتاته مجددًا عن النص المُزال.
 	A picture covers page {pages} (a scan?), so the background won't show there.	تغطي صورة الصفحة {pages} (مسح ضوئي؟)، لذا لن تظهر الخلفية فيها.
 	A placed signature is a comment until it is locked: anyone with a PDF editor can move or remove it. Locking makes your Fill & Sign text, marks and signatures part of the page.	التوقيع الموضوع تعليق إلى أن يُثبَّت: يستطيع أي شخص لديه محرر PDF نقله أو إزالته. التثبيت يجعل نصوص التعبئة والتوقيع وعلاماتها وتواقيعها جزءًا من الصفحة.
 	A PNG or SVG file. It is read from this place each time PdfCraft starts.	ملف PNG أو SVG. يُقرأ من هذا المكان في كل مرة يبدأ فيها PdfCraft.
@@ -298,6 +299,7 @@
 	Apply redactions…	تطبيق الحجب…
 	Apply scale	تطبيق المقياس
 	Applying a scale switches units to m / mm.	يؤدي تطبيق المقياس إلى تحويل الوحدات إلى م / مم.
+	Applying also sanitizes the document: bookmarks, named destinations, attachments, document information, metadata and XFA form data are deleted, and hidden layers are locked hidden for good.	ينطوي التطبيق أيضًا على التنظيف: تُحذف العلامات المرجعية والوجهات المسماة والمرفقات ومعلومات المستند والبيانات الوصفية وبيانات نماذج XFA، وتُقفل الطبقات المخفية مخفيةً نهائيًا.
 	Appropriate nesting	تداخل مناسب
 	April	أبريل
 calendar date	April	أبريل
@@ -513,6 +515,8 @@ certificate	Basic constraints	القيود الأساسية
 	CheckBox	خانة اختيار
 	Checkbox	خانة اختيار
 	Checked	محدد
+	Checked when applied: 1 region found clear of the removed text. Text that exists only as pixels of an image is not searched.	تم التحقق عند التطبيق: عُثر على منطقة واحدة خالية من النص المحذوف. النص الموجود فقط كبكسلات صورة لا يُبحث فيه.
+	Checked when applied: {n} regions found clear of the removed text. Text that exists only as pixels of an image is not searched.	تم التحقق عند التطبيق: عُثر على {n} مناطق خالية من النص المحذوف. النص الموجود فقط كبكسلات صورة لا يُبحث فيه.
 	Checked {objects} objects against the Arlington PDF Model for PDF {version}.	تم فحص {objects} كائنًا وفق Arlington PDF Model لإصدار PDF {version}.
 	Checking form detection…	جارٍ التحقق من اكتشاف النماذج…
 	Checking Hungarian OCR installation…	جارٍ التحقق من تثبيت OCR للمجرية…
@@ -619,6 +623,7 @@ certificate	Basic constraints	القيود الأساسية
 	Combo	قائمة منسدلة
 	Coming in milestone	قادم في المرحلة
 	Coming in milestone {m}. Items marked Ready work today.	قادم في المرحلة {m}. العناصر الموسومة بـ«جاهز» تعمل اليوم.
+	Coming soon	قريبًا
 	Comment and form data	بيانات التعليقات والنماذج
 	Comment and review	التعليق والمراجعة
 	Comment list	قائمة التعليقات
@@ -1422,6 +1427,7 @@ key	Home	Home
 	Hungarian OCR requires the desktop app with Tesseract 5 and the hun language model. Restart PdfCraft after installation.	يتطلب OCR للمجرية تطبيق سطح المكتب مع Tesseract 5 ونموذج اللغة hun. أعد تشغيل PdfCraft بعد التثبيت.
 	H{n} follows an H{d}; headings should not skip levels	يتبع H{n} عنوان H{d}؛ لا ينبغي للعناوين تخطي المستويات
 	I confirm sending this document to this printer	أؤكد إرسال هذا المستند إلى هذه الطابعة
+	I understand that the redacted content is removed for good	أفهم أن المحتوى المحجوب يُزال نهائيًا
 	ICC profile: {name}	ملف تعريف ICC: {name}
 	Identity	الهوية
 	Image (PNG)	صورة (PNG)
@@ -1529,6 +1535,7 @@ calendar date	January	يناير
 	JavaScript Console	وحدة تحكم JavaScript
 	JavaScript console…	وحدة تحكم JavaScript…
 	JavaScript is turned off (Preferences ▸ JavaScript).	JavaScript متوقف (التفضيلات > JavaScript).
+	JavaScript is turned off (Preferences → JavaScript).	JavaScript متوقف (التفضيلات > JavaScript).
 	JavaScript is turned off by your administrator.	JavaScript متوقف من قِبل المسؤول.
 	JavaScript, e.g. getField("total").value	JavaScript، مثلًا getField("total").value
 	JBIG2 (lossless)	JBIG2 (بدون فقدان)
@@ -2641,6 +2648,7 @@ calendar weekday	Sa	سبت
 	Save the accessibility report	حفظ تقرير إمكانية الوصول
 	Save the document afterwards: saving rewrites the whole file so no trace of the removed content stays in it.	احفظ المستند بعد ذلك: الحفظ يعيد كتابة الملف كله كي لا يبقى فيه أثر للمحتوى المُزال.
 	Save the document afterwards; saving rewrites the whole file so nothing removed stays in it.	احفظ المستند بعد ذلك؛ الحفظ يعيد كتابة الملف كله كي لا يبقى فيه شيء مما أُزيل.
+	Save the result under a new name: saving rewrites the whole file so no trace of the removed content stays in it, and the original file stays as it is.	احفظ النتيجة باسم جديد: الحفظ يعيد كتابة الملف بالكامل فلا تبقى أي أثر للمحتوى المحذوف فيه، ويبقى الملف الأصلي كما هو.
 	Save the spreadsheet	حفظ جدول البيانات
 	Save these pages as one PDF	حفظ هذه الصفحات كملف PDF واحد
 	Save this document to a folder first	احفظ هذا المستند في مجلد أولًا
@@ -3377,6 +3385,7 @@ calendar weekday	Th	خميس
 	Thin	رفيع
 	Thinking… {s}s	يفكر… {s}ث
 	This area has too many overlapping paths; intersection snapping is limited.	هذه المنطقة فيها مسارات متداخلة كثيرة جدًا؛ الانجذاب إلى التقاطعات محدود.
+	This cannot be undone: applying redactions clears the undo history.	لا يمكن التراجع عن ذلك: تطبيق علامات الحجب يمحو سجل التراجع.
 	This certificate is in your list of trusted certificates.	هذه الشهادة موجودة في قائمة شهاداتك الموثوقة.
 	This certificate is not trusted. Signatures made with it show an unknown identity.	هذه الشهادة غير موثوقة. التوقيعات المنشأة بها تظهر بهوية غير معروفة.
 	This certificate is trusted through a certificate above it in the chain.	هذه الشهادة موثوقة عبر شهادة أعلى منها في السلسلة.
@@ -3477,7 +3486,7 @@ calendar weekday	Th	خميس
 	Timed responses	الاستجابات المؤقتة
 	Timestamp	ختم زمني
 	Timestamp server	خادم الختم الزمني
-	Timestamps and revocation information need the desktop app. Turn them off in Preferences ▸ Signatures to sign here.	تحتاج الأختام الزمنية ومعلومات الإلغاء إلى تطبيق سطح المكتب. أوقفها من التفضيلات ▸ التواقيع للتوقيع هنا.
+	Timestamps and revocation information need the desktop app. Turn them off in Preferences ▸ Signatures to sign here.	تحتاج الأختام الزمنية ومعلومات الإلغاء إلى تطبيق سطح المكتب. أوقفها من التفضيلات > التواقيع للتوقيع هنا.
 	to	إلى
 	To change locked fields, also set Locked to No.	لتغيير الحقول المقفلة، اضبط أيضًا «مقفل» على «لا».
 	To print this large file, load all of it first with Load to edit.	To print this large file, load all of it first with Load to edit.

@@ -69,6 +69,7 @@
 	A local model is not a frontier cloud model: it can be wrong, and a long answer takes its time on CPU. Check anything critical, and mind a model's size against this machine before downloading it.	Жергілікті модель — құздық моделі емес: ол қате жіберуі мүмкін, ал ұзақ жауап процессорда уақыт алады. Маңызды нәрсені тексеріңіз және модельді жүктеп алмас бұрын оның өлшемін осы машинаға салыстырыңыз.
 	A logo or name at the left of the tabs, where a title bar would show one: PdfCraft's own, or your company's.	Қойындылардың сол жағында, тақырып жолағы көрсететін жерде, логотип немесе атау: PdfCraft-тың өзінікі немесе компанияңыздікі.
 	A page count stops the feeder after that many sheets. Cancel ends the transfer early; pages already received stay in the document.	Бет саны сонша парақтан кейін бергішті тоқтатады. Бас тарту тасымалды ертерек аяқтайды; қабылданған беттер құжатта қалады.
+	A password-protected file is only checked to reopen when saved; its bytes are not searched again for the removed text.	Құпиясөзбен қорғалған файл сақталғанда тек қайта ашылатыны тексеріледі; оның байттарынан жойылған мәтін қайта ізделмейді.
 	A picture covers page {pages} (a scan?), so the background won't show there.	Сурет жауып тұрған бет (сканер ме?): {pages}; онда фон көрінбейді.
 	A placed signature is a comment until it is locked: anyone with a PDF editor can move or remove it. Locking makes your Fill & Sign text, marks and signatures part of the page.	Қойылған қолтаңба бекітілгенге дейін түсініктеме болып қалады: PDF өңдегіші бар кез келген адам оны жылжытып не жоя алады. Бекіту «Толтыру және қол қою» мәтінін, белгілерін және қолтаңбаларын беттің бөлігіне айналдырады.
 	A PNG or SVG file. It is read from this place each time PdfCraft starts.	PNG немесе SVG файлы. PdfCraft әр іске қосылғанда осы орыннан оқылады.
@@ -290,6 +291,7 @@
 	Apply redactions…	Жасыруларды қолдану…
 	Apply scale	Масштабты қолдану
 	Applying a scale switches units to m / mm.	Масштабты қолдану өлшем бірліктерін m / mm етіп ауыстырады.
+	Applying also sanitizes the document: bookmarks, named destinations, attachments, document information, metadata and XFA form data are deleted, and hidden layers are locked hidden for good.	Қолдану құжатты да тазартады: бетбелгілер, атаулы нысаналар, тіркемелер, құжат туралы ақпарат, метадеректер және XFA пішін деректері жойылады, ал жасырын қабаттар біржола жасырын қалады.
 	Appropriate nesting	Тиісті кірістірілу
 	April	Сәуір
 calendar date	April	Сәуір
@@ -498,6 +500,8 @@ calendar date	August	Тамыз
 	CheckBox	Құсбелгі
 	Checkbox	Құсбелгі
 	Checked	Белгіленген
+	Checked when applied: 1 region found clear of the removed text. Text that exists only as pixels of an image is not searched.	Қолдану кезінде тексерілді: 1 аймақта жойылған мәтін табылмады. Тек кескін пиксельдері түрінде бар мәтін ізделмейді.
+	Checked when applied: {n} regions found clear of the removed text. Text that exists only as pixels of an image is not searched.	Қолдану кезінде тексерілді: {n} аймақта жойылған мәтін табылмады. Тек кескін пиксельдері түрінде бар мәтін ізделмейді.
 	Checked {objects} objects against the Arlington PDF Model for PDF {version}.	PDF {version} үшін Arlington PDF Model бойынша {objects} нысан тексерілді.
 	Checking form detection…	Пішіндерді анықтау тексерілуде…
 	Checking Hungarian OCR installation…	Венгр тіліндегі OCR орнатылуын тексеру…
@@ -603,6 +607,7 @@ calendar date	August	Тамыз
 	Combo	Ашылатын тізім
 	Coming in milestone	Кезеңде пайда болады
 	Coming in milestone {m}. Items marked Ready work today.	{m} кезеңінде шығады. «Дайын» деп белгіленген элементтер қазір жұмыс істейді.
+	Coming soon	Жақында
 	Comment and form data	Түсініктеме және форма деректері
 	Comment list	Түсініктемелер тізімі
 	Commenting	Түсініктемелер қалдыру
@@ -1370,6 +1375,7 @@ key	Home	Home
 	HTML web page	HTML веб-беті
 	Hungarian OCR requires the desktop app with Tesseract 5 and the hun language model. Restart PdfCraft after installation.	Венгр тіліндегі OCR үшін Tesseract 5 және hun тілдік моделі бар жұмыс үстелі қолданбасы қажет. Орнатқаннан кейін PdfCraft қолданбасын қайта іске қосыңыз.
 	I confirm sending this document to this printer	Осы құжатты осы принтерге жіберетінімді растаймын
+	I understand that the redacted content is removed for good	Жасырылған мазмұнның біржола жойылатынын түсінемін
 	ICC profile: {name}	ICC профилі: {name}
 	Identity	Жеке деректер
 	Image (PNG)	Кескін (PNG)
@@ -1472,6 +1478,7 @@ calendar date	January	Қаңтар
 	JavaScript Console	JavaScript консолі
 	JavaScript console…	JavaScript консолі…
 	JavaScript is turned off (Preferences ▸ JavaScript).	JavaScript өшірулі (Параметрлер > JavaScript).
+	JavaScript is turned off (Preferences → JavaScript).	JavaScript өшірулі (Параметрлер > JavaScript).
 	JavaScript is turned off by your administrator.	JavaScript-ті әкімшіңіз өшірген.
 	JavaScript, e.g. getField("total").value	JavaScript, мысалы getField("total").value
 	JBIG2 (lossless)	JBIG2 (шығынсыз)
@@ -2532,6 +2539,7 @@ animation effects	On	Қосулы
 	Save the accessibility report	Қолжетімділік есебін сақтау
 	Save the document afterwards: saving rewrites the whole file so no trace of the removed content stays in it.	Содан кейін құжатты сақтаңыз: сақтау бүкіл файлды қайта жазады, сондықтан жойылған мазмұнның ізі онда қалмайды.
 	Save the document afterwards; saving rewrites the whole file so nothing removed stays in it.	Содан кейін құжатты сақтаңыз; сақтау бүкіл файлды қайта жазады, сондықтан жойылған ешнәрсе онда қалмайды.
+	Save the result under a new name: saving rewrites the whole file so no trace of the removed content stays in it, and the original file stays as it is.	Нәтижені жаңа атаумен сақтаңыз: сақтау бүкіл файлды қайта жазады, сондықтан жойылған мазмұнның ізі қалмайды, ал бастапқы файл өзгеріссіз қалады.
 	Save the spreadsheet	Электрондық кестені сақтау
 	Save these pages as one PDF	Бұл беттерді бір PDF ретінде сақтау
 	Save this document to a folder first	Алдымен бұл құжатты қалтаға сақтаңыз
@@ -3191,6 +3199,7 @@ certificate	Subject	Субъект
 	Thin	Жұқа
 	Thinking… {s}s	Ойлануда… {s}с
 	This area has too many overlapping paths; intersection snapping is limited.	Бұл аймақта бір-бірін жауып тұрған контурлар тым көп; қиылысқа түйістіру шектеулі.
+	This cannot be undone: applying redactions clears the undo history.	Бұл әрекетті қайтару мүмкін емес: жасыруды қолдану қайтару тарихын тазартады.
 	This certificate is in your list of trusted certificates.	Бұл сертификат сіздің сенімді сертификаттар тізіміңізде бар.
 	This certificate is not trusted. Signatures made with it show an unknown identity.	Бұл сертификат сенімді емес. Онымен жасалған қолтаңбалар белгісіз тұлғаны көрсетеді.
 	This certificate is trusted through a certificate above it in the chain.	Бұл сертификат тізбектегі жоғары тұрған сертификат арқылы сенімді саналады.
@@ -3285,7 +3294,7 @@ certificate	Subject	Субъект
 	Timed responses	Уақытпен шектеулі жауаптар
 	Timestamp	Уақыт белгісі
 	Timestamp server	Уақыт белгісі сервері
-	Timestamps and revocation information need the desktop app. Turn them off in Preferences ▸ Signatures to sign here.	Уақыт белгілері мен кері шақыру туралы мәліметке жұмыс үстелі қолданбасы қажет. Осы жерде қол қою үшін оларды Баптаулар ▸ Қолтаңбалар бөлімінде өшіріңіз.
+	Timestamps and revocation information need the desktop app. Turn them off in Preferences ▸ Signatures to sign here.	Уақыт белгілері мен кері шақыру туралы мәліметке жұмыс үстелі қолданбасы қажет. Осы жерде қол қою үшін оларды Баптаулар > Қолтаңбалар бөлімінде өшіріңіз.
 	to	дейін
 	To change locked fields, also set Locked to No.	Бұғатталған өрістерді өзгерту үшін сонымен қатар «Бұғаттау» параметрін «Жоқ» етіп қойыңыз.
 	To print this large file, load all of it first with Load to edit.	To print this large file, load all of it first with Load to edit.

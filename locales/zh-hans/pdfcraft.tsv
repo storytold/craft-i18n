@@ -71,6 +71,7 @@
 	A local model is not a frontier cloud model: it can be wrong, and a long answer takes its time on CPU. Check anything critical, and mind a model's size against this machine before downloading it.	本地模型不是最先进的云端模型：它可能出错，较长的回答在处理器上需要时间。重要事项请务必核实，下载前也请留意模型大小与这台机器是否匹配。
 	A logo or name at the left of the tabs, where a title bar would show one: PdfCraft's own, or your company's.	在标签左侧、标题栏通常显示的位置放一个徽标或名称：PdfCraft 自己的，或你公司的。
 	A page count stops the feeder after that many sheets. Cancel ends the transfer early; pages already received stay in the document.	指定页数会在扫完这些页后停止进纸器。取消会提前结束传输；已收到的页面仍保留在文档中。
+	A password-protected file is only checked to reopen when saved; its bytes are not searched again for the removed text.	受密码保护的文件在保存时只检查能否重新打开，不会再次在其字节中搜索已删除的文本。
 	A picture covers page {pages} (a scan?), so the background won't show there.	第 {pages} 页被一张图片覆盖（扫描件？），因此那里不会显示背景。
 	A placed signature is a comment until it is locked: anyone with a PDF editor can move or remove it. Locking makes your Fill & Sign text, marks and signatures part of the page.	放置的签名在锁定前只是注释：任何有 PDF 编辑器的人都能移动或删除它。锁定后，“填写和签名”的文字、标记和签名会成为页面的一部分。
 	A PNG or SVG file. It is read from this place each time PdfCraft starts.	一个 PNG 或 SVG 文件。每次 PdfCraft 启动时都从此位置读取。
@@ -295,6 +296,7 @@
 	Apply redactions…	应用密文…
 	Apply scale	应用比例
 	Applying a scale switches units to m / mm.	应用比例会将单位切换为 m / mm。
+	Applying also sanitizes the document: bookmarks, named destinations, attachments, document information, metadata and XFA form data are deleted, and hidden layers are locked hidden for good.	应用同时会清理文档：书签、命名目标、附件、文档信息、元数据和 XFA 表单数据将被删除，隐藏图层将被永久锁定隐藏。
 	Appropriate nesting	适当的嵌套
 	April	四月
 	Arbitrary Mask	任意掩码
@@ -507,6 +509,8 @@
 	CheckBox	复选框
 	Checkbox	复选框
 	Checked	已勾选
+	Checked when applied: 1 region found clear of the removed text. Text that exists only as pixels of an image is not searched.	应用时已检查：1 个区域中未发现已删除的文本。仅以图像像素形式存在的文本不会被搜索。
+	Checked when applied: {n} regions found clear of the removed text. Text that exists only as pixels of an image is not searched.	应用时已检查：{n} 个区域中未发现已删除的文本。仅以图像像素形式存在的文本不会被搜索。
 	Checked {objects} objects against the Arlington PDF Model for PDF {version}.	已按 PDF {version} 的 Arlington PDF Model 检查了 {objects} 个对象。
 	Checking form detection…	正在检查表单检测…
 	Checking Hungarian OCR installation…	正在检查匈牙利语 OCR 的安装…
@@ -629,6 +633,7 @@
 	Combo	下拉列表
 	Coming in milestone	计划推出的里程碑
 	Coming in milestone {m}. Items marked Ready work today.	{m} 里程碑推出。标记为就绪的项目现已可用。
+	Coming soon	即将推出
 	Comment	Comment
 	Comment and form data	注释和表单数据
 	Comment list	注释列表
@@ -1430,6 +1435,7 @@ key	Home	Home
 	HTML web page	HTML 网页
 	Hungarian OCR requires the desktop app with Tesseract 5 and the hun language model. Restart PdfCraft after installation.	匈牙利语 OCR 需要桌面应用、Tesseract 5 和 hun 语言模型。安装后请重启 PdfCraft。
 	I confirm sending this document to this printer	我确认将此文档发送到这台打印机
+	I understand that the redacted content is removed for good	我了解被密文标记的内容将被永久删除
 	ICC profile: {name}	ICC 配置文件：{name}
 	Identity	身份
 	Image (PNG)	图像 (PNG)
@@ -1530,6 +1536,7 @@ key	Home	Home
 	JavaScript Console	JavaScript 控制台
 	JavaScript console…	JavaScript 控制台…
 	JavaScript is turned off (Preferences ▸ JavaScript).	JavaScript 已关闭（首选项 → JavaScript）。
+	JavaScript is turned off (Preferences → JavaScript).	JavaScript 已关闭（首选项 → JavaScript）。
 	JavaScript is turned off by your administrator.	JavaScript 已被管理员关闭。
 	JavaScript, e.g. getField("total").value	JavaScript，例如 getField("total").value
 	JBIG2 (lossless)	JBIG2（无损）
@@ -2633,6 +2640,7 @@ animation effects	On	开
 	Save the accessibility report	保存无障碍报告
 	Save the document afterwards: saving rewrites the whole file so no trace of the removed content stays in it.	之后请保存文档：保存将重写整个文件，使删除的内容不留痕迹。
 	Save the document afterwards; saving rewrites the whole file so nothing removed stays in it.	之后请保存文档；保存将重写整个文件，使删除的内容不残留。
+	Save the result under a new name: saving rewrites the whole file so no trace of the removed content stays in it, and the original file stays as it is.	请将结果另存为新名称：保存将重写整个文件，使删除的内容不留痕迹，原文件保持不变。
 	Save the spreadsheet	保存电子表格
 	Save these pages as one PDF	将这些页面保存为一个 PDF
 	Save this document to a folder first	请先将此文档保存到文件夹
@@ -3312,6 +3320,7 @@ document scrollbar width	Standard	标准
 	Thin	细
 	Thinking… {s}s	思考中… {s} 秒
 	This area has too many overlapping paths; intersection snapping is limited.	此区域有太多重叠路径；交点吸附受到限制。
+	This cannot be undone: applying redactions clears the undo history.	此操作无法撤销：应用密文标记会清除撤销历史。
 	This certificate is in your list of trusted certificates.	此证书位于受信任证书列表中。
 	This certificate is not trusted. Signatures made with it show an unknown identity.	此证书不受信任。使用它制作的签名显示未知身份。
 	This certificate is trusted through a certificate above it in the chain.	此证书通过链中上方的证书受到信任。
@@ -3409,7 +3418,7 @@ document scrollbar width	Standard	标准
 	Timed responses	限时响应
 	Timestamp	时间戳
 	Timestamp server	时间戳服务器
-	Timestamps and revocation information need the desktop app. Turn them off in Preferences ▸ Signatures to sign here.	时间戳和吊销信息需要桌面应用。要在此处签名，请在 首选项 ▸ 签名 中将其关闭。
+	Timestamps and revocation information need the desktop app. Turn them off in Preferences ▸ Signatures to sign here.	时间戳和吊销信息需要桌面应用。要在此处签名，请在 首选项 → 签名 中将其关闭。
 	to	到
 	To change locked fields, also set Locked to No.	要更改锁定的字段，还需将“锁定”设为“否”。
 	To print this large file, load all of it first with Load to edit.	To print this large file, load all of it first with Load to edit.

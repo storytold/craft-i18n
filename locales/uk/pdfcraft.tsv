@@ -70,6 +70,7 @@
 	A local model is not a frontier cloud model: it can be wrong, and a long answer takes its time on CPU. Check anything critical, and mind a model's size against this machine before downloading it.	Локальна модель — не передова хмарна: вона може помилятися, і довга відповідь на процесорі займає час. Перевіряйте все важливе й співвідносьте розмір моделі з цією машиною до завантаження.
 	A logo or name at the left of the tabs, where a title bar would show one: PdfCraft's own, or your company's.	Логотип або назва ліворуч від вкладок, там, де їх показав би рядок заголовка: PdfCraft або вашої компанії.
 	A page count stops the feeder after that many sheets. Cancel ends the transfer early; pages already received stay in the document.	Кількість сторінок зупиняє подавач після стількох аркушів. Скасування раніше завершує передачу; уже отримані сторінки лишаються в документі.
+	A password-protected file is only checked to reopen when saved; its bytes are not searched again for the removed text.	Для файлу, захищеного паролем, під час збереження перевіряється лише те, що він знову відкривається; його байти не перевіряються повторно на наявність вилученого тексту.
 	A picture covers page {pages} (a scan?), so the background won't show there.	Сторінка, закрита зображенням (скан?): {pages}; тло там не буде видно.
 	A placed signature is a comment until it is locked: anyone with a PDF editor can move or remove it. Locking makes your Fill & Sign text, marks and signatures part of the page.	Розміщений підпис є коментарем, доки його не закріплено: будь-хто з редактором PDF може його перемістити або видалити. Закріплення робить текст, позначки й підписи з «Заповнити й підписати» частиною сторінки.
 	A PNG or SVG file. It is read from this place each time PdfCraft starts.	Файл PNG або SVG. Читається з цього місця під час кожного запуску PdfCraft.
@@ -293,6 +294,7 @@
 	Apply redactions…	Застосувати вилучення вмісту…
 	Apply scale	Застосувати масштаб
 	Applying a scale switches units to m / mm.	Застосування масштабу перемикає одиниці на м / мм.
+	Applying also sanitizes the document: bookmarks, named destinations, attachments, document information, metadata and XFA form data are deleted, and hidden layers are locked hidden for good.	Застосування також виконує очищення: закладки, іменовані цілі, вкладення, відомості про документ, метадані та дані XFA-форм видаляються, а приховані шари назавжди блокуються прихованими.
 	Appropriate nesting	Належна вкладеність
 	April	Квітень
 calendar date	April	квітня
@@ -503,6 +505,8 @@ calendar date	August	серпня
 	CheckBox	Прапорець
 	Checkbox	Прапорець
 	Checked	Із позначкою
+	Checked when applied: 1 region found clear of the removed text. Text that exists only as pixels of an image is not searched.	Перевірено під час застосування: 1 область знайдено без вилученого тексту. Текст, що існує лише як пікселі зображення, не шукається.
+	Checked when applied: {n} regions found clear of the removed text. Text that exists only as pixels of an image is not searched.	Перевірено під час застосування: {n} областей знайдено без вилученого тексту. Текст, що існує лише як пікселі зображення, не шукається.
 	Checked {objects} objects against the Arlington PDF Model for PDF {version}.	Перевірено об’єктів: {objects} за моделлю Arlington PDF Model для PDF {version}.
 	Checking form detection…	Перевірка виявлення форм…
 	Checking Hungarian OCR installation…	Перевірка встановлення угорського OCR…
@@ -608,6 +612,7 @@ calendar date	August	серпня
 	Combo	Розкривний список
 	Coming in milestone	З’явиться на етапі
 	Coming in milestone {m}. Items marked Ready work today.	З’явиться на етапі {m}. Елементи з позначкою «Готово» вже працюють.
+	Coming soon	Незабаром
 	Comment	Comment
 	Comment and form data	Дані коментарів і форми
 	Comment list	Список коментарів
@@ -1385,6 +1390,7 @@ key	Home	Home
 	HTML web page	Вебсторінка HTML
 	Hungarian OCR requires the desktop app with Tesseract 5 and the hun language model. Restart PdfCraft after installation.	Для угорського OCR потрібна настільна програма з Tesseract 5 і мовною моделлю hun. Після встановлення перезапустіть PdfCraft.
 	I confirm sending this document to this printer	Підтверджую надсилання цього документа на цей принтер
+	I understand that the redacted content is removed for good	Розумію, що вилучений вміст видаляється назавжди
 	ICC profile: {name}	Профіль ICC: {name}
 	Identity	Особисті дані
 	Image (PNG)	Зображення (PNG)
@@ -1486,6 +1492,7 @@ calendar date	January	січня
 	JavaScript Console	Консоль JavaScript
 	JavaScript console…	Консоль JavaScript…
 	JavaScript is turned off (Preferences ▸ JavaScript).	JavaScript вимкнено («Налаштування > JavaScript»).
+	JavaScript is turned off (Preferences → JavaScript).	JavaScript вимкнено («Налаштування > JavaScript»).
 	JavaScript is turned off by your administrator.	JavaScript вимкнено вашим адміністратором.
 	JavaScript, e.g. getField("total").value	JavaScript, наприклад getField("total").value
 	JBIG2 (lossless)	JBIG2 (без втрат)
@@ -2556,6 +2563,7 @@ animation effects	On	Увімкнено
 	Save the accessibility report	Зберегти звіт про доступність
 	Save the document afterwards: saving rewrites the whole file so no trace of the removed content stays in it.	Після цього збережіть документ: збереження перезаписує весь файл, щоб у ньому не залишилося слідів вилученого вмісту.
 	Save the document afterwards; saving rewrites the whole file so nothing removed stays in it.	Після цього збережіть документ; збереження перезаписує весь файл, щоб у ньому не залишилося видалених даних.
+	Save the result under a new name: saving rewrites the whole file so no trace of the removed content stays in it, and the original file stays as it is.	Збережіть результат під новим ім'ям: збереження перезаписує весь файл, тож жодного сліду вилученого вмісту в ньому не залишається, а початковий файл залишається недоторканним.
 	Save the spreadsheet	Зберегти електронну таблицю
 	Save these pages as one PDF	Зберегти ці сторінки як один PDF
 	Save this document to a folder first	Спочатку збережіть цей документ у папку
@@ -3226,6 +3234,7 @@ certificate	Subject	Власник сертифіката
 	Thin	Тонка
 	Thinking… {s}s	Думає… {s} с
 	This area has too many overlapping paths; intersection snapping is limited.	Ця область має забагато контурів, що перекриваються; прив’язування до перетинів обмежено.
+	This cannot be undone: applying redactions clears the undo history.	Цього не можна скасувати: застосування позначок вилучення очищає історію скасувань.
 	This certificate is in your list of trusted certificates.	Цей сертифікат є у вашому списку довірених сертифікатів.
 	This certificate is not trusted. Signatures made with it show an unknown identity.	Цей сертифікат не є довіреним. Підписи, створені ним, мають невідому особу підписувача.
 	This certificate is trusted through a certificate above it in the chain.	Цей сертифікат є довіреним завдяки сертифікату вище в ланцюжку.
@@ -3320,7 +3329,7 @@ certificate	Subject	Власник сертифіката
 	Timed responses	Відповіді з обмеженням часу
 	Timestamp	Позначка часу
 	Timestamp server	Сервер позначок часу
-	Timestamps and revocation information need the desktop app. Turn them off in Preferences ▸ Signatures to sign here.	Для позначок часу й відомостей про відкликання потрібен настільний застосунок. Вимкніть їх у Налаштування ▸ Підписи, щоб підписати тут.
+	Timestamps and revocation information need the desktop app. Turn them off in Preferences ▸ Signatures to sign here.	Для позначок часу й відомостей про відкликання потрібен настільний застосунок. Вимкніть їх у Налаштування > Підписи, щоб підписати тут.
 	to	до
 	To change locked fields, also set Locked to No.	Щоб змінити заблоковані поля, також установіть «Заблоковано» в «Ні».
 	To print this large file, load all of it first with Load to edit.	To print this large file, load all of it first with Load to edit.

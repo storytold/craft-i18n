@@ -71,6 +71,7 @@
 	A local model is not a frontier cloud model: it can be wrong, and a long answer takes its time on CPU. Check anything critical, and mind a model's size against this machine before downloading it.	Lokalny model to nie czołowy model z chmury: może się mylić, a długa odpowiedź na procesorze zajmuje chwilkę. Sprawdzaj wszystko krytyczne i przed pobraniem porównaj rozmiar modelu z tym komputerem.
 	A logo or name at the left of the tabs, where a title bar would show one: PdfCraft's own, or your company's.	Logo lub nazwa po lewej stronie kart, tam gdzie pokazałby je pasek tytułu: PdfCraft albo Twojej firmy.
 	A page count stops the feeder after that many sheets. Cancel ends the transfer early; pages already received stay in the document.	Liczba stron zatrzymuje podajnik po tylu arkuszach. Anulowanie kończy transfer wcześniej; już odebrane strony pozostają w dokumencie.
+	A password-protected file is only checked to reopen when saved; its bytes are not searched again for the removed text.	Plik chroniony hasłem jest przy zapisie sprawdzany tylko pod kątem ponownego otwarcia; jego bajty nie są ponownie przeszukiwane pod kątem usuniętego tekstu.
 	A picture covers page {pages} (a scan?), so the background won't show there.	Strona zakryta obrazem (skan?): {pages}; tło nie będzie tam widoczne.
 	A placed signature is a comment until it is locked: anyone with a PDF editor can move or remove it. Locking makes your Fill & Sign text, marks and signatures part of the page.	Umieszczony podpis jest komentarzem, dopóki nie zostanie utrwalony: każdy z edytorem PDF może go przenieść lub usunąć. Utrwalenie sprawia, że tekst, znaki i podpisy z Wypełnij i podpisz stają się częścią strony.
 	A PNG or SVG file. It is read from this place each time PdfCraft starts.	Plik PNG lub SVG. Jest odczytywany z tego miejsca przy każdym uruchomieniu PdfCraft.
@@ -301,6 +302,7 @@
 	Apply redactions…	Zastosuj utajnienia…
 	Apply scale	Zastosuj skalę
 	Applying a scale switches units to m / mm.	Zastosowanie skali zmienia jednostki na m / mm.
+	Applying also sanitizes the document: bookmarks, named destinations, attachments, document information, metadata and XFA form data are deleted, and hidden layers are locked hidden for good.	Zastosowanie także oczyszcza dokument: zakładki, nazwane miejsca docelowe, załączniki, informacje o dokumencie, metadane i dane formularza XFA zostają usunięte, a ukryte warstwy zostają trwale zablokowane jako ukryte.
 	Appropriate nesting	Właściwe zagnieżdżenie
 	Approve the signature on the device (for mSzafir: in CloudSigner's window and the mSzafir app)…	Zatwierdź podpis na urządzeniu (mSzafir: kod OTT w oknie CloudSignera, zatwierdzenie w aplikacji mSzafir)…
 	April	Kwiecień
@@ -516,6 +518,8 @@ certificate	Basic constraints	Podstawowe ograniczenia
 	CheckBox	Pole wyboru
 	Checkbox	Pole wyboru
 	Checked	Zaznaczone
+	Checked when applied: 1 region found clear of the removed text. Text that exists only as pixels of an image is not searched.	Sprawdzono przy zastosowaniu: w 1 obszarze nie znaleziono usuniętego tekstu. Tekst istniejący tylko jako piksele obrazu nie jest przeszukiwany.
+	Checked when applied: {n} regions found clear of the removed text. Text that exists only as pixels of an image is not searched.	Sprawdzono przy zastosowaniu: liczba obszarów bez usuniętego tekstu: {n}. Tekst istniejący tylko jako piksele obrazu nie jest przeszukiwany.
 	Checked {objects} objects against the Arlington PDF Model for PDF {version}.	Sprawdzono obiektów: {objects} według Arlington PDF Model dla PDF {version}.
 	Checking Hungarian OCR installation…	Sprawdzanie instalacji węgierskiego OCR…
 	Checking Options ({on} of 32 in all categories)	Opcje sprawdzania ({on} z 32 we wszystkich kategoriach)
@@ -621,6 +625,7 @@ certificate	Basic constraints	Podstawowe ograniczenia
 	Combo	Lista rozwijana
 	Coming in milestone	Dostępne w etapie
 	Coming in milestone {m}. Items marked Ready work today.	Dostępne w etapie {m}. Elementy oznaczone jako Gotowe działają już teraz.
+	Coming soon	Wkrótce
 	Comment and form data	Dane komentarzy i formularza
 	Comment and review	Komentowanie i recenzja
 	Comment list	Lista komentarzy
@@ -1425,6 +1430,7 @@ key	Home	Home
 	Hungarian OCR requires the desktop app with Tesseract 5 and the hun language model. Restart PdfCraft after installation.	Węgierskie OCR wymaga aplikacji komputerowej z Tesseract 5 i modelem językowym hun. Po instalacji uruchom ponownie PdfCraft.
 	H{n} follows an H{d}; headings should not skip levels	H{n} występuje po H{d}; nagłówki nie powinny pomijać poziomów
 	I confirm sending this document to this printer	Potwierdzam wysłanie tego dokumentu do tej drukarki
+	I understand that the redacted content is removed for good	Rozumiem, że utajniona zawartość zostaje usunięta na zawsze
 	ICC profile: {name}	Profil ICC: {name}
 	Identity	Tożsamość
 	Image (PNG)	Obraz (PNG)
@@ -1528,7 +1534,8 @@ calendar date	January	stycznia
 	JavaScript	JavaScript
 	JavaScript Console	Konsola JavaScript
 	JavaScript console…	Konsola JavaScript…
-	JavaScript is turned off (Preferences ▸ JavaScript).	JavaScript jest wyłączony (Preferencje ▸ JavaScript).
+	JavaScript is turned off (Preferences ▸ JavaScript).	JavaScript jest wyłączony (Preferencje > JavaScript).
+	JavaScript is turned off (Preferences → JavaScript).	JavaScript jest wyłączony (Preferencje → JavaScript).
 	JavaScript is turned off by your administrator.	JavaScript został wyłączony przez administratora.
 	JavaScript, e.g. getField("total").value	JavaScript, np. getField("total").value
 	JBIG2 (lossless)	JBIG2 (bezstratna)
@@ -2644,6 +2651,7 @@ calendar weekday	Sa	So
 	Save the accessibility report	Zapisz raport dostępności
 	Save the document afterwards: saving rewrites the whole file so no trace of the removed content stays in it.	Następnie zapisz dokument: zapis tworzy cały plik na nowo, aby nie pozostał w nim żaden ślad usuniętej zawartości.
 	Save the document afterwards; saving rewrites the whole file so nothing removed stays in it.	Następnie zapisz dokument; zapis tworzy cały plik na nowo, aby nie pozostały w nim usunięte dane.
+	Save the result under a new name: saving rewrites the whole file so no trace of the removed content stays in it, and the original file stays as it is.	Zapisz wynik pod nową nazwą: zapis tworzy cały plik na nowo, aby nie pozostał w nim żaden ślad usuniętej zawartości, a oryginalny plik pozostaje bez zmian.
 	Save the spreadsheet	Zapisz arkusz kalkulacyjny
 	Save these pages as one PDF	Zapisz te strony jako jeden PDF
 	Save this document to a folder first	Najpierw zapisz ten dokument w folderze
@@ -3387,6 +3395,7 @@ calendar weekday	Th	Cz
 	Thin	Cienka
 	Thinking… {s}s	Myśli… {s} s
 	This area has too many overlapping paths; intersection snapping is limited.	Ten obszar ma zbyt wiele nakładających się ścieżek; przyciąganie do przecięć jest ograniczone.
+	This cannot be undone: applying redactions clears the undo history.	Tego nie można cofnąć: zastosowanie utajnień czyści historię cofania.
 	This certificate is in your list of trusted certificates.	Ten certyfikat znajduje się na liście zaufanych certyfikatów.
 	This certificate is not trusted. Signatures made with it show an unknown identity.	Ten certyfikat nie jest zaufany. Podpisy złożone przy jego użyciu mają nieznaną tożsamość.
 	This certificate is trusted through a certificate above it in the chain.	Ten certyfikat jest zaufany dzięki certyfikatowi wyżej w łańcuchu.
@@ -3483,7 +3492,7 @@ calendar weekday	Th	Cz
 	Timed responses	Odpowiedzi z limitem czasu
 	Timestamp	Znacznik czasu
 	Timestamp server	Serwer znaczników czasu
-	Timestamps and revocation information need the desktop app. Turn them off in Preferences ▸ Signatures to sign here.	Znaczniki czasu i informacje o unieważnieniu wymagają aplikacji komputerowej. Wyłącz je w Preferencje ▸ Podpisy, aby podpisać tutaj.
+	Timestamps and revocation information need the desktop app. Turn them off in Preferences ▸ Signatures to sign here.	Znaczniki czasu i informacje o unieważnieniu wymagają aplikacji komputerowej. Wyłącz je w Preferencje > Podpisy, aby podpisać tutaj.
 	to	do
 	To change locked fields, also set Locked to No.	Aby zmienić zablokowane pola, ustaw również Zablokowane na Nie.
 	To print this large file, load all of it first with Load to edit.	To print this large file, load all of it first with Load to edit.

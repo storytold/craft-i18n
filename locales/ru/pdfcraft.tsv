@@ -75,6 +75,7 @@
 	A local model is not a frontier cloud model: it can be wrong, and a long answer takes its time on CPU. Check anything critical, and mind a model's size against this machine before downloading it.	Локальная модель — не передовая облачная: она может ошибаться, и длинный ответ на процессоре занимает время. Проверяйте всё важное и соотносите размер модели с этой машиной до загрузки.
 	A logo or name at the left of the tabs, where a title bar would show one: PdfCraft's own, or your company's.	Логотип или название слева от вкладок, там, где их показала бы строка заголовка: PdfCraft или вашей компании.
 	A page count stops the feeder after that many sheets. Cancel ends the transfer early; pages already received stay in the document.	Число страниц останавливает податчик после стольких листов. Отмена раньше завершает передачу; уже полученные страницы остаются в документе.
+	A password-protected file is only checked to reopen when saved; its bytes are not searched again for the removed text.	Для файла, защищённого паролем, при сохранении проверяется только то, что он снова открывается; его байты не проверяются повторно на наличие удалённого текста.
 	A picture covers page {pages} (a scan?), so the background won't show there.	Страница, закрытая изображением (скан?): {pages}; фон там не будет виден.
 	A placed signature is a comment until it is locked: anyone with a PDF editor can move or remove it. Locking makes your Fill & Sign text, marks and signatures part of the page.	Размещённая подпись остаётся комментарием, пока не закреплена: любой с редактором PDF может её переместить или удалить. Закрепление делает текст, отметки и подписи из «Заполнить и подписать» частью страницы.
 	A PNG or SVG file. It is read from this place each time PdfCraft starts.	Файл PNG или SVG. Читается из этого места при каждом запуске PdfCraft.
@@ -312,6 +313,7 @@
 	Apply redactions…	Применить сокрытия…
 	Apply scale	Применить масштаб
 	Applying a scale switches units to m / mm.	При применении масштаба единицы переключаются на м / мм.
+	Applying also sanitizes the document: bookmarks, named destinations, attachments, document information, metadata and XFA form data are deleted, and hidden layers are locked hidden for good.	Применение также очищает документ: удаляются закладки, именованные назначения, вложения, сведения о документе, метаданные и данные формы XFA, а скрытые слои навсегда остаются скрытыми.
 	Appropriate nesting	Соответствующее вложение
 	April	Апрель
 calendar date	April	Апрель
@@ -535,6 +537,8 @@ certificate	Basic constraints	Основные ограничения
 	CheckBox	Флажок
 	Checkbox	Флажок
 	Checked	Отмечено
+	Checked when applied: 1 region found clear of the removed text. Text that exists only as pixels of an image is not searched.	Проверено при применении: в 1 области не найдено удалённого текста. Текст, существующий только как пиксели изображения, не ищется.
+	Checked when applied: {n} regions found clear of the removed text. Text that exists only as pixels of an image is not searched.	Проверено при применении: удалённого текста не найдено ни в одной из {n} областей. Текст, существующий только как пиксели изображения, не ищется.
 	Checked {objects} objects against the Arlington PDF Model for PDF {version}.	Проверено объектов: {objects} по модели Arlington PDF Model для PDF {version}.
 	Checking form detection…	Проверка обнаружения форм…
 	Checking Hungarian OCR installation…	Проверка установки венгерского OCR…
@@ -654,6 +658,7 @@ certificate	Basic constraints	Основные ограничения
 	Combo	Комбинированный
 	Coming in milestone	Появится на этапе
 	Coming in milestone {m}. Items marked Ready work today.	Появится на этапе {m}. Пункты с пометкой «Готово» работают сегодня.
+	Coming soon	Скоро
 	Comment and form data	Комментарии и данные формы
 	Comment and review	Комментирование и рецензирование
 	Comment list	Список комментариев
@@ -1498,6 +1503,7 @@ key	Home	Home
 	Hungarian OCR requires the desktop app with Tesseract 5 and the hun language model. Restart PdfCraft after installation.	Для венгерского OCR требуется настольное приложение с Tesseract 5 и языковой моделью hun. После установки перезапустите PdfCraft.
 	H{n} follows an H{d}; headings should not skip levels	H{n} идёт после H{d}; уровни заголовков не следует пропускать
 	I confirm sending this document to this printer	Подтверждаю отправку этого документа на этот принтер
+	I understand that the redacted content is removed for good	Я понимаю, что скрытое содержимое удаляется безвозвратно
 	ICC profile: {name}	Профиль ICC: {name}
 	Identity	Идентификация
 	Image (PNG)	Изображение (PNG)
@@ -1607,6 +1613,7 @@ calendar date	January	Январь
 	JavaScript Console	Консоль JavaScript
 	JavaScript console…	Консоль JavaScript…
 	JavaScript is turned off (Preferences ▸ JavaScript).	JavaScript выключен (Настройки > JavaScript).
+	JavaScript is turned off (Preferences → JavaScript).	JavaScript выключен (Настройки > JavaScript).
 	JavaScript is turned off by your administrator.	JavaScript отключён вашим администратором.
 	JavaScript, e.g. getField("total").value	JavaScript, например getField("total").value
 	JBIG2 (lossless)	JBIG2 (без потерь)
@@ -2778,6 +2785,7 @@ calendar weekday	Sa	Сб
 	Save the accessibility report	Сохранить отчёт о доступности
 	Save the document afterwards: saving rewrites the whole file so no trace of the removed content stays in it.	Сохраните документ после этого: сохранение перезаписывает весь файл, чтобы не осталось следов удалённого содержимого.
 	Save the document afterwards; saving rewrites the whole file so nothing removed stays in it.	Сохраните документ после этого; сохранение перезаписывает весь файл, чтобы ничего удалённого не осталось.
+	Save the result under a new name: saving rewrites the whole file so no trace of the removed content stays in it, and the original file stays as it is.	Сохраните результат под новым именем: сохранение перезаписывает весь файл, чтобы не осталось следов удалённого содержимого, а исходный файл остаётся без изменений.
 	Save the spreadsheet	Сохранить электронную таблицу
 	Save these pages as one PDF	Сохранить эти страницы в один PDF
 	Save this document to a folder first	Сначала сохраните этот документ в папку
@@ -3553,6 +3561,7 @@ calendar weekday	Th	Чт
 	Thin	Тонкая
 	Thinking… {s}s	Думает… {s} с
 	This area has too many overlapping paths; intersection snapping is limited.	В этой области слишком много перекрывающихся контуров; привязка к пересечениям ограничена.
+	This cannot be undone: applying redactions clears the undo history.	Это действие нельзя отменить: после применения сокрытия журнал отмены очищается.
 	This certificate is in your list of trusted certificates.	Этот сертификат находится в вашем списке доверенных сертификатов.
 	This certificate is not trusted. Signatures made with it show an unknown identity.	Этот сертификат не доверен. Подписи, сделанные им, показывают неизвестную идентичность.
 	This certificate is trusted through a certificate above it in the chain.	Этот сертификат доверен через сертификат выше в цепочке.
@@ -3654,7 +3663,7 @@ calendar weekday	Th	Чт
 	Timed responses	Ответы с ограничением времени
 	Timestamp	Метка времени
 	Timestamp server	Сервер меток времени
-	Timestamps and revocation information need the desktop app. Turn them off in Preferences ▸ Signatures to sign here.	Для меток времени и сведений об отзыве нужно настольное приложение. Отключите их в разделе Настройки ▸ Подписи, чтобы подписать здесь.
+	Timestamps and revocation information need the desktop app. Turn them off in Preferences ▸ Signatures to sign here.	Для меток времени и сведений об отзыве нужно настольное приложение. Отключите их в разделе Настройки > Подписи, чтобы подписать здесь.
 	Title	заголовок
 	to	до
 	To change locked fields, also set Locked to No.	Чтобы изменить заблокированные поля, также установите «Заблокировано» в «Нет».

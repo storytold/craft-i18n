@@ -91,6 +91,7 @@
 	A logo or name at the left of the tabs, where a title bar would show one: PdfCraft's own, or your company's.	Um logotipo ou nome à esquerda das abas, onde uma barra de título o mostraria: o do PdfCraft ou o da sua empresa.
 	A mesh shading's colours change too sharply between its corners to convert to CMYK exactly	As cores de um sombreamento de malha mudam bruscamente demais entre os vértices para serem convertidas exatamente para CMYK
 	A page count stops the feeder after that many sheets. Cancel ends the transfer early; pages already received stay in the document.	Uma contagem de páginas para o alimentador após essas folhas. Cancelar encerra a transferência mais cedo; as páginas já recebidas permanecem no documento.
+	A password-protected file is only checked to reopen when saved; its bytes are not searched again for the removed text.	Ao salvar um arquivo protegido por senha, apenas se verifica se ele abre novamente; seus bytes não são pesquisados de novo em busca do texto removido.
 	A pattern over RGB or device-independent colour can't be converted to CMYK yet	Um padrão sobre cor RGB ou independente de dispositivo ainda não pode ser convertido para CMYK
 	A picture covers page {pages} (a scan?), so the background won't show there.	Uma imagem cobre a página {pages} (uma digitalização?), então o plano de fundo não aparecerá nela.
 	A picture with a colour-key mask can't be converted to CMYK yet	Uma imagem com máscara de cor-chave ainda não pode ser convertida para CMYK
@@ -350,6 +351,7 @@
 	Apply redactions…	Aplicar ocultações…
 	Apply scale	Aplicar escala
 	Applying a scale switches units to m / mm.	Aplicar uma escala muda as unidades para m / mm.
+	Applying also sanitizes the document: bookmarks, named destinations, attachments, document information, metadata and XFA form data are deleted, and hidden layers are locked hidden for good.	Aplicar também sanitiza o documento: marcadores, destinos nomeados, anexos, informações do documento, metadados e dados de formulário XFA são excluídos, e as camadas ocultas ficam bloqueadas e ocultas para sempre.
 	Appropriate nesting	Aninhamento apropriado
 	April	Abril
 calendar date	April	abril
@@ -570,6 +572,8 @@ certificate	Basic constraints	Restrições básicas
 	CheckBox	Caixa de seleção
 	Checkbox	Caixa de seleção
 	Checked	Marcado
+	Checked when applied: 1 region found clear of the removed text. Text that exists only as pixels of an image is not searched.	Verificado ao aplicar: 1 região encontrada livre do texto removido. Texto que existe apenas como pixels de uma imagem não é pesquisado.
+	Checked when applied: {n} regions found clear of the removed text. Text that exists only as pixels of an image is not searched.	Verificado ao aplicar: {n} regiões encontradas livres do texto removido. Texto que existe apenas como pixels de uma imagem não é pesquisado.
 	Checked {objects} objects against the Arlington PDF Model for PDF {version}.	{objects} objetos verificados em relação ao Arlington PDF Model para PDF {version}.
 	Checking form detection…	Verificando a detecção de formulários…
 	Checking Hungarian OCR installation…	Verificando a instalação do OCR húngaro…
@@ -686,6 +690,7 @@ certificate	Basic constraints	Restrições básicas
 	Combo	Caixa de combinação
 	Coming in milestone	Previsto para o marco
 	Coming in milestone {m}. Items marked Ready work today.	Previsto para o marco {m}. Itens marcados como Pronto já funcionam hoje.
+	Coming soon	Em breve
 	Comment and form data	Dados de comentário e formulário
 	Comment and review	Comentar e revisar
 	Comment list	Lista de comentários
@@ -1554,6 +1559,7 @@ key	Home	Home
 	Hungarian OCR requires the desktop app with Tesseract 5 and the hun language model. Restart PdfCraft after installation.	O OCR húngaro requer o aplicativo de desktop com Tesseract 5 e o modelo de idioma hun. Reinicie o PdfCraft após a instalação.
 	H{n} follows an H{d}; headings should not skip levels	H{n} vem depois de H{d}; os títulos não devem pular níveis
 	I confirm sending this document to this printer	Confirmo o envio deste documento para esta impressora
+	I understand that the redacted content is removed for good	Compreendo que o conteúdo ocultado é removido para sempre
 	ICC profile: {name}	Perfil ICC: {name}
 	ICP-Brasil Seal	Selo ICP-Brasil
 	Identity	Identidade
@@ -1669,6 +1675,7 @@ calendar date	January	janeiro
 	JavaScript Console	Console JavaScript
 	JavaScript console…	Console JavaScript…
 	JavaScript is turned off (Preferences ▸ JavaScript).	O JavaScript está desativado (Preferências > JavaScript).
+	JavaScript is turned off (Preferences → JavaScript).	O JavaScript está desativado (Preferências > JavaScript).
 	JavaScript is turned off by your administrator.	O JavaScript foi desativado pelo seu administrador.
 	JavaScript, e.g. getField("total").value	JavaScript, ex.: getField("total").value
 	JBIG2 (lossless)	JBIG2 (sem perdas)
@@ -2829,6 +2836,7 @@ calendar weekday	Sa	Sáb
 	Save the accessibility report	Salvar o relatório de acessibilidade
 	Save the document afterwards: saving rewrites the whole file so no trace of the removed content stays in it.	Salve o documento em seguida: salvar regrava todo o arquivo para que nenhum vestígio do conteúdo removido permaneça nele.
 	Save the document afterwards; saving rewrites the whole file so nothing removed stays in it.	Salve o documento em seguida; salvar regrava todo o arquivo para que nada removido permaneça nele.
+	Save the result under a new name: saving rewrites the whole file so no trace of the removed content stays in it, and the original file stays as it is.	Salve o resultado sob um novo nome: salvar reescreve todo o arquivo para que nenhum resíduo do conteúdo removido permaneça nele, e o arquivo original permanece como está.
 	Save the spreadsheet	Salvar a planilha
 	Save these pages as one PDF	Salvar estas páginas como um PDF
 	Save this document to a folder first	Salve primeiro este documento em uma pasta
@@ -3668,6 +3676,7 @@ calendar weekday	Th	Qui
 	Thinking… {s}s	Pensando… {s} s
 	Thinnest line	Linha mais fina
 	This area has too many overlapping paths; intersection snapping is limited.	Esta área possui muitos traçados sobrepostos; o alinhamento por interseção é limitado.
+	This cannot be undone: applying redactions clears the undo history.	Isto não pode ser desfeito: aplicar marcas de ocultação limpa o histórico de desfazer.
 	This certificate is in your list of trusted certificates.	Este certificado está na sua lista de certificados confiáveis.
 	This certificate is not trusted. Signatures made with it show an unknown identity.	Este certificado não é confiável. Assinaturas feitas com ele exibem uma identidade desconhecida.
 	This certificate is trusted through a certificate above it in the chain.	Este certificado é confiável por meio de um certificado acima dele na cadeia.
@@ -3769,7 +3778,7 @@ calendar weekday	Th	Qui
 	Timed responses	Respostas cronometradas
 	Timestamp	Carimbo de data/hora
 	Timestamp server	Servidor de carimbo do tempo
-	Timestamps and revocation information need the desktop app. Turn them off in Preferences ▸ Signatures to sign here.	Carimbos do tempo e informações de revogação precisam do aplicativo para desktop. Desative-os em Preferências ▸ Assinaturas para assinar aqui.
+	Timestamps and revocation information need the desktop app. Turn them off in Preferences ▸ Signatures to sign here.	Carimbos do tempo e informações de revogação precisam do aplicativo para desktop. Desative-os em Preferências > Assinaturas para assinar aqui.
 	to	até
 	To change locked fields, also set Locked to No.	Para alterar campos bloqueados, defina também “Bloqueado” como “Não”.
 	To print this large file, load all of it first with Load to edit.	To print this large file, load all of it first with Load to edit.

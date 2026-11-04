@@ -69,6 +69,7 @@
 	A local model is not a frontier cloud model: it can be wrong, and a long answer takes its time on CPU. Check anything critical, and mind a model's size against this machine before downloading it.	Krajevni model ni vodilni oblak: lahko se zmoti, dolg odgovor pa na procesorju vzame svoj čas. Preverite vse ključno in pred prenosom primerjte velikost modela s tem računalnikom.
 	A logo or name at the left of the tabs, where a title bar would show one: PdfCraft's own, or your company's.	Logotip ali ime levo od zavihkov, kjer bi ga pokazala naslovna vrstica: PdfCraftov ali vašega podjetja.
 	A page count stops the feeder after that many sheets. Cancel ends the transfer early; pages already received stay in the document.	Število strani ustavi podajalnik po toliko listih. Preklic prej konča prenos; že prejete strani ostanejo v dokumentu.
+	A password-protected file is only checked to reopen when saved; its bytes are not searched again for the removed text.	Pri datoteki, zaščiteni z geslom, se ob shranjevanju preveri le, ali se znova odpre; njeni bajti se ne preiščejo znova za odstranjeno besedilo.
 	A picture covers page {pages} (a scan?), so the background won't show there.	Stran, ki jo prekriva slika (skeniranje?): {pages}; ozadje tam ne bo vidno.
 	A placed signature is a comment until it is locked: anyone with a PDF editor can move or remove it. Locking makes your Fill & Sign text, marks and signatures part of the page.	Postavljen podpis je komentar, dokler ni zaklenjen: vsak z urejevalnikom PDF ga lahko premakne ali odstrani. Zaklepanje naredi besedilo, oznake in podpise iz Izpolni in podpiši del strani.
 	A PNG or SVG file. It is read from this place each time PdfCraft starts.	Datoteka PNG ali SVG. Prebere se s tega mesta ob vsakem zagonu PdfCrafta.
@@ -290,6 +291,7 @@
 	Apply redactions…	Uveljavi počrnitev…
 	Apply scale	Uporabi merilo
 	Applying a scale switches units to m / mm.	Z uporabo merila se enote preklopijo na m / mm.
+	Applying also sanitizes the document: bookmarks, named destinations, attachments, document information, metadata and XFA form data are deleted, and hidden layers are locked hidden for good.	Uveljavitev tudi očisti dokument: zaznamki, poimenovani cilji, priloge, podatki o dokumentu, metapodatki in podatki obrazcev XFA se izbrišejo, skrite plasti pa ostanejo trajno skrite.
 	Appropriate nesting	Ustrezno gnezdenje
 	April	april
 	Arbitrary Mask	Poljubna maska
@@ -495,6 +497,8 @@
 	CheckBox	Potrditveno polje
 	Checkbox	Potrditveno polje
 	Checked	Označeno
+	Checked when applied: 1 region found clear of the removed text. Text that exists only as pixels of an image is not searched.	Preverjeno ob uveljavitvi: 1 območje ne vsebuje odstranjenega besedila. Besedilo, ki obstaja samo kot slikovne pike, se ne išče.
+	Checked when applied: {n} regions found clear of the removed text. Text that exists only as pixels of an image is not searched.	Preverjeno ob uveljavitvi: {n} območij ne vsebuje odstranjenega besedila. Besedilo, ki obstaja samo kot slikovne pike, se ne išče.
 	Checked {objects} objects against the Arlington PDF Model for PDF {version}.	Preverjenih objektov: {objects}, glede na Arlington PDF Model za PDF {version}.
 	Checking form detection…	Preverjanje zaznavanja obrazcev…
 	Checking Hungarian OCR installation…	Preverjanje namestitve madžarskega OCR…
@@ -600,6 +604,7 @@
 	Combo	Kombinirano polje
 	Coming in milestone	Prihaja v fazi
 	Coming in milestone {m}. Items marked Ready work today.	Prihaja v fazi {m}. Elementi, označeni z Omogočeno, delujejo že danes.
+	Coming soon	Kmalu
 	Comment and form data	Podatki komentarjev in obrazcev
 	Comment list	Seznam komentarjev
 	Commenting	Komentiranje
@@ -1366,6 +1371,7 @@ key	Home	Home
 	HTML web page	Spletna stran HTML
 	Hungarian OCR requires the desktop app with Tesseract 5 and the hun language model. Restart PdfCraft after installation.	Madžarski OCR zahteva namizno aplikacijo s Tesseract 5 in jezikovnim modelom hun. Po namestitvi znova zaženite PdfCraft.
 	I confirm sending this document to this printer	Potrjujem pošiljanje tega dokumenta v ta tiskalnik
+	I understand that the redacted content is removed for good	Razumem, da bo prekrito besedilo trajno odstranjeno
 	ICC profile: {name}	Profil ICC: {name}
 	Identity	Identiteta
 	Image (PNG)	Slika (PNG)
@@ -1467,6 +1473,7 @@ key	Home	Home
 	JavaScript Console	Konzola JavaScript
 	JavaScript console…	Konzola JavaScript…
 	JavaScript is turned off (Preferences ▸ JavaScript).	JavaScript je izklopljen (Nastavitve > JavaScript).
+	JavaScript is turned off (Preferences → JavaScript).	JavaScript je izklopljen (Nastavitve > JavaScript).
 	JavaScript is turned off by your administrator.	JavaScript je izklopil vaš skrbnik.
 	JavaScript, e.g. getField("total").value	JavaScript, npr. getField("total").value
 	JBIG2 (lossless)	JBIG2 (brez izgub)
@@ -2526,6 +2533,7 @@ animation effects	On	Vklopljeni
 	Save the accessibility report	Shrani poročilo o dostopnosti
 	Save the document afterwards: saving rewrites the whole file so no trace of the removed content stays in it.	Nato shranite dokument: shranjevanje prepiše celotno datoteko, tako da v njej ne ostane nobena sled odstranjene vsebine.
 	Save the document afterwards; saving rewrites the whole file so nothing removed stays in it.	Nato shranite dokument; shranjevanje prepiše celotno datoteko, tako da v njej ne ostane nič odstranjenega.
+	Save the result under a new name: saving rewrites the whole file so no trace of the removed content stays in it, and the original file stays as it is.	Rezultat shranite pod novim imenom: shranjevanje na novo zapiše celotno datoteko, zato v njej ne ostane nobena sled odstranjene vsebine, izvirna datoteka pa ostane nespremenjena.
 	Save the spreadsheet	Shrani preglednico
 	Save these pages as one PDF	Shrani te strani kot en PDF
 	Save this document to a folder first	Ta dokument najprej shranite v mapo
@@ -3185,6 +3193,7 @@ certificate	Subject	Imetnik
 	Thin	Tanko
 	Thinking… {s}s	Razmišlja… {s}s
 	This area has too many overlapping paths; intersection snapping is limited.	To območje ima preveč prekrivajočih se poti; pripenjanje na preseke je omejeno.
+	This cannot be undone: applying redactions clears the undo history.	Tega ni mogoče razveljaviti: uveljavitev prekrivanja izbriše zgodovino razveljavitev.
 	This certificate is in your list of trusted certificates.	To potrdilo je na vašem seznamu zaupanja vrednih potrdil.
 	This certificate is not trusted. Signatures made with it show an unknown identity.	Temu potrdilu se ne zaupa. Podpisi, narejeni z njim, kažejo neznano identiteto.
 	This certificate is trusted through a certificate above it in the chain.	Temu potrdilu se zaupa prek potrdila nad njim v verigi.
@@ -3279,7 +3288,7 @@ certificate	Subject	Imetnik
 	Timed responses	Časovno omejeni odzivi
 	Timestamp	Časovni žig
 	Timestamp server	Strežnik časovnih žigov
-	Timestamps and revocation information need the desktop app. Turn them off in Preferences ▸ Signatures to sign here.	Časovni žigi in podatki o preklicu potrebujejo namizno aplikacijo. Če želite podpisati tukaj, jih izklopite v Nastavitve ▸ Podpisi.
+	Timestamps and revocation information need the desktop app. Turn them off in Preferences ▸ Signatures to sign here.	Časovni žigi in podatki o preklicu potrebujejo namizno aplikacijo. Če želite podpisati tukaj, jih izklopite v Nastavitve > Podpisi.
 	to	do
 	To change locked fields, also set Locked to No.	Za spremembo zaklenjenih polj nastavite tudi Zaklenjeno na Ne.
 	To print this large file, load all of it first with Load to edit.	To print this large file, load all of it first with Load to edit.

@@ -70,6 +70,7 @@
 	A local model is not a frontier cloud model: it can be wrong, and a long answer takes its time on CPU. Check anything critical, and mind a model's size against this machine before downloading it.	Un modello locale non è un modello cloud d'avanguardia: può sbagliare, e una risposta lunga richiede il suo tempo sulla CPU. Verifica tutto ciò che è critico e valuta la dimensione del modello rispetto a questa macchina prima di scaricarlo.
 	A logo or name at the left of the tabs, where a title bar would show one: PdfCraft's own, or your company's.	Un logo o un nome a sinistra delle schede, dove lo mostrerebbe una barra del titolo: quello di PdfCraft o quello della tua azienda.
 	A page count stops the feeder after that many sheets. Cancel ends the transfer early; pages already received stay in the document.	Un numero di pagine ferma l’alimentatore dopo tanti fogli. Annulla interrompe il trasferimento prima; le pagine già ricevute restano nel documento.
+	A password-protected file is only checked to reopen when saved; its bytes are not searched again for the removed text.	Per un file protetto da password, al salvataggio si verifica solo che si riapra; i suoi byte non vengono riesaminati alla ricerca del testo rimosso.
 	A picture covers page {pages} (a scan?), so the background won't show there.	Un'immagine copre la pagina {pages} (una scansione?), quindi lì lo sfondo non sarà visibile.
 	A placed signature is a comment until it is locked: anyone with a PDF editor can move or remove it. Locking makes your Fill & Sign text, marks and signatures part of the page.	Una firma inserita è un commento finché non viene bloccata: chiunque abbia un editor PDF può spostarla o rimuoverla. Il blocco rende testo, segni e firme di Compila e firma parte della pagina.
 	A PNG or SVG file. It is read from this place each time PdfCraft starts.	Un file PNG o SVG. Viene letto da questa posizione a ogni avvio di PdfCraft.
@@ -300,6 +301,7 @@
 	Apply redactions…	Applica oscuramenti…
 	Apply scale	Applica scala
 	Applying a scale switches units to m / mm.	Applicando una scala le unità passano a m / mm.
+	Applying also sanitizes the document: bookmarks, named destinations, attachments, document information, metadata and XFA form data are deleted, and hidden layers are locked hidden for good.	L'applicazione esegue anche la bonifica: segnalibri, destinazioni con nome, allegati, informazioni del documento, metadati e dati dei moduli XFA vengono eliminati, e i livelli nascosti restano bloccati e nascosti per sempre.
 	Appropriate nesting	Nidificazione appropriata
 	April	aprile
 calendar date	April	aprile
@@ -512,6 +514,8 @@ certificate	Basic constraints	Vincoli di base
 	CheckBox	Casella di controllo
 	Checkbox	Casella di controllo
 	Checked	Selezionato
+	Checked when applied: 1 region found clear of the removed text. Text that exists only as pixels of an image is not searched.	Verificato durante l'applicazione: 1 zona trovata priva del testo rimosso. Il testo che esiste solo come pixel di un'immagine non viene cercato.
+	Checked when applied: {n} regions found clear of the removed text. Text that exists only as pixels of an image is not searched.	Verificato durante l'applicazione: {n} zone trovate prive del testo rimosso. Il testo che esiste solo come pixel di un'immagine non viene cercato.
 	Checked {objects} objects against the Arlington PDF Model for PDF {version}.	Controllati {objects} oggetti rispetto all'Arlington PDF Model per PDF {version}.
 	Checking form detection…	Verifica del rilevamento moduli…
 	Checking Hungarian OCR installation…	Verifica dell’installazione dell’OCR ungherese…
@@ -616,6 +620,7 @@ certificate	Basic constraints	Vincoli di base
 	Combo	Casella combinata
 	Coming in milestone	In arrivo nel traguardo
 	Coming in milestone {m}. Items marked Ready work today.	In arrivo nel traguardo {m}. Le voci contrassegnate come Pronto funzionano già oggi.
+	Coming soon	Prossimamente
 	Comment and form data	Dati di commenti e moduli
 	Comment list	Elenco commenti
 	Commenting	Commenti
@@ -1407,6 +1412,7 @@ key	Home	Home
 	Hungarian OCR requires the desktop app with Tesseract 5 and the hun language model. Restart PdfCraft after installation.	L’OCR ungherese richiede l’app desktop con Tesseract 5 e il modello linguistico hun. Riavvia PdfCraft dopo l’installazione.
 	H{n} follows an H{d}; headings should not skip levels	H{n} segue un H{d}; i titoli non dovrebbero saltare livelli
 	I confirm sending this document to this printer	Confermo l'invio di questo documento a questa stampante
+	I understand that the redacted content is removed for good	Comprendo che il contenuto oscurato è rimosso per sempre
 	ICC profile: {name}	Profilo ICC: {name}
 	Icon	Icona
 	Identity	Identità
@@ -1515,6 +1521,7 @@ calendar date	January	gennaio
 	JavaScript Console	Console JavaScript
 	JavaScript console…	Console JavaScript…
 	JavaScript is turned off (Preferences ▸ JavaScript).	JavaScript è disattivato (Preferenze > JavaScript).
+	JavaScript is turned off (Preferences → JavaScript).	JavaScript è disattivato (Preferenze > JavaScript).
 	JavaScript is turned off by your administrator.	JavaScript è stato disattivato dall'amministratore.
 	JavaScript, e.g. getField("total").value	JavaScript, es. getField("total").value
 	JBIG2 (lossless)	JBIG2 (senza perdita)
@@ -2611,6 +2618,7 @@ calendar weekday	Sa	Sa
 	Save the accessibility report	Salva il rapporto di accessibilità
 	Save the document afterwards: saving rewrites the whole file so no trace of the removed content stays in it.	Salva poi il documento: il salvataggio riscrive l'intero file, così non vi resta traccia del contenuto rimosso.
 	Save the document afterwards; saving rewrites the whole file so nothing removed stays in it.	Salva poi il documento; il salvataggio riscrive l'intero file, così non vi resta nulla di ciò che è stato rimosso.
+	Save the result under a new name: saving rewrites the whole file so no trace of the removed content stays in it, and the original file stays as it is.	Salva il risultato con un nuovo nome: il salvataggio riscrive l'intero file così nessuna traccia del contenuto rimosso vi resta, e il file originale resta com'è.
 	Save the spreadsheet	Salva il foglio di calcolo
 	Save these pages as one PDF	Salva queste pagine come un unico PDF
 	Save this document to a folder first	Salva prima questo documento in una cartella
@@ -3345,6 +3353,7 @@ calendar weekday	Th	Gi
 	Thin	Sottile
 	Thinking… {s}s	Sta pensando… {s} s
 	This area has too many overlapping paths; intersection snapping is limited.	Quest'area ha troppi tracciati sovrapposti; l'aggancio alle intersezioni è limitato.
+	This cannot be undone: applying redactions clears the undo history.	Non si può annullare: applicare i segni di oscuramento cancella la cronologia degli annullamenti.
 	This certificate is in your list of trusted certificates.	Questo certificato è nel tuo elenco di certificati attendibili.
 	This certificate is not trusted. Signatures made with it show an unknown identity.	Questo certificato non è attendibile. Le firme apposte con esso mostrano un'identità sconosciuta.
 	This certificate is trusted through a certificate above it in the chain.	Questo certificato è attendibile tramite un certificato superiore nella catena.
@@ -3444,7 +3453,7 @@ calendar weekday	Th	Gi
 	Timed responses	Risposte a tempo
 	Timestamp	Marca temporale
 	Timestamp server	Server di marca temporale
-	Timestamps and revocation information need the desktop app. Turn them off in Preferences ▸ Signatures to sign here.	Le marche temporali e le informazioni di revoca richiedono l'app desktop. Disattivale in Preferenze ▸ Firme per firmare qui.
+	Timestamps and revocation information need the desktop app. Turn them off in Preferences ▸ Signatures to sign here.	Le marche temporali e le informazioni di revoca richiedono l'app desktop. Disattivale in Preferenze > Firme per firmare qui.
 	to	a
 	To change locked fields, also set Locked to No.	Per modificare i campi bloccati, imposta anche “Bloccato” su “No”.
 	To print this large file, load all of it first with Load to edit.	To print this large file, load all of it first with Load to edit.
