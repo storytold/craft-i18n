@@ -263,6 +263,7 @@
 	Book title	도서 제목
 	Bookmark	책갈피
 	Bookmark name:	책갈피 이름:
+	Bookmarks	책갈피
 	Border lines	테두리 선
 	Border Painter	테두리 그리기
 	Border\nPainter	테두리\n그리기
@@ -467,6 +468,7 @@
 	Contents can't be edited	내용을 편집할 수 없음
 	Context	상황에 맞게
 	Continue from previous section	이전 구역에서 계속
+	Continue without restoring	복원하지 않고 계속
 	Continuous	연속
 	Continuous numbering	연속 번호 매기기
 	Contour Integral	윤곽 적분
@@ -501,6 +503,7 @@
 	Couldn't download {name}: {error}	{name}을(를) 다운로드하지 못했습니다: {error}
 	Couldn't make WordCraft the default: {error}	WordCraft를 기본 앱으로 설정하지 못했습니다: {error}
 	Couldn't open {path}: {error}	{path}을(를) 열 수 없습니다: {error}
+	Couldn't save {name}, so it is still open and nothing was lost: {error}	{name}을(를) 저장하지 못했습니다. 문서는 열려 있으며 잃은 내용은 없습니다. 오류: {error}
 	Count by:	증가 단위:
 	Count words in text boxes and notes	텍스트 상자와 메모의 단어 수 포함
 	Courtesy Title	호칭
@@ -512,6 +515,9 @@
 	Create Link	연결 만들기
 	Create New Style	새 스타일 만들기
 	Create Source	원본 만들기
+	Create Table	표 만들기
+	Create Table (Hangul Style)…	표 만들기(한글 방식)…
+	Crop on the page works on unturned pictures: set Rotation to 0° first, or use the crop boxes	페이지에서 자르기는 회전하지 않은 그림에만 쓸 수 있습니다. 먼저 회전을 0°로 설정하거나 자르기 상자를 사용하세요
 	Cross-reference	상호 참조
 	Cross-reference:	상호 참조:
 	{key} starts a new page. Much tidier than pressing Enter until it happens.	{key} 키를 누르면 새 페이지가 시작됩니다. 페이지가 넘어갈 때까지 Enter를 누르는 것보다 훨씬 깔끔해요.
@@ -605,6 +611,8 @@
 	Differentials	미분
 	Direct formatting	직접 서식
 	Directory	디렉터리
+	Discard the recovery copy of {name}?	{name}의 복구 사본을 삭제할까요?
+	Discard…	삭제…
 	Discord community	Discord 커뮤니티
 	Display for Review	검토용 표시
 	Display text	표시 텍스트
@@ -808,6 +816,8 @@
 	First Name	이름
 	First Record	첫 레코드
 	First row of data contains column headers	데이터의 첫 번째 행에 열 머리글이 포함됨
+	Fit to column	단에 맞춤
+	Fit to paragraph	문단에 맞춤
 	Fix Position on Page	페이지에서 위치 고정
 	Fixed Column Width	고정 열 너비
 	Floor	내림(바닥 함수)
@@ -896,6 +906,7 @@
 	Grow Font 1 Point	글꼴 크기 1포인트 키우기
 	H:	높이:
 	Hanging Indent	내어쓰기
+	Hangul table look (thin black lines, roomy cells)	한글 표 모양(가는 검은 선, 넉넉한 셀 여백)
 	Hat	모자(^)
 	Header	머리글
 	Header & Footer	머리글 및 바닥글
@@ -1193,6 +1204,7 @@
 	Loaded {count} system fonts.	시스템 글꼴 {count}개를 불러왔습니다.
 	Local font access is not supported by your browser.	이 브라우저는 로컬 글꼴 액세스를 지원하지 않습니다.
 	Local font access was denied.	로컬 글꼴 액세스가 거부되었습니다.
+	Local recovery is unavailable or still loading.	로컬 복구를 사용할 수 없거나 아직 불러오는 중입니다.
 	Location: {path}	위치: {path}
 	Lock aspect ratio	가로 세로 비율 고정
 	Lock Fields	필드 잠금
@@ -1345,6 +1357,7 @@
 	No Outline	윤곽선 없음
 	No Paragraph Space	단락 간격 없음
 	No printers found. Configure a system printer or export a PDF.	프린터를 찾을 수 없습니다. 시스템 프린터를 설정하거나 PDF로 내보내세요.
+	No recovery copies.	복구 사본이 없습니다.
 	No Reflection	반사 없음
 	No Shadow	그림자 없음
 	No Soft Edges	부드러운 가장자리 없음
@@ -1381,6 +1394,7 @@
 	Nothing	없음
 	Nothing collected yet. Items you copy or cut appear here.	아직 수집된 항목이 없습니다. 복사하거나 잘라낸 항목이 여기에 표시됩니다.
 	nothing is selected	선택한 항목이 없습니다
+	Nothing of this type in the document.	문서에 이 유형의 항목이 없습니다.
 	Now used by {command}	현재 {command}에 할당됨
 	Nudge	미세 이동
 	Num Occurrences	발생 횟수
@@ -1636,7 +1650,10 @@
 	Recolor a one-color picture, such as an icon	아이콘처럼 단색 그림의 색상 변경
 	Recolor Selected Ink	선택한 잉크 색 변경
 	Record Macro	매크로 기록
+	Recover documents	문서 복구
 	Recover Unsaved Documents	저장하지 않은 문서 복구
+	Recovery copy	복구 사본
+	Recovery is disabled while this document has a password.	이 문서에 암호가 설정되어 있는 동안에는 복구를 사용할 수 없습니다.
 	Red:	빨강:
 	Reduce Hanging Indent	내어쓰기 줄이기
 	References	참조
@@ -1703,6 +1720,7 @@
 	Restart Each Page	각 페이지에서 다시 시작
 	Restart Each Section	각 구역에서 다시 시작
 	Restart list after:	다음 항목 뒤에서 목록 다시 시작:
+	Restore opens an unsaved copy. Your original file stays unchanged.	복원하면 저장되지 않은 사본이 열립니다. 원본 파일은 바뀌지 않습니다.
 	Restrict Editing	편집 제한
 	Restrict\nEditing	편집\n제한
 	Results	결과
@@ -1793,6 +1811,7 @@
 	select a picture first	먼저 그림을 선택하세요
 	select a picture or shape first	먼저 그림이나 도형을 선택하세요
 	Select a picture, shape, chart or table to describe it.	설명할 그림, 도형, 차트 또는 표를 선택하세요.
+	Select a place in this document:	이 문서에서 위치 선택:
 	Select a printer	프린터 선택
 	select a shape first	먼저 도형을 선택하세요
 	Select a shape, text box or drawing canvas to format its fill.	채우기 서식을 지정할 도형, 텍스트 상자 또는 그리기 캔버스를 선택하세요.
@@ -2129,6 +2148,7 @@
 	These marks show even when Show/Hide ¶ is off.	이 기호는 표시/숨기기 ¶가 꺼져 있어도 표시됩니다.
 	These merge fields aren't in the recipient list:	다음 병합 필드는 받는 사람 목록에 없습니다:
 	Thick	굵게
+	This cannot be undone. Your original file stays unchanged.	이 작업은 되돌릴 수 없습니다. 원본 파일은 바뀌지 않습니다.
 	this chart was made in another program: WordCraft shows it but can't edit it	이 차트는 다른 프로그램에서 만들어졌습니다: WordCraft에서 표시할 수는 있지만 편집할 수는 없습니다
 	This document	이 문서
 	This document only?	이 문서만?
@@ -2168,6 +2188,7 @@ preview	Title	제목
 	Top Left Cell	왼쪽 위 셀
 	Top Margin	위쪽 여백
 	Top of Page	페이지 위쪽
+	Top of the Document	문서의 처음
 	Top Right Cell	오른쪽 위 셀
 	Total Row	요약 행
 	Track Changes	변경 내용 추적

@@ -243,6 +243,23 @@ product's localisation consulted. **No native speaker has reviewed these rows.**
 neutral, standard short forms; "Hong Kong SAR" and "Macao SAR" use each locale's word for special
 administrative region.
 
+## WordCraft: Hangul-style Create Table and Korean interface strings
+
+@BBQ-MAN contributed, AI-assisted with Claude Code (Opus 5.5) and written from the English meaning:
+
+- the five Create Table (Hangul Style) dialog strings (storytold/wordcraft#2063, synced from
+  `wordcraft@7ec7b21`) in `bg`, `cs`, `hr`, `hu`, `it`, `ko`, `pl`, `ro`, `ru`, `sl`, `sv`, `tr`
+  and `vi`;
+- the recovery page, Insert Link place, crop and save-error strings (storytold/wordcraft#2064,
+  synced from `wordcraft@1d4675b`) in `hr`, `ko`, `ro`, `sl` and `vi`. Their Polish
+  rows are left to storytold/craft-i18n#52, and their Slovenian rows use the wording of
+  storytold/craft-i18n#84.
+
+Both were written into `locales/` with `tools/sync_app.py` from base `wordcraft@806a945`.
+
+No native-speaker review is recorded. They are separate from the catalog migrations and
+translator credits above.
+
 ## Language data
 
 Every file under `language-data/` ([ADR 0004](docs/adr/0004-third-party-language-data.md),

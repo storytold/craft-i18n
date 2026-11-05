@@ -268,6 +268,7 @@
 	Book title	Tên sách
 	Bookmark	Dấu trang
 	Bookmark name:	Tên dấu trang:
+	Bookmarks	Dấu trang
 	Border lines	Tự động tạo đường viền
 	Border Painter	Cọ vẽ viền
 	Border\nPainter	Cọ vẽ\nviền
@@ -480,6 +481,7 @@
 	Contents can't be edited	Phần nội dung không sửa được
 	Context	Theo ngữ cảnh
 	Continue from previous section	Tiếp tục từ phần trước
+	Continue without restoring	Tiếp tục mà không khôi phục
 	Continuous	Liên tục
 	Continuous numbering	Đánh số liên tục
 	Contour Integral	Tích phân đường
@@ -514,6 +516,7 @@
 	Couldn't download {name}: {error}	Không tải được {name}: {error}
 	Couldn't make WordCraft the default: {error}	Không thể đặt WordCraft làm ứng dụng mặc định: {error}
 	Couldn't open {path}: {error}	Không mở được {path}: {error}
+	Couldn't save {name}, so it is still open and nothing was lost: {error}	Không lưu được {name}, nên tài liệu vẫn đang mở và không mất gì: {error}
 	Count by:	Đếm theo:
 	Count words in text boxes and notes	Đếm từ trong cả hộp văn bản và ghi chú
 	Courtesy Title	Danh xưng
@@ -525,7 +528,10 @@
 	Create Link	Tạo liên kết
 	Create New Style	Tạo kiểu mới
 	Create Source	Tạo nguồn
+	Create Table	Tạo bảng
+	Create Table (Hangul Style)…	Tạo bảng (kiểu Hangul)…
 	Croatian	Tiếng Croatia
+	Crop on the page works on unturned pictures: set Rotation to 0° first, or use the crop boxes	Cắt trên trang chỉ dùng được với ảnh chưa xoay: hãy đặt Xoay về 0° trước, hoặc dùng các ô cắt
 	Cross-reference	Tham chiếu chéo
 	Cross-reference:	Tham chiếu chéo:
 	{key} starts a new page. Much tidier than pressing Enter until it happens.	{key} bắt đầu một trang mới. Gọn gàng hơn nhiều so với nhấn Enter mãi cho đến khi sang trang.
@@ -623,6 +629,8 @@
 	Differentials	Các vi phân
 	Direct formatting	Định dạng trực tiếp
 	Directory	Danh mục
+	Discard the recovery copy of {name}?	Loại bỏ bản khôi phục của {name}?
+	Discard…	Loại bỏ…
 	Discord community	Cộng đồng Discord
 	Display for Review	Hiển thị để xem lại
 	Display text	Văn bản hiển thị
@@ -846,6 +854,8 @@
 	First Record	Bản ghi đầu tiên
 	First row of data contains column headers	Hàng đầu tiên của dữ liệu chứa tiêu đề cột
 	Fit	Vừa khít
+	Fit to column	Vừa với cột
+	Fit to paragraph	Vừa với đoạn văn
 	Fix Position on Page	Cố định vị trí trên trang
 	Fixed Column Width	Cố định độ rộng cột
 	Floor	Dấu ngoặc sàn
@@ -944,6 +954,7 @@
 	Grow Font 1 Point	Tăng cỡ chữ 1 pt
 	H:	Cao:
 	Hanging Indent	Thụt lề treo
+	Hangul table look (thin black lines, roomy cells)	Kiểu bảng Hangul (đường kẻ đen mảnh, ô rộng rãi)
 	Harvard (Anglia)	Harvard (Anglia)
 	Hat	Dấu mũ
 	Header	Đầu trang
@@ -1273,6 +1284,7 @@ template	Letter	Thư
 	Loaded {count} system fonts.	Đã tải {count} phông chữ hệ thống.
 	Local font access is not supported by your browser.	Trình duyệt của bạn không hỗ trợ truy cập phông chữ cục bộ.
 	Local font access was denied.	Quyền truy cập phông chữ cục bộ đã bị từ chối.
+	Local recovery is unavailable or still loading.	Khôi phục cục bộ không khả dụng hoặc vẫn đang tải.
 	Location: {path}	Vị trí: {path}
 	Lock aspect ratio	Khóa tỷ lệ khung hình
 	Lock Fields	Khóa trường
@@ -1439,6 +1451,7 @@ template	Letter	Thư
 	No Outline	Không viền
 	No Paragraph Space	Không giãn cách đoạn
 	No printers found. Configure a system printer or export a PDF.	Không tìm thấy máy in. Hãy thiết lập máy in hệ thống hoặc xuất PDF.
+	No recovery copies.	Không có bản khôi phục nào.
 	No Reflection	Không phản chiếu
 	No Shadow	Không bóng đổ
 	No Soft Edges	Không cạnh mềm
@@ -1477,6 +1490,7 @@ template	Letter	Thư
 	Nothing	Không có
 	Nothing collected yet. Items you copy or cut appear here.	Chưa có mục nào được thu thập. Các mục bạn sao chép hoặc cắt sẽ xuất hiện ở đây.
 	nothing is selected	chưa chọn gì
+	Nothing of this type in the document.	Tài liệu không có mục nào thuộc loại này.
 	Now used by {command}	Hiện đã gán cho {command}
 	Nudge	Dịch chuyển nhỏ
 	Num Occurrences	Số lần xuất hiện
@@ -1744,7 +1758,10 @@ template	Letter	Thư
 	Recolor a one-color picture, such as an icon	Tô màu lại ảnh đơn sắc, ví dụ như biểu tượng
 	Recolor Selected Ink	Đổi màu mực đã chọn
 	Record Macro	Ghi macro
+	Recover documents	Khôi phục tài liệu
 	Recover Unsaved Documents	Khôi phục tài liệu chưa lưu
+	Recovery copy	Bản khôi phục
+	Recovery is disabled while this document has a password.	Khôi phục bị tắt khi tài liệu này có mật khẩu.
 	Rectangular	Hình chữ nhật
 	Red:	Đỏ:
 	Reduce Hanging Indent	Giảm thụt lề treo
@@ -1815,6 +1832,7 @@ template	Letter	Thư
 	Restart Each Page	Đánh số lại từ đầu mỗi trang
 	Restart Each Section	Đánh số lại từ đầu mỗi phần
 	Restart list after:	Đánh số lại sau:
+	Restore opens an unsaved copy. Your original file stays unchanged.	Khôi phục sẽ mở một bản sao chưa lưu. Tệp gốc của bạn vẫn giữ nguyên.
 	Restrict Editing	Hạn chế chỉnh sửa
 	Restrict\nEditing	Hạn chế\nchỉnh sửa
 	Results	Các kết quả
@@ -1908,6 +1926,7 @@ template	Letter	Thư
 	select a picture first	hãy chọn một ảnh trước
 	select a picture or shape first	hãy chọn một hình ảnh hoặc hình dạng trước
 	Select a picture, shape, chart or table to describe it.	Chọn ảnh, hình, biểu đồ hoặc bảng để mô tả.
+	Select a place in this document:	Chọn một vị trí trong tài liệu này:
 	Select a printer	Chọn máy in
 	select a shape first	hãy chọn một hình trước
 	Select a shape, text box or drawing canvas to format its fill.	Chọn một hình, hộp văn bản hoặc khung vẽ để định dạng phần tô.
@@ -2276,6 +2295,7 @@ template	Letter	Thư
 	These merge fields aren't in the recipient list:	Các trường trộn này không nằm trong danh sách người nhận:
 	These settings will be used for new documents.	Các thiết đặt này sẽ được dùng cho tài liệu mới.
 	Thick	Dày
+	This cannot be undone. Your original file stays unchanged.	Không thể hoàn tác thao tác này. Tệp gốc của bạn vẫn giữ nguyên.
 	this chart was made in another program: WordCraft shows it but can't edit it	biểu đồ này được tạo trong chương trình khác: WordCraft hiển thị được nhưng không sửa được
 	This document	Tài liệu này
 	This document only?	Chỉ tài liệu này?
@@ -2315,6 +2335,7 @@ template	Letter	Thư
 	Top Left Cell	Ô trên cùng bên trái
 	Top Margin	Lề trên
 	Top of Page	Đầu trang
+	Top of the Document	Đầu tài liệu
 	Top Right Cell	Ô trên cùng bên phải
 	Total	Tổng cộng
 	Total Row	Hàng tổng

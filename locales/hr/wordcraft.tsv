@@ -263,6 +263,7 @@
 	Book title	Naslov knjige
 	Bookmark	Knjižna oznaka
 	Bookmark name:	Naziv knjižne oznake:
+	Bookmarks	Knjižne oznake
 	Border lines	Linije obruba
 	Border Painter	Kist za obrube
 	Border\nPainter	Kist za\nobrube
@@ -464,6 +465,7 @@
 	Contents can't be edited	Sadržaj se ne može uređivati
 	Context	Kontekst
 	Continue from previous section	Nastavi od prethodnog odjeljka
+	Continue without restoring	Nastavi bez vraćanja
 	Continuous	Neprekinuto
 	Continuous numbering	Neprekinuto numeriranje
 	Contour Integral	Konturni integral
@@ -497,6 +499,7 @@
 	Couldn't download {name}: {error}	Nije moguće preuzeti {name}: {error}
 	Couldn't make WordCraft the default: {error}	Nije moguće postaviti WordCraft kao zadani program: {error}
 	Couldn't open {path}: {error}	Nije moguće otvoriti {path}: {error}
+	Couldn't save {name}, so it is still open and nothing was lost: {error}	Spremanje dokumenta {name} nije uspjelo, pa je i dalje otvoren i ništa nije izgubljeno: {error}
 	Count by:	Broji po:
 	Count words in text boxes and notes	Broji riječi u tekstnim okvirima i bilješkama
 	Courtesy Title	Oslovljavanje
@@ -508,7 +511,10 @@
 	Create Link	Izradi poveznicu
 	Create New Style	Izradi novi stil
 	Create Source	Izradi izvor
+	Create Table	Stvori tablicu
+	Create Table (Hangul Style)…	Stvori tablicu (stil Hangul)…
 	Croatian	Hrvatski
+	Crop on the page works on unturned pictures: set Rotation to 0° first, or use the crop boxes	Obrezivanje na stranici radi samo na nezakrenutim slikama: najprije postavite zakretanje na 0° ili upotrijebite okvire za obrezivanje
 	Cross-reference	Unakrsna referenca
 	Cross-reference:	Unakrsna referenca:
 	{key} starts a new page. Much tidier than pressing Enter until it happens.	{key} započinje novu stranicu. Puno urednije nego pritiskati Enter dok se ne dogodi.
@@ -606,6 +612,9 @@
 	Direct formatting	Izravno oblikovanje
 	Direction	Smjer
 	Directory	Katalog
+	Discard	Odbaci
+	Discard the recovery copy of {name}?	Odbaciti kopiju za oporavak dokumenta {name}?
+	Discard…	Odbaci…
 	Discord community	Discord zajednica
 	Display for Review	Prikaz za pregled
 	Display text	Prikazani tekst
@@ -816,6 +825,8 @@
 	First Name	Ime
 	First Record	Prvi zapis
 	First row of data contains column headers	Prvi redak podataka sadrži zaglavlja stupaca
+	Fit to column	Prilagodi stupcu
+	Fit to paragraph	Prilagodi odlomku
 	Fix Position on Page	Učvrsti položaj na stranici
 	Fixed Column Width	Fiksna širina stupca
 	Floor	Donje cijelo
@@ -909,6 +920,7 @@
 	Grow Font 1 Point	Povećaj font za 1 točku
 	H:	H:
 	Hanging Indent	Viseća uvlaka
+	Hangul table look (thin black lines, roomy cells)	Izgled tablice Hangul (tanke crne crte, prostrane ćelije)
 	Harvard (Anglia)	Harvard (Anglia)
 	Hat	Cirkumfleks
 	Header	Zaglavlje
@@ -1220,6 +1232,7 @@ template	Letter	Pismo
 	Loaded {count} system fonts.	Učitano fontova sustava: {count}.
 	Local font access is not supported by your browser.	Vaš preglednik ne podržava pristup lokalnim fontovima.
 	Local font access was denied.	Pristup lokalnim fontovima je odbijen.
+	Local recovery is unavailable or still loading.	Lokalni oporavak nije dostupan ili se još učitava.
 	Location: {path}	Lokacija: {path}
 	Lock aspect ratio	Zaključaj omjer širine i visine
 	Lock Fields	Zaključaj polja
@@ -1379,6 +1392,7 @@ template	Letter	Pismo
 	No Outline	Bez obrisa
 	No Paragraph Space	Bez razmaka odlomaka
 	No printers found. Configure a system printer or export a PDF.	Nije pronađen nijedan pisač. Postavite sustavni pisač ili izvezite PDF.
+	No recovery copies.	Nema kopija za oporavak.
 	No Reflection	Bez odraza
 	No Shadow	Bez sjene
 	No Soft Edges	Bez mekih rubova
@@ -1416,6 +1430,7 @@ template	Letter	Pismo
 	Nothing	Ništa
 	Nothing collected yet. Items you copy or cut appear here.	Još ništa nije prikupljeno. Ovdje se prikazuju stavke koje kopirate ili izrežete.
 	nothing is selected	ništa nije odabrano
+	Nothing of this type in the document.	U dokumentu nema ničega ove vrste.
 	Now used by {command}	Sada ga koristi {command}
 	Nudge	Pomakni malo
 	Num Occurrences	Broj pojavljivanja
@@ -1676,7 +1691,10 @@ template	Letter	Pismo
 	Recolor a one-color picture, such as an icon	Promijeni boju jednobojne slike, primjerice ikone
 	Recolor Selected Ink	Promijeni boju odabranog rukopisa
 	Record Macro	Snimi makronaredbu
+	Recover documents	Oporavak dokumenata
 	Recover Unsaved Documents	Oporavi nespremljene dokumente
+	Recovery copy	Kopija za oporavak
+	Recovery is disabled while this document has a password.	Oporavak je isključen dok ovaj dokument ima lozinku.
 	Rectangular	Pravokutno
 	Red:	Crvena:
 	Reduce Hanging Indent	Smanji viseću uvlaku
@@ -1746,6 +1764,8 @@ template	Letter	Pismo
 	Restart Each Page	Ponovno pokreni na svakoj stranici
 	Restart Each Section	Ponovno pokreni u svakom odjeljku
 	Restart list after:	Ponovno pokreni popis nakon:
+	Restore	Vrati
+	Restore opens an unsaved copy. Your original file stays unchanged.	Vraćanje otvara nespremljenu kopiju. Izvorna datoteka ostaje nepromijenjena.
 	Restrict Editing	Ograniči uređivanje
 	Restrict\nEditing	Ograniči\nuređivanje
 	Results	Rezultati
@@ -1834,6 +1854,7 @@ template	Letter	Pismo
 	select a picture first	najprije odaberite sliku
 	select a picture or shape first	najprije odaberite sliku ili oblik
 	Select a picture, shape, chart or table to describe it.	Odaberite sliku, oblik, grafikon ili tablicu da biste ih opisali.
+	Select a place in this document:	Odaberite mjesto u ovom dokumentu:
 	Select a printer	Odaberite pisač
 	select a shape first	najprije odaberite oblik
 	Select a shape, text box or drawing canvas to format its fill.	Odaberite oblik, tekstni okvir ili crtaće platno da biste oblikovali ispunu.
@@ -2188,6 +2209,7 @@ template	Letter	Pismo
 	These merge fields aren't in the recipient list:	Ova polja za spajanje nisu na popisu primatelja:
 	These settings will be used for new documents.	Ove će se postavke koristiti za nove dokumente.
 	Thick	Debelo
+	This cannot be undone. Your original file stays unchanged.	Ovo se ne može poništiti. Izvorna datoteka ostaje nepromijenjena.
 	this chart was made in another program: WordCraft shows it but can't edit it	ovaj grafikon izrađen je u drugom programu: WordCraft ga prikazuje, ali ga ne može uređivati
 	This document	Ovaj dokument
 	This document only?	Samo ovaj dokument?
@@ -2228,6 +2250,7 @@ preview	Title	Naslov
 	Top Left Cell	Gornja lijeva ćelija
 	Top Margin	Gornja margina
 	Top of Page	Vrh stranice
+	Top of the Document	Početak dokumenta
 	Top Right Cell	Gornja desna ćelija
 	Total Row	Redak ukupnog zbroja
 	Track Changes	Prati promjene
