@@ -109,6 +109,26 @@ storytold/wordcraft#4237) in `ar`, `bg`, `cs`, `da`, `de`, `es`, `et`, `fr`,
 English meaning, using each locale's existing WordCraft terms (its name for the Normal style,
 template, default and Reset). No native-speaker review is recorded.
 
+## WordCraft: Ask Agent
+
+@CouchRiv contributed the rows for WordCraft's Ask Agent (handing a selection and an instruction to
+your own agent, storytold/wordcraft#1413): all 13 strings in `hr` and `pl` (`pl` overrides the shared
+`Any`, `Dowolne`, with `Dowolny`, which agrees with "agent") and 12 in `fr` and `vi` (they
+keep the shared `Any`); the ribbon label `Ask\nAgent` in all 21 of `bg`, `cs`, `de`, `es`, `et`,
+`fr`, `hr`, `hu`, `it`, `ja`, `pl`, `pt-br`, `ru`, `sr`, `sr-latn`, `sv`, `tr`, `uk`, `vi`,
+`zh-hans` and `zh-hant`; and the `--control` hint in `bg`, `cs`, `hu`, `it`, `ru`, `sv` and `tr`.
+AI-assisted with Claude Code (Opus 5.5) and written from the English meaning. No native-speaker
+review is recorded.
+
+The follow-up corrects the ribbon’s Vietnamese term to `tác tử`, aligns Simplified Chinese with
+`智能体` and Hungarian with `Ágens`, and keeps Turkish `Ajana` (the dative of `Ajan`, as in
+`Ajanlar`). It adds the conversation, review, optional launcher and quick-action labels now used by
+WordCraft in `fr`, `hr`, `pl` and `vi`, in the app catalog; no existing shared row is changed.
+These additions and corrections are AI-assisted with Codex, written from the English meaning and
+the catalogs’ existing terms. No native-speaker review of this Ask Agent contribution is recorded.
+This catalog contribution remains dependent on storytold/wordcraft#1413; applications must only
+advance their catalog pin after it and this contribution have merged upstream.
+
 ## WordCraft: Swedish rows kept up to date
 
 Patrik Lermon (@kler) adds and updates WordCraft's `sv` rows as WordCraft gains strings, AI-assisted
