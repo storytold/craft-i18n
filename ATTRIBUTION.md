@@ -120,6 +120,15 @@ keep the shared `Any`); the ribbon label `Ask\nAgent` in all 21 of `bg`, `cs`, `
 AI-assisted with Claude Code (Opus 5.5) and written from the English meaning. No native-speaker
 review is recorded.
 
+The follow-up corrects the ribbon’s Vietnamese term to `tác tử`, aligns Simplified Chinese with
+`智能体` and Hungarian with `Ágens`, and keeps Turkish `Ajana` (the dative of `Ajan`, as in
+`Ajanlar`). It adds the conversation, review, optional launcher and quick-action labels now used by
+WordCraft in `fr`, `hr`, `pl` and `vi`, in the app catalog; no existing shared row is changed.
+These additions and corrections are AI-assisted with Codex, written from the English meaning and
+the catalogs’ existing terms. No native-speaker review of this Ask Agent contribution is recorded.
+This catalog contribution remains dependent on storytold/wordcraft#1413; applications must only
+advance their catalog pin after it and this contribution have merged upstream.
+
 ## WordCraft: Swedish rows kept up to date
 
 Patrik Lermon (@kler) adds and updates WordCraft's `sv` rows as WordCraft gains strings, AI-assisted
