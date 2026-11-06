@@ -123,7 +123,7 @@ def main():
             raise ValueError("computed findings differ from the reviewed evidence record")
         print(json.dumps(findings, ensure_ascii=False, indent=2))
         return 0
-    except (ValueError, OSError, subprocess.CalledProcessError, ET.ParseError) as error:
+    except (KeyError, ValueError, OSError, subprocess.CalledProcessError, ET.ParseError) as error:
         print("Khmer provenance audit: " + str(error), file=sys.stderr)
         return 1
 

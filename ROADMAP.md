@@ -1,6 +1,6 @@
 # craft-i18n roadmap
 
-> **Last updated:** 2026-11-04 · **Change:** minor (KM24: pin published Aksara notices and clarify the spelling-list MIT alternative; KM23: verify CLDR 28 and SEAlang notices, record inherited-source evidence; Khmer notice preservation and pending provenance review; file-size `unit` rows and a shared byte count for craft-libs#204)
+> **Last updated:** 2026-11-05 · **Change:** minor (KM35: ship only explicit upstream notices, reserve licence names case-insensitively, pin provenance and report audit errors cleanly; KM24: pin published Aksara notices and clarify the spelling-list MIT alternative; KM23: verify CLDR 28 and SEAlang notices, record inherited-source evidence; Khmer notice preservation and pending provenance review; file-size `unit` rows and a shared byte count for craft-libs#204)
 
 Shared translations for the storytold Crafting Apps: one catalog per locale for shared strings,
 one per app, checked in CI and embedded by each app at build time. Vocabulary is in
@@ -105,6 +105,7 @@ As surveyed on 2026-10-16 (VectorCraft recounted 2026-10-18). Locale counts excl
 | 2026-11-03 | patch | Checker takes each locale's plural form count from the runtime crate (`craft-i18n` at storytold/craft-libs `32b2fd8a`, a normal dependency; its own CLDR 48.2.1 data on `icu_plurals` since craft-libs#210), replacing `intl_pluralrules` 7.0.2 and its Hebrew workaround; `icu_plurals`' compiled data has no `ckb` rules (1 form), the crate's data has 2; `tests/runtime_agreement.rs` checks every locale's count and that the crate accepts every catalog's `@plural` rows; no existing locale's count changed |
 | 2026-11-03 | minor | File sizes (storytold/craft-libs#204): `@plural {n} byte\|{n} bytes` moved from 20 locales' `pdfcraft.tsv` to `common.tsv` (additive, ADR 0003); `unit` rows (`{n} KB`, `{n} MiB`, …) only where the symbol differs from English: `fr`, `ru`, `uk` |
 | 2026-11-05 | minor | CADCraft resync before its cutover (`cadcraft@b23d362` → `cadcraft@c4d9e6a`): its Greek, Hungarian, Turkish and Vietnamese catalogs (added in the app after the 3b migration) are new here; every other CADCraft catalog takes the app's added and corrected rows and drops the prompt texts the app reworded |
+| 2026-11-05 | minor | KM35: separate shipped upstream `notice` text from reviewer `note` evidence; protect archive names regardless of case; pin Khmer provenance and handle missing audit inputs cleanly. Maintainer classification/ADR approval remains pending. |
 
 Khmer provenance follow-up (2026-11-04): preserve all three MIT holders in pack output, including a
 pinned SIL notice and the supplied SEAlang notice. The six-file pack remains

@@ -131,8 +131,12 @@ pub struct Entry {
     pub name: Option<String>,
     /// The licence statements behind the recorded licence and class, quoted, when the evidence is
     /// weak or contradictory (required when `class` is more restricted than `licence` allows).
+    /// Reviewer evidence only: never included in staged files or archives.
     #[serde(default)]
     pub note: Option<String>,
+    /// Verbatim upstream notice text to ship in `LICENCES/NOTICES.txt` (licence entries only).
+    #[serde(default)]
+    pub notice: Option<String>,
     /// Optional archive basename for a licence whose upstream name would collide.
     #[serde(default)]
     pub filename: Option<String>,
@@ -429,20 +433,17 @@ pub fn data_licence_ids(manifest: &Manifest, locale: &str) -> BTreeSet<String> {
         .collect()
 }
 
-/// Quoted upstream licence evidence travels with staged files and archives, including notices
-/// supplied by a contributor which have no pinned raw URL of their own.
+/// Verbatim upstream notices travel with staged files and archives, including notices without
+/// a pinned raw URL of their own. Reviewer evidence in `note` never ships.
 #[must_use]
-pub fn licence_notes(manifest: &Manifest, locale: &str) -> Option<String> {
-    let notes: Vec<_> = manifest
+pub fn licence_notices(manifest: &Manifest, locale: &str) -> Option<String> {
+    let notices: Vec<_> = manifest
         .entries(locale)
         .filter(|e| e.kind == Kind::Licence)
-        .filter_map(|e| {
-            e.note
-                .as_deref()
-                .map(|note| format!("Source: {}\n\n{note}\n", e.url))
-        })
+        .filter_map(|e| e.notice.as_deref())
+        .filter(|notice| !notice.trim().is_empty())
         .collect();
-    (!notes.is_empty()).then(|| notes.join("\n"))
+    (!notices.is_empty()).then(|| notices.join("\n"))
 }
 
 /// Every problem with the manifest, the checks files and the standard licence texts (`texts`, by
@@ -509,7 +510,7 @@ pub fn check(
             Kind::Licence => e.pack_path(),
             other => format!("{other:?}"),
         };
-        if !seen.insert((e.locale.clone(), key.clone())) {
+        if !seen.insert((e.locale.clone(), key.to_ascii_lowercase())) {
             errors.push(format!("{at}: duplicate {key} for {}", e.locale));
         }
         if e.kind == Kind::Licence && !safe_file_name(e.file_name()) {
@@ -522,9 +523,15 @@ pub fn check(
                 "{at}: filename is only allowed for a licence entry"
             ));
         }
-        if e.kind == Kind::Licence && e.file_name() == "NOTICES.txt" {
+        if e.notice.is_some() && e.kind != Kind::Licence {
+            errors.push(format!("{at}: notice is only allowed for a licence entry"));
+        }
+        if e.notice.as_deref().is_some_and(|n| n.trim().is_empty()) {
+            errors.push(format!("{at}: notice must not be empty"));
+        }
+        if e.kind == Kind::Licence && e.file_name().eq_ignore_ascii_case("NOTICES.txt") {
             errors.push(format!(
-                "{at}: NOTICES.txt is reserved for quoted licence evidence"
+                "{at}: NOTICES.txt is reserved for upstream notices"
             ));
         }
     }
@@ -555,9 +562,9 @@ pub fn check(
                     "{locale}: no full text of {id} (language-data/licences/{id}.txt, or a licence entry naming a LicenseRef)"
                 ));
             }
-            let clash = manifest
-                .entries(locale)
-                .any(|e| e.kind == Kind::Licence && e.file_name() == format!("{id}.txt"));
+            let clash = manifest.entries(locale).any(|e| {
+                e.kind == Kind::Licence && e.file_name().eq_ignore_ascii_case(&format!("{id}.txt"))
+            });
             if clash {
                 errors.push(format!(
                     "{locale}: a licence entry is named {id}.txt, like the standard text"
@@ -808,9 +815,9 @@ pub fn archive(
             .ok_or_else(|| format!("{locale}: no language-data/licences/{id}.txt"))?;
         standard.push((format!("LICENCES/{id}.txt"), text.as_slice()));
     }
-    let notes = licence_notes(manifest, locale);
-    if let Some(notes) = &notes {
-        standard.push(("LICENCES/NOTICES.txt".into(), notes.as_bytes()));
+    let notices = licence_notices(manifest, locale);
+    if let Some(notices) = &notices {
+        standard.push(("LICENCES/NOTICES.txt".into(), notices.as_bytes()));
     }
     let pack = PackToml {
         locale,
@@ -843,11 +850,11 @@ pub fn archive(
     items.extend(standard);
     items.push(("pack.toml".into(), pack_toml.as_bytes()));
     items.sort_by(|a, b| a.0.cmp(&b.0));
-    if let Some(w) = items
-        .windows(2)
-        .find(|w| w.first().map(|a| &a.0) == w.get(1).map(|b| &b.0))
+    let mut seen = BTreeSet::new();
+    if let Some((name, _)) = items
+        .iter()
+        .find(|(name, _)| !seen.insert(name.to_ascii_lowercase()))
     {
-        let name = w.first().map_or("", |a| a.0.as_str());
         return Err(format!("{locale}: two files named {name}"));
     }
     let mut tar = tar::Builder::new(Vec::new());

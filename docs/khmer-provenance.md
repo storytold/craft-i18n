@@ -1,7 +1,7 @@
 # Aksara input provenance and pending licence review
 
 Recorded 2026-11-04. This is an evidence record, not an Embeddable approval.
-The six source artifacts and their exact hashes are in [source-pins.json](https://github.com/sungkhum/craft-libs/blob/feat/khmer-writing-support/crates/khmer/source-pins.json),
+The six source artifacts and their exact hashes are in [source-pins.json](https://github.com/sungkhum/craft-libs/blob/0b478944aa27a5bef1f51508c57bd236f272326d/crates/khmer/source-pins.json),
 at Aksara revision `31740e9d51d38171ae6119fc2d18a4a18fbfb2f1`.
 
 ## Contributor statements

@@ -23,7 +23,8 @@ size = 12345                  # bytes
 licence = "BSD-3-Clause"      # SPDX expression
 class = "Embeddable"          # Embeddable | Download-only | Excluded
 name = "Nederlands"           # optional, first entry per locale wins: endonym
-note = "…"                    # optional: quoted licence evidence
+note = "…"                    # optional reviewer evidence; never shipped
+notice = '''…'''               # optional verbatim upstream notice, licence entries only
 filename = "LICENSE-source"   # optional licence basename; avoids upstream LICENSE collisions
 ```
 
@@ -42,9 +43,13 @@ filename = "LICENSE-source"   # optional licence basename; avoids upstream LICEN
   entries need a `note`.
 - A `licence` entry may set `filename` to a safe archive basename when upstream
   licences share a name such as `LICENSE`. This changes the destination name only.
-  Licence-entry `note` text is preserved in `LICENCES/NOTICES.txt` in both staged
-  output and archives, and listed in archive metadata for About. That filename is
-  reserved. A note is evidence, not a replacement for the source licence.
+  Nonempty licence-entry `notice` text is preserved verbatim in `LICENCES/NOTICES.txt`
+  in both staged output and archives, and listed in archive metadata for About.
+  Use it only for upstream licence notices without a pinned raw file of their own;
+  `note` remains reviewer evidence in the manifest and never ships. The pinned Aksara
+  notice retains its upstream build/modification history. Licence basenames must be
+  unique regardless of case; `NOTICES.txt` and standard `<id>.txt` names are reserved
+  in every case. A supplemental notice does not replace the source licence.
 - **Licence texts.** Every locale has at least one `licence` entry, the upstream notice (a
   hyphenation file's own header counts: the `.tex` is listed again as a `licence` entry when its
   licence has no SPDX id). On top of that, every licence id its data files name must have a full
@@ -97,7 +102,8 @@ Every CI run (`cargo test --workspace`, no network):
 - every licence parses as SPDX, uses only allow-listed ids, and its class is not less restricted
   than the licence allows; a more restricted class has a `note`;
 - no duplicate (locale, kind); licence file names are `[A-Za-z0-9._-]`, not starting with `.`,
-  unique in a locale and never clash with a standard text's `<id>.txt`;
+  unique in a locale regardless of case and never clash with `NOTICES.txt` or a standard
+  text's `<id>.txt` in any case; `notice` is nonempty and only allowed on licence entries;
 - a locale with spelling has both `.aff` and `.dic`; every locale has a name and a licence
   entry, and every data licence id has a full text (above); every file in
   `language-data/licences/` is an allow-listed SPDX id;

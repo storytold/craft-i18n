@@ -131,8 +131,8 @@ fn run(argv: Vec<String>) -> Result<(), String> {
                     files.push((format!("LICENCES/{id}.txt"), bytes.clone()));
                 }
             }
-            if let Some(notes) = packs::licence_notes(manifest, &locale) {
-                files.push(("LICENCES/NOTICES.txt".into(), notes.into_bytes()));
+            if let Some(notices) = packs::licence_notices(manifest, &locale) {
+                files.push(("LICENCES/NOTICES.txt".into(), notices.into_bytes()));
             }
             write_staged_files(&out, files)
         }
