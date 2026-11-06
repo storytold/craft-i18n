@@ -15,7 +15,7 @@ One `[[file]]` per upstream file:
 ```toml
 [[file]]
 locale = "nl"                 # lowercase BCP 47
-kind = "spelling-aff"         # spelling-aff | spelling-dic | hyphenation | licence
+kind = "spelling-aff"         # spelling-aff | spelling-dic | hyphenation | hyphenation-nonstandard | licence
 url = "https://raw.githubusercontent.com/LibreOffice/dictionaries/<commit>/nl_NL/nl_NL.aff"
 commit = "<upstream commit sha>"
 sha256 = "<hex>"
@@ -28,7 +28,9 @@ note = "…"                    # optional: the licence statements, quoted, when
 
 - **A pack is every entry of one locale.** `spelling-aff`/`spelling-dic` are a Hunspell pair,
   `hyphenation` a TeX pattern file (an unmodified `hyph-*.tex` from tex-hyphen, compiled when
-  loaded), `licence` a licence or README text that travels with the data.
+  loaded), `hyphenation-nonstandard` optional UTF-8 Libhyphen/Huhyphn replacement patterns,
+  and `licence` a licence or README text that travels with the data. Nonstandard
+  patterns require a separate standard `hyphenation` entry in the same locale.
 - **`licence`** is the licence the file is used under. When upstream offers several, the one in
   the least restricted class is recorded (ADR 0004). When the evidence is weak or contradictory,
   `licence` lists every licence the statements offer, `class` is Download-only (or Excluded, if
@@ -74,9 +76,8 @@ uses its language's (`es-mx` uses `es`). **`hidden = true`** keeps a pack out of
 gap in the pinned `craft-proof`: an unsupported feature (`craft-proof doesn't support <feature> yet
 (<AFF flag>)`), missing word segmentation, or suggestions too slow to use. It is a statement of fact
 about the pinned `craft-proof`, so refresh it when the pin moves.
-As of 2026-11-02 (craft-proof at storytold/craft-libs rev `47c9f625`, the merge of #497, flag-based
-compounding): 80 locales, 3 Excluded (eu, ug, uk), 2 hidden (mn, whose suggestions take 200–580 ms over
-its 12,066 affix rules; th, which needs word segmentation), 75 published.
+The current manifest and check-word files determine which packs are published;
+refresh hidden reasons against the exact craft-proof revision in Cargo.lock.
 
 ## Checks
 
@@ -95,7 +96,9 @@ Every CI run (`cargo test --workspace`, no network):
   `language-data/licences/` is an allow-listed SPDX id;
 - every locale with spelling that isn't Excluded has check words (or is hidden with a reason),
   none empty, and every checks file names a manifest locale;
-- no locale with an Excluded entry is published.
+- no locale with an Excluded entry is published;
+- nonstandard hyphenation always has the standard fallback, including spelling-only packs;
+- archives copy verified upstream bytes unchanged, with matching `pack.toml` source hashes.
 
 With `CRAFT_I18N_FETCH=1` (the weekly and release workflow,
 [`.github/workflows/language-packs.yml`](../.github/workflows/language-packs.yml)):
@@ -119,7 +122,8 @@ leaves a **draft** release behind: delete it before running again, or the rerun 
 the name.
 
 - **`<locale>.tar.zst`** per published pack (no Excluded entry, not hidden, checks passed). At
-  the archive root: `spelling.aff`, `spelling.dic`, `hyphenation.pat` (any may be absent),
+  the archive root: `spelling.aff`, `spelling.dic`, `hyphenation.pat` (as applicable),
+  optional `hyphenation.nonstandard` (only alongside `hyphenation.pat`),
   `LICENCES/<original file name>` for each `licence` entry, `LICENCES/<SPDX id>.txt` for each
   standard text, and `pack.toml` (locale, name, licence, class, version, `upstream` (as `source`
   below), `licence_texts`, and a `[[source]]` per file with its url, commit, sha256, licence and
@@ -167,3 +171,41 @@ python3 -m http.server 8765 --bind 127.0.0.1 --directory /tmp/packs
 
 Then point the app's pack index at `http://127.0.0.1:8765/index.json` with the sha256 of that
 file (`sha256sum /tmp/packs/index.json`). Leave out `--only` to build every published pack.
+
+## Optional nonstandard hyphenation
+
+`hyphenation-nonstandard` supplies UTF-8 Libhyphen/Huhyphn replacement patterns as
+`hyphenation.nonstandard` alongside the required standard `hyphenation.pat`.
+The checker and installer enforce this pairing even in spelling-only packs.
+The reader returns display-only inserted letters; applications must handle them
+in layout and PDF output without modifying the source text.
+
+The Hungarian file is copied byte for byte from LibreOffice/dictionaries commit
+`4f1df64b2e8e14751aa7c2205d170ca016071315`. Its archive bytes and `pack.toml`
+source SHA-256 both match the manifest, including these malformed records:
+
+- line 97192: `.mas5száz8s3zok1ni/sz=3,1,1,14`
+- line 100649: `gic5csetek/cs=,3,1 ,1,9`
+
+The shared reader logs and skips those records; it neither rewrites their bytes
+nor repairs their replacement declarations. Valid neighbouring records still
+load. This intentionally loses the special breaks for `masszázszokni` and
+`giccsetek` until upstream fixes them. No modification notice is generated.
+Original authors, notices and full selected MPL-1.1 licence remain in the pack.
+The archive regression checks byte preservation at different source pins, and
+the real generated archive is also tested through craft-font-store's installer.
+
+### Release order and dependency gate
+
+This is an extension proposed in [ADR 0005](adr/0005-language-data-lives-here.md).
+Older font-store installers reject the extra filename, even if the standard
+fallback is present. Merge and release craft-libs #598 (reader **and** installer),
+update consumers to that support, then release a new immutable pack/index.
+Never replace an archive or index in an older pinned release.
+
+The checker uses the published review commit of #598 without local Cargo
+source overrides. Before merging this data PR, repin it to the eventual #598
+merge commit on craft-libs main and rerun the data checks. That merge revision
+cannot be pinned before it exists. Other pending pack kinds (including Khmer)
+are independent; whichever change merges second must retain both enum variants,
+match arms and manifest checks.

@@ -66,3 +66,20 @@ then apps keep what they embed today and fall back to system dictionaries.
 - **Keep data in craft-libs crates**: rejected, it is what scattered the copies, and cargo
   features can't download a language after install.
 - **A second download mechanism**: rejected, two consent switches for one suite.
+
+## Proposed optional replacement-pattern extension (PR #152)
+
+An optional `hyphenation.nonstandard` file may accompany `hyphenation.pat` for
+Libhyphen/Huhyphn breaks that insert display letters. The standard file remains
+mandatory whenever the optional file is present, even in a spelling-only pack.
+Both files retain the exact upstream bytes, source pins, licences and notices;
+malformed replacement records are diagnosed and skipped by the shared reader.
+
+This extends the archive allow-list and needs maintainer approval with this PR.
+Existing font-store releases reject the new file, so retaining `hyphenation.pat`
+alone does not make an expanded archive compatible with older installers.
+Release craft-proof's reader and craft-font-store's installer support first,
+update consuming applications to that release, then publish a new immutable
+Language pack release/index for those applications. Keep older pinned releases
+unchanged. Before merging #152, pin the checker to the #598 merge commit on
+craft-libs main; the feature-branch review pin is not a release dependency.

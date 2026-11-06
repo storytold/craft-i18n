@@ -80,6 +80,35 @@ fn spelling_problems(aff: &[u8], dic: &[u8], checks: &Checks) -> Result<Vec<Stri
     Ok(problems)
 }
 
+/// The exact hu sources load through the pinned shared reader, without fetching other packs.
+#[test]
+#[ignore = "requires CRAFT_I18N_CACHE containing the verified hu source files"]
+fn hungarian_sources_load_unmodified_from_verified_cache() {
+    let repo = packs::load_repo().unwrap();
+    let cache = std::path::PathBuf::from(std::env::var("CRAFT_I18N_CACHE").unwrap());
+    let get = |kind| {
+        let entry = repo
+            .manifest
+            .entries("hu")
+            .find(|e| e.kind == kind)
+            .unwrap();
+        packs::fetch(entry, &cache, false).unwrap()
+    };
+    let (aff, dic) = (get(Kind::SpellingAff), get(Kind::SpellingDic));
+    assert!(
+        spelling_problems(&aff, &dic, &repo.checks["hu"])
+            .unwrap()
+            .is_empty()
+    );
+    for kind in [Kind::Hyphenation, Kind::HyphenationNonstandard] {
+        let bytes = get(kind);
+        let patterns =
+            craft_proof::patterns::Patterns::parse_checked(std::str::from_utf8(&bytes).unwrap())
+                .unwrap();
+        assert!(!patterns.is_empty());
+    }
+}
+
 /// Network: every published pack's dictionary loads through craft-proof's affix engine and gets
 /// its check words right, and its hyphenation patterns compile. Hidden packs are tried too and
 /// reported (not failed), so the report says when one could be published.
@@ -113,11 +142,16 @@ fn packs_load_and_check() {
                 (Err(e), false) => eprintln!("{locale}: hidden; {e}"),
             }
         }
-        if published && let Some(pat) = file(&manifest, locale, Kind::Hyphenation) {
-            match String::from_utf8(pat) {
-                Ok(text) if !craft_proof::patterns::Patterns::parse(&text).is_empty() => {}
-                Ok(_) => errors.push(format!("{locale}: hyphenation has no patterns")),
-                Err(e) => errors.push(format!("{locale}: hyphenation is not UTF-8: {e}")),
+        if published {
+            for kind in [Kind::Hyphenation, Kind::HyphenationNonstandard] {
+                let Some(raw) = file(&manifest, locale, kind) else {
+                    continue;
+                };
+                match std::str::from_utf8(&raw) {
+                    Ok(text) if !craft_proof::patterns::Patterns::parse(text).is_empty() => {}
+                    Ok(_) => errors.push(format!("{locale}: {kind:?} has no patterns")),
+                    Err(e) => errors.push(format!("{locale}: {kind:?} is not UTF-8: {e}")),
+                }
             }
         }
     }
@@ -454,6 +488,32 @@ mod fixtures {
         assert_eq!(packs::verify(&e, b"hello"), Ok(()));
         assert!(packs::verify(&e, b"hellO").unwrap_err().contains("sha256"));
         assert!(packs::verify(&e, b"hello!").unwrap_err().contains("bytes"));
+    }
+
+    /// An optional replacement file must not turn a spelling-only pack into a broken hyphenation pack.
+    #[test]
+    fn nonstandard_patterns_require_standard_fallback() {
+        let mut m = Manifest { file: nl() };
+        m.file.push(entry(
+            "nl",
+            Kind::HyphenationNonstandard,
+            "x/hyph-nl.dic",
+            "BSD-3-Clause",
+            Class::Embeddable,
+        ));
+        assert!(
+            packs::check(&m, &words(), &texts())
+                .iter()
+                .any(|e| e.contains("hyphenation-nonstandard needs"))
+        );
+        m.file.push(entry(
+            "nl",
+            Kind::Hyphenation,
+            "x/hyph-nl.tex",
+            "BSD-3-Clause",
+            Class::Embeddable,
+        ));
+        assert!(packs::check(&m, &words(), &texts()).is_empty());
     }
 
     /// The archive holds the contract layout, is the same bytes every time, and `build` writes it

@@ -26,5 +26,5 @@ zstd = "0.14.3"
 workspace = true
 
 [dev-dependencies]
-# craft-libs main at the merge of #497 (flag-based compounding), which also has #496.
-craft-proof = { git = "https://github.com/storytold/craft-libs", rev = "47c9f625" }
+# Companion shared proofing change: storytold/craft-libs#598; pin its published review commit.
+craft-proof = { git = "https://github.com/storytold/craft-libs", rev = "b4598283e0b25f753fe4e7858151d5a2f6661043" }
