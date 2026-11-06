@@ -1,0 +1,289 @@
+# தமிழ் (ta) interface catalog for ArtCraft Launcher.
+# Columns, separated by a TAB:  context <TAB> English source text <TAB> translation
+#   context  usually empty. `@plural`, `@id` and `@msg` mean something to the apps; any other
+#            word is a label that tells apart two meanings of the same English.
+#   escapes  \n  \t  \\  inside a column. `{name}` placeholders must appear in both columns (in any
+#            order), and a trailing "…" in one needs one in the other.
+#   @plural  English `one|other`; the translation lists this language's plural forms, `|`-separated.
+#   Lines starting with # and blank lines are ignored. A missing entry shows in English.
+#
+# Clean room: every entry was written from the plain meaning of the English text in ordinary
+# computing vocabulary. No other product's localisation, string table or translated UI was
+# consulted or copied; add entries the same way.
+
+	A new version is available. Would you like to relaunch with the updated version?	புதிய பதிப்பு கிடைக்கிறது. புதுப்பிக்கப்பட்ட பதிப்புடன் மீண்டும் தொடங்க விரும்புகிறீர்களா?
+	All releases	அனைத்து வெளியீடுகள்
+	App	பயன்பாடு
+column	App	பயன்பாடு
+	App details	பயன்பாட்டு விவரங்கள்
+@id	app.download	{os}-க்குப் பதிவிறக்கு
+@id	app.github	GitHub களஞ்சியம்
+@id	app.install	நிறுவு
+@id	app.notes	வெளியீட்டுக் குறிப்புகள்
+@id	app.open	திற
+@id	app.reinstall	மீண்டும் நிறுவு
+@id	app.releases	அனைத்து வெளியீடுகள்
+@id	app.reveal	Finder-இல் காட்டு
+@id	app.uninstall	நிறுவல் நீக்கு…
+@id	app.update	{v}-க்குப் புதுப்பி
+@id	app.website	இணையதளம்
+@id	appearance.theme	தோற்றம்
+	Apps are placed inside this folder.	பயன்பாடுகள் இந்தக் கோப்புறைக்குள் சேமிக்கப்படும்.
+	Apps on this computer	இந்தக் கணினியில் உள்ள பயன்பாடுகள்
+	Apps you can install	நீங்கள் நிறுவக்கூடிய பயன்பாடுகள்
+	Apps you hid	நீங்கள் மறைத்த பயன்பாடுகள்
+month	Apr	ஏப்.
+	Arch package (.pkg.tar.zst)	Arch தொகுப்பு (.pkg.tar.zst)
+	ArtCraft Launcher	ArtCraft Launcher
+	ArtCraft Launcher {version}	ArtCraft Launcher {version}
+	ArtCraft Launcher {version} is available.	ArtCraft Launcher {version} கிடைக்கிறது.
+@plural	ArtCraft Launcher · {n} update available|ArtCraft Launcher · {n} updates available	ArtCraft Launcher · {n} புதுப்பிப்பு கிடைக்கிறது|ArtCraft Launcher · {n} புதுப்பிப்புகள் கிடைக்கின்றன
+	ArtCraft on GitHub	GitHub-இல் ArtCraft
+	ArtCraft on {name}	{name}-இல் ArtCraft
+month	Aug	ஆக.
+	Auto	தானியங்கு
+	Automatically download and install updates	புதுப்பிப்புகளைத் தானாகப் பதிவிறக்கி நிறுவு
+	Available to install	நிறுவக் கிடைக்கிறது
+	Cancel download	பதிவிறக்கத்தை ரத்துசெய்
+	Cancel update	புதுப்பிப்பை ரத்துசெய்
+	Checked {ago}	{ago} சரிபார்க்கப்பட்டது
+	Checked {ago} · using {sources}	{ago} சரிபார்க்கப்பட்டது · {sources} மூலம்
+	Checking for updates…	புதுப்பிப்புகளைத் தேடுகிறது…
+	Checking…	சரிபார்க்கிறது…
+	Classic apps	கிளாசிக் பயன்பாடுகள்
+	Click to enlarge	பெரிதாக்க கிளிக் செய்யவும்
+	Click to reverse the order	வரிசையைத் தலைகீழாக்க கிளிக் செய்யவும்
+	Click to sort by this column	இந்த நெடுவரிசையின்படி வரிசைப்படுத்த கிளிக் செய்யவும்
+	Coming soon	விரைவில் வரும்
+cadcraft	Computer-aided design and drafting	கணினிவழி வடிவமைப்பு மற்றும் வரைவு
+	Couldn't change the login item: {e}	உள்நுழைவு உருப்படியை மாற்ற முடியவில்லை: {e}
+	Couldn't check for updates: {f}	புதுப்பிப்புகளைச் சரிபார்க்க முடியவில்லை: {f}
+@msg	couldn't move {path} to Trash ({reason}). Remove it in Finder instead.	{path}-ஐக் குப்பைக்கு நகர்த்த முடியவில்லை ({reason}). அதற்குப் பதிலாக Finder-இல் அதை நீக்கவும்.
+@msg	couldn't use install folder {path}: {reason}	நிறுவல் கோப்புறை {path}-ஐப் பயன்படுத்த முடியவில்லை: {reason}
+	Craft App Suite	Craft App Suite
+	Custom folders use AppImage on Linux.	Linux-இல் தனிப்பயன் கோப்புறைகள் AppImage-ஐப் பயன்படுத்துகின்றன.
+@msg	custom install folders aren't supported on this system	இந்த அமைப்பில் தனிப்பயன் நிறுவல் கோப்புறைகள் ஆதரிக்கப்படவில்லை
+	Debian package (.deb)	Debian தொகுப்பு (.deb)
+month	Dec	டிச.
+	Default install folder	இயல்புநிலை நிறுவல் கோப்புறை
+	Discard download	பதிவிறக்கத்தை நிராகரி
+	Disk image (.dmg)	வட்டுப் படிமம் (.dmg)
+	Download again	மீண்டும் பதிவிறக்கு
+	Download cancelled	பதிவிறக்கம் ரத்துசெய்யப்பட்டது
+@msg	Download cancelled	பதிவிறக்கம் ரத்துசெய்யப்பட்டது
+	Download for {os}	{os}-க்குப் பதிவிறக்கு
+	Download paused	பதிவிறக்கம் இடைநிறுத்தப்பட்டது
+	Downloading	பதிவிறக்குகிறது
+	Downloading {done} of {total}	{total}-இல் {done} பதிவிறக்கப்படுகிறது
+	Downloading…	பதிவிறக்குகிறது…
+	Downloads for {platform}	{platform}-க்கான பதிவிறக்கங்கள்
+	Downloads the new version, replaces this one and opens it again	புதிய பதிப்பைப் பதிவிறக்கி, இதை மாற்றிவிட்டு, மீண்டும் திறக்கும்
+	Enlarge picture	படத்தைப் பெரிதாக்கு
+	Every Craft app	அனைத்து Craft பயன்பாடுகளும்
+	Features	அம்சங்கள்
+month	Feb	பிப்.
+@id	filter.all	அனைத்தும்
+@id	filter.installed	நிறுவப்பட்டவை
+@id	filter.notinstalled	நிறுவப்படாதவை
+@id	filter.updates	புதுப்பிப்புகள்
+	Flatpak bundle	Flatpak தொகுப்பு
+	Full changelog	முழு மாற்றப் பதிவு
+	GitHub limit hit; back in {min} min	GitHub வரம்பு எட்டப்பட்டது; {min} நிமிடத்தில் மீண்டும் கிடைக்கும்
+	GitHub repository	GitHub களஞ்சியம்
+	GitHub's hourly limit was reached; full details return in {min} min	GitHub-இன் மணிநேர வரம்பு எட்டப்பட்டது; முழு விவரங்கள் {min} நிமிடத்தில் மீண்டும் கிடைக்கும்
+@id	help.discord	Discord
+@id	help.github	GitHub
+@id	help.website	இணையதளம்
+	Hidden Apps	மறைக்கப்பட்ட பயன்பாடுகள்
+	Hide App	பயன்பாட்டை மறை
+photocraft	Image editing	படத் திருத்தம்
+	Include pre-releases (betas and release candidates)	முன்வெளியீடுகளைச் சேர் (பீட்டா மற்றும் வெளியீட்டு வேட்பாளர் பதிப்புகள்)
+	Inspired by	ஈர்க்கப்பட்டது
+	Install	நிறுவு
+	Install cancelled	நிறுவல் ரத்துசெய்யப்பட்டது
+	Install cancelled. The download is kept for the next try.	நிறுவல் ரத்துசெய்யப்பட்டது. அடுத்த முயற்சிக்காகப் பதிவிறக்கம் வைக்கப்பட்டுள்ளது.
+	Install folder	நிறுவல் கோப்புறை
+	Install new apps as	புதிய பயன்பாடுகளை இவ்வாறு நிறுவு
+	Installed	நிறுவப்பட்டது
+column	Installed	நிறுவப்பட்டது
+filter	Installed	நிறுவப்பட்டவை
+	installed	நிறுவப்பட்டது
+	Installed apps with a newer version	புதிய பதிப்பு உள்ள நிறுவப்பட்ட பயன்பாடுகள்
+	Installed version	நிறுவப்பட்ட பதிப்பு
+	Installed · latest {latest}	நிறுவப்பட்டது · சமீபத்தியது {latest}
+	Installed · up to date	நிறுவப்பட்டது · புதுப்பித்த நிலையில்
+	Installer (.msi)	நிறுவி (.msi)
+	Installing for {platform}	{platform}-க்கு நிறுவுதல்
+	Installing on Linux	Linux-இல் நிறுவுதல்
+	Installing on Windows	Windows-இல் நிறுவுதல்
+	Installing, then restarting…	நிறுவி, பின்னர் மறுதொடக்கம் செய்கிறது…
+	Installing…	நிறுவுகிறது…
+figcraft	Interface design and prototyping	இடைமுக வடிவமைப்பு மற்றும் முன்மாதிரி
+month	Jan	ஜன.
+	Join the ArtCraft community on Discord	Discord-இல் ArtCraft சமூகத்தில் இணையுங்கள்
+	Join the Discord	Discord-இல் இணையுங்கள்
+month	Jul	ஜூலை
+month	Jun	ஜூன்
+	Keep running in the tray when the window is closed	சாளரத்தை மூடும்போது தட்டில் தொடர்ந்து இயங்கு
+	Latest	சமீபத்தியது
+column	Latest	சமீபத்தியது
+	Latest release	சமீபத்திய வெளியீடு
+	Latest version	சமீபத்திய பதிப்பு
+	Launcher	Launcher
+@id	launcher.dismiss	நிராகரி
+@id	launcher.download	பதிவிறக்கு
+@id	launcher.notes	புதிய அம்சங்கள்
+@id	launcher.update	புதுப்பித்து மறுதொடக்கம் செய்
+	Learn more	மேலும் அறிக
+	Like {name}	{name} போன்றது
+	link	இணைப்பு
+@id	linux.preferred_kind	புதிய பயன்பாடுகளை இவ்வாறு நிறுவு
+	Loading ArtCraft Launcher…	ArtCraft Launcher ஏற்றப்படுகிறது…
+	Loading pictures…	படங்கள் ஏற்றப்படுகின்றன…
+month	Mar	மார்.
+	Match system	கணினியுடன் பொருத்து
+month	May	மே
+effectcraft	Motion graphics and visual effects	இயக்கவரைகலை மற்றும் காட்சி விளைவுகள்
+	NEW	புதியது
+	New	புதியது
+	New apps	புதிய பயன்பாடுகள்
+	New installs use this folder. Updates stay in their current location.	புதிய நிறுவல்கள் இந்தக் கோப்புறையைப் பயன்படுத்தும். புதுப்பிப்புகள் அவற்றின் தற்போதைய இடத்திலேயே இருக்கும்.
+	Newest release	மிகப் புதிய வெளியீடு
+	Next picture (→)	அடுத்த படம் (→)
+	No apps match	பொருந்தும் பயன்பாடுகள் இல்லை
+	No downloads for this system	இந்த அமைப்புக்குப் பதிவிறக்கங்கள் இல்லை
+	No notes were published with this release.	இந்த வெளியீட்டுடன் குறிப்புகள் எதுவும் வெளியிடப்படவில்லை.
+	No release published yet	இன்னும் வெளியீடு எதுவும் வெளியிடப்படவில்லை
+	Not available here	இங்கு கிடைக்கவில்லை
+	Not checked yet	இன்னும் சரிபார்க்கப்படவில்லை
+	Not installed	நிறுவப்படவில்லை
+	Notify me when an installed app has an update	நிறுவப்பட்ட பயன்பாட்டுக்குப் புதுப்பிப்பு இருக்கும்போது எனக்குத் தெரிவி
+month	Nov	நவ.
+month	Oct	அக்.
+	Only when I ask	நான் கேட்கும்போது மட்டும்
+	Open ArtCraft Launcher to update.	புதுப்பிக்க ArtCraft Launcher-ஐத் திறக்கவும்.
+	Open on GitHub	GitHub-இல் திற
+	Open Source Tools for Creatives, Makers, and Builders	படைப்பாளிகள், உருவாக்குநர்கள் மற்றும் கட்டமைப்பாளர்களுக்கான திறந்தமூலக் கருவிகள்
+designcraft	Page layout and publishing	பக்க வடிவமைப்பு மற்றும் வெளியீடு
+	Pause download	பதிவிறக்கத்தை இடைநிறுத்து
+lightcraft	Photo library and raw development	புகைப்பட நூலகம் மற்றும் RAW மேம்படுத்தல்
+	Pictures couldn't be loaded. Reopen this page to try again.	படங்களை ஏற்ற முடியவில்லை. மீண்டும் முயல இந்தப் பக்கத்தை மறுபடி திறக்கவும்.
+	Platforms	தளங்கள்
+	Portable (.zip)	கையடக்கம் (.zip)
+deckcraft	Presentations and slide shows	விளக்கக்காட்சிகள் மற்றும் ஸ்லைடு காட்சிகள்
+	Previous picture (←)	முந்தைய படம் (←)
+	Questions, ideas and news from the ArtCraft team	ArtCraft குழுவிடமிருந்து கேள்விகள், யோசனைகள் மற்றும் செய்திகள்
+	Quit ArtCraft Launcher	ArtCraft Launcher-இலிருந்து வெளியேறு
+pdfcraft	Reading, organizing and protecting PDFs	PDF-களைப் படித்தல், ஒழுங்கமைத்தல் மற்றும் பாதுகாத்தல்
+	Reconnecting…	மீண்டும் இணைக்கிறது…
+soundcraft	Recording, editing and mixing audio	ஒலிப்பதிவு, திருத்தம் மற்றும் கலவை
+	Reinstall	மீண்டும் நிறுவு
+	Release notes	வெளியீட்டுக் குறிப்புகள்
+	Released	வெளியிடப்பட்டது
+column	Released	வெளியிடப்பட்டது
+	Released {date}	{date} அன்று வெளியிடப்பட்டது
+	Releases	வெளியீடுகள்
+	Removing…	நீக்குகிறது…
+	Replace what's there?	இங்குள்ளதை மாற்றவா?
+	Resume download	பதிவிறக்கத்தைத் தொடர்
+	Retry install	நிறுவலை மீண்டும் முயல்
+	Retry update to {version}	{version}-க்கான புதுப்பிப்பை மீண்டும் முயல்
+	RPM package (.rpm)	RPM தொகுப்பு (.rpm)
+	Running in the background	பின்னணியில் இயங்குகிறது
+	Search apps	பயன்பாடுகளைத் தேடு
+month	Sep	செப்.
+@id	settings.open	அமைப்புகள்
+@id	settings.quit	ArtCraft Launcher-இலிருந்து வெளியேறு
+	Show apps as a table	பயன்பாடுகளை அட்டவணையாகக் காட்டு
+	Show apps as cards	பயன்பாடுகளை அட்டைகளாகக் காட்டு
+	Show ArtCraft Launcher	ArtCraft Launcher-ஐக் காட்டு
+	Show in Explorer	Explorer-இல் காட்டு
+	Show in Files	கோப்பில் காட்டு
+	Show in Finder	Finder-இல் காட்டு
+	Show the window on the current desktop	தற்போதைய டெஸ்க்டாப்பில் சாளரத்தைக் காட்டு
+@id	sort.inspired	ஈர்க்கப்பட்டது
+@id	sort.installed	நிறுவப்பட்ட பதிப்பு
+@id	sort.latest	சமீபத்திய பதிப்பு
+@id	sort.name	பெயர்
+@id	sort.released	மிகப் புதிய வெளியீடு
+@id	sort.status	நிலை
+@id	sort.suite	தொகுப்பு வரிசை
+gridcraft	Spreadsheets and data	விரிதாள்கள் மற்றும் தரவு
+	Start ArtCraft Launcher when I log in	நான் உள்நுழையும்போது ArtCraft Launcher-ஐத் தொடங்கு
+	Stop waiting; the update can be started again later	காத்திருப்பதை நிறுத்து; புதுப்பிப்பைப் பிறகு மீண்டும் தொடங்கலாம்
+	Suite order	தொகுப்பு வரிசை
+	System default	கணினி இயல்புநிலை
+	System package (recommended)	கணினி தொகுப்பு (பரிந்துரைக்கப்படுகிறது)
+	Tarball (.tar.gz)	Tar காப்பகம் (.tar.gz)
+	The app will be moved to the Trash. Your documents and settings stay.	பயன்பாடு குப்பைக்கு நகர்த்தப்படும். உங்கள் ஆவணங்களும் அமைப்புகளும் அப்படியே இருக்கும்.
+	The app will be removed. Your documents and settings stay.	பயன்பாடு நீக்கப்படும். உங்கள் ஆவணங்களும் அமைப்புகளும் அப்படியே இருக்கும்.
+	The download is still here. It's checked again, then installed.	பதிவிறக்கம் இன்னும் இங்கே உள்ளது. அது மீண்டும் சரிபார்க்கப்பட்டு, பின்னர் நிறுவப்படும்.
+	The system manages install locations here.	இங்கு நிறுவல் இடங்களைக் கணினி நிர்வகிக்கிறது.
+	These notes weren't fetched (GitHub's request limit was reached). They're on the release page.	இந்தக் குறிப்புகள் பெறப்படவில்லை (GitHub-இன் கோரிக்கை வரம்பு எட்டப்பட்டது). அவை வெளியீட்டுப் பக்கத்தில் உள்ளன.
+@msg	this release has no AppImage for a custom install folder	தனிப்பயன் நிறுவல் கோப்புறைக்கு இந்த வெளியீட்டில் AppImage இல்லை
+@id	tray.close_to_tray	சாளரத்தை மூடும்போது தட்டில் தொடர்ந்து இயங்கு
+@id	tray.login_item	நான் உள்நுழையும்போது ArtCraft Launcher-ஐத் தொடங்கு
+@id	tray.show_on_current_desktop	தற்போதைய டெஸ்க்டாப்பில் சாளரத்தைக் காட்டு
+	Unhide App	பயன்பாட்டைக் காட்டு
+	Uninstall	நிறுவல் நீக்கு
+	Uninstall cancelled	நிறுவல் நீக்கம் ரத்துசெய்யப்பட்டது
+	Uninstall {name}?	{name}-ஐ நிறுவல் நீக்கவா?
+	Uninstall…	நிறுவல் நீக்கு…
+	Update 1 app	1 பயன்பாட்டைப் புதுப்பி
+	Update all ({count})	அனைத்தையும் புதுப்பி ({count})
+	Update and restart	புதுப்பித்து மறுதொடக்கம் செய்
+	Update available	புதுப்பிப்பு கிடைக்கிறது
+	Update cancelled	புதுப்பிப்பு ரத்துசெய்யப்பட்டது
+	Update paused	புதுப்பிப்பு இடைநிறுத்தப்பட்டது
+	Update to {v}	{v}-க்குப் புதுப்பி
+@id	update.check	புதுப்பிப்புகளைச் சரிபார்
+@id	update.check_auto	புதுப்பிப்புகளைத் தானாகச் சரிபார்
+@id	update.notify	நிறுவப்பட்ட பயன்பாட்டுக்குப் புதுப்பிப்பு இருக்கும்போது எனக்குத் தெரிவி
+@id	update.prereleases	முன்வெளியீடுகளைச் சேர் (பீட்டா மற்றும் வெளியீட்டு வேட்பாளர் பதிப்புகள்)
+	Updates always use the format an app was installed with.	ஒரு பயன்பாடு எந்த வடிவத்தில் நிறுவப்பட்டதோ, புதுப்பிப்புகள் எப்போதும் அதே வடிவத்தையே பயன்படுத்தும்.
+	Updating…	புதுப்பிக்கிறது…
+	Use default	இயல்புநிலையைப் பயன்படுத்து
+vectorcraft	Vector illustration	திசையன் விளக்கப்படம்
+	Verifying checksum…	செக்சம் சரிபார்க்கப்படுகிறது…
+	Verifying…	உறுதிசெய்கிறது…
+	Version {latest}	பதிப்பு {latest}
+	Version {version} installed	பதிப்பு {version} நிறுவப்பட்டது
+filmcraft	Video editing, color and sound	வீடியோ திருத்தம், வண்ணம் மற்றும் ஒலி
+@id	view.grid	கட்டம்
+@id	view.table	அட்டவணை
+	Visit getartcraft.com	getartcraft.com-ஐப் பார்வையிடு
+	Waiting for another app…	மற்றொரு பயன்பாட்டிற்காகக் காத்திருக்கிறது…
+	Waiting for other installs…	பிற நிறுவல்களுக்காகக் காத்திருக்கிறது…
+	Website (coming soon)	இணையதளம் (விரைவில்)
+	What's new	புதிய அம்சங்கள்
+	When on, opening the launcher from the menu bar brings its window to the desktop you're on. When off, macOS switches you to the desktop the window was on.	இயக்கத்தில் இருக்கும்போது, மெனு பட்டியிலிருந்து launcher-ஐத் திறந்தால் அதன் சாளரம் நீங்கள் இருக்கும் டெஸ்க்டாப்புக்கு வரும். அணைத்திருக்கும்போது, சாளரம் இருந்த டெஸ்க்டாப்புக்கு macOS உங்களை மாற்றும்.
+	Windows will remove it like any installed program. Your documents and settings stay.	நிறுவப்பட்ட மற்ற நிரல்களைப் போலவே Windows இதை நீக்கும். உங்கள் ஆவணங்களும் அமைப்புகளும் அப்படியே இருக்கும்.
+wordcraft	Writing and document design	எழுத்து மற்றும் ஆவண வடிவமைப்பு
+	Your system's package manager will remove it, and may ask for your password. Your documents and settings stay.	உங்கள் கணினியின் தொகுப்பு மேலாளர் இதை நீக்கும், மேலும் கடவுச்சொல்லைக் கேட்கலாம். உங்கள் ஆவணங்களும் அமைப்புகளும் அப்படியே இருக்கும்.
+	{a} and {b}	{a} மற்றும் {b}
+	{count} updates are available	{count} புதுப்பிப்புகள் கிடைக்கின்றன
+	{done} downloaded	{done} பதிவிறக்கப்பட்டது
+	{done} of {total}	{total}-இல் {done}
+	{done} of {total} downloaded	{total}-இல் {done} பதிவிறக்கப்பட்டது
+	{installed} installed · latest {latest}	{installed} நிறுவப்பட்டது · சமீபத்தியது {latest}
+	{month} {day}, {year}	{day} {month} {year}
+	{name} details	{name} விவரங்கள்
+	{name} icon	{name} சின்னம்
+@msg	{name} installed: {version}	{name} நிறுவப்பட்டது: {version}
+@msg	{name} installed: {version} (this release publishes no checksum, so only its size was checked)	{name} நிறுவப்பட்டது: {version} (இந்த வெளியீடு செக்சம் வெளியிடுவதில்லை, எனவே அதன் அளவு மட்டுமே சரிபார்க்கப்பட்டது)
+@msg	{name} is running. Quit it, then try again.	{name} இயங்கிக் கொண்டிருக்கிறது. அதிலிருந்து வெளியேறி, மீண்டும் முயலவும்.
+@msg	{name} updated to {version}	{name} {version} ஆகப் புதுப்பிக்கப்பட்டது
+@msg	{name} updated to {version} (this release publishes no checksum, so only its size was checked)	{name} {version} ஆகப் புதுப்பிக்கப்பட்டது (இந்த வெளியீடு செக்சம் வெளியிடுவதில்லை, எனவே அதன் அளவு மட்டுமே சரிபார்க்கப்பட்டது)
+@msg	{name} was removed	{name} நீக்கப்பட்டது
+	{name} {version}	{name} {version}
+	{name} {v} is available	{name} {v} கிடைக்கிறது
+@plural	{n} app|{n} apps	{n} பயன்பாடு|{n} பயன்பாடுகள்
+@plural	{n} day ago|{n} days ago	{n} நாள் முன்|{n} நாட்கள் முன்
+@plural	{n} h ago|{n} h ago	{n} மணி முன்|{n} மணி முன்
+@plural	{n} min ago|{n} min ago	{n} நிமிடம் முன்|{n} நிமிடம் முன்
+@msg	{path} already exists and wasn't installed by ArtCraft Launcher	{path} ஏற்கெனவே உள்ளது, அது ArtCraft Launcher மூலம் நிறுவப்படவில்லை
+	{path} already exists. Installing {name} will overwrite it.	{path} ஏற்கெனவே உள்ளது. {name}-ஐ நிறுவினால் அது மேலெழுதப்படும்.
+	{version} installed → {latest} released	{version} நிறுவப்பட்டது → {latest} வெளியிடப்பட்டது
+	⊞  Grid	⊞  கட்டம்
+	☰  Table	☰  அட்டவணை
+	🔍  Search apps	🔍  பயன்பாடுகளைத் தேடு
