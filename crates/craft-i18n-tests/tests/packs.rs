@@ -144,6 +144,8 @@ mod fixtures {
             class,
             name: Some("Nederlands".into()),
             note: None,
+            notice: None,
+            filename: None,
         }
     }
 
@@ -631,4 +633,198 @@ fn safe_file_name_matches_the_consumer() {
         assert!(!packs::safe_file_name(bad), "{bad} should be refused");
     }
     assert!(packs::safe_file_name(&longest));
+}
+
+#[test]
+fn aksara_sources_are_complete_hidden_and_not_hunspell() {
+    let mut repo = packs::load_repo().unwrap();
+    assert!(packs::check(&repo.manifest, &repo.checks, &repo.texts).is_empty());
+    assert!(!packs::published(&repo.manifest, &repo.checks, "km"));
+    let files: Vec<_> = repo.manifest.entries("km").collect();
+    assert_eq!(files.len(), 10);
+    assert_eq!(repo.manifest.class("km"), Class::DownloadOnly);
+    let notices = packs::licence_notices(&repo.manifest, "km").unwrap();
+    assert!(notices.contains("Copyright (c) 2010, Doug Cooper"));
+    assert!(notices.contains("permission notice shall be included"));
+    let paths: std::collections::BTreeSet<_> = files.iter().map(|e| e.pack_path()).collect();
+    assert_eq!(paths.len(), files.len());
+    assert!(paths.contains("LICENCES/LICENSE"));
+    assert!(paths.contains("LICENCES/LICENSE-khmerlbdict"));
+    assert!(paths.contains("LICENCES/LICENSE-CLDR-28.txt"));
+    assert!(paths.contains("LICENCES/AKSARA-THIRD-PARTY-NOTICES.md"));
+    assert!(
+        !files
+            .iter()
+            .any(|e| matches!(e.kind, Kind::SpellingAff | Kind::SpellingDic))
+    );
+    assert!(files.iter().any(|e| e.pack_path() == "km_kcc_tagger.json"));
+    // Raw model/config kinds must stay unpublished even if someone removes the hidden flag.
+    repo.checks.get_mut("km").unwrap().hidden = false;
+    assert!(!packs::published(&repo.manifest, &repo.checks, "km"));
+    repo.checks.get_mut("km").unwrap().hidden = true;
+    repo.manifest.file.retain(|e| e.kind != Kind::AksaraTitles);
+    assert!(
+        packs::check(&repo.manifest, &repo.checks, &repo.texts)
+            .iter()
+            .any(|e| e.contains("all six raw sources"))
+    );
+}
+
+fn archive_contents(
+    manifest: &Manifest,
+    texts: &BTreeMap<String, Vec<u8>>,
+    locale: &str,
+) -> BTreeMap<String, Vec<u8>> {
+    let files: Vec<_> = manifest.entries(locale).map(|e| (e, Vec::new())).collect();
+    let archive = packs::archive(manifest, locale, &files, texts, "test").unwrap();
+    let raw = zstd::stream::decode_all(archive.as_slice()).unwrap();
+    let mut archive = tar::Archive::new(raw.as_slice());
+    let mut contents = BTreeMap::new();
+    for entry in archive.entries().unwrap() {
+        use std::io::Read;
+        let mut entry = entry.unwrap();
+        let path = entry.path().unwrap().to_string_lossy().into_owned();
+        let mut bytes = Vec::new();
+        entry.read_to_end(&mut bytes).unwrap();
+        contents.insert(path, bytes);
+    }
+    contents
+}
+
+#[test]
+fn archives_keep_quoted_notices_and_distinct_upstream_licences() {
+    let repo = packs::load_repo().unwrap();
+    let contents = archive_contents(&repo.manifest, &repo.texts, "km");
+    assert!(contents.contains_key("LICENCES/LICENSE"));
+    assert!(contents.contains_key("LICENCES/LICENSE-khmerlbdict"));
+    assert!(contents.contains_key("LICENCES/LICENSE-CLDR-28.txt"));
+    assert!(contents.contains_key("LICENCES/AKSARA-THIRD-PARTY-NOTICES.md"));
+    let unicode = std::str::from_utf8(&contents["LICENCES/Unicode-DFS-2015.txt"]).unwrap();
+    assert!(unicode.contains("Copyright © 1991-2015 Unicode"));
+    assert!(unicode.contains("there is clear notice in each modified Data File"));
+    let notes = std::str::from_utf8(&contents["LICENCES/NOTICES.txt"]).unwrap();
+    assert!(notes.contains("Copyright (c) 2010, Doug Cooper"));
+    assert!(notes.contains("THE SOFTWARE IS PROVIDED"));
+    let notice = repo
+        .manifest
+        .entries("km")
+        .find_map(|e| e.notice.as_deref())
+        .unwrap();
+    assert_eq!(
+        notes, notice,
+        "ship the upstream notice verbatim, without reviewer evidence or generated headers"
+    );
+    for entry in repo.manifest.entries("km") {
+        if let Some(evidence) = &entry.note {
+            assert!(
+                !notes.contains(evidence),
+                "reviewer evidence must stay in the manifest"
+            );
+        }
+    }
+    let metadata = std::str::from_utf8(&contents["pack.toml"]).unwrap();
+    assert!(metadata.contains("Download-only"));
+    assert!(metadata.contains("NOTICES.txt"));
+}
+
+#[test]
+fn published_archives_do_not_ship_reviewer_notes() {
+    let repo = packs::load_repo().unwrap();
+    for locale in ["bg", "hr", "pt-pt", "ta"] {
+        assert!(packs::published(&repo.manifest, &repo.checks, locale));
+        assert!(
+            repo.manifest
+                .entries(locale)
+                .any(|e| e.kind == Kind::Licence && e.note.is_some())
+        );
+        assert!(packs::licence_notices(&repo.manifest, locale).is_none());
+        let contents = archive_contents(&repo.manifest, &repo.texts, locale);
+        assert!(
+            !contents.contains_key("LICENCES/NOTICES.txt"),
+            "{locale}: reviewer notes must not ship"
+        );
+        let metadata = std::str::from_utf8(&contents["pack.toml"]).unwrap();
+        assert!(
+            !metadata.contains("NOTICES.txt"),
+            "{locale}: do not advertise a nonexistent notice"
+        );
+    }
+}
+
+#[test]
+fn supplemental_notices_are_nonempty_and_only_on_licence_entries() {
+    for (kind, notice, message) in [
+        (Kind::Licence, " \n\t", "notice must not be empty"),
+        (
+            Kind::AksaraTitles,
+            "Upstream notice",
+            "notice is only allowed for a licence entry",
+        ),
+    ] {
+        let mut repo = packs::load_repo().unwrap();
+        repo.manifest
+            .file
+            .iter_mut()
+            .find(|e| e.locale == "km" && e.kind == kind)
+            .unwrap()
+            .notice = Some(notice.into());
+        assert!(
+            packs::check(&repo.manifest, &repo.checks, &repo.texts)
+                .iter()
+                .any(|e| e.contains(message))
+        );
+    }
+}
+
+#[test]
+fn licence_filename_overrides_cannot_escape_or_replace_generated_notices() {
+    for name in [
+        "../LICENSE",
+        "/LICENSE",
+        "a/b",
+        "NOTICES.txt",
+        "notices.txt",
+        "NoTiCeS.TxT",
+        "MIT.txt",
+        "mit.txt",
+        "MiT.TxT",
+        "license-khmerlbdict",
+    ] {
+        let mut repo = packs::load_repo().unwrap();
+        let entry = repo
+            .manifest
+            .file
+            .iter_mut()
+            .find(|e| e.locale == "km" && e.kind == Kind::Licence)
+            .unwrap();
+        entry.filename = Some(name.into());
+        assert!(
+            !packs::check(&repo.manifest, &repo.checks, &repo.texts).is_empty(),
+            "{name}"
+        );
+    }
+}
+
+#[test]
+fn archives_reject_case_insensitive_licence_collisions() {
+    for name in ["mit.txt", "notices.txt", "license-khmerlbdict"] {
+        let mut repo = packs::load_repo().unwrap();
+        repo.manifest
+            .file
+            .iter_mut()
+            .find(|e| e.locale == "km" && e.kind == Kind::Licence)
+            .unwrap()
+            .filename = Some(name.into());
+        let files: Vec<_> = repo
+            .manifest
+            .entries("km")
+            .map(|e| (e, Vec::new()))
+            .collect();
+        assert!(
+            packs::archive(&repo.manifest, "km", &files, &repo.texts, "test")
+                .unwrap_err()
+                .contains("two files named"),
+            "{name}"
+        );
+    }
 }
