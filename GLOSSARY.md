@@ -41,6 +41,12 @@ never automatically. "Pin" alone always means this one.
 translated text is shown (numbers, plural choice, direction marks), so moving it can change what
 users see even when the pin stays put.
 
+**Cutover**: the change after which a Crafting App takes its translations only from its pin and
+keeps no catalogs of its own. Before it, new translations land in the app; after it, here.
+
+**Freeze**: a pause on merging an app's catalog changes while its cutover lands, so no translation
+is left behind in the app.
+
 **Offered locale**: a locale a Crafting App lets its users choose. A locale the app has catalogs
 for but doesn't offer (one its interface isn't ready for) still serves as a fallback.
 

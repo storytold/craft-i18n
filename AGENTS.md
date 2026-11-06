@@ -18,4 +18,5 @@ Shared translations for the Craft Apps: TSV catalogs in `locales/` and the check
 - **Never crash.** The checker's `lib.rs` denies `unwrap`, `expect`, `panic` and friends; the
   workspace forbids `unsafe`.
 - **Before merging:** `cargo fmt --all --check`,
-  `cargo clippy --workspace --all-targets --all-features -- -D warnings`, `cargo test --workspace`.
+  `cargo clippy --workspace --all-targets --all-features -- -D warnings`, `cargo test --workspace`,
+  `python3 -m unittest discover -s tools` (catalog sync/rekey helpers; always write/read TSV as UTF-8).

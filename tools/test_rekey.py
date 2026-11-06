@@ -32,7 +32,8 @@ class Rekey(unittest.TestCase):
                 path.write_text(catalog(*name.split("/"), *rows), encoding="utf-8")
             changed, skipped = rekey.rekey(root, "demo", "Colour", "Color")
             self.assertEqual(skipped, [])
-            self.assertEqual(sorted(str(p) for p, _ in changed),
+            # as_posix: Windows Path.str uses backslashes; the CLI reports forward slashes.
+            self.assertEqual(sorted(p.as_posix() for p, _ in changed),
                              ["locales/de/demo.tsv", "locales/es/demo.tsv", "locales/fr/demo.tsv"])
             rows = lambda n: sync_app.parse((root / "locales" / f"{n}.tsv").read_text(encoding="utf-8"))
             self.assertEqual(rows("fr/demo"), ({("", "A"): "a", ("", "Color"): "Couleur", ("", "Z"): "z"}, []))
