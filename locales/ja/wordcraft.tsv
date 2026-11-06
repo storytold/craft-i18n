@@ -24,9 +24,25 @@
 	1. Formatting restrictions	1. 書式の制限
 	1.5 Line Spacing	1.5 行
 	1/4 Em Space	1/4 em スペース
+	1×2 Empty Matrix	1×2 の空の行列
+	1×3 Empty Matrix	1×3 の空の行列
 	2. Editing restrictions	2. 編集の制限
+	2×1 Empty Matrix	2×1 の空の行列
+	2×2 Determinant	2×2 の行列式
+	2×2 Empty Matrix	2×2 の空の行列
+	2×2 Identity Matrix	2×2 の単位行列
+	2×2 Identity Matrix (sparse)	2×2 の単位行列（疎行列形式）
+	2×2 Matrix in Brackets	2×2 の角かっこ付き行列
+	2×2 Matrix in Double Bars	2×2 の二重縦線付き行列
+	2×2 Matrix in Parentheses	2×2 の丸かっこ付き行列
+	2×3 Empty Matrix	2×3 の空の行列
 	3-D	立体
 	3. Start enforcement	3. 保護の開始
+	3×1 Empty Matrix	3×1 の空の行列
+	3×2 Empty Matrix	3×2 の空の行列
+	3×3 Empty Matrix	3×3 の空の行列
+	3×3 Identity Matrix	3×3 の単位行列
+	3×3 Identity Matrix (sparse)	3×3 の単位行列（疎行列形式）
 	<< Less	<< 表示を減らす
 	<< Remove	<< 削除
 	a drawing canvas can't be ungrouped	描画キャンバスはグループ解除できません
@@ -40,23 +56,29 @@
 	A table of contents	目次
 	A, B, C, …	A, B, C, …
 	a, b, c, …	a, b, c, …
+	AaBbCcDd	あア亜 AaBbCcDd
 	AaBbYyZz	AaBbYyZz あア亜
 	About	情報
 	About WordCraft	WordCraft について
 	Above Chart	グラフの上
 	Above the item	項目の上
+	Absolute value cases	絶対値の場合分け
 	Accent	アクセント
 	Accent Gradient	アクセントのグラデーション
 	Accent with Reflection	アクセントと反射
 	Accent {n}	アクセント {n}
+	Accents	アクセント記号
 	Accept	承諾
 	Accept All Changes	すべての変更を承諾
 	Accept This Change	この変更を承諾
 	Accessed on	アクセス日
 	Accessibility Pane	アクセシビリティ ウィンドウ
 	Account	アカウント
+	Acute	アキュート アクセント
 	Add >>	追加 >>
 	Add a comment	コメントを追加
+	Add a language	言語を追加
+	Add a language…	言語を追加…
 	Add a Table	表を追加
 	Add at least one field.	フィールドを1つ以上追加してください。
 	Add Chart Element	グラフ要素の追加
@@ -97,11 +119,13 @@
 	Advanced	詳細
 	Advanced Find	高度な検索
 	Advanced Find…	高度な検索…
+	Afrikaans	アフリカーンス語
 	After:	段落後:
 	Agents	エージェント
 	Agents connected to WordCraft can show you messages through the Assistant. Muted, they're told you'd rather not.	WordCraft に接続したエージェントは、アシスタントを通じてメッセージを表示できます。ミュートすると、エージェントには受け取りたくないことが伝えられます。
 	Ah, Latin. The language of deadlines.	おっ、ラテン語。しめ切り直前によく使われる言語ですね。
 	Ah, the editing phase. My favourite. Very decisive.	おっ、編集の時間ですね。わたしのお気に入りです。決めるのが早い。
+	Albanian	アルバニア語
 	Align	配置
 	Align Bottom Center	下揃え (中央)
 	Align Bottom Left	下揃え (左)
@@ -114,6 +138,8 @@
 	Align Top Right	上揃え (右)
 	Aligned at:	配置位置:
 	Alignment	配置
+	All - Linear	すべてを線形形式に
+	All - Professional	すべてを 2 次元形式に
 	All Borders	格子
 	All caps	すべて大文字
 	All Commands	すべてのコマンド
@@ -135,9 +161,17 @@
 	Alt:	代替テキスト:
 	Alt\nText	代替\nテキスト
 	an agent	エージェント
+	An installed Language pack is used after this folder.	インストール済みの言語パックは、このフォルダーの後に使われます。
 	And	かつ
+	Angle Brackets	山かっこ
+	Angle Brackets with Separator	区切り線付きの山かっこ
+	Angle Brackets with Two Separators	区切り線 2 本付きの山かっこ
+	Angola	アンゴラ
 	Animate the caret (it glides and fades)	カーソルをアニメーション表示する（滑らかに移動してフェードする）
 	Animation effects:	アニメーション効果:
+	Annotation Reference	コメント参照
+	Annotation Subject	コメントの件名
+	Annotation Text	コメント本文
 	Annoying	しつこく
 	Another file	別のファイル
 	Any Character	任意の 1 文字
@@ -155,12 +189,15 @@
 	Arch Down	下向きアーチ
 	Arch Up	上向きアーチ
 	Area	面
+	Argentina	アルゼンチン
+	Armenian	アルメニア語
 	Arrange	配置
 	Arrange\nAll	整列
 	Article I.	第 I 条
 	Artistic Effects	アート効果
 	As Recommended	推奨順
 	As you type	入力中
+	ASAP	至急
 	Asian text font:	アジア文字のフォント:
 	Asian Typography	アジア文字の組版
 	Assign	割り当て
@@ -172,6 +209,8 @@
 	Atmosphere	大気
 	Attach Template	テンプレートの添付
 	Attach…	添付…
+	Australia	オーストラリア
+	Austria	オーストリア
 	AutoCorrect	オートコレクト
 	AutoCorrect Options	オートコレクトのオプション
 	AutoFit	自動調整
@@ -205,22 +244,32 @@
 	Banded Rows	縞模様（行）
 	Base text:	親文字:
 	Based on: {style}	基準: {style}
+	Baseline Dots	ベースライン上の点列
 	Basic Cycle	基本循環
 	Basic List	基本リスト
+	Basic Math	基本的な数学記号
 	Basic Matrix	基本マトリックス
 	Basic Process	基本ステップ
 	Basic Pyramid	基本ピラミッド
 	Basic Radial	基本放射
 	Basic Venn	基本ベン図
+	Bayes' rule	ベイズの定理
 	Before:	段落前:
 	Beginning of Word	単語の先頭
 	Behind Text	背面
+	Belarus	ベラルーシ
+	Belarusian	ベラルーシ語
+	Belgium	ベルギー
 	Below text	本文の直後
 	Below the item	項目の下
 	Between	段落の間
 	Bibliography	参考文献
 	Binary assets added	追加したバイナリ アセット
 	Binary assets removed	削除したバイナリ アセット
+	Binomial Coefficient	二項係数
+	Binomial Coefficient (angle)	二項係数（山かっこ）
+	Binomial Coefficient with Angle Brackets	山かっこ付きの二項係数
+	Binomial expansion of (x+a)ⁿ	(x+a)ⁿ の二項展開
 	Blank	空白
 	Blank (Three Columns)	空白（3 列）
 	Blank document	白紙の文書
@@ -228,8 +277,11 @@
 	Block\nAuthors	作成者のブロック
 	Blue:	青:
 	Body Text	本文
+	Body text in a short paragraph to show spacing.	段落の間隔を確認するための短い本文です。
 	Bold choice. Ctrl+Z is right there if you need it.	なかなかの選択ですね。必要なら Ctrl+Z はすぐそこです。
+	Bolivia	ボリビア
 	Book	書籍
+	Book Title	書名
 	Book title	書籍名
 	Bookmark	ブックマーク
 	Bookmark name:	ブックマーク名:
@@ -239,6 +291,8 @@
 	Borders	罫線
 	Borders and Shading	罫線と網かけ
 	Borders and Shading…	罫線と網かけ…
+	Bosnia and Herzegovina	ボスニア・ヘルツェゴビナ
+	Bosnian	ボスニア語
 	Both Sides	両側
 	Bottom Border	下罫線
 	Bottom Left Cell	左下のセル
@@ -246,28 +300,42 @@
 	Bottom of Page	ページの下部
 	Bottom Right Cell	右下のセル
 	Box	囲み
+	Boxed Formula	枠で囲んだ数式
+	Boxed Formula (example)	枠で囲んだ数式（例）
+	Boxed Formulas	枠で囲んだ数式
+	Braces	波かっこ
+	Braces with Separator	区切り線付きの波かっこ
 	Bracket	かっこ
+	Brackets	かっこ
+	Brackets with Separators	区切り線付きのかっこ
+	Brazil	ブラジル
 	Break Link	リンクの解除
 	Breaks	区切り
+	Breve	ブレーヴ
 	Bring Forward	前面へ移動
 	Browse in WordCraft…	WordCraft で参照…
 	Building Block Gallery Content Control	構成要素ギャラリー コンテンツ コントロール
+	Built in	内蔵
 	Built-In	組み込み
 	Built-in style	組み込みスタイル
 	Built-in styles can't be deleted.	組み込みスタイルは削除できません。
+	Bulgarian	ブルガリア語
 	Bullet	行頭文字
 	Bullet Library	行頭文字ライブラリ
 	Bullets	箇条書き
 	By author	校閲者別
+	Cabo Verde	カーボベルデ
 	Calendar	カレンダー
 	Can't be deleted	削除できない
 	Can't find a command? Press {key} and type what you want to do.	コマンドが見つかりませんか? {key} を押して、やりたいことを入力してください。
 	can't split at the first row	先頭の行では表を分割できません
+	Canada	カナダ
 	Canvas Member	キャンバス内の図形
 	Capitalize Each Word	各単語の先頭を大文字にする
 	Capitalize first letter of sentences	文の先頭文字を大文字にする
 	Capitalize first letter of table cells	表のセルの先頭文字を大文字にする
 	Capitalize names of days	曜日の先頭文字を大文字にする
+	Capitalize the first word of a sentence	文の先頭の単語を大文字で始めてください
 	Caption	図表番号
 	Caption Numbering	図表番号の書式
 	Caption text	図表番号の文字列
@@ -276,18 +344,26 @@
 	Careful, any further back and we'll undo the invention of paper.	気をつけて。これ以上戻ると、紙の発明まで元に戻してしまいます。
 	Caret Character	キャレット記号
 	Case changes	大文字/小文字の変更
+	Cases (Three Conditions)	場合分け（3 条件）
+	Cases (Two Conditions)	場合分け（2 条件）
+	Cases and Stacks	場合分けと縦組み
+	Catalan	カタルーニャ語
+	Catalan (Valencian)	カタルーニャ語（バレンシア語）
 	Categories	カテゴリ
 	Categories:	分類:
 	Category {n}	カテゴリ {n}
+	Ceiling	天井関数のかっこ
 	Cell	セル
 	Cell Margins	セルの余白
 	Cell Size	セルのサイズ
 	Cell\nMargins	セルの余白
 	Center	中央揃え
 	Center Glow	中央の光彩
+	Centered as Group	数式全体を中央揃え
 	Change Case	大文字/小文字の変換
 	Change Chart Type	グラフの種類の変更
 	Change Colors	色の変更
+	Change in y over change in x	y の増分 / x の増分
 	Change Layout	レイアウトの変更
 	Change List Level	リスト レベルの変更
 	Change Password…	パスワードの変更…
@@ -297,6 +373,11 @@
 	Change Structure	構造の変更
 	Change to Display	別行表示に変更
 	Change to Inline	行内表示に変更
+	Change to Level 1	レベル 1 に変更
+	Change to Level 2	レベル 2 に変更
+	Change to Level 3	レベル 3 に変更
+	Change to Level 4	レベル 4 に変更
+	Change to Level 5	レベル 5 に変更
 	Change\nChart Type	グラフの種類\nの変更
 	Change\nColors	色の\n変更
 	Changed lines:	変更された行:
@@ -321,8 +402,10 @@
 	Chart	グラフ
 	Chart Design	グラフのデザイン
 	Chart Layouts	グラフのレイアウト
+	Chart or diagram has no alternative text	グラフまたは図に代替テキストがありません
 	Chart Title	グラフ タイトル
 	charts and diagrams can't be moved or resized yet	グラフと図はまだ移動やサイズ変更ができません
+	Check	ハーチェク
 	Check Accessibility	アクセシビリティ チェック
 	Check Box Content Control	チェック ボックス コンテンツ コントロール
 	Check Compatibility	互換性チェック
@@ -334,6 +417,8 @@
 	Checked symbol	オンの記号
 	Chevron Down	下向き山形
 	Chevron Up	上向き山形
+	Chile	チリ
+	China	中国
 	Chinese (Simplified)	中国語（簡体字）
 	Chinese (Traditional)	中国語（繁体字）
 	Choose a command	コマンドを選択
@@ -341,6 +426,10 @@
 	Choose List Item	リスト項目を選択
 	Choose the sheet that holds the recipients.	宛先が入っているシートを選んでください。
 	Circle	円
+	Circle area from its radius	半径から求める円の面積
+	Circled Dot	丸付きドット
+	Circled Plus	丸付きプラス
+	Circled Times	丸付き乗算記号
 	Citation Style	引用文献のスタイル
 	Citations	引用文献
 	Citations & Bibliography	引用文献と文献目録
@@ -369,6 +458,8 @@
 	Collapse Selection	選択範囲を縮小
 	Collate copies	部単位で印刷
 	Collect entries from:	項目の取得元:
+	Colombia	コロンビア
+	Colon Equal	コロン付き等号
 	Color model:	カラー モデル:
 	Color only	色のみ
 	Color: {color}	色: {color}
@@ -378,6 +469,7 @@
 	Column	段
 	Column Break	段区切り
 	Column Selection	矩形選択
+	Column {column} of a table is empty: it looks like spacing	表の {column} 列目が空です。間隔を空けるための列に見えます
 	Column {n}	列 {n}
 	Column:	列:
 	Columns	段組み
@@ -389,6 +481,15 @@
 	Commas	カンマ
 	Comments beside each page and tracked changes in PDFs, prints and images; a comment list at the end of web pages, Markdown and text.	PDF、印刷、画像では各ページの横にコメントと変更履歴を表示し、Web ページ、Markdown、テキストでは末尾にコメント一覧を付けます。
 	Comments Pane	コメント ウィンドウ
+	Common Accent Objects	よく使うアクセント付き数式
+	Common Brackets	よく使うかっこ
+	Common Fractions	よく使う分数
+	Common Functions	よく使う関数
+	Common Large Operators	よく使う大型演算子
+	Common Operator Structures	よく使う演算子の構造
+	Common Operators	よく使う演算子
+	Common Radicals	よく使う根号
+	Common Subscripts and Superscripts	よく使う上付き/下付き
 	Communication	コミュニケーション
 	Community\nDiscord	コミュニティ\nDiscord
 	Compact	コンパクト
@@ -402,6 +503,7 @@
 	Compress punctuation at the start of a line	行頭の約物を詰める
 	Conference	会議
 	Conference paper	会議論文
+	CONFIDENTIAL	機密
 	Confirm password:	パスワードの確認:
 	Connect Shapes	図形をつなぐ
 	Container Title	掲載元の名前
@@ -412,13 +514,22 @@
 	Continue from previous section	前のセクションから続ける
 	Continuous	現在の位置から開始
 	Continuous numbering	通し番号
+	Contour Integral	閉曲線積分
+	Contour Integral with Limits	閉曲線積分（右側に積分範囲）
+	Contour Integral with Stacked Limits	閉曲線積分（上下に積分範囲）
+	Contour Integrals	閉曲線積分
 	Controls	コントロール
 	Conversions	変換
+	Convert between built-up and linear form	2 次元形式と線形形式を切り替える
 	Convert Notes	注の変換
 	Convert Text to Table	文字列を表にする
 	Convert Text to Table…	文字列を表にする…
 	Convert to Shapes	図形に変換
 	Convert to Text	表の解除
+	Coproduct	余積
+	Coproduct with Limits	余積（上下限付き）
+	Coproduct with Lower Limit	余積（下限付き）
+	Coproduct with Subscript-Superscript Limits	余積（右側に上下限）
 	Copy Formatting	書式のコピー
 	Copy of the text a bookmark marks	ブックマークの文字列
 	Copy Styles	スタイルのコピー
@@ -428,6 +539,11 @@
 	Correct accidental usage of cAPS LOCK key	Caps Lock キーの押し間違いを修正する
 	Correct TWo INitial CApitals	先頭 2 文字の大文字を修正する
 	Corrections	修整
+	Cosecant Function	余割関数
+	Cosine 2x	cos 2x
+	Cosine Function	余弦関数
+	Costa Rica	コスタリカ
+	Cotangent Function	余接関数
 	Couldn't download {name}: {error}	{name} をダウンロードできませんでした: {error}
 	Couldn't make WordCraft the default: {error}	WordCraft を既定のアプリにできませんでした: {error}
 	Couldn't open {path}: {error}	{path} を開けませんでした: {error}
@@ -446,10 +562,10 @@
 	Crop	トリミング
 	Cross-reference	相互参照
 	Cross-reference:	相互参照:
-	{key} starts a new page. Much tidier than pressing Enter until it happens.	{key} で新しいページを始められます。ページが変わるまで Enter を押し続けるより、ずっとスマートです。
-	{key} finds and replaces text, formatting and special characters.	{key} で文字列、書式、特殊文字を検索して置換できます。
-	{key} turns the selected text into a link.	{key} で選択した文字列をリンクにできます。
-	{key} counts your words, characters and paragraphs.	{key} で単語数、文字数、段落数を数えられます。
+	Cuba	キューバ
+	Cube Root	立方根
+	Current - Linear	現在の数式を線形形式に
+	Current - Professional	現在の数式を 2 次元形式に
 	Current Position	現在の位置
 	Current record	現在のレコード
 	Current style: {style}	現在のスタイル: {style}
@@ -471,6 +587,7 @@
 	Customize the Ribbon…	リボンのユーザー設定…
 	Customize…	ユーザー設定…
 	Cycle	循環
+	Cyprus	キプロス
 	Czech	チェコ語
 	Danish	デンマーク語
 	Dark Mode	ダーク モード
@@ -489,6 +606,7 @@
 	Decrease Indent	インデントを減らす
 	Deep	ディープ
 	Default formatting	既定の書式
+	Default Paragraph Font	段落の既定のフォント
 	Default tab stops:	既定のタブ間隔:
 	Define New Bullet	新しい行頭文字の定義
 	Define New Multilevel List	新しいアウトラインの定義
@@ -511,10 +629,16 @@
 	Delete Style	スタイルの削除
 	Delete Table	表の削除
 	Delete Table Style	表スタイルの削除
+	Delete the column and use cell margins instead	列を削除し、セルの余白で調整してください
+	Delete the row and use cell margins or spacing instead	行を削除し、セルの余白や間隔で調整してください
 	Deletions:	削除された箇所:
 	Delivery address:	宛先:
+	Delta Equal To	デルタ付き等号
+	Delta over arrow	矢印の上にデルタ
 	Demote	レベル下げ
 	Demote to Body Text	本文に設定
+	Derivative as a limit	極限で表す微分
+	Describe it in the Alt Text pane (object.altText), or mark it decorative	代替テキスト ウィンドウで説明を入力するか（object.altText）、装飾用にしてください
 	Describe what this object shows, for people who can't see it.	このオブジェクトが示す内容を、見ることができない人のために説明してください。
 	Describe what this table shows, for people who can't see it.	この表が示す内容を、見ることができない人のために説明してください。
 	Design	デザイン
@@ -524,11 +648,18 @@
 	Developer	開発
 	development build	開発ビルド
 	Diagonal	対角線
+	Diagonal Dots	右下がりの斜め点列
 	Dictate	ディクテーション
 	Dictionaries	辞書
 	Dictionaries folder:	辞書フォルダー:
+	Dictionary files	辞書ファイル
 	Different First Page	先頭ページのみ別指定
 	Different Odd & Even Pages	奇数/偶数ページ別指定
+	Differential	微分
+	Differential theta	微分 dθ
+	Differential x	微分 dx
+	Differential y	微分 dy
+	Differentials	微分
 	Direct formatting	直接の書式
 	Directory	ディレクトリ
 	Discord community	Discord コミュニティ
@@ -543,11 +674,13 @@
 	Distributed	均等割り付け
 	Do Not Check Spelling or Grammar	スペル チェックと文章校正を行わない
 	Do not check spelling or grammar	スペルチェックと文章校正を行わない
+	DO NOT COPY	複製禁止
 	Do Not Show in TOC	目次に表示しない
 	Do you want to save changes to {name}?	{name} への変更を保存しますか?
 	Document End	文書の末尾
 	Document Formatting	ドキュメントの書式設定
 	Document Grid	文書グリッド
+	Document has no title	文書にタイトルがありません
 	Document Information	文書の情報
 	Document name	ドキュメント名
 	Document Property	文書のプロパティ
@@ -560,6 +693,7 @@
 	Documents you open will show up here.	開いた文書がここに表示されます。
 	Does not contain	含まない
 	DOI	DOI
+	Dominican Republic	ドミニカ共和国
 	Don't add space between paragraphs of the same style	同じスタイルの段落間に間隔を追加しない
 	Don't capitalize after:	次の後は大文字にしない:
 	Don't hyphenate	ハイフネーションなし
@@ -569,13 +703,29 @@
 	Dot-dash	一点鎖線
 	Dot-dot-dash	二点鎖線
 	Double	二重線
+	Double Bar	二重上線
 	Double Closing Quote	二重引用符 (閉じ)
+	Double Dot	二重ドット
+	Double Integral	二重積分
+	Double Integral with Limits	二重積分（右側に積分範囲）
+	Double Integral with Stacked Limits	二重積分（上下に積分範囲）
+	Double Left Arrow with Text Above	二重線の左向き矢印（上にテキスト）
+	Double Left Arrow with Text Below	二重線の左向き矢印（下にテキスト）
+	Double Left Right Arrow with Text Above	二重線の左右矢印（上にテキスト）
+	Double Left Right Arrow with Text Below	二重線の左右矢印（下にテキスト）
 	Double Opening Quote	二重引用符 (開き)
+	Double Right Arrow with Text Above	二重線の右向き矢印（上にテキスト）
+	Double Right Arrow with Text Below	二重線の右向き矢印（下にテキスト）
 	Double Spacing	2 行
+	Double Square Brackets	二重角かっこ
 	Double Strikethrough	二重取り消し線
 	Double strikethrough	二重取り消し線
+	Double summation	二重総和
 	Double Underline	二重下線
+	Double Vertical Bars	二重縦線
 	Doughnut	ドーナツ
+	Downloading is off. Clicking Add a language… or Install turns it on: WordCraft then downloads language packs and fonts from GitHub.	ダウンロードはオフです。「言語を追加…」または「インストール」をクリックするとオンになり、WordCraft は GitHub から言語パックとフォントをダウンロードします。
+	DRAFT	下書き
 	Draft	下書き
 	Drag a rectangle to draw a table, or a line across cells to split them. Esc stops.	四角形をドラッグして表を描くか、セルを横切る線を引いて分割します。Esc で終了します。
 	Draw Ink	インクで描く
@@ -591,7 +741,9 @@
 	Drop-Down List Content Control	ドロップダウン リスト コンテンツ コントロール
 	Dropped	本文内に表示
 	Drops all formatting and pastes plain text.	書式をすべて取り除き、プレーン テキストとして貼り付けます。
+	Dutch, Nederlands or nl	オランダ語、Nederlands または nl
 	E-mail Messages	電子メール
+	Ecuador	エクアドル
 	Edit Comment	コメントを編集
 	Edit Data	データの編集
 	Edit Document	文書の編集
@@ -615,11 +767,15 @@
 	Edition	版
 	Editor	エディター
 	Effects	文字飾り
+	Egypt	エジプト
+	El Salvador	エルサルバドル
 	Elbow Arrow Connector	カギ線矢印コネクタ
 	Elbow Connector	カギ線コネクタ
 	Em Dash	エム ダッシュ
 	Em Space	em スペース
 	Emboss	浮き出し
+	Emphasis	強調
+	Empty Matrices	空の行列
 	En Dash	en ダッシュ
 	En Space	en スペース
 	Enclose Characters	囲い文字
@@ -629,6 +785,8 @@
 	End of document	文書の最後
 	End of section	セクションの最後
 	End of Word	単語の末尾
+	Endnote Reference	文末脚注参照
+	Endnote Text	文末脚注本文
 	Endnotes	文末脚注
 	Endnotes to footnotes	文末脚注を脚注に変換
 	English (Australia)	英語（オーストラリア）
@@ -639,6 +797,7 @@
 	English (South Africa)	英語（南アフリカ）
 	English (United Kingdom)	英語（英国）
 	English (United States)	英語（米国）
+	English, the languages of this document and every installed Language pack. Language packs add spelling dictionaries and hyphenation.	英語、この文書の言語、インストール済みのすべての言語パック。言語パックはスペルチェック用の辞書とハイフネーションを追加します。
 	Engrave	浮き彫り
 	Enlarge symbol	記号を拡大
 	Enter a number.	数値を入力してください。
@@ -647,9 +806,13 @@
 	Enter page number:	ページ番号を入力:
 	Entry marked.	項目を登録しました。
 	Envelope #10	封筒 #10
+	Envelope Address	封筒の宛先
+	Envelope Return	封筒の差出人
 	Envelope size:	封筒サイズ:
 	Envelopes	封筒
+	Equal by Definition	定義による等号
 	Equal column width	段の幅を均等にする
+	Equal Equal	二重等号
 	Equal to	等しい
 	Equals:	等しい値:
 	Equation	数式
@@ -657,9 +820,12 @@
 	Equation Info	数式の情報
 	Equation Number	数式番号
 	Equation Options	数式のオプション
+	Equatorial Guinea	赤道ギニア
 	Erase Ink	インクを消す
 	Errors ({n})	エラー ({n})
+	Esperanto	エスペラント語
 	Estonian	エストニア語
+	Euler's identity	オイラーの等式
 	Even Banded Columns	偶数の縞模様（列）
 	Even Banded Rows	偶数の縞模様（行）
 	Even Page	偶数ページから開始
@@ -674,6 +840,8 @@
 	Existing File or Web Page	既存のファイル/Web ページ
 	Expand	拡大
 	Expand or Collapse Heading	見出しの展開/折りたたみ
+	Exponential	指数関数
+	Exponential series	指数関数の級数
 	Export	エクスポート
 	Export a copy to share (PDF, Word document)	共有用にコピーをエクスポート（PDF、Word 文書）
 	Export Page as PNG	ページを PNG としてエクスポート
@@ -681,8 +849,7 @@
 	Exported {path}	{path} にエクスポートしました
 	Extend Selection	選択範囲の拡張
 	Extend Selection by Units	単位ごとに選択範囲を拡張
-	{key} repeats your last action. Formatting ten headings is suddenly one click and nine taps.	{key} で直前の操作を繰り返せます。見出し 10 個の書式設定も、1 クリックと 9 回のキー操作で完了。
-	{key} checks the spelling and grammar of the whole document.	{key} で文書全体のスペル チェックと文章校正を行います。
+	Extra space	余分なスペース
 	Faster: {command} is {key} on the keyboard.	時短ワザ: {command} はキーボードの {key} でできます。
 	Field code:	フィールド コード:
 	Field Codes	フィールド コード
@@ -715,6 +882,7 @@
 	Finish & Merge	完了と差し込み
 	Finish &\nMerge	完了と差し込み
 	Finished	完了
+	Finland	フィンランド
 	Finnish	フィンランド語
 	First Column	最初の列
 	First line	最初の行
@@ -725,6 +893,7 @@
 	Fit	サイズに合わせる
 	Fix Position on Page	ページ上で位置を固定する
 	Fixed Column Width	列の幅を固定する
+	Floor	床関数のかっこ
 	Follow number with:	番号に続く文字:
 	Font Color	フォントの色
 	Font color	フォントの色
@@ -735,6 +904,8 @@
 	Font…	フォント…
 	Footer	フッター
 	Footnote and Endnote	脚注と文末脚注
+	Footnote Reference	脚注参照
+	Footnote Text	脚注本文
 	Footnotes	脚注
 	Footnotes and endnotes	脚注と文末脚注
 	Footnotes to endnotes	脚注を文末脚注に変換
@@ -758,6 +929,7 @@
 	Forward	早送り
 	Fraction	分数
 	Fractions (1/2) as fraction characters (½)	分数 (1/2) を分数文字 (½) に
+	France	フランス
 	French (France)	フランス語（フランス）
 	From Bottom Left Corner	左下の角から
 	From Bottom Right Corner	右下の角から
@@ -774,10 +946,16 @@
 	Full\nScreen	全画面\n表示
 	Fun fact: a blank page is just a draft that hasn't been told yet.	ちなみに: 白紙とは、まだ何も言われていない下書きのことです。
 	Function	関数
+	Galician	ガリシア語
 	Gallery	ギャラリー
 	General	全般
+	Geometry	幾何学記号
+	Georgian	ジョージア語
 	German (Germany)	ドイツ語（ドイツ）
+	Germany	ドイツ
 	getartcraft.com/apps/wordcraft	getartcraft.com/apps/wordcraft
+	Gets the list of Language packs, then this language's pack if there is one.	言語パックの一覧を取得し、続いてこの言語のパックがあればそれを取得します。
+	Give it a title or description (table.altText)	表にタイトルまたは説明を付けてください（table.altText）
 	Glow	光彩
 	Glow Colors	光彩の色
 	Go Back	前の編集位置に戻る
@@ -791,21 +969,35 @@
 	Good afternoon	こんにちは
 	Good evening	こんばんは
 	Good morning	おはようございます
+	GOST (name sort)	GOST（著者名順）
+	GOST (title sort)	GOST（タイトル順）
 	Grab bag	ランダム表示
 	Gradient fill	グラデーションの塗りつぶし
 	Gradient stops	グラデーションの分岐点
+	Grammar built in	文法チェック内蔵
 	Graphic	図
+	Grave	グレーヴ アクセント
 	Greater than	より大きい
 	Greater than or equal	以上
 	Greek	ギリシャ語
+	Greek Letters	ギリシャ文字
 	Green:	緑:
 	Greeting Line	あいさつ文
 	Greeting\nLine	あいさつ文
+	Grid Table 1 Light	格子の表 1（淡色）
+	Grid Table 4 – Blue	格子の表 4 – 青
+	Grid Table 4 – Green	格子の表 4 – 緑
+	Grid Table 4 – Orange	格子の表 4 – オレンジ
+	Grid Table 4 – Purple	格子の表 4 – 紫
 	Gridlines	グリッド線
 	Group	グループ化
+	Grouping Character Above	上側のグループ記号
+	Grouping Character Below	下側のグループ記号
 	Grow Font 1 Point	フォントを 1 ポイント拡大
+	Guatemala	グアテマラ
 	H:	高さ:
 	Hanging Indent	ぶら下げインデント
+	Hat	ハット記号
 	Header	ヘッダー
 	Header & Footer	ヘッダーとフッター
 	Header Row	タイトル行
@@ -815,6 +1007,7 @@
 	Heading 1	見出し 1
 	Heading 2	見出し 2
 	Heading 3	見出し 3
+	Heading level skipped (Heading {level} after Heading {previous})	見出しレベルが飛んでいます（見出し {previous} の後に見出し {level}）
 	Heading styles (levels 1–{n})	見出しスタイル (レベル 1–{n})
 	Heading {n}	見出し {n}
 	Hebrew	ヘブライ語
@@ -838,24 +1031,38 @@
 	Hindi	ヒンディー
 	Hollow	中抜き
 	Home folder	ホーム フォルダー
+	Honduras	ホンジュラス
+	Hong Kong SAR	香港特別行政区
 	Horizontal Line	横線
 	How many pages the whole document has	文書のページ数
 	How many pages this section has	セクションのページ数
 	How many words the document holds	文書の単語数
 	HTML Format	HTML 形式
 	Hue:	色合い:
+	Hungarian	ハンガリー語
 	Hunspell .aff and .dic files here (pl_PL, pt_BR, it_IT, hr_HR, tr_TR) are used before the system's.	このフォルダーの Hunspell .aff と .dic ファイル (pl_PL, pt_BR, it_IT, hr_HR, tr_TR) は、システムのものより優先して使われます。
+	Hyperbolic Cosecant Function	双曲線余割関数
+	Hyperbolic Cosine Function	双曲線余弦関数
+	Hyperbolic Cotangent Function	双曲線余接関数
+	Hyperbolic Functions	双曲線関数
+	Hyperbolic Secant Function	双曲線正割関数
+	Hyperbolic Sine Function	双曲線正弦関数
+	Hyperbolic Tangent Function	双曲線正接関数
+	Hyperlink	ハイパーリンク
 	Hyphenate at:	ハイフネーション位置:
 	Hyphenate words in CAPS	大文字の単語をハイフネーションする
 	Hyphenation Options…	ハイフネーションのオプション…
 	Hyphenation zone:	ハイフネーション領域:
 	Hyphens (--) as dashes (—)	ハイフン (--) をダッシュ (—) に
+	Hypotenuse	斜辺
 	I promise it's saved. I checked. Twice.	ちゃんと保存されてますって。確かめました。2 回も。
 	I'd write something myself, but I'm all nib and no ink.	自分でも何か書きたいんですが、なにしろペン先だけで、インクが空なんです。
 	I, II, III, …	I, II, III, …
 	i, ii, iii, …	i, ii, iii, …
+	Icelandic	アイスランド語
 	Icon Color	アイコンの色
 	Icons	アイコン
+	Identity Matrices	単位行列
 	If…Then…Else	条件 (If…Then…Else)
 	If…Then…Else…	条件 (If…Then…Else)…
 	Ignore punctuation characters	句読点を無視する
@@ -887,6 +1094,9 @@
 	Indents and Spacing	インデントと間隔
 	Index	索引
 	Index and Tables	索引と目次
+	Index Heading	索引の見出し
+	Index {n}	索引 {n}
+	India	インド
 	Indonesian	インドネシア語
 	Initial column width:	列の幅の初期値:
 	Initials:	イニシャル:
@@ -944,24 +1154,60 @@
 	Inside:	内側:
 	Inspect Document	ドキュメント検査
 	Inspect Styles at Selection	選択箇所のスタイルを調べる
+	Install spelling ({size})	スペルチェックをインストール（{size}）
 	Institution	機関
 	Integral	積分
+	Integral of e^(−x²)	e^(−x²) の積分
+	Integral with Limits	積分（右側に積分範囲）
+	Integral with Stacked Limits	積分（上下に積分範囲）
+	Integrals	積分
+	Intense Emphasis	強い強調
+	Intense Quote	強調した引用
+	Intense Reference	強調した参照
 	Interface language:	表示言語:
 	Interface size:	表示サイズ:
 	Interface theme:	表示テーマ:
 	Interface\nTheme	表示テーマ
 	Internet addresses as links	インターネットのアドレスをリンクに
 	Intersection	Intersection
+	Intersection with Limits	共通部分（上下限付き）
+	Intersection with Lower Limit	共通部分（下限付き）
+	Intersection with Subscript-Superscript Limits	共通部分（右側に上下限）
+	Inverse Cosecant Function	逆余割関数
+	Inverse Cosine Function	逆余弦関数
+	Inverse Cotangent Function	逆余接関数
+	Inverse Functions	逆関数
+	Inverse Hyperbolic Cosecant Function	逆双曲線余割関数
+	Inverse Hyperbolic Cosine Function	逆双曲線余弦関数
+	Inverse Hyperbolic Cotangent Function	逆双曲線余接関数
+	Inverse Hyperbolic Functions	逆双曲線関数
+	Inverse Hyperbolic Secant Function	逆双曲線正割関数
+	Inverse Hyperbolic Sine Function	逆双曲線正弦関数
+	Inverse Hyperbolic Tangent Function	逆双曲線正接関数
+	Inverse Secant Function	逆正割関数
+	Inverse Sine Function	逆正弦関数
+	Inverse Tangent Function	逆正接関数
 	Ionosphere	電離圏
+	Iraq	イラク
+	Ireland	アイルランド
+	Irish	アイルランド語
 	Is blank	空白
 	Is not blank	空白ではない
+	ISO 690 (author-date)	ISO 690（著者・年）
+	ISO 690 (numerical)	ISO 690（番号方式）
 	Issue	号
 	It looks like you're writing a letter. Want an envelope for it, or a letter template to start from?	手紙を書いているようですね。封筒を用意しますか? それともレター テンプレートから始めますか?
+	Italy	イタリア
+	Its dictionary couldn't be read: {reason}	辞書を読み込めませんでした: {reason}
+	Jamaica	ジャマイカ
 	Join the ArtCraft community on Discord	Discord の ArtCraft コミュニティに参加
 	Join us on Discord: discord.gg/artcraft	Discord で参加: discord.gg/artcraft
+	Jordan	ヨルダン
 	Journal	学術誌
 	Justification	配置
+	Justification of a display equation	独立した行の数式の配置
 	Justified	両端揃え
+	Kazakhstan	カザフスタン
 	Keep Lines Together	段落を分割しない
 	Keep lines together	段落を分割しない
 	Keep me around	近くにいて
@@ -973,6 +1219,7 @@
 	Kerning for fonts:	カーニングを行う:
 	Keyboard shortcuts:	キーボード ショートカット:
 	Keys for this command:	このコマンドのキー:
+	Kuwait	クウェート
 	Label changes with:	変更者のラベル:
 	Label:	ラベル:
 	Language Preferences…	言語の設定…
@@ -985,6 +1232,7 @@
 	Last Record	最後のレコード
 	Last, First; Last, First	姓, 名; 姓, 名
 	Latin text font:	ラテン文字のフォント:
+	Latvian	ラトビア語
 	Layout Summary	レイアウトの概要
 	Layouts	レイアウト
 	Leader	リーダー
@@ -994,26 +1242,40 @@
 	Leave the equation (Esc)	数式を終了 (Esc)
 	leave the equation first	先に数式から出てください
 	Leave the label out of the caption	ラベルを図表番号に含めない
+	Lebanon	レバノン
+	Left Arrow with Text Above	左向き矢印（上にテキスト）
+	Left Arrow with Text Below	左向き矢印（下にテキスト）
 	Left Border	左罫線
 	Left border	左罫線
+	Left Bracket Twice	両端が左角かっこ
 	Left indent	左インデント
 	Left Margin	左余白
 	Left Only	左側のみ
+	Left Right Arrow Above	上に左右矢印
+	Left Right Arrow with Text Above	左右矢印（上にテキスト）
+	Left Right Arrow with Text Below	左右矢印（下にテキスト）
+	Left Subscript-Superscript	左側に上付き/下付き
 	Left-to-right	左から右
 	Left-to-Right Text Direction	左から右への文字方向
+	Leftwards Arrow Above	上に左向き矢印
+	Leftwards Harpoon Above	上に左向き片矢印
 	Legal style numbering	正規形式で番号付け
 	Legend	凡例
 	Less than	より小さい
 	Less than or equal	以下
 	Letter headings	文字見出し
 	Letter template	レター テンプレート
+	Letter-Like Symbols	文字に似た記号
 	Letters	レター
 	Level {n}	レベル {n}
 	Levels:	レベル:
+	Liechtenstein	リヒテンシュタイン
 	Light Variations	明るいバリエーション
 	Light with Outline	明るい色と輪郭
+	Limit	極限
 	Limit and\nLog	極限と\n対数
 	Limit consecutive hyphens to:	連続するハイフンの上限:
+	Limit Example	極限の例
 	Limit formatting to a selection of styles	書式を選択したスタイルに制限する
 	Line and Page Breaks	改ページと改行
 	Line and Paragraph Spacing	行と段落の間隔
@@ -1021,6 +1283,7 @@
 	Line Break	改行
 	Line breaking	行の分割
 	Line End	行末
+	Line Number	行番号
 	Line Numbering Options…	行番号のオプション…
 	Line Numbers	行番号
 	Line Spacing	行間
@@ -1033,6 +1296,7 @@
 	Linear Diagonal - Top Left to Bottom Right	線形 (斜め) - 左上から右下
 	Linear Diagonal - Top Right to Bottom Left	線形 (斜め) - 右上から左下
 	Linear Down	線形 下方向
+	Linear Fraction	横並びの分数
 	Linear Left	線形 左方向
 	Linear Right	線形 右方向
 	Linear Up	線形 上方向
@@ -1045,6 +1309,7 @@
 	Lines to drop:	ドロップする行数:
 	Link entries to their headings	項目を見出しにリンクする
 	Link level to style:	レベルに対応付けるスタイル:
+	Link text "click here" isn't descriptive	リンクの文字列 "click here" ではリンク先がわかりません
 	Link to Previous	前と同じヘッダー/フッター
 	Link to:	リンク先:
 	Linked style (paragraph and character)	リンク スタイル (段落と文字)
@@ -1052,8 +1317,14 @@
 	Link…	リンク…
 	List Definition	リストの定義
 	List entries	リストの項目
+	List Paragraph	リストの段落
+	List Table 3 – Blue	リストの表 3 – 青
+	List Table 3 – Green	リストの表 3 – 緑
+	List Table 3 – Orange	リストの表 3 – オレンジ
+	List Table 3 – Purple	リストの表 3 – 紫
 	Lit from Bottom	下から照明
 	Lit from Top	上から照明
+	Lithuanian	リトアニア語
 	Load System Installed Fonts…	インストール済みシステムフォントを読み込む…
 	Loaded {count} system fonts.	{count} 個のシステムフォントを読み込みました。
 	Local font access is not supported by your browser.	お使いのブラウザーはローカルフォントへのアクセスに対応していません。
@@ -1061,9 +1332,18 @@
 	Location: {path}	場所: {path}
 	Lock aspect ratio	縦横比を固定する
 	Lock Fields	フィールドのロック
+	Logarithm	対数
+	Logarithm with Base	底を指定する対数
+	Logical AND	論理積
+	Logical AND with Limits	論理積（上下限付き）
+	Logical OR	論理和
+	Logical OR with Limits	論理和（上下限付き）
 	Lorem ipsum: because the real words are still at the café.	Lorem ipsum: 本物の文章は、まだカフェでのんびりしているので。
 	lowercase	小文字
 	Lum:	明るさ:
+	Luxembourg	ルクセンブルク
+	Macao SAR	マカオ特別行政区
+	Macedonian	マケドニア語
 	Macros	マクロ
 	Made from the author and year when empty	空欄なら著者と年から作成
 	Magazine or newspaper article	雑誌・新聞の記事
@@ -1072,6 +1352,7 @@
 	Main entry:	主項目:
 	Make WordCraft the default for Word documents…	WordCraft を Word 文書の既定のアプリにする…
 	Makes the ribbon, menus and dialogs larger or smaller. Auto follows your system's display scaling; 100% is one screen pixel per point. Document zoom is separate.	リボン、メニュー、ダイアログを拡大または縮小します。自動はシステムの表示倍率に従います。100% は 1 ポイントあたり画面の 1 ピクセルです。文書のズームは別に設定します。
+	Malaysia	マレーシア
 	Manage Sources	資料文献の管理
 	Manage Styles	スタイルの管理
 	Manage Styles…	スタイルの管理…
@@ -1099,16 +1380,23 @@
 	Match suffix	語尾が一致する
 	Matches: {count}	一致: {count} 件
 	Math AutoCorrect	数式オートコレクト
+	Matrices with Brackets	かっこ付きの行列
 	Matrix	行列
 	Maximum	Maximum
+	Maximum Example	最大値の例
+	Measured By	計測による等号
 	Measurement units:	単位:
 	Merge cells before split	分割する前にセルを結合する
 	Merge Formatting	書式を結合
 	Merge Record #	差し込みレコード番号
 	Mesosphere	中間圏
+	Mexico	メキシコ
+	Midline Dots	中央の高さの点列
+	Minus Equal	マイナス付き等号
 	Mirror indents	左右対称のインデント
 	Mirror margins	見開きページ
 	Mirrored	見開きページ
+	Missing alternative text	代替テキストがありません
 	MIT OR Apache-2.0. Copyright (c) 2026 ArtCraft Team and the WordCraft contributors.	MIT OR Apache-2.0。Copyright (c) 2026 ArtCraft チームおよび WordCraft の貢献者。
 	mm	mm
 	Moderate	やや狭い
@@ -1117,6 +1405,8 @@
 	Modify Table Style…	表スタイルの変更…
 	Modify…	変更…
 	Mon	月
+	Monaco	モナコ
+	Montenegro	モンテネグロ
 	Month	月
 	More >>	オプション >>
 	More Colors…	その他の色…
@@ -1128,6 +1418,7 @@
 	More tabs	その他のタブ
 	More templates →	その他のテンプレート →
 	More Underlines…	その他の下線…
+	Morocco	モロッコ
 	Move in Equation	数式内で移動
 	Move or Resize	移動またはサイズ変更
 	Move Paragraph Down	段落を下へ移動
@@ -1143,6 +1434,7 @@
 	Moved to	移動先
 	Moved to:	移動先:
 	Moves	移動
+	Mozambique	モザンビーク
 	Multilevel List	アウトライン
 	Multilevel List Library	アウトライン ライブラリ
 	Multiple Pages	複数ページ
@@ -1151,8 +1443,12 @@
 	Name of the file this document is saved as	文書のファイル名
 	Narrow	狭い
 	Narrow  {size} all	狭い  上下左右 {size}
+	Natural Logarithm	自然対数
 	Nature	自然
 	Navigation Pane	ナビゲーション ウィンドウ
+	Negated Relations	否定の関係記号
+	Netherlands	オランダ
+	New blank documents are written in this language	新しい白紙の文書はこの言語で書かれます
 	New Comment	新しいコメント
 	New comments and tracked changes are recorded under this name and these initials.	新しいコメントと変更履歴は、この名前とイニシャルで記録されます。
 	New Document	新規文書
@@ -1178,6 +1474,7 @@
 	New Table Style…	新しい表スタイル…
 	New Window	新しいウィンドウ
 	New word	新しい単語
+	New Zealand	ニュージーランド
 	New\nComment	新しいコメント
 	New\nWindow	新しいウィンドウ
 	New…	新規作成…
@@ -1191,6 +1488,7 @@
 	Next sentence	次の文
 	Nib floats over the window with tips and the occasional remark.	Nib はヒントや時々ひと言を添えて、ウィンドウの上に浮かんでいます。
 	Nib, your assistant. Drag to move; right-click for options.	アシスタントの Nib です。ドラッグで移動、右クリックでオプション。
+	Nicaragua	ニカラグア
 	No accessibility issues found.	アクセシビリティの問題は見つかりませんでした。
 	No Border	枠なし
 	No changes (read only)	変更不可 (読み取り専用)
@@ -1206,6 +1504,8 @@
 	No grid	グリッドなし
 	No header row	見出し行なし
 	No icons match your search.	検索に一致するアイコンはありません。
+	No language matches your search.	検索に一致する言語はありません。
+	No languages to show yet.	表示できる言語はまだありません。
 	No Markup	変更履歴/コメントなし
 	No model credits were built into this copy.	このビルドにはモデルのクレジットが含まれていません。
 	No Outline	輪郭なし
@@ -1215,22 +1515,29 @@
 	No Shadow	影なし
 	No Soft Edges	ぼかしなし
 	No sources yet.	資料文献はまだありません。
+	No Spacing	段落間隔なし
 	No spelling dictionary for {language} is installed, so it isn't checked. WordCraft looks for the Hunspell dictionary {name} in the WORDCRAFT_DICTIONARIES folder and in the usual system locations.	{language}のスペルチェック辞書がインストールされていないため、チェックされません。WordCraft は Hunspell 辞書 {name} を WORDCRAFT_DICTIONARIES フォルダーと通常のシステムの場所から探します。
 	No templates match your search.	検索に一致するテンプレートはありません。
 	No Transform	変形なし
+	No watermark	透かしなし
 	No words yet. Add to Dictionary on a misspelled word puts it here.	まだ単語はありません。スペルミスの単語で [辞書に追加] を選ぶと、ここに追加されます。
 	No-Width Non Break	幅なし改行禁止
 	No-Width Optional Break	幅なし任意改行
 	Nonbreaking Hyphen	改行なしハイフン
 	Normal  {size} all	標準  上下左右 {size}
+	Normal Indent	標準（インデント）
+	Normal probability density	正規分布の確率密度
 	Normal speed	標準の速度
 	Normal Style	標準スタイル
+	Normal Table	標準の表
 	Normal Text	標準テキスト
 	Normal Word Document	通常の文書
 	North	北
 	Norwegian (Bokmål)	ノルウェー語（ブークモール）
+	Norwegian (Nynorsk)	ノルウェー語（ニーノシュク）
 	Not	否定
 	Not available right now	現在は使用できません
+	Not available yet	まだ利用できません
 	not editing an equation	数式を編集していません
 	Not equal to	等しくない
 	Not linked: click a text box	リンクされていません: テキスト ボックスをクリックしてください
@@ -1256,11 +1563,14 @@
 	Number of the section the field sits in	現在のセクション番号
 	Number only, without the label's words	ラベルの語を除いて番号のみ
 	Number style for this level:	このレベルの番号の種類:
+	Number the equation; the number sits at the right margin (or type # then the number)	数式に番号を付けます。番号は右余白に表示されます（# の後に番号を入力しても設定できます）
 	Numbering	段落番号
 	Numbering:	番号の付け方:
 	Numbering…	番号付け…
 	Numerals	数字
 	Numerals:	数字:
+	n×n Identity Matrix	n×n の単位行列
+	Object isn't in line with text, so its reading order is unclear	オブジェクトが行内に配置されていないため、読み上げ順序が不明瞭です
 	Odd Banded Columns	奇数の縞模様（列）
 	Odd Banded Rows	奇数の縞模様（行）
 	Odd Page	奇数ページから開始
@@ -1280,6 +1590,7 @@
 	On: the caret glides to its new place when you type or use the arrow keys, and its blink fades. Off: it jumps and blinks on and off.	オン: 入力や矢印キーの操作でカーソルが新しい位置へ滑らかに移動し、点滅もフェードします。オフ: カーソルは瞬時に移動し、点滅は表示と非表示が切り替わるだけです。
 	On: WordCraft opens on File › Home, with a blank document, the templates and your recent documents. Off: it opens a blank document.	オン: WordCraft は [ファイル] › [ホーム] で開き、白紙の文書、テンプレート、最近使った文書を表示します。オフ: 白紙の文書を開きます。
 	One	1 段
+	One half	2 分の 1
 	One label per recipient	宛先ごとに 1 枚のラベル
 	One line per item. Enter adds an item.	1 行に 1 項目。Enter キーで項目を追加します。
 	One Page	1 ページ
@@ -1299,6 +1610,8 @@
 	Opens .docx, .doc, .rtf and .odt files and Word templates with WordCraft from now on.	今後、.docx、.doc、.rtf、.odt ファイルと Word テンプレートを WordCraft で開きます。
 	Opens Settings › Default apps, where you choose WordCraft for .docx and the other document types.	設定 › 既定のアプリ を開きます。そこで .docx などの文書の種類ごとに WordCraft を選びます。
 	Operator	演算子
+	Operator Structures	演算子の構造
+	Operators	演算子
 	Optional Hyphen	任意指定のハイフン
 	Or	または
 	Or save a copy in another format:	または、別の形式でコピーを保存:
@@ -1308,6 +1621,7 @@
 	Orientation	印刷の向き
 	Original document	元の文書
 	Original size	元のサイズ
+	Other Large Operators	その他の大型演算子
 	Other styles and their TOC level:	その他のスタイルと目次レベル:
 	Other:	その他:
 	Otherwise insert:	一致しなければ挿入:
@@ -1320,6 +1634,10 @@
 	Outside border	外側の罫線
 	Outside Borders	外枠
 	Outside:	外側:
+	Outward Brackets	外向きの角かっこ
+	Overbar	上線
+	Overbars and Underbars	上線と下線
+	Overbrace	上側の波かっこ
 	Overtype	上書き
 	Overtype (typing replaces the characters after the caret)	上書き (入力した文字がカーソルの後ろの文字を置き換えます)
 	Page Background	ページの背景
@@ -1352,6 +1670,7 @@
 	Page\nNumber	ページ番号
 	Pages like 1-3, 5	ページ指定(例: 1-3, 5)
 	Pages of bookmark:	ブックマークのページ:
+	Panama	パナマ
 	Paper size:	用紙サイズ:
 	Paragraph Character	段落記号文字
 	Paragraph Details	段落の詳細
@@ -1364,6 +1683,10 @@
 	Paragraph Up	前の段落へ
 	Paragraphs	段落数
 	Paragraph…	段落…
+	Paraguay	パラグアイ
+	Parentheses	丸かっこ
+	Parentheses with Separator	区切り線付きの丸かっこ
+	Partial Differential	偏微分
 	Password:	パスワード:
 	Paste (⌘V)	貼り付け (⌘V)
 	Paste All	すべて貼り付け
@@ -1381,11 +1704,15 @@
 	Pens	ペン
 	People	人物
 	Periodical	定期刊行物
+	Persian	ペルシア語
 	Personal	個人用
 	Personal Templates	個人用テンプレート
 	Personalize	個人設定
+	Peru	ペルー
+	Philippines	フィリピン
 	Phonetic Guide	ルビ
 	pi	pi
+	Pi Over 2	π/2
 	Pick a custom group (New Group makes one)	ユーザー設定グループを選んでください (新しいグループで作成できます)
 	Pick a field from the list	フィールドを選んでください
 	Picture	画像
@@ -1393,18 +1720,25 @@
 	Picture Content Control	画像コンテンツ コントロール
 	Picture Format	図の形式
 	Picture Styles	図のスタイル
+	Picture watermark	画像の透かし
 	Pictures	画像
 	Pie	円
 	Place in This Document	このドキュメント内
+	Place it in line with text (Layout › Wrap Text)	行内に配置してください（レイアウト › 文字列の折り返し）
 	Placeholder text	プレースホルダー テキスト
+	Plain Table 1	シンプルな表 1
 	Plain text (*.txt)	テキスト (*.txt)
 	Plain Text Content Control	プレーン テキスト コンテンツ コントロール
 	Play/Pause	再生/一時停止
+	Plus Equal	プラス付き等号
 	Points and above	pt 以上
 	Polish	ポーランド語
+	Portugal	ポルトガル
 	Portuguese (Brazil)	ポルトガル語（ブラジル）
 	Portuguese (Portugal)	ポルトガル語（ポルトガル）
+	Possible spelling mistake	スペルミスの可能性
 	Postal Code	郵便番号
+	Power series of (1+x)ⁿ	(1+x)ⁿ のべき級数
 	Preferred width:	推奨幅:
 	Preserve formatting during updates	更新時に書式を保持する
 	Preset gradients	グラデーションのプリセット
@@ -1437,6 +1771,12 @@
 	Privacy Options	プライバシー オプション
 	Privacy Settings	現在のプライバシー設定
 	Process	手順
+	Product	総乗
+	Product of A	A の総乗
+	Product with Limits	総乗（上下限付き）
+	Product with Lower Limit	総乗（下限付き）
+	Product with Subscript-Superscript Limits	総乗（右側に上下限）
+	Products and Coproducts	総乗と余積
 	Professional	2 次元形式
 	Promote	レベル上げ
 	Promote to Heading 1	見出し 1 に設定
@@ -1447,13 +1787,19 @@
 	PRs	PR
 	pt	pt
 	Publisher	出版社
+	Puerto Rico	プエルトリコ
 	Put the caret in a content control first.	先にカーソルをコンテンツ コントロールに置いてください。
 	Put the default commands back on the Quick Access Toolbar?	クイック アクセス ツール バーを既定のコマンドに戻しますか?
+	Qatar	カタール
+	Quadratic Root	二次方程式の解
 	Quick Access Toolbar	クイック アクセス ツール バー
 	Quick Parts	クイック パーツ
 	Quick Tables	クイック表作成
+	Quote	引用
 	Radial	放射
 	Radical	べき乗根
+	Radical with Degree	次数付きの根号
+	Radicals	根号
 	Raised/lowered	上げ/下げ
 	Read Aloud	音声読み上げ
 	Read Aloud Status	読み上げの状態
@@ -1519,15 +1865,8 @@
 	Remove Space After Paragraph	段落後の間隔を削除
 	Remove Table of Contents	目次の削除
 	Remove the control once edited	編集したらコントロールを削除する
+	Remove the space before the punctuation	句読点の前のスペースを削除してください
 	Remove Watermark	透かしの削除
-	No watermark	透かしなし
-	Picture watermark	画像の透かし
-	Text watermark	テキストの透かし
-	Select Picture…	画像を選択…
-	Washout	薄色
-	Semitransparent	半透明
-	Transparency:	透明度:
-	Select a picture first.	先に画像を選択してください。
 	Rename	名前の変更
 	Rename Document	ドキュメント名の変更
 	Rename Style	スタイル名の変更
@@ -1535,6 +1874,8 @@
 	Reopen	再度開く
 	Repeat as header row on each page	各ページに見出し行として繰り返す
 	Repeat Header Rows	タイトル行の繰り返し
+	Repeat the first row as a header row (table.repeatHeader)	先頭行をタイトル行として繰り返してください（table.repeatHeader）
+	Repeated word: "{word}"	単語が重複しています: "{word}"
 	Repeating Section Content Control	繰り返しセクション コンテンツ コントロール
 	Replace All	すべて置換
 	Replace as you type	入力中に自動で変更
@@ -1582,8 +1923,11 @@
 	Rich Text Format (*.rtf)	リッチ テキスト形式 (*.rtf)
 	Rich Text Format (RTF)	リッチ テキスト形式 (RTF)
 	Right (vertical)	右 (縦書き)
+	Right Arrow with Text Above	右向き矢印（上にテキスト）
+	Right Arrow with Text Below	右向き矢印（下にテキスト）
 	Right Border	右罫線
 	Right border	右罫線
+	Right Bracket Twice	両端が右角かっこ
 	Right indent	右インデント
 	Right Margin	右余白
 	Right Only	右側のみ
@@ -1591,7 +1935,10 @@
 	Right-to-Left Section	右から左のセクション
 	Right-to-Left Table	右から左の表
 	Right-to-Left Text Direction	右から左への文字方向
+	Rightwards Arrow Above	上に右向き矢印
+	Rightwards Harpoon Above	上に右向き片矢印
 	Romanian	ルーマニア語
+	Roots of ax²+bx+c	ax²+bx+c の根
 	Rotate all text 270°	すべてのテキストを 270° 回転
 	Rotate all text 90°	すべてのテキストを 90° 回転
 	Rotate Left 90°	左へ 90 度回転
@@ -1600,13 +1947,16 @@
 	Rotation	回転角度
 	Rounded Rectangle	角丸四角形
 	Row	行
+	Row {row} of a table is empty: it looks like spacing	表の {row} 行目が空です。間隔を空けるための行に見えます
 	Row:	行:
 	Rows & Columns	行と列
 	Ruby text:	ルビ文字:
 	Ruler	ルーラー
 	Rules	ルール
 	Run-in	追い込み
+	Russia	ロシア
 	Résumé	履歴書
+	SAMPLE	見本
 	Sat:	鮮やかさ:
 	Save a copy in another format. Printing goes through a PDF you can print from any viewer.	コピーを別の形式で保存します。印刷は PDF を経由し、任意のビューアーから印刷できます。
 	Save as Word Template…	Word テンプレートとして保存…
@@ -1632,6 +1982,8 @@
 	Search for templates	テンプレートを検索
 	Search icons	アイコンを検索
 	Search Options	検索オプション
+	Search:	検索:
+	Secant Function	正割関数
 	Section 1.01	第 1.01 節
 	Section Break	セクション区切り
 	Section Breaks	セクション区切り
@@ -1647,6 +1999,7 @@
 	select a floating picture or shape first	先に浮動の画像または図形を選択してください
 	select a group first	先にグループを選択してください
 	select a picture first	先に画像を選択してください
+	Select a picture first.	先に画像を選択してください。
 	select a picture or shape first	先に画像または図形を選択してください
 	Select a picture, shape, chart or table to describe it.	説明する画像、図形、グラフ、または表を選択してください。
 	Select a printer	プリンターを選択
@@ -1661,6 +2014,7 @@
 	Select Line	行の選択
 	Select Objects	オブジェクトの選択
 	Select Paragraph	段落の選択
+	Select Picture…	画像を選択…
 	Select Range	範囲の選択
 	Select Recipients	宛先の選択
 	select recipients first	先に宛先を選択してください
@@ -1680,6 +2034,7 @@
 	Selected Fields	選択したフィールド
 	Selected text	選択したテキスト
 	Selection Pane	オブジェクトの選択と表示
+	Semitransparent	半透明
 	Send Backward	背面へ移動
 	Send the document straight to the system print dialog, or save a copy in another format below.	文書をシステムの印刷ダイアログに直接送るか、下で別の形式のコピーを保存します。
 	Sentence	文
@@ -1693,9 +2048,11 @@
 	Series {n}	系列 {n}
 	Set As Default	既定に設定
 	Set as Default	既定に設定
+	Set as default	既定に設定
 	Set As Default (Font)	既定に設定 (フォント)
 	Set As Default (Page Setup)	既定に設定 (ページ設定)
 	Set As Default (Paragraph)	既定に設定 (段落)
+	Set as Default Language	既定の言語に設定
 	Set Caret	カーソル位置の設定
 	Set Character Formatting	文字書式の設定
 	Set Date	日付を設定
@@ -1713,7 +2070,6 @@
 	Shape Outline	図形の枠線
 	Shape Styles	図形のスタイル
 	Shapes	図形
-	{key} starts a new line without starting a new paragraph.	{key} で、新しい段落にせずに改行できます。
 	Shift+Tab	Shift+Tab
 	Shipping labels	配送ラベル
 	Shortcut key:	ショートカット キー:
@@ -1753,6 +2109,8 @@
 	Show Text Formatting	文字列の書式を表示
 	Show the Assistant	アシスタントを表示
 	Show the community button in the title bar	タイトル バーにコミュニティ ボタンを表示する
+	Show the equation in the line of text	本文の行内に数式を表示
+	Show the equation on a line of its own	独立した行に数式を表示
 	Show the mini toolbar when text is selected	テキストを選択したときにミニ ツール バーを表示する
 	Show the ribbon	リボンを表示
 	Show the Start screen when WordCraft starts	WordCraft の起動時にスタート画面を表示する
@@ -1773,24 +2131,42 @@
 	Shrink text	文字を縮小
 	Side to Side	左右に並べる
 	Side\nto Side	左右に並べる
+	Sides of a right triangle	直角三角形の辺
 	Signature Line	署名欄
+	Sine and cosine series of f(x)	f(x) の正弦・余弦級数
+	Sine Function	正弦関数
+	Sine theta	sin θ
+	Singapore	シンガポール
 	Single	一重線
+	Single Brackets	片側だけのかっこ（左または右）
 	Single Closing Quote	一重引用符 (閉じ)
 	Single label	1 枚のラベル
+	Single Left Angle	左側の山かっこ
+	Single Left Bar	左側の縦線
+	Single Left Brace	左側の波かっこ
+	Single Left Bracket	左側の角かっこ
+	Single Left Parenthesis	左側の丸かっこ
 	Single Opening Quote	一重引用符 (開き)
+	Single Right Brace	右側の波かっこ
+	Single Right Bracket	右側の角かっこ
+	Single Right Parenthesis	右側の丸かっこ
 	Single Spacing	1 行
 	Site name	サイト名
 	Size (pt):	サイズ (pt):
 	Size and Crop…	サイズとトリミング…
 	Sketchbook	スケッチブック
+	Skewed Fraction	斜めに区切る分数
 	Skip citations & bibliography	引用と参考文献をスキップ
 	Skip Citations and Bibliography	引用と参考文献をスキップ
 	Skip Record If	レコードをスキップする条件
 	Skip Record If…	レコードをスキップする条件…
 	Slant Down	右下がり
 	Slant Up	右上がり
+	Slovak	スロバキア語
+	Slovenian	スロベニア語
 	Small Caps	小型英大文字
 	Small caps	小型英大文字
+	Small change	微小な変化
 	Smart quotes instead of straight quotes	左右の区別がない引用符を区別がある引用符に
 	SmartArt	SmartArt
 	SmartArt Design	SmartArt のデザイン
@@ -1810,6 +2186,7 @@
 	Source type:	資料文献の種類:
 	Sources in this document:	この文書の資料文献:
 	South	南
+	South Africa	南アフリカ
 	Space	スペース
 	Space after	段落後の間隔
 	Space after: {pt} pt	後の間隔: {pt} pt
@@ -1817,8 +2194,10 @@
 	Space before/after:	段落前/後の間隔:
 	Space before: {pt} pt	前の間隔: {pt} pt
 	Spacing (pt):	間隔 (pt):
+	Spain	スペイン
 	Spanish (Mexico)	スペイン語（メキシコ）
 	Spanish (Spain)	スペイン語（スペイン）
+	Sparse Matrices	疎行列
 	Special	特殊文字
 	Special Characters	特殊文字
 	Specify height:	高さを指定:
@@ -1831,10 +2210,18 @@
 	Spike	スパイク
 	Split Cells	セルの分割
 	Split Table	表の分割
+	Split the merged cells (Table Layout › Merge)	結合したセルを分割してください（表のレイアウト › 結合）
 	Spreadsheet Table	スプレッドシート
+	Square Root	平方根
+	Square Root with Degree	次数付きの平方根
+	Square Union	角形の和集合記号
+	Stack Object	2 段の数式
+	Stack Object (Three)	3 段の数式
 	Stacked	縦積み
 	Stacked Bar	積み上げ横棒
 	Stacked Column	積み上げ縦棒
+	Stacked Fraction	上下に組む分数
+	Stacked, no bar	上下に組む分数（分数線なし）
 	Standard Colors	標準の色
 	Star	星
 	Start at:	開始番号:
@@ -1851,6 +2238,7 @@
 	Straight Arrow Connector	直線矢印コネクタ
 	Straight Connector	直線コネクタ
 	Stroke {n} of {total}	ストローク {n}/{total}
+	Strong	太字の強調
 	Structure Actions	構造の操作
 	Structures	構造
 	Studio cover	スタジオ表紙
@@ -1866,16 +2254,37 @@
 	Subentry:	副項目:
 	Submit print job	印刷ジョブの送信
 	Submitting print job…	印刷ジョブを送信しています…
+	Subscript-Superscript	上付き/下付き
+	Subscripts and Superscripts	上付き/下付き
 	Subset:	種類:
+	Subtle Emphasis	控えめな強調
+	Subtle Reference	控えめな参照
 	Suggested	おすすめ
 	Sum	計
+	Sum of cosines	余弦の和
+	Sum or difference of sines	正弦の和と差
+	Summation	総和
+	Summation from 0 to n	0 から n までの総和
+	Summation over binomials	二項係数の総和
+	Summation with Limits	総和（上下限付き）
+	Summation with Lower Limit	総和（下限付き）
+	Summation with Subscript Limit	総和（右側に下限）
+	Summation with Subscript-Superscript Limits	総和（右側に上下限）
+	Summations	総和
 	Suppress line numbers	行番号を表示しない
+	Surface Integral	面積分
+	Surface Integral with Limits	面積分（右側に積分範囲）
+	Surface Integral with Stacked Limits	面積分（上下に積分範囲）
+	Swahili	スワヒリ語
 	Swap footnotes and endnotes	脚注と文末脚注を入れ替え
 	Swedish	スウェーデン語
 	Switch Modes	モードの切り替え
 	Switch\nModes	モードの切り替え
+	Switzerland	スイス
 	Symbols	記号と特殊文字
 	Synonyms	類義語
+	Syria	シリア
+	System dictionary	システム辞書
 	Tab Character	タブ文字
 	Tab character	タブ文字
 	Tab characters	タブ
@@ -1885,11 +2294,16 @@
 	Table Column Width	表の列の幅
 	Table Design	テーブル デザイン
 	Table direction:	表の方向:
+	Table Grid	格子の表
+	Table has merged cells, which screen readers can lose track of	表に結合したセルがあり、スクリーンリーダーが位置を見失う可能性があります
+	Table has no alternative text	表に代替テキストがありません
+	Table has no header row	表にタイトル行がありません
 	Table Layout	表のレイアウト
 	Table of Authorities	引用文献一覧
 	Table of Contents	目次
 	Table of Contents Options	目次オプション
 	Table of Contents Styles	目次スタイル
+	Table of Figures	図表目次
 	Table of\nContents	目次
 	Table Properties	表のプロパティ
 	Table Properties…	表のプロパティ…
@@ -1900,8 +2314,12 @@
 	Tabs…	タブ…
 	Tabular List	表形式の一覧
 	Tag	タグ
+	Taiwan	台湾
 	Take the last match on the page	ページ内で最後に一致したものを使う
 	Take your time. The page isn't going anywhere. Neither am I. Ever.	ごゆっくり。ページはどこにも行きません。わたしもです。ずっと。
+	Tamil	タミル語
+	Tangent formula	正接の公式
+	Tangent Function	正接関数
 	TC entry fields	TC 項目フィールド
 	Technology	テクノロジー
 	Templates and Add-ins	テンプレートとアドイン
@@ -1916,15 +2334,20 @@
 	Text from File	ファイルからテキストを挿入
 	Text Highlight Color	蛍光ペンの色
 	Text indent at:	文字列のインデント位置:
+	Text is hard to read: contrast {ratio}:1, {needed}:1 needed	文字のコントラストが低いため読みづらくなっています（{ratio}:1、必要な比率 {needed}:1）
 	Text of the nearest paragraph with a given style (running headers)	指定したスタイルを持つ最も近い段落の文字列 (柱)
 	Text Outline	文字の輪郭
+	Text over Colon Equal	コロン付き等号の上にテキスト
+	Text over Equal	等号の上にテキスト
 	Text Pane	テキスト ウィンドウ
 	Text size	文字サイズ
 	Text snaps to characters	文字をグリッドに合わせる
 	Text to display:	表示文字列:
+	Text watermark	テキストの透かし
 	Text Wrapping	文字列の折り返し
 	Text\nBox	テキスト ボックス
 	Text\nDirection	文字列の方向
+	Thai	タイ語
 	That format doesn't keep everything, so the document is still open. Save it as a Word document (.docx) to go on.	その形式ではすべてを保存できないため、文書は開いたままです。続けるには Word 文書 (.docx) として保存してください。
 	That password isn't right. Check it (passwords are case-sensitive) and try again.	パスワードが正しくありません。確認して（大文字と小文字は区別されます）もう一度お試しください。
 	The clipboard is empty.	クリップボードは空です。
@@ -1947,6 +2370,7 @@
 	The password is removed. Save the document to keep the change.	パスワードを削除しました。変更を保持するには文書を保存してください。
 	The printer, two-sided printing and pages per sheet are chosen in that dialog.	プリンター、両面印刷、1 枚あたりのページ数は、そのダイアログで選択します。
 	The recipient-list field that fills each part of an address block and greeting line.	住所ブロックとあいさつ文の各部分に使われる宛先リストのフィールドです。
+	The spelling and grammar check is complete.	スペルチェックと文章校正が完了しました。
 	the Spike is empty	スパイクは空です
 	The system file dialog isn't available, so WordCraft shows its own. To get the system dialog, install a file chooser portal (such as xdg-desktop-portal-gtk) or zenity.	システムのファイル ダイアログを利用できないため、WordCraft 独自のダイアログを表示しています。システムのダイアログを使うには、ファイル選択ポータル (xdg-desktop-portal-gtk など) または zenity をインストールしてください。
 	The text at the insertion point is marked Do not check spelling or grammar.	挿入ポイントのテキストの設定: スペルチェックと文章校正を行わない
@@ -1983,14 +2407,20 @@
 	Three	3 段
 	Through	内部
 	Tight	狭い
+	Tilde	チルダ
 	Tip	ヒント
 	Tips ({n})	ヒント ({n})
+preview	Title	表題
 	Title Bar	タイトル バー
 	Title from the document properties	文書のタイトル
 	Title:	タイトル:
 	To open Word documents with WordCraft by default: select one in Finder, choose File › Get Info, pick WordCraft under Open with, then click Change All.	Word 文書を既定で WordCraft で開くには: Finder で文書を選び、ファイル › 情報を見る を選んで、「このアプリケーションで開く」で WordCraft を選び、「すべてを変更」をクリックします。
 	To:	終了:
+	TOA Heading	引用文献一覧の見出し
+	TOC Heading	目次の見出し
+	TOC {n}	目次 {n}
 	Today	今日
+	tOGGLE cASE	大文字/小文字を反転
 	Toggle Check Box	チェック ボックスの切り替え
 	Toggle Field Codes	フィールドコードの表示切り替え
 	Toggle Unicode Character	Unicode 文字の切り替え
@@ -2005,15 +2435,23 @@
 	Track Changes Options	変更履歴のオプション
 	Track Changes: On	変更履歴の記録: オン
 	Track formatting	書式の変更を記録
+	Track\nChanges	変更履歴
+	Track\nChanges ✓	変更履歴 ✓
 	Tracked changes	変更履歴
 	Tracking	変更履歴
 	Trademark	商標
 	Trademark Sign	商標記号
 	Transparency	透明度
+	Transparency:	透明度:
 	Transport	乗り物
 	Triangle Down	下向き三角形
 	Triangle Up	上向き三角形
+	Trigonometric Functions	三角関数
 	Triple	三重線
+	Triple Dot	三重ドット
+	Triple Integral	三重積分
+	Triple Integral with Limits	三重積分（右側に積分範囲）
+	Triple Integral with Stacked Limits	三重積分（上下に積分範囲）
 	Trust Center	セキュリティ センター
 	Tue	火
 	Turkish	トルコ語
@@ -2027,15 +2465,22 @@
 	Type a size in any unit, such as 5 cm or 300 px. The other side follows, so the picture keeps its proportions.	5 cm や 300 px など、任意の単位でサイズを入力します。もう一方の辺も合わせて変わるため、図の縦横比は保たれます。
 	Type at least one recipient.	宛先を1件以上入力してください。
 	Type Character Code	文字コードの入力
+	Type equations in LaTeX	LaTeX 形式で数式を入力
+	Type equations in the linear format (UnicodeMath)	線形形式（UnicodeMath）で数式を入力
 	Type in Equation	数式に入力
+	Type normal (non-math) text in the equation	数式の中に通常のテキストを入力
 	Type Text	テキストを入力
 	Type the categories down the side and a column of values per series.	左端の列にカテゴリを、系列ごとに 1 列ずつ値を入力します。
 	Type the field's name and its switches, for example PAGE \\* roman.	フィールド名とスイッチを入力します (例: PAGE \\* roman)。
 	Type the password to stop the protection.	保護を中止するにはパスワードを入力してください。
 	Type the recipients, or load them from a file.	宛先を入力するか、ファイルから読み込みます。
 	Typing replaces selected text	入力時に選択文字列を置き換える
+	U.A.E.	アラブ首長国連邦
+	Ukraine	ウクライナ
 	Ukrainian	ウクライナ語
 	Unchecked symbol	オフの記号
+	Underbar	下線
+	Underbrace	下側の波かっこ
 	Underline Color	下線の色
 	Underline color	下線の色
 	Underline Words Only	単語のみ下線
@@ -2046,10 +2491,20 @@
 	Undo {n} Actions	{n} 件の操作を元に戻す
 	Undo, undo, undo… we're time travelling now.	元に戻す、元に戻す、元に戻す… もうタイムトラベルですね。
 	Unformatted Text	書式なしテキスト
+	Union	和集合
+	Union of intersections	共通部分の和集合
+	Union with Limits	和集合（上下限付き）
+	Union with Lower Limit	和集合（下限付き）
+	Union with Plus	プラス付き和集合
+	Union with Subscript-Superscript Limits	和集合（右側に上下限）
+	Unions and Intersections	和集合と共通部分
+	United Kingdom	英国
+	United States	米国
 	Unlink Fields	フィールドのリンク解除
 	Unlink\nCitations	引用文献の\nリンク解除
 	Unlock Fields	フィールドのロック解除
 	Up	上
+	Up Diagonal Dots	右上がりの斜め点列
 	Up one level	1 つ上のフォルダー
 	Update Field	フィールドの更新
 	Update fields before printing	印刷前にフィールドを更新する
@@ -2061,21 +2516,34 @@
 	Update to Match	一致するように更新
 	Update to Match Selection	選択箇所と一致するように更新
 	UPPERCASE	大文字
+	URGENT	緊急
 	URL	URL
+	Uruguay	ウルグアイ
+	Use "a" before a consonant sound	子音で始まる語の前に "a" を使ってください
+	Use "an" before a vowel sound	母音で始まる語の前に "an" を使ってください
+	Use a darker or lighter text colour, or change the shading behind it	文字色を暗く/明るくするか、背景色を変えてください
 	Use an Existing List…	既存のリストを使用…
+	Use Space Before/After (Layout › Paragraph) or a page break instead of empty paragraphs	空の段落の代わりに、段落前後の間隔（レイアウト › 段落）や改ページを使ってください
 	Use system setting	システム設定を使用
 	Use the browser's full screen (F11)	ブラウザーの全画面表示を使用してください (F11)
 	Use the current style set and theme for all new documents?	現在のスタイル セットとテーマをすべての新しい文書に使用しますか?
 	Use the Insert key to switch overtype on and off	Insert キーで上書きのオンとオフを切り替える
+	Use the next heading level down, so the outline has no gaps	見出しレベルを 1 つずつ下げ、文書の構成に抜けがないようにしてください
 	Use this formatting as the default for:	この書式を既定として使用する対象:
 	Use wildcards	ワイルドカードを使う
 	User Name	ユーザー名
 	User name:	ユーザー名:
 	User templates:	ユーザー テンプレート:
+	Vector A	ベクトル A
+	Vector AB	ベクトル AB
+	Venezuela	ベネズエラ
 	Version History	バージョン履歴
 	Version {version} ({build})	バージョン {version}（{build}）
 	Vertical Alignment	垂直方向の配置
 	Vertical alignment:	垂直方向の配置:
+	Vertical Bars	縦線
+	Vertical Dots	縦の点列
+	Vietnamese	ベトナム語
 	View Alt Text…	代替テキストを表示…
 	View Gridlines	グリッド線の表示
 	View State	表示の状態
@@ -2083,11 +2551,15 @@
 	Views	表示
 	Visual effects	視覚効果
 	Volume	巻
+	Volume Integral	体積分
+	Volume Integral with Limits	体積分（右側に積分範囲）
+	Volume Integral with Stacked Limits	体積分（上下に積分範囲）
 	W:	幅:
 	Waiting for the save to finish…	保存が完了するのを待っています…
 	Waiting for Zotero…	Zotero を待っています…
 	Warm Gradient with Outline	暖色のグラデーションと輪郭
 	Warnings ({n})	警告 ({n})
+	Washout	薄色
 	Wave	波線
 	Weather	天気
 	Web Layout	Web レイアウト
@@ -2095,6 +2567,7 @@
 	Web\nLayout	Web レイアウト
 	Wed	水
 	Weight	太さ
+	Welsh	ウェールズ語
 	West	西
 	When this document was first created	文書の作成日
 	When this document was most recently printed	文書の最終印刷日
@@ -2130,11 +2603,15 @@
 	Write & Insert Fields	文章入力とフィールドの挿入
 	Write a reply	返信を入力
 	Writer's block? I find staring at the cursor helps. It's been blinking at me for years.	書けなくなりました? カーソルを見つめるといいですよ。あの子、何年もわたしに向かって点滅してますから。
+	x bar	x の上線
 	Year	年
+	Yields	導出矢印
 	You haven't saved in a while, and AutoSave is off. Save now?	しばらく保存していませんし、自動保存もオフです。今すぐ保存しますか?
 	You started a list. Press Enter twice to end it, or Backspace at the start of an item to turn it back into text.	リストを始めましたね。終わらせるには Enter を 2 回、項目の先頭で Backspace を押すとただの文字に戻ります。
 	Your changes will be lost if you don't save them.	保存しないと、変更内容は失われます。
 	Your document is now the most saved document in history.	この文書は、これまでで一番保存された文書になりました。
+	Your languages	使用する言語
+	Your own dictionary	独自の辞書
 	Your system doesn't report an animation setting, so animation effects stay on.	システムからアニメーションの設定を取得できないため、アニメーション効果はオンのままです。
 	Your system has animation effects turned off.	システムのアニメーション効果はオフです。
 	Your system has animation effects turned on.	システムのアニメーション効果はオンです。
@@ -2151,9 +2628,18 @@
 	{count} of {total} pages will print	{total} ページ中 {count} ページを印刷します
 	{count} of {total} recipients will be merged.	差し込む宛先: {total} 件中 {count} 件
 	{group} settings	{group} の設定
+	{key} checks the spelling and grammar of the whole document.	{key} で文書全体のスペル チェックと文章校正を行います。
+	{key} counts your words, characters and paragraphs.	{key} で単語数、文字数、段落数を数えられます。
+	{key} finds and replaces text, formatting and special characters.	{key} で文字列、書式、特殊文字を検索して置換できます。
+	{key} repeats your last action. Formatting ten headings is suddenly one click and nine taps.	{key} で直前の操作を繰り返せます。見出し 10 個の書式設定も、1 クリックと 9 回のキー操作で完了。
+	{key} starts a new line without starting a new paragraph.	{key} で、新しい段落にせずに改行できます。
+	{key} starts a new page. Much tidier than pressing Enter until it happens.	{key} で新しいページを始められます。ページが変わるまで Enter を押し続けるより、ずっとスマートです。
+	{key} turns the selected text into a link.	{key} で選択した文字列をリンクにできます。
 	{key}+Click to follow link	{key} キーを押しながらクリックしてリンク先を表示
 	{kind}, {columns} × {rows}, {size} ({paper})	{kind}、{columns} × {rows}、{size} ({paper})
+	{language} (default)	{language}（既定）
 	{language} (no dictionary)	{language}（辞書なし）
+	{language} ({region})	{language}（{region}）
 	{language} is now the document's default language.	{language} がこの文書の既定の言語になりました。
 	{language}: no dictionary found	{language}: 辞書が見つかりません
 	{language}: WordCraft doesn't check spelling or grammar in this language yet.	{language}: WordCraft はこの言語のスペルと文法をまだチェックしません。
@@ -2164,6 +2650,7 @@
 	{name} already exists. Choose Save again to replace it.	{name} は既に存在します。置き換えるには、もう一度 [保存] を選んでください。
 	{name} is protected with a password.	{name} はパスワードで保護されています。
 	{name} wasn't found.	{name} が見つかりません。
+	{n} empty paragraphs in a row	{n} 個の空の段落が連続しています
 	{n} entries marked.	{n} 件の項目を登録しました。
 	{n} lines	{n} 行
 	{n} pt	{n} pt
@@ -2176,123 +2663,4 @@
 	{words} words! I'd throw confetti but I'd have to clean it up.	{words} 語! パーティーを開きたいけど、片付けるのはわたしなので。
 	{words} words. That's {words} more than I've written today.	{words} 語。わたしが今日書いた分より {words} 語も上回っています。
 	“{text}” ({row}, {series}) isn't a number.	「{text}」（{row}、{series}）は数値ではありません。
-	Add a language…	言語を追加…
-	Add a language	言語を追加
-	Your languages	使用する言語
-	English, the languages of this document and every installed Language pack. Language packs add spelling dictionaries and hyphenation.	英語、この文書の言語、インストール済みのすべての言語パック。言語パックはスペルチェック用の辞書とハイフネーションを追加します。
-	Set as default	既定に設定
-	New blank documents are written in this language	新しい白紙の文書はこの言語で書かれます
-	{language} (default)	{language}（既定）
-	Built in	内蔵
-	Your own dictionary	独自の辞書
-	System dictionary	システム辞書
-	Not available yet	まだ利用できません
-	Grammar built in	文法チェック内蔵
-	Install spelling ({size})	スペルチェックをインストール（{size}）
-	Its dictionary couldn't be read: {reason}	辞書を読み込めませんでした: {reason}
-	Downloading is off. Clicking Add a language… or Install turns it on: WordCraft then downloads language packs and fonts from GitHub.	ダウンロードはオフです。「言語を追加…」または「インストール」をクリックするとオンになり、WordCraft は GitHub から言語パックとフォントをダウンロードします。
-	Search:	検索:
-	Dutch, Nederlands or nl	オランダ語、Nederlands または nl
-	No languages to show yet.	表示できる言語はまだありません。
-	No language matches your search.	検索に一致する言語はありません。
-	An installed Language pack is used after this folder.	インストール済みの言語パックは、このフォルダーの後に使われます。
-	Dictionary files	辞書ファイル
-	Possible spelling mistake	スペルミスの可能性
-	Gets the list of Language packs, then this language's pack if there is one.	言語パックの一覧を取得し、続いてこの言語のパックがあればそれを取得します。
-	Afrikaans	アフリカーンス語
-	Belarusian	ベラルーシ語
-	Bulgarian	ブルガリア語
-	Bosnian	ボスニア語
-	Catalan	カタルーニャ語
-	Catalan (Valencian)	カタルーニャ語（バレンシア語）
-	Welsh	ウェールズ語
-	Esperanto	エスペラント語
-	Persian	ペルシア語
-	Irish	アイルランド語
-	Galician	ガリシア語
-	Hungarian	ハンガリー語
-	Armenian	アルメニア語
-	Icelandic	アイスランド語
-	Georgian	ジョージア語
-	Lithuanian	リトアニア語
-	Latvian	ラトビア語
-	Macedonian	マケドニア語
-	Norwegian (Nynorsk)	ノルウェー語（ニーノシュク）
-	Slovak	スロバキア語
-	Slovenian	スロベニア語
-	Albanian	アルバニア語
-	Swahili	スワヒリ語
-	Tamil	タミル語
-	Thai	タイ語
-	Vietnamese	ベトナム語
-	Set as Default Language	既定の言語に設定
-	{language} ({region})	{language}（{region}）
-	U.A.E.	アラブ首長国連邦
-	Angola	アンゴラ
-	Argentina	アルゼンチン
-	Austria	オーストリア
-	Australia	オーストラリア
-	Bosnia and Herzegovina	ボスニア・ヘルツェゴビナ
-	Belgium	ベルギー
-	Bolivia	ボリビア
-	Brazil	ブラジル
-	Belarus	ベラルーシ
-	Canada	カナダ
-	Switzerland	スイス
-	Chile	チリ
-	China	中国
-	Colombia	コロンビア
-	Costa Rica	コスタリカ
-	Cuba	キューバ
-	Cabo Verde	カーボベルデ
-	Cyprus	キプロス
-	Germany	ドイツ
-	Dominican Republic	ドミニカ共和国
-	Ecuador	エクアドル
-	Egypt	エジプト
-	Spain	スペイン
-	Finland	フィンランド
-	France	フランス
-	United Kingdom	英国
-	Equatorial Guinea	赤道ギニア
-	Guatemala	グアテマラ
-	Hong Kong SAR	香港特別行政区
-	Honduras	ホンジュラス
-	Ireland	アイルランド
-	India	インド
-	Iraq	イラク
-	Italy	イタリア
-	Jamaica	ジャマイカ
-	Jordan	ヨルダン
-	Kuwait	クウェート
-	Kazakhstan	カザフスタン
-	Lebanon	レバノン
-	Liechtenstein	リヒテンシュタイン
-	Luxembourg	ルクセンブルク
-	Morocco	モロッコ
-	Monaco	モナコ
-	Montenegro	モンテネグロ
-	Macao SAR	マカオ特別行政区
-	Mexico	メキシコ
-	Malaysia	マレーシア
-	Mozambique	モザンビーク
-	Nicaragua	ニカラグア
-	Netherlands	オランダ
-	New Zealand	ニュージーランド
-	Panama	パナマ
-	Peru	ペルー
-	Philippines	フィリピン
-	Puerto Rico	プエルトリコ
-	Portugal	ポルトガル
-	Paraguay	パラグアイ
-	Qatar	カタール
-	Russia	ロシア
-	Singapore	シンガポール
-	El Salvador	エルサルバドル
-	Syria	シリア
-	Taiwan	台湾
-	Ukraine	ウクライナ
-	United States	米国
-	Uruguay	ウルグアイ
-	Venezuela	ベネズエラ
-	South Africa	南アフリカ
+	✓ None	✓ なし
