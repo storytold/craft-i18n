@@ -705,15 +705,51 @@ fn archives_keep_quoted_notices_and_distinct_upstream_licences() {
     let notes = std::str::from_utf8(&contents["LICENCES/NOTICES.txt"]).unwrap();
     assert!(notes.contains("Copyright (c) 2010, Doug Cooper"));
     assert!(notes.contains("THE SOFTWARE IS PROVIDED"));
-    let notice = repo
+    let notices: Vec<_> = repo
         .manifest
         .entries("km")
-        .find_map(|e| e.notice.as_deref())
-        .unwrap();
+        .filter_map(|e| e.notice.as_deref())
+        .collect();
     assert_eq!(
-        notes, notice,
-        "ship the upstream notice verbatim, without reviewer evidence or generated headers"
+        notices.len(),
+        2,
+        "ship the SEAlang grant and the separate CLDR modification statement"
     );
+    assert_eq!(
+        notes,
+        notices.join("\n"),
+        "preserve the explicit notices verbatim, without reviewer evidence or generated headers"
+    );
+    let cldr = repo
+        .manifest
+        .entries("km")
+        .find(|e| e.file_name() == "LICENSE-CLDR-28.txt")
+        .unwrap();
+    let modification = cldr.notice.as_deref().unwrap();
+    assert!(modification.starts_with("Modification notice:"));
+    for required in [
+        "modified derivatives",
+        "SIL changes CLDR-derived place/name strings",
+        "Aksara combines",
+        "JSON to TSV",
+        "Brotli",
+        "proposed craft-khmer",
+    ] {
+        assert!(
+            modification.contains(required),
+            "missing modification detail: {required}"
+        );
+    }
+    assert!(
+        notes.contains(modification),
+        "the CLDR statement must reach the archive"
+    );
+    for review in ["pending maintainer", "classification", "ADR", "Embeddable"] {
+        assert!(
+            !notes.contains(review),
+            "review commentary must not ship: {review}"
+        );
+    }
     for entry in repo.manifest.entries("km") {
         if let Some(evidence) = &entry.note {
             assert!(

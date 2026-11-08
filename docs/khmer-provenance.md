@@ -62,7 +62,8 @@ The listed dictionary origins are retained in this record; the list is no longer
 described as a freshly authored SBBIC-only vocabulary. The notice's JS/UI
 components describe upstream Aksara/tiptap, not additional code imported here.
 Aksara's new notice publishes Unicode-3.0; we also retain the identified historical
-CLDR 28 notice and modification statement pending maintainer classification.
+CLDR 28 licence text and the separate modification statement in the CLDR entry's
+shipped `notice`. Maintainer classification is still pending.
 
 ## SIL and inherited sources
 
@@ -81,8 +82,9 @@ word lists from two Bible versions and three Khmer books. In particular:
 
 The original SIL places file is now verified as an exact multiset match to
 CLDR 28: 996 nonempty name occurrences (including duplicates) and one blank line.
-The matching publication's full historical **Unicode-DFS-2015** notice is retained,
-with a modification statement. This establishes matching content and its notice,
+The matching publication's full historical **Unicode-DFS-2015** licence text is retained,
+with a separate modification statement in the CLDR entry's shipped `notice`.
+This establishes matching content and its notice,
 not the precise CLDR checkout SIL originally extracted. It does not replace that notice
 with today's Unicode-3.0 terms. See the [inherited-source audit](khmer-inherited-sources.md)
 for immutable hashes, the complete nine-input table and reproducible checks.

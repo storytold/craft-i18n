@@ -3971,7 +3971,16 @@ size = 2933
 licence = "Unicode-DFS-2015"
 class = "Download-only"
 filename = "LICENSE-CLDR-28.txt"
-note = "Copyright 1991-2015 Unicode, Inc. This is the historical notice accompanying the matching CLDR 28 data, not a retroactive substitution of Unicode-3.0. Modification notice: SIL changes CLDR-derived place/name strings; Aksara combines these with other inputs, changes frequencies and adds/demotes entries; craft-khmer proposes JSON-to-TSV conversion and Brotli compression. These are modified derivatives, not unchanged CLDR. Keep this full notice and the modification statement with the software and its documentation. The licence is recorded conservatively as Download-only pending maintainer policy review; no Embeddable approval is implied."
+note = "Copyright 1991-2015 Unicode, Inc. This is the historical notice accompanying the matching CLDR 28 data, not a retroactive substitution of Unicode-3.0. The licence is recorded conservatively as Download-only pending maintainer policy review; no Embeddable approval is implied. The required modification statement is separately recorded in notice and ships with the full historical licence text."
+notice = '''
+Modification notice: these are modified derivatives, not unchanged CLDR data.
+
+SIL changes CLDR-derived place/name strings. Aksara combines these with other
+inputs, changes frequencies and adds/demotes entries.
+
+If embedded with the proposed craft-khmer consumer, the data is further
+transformed by JSON to TSV conversion and Brotli compression.
+'''
 
 [[file]]
 locale = "km"

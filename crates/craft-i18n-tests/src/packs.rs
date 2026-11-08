@@ -134,7 +134,8 @@ pub struct Entry {
     /// Reviewer evidence only: never included in staged files or archives.
     #[serde(default)]
     pub note: Option<String>,
-    /// Verbatim upstream notice text to ship in `LICENCES/NOTICES.txt` (licence entries only).
+    /// Licence notices and required modification statements to ship in `LICENCES/NOTICES.txt`
+    /// (licence entries only). Keep upstream notices verbatim and reviewer evidence in `note`.
     #[serde(default)]
     pub notice: Option<String>,
     /// Optional archive basename for a licence whose upstream name would collide.
@@ -433,8 +434,8 @@ pub fn data_licence_ids(manifest: &Manifest, locale: &str) -> BTreeSet<String> {
         .collect()
 }
 
-/// Verbatim upstream notices travel with staged files and archives, including notices without
-/// a pinned raw URL of their own. Reviewer evidence in `note` never ships.
+/// Licence notices and required modification statements travel with staged files and archives.
+/// Their text is preserved verbatim; reviewer evidence in `note` never ships.
 #[must_use]
 pub fn licence_notices(manifest: &Manifest, locale: &str) -> Option<String> {
     let notices: Vec<_> = manifest
@@ -530,9 +531,7 @@ pub fn check(
             errors.push(format!("{at}: notice must not be empty"));
         }
         if e.kind == Kind::Licence && e.file_name().eq_ignore_ascii_case("NOTICES.txt") {
-            errors.push(format!(
-                "{at}: NOTICES.txt is reserved for upstream notices"
-            ));
+            errors.push(format!("{at}: NOTICES.txt is reserved for licence notices"));
         }
     }
     for locale in manifest.locales() {

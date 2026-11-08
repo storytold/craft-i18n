@@ -36,7 +36,8 @@ on 2015-12-24, splitting some strings and cleaning place spellings. Aksara combi
 and changes frequencies and adds/demotes entries; the proposed Rust build converts
 JSON to TSV and compresses it. **These are modified derivatives.** The manifest now
 pins the historical full notice as `LICENCES/LICENSE-CLDR-28.txt`, includes a
-modification statement in `LICENCES/NOTICES.txt`, and records the frequency file as
+modification statement from the CLDR entry's shipped `notice` in
+`LICENCES/NOTICES.txt`, and records the frequency file as
 `MIT AND Unicode-DFS-2015`. The standard SPDX text is also included in archives.
 The historical licence is conservatively Download-only in the checker pending
 maintainer policy review. The whole pack and embedding remain gated.

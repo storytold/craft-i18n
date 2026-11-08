@@ -24,7 +24,7 @@ licence = "BSD-3-Clause"      # SPDX expression
 class = "Embeddable"          # Embeddable | Download-only | Excluded
 name = "Nederlands"           # optional, first entry per locale wins: endonym
 note = "…"                    # optional reviewer evidence; never shipped
-notice = '''…'''               # optional verbatim upstream notice, licence entries only
+notice = '''…'''               # optional licence/modification notice, licence entries only
 filename = "LICENSE-source"   # optional licence basename; avoids upstream LICENSE collisions
 ```
 
@@ -45,9 +45,12 @@ filename = "LICENSE-source"   # optional licence basename; avoids upstream LICEN
   licences share a name such as `LICENSE`. This changes the destination name only.
   Nonempty licence-entry `notice` text is preserved verbatim in `LICENCES/NOTICES.txt`
   in both staged output and archives, and listed in archive metadata for About.
-  Use it only for upstream licence notices without a pinned raw file of their own;
+  Use it for upstream licence notices without a pinned raw file of their own, keeping
+  their wording verbatim, or for required statements identifying modifications to the
+  data. Keep modification statements distinct from the upstream licence text;
   `note` remains reviewer evidence in the manifest and never ships. The pinned Aksara
-  notice retains its upstream build/modification history. Licence basenames must be
+  notice retains Aksara's own build history; the separate CLDR `notice` records SIL's
+  name edits and the proposed craft-khmer conversion. Licence basenames must be
   unique regardless of case; `NOTICES.txt` and standard `<id>.txt` names are reserved
   in every case. A supplemental notice does not replace the source licence.
 - **Licence texts.** Every locale has at least one `licence` entry, the upstream notice (a
@@ -206,8 +209,10 @@ The current `km` pack is **Download-only**, pending maintainer classification/si
 be staged for embedding. [Per-file provenance](khmer-provenance.md) records
 Nathan Wells's SBBIC authorship and the confirmed SIL input/permissions. The inherited-source audit matches
 the original CLDR-derived names to CLDR 28 and preserves its full historical
-Unicode-DFS-2015 notice with a modification statement; this does not grant
-Embeddable classification.
+Unicode-DFS-2015 licence text. Its CLDR licence entry's `notice` supplies the
+modification statement in `LICENCES/NOTICES.txt`, covering SIL's name edits,
+Aksara's changes and the proposed craft-khmer conversion. This does not grant
+Embeddable classification; staging remains blocked until that approval.
 
 The proposed consumer, `craft-khmer`, exists only in the **unmerged**
 [craft-libs #551](https://github.com/storytold/craft-libs/pull/551).

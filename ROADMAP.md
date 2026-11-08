@@ -1,6 +1,6 @@
 # craft-i18n roadmap
 
-> **Last updated:** 2026-11-08 · **Change:** minor (3b: PhotoCraft cutover started); previously minor (KM35: ship only explicit upstream notices, reserve licence names case-insensitively, pin provenance and report audit errors cleanly; KM24: pin published Aksara notices and clarify the spelling-list MIT alternative; KM23: verify CLDR 28 and SEAlang notices, record inherited-source evidence; Khmer notice preservation and pending provenance review; file-size `unit` rows and a shared byte count for craft-libs#204)
+> **Last updated:** 2026-11-08 · **Change:** minor (KM42: ship the CLDR modification statement separately from review evidence; 3b: PhotoCraft cutover started); previously minor (KM35: ship only explicit upstream notices, reserve licence names case-insensitively, pin provenance and report audit errors cleanly; KM24: pin published Aksara notices and clarify the spelling-list MIT alternative; KM23: verify CLDR 28 and SEAlang notices, record inherited-source evidence; Khmer notice preservation and pending provenance review; file-size `unit` rows and a shared byte count for craft-libs#204)
 
 Shared translations for the storytold Crafting Apps: one catalog per locale for shared strings,
 one per app, checked in CI and embedded by each app at build time. Vocabulary is in
@@ -107,6 +107,7 @@ As surveyed on 2026-10-16 (VectorCraft recounted 2026-10-18). Locale counts excl
 | 2026-11-05 | minor | CADCraft resync before its cutover (`cadcraft@b23d362` → `cadcraft@c4d9e6a`): its Greek, Hungarian, Turkish and Vietnamese catalogs (added in the app after the 3b migration) are new here; every other CADCraft catalog takes the app's added and corrected rows and drops the prompt texts the app reworded |
 | 2026-11-05 | minor | KM35: separate shipped upstream `notice` text from reviewer `note` evidence; protect archive names regardless of case; pin Khmer provenance and handle missing audit inputs cleanly. Maintainer classification/ADR approval remains pending. |
 | 2026-11-08 | minor | 3b: PhotoCraft cutover sync (`photocraft@8d2e615` → `photocraft@70c0911`, 12 new PhotoCraft locales: ar, az, da, fi, he, hi, nb, ro, sv, ta, th, ur; `az` is new to craft-i18n); Hebrew's 35 `@plural` rows repeat the `other` form for CLDR's third form; credits follow PhotoCraft's `LICENSE-translations.txt` |
+| 2026-11-08 | patch | KM42: put the required CLDR modification statement in the shipped `notice`; retain the separate upstream licence texts and reviewer evidence. Khmer stays hidden and Download-only pending maintainer classification/ADR approval. |
 
 Khmer provenance follow-up (2026-11-04): preserve all three MIT holders in pack output, including a
 pinned SIL notice and the supplied SEAlang notice. The six-file pack remains
@@ -115,7 +116,8 @@ and the model/config ADR decision. Staging rejects non-Embeddable packs. See [th
 
 Inherited-source audit (KM23, 2026-11-04): the original SIL places list exactly
 matches CLDR 28 values, including duplicates; its historical Unicode-DFS-2015
-notice and modification record are now retained. SEAlang's notice was retrieved
+licence text is retained, and the CLDR entry's `notice` ships the modification
+statement in `LICENCES/NOTICES.txt`. SEAlang's notice was retrieved
 directly. All nine SIL inputs have immutable hashes and source-history records.
 Wells confirmed the input and permissions; maintainer classification remains open. Data stays
 Download-only. See [the audit](docs/khmer-inherited-sources.md).
