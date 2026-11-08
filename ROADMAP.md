@@ -1,6 +1,6 @@
 # craft-i18n roadmap
 
-> **Last updated:** 2026-11-05 · **Change:** minor (KM35: ship only explicit upstream notices, reserve licence names case-insensitively, pin provenance and report audit errors cleanly; KM24: pin published Aksara notices and clarify the spelling-list MIT alternative; KM23: verify CLDR 28 and SEAlang notices, record inherited-source evidence; Khmer notice preservation and pending provenance review; file-size `unit` rows and a shared byte count for craft-libs#204)
+> **Last updated:** 2026-11-08 · **Change:** minor (3b: PhotoCraft cutover started); previously minor (KM35: ship only explicit upstream notices, reserve licence names case-insensitively, pin provenance and report audit errors cleanly; KM24: pin published Aksara notices and clarify the spelling-list MIT alternative; KM23: verify CLDR 28 and SEAlang notices, record inherited-source evidence; Khmer notice preservation and pending provenance review; file-size `unit` rows and a shared byte count for craft-libs#204)
 
 Shared translations for the storytold Crafting Apps: one catalog per locale for shared strings,
 one per app, checked in CI and embedded by each app at build time. Vocabulary is in
@@ -13,7 +13,7 @@ one per app, checked in CI and embedded by each app at build time. Vocabulary is
 | 1 | TSV catalog format and strict checker; Fluent and the unusable library crate removed; translator and integration docs | this repo | done (PR #1) |
 | 2 | `craft-i18n` runtime crate: parser, lookup, fallback, plurals (`intl_pluralrules`, `icu_plurals` since craft-libs#210), locale matching, pseudo locale | craft-libs | done: merged upstream as [storytold/craft-libs#167](https://github.com/storytold/craft-libs/pull/167) (2026-10-18) |
 | 3a | Migrate WordCraft and PdfCraft (proves the runtime on the largest catalogs; seeds the shared catalog) | apps | WordCraft cut over (2026-10-24); PdfCraft synced at `pdfcraft@ecdd1e6`, wiring in progress |
-| 3b | Migrate the other TSV apps: PhotoCraft, VectorCraft, FilmCraft, CADCraft, craft-launcher | apps | catalogs moved here (shared catalog grows additively, [ADR 0003](docs/adr/0003-shared-catalog-grows-additively.md)); app wiring next |
+| 3b | Migrate the other TSV apps: PhotoCraft, VectorCraft, FilmCraft, CADCraft, craft-launcher | apps | catalogs moved here (shared catalog grows additively, [ADR 0003](docs/adr/0003-shared-catalog-grows-additively.md)); CADCraft resynced at `cadcraft@c4d9e6a`; PhotoCraft synced at `photocraft@70c0911` (cutover started, 2026-11-08); app wiring next for the rest |
 | 3c | Convert and migrate FigCraft (TOML), LightCraft (JSON), DesignCraft, GridCraft, EffectCraft (Rust tables) | apps | not started |
 | 3d | Add translation to DeckCraft and SoundCraft | apps | not started |
 | 4 | Language data: spelling dictionaries, hyphenation patterns and the suite word list; English embedded, other languages pinned and downloaded ([ADR 0004](docs/adr/0004-third-party-language-data.md), [ADR 0005](docs/adr/0005-language-data-lives-here.md)) | this repo, craft-libs, apps | licence table signed off 2026-11-01 (Martin Ball); phase 1 done; phase 2 (SCOWL 2026 en-US/en-GB/en-CA/en-AU dictionaries) added; phase 3 (pack manifest, checks, release workflow) done; phase 3 follow-up (75 of 81 locales publishable, 3 hidden, 3 Excluded); the last 14 need craft-proof at `47c9f625` (craft-libs #497 merged) |
@@ -106,6 +106,7 @@ As surveyed on 2026-10-16 (VectorCraft recounted 2026-10-18). Locale counts excl
 | 2026-11-03 | minor | File sizes (storytold/craft-libs#204): `@plural {n} byte\|{n} bytes` moved from 20 locales' `pdfcraft.tsv` to `common.tsv` (additive, ADR 0003); `unit` rows (`{n} KB`, `{n} MiB`, …) only where the symbol differs from English: `fr`, `ru`, `uk` |
 | 2026-11-05 | minor | CADCraft resync before its cutover (`cadcraft@b23d362` → `cadcraft@c4d9e6a`): its Greek, Hungarian, Turkish and Vietnamese catalogs (added in the app after the 3b migration) are new here; every other CADCraft catalog takes the app's added and corrected rows and drops the prompt texts the app reworded |
 | 2026-11-05 | minor | KM35: separate shipped upstream `notice` text from reviewer `note` evidence; protect archive names regardless of case; pin Khmer provenance and handle missing audit inputs cleanly. Maintainer classification/ADR approval remains pending. |
+| 2026-11-08 | minor | 3b: PhotoCraft cutover sync (`photocraft@8d2e615` → `photocraft@70c0911`, 12 new PhotoCraft locales: ar, az, da, fi, he, hi, nb, ro, sv, ta, th, ur; `az` is new to craft-i18n); Hebrew's 35 `@plural` rows repeat the `other` form for CLDR's third form; credits follow PhotoCraft's `LICENSE-translations.txt` |
 
 Khmer provenance follow-up (2026-11-04): preserve all three MIT holders in pack output, including a
 pinned SIL notice and the supplied SEAlang notice. The six-file pack remains

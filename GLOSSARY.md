@@ -76,3 +76,12 @@ _Avoid_: dictionary download, language download
 **Licence class**: how an upstream file's licence lets the suite ship it: **Embeddable** (may be
 built into a release), **Download-only** (only as a separate, unmodified file in a Language pack)
 or **Excluded** (never shipped).
+
+**Suggestion**: a proposed translation from a logged-in contributor. It changes no catalog until a
+Reviewer accepts it.
+_Avoid_: submission, proposal
+
+**Vote**: a contributor's support for one Suggestion. Votes rank Suggestions; they never accept one.
+
+**Reviewer**: a trusted speaker of one locale who accepts or declines that locale's Suggestions. A
+Reviewer is per locale, never global.
