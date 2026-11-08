@@ -1,0 +1,380 @@
+# Suomi (fi) interface catalog for ArtCraft Launcher.
+# Columns, separated by a TAB:  context <TAB> English source text <TAB> translation
+#   context  usually empty. `@plural`, `@id` and `@msg` mean something to the apps; any other
+#            word is a label that tells apart two meanings of the same English.
+#   escapes  \n  \t  \\  inside a column. `{name}` placeholders must appear in both columns (in any
+#            order), and a trailing "…" in one needs one in the other.
+#   @plural  English `one|other`; the translation lists this language's plural forms, `|`-separated.
+#   Lines starting with # and blank lines are ignored. A missing entry shows in English.
+#
+# Clean room: every entry was written from the plain meaning of the English text in ordinary
+# computing vocabulary. No other product's localisation, string table or translated UI was
+# consulted or copied; add entries the same way.
+
+texturecraft	3D texture painting	3D-teksturien maalaus
+	A new version is available. Download it to replace this version?	Uusi versio on saatavilla. Ladataanko se tämän version tilalle?
+	A new version is available. Would you like to relaunch with the updated version?	Uusi versio on saatavilla. Haluatko käynnistää ohjelman uudelleen päivitetyn version kanssa?
+	A quote isn't closed.	Lainausmerkkiä ei ole suljettu.
+artcraft	AI image and video creation	Kuvien ja videoiden luonti tekoälyllä
+	All releases	Kaikki julkaisut
+	App	Sovellus
+column	App	Sovellus
+	App details	Sovelluksen tiedot
+@id	app.download	Lataa {os}-versio
+@id	app.github	GitHub-tietovarasto
+@id	app.install	Asenna
+@id	app.notes	Julkaisutiedot
+@id	app.open	Avaa
+@id	app.reinstall	Asenna uudelleen
+@id	app.releases	Kaikki julkaisut
+@id	app.reveal	Näytä Finderissä
+@id	app.uninstall	Poista asennus…
+@id	app.update	Päivitä versioon {v}
+@id	app.website	Verkkosivusto
+@id	appearance.theme	Ulkoasu
+	Apps are placed inside this folder.	Sovellukset sijoitetaan tähän kansioon.
+	Apps on this computer	Tämän tietokoneen sovellukset
+	Apps you can install	Asennettavat sovellukset
+	Apps you hid	Piilottamasi sovellukset
+month	Apr	huh
+	Arch package (.pkg.tar.zst)	Arch-paketti (.pkg.tar.zst)
+	ArtCraft	ArtCraft
+	ArtCraft Launcher	ArtCraft Launcher
+	ArtCraft Launcher can't install version {version} over this copy.	ArtCraft Launcher ei voi asentaa versiota {version} tämän kopion päälle.
+	ArtCraft Launcher is still running	ArtCraft Launcher on yhä käynnissä
+	ArtCraft Launcher {version}	ArtCraft Launcher {version}
+	ArtCraft Launcher {version} is available.	ArtCraft Launcher {version} on saatavilla.
+@plural	ArtCraft Launcher · {n} update available|ArtCraft Launcher · {n} updates available	ArtCraft Launcher · {n} päivitys saatavilla|ArtCraft Launcher · {n} päivitystä saatavilla
+	ArtCraft on GitHub	ArtCraft GitHubissa
+	ArtCraft on {name}	ArtCraft: {name}
+	Ascending	Nouseva
+month	Aug	elo
+column	Author	Tekijä
+	Automatically download and install updates	Lataa ja asenna päivitykset automaattisesti
+	Available	Saatavilla
+	Available to install	Asennettavissa
+texturecraft	Bake mesh maps and use smart materials.	Paista verkkokarttoja ja käytä älymateriaaleja.
+	Browse…	Selaa…
+materialcraft	Build materials with node graphs.	Rakenna materiaaleja solmukaavioilla.
+	by {name}	tekijä: {name}
+	Cancel download	Peruuta lataus
+	Cancel update	Peruuta päivitys
+	Check for Updates	Tarkista päivitykset
+	Check for updates	Tarkista päivitykset
+	Checked {ago}	Tarkistettu {ago}
+	Checked {ago} · using {sources}	Tarkistettu {ago} · lähteinä {sources}
+	Checking for updates…	Tarkistetaan päivityksiä…
+	Checking…	Tarkistetaan…
+	Choose version	Valitse versio
+	Classic	Perinteiset
+	Classic apps	Perinteiset sovellukset
+	Click to enlarge	Suurenna napsauttamalla
+	Click to reverse the order	Vaihda järjestyksen suunta napsauttamalla
+	Click to sort by this column	Järjestä tämän sarakkeen mukaan napsauttamalla
+	Close (Esc)	Sulje (Esc)
+materialcraft	Combine noises, patterns and filters.	Yhdistä kohinoita, kuvioita ja suodattimia.
+	Coming soon	Tulossa pian
+cadcraft	Computer-aided design and drafting	Tietokoneavusteinen suunnittelu ja tekninen piirtäminen
+	Couldn't change the login item: {e}	Kirjautumiskohteen muuttaminen ei onnistunut: {e}
+	Couldn't check for updates: {f}	Päivityksiä ei voitu tarkistaa: {f}
+@msg	couldn't move {path} to Trash ({reason}). Remove it in Finder instead.	kohdetta {path} ei voitu siirtää Roskakoriin ({reason}). Poista se Finderissa.
+	Couldn't open {name}: {e}	Ei voitu avata {name}: {e}
+@msg	Couldn't open {name}: {e}	Ei voitu avata {name}: {e}
+@msg	couldn't use install folder {path}: {reason}	asennuskansion {path} käyttö ei onnistunut: {reason}
+	Craft App Suite	Craft App Suite
+materialcraft	Create tileable PBR materials and export texture maps.	Luo saumattomia PBR-materiaaleja ja vie tekstuurikarttoja.
+	Custom folders use AppImage on Linux.	Mukautetut kansiot käyttävät AppImagea Linuxilla.
+@msg	custom install folders aren't supported on this system	mukautetut asennuskansiot eivät ole tuettuja tässä järjestelmässä
+	Debian package (.deb)	Debian-paketti (.deb)
+month	Dec	jou
+	Default install folder	Oletusasennuskansio
+	Descending	Laskeva
+	Discard download	Hylkää lataus
+	Disk image (.dmg)	Levykuva (.dmg)
+	Dismiss	Ohita
+	Download again	Lataa uudelleen
+	Download cancelled	Lataus peruutettu
+@msg	Download cancelled	Lataus peruutettu
+	Download for {os}	Lataa {os}-versio
+	Download paused	Lataus keskeytetty
+	Download selected version	Lataa valittu versio
+	Downloading	Ladataan
+	Downloading {done} of {total}	Ladataan {done}/{total}
+	Downloading…	Ladataan…
+	Downloads for {platform}	Lataukset alustalle {platform}
+	Downloads the new version, replaces this one and opens it again	Lataa uuden version, korvaa tämän ja käynnistää sen uudelleen
+	Enable automatic installs in Settings to follow new nightly builds.	Ota automaattiset asennukset käyttöön asetuksissa, jotta saat uudet yöversiot.
+	Enlarge picture	Suurenna kuva
+	Every Craft app	Kaikki Craft-sovellukset
+	Features	Ominaisuudet
+month	Feb	hel
+@id	filter.all	Kaikki
+@id	filter.installed	Asennetut
+@id	filter.notinstalled	Ei asennettu
+@id	filter.updates	Päivitykset
+craft-anything	Find out how any software works, then craft your own	Selvitä, miten mikä tahansa ohjelma toimii, ja tee sitten omasi
+	Flags added each time the app is opened	Liput, jotka lisätään aina sovellusta avattaessa
+	Flatpak bundle	Flatpak-paketti
+	Frequently used	Usein käytetyt
+	Full changelog	Koko muutosloki
+	GitHub	GitHub
+	GitHub limit hit; back in {min} min	GitHubin raja tuli vastaan; taas käytettävissä {min} min kuluttua
+	GitHub repository	GitHub-tietovarasto
+	GitHub's hourly limit was reached; full details return in {min} min	GitHubin tuntikohtainen raja saavutettiin; kaikki tiedot ovat taas saatavilla {min} min kuluttua
+@id	help.discord	Discord
+@id	help.github	GitHub
+@id	help.website	Verkkosivusto
+	Hidden Apps	Piilotetut sovellukset
+	Hide App	Piilota sovellus
+	Hide community apps	Piilota yhteisön sovellukset
+photocraft	Image editing	Kuvankäsittely
+	Include pre-releases (betas and release candidates)	Sisällytä esiversiot (beetat ja julkaisuehdokkaat)
+	Inspired by	Innoittaja
+	Install	Asenna
+	Install cancelled	Asennus peruutettu
+	Install cancelled. The download is kept for the next try.	Asennus peruutettiin. Lataus säilytetään seuraavaa yritystä varten.
+	Install folder	Asennuskansio
+	Install new apps as	Asenna uudet sovellukset muodossa
+	Install version {version}	Asenna versio {version}
+	Installed	Asennettu
+column	Installed	Asennettu
+filter	Installed	Asennetut
+	installed	asennettu
+	Installed apps with a newer version	Asennetut sovellukset, joista on uudempi versio
+	Installed version	Asennettu versio
+	Installed · latest {latest}	Asennettu · uusin {latest}
+	Installed · up to date	Asennettu · ajan tasalla
+	Installer (.msi)	Asennusohjelma (.msi)
+	Installing for {platform}	Asennus alustalle {platform}
+	Installing on Linux	Asentaminen Linuxissa
+	Installing on Windows	Asennus Windowsissa
+	Installing, then restarting…	Asennetaan ja käynnistetään uudelleen…
+	Installing…	Asennetaan…
+figcraft	Interface design and prototyping	Käyttöliittymäsuunnittelu ja prototypointi
+	It's in the tray: open it or quit it from the tray icon, or turn this off in the settings.	Se on ilmoitusalueella: avaa tai sulje se ilmoitusalueen kuvakkeesta tai poista tämä käytöstä asetuksista.
+month	Jan	tam
+	Join the ArtCraft community on Discord	Liity ArtCraft-yhteisöön Discordissa
+	Join the ArtCraft Discord	Liity ArtCraftin Discordiin
+	Join the Discord	Liity Discordiin
+month	Jul	hei
+month	Jun	kes
+	just now	juuri nyt
+	Keep running in the tray when the window is closed	Pidä käynnissä ilmoitusalueella, kun ikkuna suljetaan
+	Last updated: {date}	Päivitetty viimeksi: {date}
+	Later	Myöhemmin
+	Latest	Uusin
+column	Latest	Uusin
+	Latest release	Uusin julkaisu
+	Latest version	Uusin versio
+	latest {version}	uusin {version}
+	Launch options…	Käynnistysasetukset…
+	Launcher	Launcher
+	Launcher version	Käynnistimen versio
+@id	launcher.dismiss	Ohita
+@id	launcher.download	Lataa
+@id	launcher.notes	Uutta
+@id	launcher.update	Päivitä ja käynnistä uudelleen
+	Learn more	Lisätietoja
+	Like {name}	Kuten {name}
+	link	linkki
+@id	linux.preferred_kind	Asenna uudet sovellukset muodossa
+materialcraft	Live previews	Reaaliaikaiset esikatselut
+	Loading ArtCraft Launcher…	Ladataan ArtCraft Launcheria…
+	Loading pictures…	Ladataan kuvia…
+month	Mar	maa
+	Match system	Järjestelmän mukainen
+texturecraft	Materials	Materiaalit
+month	May	tou
+texturecraft	Mesh maps	Verkkokartat
+	Migrate Flatpak bundles to ArtCraft OCI (experimental)	Siirrä Flatpak-paketit ArtCraft OCI:hin (kokeellinen)
+	More actions for {name}	Lisää toimintoja: {name}
+effectcraft	Motion graphics and visual effects	Liikegrafiikka ja visuaaliset efektit
+	Move down	Siirrä alas
+	Move up	Siirrä ylös
+	Name (Z–A)	Nimi (Ö–A)
+	NEW	UUSI
+	New apps	Uudet sovellukset
+	New installs use this folder. Updates stay in their current location.	Uudet asennukset käyttävät tätä kansiota. Päivitykset pysyvät nykyisessä sijainnissaan.
+	Newest release	Uusin julkaisu
+	Next app	Seuraava sovellus
+	Next picture (→)	Seuraava kuva (→)
+	Nightly	Yöversio
+	Nightly (none published yet)	Yöversio (ei vielä julkaistu)
+	No apps match	Mikään sovellus ei vastaa hakua
+	No downloads for this system	Tälle järjestelmälle ei ole latauksia
+	No notes were published with this release.	Tämän julkaisun mukana ei ole julkaisutietoja.
+	No release published yet	Ei vielä julkaisuja
+materialcraft	Node graphs	Solmukaaviot
+	Not available	Ei saatavilla
+	Not available here	Ei saatavilla täällä
+	Not checked yet	Ei vielä tarkistettu
+	Not installed	Ei asennettu
+	Notify me when an installed app has an update	Ilmoita, kun asennetulla sovelluksella on päivitys
+month	Nov	mar
+month	Oct	lok
+	Offline	Ei verkkoyhteyttä
+	Older launcher versions require a manual reinstall.	Vanhemmat käynnistimen versiot on asennettava uudelleen käsin.
+	On Linux, custom folders use AppImage format.	Linuxissa mukautetut kansiot käyttävät AppImage-muotoa.
+	On update, switch first party apps when the matching package is available. Otherwise, keep using bundles.	Vaihda päivitettäessä omat sovellukset, kun vastaava paketti on saatavilla. Muuten jatketaan pakettien käyttöä.
+	Only when I ask	Vain pyynnöstäni
+	Open ArtCraft Launcher to update.	Avaa ArtCraft Launcher päivittämistä varten.
+	Open link	Avaa linkki
+	Open on GitHub	Avaa GitHubissa
+	Open Source Tools for Creatives, Makers, and Builders	Avoimen lähdekoodin työkalut luojille, tekijöille ja rakentajille
+	Open {installed} without updating. {latest} stays available.	Avaa {installed} päivittämättä. {latest} pysyy saatavilla.
+	Open {version}	Avaa {version}
+designcraft	Page layout and publishing	Sivuasettelu ja julkaiseminen
+texturecraft	Paint materials on 3D models and export textures.	Maalaa materiaaleja 3D-malleihin ja vie tekstuureja.
+texturecraft	Paint textures on 3D models.	Maalaa tekstuureja 3D-malleihin.
+solidcraft	Parametric 3D CAD	Parametrinen 3D-CAD
+	Pause download	Keskeytä lataus
+lightcraft	Photo library and raw development	Kuvakirjasto ja raakakuvien kehitys
+	Pictures couldn't be loaded. Reopen this page to try again.	Kuvien lataaminen ei onnistunut. Avaa sivu uudelleen ja yritä uudestaan.
+	Pin to top	Kiinnitä ylimmäksi
+	Pinned	Kiinnitetty
+	Platforms	Alustat
+	Portable (.zip)	Siirrettävä (.zip)
+deckcraft	Presentations and slide shows	Esitykset ja diaesitykset
+materialcraft	Preview materials in 2D and on 3D models.	Esikatsele materiaaleja 2D:nä ja 3D-malleissa.
+	Previous app	Edellinen sovellus
+	Previous picture (←)	Edellinen kuva (←)
+materialcraft	Procedural material design	Proseduraalinen materiaalisuunnittelu
+	Questions, ideas and news from the ArtCraft team	Kysymyksiä, ideoita ja uutisia ArtCraft-tiimiltä
+	Quit ArtCraft Launcher	Lopeta ArtCraft Launcher
+pdfcraft	Reading, organizing and protecting PDFs	PDF-tiedostojen lukeminen, järjestäminen ja suojaaminen
+	Recently updated	Viimeksi päivitetty
+	Reconnecting…	Yhdistetään uudelleen…
+soundcraft	Recording, editing and mixing audio	Äänen tallennus, muokkaus ja miksaus
+	Reinstall	Asenna uudelleen
+	Release notes	Julkaisutiedot
+	Released	Julkaistu
+column	Released	Julkaistu
+	Released {date}	Julkaistu {date}
+	Releases	Julkaisut
+	Removing…	Poistetaan…
+	Reorder {name}	Järjestä {name} uudelleen
+	Replace what's there?	Korvataanko siellä oleva?
+	Resume	Jatka
+	Resume download	Jatka latausta
+	Retry install	Yritä asennusta uudelleen
+	Retry update	Yritä päivitystä uudelleen
+	Retry update to {version}	Yritä päivitystä versioon {version} uudelleen
+	RPM package (.rpm)	RPM-paketti (.rpm)
+	Running in the background	Taustalla ajaminen
+	Search apps	Etsi sovelluksia
+month	Sep	syy
+	Separate flags with spaces. Quote a value that has spaces in it.	Erota liput välilyönneillä. Lainaa arvo, jossa on välilyöntejä.
+@id	settings.open	Asetukset
+@id	settings.quit	Lopeta ArtCraft Launcher
+	Show apps as a table	Näytä sovellukset taulukkona
+	Show apps as cards	Näytä sovellukset kortteina
+	Show ArtCraft Launcher	Näytä ArtCraft Launcher
+	Show in Explorer	Näytä Resurssienhallinnassa
+	Show in Files	Näytä Tiedostot-sovelluksessa
+	Show in Finder	Näytä Finderissä
+	Show the window on the current desktop	Näytä ikkuna nykyisellä työpöydällä
+	Show {n} more changes	Näytä {n} muutosta lisää
+	Sort	Järjestä
+@id	sort.inspired	Innoittaja
+@id	sort.installed	Asennettu versio
+@id	sort.latest	Uusin versio
+@id	sort.name	Nimi
+@id	sort.released	Uusin julkaisu
+@id	sort.status	Tila
+@id	sort.suite	Suiten järjestys
+gridcraft	Spreadsheets and data	Taulukkolaskenta ja data
+	Start ArtCraft Launcher when I log in	Käynnistä ArtCraft Launcher, kun kirjaudun sisään
+	Stop waiting; the update can be started again later	Lopeta odottaminen; päivityksen voi käynnistää uudelleen myöhemmin
+	Suite order	Suiten järjestys
+	System default	Järjestelmän oletus
+	System package (recommended)	Järjestelmäpaketti (suositeltu)
+	Tarball (.tar.gz)	Tar-arkisto (.tar.gz)
+	The app will be moved to the Trash. Your documents and settings stay.	Sovellus siirretään roskakoriin. Tiedostosi ja asetuksesi säilyvät.
+	The app will be removed. Your documents and settings stay.	Sovellus poistetaan. Tiedostosi ja asetuksesi säilyvät.
+	The download is still here. It's checked again, then installed.	Lataus on edelleen olemassa. Se tarkistetaan uudelleen ja asennetaan sitten.
+	The OCI repository is a preview with GPG verification disabled.	OCI-varasto on esiversio, jossa GPG-vahvistus on poistettu käytöstä.
+	The system manages install locations here.	Järjestelmä hallinnoi asennussijainteja tässä.
+	These notes weren't fetched (GitHub's request limit was reached). They're on the release page.	Näitä julkaisutietoja ei noudettu (GitHubin pyyntöraja saavutettiin). Ne löytyvät julkaisusivulta.
+@msg	this release has no AppImage for a custom install folder	tässä julkaisussa ei ole AppImagea mukautetulle asennuskansiolle
+@id	tray.close_to_tray	Pidä käynnissä ilmoitusalueella, kun ikkuna suljetaan
+@id	tray.login_item	Käynnistä ArtCraft Launcher, kun kirjaudun sisään
+@id	tray.show_on_current_desktop	Näytä ikkuna nykyisellä työpöydällä
+	Unhide App	Näytä piilotettu sovellus
+	Uninstall	Poista asennus
+	Uninstall cancelled	Poisto peruutettiin
+	Uninstall {name}?	Poistetaanko {name}?
+	Uninstall…	Poista asennus…
+	Unpin	Irrota
+	Update	Päivitä
+	Update 1 app	Päivitä 1 sovellus
+	Update all ({count})	Päivitä kaikki ({count})
+	Update and restart	Päivitä ja käynnistä uudelleen
+	Update available	Päivitys saatavilla
+	Update cancelled	Päivitys peruutettu
+	Update paused	Päivitys keskeytetty
+	Update to {v}	Päivitä versioon {v}
+@id	update.check	Tarkista päivitykset
+@id	update.check_auto	Tarkista päivitykset automaattisesti
+@id	update.notify	Ilmoita, kun asennetulla sovelluksella on päivitys
+@id	update.prereleases	Sisällytä esiversiot (beetat ja julkaisuehdokkaat)
+	Updates	Päivitykset
+	Updates always use the format an app was installed with.	Päivitykset käyttävät aina muotoa, jolla sovellus on asennettu.
+	Updating…	Päivitetään…
+	Use default	Käytä oletusta
+vectorcraft	Vector illustration	Vektorigrafiikka
+	Verifying checksum…	Varmistetaan tarkistussummaa…
+	Verifying…	Varmistetaan…
+column	Version	Versio
+	Version {latest}	Versio {latest}
+	Version {version}	Versio {version}
+	Version {version} installed	Versio {version} asennettu
+filmcraft	Video editing, color and sound	Videoeditointi, väri ja ääni
+@id	view.grid	Ruudukko
+@id	view.table	Taulukko
+	Visit getartcraft.com	Siirry sivulle getartcraft.com
+	Waiting for another app…	Odotetaan toista sovellusta…
+	Waiting for other installs…	Odotetaan muita asennuksia…
+	Website	Verkkosivusto
+	Website (coming soon)	Verkkosivusto (tulossa pian)
+	What's new	Uutta
+	When on, opening the launcher from the menu bar brings its window to the desktop you're on. When off, macOS switches you to the desktop the window was on.	Kun asetus on käytössä, ArtCraft Launcherin avaaminen valikkopalkista tuo sen ikkunan työpöydälle, jolla olet. Kun asetus on pois käytöstä, macOS siirtää sinut työpöydälle, jolla ikkuna on.
+	Windows will remove it like any installed program. Your documents and settings stay.	Windows poistaa sen kuten minkä tahansa asennetun ohjelman. Tiedostosi ja asetuksesi säilyvät.
+wordcraft	Writing and document design	Kirjoittaminen ja asiakirjojen muotoilu
+	yesterday	eilen
+	Your files may not open in older versions.	Tiedostosi eivät ehkä avaudu vanhemmissa versioissa.
+	Your system's package manager will remove it, and may ask for your password. Your documents and settings stay.	Järjestelmän pakettienhallinta poistaa sen ja saattaa pyytää salasanaasi. Tiedostosi ja asetuksesi säilyvät.
+	{a} and {b}	{a} ja {b}
+	{count} updates are available	{count} päivitystä on saatavilla
+	{done} downloaded	{done} ladattu
+	{done} of {total}	{done}/{total}
+	{done} of {total} downloaded	{done}/{total} ladattu
+	{installed} installed · latest {latest}	{installed} asennettu · uusin {latest}
+	{latest} is out, but ArtCraft Launcher can't install it over this copy.	{latest} on julkaistu, mutta ArtCraft Launcher ei voi asentaa sitä tämän kopion päälle.
+	{month} {day}, {year}	{day}. {month} {year}
+	{name} details	{name} · tiedot
+	{name} icon	{name}-kuvake
+@msg	{name} installed: {version}	{name} asennettu: {version}
+@msg	{name} installed: {version} (this release publishes no checksum, so only its size was checked)	{name} asennettu: {version} (tämä julkaisu ei julkaise tarkistussummaa, joten vain sen koko tarkistettiin)
+@msg	{name} is running. Quit it, then try again.	{name} on käynnissä. Lopeta se ja yritä sitten uudelleen.
+	{name} launch options	Sovelluksen {name} käynnistysasetukset
+@msg	{name} updated to {version}	{name} päivitettiin versioon {version}
+@msg	{name} updated to {version} (this release publishes no checksum, so only its size was checked)	{name} päivitettiin versioon {version} (tämä julkaisu ei julkaise tarkistussummaa, joten vain sen koko tarkistettiin)
+@msg	{name} was installed from the AUR ({pkg}). Update it with your AUR helper (for example: yay -S {pkg})	{name} on asennettu AUR:sta ({pkg}). Päivitä se AUR-apuohjelmalla (esimerkiksi: yay -S {pkg})
+@msg	{name} was installed from the AUR ({pkg}). Update it with {cmd}	{name} on asennettu AUR:sta ({pkg}). Päivitä se komennolla {cmd}
+@msg	{name} was installed from the {repo} repository or the AUR ({pkg}). Update it with your AUR helper (for example: yay -S {pkg}) or sudo pacman -Syu	{name} on asennettu {repo}-varastosta tai AUR:sta ({pkg}). Päivitä se AUR-apuohjelmalla (esimerkiksi: yay -S {pkg}) tai komennolla sudo pacman -Syu
+@msg	{name} was installed from the {repo} repository or the AUR ({pkg}). Update it with {cmd} or sudo pacman -Syu	{name} on asennettu {repo}-varastosta tai AUR:sta ({pkg}). Päivitä se komennolla {cmd} tai sudo pacman -Syu
+@msg	{name} was removed	{name} poistettiin
+	{name} wasn't opened: a quote in its launch options isn't closed.	Sovellusta {name} ei avattu: käynnistysasetusten lainausmerkkiä ei ole suljettu.
+	{name} {version}	{name} {version}
+	{name} {v} is available	{name} {v} on saatavilla
+@plural	{n} app|{n} apps	{n} sovellus|{n} sovellusta
+@plural	{n} day ago|{n} days ago	{n} päivä sitten|{n} päivää sitten
+@plural	{n} h ago|{n} h ago	{n} t sitten|{n} t sitten
+@plural	{n} min ago|{n} min ago	{n} min sitten|{n} min sitten
+@msg	{path} already exists and wasn't installed by ArtCraft Launcher	{path} on jo olemassa eikä sitä ollut asennettu ArtCraft Launcherilla
+	{path} already exists. Installing {name} will overwrite it.	{path} on jo olemassa. Jos asennat kohteen {name}, se ylikirjoitetaan.
+	{version} (latest release)	{version} (uusin julkaisu)
+	{version} installed → {latest} released	{version} asennettu → {latest} julkaistu
+	⊞  Grid	⊞  Ruudukko
+	☰  Table	☰  Taulukko
+	🔍  Search apps	🔍  Etsi sovelluksia

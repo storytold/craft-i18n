@@ -1,0 +1,378 @@
+# Dansk (da) interface catalog for ArtCraft Launcher.
+# Columns, separated by a TAB:  context <TAB> English source text <TAB> translation
+#   context  usually empty. `@plural`, `@id` and `@msg` mean something to the apps; any other
+#            word is a label that tells apart two meanings of the same English.
+#   escapes  \n  \t  \\  inside a column. `{name}` placeholders must appear in both columns (in any
+#            order), and a trailing "…" in one needs one in the other.
+#   @plural  English `one|other`; the translation lists this language's plural forms, `|`-separated.
+#   Lines starting with # and blank lines are ignored. A missing entry shows in English.
+#
+# Clean room: every entry was written from the plain meaning of the English text in ordinary
+# computing vocabulary. No other product's localisation, string table or translated UI was
+# consulted or copied; add entries the same way.
+
+texturecraft	3D texture painting	3D-teksturmaling
+	A new version is available. Download it to replace this version?	En ny version er tilgængelig. Vil du hente den og erstatte denne version?
+	A new version is available. Would you like to relaunch with the updated version?	En ny version er tilgængelig. Vil du genstarte med den opdaterede version?
+	A quote isn't closed.	Et anførselstegn er ikke lukket.
+artcraft	AI image and video creation	Billed- og videoskabelse med AI
+	All	Alle
+	All releases	Alle udgivelser
+	App	App
+column	App	App
+	App details	Detaljer om appen
+@id	app.download	Download til {os}
+@id	app.github	GitHub-repository
+@id	app.install	Installér
+@id	app.notes	Udgivelsesnoter
+@id	app.open	Åbn
+@id	app.reinstall	Geninstallér
+@id	app.releases	Alle udgivelser
+@id	app.reveal	Vis i Finder
+@id	app.uninstall	Afinstallér…
+@id	app.update	Opdatér til {v}
+@id	app.website	Websted
+@id	appearance.theme	Udseende
+	Apps are placed inside this folder.	Apps placeres i denne mappe.
+	Apps on this computer	Apps på denne computer
+	Apps you can install	Apps, du kan installere
+	Apps you hid	Apps, du har skjult
+month	Apr	apr
+	Arch package (.pkg.tar.zst)	Arch-pakke (.pkg.tar.zst)
+	ArtCraft	ArtCraft
+	ArtCraft Launcher	ArtCraft Launcher
+	ArtCraft Launcher can't install version {version} over this copy.	ArtCraft Launcher kan ikke installere version {version} oven på denne kopi.
+	ArtCraft Launcher is still running	ArtCraft Launcher kører stadig
+	ArtCraft Launcher {version}	ArtCraft Launcher {version}
+	ArtCraft Launcher {version} is available.	ArtCraft Launcher {version} er tilgængelig.
+@plural	ArtCraft Launcher · {n} update available|ArtCraft Launcher · {n} updates available	ArtCraft Launcher · {n} tilgængelig opdatering|ArtCraft Launcher · {n} tilgængelige opdateringer
+	ArtCraft on GitHub	ArtCraft på GitHub
+	ArtCraft on {name}	ArtCraft på {name}
+	Ascending	Stigende
+month	Aug	aug
+column	Author	Forfatter
+	Automatically download and install updates	Download og installér opdateringer automatisk
+	Available	Tilgængelig
+	Available to install	Kan installeres
+texturecraft	Bake mesh maps and use smart materials.	Bag mesh-kort, og brug smarte materialer.
+	Browse…	Gennemse…
+materialcraft	Build materials with node graphs.	Byg materialer med nodegrafer.
+	by {name}	af {name}
+	Cancel download	Annullér download
+	Cancel update	Annullér opdatering
+	Check for Updates	Søg efter opdateringer
+	Check for updates	Søg efter opdateringer
+	Checked {ago}	Tjekket {ago}
+	Checked {ago} · using {sources}	Tjekket {ago} · via {sources}
+	Checking for updates…	Søger efter opdateringer…
+	Checking…	Tjekker…
+	Choose version	Vælg version
+	Classic apps	Klassiske apps
+	Click to enlarge	Klik for at forstørre
+	Click to reverse the order	Klik for at vende rækkefølgen
+	Click to sort by this column	Klik for at sortere efter denne kolonne
+	Close (Esc)	Luk (Esc)
+materialcraft	Combine noises, patterns and filters.	Kombiner støj, mønstre og filtre.
+	Coming soon	Kommer snart
+cadcraft	Computer-aided design and drafting	Computerstøttet design og tegning
+	Couldn't change the login item: {e}	Kunne ikke ændre login-elementet: {e}
+	Couldn't check for updates: {f}	Kunne ikke søge efter opdateringer: {f}
+@msg	couldn't move {path} to Trash ({reason}). Remove it in Finder instead.	kunne ikke flytte {path} til Papirkurven ({reason}). Fjern den i Finder i stedet.
+	Couldn't open {name}: {e}	Kunne ikke åbne {name}: {e}
+@msg	couldn't use install folder {path}: {reason}	kunne ikke bruge installationsmappe {path}: {reason}
+	Craft App Suite	Craft App Suite
+materialcraft	Create tileable PBR materials and export texture maps.	Skab PBR-materialer, der kan gentages, og eksporter teksturkort.
+	Custom folders use AppImage on Linux.	Brugerdefinerede mapper bruger AppImage på Linux.
+@msg	custom install folders aren't supported on this system	brugerdefinerede installationsmapper understøttes ikke på dette system
+	Debian package (.deb)	Debian-pakke (.deb)
+month	Dec	dec
+	Default install folder	Standardinstallationsmappe
+	Descending	Faldende
+	Discard download	Kassér download
+	Disk image (.dmg)	Diskaftryk (.dmg)
+	Dismiss	Skjul
+	Download again	Download igen
+	Download cancelled	Download annulleret
+@msg	Download cancelled	Download annulleret
+	Download for {os}	Download til {os}
+	Download paused	Download sat på pause
+	Download selected version	Hent den valgte version
+	Downloading	Downloader
+	Downloading {done} of {total}	Downloader {done} af {total}
+	Downloading…	Downloader…
+	Downloads for {platform}	Downloads til {platform}
+	Downloads the new version, replaces this one and opens it again	Downloader den nye version, erstatter denne og åbner den igen
+	Enable automatic installs in Settings to follow new nightly builds.	Slå automatiske installationer til i Indstillinger for at følge nye natlige versioner.
+	Enlarge picture	Forstør billede
+	Every Craft app	Alle Craft-apps
+	Features	Funktioner
+month	Feb	feb
+@id	filter.all	Alle
+@id	filter.installed	Installerede
+@id	filter.notinstalled	Ikke installerede
+@id	filter.updates	Opdateringer
+craft-anything	Find out how any software works, then craft your own	Find ud af, hvordan al software virker, og lav så din egen
+	Flags added each time the app is opened	Flag, der tilføjes, hver gang appen åbnes
+	Flatpak bundle	Flatpak-bundle
+	Frequently used	Ofte brugt
+	Full changelog	Fuld ændringslog
+	GitHub	GitHub
+	GitHub limit hit; back in {min} min	GitHub-grænsen er nået; tilbage om {min} min
+	GitHub repository	GitHub-repository
+	GitHub's hourly limit was reached; full details return in {min} min	GitHubs grænse pr. time blev nået; alle detaljer vender tilbage om {min} min
+@id	help.discord	Discord
+@id	help.github	GitHub
+@id	help.website	Websted
+	Hidden Apps	Skjulte apps
+	Hide App	Skjul app
+	Hide community apps	Skjul fællesskabsapps
+photocraft	Image editing	Billedredigering
+	Include pre-releases (betas and release candidates)	Medtag forhåndsudgivelser (betaer og release candidates)
+	Inspired by	Inspiret af
+	Install	Installér
+	Install cancelled	Installation annulleret
+	Install cancelled. The download is kept for the next try.	Installation annulleret. Downloaden gemmes til næste forsøg.
+	Install folder	Installationsmappe
+	Install new apps as	Installér nye apps som
+	Install version {version}	Installer version {version}
+	Installed	Installeret
+column	Installed	Installeret
+filter	Installed	Installerede
+	installed	installeret
+	Installed apps with a newer version	Installerede apps med en nyere version
+	Installed version	Installeret version
+	Installed · latest {latest}	Installeret · seneste {latest}
+	Installed · up to date	Installeret · ajour
+	Installer (.msi)	Installationsprogram (.msi)
+	Installing for {platform}	Installation til {platform}
+	Installing on Linux	Installation på Linux
+	Installing on Windows	Installation på Windows
+	Installing, then restarting…	Installerer og genstarter…
+	Installing…	Installerer…
+figcraft	Interface design and prototyping	Interface-design og prototyping
+	It's in the tray: open it or quit it from the tray icon, or turn this off in the settings.	Den ligger i systembakken: åbn eller afslut den fra bakkeikonet, eller slå dette fra i indstillingerne.
+month	Jan	jan
+	Join the ArtCraft community on Discord	Slut dig til ArtCraft-fællesskabet på Discord
+	Join the ArtCraft Discord	Slut dig til ArtCraft-Discord
+	Join the Discord	Slut dig til Discord
+month	Jul	jul
+month	Jun	jun
+	just now	lige nu
+	Keep running in the tray when the window is closed	Kør videre i systembakken, når vinduet lukkes
+	Last updated: {date}	Senest opdateret: {date}
+	Later	Senere
+	Latest	Seneste
+column	Latest	Seneste
+	Latest release	Seneste udgivelse
+	Latest version	Seneste version
+	latest {version}	nyeste {version}
+	Launch options…	Startindstillinger…
+	Launcher	Launcher
+	Launcher version	Launcher-version
+@id	launcher.dismiss	Skjul
+@id	launcher.download	Download
+@id	launcher.notes	Nyheder
+@id	launcher.update	Opdatér og genstart
+	Learn more	Få mere at vide
+	Like {name}	Ligesom {name}
+	link	link
+@id	linux.preferred_kind	Installér nye apps som
+materialcraft	Live previews	Live-forhåndsvisninger
+	Loading ArtCraft Launcher…	Indlæser ArtCraft Launcher…
+	Loading pictures…	Indlæser billeder…
+month	Mar	mar
+	Match system	Følg systemet
+texturecraft	Materials	Materialer
+month	May	maj
+texturecraft	Mesh maps	Mesh-kort
+	Migrate Flatpak bundles to ArtCraft OCI (experimental)	Flyt Flatpak-bundter til ArtCraft OCI (eksperimentelt)
+	More actions for {name}	Flere handlinger for {name}
+effectcraft	Motion graphics and visual effects	Motion graphics og visuelle effekter
+	Move down	Flyt ned
+	Move up	Flyt op
+	Name (Z–A)	Navn (Å–A)
+	NEW	NY
+	New apps	Nye apps
+	New installs use this folder. Updates stay in their current location.	Nye installationer bruger denne mappe. Opdateringer bliver på deres nuværende placering.
+	Newest release	Nyeste udgivelse
+	Next app	Næste app
+	Next picture (→)	Næste billede (→)
+	Nightly	Natlig
+	Nightly (none published yet)	Natlig (ingen udgivet endnu)
+	No apps match	Ingen apps matcher
+	No downloads for this system	Ingen downloads til dette system
+	No notes were published with this release.	Der blev ikke udgivet noter med denne udgivelse.
+	No release published yet	Ingen udgivelser endnu
+materialcraft	Node graphs	Nodegrafer
+	Not available	Ikke tilgængelig
+	Not available here	Ikke tilgængelig her
+	Not checked yet	Ikke tjekket endnu
+	Not installed	Ikke installerede
+	Notify me when an installed app has an update	Underret mig, når en installeret app har en opdatering
+month	Nov	nov
+month	Oct	okt
+	Offline	Offline
+	Older launcher versions require a manual reinstall.	Ældre launcher-versioner kræver en manuel geninstallation.
+	On Linux, custom folders use AppImage format.	På Linux bruger brugerdefinerede mapper AppImage-formatet.
+	On update, switch first party apps when the matching package is available. Otherwise, keep using bundles.	Skift førstepartsapps ved opdatering, når den tilsvarende pakke er tilgængelig. Ellers bruges bundter fortsat.
+	Only when I ask	Kun når jeg beder om det
+	Open ArtCraft Launcher to update.	Åbn ArtCraft Launcher for at opdatere.
+	Open link	Åbn link
+	Open on GitHub	Åbn på GitHub
+	Open Source Tools for Creatives, Makers, and Builders	Open source-værktøjer til kreative, makers og byggere
+	Open {installed} without updating. {latest} stays available.	Åbn {installed} uden at opdatere. {latest} forbliver tilgængelig.
+	Open {version}	Åbn {version}
+designcraft	Page layout and publishing	Sideopsætning og publicering
+texturecraft	Paint materials on 3D models and export textures.	Mal materialer på 3D-modeller, og eksporter teksturer.
+texturecraft	Paint textures on 3D models.	Mal teksturer på 3D-modeller.
+solidcraft	Parametric 3D CAD	Parametrisk 3D-CAD
+	Pause download	Sæt download på pause
+lightcraft	Photo library and raw development	Fotobibliotek og raw-fremkaldelse
+	Pictures couldn't be loaded. Reopen this page to try again.	Billederne kunne ikke indlæses. Åbn siden igen for at prøve en gang til.
+	Pin to top	Fastgør øverst
+	Pinned	Fastgjort
+	Platforms	Platforme
+	Portable (.zip)	Portable (.zip)
+deckcraft	Presentations and slide shows	Præsentationer og diasshows
+materialcraft	Preview materials in 2D and on 3D models.	Se materialer i 2D og på 3D-modeller.
+	Previous app	Forrige app
+	Previous picture (←)	Forrige billede (←)
+materialcraft	Procedural material design	Procedurelt materialedesign
+	Questions, ideas and news from the ArtCraft team	Spørgsmål, idéer og nyheder fra ArtCraft-teamet
+	Quit ArtCraft Launcher	Afslut ArtCraft Launcher
+pdfcraft	Reading, organizing and protecting PDFs	Læsning, organisering og beskyttelse af PDF-filer
+	Recently updated	Senest opdateret
+	Reconnecting…	Genopretter forbindelsen…
+soundcraft	Recording, editing and mixing audio	Optagelse, redigering og mixing af lyd
+	Reinstall	Geninstallér
+	Release notes	Udgivelsesnoter
+	Released	Udgivet
+column	Released	Udgivet
+	Released {date}	Udgivet {date}
+	Releases	Udgivelser
+	Removing…	Fjerner…
+	Reorder {name}	Omarranger {name}
+	Replace what's there?	Erstat det, der er der?
+	Resume	Genoptag
+	Resume download	Genoptag download
+	Retry install	Prøv installation igen
+	Retry update	Prøv opdatering igen
+	Retry update to {version}	Prøv opdatering til {version} igen
+	RPM package (.rpm)	RPM-pakke (.rpm)
+	Running in the background	Kører i baggrunden
+	Search apps	Søg efter apps
+month	Sep	sep
+	Separate flags with spaces. Quote a value that has spaces in it.	Adskil flag med mellemrum. Sæt anførselstegn om en værdi, der indeholder mellemrum.
+@id	settings.open	Indstillinger
+@id	settings.quit	Afslut ArtCraft Launcher
+	Show apps as a table	Vis apps som en tabel
+	Show apps as cards	Vis apps som kort
+	Show ArtCraft Launcher	Vis ArtCraft Launcher
+	Show in Explorer	Vis i Stifinder
+	Show in Files	Vis i Filer
+	Show in Finder	Vis i Finder
+	Show the window on the current desktop	Vis vinduet på det aktuelle skrivebord
+	Show {n} more changes	Vis {n} ændringer mere
+@id	sort.inspired	Inspiret af
+@id	sort.installed	Installeret version
+@id	sort.latest	Seneste version
+@id	sort.name	Navn
+@id	sort.released	Nyeste udgivelse
+@id	sort.status	Status
+@id	sort.suite	Suite-rækkefølge
+gridcraft	Spreadsheets and data	Regneark og data
+	Start ArtCraft Launcher when I log in	Start ArtCraft Launcher, når jeg logger på
+	Stop waiting; the update can be started again later	Stop med at vente; opdateringen kan startes igen senere
+	Suite order	Suite-rækkefølge
+	System default	Systemstandard
+	System package (recommended)	Systempakke (anbefalet)
+	Tarball (.tar.gz)	Tar-arkiv (.tar.gz)
+	The app will be moved to the Trash. Your documents and settings stay.	Appen flyttes til Papirkurven. Dine dokumenter og indstillinger bevares.
+	The app will be removed. Your documents and settings stay.	Appen fjernes. Dine dokumenter og indstillinger bevares.
+	The download is still here. It's checked again, then installed.	Downloaden er der stadig. Den tjekkes igen og installeres derefter.
+	The OCI repository is a preview with GPG verification disabled.	OCI-arkivet er en forhåndsversion med GPG-verifikation slået fra.
+	The system manages install locations here.	Systemet styrer installationsplaceringer her.
+	These notes weren't fetched (GitHub's request limit was reached). They're on the release page.	Disse noter blev ikke hentet (GitHubs anmodningsgrænse blev nået). De findes på udgivelsessiden.
+@msg	this release has no AppImage for a custom install folder	denne udgave har ingen AppImage til en brugerdefineret installationsmappe
+@id	tray.close_to_tray	Kør videre i systembakken, når vinduet lukkes
+@id	tray.login_item	Start ArtCraft Launcher, når jeg logger på
+@id	tray.show_on_current_desktop	Vis vinduet på det aktuelle skrivebord
+	Unhide App	Vis app igen
+	Uninstall	Afinstallér
+	Uninstall cancelled	Afinstallation annulleret
+	Uninstall {name}?	Afinstallér {name}?
+	Uninstall…	Afinstallér…
+	Unpin	Frigør
+	Update	Opdatér
+	Update 1 app	Opdatér 1 app
+	Update all ({count})	Opdatér alle ({count})
+	Update and restart	Opdatér og genstart
+	Update available	Opdatering tilgængelig
+	Update cancelled	Opdatering annulleret
+	Update paused	Opdatering sat på pause
+	Update to {v}	Opdatér til {v}
+@id	update.check	Søg efter opdateringer
+@id	update.check_auto	Søg efter opdateringer automatisk
+@id	update.notify	Underret mig, når en installeret app har en opdatering
+@id	update.prereleases	Medtag forhåndsudgivelser (betaer og release candidates)
+	Updates	Opdateringer
+	Updates always use the format an app was installed with.	Opdateringer bruger altid det format, som en app blev installeret med.
+	Updating…	Opdaterer…
+	Use default	Brug standard
+vectorcraft	Vector illustration	Vektorillustration
+	Verifying checksum…	Verificerer kontrolsum…
+	Verifying…	Verificerer…
+column	Version	Version
+	Version {latest}	Version {latest}
+	Version {version}	Version {version}
+	Version {version} installed	Version {version} installeret
+filmcraft	Video editing, color and sound	Videoredigering, farve og lyd
+@id	view.grid	Gitter
+@id	view.table	Tabel
+	Visit getartcraft.com	Besøg getartcraft.com
+	Waiting for another app…	Venter på en anden app…
+	Waiting for other installs…	Venter på andre installationer…
+	Website	Websted
+	Website (coming soon)	Websted (kommer snart)
+	What's new	Nyheder
+	When on, opening the launcher from the menu bar brings its window to the desktop you're on. When off, macOS switches you to the desktop the window was on.	Når den er slået til, vises vinduet på det skrivebord, du er på, når du åbner launcher-appen fra menulinjen. Når den er slået fra, skifter macOS dig til det skrivebord, vinduet var på.
+	Windows will remove it like any installed program. Your documents and settings stay.	Windows fjerner den ligesom ethvert andet installeret program. Dine dokumenter og indstillinger bevares.
+wordcraft	Writing and document design	Skrivning og dokumentdesign
+	yesterday	i går
+	Your files may not open in older versions.	Dine filer kan muligvis ikke åbnes i ældre versioner.
+	Your system's package manager will remove it, and may ask for your password. Your documents and settings stay.	Systemets pakkehåndtering fjerner den og vil muligvis bede om din adgangskode. Dine dokumenter og indstillinger bevares.
+	{a} and {b}	{a} og {b}
+	{count} updates are available	Der er {count} tilgængelige opdateringer
+	{done} downloaded	{done} downloadet
+	{done} of {total}	{done} af {total}
+	{done} of {total} downloaded	{done} af {total} downloadet
+	{installed} installed · latest {latest}	{installed} installeret · seneste {latest}
+	{latest} is out, but ArtCraft Launcher can't install it over this copy.	{latest} er udkommet, men ArtCraft Launcher kan ikke installere den oven på denne kopi.
+	{month} {day}, {year}	{day}. {month} {year}
+	{name} details	Detaljer om {name}
+	{name} icon	{name}-ikon
+@msg	{name} installed: {version}	{name} installeret: {version}
+@msg	{name} installed: {version} (this release publishes no checksum, so only its size was checked)	{name} installeret: {version} (denne udgivelse offentliggør ingen kontrolsum, så kun dens størrelse blev kontrolleret)
+@msg	{name} is running. Quit it, then try again.	{name} kører. Luk den, og prøv igen.
+	{name} launch options	Startindstillinger for {name}
+@msg	{name} updated to {version}	{name} opdateret til {version}
+@msg	{name} updated to {version} (this release publishes no checksum, so only its size was checked)	{name} opdateret til {version} (denne udgivelse offentliggør ingen kontrolsum, så kun dens størrelse blev kontrolleret)
+@msg	{name} was installed from the AUR ({pkg}). Update it with your AUR helper (for example: yay -S {pkg})	{name} blev installeret fra AUR ({pkg}). Opdater den med din AUR-hjælper (for eksempel: yay -S {pkg})
+@msg	{name} was installed from the AUR ({pkg}). Update it with {cmd}	{name} blev installeret fra AUR ({pkg}). Opdater den med {cmd}
+@msg	{name} was installed from the {repo} repository or the AUR ({pkg}). Update it with your AUR helper (for example: yay -S {pkg}) or sudo pacman -Syu	{name} blev installeret fra {repo}-arkivet eller AUR ({pkg}). Opdater den med din AUR-hjælper (for eksempel: yay -S {pkg}) eller sudo pacman -Syu
+@msg	{name} was installed from the {repo} repository or the AUR ({pkg}). Update it with {cmd} or sudo pacman -Syu	{name} blev installeret fra {repo}-arkivet eller AUR ({pkg}). Opdater den med {cmd} eller sudo pacman -Syu
+@msg	{name} was removed	{name} blev fjernet
+	{name} wasn't opened: a quote in its launch options isn't closed.	{name} blev ikke åbnet: et anførselstegn i startindstillingerne er ikke lukket.
+	{name} {version}	{name} {version}
+	{name} {v} is available	{name} {v} er tilgængelig
+@plural	{n} app|{n} apps	{n} app|{n} apps
+@plural	{n} day ago|{n} days ago	for {n} dag siden|for {n} dage siden
+@plural	{n} h ago|{n} h ago	for {n} t siden|for {n} t siden
+@plural	{n} min ago|{n} min ago	for {n} min siden|for {n} min siden
+@msg	{path} already exists and wasn't installed by ArtCraft Launcher	{path} findes allerede og blev ikke installeret via ArtCraft Launcher
+	{path} already exists. Installing {name} will overwrite it.	{path} findes allerede. Installation af {name} overskriver den.
+	{version} (latest release)	{version} (nyeste udgivelse)
+	{version} installed → {latest} released	{version} installeret → {latest} udgivet
+	⊞  Grid	⊞  Gitter
+	☰  Table	☰  Tabel
+	🔍  Search apps	🔍  Søg efter apps

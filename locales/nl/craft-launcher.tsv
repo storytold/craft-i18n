@@ -1,0 +1,371 @@
+# Nederlands (nl) interface catalog for ArtCraft Launcher.
+# Columns, separated by a TAB:  context <TAB> English source text <TAB> translation
+#   context  usually empty. `@plural`, `@id` and `@msg` mean something to the apps; any other
+#            word is a label that tells apart two meanings of the same English.
+#   escapes  \n  \t  \\  inside a column. `{name}` placeholders must appear in both columns (in any
+#            order), and a trailing "…" in one needs one in the other.
+#   @plural  English `one|other`; the translation lists this language's plural forms, `|`-separated.
+#   Lines starting with # and blank lines are ignored. A missing entry shows in English.
+#
+# Clean room: every entry was written from the plain meaning of the English text in ordinary
+# computing vocabulary. No other product's localisation, string table or translated UI was
+# consulted or copied; add entries the same way.
+
+texturecraft	3D texture painting	3D-textuurschilderen
+	A new version is available. Download it to replace this version?	Er is een nieuwe versie beschikbaar. Wil je deze downloaden om deze versie te vervangen?
+	A new version is available. Would you like to relaunch with the updated version?	Er is een nieuwe versie beschikbaar. Wil je opnieuw opstarten met de bijgewerkte versie?
+	A quote isn't closed.	Een aanhalingsteken is niet gesloten.
+artcraft	AI image and video creation	Beeld en video maken met AI
+	All	Alle
+	All releases	Alle releases
+	App	App
+column	App	App
+	App details	Details van de app
+@id	app.download	Downloaden voor {os}
+@id	app.github	GitHub-repository
+@id	app.install	Installeren
+@id	app.notes	Releaseopmerkingen
+@id	app.open	Openen
+@id	app.reinstall	Opnieuw installeren
+@id	app.releases	Alle releases
+@id	app.reveal	In Finder tonen
+@id	app.uninstall	Verwijderen…
+@id	app.update	Bijwerken naar {v}
+@id	app.website	Website
+	Appearance	Vormgeving
+@id	appearance.theme	Vormgeving
+	Apps are placed inside this folder.	Apps worden in deze map geplaatst.
+	Apps on this computer	Apps op deze computer
+	Apps you can install	Apps die je kunt installeren
+	Apps you hid	Apps die je hebt verborgen
+month	Apr	apr
+	Arch package (.pkg.tar.zst)	Arch-pakket (.pkg.tar.zst)
+	ArtCraft Launcher	ArtCraft Launcher
+	ArtCraft Launcher can't install version {version} over this copy.	ArtCraft Launcher kan versie {version} niet over dit exemplaar installeren.
+	ArtCraft Launcher is still running	ArtCraft Launcher is nog actief
+	ArtCraft Launcher {version}	ArtCraft Launcher {version}
+	ArtCraft Launcher {version} is available.	ArtCraft Launcher {version} is beschikbaar.
+@plural	ArtCraft Launcher · {n} update available|ArtCraft Launcher · {n} updates available	ArtCraft Launcher · {n} update beschikbaar|ArtCraft Launcher · {n} updates beschikbaar
+	ArtCraft on GitHub	ArtCraft op GitHub
+	ArtCraft on {name}	ArtCraft op {name}
+	Ascending	Oplopend
+month	Aug	aug
+column	Author	Auteur
+	Automatically download and install updates	Updates automatisch downloaden en installeren
+	Available	Beschikbaar
+	Available to install	Beschikbaar om te installeren
+texturecraft	Bake mesh maps and use smart materials.	Bak meshmaps en gebruik slimme materialen.
+materialcraft	Build materials with node graphs.	Bouw materialen met knooppuntgrafieken.
+	by {name}	door {name}
+	Cancel download	Download annuleren
+	Cancel update	Update annuleren
+	Check for updates	Controleren op updates
+	Checked {ago}	Gecontroleerd {ago}
+	Checked {ago} · using {sources}	Gecontroleerd {ago} · met {sources}
+	Checking for updates…	Controleren op updates…
+	Checking…	Controleren…
+	Choose version	Versie kiezen
+	Classic apps	Klassieke apps
+	Click to enlarge	Klik om te vergroten
+	Click to reverse the order	Klik om de volgorde om te draaien
+	Click to sort by this column	Klik om op deze kolom te sorteren
+	Close (Esc)	Sluiten (Esc)
+materialcraft	Combine noises, patterns and filters.	Combineer ruis, patronen en filters.
+	Coming soon	Binnenkort beschikbaar
+cadcraft	Computer-aided design and drafting	CAD: ontwerpen en technisch tekenen
+	Couldn't change the login item: {e}	Kon het inlogitem niet wijzigen: {e}
+	Couldn't check for updates: {f}	Kon niet controleren op updates: {f}
+@msg	couldn't move {path} to Trash ({reason}). Remove it in Finder instead.	kan {path} niet naar de Prullenbak verplaatsen ({reason}). Verwijder het in Finder.
+	Couldn't open {name}: {e}	Kon {name} niet openen: {e}
+@msg	couldn't use install folder {path}: {reason}	kan installatiemap {path} niet gebruiken: {reason}
+	Craft App Suite	Craft App Suite
+materialcraft	Create tileable PBR materials and export texture maps.	Maak naadloze PBR-materialen en exporteer textuurmaps.
+	Custom folders use AppImage on Linux.	Aangepaste mappen gebruiken AppImage op Linux.
+@msg	custom install folders aren't supported on this system	aangepaste installatiemappen worden op dit systeem niet ondersteund
+	Debian package (.deb)	Debian-pakket (.deb)
+month	Dec	dec
+	Default install folder	Standaard installatiemap
+	Descending	Aflopend
+	Discard download	Download weggooien
+	Disk image (.dmg)	Schijfkopie (.dmg)
+	Dismiss	Negeren
+	Download again	Opnieuw downloaden
+	Download cancelled	Download geannuleerd
+@msg	Download cancelled	Download geannuleerd
+	Download for {os}	Downloaden voor {os}
+	Download paused	Download gepauzeerd
+	Download selected version	Geselecteerde versie downloaden
+	Downloading	Downloaden
+	Downloading {done} of {total}	Downloaden: {done} van {total}
+	Downloading…	Downloaden…
+	Downloads for {platform}	Downloads voor {platform}
+	Downloads the new version, replaces this one and opens it again	Downloadt de nieuwe versie, vervangt de huidige en opent de app opnieuw
+	Enable automatic installs in Settings to follow new nightly builds.	Schakel automatische installaties in via Instellingen om nieuwe nachtelijke builds te volgen.
+	Enlarge picture	Afbeelding vergroten
+	Every Craft app	Alle Craft-apps
+	Features	Functies
+month	Feb	feb
+@id	filter.all	Alle
+@id	filter.installed	Geïnstalleerd
+@id	filter.notinstalled	Niet geïnstalleerd
+@id	filter.updates	Updates
+craft-anything	Find out how any software works, then craft your own	Ontdek hoe alle software werkt en maak dan je eigen
+	Flags added each time the app is opened	Vlaggen die worden toegevoegd telkens wanneer de app wordt geopend
+	Flatpak bundle	Flatpak-bundel
+	Frequently used	Vaak gebruikt
+	Full changelog	Volledig wijzigingslogboek
+	GitHub limit hit; back in {min} min	GitHub-limiet bereikt; over {min} min weer beschikbaar
+	GitHub repository	GitHub-repository
+	GitHub's hourly limit was reached; full details return in {min} min	Het uurlimiet van GitHub is bereikt; volledige details zijn over {min} min weer beschikbaar
+@id	help.discord	Discord
+@id	help.github	GitHub
+@id	help.website	Website
+	Hidden Apps	Verborgen apps
+	Hide App	App verbergen
+	Hide community apps	Community-apps verbergen
+photocraft	Image editing	Beeldbewerking
+	Include pre-releases (betas and release candidates)	Pre-releases opnemen (bèta's en release candidates)
+	Inspired by	Geïnspireerd door
+	Install	Installeren
+	Install cancelled	Installatie geannuleerd
+	Install cancelled. The download is kept for the next try.	Installatie geannuleerd. De download wordt bewaard voor de volgende poging.
+	Install folder	Installatiemap
+	Install new apps as	Nieuwe apps installeren als
+	Install version {version}	Versie {version} installeren
+	Installed	Geïnstalleerd
+column	Installed	Geïnstalleerd
+filter	Installed	Geïnstalleerd
+	installed	geïnstalleerd
+	Installed apps with a newer version	Geïnstalleerde apps met een nieuwere versie
+	Installed version	Geïnstalleerde versie
+	Installed · latest {latest}	Geïnstalleerd · nieuwste {latest}
+	Installed · up to date	Geïnstalleerd · up-to-date
+	Installer (.msi)	Installatieprogramma (.msi)
+	Installing for {platform}	Installeren voor {platform}
+	Installing on Linux	Installeren op Linux
+	Installing on Windows	Installeren op Windows
+	Installing, then restarting…	Installeren en daarna opnieuw opstarten…
+	Installing…	Installeren…
+figcraft	Interface design and prototyping	Interfaceontwerp en prototyping
+	It's in the tray: open it or quit it from the tray icon, or turn this off in the settings.	Hij staat in het systeemvak: open of sluit hem via het pictogram, of schakel dit uit in de instellingen.
+month	Jan	jan
+	Join the ArtCraft community on Discord	Word lid van de ArtCraft-community op Discord
+	Join the ArtCraft Discord	Word lid van de ArtCraft Discord
+	Join the Discord	Word lid van de Discord
+month	Jul	jul
+month	Jun	jun
+	just now	zojuist
+	Keep running in the tray when the window is closed	Actief blijven in het systeemvak wanneer het venster wordt gesloten
+	Last updated: {date}	Laatst bijgewerkt: {date}
+	Later	Later
+	Latest	Nieuwste
+column	Latest	Nieuwste
+	Latest release	Nieuwste release
+	Latest version	Nieuwste versie
+	latest {version}	nieuwste {version}
+	Launch options…	Startopties…
+	Launcher	Launcher
+	Launcher version	Launcherversie
+@id	launcher.dismiss	Negeren
+@id	launcher.download	Downloaden
+@id	launcher.notes	Wat is er nieuw
+@id	launcher.update	Bijwerken en opnieuw opstarten
+	Learn more	Meer informatie
+	Like {name}	Zoals {name}
+	link	koppeling
+@id	linux.preferred_kind	Nieuwe apps installeren als
+materialcraft	Live previews	Live voorvertoningen
+	Loading ArtCraft Launcher…	ArtCraft Launcher wordt geladen…
+	Loading pictures…	Afbeeldingen worden geladen…
+month	Mar	mrt
+	Match system	Systeem volgen
+texturecraft	Materials	Materialen
+month	May	mei
+texturecraft	Mesh maps	Meshmaps
+	Migrate Flatpak bundles to ArtCraft OCI (experimental)	Flatpak-bundels migreren naar ArtCraft OCI (experimenteel)
+	More actions for {name}	Meer acties voor {name}
+effectcraft	Motion graphics and visual effects	Motion graphics en visuele effecten
+	Move down	Omlaag
+	Move up	Omhoog
+	Name (Z–A)	Naam (Z–A)
+	NEW	NIEUW
+	New apps	Nieuwe apps
+	New installs use this folder. Updates stay in their current location.	Nieuwe installaties gebruiken deze map. Updates blijven op hun huidige locatie.
+	Newest release	Nieuwste release
+	Next app	Volgende app
+	Next picture (→)	Volgende afbeelding (→)
+	Nightly	Nachtelijk
+	Nightly (none published yet)	Nachtelijk (nog niet gepubliceerd)
+	No apps match	Geen apps gevonden
+	No downloads for this system	Geen downloads voor dit systeem
+	No notes were published with this release.	Bij deze release zijn geen opmerkingen gepubliceerd.
+	No release published yet	Nog geen release gepubliceerd
+materialcraft	Node graphs	Knooppuntgrafieken
+	Not available	Niet beschikbaar
+	Not available here	Hier niet beschikbaar
+	Not checked yet	Nog niet gecontroleerd
+	Not installed	Niet geïnstalleerd
+	Notify me when an installed app has an update	Me laten weten wanneer een geïnstalleerde app een update heeft
+month	Nov	nov
+month	Oct	okt
+	Offline	Offline
+	Older launcher versions require a manual reinstall.	Oudere launcherversies vereisen een handmatige herinstallatie.
+	On Linux, custom folders use AppImage format.	Op Linux gebruiken aangepaste mappen de AppImage-indeling.
+	On update, switch first party apps when the matching package is available. Otherwise, keep using bundles.	Schakel eigen apps bij een update over wanneer het bijbehorende pakket beschikbaar is. Blijf anders bundels gebruiken.
+	Only when I ask	Alleen als ik het vraag
+	Open ArtCraft Launcher to update.	Open ArtCraft Launcher om bij te werken.
+	Open link	Koppeling openen
+	Open on GitHub	Openen op GitHub
+	Open Source Tools for Creatives, Makers, and Builders	Open source-tools voor creatievelingen, makers en bouwers
+	Open {installed} without updating. {latest} stays available.	{installed} openen zonder bij te werken. {latest} blijft beschikbaar.
+	Open {version}	{version} openen
+designcraft	Page layout and publishing	Pagina's opmaken en publiceren
+texturecraft	Paint materials on 3D models and export textures.	Schilder materialen op 3D-modellen en exporteer texturen.
+texturecraft	Paint textures on 3D models.	Schilder texturen op 3D-modellen.
+solidcraft	Parametric 3D CAD	Parametrische 3D-CAD
+	Pause download	Download pauzeren
+lightcraft	Photo library and raw development	Fotobibliotheek en RAW-ontwikkeling
+	Pictures couldn't be loaded. Reopen this page to try again.	De afbeeldingen konden niet worden geladen. Open deze pagina opnieuw om het nog eens te proberen.
+	Pin to top	Bovenaan vastmaken
+	Pinned	Vastgemaakt
+	Platforms	Platformen
+	Portable (.zip)	Portable (.zip)
+deckcraft	Presentations and slide shows	Presentaties en diavoorstellingen
+materialcraft	Preview materials in 2D and on 3D models.	Bekijk materialen in 2D en op 3D-modellen.
+	Previous app	Vorige app
+	Previous picture (←)	Vorige afbeelding (←)
+materialcraft	Procedural material design	Procedureel materiaalontwerp
+	Questions, ideas and news from the ArtCraft team	Vragen, ideeën en nieuws van het ArtCraft-team
+	Quit ArtCraft Launcher	ArtCraft Launcher afsluiten
+pdfcraft	Reading, organizing and protecting PDFs	Pdf's lezen, organiseren en beveiligen
+	Recently updated	Onlangs bijgewerkt
+	Reconnecting…	Opnieuw verbinden…
+soundcraft	Recording, editing and mixing audio	Audio opnemen, bewerken en mixen
+	Reinstall	Opnieuw installeren
+	Release notes	Releaseopmerkingen
+	Released	Uitgebracht
+column	Released	Uitgebracht
+	Released {date}	Uitgebracht op {date}
+	Releases	Releases
+	Removing…	Verwijderen…
+	Reorder {name}	{name} verplaatsen
+	Replace what's there?	Vervangen wat er staat?
+	Resume download	Download hervatten
+	Retry install	Installatie opnieuw proberen
+	Retry update	Update opnieuw proberen
+	Retry update to {version}	Bijwerken naar {version} opnieuw proberen
+	RPM package (.rpm)	RPM-pakket (.rpm)
+	Running in the background	Op de achtergrond uitvoeren
+	Search apps	Apps zoeken
+month	Sep	sep
+	Separate flags with spaces. Quote a value that has spaces in it.	Scheid vlaggen met spaties. Zet een waarde met spaties tussen aanhalingstekens.
+@id	settings.open	Instellingen
+@id	settings.quit	ArtCraft Launcher afsluiten
+	Show apps as a table	Apps als tabel weergeven
+	Show apps as cards	Apps als kaarten weergeven
+	Show ArtCraft Launcher	ArtCraft Launcher tonen
+	Show in Explorer	In Verkenner tonen
+	Show in Files	In Bestanden tonen
+	Show in Finder	In Finder tonen
+	Show the window on the current desktop	Het venster op het huidige bureaublad tonen
+	Show {n} more changes	Nog {n} wijzigingen tonen
+@id	sort.inspired	Geïnspireerd door
+@id	sort.installed	Geïnstalleerde versie
+@id	sort.latest	Nieuwste versie
+@id	sort.name	Naam
+@id	sort.released	Nieuwste release
+@id	sort.status	Status
+@id	sort.suite	Suitevolgorde
+gridcraft	Spreadsheets and data	Spreadsheets en data
+	Start ArtCraft Launcher when I log in	ArtCraft Launcher starten wanneer ik me aanmeld
+	Stop waiting; the update can be started again later	Stoppen met wachten; de update kan later opnieuw worden gestart
+	Suite order	Suitevolgorde
+	System default	Systeemstandaard
+	System package (recommended)	Systeempakket (aanbevolen)
+	Tarball (.tar.gz)	Tar-archief (.tar.gz)
+	The app will be moved to the Trash. Your documents and settings stay.	De app wordt verplaatst naar de prullenbak. Je documenten en instellingen blijven staan.
+	The app will be removed. Your documents and settings stay.	De app wordt verwijderd. Je documenten en instellingen blijven staan.
+	The download is still here. It's checked again, then installed.	De download is er nog. Deze wordt opnieuw gecontroleerd en daarna geïnstalleerd.
+	The OCI repository is a preview with GPG verification disabled.	De OCI-repository is een preview waarin GPG-verificatie is uitgeschakeld.
+	The system manages install locations here.	Het systeem beheert hier de installatielocaties.
+	These notes weren't fetched (GitHub's request limit was reached). They're on the release page.	Deze opmerkingen zijn niet opgehaald (de aanvraaglimiet van GitHub is bereikt). Ze staan op de releasepagina.
+@msg	this release has no AppImage for a custom install folder	deze release heeft geen AppImage voor een aangepaste installatiemap
+@id	tray.close_to_tray	Actief blijven in het systeemvak wanneer het venster wordt gesloten
+@id	tray.login_item	ArtCraft Launcher starten wanneer ik me aanmeld
+@id	tray.show_on_current_desktop	Het venster op het huidige bureaublad tonen
+	Unhide App	App weer tonen
+	Uninstall	Verwijderen
+	Uninstall cancelled	Verwijderen geannuleerd
+	Uninstall {name}?	{name} verwijderen?
+	Uninstall…	Verwijderen…
+	Unpin	Losmaken
+	Update 1 app	1 app bijwerken
+	Update all ({count})	Alles bijwerken ({count})
+	Update and restart	Bijwerken en opnieuw opstarten
+	Update available	Update beschikbaar
+	Update cancelled	Update geannuleerd
+	Update paused	Update gepauzeerd
+	Update to {v}	Bijwerken naar {v}
+@id	update.check	Controleren op updates
+@id	update.check_auto	Automatisch controleren op updates
+@id	update.notify	Me laten weten wanneer een geïnstalleerde app een update heeft
+@id	update.prereleases	Pre-releases opnemen (bèta's en release candidates)
+	Updates always use the format an app was installed with.	Updates gebruiken altijd de indeling waarmee een app is geïnstalleerd.
+	Updating…	Bijwerken…
+	Use default	Standaard gebruiken
+vectorcraft	Vector illustration	Vectorillustraties
+	Verifying checksum…	Controlesom verifiëren…
+	Verifying…	Verifiëren…
+column	Version	Versie
+	Version {latest}	Versie {latest}
+	Version {version} installed	Versie {version} geïnstalleerd
+filmcraft	Video editing, color and sound	Videobewerking, kleur en geluid
+@id	view.grid	Raster
+@id	view.table	Tabel
+	Visit getartcraft.com	getartcraft.com bezoeken
+	Waiting for another app…	Wachten op een andere app…
+	Waiting for other installs…	Wachten op andere installaties…
+	Website	Website
+	Website (coming soon)	Website (binnenkort beschikbaar)
+	What's new	Wat is er nieuw
+	When on, opening the launcher from the menu bar brings its window to the desktop you're on. When off, macOS switches you to the desktop the window was on.	Als dit aan staat, wordt het venster van de launcher naar het bureaublad gebracht waar je je bevindt als je de launcher vanuit de menubalk opent. Als dit uit staat, schakelt macOS je over naar het bureaublad waar het venster zich bevond.
+	Windows will remove it like any installed program. Your documents and settings stay.	Windows verwijdert de app zoals elk geïnstalleerd programma. Je documenten en instellingen blijven staan.
+wordcraft	Writing and document design	Schrijven en documentontwerp
+	yesterday	gisteren
+	Your files may not open in older versions.	Je bestanden worden mogelijk niet geopend in oudere versies.
+	Your system's package manager will remove it, and may ask for your password. Your documents and settings stay.	De pakketbeheerder van je systeem verwijdert de app en kan om je wachtwoord vragen. Je documenten en instellingen blijven staan.
+	{a} and {b}	{a} en {b}
+	{count} updates are available	Er zijn {count} updates beschikbaar
+	{done} downloaded	{done} gedownload
+	{done} of {total}	{done} van {total}
+	{done} of {total} downloaded	{done} van {total} gedownload
+	{installed} installed · latest {latest}	{installed} geïnstalleerd · nieuwste {latest}
+	{latest} is out, but ArtCraft Launcher can't install it over this copy.	{latest} is uit, maar ArtCraft Launcher kan deze niet over dit exemplaar installeren.
+	{month} {day}, {year}	{day} {month} {year}
+	{name} details	Details van {name}
+	{name} icon	Pictogram van {name}
+@msg	{name} installed: {version}	{name} geïnstalleerd: {version}
+@msg	{name} installed: {version} (this release publishes no checksum, so only its size was checked)	{name} geïnstalleerd: {version} (deze release publiceert geen controlesom, dus alleen de grootte is gecontroleerd)
+@msg	{name} is running. Quit it, then try again.	{name} is actief. Sluit de app af en probeer het opnieuw.
+	{name} launch options	Startopties voor {name}
+@msg	{name} updated to {version}	{name} bijgewerkt naar {version}
+@msg	{name} updated to {version} (this release publishes no checksum, so only its size was checked)	{name} bijgewerkt naar {version} (deze release publiceert geen controlesom, dus alleen de grootte is gecontroleerd)
+@msg	{name} was installed from the AUR ({pkg}). Update it with your AUR helper (for example: yay -S {pkg})	{name} is geïnstalleerd vanuit de AUR ({pkg}). Werk bij met je AUR-helper (bijvoorbeeld: yay -S {pkg})
+@msg	{name} was installed from the AUR ({pkg}). Update it with {cmd}	{name} is geïnstalleerd vanuit de AUR ({pkg}). Werk bij met {cmd}
+@msg	{name} was installed from the {repo} repository or the AUR ({pkg}). Update it with your AUR helper (for example: yay -S {pkg}) or sudo pacman -Syu	{name} is geïnstalleerd vanuit de {repo}-repository of de AUR ({pkg}). Werk bij met je AUR-helper (bijvoorbeeld: yay -S {pkg}) of sudo pacman -Syu
+@msg	{name} was installed from the {repo} repository or the AUR ({pkg}). Update it with {cmd} or sudo pacman -Syu	{name} is geïnstalleerd vanuit de {repo}-repository of de AUR ({pkg}). Werk bij met {cmd} of sudo pacman -Syu
+@msg	{name} was removed	{name} is verwijderd
+	{name} wasn't opened: a quote in its launch options isn't closed.	{name} is niet geopend: een aanhalingsteken in de startopties is niet gesloten.
+	{name} {version}	{name} {version}
+	{name} {v} is available	{name} {v} is beschikbaar
+@plural	{n} app|{n} apps	{n} app|{n} apps
+@plural	{n} day ago|{n} days ago	{n} dag geleden|{n} dagen geleden
+@plural	{n} h ago|{n} h ago	{n} uur geleden|{n} uur geleden
+@plural	{n} min ago|{n} min ago	{n} min geleden|{n} min geleden
+@msg	{path} already exists and wasn't installed by ArtCraft Launcher	{path} bestaat al en is niet geïnstalleerd via ArtCraft Launcher
+	{path} already exists. Installing {name} will overwrite it.	{path} bestaat al. Als je {name} installeert, wordt het overschreven.
+	{version} (latest release)	{version} (nieuwste release)
+	{version} installed → {latest} released	{version} geïnstalleerd → {latest} uitgebracht
+	⊞  Grid	⊞  Raster
+	☰  Table	☰  Tabel
+	🔍  Search apps	🔍  Apps zoeken
