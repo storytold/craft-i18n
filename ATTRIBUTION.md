@@ -386,3 +386,10 @@ catalogs, with the same AI-assisted origin and no native-speaker review.
 ## PhotoCraft workspace recovery
 
 The two panel layout recovery messages were migrated from PhotoCraft commit `786d033ec` for `ar`, `cs`, `da`, `de`, `el`, `es`, `fi`, `fr`, `hi`, `hu`, `id`, `it`, `ja`, `ko`, `nb`, `nl`, `pl`, `pt-br`, `ru`, `sv`, `tr`, `uk`, `vi`, `zh-hans`, `zh-hant`. The sentence break and the Russian wording were edited with Codex assistance. No native-speaker review is recorded.
+
+## Hebrew: shared rows and newer WordCraft rows
+
+Yonatan Langer (@yonatan-langer83) added Hebrew (`he`) rows, AI-assisted with Claude and written from the plain meaning of the English, in the terminology the Hebrew catalogs already use. No other product's localisation was consulted. Not yet reviewed line by line by a native speaker.
+
+- `locales/he/common.tsv`: seven shared rows that are not already in bomberman30's common-catalog proposal (#170). `AutoSave` keeps the existing WordCraft translation and `{n} byte|{n} bytes` keeps the existing PdfCraft translation; the identical app rows were removed. The unit labels `{n} B`, `{n} KB`, `{n} MB`, `{n} GB` and `{n} TB` are new. 830 other shared rows are left to #170, which already has a Hebrew row for that key.
+- `locales/he/wordcraft.tsv`: 50 rows for WordCraft strings that had none (default formatting and the Normal template, tracked-change shortcuts, the pane menu, the update check, Viewing mode and custom properties). A later AI-assisted pass made two of those sentences gender-neutral (`Checking for updates…`, and the warning that saved defaults cannot be recovered). Still not reviewed line by line by a native speaker.
