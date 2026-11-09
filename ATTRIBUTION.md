@@ -306,3 +306,10 @@ in the source PR. PhotoCraft #12851 (@rmsff) rekeys the fill-rasterization promp
 in 22 catalogs, preserving the existing translations and their credits above.
 Synced from `photocraft@7c64653` to `photocraft@2772ac1` with
 `tools/sync_app.py`; no translations were newly authored in this top-up.
+
+## Hebrew: shared rows and newer WordCraft rows
+
+Yonatan Langer (@yonatan-langer83) added Hebrew (`he`) rows, AI-assisted with Claude and written from the plain meaning of the English, in the terminology the Hebrew catalogs already use. No other product's localisation was consulted. Not yet reviewed line by line by a native speaker.
+
+- `locales/he/common.tsv`: 780 shared strings that had a Hebrew row in `photocraft.tsv`, `pdfcraft.tsv` or `wordcraft.tsv` but none in `common.tsv` now have one there, so every app shows them. Each keeps its existing translation (the PdfCraft one where both exist), and the app rows identical to it were removed. 57 shared strings with no Hebrew anywhere were newly written.
+- `locales/he/wordcraft.tsv`: 50 rows for WordCraft strings that had none (default formatting and the Normal template, tracked-change shortcuts, pane menu, update check, Viewing mode, custom properties).
