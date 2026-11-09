@@ -378,3 +378,7 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+## DeckCraft: a Hebrew catalog
+
+Yonatan Langer (@yonatan-langer83) started `locales/he/deckcraft.tsv` with 652 rows, every DeckCraft string the German and French catalogs have that the shared Hebrew catalog does not already cover, AI-assisted with Claude and written from the plain meaning of the English, in the terminology the Hebrew catalogs already use. No other product's localisation was consulted. Not yet reviewed line by line by a native speaker. Left out: rows whose English starts or ends with spaces, which follow once DeckCraft's own strings settle.
