@@ -351,3 +351,7 @@ Yonatan Langer (@yonatan-langer83) added Hebrew (`he`) rows, AI-assisted with Cl
 
 - `locales/he/common.tsv`: 780 shared strings that had a Hebrew row in `photocraft.tsv`, `pdfcraft.tsv` or `wordcraft.tsv` but none in `common.tsv` now have one there, so every app shows them. Each keeps its existing translation (the PdfCraft one where both exist), and the app rows identical to it were removed. 57 shared strings with no Hebrew anywhere were newly written.
 - `locales/he/wordcraft.tsv`: 50 rows for WordCraft strings that had none (default formatting and the Normal template, tracked-change shortcuts, pane menu, update check, Viewing mode, custom properties).
+
+## DeckCraft: a Hebrew catalog
+
+Yonatan Langer (@yonatan-langer83) started `locales/he/deckcraft.tsv` with 652 rows, every DeckCraft string the German and French catalogs have that the shared Hebrew catalog does not already cover, AI-assisted with Claude and written from the plain meaning of the English, in the terminology the Hebrew catalogs already use. No other product's localisation was consulted. Not yet reviewed line by line by a native speaker. Left out: rows whose English starts or ends with spaces, which follow once DeckCraft's own strings settle.
