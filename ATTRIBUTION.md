@@ -316,4 +316,4 @@ Yonatan Langer (@yonatan-langer83) added Hebrew (`he`) rows, AI-assisted with Cl
 
 ## PdfCraft: Hebrew rows for strings with none
 
-Yonatan Langer (@yonatan-langer83) added Hebrew (`he`) rows to `locales/he/pdfcraft.tsv` for PdfCraft strings that had no Hebrew row, shortest labels first, AI-assisted with Claude and written from the plain meaning of the English, in the terminology the Hebrew catalogs already use. No other product's localisation was consulted. Not yet reviewed line by line by a native speaker. Strings whose Hebrew would read the same as the English (product and format names such as `CMYK`, `USB`, `PDF/X…`) are left out.
+Yonatan Langer (@yonatan-langer83) added Hebrew (`he`) rows to `locales/he/pdfcraft.tsv` for every PdfCraft string that had no Hebrew row, AI-assisted with Claude and written from the plain meaning of the English, in the terminology the Hebrew catalogs already use. No other product's localisation was consulted. Not yet reviewed line by line by a native speaker. Strings whose Hebrew would read the same as the English (product and format names such as `CMYK`, `USB`, `PDF/X…`) are left out.
