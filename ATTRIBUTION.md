@@ -344,3 +344,10 @@ ko, nl, pl, pt-br, ru, sr-latn, tr, uk, vi, zh-hans and zh-hant (sr.tsv became s
 They were written with a coding agent from the plain meaning of the English (the tool was
 not recorded); no native-speaker review has been recorded. Other locales have no rows for
 these keys yet.
+
+## Hebrew: shared rows and newer WordCraft rows
+
+Yonatan Langer (@yonatan-langer83) added Hebrew (`he`) rows, AI-assisted with Claude and written from the plain meaning of the English, in the terminology the Hebrew catalogs already use. No other product's localisation was consulted. Not yet reviewed line by line by a native speaker.
+
+- `locales/he/common.tsv`: 780 shared strings that had a Hebrew row in `photocraft.tsv`, `pdfcraft.tsv` or `wordcraft.tsv` but none in `common.tsv` now have one there, so every app shows them. Each keeps its existing translation (the PdfCraft one where both exist), and the app rows identical to it were removed. 57 shared strings with no Hebrew anywhere were newly written.
+- `locales/he/wordcraft.tsv`: 50 rows for WordCraft strings that had none (default formatting and the Normal template, tracked-change shortcuts, pane menu, update check, Viewing mode, custom properties).
