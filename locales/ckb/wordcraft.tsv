@@ -1,0 +1,2720 @@
+# کوردیی ناوەندی (ckb) interface catalog for WordCraft.
+# Columns, separated by a TAB:  context <TAB> English source text <TAB> translation
+#   context  usually empty. `@plural`, `@id` and `@msg` mean something to the apps; any other
+#            word is a label that tells apart two meanings of the same English.
+#   escapes  \n  \t  \\  inside a column. `{name}` placeholders must appear in both columns (in any
+#            order), and a trailing "…" in one needs one in the other.
+#   @plural  English `one|other`; the translation lists this language's plural forms, `|`-separated.
+#   Lines starting with # and blank lines are ignored. A missing entry shows in English.
+#
+# Clean room: every entry was written from the plain meaning of the English text in ordinary
+# computing vocabulary. No other product's localisation, string table or translated UI was
+# consulted or copied; add entries the same way.
+
+	(All)	(هەموو)
+	(no style)	(بێ شێواز)
+	(no suggestions)	(بێ پێشنیار)
+	(normal text)	(دەقی ئاسایی)
+	(not matched)	(نەدۆزرایەوە)
+	(picture or object)	(وێنە یان شت)
+	*Bold* and _italic_ as real formatting	*قەڵەو* و _لار_ وەک فۆرماتکردنی ڕاستەقینە
+	0 or More Characters	0 یان زیاتر لە پیت
+	1. Formatting restrictions	1. سنووردارکردنەکانی فۆرماتکردن
+	1.5 Line Spacing	1.5 بۆشایی دێڕ
+	1/4 Em Space	1/4 بۆشایی ئێم
+	1×2 Empty Matrix	ماتریکسی بۆش 1×2
+	1×3 Empty Matrix	ماتریکسی بۆش 1×3
+	2. Editing restrictions	2. سنووردارکردنەکانی دەستکاریکردن
+	2×1 Empty Matrix	ماتریکسی بۆش 2×1
+	2×2 Determinant	دیترمینانتی 2×2
+	2×2 Empty Matrix	ماتریکسی بۆش 2×2
+	2×2 Identity Matrix	ماتریکسی ناسنامەی 2×2
+	2×2 Identity Matrix (sparse)	ماتریکسی ناسنامەی 2×2 (تەنک)
+	2×2 Matrix in Brackets	ماتریکسی 2×2 لەناو کەوانەدا
+	2×2 Matrix in Double Bars	ماتریکسی 2×2 لەناو دوو هێڵی ستوونیدا
+	2×2 Matrix in Parentheses	ماتریکسی 2×2 لەناو کەوانەی بازنەییدا
+	2×3 Empty Matrix	ماتریکسی بۆش 2×3
+	3-D	سێ ڕەهەندی
+	3. Start enforcement	3. جێبەجێکردنی دەستپێک
+	3×1 Empty Matrix	ماتریکسی بۆش 3×1
+	3×2 Empty Matrix	ماتریکسی بۆش 3×2
+	3×3 Empty Matrix	ماتریکسی بۆش 3×3
+	3×3 Identity Matrix	ماتریکسی ناسنامەی 3×3
+	3×3 Identity Matrix (sparse)	ماتریکسی ناسنامەی 3×3 (تەنک)
+	<< Less	<< کەمتر
+	<< Remove	<< لابردن
+	a drawing canvas can't be ungrouped	کانواسی وێنەکێشان ناتوانرێت کۆمەڵەەکەی هەڵبوەشێنرێتەوە
+	a drawing canvas can't go inside a text box	کانواسی وێنەکێشان ناتوانرێت بچێتە ناو سندوقی دەق
+	A file dialog is already open.	پەنجەرەیەکی فایل هەر ئێستا کراوەیە.
+	A free, open-source word processor written from scratch in Rust.\nPart of the Crafting Apps from the ArtCraft team.	وەرگرێکی نووسینی بێبەرامبەر و سەرچاوەکراوە کە لە سفرەوە بە Rust نووسراوە.\nبەشێک لە Crafting Apps لە تیمی ArtCraft.
+	a group holding Word ink can't be ungrouped yet	کۆمەڵەیەک کە نووسینی دەستی Wordی تێدایە هێشتا ناتوانرێت هەڵبوەشێنرێتەوە
+	A mail merge field	خانەیەکی یەکخستنی نامە
+	A numbered sequence (figures, tables…)	زنجیرەیەکی ژمارەکراو (وێنەکان، خشتەکان…)
+	A password is required to open this document.	بۆ کردنەوەی ئەم بەڵگەنامەیە وشەی نهێنی پێویستە.
+	A table of contents	پێڕستی ناوەڕۆک
+	A xor B	A یان B
+	A, B, C, …	A، B، C، …
+	a, b, c, …	a، b، c، …
+#	AaBbCcDd	
+#	AaBbYyZz	
+	About WordCraft	دەربارەی WordCraft
+	Above Chart	سەرووی هێلکاری
+	Above the item	سەرووی بەندەکە
+	Above/below	سەرەوە/خوارەوە
+	Absolute value cases	حاڵەتەکانی نرخی ڕەها
+	Accent	ڕەنگی جەخت
+	Accent Gradient	ڕەنگگۆڕینی جەخت
+	Accent with Reflection	جەخت لەگەڵ ڕەنگدانەوە
+	Accent {n}	جەختی {n}
+	Accents	جەختەکان
+	Accept	پەسەندکردن
+	Accept All Changes	پەسەندکردنی هەموو گۆڕانکارییەکان
+	Accept All Changes and Stop Tracking	پەسەندکردنی هەموو گۆڕانکارییەکان و وەستاندنی شوێنکەوتن
+	Accept and Move to Next	پەسەندکردن و چوون بۆ داهاتوو
+	Accept This Change	پەسەندکردنی ئەم گۆڕانکارییە
+	Accessed on	دەستگەیشتنی لە
+	Accessibility Pane	پانێڵی دەستگەیشتن
+	Account	هەژمار
+	Acute	ئاکیوتی تیژ
+	Add >>	زیادکردن >>
+	Add a language	زمانێک زیاد بکە
+	Add a language…	زمانێک زیاد بکە…
+	Add a period with double-space	خاڵێک زیاد بکە بە دوو بۆشایی
+	Add a Table	خشتەیەک زیاد بکە
+	Add at least one field.	لانیکەم یەک خانە زیاد بکە.
+	Add Chart Element	توخمێکی هێلکاری زیاد بکە
+	Add Condition	مەرجێک زیاد بکە
+	Add Field	خانەیەک زیاد بکە
+	Add Font…	خەت زیاد بکە…
+	Add gradient stop	وێستگەی ڕەنگگۆڕین زیاد بکە
+	Add line numbering	ژمارەکردنی دێڕ زیاد بکە
+	Add New Source…	سەرچاوەی نوێ زیاد بکە…
+	Add Object to Selection	شت زیاد بکە بۆ هەڵبژاردە
+	Add Pen	قەڵەم زیاد بکە
+	Add Row	ڕیز زیاد بکە
+	Add Series	زنجیرە زیاد بکە
+	Add Shape	شێوە زیاد بکە
+	Add Space Before Paragraph	بۆشایی زیاد بکە پێش پاراگراف
+	Add space between Asian and Latin text	بۆشایی زیاد بکە لە نێوان دەقی ئاسیایی و لاتینی
+	Add space between Asian text and numbers	بۆشایی زیاد بکە لە نێوان دەقی ئاسیایی و ژمارەکان
+	Add tab stop at:	وێستگەی تاب زیاد بکە لە:
+	Add Text	دەق زیاد بکە
+	Add the chapter number	ژمارەی بەش زیاد بکە
+	Add to AutoCorrect	زیادکردن بۆ ڕاستکردنەوەی خۆکار
+	Add to Document	زیادکردن بۆ بەڵگەنامە
+	Add to Quick Access Toolbar	زیادکردن بۆ شریتی ئامرازی دەستگەیشتنی خێرا
+	Add to Style Gallery	زیادکردن بۆ گەلەری شێوازەکان
+	Add whether it is above or below	زیاد بکە کە سەرەوەیە یان خوارەوە
+	Add/Edit\nBibliography	زیادکردن/دەستکاریکردنی\nکتێبنامە
+	Add/Edit\nCitation	زیادکردن/دەستکاریکردنی\nئاماژە
+	Add\nNote	زیادکردنی\nتێبینی
+	Add\nPen	زیادکردنی\nقەڵەم
+	Add\nShape	زیادکردنی\nشێوە
+	Added 1 font	1 خەت زیادکرا
+	Added Fonts	خەتە زیادکراوەکان
+	Added {n} fonts	{n} خەت زیادکرا
+	Address	ناونیشان
+	Address Block	بلۆکی ناونیشان
+	Address labels	نیشانەی ناونیشان
+	Address:	ناونیشان:
+	Address\nBlock	ناونیشان\nبلۆک
+	Advanced Find	گەڕانی پێشکەوتوو
+	Advanced Find…	گەڕانی پێشکەوتوو…
+	Advanced Properties…	تایبەتمەندییە پێشکەوتووەکان…
+	Afrikaans	ئەفریکانس
+	After:	دوای:
+	Agents	ئەیجەنتەکان
+	Agents connected to WordCraft can show you messages through the Assistant. Muted, they're told you'd rather not.	ئەیجەنتەکانی پەیوەندیکراوی WordCraft دەتوانن لە ڕێگەی یاریدەدەرەوە نامەت پیشان بدەن. کاتێک بێدەنگ کراون، پێیان دەگوترێت کە حەزت لەوە نییە.
+	Ah, Latin. The language of deadlines.	ئاخ، لاتینی. زمانی وادەکان.
+	Ah, the editing phase. My favourite. Very decisive.	ئاخ، قۆناغی دەستکاریکردن. دڵخوازترینم. زۆر بڕیاردەر.
+	Albanian	ئەلبانی
+	Align Bottom Center	لێکجێکردنی خوارەوە ناوەڕاست
+	Align Bottom Left	لێکجێکردنی خوارەوە چەپ
+	Align Bottom Right	لێکجێکردنی خوارەوە ڕاست
+	Align Center	لێکجێکردنی ناوەڕاست
+	Align Center Left	لێکجێکردنی ناوەڕاست چەپ
+	Align Center Right	لێکجێکردنی ناوەڕاست ڕاست
+	Align Top Center	لێکجێکردنی سەرەوە ناوەڕاست
+	Align Top Left	لێکجێکردنی سەرەوە چەپ
+	Align Top Right	لێکجێکردنی سەرەوە ڕاست
+	Aligned at:	لێکجێکراو لە:
+	All - Linear	هەموو - هێڵی
+	All - Professional	هەموو - پیشەیی
+	All Borders	هەموو چوارچێوەکان
+	All caps	هەموو پیتەکان گەورە
+	All Commands	هەموو فەرمانەکان
+	All documents based on the Normal template?	هەموو ئەو بەڵگەنامانەی لەسەر قاڵبی Normal دانراون؟
+	All Fonts	هەموو خەتەکان
+	All Levels	هەموو ئاستەکان
+	All Markup	هەموو نیشانەکان
+	All pages in the range	هەموو پەڕەکانی ناو مەودا
+	All symbol sets	هەموو کۆمەڵە هێماکان
+	All system fonts are already available.	هەموو خەتەکانی سیستەم هەر ئێستا بەردەستن.
+	Allow hanging punctuation	ڕێگە بدە بە هێمای هەڵواسراو
+	Allow Latin text to wrap in the middle of a word	ڕێگە بدە بە دەقی لاتینی بشکێت لە ناوەڕاستی وشەیەکدا
+	Allow line breaks	ڕێگە بدە بە شکانی دێڕ
+	Allow row to break across pages	ڕێگە بدە بە ڕیز بشکێت بەسەر پەڕەکاندا
+	Alphabetical	ئەلفوبێیی
+	Alt Text	دەقی جێگرەوە
+	Alt text	دەقی جێگرەوە
+	Alt Text Pane	پانێڵی دەقی جێگرەوە
+	Alt:	جێگرەوە:
+	Alt\nText	دەقی\nجێگرەوە
+	an agent	ئەیجەنتێک
+	An installed Language pack is used after this folder.	پاکێجی زمانێکی دامەزراو دوای ئەم بوخچەیە بەکاردێت.
+	And	و
+	Angle Brackets	کەوانەی گۆشەیی
+	Angle Brackets with Separator	کەوانەی گۆشەیی لەگەڵ جیاکەرەوە
+	Angle Brackets with Two Separators	کەوانەی گۆشەیی لەگەڵ دوو جیاکەرەوە
+	Angola	ئەنگۆلا
+	Animate the caret (it glides and fades)	جووڵە بە نیشانەکەر بدە (دەخلیسکێت و ون دەبێت)
+	Animation effects:	کاریگەرییەکانی جووڵە:
+	Annotation Reference	ئاماژەی تێبینی
+	Annotation Subject	بابەتی تێبینی
+	Annotation Text	دەقی تێبینی
+	Annoying	بێزارکەر
+	Another file	فایلێکی تر
+	Any Character	هەر پیتێک
+	Any Digit	هەر ژمارەیەک
+	Any field	هەر خانەیەک
+	Any Letter	هەر پیتێک
+	Anyone can open this document. Encrypt it with a password to keep it private.	هەرکەسێک دەتوانێت ئەم بەڵگەنامەیە بکاتەوە. بە وشەی نهێنی کۆدی بکە بۆ پاراستنی تایبەتمەندی.
+	Anyone who opens the document will need this password.	هەرکەسێک بەڵگەنامەکە بکاتەوە پێویستی بەم وشەی نهێنییە دەبێت.
+	APA	APA
+	Apply as you type	جێبەجێکردن لە کاتی نووسین
+	Apply Asian line-breaking rules (kinsoku)	یاساکانی شکانی دێڕی ئاسیایی جێبەجێ بکە (کینسۆکو)
+	Apply formatting to:	فۆرماتکردن جێبەجێ بکە بۆ:
+	Apply Style	شێواز جێبەجێ بکە
+	Apply Styles	شێوازەکان جێبەجێ بکە
+	Arabic	عەرەبی
+numerals	Arabic	عەرەبی
+	Arch Down	کەوانەی خوارەوە
+	Arch Up	کەوانەی سەرەوە
+	Argentina	ئەرجەنتین
+	Armenian	ئەرمەنی
+	Arrange\nAll	ڕێکخستنی\nهەموو
+	Article I.	مادەی I.
+	Artistic Effects	کاریگەرییە هونەرییەکان
+	As Recommended	وەک پێشنیارکراوە
+	As you type	لە کاتی نووسین
+	ASAP	هەرچی زووتر
+	Asian text font:	خەتی دەقی ئاسیایی:
+	Asian Typography	تایپۆگرافیای ئاسیایی
+	Assistant	یاریدەدەر
+	Assistant Suggestions	پێشنیارەکانی یاریدەدەر
+	At least	لانیکەم
+	At least {n}	لانیکەم {n}
+	Atelier	ئەتەلیێ
+	Atmosphere	کەشوهەوا
+	Attach Template	قاڵب هاوپێچ بکە
+	Attach…	هاوپێچکردن…
+	Australia	ئوسترالیا
+	Austria	نەمسا
+	Auto orientation	ئاراستەی خۆکار
+	AutoCorrect	ڕاستکردنەوەی خۆکار
+	AutoCorrect Options	هەڵبژاردەکانی ڕاستکردنەوەی خۆکار
+	AutoCorrect Options…	هەڵبژاردەکانی ڕاستکردنەوەی خۆکار…
+	AutoFit	خۆگونجاندن
+	AutoFit behavior	ڕەفتاری خۆگونجاندن
+	AutoFit Column by Double-Clicking	خۆگونجاندنی ستوون بە دوو کلیک
+	AutoFit Contents	خۆگونجاندن لەگەڵ ناوەڕۆک
+	AutoFit to contents	خۆگونجاندن لەگەڵ ناوەڕۆک
+	AutoFit to window	خۆگونجاندن لەگەڵ پەنجەرە
+	AutoFit Window	خۆگونجاندنی پەنجەرە
+	AutoFormat As You Type	فۆرماتکردنی خۆکار لە کاتی نووسین
+	Automatic ({language})	خۆکار ({language})
+	Automatic ({region})	خۆکار ({region})
+	Automatic bulleted lists	پێڕستە خاڵدارەکانی خۆکار
+	Automatic follows your system's language. Menus and commands change; your documents don't.	خۆکار شوێنی زمانی سیستەمەکەت دەکەوێت. پێڕست و فەرمانەکان دەگۆڕێن؛ بەڵام بەڵگەنامەکانت ناگۆڕێن.
+	Automatic numbered lists	پێڕستە ژمارەکراوەکانی خۆکار
+	Automatic Table 1 (3 levels)	خشتەی خۆکاری 1 (3 ئاست)
+	Automatic Table 2 (2 levels)	خشتەی خۆکاری 2 (2 ئاست)
+	Automatically add words to list (First Letter)	وشەکان بە خۆکاری زیاد بکە بۆ پێڕست (پیتی یەکەم)
+	Automatically add words to list (INitial CAps)	وشەکان بە خۆکاری زیاد بکە بۆ پێڕست (پیتی سەرەتایی گەورە)
+	Automatically hyphenate document	بەڵگەنامە بە خۆکاری هایفێن بکە
+	Automatically Update Document Styles	شێوازەکانی بەڵگەنامە بە خۆکاری نوێ بکەرەوە
+	Automatically update document styles	شێوازەکانی بەڵگەنامە بە خۆکاری نوێ بکەرەوە
+	AutoSave documents you have saved in WordCraft	ئەو بەڵگەنامانەی لە WordCraft پاشەکەوتت کردوون بە خۆکاری پاشەکەوت بکە
+	AutoSave failed: {error}. Save the document to turn AutoSave back on.	پاشەکەوتکردنی خۆکار شکستیهێنا: {error}. بەڵگەنامەکە پاشەکەوت بکە بۆ هەڵکردنەوەی پاشەکەوتکردنی خۆکار.
+	AutoSave isn't available in the browser: it can't write to your files. Save downloads a copy.	پاشەکەوتکردنی خۆکار لە وێبگەڕدا بەردەست نییە: ناتوانێت بنووسێتە ناو فایلەکانت. پاشەکەوتکردن کۆپییەک دەکاتە خوارەوە.
+	AutoSave only keeps .docx, .odt and .rtf files; {name} can't keep all formatting. Save as .docx to turn on AutoSave.	پاشەکەوتکردنی خۆکار تەنها فایلی .docx و .odt و .rtf دەپارێزێت؛ {name} ناتوانێت هەموو فۆرماتکردنەکان بپارێزێت. وەک .docx پاشەکەوت بکە بۆ هەڵکردنی پاشەکەوتکردنی خۆکار.
+	AutoSave saves every change to the file (needs a saved document)	پاشەکەوتکردنی خۆکار هەموو گۆڕانکارییەک لە فایلەکە پاشەکەوت دەکات (بەڵگەنامەیەکی پاشەکەوتکراو پێویستە)
+	AutoSave writes your changes to the file a moment after you stop typing.	پاشەکەوتکردنی خۆکار گۆڕانکارییەکانت لە فایلەکە دەنووسێت ساتێک دوای ئەوەی واز لە نووسین دەهێنیت.
+	AutoText	دەقی خۆکار
+	B4 (JIS)   10.12" × 14.33"	B4 (JIS)   10.12" × 14.33"
+	B5 (JIS)   7.17" × 10.12"	B5 (JIS)   7.17" × 10.12"
+	Balloons	باڵۆنەکان
+	Banded Columns	ستوونەکانی شریتی
+	Banded Rows	ڕیزەکانی شریتی
+	Base text:	دەقی بنەڕەت:
+	Based on: {style}	لەسەر بنەمای: {style}
+	Baseline Dots	خاڵەکانی هێڵی بنەڕەت
+	Basic Cycle	سایکلی بنەڕەتی
+	Basic List	پێڕستی بنەڕەتی
+	Basic Math	بیرکاری بنەڕەتی
+	Basic Matrix	ماتریکسی بنەڕەتی
+	Basic Process	پرۆسەی بنەڕەتی
+	Basic Pyramid	هەرەمی بنەڕەتی
+	Basic Radial	تیشکی بنەڕەتی
+	Basic Venn	ڤێنی بنەڕەتی
+	Bayes' rule	یاسای بایس
+	Before:	پێش:
+	Beginning of Word	دەستپێکی وشە
+	Behind Text	لە پشتی دەق
+	Belarus	بیلاڕووس
+	Belarusian	بیلاڕووسی
+	Belgium	بەلجیکا
+	Below text	لە ژێر دەق
+	Below the item	لە ژێر بەندەکە
+	Between	لە نێوان
+	Bibliography	کتێبنامە
+	Binomial Coefficient	هاوکۆفیشێنتی دووڕگی
+	Binomial Coefficient (angle)	هاوکۆفیشێنتی دووڕگی (گۆشە)
+	Binomial Coefficient with Angle Brackets	هاوکۆفیشێنتی دووڕگی لەگەڵ کەوانەی گۆشەیی
+	Binomial expansion of (x+a)ⁿ	فراوانکردنی دووڕگی (x+a)ⁿ
+	Blank	بۆش
+	Blank (Three Columns)	بۆش (سێ ستوون)
+	Blank document	بەڵگەنامەی بۆش
+	Blank Page	پەڕەی بۆش
+	Block\nAuthors	بلۆکی\nنووسەران
+	Blue:	شین:
+	Body Text	دەقی سەرەکی
+	Body text in a short paragraph to show spacing.	دەقی سەرەکی لە پاراگرافێکی کورت بۆ پیشاندانی بۆشایی.
+	Bold choice. Ctrl+Z is right there if you need it.	هەڵبژاردنێکی قەڵەو. Ctrl+Z لەوێیە ئەگەر پێویستت پێی بوو.
+	Bolivia	بۆلیڤیا
+	Book	کتێب
+	Book Title	ناونیشانی کتێب
+	Book title	ناونیشانی کتێب
+	Bookmark	نیشانە
+	Bookmark name:	ناوی نیشانە:
+	Bookmark text	دەقی نیشانە
+	Bookmarks	نیشانەکان
+	Border lines	هێڵەکانی چوارچێوە
+	Border Painter	ڕەنگکێشی چوارچێوە
+	Border\nPainter	ڕەنگکێشی\nچوارچێوە
+	Borders and Shading	چوارچێوە و سێبەر
+	Borders and Shading…	چوارچێوە و سێبەر…
+	Bosnia and Herzegovina	بۆسنیا و هەرسەک
+	Bosnian	بۆسنەیی
+	Both Sides	هەردوو لاو
+	Bottom Border	چوارچێوەی خوارەوە
+	Bottom Left Cell	خانەی خوارەوەی چەپ
+	Bottom Margin	پەراوێزی خوارەوە
+	Bottom of Page	خوارەوەی پەڕە
+	Bottom Right Cell	خانەی خوارەوەی ڕاست
+	Box	سندوق
+	Boxed Formula	فۆرمولەی سندوقکراو
+	Boxed Formula (example)	فۆرمولەی سندوقکراو (نموونە)
+	Boxed Formulas	فۆرمولە سندوقکراوەکان
+	Braces	کەوانەی چەماوە
+	Braces with Separator	کەوانەی چەماوە لەگەڵ جیاکەرەوە
+	Bracket	کەوانە
+	Brackets	کەوانەکان
+	Brackets with Separators	کەوانەکان لەگەڵ جیاکەرەوەکان
+	Brazil	بەڕازیل
+	Breaks	شکانەکان
+	Breve	برێڤ
+	Bright Green	سەوزی ڕووناک
+	Brighter +20%	ڕووناکتر +20%
+	Brightness, contrast and sharpness	ڕووناکی، کۆنتراست و تیژی
+	Browse in WordCraft…	گەڕان لە WordCraft…
+	Building Block Gallery Content Control	کۆنترۆڵی ناوەڕۆکی گەلەری بلۆکی بیناسازی
+	Built in	دامەزراو
+	Built-In	دامەزراو
+	Built-in Heading styles	شێوازەکانی سەردێڕی دامەزراو
+	Built-in style	شێوازی دامەزراو
+	Built-in styles can't be deleted.	شێوازە دامەزراوەکان ناتوانرێن بسڕێنەوە.
+	Bulgarian	بولگاری
+	Bullet Library	کتێبخانەی خاڵەکان
+	Bullets	خاڵەکان
+	By author	بەپێی نووسەر
+	Cabo Verde	کەیپ ڤێرد
+	Calendar	ڕۆژژمێر
+	Can't be deleted	ناتوانرێت بسڕێتەوە
+	Can't find a command? Press Alt+Q and type what you want to do.	فەرمانێک نادۆزیتەوە؟ Alt+Q دابگرە و ئەوە بنووسە کە دەتەوێت بیکەیت.
+	Can't find a command? Press {key} and type what you want to do.	فەرمانێک نادۆزیتەوە؟ {key} دابگرە و ئەوە بنووسە کە دەتەوێت بیکەیت.
+	can't split at the first row	ناتوانرێت لە یەکەم ڕیزدا دابەش بکرێت
+	Canada	کانادا
+	Canvas Member	ئەندامی کانواس
+	Capitalize Each Word	هەر وشەیەک گەورە بکە
+	Capitalize first letter of sentences	پیتی یەکەمی ڕستەکان گەورە بکە
+	Capitalize first letter of table cells	پیتی یەکەمی خانەکانی خشتە گەورە بکە
+	Capitalize names of days	ناوی ڕۆژەکان گەورە بکە
+	Capitalize the first word of a sentence	یەکەم وشەی ڕستەیەک گەورە بکە
+	Caption Numbering	ژمارەکردنی ژێرنووس
+	Caption text	دەقی ژێرنووس
+	Caption:	ژێرنووس:
+	Captions	ژێرنووسەکان
+	Careful, any further back and we'll undo the invention of paper.	وری بە، زیاتر بگەڕێیەوە داهێنانی کاغەز هەڵدەوەشێنینەوە.
+	Caret Character	پیتی نیشانەکەر
+	Case changes	گۆڕانکارییەکانی حاڵەت
+	Cases (Three Conditions)	حاڵەتەکان (سێ مەرج)
+	Cases (Two Conditions)	حاڵەتەکان (دوو مەرج)
+	Cases and Stacks	حاڵەتەکان و کۆکراوەکان
+	Catalan	کەتەلانی
+	Catalan (Valencian)	کەتەلانی (ڤالێنسیایی)
+	Categories	پۆلەکان
+	Categories:	پۆلەکان:
+	Category {n}	پۆلی {n}
+	Ceiling	سەقف
+	Cell	خانە
+	Cell Margins	پەراوێزەکانی خانە
+	Cell\nMargins	پەراوێزەکانی\nخانە
+	Center Glow	درەوشانەوەی ناوەڕاست
+	Centered as Group	بە کۆمەڵە ناوەڕاستکراو
+	Change Chart Type	جۆری هێلکاری بگۆڕە
+	Change Colors	ڕەنگەکان بگۆڕە
+	Change in y over change in x	گۆڕانی y بەسەر گۆڕانی x
+	Change Layout	شێوەڕێکخستن بگۆڕە
+	Change List Level	ئاستی پێڕست بگۆڕە
+	Change Password…	وشەی نهێنی بگۆڕە…
+	Change Picture	وێنە بگۆڕە
+	Change Picture…	وێنە بگۆڕە…
+	Change Shape	شێوە بگۆڕە
+	Change Structure	پێکهاتە بگۆڕە
+	Change to Display	بگۆڕە بۆ پیشاندان
+	Change to Inline	بگۆڕە بۆ ناوهێڵ
+	Change to Level 1	بگۆڕە بۆ ئاستی 1
+	Change to Level 2	بگۆڕە بۆ ئاستی 2
+	Change to Level 3	بگۆڕە بۆ ئاستی 3
+	Change to Level 4	بگۆڕە بۆ ئاستی 4
+	Change to Level 5	بگۆڕە بۆ ئاستی 5
+	Change to Level 6	بگۆڕە بۆ ئاستی 6
+	Change to Level 7	بگۆڕە بۆ ئاستی 7
+	Change to Level 8	بگۆڕە بۆ ئاستی 8
+	Change to Level 9	بگۆڕە بۆ ئاستی 9
+	Change to:	بگۆڕە بۆ:
+	Change\nChart Type	گۆڕینی\nجۆری هێلکاری
+	Change\nColors	گۆڕینی\nڕەنگەکان
+	Changed lines:	دێڕە گۆڕدراوەکان:
+	Changes	گۆڕانکارییەکان
+	Change…	گۆڕین…
+	Chapter 1	بەشی 1
+	Chapter in a book	بەشێک لە کتێب
+	Chapters begin at:	بەشەکان دەست پێدەکەن لە:
+	Character Border	چوارچێوەی پیت
+	Character code:	کۆدی پیت:
+	Character in Range	پیت لە مەودادا
+	Character level	ئاستی پیت
+	Character Position	شوێنی پیت
+	Character Scale	پێوەری پیت
+	Character Shading	سێبەری پیت
+	Character Spacing	بۆشایی پیت
+	Character spacing	بۆشایی پیت
+	Character style	شێوازی پیت
+	Characters (no spaces)	پیتەکان (بێ بۆشایی)
+	Characters (with spaces)	پیتەکان (لەگەڵ بۆشایی)
+	Characters per line:	پیت لە هەر دێڕێک:
+	Chart	هێلکاری
+	Chart Design	دیزاینی هێلکاری
+	Chart Layouts	شێوەڕێکخستنەکانی هێلکاری
+	Chart Title	ناونیشانی هێلکاری
+	charts and diagrams can't be moved or resized yet	هێلکاری و دیاگرامەکان هێشتا ناتوانرێن بجووڵێنرێن یان قەبارەیان بگۆڕدرێت
+	Check	پشکنین
+	Check Accessibility	دەستگەیشتن بپشکنە
+	Check Box Content Control	کۆنترۆڵی ناوەڕۆکی سندوقی هەڵبژاردن
+	Check Compatibility	گونجان بپشکنە
+	Check for Errors	هەڵەکان بپشکنە
+	Check for\nUpdates…	پشکنین بۆ\nنوێکردنەوەکان…
+	Check Spelling as You Type	ڕێنووس بپشکنە لە کاتی نووسین
+	Check spelling as you type	ڕێنووس بپشکنە لە کاتی نووسین
+	Check\nAccessibility	پشکنینی\nدەستگەیشتن
+	Checked styles are allowed:	ئەو شێوازانەی نیشانەکراون ڕێگەپێدراون:
+	Checked symbol	هێمای نیشانەکراو
+	Checking for updates…	پشکنین بۆ نوێکردنەوەکان…
+	Chevron Down	تیری خوارەوە
+	Chevron Up	تیری سەرەوە
+	Chicago	شیکاگۆ
+	Chile	چیلی
+	China	چین
+	Chinese (Simplified)	چینی (سادەکراو)
+	Chinese (Traditional)	چینی (نەریتی)
+	Choose a command	فەرمانێک هەڵبژێرە
+	Choose a shortcut	کورتەڕێیەک هەڵبژێرە
+	Choose List Item	بەندی پێڕست هەڵبژێرە
+	Choose the sheet that holds the recipients.	ئەو پەڕەیە هەڵبژێرە کە وەرگرەکانی تێدایە.
+	Circle area from its radius	ڕووبەری بازنە لە نیوەتیرەکەیەوە
+	Circled Dot	خاڵی بازنەکراو
+	Circled Plus	کۆکردنەوەی بازنەکراو
+	Circled Times	لێکدانی بازنەکراو
+	Citation Style	شێوازی ئاماژە
+	Citations	ئاماژەکان
+	Citations & Bibliography	ئاماژەکان و کتێبنامە
+	Clear All Formatting	هەموو فۆرماتکردنەکان پاک بکەرەوە
+	Clear Character Formatting	فۆرماتکردنی پیت پاک بکەرەوە
+	Clear Character Style	شێوازی پیت پاک بکەرەوە
+	Clear Formatting Level	ئاستی فۆرماتکردن پاک بکەرەوە
+	Clear Paragraph Formatting	فۆرماتکردنی پاراگراف پاک بکەرەوە
+	Click a border between two cells to merge them. Esc stops.	کلیک لە چوارچێوەی نێوان دوو خانە بکە بۆ یەکخستنیان. Esc دەروەستێنێت.
+	Click an item to paste it.	کلیک لە بەندێک بکە بۆ لکاندنی.
+	Click level to modify:	کلیک لە ئاست بکە بۆ دەستکاریکردن:
+	Click the empty text box the text should continue in (Esc cancels)	کلیک لە سندوقی دەقی بەتاڵ بکە کە دەقەکە دەبێت بەردەوام بێت تێیدا (Esc هەڵدەوەشێنێتەوە)
+	Click to switch back to inserting	کلیک بکە بۆ گەڕانەوە بۆ خستنەناو
+	Clipboard Contents	ناوەڕۆکی تەختەی هەڵگرتن
+	Clipboard Items	بەندەکانی تەختەی هەڵگرتن
+	Clipboard Pane	پانێڵی تەختەی هەڵگرتن
+	Close Document	بەڵگەنامە دابخە
+	Close Equation	هاوکێشە دابخە
+	Close Header and Footer	سەرپەڕە و ژێرپەڕە دابخە
+	Close Outline View	بینینی پێڕستە دابخە
+	Close Outline\nView	دابخستنی بینینی\nپێڕستە
+	Clustered Bar	هێڵکاری کۆکراوە
+	Clustered Column	ستوونی کۆکراوە
+	cm	سم
+	Col #:	ژمارەی ستوون:
+	Collapse Selection	هەڵبژاردە کۆبکەرەوە
+	Collate copies	کۆپییەکان ڕێکبخە
+	Collect entries from:	بەندەکان کۆبکەرەوە لە:
+	Colombia	کۆلۆمبیا
+	Colon Equal	دووخاڵ یەکسان
+	Color model:	مۆدێلی ڕەنگ:
+	Color only	ڕەنگ تەنها
+	Color: {color}	ڕەنگ: {color}
+	Colorful	ڕەنگاوڕەنگ
+	Column	ستوون
+	Column Break	شکانی ستوون
+	Column Selection	هەڵبژاردنی ستوون
+	Column {n}	ستوونی {n}
+	Column:	ستوون:
+	Combine Documents	بەڵگەنامەکان یەکبخە
+	Combo Box Content Control	کۆنترۆڵی ناوەڕۆکی سندوقی تێکەڵ
+	Commands	فەرمانەکان
+	Commas	کۆماکان
+	Comments beside each page and tracked changes in PDFs, prints and images; a comment list at the end of web pages, Markdown and text.	لێدوان لە تەنیشت هەر پەڕەیەک و گۆڕانکارییە شوێنکەوتووەکان لە PDF و چاپ و وێنەکاندا؛ پێڕستی لێدوان لە کۆتایی پەڕەکانی وێب و Markdown و دەق.
+	Comments Pane	پانێڵی لێدوانەکان
+	Common Accent Objects	شتە جەختییە باوەکان
+	Common Brackets	کەوانە باوەکان
+	Common Fractions	کەسرە باوەکان
+	Common Functions	فانکشنە باوەکان
+	Common Large Operators	ئۆپەراتۆرە گەورە باوەکان
+	Common Operator Structures	پێکهاتە ئۆپەراتۆرییە باوەکان
+	Common Operators	ئۆپەراتۆرە باوەکان
+	Common Radicals	ڕادیکاڵە باوەکان
+	Common Subscripts and Superscripts	ژێرنووس و سەرنووسی باو
+	Communication	پەیوەندی
+	Community\nDiscord	کۆمەڵگەی\nDiscord
+	Compact	کۆمپاکت
+	Compare Documents	بەڵگەنامەکان بەراورد بکە
+	Compare to	بەراورد لەگەڵ
+	Compared: {changes} changes	بەراوردکرا: {changes} گۆڕانکاری
+	Comparing with another file needs the desktop app.	بەراوردکردن لەگەڵ فایلێکی تر ئەپی سەر شیزنگە پێویستە.
+	Comparison settings	ڕێکخستنەکانی بەراورد
+	Compress Pictures	وێنەکان پەستێنە
+	Compress punctuation at the start of a line	هێماکانی سەرەتای دێڕ پەستێنە
+	Conference	کۆنفرانس
+	Conference paper	وتاری کۆنفرانس
+	CONFIDENTIAL	نهێنی
+	Confirm password:	وشەی نهێنی پشتڕاست بکەرەوە:
+	Connect Shapes	شێوەکان ببەستەرەوە
+	Container Title	ناونیشانی گلدانکەر
+	Content Control at Selection	کۆنترۆڵی ناوەڕۆک لە هەڵبژاردە
+	Content Control Properties	تایبەتمەندییەکانی کۆنترۆڵی ناوەڕۆک
+	Contents can't be edited	ناوەڕۆک ناتوانرێت دەستکاری بکرێت
+	Context	چوارچێوە
+numerals	Context	چوارچێوە
+	Continue from previous section	بەردەوام بە لە بەشی پێشوو
+	Continue without restoring	بەردەوام بە بەبێ گەڕاندنەوە
+	Continuous	بەردەوام
+	Continuous numbering	ژمارەکردنی بەردەوام
+	Contour Integral	ئینتێگراڵی کۆنتور
+	Contour Integral with Limits	ئینتێگراڵی کۆنتور لەگەڵ سنوورەکان
+	Contour Integral with Stacked Limits	ئینتێگراڵی کۆنتور لەگەڵ سنوورەکانی کۆکراوە
+	Contour Integrals	ئینتێگراڵەکانی کۆنتور
+	Controls	کۆنترۆڵەکان
+	Conversions	گۆڕینەکان
+	Convert between built-up and linear form	بگۆڕە لە نێوان شێوەی بنیاتنراو و هێڵی
+	Convert Notes	تێبینییەکان بگۆڕە
+	Convert Text to Table	دەق بگۆڕە بۆ خشتە
+	Convert Text to Table…	دەق بگۆڕە بۆ خشتە…
+	Convert to Shapes	بگۆڕە بۆ شێوەکان
+	Convert to Text	بگۆڕە بۆ دەق
+	Coproduct	هاوبەرهەم
+	Coproduct with Limits	هاوبەرهەم لەگەڵ سنوورەکان
+	Coproduct with Lower Limit	هاوبەرهەم لەگەڵ سنووری خوارەوە
+	Coproduct with Subscript-Superscript Limits	هاوبەرهەم لەگەڵ سنوورەکانی ژێرنووس-سەرنووس
+	Copy Formatting	فۆرماتکردن کۆپی بکە
+	Copy of the text a bookmark marks	کۆپیی ئەو دەقەی نیشانەکە نیشانی دەدات
+	Copy Styles	شێوازەکان کۆپی بکە
+	Copy to	کۆپی بکە بۆ
+	Copyright Sign	هێمای مافی لەبەرگرتنەوە
+	Corporate Author	نووسەری کۆمپانیا
+	Correct accidental usage of cAPS LOCK key	بەکارهێنانی هەڵەی کلیلی CAPS LOCK ڕاست بکەرەوە
+	Correct TWo INitial CApitals	دوو پیتی سەرەتایی گەورە ڕاست بکەرەوە
+	Corrections	ڕاستکردنەوەکان
+	Cosecant Function	فانکشنی کۆسیکانت
+	Cosine 2x	کۆساینوسی 2x
+	Cosine Function	فانکشنی کۆساینوس
+	Costa Rica	کۆستاریکا
+	Cotangent Function	فانکشنی کۆتانجەنت
+	Could not check for updates:\n{error}	نەتوانرا پشکنین بۆ نوێکردنەوەکان بکرێت:\n{error}
+	Couldn't download {name}: {error}	نەتوانرا {name} دابەزێنرێت: {error}
+	Couldn't get the list of languages: {error}	نەتوانرا پێڕستی زمانەکان بەدەست بێت: {error}
+	Couldn't install: {error}	نەتوانرا دامەزرێنرێت: {error}
+	Couldn't make WordCraft the default: {error}	نەتوانرا WordCraft بکرێتە بنەڕەت: {error}
+	Couldn't open {path}: {error}	نەتوانرا {path} بکرێتەوە: {error}
+	Couldn't remove: {error}	نەتوانرا لاببردرێت: {error}
+	Couldn't save {name}, so it is still open and nothing was lost: {error}	نەتوانرا {name} پاشەکەوت بکرێت، بۆیە هێشتا کراوەیە و هیچ ون نەبوو: {error}
+	Couldn't turn on downloading: {error}	نەتوانرا دابەزاندن هەڵبکرێت: {error}
+	Count by:	ژماردن بەپێی:
+	Count words in text boxes and notes	وشەکان بژمێرە لە سندوقەکانی دەق و تێبینییەکاندا
+	Courtesy Title	ناونیشانی ڕێز
+	Cover Page	پەڕەی بەرگ
+	Craft	کرافت
+	Create a Style	شێوازێک دروست بکە
+	Create an interactive outline of your document.\n\nIt's a great way to keep track of where you are or quickly move your content around.\n\nTo get started, go to the Home tab and apply Heading styles to the headings in your document.	پێڕستێکی چالاکی بەڵگەنامەکەت دروست بکە.\n\nڕێگەیەکی زۆر باشە بۆ ئەوەی بزانیت لە کوێیت یان بە خێرایی ناوەڕۆکەکەت بجووڵێنیت.\n\nبۆ دەستپێکردن، بڕۆ بۆ تابی Home و شێوازەکانی سەردێڕ لەسەر سەردێڕەکانی بەڵگەنامەکەت جێبەجێ بکە.
+	Create Graphic	گرافیک دروست بکە
+	Create Link	بەستەر دروست بکە
+	Create New Style	شێوازی نوێ دروست بکە
+	Create Source	سەرچاوە دروست بکە
+	Croatian	کرواتی
+	Crop on the page works on unturned pictures: set Rotation to 0° first, or use the crop boxes	بڕین لەسەر پەڕە تەنها لەسەر وێنە نەسووڕاوەکان کاردەکات: سەرەتا سووڕانەوە بکە 0°، یان سندوقەکانی بڕین بەکاربهێنە
+	Cross-reference	ئاماژەی ناوخۆیی
+	Cross-reference:	ئاماژەی ناوخۆیی:
+	Ctrl+Enter starts a new page. Much tidier than pressing Enter until it happens.	Ctrl+Enter پەڕەیەکی نوێ دەست پێدەکات. زۆر جوانترە لە لێدانی Enter تا ڕوودەدات.
+	Ctrl+H finds and replaces text, formatting and special characters.	Ctrl+H دەق و فۆرماتکردن و پیتە تایبەتەکان دەدۆزێتەوە و دەیگۆڕێت.
+	Ctrl+K turns the selected text into a link.	Ctrl+K دەقی هەڵبژێردراو دەکاتە بەستەر.
+	Ctrl+Shift+G counts your words, characters and paragraphs.	Ctrl+Shift+G وشە و پیت و پاراگرافەکانت دەژمێرێت.
+	Cuba	کوبا
+	Cube Root	ڕەگی سێیەم
+	Current - Linear	ئێستا - هێڵی
+	Current - Professional	ئێستا - پیشەیی
+	Current Document	بەڵگەنامەی ئێستا
+	Current Position	شوێنی ئێستا
+	Current record	تۆمارەکەی ئێستا
+	Current style: {style}	شێوازی ئێستا: {style}
+	Curved Arrow Connector	بەستەرەوەی تیری چەماوە
+	Curved Connector	بەستەرەوەی چەماوە
+	Custom dictionary	فەرهەنگی تایبەت
+	Custom Document Properties	تایبەتمەندییەکانی بەڵگەنامەی تایبەت
+	Custom Margins…	پەراوێزی تایبەت…
+	Custom mark:	نیشانەی تایبەت:
+	Custom range	مەودای تایبەت
+	Custom size	قەبارەی تایبەت
+	Custom Table of Contents…	پێڕستی ناوەڕۆکی تایبەت…
+	Custom Watermark	نیشانەی ئاوی تایبەت
+	Custom Watermark…	نیشانەی ئاوی تایبەت…
+	Customize	تایبەتکردن
+	Customize Keyboard	تەختەکلیل تایبەت بکە
+	Customize Quick Access Toolbar	شریتی ئامرازی دەستگەیشتنی خێرا تایبەت بکە
+	Customize Quick Access Toolbar…	شریتی ئامرازی دەستگەیشتنی خێرا تایبەت بکە…
+	Customize Ribbon	شریتی ئامرازەکان تایبەت بکە
+	Customize the Ribbon…	شریتی ئامرازەکان تایبەت بکە…
+	Cycle	سایکل
+	Cyprus	قوبرس
+	Czech	چیکی
+	Danish	دانیمارکی
+	Dark Blue	شینی تاریک
+	Dark Mode	دۆخی تاریک
+	Dark page (white text on black)	پەڕەی تاریک (دەقی سپی لەسەر ڕەش)
+	Dark Red	سووری تاریک
+	Dark Variations	جیاوازییە تاریکەکان
+	Dark with Shadow	تاریک لەگەڵ سێبەر
+	Dark Yellow	زەردی تاریک
+	Darker −20%	تاریکتر −20%
+	Darkroom	ژووری تاریک
+	Data Labels	نیشانەکانی داتا
+	Date & Time	بەروار و کات
+	Date formats:	فۆرماتەکانی بەروار:
+	Date Picker Content Control	کۆنترۆڵی ناوەڕۆکی هەڵبژاردنی بەروار
+	Day	ڕۆژ
+	Decimal	دەیی
+	Decorative objects only add visual interest: screen readers skip them.	شتە ڕازاوەکان تەنها سەرنجی بینراو زیاد دەکەن: خوێنەرەوەکانی شاشە پەڕیان پێدا دەکەن.
+	Decrease Indent	چوونەژوورەوە کەم بکەرەوە
+	Deep	قووڵ
+	Default formatting	فۆرماتکردنی بنەڕەتی
+	Default Paragraph Font	خەتی بنەڕەتی پاراگراف
+	Default tab stops:	وێستگەکانی تابی بنەڕەتی:
+	Define New Bullet	خاڵی نوێ پێناسە بکە
+	Define New Multilevel List	پێڕستی نوێی چەندئاستی پێناسە بکە
+	Define New Multilevel List…	پێڕستی نوێی چەندئاستی پێناسە بکە…
+	Define New Number Format	فۆرماتی نوێی ژمارە پێناسە بکە
+	Deflate	پەستێنەر
+	Delete Around Caret in Equation	دەوروبەری نیشانەکەر بسڕەوە لە هاوکێشەدا
+	Delete Back in Equation	بۆ دواوە بسڕەوە لە هاوکێشەدا
+	Delete Bookmark	نیشانە بسڕەوە
+	Delete Cells	خانەکان بسڕەوە
+	Delete Clipboard Item	بەندی تەختەی هەڵگرتن بسڕەوە
+	Delete Columns	ستوونەکان بسڕەوە
+	Delete Comment	لێدوان بسڕەوە
+	Delete in Equation	لە هاوکێشەدا بسڕەوە
+	Delete Label	نیشانە بسڕەوە
+	Delete Next Word	وشەی داهاتوو بسڕەوە
+	Delete Previous Word	وشەی پێشوو بسڕەوە
+	Delete Rows	ڕیزەکان بسڕەوە
+	Delete Selected Ink	نووسینی دەستی هەڵبژێردراو بسڕەوە
+	Delete Table	خشتە بسڕەوە
+	Delete Table Style	شێوازی خشتە بسڕەوە
+	Deletions:	سڕینەوەکان:
+	Delivery address:	ناونیشانی گەیاندن:
+	Delta Equal To	دێلتا یەکسان بە
+	Delta over arrow	دێلتا بەسەر تیر
+	Demote	دابەزاندن
+	Demote to Body Text	دابەزێنە بۆ دەقی سەرەکی
+	Derivative as a limit	گرتە وەک سنوور
+	Describe what this object shows, for people who can't see it.	باس بکە ئەم شتە چی نیشان دەدات، بۆ ئەو کەسانەی ناتوانن بیبینن.
+	Describe what this table shows, for people who can't see it.	باس بکە ئەم خشتەیە چی نیشان دەدات، بۆ ئەو کەسانەی ناتوانن بیبینن.
+	Design	دیزاین
+	Design Mode	دۆخی دیزاین
+	Detach Template	قاڵب جیابکەرەوە
+	Detect language automatically	زمان بە خۆکاری بناسە
+	Developer	گەشەپێدەر
+	development build	وەشانی گەشەپێدان
+	Diagonal Dots	خاڵە لارەکان
+	Dictate	دیکتەکردن
+	Dictionaries	فەرهەنگەکان
+	Dictionaries folder:	بوخچەی فەرهەنگەکان:
+	Dictionary files	فایلەکانی فەرهەنگ
+	Different First Page	پەڕەی یەکەمی جیاواز
+	Different Odd & Even Pages	پەڕە تاک و جووتەکانی جیاواز
+	Differential	دیفەرێنشیال
+	Differential theta	دیفەرێنشیالی تێتا
+	Differential x	دیفەرێنشیالی x
+	Differential y	دیفەرێنشیالی y
+	Differentials	دیفەرێنشیالەکان
+	Direct formatting	فۆرماتکردنی ڕاستەوخۆ
+	Directory	بوخچە
+	Discard the recovery copy of {name}?	کۆپیی گەڕاندنەوەی {name} فڕێبدرێت؟
+	Discard…	فڕێدان…
+	Discord community	کۆمەڵگەی Discord
+	Display for Review	پیشاندان بۆ پێداچوونەوە
+	Display text	پیشاندانی دەق
+	Distance from text	دووری لە دەق
+	Distance from text:	دووری لە دەق:
+	Distribute Columns	ستوونەکان بڵاو بکەرەوە
+	Distribute letters	پیتەکان بڵاو بکەرەوە
+	Distribute Rows	ڕیزەکان بڵاو بکەرەوە
+	Distribute spacing	بۆشایی بڵاو بکەرەوە
+	Distributed	بڵاوکراوە
+	Do Not Check Spelling or Grammar	ڕێنووس یان ڕێزمان مەپشکنە
+	Do not check spelling or grammar	ڕێنووس یان ڕێزمان مەپشکنە
+	DO NOT COPY	کۆپی مەکە
+	Do Not Show in TOC	لە پێڕستی ناوەڕۆکدا پیشان مەدە
+	Do you want to save changes to {name}?	دەتەوێت گۆڕانکارییەکان لە {name} پاشەکەوت بکەیت؟
+	Dock Left	لە چەپ جێگیر بکە
+	Dock Right	لە ڕاست جێگیر بکە
+	Document End	کۆتایی بەڵگەنامە
+	Document Formatting	فۆرماتکردنی بەڵگەنامە
+	Document Grid	تۆڕی بەڵگەنامە
+	Document Information	زانیاری بەڵگەنامە
+	Document name	ناوی بەڵگەنامە
+	Document Property	تایبەتمەندی بەڵگەنامە
+	Document Start	دەستپێکی بەڵگەنامە
+	Document template:	قاڵبی بەڵگەنامە:
+	Document Text	دەقی بەڵگەنامە
+	Document1	بەڵگەنامە1
+	Document\nPreferences	هەڵبژاردەکانی\nبەڵگەنامە
+	Documents you open will show up here.	ئەو بەڵگەنامانەی دەیکەیتەوە لێرە دەردەکەون.
+	Does not contain	تێیدا نییە
+	DOI	DOI
+	Dominican Republic	کۆماری دۆمینیکان
+	Don't add space between paragraphs of the same style	بۆشایی زیاد مەکە لە نێوان پاراگرافەکانی هەمان شێواز
+	Don't capitalize after:	دوای ئەمە گەورە مەکە:
+	Don't hyphenate	هایفێن مەکە
+	Don't read Zotero, Mendeley or EndNote citations and bibliographies	ئاماژە و کتێبنامەکانی Zotero و Mendeley و EndNote مەخوێنەوە
+	Don't show me this tip again	ئیتر ئەم ئامۆژگارییەم پیشان مەدە
+	Dot dash	خاڵ-هێڵ
+	Dot-dash	خاڵ-هێڵ
+	Dot-dot-dash	خاڵ-خاڵ-هێڵ
+	Double	دووانە
+	Double Bar	هێڵی دووانە
+	Double Closing Quote	نیشانەی وتەی کۆتایی دووانە
+	Double Dot	خاڵی دووانە
+	Double Integral	ئینتێگراڵی دووانە
+	Double Integral with Limits	ئینتێگراڵی دووانە لەگەڵ سنوورەکان
+	Double Integral with Stacked Limits	ئینتێگراڵی دووانە لەگەڵ سنوورەکانی کۆکراوە
+	Double Left Arrow with Text Above	تیری چەپی دووانە لەگەڵ دەق لە سەرەوە
+	Double Left Arrow with Text Below	تیری چەپی دووانە لەگەڵ دەق لە خوارەوە
+	Double Left Right Arrow with Text Above	تیری چەپ-ڕاستی دووانە لەگەڵ دەق لە سەرەوە
+	Double Left Right Arrow with Text Below	تیری چەپ-ڕاستی دووانە لەگەڵ دەق لە خوارەوە
+	Double Opening Quote	نیشانەی وتەی دەستپێکی دووانە
+	Double Right Arrow with Text Above	تیری ڕاستی دووانە لەگەڵ دەق لە سەرەوە
+	Double Right Arrow with Text Below	تیری ڕاستی دووانە لەگەڵ دەق لە خوارەوە
+	Double Spacing	بۆشایی دووانە
+	Double Square Brackets	کەوانەی چوارگۆشەیی دووانە
+	Double Strikethrough	خەتکێشانی دووانە
+	Double strikethrough	خەتکێشانی دووانە
+	Double summation	کۆکردنەوەی دووانە
+	Double Underline	ژێرهێڵی دووانە
+	Double Vertical Bars	هێڵی ستوونی دووانە
+	Doughnut	دۆنات
+	Download fetches the dictionary from LibreOffice's dictionary collection into the dictionaries folder. Each keeps its own licence (GPL, LGPL or MPL) and stays a separate file that WordCraft only reads.	داگرتن فەرهەنگ لە کۆمەڵەی فەرهەنگی LibreOffice دەهێنێت بۆ بوخچەی فەرهەنگەکان. هەریەکە مۆڵەتی خۆی (GPL، LGPL یان MPL) دەپارێزێت و وەک فایلێکی جیاواز دەمێنێتەوە کە WordCraft تەنها دەیخوێنێتەوە.
+	Downloading is off. Clicking Add a language… or Install turns it on: WordCraft then downloads language packs and fonts from GitHub.	داگرتن کوژاوە. کلیککردن لە زیادکردنی زمان… یان دامەزراندن هەڵی دەکات: پاشان WordCraft پاکێجەکانی زمان و خەتەکان لە GitHub دادەبەزێنێت.
+	Downloading the {language} dictionary…	داگرتنی فەرهەنگی {language}…
+	Downloading…	داگرتن…
+	DRAFT	ڕەشنووس
+	Drag a rectangle to draw a table, or a line across cells to split them. Esc stops.	چوارگۆشەیەک ڕابکێشە بۆ کێشانی خشتەیەک، یان هێڵێک بەسەر خانەکاندا بۆ دابەشکردنیان. Esc دەروەستێنێت.
+	Draw Ink	نووسینی دەستی بکێشە
+	Draw Table	خشتە بکێشە
+	Draw\nTable	کێشانی\nخشتە
+	Drawing Canvas	کانواسی وێنەکێشان
+	Drawing Tools	ئامرازەکانی وێنەکێشان
+	Drawing\nCanvas	کانواسی\nوێنەکێشان
+	Drop Cap	پیتی دەستپێک
+	Drop cap	پیتی دەستپێک
+	Drop Cap Options…	هەڵبژاردەکانی پیتی دەستپێک…
+	drop caps can't go in a table	پیتەکانی دەستپێک ناتوانرێن بچنە ناو خشتەیەک
+	Drop-Down List Content Control	کۆنترۆڵی ناوەڕۆکی پێڕستی دابەزێنراو
+	Dropped	فڕێدرا
+	Drops all formatting and pastes plain text.	هەموو فۆرماتکردنەکان لادەبەرێت و دەقی سادە دەلکێنێت.
+	Dutch, Nederlands or nl	هۆڵەندی، Nederlands یان nl
+	E-mail Messages	نامەکانی ئیمەیل
+	East	ڕۆژهەڵات
+	Ecuador	ئێکوادۆر
+	Edit Comment	لێدوان دەستکاری بکە
+	Edit Data	داتا دەستکاری بکە
+	Edit Document	بەڵگەنامە دەستکاری بکە
+	Edit Equation	هاوکێشە دەستکاری بکە
+	Edit Field Code	کۆدی خانە دەستکاری بکە
+	Edit Field…	خانە دەستکاری بکە…
+	Edit Footer	ژێرپەڕە دەستکاری بکە
+	Edit Header	سەرپەڕە دەستکاری بکە
+	Edit Individual Documents…	بەڵگەنامە تاکەکانی دەستکاری بکە…
+	Edit Items	بەندەکان دەستکاری بکە
+	Edit Recipient List	پێڕستی وەرگرەکان دەستکاری بکە
+	Edit Source	سەرچاوە دەستکاری بکە
+	Edit\nData	دەستکاریکردنی\nداتا
+	Edit\nRecipient List	دەستکاریکردنی\nپێڕستی وەرگرەکان
+	Edited	دەستکاریکرا
+	Editing endnote	دەستکاریکردنی کۆتایینووس
+	Editing footnote	دەستکاریکردنی پێنووس
+	Editing header/footer	دەستکاریکردنی سەرپەڕە/ژێرپەڕە
+	Editing in this document is restricted.	دەستکاریکردن لەم بەڵگەنامەیەدا سنووردارە.
+	Editing is blocked in Viewing mode.	دەستکاریکردن لە دۆخی بینیندا بلۆک کراوە.
+	Editing — edit the document directly	دەستکاریکردن — بەڵگەنامەکە ڕاستەوخۆ دەستکاری بکە
+	Edition	وەشان
+	Editor	دەستکاریکەر
+	Egypt	میسر
+	El Salvador	ئێلسەلڤادۆر
+	Elbow Arrow Connector	بەستەرەوەی تیری ئەنگوستیلە
+	Elbow Connector	بەستەرەوەی ئەنگوستیلە
+	Emphasis	جەختکردنەوە
+	Empty Matrices	ماتریکسە بۆشەکان
+	Enclose Characters	پیتەکان بپۆشە
+	Enclosure	پۆشەر
+	Encrypt with Password	بە وشەی نهێنی کۆدی بکە
+	Encrypt with Password…	بە وشەی نهێنی کۆدی بکە…
+	End of document	کۆتایی بەڵگەنامە
+	End of section	کۆتایی بەش
+	End of Word	کۆتایی وشە
+	Endnote Reference	ئاماژەی کۆتایینووس
+	Endnote Text	دەقی کۆتایینووس
+	Endnotes	کۆتایینووسەکان
+	Endnotes to footnotes	کۆتایینووسەکان بۆ پێنووسەکان
+	English (Australia)	ئینگلیزی (ئوسترالیا)
+	English (Canada)	ئینگلیزی (کانادا)
+	English (India)	ئینگلیزی (هیندستان)
+	English (Ireland)	ئینگلیزی (ئیرلەندا)
+	English (New Zealand)	ئینگلیزی (نیوزیلەندا)
+	English (South Africa)	ئینگلیزی (ئەفریقای باشوور)
+	English (United Kingdom)	ئینگلیزی (شانشینی یەکگرتوو)
+	English (United States)	ئینگلیزی (ویلایەتە یەکگرتووەکان)
+	English, the languages of this document and every installed Language pack. Language packs add spelling dictionaries and hyphenation.	ئینگلیزی، زمانەکانی ئەم بەڵگەنامەیە و هەموو پاکێجە دامەزراوەکانی زمان. پاکێجەکانی زمان فەرهەنگی ڕێنووس و هایفێنکردن زیاد دەکەن.
+	Engrave	نەقشکردن
+	Enlarge symbol	هێما گەورە بکە
+	Enter a number.	ژمارەیەک بنووسە.
+	Enter bookmark name:	ناوی نیشانە بنووسە:
+	Enter formatting for number:	فۆرماتکردن بۆ ژمارە بنووسە:
+	Enter in Equation	لە هاوکێشەدا بنووسە
+	Enter page number:	ژمارەی پەڕە بنووسە:
+	Entire caption	هەموو ژێرنووسەکە
+	Entry marked.	بەند نیشانەکرا.
+	Envelope #10	زەرفی #10
+	Envelope #10   4.12" × 9.50"	زەرفی #10   4.12" × 9.50"
+	Envelope Address	ناونیشانی زەرف
+	Envelope DL   4.33" × 8.66"	زەرفی DL   4.33" × 8.66"
+	Envelope Return	گەڕانەوەی زەرف
+	Envelope size:	قەبارەی زەرف:
+	Envelopes	زەرفەکان
+	Equal by Definition	یەکسان بە پێناسە
+	Equal column width	پانی یەکسانی ستوون
+	Equal Equal	یەکسان یەکسان
+	Equal to	یەکسان بە
+	Equals:	یەکسانە لەگەڵ:
+	Equation	هاوکێشە
+	Equation Gallery	گەلەری هاوکێشە
+	Equation Info	زانیاری هاوکێشە
+	Equation Number	ژمارەی هاوکێشە
+	Equation Options	هەڵبژاردەکانی هاوکێشە
+	Equatorial Guinea	گینەی ئێکوادۆریاڵ
+	Erase Ink	نووسینی دەستی بسڕەوە
+	Errors ({n})	هەڵەکان ({n})
+	Esperanto	ئێسپێرانتۆ
+	Estonian	ئیستۆنی
+	Euler's identity	ناسنامەی ئۆیلەر
+	Even Banded Columns	ستوونە شریتییە جووتەکان
+	Even Banded Rows	ڕیزە شریتییە جووتەکان
+	Even Page	پەڕەی جووت
+	Every change is recorded as a tracked change.	هەموو گۆڕانکارییەک وەک گۆڕانکارییەکی شوێنکەوتوو تۆمار دەکرێت.
+	Every command is available to scripts and AI agents: run `wordcraft-cli mcp` for an MCP server, or start the app with `--control <port>` for the JSON control channel.	هەموو فەرمانێک بۆ سکریپت و ئەیجەنتەکانی AI بەردەستە: `wordcraft-cli mcp` بکە بۆ سێرڤەری MCP، یان ئەپەکە بە `--control <port>` دەست پێبکە بۆ کەناڵی کۆنترۆڵی JSON.
+	Every field needs a name.	هەر خانەیەک پێویستی بە ناوێکە.
+	Everyone	هەمووان
+	Exactly	بە تەواوی
+	Exactly {n}	بە تەواوی {n}
+	Exceptions (optional)	نائاساییەکان (ئارەزوومەندانە)
+	Exceptions…	نائاساییەکان…
+	Executive   7.25" × 10.50"	Executive   7.25" × 10.50"
+	Existing File or Web Page	فایلی هەبوو یان پەڕەی وێب
+	Expand or Collapse Heading	سەردێڕ فراوان بکە یان کۆبکەرەوە
+	Exponential	توانی
+	Exponential series	زنجیرەی توانی
+	Export a copy to share (PDF, Word document)	کۆپییەک هەناردە بکە بۆ هاوبەشکردن (PDF، بەڵگەنامەی Word)
+	Export Page as PNG	پەڕەکە وەک PNG هەناردە بکە
+	Extend Selection	هەڵبژاردە فراوان بکە
+	Extend Selection by Units	هەڵبژاردە بە یەکەکان فراوان بکە
+	Extra space	بۆشایی زیادە
+	F4 repeats your last action. Formatting ten headings is suddenly one click and nine taps.	F4 دوایین کردارەکەت دووبارە دەکاتەوە. فۆرماتکردنی دە سەردێڕ لە ناکاو دەبێتە یەک کلیک و نۆ لێدان.
+	F7 checks the spelling and grammar of the whole document.	F7 ڕێنووس و ڕێزمانی هەموو بەڵگەنامەکە دەپشکنێت.
+	Faster: {command} is {key} on the keyboard.	خێراتر: {command} بریتییە لە {key} لەسەر تەختەکلیل.
+	Field code:	کۆدی خانە:
+	Field Codes	کۆدەکانی خانە
+	Field codes:	کۆدەکانی خانە:
+	Field name	ناوی خانە
+	Field name:	ناوی خانە:
+	Field names must be different.	ناوی خانەکان دەبێت جیاواز بن.
+	Field names:	ناوی خانەکان:
+	Field:	خانە:
+	Field…	خانە…
+	Figure	وێنە
+	File locations	شوێنەکانی فایل
+	File name:	ناوی فایل:
+	File type	جۆری فایل
+	File › New lists the .dotx and .dotm templates here under Personal; Save as Word Template starts here.	فایل › نوێ ئەم قاڵبانەی .dotx و .dotm لێرە لەژێر کەسی پیشان دەدات؛ پاشەکەوتکردن وەک قاڵبی Word لێرە دەست پێدەکات.
+	Fill color:	ڕەنگی پڕکردنەوە:
+	Filling in forms	پڕکردنەوەی فۆرمەکان
+	Film	فیلم
+	Filter and Sort	فلتەر و ڕیزکردن
+	Filter Recipients	وەرگرەکان فلتەر بکە
+	Find in list:	لە پێڕستدا بگەڕێ:
+	Find Next Editable Region	ناوچەی دەستکاریکردنی داهاتوو بدۆزەرەوە
+	Find Previous	پێشوو بدۆزەرەوە
+	Find Recipient	وەرگر بدۆزەرەوە
+	Find What Expression	دۆزینەوەی ئێکسپرێشن
+	Find What Text	دەقی بگەڕێ بدۆزەرەوە
+	Find what:	بگەڕێ بۆ:
+	Find “{text}” in the document	«{text}» لە بەڵگەنامەکەدا بدۆزەرەوە
+	Finding printers…	دۆزینەوەی چاپکەرەکان…
+	Finish & Merge	تەواوکردن و یەکخستن
+	Finish &\nMerge	تەواوکردن و\nیەکخستن
+	Finished	تەواوبوو
+	Finland	فینلەندا
+	Finnish	فینلەندی
+	First Column	یەکەم ستوون
+	First line	یەکەم دێڕ
+	First line:	یەکەم دێڕ:
+	First Name	ناوی یەکەم
+	First Record	یەکەم تۆمار
+	First row of data contains column headers	یەکەم ڕیزی داتا سەردێڕی ستوونەکانی تێدایە
+	Fix Position on Page	شوێن لەسەر پەڕە جێگیر بکە
+	Fixed Column Width	پانی ستوونی جێگیر
+	Float	سەلکە
+	Floor	زەوی
+	Folder path	ڕێڕەوی بوخچە
+	Follow number with:	ژمارەکە بەمە بشۆ:
+	Font Color	ڕەنگی خەت
+	Font color	ڕەنگی خەت
+	Font color:	ڕەنگی خەت:
+	Font Dialog	پەنجەرەی خەت
+	Font: {font}	خەت: {font}
+	Font…	خەت…
+	Footer	ژێرپەڕە
+	Footnote and Endnote	پێنووس و کۆتایینووس
+	Footnote Reference	ئاماژەی پێنووس
+	Footnote Text	دەقی پێنووس
+	Footnotes	پێنووسەکان
+	Footnotes and endnotes	پێنووسەکان و کۆتایینووسەکان
+	Footnotes to endnotes	پێنووسەکان بۆ کۆتایینووسەکان
+	For which item:	بۆ کام بەند:
+	Format Page Numbers	فۆرماتی ژمارەکانی پەڕە بکە
+	Format Page Numbers…	فۆرماتی ژمارەکانی پەڕە بکە…
+	Format Painter	ڕەنگکێشی فۆرمات
+	Format Shape	شێوە ڕێکبخە
+	Format Shape Pane	پانێڵی فۆرماتکردنی شێوە
+	Format Shape…	شێوە ڕێکبخە…
+	Formatted	فۆرماتکرا
+	Formatted Text	دەقی فۆرماتکراو
+	Formatting	فۆرماتکردن
+	Formatting at Selection	فۆرماتکردن لە هەڵبژاردە
+	Formatting exceptions	نائاساییەکانی فۆرماتکردن
+	Formatting marks	نیشانەکانی فۆرماتکردن
+	Formatting saved for new documents:	فۆرماتکردنی پاشەکەوتکراو بۆ بەڵگەنامە نوێیەکان:
+	Formatting, case changes, white space and tables are compared; the other settings are kept for later.	فۆرماتکردن، گۆڕینی حاڵەت، بۆشایی سپی و خشتەکان بەراورد دەکرێن؛ ڕێکخستنەکانی تر بۆ دواتر دەپارێزرێن.
+	Formula	فۆرمولە
+	Formula:	فۆرمولە:
+	Forward	پێشەوە
+	Fraction	کەسر
+	Fractions (1/2) as fraction characters (½)	کەسرەکان (1/2) وەک پیتەکانی کەسر (½)
+	Frames and effects	چوارچێوەکان و کاریگەرییەکان
+	France	فەرەنسا
+	French (France)	فەرەنسی (فەرەنسا)
+	From Bottom Left Corner	لە گۆشەی خوارەوەی چەپەوە
+	From Bottom Right Corner	لە گۆشەی خوارەوەی ڕاستەوە
+	From Center	لە ناوەڕاستەوە
+	From text:	لە دەقەوە:
+	From Top Left Corner	لە گۆشەی سەرەوەی چەپەوە
+	From Top Right Corner	لە گۆشەی سەرەوەی ڕاستەوە
+	from Unicode (hex)	لە Unicode (هێکس)
+	From {name}	لە {name}
+	From:	لە:
+	Full page of the same label	پەڕەی تەواو لە هەمان نیشانە
+	Full Saturation 100%	تێری تەواو 100%
+	Full Screen View	بینینی شاشەی تەواو
+	Full\nScreen	شاشەی\nتەواو
+	Fun fact: a blank page is just a draft that hasn't been told yet.	خاڵێکی سەرنجڕاکێش: پەڕەیەکی بەتاڵ تەنها ڕەشنووسێکە کە هێشتا نەگوتراوە.
+	Function	فانکشن
+	Galician	گالیسی
+	Gallery	گەلەری
+	GB/T 7714	GB/T 7714
+	Georgian	گورجی
+	German (Germany)	ئەڵمانی (ئەڵمانیا)
+	Germany	ئەڵمانیا
+	Get the list of languages again	پێڕستی زمانەکان دووبارە بەدەست بهێنە
+	getartcraft.com/apps/wordcraft	getartcraft.com/apps/wordcraft
+	Gets the list of Language packs, then this language's pack if there is one.	پێڕستی پاکێجەکانی زمان دەهێنێت، پاشان پاکێجی ئەم زمانە ئەگەر هەبوو.
+	Getting the list of languages…	بەدەستهێنانی پێڕستی زمانەکان…
+	Glow Colors	ڕەنگەکانی درەوشانەوە
+	Go Back	بگەڕێوە
+	Go To	بڕۆ بۆ
+	Go to	بڕۆ بۆ
+	Go To (⌘⌥G)	بڕۆ بۆ (⌘⌥G)
+	Go to Record	بڕۆ بۆ تۆمار
+	Go to what:	بڕۆ بۆ چی:
+	Go To…	بڕۆ بۆ…
+	Gone! Like it was never written. Mostly because it now wasn't.	ڕۆیشت! وەک ئەوەی هەر نەنووسرابێت. زیاتر لەبەر ئەوەی ئێستا نەنووسراوە.
+	Good afternoon	دوای نیوەڕۆ باش
+	Good evening	ئێوارە باش
+	Good morning	بەیانی باش
+	GOST (name sort)	GOST (ڕیزکردن بە ناو)
+	GOST (title sort)	GOST (ڕیزکردن بە ناونیشان)
+	Grab bag	کیسەی هەمەجۆر
+	Gradient fill	پڕکردنەوەی ڕەنگگۆڕین
+	Gradient stops	وێستگەکانی ڕەنگگۆڕین
+	Grammar built in	ڕێزمانی دامەزراو
+	Grave	گرەیڤ
+	Gray 0%	خۆڵەمێشی 0%
+	Gray-25%	خۆڵەمێشی-25%
+	Gray-50%	خۆڵەمێشی-50%
+	Greater than	گەورەتر لە
+	Greater than or equal	گەورەتر لە یان یەکسان
+	Greek	یۆنانی
+	Greek Letters	پیتە یۆنانییەکان
+	Green:	سەوز:
+	Greeting Line	دێڕی سڵاوکردن
+	Greeting\nLine	دێڕی\nسڵاوکردن
+	Grid Table 1 Light	خشتەی تۆڕی 1 ڕووناک
+	Grid Table 4 – Blue	خشتەی تۆڕی 4 – شین
+	Grid Table 4 – Green	خشتەی تۆڕی 4 – سەوز
+	Grid Table 4 – Orange	خشتەی تۆڕی 4 – پرتەقاڵی
+	Grid Table 4 – Purple	خشتەی تۆڕی 4 – مۆر
+	Gridlines	هێڵەکانی تۆڕ
+	Grouping Character Above	پیتی کۆمەڵەکردن لە سەرەوە
+	Grouping Character Below	پیتی کۆمەڵەکردن لە خوارەوە
+	Grow Font 1 Point	خەت 1 خاڵ گەورە بکە
+	Guatemala	گواتیمالا
+	H:	ب:
+	Hanging Indent	چوونەژوورەوەی هەڵواسراو
+	Harvard (Anglia)	هارڤارد (ئەنگلیا)
+	Hat	کڵاو
+	Header	سەرپەڕە
+	Header & Footer	سەرپەڕە و ژێرپەڕە
+	Header Row	ڕیزی سەرپەڕە
+	Header row	ڕیزی سەرپەڕە
+	Header/Footer Position	شوێنی سەرپەڕە/ژێرپەڕە
+	Headers and footers	سەرپەڕە و ژێرپەڕەکان
+	Heading	سەردێڕ
+	Heading 1	سەردێڕ 1
+	Heading 2	سەردێڕ 2
+	Heading 3	سەردێڕ 3
+	Heading styles (levels 1–{n})	شێوازەکانی سەردێڕ (ئاستەکان 1–{n})
+	Heading text	دەقی سەردێڕ
+	Heading {n}	سەردێڕ {n}
+	Hebrew	عیبری
+	Hex:	هێکس:
+	Hi! I'm Nib, your writing assistant. I offer tips, shortcuts and the occasional unsolicited opinion. Shall I stick around?	سڵاو! من Nibم، یاریدەدەری نووسینت. ئامۆژگاری و کورتەڕێ و هەندێ جار ڕای بێ داواکاری پێشکەش دەکەم. بمێنمەوە؟
+	Hidden bookmarks	نیشانە شاراوەکان
+	Hide Codes	کۆدەکان بشارەوە
+	Hide from style lists	لە پێڕستەکانی شێواز بشارەوە
+	Hide Ink	نووسینی دەستی بشارەوە
+	Hide Quick Access Toolbar	شریتی ئامرازی دەستگەیشتنی خێرا بشارەوە
+	Hide White Space	بۆشایی سپی بشارەوە
+	Hide\nInk	شاردنەوەی\nنووسینی دەستی
+	Hierarchy	پلەبەندی
+	Highlight	ڕووناککردنەوە
+	Highlight Merge Fields	خانەکانی یەکخستن ڕووناک بکەرەوە
+	Highlight\nMerge Fields	ڕووناککردنەوەی\nخانەکانی یەکخستن
+	Highlighter	ڕووناککەرەوە
+numerals	Hindi	هیندی
+	Home folder	بوخچەی سەرەکی
+	Honduras	هۆندوراس
+	Hong Kong SAR	هۆنگ کۆنگ SAR
+	Horizontal Line	هێڵی ئاسۆیی
+	How many pages the whole document has	بەڵگەنامەکە بەتەواوی چەند پەڕەیە
+	How many pages this section has	ئەم بەشە چەند پەڕەیە
+	How many words the document holds	بەڵگەنامەکە چەند وشەی تێدایە
+	HTML Format	فۆرماتی HTML
+	Hue:	ڕەنگی بنەڕەت:
+	Hungarian	هەنگاری
+	Hunspell .aff and .dic files here (pl_PL, pt_BR, it_IT, hr_HR, tr_TR) are used before the system's.	فایلەکانی Hunspell ی .aff و .dic لێرە (pl_PL، pt_BR، it_IT، hr_HR، tr_TR) پێش یەکانی سیستەم بەکاردێن.
+	Hyperbolic Cosecant Function	فانکشنی کۆسیکانتی هایپەربۆلیک
+	Hyperbolic Cosine Function	فانکشنی کۆساینوسی هایپەربۆلیک
+	Hyperbolic Cotangent Function	فانکشنی کۆتانجەنتی هایپەربۆلیک
+	Hyperbolic Functions	فانکشنە هایپەربۆلیکەکان
+	Hyperbolic Secant Function	فانکشنی سێکانتی هایپەربۆلیک
+	Hyperbolic Sine Function	فانکشنی ساینوسی هایپەربۆلیک
+	Hyperbolic Tangent Function	فانکشنی تانجەنتی هایپەربۆلیک
+	Hyperlink	هایپەرلینک
+	Hyphenate at:	هایفێن لە:
+	Hyphenate words in CAPS	وشەکانی بە CAPS هایفێن بکە
+	Hyphenation Options…	هەڵبژاردەکانی هایفێنکردن…
+	Hyphenation zone:	ناوچەی هایفێنکردن:
+	Hyphens (--) as dashes (—)	هایفێنەکان (--) وەک هێڵی درێژ (—)
+	Hypotenuse	هایپۆتێنوس
+	I promise it's saved. I checked. Twice.	بەڵێن دەدەم پاشەکەوت کراوە. پشکنیم کرد. دوو جار.
+	I'd write something myself, but I'm all nib and no ink.	خۆم شتێکم دەنووسی، بەڵام من هەموو نوکم و مەرەکەبم نییە.
+	I, II, III, …	I، II، III، …
+	i, ii, iii, …	i، ii، iii، …
+	Icelandic	ئایسلەندی
+	Icon Color	ڕەنگی ئایکۆن
+	Icons	ئایکۆنەکان
+	Identity Matrices	ماتریکسە ناسنامەییەکان
+	IEEE	IEEE
+	If…Then…Else	ئەگەر…ئەوا…ئەگەرنا
+	If…Then…Else…	ئەگەر…ئەوا…ئەگەرنا…
+	Ignore punctuation characters	پیتەکانی خاڵبەندی پشتگوێ بخە
+	Ignore web and file addresses	ناونیشانی وێب و فایل پشتگوێ بخە
+	Ignore white-space characters	پیتەکانی بۆشایی سپی پشتگوێ بخە
+	Ignore words in capitals	وشەکانی بە پیتی گەورە پشتگوێ بخە
+	Ignore words with numbers	وشەکانی ژمارەدار پشتگوێ بخە
+	Illustrations	وێنەکارییەکان
+	Immersive	قووڵ
+	Immersive Reader	خوێنەرەوەی قووڵ
+	Immersive\nReader	خوێنەرەوەی\nقووڵ
+	Imported 1 source	1 سەرچاوە هاوردەکرا
+	Imported {n} sources	{n} سەرچاوە هاوردەکرا
+	In Default apps, choose WordCraft for the document types you want it to open.	لە ئەپەکانی بنەڕەتدا، WordCraft بۆ ئەو جۆرە بەڵگەنامانە هەڵبژێرە کە دەتەوێت بیکاتەوە.
+	In equations, typing a name after a backslash replaces it with its symbol.	لە هاوکێشەکاندا، نووسینی ناوێک دوای بەکسلاش هێماکەی دەگۆڕێت.
+	In Front of Text	لە پێش دەق
+	In Line with Text	لە هێڵ لەگەڵ دەق
+	In margin	لە پەراوێزدا
+	In the margin	لە پەراوێزدا
+	Include label and number	نیشانە و ژمارە لەخۆ بگرە
+	Include level number from:	ژمارەی ئاست لەخۆ بگرە لە:
+	Include page numbers	ژمارەکانی پەڕە لەخۆ بگرە
+	Increase Indent	چوونەژوورەوە زیاد بکە
+	Indent	چوونەژوورەوە
+	Indent from left:	چوونەژوورەوە لە چەپەوە:
+	Indentation	چوونەژوورەوە
+	Indented	چووەتە ژوورەوە
+	Indents	چوونەژوورەوەکان
+	Indents and Spacing	چوونەژوورەوە و بۆشایی
+	Index and Tables	پێڕست و خشتەکان
+	Index Heading	سەردێڕی پێڕست
+	Index {n}	پێڕستی {n}
+	India	هیندستان
+	Indonesian	ئیندۆنیزی
+	Initial column width:	پانی سەرەتایی ستوون:
+	Initials:	پیتی سەرەتایی:
+	Ink	نووسینی دەستی
+	Ink Replay	دووبارەکردنەوەی نووسینی دەستی
+	Ink to Shape	نووسینی دەستی بۆ شێوە
+	Ink to\nMath	نووسینی دەستی بۆ\nبیرکاری
+	Ink to\nShape	نووسینی دەستی بۆ\nشێوە
+	Ink\nReplay	دووبارەکردنەوەی\nنووسینی دەستی
+	Inline	ناوهێڵ
+	Input Format	فۆرماتی داخڵکردن
+	Insert a new equation (Alt+=)	هاوکێشەیەکی نوێ بخەرە ناو (Alt+=)
+	Insert Above	لە سەرەوە بخەرە ناو
+	Insert Below	لە خوارەوە بخەرە ناو
+	Insert Caption	ژێرنووس بخەرە ناو
+	Insert Caption…	ژێرنووس بخەرە ناو…
+	Insert Chart	هێلکاری بخەرە ناو
+	Insert Citation	ئاماژە بخەرە ناو
+	Insert Columns to the Left	ستوون لە چەپەوە بخەرە ناو
+	Insert Columns to the Right	ستوون لە ڕاستەوە بخەرە ناو
+	Insert Date Field	خانەی بەروار بخەرە ناو
+	Insert Endnote	کۆتایینووس بخەرە ناو
+	Insert Footnote	پێنووس بخەرە ناو
+	Insert Hyperlink	هایپەرلینک بخەرە ناو
+	Insert Index	پێڕست بخەرە ناو
+	Insert Left	لە چەپ بخەرە ناو
+	Insert Merge Field	خانەی یەکخستن بخەرە ناو
+	Insert Merge\nField	خستنەناوی\nخانەی یەکخستن
+	Insert New Equation	هاوکێشەی نوێ بخەرە ناو
+	Insert one text or another, depending on a field's value.	دەقێک یان ئەوی تر بخەرە ناو، بەپێی نرخی خانەیەک.
+	Insert Page Field	خانەی پەڕە بخەرە ناو
+	Insert reference to:	ئاماژە بخەرە ناو بۆ:
+	Insert Right	لە ڕاست بخەرە ناو
+	Insert Row or Column by Clicking	ڕیز یان ستوون بە کلیککردن بخەرە ناو
+	Insert Rows Above	ڕیز لە سەرەوە بخەرە ناو
+	Insert Rows Below	ڕیز لە خوارەوە بخەرە ناو
+	Insert Shapes	شێوەکان بخەرە ناو
+	Insert SmartArt	SmartArt بخەرە ناو
+	Insert Spike	سپایک بخەرە ناو
+	Insert Structure	پێکهاتە بخەرە ناو
+	Insert Symbol	هێما بخەرە ناو
+	Insert Table	خشتە بخەرە ناو
+	Insert Table of Authorities	خشتەی دەسەلاتدارەکان بخەرە ناو
+	Insert Table of Figures	خشتەی وێنەکان بخەرە ناو
+	Insert Table…	خشتە بخەرە ناو…
+	Insert Time Field	خانەی کات بخەرە ناو
+	Insert\nAbove	خستنەناو لە\nسەرەوە
+	Insert\nCaption	خستنەناوی\nژێرنووس
+	Insert\nCitation	خستنەناوی\nئاماژە
+	Insert\nFootnote	خستنەناوی\nپێنووس
+	Insertions and Deletions	خستنەناوەکان و سڕینەوەکان
+	Insertions:	خستنەناوەکان:
+	Inside Borders	چوارچێوەکانی ناوەوە
+	Inside Horizontal Border	چوارچێوەی ئاسۆیی ناوەوە
+	Inside Vertical Border	چوارچێوەی ستوونی ناوەوە
+	Inside:	ناوەوە:
+	Inspect Styles at Selection	شێوازەکان لە هەڵبژاردە بپشکنە
+	Install	دامەزراندن
+	Install ({size})	دامەزراندن ({size})
+	Install Language Pack	پاکێجی زمان دامەزرێنە
+	Install spelling ({size})	ڕێنووس دامەزرێنە ({size})
+	Installed	دامەزراوە
+	Installing turns on downloading of fonts and Language packs from GitHub.	دامەزراندن داگرتنی خەت و پاکێجەکانی زمان لە GitHub هەڵدەکات.
+	Installing… {percent}%	دامەزراندن… {percent}%
+	Institution	دامەزراوە
+	Integral	ئینتێگراڵ
+	Integral of e^(−x²)	ئینتێگراڵی e^(−x²)
+	Integral with Limits	ئینتێگراڵ لەگەڵ سنوورەکان
+	Integral with Stacked Limits	ئینتێگراڵ لەگەڵ سنوورەکانی کۆکراوە
+	Integrals	ئینتێگراڵەکان
+	Intense Emphasis	جەختی توند
+	Intense Quote	وتەی توند
+	Intense Reference	ئاماژەی توند
+	Interface language:	زمانی ڕووکار:
+	Interface size:	قەبارەی ڕووکار:
+	Interface theme:	شێوازی ڕووکار:
+	Interface\nTheme	شێوازی\nڕووکار
+	Internet addresses as links	ناونیشانەکانی ئینتەرنێت وەک بەستەر
+	Intersection with Limits	یەکتربڕین لەگەڵ سنوورەکان
+	Intersection with Lower Limit	یەکتربڕین لەگەڵ سنووری خوارەوە
+	Intersection with Subscript-Superscript Limits	یەکتربڕین لەگەڵ سنوورەکانی ژێرنووس-سەرنووس
+	Inverse Cosecant Function	فانکشنی کۆسیکانتی پێچەوانە
+	Inverse Cosine Function	فانکشنی کۆساینوسی پێچەوانە
+	Inverse Cotangent Function	فانکشنی کۆتانجەنتی پێچەوانە
+	Inverse Functions	فانکشنە پێچەوانەکان
+	Inverse Hyperbolic Cosecant Function	فانکشنی کۆسیکانتی هایپەربۆلیکی پێچەوانە
+	Inverse Hyperbolic Cosine Function	فانکشنی کۆساینوسی هایپەربۆلیکی پێچەوانە
+	Inverse Hyperbolic Cotangent Function	فانکشنی کۆتانجەنتی هایپەربۆلیکی پێچەوانە
+	Inverse Hyperbolic Functions	فانکشنە هایپەربۆلیکە پێچەوانەکان
+	Inverse Hyperbolic Secant Function	فانکشنی سێکانتی هایپەربۆلیکی پێچەوانە
+	Inverse Hyperbolic Sine Function	فانکشنی ساینوسی هایپەربۆلیکی پێچەوانە
+	Inverse Hyperbolic Tangent Function	فانکشنی تانجەنتی هایپەربۆلیکی پێچەوانە
+	Inverse Secant Function	فانکشنی سێکانتی پێچەوانە
+	Inverse Sine Function	فانکشنی ساینوسی پێچەوانە
+	Inverse Tangent Function	فانکشنی تانجەنتی پێچەوانە
+	Ionosphere	ئایۆنۆسفێر
+	Iraq	عێراق
+	Ireland	ئیرلەندا
+	Irish	ئیرلەندی
+	Is blank	بەتاڵە
+	Is not blank	بەتاڵ نییە
+	ISO 690 (author-date)	ISO 690 (نووسەر-بەروار)
+	ISO 690 (numerical)	ISO 690 (ژمارەیی)
+	Issue	ژمارە
+	It looks like you're writing a letter. Want an envelope for it, or a letter template to start from?	وا دیارە نامەیەک دەنووسیت. دەتەوێت زەرفێکی بۆ، یان قاڵبێکی نامە بۆ دەستپێکردن؟
+	Italy	ئیتالیا
+	Its dictionary couldn't be read: {reason}	فەرهەنگەکەی نەخوێندرایەوە: {reason}
+	Jamaica	جامایکا
+	Join the ArtCraft community on Discord	بەشداری کۆمەڵگەی ArtCraft بکە لە Discord
+	Join us on Discord: discord.gg/artcraft	پێکەوە بین لە Discord: discord.gg/artcraft
+	Jordan	ئوردن
+	Journal	گۆڤار
+	Journal article	وتاری گۆڤار
+	Justification of a display equation	هاوتەریبکردنی هاوکێشەی نیشاندەر
+	Justified	هاوتەریبکراو
+	Kazakhstan	کازاخستان
+	Keep Lines Together	دێڕەکان پێکەوە بهێڵەرەوە
+	Keep lines together	دێڕەکان پێکەوە بهێڵەرەوە
+	Keep me around	بمهێڵەرەوە
+	Keep Text Only	تەنها دەق بهێڵەرەوە
+	Keep the password somewhere safe: without it nobody, WordCraft included, can open the document. Leave both boxes empty to remove the password.	وشەی نهێنی لە شوێنێکی سەلامەت دابنێ: بەبێ ئەو هیچ کەس، تەنانەت WordCraftیش، ناتوانێت بەڵگەنامەکە بکاتەوە. هەردوو سندوقەکە بەتاڵ بهێڵەرەوە بۆ لابردنی وشەی نهێنی.
+	Keep with Next	لەگەڵ داهاتوو بهێڵەرەوە
+	Keep with next	لەگەڵ داهاتوو بهێڵەرەوە
+	Keeps the fonts and formatting of the copied text.	خەت و فۆرماتکردنی دەقی کۆپیکراو دەپارێزێت.
+	Kerning for fonts:	کێرنینگ بۆ خەتەکان:
+	Keyboard shortcuts:	کورتەڕێکانی تەختەکلیل:
+	Keys for this command:	کلیلەکانی ئەم فەرمانە:
+	Kuwait	کوەیت
+	Label changes with:	نیشانە دەگۆڕێت لەگەڵ:
+	Label:	نیشانە:
+	Language data	داتای زمان
+	Language Packs	پاکێجەکانی زمان
+	Language packs aren't available in the browser.	پاکێجەکانی زمان لە وێبگەڕدا بەردەست نین.
+	Language packs come from a test source: {source}	پاکێجەکانی زمان لە سەرچاوەیەکی تاقیکارییەوە دێن: {source}
+	Language packs need the font store folder, and there is none on this computer.	پاکێجەکانی زمان پێویستیان بە بوخچەی کۆگای خەت هەیە، و لەم کۆمپیوتەرەدا نییە.
+	Language Preferences…	هەڵبژاردەکانی زمان…
+	Large\nOperator	ئۆپەراتۆری\nگەورە
+	Largest Only	تەنها گەورەترین
+	Lasso Select	هەڵبژاردنی لاسۆ
+	Last Column	دوایین ستوون
+	Last Name	ناوی کۆتایی
+	Last Record	دوایین تۆمار
+	Last, First; Last, First	کۆتایی، یەکەم؛ کۆتایی، یەکەم
+	Latin text font:	خەتی دەقی لاتینی:
+	Latvian	لاتیڤی
+	Layout Summary	کورتەی شێوەڕێکخستن
+	Layouts	شێوەڕێکخستنەکان
+	Leader	پڕکەرەوە
+	Leave a recipient out of the merge when a field has this value.	وەرگرێک لە یەکخستنەکە لابدە کاتێک خانەیەک ئەم نرخەی هەیە.
+	Leave Equation	هاوکێشە جێبهێڵە
+	Leave out the date and time of comments and tracked changes when saving	کات و بەرواری لێدوان و گۆڕانکارییە شوێنکەوتووەکان لە کاتی پاشەکەوتکردن لابدە
+	Leave the equation (Esc)	هاوکێشەکە جێبهێڵە (Esc)
+	leave the equation first	سەرەتا هاوکێشەکە جێبهێڵە
+	Leave the label out of the caption	نیشانەکە لە ژێرنووسەکە لابدە
+	Lebanon	لوبنان
+	Left Arrow with Text Above	تیری چەپ لەگەڵ دەق لە سەرەوە
+	Left Arrow with Text Below	تیری چەپ لەگەڵ دەق لە خوارەوە
+	Left Border	چوارچێوەی چەپ
+	Left border	چوارچێوەی چەپ
+	Left Bracket Twice	کەوانەی چەپ دوو جار
+	Left indent	چوونەژوورەوەی چەپ
+	Left Margin	پەراوێزی چەپ
+	Left Only	تەنها چەپ
+	Left Right Arrow Above	تیری چەپ-ڕاست لە سەرەوە
+	Left Right Arrow with Text Above	تیری چەپ-ڕاست لەگەڵ دەق لە سەرەوە
+	Left Right Arrow with Text Below	تیری چەپ-ڕاست لەگەڵ دەق لە خوارەوە
+	Left Subscript-Superscript	ژێرنووس-سەرنووسی چەپ
+	Left-to-right	چەپ بۆ ڕاست
+	Left-to-Right Text Direction	ئاراستەی دەقی چەپ بۆ ڕاست
+	Leftwards Arrow Above	تیری چەپەوە لە سەرەوە
+	Leftwards Harpoon Above	هارپوونی چەپەوە لە سەرەوە
+	Legal   8.50" × 14.00"	Legal   8.50" × 14.00"
+	Legal style numbering	ژمارەکردنی شێوازی یاسایی
+	Legend	ڕوونکەرەوە
+	Less Contrast −20%	کۆنتراستی کەمتر −20%
+	Less than	کەمتر لە
+	Less than or equal	کەمتر لە یان یەکسان
+template	Letter	نامە
+	Letter   8.50" × 11.00"	Letter   8.50" × 11.00"
+	Letter headings	سەردێڕەکانی نامە
+	Letter template	قاڵبی نامە
+	Letter-Like Symbols	هێماکانەی وەک پیت
+	Letters	پیتەکان
+	Level 5	ئاستی 5
+	Level 6	ئاستی 6
+	Level 7	ئاستی 7
+	Level 8	ئاستی 8
+	Level 9	ئاستی 9
+	Level {n}	ئاستی {n}
+	Levels:	ئاستەکان:
+	Licence: {licence}. Source: {source}	مۆڵەت: {licence}. سەرچاوە: {source}
+	Liechtenstein	لیختنشتاین
+	Light Variations	جیاوازییە ڕووناکەکان
+	Light with Outline	ڕووناک لەگەڵ هێڵکاری
+	Limit	سنوور
+	Limit and	سنوور و
+	Limit and\nLog	سنوور و\nلۆگ
+	Limit consecutive hyphens to:	هایفێنە یەک لەدوای یەکەکان سنووردار بکە بە:
+	Limit Example	نموونەی سنوور
+	Limit formatting to a selection of styles	فۆرماتکردن سنووردار بکە بە هەڵبژاردەیەکی شێوازەکان
+	Line and Page Breaks	شکانی دێڕ و پەڕە
+	Line and Paragraph Spacing	بۆشایی دێڕ و پاراگراف
+	Line between	هێڵ لە نێوان
+	Line Break	شکانی دێڕ
+	Line breaking	شکانی دێڕ
+	Line End	کۆتایی دێڕ
+	Line Number	ژمارەی دێڕ
+	Line Numbering Options…	هەڵبژاردەکانی ژمارەکردنی دێڕ…
+	Line Numbers	ژمارەکانی دێڕ
+	Line Spacing	بۆشایی دێڕ
+	Line Spacing Options…	هەڵبژاردەکانی بۆشایی دێڕ…
+	Line spacing:	بۆشایی دێڕ:
+	Line Start	دەستپێکی دێڕ
+	Linear Diagonal - Bottom Left to Top Right	لاری هێڵی - خوارەوەی چەپ بۆ سەرەوەی ڕاست
+	Linear Diagonal - Bottom Right to Top Left	لاری هێڵی - خوارەوەی ڕاست بۆ سەرەوەی چەپ
+	Linear Diagonal - Top Left to Bottom Right	لاری هێڵی - سەرەوەی چەپ بۆ خوارەوەی ڕاست
+	Linear Diagonal - Top Right to Bottom Left	لاری هێڵی - سەرەوەی ڕاست بۆ خوارەوەی چەپ
+	Linear Down	هێڵی خوارەوە
+	Linear Fraction	کەسری هێڵی
+	Linear Left	هێڵی چەپ
+	Linear Right	هێڵی ڕاست
+	Linear Up	هێڵی سەرەوە
+	Lines and characters	دێڕەکان و پیتەکان
+	Lines only	تەنها دێڕەکان
+	Lines per page:	دێڕ لە هەر پەڕەیەک:
+	Lines to drop:	دێڕ بۆ داکەوتن:
+	Link entries to their headings	بەندەکان بە سەردێڕەکانیان ببەستەرەوە
+	Link level to style:	ئاست بە شێواز ببەستەرەوە:
+	Link to Previous	ببەستەرەوە بە پێشوو
+	Link to:	ببەستەرەوە بە:
+	Linked style (paragraph and character)	شێوازی بەستەرکراو (پاراگراف و پیت)
+	Links and References	بەستەرەکان و ئاماژەکان
+	Link…	بەستەر…
+	List Definition	پێناسەی پێڕست
+	List entries	بەندەکانی پێڕست
+	List Paragraph	پاراگرافی پێڕست
+	List Table 3 – Blue	خشتەی پێڕست 3 – شین
+	List Table 3 – Green	خشتەی پێڕست 3 – سەوز
+	List Table 3 – Orange	خشتەی پێڕست 3 – پرتەقاڵی
+	List Table 3 – Purple	خشتەی پێڕست 3 – مۆر
+	Lit from Bottom	ڕووناککراو لە خوارەوە
+	Lit from Top	ڕووناککراو لە سەرەوە
+	Lithuanian	لیتوانی
+	Load System Installed Fonts…	خەتە دامەزراوەکانی سیستەم بار بکە…
+	Loaded {count} system fonts.	{count} خەتی سیستەم بارکرا.
+	Local font access is not supported by your browser.	دەستگەیشتن بە خەتی ناوخۆیی لەلایەن وێبگەڕەکەتەوە پشتگیری ناکرێت.
+	Local font access was denied.	دەستگەیشتن بە خەتی ناوخۆیی ڕەتکرایەوە.
+	Local recovery is unavailable or still loading.	گەڕاندنەوەی ناوخۆیی بەردەست نییە یان هێشتا بار دەکرێت.
+	Location: {path}	شوێن: {path}
+	Lock aspect ratio	ڕێژەی لایەکان قفڵ بکە
+	Lock Fields	خانەکان قفڵ بکە
+	Log	لۆگ
+	Logarithm	لۆگاریتم
+	Logarithm with Base	لۆگاریتم لەگەڵ بنکە
+	Logical AND	ANDی لۆجیکی
+	Logical AND with Limits	ANDی لۆجیکی لەگەڵ سنوورەکان
+	Logical OR	ORی لۆجیکی
+	Logical OR with Limits	ORی لۆجیکی لەگەڵ سنوورەکان
+	Lorem ipsum: because the real words are still at the café.	لۆرێم ئیپسۆم: چونکە وشە ڕاستەقینەکان هێشتا لە کافتریایە.
+	Lum:	ڕووناکی:
+	Luxembourg	لوکسەمبورگ
+	Macao SAR	ماکاو SAR
+	Macedonian	مەقدوونی
+	Macro name:	ناوی ماکرۆ:
+	Macros	ماکرۆکان
+	Made from the author and year when empty	کاتێک بەتاڵە لە نووسەر و ساڵ دروست دەکرێت
+	Magazine or newspaper article	وتاری گۆڤار یان ڕۆژنامە
+	Mail Merge	یەکخستنی نامە
+	Mailings	نامەناردن
+	Main entry:	بەندی سەرەکی:
+	Make WordCraft the default for Word documents…	WordCraft بکە بە بنەڕەت بۆ بەڵگەنامەکانی Word…
+	Makes the ribbon, menus and dialogs larger or smaller. Auto follows your system's display scaling; 100% is one screen pixel per point. Document zoom is separate.	شریتی ئامرازەکان، پێڕستەکان و پەنجەرەکان گەورەتر یان بچووکتر دەکات. خۆکار شوێنی پێوەری پیشاندانی سیستەمەکەت دەکەوێت؛ 100% یەک پیکسڵی شاشەیە بۆ هەر خاڵێک. گەورەکردنی بەڵگەنامە جیاوازە.
+	Malaysia	مالیزیا
+	Manage Sources	سەرچاوەکان بەڕێوەببە
+	Manage Styles	شێوازەکان بەڕێوەببە
+	Manage Styles…	شێوازەکان بەڕێوەببە…
+	Manual Hyphenation	هایفێنکردنی دەستی
+	Manual hyphenation is complete.	هایفێنکردنی دەستی تەواو بوو.
+	Manual Line Break	شکانی دێڕی دەستی
+	Manual Page Break	شکانی پەڕەی دەستی
+	Manual…	دەستی…
+	Many pages	پەڕەی زۆر
+	Mark	نیشانەکردن
+	Mark All	هەموو نیشانە بکە
+	Mark as decorative	وەک ڕازاوە نیشانە بکە
+	Mark Citation	ئاماژە نیشانە بکە
+	Mark Entry	بەند نیشانە بکە
+	Mark Entry…	بەند نیشانە بکە…
+	Mark grammar errors as you type	هەڵەکانی ڕێزمان نیشانە بکە لە کاتی نووسین
+	Mark Index Entry	بەندی پێڕست نیشانە بکە
+	Mark selected text as:	دەقی هەڵبژێردراو نیشانە بکە وەک:
+	Mark\nCitation	نیشانەکردنی\nئاماژە
+	Mark\nEntry	نیشانەکردنی\nبەند
+	Markdown (*.md)	Markdown (*.md)
+	Match case	حاڵەت بگونجێنە
+	Match Fields	خانەکان بگونجێنە
+	Match prefix	پێشگر بگونجێنە
+	Match suffix	پاشگر بگونجێنە
+	Matches: {count}	گونجان: {count}
+	Math AutoCorrect	ڕاستکردنەوەی خۆکاری بیرکاری
+	Matrices with Brackets	ماتریکسەکان لەگەڵ کەوانە
+	Matrix	ماتریکس
+	Maximum Example	نموونەی زۆرترین
+	Measured By	پێوانەکراو بە
+	Measurement units:	یەکەکانی پێوانە:
+	Merge cells before split	خانەکان یەکبخە پێش دابەشکردن
+	Merge Formatting	یەکخستنی فۆرماتکردن
+	Merge Record #	ژمارەی تۆماری یەکخستن
+	Mesosphere	مێزۆسفێر
+	Mexico	مەکسیک
+	Midline Dots	خاڵەکانی ناوەڕاستی هێڵ
+	Minus Equal	کەمکردنەوە یەکسان
+	Mirror indents	چوونەژوورەوەکان ئاوێنە بکە
+	Mirror margins	پەراوێزەکان ئاوێنە بکە
+	Mirrored	ئاوێنەکراو
+	MIT OR Apache-2.0. Copyright (c) 2026 ArtCraft Team and the WordCraft contributors.	MIT یان Apache-2.0. مافی لەبەرگرتنەوە (c) 2026 تیمی ArtCraft و بەشداربووانی WordCraft.
+	MLA	MLA
+	mm	ملم
+	Moderate	مامناوەند
+	Modify Style	شێواز دەستکاری بکە
+	Modify Table Style	شێوازی خشتە دەستکاری بکە
+	Modify Table Style…	شێوازی خشتە دەستکاری بکە…
+	Modify…	دەستکاریکردن…
+	Mon	دووشەممە
+	Monaco	مۆناکۆ
+	Montenegro	مۆنتینیگرۆ
+	Month	مانگ
+	More >>	زیاتر >>
+	More Colors…	ڕەنگی زیاتر…
+	More Columns…	ستوونی زیاتر…
+	More Commands…	فەرمانی زیاتر…
+	More Contrast +20%	کۆنتراستی زیاتر +20%
+	More Gradients…	ڕەنگگۆڕینی زیاتر…
+	More options	هەڵبژاردەی زیاتر
+	More Paper Sizes…	قەبارەی کاغەزی زیاتر…
+	More Symbols…	هێمای زیاتر…
+	More tabs	تابی زیاتر
+	More templates →	قاڵبی زیاتر →
+	More Underlines…	ژێرهێڵی زیاتر…
+	Morocco	مەغریب
+	Move in Equation	لە هاوکێشەدا بجووڵێنە
+	Move or Resize	بجووڵێنە یان قەبارە بگۆڕە
+	Move Pane: {title}	پانێڵ بجووڵێنە: {title}
+	Move Paragraph Down	پاراگراف بۆ خوارەوە بجووڵێنە
+	Move Paragraph Up	پاراگراف بۆ سەرەوە بجووڵێنە
+	Move Past Citation	بەسەر ئاماژەدا بجووڵێنە
+	Move Past\nCitation	جووڵان بەسەر\nئاماژەدا
+	Move Selected Ink	نووسینی دەستی هەڵبژێردراو بجووڵێنە
+	Move Table by Dragging	خشتە بە ڕاکێشان بجووڵێنە
+	Move with Text	لەگەڵ دەق بجووڵێنە
+	Moved from	جووڵێنرا لە
+	Moved from:	جووڵێنرا لە:
+	Moved objects snap to the page's edges and centre, the margins and other objects. Hold Alt to move freely.	شتە جووڵێنراوەکان دەلکێن بە لایەکان و ناوەڕاستی پەڕە، پەراوێزەکان و شتەکانی تر. Alt دابگرە بۆ جووڵانی ئازاد.
+	Moved to	جووڵێنرا بۆ
+	Moved to:	جووڵێنرا بۆ:
+	Moves	جووڵانەکان
+	Mozambique	مۆزامبیک
+	Multilevel List	پێڕستی چەندئاستی
+	Multilevel List Library	کتێبخانەی پێڕستی چەندئاستی
+	Multiple Pages	چەند پەڕە
+	Mute agent messages	نامەکانی ئەیجەنت بێدەنگ بکە
+	Muted 50%	بێدەنگکراو 50%
+	My list has	پێڕستەکەم ئەمەی هەیە
+	Name of the file this document is saved as	ناوی ئەو فایلەی ئەم بەڵگەنامەیە پێی پاشەکەوت کراوە
+	Narrow	تەسک
+	Narrow  {size} all	تەسک  {size} هەموو
+	Natural Logarithm	لۆگاریتمی سروشتی
+	Nature	سروشت
+	Navigation Pane	پانێڵی گەڕان
+	Negated Relations	پەیوەندییە پێچەوانەکان
+	Netherlands	هۆڵەندا
+	New blank documents are written in this language	بەڵگەنامە بۆشە نوێیەکان بەم زمانە دەنووسرێن
+	New Comment	لێدوانی نوێ
+	New comments and tracked changes are recorded under this name and these initials.	لێدوان و گۆڕانکارییە شوێنکەوتووە نوێیەکان بەم ناو و ئەم پیتە سەرەتاییانە تۆمار دەکرێن.
+	New Documents Based on This Template	بەڵگەنامەی نوێ لەسەر بنەمای ئەم قاڵبە
+	New documents based on this template	بەڵگەنامەی نوێ لەسەر بنەمای ئەم قاڵبە
+	New documents will use this font.	بەڵگەنامەی نوێ ئەم خەتە بەکاردەهێنن.
+	New documents will use this page setup.	بەڵگەنامەی نوێ ئەم ڕێکخستنی پەڕەیە بەکاردەهێنن.
+	New documents will use this paragraph formatting.	بەڵگەنامەی نوێ ئەم فۆرماتکردنی پاراگرافە بەکاردەهێنن.
+	New documents will use this style.	بەڵگەنامەی نوێ ئەم شێوازە بەکاردەهێنن.
+	New documents will use WordCraft's built-in formatting.	بەڵگەنامەی نوێ فۆرماتکردنی دامەزراوی WordCraft بەکاردەهێنن.
+	New documents will use WordCraft's built-in formatting. Your saved defaults can't be recovered. Reset?	بەڵگەنامەی نوێ فۆرماتکردنی دامەزراوی WordCraft بەکاردەهێنن. بنەڕەتە پاشەکەوتکراوەکانت ناتوانرێن بگەڕێنرێنەوە. ڕێکبخرێتەوە؟
+	New Drawing Canvas	کانواسی وێنەکێشانی نوێ
+	New Entry	بەندی نوێ
+	New Label	نیشانەی نوێ
+	New Label…	نیشانەی نوێ…
+	New Paragraph	پاراگرافی نوێ
+	New shortcut:	کورتەڕێی نوێ:
+	New Tab	تابی نوێ
+	New Table Style	شێوازی خشتەی نوێ
+	New Table Style…	شێوازی خشتەی نوێ…
+	New word	وشەی نوێ
+	New Zealand	نیوزیلەندا
+	New\nComment	لێدوانی\nنوێ
+	New\nWindow	پەنجەرەی\nنوێ
+	Next Comment	لێدوانی داهاتوو
+	Next Field	خانەی داهاتوو
+	Next Footnote	پێنووسی داهاتوو
+	Next Record	تۆماری داهاتوو
+	Next Section	بەشی داهاتوو
+	Next Sentence	ڕستەی داهاتوو
+	Next sentence	ڕستەی داهاتوو
+	Nib floats over the window with tips and the occasional remark.	Nib بەسەر پەنجەرەکەدا دەسووڕێتەوە لەگەڵ ئامۆژگاری و هەندێ تێبینی.
+	Nib, your assistant. Drag to move; right-click for options.	Nib، یاریدەدەرەکەت. بۆ جووڵان ڕایبکێشە؛ کلیکی ڕاست بۆ هەڵبژاردەکان.
+	Nicaragua	نیکاراگوا
+	No accessibility issues found.	هیچ کێشەیەکی دەستگەیشتن نەدۆزرایەوە.
+	No Border	بێ چوارچێوە
+	No changes (read only)	بێ گۆڕانکاری (تەنها خوێندنەوە)
+	No contributor data was built into this copy.	هیچ داتای بەشداربوو لەم کۆپییەدا نەدروستکراوە.
+	No document is open. Create a document or open one first.	هیچ بەڵگەنامەیەک کراوە نییە. سەرەتا بەڵگەنامەیەک دروست بکە یان یەکێک بکەرەوە.
+	no equation at the caret	هیچ هاوکێشەیەک لە نیشانەکەر نییە
+	No errors found: every merge field is in the recipient list.	هیچ هەڵەیەک نەدۆزرایەوە: هەموو خانەکانی یەکخستن لە پێڕستی وەرگرەکاندا ن.
+	No Fill	بێ پڕکردنەوە
+	No fill	بێ پڕکردنەوە
+	No Glow	بێ درەوشانەوە
+	No Gradient	بێ ڕەنگگۆڕین
+	No grid	بێ تۆڕ
+	No header row	بێ ڕیزی سەرپەڕە
+	No icons match your search.	هیچ ئایکۆنێک لەگەڵ گەڕانەکەت ناگونجێت.
+	No items to show.	هیچ بەندێک نییە بۆ پیشاندان.
+	No language matches your search.	هیچ زمانێک لەگەڵ گەڕانەکەت ناگونجێت.
+	No languages to show yet.	هێشتا هیچ زمانێک نییە بۆ پیشاندان.
+	No Markup	بێ نیشانە
+	No model credits were built into this copy.	هیچ کرێدیتی مۆدێل لەم کۆپییەدا نەدروستکراوە.
+	No new sources in that file	هیچ سەرچاوەی نوێ لەو فایلەدا نییە
+	No Outline	بێ هێڵکاری
+	No Paragraph Space	بێ بۆشایی پاراگراف
+	No printers found. Configure a system printer or export a PDF.	هیچ چاپکەرێک نەدۆزرایەوە. چاپکەرێکی سیستەم ڕێکبخە یان PDF هەناردە بکە.
+	No recovery copies.	هیچ کۆپیی گەڕاندنەوە نییە.
+	No Reflection	بێ ڕەنگدانەوە
+	No Scaling	بێ پێوەر
+	No Shadow	بێ سێبەر
+	No Soft Edges	بێ لایە نەرمەکان
+	No sources yet.	هێشتا هیچ سەرچاوەیەک نییە.
+	No Spacing	بێ بۆشایی
+	No spelling dictionary for {language} is installed, so it isn't checked. WordCraft looks for the Hunspell dictionary {name} in the WORDCRAFT_DICTIONARIES folder and in the usual system locations.	هیچ فەرهەنگی ڕێنووس بۆ {language} دامەزراو نییە، بۆیە پشکنین ناکرێت. WordCraft بۆ فەرهەنگی Hunspell {name} دەگەڕێت لە بوخچەی WORDCRAFT_DICTIONARIES و لە شوێنە ئاساییەکانی سیستەم.
+	No templates match your search.	هیچ قاڵبێک لەگەڵ گەڕانەکەت ناگونجێت.
+	No Transform	بێ گۆڕین
+	No watermark	بێ نیشانەی ئاوی
+	No words yet. Add to Dictionary on a misspelled word puts it here.	هێشتا هیچ وشەیەک نییە. زیادکردن بۆ فەرهەنگ لەسەر وشەیەکی هەڵە لێرە دای دەنێت.
+	No-Width Non Break	شکانی نەبوو بێ پانی
+	No-Width Optional Break	شکانی ئارەزوومەندانەی بێ پانی
+	Nonbreaking Hyphen	هایفێنی نەشکاو
+	Normal  {size} all	ئاسایی  {size} هەموو
+	Normal Indent	چوونەژوورەوەی ئاسایی
+	Normal probability density	چڕی ئەگەری ئاسایی
+	Normal speed	خێرایی ئاسایی
+	Normal Style	شێوازی ئاسایی
+	Normal Table	خشتەی ئاسایی
+	Normal Text	دەقی ئاسایی
+	Normal Word Document	بەڵگەنامەی ئاسایی Word
+	North	باکوور
+	Norwegian (Bokmål)	نۆرویژی (بۆکمۆل)
+	Norwegian (Nynorsk)	نۆرویژی (نینۆرسک)
+	Not	نەخێر
+	Not available right now	ئێستا بەردەست نییە
+	Not available yet	هێشتا بەردەست نییە
+	not editing an equation	هاوکێشەیەک دەستکاری ناکرێت
+	Not equal to	یەکسان نییە بە
+	Not in Dictionary	لە فەرهەنگدا نییە
+	Not linked: click a text box	بەستەر نەکراوە: کلیک لە سندوقی دەق بکە
+	Not now	ئێستا نا
+	Not saved	پاشەکەوت نەکراوە
+	Not saved yet	هێشتا پاشەکەوت نەکراوە
+	Not set	دانەنراوە
+	Not set: the system's usual places	دانەنراوە: شوێنە ئاساییەکانی سیستەم
+	Not used by any command	لەلایەن هیچ فەرمانێک بەکارنەهێنراوە
+	Not {name}	نەخێر {name}
+	Nothing	هیچ
+	Nothing collected yet. Items you copy or cut appear here.	هێشتا هیچ کۆنەکراوە. ئەو بەندانەی کۆپی دەکەیت یان دەیانبڕیت لێرە دەردەکەون.
+	nothing is selected	هیچ هەڵنەبژێردراوە
+	Nothing of this type in the document.	هیچ شتێک لەم جۆرە لە بەڵگەنامەکەدا نییە.
+	Now used by {command}	ئێستا لەلایەن {command} بەکاردێت
+	Nudge	پاڵنەدان
+	Num Occurrences	ژمارەی ڕوودان
+	Number alignment:	هاوتەریبکردنی ژمارە:
+	Number format	فۆرماتی ژمارە
+	Number of columns:	ژمارەی ستوونەکان:
+	Number of rows:	ژمارەی ڕیزەکان:
+	Number of the page the field sits on	ژمارەی ئەو پەڕەیەی خانەکە لەسەریەتی
+	Number of the section the field sits in	ژمارەی ئەو بەشەی خانەکە تێیدایە
+	Number only, without the label's words	تەنها ژمارە، بەبێ وشەکانی نیشانەکە
+	Number style for this level:	شێوازی ژمارە بۆ ئەم ئاستە:
+	Number the equation; the number sits at the right margin (or type # then the number)	هاوکێشەکە ژمارە بکە؛ ژمارەکە لە پەراوێزی ڕاست دادەنیشێت (یان # بنووسە پاشان ژمارەکە)
+	Numbering	ژمارەکردن
+	Numbering:	ژمارەکردن:
+	Numbering…	ژمارەکردن…
+	Numerals	ژمارەکان
+	Numerals:	ژمارەکان:
+	n×n Identity Matrix	ماتریکسی ناسنامەی n×n
+	n×n Matrix	ماتریکسی n×n
+	Odd Banded Columns	ستوونە شریتییە تاکەکان
+	Odd Banded Rows	ڕیزە شریتییە تاکەکان
+	Odd Page	پەڕەی تاک
+	Office	Office
+	Office 2003 Default	بنەڕەتی Office 2003
+	Offset (pt):	لادان (خاڵ):
+	Offset: Bottom	لادان: خوارەوە
+	Offset: Bottom Left	لادان: خوارەوەی چەپ
+	Offset: Bottom Right	لادان: خوارەوەی ڕاست
+	Offset: Center	لادان: ناوەڕاست
+	Offset: Left	لادان: چەپ
+	Offset: Right	لادان: ڕاست
+	Offset: Top	لادان: سەرەوە
+	Offset: Top Left	لادان: سەرەوەی چەپ
+	Offset: Top Right	لادان: سەرەوەی ڕاست
+	Old menu keys: Alt, {keys}. Keep typing, or press Esc to cancel.	کلیلە کۆنەکانی پێڕست: Alt، {keys}. بەردەوام بە لە نووسین، یان Esc دابگرە بۆ هەڵوەشاندنەوە.
+	On: the caret glides to its new place when you type or use the arrow keys, and its blink fades. Off: it jumps and blinks on and off.	هەڵکراو: نیشانەکەر دەخلیسکێت بۆ شوێنی نوێی کاتێک دەنووسیت یان کلیلەکانی تیر بەکاردەهێنیت، و درەوشانەوەکەی کاڵ دەبێتەوە. کوژاو: باز دەدات و دەکوژێتەوە و هەڵدەکرێت.
+	On: WordCraft opens on File › Home, with a blank document, the templates and your recent documents. Off: it opens a blank document.	هەڵکراو: WordCraft لە فایل › سەرەکی دەکرێتەوە، لەگەڵ بەڵگەنامەیەکی بۆش، قاڵبەکان و بەڵگەنامە دواییەکانت. کوژاو: بەڵگەنامەیەکی بۆش دەکاتەوە.
+	One	یەک
+	One half	نیو
+	One label per recipient	یەک نیشانە بۆ هەر وەرگرێک
+	One line per item. Enter adds an item.	یەک دێڕ بۆ هەر بەندێک. Enter بەندێک زیاد دەکات.
+	One Page	یەک پەڕە
+	One-sided	یەکلایەنە
+	Only allow this kind of editing:	تەنها ڕێگە بەم جۆرە دەستکاریکردنە بدە:
+	Only comments can be added, except in regions marked editable.	تەنها لێدوان دەتوانرێت زیاد بکرێت، جگە لە ناوچەکانی نیشانەکراو بە دەستکاریکردن.
+	Only for the selected text	تەنها بۆ دەقی هەڵبژێردراو
+	Only form fields can be filled in.	تەنها خانەکانی فۆرم دەتوانرێن پڕ بکرێنەوە.
+	only in Outline view	تەنها لە بینینی پێڕستەدا
+	Only in this document	تەنها لەم بەڵگەنامەیەدا
+	Only label and number	تەنها نیشانە و ژمارە
+	Only text properties can be changed.	تەنها تایبەتمەندییەکانی دەق دەتوانرێن بگۆڕدرێن.
+	Only the allowed styles can be applied.	تەنها ئەو شێوازانەی ڕێگەپێدراون دەتوانرێن جێبەجێ بکرێن.
+	Only web (http, https) and email (mailto) links can be followed	تەنها بەستەرەکانی وێب (http، https) و ئیمەیل (mailto) دەتوانرێن بکرێنەوە
+	Only you can turn on downloading: click the button yourself. Agents can install once it is on.	تەنها تۆ دەتوانیت داگرتن هەڵبکەیت: خۆت کلیک لە دوگمەکە بکە. ئەیجەنتەکان دەتوانن دامەزرێنن کاتێک هەڵکرا.
+spacing	Open	فراوانکراو
+	Open a document first	سەرەتا بەڵگەنامەیەک بکەرەوە
+	Open a file with WordCraft's own browser when the system file dialog doesn't appear.	فایلێک بە وێبگەڕی تایبەتی WordCraft بکەرەوە کاتێک پەنجەرەی فایلی سیستەم دەرناکەوێت.
+	OpenDocument Text (*.odt)	دەقی OpenDocument (*.odt)
+	Opening print dialog…	کردنەوەی پەنجەرەی چاپ…
+	Opens .docx, .doc, .rtf and .odt files and Word templates with WordCraft from now on.	لەمەودوا فایلی .docx و .doc و .rtf و .odt و قاڵبەکانی Word بە WordCraft دەکاتەوە.
+	Opens Settings › Default apps, where you choose WordCraft for .docx and the other document types.	ڕێکخستنەکان › ئەپەکانی بنەڕەت دەکاتەوە، کە تێیدا WordCraft بۆ .docx و جۆرەکانی تری بەڵگەنامە هەڵدەبژێریت.
+	Operator	ئۆپەراتۆر
+	Operator Structures	پێکهاتە ئۆپەراتۆرییەکان
+	Operators	ئۆپەراتۆرەکان
+	Optional Hyphen	هایفێنی ئارەزوومەندانە
+	Or	یان
+	Or save a copy in another format:	یان کۆپییەک بە فۆرماتێکی تر پاشەکەوت بکە:
+	Ordinals (1st) as superscript	ڕیزەکییەکان (1st) وەک سەرنووس
+	Organizer	ڕێکخەر
+	Organizer…	ڕێکخەر…
+	Original document	بەڵگەنامەی ڕەسەن
+	Original size	قەبارەی ڕەسەن
+	Other Large Operators	ئۆپەراتۆرە گەورەکانی تر
+	Other styles and their TOC level:	شێوازەکانی تر و ئاستی پێڕستی ناوەڕۆکیان:
+	Other:	تر:
+	Otherwise insert:	ئەگەرنا بخەرە ناو:
+	Outline Level	ئاستی پێڕستە
+	Outline level	ئاستی پێڕستە
+	Outline levels	ئاستەکانی پێڕستە
+	Outline State	دۆخی پێڕستە
+	Outline Tools	ئامرازەکانی پێڕستە
+	Outlining	پێڕستەکردن
+	Outside border	چوارچێوەی دەرەوە
+	Outside Borders	چوارچێوەکانی دەرەوە
+	Outside:	دەرەوە:
+	Outward Brackets	کەوانەکانی دەرەوە
+	Overbar	هێڵی سەرەوە
+	Overbars and Underbars	هێڵەکانی سەرەوە و ژێرەوە
+	Overbrace	کەوانەی سەرەوە
+	Overtype	جێگرتنەوە
+	Overtype (typing replaces the characters after the caret)	جێگرتنەوە (نووسین پیتەکانی دوای نیشانەکەر دەگۆڕێت)
+	Page Background	پاشبنەمای پەڕە
+	Page Border	چوارچێوەی پەڕە
+	Page Borders	چوارچێوەکانی پەڕە
+	Page Break	شکانی پەڕە
+	Page Break Before	شکانی پەڕە لە پێش
+	Page break before	شکانی پەڕە لە پێش
+	Page Breaks	شکانی پەڕەکان
+	Page Color	ڕەنگی پەڕە
+	Page color	ڕەنگی پەڕە
+	Page display	پیشاندانی پەڕە
+	Page Down	پەڕە بۆ خوارەوە
+	Page image (*.png)	وێنەی پەڕە (*.png)
+	Page Movement	جووڵانی پەڕە
+	Page Number	ژمارەی پەڕە
+	Page number	ژمارەی پەڕە
+	Page Number Format	فۆرماتی ژمارەی پەڕە
+	Page number style	شێوازی ژمارەی پەڕە
+	Page numbering	ژمارەکردنی پەڕە
+	Page numbers at the right margin	ژمارەکانی پەڕە لە پەراوێزی ڕاست
+	Page on which a bookmarked passage falls	ئەو پەڕەیەی پارچەیەکی نیشانەکراو لەسەری دەکەوێت
+	Page Setup	ڕێکخستنی پەڕە
+	Page title	ناونیشانی پەڕە
+	Page Up	پەڕە بۆ سەرەوە
+	Page Width	پانی پەڕە
+	Page width	پانی پەڕە
+	Page X of Y	پەڕەی X لە Y
+	Page {page}	پەڕەی {page}
+	Page\nBorders	چوارچێوەکانی\nپەڕە
+	Page\nColor	ڕەنگی\nپەڕە
+	Page\nNumber	ژمارەی\nپەڕە
+	Pages in the range	پەڕەکانی ناو مەودا
+	Pages like 1-3, 5	پەڕە وەک 1-3، 5
+	Pages of bookmark:	پەڕەکانی نیشانە:
+	Panama	پەنەما
+	Pane Options	هەڵبژاردەکانی پانێڵ
+	Paper size:	قەبارەی کاغەز:
+	Paragraph Character	پیتی پاراگراف
+	Paragraph Details	وردەکارییەکانی پاراگراف
+	Paragraph Down	پاراگراف بۆ خوارەوە
+	Paragraph Mark	نیشانەی پاراگراف
+	Paragraph marks	نیشانەکانی پاراگراف
+	Paragraph Settings	ڕێکخستنەکانی پاراگراف
+	Paragraph Spacing	بۆشایی پاراگراف
+	Paragraph style	شێوازی پاراگراف
+	Paragraph Up	پاراگراف بۆ سەرەوە
+	Paragraphs	پاراگرافەکان
+	Paragraph…	پاراگراف…
+	Paraguay	پاراگوای
+	Parentheses	کەوانەی بازنەیی
+	Parentheses with Separator	کەوانەی بازنەیی لەگەڵ جیاکەرەوە
+	Partial Differential	دیفەرێنشیالی بەشەکی
+	Password:	وشەی نهێنی:
+	Paste (⌘V)	لکاندن (⌘V)
+	Paste All	هەموو بلکێنە
+	Paste as:	بلکێنە وەک:
+	Paste Clipboard Item	بەندی تەختەی هەڵگرتن بلکێنە
+	Paste Formatting	فۆرماتکردن بلکێنە
+	Paste function:	فانکشنی لکاندن:
+	Paste Special…	لکاندنی تایبەت…
+	Paste: Keep Text Only	لکاندن: تەنها دەق بهێڵەرەوە
+	Paste: Merge Formatting	لکاندن: یەکخستنی فۆرماتکردن
+	Pastes the clipboard's picture.	وێنەی تەختەی هەڵگرتن دەلکێنێت.
+	Paused	وەستێنراوە
+	PDF document (*.pdf)	بەڵگەنامەی PDF (*.pdf)
+	Pens	قەڵەمەکان
+	People	خەڵک
+	Periodical	بەردەوامنامە
+	Persian	فارسی
+	Personal	کەسی
+	Personal Templates	قاڵبە کەسییەکان
+	Personalize	کەسی بکە
+	Peru	پیرۆ
+	Philippines	فلیپین
+	Phonetic Guide	ڕێنمایی دەنگی
+	pi	پی
+	Pi Over 2	پی بەسەر 2
+	Pick a custom group (New Group makes one)	کۆمەڵەیەکی تایبەت هەڵبژێرە (کۆمەڵەی نوێ یەکێک دروست دەکات)
+	Pick a field from the list	خانەیەک لە پێڕستەکە هەڵبژێرە
+	Picture	وێنە
+	Picture Border	چوارچێوەی وێنە
+	Picture border	چوارچێوەی وێنە
+	Picture Content Control	کۆنترۆڵی ناوەڕۆکی وێنە
+	Picture Format	ڕێکخستنی وێنە
+	Picture Styles	شێوازەکانی وێنە
+	Picture transparency	شەفافیەتی وێنە
+	Picture watermark	نیشانەی ئاوی وێنە
+	Pictures	وێنەکان
+	Pie	پای
+	Place in This Document	شوێن لەم بەڵگەنامەیەدا
+	Placeholder text	دەقی جێگرەوە
+	Plain Table 1	خشتەی سادە 1
+	Plain text (*.txt)	دەقی سادە (*.txt)
+	Plain Text Content Control	کۆنترۆڵی ناوەڕۆکی دەقی سادە
+	Play/Pause	کارپێکردن/وەستان
+	Plus Equal	زیادکردن یەکسان
+	Points and above	خاڵ و سەرەوە
+	Polish	پۆڵەندی
+	Portugal	پورتوگال
+	Portuguese (Brazil)	پورتوگالی (بەڕازیل)
+	Portuguese (Portugal)	پورتوگالی (پورتوگال)
+	Possible spelling mistake	هەڵەی ڕێنووسی ئەگەری
+	Postal Code	کۆدی پۆستە
+	Power series of (1+x)ⁿ	زنجیرەی توانی (1+x)ⁿ
+	Preferred width:	پانی پێشنیارکراو:
+	Preserve formatting during updates	فۆرماتکردن لە کاتی نوێکردنەوە بپارێزە
+	Preset gradients	ڕەنگگۆڕینەکانی ئامادە
+	Press a key combination	تێکەڵەیەکی کلیل دابگرە
+	Preview Results	پێشبینینی ئەنجامەکان
+	Preview\nResults	پێشبینینی\nئەنجامەکان
+	Previous 1 or More	پێشووی 1 یان زیاتر
+	Previous Comment	لێدوانی پێشوو
+	Previous Field	خانەی پێشوو
+	Previous Record	تۆماری پێشوو
+	Previous Section	بەشی پێشوو
+	Previous Sentence	ڕستەی پێشوو
+	Previous sentence	ڕستەی پێشوو
+	Print Documents	بەڵگەنامەکان چاپ بکە
+	Print Documents…	بەڵگەنامەکان چاپ بکە…
+	Print failed: the printing worker stopped.	چاپ شکستیهێنا: کرێکارەکەی چاپ وەستا.
+	Print failed: {error}	چاپ شکستیهێنا: {error}
+	Print job submitted.	کارەکەی چاپ نێردرا.
+	Print job submitted: spooled {count} sheet(s)	کارەکەی چاپ نێردرا: {count} پەڕە ڕیزکرا
+	Print job submitted: {receipt}	کارەکەی چاپ نێردرا: {receipt}
+	Print Layout	شێوەڕێکخستنی چاپ
+	Print Markup	چاپکردنی نیشانەکان
+	Print settings	ڕێکخستنەکانی چاپ
+	Print the page color	ڕەنگی پەڕە چاپ بکە
+	Print to PDF	چاپ بۆ PDF
+	Print\nLayout	شێوەڕێکخستنی\nچاپ
+	Printer default	بنەڕەتی چاپکەر
+	Printer discovery failed.	دۆزینەوەی چاپکەر شکستیهێنا.
+	Privacy for this document	تایبەتمەندی بۆ ئەم بەڵگەنامەیە
+	Privacy Options	هەڵبژاردەکانی تایبەتمەندی
+	Privacy Settings	ڕێکخستنەکانی تایبەتمەندی
+	Process	پرۆسە
+	Product	بەرهەم
+	Product of A	بەرهەمی A
+	Product with Limits	بەرهەم لەگەڵ سنوورەکان
+	Product with Lower Limit	بەرهەم لەگەڵ سنووری خوارەوە
+	Product with Subscript-Superscript Limits	بەرهەم لەگەڵ سنوورەکانی ژێرنووس-سەرنووس
+	Products and Coproducts	بەرهەمەکان و هاوبەرهەمەکان
+	Professional	پیشەیی
+	Promote	بەرزکردنەوە
+	Promote to Heading 1	بەرز بکەرەوە بۆ سەردێڕ 1
+	Proofing	پشکنین
+	Proofing Issues	کێشەکانی پشکنین
+	Proofing language	زمانی پشکنین
+	Property names are 1–{max} characters.	ناوی تایبەتمەندی 1–{max} پیتە.
+	Property values are at most {max} bytes.	نرخی تایبەتمەندی زۆرترین {max} بایتە.
+	Protect Document	بەڵگەنامە بپارێزە
+	pt	خاڵ
+	Publisher	بڵاوکەرەوە
+	Puerto Rico	پۆرتۆریکۆ
+	Put the caret in a content control first.	سەرەتا نیشانەکەر لە کۆنترۆڵی ناوەڕۆکێکدا دابنێ.
+	Put the default commands back on the Quick Access Toolbar?	فەرمانە بنەڕەتییەکان بگەڕێنرێنەوە بۆ شریتی ئامرازی دەستگەیشتنی خێرا؟
+	Qatar	قەتەر
+	Quadratic Root	ڕەگی دووجا
+	Quick Access Toolbar	شریتی ئامرازی دەستگەیشتنی خێرا
+	Quick Parts	بەشە خێراکان
+	Quick Tables	خشتە خێراکان
+	Quote	وتە
+	Radical	ڕادیکاڵ
+	Radical with Degree	ڕادیکاڵ لەگەڵ پلە
+	Radicals	ڕادیکاڵەکان
+	Raised/lowered	بەرزکراوە/نزمکراوە
+	Read Aloud	بە دەنگ بخوێنەرەوە
+	Read Aloud Status	دۆخی خوێندنەوەی دەنگی
+	Read Mode	دۆخی خوێندنەوە
+	Read\nAloud	خوێندنەوەی\nدەنگی
+	Read\nMode	دۆخی\nخوێندنەوە
+	Reading	خوێندنەوە
+	Reading Column Width	پانی ستوونی خوێندنەوە
+	Reading Highlight	ڕووناککردنەوەی خوێندنەوە
+	Reading Line Spacing	بۆشایی دێڕی خوێندنەوە
+	Reading Mode	دۆخی خوێندنەوە
+	Reading Page Color	ڕەنگی پەڕەی خوێندنەوە
+	Reading Speed	خێرایی خوێندنەوە
+	Reading Text Size	قەبارەی دەقی خوێندنەوە
+	Reads the clipboard's rich text and keeps its formatting.	دەقی دەوڵەمەندی تەختەی هەڵگرتن دەخوێنێتەوە و فۆرماتکردنەکەی دەپارێزێت.
+	Reads the clipboard's web content and keeps its formatting.	ناوەڕۆکی وێبی تەختەی هەڵگرتن دەخوێنێتەوە و فۆرماتکردنەکەی دەپارێزێت.
+	Recent documents to show:	بەڵگەنامە دواییەکان بۆ پیشاندان:
+	Recently Used Fonts	خەتەکانی دوایی بەکارهێنراو
+	Recently used symbols:	هێماکانی دوایی بەکارهێنراو:
+	Recipient List	پێڕستی وەرگرەکان
+	Recipient lists	پێڕستەکانی وەرگرەکان
+	Recipients: {count}	وەرگرەکان: {count}
+	Recolor a one-color picture, such as an icon	وێنەیەکی یەکڕەنگ ڕەنگ بکەرەوە، وەک ئایکۆنێک
+	Recolor Selected Ink	نووسینی دەستی هەڵبژێردراو ڕەنگ بکەرەوە
+	Record Macro	ماکرۆ تۆمار بکە
+	Record…	تۆمارکردن…
+	Recover documents	بەڵگەنامەکان بگەڕێنەوە
+	Recover Unsaved Documents	بەڵگەنامە پاشەکەوتنەکراوەکان بگەڕێنەوە
+	Recovery copy	کۆپیی گەڕاندنەوە
+	Recovery is disabled while this document has a password.	گەڕاندنەوە ناچالاکە تا ئەم بەڵگەنامەیە وشەی نهێنی هەیە.
+	Red:	سوور:
+	Reduce Hanging Indent	چوونەژوورەوەی هەڵواسراو کەم بکەرەوە
+	Reference type:	جۆری ئاماژە:
+	References	ئاماژەکان
+	Reflection	ڕەنگدانەوە
+	Refresh printers	چاپکەرەکان نوێ بکەرەوە
+	Region:	ناوچە:
+	Registered	تۆمارکراو
+	Registered Sign	هێمای تۆمارکراو
+	Regular expressions	ئێکسپرێشنە ئاساییەکان
+	Reject	ڕەتکردنەوە
+	Reject All Changes	هەموو گۆڕانکارییەکان ڕەت بکەرەوە
+	Reject All Changes and Stop Tracking	هەموو گۆڕانکارییەکان ڕەت بکەرەوە و شوێنکەوتن بوەستێنە
+	Reject and Move to Next	ڕەت بکەرەوە و بڕۆ بۆ داهاتوو
+	Reject Change	گۆڕانکاری ڕەت بکەرەوە
+	Relationship	پەیوەندی
+	Relative to original picture size	بەپێی قەبارەی ڕەسەنی وێنە
+	Remove Added Font	خەتی زیادکراو لابدە
+	Remove condition	مەرج لابدە
+	Remove Content Control	کۆنترۆڵی ناوەڕۆک لابدە
+	Remove every custom shortcut and restore the built-in keys?	هەموو کورتەڕێیەکی تایبەت لابدە و کلیلە دامەزراوەکان بگەڕێنەوە؟
+	Remove every custom tab and group and show all tabs again?	هەموو تاب و کۆمەڵەیەکی تایبەت لابدە و هەموو تابەکان پیشان بدە؟
+	Remove field	خانە لابدە
+	Remove Footer	ژێرپەڕە لابدە
+	Remove from Quick Access Toolbar	لە شریتی ئامرازی دەستگەیشتنی خێرا لابدە
+	Remove gradient stop	وێستگەی ڕەنگگۆڕین لابدە
+	Remove Header	سەرپەڕە لابدە
+	Remove Hyperlink	هایپەرلینک لابدە
+	Remove Language Pack	پاکێجی زمان لابدە
+	Remove my name from comments, changes and file properties when saving	ناوی خۆم لە لێدوان، گۆڕانکاری و تایبەتمەندییەکانی فایل لابدە لە کاتی پاشەکەوتکردن
+	Remove Password	وشەی نهێنی لابدە
+	Remove Pen	قەڵەم لابدە
+	Remove recipient	وەرگر لابدە
+	Remove row	ڕیز لابدە
+	Remove series	زنجیرە لابدە
+	Remove Space After Paragraph	بۆشایی دوای پاراگراف لابدە
+	Remove Table of Contents	پێڕستی ناوەڕۆک لابدە
+	Remove the control once edited	کۆنترۆڵەکە لابدە کاتێک دەستکاریکرا
+	Remove the space before the punctuation	بۆشایی پێش خاڵبەندی لابدە
+	Remove Watermark	نیشانەی ئاوی لابدە
+	Rename Document	ناوی بەڵگەنامە بگۆڕە
+	Reopen	دووبارە بکەرەوە
+	Repeat as header row on each page	لە هەر پەڕەیەکدا وەک ڕیزی سەرپەڕە دووبارە بکەرەوە
+	Repeat Header Rows	ڕیزەکانی سەرپەڕە دووبارە بکەرەوە
+	Repeating Section Content Control	کۆنترۆڵی ناوەڕۆکی بەشی دووبارەبوو
+	Replace All	هەموو بگۆڕە
+	Replace as you type	لە کاتی نووسین بگۆڕە
+	Replace Document Text	دەقی بەڵگەنامە بگۆڕە
+	Replace text as you type	دەق لە کاتی نووسین بگۆڕە
+	Replace with:	بگۆڕە بە:
+	Replay	دووبارەکردنەوە
+	Research	توێژینەوە
+	Researcher	توێژەر
+	Researcher needs an online service; WordCraft keeps your documents offline.	توێژەر پێویستی بە خزمەتگوزارییەکی سەرهێڵ هەیە؛ WordCraft بەڵگەنامەکانت لە دەرەوەی هێڵ دەهێڵێتەوە.
+	Reset All…	هەموو ڕێکبخرێتەوە…
+	Reset Character Formatting	فۆرماتکردنی پیت ڕێکبخرێتەوە
+	Reset Crop	بڕین ڕێکبخرێتەوە
+	Reset Default Formatting	فۆرماتکردنی بنەڕەتی ڕێکبخرێتەوە
+	Reset Graphic	گرافیک ڕێکبخرێتەوە
+	Reset Paragraph Formatting	فۆرماتکردنی پاراگراف ڕێکبخرێتەوە
+	Reset Picture	وێنە ڕێکبخرێتەوە
+	Reset tips	ئامۆژگارییەکان ڕێکبخرێتەوە
+	Reset to Normal	بگەڕێنەوە بۆ ئاسایی
+	Reset\nGraphic	ڕێکخستنەوەی\nگرافیک
+	Resize Pane	قەبارەی پانێڵ بگۆڕە
+	Resize Table by Dragging	قەبارەی خشتە بە ڕاکێشان بگۆڕە
+	Resolve	چارەسەرکردن
+	Resolved	چارەسەرکرا
+	Restart at 1	لە 1 دەست پێبکەرەوە
+	Restart Each Page	لە هەر پەڕەیەک دەست پێبکەرەوە
+	Restart Each Section	لە هەر بەشێک دەست پێبکەرەوە
+	Restart list after:	پێڕست دوای ئەمە دەست پێبکەرەوە:
+	Restore opens an unsaved copy. Your original file stays unchanged.	گەڕاندنەوە کۆپییەکی پاشەکەوتنەکراو دەکاتەوە. فایلە ڕەسەنەکەت بەبێ گۆڕان دەمێنێتەوە.
+	Restrict Editing	دەستکاریکردن سنووردار بکە
+	Restrict\nEditing	سنووردارکردنی\nدەستکاریکردن
+	Results	ئەنجامەکان
+	Return address labels	نیشانەکانی ناونیشانی گەڕانەوە
+	Return address:	ناونیشانی گەڕانەوە:
+	Reviewing	پێداچوونەوە
+	Reviewing Pane	پانێڵی پێداچوونەوە
+	Reviewing — edits become suggestions	پێداچوونەوە — دەستکارییەکان دەبنە پێشنیار
+	Revised document	بەڵگەنامەی هەموارکراو
+	Rewind	گەڕاندنەوە
+	Rewinding. Tell me when to stop.	دەگەڕێمەوە. پێم بڵێ کەی بوەستم.
+	Ribbon	شریتی ئامرازەکان
+	Ribbon and Quick Access Toolbar:	شریتی ئامرازەکان و شریتی ئامرازی دەستگەیشتنی خێرا:
+	Ribbon tabs	تابەکانی شریتی ئامرازەکان
+	Rich Text Content Control	کۆنترۆڵی ناوەڕۆکی دەقی دەوڵەمەند
+	Rich Text Format (*.rtf)	فۆرماتی دەقی دەوڵەمەند (*.rtf)
+	Rich Text Format (RTF)	فۆرماتی دەقی دەوڵەمەند (RTF)
+	Right (vertical)	ڕاست (ستوونی)
+	Right Arrow with Text Above	تیری ڕاست لەگەڵ دەق لە سەرەوە
+	Right Arrow with Text Below	تیری ڕاست لەگەڵ دەق لە خوارەوە
+	Right Border	چوارچێوەی ڕاست
+	Right border	چوارچێوەی ڕاست
+	Right Bracket Twice	کەوانەی ڕاست دوو جار
+	Right indent	چوونەژوورەوەی ڕاست
+	Right Margin	پەراوێزی ڕاست
+	Right Only	تەنها ڕاست
+	Right-to-left	ڕاست بۆ چەپ
+	Right-to-Left Section	بەشی ڕاست بۆ چەپ
+	Right-to-Left Table	خشتەی ڕاست بۆ چەپ
+	Right-to-Left Text Direction	ئاراستەی دەقی ڕاست بۆ چەپ
+	Rightwards Arrow Above	تیری ڕاستەوە لە سەرەوە
+	Rightwards Harpoon Above	هارپوونی ڕاستەوە لە سەرەوە
+	Romanian	ڕۆمانی
+	Roots of ax²+bx+c	ڕەگەکانی ax²+bx+c
+	Rotate all text 270°	هەموو دەق 270° بسووڕێنە
+	Rotate all text 90°	هەموو دەق 90° بسووڕێنە
+	Rotate Left 90°	90° بۆ چەپ بسووڕێنە
+	Rotate Right 90°	90° بۆ ڕاست بسووڕێنە
+	Rotate with shape	لەگەڵ شێوە بسووڕێنە
+	Rounded	خڕکراوە
+	Row	ڕیز
+	Row:	ڕیز:
+	Rows & Columns	ڕیزەکان و ستوونەکان
+	Ruby text:	دەقی روبی:
+	Rules	یاساکان
+	Run	ڕاکردن
+	Run-in	تێکەڵکراو
+	Russia	ڕووسیا
+	Résumé	سیڤی
+	SAMPLE	نموونە
+	Sat:	شەممە:
+	Saturation and recolor	تێری و ڕەنگکردنەوە
+	Save a copy in another format. Printing goes through a PDF you can print from any viewer.	کۆپییەک بە فۆرماتێکی تر پاشەکەوت بکە. چاپکردن بە PDF دەڕوات کە دەتوانیت لە هەر بینەرێکەوە چاپی بکەیت.
+	Save as Word Template…	وەک قاڵبی Word پاشەکەوت بکە…
+	Save documents	بەڵگەنامەکان پاشەکەوت بکە
+	Save the document to turn on AutoSave	بەڵگەنامەکە پاشەکەوت بکە بۆ هەڵکردنی پاشەکەوتکردنی خۆکار
+	Save the document to turn on AutoSave (a file you have only opened isn't rewritten until you save it)	بەڵگەنامەکە پاشەکەوت بکە بۆ هەڵکردنی پاشەکەوتکردنی خۆکار (ئەو فایلەی تەنها کردووتەتەوە نانووسرێتەوە تا پاشەکەوتی نەکەیت)
+	Save these pages as PDF…	ئەم پەڕانە وەک PDF پاشەکەوت بکە…
+	Saved. Saved again. Still saved. It's very saved.	پاشەکەوت کرا. دووبارە پاشەکەوت کرا. هێشتا پاشەکەوت کراوە. زۆر پاشەکەوت کراوە.
+	Saves a .dotx template in your templates folder. It shows up in File › New under Personal.	قاڵبێکی .dotx لە بوخچەی قاڵبەکانتدا پاشەکەوت دەکات. لە فایل › نوێ لەژێر کەسی دەردەکەوێت.
+	Saving {name} was cancelled, so it is still open and nothing was lost.	پاشەکەوتکردنی {name} هەڵوەشێنرایەوە، بۆیە هێشتا کراوەیە و هیچ ون نەبوو.
+	Sayings	وتەکان
+	Sayings:	وتەکان:
+	Scale Drawing	کێشانی پێوەر
+	Scale Font Sizes	قەبارەی خەتەکان بپێوە
+	Scale to paper size	بپێوە بۆ قەبارەی کاغەز
+	Scatter	پەرشوبڵاو
+	Script	سکریپت
+	Scroll ribbon left	شریتی ئامرازەکان بۆ چەپ بگەڕێ
+	Scroll ribbon right	شریتی ئامرازەکان بۆ ڕاست بگەڕێ
+	Search Commands	فەرمانەکان بگەڕێ
+	Search commands and help	فەرمان و یارمەتی بگەڕێ
+	Search document	بەڵگەنامە بگەڕێ
+	Search for templates	قاڵبەکان بگەڕێ
+	Search icons	ئایکۆنەکان بگەڕێ
+	Search Options	هەڵبژاردەکانی گەڕان
+	Search:	گەڕان:
+	Secant Function	فانکشنی سێکانت
+	Section 1.01	بەشی 1.01
+	Section Break	شکانی بەش
+	Section Breaks	شکانی بەشەکان
+	Section Character	پیتی بەش
+	Section direction:	ئاراستەی بەش:
+	Section Mark	نیشانەی بەش
+	Section Properties	تایبەتمەندییەکانی بەش
+	Sections	بەشەکان
+	See	بینین
+	select a chart first	سەرەتا هێلکارییەک هەڵبژێرە
+	select a connector first	سەرەتا بەستەرەوەیەک هەڵبژێرە
+	select a drawing canvas first	سەرەتا کانواسی وێنەکێشانێک هەڵبژێرە
+	select a floating picture or shape first	سەرەتا وێنەیەکی سەلکە یان شێوەیەک هەڵبژێرە
+	select a group first	سەرەتا کۆمەڵەیەک هەڵبژێرە
+	select a picture first	سەرەتا وێنەیەک هەڵبژێرە
+	Select a picture first.	سەرەتا وێنەیەک هەڵبژێرە.
+	select a picture or shape first	سەرەتا وێنەیەک یان شێوەیەک هەڵبژێرە
+	Select a picture, shape, chart or table to describe it.	وێنەیەک، شێوەیەک، هێلکارییەک یان خشتەیەک هەڵبژێرە بۆ باسکردنی.
+	Select a place in this document:	شوێنێک لەم بەڵگەنامەیەدا هەڵبژێرە:
+	Select a printer	چاپکەرێک هەڵبژێرە
+	Select a property to change.	تایبەتمەندییەک هەڵبژێرە بۆ گۆڕین.
+	select a shape first	سەرەتا شێوەیەک هەڵبژێرە
+	Select a shape, text box or drawing canvas to format its fill.	شێوەیەک، سندوقی دەقێک یان کانواسی وێنەکێشانێک هەڵبژێرە بۆ فۆرماتکردنی پڕکردنەوەکەی.
+	select a SmartArt graphic first	سەرەتا گرافیکێکی SmartArt هەڵبژێرە
+	select a text box first	سەرەتا سندوقی دەقێک هەڵبژێرە
+	select a text box linked to another first	سەرەتا سندوقی دەقێکی بەستەرکراو بە یەکێکی تر هەڵبژێرە
+	Select Cell	خانە هەڵبژێرە
+	Select Column	ستوون هەڵبژێرە
+	Select Heading and Content	سەردێڕ و ناوەڕۆک هەڵبژێرە
+	Select Line	دێڕ هەڵبژێرە
+	Select Paragraph	پاراگراف هەڵبژێرە
+	Select Picture…	وێنە هەڵبژێرە…
+	Select Range	مەودا هەڵبژێرە
+	Select Recipients	وەرگرەکان هەڵبژێرە
+	select recipients first	سەرەتا وەرگرەکان هەڵبژێرە
+	Select recipients first to choose from their fields.	سەرەتا وەرگرەکان هەڵبژێرە بۆ هەڵبژاردن لە خانەکانیان.
+	Select recipients first to match their fields.	سەرەتا وەرگرەکان هەڵبژێرە بۆ گونجاندنی خانەکانیان.
+	Select Row	ڕیز هەڵبژێرە
+	Select Sentence	ڕستە هەڵبژێرە
+	Select Table	خشتە هەڵبژێرە
+	Select Table Cells by Clicking	خانەکانی خشتە بە کلیککردن هەڵبژێرە
+	Select Text	دەق هەڵبژێرە
+	Select Text with Similar Formatting	دەق لەگەڵ فۆرماتکردنی هاوشێوە هەڵبژێرە
+	Select text, then tick who can still edit it.	دەق هەڵبژێرە، پاشان نیشان بکە کێ هێشتا دەتوانێت دەستکاری بکات.
+	select two or more cells to merge	دوو خانە یان زیاتر هەڵبژێرە بۆ یەکخستن
+	select two or more pictures or shapes first (Shift+click)	سەرەتا دوو وێنە یان زیاتر هەڵبژێرە (Shift+کلیک)
+	Select Word	وشە هەڵبژێرە
+	Select\nRecipients	هەڵبژاردنی\nوەرگرەکان
+	Selected Fields	خانە هەڵبژێردراوەکان
+	Selected text	دەقی هەڵبژێردراو
+	Selection Pane	پانێڵی هەڵبژاردە
+	Semitransparent	نیوە شەفاف
+	Send the document straight to the system print dialog, or save a copy in another format below.	بەڵگەنامەکە ڕاستەوخۆ بنێرە بۆ پەنجەرەی چاپی سیستەم، یان کۆپییەک لە خوارەوە بە فۆرماتێکی تر پاشەکەوت بکە.
+	Sentence	ڕستە
+	Sentence case.	حاڵەتی ڕستە.
+	Separate text at	دەق جیابکەرەوە لە
+	Separate text with	دەق بەمە جیابکەرەوە
+	Separator:	جیاکەرەوە:
+	Sepia	سپیا
+	Sequence name:	ناوی زنجیرە:
+	Serbian (Cyrillic)	سربی (سیریلیک)
+	Serbian (Latin)	سربی (لاتینی)
+	Series name	ناوی زنجیرە
+	Series {n}	زنجیرەی {n}
+	Set As Default	وەک بنەڕەت دابنێ
+	Set as default	وەک بنەڕەت دابنێ
+	Set As Default (Font)	وەک بنەڕەت دابنێ (خەت)
+	Set As Default (Page Setup)	وەک بنەڕەت دابنێ (ڕێکخستنی پەڕە)
+	Set As Default (Paragraph)	وەک بنەڕەت دابنێ (پاراگراف)
+	Set as Default Language	وەک زمانی بنەڕەت دابنێ
+	Set Caret	نیشانەکەر دابنێ
+	Set Character Formatting	فۆرماتکردنی پیت دابنێ
+	Set Date	بەروار دابنێ
+	Set Equation	هاوکێشە دابنێ
+	Set left- and first-indent with tabs and backspaces	چوونەژوورەوەی چەپ و یەکەم بە تاب و پاشەوە بەکەرەوە دابنێ
+	Set Numbering Value	نرخی ژمارەکردن دابنێ
+	Set Paragraph Formatting	فۆرماتکردنی پاراگراف دابنێ
+	Set Proofing Language…	زمانی پشکنین دابنێ…
+	Setting:	ڕێکخستن:
+	Shading	سێبەرکردن
+	Shadow, glow and soft edges	سێبەر، درەوشانەوە و لایە نەرمەکان
+	Shape Fill	پڕکردنەوەی شێوە
+	Shape Format	ڕێکخستنی شێوە
+	Shape Outline	هێڵکاری شێوە
+	Shape Styles	شێوازەکانی شێوە
+	Shift+Enter starts a new line without starting a new paragraph.	Shift+Enter دێڕێکی نوێ دەست پێدەکات بەبێ دەستپێکردنی پاراگرافێکی نوێ.
+	Shift+Tab	Shift+Tab
+	Shipping labels	نیشانەکانی ناردن
+	Shortcut key:	کلیلی کورتەڕێ:
+	Show alignment guides when moving pictures and shapes	ڕێنماییەکانی هاوتەریبی پیشان بدە لە کاتی جووڵاندنی وێنە و شێوەکان
+	Show all formatting marks	هەموو نیشانەکانی فۆرماتکردن پیشان بدە
+	Show All Levels	هەموو ئاستەکان پیشان بدە
+	Show all revisions inline	هەموو هەموارەکان بە ناوهێڵ پیشان بدە
+	Show changes at:	گۆڕانکارییەکان پیشان بدە لە:
+	Show changes in:	گۆڕانکارییەکان پیشان بدە لە:
+	Show Comments	لێدوانەکان پیشان بدە
+	Show documents with their colours inverted, like View › Switch Modes. Saving, printing and PDFs are unchanged.	بەڵگەنامەکان بە ڕەنگی پێچەوانە پیشان بدە، وەک بینین › گۆڕینی دۆخەکان. پاشەکەوتکردن، چاپکردن و PDF ناگۆڕێن.
+	Show every bibliography field	هەموو خانەکانی کتێبنامە پیشان بدە
+	Show First Line Only	تەنها یەکەم دێڕ پیشان بدە
+	Show in the Styles gallery	لە گەلەری شێوازەکاندا پیشان بدە
+	Show its list number	ژمارەی پێڕستەکەی پیشان بدە
+	Show its number relative to this field	ژمارەکەی بەپێی ئەم خانەیە پیشان بدە
+	Show its number with all higher levels	ژمارەکەی لەگەڵ هەموو ئاستە بەرزەکان پیشان بدە
+	Show KeyTips (Alt or F10)	کلیلی ئامۆژگاری پیشان بدە (Alt یان F10)
+	Show Level	ئاست پیشان بدە
+	Show Level 1	ئاستی 1 پیشان بدە
+	Show Level 2	ئاستی 2 پیشان بدە
+	Show Level 3	ئاستی 3 پیشان بدە
+	Show Level 4	ئاستی 4 پیشان بدە
+	Show Level 5	ئاستی 5 پیشان بدە
+	Show Level 6	ئاستی 6 پیشان بدە
+	Show Level 7	ئاستی 7 پیشان بدە
+	Show Level 8	ئاستی 8 پیشان بدە
+	Show Level 9	ئاستی 9 پیشان بدە
+	Show Markup	نیشانەکان پیشان بدە
+	Show Notes	تێبینییەکان پیشان بدە
+	Show only comments and formatting in balloons	تەنها لێدوان و فۆرماتکردن لە باڵۆنەکاندا پیشان بدە
+	Show only records that will be merged	تەنها ئەو تۆمارانە پیشان بدە کە یەکدەخرێن
+	Show or Hide Style	شێواز پیشان بدە یان بشارەوە
+	Show Quick Access Toolbar	شریتی ئامرازی دەستگەیشتنی خێرا پیشان بدە
+	Show revisions in balloons	هەموارەکان لە باڵۆنەکاندا پیشان بدە
+	Show Text Formatting	فۆرماتکردنی دەق پیشان بدە
+	Show the Assistant	یاریدەدەر پیشان بدە
+	Show the community button in the title bar	دوگمەی کۆمەڵگە لە شریتی ناونیشان پیشان بدە
+	Show the equation in the line of text	هاوکێشەکە لە دێڕی دەق پیشان بدە
+	Show the equation on a line of its own	هاوکێشەکە لە دێڕێکی سەربەخۆ پیشان بدە
+	Show the mini toolbar when text is selected	شریتی ئامرازی بچووک پیشان بدە کاتێک دەق هەڵدەبژێردرێت
+	Show the ribbon	شریتی ئامرازەکان پیشان بدە
+	Show the Start screen when WordCraft starts	شاشەی دەستپێک پیشان بدە کاتێک WordCraft دەست پێدەکات
+	Show the tips you asked not to see again.	ئەو ئامۆژگارییانە پیشان بدە کە داوات کرد ئیتر نەیبینی.
+	Show/Hide ¶	پیشاندان/شاردنەوەی ¶
+	Show/Hide ¶ (Ctrl+Shift+8) shows the spaces, tabs and breaks hiding in your text.	پیشاندان/شاردنەوەی ¶ (Ctrl+Shift+8) بۆشایی، تاب و شکانە شاراوەکانی ناو دەقەکەت پیشان دەدات.
+	Show/Hide ¶ ({key}) shows the spaces, tabs and breaks hiding in your text.	پیشاندان/شاردنەوەی ¶ ({key}) بۆشایی، تاب و شکانە شاراوەکانی ناو دەقەکەت پیشان دەدات.
+	Show\nComments	پیشاندانی\nلێدوانەکان
+	Showing the first {count} items.	یەکەم {count} بەند پیشان دەدرێن.
+	Shows a tree: each item below the item it belongs to.	درەختێک پیشان دەدات: هەر بەندێک لەژێر ئەو بەندەی کە پێی تعلق دەگرێت.
+	Shows items around a central idea: the first item is the centre.	بەندەکان لە دەوری بیرۆکەیەکی ناوەندی پیشان دەدات: یەکەم بەند ناوەڕاستە.
+	Shows items of equal weight as blocks in rows.	بەندەکانی هەمان کێش بە بلۆک لە ڕیزەکاندا پیشان دەدات.
+	Shows overlapping ideas as overlapping circles.	بیرۆکەکانی سەروەری بە بازنەی سەروەر پیشان دەدات.
+	Shows parts of a whole as quadrants.	بەشەکانی تەواوێک بە چارەک پیشان دەدات.
+	Shows parts that build on each other, largest at the bottom.	بەشەکانی یەکتر بنیاتنەر پیشان دەدات، گەورەترین لە خوارەوە.
+	Shows steps in order, left to right, with arrows between them.	هەنگاوەکان بە ڕیز لە چەپ بۆ ڕاست لەگەڵ تیر لە نێوانیان پیشان دەدات.
+	Shows steps that repeat, around a circle.	هەنگاوە دووبارەبووەکان لە دەوری بازنەیەک پیشان دەدات.
+	Shrink Font 1 Point	خەت 1 خاڵ بچووک بکەرەوە
+	Shrink text	دەق بچووک بکەرەوە
+	Side to Side	لاوە بۆ لاوە
+	Side\nto Side	لاوە\nبۆ لاوە
+	Sides of a right triangle	لایەکانی سێگۆشەی وەستاو
+	Signature Line	دێڕی واژوو
+	Simple Frame	چوارچێوەی سادە
+	Sine and cosine series of f(x)	زنجیرەی ساینوس و کۆساینوسی f(x)
+	Sine Function	فانکشنی ساینوس
+	Sine theta	ساینوسی تێتا
+	Singapore	سینگاپور
+	Single	تاک
+	Single Brackets	کەوانەی تاک
+	Single Closing Quote	نیشانەی وتەی کۆتایی تاک
+	Single label	نیشانەی تاک
+	Single Left Angle	گۆشەی چەپی تاک
+	Single Left Bar	هێڵی چەپی تاک
+	Single Left Brace	کەوانەی چەماوەی چەپی تاک
+	Single Left Bracket	کەوانەی چەپی تاک
+	Single Left Parenthesis	کەوانەی بازنەیی چەپی تاک
+	Single Opening Quote	نیشانەی وتەی دەستپێکی تاک
+	Single Right Brace	کەوانەی چەماوەی ڕاستی تاک
+	Single Right Bracket	کەوانەی ڕاستی تاک
+	Single Right Parenthesis	کەوانەی بازنەیی ڕاستی تاک
+	Single Spacing	بۆشایی تاک
+	SIST02	SIST02
+	Site name	ناوی ماڵپەڕ
+	Size (pt):	قەبارە (خاڵ):
+	Size and Crop…	قەبارە و بڕین…
+	Sketchbook	سکێچبوک
+	Skewed Fraction	کەسری لار
+	Skip citations & bibliography	ئاماژە و کتێبنامە پەڕیبکە
+	Skip Citations and Bibliography	ئاماژە و کتێبنامە پەڕیبکە
+	Skip Record If	تۆمار پەڕیبکە ئەگەر
+	Skip Record If…	تۆمار پەڕیبکە ئەگەر…
+	Slant Down	لاری خوارەوە
+	Slant Up	لاری سەرەوە
+	Slovak	سلۆڤاکی
+	Slovenian	سلۆڤینی
+	Small caps	پیتی گەورەی بچووک
+	Small change	گۆڕانکاری بچووک
+	Smart quotes instead of straight quotes	نیشانەی وتەی زیرەک لە جیاتی نیشانەی وتەی ڕاست
+	SmartArt	SmartArt
+	SmartArt Design	دیزاینی SmartArt
+	SmartArt Styles	شێوازەکانی SmartArt
+	Smooth scrolling and zooming, and menus and buttons that fade in. Off shows every change at once.	گەڕانی نەرم و گەورەکردن، و پێڕست و دوگمەکان کە کاڵ دەبنەوە. کوژاو هەموو گۆڕانکارییەک یەکسەر پیشان دەدات.
+	Soft Edge	لای نەرم
+	Soft Edges	لایە نەرمەکان
+	Soft Glow	درەوشانەوەی نەرم
+	Solid Accent	جەختی ڕەق
+	Solid fill	پڕکردنەوەی ڕەق
+	Sometimes	هەندێ جار
+	Sort by:	ڕیزکردن بەپێی:
+	Sort order:	ڕیزی ڕیزکردن:
+	Sort Recipients	وەرگرەکان ڕیز بکە
+	Source code: github.com/storytold/wordcraft	کۆدی سەرچاوە: github.com/storytold/wordcraft
+	Source Manager	بەڕێوەبەری سەرچاوە
+	Source type:	جۆری سەرچاوە:
+	Sources in this document:	سەرچاوەکان لەم بەڵگەنامەیەدا:
+	South	باشوور
+	South Africa	ئەفریقای باشوور
+	Space	بۆشایی
+	Space after	بۆشایی دوای
+	Space after: {pt} pt	بۆشایی دوای: {pt} خاڵ
+	Space before	بۆشایی پێش
+	Space before/after:	بۆشایی پێش/دوای:
+	Space before: {pt} pt	بۆشایی پێش: {pt} خاڵ
+	Spacing (pt):	بۆشایی (خاڵ):
+	Spain	ئیسپانیا
+	Spanish (Latin America)	ئیسپانی (ئەمریکای لاتین)
+	Spanish (Mexico)	ئیسپانی (مەکسیک)
+	Spanish (Spain)	ئیسپانی (ئیسپانیا)
+	Spanish (Uruguay)	ئیسپانی (ئوروگوای)
+	Sparse Matrices	ماتریکسە تەنکەکان
+	Special Characters	پیتە تایبەتەکان
+	Specify height:	بەرزی دیاری بکە:
+	Speech	دەنگ
+	Spelling & Grammar	ڕێنووس و ڕێزمان
+	Spelling &\nGrammar	ڕێنووس و\nڕێزمان
+	Spelling and grammar are checked in English (United States).	ڕێنووس و ڕێزمان بە ئینگلیزی (ویلایەتە یەکگرتووەکان) دەپشکنرێن.
+	Spelling and grammar are checked in {language}.	ڕێنووس و ڕێزمان بە {language} دەپشکنرێن.
+	Spelling Suggestions	پێشنیارەکانی ڕێنووس
+	Spike	سپایک
+	Split Cells	خانەکان دابەش بکە
+	Split Table	خشتە دابەش بکە
+	Spreadsheet Table	خشتەی سپرێدشییت
+	Square Root	ڕەگی چوارگۆشە
+	Square Root with Degree	ڕەگی چوارگۆشە لەگەڵ پلە
+	Square Union	یەکگرتنی چوارگۆشە
+	Stack Object	شتی کۆکراوە
+	Stack Object (Three)	شتی کۆکراوە (سێ)
+	Stacked Bar	هێڵکاری سەر یەک
+	Stacked Column	ستوونی سەر یەک
+	Stacked Fraction	کەسری سەر یەک
+	Stacked, no bar	سەر یەک، بێ هێڵ
+	Standard Colors	ڕەنگە ستانداردەکان
+	Start Enforcing Protection	دەست پێبکە بە جێبەجێکردنی پاراستن
+	Start Mail Merge	یەکخستنی نامە دەست پێبکە
+	Start Mail\nMerge	دەستپێکردنی\nیەکخستنی نامە
+	Start-up	دەستپێک
+	State	دۆخ
+	Statement   5.50" × 8.50"	Statement   5.50" × 8.50"
+	Still there? I can hear you thinking.	هێشتا لەوێیت؟ دەنگی بیرکردنەوەت دەبیسم.
+	Stop Protection	پاراستن بوەستێنە
+	Stop Reading	خوێندنەوە بوەستێنە
+	Stop Recording	تۆمارکردن بوەستێنە
+	Stopped	وەستا
+	Straight Arrow Connector	بەستەرەوەی تیری ڕاست
+	Straight Connector	بەستەرەوەی ڕاست
+	Stroke {n} of {total}	هێڵی {n} لە {total}
+	Strong	بەهێز
+	Structure Actions	کردارەکانی پێکهاتە
+	Structures	پێکهاتەکان
+	Studio cover	بەرگی ستۆدیۆ
+	Studio handbook (sample)	کتێبچەی ستۆدیۆ (نموونە)
+	Style based on:	شێواز لەسەر بنەمای:
+	Style Inspector	پشکنەری شێواز
+	Style name:	ناوی شێواز:
+	Style Set	کۆمەڵەی شێواز
+	Style: APA	شێواز: APA
+	Style: {style}	شێواز: {style}
+	Styles Pane	پانێڵی شێوازەکان
+	Styles Pane Position	شوێنی پانێڵی شێوازەکان
+	Styles:	شێوازەکان:
+	Subentry:	ژێربەند:
+	Submit print job	کارەکەی چاپ بنێرە
+	Submitting print job…	ناردنی کارەکەی چاپ…
+	Subscript-Superscript	ژێرنووس-سەرنووس
+	Subscripts and Superscripts	ژێرنووس و سەرنووسەکان
+	Subset:	ژێرکۆمەڵە:
+	Subtle Emphasis	جەختی ناسک
+	Subtle Reference	ئاماژەی ناسک
+	Suggested	پێشنیارکراو
+	Suggestions	پێشنیارەکان
+	Sum	کۆ
+	Sum of cosines	کۆی کۆساینوسەکان
+	Sum or difference of sines	کۆ یان جیاوازی ساینوسەکان
+	Summation	کۆکردنەوە
+	Summation from 0 to n	کۆکردنەوە لە 0 بۆ n
+	Summation over binomials	کۆکردنەوە بەسەر دووڕگییەکان
+	Summation with Limits	کۆکردنەوە لەگەڵ سنوورەکان
+	Summation with Lower Limit	کۆکردنەوە لەگەڵ سنووری خوارەوە
+	Summation with Subscript Limit	کۆکردنەوە لەگەڵ سنووری ژێرنووس
+	Summation with Subscript-Superscript Limits	کۆکردنەوە لەگەڵ سنوورەکانی ژێرنووس-سەرنووس
+	Summations	کۆکردنەوەکان
+	Suppress line numbers	ژمارەکانی دێڕ بشارەوە
+	Surface Integral	ئینتێگراڵی ڕوو
+	Surface Integral with Limits	ئینتێگراڵی ڕوو لەگەڵ سنوورەکان
+	Surface Integral with Stacked Limits	ئینتێگراڵی ڕوو لەگەڵ سنوورەکانی کۆکراوە
+	Swahili	سواحیلی
+	Swap footnotes and endnotes	پێنووس و کۆتایینووسەکان بگۆڕە
+	Swedish	سویدی
+	Switch Modes	دۆخەکان بگۆڕە
+	Switch Windows	پەنجەرەکان بگۆڕە
+	Switch\nModes	گۆڕینی\nدۆخەکان
+	Switch\nWindows	گۆڕینی\nپەنجەرەکان
+	Switzerland	سویس
+	Synonyms	هاوواتاکان
+	Syria	سووریا
+numerals	System	سیستەم
+	System dictionary	فەرهەنگی سیستەم
+	Tab Character	پیتی تاب
+	Tab character	پیتی تاب
+	Tab characters	پیتەکانی تاب
+	Tab leader:	پڕکەرەوەی تاب:
+	Tab stop position:	شوێنی وێستگەی تاب:
+	Tab stops to be cleared:	وێستگەکانی تاب بۆ پاککردنەوە:
+	Table Column Width	پانی ستوونی خشتە
+	Table Design	دیزاینی خشتە
+	Table direction:	ئاراستەی خشتە:
+	Table Grid	تۆڕی خشتە
+	Table Layout	شێوەڕێکخستنی خشتە
+	Table of Authorities	خشتەی دەسەلاتدارەکان
+	Table of Contents	پێڕستی ناوەڕۆک
+	Table of Contents Options	هەڵبژاردەکانی پێڕستی ناوەڕۆک
+	Table of Contents Styles	شێوازەکانی پێڕستی ناوەڕۆک
+	Table of Figures	خشتەی وێنەکان
+	Table of\nContents	پێڕستی\nناوەڕۆک
+	Table Properties	تایبەتمەندییەکانی خشتە
+	Table Properties…	تایبەتمەندییەکانی خشتە…
+	Table Row Height	بەرزی ڕیزی خشتە
+	Table size	قەبارەی خشتە
+	Table Style Options	هەڵبژاردەکانی شێوازی خشتە
+	Table Styles	شێوازەکانی خشتە
+	Tabloid   11.00" × 17.00"	Tabloid   11.00" × 17.00"
+	Tabs…	تابەکان…
+	Tabular List	پێڕستی خشتەیی
+	Tag	تاگ
+	Taiwan	تایوان
+	Take the last match on the page	دوایین گونجان لە پەڕەکە وەربگرە
+	Take your time. The page isn't going anywhere. Neither am I. Ever.	هێواش بە. پەڕەکە بۆ هیچ شوێنێک ناڕوات. منیش هەرگیز ناڕۆم.
+	Tamil	تامیل
+	Tangent formula	فۆرمولەی تانجەنت
+	Tangent Function	فانکشنی تانجەنت
+	TC entry fields	خانەکانی بەندی TC
+	Teal	شینی سەوز
+	Technology	تەکنەلۆژیا
+	Templates and Add-ins	قاڵبەکان و زیادکراوەکان
+	Templates you save in your templates folder show up here.	ئەو قاڵبانەی لە بوخچەی قاڵبەکانتدا پاشەکەوتیان دەکەیت لێرە دەردەکەون.
+	Text Box	سندوقی دەق
+	Text boxes	سندوقەکانی دەق
+	text boxes can't go inside a text box	سندوقەکانی دەق ناتوانرێن بچنە ناو سندوقی دەقێک
+	Text Direction	ئاراستەی دەق
+	Text Effects	کاریگەرییەکانی دەق
+	Text Effects and Typography	کاریگەرییەکانی دەق و تایپۆگرافیا
+	Text Fill	پڕکردنەوەی دەق
+	Text from File	دەق لە فایلەوە
+	Text Highlight Color	ڕەنگی ڕووناککردنەوەی دەق
+	Text indent at:	چوونەژوورەوەی دەق لە:
+	Text of the nearest paragraph with a given style (running headers)	دەقی نزیکترین پاراگراف لەگەڵ شێوازێکی دیاریکراو (سەرپەڕەی ڕۆیشتوو)
+	Text Outline	هێڵکاری دەق
+	Text over Colon Equal	دەق بەسەر دووخاڵ یەکسان
+	Text over Equal	دەق بەسەر یەکسان
+	Text Pane	پانێڵی دەق
+	Text properties only: Word's number, date and yes-no types aren't offered.	تەنها تایبەتمەندییەکانی دەق: جۆرەکانی ژمارە، بەروار و بەڵێ-نەخێری Word پێشکەش ناکرێن.
+	Text Size	قەبارەی دەق
+	Text size	قەبارەی دەق
+	Text snaps to characters	دەق دەلکێت بە پیتەکان
+	Text to display:	دەقی بۆ پیشاندان:
+	Text watermark	نیشانەی ئاوی دەق
+	Text Wrapping	پێچانەوەی دەق
+	Text\nBox	سندوقی\nدەق
+	Text\nDirection	ئاراستەی\nدەق
+	Thai	تایلەندی
+	That format doesn't keep everything, so the document is still open. Save it as a Word document (.docx) to go on.	ئەو فۆرماتە هەموو شتێک ناپارێزێت، بۆیە بەڵگەنامەکە هێشتا کراوەیە. وەک بەڵگەنامەی Word (.docx) پاشەکەوتی بکە بۆ بەردەوامبوون.
+	That password isn't right. Check it (passwords are case-sensitive) and try again.	ئەو وشەی نهێنییە ڕاست نییە. پشکنینی بکە (وشەی نهێنی هەستیارە بە گەورە و بچووکی پیت) و دووبارە هەوڵ بدە.
+	The clipboard is empty.	تەختەی هەڵگرتن بەتاڵە.
+	the Clipboard pane is empty	پانێڵی تەختەی هەڵگرتن بەتاڵە
+	the cursor isn't in a table	نیشانەکەر لە خشتەیەکدا نییە
+	The date it is today	ئەو بەروارەی کە ئەمڕۆیە
+	The document has no bookmarks yet.	بەڵگەنامەکە هێشتا هیچ نیشانەیەکی نییە.
+	the document is protected	بەڵگەنامەکە پارێزراوە
+	The document is read only, except for regions marked editable.	بەڵگەنامەکە تەنها خوێندنەوەیە، جگە لە ناوچەکانی نیشانەکراو بە دەستکاریکردن.
+	The document or selection changed. Check again to continue.	بەڵگەنامە یان هەڵبژاردە گۆڕا. دووبارە پشکنین بکە بۆ بەردەوامبوون.
+	The document will be saved with a password. Save it to protect it.	بەڵگەنامەکە بە وشەی نهێنی پاشەکەوت دەکرێت. پاشەکەوتی بکە بۆ پاراستنی.
+	The document you are editing keeps the names and dates; only the saved file leaves them out.	ئەو بەڵگەنامەیەی دەستکاری دەکەیت ناو و بەروارەکان دەپارێزێت؛ تەنها فایلە پاشەکەوتکراوەکە لێیان دەردەهێنێت.
+	The margins don't fit on a page this size; make the margins smaller first.	پەراوێزەکان لە پەڕەیەکی ئەم قەبارەیەدا جێ نابن؛ سەرەتا پەراوێزەکان بچووکتر بکە.
+	The measurement must be between {min} and {max}.	پێوانەکە دەبێت لە نێوان {min} و {max} بێت.
+	The new style takes the formatting of the current paragraph.	شێوازە نوێیەکە فۆرماتکردنی پاراگرافی ئێستا وەردەگرێت.
+	The Normal template couldn't be read, so this document uses WordCraft's built-in formatting.	قاڵبی Normal نەخوێندرایەوە، بۆیە ئەم بەڵگەنامەیە فۆرماتکردنی دامەزراوی WordCraft بەکاردەهێنێت.
+	The number must be a divisor of {max}.	ژمارەکە دەبێت دابەشکەری {max} بێت.
+	The number must be between 1 and {max}.	ژمارەکە دەبێت لە نێوان 1 و {max} بێت.
+	the paragraph is empty	پاراگرافەکە بەتاڵە
+	the paragraph starts with a space	پاراگرافەکە بە بۆشاییەوە دەست پێدەکات
+	The password is optional; without it anyone can stop the protection.	وشەی نهێنی ئارەزوومەندانەیە؛ بەبێ ئەو هەرکەسێک دەتوانێت پاراستنەکە بوەستێنێت.
+	The password is removed. Save the document to keep the change.	وشەی نهێنی لابرا. بەڵگەنامەکە پاشەکەوت بکە بۆ پاراستنی گۆڕانکارییەکە.
+	The printer, two-sided printing and pages per sheet are chosen in that dialog.	چاپکەر، چاپکردنی دوولایەنە و پەڕەی هەر پەڕەیەک لەو پەنجەرەیەدا هەڵدەبژێردرێن.
+	The recipient-list field that fills each part of an address block and greeting line.	ئەو خانەیەی پێڕستی وەرگرەکان کە هەر بەشێکی بلۆکی ناونیشان و دێڕی سڵاوکردن پڕ دەکاتەوە.
+	The spelling and grammar check is complete.	پشکنینی ڕێنووس و ڕێزمان تەواو بوو.
+	The spelling and hyphenation data WordCraft uses, and their licences.	ئەو داتایەی ڕێنووس و هایفێنکردن کە WordCraft بەکاری دەهێنێت، و مۆڵەتەکانیان.
+	The spelling dictionary for {language} couldn't be read, so it isn't checked. File: {file}. Reason: {reason}	فەرهەنگی ڕێنووسی {language} نەخوێندرایەوە، بۆیە پشکنین ناکرێت. فایل: {file}. هۆکار: {reason}
+	the Spike is empty	سپایک بەتاڵە
+	The system file dialog isn't available, so WordCraft shows its own. To get the system dialog, install a file chooser portal (such as xdg-desktop-portal-gtk) or zenity.	پەنجەرەی فایلی سیستەم بەردەست نییە، بۆیە WordCraft هی خۆی پیشان دەدات. بۆ بەدەستهێنانی پەنجەرەی سیستەم، پۆرتاڵێکی هەڵبژاردنی فایل دامەزرێنە (وەک xdg-desktop-portal-gtk) یان zenity.
+	The text at the insertion point is marked Do not check spelling or grammar.	دەقی شوێنی خستنەناو نیشانەکراوە بە ڕێنووس یان ڕێزمان مەپشکنە.
+	The time right now	ئەو کاتەی کە ئێستایە
+	The {language} dictionary couldn't be downloaded: {error}	فەرهەنگی {language} نەتوانرا دابەزێنرێت: {error}
+	The {language} dictionary is installed.	فەرهەنگی {language} دامەزراوە.
+	Theme Colors	ڕەنگەکانی ڕووکار
+	Theme Fonts	خەتەکانی ڕووکار
+	Theme List	پێڕستی ڕووکار
+	Themes	ڕووکارەکان
+	Then by	پاشان بەپێی
+	Then insert:	پاشان بخەرە ناو:
+	There are no macros yet. Record one to add it here.	هێشتا هیچ ماکرۆ نییە. یەکێک تۆمار بکە بۆ زیادکردنی لێرە.
+	there is no ink to replay	هیچ نووسینی دەستی نییە بۆ دووبارەکردنەوە
+	there is nothing to undo	هیچ نییە بۆ پاشگەزبوونەوە
+	there's no citation after the caret	هیچ ئاماژەیەک دوای نیشانەکەر نییە
+	Thesaurus	تێزۆرس
+	These marks show even when Show/Hide ¶ is off.	ئەم نیشانانە تەنانەت کاتێک پیشاندان/شاردنەوەی ¶ کوژاوەیش پیشان دەدرێن.
+	These merge fields aren't in the recipient list:	ئەم خانەکانی یەکخستن لە پێڕستی وەرگرەکاندا نین:
+	These settings will be used for new documents.	ئەم ڕێکخستنانە بۆ بەڵگەنامە نوێیەکان بەکاردێن.
+	Thick	ئەستوور
+	Thick Frame	چوارچێوەی ئەستوور
+	Thin	تەنک
+	This cannot be undone. Your original file stays unchanged.	ئەمە ناتوانرێت هەڵبوەشێنرێتەوە. فایلە ڕەسەنەکەت بەبێ گۆڕان دەمێنێتەوە.
+	this chart was made in another program: WordCraft shows it but can't edit it	ئەم هێلکارییە لە پرۆگرامێکی تردا دروستکراوە: WordCraft پیشانی دەدات بەڵام ناتوانێت دەستکاری بکات
+	This document	ئەم بەڵگەنامەیە
+	This document has no custom properties.	ئەم بەڵگەنامەیە هیچ تایبەتمەندییەکی تایبەتی نییە.
+	This document only?	تەنها ئەم بەڵگەنامەیە؟
+	This field has no options.	ئەم خانەیە هیچ هەڵبژاردەیەکی نییە.
+	This folder can't be read: {error}	ئەم بوخچەیە ناخوێندرێتەوە: {error}
+	This font has no characters to show.	ئەم خەتە هیچ پیتێکی نییە بۆ پیشاندان.
+	this item is already at the top level	ئەم بەندە هەر ئێستا لە ئاستی سەرەوەیە
+	This page	ئەم پەڕەیە
+	This password type isn't supported.	ئەم جۆرە وشەی نهێنی پشتگیری ناکرێت.
+	This point forward	لەم خاڵەوە بۆ پێشەوە
+	This section	ئەم بەشە
+	this session has no Normal template (headless or without preferences)	ئەم دانیشتنە قاڵبی Normalی نییە (بێ سەر یان بێ هەڵبژاردە)
+	this session has no Normal template (headless or without preferences): use "scope": "document"	ئەم دانیشتنە قاڵبی Normalی نییە (بێ سەر یان بێ هەڵبژاردە): "scope": "document" بەکاربهێنە
+	this SmartArt was made in another program: WordCraft shows it but can't edit it	ئەم SmartArtە لە پرۆگرامێکی تردا دروستکراوە: WordCraft پیشانی دەدات بەڵام ناتوانێت دەستکاری بکات
+	this text box is already linked: break the link first	ئەم سندوقە دەقە هەر ئێستا بەستەرکراوە: سەرەتا بەستەرەکە بپسێنە
+	Three	سێ
+	Through	بەناو
+	Tight	تەسک
+	Tilde	تیلدە
+	Tip	ئامۆژگاری
+	Tips ({n})	ئامۆژگارییەکان ({n})
+preview	Title	ناونیشان
+	Title Bar	شریتی ناونیشان
+	Title from the document properties	ناونیشان لە تایبەتمەندییەکانی بەڵگەنامەوە
+	Title:	ناونیشان:
+	To open Word documents with WordCraft by default: select one in Finder, choose File › Get Info, pick WordCraft under Open with, then click Change All.	بۆ کردنەوەی بەڵگەنامەکانی Word بە WordCraft بە شێوەی بنەڕەت: یەکێک لە Finder هەڵبژێرە، فایل › زانیاری هەڵبژێرە، WordCraft لەژێر کردنەوە بە هەڵبژێرە، پاشان کلیک لە گۆڕینی هەموو بکە.
+	To:	بۆ:
+	TOA Heading	سەردێڕی TOA
+	TOC Heading	سەردێڕی TOC
+	TOC {n}	TOC {n}
+	Today	ئەمڕۆ
+	tOGGLE cASE	گۆڕینی حاڵەت
+	Toggle Check Box	سندوقی هەڵبژاردن بگۆڕە
+	Toggle Field Codes	کۆدەکانی خانە بگۆڕە
+	Toggle Unicode Character	پیتی Unicode بگۆڕە
+	Top and Bottom	سەرەوە و خوارەوە
+	Top Border	چوارچێوەی سەرەوە
+	Top Left Cell	خانەی سەرەوەی چەپ
+	Top Margin	پەراوێزی سەرەوە
+	Top of Page	سەرەوەی پەڕە
+	Top of the Document	سەرەوەی بەڵگەنامە
+	Top Right Cell	خانەی سەرەوەی ڕاست
+	Total Row	ڕیزی کۆ
+	Track Changes	شوێنکەوتنی گۆڕانکارییەکان
+	Track Changes Options	هەڵبژاردەکانی شوێنکەوتنی گۆڕانکارییەکان
+	Track Changes: On	شوێنکەوتنی گۆڕانکارییەکان: هەڵکراو
+	Track formatting	فۆرماتکردن بشوێنەوە
+	Track\nChanges	شوێنکەوتنی\nگۆڕانکارییەکان
+	Track\nChanges ✓	شوێنکەوتنی\nگۆڕانکارییەکان ✓
+	Tracked changes	گۆڕانکارییە شوێنکەوتووەکان
+	Trademark	نیشانەی بازرگانی
+	Trademark Sign	هێمای نیشانەی بازرگانی
+	Transparency:	شەفافیەت:
+	Transport	گواستنەوە
+	Triangle Down	سێگۆشەی خوارەوە
+	Triangle Up	سێگۆشەی سەرەوە
+	Trigonometric Functions	فانکشنە سێگۆشەییەکان
+	Triple	سێجار
+	Triple Dot	خاڵی سێجار
+	Triple Integral	ئینتێگراڵی سێجار
+	Triple Integral with Limits	ئینتێگراڵی سێجار لەگەڵ سنوورەکان
+	Triple Integral with Stacked Limits	ئینتێگراڵی سێجار لەگەڵ سنوورەکانی کۆکراوە
+	Trust Center	ناوەندی متمانە
+	Tue	سێشەممە
+	Turabian	تۆرابیان
+	Turkish	تورکی
+	Turquoise	فیروزەیی
+	Two	دوو
+	Two-sided printing	چاپکردنی دوولایەنە
+	Two-sided: long edge	دوولایەنە: لای درێژ
+	Two-sided: short edge	دوولایەنە: لای کورت
+	Type +2 or -1 to move from the page you are on.	+2 یان -1 بنووسە بۆ جووڵان لەو پەڕەیەی لەسەریت.
+	Type a command, e.g. "insert table"	فەرمانێک بنووسە، بۆ نموونە "insert table"
+	Type a New List…	پێڕستێکی نوێ بنووسە…
+	Type a page number, or +2 / -1.	ژمارەی پەڕەیەک بنووسە، یان +2 / -1.
+	Type a size in any unit, such as 5 cm or 300 px. The other side follows, so the picture keeps its proportions.	قەبارەیەک بە هەر یەکەیەک بنووسە، وەک 5 سم یان 300 پیکسڵ. لایەکەی تر دەکەوێتە دوای، بۆیە وێنەکە ڕێژەکەی دەپارێزێت.
+	Type at least one recipient.	لانیکەم یەک وەرگر بنووسە.
+	Type Character Code	کۆدی پیت بنووسە
+	Type equations in LaTeX	هاوکێشەکان بە LaTeX بنووسە
+	Type equations in the linear format (UnicodeMath)	هاوکێشەکان بە فۆرماتی هێڵی (UnicodeMath) بنووسە
+	Type in Equation	لە هاوکێشەدا بنووسە
+	Type normal (non-math) text in the equation	دەقی ئاسایی (نا-بیرکاری) لە هاوکێشەکەدا بنووسە
+	Type Text	دەق بنووسە
+	Type the categories down the side and a column of values per series.	پۆلەکان لە لای بنووسە و ستوونێکی نرخ بۆ هەر زنجیرەیەک.
+	Type the field's name and its switches, for example PAGE \\* roman.	ناوی خانەکە و گۆڕەکانی بنووسە، بۆ نموونە PAGE \\* roman.
+	Type the password to stop the protection.	وشەی نهێنی بنووسە بۆ وەستاندنی پاراستن.
+	Type the recipients, or load them from a file.	وەرگرەکان بنووسە، یان لە فایلێکەوە بارکردنیان بکە.
+	Typing replaces selected text	نووسین دەقی هەڵبژێردراو دەگۆڕێت
+	U.A.E.	میرنشینە یەکگرتووە عەرەبییەکان
+	Ukraine	ئۆکراینا
+	Ukrainian	ئۆکراینی
+	Unchecked symbol	هێمای نەنیشانەکراو
+	Underbar	هێڵی ژێرەوە
+	Underbrace	کەوانەی ژێرەوە
+	Underline Color	ڕەنگی ژێرهێڵ
+	Underline color	ڕەنگی ژێرهێڵ
+	Underline Words Only	تەنها وشەکان ژێرهێڵ بکە
+	Undo 1 Action	1 کردار پاشگەز بکەرەوە
+	Undo Actions	کردارەکان پاشگەز بکەرەوە
+	Undo History	مێژووی پاشگەزبوونەوە
+	Undo {n} Actions	{n} کردار پاشگەز بکەرەوە
+	Undo, undo, undo… we're time travelling now.	پاشگەزبوونەوە، پاشگەزبوونەوە، پاشگەزبوونەوە… ئێستا بە ناو کاتدا دەگەڕێین.
+	Unformatted Text	دەقی بێ ڕێکخستن
+	Union of intersections	یەکگرتنی یەکتربڕینەکان
+	Union with Limits	یەکگرتن لەگەڵ سنوورەکان
+	Union with Lower Limit	یەکگرتن لەگەڵ سنووری خوارەوە
+	Union with Plus	یەکگرتن لەگەڵ زیادکردن
+	Union with Subscript-Superscript Limits	یەکگرتن لەگەڵ سنوورەکانی ژێرنووس-سەرنووس
+	Unions and Intersections	یەکگرتنەکان و یەکتربڕینەکان
+	United Kingdom	شانشینی یەکگرتوو
+	United States	ویلایەتە یەکگرتووەکان
+	Unlink Fields	بەستەری خانەکان بکەرەوە
+	Unlink\nCitations	بەستەرنەکردنەوەی\nئاماژەکان
+	Unlock Fields	خانەکان بکەرەوە
+	Up Diagonal Dots	خاڵە لارەکانی سەرەوە
+	Up one level	ئاستێک بەرەو سەرەوە
+	Update check is not supported in the web browser.	پشکنینی نوێکردنەوە لە وێبگەڕدا پشتگیری ناکرێت.
+	Update Field	خانە نوێ بکەرەوە
+	Update fields before printing	خانەکان پێش چاپکردن نوێ بکەرەوە
+	Update Index	پێڕست نوێ بکەرەوە
+	Update Style to Match Selection	شێواز نوێ بکەرەوە بۆ گونجان لەگەڵ هەڵبژاردە
+	Update Styles from Template	شێوازەکان لە قاڵبەوە نوێ بکەرەوە
+	Update Table	خشتە نوێ بکەرەوە
+	Update Table of Figures	خشتەی وێنەکان نوێ بکەرەوە
+	Update to Match	نوێ بکەرەوە بۆ گونجان
+	Update to Match Selection	نوێ بکەرەوە بۆ گونجان لەگەڵ هەڵبژاردە
+	URGENT	پەلە
+	URL	URL
+	Uruguay	ئوروگوای
+	Use "a" before a consonant sound	"a" بەکاربهێنە پێش دەنگی بێدەنگ
+	Use "an" before a vowel sound	"an" بەکاربهێنە پێش دەنگی بزوێن
+	Use an Existing List…	پێڕستێکی هەبوو بەکاربهێنە…
+	Use system setting	ڕێکخستنی سیستەم بەکاربهێنە
+	Use the browser's full screen (F11)	شاشەی تەواوی وێبگەڕەکە بەکاربهێنە (F11)
+	Use the current style set and theme for all new documents?	کۆمەڵەی شێواز و ڕووکاری ئێستا بۆ هەموو بەڵگەنامە نوێیەکان بەکاربهێنرێت؟
+	Use the Insert key to switch overtype on and off	کلیلی Insert بەکاربهێنە بۆ هەڵکردن و کوژاندنەوەی جێگرتنەوە
+	Use this formatting as the default for:	ئەم فۆرماتکردنە وەک بنەڕەت بەکاربهێنە بۆ:
+	Use wildcards	وایڵدکارد بەکاربهێنە
+	User Name	ناوی بەکارهێنەر
+	User name:	ناوی بەکارهێنەر:
+	User templates:	قاڵبەکانی بەکارهێنەر:
+	Vector A	ڤێکتۆری A
+	Vector AB	ڤێکتۆری AB
+	Venezuela	ڤێنەزوێلا
+	Version History	مێژووی وەشان
+	Version {version} ({build})	وەشانی {version} ({build})
+	Vertical alignment:	هاوتەریبکردنی ستوونی:
+	Vertical Bars	هێڵە ستوونییەکان
+	Vertical Dots	خاڵە ستوونییەکان
+	Vietnamese	ڤیەتنامی
+	View Alt Text…	دەقی جێگرەوە ببینە…
+	View and edit the document's custom properties.	تایبەتمەندییە تایبەتەکانی بەڵگەنامە ببینە و دەستکاری بکە.
+	View Gridlines	هێڵەکانی تۆڕ ببینە
+	View State	دۆخی بینین
+	View › Focus hides everything but your words. I'll wait outside.	بینین › سەرنج هەموو شتێک دەشارێتەوە جگە لە وشەکانت. لە دەرەوە چاوەڕێ دەکەم.
+	Viewing	بینین
+	Viewing — view the file but make no changes	بینین — فایلەکە ببینە بەڵام هیچ گۆڕانکاری مەکە
+	Views	بینینەکان
+	Visual effects	کاریگەرییە بینراوەکان
+	Vivid 200%	زیندوو 200%
+	Volume	توندی دەنگ
+	Volume Integral	ئینتێگراڵی قەبارە
+	Volume Integral with Limits	ئینتێگراڵی قەبارە لەگەڵ سنوورەکان
+	Volume Integral with Stacked Limits	ئینتێگراڵی قەبارە لەگەڵ سنوورەکانی کۆکراوە
+	Wait for the print job to finish submitting before closing.	چاوەڕێ بکە تا ناردنی کارەکەی چاپ تەواو بێت پێش داخستن.
+	Waiting for the save to finish…	چاوەڕێی تەواوبوونی پاشەکەوتکردن…
+	Waiting for Zotero…	چاوەڕێی Zotero…
+	Warm Gradient with Outline	ڕەنگگۆڕینی گەرم لەگەڵ هێڵکاری
+	Warnings ({n})	ئاگادارکردنەوەکان ({n})
+	Washout	کاڵکردنەوە
+	Weather	کەشوهەوا
+	Web Layout	شێوەڕێکخستنی وێب
+	Web page (*.html)	پەڕەی وێب (*.html)
+	Web\nLayout	شێوەڕێکخستنی\nوێب
+	Wed	چوارشەممە
+	Welsh	وێلزی
+	West	ڕۆژئاوا
+	When this document was first created	کاتێک ئەم بەڵگەنامەیە یەکەم جار دروستکرا
+	When this document was most recently printed	کاتێک ئەم بەڵگەنامەیە دوایین جار چاپکرا
+	When this document was most recently saved	کاتێک ئەم بەڵگەنامەیە دوایین جار پاشەکەوتکرا
+	White Space	بۆشایی سپی
+	White space	بۆشایی سپی
+	Who the document properties name as author	ئەوەی تایبەتمەندییەکانی بەڵگەنامە وەک نووسەر ناوی دەبات
+	Whole document	هەموو بەڵگەنامە
+	Whole page	هەموو پەڕە
+	Whole Table	هەموو خشتە
+	Whole words	هەموو وشەکان
+	Wide	فراوان
+	Widow/Orphan Control	دێڕە تاکە جیابووەکان
+	Widow/Orphan control	دێڕە تاکە جیابووەکان
+	Width and spacing	پانی و بۆشایی
+	Wildcards (regex)	وایڵدکاردەکان (regex)
+	With:	لەگەڵ:
+	Word 2003 XML Document (*.xml)	بەڵگەنامەی XMLی Word 2003 (*.xml)
+	Word Count	ژمارەی وشەکان
+	Word document	بەڵگەنامەی Word
+	Word document (*.docx)	بەڵگەنامەی Word (*.docx)
+	Word Left	وشە بۆ چەپ
+	Word level	ئاستی وشە
+	Word Right	وشە بۆ ڕاست
+	Word sources	سەرچاوەکانی Word
+	Word XML Document (*.xml)	بەڵگەنامەی XMLی Word (*.xml)
+	WordArt	WordArt
+	WordArt Styles	شێوازەکانی WordArt
+	WordCraft	WordCraft
+	WordCraft is now the default app for Word documents.	WordCraft ئێستا ئەپی بنەڕەتە بۆ بەڵگەنامەکانی Word.
+	WordCraft {version} is currently the newest version available.	WordCraft {version} ئێستا نوێترین وەشانی بەردەستە.
+	Words only	تەنها وشەکان
+	Wrap Text	دەق بپێچەوە
+	Wrap Text Sides	لایەکانی پێچانەوەی دەق
+	Wrap\nText	پێچانەوەی\nدەق
+	Write & Insert Fields	خانەکان بنووسە و بخەرە ناو
+	Write a reply	وەڵامێک بنووسە
+	Writer's block? I find staring at the cursor helps. It's been blinking at me for years.	گیرۆدەی نووسین؟ بۆ من سەیرکردنی نیشانەکەر یارمەتی دەدات. ساڵانێکە بۆم دەدرەوشێتەوە.
+	x bar	x بار
+	Year	ساڵ
+	Yields	دەبەخشێت
+	You haven't saved in a while, and AutoSave is off. Save now?	ماوەیەکە پاشەکەوتت نەکردووە، و پاشەکەوتکردنی خۆکار کوژاوە. ئێستا پاشەکەوت بکرێت؟
+	You started a list. Press Enter twice to end it, or Backspace at the start of an item to turn it back into text.	پێڕستێکت دەست پێکرد. دوو جار Enter دابگرە بۆ کۆتاییپێهێنانی، یان Backspace لە سەرەتای بەندێکدا دایگرە بۆ گەڕاندنەوەی بۆ دەق.
+	Your document is now the most saved document in history.	بەڵگەنامەکەت ئێستا پاشەکەوتکراوترین بەڵگەنامەی مێژوویە.
+	Your languages	زمانەکانت
+	Your own dictionary	فەرهەنگی خۆت
+	Your system doesn't report an animation setting, so animation effects stay on.	سیستەمەکەت ڕێکخستنی جووڵە ڕاپۆرت ناکات، بۆیە کاریگەرییەکانی جووڵە هەڵدەکرێن.
+	Your system has animation effects turned off.	سیستەمەکەت کاریگەرییەکانی جووڵەی کوژاندووەتەوە.
+	Your system has animation effects turned on.	سیستەمەکەت کاریگەرییەکانی جووڵەی هەڵکردووە.
+	Zotero	Zotero
+	Zotero: cancelled	Zotero: هەڵوەشێنرایەوە
+	Zotero: done	Zotero: تەواو
+	{added}; {count} couldn't be read: {names}	{added}؛ {count} نەخوێندرانەوە: {names}
+	{added}; {n} skipped (limit {max})	{added}؛ {n} پەڕێدرا (سنوور {max})
+	{cols}×{rows} Table	خشتەی {cols}×{rows}
+	{contributors} contributors · {commits} commits	{contributors} بەشداربوو · {commits} کۆمیت
+	{count} items highlighted	{count} بەند ڕووناککرایەوە
+	{count} of {total} pages will print	{count} لە {total} پەڕە چاپ دەکرێن
+	{count} of {total} recipients will be merged.	{count} لە {total} وەرگر یەکدەخرێن.
+	{field}, record {n}	{field}، تۆماری {n}
+	{group} settings	ڕێکخستنەکانی {group}
+	{key} checks the spelling and grammar of the whole document.	{key} ڕێنووس و ڕێزمانی هەموو بەڵگەنامەکە دەپشکنێت.
+	{key} counts your words, characters and paragraphs.	{key} وشە و پیت و پاراگرافەکانت دەژمێرێت.
+	{key} finds and replaces text, formatting and special characters.	{key} دەق و فۆرماتکردن و پیتە تایبەتەکان دەدۆزێتەوە و دەیگۆڕێت.
+	{key} repeats your last action. Formatting ten headings is suddenly one click and nine taps.	{key} دوایین کردارەکەت دووبارە دەکاتەوە. فۆرماتکردنی دە سەردێڕ لە ناکاو دەبێتە یەک کلیک و نۆ لێدان.
+	{key} starts a new line without starting a new paragraph.	{key} دێڕێکی نوێ دەست پێدەکات بەبێ دەستپێکردنی پاراگرافێکی نوێ.
+	{key} starts a new page. Much tidier than pressing Enter until it happens.	{key} پەڕەیەکی نوێ دەست پێدەکات. زۆر جوانترە لە لێدانی Enter تا ڕوودەدات.
+	{key} turns the selected text into a link.	{key} دەقی هەڵبژێردراو دەکاتە بەستەر.
+	{key}+Click to follow link	{key}+کلیک بۆ شوێنکەوتنی بەستەر
+	{kind}, {columns} × {rows}, {size} ({paper})	{kind}، {columns} × {rows}، {size} ({paper})
+	{language} (default)	{language} (بنەڕەت)
+	{language} (dictionary unreadable)	{language} (فەرهەنگ نەخوێندرایەوە)
+	{language} (no dictionary)	{language} (بێ فەرهەنگ)
+	{language} ({region})	{language} ({region})
+	{language} is now the document's default language.	{language} ئێستا زمانی بنەڕەتی بەڵگەنامەکەیە.
+	{language} proofing isn't installed.	پشکنینی {language} دامەزراو نییە.
+	{language}: no dictionary found	{language}: هیچ فەرهەنگێک نەدۆزرایەوە
+	{language}: WordCraft doesn't check spelling or grammar in this language yet.	{language}: WordCraft هێشتا ڕێنووس یان ڕێزمان بەم زمانە ناپشکنێت.
+	{language}: {file}	{language}: {file}
+	{language}: {file} (unreadable: {reason})	{language}: {file} (نەخوێندرایەوە: {reason})
+	{names} and {n} more	{names} و {n}ی تر
+	{name}   {height} × {width} in	{name}   {height} × {width} ئینچ
+	{name}   {height} × {width} mm	{name}   {height} × {width} ملم
+	{name} already exists. Choose Save again to replace it.	{name} هەر ئێستا هەیە. دووبارە پاشەکەوت بکە بۆ جێگرتنەوەی.
+	{name} is protected with a password.	{name} بە وشەی نهێنی پارێزراوە.
+	{name} options	هەڵبژاردەکانی {name}
+	{name} wasn't found.	{name} نەدۆزرایەوە.
+	{n} entries marked.	{n} بەند نیشانەکرا.
+	{n} KB	{n} کیلۆبایت
+	{n} lines	{n} دێڕ
+	{n} MB	{n} مێگابایت
+	{n} pt	{n} خاڵ
+	{paper}   {width} × {height}	{paper}   {width} × {height}
+	{selected} of {words} words	{selected} لە {words} وشە
+	{size} pt	{size} خاڵ
+	{width} × {height} mm	{width} × {height} ملم
+	{width} × {height} pixels	{width} × {height} پیکسڵ
+	{words} words	{words} وشە
+	{words} words and counting. Literally. I'm counting.	{words} وشە و هێشتا دەژمێرم. بەڕاست. من دەژمێرم.
+	{words} words! I'd throw confetti but I'd have to clean it up.	{words} وشە! کاغەزی ڕەنگاوڕەنگم فڕێدەدا بەڵام دەبوو خۆم پاکی بکەمەوە.
+	{words} words. That's {words} more than I've written today.	{words} وشە. ئەوە {words} زیاترە لەوەی ئەمڕۆ نووسیومە.
+	“{text}” ({row}, {series}) isn't a number.	«{text}» ({row}، {series}) ژمارە نییە.
+	✓ None	✓ هیچ
+	➕ New comment	➕ لێدوانی نوێ
+	📂  Browse…	📂  گەڕان…
