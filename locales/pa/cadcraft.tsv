@@ -1,0 +1,1412 @@
+# ਪੰਜਾਬੀ (pa) interface catalog for CADCraft.
+# Columns, separated by a TAB:  context <TAB> English source text <TAB> translation
+#   context  usually empty. `@plural`, `@id` and `@msg` mean something to the apps; any other
+#            word is a label that tells apart two meanings of the same English.
+#   escapes  \n  \t  \\  inside a column. `{name}` placeholders must appear in both columns (in any
+#            order), and a trailing "…" in one needs one in the other.
+#   @plural  English `one|other`; the translation lists this language's plural forms, `|`-separated.
+#   Lines starting with # and blank lines are ignored. A missing entry shows in English.
+#
+# Clean room: every entry was written from the plain meaning of the English text in ordinary
+# computing vocabulary. No other product's localisation, string table or translated UI was
+# consulted or copied; add entries the same way.
+# AI-assisted clean-room translations by @ishveet with OpenAI Codex.
+# Review: expanded entries were sample-reviewed, not comprehensively reviewed line by line by a native speaker.
+
+	  Cancel  	  ਰੱਦ ਕਰੋ  
+	  OK  	  ਠੀਕ ਹੈ  
+	 or [	 ਜਾਂ [
+	* Wildcard Match	* ਵਾਈਲਡਕਾਰਡ ਮੇਲ
+	*VARIES*	*ਵੱਖ-ਵੱਖ*
+	+  |  Top  |  2D Wireframe	+  |  ਉੱਪਰ  |  2D ਵਾਇਰਫਰੇਮ
+	+Bin	+ਬਾਈਨਰੀ
+	+LOC	+ਕੋਡ ਲਾਈਨਾਂ
+	1 Viewport	1 ਵਿਊਪੋਰਟ
+	2 Points	2 ਬਿੰਦੂ
+	2 Viewports	2 ਵਿਊਪੋਰਟ
+	2D Solid	2D ਠੋਸ
+	3 Points	3 ਬਿੰਦੂ
+	3 Viewports	3 ਵਿਊਪੋਰਟ
+	3D Face	3D ਸਤ੍ਹਾ
+	3D Mouse	3D ਮਾਊਸ
+	3D Mouse Navigation	3D ਮਾਊਸ ਨੈਵੀਗੇਸ਼ਨ
+	3D Mouse...	3D ਮਾਊਸ...
+	3D Operations	3D ਕਾਰਵਾਈਆਂ
+	3D Polyline	3D ਪੌਲੀਲਾਈਨ
+	3D mouse busy, possibly 3DxWare or missing device permissions	3D ਮਾਊਸ ਰੁੱਝਿਆ ਹੈ, ਸੰਭਵ ਤੌਰ ਉੱਤੇ 3DxWare ਜਾਂ ਜੰਤਰ ਦੀਆਂ ਮਨਜ਼ੂਰੀਆਂ ਗੁੰਮ ਹਨ
+	3D mouse connected	3D ਮਾਊਸ ਜੁੜਿਆ
+	3D mouse disconnected	3D ਮਾਊਸ ਡਿਸਕਨੈਕਟ ਹੋਇਆ
+	3D mouse input could not be started	3D ਮਾਊਸ ਇਨਪੁੱਟ ਸ਼ੁਰੂ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕੀ
+	3D mouse input is unavailable on this platform	ਇਸ ਪਲੇਟਫਾਰਮ ਉੱਤੇ 3D ਮਾਊਸ ਇਨਪੁੱਟ ਉਪਲਬਧ ਨਹੀਂ
+	4 Viewports	4 ਵਿਊਪੋਰਟ
+	< Less than	< ਤੋਂ ਘੱਟ
+	<> Not Equal	<> ਬਰਾਬਰ ਨਹੀਂ
+	= Equals	= ਬਰਾਬਰ ਹੈ
+	> Greater than	> ਤੋਂ ਵੱਧ
+	A built-in table: editing it keeps an edited copy in the drawing.	ਅੰਦਰੂਨੀ ਸਾਰਣੀ: ਇਸ ਨੂੰ ਸੋਧਣ ਨਾਲ ਡਰਾਇੰਗ ਵਿੱਚ ਸੋਧੀ ਕਾਪੀ ਰੱਖੀ ਜਾਂਦੀ ਹੈ.
+	A drawing opened from a file keeps that file's format.	ਫ਼ਾਈਲ ਤੋਂ ਖੋਲ੍ਹੀ ਡਰਾਇੰਗ ਉਸ ਫ਼ਾਈਲ ਦਾ ਫਾਰਮੈਟ ਰੱਖਦੀ ਹੈ.
+	A shortcut you give wins over CADCraft's own. Changes apply at once and are kept for next time.	ਤੁਹਾਡਾ ਦਿੱਤਾ ਸ਼ਾਰਟਕੱਟ CADCraft ਦੇ ਆਪਣੇ ਸ਼ਾਰਟਕੱਟ ਤੋਂ ਪਹਿਲਾਂ ਲਾਗੂ ਹੁੰਦਾ ਹੈ. ਤਬਦੀਲੀਆਂ ਤੁਰੰਤ ਲਾਗੂ ਹੁੰਦੀਆਂ ਹਨ ਅਤੇ ਅਗਲੀ ਵਾਰ ਲਈ ਰੱਖੀਆਂ ਜਾਂਦੀਆਂ ਹਨ.
+	A variable name starts with a letter and has only letters, digits and _	ਵੇਰੀਏਬਲ ਦਾ ਨਾਮ ਅੱਖਰ ਨਾਲ ਸ਼ੁਰੂ ਹੁੰਦਾ ਹੈ ਅਤੇ ਇਸ ਵਿੱਚ ਕੇਵਲ ਅੱਖਰ, ਅੰਕ ਅਤੇ _ ਹੁੰਦੇ ਹਨ
+	About CADCraft	CADCraft ਬਾਰੇ
+	Absolute	ਨਿਰਪੇਖ
+	Add Current Scale	ਮੌਜੂਦਾ ਸਕੇਲ ਜੋੜੋ
+	Add Leader	ਲੀਡਰ ਜੋੜੋ
+	Add Vertex	ਸਿਖਰ ਬਿੰਦੂ ਜੋੜੋ
+	Add to Working Set	ਕੰਮਕਾਜੀ ਸੈੱਟ ਵਿੱਚ ਜੋੜੋ
+	Add/Delete Scales...	ਸਕੇਲ ਜੋੜੋ/ਮਿਟਾਓ...
+	Add: Pick points	ਜੋੜੋ: ਬਿੰਦੂ ਚੁਣੋ
+	Add: Select objects	ਜੋੜੋ: ਵਸਤੂਆਂ ਚੁਣੋ
+	Additional angles	ਵਾਧੂ ਕੋਣ
+	Add…	ਜੋੜੋ…
+	Alias	ਉਪਨਾਮ
+	Alias file: {file}	ਉਪਨਾਮ ਫ਼ਾਈਲ: {file}
+	Aliases are saved in your CADCraft profile and survive restarts.	ਉਪਨਾਮ ਤੁਹਾਡੇ CADCraft ਪ੍ਰੋਫਾਈਲ ਵਿੱਚ ਸੰਭਾਲੇ ਜਾਂਦੇ ਹਨ ਅਤੇ ਮੁੜ ਚਾਲੂ ਕਰਨ ਉੱਤੇ ਵੀ ਰਹਿੰਦੇ ਹਨ.
+	Align Multileaders	ਮਲਟੀਲੀਡਰ ਇਕਸਾਰ ਕਰੋ
+	Align Text	ਲਿਖਤ ਇਕਸਾਰ ਕਰੋ
+	Aligned	ਇਕਸਾਰ
+	All Annotation Objects	ਸਾਰੀਆਂ ਐਨੋਟੇਸ਼ਨ ਵਸਤੂਆਂ
+	All Scales	ਸਾਰੇ ਸਕੇਲ
+	All Used Layers	ਸਾਰੀਆਂ ਵਰਤੀਆਂ ਪਰਤਾਂ
+	Alt	Alt
+	An array that would create more objects than this is refused.	ਇਸ ਤੋਂ ਵੱਧ ਵਸਤੂਆਂ ਬਣਾਉਣ ਵਾਲੀ ਐਰੇ ਰੱਦ ਕੀਤੀ ਜਾਂਦੀ ਹੈ.
+	Analyze Shapes	ਸ਼ਕਲਾਂ ਦਾ ਵਿਸ਼ਲੇਸ਼ਣ ਕਰੋ
+	Analyze Usage	ਵਰਤੋਂ ਦਾ ਵਿਸ਼ਲੇਸ਼ਣ ਕਰੋ
+	Angstroms	ਐਂਗਸਟ੍ਰੋਮ
+	Angular	ਕੋਣਦਾਰ
+	Animation Effects	ਐਨੀਮੇਸ਼ਨ ਪ੍ਰਭਾਵ
+	Annotation Visibility	ਐਨੋਟੇਸ਼ਨ ਦਿੱਖ
+	Annotation scale	ਐਨੋਟੇਸ਼ਨ ਸਕੇਲ
+	Annotative Object Scale	ਐਨੋਟੇਟਿਵ ਵਸਤੂ ਸਕੇਲ
+	Annotative Update	ਐਨੋਟੇਟਿਵ ਅੱਪਡੇਟ
+	Apparent Intersection	ਪ੍ਰਤੀਤ ਕਾਟ
+	Append to current selection set	ਮੌਜੂਦਾ ਚੋਣ ਸੈੱਟ ਵਿੱਚ ਜੋੜੋ
+	Apply to Layout	ਖਾਕੇ ਉੱਤੇ ਲਾਗੂ ਕਰੋ
+	Apply to:	ਇਸ ਉੱਤੇ ਲਾਗੂ ਕਰੋ:
+	Apply true color	ਟ੍ਰੂ ਕਲਰ ਲਾਗੂ ਕਰੋ
+	Arc	ਚਾਪ
+	Arc Length	ਚਾਪ ਦੀ ਲੰਬਾਈ
+	Architectural	ਆਰਕੀਟੈਕਚਰਲ
+	Arrange Panel	ਪੈਨਲ ਤਰਤੀਬ ਦਿਓ
+	Array	ਐਰੇ
+	Arrow size	ਤੀਰ ਦਾ ਆਕਾਰ
+	Associate	ਸੰਬੰਧਿਤ ਕਰੋ
+	Associative	ਸੰਬੰਧਿਤ
+	Astronomical Units	ਖਗੋਲੀ ਇਕਾਈਆਂ
+	Attach	ਜੋੜੋ
+	Attach DWG...	DWG ਜੋੜੋ...
+	Attribute	ਵਿਸ਼ੇਸ਼ਤਾ
+	Attribute Definition	ਵਿਸ਼ੇਸ਼ਤਾ ਪਰਿਭਾਸ਼ਾ
+	Attribute Display	ਵਿਸ਼ੇਸ਼ਤਾ ਡਿਸਪਲੇ
+	Audit	ਜਾਂਚ-ਪੜਤਾਲ
+	Auto (system language)	ਆਪਣੇ ਆਪ (ਸਿਸਟਮ ਭਾਸ਼ਾ)
+	Auto Constrain	ਆਪਣੇ ਆਪ ਬੰਧਨ ਲਗਾਓ
+	AutoConstrain	ਆਪਣੇ ਆਪ ਬੰਧਨ ਲਗਾਓ
+	AutoLISP (LSP)	AutoLISP (LSP)
+	Automatic save every	ਇੰਨੇ ਸਮੇਂ ਬਾਅਦ ਆਪਣੇ ਆਪ ਸੰਭਾਲੋ
+	Automatic save file location	ਆਪਣੇ ਆਪ ਸੰਭਾਲੀ ਫ਼ਾਈਲ ਦਾ ਟਿਕਾਣਾ
+	Average	ਔਸਤ
+	Axis, End	ਧੁਰਾ, ਅੰਤ
+	B	B
+	Back to CADCraft's shortcut	CADCraft ਦਾ ਸ਼ਾਰਟਕੱਟ ਮੁੜ ਵਰਤੋ
+	Backup copies are off, so the current file will be replaced.	ਬੈਕਅੱਪ ਕਾਪੀਆਂ ਬੰਦ ਹਨ, ਇਸ ਲਈ ਮੌਜੂਦਾ ਫ਼ਾਈਲ ਬਦਲੀ ਜਾਵੇਗੀ.
+	Backup copy	ਬੈਕਅੱਪ ਕਾਪੀ
+	Base	ਆਧਾਰ
+	Baseline	ਆਧਾਰ ਰੇਖਾ
+	Batch Publish	ਬੈਚ ਪ੍ਰਕਾਸ਼ਨ
+	Batch Publish...	ਬੈਚ ਪ੍ਰਕਾਸ਼ਨ...
+	Bind	ਸਥਾਈ ਜੋੜੋ
+	Bind...	ਸਥਾਈ ਜੋੜੋ...
+	Blend	ਮਿਲਾਓ
+	Block	ਬਲਾਕ
+	Block Attribute Manager...	ਬਲਾਕ ਵਿਸ਼ੇਸ਼ਤਾ ਮੈਨੇਜਰ...
+	Block Description...	ਬਲਾਕ ਵਰਣਨ...
+	Block Editor	ਬਲਾਕ ਸੰਪਾਦਕ
+	Block Reference	ਬਲਾਕ ਹਵਾਲਾ
+	Block to create or edit	ਬਣਾਉਣ ਜਾਂ ਸੋਧਣ ਵਾਲਾ ਬਲਾਕ
+	Block...	ਬਲਾਕ...
+	Blocks	ਬਲਾਕ
+	Boolean	ਬੂਲੀਅਨ
+	Borders	ਕਿਨਾਰੇ
+	Bottom left	ਹੇਠਾਂ ਖੱਬੇ
+	Bottom right	ਹੇਠਾਂ ਸੱਜੇ
+	Boundaries	ਹੱਦਾਂ
+	Boundaries picked: {n}	ਚੁਣੀਆਂ ਹੱਦਾਂ: {n}
+	Boundary	ਹੱਦ
+	Boundary...	ਹੱਦ...
+	Box	ਡੱਬਾ
+	Break	ਤੋੜੋ
+	Break At Point	ਬਿੰਦੂ ਉੱਤੇ ਤੋੜੋ
+	Break-line Symbol	ਟੁੱਟੀ ਰੇਖਾ ਦਾ ਚਿੰਨ੍ਹ
+	Bring Above Objects	ਵਸਤੂਆਂ ਤੋਂ ਉੱਪਰ ਲਿਆਓ
+	Bring Annotations to Front	ਐਨੋਟੇਸ਼ਨਾਂ ਸਭ ਤੋਂ ਅੱਗੇ ਲਿਆਓ
+	Bring to Front	ਸਭ ਤੋਂ ਅੱਗੇ ਲਿਆਓ
+	Bulleted list	ਬਿੰਦੀਆਂ ਵਾਲੀ ਸੂਚੀ
+	ByBlock	ਬਲਾਕ ਅਨੁਸਾਰ
+	ByColor	ਰੰਗ ਅਨੁਸਾਰ
+	ByLayer	ਪਰਤ ਅਨੁਸਾਰ
+	CADCraft	CADCraft
+	CADCraft Help	CADCraft ਮਦਦ
+	CADCraft is up to date.	CADCraft ਅੱਪ-ਟੂ-ਡੇਟ ਹੈ.
+	CADCraft keeps these preferences, object snap modes and drafting toggles for your user account and restores them when it starts.	CADCraft ਤੁਹਾਡੇ ਵਰਤੋਂਕਾਰ ਖਾਤੇ ਲਈ ਇਹ ਤਰਜੀਹਾਂ, ਆਬਜੈਕਟ ਸਨੈਪ ਮੋਡ ਅਤੇ ਡਰਾਫਟਿੰਗ ਟੌਗਲ ਰੱਖਦਾ ਹੈ ਅਤੇ ਸ਼ੁਰੂ ਹੋਣ ਉੱਤੇ ਮੁੜ ਬਹਾਲ ਕਰਦਾ ਹੈ.
+	Calibrate	ਕੈਲੀਬਰੇਟ ਕਰੋ
+	Calibrate 3D Mouse	3D ਮਾਊਸ ਕੈਲੀਬਰੇਟ ਕਰੋ
+	Cartesian (x, y)	ਕਾਰਟੀਜ਼ੀਅਨ (x, y)
+	Center Line	ਕੇਂਦਰ ਰੇਖਾ
+	Center Mark	ਕੇਂਦਰ ਨਿਸ਼ਾਨ
+	Center X	ਕੇਂਦਰ X
+	Center Y	ਕੇਂਦਰ Y
+	Center Z	ਕੇਂਦਰ Z
+	Center the plot	ਪਲਾਟ ਕੇਂਦਰ ਵਿੱਚ ਕਰੋ
+	Center, Diameter	ਕੇਂਦਰ, ਵਿਆਸ
+	Center, Radius	ਕੇਂਦਰ, ਅਰਧ-ਵਿਆਸ
+	Center, Start, Angle	ਕੇਂਦਰ, ਸ਼ੁਰੂ, ਕੋਣ
+	Center, Start, End	ਕੇਂਦਰ, ਸ਼ੁਰੂ, ਅੰਤ
+	Center, Start, Length	ਕੇਂਦਰ, ਸ਼ੁਰੂ, ਲੰਬਾਈ
+	Centered	ਵਿਚਕਾਰ ਕੀਤਾ ਹੋਇਆ
+	Centimeters	ਸੈਂਟੀਮੀਟਰ
+	Chamfer	ਕੋਨਾ ਕੱਟੋ
+	Change Properties	ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਬਦਲੋ
+	Change Space	ਸਪੇਸ ਬਦਲੋ
+	Change to Current Layer	ਮੌਜੂਦਾ ਪਰਤ ਵਿੱਚ ਬਦਲੋ
+	Changed: {n}	ਬਦਲੇ: {n}
+	Changes apply at once and are kept for next time.	ਤਬਦੀਲੀਆਂ ਤੁਰੰਤ ਲਾਗੂ ਹੁੰਦੀਆਂ ਹਨ ਅਤੇ ਅਗਲੀ ਵਾਰ ਲਈ ਰੱਖੀਆਂ ਜਾਂਦੀਆਂ ਹਨ.
+	Check for Updates…	ਅੱਪਡੇਟਾਂ ਦੀ ਜਾਂਚ ਕਰੋ…
+	Choose the command the alias starts.	ਉਪਨਾਮ ਨਾਲ ਸ਼ੁਰੂ ਹੋਣ ਵਾਲੀ ਕਮਾਂਡ ਚੁਣੋ.
+	Circumference	ਘੇਰਾ
+	Clear Command History	ਕਮਾਂਡ ਇਤਿਹਾਸ ਸਾਫ਼ ਕਰੋ
+	Clear History	ਇਤਿਹਾਸ ਸਾਫ਼ ਕਰੋ
+	Click the ruler to add a tab stop, right-click to remove one	ਟੈਬ ਸਟਾਪ ਜੋੜਨ ਲਈ ਰੂਲਰ ਉੱਤੇ ਕਲਿੱਕ ਕਰੋ, ਹਟਾਉਣ ਲਈ ਸੱਜਾ ਕਲਿੱਕ ਕਰੋ
+	Click to set new origin	ਨਵਾਂ ਮੂਲ ਬਿੰਦੂ ਰੱਖਣ ਲਈ ਕਲਿੱਕ ਕਰੋ
+	Clip	ਕਲਿੱਪ ਕਰੋ
+	Clip Viewport	ਵਿਊਪੋਰਟ ਕਲਿੱਪ ਕਰੋ
+	Clip Xref	Xref ਕਲਿੱਪ ਕਰੋ
+	Close All	ਸਭ ਬੰਦ ਕਰੋ
+	Close All Other Drawings	ਹੋਰ ਸਾਰੀਆਂ ਡਰਾਇੰਗਾਂ ਬੰਦ ਕਰੋ
+	Close Array Editing	ਐਰੇ ਸੰਪਾਦਨ ਬੰਦ ਕਰੋ
+	Close Block Editor	ਬਲਾਕ ਸੰਪਾਦਕ ਬੰਦ ਕਰੋ
+	Close Comparison	ਤੁਲਨਾ ਬੰਦ ਕਰੋ
+	Closed	ਬੰਦ
+	Cmd	Cmd
+	Coincident	ਇਕੋ ਥਾਂ ਉੱਤੇ
+	Collapse Palettes	ਪੈਲਟ ਸੁੰਗੜੋ
+	Collapse Tool Sets	ਟੂਲ ਸੈੱਟ ਸੁੰਗੜੋ
+	Collect	ਇਕੱਠਾ ਕਰੋ
+	Collect Multileaders	ਮਲਟੀਲੀਡਰ ਇਕੱਠੇ ਕਰੋ
+	Collinear	ਇਕੋ ਰੇਖਾ ਵਿੱਚ
+	Color 1	ਰੰਗ 1
+	Color 2	ਰੰਗ 2
+	Color 8	ਰੰਗ 8
+	Color 9	ਰੰਗ 9
+	Color Index	ਰੰਗ ਸੂਚਕਾਂਕ
+	Color-dependent	ਰੰਗ-ਨਿਰਭਰ
+	Color...	ਰੰਗ...
+	Command Aliases	ਕਮਾਂਡ ਉਪਨਾਮ
+	Command History	ਕਮਾਂਡ ਇਤਿਹਾਸ
+	Command Line	ਕਮਾਂਡ ਲਾਈਨ
+	Command Line History Lines	ਕਮਾਂਡ ਲਾਈਨ ਇਤਿਹਾਸ ਦੀਆਂ ਲਾਈਨਾਂ
+	Command Mode	ਕਮਾਂਡ ਮੋਡ
+	Command Reference	ਕਮਾਂਡ ਸੰਦਰਭ
+	Command line history	ਕਮਾਂਡ ਲਾਈਨ ਇਤਿਹਾਸ
+	Compare Drawings...	ਡਰਾਇੰਗਾਂ ਦੀ ਤੁਲਨਾ ਕਰੋ...
+	Computer-aided design and drafting: an open-source, clean-room CAD application written in pure Rust.	ਕੰਪਿਊਟਰ-ਸਹਾਇਤਾ ਡਿਜ਼ਾਈਨ ਅਤੇ ਡਰਾਫਟਿੰਗ: ਪੂਰੀ ਤਰ੍ਹਾਂ Rust ਵਿੱਚ ਲਿਖੀ ਓਪਨ-ਸੋਰਸ, ਕਲੀਨ-ਰੂਮ CAD ਐਪਲੀਕੇਸ਼ਨ.
+	Concentric	ਇਕਕੇਂਦਰੀ
+	Cone	ਸ਼ੰਕੂ
+	Constraint Bars	ਬੰਧਨ ਪੱਟੀਆਂ
+	Constraint Settings	ਬੰਧਨ ਸੈਟਿੰਗਾਂ
+	Construction Line	ਨਿਰਮਾਣ ਰੇਖਾ
+	Contents	ਸਮੱਗਰੀ
+	Control Vertices	ਕੰਟਰੋਲ ਸਿਖਰ ਬਿੰਦੂ
+	Convert Text to Mtext	ਪਾਠ ਨੂੰ Mtext ਵਿੱਚ ਬਦਲੋ
+	Convert to Arc	ਚਾਪ ਵਿੱਚ ਬਦਲੋ
+	Convert to Line	ਰੇਖਾ ਵਿੱਚ ਬਦਲੋ
+	Copy Full File Path	ਪੂਰਾ ਫ਼ਾਈਲ ਪਾਥ ਕਾਪੀ ਕਰੋ
+	Copy History	ਇਤਿਹਾਸ ਕਾਪੀ ਕਰੋ
+	Copy Layout	ਖਾਕਾ ਕਾਪੀ ਕਰੋ
+	Copy Nested Objects	ਨੇਸਟ ਕੀਤੀਆਂ ਵਸਤੂਆਂ ਕਾਪੀ ਕਰੋ
+	Copy Selection	ਚੋਣ ਕਾਪੀ ਕਰੋ
+	Copy as JSON	JSON ਵਜੋਂ ਕਾਪੀ ਕਰੋ
+	Copy with Base Point	ਆਧਾਰ ਬਿੰਦੂ ਨਾਲ ਕਾਪੀ ਕਰੋ
+	Corner	ਕੋਨਾ
+	Could not check for updates.	ਅੱਪਡੇਟਾਂ ਦੀ ਜਾਂਚ ਨਹੀਂ ਹੋ ਸਕੀ.
+	Count	ਗਿਣਤੀ
+	Count List	ਗਿਣਤੀ ਸੂਚੀ
+	Count Table	ਗਿਣਤੀ ਸਾਰਣੀ
+	Create Block	ਬਲਾਕ ਬਣਾਓ
+	Create backup copy with each save	ਹਰ ਵਾਰ ਸੰਭਾਲਣ ਨਾਲ ਬੈਕਅੱਪ ਕਾਪੀ ਬਣਾਓ
+	Create separate hatches	ਵੱਖਰੇ ਹੈਚ ਬਣਾਓ
+	Creates a user parameter	ਵਰਤੋਂਕਾਰ ਪੈਰਾਮੀਟਰ ਬਣਾਉਂਦਾ ਹੈ
+	Crosshair size	ਕ੍ਰਾਸਹੇਅਰ ਦਾ ਆਕਾਰ
+	Crossing selection color:	ਪਾਰ-ਕਾਟ ਚੋਣ ਦਾ ਰੰਗ:
+	Ctrl	Ctrl
+	Ctrl+Enter to apply	ਲਾਗੂ ਕਰਨ ਲਈ Ctrl+Enter
+	Ctrl+Enter to finish	ਮੁਕੰਮਲ ਕਰਨ ਲਈ Ctrl+Enter
+	Current	ਮੌਜੂਦਾ
+	Current Scale Only	ਕੇਵਲ ਮੌਜੂਦਾ ਸਕੇਲ
+	Current layer	ਮੌਜੂਦਾ ਪਰਤ
+	Current selection	ਮੌਜੂਦਾ ਚੋਣ
+	Current: {color}	ਮੌਜੂਦਾ: {color}
+	Curved	ਵਕਰਦਾਰ
+	Customize	ਆਪਣੇ ਮੁਤਾਬਕ ਬਣਾਓ
+	Cut with Base Point	ਆਧਾਰ ਬਿੰਦੂ ਨਾਲ ਕੱਟੋ
+	Cyan	ਸਾਇਨ
+	Cylinder	ਸਿਲੰਡਰ
+	DView	DView
+	DWG	DWG
+	DWG Reference...	DWG ਹਵਾਲਾ...
+	DXF	DXF
+	DXF 2010 and earlier keep them. Use Save As to keep them in the drawing.	DXF 2010 ਅਤੇ ਪੁਰਾਣੇ ਸੰਸਕਰਣ ਉਨ੍ਹਾਂ ਨੂੰ ਰੱਖਦੇ ਹਨ. ਡਰਾਇੰਗ ਵਿੱਚ ਰੱਖਣ ਲਈ ਹੋਰ ਨਾਮ ਨਾਲ ਸੰਭਾਲੋ ਵਰਤੋ.
+	DXF keeps them. Use Save As to keep them in the drawing.	DXF ਉਨ੍ਹਾਂ ਨੂੰ ਰੱਖਦਾ ਹੈ. ਡਰਾਇੰਗ ਵਿੱਚ ਰੱਖਣ ਲਈ ਹੋਰ ਨਾਮ ਨਾਲ ਸੰਭਾਲੋ ਵਰਤੋ.
+	Data	ਡਾਟਾ
+	Data Extraction...	ਡਾਟਾ ਕੱਢਣਾ...
+	Data Link...	ਡਾਟਾ ਲਿੰਕ...
+	Decameters	ਡੈਕਾਮੀਟਰ
+	Decimal	ਦਸ਼ਮਲਵ
+	Decimal Degrees	ਦਸ਼ਮਲਵ ਡਿਗਰੀਆਂ
+	Decimeters	ਡੈਸੀਮੀਟਰ
+	Default Mode	ਮੂਲ ਮੋਡ
+	Default Save Format	ਸੰਭਾਲਣ ਦਾ ਮੂਲ ਫਾਰਮੈਟ
+	Default Save Version	ਸੰਭਾਲਣ ਦਾ ਮੂਲ ਸੰਸਕਰਣ
+	Default save version	ਸੰਭਾਲਣ ਦਾ ਮੂਲ ਸੰਸਕਰਣ
+	Default to boundary extents	ਮੂਲ ਰੂਪ ਵਿੱਚ ਹੱਦ ਦੀ ਪੂਰੀ ਵਿਆਪਤੀ ਵਰਤੋ
+	Define Attributes	ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਪਰਿਭਾਸ਼ਿਤ ਕਰੋ
+	Define Attributes...	ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਪਰਿਭਾਸ਼ਿਤ ਕਰੋ...
+	Define each corner of the selection window with a separate click.	ਚੋਣ ਵਿੰਡੋ ਦਾ ਹਰ ਕੋਨਾ ਵੱਖਰੇ ਕਲਿੱਕ ਨਾਲ ਨਿਰਧਾਰਤ ਕਰੋ.
+	Defined width	ਪਰਿਭਾਸ਼ਿਤ ਚੌੜਾਈ
+	Deg/Min/Sec	ਡਿਗਰੀ/ਮਿੰਟ/ਸਕਿੰਟ
+	Degree	ਡਿਗਰੀ
+	Degrees of Freedom	ਆਜ਼ਾਦੀ ਦੀਆਂ ਡਿਗਰੀਆਂ
+	Degrees of freedom: {n}	ਆਜ਼ਾਦੀ ਦੀਆਂ ਡਿਗਰੀਆਂ: {n}
+	Delete Column	ਕਾਲਮ ਮਿਟਾਓ
+	Delete Constraints	ਬੰਧਨ ਮਿਟਾਓ
+	Delete Current Scale	ਮੌਜੂਦਾ ਸਕੇਲ ਮਿਟਾਓ
+	Delete Dimension Style	ਮਾਪ ਸ਼ੈਲੀ ਮਿਟਾਓ
+	Delete Duplicate Objects	ਦੁਹਰਾਈਆਂ ਵਸਤੂਆਂ ਮਿਟਾਓ
+	Delete Layer	ਪਰਤ ਮਿਟਾਓ
+	Delete Layer State	ਪਰਤ ਦੀ ਹਾਲਤ ਮਿਟਾਓ
+	Delete Layout	ਖਾਕਾ ਮਿਟਾਓ
+	Delete Row	ਕਤਾਰ ਮਿਟਾਓ
+	Delete Text Style	ਪਾਠ ਸ਼ੈਲੀ ਮਿਟਾਓ
+	Delta X	ਡੈਲਟਾ X
+	Delta Y	ਡੈਲਟਾ Y
+	Deselect All	ਸਭ ਦੀ ਚੋਣ ਹਟਾਓ
+	Detach	ਵੱਖ ਕਰੋ
+	Dim scale overall	ਮਾਪਾਂ ਦਾ ਸਮੁੱਚਾ ਸਕੇਲ
+	Dim style	ਮਾਪ ਸ਼ੈਲੀ
+	Dimension	ਮਾਪ
+	Dimension Break	ਮਾਪ ਰੇਖਾ ਵਿੱਚ ਵਿੱਥ
+	Dimension Edit	ਮਾਪ ਸੋਧੋ
+	Dimension Objects Only	ਕੇਵਲ ਮਾਪ ਵਸਤੂਆਂ
+	Dimension Space	ਮਾਪਾਂ ਵਿਚਕਾਰ ਫ਼ਾਸਲਾ
+	Dimension Style Override	ਮਾਪ ਸ਼ੈਲੀ ਓਵਰਰਾਈਡ
+	Dimension Style...	ਮਾਪ ਸ਼ੈਲੀ...
+	Dimension Text Edit	ਮਾਪ ਪਾਠ ਸੋਧੋ
+	Dimension style	ਮਾਪ ਸ਼ੈਲੀ
+	Dimensional Constraint	ਮਾਪ ਬੰਧਨ
+	Dimensional Constraint Parameters	ਮਾਪ ਬੰਧਨ ਪੈਰਾਮੀਟਰ
+	Dimensional Constraints	ਮਾਪ ਬੰਧਨ
+	Dimensions	ਮਾਪ
+	Direction	ਦਿਸ਼ਾ
+	Disassociate Dimensions	ਮਾਪਾਂ ਦੇ ਸੰਬੰਧ ਤੋੜੋ
+	Discard	ਰੱਦ ਕਰੋ
+	Display plot styles	ਪਲਾਟ ਸ਼ੈਲੀਆਂ ਦਿਖਾਓ
+	Divide	ਵੰਡੋ
+	Do not plot (click: plot)	ਪਲਾਟ ਨਾ ਕਰੋ (ਕਲਿੱਕ: ਪਲਾਟ ਕਰੋ)
+	Don't Save	ਨਾ ਸੰਭਾਲੋ
+	Donut	ਛੱਲਾ
+	Double-click to edit the description	ਵਰਣਨ ਸੋਧਣ ਲਈ ਦੋ ਵਾਰ ਕਲਿੱਕ ਕਰੋ
+	Down	ਹੇਠਾਂ
+	Drafting	ਡਰਾਫਟਿੰਗ
+	Drafting Settings	ਡਰਾਫਟਿੰਗ ਸੈਟਿੰਗਾਂ
+	Drafting Settings...	ਡਰਾਫਟਿੰਗ ਸੈਟਿੰਗਾਂ...
+	Drag Dynamic Grip	ਗਤੀਸ਼ੀਲ ਗ੍ਰਿਪ ਖਿੱਚੋ
+	Draw Order	ਦਿਖਾਉਣ ਦਾ ਕ੍ਰਮ
+	Drawing (DWG)	ਡਰਾਇੰਗ (DWG)
+	Drawing (DXF)	ਡਰਾਇੰਗ (DXF)
+	Drawing Limits	ਡਰਾਇੰਗ ਸੀਮਾਵਾਂ
+	Drawing Recovery Manager...	ਡਰਾਇੰਗ ਮੁੜ-ਪ੍ਰਾਪਤੀ ਮੈਨੇਜਰ...
+	Drawing Template (DWT)	ਡਰਾਇੰਗ ਟੈਂਪਲੇਟ (DWT)
+	Drawing Units	ਡਰਾਇੰਗ ਇਕਾਈਆਂ
+	Drawing Utilities	ਡਰਾਇੰਗ ਸਹੂਲਤਾਂ
+	Drawing as bytes	ਬਾਈਟਾਂ ਵਜੋਂ ਡਰਾਇੰਗ
+	Drawings (DWG, DXF)	ਡਰਾਇੰਗਾਂ (DWG, DXF)
+	Drawings with no file yet are saved in the default version. 0 minutes turns automatic save off.	ਬਿਨਾਂ ਫ਼ਾਈਲ ਵਾਲੀਆਂ ਡਰਾਇੰਗਾਂ ਮੂਲ ਸੰਸਕਰਣ ਵਿੱਚ ਸੰਭਾਲੀਆਂ ਜਾਂਦੀਆਂ ਹਨ. 0 ਮਿੰਟ ਆਪਣੇ ਆਪ ਸੰਭਾਲਣਾ ਬੰਦ ਕਰਦਾ ਹੈ.
+	Dynamic Block Data	ਗਤੀਸ਼ੀਲ ਬਲਾਕ ਡਾਟਾ
+	Dynamic Block Grips	ਗਤੀਸ਼ੀਲ ਬਲਾਕ ਗ੍ਰਿਪ
+	Dynamic Block Reference	ਗਤੀਸ਼ੀਲ ਬਲਾਕ ਹਵਾਲਾ
+	Dynamic Dimensions	ਗਤੀਸ਼ੀਲ ਮਾਪ
+	Dynamic Input	ਗਤੀਸ਼ੀਲ ਇਨਪੁੱਟ
+	Dynamic Input (F12)	ਗਤੀਸ਼ੀਲ ਇਨਪੁੱਟ (F12)
+	E	E
+	ENTER	ENTER
+	Edge	ਕਿਨਾਰਾ
+	Edit Array	ਐਰੇ ਸੋਧੋ
+	Edit Attributes...	ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਸੋਧੋ...
+	Edit Block Definition	ਬਲਾਕ ਪਰਿਭਾਸ਼ਾ ਸੋਧੋ
+	Edit Command Aliases (PGP)...	ਕਮਾਂਡ ਉਪਨਾਮ (PGP) ਸੋਧੋ...
+	Edit Mode	ਸੰਪਾਦਨ ਮੋਡ
+	Edit Multileader	ਮਲਟੀਲੀਡਰ ਸੋਧੋ
+	Edit Reference In-Place	ਹਵਾਲਾ ਇੱਥੇ ਹੀ ਸੋਧੋ
+	Edit Table Cell	ਸਾਰਣੀ ਸੈੱਲ ਸੋਧੋ
+	Edit Text	ਲਿਖਤ ਸੋਧੋ
+	Edit Text...	ਪਾਠ ਸੋਧੋ...
+	Elevation	ਉਚਾਈ
+	Ellipse	ਅੰਡਾਕਾਰ
+	Elliptical Arc	ਅੰਡਾਕਾਰ ਚਾਪ
+	Enable 3D mouse navigation	3D ਮਾਊਸ ਨੈਵੀਗੇਸ਼ਨ ਯੋਗ ਕਰੋ
+	Enable Dynamic Input (F12)	ਗਤੀਸ਼ੀਲ ਇਨਪੁੱਟ (F12) ਯੋਗ ਕਰੋ
+	End Object Isolation	ਵਸਤੂਆਂ ਨੂੰ ਵੱਖਰਾ ਦਿਖਾਉਣਾ ਬੰਦ ਕਰੋ
+	End Width	ਅੰਤਲੀ ਚੌੜਾਈ
+	End X	ਅੰਤ X
+	End Y	ਅੰਤ Y
+	End angle	ਅੰਤਲਾ ਕੋਣ
+	Engineering	ਇੰਜੀਨੀਅਰਿੰਗ
+	Enter	Enter
+	Enter Top, Zero or Bottom.	Top, Zero ਜਾਂ Bottom ਦਿਓ.
+	Enter a fit data option	ਫਿੱਟ ਡਾਟਾ ਦੀ ਚੋਣ ਦਿਓ
+	Enter a pattern name	ਪੈਟਰਨ ਦਾ ਨਾਮ ਦਿਓ
+	Enter a vertex editing option	ਸਿਖਰ ਬਿੰਦੂ ਸੰਪਾਦਨ ਦੀ ਚੋਣ ਦਿਓ
+	Enter an option	ਚੋਣ ਦਿਓ
+	Enter angle of xline	xline ਦਾ ਕੋਣ ਦਿਓ
+	Enter angle of xline (0)	xline ਦਾ ਕੋਣ ਦਿਓ (0)
+	Enter angle of xline (0) or	xline ਦਾ ਕੋਣ ਦਿਓ (0) ਜਾਂ
+	Enter area of rectangle in current units	ਮੌਜੂਦਾ ਇਕਾਈਆਂ ਵਿੱਚ ਆਇਤ ਦਾ ਖੇਤਰਫਲ ਦਿਓ
+	Enter attribute prompt	ਵਿਸ਼ੇਸ਼ਤਾ ਦਾ ਪ੍ਰੌਂਪਟ ਦਿਓ
+	Enter attribute tag name	ਵਿਸ਼ੇਸ਼ਤਾ ਦਾ ਟੈਗ ਨਾਮ ਦਿਓ
+	Enter attribute value	ਵਿਸ਼ੇਸ਼ਤਾ ਦਾ ਮੁੱਲ ਦਿਓ
+	Enter block name	ਬਲਾਕ ਦਾ ਨਾਮ ਦਿਓ
+	Enter block names to extract	ਕੱਢਣ ਲਈ ਬਲਾਕਾਂ ਦੇ ਨਾਂ ਦਿਓ
+	Enter constraint type	ਬੰਧਨ ਦੀ ਕਿਸਮ ਦਿਓ
+	Enter continuity	ਨਿਰੰਤਰਤਾ ਦਿਓ
+	Enter default attribute value	ਵਿਸ਼ੇਸ਼ਤਾ ਦਾ ਮੂਲ ਮੁੱਲ ਦਿਓ
+	Enter degree of spline	ਸਪਲਾਈਨ ਦੀ ਘਾਤ ਦਿਓ
+	Enter delta angle	ਡੈਲਟਾ ਕੋਣ ਦਿਓ
+	Enter delta length	ਡੈਲਟਾ ਲੰਬਾਈ ਦਿਓ
+	Enter delta length or	ਡੈਲਟਾ ਲੰਬਾਈ ਦਿਓ ਜਾਂ
+	Enter dimension text	ਮਾਪ ਪਾਠ ਦਿਓ
+	Enter dimension text (<> = measurement)	ਮਾਪ ਪਾਠ ਦਿਓ (<> = ਮਾਪ)
+	Enter dimension value or [name=expression]	ਮਾਪ ਦਾ ਮੁੱਲ ਜਾਂ [name=expression] ਦਿਓ
+	Enter dimension variable name to override	ਓਵਰਰਾਈਡ ਕਰਨ ਲਈ ਮਾਪ ਵੇਰੀਏਬਲ ਦਾ ਨਾਮ ਦਿਓ
+	Enter geometric characteristic	ਜਿਆਮਿਤੀ ਵਿਸ਼ੇਸ਼ਤਾ ਦਿਓ
+	Enter justification type	ਇਕਸਾਰਤਾ ਦੀ ਕਿਸਮ ਦਿਓ
+	Enter leader text	ਲੀਡਰ ਪਾਠ ਦਿਓ
+	Enter mline scale	mline ਸਕੇਲ ਦਿਓ
+	Enter mode	ਮੋਡ ਦਿਓ
+	Enter name of LISP file to load	ਲੋਡ ਕਰਨ ਲਈ LISP ਫ਼ਾਈਲ ਦਾ ਨਾਮ ਦਿਓ
+	Enter name of block to insert	ਪਾਉਣ ਲਈ ਬਲਾਕ ਦਾ ਨਾਮ ਦਿਓ
+	Enter new text	ਨਵਾਂ ਪਾਠ ਦਿਓ
+	Enter next point	ਅਗਲਾ ਬਿੰਦੂ ਦਿਓ
+	Enter number of columns	ਕਾਲਮਾਂ ਦੀ ਗਿਣਤੀ ਦਿਓ
+	Enter number of data rows	ਡਾਟਾ ਕਤਾਰਾਂ ਦੀ ਗਿਣਤੀ ਦਿਓ
+	Enter number of items	ਆਈਟਮਾਂ ਦੀ ਗਿਣਤੀ ਦਿਓ
+	Enter number of items along path	ਮਾਰਗ ਉੱਤੇ ਆਈਟਮਾਂ ਦੀ ਗਿਣਤੀ ਦਿਓ
+	Enter number of sides	ਭੁਜਾਵਾਂ ਦੀ ਗਿਣਤੀ ਦਿਓ
+	Enter number of turns	ਘੁੰਮਣਾਂ ਦੀ ਗਿਣਤੀ ਦਿਓ
+	Enter percentage length	ਲੰਬਾਈ ਪ੍ਰਤੀਸ਼ਤ ਵਿੱਚ ਦਿਓ
+	Enter rectangle length	ਆਇਤ ਦੀ ਲੰਬਾਈ ਦਿਓ
+	Enter rectangle width	ਆਇਤ ਦੀ ਚੌੜਾਈ ਦਿਓ
+	Enter scale factor	ਸਕੇਲ ਗੁਣਕ ਦਿਓ
+	Enter text	ਪਾਠ ਦਿਓ
+	Enter text (use \\P for new paragraphs)	ਪਾਠ ਦਿਓ (ਨਵੇਂ ਪੈਰਿਆਂ ਲਈ \\P ਵਰਤੋ)
+	Enter the number of segments	ਖੰਡਾਂ ਦੀ ਗਿਣਤੀ ਦਿਓ
+	Enter twist direction of helix	ਹੈਲਿਕਸ ਦੇ ਮਰੋੜ ਦੀ ਦਿਸ਼ਾ ਦਿਓ
+	Entire drawing	ਪੂਰੀ ਡਰਾਇੰਗ
+	Equal	ਬਰਾਬਰ
+	Evaluate	ਮੁਲਾਂਕਣ ਕਰੋ
+	Evaluate LISP	LISP ਦਾ ਮੁਲਾਂਕਣ ਕਰੋ
+	Exclude from new selection set	ਨਵੇਂ ਚੋਣ ਸੈੱਟ ਵਿੱਚੋਂ ਬਾਹਰ ਰੱਖੋ
+	Exclude:	ਬਾਹਰ ਰੱਖੋ:
+	Explode	ਹਿੱਸੇ ਵੱਖ ਕਰੋ
+	Explode Attributes to Text	ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਨੂੰ ਪਾਠ ਵਿੱਚ ਵੱਖ ਕਰੋ
+	Export Comparison	ਤੁਲਨਾ ਨਿਰਯਾਤ ਕਰੋ
+	Export Table	ਸਾਰਣੀ ਨਿਰਯਾਤ ਕਰੋ
+	Export to PDF...	PDF ਵਿੱਚ ਨਿਰਯਾਤ ਕਰੋ...
+	Export...	ਨਿਰਯਾਤ ਕਰੋ...
+	Express Tools	ਐਕਸਪ੍ਰੈਸ ਟੂਲ
+	Expression	ਵਿਅੰਜਕ
+	Extend	ਵਧਾਓ
+	Extension	ਵਿਸਤਾਰ
+	Extents	ਪੂਰੀ ਵਿਆਪਤੀ
+	External Reference	ਬਾਹਰੀ ਹਵਾਲਾ
+	External References	ਬਾਹਰੀ ਹਵਾਲੇ
+	Extrude	ਬਾਹਰ ਵੱਲ ਉਭਾਰੋ
+	Feet	ਫੁੱਟ
+	File Tab	ਫ਼ਾਈਲ ਟੈਬ
+	Fillet	ਗੋਲ ਜੋੜ ਬਣਾਓ
+	Filter	ਫਿਲਟਰ
+	Filters	ਫ਼ਿਲਟਰ
+	Find All	ਸਭ ਲੱਭੋ
+	Find and Replace	ਲੱਭੋ ਅਤੇ ਬਦਲੋ
+	Find what:	ਇਹ ਲੱਭੋ:
+	Find...	ਲੱਭੋ...
+	First corner	ਪਹਿਲਾ ਕੋਨਾ
+	Fit Points	ਫਿੱਟ ਬਿੰਦੂ
+	Fit to paper	ਕਾਗਜ਼ ਅਨੁਸਾਰ ਫਿੱਟ ਕਰੋ
+	Fix	ਸਥਿਰ ਕਰੋ
+	Flatten Objects	ਵਸਤੂਆਂ ਸਮਤਲ ਕਰੋ
+	Fractional	ਭਿੰਨਾਤਮਕ
+	Freehand	ਹੱਥ ਨਾਲ ਖੁੱਲ੍ਹਾ ਬਣਾਓ
+	Freeze	ਫ੍ਰੀਜ਼ ਕਰੋ
+	Freeze Layer	ਪਰਤ ਫ੍ਰੀਜ਼ ਕਰੋ
+	Freeze in new viewports	ਨਵੇਂ ਵਿਊਪੋਰਟਾਂ ਵਿੱਚ ਫ੍ਰੀਜ਼ ਕਰੋ
+	Freeze/Thaw	ਫ੍ਰੀਜ਼/ਅਣਫ੍ਰੀਜ਼ ਕਰੋ
+	Freeze/Thaw in all viewports	ਸਾਰੇ ਵਿਊਪੋਰਟਾਂ ਵਿੱਚ ਫ੍ਰੀਜ਼/ਅਣਫ੍ਰੀਜ਼ ਕਰੋ
+	Freeze/Thaw in the current viewport	ਮੌਜੂਦਾ ਵਿਊਪੋਰਟ ਵਿੱਚ ਫ੍ਰੀਜ਼/ਅਣਫ੍ਰੀਜ਼ ਕਰੋ
+	From Template...	ਟੈਂਪਲੇਟ ਤੋਂ...
+	Geometric Center	ਜਿਆਮਿਤੀ ਕੇਂਦਰ
+	Geometric Constraint	ਜਿਆਮਿਤੀ ਬੰਧਨ
+	Geometric Constraints	ਜਿਆਮਿਤੀ ਬੰਧਨ
+	Geometry	ਜਿਆਮਿਤੀ
+	Get Variable	ਵੇਰੀਏਬਲ ਲਵੋ
+	Get View	ਦ੍ਰਿਸ਼ ਲਵੋ
+	Get from the Drawing	ਡਰਾਇੰਗ ਵਿੱਚੋਂ ਲਵੋ
+	Gigameters	ਗੀਗਾਮੀਟਰ
+	Global	ਸਭ ਲਈ
+	Global width	ਸਮੁੱਚੀ ਚੌੜਾਈ
+	Grab bag	ਮਿਲੀਆਂ-ਜੁਲੀਆਂ ਚੀਜ਼ਾਂ
+	Gradient	ਗ੍ਰੇਡੀਐਂਟ
+	Gradient...	ਗ੍ਰੇਡੀਐਂਟ...
+	Grads	ਗ੍ਰੈਡ
+	Grid	ਗ੍ਰਿਡ
+	Grid (F7)	ਗ੍ਰਿੱਡ (F7)
+	Grid Display	ਗ੍ਰਿੱਡ ਡਿਸਪਲੇ
+	Grid On (F7)	ਗ੍ਰਿੱਡ ਚਾਲੂ (F7)
+	Grid snap	ਗ੍ਰਿੱਡ ਸਨੈਪ
+	Grid spacing	ਗ੍ਰਿੱਡ ਫ਼ਾਸਲਾ
+	Grip Edit	ਗ੍ਰਿਪ ਸੰਪਾਦਨ
+	Grip Mirror	ਗ੍ਰਿਪ ਨਾਲ ਸ਼ੀਸ਼ੇ ਵਾਂਗ ਉਲਟਾਓ
+	Grip Option	ਗ੍ਰਿਪ ਚੋਣ
+	Grip Rotate	ਗ੍ਰਿਪ ਨਾਲ ਘੁੰਮਾਓ
+	Grip Scale	ਗ੍ਰਿਪ ਨਾਲ ਸਕੇਲ ਕਰੋ
+	Grip Stretch	ਗ੍ਰਿਪ ਨਾਲ ਖਿੱਚੋ
+	Grip size	ਗ੍ਰਿਪ ਦਾ ਆਕਾਰ
+	Grips	ਗ੍ਰਿਪ
+	Group	ਸਮੂਹ
+	Group Edit	ਸਮੂਹ ਸੋਧੋ
+	Group Options	ਸਮੂਹ ਚੋਣਾਂ
+	Group Selection	ਸਮੂਹ ਚੋਣ
+	Groups	ਸਮੂਹ
+	Hatch	ਹੈਚ
+	Hatch Edit	ਹੈਚ ਸੋਧੋ
+	Hatch Pattern	ਹੈਚ ਪੈਟਰਨ
+	Hatch Patterns	ਹੈਚ ਪੈਟਰਨ
+	Hatch Pick	ਹੈਚ ਚੁਣੋ
+	Hatch and Gradient	ਹੈਚ ਅਤੇ ਗ੍ਰੇਡੀਐਂਟ
+	Hatch origin	ਹੈਚ ਦਾ ਮੂਲ ਬਿੰਦੂ
+	Hatch...	ਹੈਚ...
+	Hatches	ਹੈਚ
+	Hectometers	ਹੈਕਟੋਮੀਟਰ
+	Height: {height}	ਉਚਾਈ: {height}
+	Helix	ਹੈਲਿਕਸ
+	Hemispherical	ਅਰਧ-ਗੋਲਾਕਾਰ
+	Hidden	ਲੁਕਾਇਆ ਹੋਇਆ
+	Hide	ਲੁਕਾਓ
+	Hide All	ਸਭ ਲੁਕਾਓ
+	Hide All Constraint Bars	ਸਾਰੀਆਂ ਬੰਧਨ ਪੱਟੀਆਂ ਲੁਕਾਓ
+	Hide All Dynamic Dimensions	ਸਾਰੇ ਗਤੀਸ਼ੀਲ ਮਾਪ ਲੁਕਾਓ
+	Hide CADCraft	CADCraft ਲੁਕਾਓ
+	Hide Layer List	ਪਰਤ ਸੂਚੀ ਲੁਕਾਓ
+	Hide Objects	ਵਸਤੂਆਂ ਲੁਕਾਓ
+	Hide Palette	ਪੈਲਟ ਲੁਕਾਓ
+	Hide Palettes	ਪੈਲਟ ਲੁਕਾਓ
+	History	ਇਤਿਹਾਸ
+	Hold Shift to add to the selection	ਚੋਣ ਵਿੱਚ ਜੋੜਨ ਲਈ Shift ਦਬਾਈ ਰੱਖੋ
+	HorizontalDistance	ਲੇਟਵੀਂ ਦੂਰੀ
+	How to apply:	ਲਾਗੂ ਕਰਨ ਦਾ ਢੰਗ:
+	ID Point	ਬਿੰਦੂ ਦੇ ਨਿਰਦੇਸ਼ਾਂਕ
+	Ignore	ਅਣਡਿੱਠਾ ਕਰੋ
+	Imperial (inches)	ਇੰਪੀਰੀਅਲ (ਇੰਚ)
+	Implied Loops	ਅਨੁਮਾਨਿਤ ਬੰਦ ਖੇਤਰ
+	Import and replace	ਆਯਾਤ ਕਰੋ ਅਤੇ ਬਦਲੋ
+	Import...	ਆਯਾਤ ਕਰੋ...
+	Import: there is no file dialog here; run ALIASEDIT with the file's contents using its text parameter.	ਆਯਾਤ: ਇੱਥੇ ਕੋਈ ਫ਼ਾਈਲ ਡਾਇਲਾਗ ਨਹੀਂ; ALIASEDIT ਨੂੰ ਉਸ ਦੇ text ਪੈਰਾਮੀਟਰ ਰਾਹੀਂ ਫ਼ਾਈਲ ਦੀ ਸਮੱਗਰੀ ਨਾਲ ਚਲਾਓ.
+	In	ਅੰਦਰ
+	In-window Menu Bar	ਵਿੰਡੋ ਅੰਦਰ ਮੀਨੂ ਪੱਟੀ
+	Inches	ਇੰਚ
+	Include in new selection set	ਨਵੇਂ ਚੋਣ ਸੈੱਟ ਵਿੱਚ ਸ਼ਾਮਲ ਕਰੋ
+	Increment angle	ਕੋਣ ਵਾਧਾ
+	Index Color	ਇੰਡੈਕਸ ਰੰਗ
+	Index color: {index}	ਇੰਡੈਕਸ ਰੰਗ: {index}
+	Indicate selection area	ਚੋਣ ਖੇਤਰ ਦਰਸਾਓ
+	Infer Constraints	ਬੰਧਨਾਂ ਦਾ ਅਨੁਮਾਨ ਲਗਾਓ
+	Inquiry	ਪੁੱਛਗਿੱਛ
+	Insert Block	ਬਲਾਕ ਪਾਓ
+	Insert Column	ਕਾਲਮ ਪਾਓ
+	Insert Row	ਕਤਾਰ ਪਾਓ
+	Insert Table Formula	ਸਾਰਣੀ ਫਾਰਮੂਲਾ ਪਾਓ
+	Insert tab	ਟੈਬ ਪਾਓ
+	Insert this block	ਇਹ ਬਲਾਕ ਪਾਓ
+	Insertion	ਪਾਉਣਾ
+	Insertion X	ਪਾਉਣ ਦਾ X
+	Insertion Y	ਪਾਉਣ ਦਾ Y
+	Insertion Z	ਪਾਉਣ ਦਾ Z
+	Insertion scale	ਪਾਉਣ ਦਾ ਸਕੇਲ
+	Inspect Constraints	ਬੰਧਨਾਂ ਦੀ ਜਾਂਚ ਕਰੋ
+	Inspect Drawing	ਡਰਾਇੰਗ ਦੀ ਜਾਂਚ ਕਰੋ
+	Inspection	ਜਾਂਚ
+	Interface Language	ਇੰਟਰਫੇਸ ਦੀ ਭਾਸ਼ਾ
+	Interface Theme	ਇੰਟਰਫੇਸ ਥੀਮ
+	Interface scale	ਇੰਟਰਫੇਸ ਸਕੇਲ
+	Interface theme	ਇੰਟਰਫੇਸ ਥੀਮ
+	Intersect	ਸਾਂਝਾ ਹਿੱਸਾ ਲਵੋ
+	Inverted	ਉਲਟਿਆ
+	Island	ਅੰਦਰਲਾ ਵੱਖਰਾ ਖੇਤਰ
+	Island detection	ਅੰਦਰਲੇ ਵੱਖਰੇ ਖੇਤਰ ਦੀ ਪਛਾਣ
+	Isolate	ਵੱਖਰਾ ਦਿਖਾਓ
+	Isolate Layer	ਪਰਤ ਵੱਖਰੀ ਦਿਖਾਓ
+	Isolate Objects	ਵਸਤੂਆਂ ਵੱਖਰੀਆਂ ਦਿਖਾਓ
+	Isometric Drafting	ਸਮਮਾਪੀ ਡਰਾਫਟਿੰਗ
+	Isometric Plane	ਸਮਮਾਪੀ ਸਮਤਲ
+	Isometric snap	ਸਮਮਾਪੀ ਸਨੈਪ
+	Jogged	ਮੋੜ ਵਾਲਾ
+	Jogged Linear	ਮੋੜ ਵਾਲਾ ਲੀਨੀਅਰ ਮਾਪ
+	Join	ਜੋੜੋ
+	Join the ArtCraft Discord…	ArtCraft Discord ਨਾਲ ਜੁੜੋ…
+	Join us on Discord	Discord 'ਤੇ ਸਾਡੇ ਨਾਲ ਜੁੜੋ
+	Justification	ਇਕਸਾਰਤਾ
+	Keep an editable copy of this table in the drawing	ਇਸ ਸਾਰਣੀ ਦੀ ਸੋਧਣਯੋਗ ਕਾਪੀ ਡਰਾਇੰਗ ਵਿੱਚ ਰੱਖੋ
+	Keep my aliases	ਮੇਰੇ ਉਪਨਾਮ ਰੱਖੋ
+	Keep the system cursor visible over the drawing area	ਡਰਾਇੰਗ ਖੇਤਰ ਉੱਤੇ ਸਿਸਟਮ ਕਰਸਰ ਦਿਖਦਾ ਰੱਖੋ
+	Keyboard Shortcuts	ਕੀਬੋਰਡ ਸ਼ਾਰਟਕੱਟ
+	Kilometers	ਕਿਲੋਮੀਟਰ
+	Korean	ਕੋਰੀਆਈ
+	Largest array	ਸਭ ਤੋਂ ਵੱਡੀ ਐਰੇ
+	Layer	ਪਰਤ
+	Layer Delete	ਪਰਤ ਮਿਟਾਓ
+	Layer Match	ਪਰਤ ਮੇਲ
+	Layer Merge	ਪਰਤ ਮਿਲਾਓ
+	Layer Off	ਪਰਤ ਬੰਦ
+	Layer Properties	ਪਰਤ ਦੀਆਂ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ
+	Layer Properties Manager	ਪਰਤ ਵਿਸ਼ੇਸ਼ਤਾ ਮੈਨੇਜਰ
+	Layer Properties Manager — current viewport	ਪਰਤ ਵਿਸ਼ੇਸ਼ਤਾ ਮੈਨੇਜਰ — ਮੌਜੂਦਾ ਵਿਊਪੋਰਟ
+	Layer State	ਪਰਤ ਦੀ ਹਾਲਤ
+	Layer States Manager...	ਪਰਤ ਹਾਲਤ ਮੈਨੇਜਰ...
+	Layer Tools	ਪਰਤ ਟੂਲ
+	Layer contains objects (double-click to make current)	ਪਰਤ ਵਿੱਚ ਵਸਤੂਆਂ ਹਨ (ਮੌਜੂਦਾ ਬਣਾਉਣ ਲਈ ਦੋ ਵਾਰ ਕਲਿੱਕ ਕਰੋ)
+	Layer is empty (double-click to make current)	ਪਰਤ ਖਾਲੀ ਹੈ (ਮੌਜੂਦਾ ਬਣਾਉਣ ਲਈ ਦੋ ਵਾਰ ਕਲਿੱਕ ਕਰੋ)
+	Layers Palette	ਪਰਤਾਂ ਪੈਲਟ
+	Layers displayed: {shown} of {total}.   Current layer: {layer}	ਦਿਖਾਈਆਂ ਪਰਤਾਂ: {total} ਵਿੱਚੋਂ {shown}.   ਮੌਜੂਦਾ ਪਰਤ: {layer}
+	Layout list	ਖਾਕਾ ਸੂਚੀ
+	Layout paper	ਖਾਕੇ ਦਾ ਕਾਗਜ਼
+	Layout {name}: {table}	ਖਾਕਾ {name}: {table}
+	Layouts	ਖਾਕੇ
+	Leader	ਲੀਡਰ ਰੇਖਾ
+	Leaders Only	ਕੇਵਲ ਲੀਡਰ ਰੇਖਾਵਾਂ
+	Left device button: zoom extents. Right device button: calibrate.	ਖੱਬਾ ਜੰਤਰ ਬਟਨ: ਪੂਰੀ ਵਿਆਪਤੀ ਤੱਕ ਜ਼ੂਮ. ਸੱਜਾ ਜੰਤਰ ਬਟਨ: ਕੈਲੀਬਰੇਟ ਕਰੋ.
+	Length	ਲੰਬਾਈ
+	Length X	ਲੰਬਾਈ X
+	Length Y	ਲੰਬਾਈ Y
+	Lengthen	ਲੰਮਾ ਕਰੋ
+	Levels	ਪੱਧਰ
+	Light Years	ਪ੍ਰਕਾਸ਼ ਵਰ੍ਹੇ
+	Limits	ਸੀਮਾਵਾਂ
+	Linear	ਲੀਨੀਅਰ
+	Lines of Command History	ਕਮਾਂਡ ਇਤਿਹਾਸ ਦੀਆਂ ਲਾਈਨਾਂ
+	Linetype	ਰੇਖਾ ਦੀ ਕਿਸਮ
+	Linetype Scale	ਰੇਖਾ ਕਿਸਮ ਦਾ ਸਕੇਲ
+	Linetype scale	ਰੇਖਾ ਕਿਸਮ ਦਾ ਸਕੇਲ
+	Linetype...	ਰੇਖਾ ਦੀ ਕਿਸਮ...
+	Lineweight	ਰੇਖਾ ਦਾ ਭਾਰ
+	Lineweight...	ਰੇਖਾ ਦਾ ਭਾਰ...
+	List Blocks	ਬਲਾਕਾਂ ਦੀ ਸੂਚੀ
+	List Dimension Styles	ਮਾਪ ਸ਼ੈਲੀਆਂ ਦੀ ਸੂਚੀ
+	List Groups	ਸਮੂਹਾਂ ਦੀ ਸੂਚੀ
+	List Layer States	ਪਰਤ ਹਾਲਤਾਂ ਦੀ ਸੂਚੀ
+	List Layouts	ਖਾਕਿਆਂ ਦੀ ਸੂਚੀ
+	List System Variables	ਸਿਸਟਮ ਵੇਰੀਏਬਲਾਂ ਦੀ ਸੂਚੀ
+	List Text Styles	ਪਾਠ ਸ਼ੈਲੀਆਂ ਦੀ ਸੂਚੀ
+	Load Application...	ਐਪਲੀਕੇਸ਼ਨ ਲੋਡ ਕਰੋ...
+	Load all	ਸਭ ਲੋਡ ਕਰੋ
+	Load...	ਲੋਡ ਕਰੋ...
+	Loaded	ਲੋਡ ਕੀਤਾ
+	Loaded linetypes	ਲੋਡ ਕੀਤੀਆਂ ਰੇਖਾ ਕਿਸਮਾਂ
+	Lock	ਲਾਕ ਕਰੋ
+	Lock Layer	ਪਰਤ ਲਾਕ ਕਰੋ
+	Lock viewport	ਵਿਊਪੋਰਟ ਲਾਕ ਕਰੋ
+	Lock/Unlock	ਲਾਕ/ਅਣਲਾਕ ਕਰੋ
+	Loft	ਲੌਫਟ
+	Longer click duration:	ਵੱਧ ਦੇਰ ਕਲਿੱਕ ਦੀ ਮਿਆਦ:
+	Ltscale	Ltscale
+	MIT OR Apache-2.0. Not affiliated with Autodesk, Inc.	MIT OR Apache-2.0. Autodesk, Inc. ਨਾਲ ਸੰਬੰਧਿਤ ਨਹੀਂ.
+	MODEL	ਮਾਡਲ
+	MText	MText
+	Magenta	ਮੈਜੈਂਟਾ
+	Major line every	ਹਰ ਇੰਨੇ ਫ਼ਾਸਲੇ ਉੱਤੇ ਮੁੱਖ ਰੇਖਾ
+	Make Current	ਮੌਜੂਦਾ ਬਣਾਓ
+	Make Object's Layer Current	ਵਸਤੂ ਦੀ ਪਰਤ ਮੌਜੂਦਾ ਬਣਾਓ
+	Make it a block of this drawing, keeping its layer names	ਇਸ ਨੂੰ ਇਸ ਡਰਾਇੰਗ ਦਾ ਬਲਾਕ ਬਣਾਓ, ਇਸ ਦੀਆਂ ਪਰਤਾਂ ਦੇ ਨਾਂ ਰੱਖਦੇ ਹੋਏ
+	Make it a block of this drawing; its layers become NAME$0$LAYER	ਇਸ ਨੂੰ ਇਸ ਡਰਾਇੰਗ ਦਾ ਬਲਾਕ ਬਣਾਓ; ਇਸ ਦੀਆਂ ਪਰਤਾਂ NAME$0$LAYER ਬਣ ਜਾਂਦੀਆਂ ਹਨ
+	Make...	ਬਣਾਓ...
+	Match Layer	ਪਰਤ ਨਾਲ ਮੇਲ ਕਰੋ
+	Match Properties	ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਨਾਲ ਮੇਲ ਕਰੋ
+	Match case	ਵੱਡੇ-ਛੋਟੇ ਅੱਖਰਾਂ ਦਾ ਮੇਲ ਕਰੋ
+	Measure Distance	ਦੂਰੀ ਮਾਪੋ
+	Measure Geometry	ਜਿਆਮਿਤੀ ਮਾਪੋ
+	Merge Cells	ਸੈੱਲ ਮਿਲਾਓ
+	Meters	ਮੀਟਰ
+	Method	ਢੰਗ
+	Metric (millimetres)	ਮੀਟ੍ਰਿਕ (ਮਿਲੀਮੀਟਰ)
+	Microinches	ਮਾਈਕ੍ਰੋਇੰਚ
+	Microns	ਮਾਈਕ੍ਰੋਨ
+	Mid Between 2 Points	2 ਬਿੰਦੂਆਂ ਦੇ ਵਿਚਕਾਰ
+	Miles	ਮੀਲ
+	Millimeters	ਮਿਲੀਮੀਟਰ
+	Mils	ਮਿਲ (ਇੰਚ ਦਾ ਹਜ਼ਾਰਵਾਂ ਹਿੱਸਾ)
+	Missing	ਗੁੰਮ
+	Mode	ਮੋਡ
+	Model Space (in viewport)	ਮਾਡਲ ਸਪੇਸ (ਵਿਊਪੋਰਟ ਵਿੱਚ)
+	Model background	ਮਾਡਲ ਪਿੱਛੋਕੜ
+	Modeling	ਮਾਡਲਿੰਗ
+	Modify	ਸੋਧੋ
+	More than {n} aliases.	{n} ਤੋਂ ਵੱਧ ਉਪਨਾਮ.
+	More toolbar commands	ਹੋਰ ਟੂਲਬਾਰ ਕਮਾਂਡਾਂ
+	Move Down	ਹੇਠਾਂ ਲਿਜਾਓ
+	Move Up	ਉੱਪਰ ਲਿਜਾਓ
+	Move sideways to pan; push/pull or twist to zoom.	ਪੈਨ ਕਰਨ ਲਈ ਪਾਸੇ ਹਿਲਾਓ; ਜ਼ੂਮ ਲਈ ਧੱਕੋ/ਖਿੱਚੋ ਜਾਂ ਮਰੋੜੋ.
+	Move/Copy/Rotate	ਹਿਲਾਓ/ਕਾਪੀ ਕਰੋ/ਘੁੰਮਾਓ
+	Multileader	ਮਲਟੀਲੀਡਰ
+	Multileader Style...	ਮਲਟੀਲੀਡਰ ਸ਼ੈਲੀ...
+	Multileader style	ਮਲਟੀਲੀਡਰ ਸ਼ੈਲੀ
+	Multiline	ਮਲਟੀਲਾਈਨ
+	Multiline Style...	ਮਲਟੀਲਾਈਨ ਸ਼ੈਲੀ...
+	Multiline Text	ਬਹੁ-ਲਾਈਨ ਪਾਠ
+	Multiline Text...	ਬਹੁ-ਲਾਈਨ ਪਾਠ...
+	Multiline text	ਬਹੁ-ਲਾਈਨ ਪਾਠ
+	Multiline...	ਮਲਟੀਲਾਈਨ...
+	Multiple	ਕਈ
+	Multiple Insert	ਕਈ ਵਾਰ ਪਾਓ
+	Multiple Point	ਕਈ ਬਿੰਦੂ
+	My	ਮੇਰਾ
+	My properties: not available yet	ਮੇਰੀਆਂ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ: ਹਾਲੇ ਉਪਲਬਧ ਨਹੀਂ
+	N	N
+	Named	ਨਾਮ ਦਿੱਤੇ
+	Named Viewports...	ਨਾਮ ਦਿੱਤੇ ਵਿਊਪੋਰਟ...
+	Named Views...	ਨਾਮ ਦਿੱਤੇ ਦ੍ਰਿਸ਼...
+	Nanometers	ਨੈਨੋਮੀਟਰ
+	Nearest	ਸਭ ਤੋਂ ਨੇੜਲਾ
+	Needs Ctrl, Alt or a function key	Ctrl, Alt ਜਾਂ ਫੰਕਸ਼ਨ ਕੁੰਜੀ ਲੋੜੀਂਦੀ ਹੈ
+	New	ਨਵਾਂ
+	New (metric)	ਨਵਾਂ (ਮੀਟ੍ਰਿਕ)
+	New CTB	ਨਵਾਂ CTB
+	New Drawing	ਨਵੀਂ ਡਰਾਇੰਗ
+	New Drawing (⌘N)	ਨਵੀਂ ਡਰਾਇੰਗ (⌘N)
+	New Drawing...	ਨਵੀਂ ਡਰਾਇੰਗ...
+	New Layer	ਨਵੀਂ ਪਰਤ
+	New Layout	ਨਵਾਂ ਖਾਕਾ
+	New STB	ਨਵਾਂ STB
+	New VP Freeze	ਨਵੇਂ ਵਿਊਪੋਰਟ ਵਿੱਚ ਫ੍ਰੀਜ਼
+	New Viewports...	ਨਵੇਂ ਵਿਊਪੋਰਟ...
+	New and the first drawing at startup use these units unless a default template is set (QNEWTEMPLATE).	ਜੇ ਮੂਲ ਟੈਂਪਲੇਟ ਸੈੱਟ ਨਾ ਹੋਵੇ (QNEWTEMPLATE), ਤਾਂ ਨਵੀਂ ਅਤੇ ਸ਼ੁਰੂਆਤ ਦੀ ਪਹਿਲੀ ਡਰਾਇੰਗ ਇਹ ਇਕਾਈਆਂ ਵਰਤਦੀਆਂ ਹਨ.
+	New block	ਨਵਾਂ ਬਲਾਕ
+	New from Template...	ਟੈਂਪਲੇਟ ਤੋਂ ਨਵਾਂ...
+	New layout	ਨਵਾਂ ਖਾਕਾ
+	New state name	ਹਾਲਤ ਦਾ ਨਵਾਂ ਨਾਮ
+	New style	ਨਵੀਂ ਸ਼ੈਲੀ
+	Next Change	ਅਗਲੀ ਤਬਦੀਲੀ
+	No alias file loaded. REINIT replaces these aliases with a file's.	ਕੋਈ ਉਪਨਾਮ ਫ਼ਾਈਲ ਲੋਡ ਨਹੀਂ. REINIT ਇਹ ਉਪਨਾਮ ਫ਼ਾਈਲ ਵਾਲਿਆਂ ਨਾਲ ਬਦਲਦਾ ਹੈ.
+	No blocks defined in this drawing.	ਇਸ ਡਰਾਇੰਗ ਵਿੱਚ ਕੋਈ ਬਲਾਕ ਪਰਿਭਾਸ਼ਿਤ ਨਹੀਂ.
+	No contributor data was built into this copy.	ਇਸ ਕਾਪੀ ਵਿੱਚ ਕੋਈ ਯੋਗਦਾਨੀ ਡਾਟਾ ਸ਼ਾਮਲ ਨਹੀਂ ਕੀਤਾ ਗਿਆ.
+	No external references are attached.	ਕੋਈ ਬਾਹਰੀ ਹਵਾਲੇ ਨਹੀਂ ਜੋੜੇ ਹੋਏ.
+	No model credits were built into this copy.	ਇਸ ਕਾਪੀ ਵਿੱਚ ਮਾਡਲਾਂ ਦਾ ਕੋਈ ਸਿਹਰਾ ਸ਼ਾਮਲ ਨਹੀਂ ਕੀਤਾ ਗਿਆ.
+	No objects selected and no command running:	ਕੋਈ ਵਸਤੂ ਨਹੀਂ ਚੁਣੀ ਅਤੇ ਕੋਈ ਕਮਾਂਡ ਨਹੀਂ ਚੱਲ ਰਹੀ:
+	No plot style tables.	ਕੋਈ ਪਲਾਟ ਸ਼ੈਲੀ ਸਾਰਣੀਆਂ ਨਹੀਂ.
+	No saved layer states	ਕੋਈ ਸੰਭਾਲੀਆਂ ਪਰਤ ਹਾਲਤਾਂ ਨਹੀਂ
+	No selection	ਕੋਈ ਚੋਣ ਨਹੀਂ
+	No supported 3D mouse found	ਕੋਈ ਸਮਰਥਿਤ 3D ਮਾਊਸ ਨਹੀਂ ਮਿਲਿਆ
+	Node	ਨੋਡ
+	Not Found	ਨਹੀਂ ਮਿਲਿਆ
+	Not a number or distance: {text}	ਅੰਕ ਜਾਂ ਦੂਰੀ ਨਹੀਂ: {text}
+	Not available	ਉਪਲਬਧ ਨਹੀਂ
+	Not available yet	ਹਾਲੇ ਉਪਲਬਧ ਨਹੀਂ
+	Not loaded	ਲੋਡ ਨਹੀਂ ਕੀਤਾ
+	Nothing found	ਕੁਝ ਨਹੀਂ ਮਿਲਿਆ
+	Numbered list	ਨੰਬਰ ਵਾਲੀ ਸੂਚੀ
+	Object	ਆਬਜੈਕਟ
+	Object Snap	ਆਬਜੈਕਟ ਸਨੈਪ
+	Object Snap (F3)	ਆਬਜੈਕਟ ਸਨੈਪ (F3)
+	Object Snap On (F3)	ਆਬਜੈਕਟ ਸਨੈਪ ਚਾਲੂ (F3)
+	Object Snap Tracking	ਆਬਜੈਕਟ ਸਨੈਪ ਟ੍ਰੈਕਿੰਗ
+	Object Snap Tracking (F11)	ਆਬਜੈਕਟ ਸਨੈਪ ਟ੍ਰੈਕਿੰਗ (F11)
+	Object Snap Tracking Settings	ਆਬਜੈਕਟ ਸਨੈਪ ਟ੍ਰੈਕਿੰਗ ਸੈਟਿੰਗਾਂ
+	Object grouping	ਵਸਤੂ ਸਮੂਹਬੰਦੀ
+	Object selection limit for display of grips	ਗ੍ਰਿਪ ਦਿਖਾਉਣ ਲਈ ਵਸਤੂ ਚੋਣ ਸੀਮਾ
+	Object snap aperture	ਆਬਜੈਕਟ ਸਨੈਪ ਖੋਜ ਖੇਤਰ
+	Object snap marker size	ਆਬਜੈਕਟ ਸਨੈਪ ਨਿਸ਼ਾਨ ਦਾ ਆਕਾਰ
+	Object type:	ਵਸਤੂ ਕਿਸਮ:
+	Objects on locked layers	ਲਾਕ ਪਰਤਾਂ ਉੱਤੇ ਵਸਤੂਆਂ
+	Objects selected and no command running:	ਵਸਤੂਆਂ ਚੁਣੀਆਂ ਹਨ ਅਤੇ ਕੋਈ ਕਮਾਂਡ ਨਹੀਂ ਚੱਲ ਰਹੀ:
+	Oblique	ਤਿਰਛਾ
+	Offset	ਆਫਸੈੱਟ
+	On/Off	ਚਾਲੂ/ਬੰਦ
+	One of the Crafting Apps by the ArtCraft team and community.	ArtCraft ਟੀਮ ਅਤੇ ਭਾਈਚਾਰੇ ਦੀਆਂ Crafting Apps ਵਿੱਚੋਂ ਇੱਕ.
+	Only in this drawing: {n}	ਕੇਵਲ ਇਸ ਡਰਾਇੰਗ ਵਿੱਚ: {n}
+	Only in {name}: {n}	ਕੇਵਲ {name} ਵਿੱਚ: {n}
+	Oops	ਓਹੋ
+	Open (⌘O)	ਖੋਲ੍ਹੋ (⌘O)
+	Open Sample Drawing	ਨਮੂਨਾ ਡਰਾਇੰਗ ਖੋਲ੍ਹੋ
+	Open Xref	Xref ਖੋਲ੍ਹੋ
+	Open a drawing first.	ਪਹਿਲਾਂ ਡਰਾਇੰਗ ਖੋਲ੍ਹੋ.
+	Open and Save	ਖੋਲ੍ਹੋ ਅਤੇ ਸੰਭਾਲੋ
+	Open in Block Editor	ਬਲਾਕ ਸੰਪਾਦਕ ਵਿੱਚ ਖੋਲ੍ਹੋ
+	Open sample drawing	ਨਮੂਨਾ ਡਰਾਇੰਗ ਖੋਲ੍ਹੋ
+	Open...	ਖੋਲ੍ਹੋ...
+	Operator:	ਓਪਰੇਟਰ:
+	Opposite corner	ਉਲਟਾ ਕੋਨਾ
+	Options...	ਚੋਣਾਂ...
+	Orbit	ਆਰਬਿਟ
+	Ordinate	ਨਿਰਦੇਸ਼ਾਂਕ ਮਾਪ
+	Origin: {x}, {y}	ਮੂਲ ਬਿੰਦੂ: {x}, {y}
+	Ortho (F8)	ਔਰਥੋ (F8)
+	Ortho Mode	ਔਰਥੋ ਮੋਡ
+	Ortho Mode (F8)	ਔਰਥੋ ਮੋਡ (F8)
+	Osnap Settings...	Osnap ਸੈਟਿੰਗਾਂ...
+	Out	ਬਾਹਰ
+	Outer	ਬਾਹਰਲਾ
+	Over-constrained	ਲੋੜ ਤੋਂ ਵੱਧ ਬੰਧਨਾਂ ਵਾਲਾ
+	Overlay	ਓਵਰਲੇ
+	Overline	ਉੱਪਰ ਰੇਖਾ
+	Override	ਓਵਰਰਾਈਡ
+	PAPER	ਕਾਗਜ਼
+	Page Setup Manager	ਸਫ਼ਾ ਸੈਟਅੱਪ ਮੈਨੇਜਰ
+	Page Setup Manager...	ਸਫ਼ਾ ਸੈਟਅੱਪ ਮੈਨੇਜਰ...
+	Pan	ਪੈਨ
+	Pan Down	ਹੇਠਾਂ ਪੈਨ ਕਰੋ
+	Pan Left	ਖੱਬੇ ਪੈਨ ਕਰੋ
+	Pan Right	ਸੱਜੇ ਪੈਨ ਕਰੋ
+	Pan Up	ਉੱਪਰ ਪੈਨ ਕਰੋ
+	Pan sensitivity	ਪੈਨ ਸੰਵੇਦਨਸ਼ੀਲਤਾ
+	Paper	ਕਾਗਜ਼
+	Paper Space	ਪੇਪਰ ਸਪੇਸ
+	Paper size	ਕਾਗਜ਼ ਦਾ ਆਕਾਰ
+	Parallel	ਸਮਾਂਤਰ
+	Parameters Manager	ਪੈਰਾਮੀਟਰ ਮੈਨੇਜਰ
+	Parametric	ਪੈਰਾਮੈਟ੍ਰਿਕ
+	Parsecs	ਪਾਰਸੈਕ
+	Paste as Block	ਬਲਾਕ ਵਜੋਂ ਚਿਪਕਾਓ
+	Paste to Command Line	ਕਮਾਂਡ ਲਾਈਨ ਵਿੱਚ ਚਿਪਕਾਓ
+	Paste to Original Coordinates	ਅਸਲ ਨਿਰਦੇਸ਼ਾਂਕਾਂ ਉੱਤੇ ਚਿਪਕਾਓ
+	Path Array	ਮਾਰਗ ਐਰੇ
+	Percent	ਪ੍ਰਤੀਸ਼ਤ
+	Perpendicular	ਲੰਬਵਤ
+	Pickbox size	ਚੋਣ ਡੱਬੇ ਦਾ ਆਕਾਰ
+	Plot	ਪਲਾਟ ਕਰੋ
+	Plot (click: do not plot)	ਪਲਾਟ ਕਰੋ (ਕਲਿੱਕ: ਪਲਾਟ ਨਾ ਕਰੋ)
+	Plot Preview	ਪਲਾਟ ਝਲਕ
+	Plot Style Manager	ਪਲਾਟ ਸ਼ੈਲੀ ਮੈਨੇਜਰ
+	Plot Style Manager...	ਪਲਾਟ ਸ਼ੈਲੀ ਮੈਨੇਜਰ...
+	Plot Style...	ਪਲਾਟ ਸ਼ੈਲੀ...
+	Plot Styles...	ਪਲਾਟ ਸ਼ੈਲੀਆਂ...
+	Plot Window	ਪਲਾਟ ਵਿੰਡੋ
+	Plot area	ਪਲਾਟ ਖੇਤਰ
+	Plot object lineweights	ਵਸਤੂਆਂ ਦੇ ਰੇਖਾ ਭਾਰ ਪਲਾਟ ਕਰੋ
+	Plot offset	ਪਲਾਟ ਆਫਸੈੱਟ
+	Plot style	ਪਲਾਟ ਸ਼ੈਲੀ
+	Plot style attached to	ਪਲਾਟ ਸ਼ੈਲੀ ਇਸ ਨਾਲ ਜੁੜੀ ਹੈ
+	Plot style table	ਪਲਾਟ ਸ਼ੈਲੀ ਸਾਰਣੀ
+	Plot table type	ਪਲਾਟ ਸਾਰਣੀ ਕਿਸਮ
+	Plot transparency	ਪਾਰਦਰਸ਼ਤਾ ਪਲਾਟ ਕਰੋ
+	Plotter Manager	ਪਲਾਟਰ ਮੈਨੇਜਰ
+	Plotter Manager...	ਪਲਾਟਰ ਮੈਨੇਜਰ...
+	Plus/minus	ਜਮ੍ਹਾਂ/ਘਟਾਓ
+	Point	ਬਿੰਦੂ
+	Point Filters	ਬਿੰਦੂ ਫਿਲਟਰ
+	Point Style...	ਬਿੰਦੂ ਸ਼ੈਲੀ...
+	Points	ਬਿੰਦੂ
+	Polar (distance < angle)	ਧਰੁਵੀ (ਦੂਰੀ < ਕੋਣ)
+	Polar Array	ਧਰੁਵੀ ਐਰੇ
+	Polar Tracking	ਧਰੁਵੀ ਟ੍ਰੈਕਿੰਗ
+	Polar Tracking (F10)	ਧਰੁਵੀ ਟ੍ਰੈਕਿੰਗ (F10)
+	Polar Tracking On (F10)	ਧਰੁਵੀ ਟ੍ਰੈਕਿੰਗ ਚਾਲੂ (F10)
+	Polar angle measurement	ਧਰੁਵੀ ਕੋਣ ਮਾਪ
+	Polar distance	ਧਰੁਵੀ ਦੂਰੀ
+	Polar: {distance} < {angle}°	ਧਰੁਵੀ: {distance} < {angle}°
+	PolarSnap	ਧਰੁਵੀ ਸਨੈਪ
+	Polygonal	ਬਹੁਭੁਜੀ
+	Polygonal Viewport	ਬਹੁਭੁਜੀ ਵਿਊਪੋਰਟ
+	Polyline Edit	ਪੌਲੀਲਾਈਨ ਸੋਧੋ
+	Position X	ਸਥਿਤੀ X
+	Position Y	ਸਥਿਤੀ Y
+	Position Z	ਸਥਿਤੀ Z
+	Precision	ਸ਼ੁੱਧਤਾ
+	Press the keys	ਕੁੰਜੀਆਂ ਦਬਾਓ
+	Previous Change	ਪਿਛਲੀ ਤਬਦੀਲੀ
+	Previous Layer	ਪਿਛਲੀ ਪਰਤ
+	Primitives	ਮੁੱਢਲੀਆਂ ਸ਼ਕਲਾਂ
+	Print...	ਛਾਪੋ...
+	Printer/plotter	ਪ੍ਰਿੰਟਰ/ਪਲਾਟਰ
+	Profiles	ਪ੍ਰੋਫਾਈਲ
+	Properties	ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ
+	Properties Inspector	ਵਿਸ਼ੇਸ਼ਤਾ ਇੰਸਪੈਕਟਰ
+	Properties:	ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ:
+	Proxy	ਪ੍ਰਾਕਸੀ
+	Purge	ਪੁਰਜ ਕਰੋ
+	Pyramid	ਪਿਰਾਮਿਡ
+	Quadrant	ਚੌਥਾਈ ਬਿੰਦੂ
+	Query Entities	ਇਕਾਈਆਂ ਦੀ ਪੁੱਛਗਿੱਛ ਕਰੋ
+	Query Texts	ਪਾਠਾਂ ਦੀ ਪੁੱਛਗਿੱਛ ਕਰੋ
+	Quick	ਤੇਜ਼
+	Quick Dimension	ਤੇਜ਼ ਮਾਪ
+	Quick Properties	ਤੇਜ਼ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ
+	Quick Select	ਤੇਜ਼ ਚੋਣ
+	Quick Select Properties	ਤੇਜ਼ ਚੋਣ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ
+	Quick Select...	ਤੇਜ਼ ਚੋਣ...
+	QuickCalc	QuickCalc
+	QuickCalc Pick	QuickCalc ਚੁਣੋ
+	Quit CADCraft	CADCraft ਤੋਂ ਬਾਹਰ ਜਾਓ
+	Radians	ਰੇਡੀਅਨ
+	Radius	ਅਰਧ-ਵਿਆਸ
+	Raster Image	ਰਾਸਟਰ ਚਿੱਤਰ
+	Raster Image Reference...	ਰਾਸਟਰ ਚਿੱਤਰ ਹਵਾਲਾ...
+	Raster Images	ਰਾਸਟਰ ਚਿੱਤਰ
+	Ray	ਕਿਰਨ
+	Read-only	ਕੇਵਲ ਪੜ੍ਹਨ ਲਈ
+	Realtime	ਅਸਲ ਸਮੇਂ ਵਿੱਚ
+	Reassociate Dimensions	ਮਾਪ ਮੁੜ ਸੰਬੰਧਿਤ ਕਰੋ
+	Recalculate Table Formulas	ਸਾਰਣੀ ਫਾਰਮੂਲੇ ਮੁੜ ਗਿਣੋ
+	Recent Commands	ਹਾਲੀਆ ਕਮਾਂਡਾਂ
+	Recent Input	ਹਾਲੀਆ ਇਨਪੁੱਟ
+	Recover...	ਮੁੜ ਪ੍ਰਾਪਤ ਕਰੋ...
+	Rectangular	ਆਇਤਾਕਾਰ
+	Rectangular Array	ਆਇਤਾਕਾਰ ਐਰੇ
+	Rectangular snap	ਆਇਤਾਕਾਰ ਸਨੈਪ
+	Redo (⇧⌘Z)	ਮੁੜ ਕਰੋ (⇧⌘Z)
+	Redraw	ਮੁੜ ਬਣਾਓ
+	Reference Manager	ਹਵਾਲਾ ਮੈਨੇਜਰ
+	Reference Name	ਹਵਾਲੇ ਦਾ ਨਾਮ
+	References: {n}	ਹਵਾਲੇ: {n}
+	Regen	ਮੁੜ ਤਿਆਰ ਕਰੋ
+	Regen All	ਸਭ ਮੁੜ ਤਿਆਰ ਕਰੋ
+	Region	ਬੰਦ ਖੇਤਰ
+	Region/Mass Properties	ਖੇਤਰ/ਪੁੰਜ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ
+	Regular	ਆਮ
+	Reinitialize	ਮੁੜ ਆਰੰਭ ਕਰੋ
+	Relative	ਸਾਪੇਖ
+	Relative to last segment	ਆਖ਼ਰੀ ਖੰਡ ਦੇ ਸਾਪੇਖ
+	Release the 3D mouse to calibrate its resting position	ਸਥਿਰ ਸਥਿਤੀ ਕੈਲੀਬਰੇਟ ਕਰਨ ਲਈ 3D ਮਾਊਸ ਛੱਡੋ
+	Reload All	ਸਭ ਮੁੜ ਲੋਡ ਕਰੋ
+	Remove Leader	ਲੀਡਰ ਹਟਾਓ
+	Remove Vertex	ਸਿਖਰ ਬਿੰਦੂ ਹਟਾਓ
+	Remove the viewport override	ਵਿਊਪੋਰਟ ਓਵਰਰਾਈਡ ਹਟਾਓ
+	Rename Dimension Style	ਮਾਪ ਸ਼ੈਲੀ ਦਾ ਨਾਮ ਬਦਲੋ
+	Rename Layer	ਪਰਤ ਦਾ ਨਾਮ ਬਦਲੋ
+	Rename Layer State	ਪਰਤ ਹਾਲਤ ਦਾ ਨਾਮ ਬਦਲੋ
+	Rename Layout	ਖਾਕੇ ਦਾ ਨਾਮ ਬਦਲੋ
+	Rename Text Style	ਪਾਠ ਸ਼ੈਲੀ ਦਾ ਨਾਮ ਬਦਲੋ
+	Rename...	ਨਾਮ ਬਦਲੋ...
+	Repeat last command	ਆਖ਼ਰੀ ਕਮਾਂਡ ਦੁਹਰਾਓ
+	Repeat {command}	{command} ਦੁਹਰਾਓ
+	Replace All	ਸਭ ਬਦਲੋ
+	Replace Block...	ਬਲਾਕ ਬਦਲੋ...
+	Replace with:	ਇਸ ਨਾਲ ਬਦਲੋ:
+	Replacement text	ਬਦਲਵੀਂ ਲਿਖਤ
+	Requires a point (x,y, @dx,dy or @d<a).	ਬਿੰਦੂ ਲੋੜੀਂਦਾ ਹੈ (x,y, @dx,dy ਜਾਂ @d<a).
+	Reset Palettes	ਪੈਲਟ ਮੁੜ ਸੈੱਟ ਕਰੋ
+	Reset Panel Layout	ਪੈਨਲ ਖਾਕਾ ਮੁੜ ਸੈੱਟ ਕਰੋ
+	Reset keeps the interface language.	ਮੁੜ ਸੈੱਟ ਕਰਨਾ ਇੰਟਰਫੇਸ ਭਾਸ਼ਾ ਕਾਇਮ ਰੱਖਦਾ ਹੈ.
+	Reset to Defaults	ਮੂਲ ਮੁੱਲ ਮੁੜ ਲਾਓ
+	Restore Layer State	ਪਰਤ ਹਾਲਤ ਮੁੜ ਬਹਾਲ ਕਰੋ
+	Results	ਨਤੀਜੇ
+	Reverse	ਉਲਟਾਓ
+	Reverse zoom direction	ਜ਼ੂਮ ਦਿਸ਼ਾ ਉਲਟਾਓ
+	Revision Cloud	ਸੋਧ ਬੱਦਲ
+	Revolve	ਧੁਰੇ ਦੁਆਲੇ ਘੁੰਮਾ ਕੇ ਠੋਸ ਬਣਾਓ
+	Right-Click Customization	ਸੱਜੇ-ਕਲਿੱਕ ਦਾ ਅਨੁਕੂਲਨ
+	Right-Click Customization...	ਸੱਜੇ-ਕਲਿੱਕ ਦਾ ਅਨੁਕੂਲਨ...
+	Run ALIASEDIT with the file's contents using its text parameter.	ALIASEDIT ਨੂੰ ਉਸ ਦੇ text ਪੈਰਾਮੀਟਰ ਰਾਹੀਂ ਫ਼ਾਈਲ ਦੀ ਸਮੱਗਰੀ ਨਾਲ ਚਲਾਓ.
+	Run Script...	ਸਕ੍ਰਿਪਟ ਚਲਾਓ...
+	S	S
+	SVG drawings (SVG, SVGZ)	SVG ਡਰਾਇੰਗਾਂ (SVG, SVGZ)
+	Sample output	ਨਮੂਨਾ ਆਉਟਪੁੱਟ
+	Save (⌘S)	ਸੰਭਾਲੋ (⌘S)
+	Save Anyway	ਫਿਰ ਵੀ ਸੰਭਾਲੋ
+	Save As	ਹੋਰ ਨਾਮ ਨਾਲ ਸੰਭਾਲੋ
+	Save As...	ਹੋਰ ਨਾਮ ਨਾਲ ਸੰਭਾਲੋ...
+	Save Block	ਬਲਾਕ ਸੰਭਾਲੋ
+	Save Block As	ਬਲਾਕ ਹੋਰ ਨਾਮ ਨਾਲ ਸੰਭਾਲੋ
+	Save Layer State	ਪਰਤ ਹਾਲਤ ਸੰਭਾਲੋ
+	Save Layout as Template	ਖਾਕਾ ਟੈਂਪਲੇਟ ਵਜੋਂ ਸੰਭਾਲੋ
+	Save Reference Edits	ਹਵਾਲੇ ਦੀਆਂ ਸੋਧਾਂ ਸੰਭਾਲੋ
+	Save State	ਹਾਲਤ ਸੰਭਾਲੋ
+	Save alias	ਉਪਨਾਮ ਸੰਭਾਲੋ
+	Save cancelled: {path} was not changed.	ਸੰਭਾਲਣਾ ਰੱਦ: {path} ਬਦਲਿਆ ਨਹੀਂ ਗਿਆ.
+	Save changes to block "{name}"?	ਬਲਾਕ "{name}" ਦੀਆਂ ਤਬਦੀਲੀਆਂ ਸੰਭਾਲਣੀਆਂ ਹਨ?
+	Save changes to {name}?	{name} ਦੀਆਂ ਤਬਦੀਲੀਆਂ ਸੰਭਾਲਣੀਆਂ ਹਨ?
+	Save new drawings as	ਨਵੀਆਂ ਡਰਾਇੰਗਾਂ ਇਸ ਰੂਪ ਵਿੱਚ ਸੰਭਾਲੋ
+	Saved Path	ਸੰਭਾਲਿਆ ਪਾਥ
+	Saving {name} will remove content	{name} ਸੰਭਾਲਣ ਨਾਲ ਸਮੱਗਰੀ ਹਟ ਜਾਵੇਗੀ
+	Scale List...	ਸਕੇਲ ਸੂਚੀ...
+	Scientific	ਵਿਗਿਆਨਕ
+	Screen magnifiers, screen readers and recorders follow the system cursor.	ਸਕ੍ਰੀਨ ਵੱਡੀ ਕਰਨ ਵਾਲੇ, ਸਕ੍ਰੀਨ ਰੀਡਰ ਅਤੇ ਰਿਕਾਰਡਰ ਸਿਸਟਮ ਕਰਸਰ ਅਨੁਸਾਰ ਚੱਲਦੇ ਹਨ.
+	Screening	ਸਕ੍ਰੀਨਿੰਗ
+	Search for layer	ਪਰਤ ਖੋਜੋ
+	Search for parameter	ਪੈਰਾਮੀਟਰ ਖੋਜੋ
+	Search for pattern	ਪੈਟਰਨ ਖੋਜੋ
+	Searches the current space.	ਮੌਜੂਦਾ ਸਪੇਸ ਵਿੱਚ ਖੋਜਦਾ ਹੈ.
+	Second and next points:	ਦੂਜਾ ਅਤੇ ਅਗਲੇ ਬਿੰਦੂ:
+	Select 2D polyline	2D ਪੌਲੀਲਾਈਨ ਚੁਣੋ
+	Select Objects	ਆਬਜੈਕਟ ਚੁਣੋ
+	Select Similar	ਮਿਲਦੀਆਂ-ਜੁਲਦੀਆਂ ਚੁਣੋ
+	Select a 2D polyline.	2D ਪੌਲੀਲਾਈਨ ਚੁਣੋ.
+	Select a block reference.	ਬਲਾਕ ਹਵਾਲਾ ਚੁਣੋ.
+	Select a circle or arc.	ਚੱਕਰ ਜਾਂ ਚਾਪ ਚੁਣੋ.
+	Select a closed polyline	ਬੰਦ ਪੌਲੀਲਾਈਨ ਚੁਣੋ
+	Select a closed polyline, circle, ellipse or closed spline.	ਬੰਦ ਪੌਲੀਲਾਈਨ, ਚੱਕਰ, ਅੰਡਾਕਾਰ ਜਾਂ ਬੰਦ ਸਪਲਾਈਨ ਚੁਣੋ.
+	Select a closed polyline.	ਬੰਦ ਪੌਲੀਲਾਈਨ ਚੁਣੋ.
+	Select a curve as the path.	ਮਾਰਗ ਵਜੋਂ ਵਕਰ ਚੁਣੋ.
+	Select a dimension constraint type	ਮਾਪ ਬੰਧਨ ਦੀ ਕਿਸਮ ਚੁਣੋ
+	Select a line object	ਰੇਖਾ ਵਸਤੂ ਚੁਣੋ
+	Select a line object.	ਰੇਖਾ ਵਸਤੂ ਚੁਣੋ.
+	Select a line or an arc.	ਰੇਖਾ ਜਾਂ ਚਾਪ ਚੁਣੋ.
+	Select a line or polyline segment	ਰੇਖਾ ਜਾਂ ਪੌਲੀਲਾਈਨ ਖੰਡ ਚੁਣੋ
+	Select a line, arc or open polyline.	ਰੇਖਾ, ਚਾਪ ਜਾਂ ਖੁੱਲ੍ਹੀ ਪੌਲੀਲਾਈਨ ਚੁਣੋ.
+	Select a line, arc, circle, polyline, ellipse or spline as the path.	ਮਾਰਗ ਵਜੋਂ ਰੇਖਾ, ਚਾਪ, ਚੱਕਰ, ਪੌਲੀਲਾਈਨ, ਅੰਡਾਕਾਰ ਜਾਂ ਸਪਲਾਈਨ ਚੁਣੋ.
+	Select a line, circle, arc or polyline segment.	ਰੇਖਾ, ਚੱਕਰ, ਚਾਪ ਜਾਂ ਪੌਲੀਲਾਈਨ ਖੰਡ ਚੁਣੋ.
+	Select a line.	ਰੇਖਾ ਚੁਣੋ.
+	Select a polyline.	ਪੌਲੀਲਾਈਨ ਚੁਣੋ.
+	Select a text, mtext, attribute definition or dimension.	ਪਾਠ, mtext, ਵਿਸ਼ੇਸ਼ਤਾ ਪਰਿਭਾਸ਼ਾ ਜਾਂ ਮਾਪ ਚੁਣੋ.
+	Select an annotation object	ਐਨੋਟੇਸ਼ਨ ਵਸਤੂ ਚੁਣੋ
+	Select an arc or circle	ਚਾਪ ਜਾਂ ਚੱਕਰ ਚੁਣੋ
+	Select an arc.	ਚਾਪ ਚੁਣੋ.
+	Select an object	ਵਸਤੂ ਚੁਣੋ
+	Select an object to change	ਬਦਲਣ ਲਈ ਵਸਤੂ ਚੁਣੋ
+	Select an object to change or	ਬਦਲਣ ਲਈ ਵਸਤੂ ਚੁਣੋ ਜਾਂ
+	Select an object to measure	ਮਾਪਣ ਲਈ ਵਸਤੂ ਚੁਣੋ
+	Select an object to measure or	ਮਾਪਣ ਲਈ ਵਸਤੂ ਚੁਣੋ ਜਾਂ
+	Select an object.	ਵਸਤੂ ਚੁਣੋ.
+	Select an open curve.	ਖੁੱਲ੍ਹਾ ਵਕਰ ਚੁਣੋ.
+	Select an open line, arc, polyline, ellipse arc or spline.	ਖੁੱਲ੍ਹੀ ਰੇਖਾ, ਚਾਪ, ਪੌਲੀਲਾਈਨ, ਅੰਡਾਕਾਰ ਚਾਪ ਜਾਂ ਸਪਲਾਈਨ ਚੁਣੋ.
+	Select arc or circle	ਚਾਪ ਜਾਂ ਚੱਕਰ ਚੁਣੋ
+	Select arc or polyline arc segment	ਚਾਪ ਜਾਂ ਪੌਲੀਲਾਈਨ ਚਾਪ ਖੰਡ ਚੁਣੋ
+	Select arc style	ਚਾਪ ਸ਼ੈਲੀ ਚੁਣੋ
+	Select arc, circle, line	ਚਾਪ, ਚੱਕਰ, ਰੇਖਾ ਚੁਣੋ
+	Select at least two objects to join.	ਜੋੜਨ ਲਈ ਘੱਟੋ-ਘੱਟ ਦੋ ਵਸਤੂਆਂ ਚੁਣੋ.
+	Select boundaries to remove	ਹਟਾਉਣ ਲਈ ਹੱਦਾਂ ਚੁਣੋ
+	Select circle or arc to add center mark	ਕੇਂਦਰ ਨਿਸ਼ਾਨ ਜੋੜਨ ਲਈ ਚੱਕਰ ਜਾਂ ਚਾਪ ਚੁਣੋ
+	Select closed objects (regions, closed polylines, circles).	ਬੰਦ ਵਸਤੂਆਂ ਚੁਣੋ (ਬੰਦ ਖੇਤਰ, ਬੰਦ ਪੌਲੀਲਾਈਨਾਂ, ਚੱਕਰ).
+	Select first line	ਪਹਿਲੀ ਰੇਖਾ ਚੁਣੋ
+	Select first line or arc	ਪਹਿਲੀ ਰੇਖਾ ਜਾਂ ਚਾਪ ਚੁਣੋ
+	Select first object	ਪਹਿਲੀ ਵਸਤੂ ਚੁਣੋ
+	Select first object or	ਪਹਿਲੀ ਵਸਤੂ ਚੁਣੋ ਜਾਂ
+	Select first point	ਪਹਿਲਾ ਬਿੰਦੂ ਚੁਣੋ
+	Select nested objects to copy	ਕਾਪੀ ਕਰਨ ਲਈ ਨੇਸਟ ਕੀਤੀਆਂ ਵਸਤੂਆਂ ਚੁਣੋ
+	Select nested objects to copy or	ਕਾਪੀ ਕਰਨ ਲਈ ਨੇਸਟ ਕੀਤੀਆਂ ਵਸਤੂਆਂ ਚੁਣੋ ਜਾਂ
+	Select object	ਵਸਤੂ ਚੁਣੋ
+	Select object to dimension	ਮਾਪ ਲਗਾਉਣ ਲਈ ਵਸਤੂ ਚੁਣੋ
+	Select object to divide	ਵੰਡਣ ਲਈ ਵਸਤੂ ਚੁਣੋ
+	Select object to extend or shift-select to trim	ਵਧਾਉਣ ਲਈ ਵਸਤੂ ਚੁਣੋ ਜਾਂ ਟ੍ਰਿਮ ਕਰਨ ਲਈ Shift ਨਾਲ ਚੁਣੋ
+	Select object to measure	ਮਾਪਣ ਲਈ ਵਸਤੂ ਚੁਣੋ
+	Select object to offset	ਆਫਸੈੱਟ ਕਰਨ ਲਈ ਵਸਤੂ ਚੁਣੋ
+	Select object to trim or shift-select to extend	ਟ੍ਰਿਮ ਕਰਨ ਲਈ ਵਸਤੂ ਚੁਣੋ ਜਾਂ ਵਧਾਉਣ ਲਈ Shift ਨਾਲ ਚੁਣੋ
+	Select objects	ਵਸਤੂਆਂ ਚੁਣੋ
+	Select objects (crossing window first corner)	ਵਸਤੂਆਂ ਚੁਣੋ (ਪਾਰ-ਕਾਟ ਵਿੰਡੋ ਦਾ ਪਹਿਲਾ ਕੋਨਾ)
+	Select objects first, then choose a command	ਪਹਿਲਾਂ ਵਸਤੂਆਂ ਚੁਣੋ, ਫਿਰ ਕਮਾਂਡ ਚੁਣੋ
+	Select objects to array.	ਐਰੇ ਬਣਾਉਣ ਲਈ ਵਸਤੂਆਂ ਚੁਣੋ.
+	Select objects to stretch by crossing-window or crossing-polygon...	ਪਾਰ-ਕਾਟ ਵਿੰਡੋ ਜਾਂ ਪਾਰ-ਕਾਟ ਬਹੁਭੁਜ ਨਾਲ ਖਿੱਚਣ ਲਈ ਵਸਤੂਆਂ ਚੁਣੋ...
+	Select objects:	ਵਸਤੂਆਂ ਚੁਣੋ:
+	Select one polyline (Multiple is available through the JSON form).	ਇੱਕ ਪੌਲੀਲਾਈਨ ਚੁਣੋ (Multiple, JSON ਰੂਪ ਰਾਹੀਂ ਉਪਲਬਧ ਹੈ).
+	Select path curve	ਮਾਰਗ ਵਕਰ ਚੁਣੋ
+	Select point or object	ਬਿੰਦੂ ਜਾਂ ਵਸਤੂ ਚੁਣੋ
+	Select polyline	ਪੌਲੀਲਾਈਨ ਚੁਣੋ
+	Select polyline or	ਪੌਲੀਲਾਈਨ ਚੁਣੋ ਜਾਂ
+	Select second line	ਦੂਜੀ ਰੇਖਾ ਚੁਣੋ
+	Select second line or shift-select to apply corner	ਦੂਜੀ ਰੇਖਾ ਚੁਣੋ ਜਾਂ ਕੋਨਾ ਲਾਗੂ ਕਰਨ ਲਈ Shift ਨਾਲ ਚੁਣੋ
+	Select second object	ਦੂਜੀ ਵਸਤੂ ਚੁਣੋ
+	Select second object or shift-select to apply corner	ਦੂਜੀ ਵਸਤੂ ਚੁਣੋ ਜਾਂ ਕੋਨਾ ਲਾਗੂ ਕਰਨ ਲਈ Shift ਨਾਲ ਚੁਣੋ
+	Select second point	ਦੂਜਾ ਬਿੰਦੂ ਚੁਣੋ
+	Select spline	ਸਪਲਾਈਨ ਚੁਣੋ
+	Select symmetry line	ਸਮਮਿਤੀ ਰੇਖਾ ਚੁਣੋ
+	Select two points	ਦੋ ਬਿੰਦੂ ਚੁਣੋ
+	Select using two clicks only	ਕੇਵਲ ਦੋ ਕਲਿੱਕਾਂ ਨਾਲ ਚੁਣੋ
+	Selection Area Effect	ਚੋਣ ਖੇਤਰ ਦਾ ਪ੍ਰਭਾਵ
+	Selection Cycling	ਓਵਰਲੈਪ ਚੋਣਾਂ ਵਿੱਚ ਚੱਕਰ ਲਗਾਓ
+	Selection Preview Filter	ਚੋਣ ਝਲਕ ਫਿਲਟਰ
+	Selection area opacity:	ਚੋਣ ਖੇਤਰ ਦੀ ਅਪਾਰਦਰਸ਼ਤਾ:
+	Selection effect color	ਚੋਣ ਪ੍ਰਭਾਵ ਦਾ ਰੰਗ
+	Selection modes	ਚੋਣ ਮੋਡ
+	Selection preview	ਚੋਣ ਝਲਕ
+	Send Hatches to Back	ਹੈਚ ਸਭ ਤੋਂ ਪਿੱਛੇ ਭੇਜੋ
+	Send Under Objects	ਵਸਤੂਆਂ ਤੋਂ ਹੇਠਾਂ ਭੇਜੋ
+	Send to Back	ਸਭ ਤੋਂ ਪਿੱਛੇ ਭੇਜੋ
+	Set	ਸੈੱਟ ਕਰੋ
+	Set Current	ਮੌਜੂਦਾ ਸੈੱਟ ਕਰੋ
+	Set Current Dimension Style	ਮੌਜੂਦਾ ਮਾਪ ਸ਼ੈਲੀ ਸੈੱਟ ਕਰੋ
+	Set Current Text Style	ਮੌਜੂਦਾ ਪਾਠ ਸ਼ੈਲੀ ਸੈੱਟ ਕਰੋ
+	Set Current Viewport	ਮੌਜੂਦਾ ਵਿਊਪੋਰਟ ਸੈੱਟ ਕਰੋ
+	Set Dynamic Property	ਗਤੀਸ਼ੀਲ ਵਿਸ਼ੇਸ਼ਤਾ ਸੈੱਟ ਕਰੋ
+	Set Layer Properties	ਪਰਤ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਸੈੱਟ ਕਰੋ
+	Set Properties	ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਸੈੱਟ ਕਰੋ
+	Set Table Cell	ਸਾਰਣੀ ਸੈੱਲ ਸੈੱਟ ਕਰੋ
+	Set Table Cell Style	ਸਾਰਣੀ ਸੈੱਲ ਸ਼ੈਲੀ ਸੈੱਟ ਕਰੋ
+	Set Variable	ਵੇਰੀਏਬਲ ਸੈੱਟ ਕਰੋ
+	Set View	ਦ੍ਰਿਸ਼ ਸੈੱਟ ਕਰੋ
+	Settings...	ਸੈਟਿੰਗਾਂ...
+	Shape	ਸ਼ਕਲ
+	Share	ਸਾਂਝਾ ਕਰੋ
+	Sheet Books to PDF...	ਸ਼ੀਟ ਬੁੱਕਾਂ PDF ਵਿੱਚ...
+	Shift	Shift
+	Shortcut Menu	ਸ਼ਾਰਟਕੱਟ ਮੀਨੂ
+	Shortcut Menu: always enabled	ਸ਼ਾਰਟਕੱਟ ਮੀਨੂ: ਹਮੇਸ਼ਾ ਯੋਗ
+	Shortcut Menu: enabled when command options are present	ਸ਼ਾਰਟਕੱਟ ਮੀਨੂ: ਕਮਾਂਡ ਚੋਣਾਂ ਹੋਣ ਉੱਤੇ ਯੋਗ
+	Show All Constraint Bars	ਸਾਰੀਆਂ ਬੰਧਨ ਪੱਟੀਆਂ ਦਿਖਾਓ
+	Show All Dynamic Dimensions	ਸਾਰੇ ਗਤੀਸ਼ੀਲ ਮਾਪ ਦਿਖਾਓ
+	Show Annotative Objects	ਐਨੋਟੇਟਿਵ ਵਸਤੂਆਂ ਦਿਖਾਓ
+	Show Layer List	ਪਰਤ ਸੂਚੀ ਦਿਖਾਓ
+	Show Quick Properties for selected objects	ਚੁਣੀਆਂ ਵਸਤੂਆਂ ਲਈ ਤੇਜ਼ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਦਿਖਾਓ
+	Show System Cursor	ਸਿਸਟਮ ਕਰਸਰ ਦਿਖਾਓ
+	Show and hide the tools of this category	ਇਸ ਸ਼੍ਰੇਣੀ ਦੇ ਟੂਲ ਦਿਖਾਓ ਅਤੇ ਲੁਕਾਓ
+	Show command prompting near the crosshairs	ਕ੍ਰਾਸਹੇਅਰ ਕੋਲ ਕਮਾਂਡ ਪ੍ਰੌਂਪਟ ਦਿਖਾਓ
+	Show grips	ਗ੍ਰਿਪ ਦਿਖਾਓ
+	Show in Tool Sets	ਟੂਲ ਸੈੱਟਾਂ ਵਿੱਚ ਦਿਖਾਓ
+	Show/Hide Lineweight	ਰੇਖਾ ਭਾਰ ਦਿਖਾਓ/ਲੁਕਾਓ
+	Show/Hide Transparency	ਪਾਰਦਰਸ਼ਤਾ ਦਿਖਾਓ/ਲੁਕਾਓ
+	Single Line Text	ਇੱਕ-ਲਾਈਨ ਪਾਠ
+	Single Point	ਇੱਕ ਬਿੰਦੂ
+	Single...	ਇੱਕ...
+	Smooth	ਨਰਮ
+	Snap	ਸਨੈਪ ਕਰੋ
+	Snap Mode	ਸਨੈਪ ਮੋਡ
+	Snap Mode (F9)	ਸਨੈਪ ਮੋਡ (F9)
+	Snap On (F9)	ਸਨੈਪ ਚਾਲੂ (F9)
+	Snap Overrides	ਸਨੈਪ ਓਵਰਰਾਈਡ
+	Snap X spacing	ਸਨੈਪ X ਫ਼ਾਸਲਾ
+	Snap and Grid	ਸਨੈਪ ਅਤੇ ਗ੍ਰਿੱਡ
+	Snap type	ਸਨੈਪ ਕਿਸਮ
+	Snap, grid, polar tracking and Dynamic Input:	ਸਨੈਪ, ਗ੍ਰਿੱਡ, ਧਰੁਵੀ ਟ੍ਰੈਕਿੰਗ ਅਤੇ ਗਤੀਸ਼ੀਲ ਇਨਪੁੱਟ:
+	Solid	ਠੋਸ
+	Solid Editing	ਠੋਸ ਸੰਪਾਦਨ
+	Spaces	ਸਪੇਸ
+	Spacing	ਫ਼ਾਸਲਾ
+	Specified origin	ਨਿਰਧਾਰਤ ਮੂਲ ਬਿੰਦੂ
+	Specify a point	ਬਿੰਦੂ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify a scale for the hatch pattern	ਹੈਚ ਪੈਟਰਨ ਲਈ ਸਕੇਲ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify a second extension line origin	ਦੂਜੀ ਵਾਧੂ ਮਾਪ ਰੇਖਾ ਦਾ ਮੂਲ ਬਿੰਦੂ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify an angle for the hatch pattern	ਹੈਚ ਪੈਟਰਨ ਲਈ ਕੋਣ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify angle end point	ਕੋਣ ਦਾ ਅੰਤ ਬਿੰਦੂ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify angle of dimension line	ਮਾਪ ਰੇਖਾ ਦਾ ਕੋਣ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify angle of dimension text	ਮਾਪ ਪਾਠ ਦਾ ਕੋਣ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify angle start point	ਕੋਣ ਦਾ ਸ਼ੁਰੂ ਬਿੰਦੂ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify angle vertex	ਕੋਣ ਦਾ ਸਿਖਰ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify angle vertex point	ਕੋਣ ਦਾ ਸਿਖਰ ਬਿੰਦੂ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify arc length dimension location	ਚਾਪ ਲੰਬਾਈ ਮਾਪ ਦਾ ਟਿਕਾਣਾ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify axis endpoint of ellipse	ਅੰਡਾਕਾਰ ਦੇ ਧੁਰੇ ਦਾ ਅੰਤ ਬਿੰਦੂ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify base diameter	ਆਧਾਰ ਦਾ ਵਿਆਸ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify base point	ਆਧਾਰ ਬਿੰਦੂ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify base point or	ਆਧਾਰ ਬਿੰਦੂ ਨਿਰਧਾਰਤ ਕਰੋ ਜਾਂ
+	Specify base point or displacement (drag with the middle mouse button for realtime pan)	ਆਧਾਰ ਬਿੰਦੂ ਜਾਂ ਵਿਸਥਾਪਨ ਨਿਰਧਾਰਤ ਕਰੋ (ਅਸਲ ਸਮੇਂ ਪੈਨ ਲਈ ਮਾਊਸ ਦੇ ਵਿਚਕਾਰਲੇ ਬਟਨ ਨਾਲ ਖਿੱਚੋ)
+	Specify base radius	ਆਧਾਰ ਦਾ ਅਰਧ-ਵਿਆਸ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify base radius or	ਆਧਾਰ ਦਾ ਅਰਧ-ਵਿਆਸ ਨਿਰਧਾਰਤ ਕਰੋ ਜਾਂ
+	Specify center of donut	ਛੱਲੇ ਦਾ ਕੇਂਦਰ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify center of ellipse	ਅੰਡਾਕਾਰ ਦਾ ਕੇਂਦਰ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify center of polygon	ਬਹੁਭੁਜ ਦਾ ਕੇਂਦਰ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify center point for circle	ਚੱਕਰ ਲਈ ਕੇਂਦਰ ਬਿੰਦੂ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify center point of arc	ਚਾਪ ਦਾ ਕੇਂਦਰ ਬਿੰਦੂ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify center point of array	ਐਰੇ ਦਾ ਕੇਂਦਰ ਬਿੰਦੂ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify center point of base	ਆਧਾਰ ਦਾ ਕੇਂਦਰ ਬਿੰਦੂ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify corner of viewport	ਵਿਊਪੋਰਟ ਦਾ ਕੋਨਾ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify corner of window, enter a scale factor (nX or nXP)	ਵਿੰਡੋ ਦਾ ਕੋਨਾ ਨਿਰਧਾਰਤ ਕਰੋ, ਸਕੇਲ ਗੁਣਕ ਦਿਓ (nX ਜਾਂ nXP)
+	Specify diameter of circle	ਚੱਕਰ ਦਾ ਵਿਆਸ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify dimension arc line location	ਮਾਪ ਚਾਪ ਰੇਖਾ ਦਾ ਟਿਕਾਣਾ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify dimension line location	ਮਾਪ ਰੇਖਾ ਦਾ ਟਿਕਾਣਾ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify distance between turns	ਘੁੰਮਣਾਂ ਵਿਚਕਾਰ ਦੂਰੀ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify distance to other axis	ਦੂਜੇ ਧੁਰੇ ਤੱਕ ਦੂਰੀ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify end angle	ਅੰਤਲਾ ਕੋਣ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify end point of arc	ਚਾਪ ਦਾ ਅੰਤ ਬਿੰਦੂ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify end point of arc (hold Ctrl to switch direction)	ਚਾਪ ਦਾ ਅੰਤ ਬਿੰਦੂ ਨਿਰਧਾਰਤ ਕਰੋ (ਦਿਸ਼ਾ ਬਦਲਣ ਲਈ Ctrl ਦਬਾਈ ਰੱਖੋ)
+	Specify ending width	ਅੰਤਲੀ ਚੌੜਾਈ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify ending width for next segment	ਅਗਲੇ ਖੰਡ ਲਈ ਅੰਤਲੀ ਚੌੜਾਈ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify endpoint of arc	ਚਾਪ ਦਾ ਅੰਤ ਬਿੰਦੂ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify endpoint of axis	ਧੁਰੇ ਦਾ ਅੰਤ ਬਿੰਦੂ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify endpoint of line	ਰੇਖਾ ਦਾ ਅੰਤ ਬਿੰਦੂ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify feature location	ਵਿਸ਼ੇਸ਼ਤਾ ਦਾ ਟਿਕਾਣਾ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify fillet radius	ਗੋਲ ਜੋੜ ਦਾ ਅਰਧ-ਵਿਆਸ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify fillet radius for rectangles	ਆਇਤਾਂ ਲਈ ਗੋਲ ਜੋੜ ਦਾ ਅਰਧ-ਵਿਆਸ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify first angle endpoint	ਕੋਣ ਦਾ ਪਹਿਲਾ ਅੰਤ ਬਿੰਦੂ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify first chamfer distance	ਕੋਨਾ ਕੱਟਣ ਦੀ ਪਹਿਲੀ ਦੂਰੀ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify first chamfer distance for rectangles	ਆਇਤਾਂ ਲਈ ਕੋਨਾ ਕੱਟਣ ਦੀ ਪਹਿਲੀ ਦੂਰੀ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify first constraint point	ਪਹਿਲਾ ਬੰਧਨ ਬਿੰਦੂ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify first corner	ਪਹਿਲਾ ਕੋਨਾ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify first corner point	ਪਹਿਲਾ ਕੋਨਾ ਬਿੰਦੂ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify first destination point	ਪਹਿਲਾ ਮੰਜ਼ਿਲ ਬਿੰਦੂ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify first end point of circle's diameter	ਚੱਕਰ ਦੇ ਵਿਆਸ ਦਾ ਪਹਿਲਾ ਅੰਤ ਬਿੰਦੂ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify first endpoint of edge	ਕਿਨਾਰੇ ਦਾ ਪਹਿਲਾ ਅੰਤ ਬਿੰਦੂ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify first extension line origin	ਪਹਿਲੀ ਵਾਧੂ ਮਾਪ ਰੇਖਾ ਦਾ ਮੂਲ ਬਿੰਦੂ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify first point	ਪਹਿਲਾ ਬਿੰਦੂ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify first point of mirror line	ਸ਼ੀਸ਼ਾ ਰੇਖਾ ਦਾ ਪਹਿਲਾ ਬਿੰਦੂ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify first point on circle	ਚੱਕਰ ਉੱਤੇ ਪਹਿਲਾ ਬਿੰਦੂ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify first point on circle: _tan to	ਚੱਕਰ ਉੱਤੇ ਪਹਿਲਾ ਬਿੰਦੂ ਨਿਰਧਾਰਤ ਕਰੋ: _tan ਇਸ ਨਾਲ
+	Specify first source point	ਪਹਿਲਾ ਸਰੋਤ ਬਿੰਦੂ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify height	ਉਚਾਈ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify helix height	ਹੈਲਿਕਸ ਦੀ ਉਚਾਈ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify helix height or	ਹੈਲਿਕਸ ਦੀ ਉਚਾਈ ਨਿਰਧਾਰਤ ਕਰੋ ਜਾਂ
+	Specify included angle	ਸ਼ਾਮਲ ਕੋਣ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify insertion base point	ਪਾਉਣ ਦਾ ਆਧਾਰ ਬਿੰਦੂ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify insertion point	ਪਾਉਣ ਦਾ ਬਿੰਦੂ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify inside diameter of donut	ਛੱਲੇ ਦਾ ਅੰਦਰਲਾ ਵਿਆਸ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify leader arrowhead location	ਲੀਡਰ ਦੇ ਤੀਰ-ਸਿਰੇ ਦਾ ਟਿਕਾਣਾ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify leader endpoint	ਲੀਡਰ ਦਾ ਅੰਤ ਬਿੰਦੂ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify leader landing location	ਲੀਡਰ ਦੇ ਪਾਠ-ਕੋਲਲੇ ਸਮਤਲ ਹਿੱਸੇ ਦਾ ਟਿਕਾਣਾ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify length for rectangles	ਆਇਤਾਂ ਲਈ ਲੰਬਾਈ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify length of chord	ਜੀਵਾ ਦੀ ਲੰਬਾਈ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify length of segment	ਖੰਡ ਦੀ ਲੰਬਾਈ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify line width for rectangles	ਆਇਤਾਂ ਲਈ ਰੇਖਾ ਚੌੜਾਈ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify location for new vertex	ਨਵੇਂ ਸਿਖਰ ਬਿੰਦੂ ਦਾ ਟਿਕਾਣਾ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify minimum length of arc	ਚਾਪ ਦੀ ਘੱਟੋ-ਘੱਟ ਲੰਬਾਈ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify new end point	ਨਵਾਂ ਅੰਤ ਬਿੰਦੂ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify new location for marked vertex	ਨਿਸ਼ਾਨਬੱਧ ਸਿਖਰ ਬਿੰਦੂ ਦਾ ਨਵਾਂ ਟਿਕਾਣਾ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify new width for all segments	ਸਾਰੇ ਖੰਡਾਂ ਲਈ ਨਵੀਂ ਚੌੜਾਈ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify next point	ਅਗਲਾ ਬਿੰਦੂ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify offset distance	ਆਫਸੈੱਟ ਦੂਰੀ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify offset distance or	ਆਫਸੈੱਟ ਦੂਰੀ ਨਿਰਧਾਰਤ ਕਰੋ ਜਾਂ
+	Specify opposite corner	ਉਲਟਾ ਕੋਨਾ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify other corner point	ਦੂਜਾ ਕੋਨਾ ਬਿੰਦੂ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify other endpoint of axis	ਧੁਰੇ ਦਾ ਦੂਜਾ ਅੰਤ ਬਿੰਦੂ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify outside diameter of donut	ਛੱਲੇ ਦਾ ਬਾਹਰਲਾ ਵਿਆਸ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify point	ਬਿੰਦੂ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify point on object for first tangent of circle	ਚੱਕਰ ਦੀ ਪਹਿਲੀ ਸਪਰਸ਼ ਰੇਖਾ ਲਈ ਵਸਤੂ ਉੱਤੇ ਬਿੰਦੂ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify point on object for second tangent of circle	ਚੱਕਰ ਦੀ ਦੂਜੀ ਸਪਰਸ਼ ਰੇਖਾ ਲਈ ਵਸਤੂ ਉੱਤੇ ਬਿੰਦੂ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify point on side to offset	ਆਫਸੈੱਟ ਵਾਲੇ ਪਾਸੇ ਬਿੰਦੂ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify radius of arc	ਚਾਪ ਦਾ ਅਰਧ-ਵਿਆਸ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify radius of circle	ਚੱਕਰ ਦਾ ਅਰਧ-ਵਿਆਸ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify rotation angle	ਘੁੰਮਾਅ ਕੋਣ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify rotation angle of text	ਪਾਠ ਦਾ ਘੁੰਮਾਅ ਕੋਣ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify rotation angle or	ਘੁੰਮਾਅ ਕੋਣ ਨਿਰਧਾਰਤ ਕਰੋ ਜਾਂ
+	Specify scale factor	ਸਕੇਲ ਗੁਣਕ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify second angle endpoint	ਕੋਣ ਦਾ ਦੂਜਾ ਅੰਤ ਬਿੰਦੂ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify second break point	ਦੂਜਾ ਤੋੜ ਬਿੰਦੂ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify second chamfer distance for rectangles	ਆਇਤਾਂ ਲਈ ਕੋਨਾ ਕੱਟਣ ਦੀ ਦੂਜੀ ਦੂਰੀ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify second constraint point	ਦੂਜਾ ਬੰਧਨ ਬਿੰਦੂ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify second destination point	ਦੂਜਾ ਮੰਜ਼ਿਲ ਬਿੰਦੂ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify second end point of circle's diameter	ਚੱਕਰ ਦੇ ਵਿਆਸ ਦਾ ਦੂਜਾ ਅੰਤ ਬਿੰਦੂ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify second endpoint of edge	ਕਿਨਾਰੇ ਦਾ ਦੂਜਾ ਅੰਤ ਬਿੰਦੂ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify second extension line origin	ਦੂਜੀ ਵਾਧੂ ਮਾਪ ਰੇਖਾ ਦਾ ਮੂਲ ਬਿੰਦੂ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify second point	ਦੂਜਾ ਬਿੰਦੂ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify second point of arc	ਚਾਪ ਦਾ ਦੂਜਾ ਬਿੰਦੂ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify second point of mirror line	ਸ਼ੀਸ਼ਾ ਰੇਖਾ ਦਾ ਦੂਜਾ ਬਿੰਦੂ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify second point on circle	ਚੱਕਰ ਉੱਤੇ ਦੂਜਾ ਬਿੰਦੂ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify second point on circle: _tan to	ਚੱਕਰ ਉੱਤੇ ਦੂਜਾ ਬਿੰਦੂ ਨਿਰਧਾਰਤ ਕਰੋ: _tan ਇਸ ਨਾਲ
+	Specify second point or <use first point as displacement>	ਦੂਜਾ ਬਿੰਦੂ ਨਿਰਧਾਰਤ ਕਰੋ ਜਾਂ <ਪਹਿਲਾ ਬਿੰਦੂ ਵਿਸਥਾਪਨ ਵਜੋਂ ਵਰਤੋ>
+	Specify second source point	ਦੂਜਾ ਸਰੋਤ ਬਿੰਦੂ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify side to offset	ਆਫਸੈੱਟ ਵਾਲਾ ਪਾਸਾ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify start angle	ਸ਼ੁਰੂਆਤੀ ਕੋਣ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify start point	ਸ਼ੁਰੂਆਤੀ ਬਿੰਦੂ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify start point of arc	ਚਾਪ ਦਾ ਸ਼ੁਰੂਆਤੀ ਬਿੰਦੂ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify start point of polyline	ਪੌਲੀਲਾਈਨ ਦਾ ਸ਼ੁਰੂਆਤੀ ਬਿੰਦੂ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify start point of text	ਪਾਠ ਦਾ ਸ਼ੁਰੂਆਤੀ ਬਿੰਦੂ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify starting width	ਸ਼ੁਰੂਆਤੀ ਚੌੜਾਈ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify starting width for next segment	ਅਗਲੇ ਖੰਡ ਲਈ ਸ਼ੁਰੂਆਤੀ ਚੌੜਾਈ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify tangent direction for the start point of arc	ਚਾਪ ਦੇ ਸ਼ੁਰੂਆਤੀ ਬਿੰਦੂ ਲਈ ਸਪਰਸ਼ ਰੇਖਾ ਦੀ ਦਿਸ਼ਾ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify the elevation for rectangles	ਆਇਤਾਂ ਲਈ ਉਚਾਈ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify thickness for rectangles	ਆਇਤਾਂ ਲਈ ਮੋਟਾਈ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify third point on circle	ਚੱਕਰ ਉੱਤੇ ਤੀਜਾ ਬਿੰਦੂ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify third point on circle: _tan to	ਚੱਕਰ ਉੱਤੇ ਤੀਜਾ ਬਿੰਦੂ ਨਿਰਧਾਰਤ ਕਰੋ: _tan ਇਸ ਨਾਲ
+	Specify third source point or <continue>	ਤੀਜਾ ਸਰੋਤ ਬਿੰਦੂ ਨਿਰਧਾਰਤ ਕਰੋ ਜਾਂ <ਜਾਰੀ ਰੱਖੋ>
+	Specify through point	ਲੰਘਣ ਵਾਲਾ ਬਿੰਦੂ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify top diameter	ਉੱਪਰਲਾ ਵਿਆਸ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify top radius	ਉੱਪਰਲਾ ਅਰਧ-ਵਿਆਸ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify top radius or	ਉੱਪਰਲਾ ਅਰਧ-ਵਿਆਸ ਨਿਰਧਾਰਤ ਕਰੋ ਜਾਂ
+	Specify total angle	ਕੁੱਲ ਕੋਣ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify total length	ਕੁੱਲ ਲੰਬਾਈ ਨਿਰਧਾਰਤ ਕਰੋ
+	Specify total length or	ਕੁੱਲ ਲੰਬਾਈ ਨਿਰਧਾਰਤ ਕਰੋ ਜਾਂ
+	Specify width for rectangles	ਆਇਤਾਂ ਲਈ ਚੌੜਾਈ ਨਿਰਧਾਰਤ ਕਰੋ
+	Sphere	ਗੋਲਾ
+	Spherical	ਗੋਲਾਕਾਰ
+	Spline	ਸਪਲਾਈਨ
+	Spline Edit	ਸਪਲਾਈਨ ਸੋਧੋ
+	Stack (type 1/2 then select)	ਢੇਰ ਬਣਾਓ (1/2 ਲਿਖ ਕੇ ਚੁਣੋ)
+	Start	ਸ਼ੁਰੂ
+	Start Width	ਸ਼ੁਰੂਆਤੀ ਚੌੜਾਈ
+	Start X	ਸ਼ੁਰੂ X
+	Start Y	ਸ਼ੁਰੂ Y
+	Start angle	ਸ਼ੁਰੂਆਤੀ ਕੋਣ
+	Start, Center, Angle	ਸ਼ੁਰੂ, ਕੇਂਦਰ, ਕੋਣ
+	Start, Center, End	ਸ਼ੁਰੂ, ਕੇਂਦਰ, ਅੰਤ
+	Start, Center, Length	ਸ਼ੁਰੂ, ਕੇਂਦਰ, ਲੰਬਾਈ
+	Start, End, Angle	ਸ਼ੁਰੂ, ਅੰਤ, ਕੋਣ
+	Start, End, Direction	ਸ਼ੁਰੂ, ਅੰਤ, ਦਿਸ਼ਾ
+	Start, End, Radius	ਸ਼ੁਰੂ, ਅੰਤ, ਅਰਧ-ਵਿਆਸ
+	Status Bar	ਹਾਲਤ ਪੱਟੀ
+	Stretch	ਖਿੱਚ ਕੇ ਲੰਬਾ ਕਰੋ
+	Stretch Vertex	ਸਿਖਰ ਬਿੰਦੂ ਖਿੱਚੋ
+	Style: Standard	ਸ਼ੈਲੀ: ਮਿਆਰੀ
+	Styles	ਸ਼ੈਲੀਆਂ
+	Subtract	ਘਟਾਓ
+	Surveyor's Units	ਸਰਵੇਖਕ ਦੀਆਂ ਇਕਾਈਆਂ
+	Sweep	ਸਵੀਪ
+	Switch Drawing	ਡਰਾਇੰਗ ਬਦਲੋ
+	Switch Layout	ਖਾਕਾ ਬਦਲੋ
+	Switch between model space in a viewport and paper space	ਵਿਊਪੋਰਟ ਵਿੱਚ ਮਾਡਲ ਸਪੇਸ ਅਤੇ ਪੇਪਰ ਸਪੇਸ ਵਿਚਕਾਰ ਬਦਲੋ
+	Symmetric	ਸਮਮਿਤੀ ਵਾਲਾ
+	Synchronize Attributes	ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਸਿੰਕ ਕਰੋ
+	Synchronize Multiple-scale Positions	ਕਈ ਸਕੇਲਾਂ ਦੀਆਂ ਸਥਿਤੀਆਂ ਸਿੰਕ ਕਰੋ
+	TOP	ਉੱਪਰ
+	Table Breaks	ਸਾਰਣੀ ਦੇ ਵੰਡ-ਬਿੰਦੂ
+	Table Cell Style	ਸਾਰਣੀ ਸੈੱਲ ਸ਼ੈਲੀ
+	Table Style...	ਸਾਰਣੀ ਸ਼ੈਲੀ...
+	Table style	ਸਾਰਣੀ ਦੀ ਸ਼ੈਲੀ
+	Table...	ਸਾਰਣੀ...
+	Tabloid	Tabloid
+	Tan, Tan, Radius	ਸਪਰਸ਼, ਸਪਰਸ਼, ਅਰਧ-ਵਿਆਸ
+	Tan, Tan, Tan	ਸਪਰਸ਼, ਸਪਰਸ਼, ਸਪਰਸ਼
+	Tangent	ਸਪਰਸ਼ ਰੇਖਾ
+	Temporary track point	ਅਸਥਾਈ ਟ੍ਰੈਕ ਬਿੰਦੂ
+	Text Editor	ਪਾਠ ਸੰਪਾਦਕ
+	Text Height	ਪਾਠ ਦੀ ਉਚਾਈ
+	Text Objects Only	ਕੇਵਲ ਪਾਠ ਵਸਤੂਆਂ
+	Text Style...	ਪਾਠ ਸ਼ੈਲੀ...
+	Text color	ਲਿਖਤ ਦਾ ਰੰਗ
+	Text height	ਪਾਠ ਦੀ ਉਚਾਈ
+	Text override	ਪਾਠ ਓਵਰਰਾਈਡ
+	Text style	ਲਿਖਤ ਦੀ ਸ਼ੈਲੀ
+	Text to find	ਲੱਭਣ ਵਾਲੀ ਲਿਖਤ
+	Thaw All Layers	ਸਾਰੀਆਂ ਪਰਤਾਂ ਅਣਫ੍ਰੀਜ਼ ਕਰੋ
+	Thaw Layer	ਪਰਤ ਅਣਫ੍ਰੀਜ਼ ਕਰੋ
+	The aperture is how near the cursor must come to a point for an object snap to find it.	ਖੋਜ ਖੇਤਰ ਉਹ ਨੇੜਤਾ ਹੈ ਜਿਸ ਅੰਦਰ ਕਰਸਰ ਨੂੰ ਬਿੰਦੂ ਕੋਲ ਆਉਣਾ ਚਾਹੀਦਾ ਹੈ ਤਾਂ ਜੋ ਆਬਜੈਕਟ ਸਨੈਪ ਉਹ ਲੱਭ ਸਕੇ.
+	The current file doesn't look whole, so {name} stays as it is and the current file will be replaced.	ਮੌਜੂਦਾ ਫ਼ਾਈਲ ਪੂਰੀ ਨਹੀਂ ਲੱਗਦੀ, ਇਸ ਲਈ {name} ਜਿਵੇਂ ਹੈ ਰਹਿੰਦਾ ਹੈ ਅਤੇ ਮੌਜੂਦਾ ਫ਼ਾਈਲ ਬਦਲੀ ਜਾਵੇਗੀ.
+	The current file is kept as {name} until the next save.	ਅਗਲੀ ਵਾਰ ਸੰਭਾਲਣ ਤੱਕ ਮੌਜੂਦਾ ਫ਼ਾਈਲ {name} ਵਜੋਂ ਰੱਖੀ ਜਾਂਦੀ ਹੈ.
+	The drawing changed. Close the window and open it again.	ਡਰਾਇੰਗ ਬਦਲ ਗਈ. ਵਿੰਡੋ ਬੰਦ ਕਰਕੇ ਮੁੜ ਖੋਲ੍ਹੋ.
+	There is nothing here yet.	ਇੱਥੇ ਹਾਲੇ ਕੁਝ ਨਹੀਂ.
+	This drawing	ਇਹ ਡਰਾਇੰਗ
+	This format can't keep these objects yet: {objects}.	ਇਹ ਫਾਰਮੈਟ ਹਾਲੇ ਇਹ ਵਸਤੂਆਂ ਨਹੀਂ ਰੱਖ ਸਕਦਾ: {objects}.
+	Time-sensitive right-click: a quick click is Enter, holding opens the menu	ਸਮਾਂ-ਸੰਵੇਦਨਸ਼ੀਲ ਸੱਜਾ ਕਲਿੱਕ: ਛੇਤੀ ਕਲਿੱਕ Enter ਹੈ, ਦਬਾਈ ਰੱਖਣ ਨਾਲ ਮੀਨੂ ਖੁੱਲ੍ਹਦਾ ਹੈ
+	To	ਤੱਕ
+	To get started, create or open a drawing.	ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਡਰਾਇੰਗ ਬਣਾਓ ਜਾਂ ਖੋਲ੍ਹੋ.
+	Toggle PICKADD (off: each pick replaces the selection)	PICKADD ਬਦਲੋ (ਬੰਦ: ਹਰ ਚੋਣ ਪਿਛਲੀ ਚੋਣ ਬਦਲ ਦਿੰਦੀ ਹੈ)
+	Toggle PICKADD (on: picks add to the selection)	PICKADD ਬਦਲੋ (ਚਾਲੂ: ਚੋਣਾਂ ਪਿਛਲੀ ਚੋਣ ਵਿੱਚ ਜੁੜਦੀਆਂ ਹਨ)
+	Tolerance	ਸਹਿਣਸ਼ੀਲਤਾ
+	Tolerance...	ਸਹਿਣਸ਼ੀਲਤਾ...
+	Tool Bar	ਟੂਲ ਪੱਟੀ
+	Tool Sets	ਟੂਲ ਸੈੱਟ
+	Top left	ਉੱਪਰ ਖੱਬੇ
+	Top right	ਉੱਪਰ ਸੱਜੇ
+	Torus	ਟੋਰਸ
+	Trace	ਟ੍ਰੇਸ ਕਰੋ
+	Track orthogonally only	ਕੇਵਲ ਲੰਬਕੋਣੀ ਟ੍ਰੈਕ ਕਰੋ
+	Track using all polar angle settings	ਸਾਰੇ ਧਰੁਵੀ ਕੋਣ ਸੈਟਿੰਗਾਂ ਨਾਲ ਟ੍ਰੈਕ ਕਰੋ
+	Trim	ਟ੍ਰਿਮ ਕਰੋ
+	True Color	ਟ੍ਰੂ ਕਲਰ
+	Turn All Layers On	ਸਾਰੀਆਂ ਪਰਤਾਂ ਚਾਲੂ ਕਰੋ
+	Turn Off Layer	ਪਰਤ ਬੰਦ ਕਰੋ
+	Turn On Layer	ਪਰਤ ਚਾਲੂ ਕਰੋ
+	Turn Quick Properties off (QPMODE)	ਤੇਜ਼ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਬੰਦ ਕਰੋ (QPMODE)
+	Turn on time-sensitive right-click	ਸਮਾਂ-ਸੰਵੇਦਨਸ਼ੀਲ ਸੱਜਾ ਕਲਿੱਕ ਚਾਲੂ ਕਰੋ
+	Turned off, a right-click while a command runs always opens the shortcut menu.	ਬੰਦ ਹੋਣ ਉੱਤੇ ਕਮਾਂਡ ਚੱਲਦੇ ਸਮੇਂ ਸੱਜਾ ਕਲਿੱਕ ਹਮੇਸ਼ਾ ਸ਼ਾਰਟਕੱਟ ਮੀਨੂ ਖੋਲ੍ਹਦਾ ਹੈ.
+	Turned off, a right-click while a command runs does what Right-Click Customization sets for Command mode.	ਬੰਦ ਹੋਣ ਉੱਤੇ ਕਮਾਂਡ ਚੱਲਦੇ ਸਮੇਂ ਸੱਜਾ ਕਲਿੱਕ ਉਹ ਕਰਦਾ ਹੈ ਜੋ ਸੱਜਾ-ਕਲਿੱਕ ਅਨੁਕੂਲਨ ਕਮਾਂਡ ਮੋਡ ਲਈ ਨਿਰਧਾਰਤ ਕਰਦਾ ਹੈ.
+	Type a command	ਕਮਾਂਡ ਲਿਖੋ
+	Type an alias name.	ਉਪਨਾਮ ਲਿਖੋ.
+	Type text; Enter starts a new paragraph	ਪਾਠ ਲਿਖੋ; Enter ਨਵਾਂ ਪੈਰਾ ਸ਼ੁਰੂ ਕਰਦਾ ਹੈ
+	UCS Icon	UCS ਆਈਕਨ
+	US Survey Feet	US ਸਰਵੇਖਣ ਫੁੱਟ
+	US Survey Inch	US ਸਰਵੇਖਣ ਇੰਚ
+	US Survey Mile	US ਸਰਵੇਖਣ ਮੀਲ
+	US Survey Yard	US ਸਰਵੇਖਣ ਗਜ਼
+	Undo (⌘Z)	ਵਾਪਸ ਕਰੋ (⌘Z)
+	Uniform	ਇਕਸਾਰ
+	Union	ਜੋੜੋ
+	Unisolate Layer	ਪਰਤਾਂ ਨੂੰ ਮੁੜ ਇਕੱਠੇ ਦਿਖਾਓ
+	Unitless	ਬਿਨਾਂ ਇਕਾਈ
+	Units Conversion	ਇਕਾਈਆਂ ਦਾ ਰੂਪਾਂਤਰਣ
+	Units of new drawings	ਨਵੀਆਂ ਡਰਾਇੰਗਾਂ ਦੀਆਂ ਇਕਾਈਆਂ
+	Units to scale inserted content	ਪਾਈ ਸਮੱਗਰੀ ਸਕੇਲ ਕਰਨ ਦੀਆਂ ਇਕਾਈਆਂ
+	Units...	ਇਕਾਈਆਂ...
+	Unload	ਅਣਲੋਡ ਕਰੋ
+	Unloaded	ਅਣਲੋਡ ਕੀਤਾ
+	Unlock Layer	ਪਰਤ ਅਣਲਾਕ ਕਰੋ
+	Unlock viewport	ਵਿਊਪੋਰਟ ਅਣਲਾਕ ਕਰੋ
+	Unmerge Cells	ਸੈੱਲਾਂ ਦਾ ਮਿਲਾਪ ਤੋੜੋ
+	Unreferenced	ਬਿਨਾਂ ਹਵਾਲੇ
+	Unresolved	ਅਣਸੁਲਝਿਆ
+	Unsaved Layer State	ਅਣਸੰਭਾਲੀ ਪਰਤ ਹਾਲਤ
+	Update Data Links	ਡਾਟਾ ਲਿੰਕ ਅੱਪਡੇਟ ਕਰੋ
+	Use System Setting	ਸਿਸਟਮ ਸੈਟਿੰਗ ਵਰਤੋ
+	Use current origin	ਮੌਜੂਦਾ ਮੂਲ ਬਿੰਦੂ ਵਰਤੋ
+	Use for this layout	ਇਸ ਖਾਕੇ ਲਈ ਵਰਤੋ
+	Use object linetype	ਵਸਤੂ ਦੀ ਰੇਖਾ ਕਿਸਮ ਵਰਤੋ
+	Use object lineweight	ਵਸਤੂ ਦਾ ਰੇਖਾ ਭਾਰ ਵਰਤੋ
+	User	ਵਰਤੋਂਕਾਰ
+	User Parameters	ਵਰਤੋਂਕਾਰ ਪੈਰਾਮੀਟਰ
+	User Preferences	ਵਰਤੋਂਕਾਰ ਤਰਜੀਹਾਂ
+	VP Color	ਵਿਊਪੋਰਟ ਰੰਗ
+	VP Freeze	ਵਿਊਪੋਰਟ ਫ੍ਰੀਜ਼
+	Value	ਮੁੱਲ
+	Variables	ਵੇਰੀਏਬਲ
+	Version 2000	ਸੰਸਕਰਣ 2000
+	Version 2004	ਸੰਸਕਰਣ 2004
+	Version 2007	ਸੰਸਕਰਣ 2007
+	Version 2010	ਸੰਸਕਰਣ 2010
+	Version 2013	ਸੰਸਕਰਣ 2013
+	Version 2018	ਸੰਸਕਰਣ 2018
+	Version {version}	ਵਰਜਨ {version}
+	VerticalDistance	ਖੜ੍ਹਵੀਂ ਦੂਰੀ
+	ViewCube	ਦ੍ਰਿਸ਼ ਘਣ
+	Viewport	ਦ੍ਰਿਸ਼ ਖੇਤਰ
+	Viewport Layer Freeze	ਵਿਊਪੋਰਟ ਪਰਤ ਫ੍ਰੀਜ਼
+	Viewport Properties	ਵਿਊਪੋਰਟ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ
+	Viewport is locked	ਵਿਊਪੋਰਟ ਲਾਕ ਹੈ
+	Viewport scale	ਵਿਊਪੋਰਟ ਸਕੇਲ
+	Viewport {id}	ਵਿਊਪੋਰਟ {id}
+	Viewports	ਵਿਊਪੋਰਟ
+	Visual Effect Settings	ਦਿੱਖ ਪ੍ਰਭਾਵ ਸੈਟਿੰਗਾਂ
+	Visual Effect Settings...	ਦਿੱਖ ਪ੍ਰਭਾਵ ਸੈਟਿੰਗਾਂ...
+	Volume	ਆਇਤਨ
+	W	W
+	WCS	WCS
+	WCS ⌄	WCS ⌄
+	Weight	ਭਾਰ
+	When a command is active	ਕਮਾਂਡ ਸਰਗਰਮ ਹੋਣ ਵੇਲੇ
+	When no command is active	ਕੋਈ ਕਮਾਂਡ ਸਰਗਰਮ ਨਾ ਹੋਣ ਵੇਲੇ
+	While a command runs, a quick click is Enter and a longer click opens the shortcut menu.	ਕਮਾਂਡ ਚੱਲਦੇ ਸਮੇਂ ਛੇਤੀ ਕਲਿੱਕ Enter ਹੈ ਅਤੇ ਲੰਮਾ ਕਲਿੱਕ ਸ਼ਾਰਟਕੱਟ ਮੀਨੂ ਖੋਲ੍ਹਦਾ ਹੈ.
+	While a command runs:	ਕਮਾਂਡ ਚੱਲਦੇ ਸਮੇਂ:
+	White	ਚਿੱਟਾ
+	Whole words	ਪੂਰੇ ਸ਼ਬਦ
+	Width factor	ਚੌੜਾਈ ਗੁਣਕ
+	Window <	ਵਿੰਡੋ <
+	Window selection color:	ਵਿੰਡੋ ਚੋਣ ਦਾ ਰੰਗ:
+	Wipeout	ਵਾਈਪਆਊਟ
+	Working Set	ਕੰਮਕਾਜੀ ਸੈੱਟ
+	Workspace Switching	ਵਰਕਸਪੇਸ ਬਦਲਣਾ
+	Write Block	ਬਲਾਕ ਲਿਖੋ
+	X	X
+	X offset (mm)	X ਆਫਸੈੱਟ (mm)
+	Xline	Xline
+	Xref	Xref
+	Xref Clip Frame	Xref ਕਲਿੱਪ ਫਰੇਮ
+	Xref and Block In-place Editing	Xref ਅਤੇ ਬਲਾਕ ਦਾ ਇੱਥੇ ਹੀ ਸੰਪਾਦਨ
+	Xrefs	Xref
+	Y	Y
+	Y offset (mm)	Y ਆਫਸੈੱਟ (mm)
+	Yards	ਗਜ਼
+	Zoom All	ਸਭ ਉੱਤੇ ਜ਼ੂਮ
+	Zoom Dynamic	ਗਤੀਸ਼ੀਲ ਜ਼ੂਮ
+	Zoom Extents	ਪੂਰੀ ਵਿਆਪਤੀ ਤੱਕ ਜ਼ੂਮ
+	Zoom In	ਵੱਡਾ ਕਰੋ
+	Zoom Object	ਵਸਤੂ ਉੱਤੇ ਜ਼ੂਮ
+	Zoom Out	ਛੋਟਾ ਕਰੋ
+	Zoom Previous	ਪਿਛਲਾ ਜ਼ੂਮ
+	Zoom Realtime	ਅਸਲ ਸਮੇਂ ਜ਼ੂਮ
+	Zoom Window	ਵਿੰਡੋ ਜ਼ੂਮ
+	Zoom sensitivity	ਜ਼ੂਮ ਸੰਵੇਦਨਸ਼ੀਲਤਾ
+	built-in	ਅੰਦਰੂਨੀ
+	contains authoring elements. Open in Block Editor?	ਵਿੱਚ ਰਚਨਾ ਤੱਤ ਹਨ. ਬਲਾਕ ਸੰਪਾਦਕ ਵਿੱਚ ਖੋਲ੍ਹਣਾ ਹੈ?
+	error	ਗਲਤੀ
+	lowercase	ਸਾਰੇ ਛੋਟੇ ਅੱਖਰ
+	milliseconds	ਮਿਲੀਸਕਿੰਟ
+	min	ਮਿੰਟ
+	objects	ਵਸਤੂਆਂ
+	overrides built-in	ਅੰਦਰੂਨੀ ਨੂੰ ਓਵਰਰਾਈਡ ਕਰਦਾ ਹੈ
+	{alias} is already defined; select it and use Edit.	{alias} ਪਹਿਲਾਂ ਹੀ ਪਰਿਭਾਸ਼ਿਤ ਹੈ; ਚੁਣ ਕੇ ਸੋਧੋ ਵਰਤੋ.
+	{command} is an unknown command.	{command} ਅਣਜਾਣ ਕਮਾਂਡ ਹੈ.
+	{contributors} · {commits}	{contributors} · {commits}
+	{count} more types	{count} ਹੋਰ ਕਿਸਮਾਂ
+	{kind} (constraint {id})	{kind} (ਬੰਧਨ {id})
+	{kind} constraint {name} = {expression}  (double-click to edit)	{kind} ਬੰਧਨ {name} = {expression}  (ਸੋਧਣ ਲਈ ਦੋ ਵਾਰ ਕਲਿੱਕ ਕਰੋ)
+	{name}: {distance} < {angle}°	{name}: {distance} < {angle}°
+	ƒx  New User Parameter	ƒx  ਨਵਾਂ ਵਰਤੋਂਕਾਰ ਪੈਰਾਮੀਟਰ
+	ΔLOC	ΔLOC
+	−LOC	−LOC
+	⌘↩ to finish	ਮੁਕੰਮਲ ਕਰਨ ਲਈ ⌘↩
+@plural	{n} commit|{n} commits	{n} ਕਮਿਟ|{n} ਕਮਿਟ
+@plural	{n} contributor|{n} contributors	{n} ਯੋਗਦਾਨੀ|{n} ਯੋਗਦਾਨੀ
+menu	Dimension	ਮਾਪ
+menu	Draw	ਬਣਾਓ
+menu	Modify	ਸੋਧੋ
+menu	View	ਵੇਖੋ
+unit	{n} B	{n} B

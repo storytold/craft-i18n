@@ -1,0 +1,531 @@
+# ਪੰਜਾਬੀ (pa) interface catalog for ArtCraft Launcher.
+# Columns, separated by a TAB:  context <TAB> English source text <TAB> translation
+#   context  usually empty. `@plural`, `@id` and `@msg` mean something to the apps; any other
+#            word is a label that tells apart two meanings of the same English.
+#   escapes  \n  \t  \\  inside a column. `{name}` placeholders must appear in both columns (in any
+#            order), and a trailing "…" in one needs one in the other.
+#   @plural  English `one|other`; the translation lists this language's plural forms, `|`-separated.
+#   Lines starting with # and blank lines are ignored. A missing entry shows in English.
+#
+# Clean room: every entry was written from the plain meaning of the English text in ordinary
+# computing vocabulary. No other product's localisation, string table or translated UI was
+# consulted or copied; add entries the same way.
+# AI-assisted clean-room translations by @ishveet with OpenAI Codex.
+# Review: expanded entries were sample-reviewed, not comprehensively reviewed line by line by a native speaker.
+
+	A new version is available. Download it to replace this version?	ਨਵਾਂ ਵਰਜਨ ਉਪਲਬਧ ਹੈ. ਕੀ ਇਸ ਵਰਜਨ ਦੀ ਥਾਂ ਲਾਉਣ ਲਈ ਇਸਨੂੰ ਡਾਊਨਲੋਡ ਕਰਨਾ ਹੈ?
+	A new version is available. Would you like to relaunch with the updated version?	ਨਵਾਂ ਵਰਜਨ ਉਪਲਬਧ ਹੈ. ਕੀ ਅੱਪਡੇਟ ਕੀਤੇ ਵਰਜਨ ਨਾਲ ਮੁੜ ਖੋਲ੍ਹਣਾ ਹੈ?
+	A quote isn't closed.	ਇੱਕ ਹਵਾਲਾ-ਚਿੰਨ੍ਹ ਬੰਦ ਨਹੀਂ ਕੀਤਾ ਗਿਆ.
+	All releases	ਸਾਰੀਆਂ ਰਿਲੀਜ਼ਾਂ
+	App	ਐਪ
+	App details	ਐਪ ਦੇ ਵੇਰਵੇ
+	Apps are placed inside this folder.	ਐਪਾਂ ਇਸ ਫੋਲਡਰ ਵਿੱਚ ਰੱਖੀਆਂ ਜਾਂਦੀਆਂ ਹਨ.
+	Apps on this computer	ਇਸ ਕੰਪਿਊਟਰ ਉੱਤੇ ਐਪਾਂ
+	Apps you can install	ਉਹ ਐਪਾਂ ਜੋ ਤੁਸੀਂ ਇੰਸਟਾਲ ਕਰ ਸਕਦੇ ਹੋ
+	Apps you hid	ਤੁਹਾਡੇ ਵੱਲੋਂ ਲੁਕਾਈਆਂ ਐਪਾਂ
+	Arch package (.pkg.tar.zst)	Arch ਪੈਕੇਜ (.pkg.tar.zst)
+	ArtCraft	ArtCraft
+	ArtCraft Launcher	ArtCraft Launcher
+	ArtCraft Launcher can't install version {version} over this copy.	ArtCraft Launcher ਇਸ ਕਾਪੀ ਉੱਤੇ ਵਰਜਨ {version} ਇੰਸਟਾਲ ਨਹੀਂ ਕਰ ਸਕਦਾ.
+	ArtCraft Launcher is still running	ArtCraft Launcher ਹਾਲੇ ਚੱਲ ਰਿਹਾ ਹੈ
+	ArtCraft Launcher {version}	ArtCraft Launcher {version}
+	ArtCraft Launcher {version} is available.	ArtCraft Launcher {version} ਉਪਲਬਧ ਹੈ.
+	ArtCraft on GitHub	GitHub ਉੱਤੇ ArtCraft
+	ArtCraft on {name}	{name} ਉੱਤੇ ArtCraft
+	Ascending	ਚੜ੍ਹਦਾ ਕ੍ਰਮ
+	Automatically download and install updates	ਅੱਪਡੇਟ ਆਪਣੇ ਆਪ ਡਾਊਨਲੋਡ ਅਤੇ ਇੰਸਟਾਲ ਕਰੋ
+	Available to install	ਇੰਸਟਾਲ ਕਰਨ ਲਈ ਉਪਲਬਧ
+	Cancel download	ਡਾਊਨਲੋਡ ਰੱਦ ਕਰੋ
+	Cancel update	ਅੱਪਡੇਟ ਰੱਦ ਕਰੋ
+	Check for Updates	ਅੱਪਡੇਟਾਂ ਦੀ ਜਾਂਚ ਕਰੋ
+	Checked {ago}	ਜਾਂਚ ਕੀਤੀ: {ago}
+	Checked {ago} · using {sources}	ਜਾਂਚ ਕੀਤੀ: {ago} · ਵਰਤੇ ਸਰੋਤ: {sources}
+	Checking for updates…	ਅੱਪਡੇਟਾਂ ਦੀ ਜਾਂਚ ਹੋ ਰਹੀ ਹੈ…
+	Checking…	ਜਾਂਚ ਹੋ ਰਹੀ ਹੈ…
+	Choose version	ਵਰਜਨ ਚੁਣੋ
+	Classic	ਕਲਾਸਿਕ
+	Classic apps	ਕਲਾਸਿਕ ਐਪਾਂ
+	Click to enlarge	ਵੱਡਾ ਕਰਨ ਲਈ ਕਲਿੱਕ ਕਰੋ
+	Click to reverse the order	ਕ੍ਰਮ ਉਲਟਾਉਣ ਲਈ ਕਲਿੱਕ ਕਰੋ
+	Click to sort by this column	ਇਸ ਕਾਲਮ ਮੁਤਾਬਕ ਕ੍ਰਮਬੱਧ ਕਰਨ ਲਈ ਕਲਿੱਕ ਕਰੋ
+	Coming soon	ਜਲਦੀ ਆ ਰਿਹਾ ਹੈ
+	Community	ਭਾਈਚਾਰਾ
+	Couldn't change the login item: {e}	ਲੌਗਇਨ ਆਈਟਮ ਬਦਲੀ ਨਹੀਂ ਜਾ ਸਕੀ: {e}
+	Couldn't check for updates: {f}	ਅੱਪਡੇਟਾਂ ਦੀ ਜਾਂਚ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕੀ: {f}
+	Craft App Suite	Craft App Suite
+	Custom folders use AppImage on Linux.	Linux ਉੱਤੇ ਪਸੰਦੀਦਾ ਫੋਲਡਰ AppImage ਵਰਤਦੇ ਹਨ.
+	Debian package (.deb)	Debian ਪੈਕੇਜ (.deb)
+	Default install folder	ਮੂਲ ਇੰਸਟਾਲ ਫੋਲਡਰ
+	Descending	ਉਤਰਦਾ ਕ੍ਰਮ
+	Discard download	ਡਾਊਨਲੋਡ ਹਟਾਓ
+	Discord	Discord
+	Disk image (.dmg)	ਡਿਸਕ ਚਿੱਤਰ (.dmg)
+	Download again	ਮੁੜ ਡਾਊਨਲੋਡ ਕਰੋ
+	Download cancelled	ਡਾਊਨਲੋਡ ਰੱਦ ਕੀਤਾ ਗਿਆ
+	Download for {os}	{os} ਲਈ ਡਾਊਨਲੋਡ ਕਰੋ
+	Download paused	ਡਾਊਨਲੋਡ ਰੋਕਿਆ ਹੋਇਆ ਹੈ
+	Download selected version	ਚੁਣਿਆ ਵਰਜਨ ਡਾਊਨਲੋਡ ਕਰੋ
+	Downloading	ਡਾਊਨਲੋਡ ਹੋ ਰਿਹਾ ਹੈ
+	Downloading {done} of {total}	{total} ਵਿੱਚੋਂ {done} ਡਾਊਨਲੋਡ ਹੋਇਆ
+	Downloading…	ਡਾਊਨਲੋਡ ਹੋ ਰਿਹਾ ਹੈ…
+	Downloads for {platform}	{platform} ਲਈ ਡਾਊਨਲੋਡ
+	Downloads the new version, replaces this one and opens it again	ਨਵਾਂ ਵਰਜਨ ਡਾਊਨਲੋਡ ਕਰਦਾ ਹੈ, ਇਸ ਦੀ ਥਾਂ ਲਾਉਂਦਾ ਹੈ ਅਤੇ ਮੁੜ ਖੋਲ੍ਹਦਾ ਹੈ
+	Enable automatic installs in Settings to follow new nightly builds.	ਨਵੀਆਂ nightly ਬਿਲਡਾਂ ਲੈਣ ਲਈ ਸੈਟਿੰਗਾਂ ਵਿੱਚ ਆਪਣੇ ਆਪ ਇੰਸਟਾਲ ਕਰਨਾ ਚਾਲੂ ਕਰੋ.
+	Enlarge picture	ਚਿੱਤਰ ਵੱਡਾ ਕਰੋ
+	Every Craft app	ਹਰੇਕ Craft ਐਪ
+	Fast	ਤੇਜ਼
+	Features	ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ
+	Flags added each time the app is opened	ਐਪ ਖੋਲ੍ਹਣ ਵੇਲੇ ਹਰ ਵਾਰ ਜੋੜੇ ਜਾਣ ਵਾਲੇ ਫਲੈਗ
+	Flatpak bundle	Flatpak ਬੰਡਲ
+	French	ਫਰਾਂਸੀਸੀ
+	Frequently used	ਅਕਸਰ ਵਰਤੀਆਂ
+	Full changelog	ਤਬਦੀਲੀਆਂ ਦੀ ਪੂਰੀ ਸੂਚੀ
+	German	ਜਰਮਨ
+	GitHub	GitHub
+	GitHub limit hit; back in {min} min	GitHub ਦੀ ਹੱਦ ਪੂਰੀ ਹੋਈ; {min} ਮਿੰਟ ਬਾਅਦ ਮੁੜ ਉਪਲਬਧ
+	GitHub repository	GitHub ਰਿਪੋਜ਼ਟਰੀ
+	GitHub's hourly limit was reached; full details return in {min} min	GitHub ਦੀ ਘੰਟਾਵਾਰ ਹੱਦ ਪੂਰੀ ਹੋ ਗਈ; ਪੂਰੇ ਵੇਰਵੇ {min} ਮਿੰਟ ਬਾਅਦ ਮੁੜ ਉਪਲਬਧ ਹੋਣਗੇ
+	Grid	ਗ੍ਰਿਡ
+	Hidden	ਲੁਕਾਇਆ ਹੋਇਆ
+	Hidden Apps	ਲੁਕਾਈਆਂ ਐਪਾਂ
+	Hide App	ਐਪ ਲੁਕਾਓ
+	Hide community apps	ਭਾਈਚਾਰੇ ਦੀਆਂ ਐਪਾਂ ਲੁਕਾਓ
+	Include pre-releases (betas and release candidates)	ਪ੍ਰੀ-ਰਿਲੀਜ਼ਾਂ ਸ਼ਾਮਲ ਕਰੋ (ਬੀਟਾ ਅਤੇ ਰਿਲੀਜ਼ ਉਮੀਦਵਾਰ)
+	Inspired by	ਇਸ ਤੋਂ ਪ੍ਰੇਰਿਤ
+	Install	ਇੰਸਟਾਲ ਕਰੋ
+	Install cancelled	ਇੰਸਟਾਲ ਕਰਨਾ ਰੱਦ ਕੀਤਾ ਗਿਆ
+	Install cancelled. The download is kept for the next try.	ਇੰਸਟਾਲ ਕਰਨਾ ਰੱਦ ਕੀਤਾ ਗਿਆ. ਡਾਊਨਲੋਡ ਅਗਲੀ ਕੋਸ਼ਿਸ਼ ਲਈ ਰੱਖਿਆ ਗਿਆ ਹੈ.
+	Install folder	ਇੰਸਟਾਲ ਫੋਲਡਰ
+	Install new apps as	ਨਵੀਆਂ ਐਪਾਂ ਇਸ ਰੂਪ ਵਿੱਚ ਇੰਸਟਾਲ ਕਰੋ
+	Install version {version}	ਵਰਜਨ {version} ਇੰਸਟਾਲ ਕਰੋ
+	Installed	ਇੰਸਟਾਲ ਕੀਤਾ ਹੋਇਆ
+	Installed apps with a newer version	ਇੰਸਟਾਲ ਐਪਾਂ ਜਿਨ੍ਹਾਂ ਦਾ ਨਵਾਂ ਵਰਜਨ ਉਪਲਬਧ ਹੈ
+	Installed version	ਇੰਸਟਾਲ ਕੀਤਾ ਵਰਜਨ
+	Installed · latest {latest}	ਇੰਸਟਾਲ ਕੀਤਾ · ਨਵਾਂ ਵਰਜਨ {latest}
+	Installed · up to date	ਇੰਸਟਾਲ ਕੀਤਾ · ਤਾਜ਼ਾ ਵਰਜਨ ਹੈ
+	Installer (.msi)	ਇੰਸਟਾਲਰ (.msi)
+	Installing for {platform}	{platform} ਉੱਤੇ ਇੰਸਟਾਲ ਕਰਨਾ
+	Installing on Linux	Linux ਉੱਤੇ ਇੰਸਟਾਲ ਕਰਨਾ
+	Installing on Windows	Windows ਉੱਤੇ ਇੰਸਟਾਲ ਕਰਨਾ
+	Installing, then restarting…	ਇੰਸਟਾਲ ਹੋ ਰਿਹਾ ਹੈ, ਫਿਰ ਮੁੜ ਚਾਲੂ ਹੋਵੇਗਾ…
+	Installing…	ਇੰਸਟਾਲ ਹੋ ਰਿਹਾ ਹੈ…
+	It's in the tray: open it or quit it from the tray icon, or turn this off in the settings.	ਇਹ ਟ੍ਰੇ ਵਿੱਚ ਹੈ: ਟ੍ਰੇ ਆਈਕਨ ਤੋਂ ਇਸਨੂੰ ਖੋਲ੍ਹੋ ਜਾਂ ਬੰਦ ਕਰੋ, ਜਾਂ ਸੈਟਿੰਗਾਂ ਵਿੱਚ ਇਹ ਚੋਣ ਬੰਦ ਕਰੋ.
+	Japanese	ਜਪਾਨੀ
+	Join the ArtCraft community on Discord	Discord ਉੱਤੇ ArtCraft ਭਾਈਚਾਰੇ ਨਾਲ ਜੁੜੋ
+	Join the Discord	Discord ਨਾਲ ਜੁੜੋ
+	Keep running in the tray when the window is closed	ਵਿੰਡੋ ਬੰਦ ਕਰਨ ਤੋਂ ਬਾਅਦ ਵੀ ਟ੍ਰੇ ਵਿੱਚ ਚੱਲਦਾ ਰੱਖੋ
+	Last updated: {date}	ਆਖ਼ਰੀ ਅੱਪਡੇਟ: {date}
+	Latest	ਸਭ ਤੋਂ ਨਵਾਂ
+	Latest release	ਸਭ ਤੋਂ ਨਵੀਂ ਰਿਲੀਜ਼
+	Latest version	ਸਭ ਤੋਂ ਨਵਾਂ ਵਰਜਨ
+	Launch options…	ਖੋਲ੍ਹਣ ਦੀਆਂ ਚੋਣਾਂ…
+	Launcher	Launcher
+	Launcher version	ਲਾਂਚਰ ਦਾ ਵਰਜਨ
+	Learn more	ਹੋਰ ਜਾਣੋ
+	Like {name}	{name} ਵਰਗਾ
+	Loading ArtCraft Launcher…	ArtCraft Launcher ਲੋਡ ਹੋ ਰਿਹਾ ਹੈ…
+	Loading pictures…	ਚਿੱਤਰ ਲੋਡ ਹੋ ਰਹੇ ਹਨ…
+	Match system	ਸਿਸਟਮ ਨਾਲ ਮੇਲ ਕਰੋ
+	More actions for {name}	{name} ਲਈ ਹੋਰ ਕਾਰਵਾਈਆਂ
+	Move down	ਹੇਠਾਂ ਲਿਜਾਓ
+	Move up	ਉੱਪਰ ਲਿਜਾਓ
+	NEW	ਨਵਾਂ
+	Name (Z–A)	ਨਾਮ (Z–A)
+	New	ਨਵਾਂ
+	New apps	ਨਵੀਆਂ ਐਪਾਂ
+	New installs use this folder. Updates stay in their current location.	ਨਵੀਆਂ ਇੰਸਟਾਲੇਸ਼ਨਾਂ ਇਹ ਫੋਲਡਰ ਵਰਤਦੀਆਂ ਹਨ. ਅੱਪਡੇਟ ਆਪਣੀ ਮੌਜੂਦਾ ਥਾਂ ਉੱਤੇ ਹੀ ਰਹਿੰਦੇ ਹਨ.
+	Newest release	ਸਭ ਤੋਂ ਨਵੀਂ ਰਿਲੀਜ਼
+	Next app	ਅਗਲੀ ਐਪ
+	Next picture (→)	ਅਗਲਾ ਚਿੱਤਰ (→)
+	Nightly	Nightly
+	Nightly (none published yet)	Nightly (ਹਾਲੇ ਕੋਈ ਪ੍ਰਕਾਸ਼ਿਤ ਨਹੀਂ ਹੋਈ)
+	No apps match	ਕੋਈ ਐਪ ਮੇਲ ਨਹੀਂ ਖਾਂਦੀ
+	No downloads for this system	ਇਸ ਸਿਸਟਮ ਲਈ ਕੋਈ ਡਾਊਨਲੋਡ ਨਹੀਂ
+	No notes were published with this release.	ਇਸ ਰਿਲੀਜ਼ ਨਾਲ ਕੋਈ ਨੋਟ ਪ੍ਰਕਾਸ਼ਿਤ ਨਹੀਂ ਕੀਤੇ ਗਏ.
+	No release published yet	ਹਾਲੇ ਕੋਈ ਰਿਲੀਜ਼ ਪ੍ਰਕਾਸ਼ਿਤ ਨਹੀਂ ਹੋਈ
+	Not available	ਉਪਲਬਧ ਨਹੀਂ
+	Not available here	ਇੱਥੇ ਉਪਲਬਧ ਨਹੀਂ
+	Not checked yet	ਹਾਲੇ ਜਾਂਚ ਨਹੀਂ ਕੀਤੀ ਗਈ
+	Not installed	ਇੰਸਟਾਲ ਨਹੀਂ ਕੀਤਾ ਹੋਇਆ
+	Notify me when an installed app has an update	ਇੰਸਟਾਲ ਐਪ ਦਾ ਅੱਪਡੇਟ ਆਉਣ ਉੱਤੇ ਮੈਨੂੰ ਸੂਚਨਾ ਦਿਓ
+	Offline	ਆਫਲਾਈਨ
+	Older launcher versions require a manual reinstall.	ਲਾਂਚਰ ਦੇ ਪੁਰਾਣੇ ਵਰਜਨਾਂ ਲਈ ਹੱਥੀਂ ਮੁੜ ਇੰਸਟਾਲ ਕਰਨਾ ਲਾਜ਼ਮੀ ਹੈ.
+	On Linux, custom folders use AppImage format.	Linux ਉੱਤੇ ਪਸੰਦੀਦਾ ਫੋਲਡਰ AppImage ਫਾਰਮੈਟ ਵਰਤਦੇ ਹਨ.
+	Only when I ask	ਸਿਰਫ਼ ਜਦੋਂ ਮੈਂ ਕਹਾਂ
+	Open ArtCraft Launcher to update.	ਅੱਪਡੇਟ ਕਰਨ ਲਈ ArtCraft Launcher ਖੋਲ੍ਹੋ.
+	Open Source Tools for Creatives, Makers, and Builders	ਰਚਨਾਕਾਰਾਂ, ਬਣਾਉਣ ਵਾਲਿਆਂ ਅਤੇ ਨਿਰਮਾਤਿਆਂ ਲਈ ਖੁੱਲ੍ਹੇ ਸਰੋਤ ਵਾਲੇ ਟੂਲ
+	Open on GitHub	GitHub ਉੱਤੇ ਖੋਲ੍ਹੋ
+	Open {installed} without updating. {latest} stays available.	ਅੱਪਡੇਟ ਕੀਤੇ ਬਿਨਾਂ {installed} ਖੋਲ੍ਹੋ. {latest} ਉਪਲਬਧ ਰਹਿੰਦਾ ਹੈ.
+	Open {version}	{version} ਖੋਲ੍ਹੋ
+	Pause download	ਡਾਊਨਲੋਡ ਰੋਕੋ
+	Pictures couldn't be loaded. Reopen this page to try again.	ਚਿੱਤਰ ਲੋਡ ਨਹੀਂ ਕੀਤੇ ਜਾ ਸਕੇ. ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰਨ ਲਈ ਇਹ ਸਫ਼ਾ ਮੁੜ ਖੋਲ੍ਹੋ.
+	Pin to top	ਸਭ ਤੋਂ ਉੱਪਰ ਪਿੰਨ ਕਰੋ
+	Pinned	ਪਿੰਨ ਕੀਤਾ ਹੋਇਆ
+	Platforms	ਪਲੇਟਫਾਰਮ
+	Portable (.zip)	ਪੋਰਟੇਬਲ (.zip)
+	Previous app	ਪਿਛਲੀ ਐਪ
+	Previous picture (←)	ਪਿਛਲਾ ਚਿੱਤਰ (←)
+	Questions, ideas and news from the ArtCraft team	ArtCraft ਟੀਮ ਵੱਲੋਂ ਸਵਾਲ, ਵਿਚਾਰ ਅਤੇ ਖ਼ਬਰਾਂ
+	Quit ArtCraft Launcher	ArtCraft Launcher ਬੰਦ ਕਰੋ
+	RPM package (.rpm)	RPM ਪੈਕੇਜ (.rpm)
+	Recently updated	ਹਾਲ ਹੀ ਵਿੱਚ ਅੱਪਡੇਟ ਕੀਤੀਆਂ
+	Reconnecting…	ਮੁੜ ਜੁੜ ਰਿਹਾ ਹੈ…
+	Reinstall	ਮੁੜ ਇੰਸਟਾਲ ਕਰੋ
+	Release notes	ਰਿਲੀਜ਼ ਨੋਟ
+	Released	ਰਿਲੀਜ਼ ਦੀ ਮਿਤੀ
+	Released {date}	{date} ਨੂੰ ਰਿਲੀਜ਼ ਹੋਇਆ
+	Releases	ਰਿਲੀਜ਼ਾਂ
+	Removing…	ਹਟਾਇਆ ਜਾ ਰਿਹਾ ਹੈ…
+	Reorder {name}	{name} ਦਾ ਕ੍ਰਮ ਬਦਲੋ
+	Replace what's there?	ਜੋ ਮੌਜੂਦ ਹੈ, ਉਸ ਦੀ ਥਾਂ ਲਾਉਣਾ ਹੈ?
+	Resume download	ਡਾਊਨਲੋਡ ਜਾਰੀ ਕਰੋ
+	Retry install	ਇੰਸਟਾਲ ਕਰਨ ਦੀ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ
+	Retry update	ਅੱਪਡੇਟ ਕਰਨ ਦੀ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ
+	Retry update to {version}	ਵਰਜਨ {version} ਨਾਲ ਅੱਪਡੇਟ ਕਰਨ ਦੀ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ
+	Running in the background	ਪਿੱਠਭੂਮੀ ਵਿੱਚ ਚੱਲਣਾ
+	Russian	ਰੂਸੀ
+	Search apps	ਐਪਾਂ ਖੋਜੋ
+	Separate flags with spaces. Quote a value that has spaces in it.	ਫਲੈਗਾਂ ਨੂੰ ਖਾਲੀ ਥਾਂ ਨਾਲ ਵੱਖ ਕਰੋ. ਜਿਸ ਮੁੱਲ ਵਿੱਚ ਖਾਲੀ ਥਾਂ ਹੋਵੇ, ਉਸਨੂੰ ਹਵਾਲਾ-ਚਿੰਨ੍ਹਾਂ ਵਿੱਚ ਰੱਖੋ.
+	Show ArtCraft Launcher	ArtCraft Launcher ਦਿਖਾਓ
+	Show apps as a table	ਐਪਾਂ ਸਾਰਣੀ ਵਜੋਂ ਦਿਖਾਓ
+	Show apps as cards	ਐਪਾਂ ਕਾਰਡਾਂ ਵਜੋਂ ਦਿਖਾਓ
+	Show in Explorer	Explorer ਵਿੱਚ ਦਿਖਾਓ
+	Show in Files	Files ਵਿੱਚ ਦਿਖਾਓ
+	Show in Finder	Finder ਵਿੱਚ ਦਿਖਾਓ
+	Show the window on the current desktop	ਮੌਜੂਦਾ ਡੈਸਕਟਾਪ ਉੱਤੇ ਵਿੰਡੋ ਦਿਖਾਓ
+	Show {n} more changes	ਹੋਰ {n} ਤਬਦੀਲੀਆਂ ਦਿਖਾਓ
+	Spanish	ਸਪੇਨੀ
+	Start ArtCraft Launcher when I log in	ਮੇਰੇ ਲੌਗਇਨ ਕਰਨ ਉੱਤੇ ArtCraft Launcher ਚਾਲੂ ਕਰੋ
+	Stop waiting; the update can be started again later	ਉਡੀਕ ਬੰਦ ਕਰੋ; ਅੱਪਡੇਟ ਬਾਅਦ ਵਿੱਚ ਮੁੜ ਸ਼ੁਰੂ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ
+	Suite order	ਸੂਇਟ ਦਾ ਕ੍ਰਮ
+	System default	ਸਿਸਟਮ ਦਾ ਮੂਲ
+	System package (recommended)	ਸਿਸਟਮ ਪੈਕੇਜ (ਸਿਫ਼ਾਰਸ਼ ਕੀਤਾ)
+	Tarball (.tar.gz)	ਟਾਰਬਾਲ (.tar.gz)
+	The app will be moved to the Trash. Your documents and settings stay.	ਐਪ ਰੱਦੀ ਵਿੱਚ ਭੇਜੀ ਜਾਵੇਗੀ. ਤੁਹਾਡੇ ਦਸਤਾਵੇਜ਼ ਅਤੇ ਸੈਟਿੰਗਾਂ ਬਣੇ ਰਹਿਣਗੇ.
+	The app will be removed. Your documents and settings stay.	ਐਪ ਹਟਾ ਦਿੱਤੀ ਜਾਵੇਗੀ. ਤੁਹਾਡੇ ਦਸਤਾਵੇਜ਼ ਅਤੇ ਸੈਟਿੰਗਾਂ ਬਣੇ ਰਹਿਣਗੇ.
+	The download is still here. It's checked again, then installed.	ਡਾਊਨਲੋਡ ਹਾਲੇ ਇੱਥੇ ਹੈ. ਇਸ ਦੀ ਮੁੜ ਜਾਂਚ ਕੀਤੀ ਜਾਂਦੀ ਹੈ, ਫਿਰ ਇੰਸਟਾਲ ਕੀਤਾ ਜਾਂਦਾ ਹੈ.
+	The system manages install locations here.	ਇੱਥੇ ਸਿਸਟਮ ਇੰਸਟਾਲ ਕਰਨ ਦੀਆਂ ਥਾਵਾਂ ਸੰਭਾਲਦਾ ਹੈ.
+	These notes weren't fetched (GitHub's request limit was reached). They're on the release page.	ਇਹ ਨੋਟ ਨਹੀਂ ਲਿਆਂਦੇ ਗਏ (GitHub ਦੀ ਬੇਨਤੀ ਹੱਦ ਪੂਰੀ ਹੋ ਗਈ ਸੀ). ਇਹ ਰਿਲੀਜ਼ ਦੇ ਸਫ਼ੇ ਉੱਤੇ ਹਨ.
+	Unhide App	ਐਪ ਮੁੜ ਦਿਖਾਓ
+	Uninstall	ਅਣਇੰਸਟਾਲ ਕਰੋ
+	Uninstall cancelled	ਅਣਇੰਸਟਾਲ ਕਰਨਾ ਰੱਦ ਕੀਤਾ ਗਿਆ
+	Uninstall {name}?	{name} ਅਣਇੰਸਟਾਲ ਕਰਨੀ ਹੈ?
+	Uninstall…	ਅਣਇੰਸਟਾਲ ਕਰੋ…
+	Unpin	ਪਿੰਨ ਹਟਾਓ
+	Update 1 app	1 ਐਪ ਅੱਪਡੇਟ ਕਰੋ
+	Update all ({count})	ਸਭ ਅੱਪਡੇਟ ਕਰੋ ({count})
+	Update and restart	ਅੱਪਡੇਟ ਕਰੋ ਅਤੇ ਮੁੜ ਚਾਲੂ ਕਰੋ
+	Update available	ਅੱਪਡੇਟ ਉਪਲਬਧ ਹੈ
+	Update cancelled	ਅੱਪਡੇਟ ਰੱਦ ਕੀਤਾ ਗਿਆ
+	Update paused	ਅੱਪਡੇਟ ਰੋਕਿਆ ਹੋਇਆ ਹੈ
+	Update to {v}	{v} ਨਾਲ ਅੱਪਡੇਟ ਕਰੋ
+	Updates	ਅੱਪਡੇਟ
+	Updates always use the format an app was installed with.	ਅੱਪਡੇਟ ਹਮੇਸ਼ਾ ਉਹੀ ਫਾਰਮੈਟ ਵਰਤਦੇ ਹਨ ਜਿਸ ਨਾਲ ਐਪ ਇੰਸਟਾਲ ਕੀਤੀ ਗਈ ਸੀ.
+	Updating…	ਅੱਪਡੇਟ ਹੋ ਰਿਹਾ ਹੈ…
+	Use default	ਮੂਲ ਵਰਤੋ
+	Verifying checksum…	ਚੈੱਕਸਮ ਦੀ ਜਾਂਚ ਹੋ ਰਹੀ ਹੈ…
+	Verifying…	ਜਾਂਚ ਹੋ ਰਹੀ ਹੈ…
+	Version {latest}	ਵਰਜਨ {latest}
+	Version {version}	ਵਰਜਨ {version}
+	Version {version} installed	ਵਰਜਨ {version} ਇੰਸਟਾਲ ਕੀਤਾ ਗਿਆ
+	Visit getartcraft.com	getartcraft.com ਉੱਤੇ ਜਾਓ
+	Waiting for another app…	ਹੋਰ ਐਪ ਦੀ ਉਡੀਕ ਹੋ ਰਹੀ ਹੈ…
+	Waiting for other installs…	ਹੋਰ ਇੰਸਟਾਲੇਸ਼ਨਾਂ ਦੀ ਉਡੀਕ ਹੋ ਰਹੀ ਹੈ…
+	Website	ਵੈੱਬਸਾਈਟ
+	Website (coming soon)	ਵੈੱਬਸਾਈਟ (ਜਲਦੀ ਆ ਰਹੀ ਹੈ)
+	What's new	ਨਵਾਂ ਕੀ ਹੈ
+	When on, opening the launcher from the menu bar brings its window to the desktop you're on. When off, macOS switches you to the desktop the window was on.	ਚਾਲੂ ਹੋਣ ਉੱਤੇ, ਮੀਨੂ ਪੱਟੀ ਤੋਂ ਲਾਂਚਰ ਖੋਲ੍ਹਣ ਨਾਲ ਇਸ ਦੀ ਵਿੰਡੋ ਤੁਹਾਡੇ ਮੌਜੂਦਾ ਡੈਸਕਟਾਪ ਉੱਤੇ ਆਉਂਦੀ ਹੈ. ਬੰਦ ਹੋਣ ਉੱਤੇ, macOS ਤੁਹਾਨੂੰ ਉਸ ਡੈਸਕਟਾਪ ਉੱਤੇ ਲੈ ਜਾਂਦਾ ਹੈ ਜਿੱਥੇ ਵਿੰਡੋ ਸੀ.
+	Windows	Windows
+	Windows will remove it like any installed program. Your documents and settings stay.	Windows ਇਸਨੂੰ ਕਿਸੇ ਵੀ ਇੰਸਟਾਲ ਪ੍ਰੋਗਰਾਮ ਵਾਂਗ ਹਟਾਏਗਾ. ਤੁਹਾਡੇ ਦਸਤਾਵੇਜ਼ ਅਤੇ ਸੈਟਿੰਗਾਂ ਬਣੇ ਰਹਿਣਗੇ.
+	X	X
+	Your files may not open in older versions.	ਤੁਹਾਡੀਆਂ ਫ਼ਾਈਲਾਂ ਸ਼ਾਇਦ ਪੁਰਾਣੇ ਵਰਜਨਾਂ ਵਿੱਚ ਨਾ ਖੁੱਲ੍ਹਣ.
+	Your system's package manager will remove it, and may ask for your password. Your documents and settings stay.	ਤੁਹਾਡੇ ਸਿਸਟਮ ਦਾ ਪੈਕੇਜ ਮੈਨੇਜਰ ਇਸਨੂੰ ਹਟਾਏਗਾ ਅਤੇ ਤੁਹਾਡਾ ਪਾਸਵਰਡ ਪੁੱਛ ਸਕਦਾ ਹੈ. ਤੁਹਾਡੇ ਦਸਤਾਵੇਜ਼ ਅਤੇ ਸੈਟਿੰਗਾਂ ਬਣੇ ਰਹਿਣਗੇ.
+	by {name}	{name} ਵੱਲੋਂ
+	installed	ਇੰਸਟਾਲ ਕੀਤਾ ਹੋਇਆ
+	latest {version}	ਨਵਾਂ ਵਰਜਨ {version}
+	link	ਲਿੰਕ
+	{a} and {b}	{a} ਅਤੇ {b}
+	{count} updates are available	{count} ਅੱਪਡੇਟ ਉਪਲਬਧ ਹਨ
+	{done} downloaded	{done} ਡਾਊਨਲੋਡ ਹੋਇਆ
+	{done} of {total}	{total} ਵਿੱਚੋਂ {done}
+	{done} of {total} downloaded	{total} ਵਿੱਚੋਂ {done} ਡਾਊਨਲੋਡ ਹੋਇਆ
+	{installed} installed · latest {latest}	{installed} ਇੰਸਟਾਲ ਕੀਤਾ · ਨਵਾਂ ਵਰਜਨ {latest}
+	{latest} is out, but ArtCraft Launcher can't install it over this copy.	{latest} ਆ ਗਿਆ ਹੈ, ਪਰ ArtCraft Launcher ਇਸਨੂੰ ਇਸ ਕਾਪੀ ਉੱਤੇ ਇੰਸਟਾਲ ਨਹੀਂ ਕਰ ਸਕਦਾ.
+	{month} {day}, {year}	{month} {day}, {year}
+	{name} details	{name} ਦੇ ਵੇਰਵੇ
+	{name} icon	{name} ਦਾ ਆਈਕਨ
+	{name} launch options	{name} ਖੋਲ੍ਹਣ ਦੀਆਂ ਚੋਣਾਂ
+	{name} wasn't opened: a quote in its launch options isn't closed.	{name} ਨਹੀਂ ਖੋਲ੍ਹਿਆ ਗਿਆ: ਇਸਨੂੰ ਖੋਲ੍ਹਣ ਦੀਆਂ ਚੋਣਾਂ ਵਿੱਚ ਇੱਕ ਹਵਾਲਾ-ਚਿੰਨ੍ਹ ਬੰਦ ਨਹੀਂ ਕੀਤਾ ਗਿਆ.
+	{name} {version}	{name} {version}
+	{name} {v} is available	{name} {v} ਉਪਲਬਧ ਹੈ
+	{path} already exists. Installing {name} will overwrite it.	{path} ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਹੈ. {name} ਇੰਸਟਾਲ ਕਰਨ ਨਾਲ ਇਸ ਉੱਤੇ ਨਵਾਂ ਡਾਟਾ ਲਿਖਿਆ ਜਾਵੇਗਾ.
+	{version} (latest release)	{version} (ਸਭ ਤੋਂ ਨਵੀਂ ਰਿਲੀਜ਼)
+	{version} installed → {latest} released	{version} ਇੰਸਟਾਲ ਕੀਤਾ → {latest} ਰਿਲੀਜ਼ ਹੋਇਆ
+	⊞  Grid	⊞  ਗ੍ਰਿਡ
+	☰  Table	☰  ਸਾਰਣੀ
+	🔍  Search apps	🔍  ਐਪਾਂ ਖੋਜੋ
+@msg	Couldn't open {name}: {e}	{name} ਖੋਲ੍ਹਿਆ ਨਹੀਂ ਜਾ ਸਕਿਆ: {e}
+@msg	Download cancelled	ਡਾਊਨਲੋਡ ਰੱਦ ਕੀਤਾ ਗਿਆ
+@msg	couldn't move {path} to Trash ({reason}). Remove it in Finder instead.	{path} ਨੂੰ ਰੱਦੀ ਵਿੱਚ ਨਹੀਂ ਭੇਜਿਆ ਜਾ ਸਕਿਆ ({reason}). ਇਸ ਦੀ ਬਜਾਏ Finder ਵਿੱਚ ਹਟਾਓ.
+@msg	couldn't use install folder {path}: {reason}	ਇੰਸਟਾਲ ਫੋਲਡਰ {path} ਵਰਤਿਆ ਨਹੀਂ ਜਾ ਸਕਿਆ: {reason}
+@msg	custom install folders aren't supported on this system	ਇਸ ਸਿਸਟਮ ਉੱਤੇ ਪਸੰਦੀਦਾ ਇੰਸਟਾਲ ਫੋਲਡਰ ਸਮਰਥਿਤ ਨਹੀਂ ਹਨ
+@msg	this release has no AppImage for a custom install folder	ਇਸ ਰਿਲੀਜ਼ ਵਿੱਚ ਪਸੰਦੀਦਾ ਇੰਸਟਾਲ ਫੋਲਡਰ ਲਈ ਕੋਈ AppImage ਨਹੀਂ ਹੈ
+@msg	{name} installed: {version}	{name} ਇੰਸਟਾਲ ਹੋਇਆ: {version}
+@msg	{name} installed: {version} (this release publishes no checksum, so only its size was checked)	{name} ਇੰਸਟਾਲ ਹੋਇਆ: {version} (ਇਸ ਰਿਲੀਜ਼ ਵਿੱਚ ਕੋਈ ਚੈੱਕਸਮ ਪ੍ਰਕਾਸ਼ਿਤ ਨਹੀਂ ਹੁੰਦਾ, ਇਸ ਲਈ ਸਿਰਫ਼ ਇਸ ਦੇ ਆਕਾਰ ਦੀ ਜਾਂਚ ਕੀਤੀ ਗਈ)
+@msg	{name} is running. Quit it, then try again.	{name} ਚੱਲ ਰਿਹਾ ਹੈ. ਇਸਨੂੰ ਬੰਦ ਕਰੋ, ਫਿਰ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ.
+@msg	{name} updated to {version}	{name} ਨੂੰ {version} ਨਾਲ ਅੱਪਡੇਟ ਕੀਤਾ ਗਿਆ
+@msg	{name} updated to {version} (this release publishes no checksum, so only its size was checked)	{name} ਨੂੰ {version} ਨਾਲ ਅੱਪਡੇਟ ਕੀਤਾ ਗਿਆ (ਇਸ ਰਿਲੀਜ਼ ਵਿੱਚ ਕੋਈ ਚੈੱਕਸਮ ਪ੍ਰਕਾਸ਼ਿਤ ਨਹੀਂ ਹੁੰਦਾ, ਇਸ ਲਈ ਸਿਰਫ਼ ਇਸ ਦੇ ਆਕਾਰ ਦੀ ਜਾਂਚ ਕੀਤੀ ਗਈ)
+@msg	{name} was installed from the AUR ({pkg}). Update it with your AUR helper (for example: yay -S {pkg})	{name} AUR ({pkg}) ਤੋਂ ਇੰਸਟਾਲ ਕੀਤਾ ਗਿਆ ਸੀ. ਆਪਣੇ AUR ਸਹਾਇਕ ਨਾਲ ਇਸਨੂੰ ਅੱਪਡੇਟ ਕਰੋ (ਉਦਾਹਰਨ ਲਈ: yay -S {pkg})
+@msg	{name} was installed from the AUR ({pkg}). Update it with {cmd}	{name} AUR ({pkg}) ਤੋਂ ਇੰਸਟਾਲ ਕੀਤਾ ਗਿਆ ਸੀ. {cmd} ਨਾਲ ਇਸਨੂੰ ਅੱਪਡੇਟ ਕਰੋ
+@msg	{name} was installed from the {repo} repository or the AUR ({pkg}). Update it with your AUR helper (for example: yay -S {pkg}) or sudo pacman -Syu	{name} ਨੂੰ {repo} ਰਿਪੋਜ਼ਟਰੀ ਜਾਂ AUR ({pkg}) ਤੋਂ ਇੰਸਟਾਲ ਕੀਤਾ ਗਿਆ ਸੀ. ਆਪਣੇ AUR ਸਹਾਇਕ ਨਾਲ ਇਸਨੂੰ ਅੱਪਡੇਟ ਕਰੋ (ਉਦਾਹਰਨ ਲਈ: yay -S {pkg}) ਜਾਂ sudo pacman -Syu ਵਰਤੋ
+@msg	{name} was installed from the {repo} repository or the AUR ({pkg}). Update it with {cmd} or sudo pacman -Syu	{name} ਨੂੰ {repo} ਰਿਪੋਜ਼ਟਰੀ ਜਾਂ AUR ({pkg}) ਤੋਂ ਇੰਸਟਾਲ ਕੀਤਾ ਗਿਆ ਸੀ. {cmd} ਜਾਂ sudo pacman -Syu ਨਾਲ ਇਸਨੂੰ ਅੱਪਡੇਟ ਕਰੋ
+@msg	{name} was removed	{name} ਹਟਾਇਆ ਗਿਆ
+@msg	{path} already exists and wasn't installed by ArtCraft Launcher	{path} ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਹੈ ਅਤੇ ArtCraft Launcher ਵੱਲੋਂ ਇੰਸਟਾਲ ਨਹੀਂ ਕੀਤਾ ਗਿਆ ਸੀ
+@plural	ArtCraft Launcher · {n} update available|ArtCraft Launcher · {n} updates available	ArtCraft Launcher · {n} ਅੱਪਡੇਟ ਉਪਲਬਧ ਹੈ|ArtCraft Launcher · {n} ਅੱਪਡੇਟ ਉਪਲਬਧ ਹਨ
+@plural	{n} app|{n} apps	{n} ਐਪ|{n} ਐਪਾਂ
+@plural	{n} day ago|{n} days ago	{n} ਦਿਨ ਪਹਿਲਾਂ|{n} ਦਿਨ ਪਹਿਲਾਂ
+@plural	{n} h ago|{n} h ago	{n} ਘੰਟਾ ਪਹਿਲਾਂ|{n} ਘੰਟੇ ਪਹਿਲਾਂ
+@plural	{n} min ago|{n} min ago	{n} ਮਿੰਟ ਪਹਿਲਾਂ|{n} ਮਿੰਟ ਪਹਿਲਾਂ
+artcraft	AI image and video creation	AI ਨਾਲ ਚਿੱਤਰ ਅਤੇ ਵੀਡੀਓ ਬਣਾਉਣਾ
+artcraft-launcher	Installs and updates the Craft App Suite	Craft App Suite ਇੰਸਟਾਲ ਅਤੇ ਅੱਪਡੇਟ ਕਰਦਾ ਹੈ
+cadcraft	A drafting app with the command line, object snaps and workflow that drafters already know. Free, with no account and no subscription. In early, fast development.	ਕਮਾਂਡ ਲਾਈਨ, ਆਬਜੈਕਟ ਸਨੈਪ ਅਤੇ ਡਰਾਫਟਰਾਂ ਦੀ ਜਾਣੀ-ਪਛਾਣੀ ਕਾਰਜ-ਵਿਧੀ ਵਾਲੀ ਡਰਾਫਟਿੰਗ ਐਪ. ਮੁਫ਼ਤ, ਬਿਨਾਂ ਖਾਤੇ ਅਤੇ ਬਿਨਾਂ ਗਾਹਕੀ ਦੇ. ਸ਼ੁਰੂਆਤੀ ਅਤੇ ਤੇਜ਼ ਵਿਕਾਸ ਦੇ ਪੜਾਅ ਵਿੱਚ.
+cadcraft	A full drafting toolset	ਡਰਾਫਟਿੰਗ ਟੂਲਾਂ ਦਾ ਪੂਰਾ ਸੈੱਟ
+cadcraft	A responsive, native drafting workspace.	ਤੁਰੰਤ ਜਵਾਬ ਦੇਣ ਵਾਲਾ ਮੂਲ ਡਰਾਫਟਿੰਗ ਕਾਰਜ-ਖੇਤਰ.
+cadcraft	Built for agents	ਏਜੰਟਾਂ ਲਈ ਬਣਾਇਆ
+cadcraft	Computer-aided design and drafting	ਕੰਪਿਊਟਰ-ਸਹਾਇਤਾ ਨਾਲ ਡਿਜ਼ਾਇਨ ਅਤੇ ਡਰਾਫਟਿੰਗ
+cadcraft	Computer-aided drafting, with a familiar workflow.	ਜਾਣੂ ਕਾਰਜ-ਵਿਧੀ ਨਾਲ ਕੰਪਿਊਟਰ-ਸਹਾਇਤਾ ਵਾਲੀ ਡਰਾਫਟਿੰਗ.
+cadcraft	Draw, modify, dimension, hatch and block commands, layers with a properties manager, paper-space layouts and PDF plotting.	ਖਿੱਚਣ, ਸੋਧਣ, ਮਾਪ ਲਾਉਣ, ਹੈਚ ਅਤੇ ਬਲਾਕ ਕਮਾਂਡਾਂ, ਵਿਸ਼ੇਸ਼ਤਾ ਪ੍ਰਬੰਧਕ ਵਾਲੀਆਂ ਪਰਤਾਂ, ਪੇਪਰ-ਸਪੇਸ ਖਾਕੇ ਅਤੇ PDF ਪਲਾਟਿੰਗ.
+cadcraft	Every menu item, tool and prompt is a command, available over MCP, a JSON control channel or the CLI.	ਹਰ ਮੀਨੂ ਆਈਟਮ, ਟੂਲ ਅਤੇ ਪ੍ਰੌਮਪਟ ਇੱਕ ਕਮਾਂਡ ਹੈ, ਜੋ MCP, JSON ਕੰਟਰੋਲ ਚੈਨਲ ਜਾਂ CLI ਰਾਹੀਂ ਉਪਲਬਧ ਹੈ.
+cadcraft	Fast and native	ਤੇਜ਼ ਅਤੇ ਮੂਲ
+cadcraft	Open files	ਫ਼ਾਈਲਾਂ ਖੋਲ੍ਹੋ
+cadcraft	Reads and writes DXF natively (R12 through 2018) and opens and saves DWG (R13 through 2018). Exports SVG and PNG.	DXF ਨੂੰ ਮੂਲ ਤੌਰ ਉੱਤੇ ਪੜ੍ਹਦਾ ਅਤੇ ਲਿਖਦਾ ਹੈ (R12 ਤੋਂ 2018 ਤੱਕ) ਅਤੇ DWG ਖੋਲ੍ਹਦਾ ਅਤੇ ਸੰਭਾਲਦਾ ਹੈ (R13 ਤੋਂ 2018 ਤੱਕ). SVG ਅਤੇ PNG ਨਿਰਯਾਤ ਕਰਦਾ ਹੈ.
+cadcraft	The workflow you know	ਤੁਹਾਡੀ ਜਾਣੀ-ਪਛਾਣੀ ਕਾਰਜ-ਵਿਧੀ
+cadcraft	Type L, click two points, type @5<45 and press Enter. Prompts with clickable keywords, polar tracking, direct distance entry and grips work the way drafting habit expects.	L ਟਾਈਪ ਕਰੋ, ਦੋ ਬਿੰਦੂਆਂ ਉੱਤੇ ਕਲਿੱਕ ਕਰੋ, @5<45 ਟਾਈਪ ਕਰੋ ਅਤੇ Enter ਦਬਾਓ. ਕਲਿੱਕ ਕਰਨਯੋਗ ਕੀਵਰਡਾਂ, ਧਰੁਵੀ ਟ੍ਰੈਕਿੰਗ, ਸਿੱਧੀ ਦੂਰੀ ਦਰਜ ਕਰਨ ਅਤੇ ਗ੍ਰਿਪਾਂ ਵਾਲੇ ਪ੍ਰੌਮਪਟ ਡਰਾਫਟਿੰਗ ਦੀ ਆਦਤ ਅਨੁਸਾਰ ਕੰਮ ਕਰਦੇ ਹਨ.
+column	App	ਐਪ
+column	Installed	ਇੰਸਟਾਲ ਕੀਤਾ ਹੋਇਆ
+column	Latest	ਸਭ ਤੋਂ ਨਵਾਂ
+column	Released	ਰਿਲੀਜ਼ ਦੀ ਮਿਤੀ
+column	Version	ਵਰਜਨ
+craft-anything	Agent-ready	ਏਜੰਟਾਂ ਲਈ ਤਿਆਰ
+craft-anything	Build your own	ਆਪਣੀ ਬਣਾਓ
+craft-anything	Checked, not guessed	ਜਾਂਚਿਆ ਹੋਇਆ, ਅੰਦਾਜ਼ਾ ਨਹੀਂ
+craft-anything	Every build is compared with the original, at three screen widths for a page, and refined until it's close.	ਹਰ ਬਿਲਡ ਦੀ ਮੂਲ ਨਾਲ ਤੁਲਨਾ ਕੀਤੀ ਜਾਂਦੀ ਹੈ, ਸਫ਼ੇ ਲਈ ਸਕ੍ਰੀਨ ਦੀਆਂ ਤਿੰਨ ਚੌੜਾਈਆਂ ਉੱਤੇ, ਅਤੇ ਨੇੜੇ ਆਉਣ ਤੱਕ ਇਸਨੂੰ ਨਿਖਾਰਿਆ ਜਾਂਦਾ ਹੈ.
+craft-anything	Every tool is a CLI command and an MCP tool, and no AI is needed just to inspect.	ਹਰ ਟੂਲ ਇੱਕ CLI ਕਮਾਂਡ ਅਤੇ MCP ਟੂਲ ਹੈ, ਅਤੇ ਸਿਰਫ਼ ਜਾਂਚ ਕਰਨ ਲਈ ਕਿਸੇ AI ਦੀ ਲੋੜ ਨਹੀਂ.
+craft-anything	Find out how any software works, then craft your own	ਜਾਣੋ ਕਿ ਕੋਈ ਵੀ ਸਾਫਟਵੇਅਰ ਕਿਵੇਂ ਕੰਮ ਕਰਦਾ ਹੈ, ਫਿਰ ਆਪਣਾ ਬਣਾਓ
+craft-anything	Point it at a target and say what you want. It studies the original with real inspection tools, has a coding agent build a new project in the stack you ask for, checks the result against the original and refines it. Open source and clean-room.	ਇਸਨੂੰ ਟੀਚਾ ਦਿਓ ਅਤੇ ਦੱਸੋ ਕਿ ਤੁਹਾਨੂੰ ਕੀ ਚਾਹੀਦਾ ਹੈ. ਇਹ ਅਸਲੀ ਜਾਂਚ ਟੂਲਾਂ ਨਾਲ ਮੂਲ ਦਾ ਅਧਿਐਨ ਕਰਦਾ ਹੈ, ਤੁਹਾਡੇ ਮੰਗੇ ਸਟੈਕ ਵਿੱਚ ਕੋਡਿੰਗ ਏਜੰਟ ਤੋਂ ਨਵਾਂ ਪ੍ਰੋਜੈਕਟ ਬਣਵਾਉਂਦਾ ਹੈ, ਨਤੀਜੇ ਦੀ ਮੂਲ ਨਾਲ ਜਾਂਚ ਕਰਦਾ ਅਤੇ ਇਸਨੂੰ ਨਿਖਾਰਦਾ ਹੈ. ਖੁੱਲ੍ਹਾ ਸਰੋਤ ਅਤੇ ਕਲੀਨ-ਰੂਮ.
+craft-anything	Say what you want and a coding agent builds a new project in the language or engine you name.	ਦੱਸੋ ਕਿ ਤੁਹਾਨੂੰ ਕੀ ਚਾਹੀਦਾ ਹੈ ਅਤੇ ਕੋਡਿੰਗ ਏਜੰਟ ਤੁਹਾਡੀ ਦੱਸੀ ਭਾਸ਼ਾ ਜਾਂ ਇੰਜਣ ਵਿੱਚ ਨਵਾਂ ਪ੍ਰੋਜੈਕਟ ਬਣਾਉਂਦਾ ਹੈ.
+craft-anything	See how any website, app or game works, then build your own.	ਵੇਖੋ ਕਿ ਕੋਈ ਵੀ ਵੈੱਬਸਾਈਟ, ਐਪ ਜਾਂ ਖੇਡ ਕਿਵੇਂ ਕੰਮ ਕਰਦੀ ਹੈ, ਫਿਰ ਆਪਣੀ ਬਣਾਓ.
+craft-anything	Study anything	ਕਿਸੇ ਵੀ ਚੀਜ਼ ਦਾ ਅਧਿਐਨ ਕਰੋ
+craft-anything	Websites, desktop apps, phone apps, games and files: find out how they're built, with the evidence behind every answer.	ਵੈੱਬਸਾਈਟਾਂ, ਡੈਸਕਟਾਪ ਐਪਾਂ, ਫੋਨ ਐਪਾਂ, ਖੇਡਾਂ ਅਤੇ ਫ਼ਾਈਲਾਂ: ਹਰ ਜਵਾਬ ਦੇ ਸਬੂਤ ਨਾਲ ਜਾਣੋ ਕਿ ਇਹ ਕਿਵੇਂ ਬਣੇ ਹਨ.
+deckcraft	A presentation app with slide masters, shapes, animations and a presenter view. In alpha, heading for beta.	ਸਲਾਈਡ ਮਾਸਟਰਾਂ, ਆਕਾਰਾਂ, ਐਨੀਮੇਸ਼ਨਾਂ ਅਤੇ ਪੇਸ਼ਕਾਰ ਦ੍ਰਿਸ਼ ਨਾਲ ਪੇਸ਼ਕਾਰੀ ਐਪ. ਅਲਫ਼ਾ ਵਿੱਚ ਹੈ, ਬੀਟਾ ਵੱਲ ਵੱਧ ਰਿਹਾ ਹੈ.
+deckcraft	Add content	ਸਮੱਗਰੀ ਜੋੜੋ
+deckcraft	Create slides, tell stories and present.	ਸਲਾਈਡਾਂ ਬਣਾਓ, ਕਹਾਣੀਆਂ ਦੱਸੋ ਅਤੇ ਪੇਸ਼ ਕਰੋ.
+deckcraft	Draw	ਚਿੱਤਰ ਬਣਾਓ
+deckcraft	Exchange files	ਫ਼ਾਈਲਾਂ ਦਾ ਆਦਾਨ-ਪ੍ਰਦਾਨ ਕਰੋ
+deckcraft	In-place text editing with full font and paragraph formatting, bullets and numbering, columns and autofit.	ਪੂਰੀ ਫ਼ੌਂਟ ਅਤੇ ਪੈਰਾ ਫਾਰਮੈਟਿੰਗ, ਬੁਲੇਟਾਂ ਅਤੇ ਨੰਬਰਾਂ, ਕਾਲਮਾਂ ਅਤੇ ਆਪਣੇ ਆਪ ਫਿੱਟ ਹੋਣ ਨਾਲ ਉੱਥੇ ਹੀ ਲਿਖਤ ਸੋਧਣਾ.
+deckcraft	Make decks	ਪੇਸ਼ਕਾਰੀਆਂ ਬਣਾਓ
+deckcraft	Opens and saves .pptx presentation files and exports PDF (slides, notes pages and handouts), PNG and JPEG.	.pptx ਪੇਸ਼ਕਾਰੀ ਫ਼ਾਈਲਾਂ ਖੋਲ੍ਹਦਾ ਅਤੇ ਸੰਭਾਲਦਾ ਹੈ ਅਤੇ PDF (ਸਲਾਈਡਾਂ, ਨੋਟ ਸਫ਼ੇ ਅਤੇ ਵੰਡਣ ਵਾਲੀਆਂ ਕਾਪੀਆਂ), PNG ਅਤੇ JPEG ਨਿਰਯਾਤ ਕਰਦਾ ਹੈ.
+deckcraft	Pictures with crop and corrections, styled tables, charts, audio and video.	ਕੱਟਣ ਅਤੇ ਸੁਧਾਰਾਂ ਵਾਲੇ ਚਿੱਤਰ, ਸਜੀਆਂ ਸਾਰਣੀਆਂ, ਚਾਰਟ, ਆਡੀਓ ਅਤੇ ਵੀਡੀਓ.
+deckcraft	Present	ਪੇਸ਼ ਕਰੋ
+deckcraft	Presentations and slide shows	ਪੇਸ਼ਕਾਰੀਆਂ ਅਤੇ ਸਲਾਈਡ ਸ਼ੋਅ
+deckcraft	Preset shapes with adjust handles, connectors that stay glued to shapes, freeform tools, merged shapes, gradients, shadows and glow.	ਸਮਾਯੋਜਨ ਹੈਂਡਲਾਂ ਵਾਲੇ ਤਿਆਰ ਆਕਾਰ, ਆਕਾਰਾਂ ਨਾਲ ਜੁੜੇ ਰਹਿਣ ਵਾਲੇ ਕਨੈਕਟਰ, ਮੁਕਤ-ਰੂਪ ਟੂਲ, ਜੋੜੇ ਆਕਾਰ, ਗ੍ਰੇਡੀਐਂਟ, ਪਰਛਾਵੇਂ ਅਤੇ ਚਮਕ.
+deckcraft	Slide masters and layouts with placeholders that inherit formatting, themes, sections, notes and comments.	ਫਾਰਮੈਟਿੰਗ ਵਿਰਾਸਤ ਵਿੱਚ ਲੈਣ ਵਾਲੀਆਂ ਥਾਂ-ਧਾਰਕਾਂ, ਥੀਮਾਂ, ਭਾਗਾਂ, ਨੋਟਾਂ ਅਤੇ ਟਿੱਪਣੀਆਂ ਨਾਲ ਸਲਾਈਡ ਮਾਸਟਰ ਅਤੇ ਖਾਕੇ.
+deckcraft	Transitions including Morph, animations and motion paths, a full-screen slide show, presenter view and rehearsed timings.	Morph ਸਮੇਤ ਤਬਦੀਲੀਆਂ, ਐਨੀਮੇਸ਼ਨ ਅਤੇ ਗਤੀ ਪਾਥ, ਪੂਰੀ ਸਕ੍ਰੀਨ ਵਾਲਾ ਸਲਾਈਡ ਸ਼ੋਅ, ਪੇਸ਼ਕਾਰ ਦ੍ਰਿਸ਼ ਅਤੇ ਅਭਿਆਸ ਕੀਤੇ ਸਮੇਂ.
+deckcraft	Write	ਲਿਖੋ
+designcraft	A Knuth–Plass paragraph composer, dictionary hyphenation, optical margin alignment and baseline grids, with line breaks that match on screen and in PDF.	Knuth–Plass ਪੈਰਾ ਕੰਪੋਜ਼ਰ, ਸ਼ਬਦਕੋਸ਼ ਮੁਤਾਬਕ ਸ਼ਬਦ-ਵੰਡ, ਦਿੱਖ ਅਨੁਸਾਰ ਹਾਸ਼ੀਆ ਮਿਲਾਨ ਅਤੇ ਮੂਲ-ਰੇਖਾ ਗ੍ਰਿਡ, ਜਿਨ੍ਹਾਂ ਨਾਲ ਸਕ੍ਰੀਨ ਅਤੇ PDF ਵਿੱਚ ਲਾਈਨਾਂ ਇੱਕੋ ਥਾਂ ਟੁੱਟਦੀਆਂ ਹਨ.
+designcraft	A documented native format, PNG export and layout interchange import and export.	ਦਸਤਾਵੇਜ਼ਬੱਧ ਮੂਲ ਫਾਰਮੈਟ, PNG ਨਿਰਯਾਤ ਅਤੇ ਖਾਕੇ ਦੇ ਆਦਾਨ-ਪ੍ਰਦਾਨ ਲਈ ਆਯਾਤ ਤੇ ਨਿਰਯਾਤ.
+designcraft	A native layout app with spreads, parent pages, threaded stories, styles, swatches, text wrap and a paragraph composer. No subscription, no license server and no telemetry.	ਨਾਲ-ਨਾਲ ਸਫ਼ਿਆਂ, ਪੇਰੈਂਟ ਸਫ਼ਿਆਂ, ਜੁੜੀਆਂ ਲਿਖਤ ਲੜੀਆਂ, ਸ਼ੈਲੀਆਂ, ਰੰਗ ਨਮੂਨਿਆਂ, ਲਿਖਤ ਲਪੇਟਣ ਅਤੇ ਪੈਰਾ ਕੰਪੋਜ਼ਰ ਨਾਲ ਮੂਲ ਖਾਕਾ ਐਪ. ਨਾ ਗਾਹਕੀ, ਨਾ ਲਾਇਸੈਂਸ ਸਰਵਰ ਅਤੇ ਨਾ ਟੈਲੀਮੀਟਰੀ.
+designcraft	Beautiful type	ਸੁੰਦਰ ਅੱਖਰ-ਸਜਾਵਟ
+designcraft	Built for automation	ਆਟੋਮੇਸ਼ਨ ਲਈ ਬਣਾਇਆ
+designcraft	Every menu item, tool, panel and dialog can be driven over a JSON control channel and an MCP server.	ਹਰ ਮੀਨੂ ਆਈਟਮ, ਟੂਲ, ਪੈਨਲ ਅਤੇ ਡਾਇਲਾਗ ਨੂੰ JSON ਕੰਟਰੋਲ ਚੈਨਲ ਅਤੇ MCP ਸਰਵਰ ਰਾਹੀਂ ਚਲਾਇਆ ਜਾ ਸਕਦਾ ਹੈ.
+designcraft	Fast	ਤੇਜ਼
+designcraft	Multithreaded rendering, instant undo and cached text composition.	ਕਈ ਥ੍ਰੈੱਡਾਂ ਉੱਤੇ ਰੈਂਡਰਿੰਗ, ਤੁਰੰਤ ਵਾਪਸ ਕਰਨਾ ਅਤੇ ਕੈਸ਼ ਕੀਤੀ ਲਿਖਤ ਦੀ ਸਜਾਵਟ.
+designcraft	Open formats	ਖੁੱਲ੍ਹੇ ਫਾਰਮੈਟ
+designcraft	Page layout and publishing	ਸਫ਼ਿਆਂ ਦਾ ਖਾਕਾ ਅਤੇ ਪ੍ਰਕਾਸ਼ਨ
+designcraft	Page layout and publishing.	ਸਫ਼ਿਆਂ ਦਾ ਖਾਕਾ ਅਤੇ ਪ੍ਰਕਾਸ਼ਨ.
+designcraft	Print-ready PDF	ਛਪਾਈ ਲਈ ਤਿਆਰ PDF
+designcraft	Real selectable text with embedded fonts, CMYK and spot colors, bleed, crop marks and PDF/A output.	ਏਮਬੈੱਡ ਕੀਤੇ ਫ਼ੌਂਟਾਂ, CMYK ਅਤੇ ਸਪਾਟ ਰੰਗਾਂ, ਬਲੀਡ, ਕੱਟਣ ਦੇ ਨਿਸ਼ਾਨਾਂ ਅਤੇ PDF/A ਆਉਟਪੁੱਟ ਨਾਲ ਅਸਲੀ ਚੁਣਨਯੋਗ ਲਿਖਤ.
+designcraft	Spreads and parent pages, frames and threaded stories, with paragraph and character styles.	ਪੈਰਾ ਅਤੇ ਅੱਖਰ ਸ਼ੈਲੀਆਂ ਨਾਲ ਨਾਲ-ਨਾਲ ਸਫ਼ੇ, ਪੇਰੈਂਟ ਸਫ਼ੇ, ਫਰੇਮ ਅਤੇ ਜੁੜੀਆਂ ਲਿਖਤ ਲੜੀਆਂ.
+designcraft	The layout tools you know	ਤੁਹਾਡੇ ਜਾਣੇ-ਪਛਾਣੇ ਖਾਕਾ ਟੂਲ
+effectcraft	3D layers with cameras, depth of field, and lights that cast soft ray-traced shadows.	ਕੈਮਰਿਆਂ, ਫੋਕਸ ਦੀ ਡੂੰਘਾਈ ਅਤੇ ਨਰਮ ਰੇ-ਟ੍ਰੇਸ ਕੀਤੇ ਪਰਛਾਵੇਂ ਪਾਉਣ ਵਾਲੀਆਂ ਰੌਸ਼ਨੀਆਂ ਨਾਲ 3D ਪਰਤਾਂ.
+effectcraft	A large effects library	ਪ੍ਰਭਾਵਾਂ ਦਾ ਵੱਡਾ ਸੰਗ੍ਰਹਿ
+effectcraft	A native compositor with compositions, layers, keyframes, effects, expressions, 3D cameras and lights, and a render queue. Young, moving fast, and already usable.	ਕੰਪੋਜ਼ੀਸ਼ਨਾਂ, ਪਰਤਾਂ, ਕੀਫਰੇਮਾਂ, ਪ੍ਰਭਾਵਾਂ, ਐਕਸਪ੍ਰੈਸ਼ਨਾਂ, 3D ਕੈਮਰਿਆਂ ਅਤੇ ਰੌਸ਼ਨੀਆਂ, ਅਤੇ ਰੈਂਡਰ ਕਤਾਰ ਨਾਲ ਮੂਲ ਕੰਪੋਜ਼ਿਟਰ. ਨਵਾਂ ਹੈ, ਤੇਜ਼ੀ ਨਾਲ ਵਿਕਸਿਤ ਹੋ ਰਿਹਾ ਹੈ ਅਤੇ ਪਹਿਲਾਂ ਹੀ ਵਰਤਣਯੋਗ ਹੈ.
+effectcraft	Animate the way you know	ਆਪਣੇ ਜਾਣੇ-ਪਛਾਣੇ ਢੰਗ ਨਾਲ ਐਨੀਮੇਸ਼ਨ ਬਣਾਓ
+effectcraft	Blur, color correction, distortion, generators, keying, particles and simulation, stylize and time effects.	ਧੁੰਦਲਾਪਣ, ਰੰਗ ਸੁਧਾਰ, ਵਿਗਾੜ, ਜਨਰੇਟਰ, ਕੀਇੰਗ, ਕਣ ਅਤੇ ਸਿਮੂਲੇਸ਼ਨ, ਸ਼ੈਲੀ ਅਤੇ ਸਮੇਂ ਦੇ ਪ੍ਰਭਾਵ.
+effectcraft	Export anywhere	ਕਿਤੇ ਵੀ ਨਿਰਯਾਤ ਕਰੋ
+effectcraft	Expressions	ਐਕਸਪ੍ਰੈਸ਼ਨ
+effectcraft	Familiar panels and keyframes (linear, bezier, hold and eased), with a graph editor for value and speed curves.	ਮੁੱਲ ਅਤੇ ਗਤੀ ਦੇ ਵਕਰਾਂ ਲਈ ਗ੍ਰਾਫ ਸੰਪਾਦਕ ਨਾਲ ਜਾਣੂ ਪੈਨਲ ਅਤੇ ਕੀਫਰੇਮ (ਲੀਨੀਅਰ, ਬੇਜ਼ੀਅਰ, ਹੋਲਡ ਅਤੇ ਈਜ਼ ਕੀਤੇ).
+effectcraft	H.264 and ProRes with alpha, PNG, TIFF and EXR sequences, GIF, and Lottie import and export.	ਅਲਫ਼ਾ ਨਾਲ H.264 ਅਤੇ ProRes, PNG, TIFF ਅਤੇ EXR ਲੜੀਆਂ, GIF, ਅਤੇ Lottie ਆਯਾਤ ਤੇ ਨਿਰਯਾਤ.
+effectcraft	JavaScript expressions with wiggle, loops and layer references, edited inline.	wiggle, ਲੂਪਾਂ ਅਤੇ ਪਰਤਾਂ ਦੇ ਹਵਾਲਿਆਂ ਵਾਲੇ JavaScript ਐਕਸਪ੍ਰੈਸ਼ਨ, ਉੱਥੇ ਹੀ ਸੋਧਣਯੋਗ.
+effectcraft	Layers of every kind	ਹਰ ਕਿਸਮ ਦੀਆਂ ਪਰਤਾਂ
+effectcraft	Motion graphics and visual effects	ਮੋਸ਼ਨ ਗ੍ਰਾਫਿਕਸ ਅਤੇ ਵਿਜ਼ੁਅਲ ਪ੍ਰਭਾਵ
+effectcraft	Motion graphics and visual effects.	ਮੋਸ਼ਨ ਗ੍ਰਾਫਿਕਸ ਅਤੇ ਵਿਜ਼ੁਅਲ ਪ੍ਰਭਾਵ.
+effectcraft	Real 3D	ਅਸਲੀ 3D
+effectcraft	Solids, shapes, text, footage, nested compositions, nulls and adjustment layers, with parenting, track mattes and blend modes.	ਸੋਲਿਡ, ਆਕਾਰ, ਲਿਖਤ, ਫੁਟੇਜ, ਅੰਦਰਲੀਆਂ ਕੰਪੋਜ਼ੀਸ਼ਨਾਂ, ਨੱਲ ਅਤੇ ਐਡਜਸਟਮੈਂਟ ਪਰਤਾਂ, ਪੇਰੈਂਟਿੰਗ, ਟ੍ਰੈਕ ਮੈਟ ਅਤੇ ਮਿਲਾਵਟ ਮੋਡਾਂ ਨਾਲ.
+figcraft	Auto layout	ਆਪਣੇ ਆਪ ਖਾਕਾ
+figcraft	Components	ਕੰਪੋਨੈਂਟ
+figcraft	Connections, triggers and animated transitions, variables with conditionals, flows and a presentation view with device frames.	ਕਨੈਕਸ਼ਨ, ਟ੍ਰਿਗਰ ਅਤੇ ਐਨੀਮੇਟ ਕੀਤੀਆਂ ਤਬਦੀਲੀਆਂ, ਸ਼ਰਤਾਂ ਵਾਲੇ ਵੇਰੀਏਬਲ, ਪ੍ਰਵਾਹ ਅਤੇ ਡਿਵਾਈਸ ਫਰੇਮਾਂ ਵਾਲਾ ਪੇਸ਼ਕਾਰੀ ਦ੍ਰਿਸ਼.
+figcraft	Design screens, components and prototypes in a native app that opens instantly and works offline, with no account and no telemetry. Early alpha.	ਬਿਨਾਂ ਖਾਤੇ ਅਤੇ ਟੈਲੀਮੀਟਰੀ ਦੇ, ਤੁਰੰਤ ਖੁੱਲ੍ਹਣ ਅਤੇ ਆਫਲਾਈਨ ਕੰਮ ਕਰਨ ਵਾਲੀ ਮੂਲ ਐਪ ਵਿੱਚ ਸਕ੍ਰੀਨਾਂ, ਕੰਪੋਨੈਂਟਾਂ ਅਤੇ ਨਮੂਨਿਆਂ ਦਾ ਡਿਜ਼ਾਇਨ ਕਰੋ. ਸ਼ੁਰੂਆਤੀ ਅਲਫ਼ਾ.
+figcraft	Hand off	ਵਿਕਾਸ ਲਈ ਸੌਂਪਣਾ
+figcraft	Inspect mode with measurements, annotations, ready-for-dev status, and code for CSS, HTML, React, SwiftUI and Compose.	ਮਾਪਾਂ, ਟਿੱਪਣੀਆਂ, ਵਿਕਾਸ ਲਈ ਤਿਆਰ ਹੋਣ ਦੀ ਹਾਲਤ ਅਤੇ CSS, HTML, React, SwiftUI ਤੇ Compose ਲਈ ਕੋਡ ਵਾਲਾ ਜਾਂਚ ਦ੍ਰਿਸ਼.
+figcraft	Instances with overrides, variants and properties, styles, and variables with modes bound to fills, strokes and effects.	ਓਵਰਰਾਈਡਾਂ, ਰੂਪਾਂ ਅਤੇ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਵਾਲੀਆਂ ਨਕਲਾਂ, ਸ਼ੈਲੀਆਂ ਅਤੇ ਭਰਨ, ਸਟ੍ਰੋਕਾਂ ਤੇ ਪ੍ਰਭਾਵਾਂ ਨਾਲ ਬੱਝੇ ਮੋਡਾਂ ਵਾਲੇ ਵੇਰੀਏਬਲ.
+figcraft	Interface design and prototyping	ਇੰਟਰਫੇਸ ਡਿਜ਼ਾਇਨ ਅਤੇ ਨਮੂਨੇ ਬਣਾਉਣਾ
+figcraft	Interface design and prototyping.	ਇੰਟਰਫੇਸ ਡਿਜ਼ਾਇਨ ਅਤੇ ਨਮੂਨੇ ਬਣਾਉਣਾ.
+figcraft	Plain .figcraft files on your own disk. SVG, PNG, JPEG, WebP and PDF in and out, and .fig files open, best effort.	ਤੁਹਾਡੀ ਆਪਣੀ ਡਿਸਕ ਉੱਤੇ ਸਧਾਰਨ .figcraft ਫ਼ਾਈਲਾਂ. SVG, PNG, JPEG, WebP ਅਤੇ PDF ਦਾ ਆਯਾਤ ਤੇ ਨਿਰਯਾਤ, ਅਤੇ .fig ਫ਼ਾਈਲਾਂ ਖੋਲ੍ਹਣ ਦੀ ਸੰਭਵ ਹੱਦ ਤੱਕ ਕੋਸ਼ਿਸ਼.
+figcraft	Prototypes	ਨਮੂਨੇ
+figcraft	Real vector networks, the pen and pencil, the shape builder, editable booleans and variable width strokes.	ਅਸਲੀ ਵੈਕਟਰ ਜਾਲ, ਪੈਨ ਅਤੇ ਪੈਨਸਿਲ, ਆਕਾਰ ਬਣਾਉਣ ਵਾਲਾ ਟੂਲ, ਸੋਧਯੋਗ ਬੂਲੀਅਨ ਕਾਰਵਾਈਆਂ ਅਤੇ ਬਦਲਵੀਂ ਚੌੜਾਈ ਦੇ ਸਟ੍ਰੋਕ.
+figcraft	Rows, columns, wrap and grids with padding, gaps and Hug, Fill or Fixed sizing, plus constraints and layout grids.	ਅੰਦਰੂਨੀ ਹਾਸ਼ੀਏ, ਫ਼ਾਸਲੇ ਅਤੇ Hug, Fill ਜਾਂ Fixed ਆਕਾਰਾਂ ਨਾਲ ਕਤਾਰਾਂ, ਕਾਲਮ, ਲਪੇਟਣ ਅਤੇ ਗ੍ਰਿਡ, ਨਾਲ ਹੀ ਪਾਬੰਦੀਆਂ ਅਤੇ ਖਾਕਾ ਗ੍ਰਿਡ.
+figcraft	Vectors	ਵੈਕਟਰ
+figcraft	Your files	ਤੁਹਾਡੀਆਂ ਫ਼ਾਈਲਾਂ
+filmcraft	A native video editor with source and program monitors, a real timeline and every trim mode.	ਸਰੋਤ ਅਤੇ ਪ੍ਰੋਗਰਾਮ ਮਾਨੀਟਰਾਂ, ਅਸਲੀ ਟਾਈਮਲਾਈਨ ਅਤੇ ਹਰ ਟ੍ਰਿਮ ਮੋਡ ਨਾਲ ਮੂਲ ਵੀਡੀਓ ਸੰਪਾਦਕ.
+filmcraft	A timeline you already know	ਉਹ ਟਾਈਮਲਾਈਨ ਜਿਸਨੂੰ ਤੁਸੀਂ ਪਹਿਲਾਂ ਹੀ ਜਾਣਦੇ ਹੋ
+filmcraft	An integer timebase keeps 23.976 and 29.97 drop-frame footage exact, with no drift.	ਪੂਰਨ ਅੰਕ ਵਾਲਾ ਸਮਾਂ-ਆਧਾਰ 23.976 ਅਤੇ 29.97 ਡਰਾਪ-ਫਰੇਮ ਫੁਟੇਜ ਨੂੰ ਬਿਨਾਂ ਸਮਾਂ ਖਿਸਕੇ ਸਹੀ ਰੱਖਦਾ ਹੈ.
+filmcraft	Broadcast-ready audio	ਪ੍ਰਸਾਰਣ ਲਈ ਤਿਆਰ ਆਡੀਓ
+filmcraft	Color grading	ਰੰਗ ਗ੍ਰੇਡਿੰਗ
+filmcraft	Curves, color wheels, HSL secondaries, LUTs and HDR and log workflows, with scopes to check the result.	ਨਤੀਜਾ ਜਾਂਚਣ ਲਈ ਸਕੋਪਾਂ ਨਾਲ ਵਕਰ, ਰੰਗ ਚੱਕਰ, HSL ਸੈਕੰਡਰੀ ਚੋਣਾਂ, LUTs ਅਤੇ HDR ਤੇ ਲਾਗ ਕਾਰਜ-ਵਿਧੀਆਂ.
+filmcraft	EBU R128 loudness meters, a mixer with automation and native audio effects.	EBU R128 ਉੱਚੀ ਆਵਾਜ਼ ਦੇ ਮੀਟਰ, ਆਟੋਮੇਸ਼ਨ ਵਾਲਾ ਮਿਕਸਰ ਅਤੇ ਮੂਲ ਆਡੀਓ ਪ੍ਰਭਾਵ.
+filmcraft	Effects and keyframes	ਪ੍ਰਭਾਵ ਅਤੇ ਕੀਫਰੇਮ
+filmcraft	Frame-exact time	ਫਰੇਮ ਤੱਕ ਸਹੀ ਸਮਾਂ
+filmcraft	Its own codecs	ਆਪਣੇ ਕੋਡੈਕ
+filmcraft	No FFmpeg inside: native support for H.264, HEVC, ProRes, VP9, AAC and Opus.	ਅੰਦਰ FFmpeg ਨਹੀਂ: H.264, HEVC, ProRes, VP9, AAC ਅਤੇ Opus ਲਈ ਮੂਲ ਸਮਰਥਨ.
+filmcraft	Professional video editing, rebuilt from scratch.	ਪੇਸ਼ੇਵਰ ਵੀਡੀਓ ਸੰਪਾਦਨ, ਮੁੱਢ ਤੋਂ ਮੁੜ ਬਣਾਇਆ ਹੋਇਆ.
+filmcraft	Source and program monitors, three-point editing, every trim mode and J/K/L trimming.	ਸਰੋਤ ਅਤੇ ਪ੍ਰੋਗਰਾਮ ਮਾਨੀਟਰ, ਤਿੰਨ-ਬਿੰਦੂ ਸੰਪਾਦਨ, ਹਰ ਟ੍ਰਿਮ ਮੋਡ ਅਤੇ J/K/L ਟ੍ਰਿਮਿੰਗ.
+filmcraft	Video editing, color and sound	ਵੀਡੀਓ ਸੋਧ, ਰੰਗ ਅਤੇ ਆਵਾਜ਼
+filmcraft	Video effects and transitions, keyframes with value and velocity graphs, and a linear-light GPU compositor.	ਵੀਡੀਓ ਪ੍ਰਭਾਵ ਅਤੇ ਤਬਦੀਲੀਆਂ, ਮੁੱਲ ਅਤੇ ਵੇਗ ਦੇ ਗ੍ਰਾਫਾਂ ਵਾਲੇ ਕੀਫਰੇਮ, ਅਤੇ ਲੀਨੀਅਰ-ਲਾਈਟ GPU ਕੰਪੋਜ਼ਿਟਰ.
+filter	Installed	ਇੰਸਟਾਲ ਕੀਤੀਆਂ
+gridcraft	A dependency-graph calculation engine with dynamic arrays, LET and LAMBDA, structured table references, sort, AutoFilter and Flash Fill.	ਡਾਇਨਾਮਿਕ ਐਰੇ, LET ਅਤੇ LAMBDA, ਬਣਤਰਬੱਧ ਸਾਰਣੀ ਹਵਾਲਿਆਂ, ਕ੍ਰਮਬੱਧ ਕਰਨ, AutoFilter ਅਤੇ Flash Fill ਨਾਲ ਨਿਰਭਰਤਾ-ਗ੍ਰਾਫ ਗਣਨਾ ਇੰਜਣ.
+gridcraft	A spreadsheet with the ribbon, formula bar, sheet tabs and shortcuts you know. No subscription, no license server and no telemetry.	ਤੁਹਾਡੇ ਜਾਣੇ-ਪਛਾਣੇ ਰਿਬਨ, ਫਾਰਮੂਲਾ ਪੱਟੀ, ਸ਼ੀਟ ਟੈਬਾਂ ਅਤੇ ਸ਼ਾਰਟਕੱਟਾਂ ਵਾਲੀ ਸਪ੍ਰੈੱਡਸ਼ੀਟ. ਨਾ ਗਾਹਕੀ, ਨਾ ਲਾਇਸੈਂਸ ਸਰਵਰ ਅਤੇ ਨਾ ਟੈਲੀਮੀਟਰੀ.
+gridcraft	Agent-native	ਏਜੰਟਾਂ ਲਈ ਮੂਲ ਸਹੂਲਤ
+gridcraft	Capable	ਸਮਰੱਥ
+gridcraft	Compatible	ਅਨੁਕੂਲ
+gridcraft	Copy-on-write workbooks, incremental recalculation and a grid that only lays out what is on screen.	ਲਿਖਣ ਵੇਲੇ ਕਾਪੀ ਬਣਾਉਣ ਵਾਲੀਆਂ ਵਰਕਬੁੱਕਾਂ, ਵਾਧੂ ਮੁੜ ਗਣਨਾ ਅਤੇ ਉਹ ਗ੍ਰਿਡ ਜੋ ਸਿਰਫ਼ ਸਕ੍ਰੀਨ ਉੱਤੇ ਦਿਖਦੇ ਹਿੱਸੇ ਦਾ ਖਾਕਾ ਬਣਾਉਂਦਾ ਹੈ.
+gridcraft	Every ribbon button, menu item, dialog and keystroke is a command, available over a JSON control channel, an MCP server or the CLI.	ਹਰ ਰਿਬਨ ਬਟਨ, ਮੀਨੂ ਆਈਟਮ, ਡਾਇਲਾਗ ਅਤੇ ਕੀ-ਦਬਾਅ ਇੱਕ ਕਮਾਂਡ ਹੈ, ਜੋ JSON ਕੰਟਰੋਲ ਚੈਨਲ, MCP ਸਰਵਰ ਜਾਂ CLI ਰਾਹੀਂ ਉਪਲਬਧ ਹੈ.
+gridcraft	Everywhere	ਹਰ ਥਾਂ
+gridcraft	Familiar	ਜਾਣੂ
+gridcraft	Fast	ਤੇਜ਼
+gridcraft	Spreadsheets and data	ਸਪ੍ਰੈੱਡਸ਼ੀਟਾਂ ਅਤੇ ਡਾਟਾ
+gridcraft	Spreadsheets you already know how to use.	ਉਹ ਸਪ੍ਰੈੱਡਸ਼ੀਟਾਂ ਜਿਨ੍ਹਾਂ ਨੂੰ ਵਰਤਣਾ ਤੁਸੀਂ ਪਹਿਲਾਂ ਹੀ ਜਾਣਦੇ ਹੋ.
+gridcraft	The ribbon, formula bar, Name Box, fill handle, point-mode formulas, Format Cells, Paste Special, conditional formatting, tables and charts.	ਰਿਬਨ, ਫਾਰਮੂਲਾ ਪੱਟੀ, ਨਾਮ ਡੱਬਾ, ਭਰਨ ਵਾਲਾ ਹੈਂਡਲ, ਬਿੰਦੂ-ਮੋਡ ਫਾਰਮੂਲੇ, ਸੈੱਲ ਫਾਰਮੈਟ, ਖ਼ਾਸ ਚਿਪਕਾਉਣਾ, ਸ਼ਰਤ ਅਨੁਸਾਰ ਫਾਰਮੈਟਿੰਗ, ਸਾਰਣੀਆਂ ਅਤੇ ਚਾਰਟ.
+gridcraft	Work on the desktop and the web.	ਡੈਸਕਟਾਪ ਅਤੇ ਵੈੱਬ ਉੱਤੇ ਕੰਮ ਕਰੋ.
+gridcraft	XLSX is the native format, with formulas, tables, conditional formats, charts, pivot tables and print settings round-tripping. CSV and TSV too.	XLSX ਮੂਲ ਫਾਰਮੈਟ ਹੈ, ਜਿਸ ਵਿੱਚ ਫਾਰਮੂਲੇ, ਸਾਰਣੀਆਂ, ਸ਼ਰਤ ਅਨੁਸਾਰ ਫਾਰਮੈਟ, ਚਾਰਟ, ਪਿਵਟ ਸਾਰਣੀਆਂ ਅਤੇ ਛਪਾਈ ਸੈਟਿੰਗਾਂ ਆਉਣ-ਜਾਣ ਉੱਤੇ ਕਾਇਮ ਰਹਿੰਦੀਆਂ ਹਨ. CSV ਅਤੇ TSV ਵੀ.
+lightcraft	A fast photo library and non-destructive raw developer. No account, no cloud, no telemetry and no subscription.	ਤੇਜ਼ ਫੋਟੋ ਸੰਗ੍ਰਹਿ ਅਤੇ ਮੂਲ ਤਸਵੀਰਾਂ ਬਦਲੇ ਬਿਨਾਂ ਰਾਅ ਤਸਵੀਰਾਂ ਤਿਆਰ ਕਰਨ ਦਾ ਟੂਲ. ਨਾ ਖਾਤਾ, ਨਾ ਕਲਾਉਡ, ਨਾ ਟੈਲੀਮੀਟਰੀ ਅਤੇ ਨਾ ਗਾਹਕੀ.
+lightcraft	A library that keeps up	ਨਾਲ ਨਿਭਣ ਵਾਲਾ ਸੰਗ੍ਰਹਿ
+lightcraft	A wide-gamut, 32-bit float pipeline that never touches your originals.	ਵਿਸ਼ਾਲ ਰੰਗ-ਸੀਮਾ ਵਾਲੀ 32-ਬਿਟ ਫਲੋਟ ਪਾਈਪਲਾਈਨ ਜੋ ਤੁਹਾਡੀਆਂ ਮੂਲ ਤਸਵੀਰਾਂ ਨੂੰ ਕਦੇ ਨਹੀਂ ਬਦਲਦੀ.
+lightcraft	Albums, ratings, flags and search, with grids that stay smooth on large catalogs.	ਐਲਬਮਾਂ, ਦਰਜੇ, ਫਲੈਗ ਅਤੇ ਖੋਜ, ਅਜਿਹੇ ਗ੍ਰਿਡਾਂ ਨਾਲ ਜੋ ਵੱਡੇ ਕੈਟਾਲਾਗਾਂ ਉੱਤੇ ਵੀ ਸੁਚਾਰੂ ਰਹਿੰਦੇ ਹਨ.
+lightcraft	Brush, gradient and range masks, plus sky, subject and background masks.	ਬੁਰਸ਼, ਗ੍ਰੇਡੀਐਂਟ ਅਤੇ ਰੇਂਜ ਮਾਸਕ, ਨਾਲ ਹੀ ਅਸਮਾਨ, ਮੁੱਖ ਵਿਸ਼ੇ ਅਤੇ ਪਿੱਛੋਕੜ ਦੇ ਮਾਸਕ.
+lightcraft	Every control you reach for	ਹਰ ਉਹ ਕੰਟਰੋਲ ਜਿਸਦੀ ਤੁਹਾਨੂੰ ਲੋੜ ਪੈਂਦੀ ਹੈ
+lightcraft	Instant feedback	ਤੁਰੰਤ ਨਤੀਜਾ
+lightcraft	Light, color, effects, tone curve, a color mixer, color grading wheels and built-in presets.	ਰੌਸ਼ਨੀ, ਰੰਗ, ਪ੍ਰਭਾਵ, ਟੋਨ ਵਕਰ, ਰੰਗ ਮਿਕਸਰ, ਰੰਗ ਗ੍ਰੇਡਿੰਗ ਚੱਕਰ ਅਤੇ ਅੰਦਰੂਨੀ ਪ੍ਰੀਸੈੱਟ.
+lightcraft	Native raw decoding	ਮੂਲ ਰਾਅ ਡੀਕੋਡਿੰਗ
+lightcraft	Non-destructive by design	ਮੂਲ ਨੂੰ ਨਾ ਬਦਲਣ ਲਈ ਬਣਾਇਆ
+lightcraft	Photo library and raw development	ਫੋਟੋ ਸੰਗ੍ਰਹਿ ਅਤੇ ਰਾਅ ਤਸਵੀਰਾਂ ਤਿਆਰ ਕਰਨਾ
+lightcraft	Precise masking	ਸਟੀਕ ਮਾਸਕਿੰਗ
+lightcraft	Support for the main camera raw formats: DNG, CR2, ARW, NEF, RAF, RW2, PEF and ORF.	ਮੁੱਖ ਕੈਮਰਾ ਰਾਅ ਫਾਰਮੈਟਾਂ ਲਈ ਸਮਰਥਨ: DNG, CR2, ARW, NEF, RAF, RW2, PEF ਅਤੇ ORF.
+lightcraft	The GPU pipeline updates the preview as you move a slider, even on large raw files.	ਸਲਾਈਡਰ ਹਿਲਾਉਂਦੇ ਹੀ GPU ਪਾਈਪਲਾਈਨ ਝਲਕ ਨੂੰ ਅੱਪਡੇਟ ਕਰਦੀ ਹੈ, ਵੱਡੀਆਂ ਰਾਅ ਫ਼ਾਈਲਾਂ ਉੱਤੇ ਵੀ.
+lightcraft	Your photos. Your pixels. Your machine.	ਤੁਹਾਡੀਆਂ ਫੋਟੋਆਂ. ਤੁਹਾਡੇ ਪਿਕਸਲ. ਤੁਹਾਡਾ ਕੰਪਿਊਟਰ.
+materialcraft	Build materials with node graphs.	ਨੋਡ ਗ੍ਰਾਫਾਂ ਨਾਲ ਮਟੀਰੀਅਲ ਬਣਾਓ.
+materialcraft	Combine noises, patterns and filters.	ਨੌਇਜ਼, ਪੈਟਰਨ ਅਤੇ ਫ਼ਿਲਟਰ ਜੋੜੋ.
+materialcraft	Create tileable PBR materials and export texture maps.	ਦੁਹਰਾਏ ਜਾ ਸਕਣ ਵਾਲੇ PBR ਮਟੀਰੀਅਲ ਬਣਾਓ ਅਤੇ ਟੈਕਸਚਰ ਨਕਸ਼ੇ ਨਿਰਯਾਤ ਕਰੋ.
+materialcraft	Live previews	ਤੁਰੰਤ ਝਲਕਾਂ
+materialcraft	Node graphs	ਨੋਡ ਗ੍ਰਾਫ
+materialcraft	Preview materials in 2D and on 3D models.	ਮਟੀਰੀਅਲਾਂ ਦੀ ਝਲਕ 2D ਵਿੱਚ ਅਤੇ 3D ਮਾਡਲਾਂ ਉੱਤੇ ਵੇਖੋ.
+materialcraft	Procedural material design	ਨਿਯਮਾਂ ਰਾਹੀਂ ਮਟੀਰੀਅਲ ਡਿਜ਼ਾਇਨ
+month	Apr	ਅਪ੍ਰੈਲ
+month	Aug	ਅਗਸਤ
+month	Dec	ਦਸੰਬਰ
+month	Feb	ਫ਼ਰਵਰੀ
+month	Jan	ਜਨਵਰੀ
+month	Jul	ਜੁਲਾਈ
+month	Jun	ਜੂਨ
+month	Mar	ਮਾਰਚ
+month	May	ਮਈ
+month	Nov	ਨਵੰਬਰ
+month	Oct	ਅਕਤੂਬਰ
+month	Sep	ਸਤੰਬਰ
+pdfcraft	Assemble and break apart documents while keeping links, form fields, layers and bookmarks intact.	ਲਿੰਕ, ਫ਼ਾਰਮ ਖੇਤਰ, ਪਰਤਾਂ ਅਤੇ ਬੁੱਕਮਾਰਕ ਜਿਵੇਂ ਦੇ ਤਿਵੇਂ ਰੱਖਦੇ ਹੋਏ ਦਸਤਾਵੇਜ਼ ਜੋੜੋ ਅਤੇ ਵੱਖ ਕਰੋ.
+pdfcraft	Built-in security	ਅੰਦਰੂਨੀ ਸੁਰੱਖਿਆ
+pdfcraft	Combine, extract, split	ਜੋੜੋ, ਕੱਢੋ, ਵੰਡੋ
+pdfcraft	Faithful rendering	ਭਰੋਸੇਯੋਗ ਰੈਂਡਰਿੰਗ
+pdfcraft	Fearless saves	ਬੇਫ਼ਿਕਰ ਹੋ ਕੇ ਸੰਭਾਲੋ
+pdfcraft	Incremental, atomic saves with autosave and crash recovery.	ਆਪਣੇ ਆਪ ਸੰਭਾਲਣ ਅਤੇ ਕਰੈਸ਼ ਤੋਂ ਬਾਅਦ ਮੁੜ ਪ੍ਰਾਪਤੀ ਨਾਲ ਵਾਧੂ ਤਬਦੀਲੀਆਂ ਨੂੰ ਅਟੁੱਟ ਢੰਗ ਨਾਲ ਸੰਭਾਲਣਾ.
+pdfcraft	Instant find, and text selection that follows the document's real reading order.	ਤੁਰੰਤ ਖੋਜ ਅਤੇ ਲਿਖਤ ਦੀ ਚੋਣ ਜੋ ਦਸਤਾਵੇਜ਼ ਦੇ ਅਸਲੀ ਪੜ੍ਹਨ ਕ੍ਰਮ ਦੀ ਪਾਲਣਾ ਕਰਦੀ ਹੈ.
+pdfcraft	Opens files from RC4 to AES-256 encryption and honors the author's permissions.	RC4 ਤੋਂ AES-256 ਤੱਕ ਇਨਕ੍ਰਿਪਟ ਕੀਤੀਆਂ ਫ਼ਾਈਲਾਂ ਖੋਲ੍ਹਦਾ ਹੈ ਅਤੇ ਲੇਖਕ ਦੇ ਅਧਿਕਾਰਾਂ ਦੀ ਪਾਲਣਾ ਕਰਦਾ ਹੈ.
+pdfcraft	Organize like cards	ਕਾਰਡਾਂ ਵਾਂਗ ਵਿਵਸਥਿਤ ਕਰੋ
+pdfcraft	Read, organize, combine, split and secure PDFs in a fast, native app. No account, no telemetry and no cloud.	ਤੇਜ਼ ਮੂਲ ਐਪ ਵਿੱਚ PDF ਪੜ੍ਹੋ, ਵਿਵਸਥਿਤ ਕਰੋ, ਜੋੜੋ, ਵੰਡੋ ਅਤੇ ਸੁਰੱਖਿਅਤ ਕਰੋ. ਨਾ ਖਾਤਾ, ਨਾ ਟੈਲੀਮੀਟਰੀ ਅਤੇ ਨਾ ਕਲਾਉਡ.
+pdfcraft	Reading, organizing and protecting PDFs	PDF ਪੜ੍ਹਨਾ, ਵਿਵਸਥਿਤ ਕਰਨਾ ਅਤੇ ਸੁਰੱਖਿਅਤ ਕਰਨਾ
+pdfcraft	Rotate, delete, insert and reorder pages, with deep undo behind every change.	ਸਫ਼ੇ ਘੁਮਾਓ, ਮਿਟਾਓ, ਪਾਓ ਅਤੇ ਕ੍ਰਮ ਬਦਲੋ, ਹਰ ਤਬਦੀਲੀ ਲਈ ਕਈ ਪੜਾਵਾਂ ਤੱਕ ਵਾਪਸ ਕਰਨ ਦੀ ਸਹੂਲਤ ਨਾਲ.
+pdfcraft	Search as you type	ਟਾਈਪ ਕਰਦੇ ਹੀ ਖੋਜੋ
+pdfcraft	The open-source PDF workbench.	ਖੁੱਲ੍ਹੇ ਸਰੋਤ ਵਾਲਾ PDF ਕਾਰਜ-ਟੂਲ.
+pdfcraft	World scripts, vertical Japanese, color emoji and transparency.	ਦੁਨੀਆ ਦੀਆਂ ਲਿਪੀਆਂ, ਖੜ੍ਹਵੀਂ ਜਪਾਨੀ ਲਿਖਤ, ਰੰਗੀਨ ਇਮੋਜੀ ਅਤੇ ਪਾਰਦਰਸ਼ਤਾ.
+photocraft	8-, 16- and 32-bit RGB, CMYK, Lab and Grayscale, with ICC color management and soft proofing.	ICC ਰੰਗ ਪ੍ਰਬੰਧਨ ਅਤੇ ਸਾਫਟ ਪਰੂਫਿੰਗ ਨਾਲ 8-, 16- ਅਤੇ 32-ਬਿਟ RGB, CMYK, Lab ਅਤੇ Grayscale.
+photocraft	Adjustment layers, live-preview filters, smart objects and layer styles.	ਐਡਜਸਟਮੈਂਟ ਪਰਤਾਂ, ਤੁਰੰਤ ਝਲਕ ਵਾਲੇ ਫ਼ਿਲਟਰ, ਸਮਾਰਟ ਆਬਜੈਕਟ ਅਤੇ ਪਰਤ ਸ਼ੈਲੀਆਂ.
+photocraft	Image editing	ਚਿੱਤਰ ਸੋਧ
+photocraft	Layers, masks, adjustment layers, layer styles, type, vectors and brushes in a native app. Open source, offline, and yours.	ਮੂਲ ਐਪ ਵਿੱਚ ਪਰਤਾਂ, ਮਾਸਕ, ਐਡਜਸਟਮੈਂਟ ਪਰਤਾਂ, ਪਰਤ ਸ਼ੈਲੀਆਂ, ਲਿਖਤ, ਵੈਕਟਰ ਅਤੇ ਬੁਰਸ਼. ਖੁੱਲ੍ਹਾ ਸਰੋਤ, ਆਫਲਾਈਨ ਅਤੇ ਤੁਹਾਡਾ ਆਪਣਾ.
+photocraft	Native GPU canvas	ਮੂਲ GPU ਕੈਨਵਸ
+photocraft	No Electron and no web view: a fast native compositor.	ਨਾ Electron, ਨਾ ਵੈੱਬ ਵਿਊ: ਇੱਕ ਤੇਜ਼ ਮੂਲ ਕੰਪੋਜ਼ਿਟਰ.
+photocraft	Non-destructive editing	ਮੂਲ ਸਮੱਗਰੀ ਬਦਲੇ ਬਿਨਾਂ ਸੋਧ
+photocraft	On-device selection	ਡਿਵਾਈਸ ਉੱਤੇ ਚੋਣ
+photocraft	Opens and saves layered PSD and PSB documents.	ਪਰਤਾਂ ਵਾਲੇ PSD ਅਤੇ PSB ਦਸਤਾਵੇਜ਼ ਖੋਲ੍ਹਦਾ ਅਤੇ ਸੰਭਾਲਦਾ ਹੈ.
+photocraft	PhotoCraft keeps the menus, shortcuts and panels your hands already know, so there is nothing to relearn.	PhotoCraft ਉਹੀ ਮੀਨੂ, ਸ਼ਾਰਟਕੱਟ ਅਤੇ ਪੈਨਲ ਰੱਖਦਾ ਹੈ ਜਿਨ੍ਹਾਂ ਨਾਲ ਤੁਹਾਡੇ ਹੱਥ ਜਾਣੂ ਹਨ, ਇਸ ਲਈ ਮੁੜ ਸਿੱਖਣ ਦੀ ਲੋੜ ਨਹੀਂ.
+photocraft	Real layered files	ਅਸਲੀ ਪਰਤਾਂ ਵਾਲੀਆਂ ਫ਼ਾਈਲਾਂ
+photocraft	Serious color	ਪੇਸ਼ੇਵਰ ਰੰਗ
+photocraft	Subject and object selection and mask refinement run locally.	ਮੁੱਖ ਵਿਸ਼ੇ ਅਤੇ ਆਬਜੈਕਟ ਦੀ ਚੋਣ ਅਤੇ ਮਾਸਕ ਨੂੰ ਨਿਖਾਰਨ ਦਾ ਕੰਮ ਸਥਾਨਕ ਤੌਰ ਉੱਤੇ ਹੁੰਦਾ ਹੈ.
+photocraft	The image editor you already know how to use.	ਉਹ ਚਿੱਤਰ ਸੰਪਾਦਕ ਜਿਸਨੂੰ ਵਰਤਣਾ ਤੁਸੀਂ ਪਹਿਲਾਂ ਹੀ ਜਾਣਦੇ ਹੋ.
+solidcraft	A desktop app, a browser app, a headless CLI and an MCP server, all running the same commands.	ਇੱਕੋ ਕਮਾਂਡਾਂ ਚਲਾਉਣ ਵਾਲੀ ਡੈਸਕਟਾਪ ਐਪ, ਬ੍ਰਾਊਜ਼ਰ ਐਪ, ਬਿਨਾਂ ਇੰਟਰਫੇਸ ਵਾਲੀ CLI ਅਤੇ MCP ਸਰਵਰ.
+solidcraft	A parametric solid modeller by Tangency Labs. Sketch, constrain and build solids on an editable feature timeline: change a dimension and the model rebuilds. Early, but usable for simple parts. Open source, and it can be driven by AI agents through its MCP server.	Tangency Labs ਵੱਲੋਂ ਪੈਰਾਮੀਟਰ-ਆਧਾਰਤ ਠੋਸ ਆਕਾਰ ਬਣਾਉਣ ਦਾ ਟੂਲ. ਸੋਧਯੋਗ ਵਿਸ਼ੇਸ਼ਤਾ ਟਾਈਮਲਾਈਨ ਉੱਤੇ ਸਕੈਚ ਬਣਾਓ, ਪਾਬੰਦੀਆਂ ਲਾਓ ਅਤੇ ਠੋਸ ਆਕਾਰ ਬਣਾਓ: ਮਾਪ ਬਦਲਣ ਨਾਲ ਮਾਡਲ ਮੁੜ ਬਣਦਾ ਹੈ. ਸ਼ੁਰੂਆਤੀ ਹੈ, ਪਰ ਸਧਾਰਨ ਪੁਰਜ਼ਿਆਂ ਲਈ ਵਰਤਣਯੋਗ ਹੈ. ਖੁੱਲ੍ਹਾ ਸਰੋਤ, ਅਤੇ AI ਏਜੰਟ ਇਸ ਦੇ MCP ਸਰਵਰ ਰਾਹੀਂ ਇਸਨੂੰ ਚਲਾ ਸਕਦੇ ਹਨ.
+solidcraft	Desktop, web and agents	ਡੈਸਕਟਾਪ, ਵੈੱਬ ਅਤੇ ਏਜੰਟ
+solidcraft	Extrude, revolve, sweep, loft, fillet, chamfer, shell, holes, threads and patterns on a parametric timeline.	ਪੈਰਾਮੀਟਰ-ਆਧਾਰਤ ਟਾਈਮਲਾਈਨ ਉੱਤੇ ਐਕਸਟ੍ਰੂਡ, ਰਿਵਾਲਵ, ਸਵੀਪ, ਲਾਫਟ, ਫਿਲਟ, ਚੈਂਫਰ, ਸ਼ੈੱਲ, ਛੇਦ, ਪੇਚ ਅਤੇ ਪੈਟਰਨ.
+solidcraft	Features	ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ
+solidcraft	Files	ਫ਼ਾਈਲਾਂ
+solidcraft	Lines, arcs, splines and text, solved by SolidCraft's own constraint solver, with parameter-driven dimensions.	SolidCraft ਦੇ ਆਪਣੇ ਪਾਬੰਦੀ ਹੱਲਕਾਰ ਨਾਲ ਹੱਲ ਕੀਤੀਆਂ ਰੇਖਾਵਾਂ, ਚਾਪਾਂ, ਸਪਲਾਈਨਾਂ ਅਤੇ ਲਿਖਤ, ਪੈਰਾਮੀਟਰਾਂ ਮੁਤਾਬਕ ਮਾਪਾਂ ਨਾਲ.
+solidcraft	Parametric 3D CAD	ਪੈਰਾਮੀਟਰ-ਆਧਾਰਤ 3D CAD
+solidcraft	Parametric 3D CAD, with editable sketches and solids.	ਸੋਧਯੋਗ ਸਕੈਚਾਂ ਅਤੇ ਠੋਸ ਆਕਾਰਾਂ ਨਾਲ ਪੈਰਾਮੀਟਰ-ਆਧਾਰਤ 3D CAD.
+solidcraft	STEP, IGES, 3MF, STL, OBJ and glTF in and out where supported, and .sc designs.	ਜਿੱਥੇ ਸਮਰਥਿਤ ਹੋਵੇ ਉੱਥੇ STEP, IGES, 3MF, STL, OBJ ਅਤੇ glTF ਦਾ ਆਯਾਤ ਤੇ ਨਿਰਯਾਤ, ਅਤੇ .sc ਡਿਜ਼ਾਇਨ.
+solidcraft	Sketches and constraints	ਸਕੈਚ ਅਤੇ ਪਾਬੰਦੀਆਂ
+soundcraft	A digital audio workstation that follows the workflow audio engineers already know: an Edit window for arranging and editing, and a Mix window for balancing. Pre-alpha.	ਆਡੀਓ ਇੰਜੀਨੀਅਰਾਂ ਦੀ ਜਾਣੀ-ਪਛਾਣੀ ਕਾਰਜ-ਵਿਧੀ ਵਾਲਾ ਡਿਜ਼ਿਟਲ ਆਡੀਓ ਕਾਰਜ-ਕੇਂਦਰ: ਤਰਤੀਬ ਅਤੇ ਸੋਧ ਲਈ ਸੋਧ ਵਿੰਡੋ, ਅਤੇ ਸੰਤੁਲਨ ਲਈ ਮਿਕਸ ਵਿੰਡੋ. ਪ੍ਰੀ-ਅਲਫ਼ਾ.
+soundcraft	Automation	ਆਟੋਮੇਸ਼ਨ
+soundcraft	EQ, dynamics, reverbs, modulation effects, a subtractive synth and a drum synth, all original, and CLAP plugins load too.	EQ, ਡਾਇਨਾਮਿਕਸ, ਰੀਵਰਬ, ਮੋਡੂਲੇਸ਼ਨ ਪ੍ਰਭਾਵ, ਸਬਟ੍ਰੈਕਟਿਵ ਸਿੰਥ ਅਤੇ ਡਰੱਮ ਸਿੰਥ, ਸਭ ਮੂਲ, ਅਤੇ CLAP ਪਲੱਗਇਨ ਵੀ ਲੋਡ ਹੁੰਦੇ ਹਨ.
+soundcraft	Editing	ਸੋਧ
+soundcraft	Faders and pans with automation, sends, busses, aux inputs, VCA masters, routing folders and automatic plugin delay compensation.	ਆਟੋਮੇਸ਼ਨ ਵਾਲੇ ਫੇਡਰ ਅਤੇ ਪੈਨ, ਸੈਂਡ, ਬੱਸਾਂ, ਔਕਸ ਇਨਪੁੱਟ, VCA ਮਾਸਟਰ, ਰਾਊਟਿੰਗ ਫੋਲਡਰ ਅਤੇ ਪਲੱਗਇਨ ਦੀ ਦੇਰੀ ਲਈ ਆਪਣੇ ਆਪ ਭਰਪਾਈ.
+soundcraft	Mixing	ਮਿਕਸਿੰਗ
+soundcraft	Plugins	ਪਲੱਗਇਨ
+soundcraft	Record, edit and mix your audio.	ਆਪਣਾ ਆਡੀਓ ਰਿਕਾਰਡ ਕਰੋ, ਸੋਧੋ ਅਤੇ ਮਿਕਸ ਕਰੋ.
+soundcraft	Recording, editing and mixing audio	ਆਡੀਓ ਰਿਕਾਰਡ ਕਰਨਾ, ਸੋਧਣਾ ਅਤੇ ਮਿਕਸ ਕਰਨਾ
+soundcraft	Shuffle, Slip, Spot and Grid modes, Smart, Grabber, Trim and other tools, fades and crossfades, playlists with comping lanes and clip gain.	Shuffle, Slip, Spot ਅਤੇ Grid ਮੋਡ, Smart, Grabber, Trim ਅਤੇ ਹੋਰ ਟੂਲ, ਫੇਡ ਅਤੇ ਕ੍ਰਾਸਫੇਡ, ਕੰਪਿੰਗ ਲੇਨਾਂ ਵਾਲੀਆਂ ਪਲੇਲਿਸਟਾਂ ਅਤੇ ਕਲਿੱਪ ਗੇਨ.
+soundcraft	Volume, pan, mute, send and every plugin parameter, with Write, Touch, Latch and Trim passes recorded live from the faders.	ਆਵਾਜ਼ ਦੀ ਮਾਤਰਾ, ਪੈਨ, ਮਿਊਟ, ਸੈਂਡ ਅਤੇ ਹਰ ਪਲੱਗਇਨ ਪੈਰਾਮੀਟਰ, ਫੇਡਰਾਂ ਤੋਂ ਸਿੱਧੇ ਰਿਕਾਰਡ ਕੀਤੇ Write, Touch, Latch ਅਤੇ Trim ਪਾਸਾਂ ਨਾਲ.
+texturecraft	3D texture painting	3D ਟੈਕਸਚਰ ਰੰਗਣਾ
+texturecraft	Bake mesh maps and use smart materials.	ਮੈਸ਼ ਨਕਸ਼ੇ ਬੇਕ ਕਰੋ ਅਤੇ ਸਮਾਰਟ ਮਟੀਰੀਅਲ ਵਰਤੋ.
+texturecraft	Materials	ਮਟੀਰੀਅਲ
+texturecraft	Mesh maps	ਮੈਸ਼ ਨਕਸ਼ੇ
+texturecraft	Paint materials on 3D models and export textures.	3D ਮਾਡਲਾਂ ਉੱਤੇ ਮਟੀਰੀਅਲ ਰੰਗੋ ਅਤੇ ਟੈਕਸਚਰ ਨਿਰਯਾਤ ਕਰੋ.
+texturecraft	Paint textures on 3D models.	3D ਮਾਡਲਾਂ ਉੱਤੇ ਟੈਕਸਚਰ ਰੰਗੋ.
+vectorcraft	A native vector illustration app with the pen, panels and shortcuts illustrators expect. Open source, and it also runs in a browser.	ਚਿੱਤਰਕਾਰਾਂ ਦੀ ਉਮੀਦ ਵਾਲੇ ਪੈਨ, ਪੈਨਲਾਂ ਅਤੇ ਸ਼ਾਰਟਕੱਟਾਂ ਨਾਲ ਮੂਲ ਵੈਕਟਰ ਚਿੱਤਰਕਾਰੀ ਐਪ. ਖੁੱਲ੍ਹਾ ਸਰੋਤ, ਅਤੇ ਬ੍ਰਾਊਜ਼ਰ ਵਿੱਚ ਵੀ ਚੱਲਦਾ ਹੈ.
+vectorcraft	Blends, envelope distort, gradient mesh, repeats, glows and drop shadows all stay editable.	ਮਿਲਾਵਟਾਂ, ਐਨਵਲਪ ਵਿਗਾੜ, ਗ੍ਰੇਡੀਐਂਟ ਜਾਲ, ਦੁਹਰਾਵੇ, ਚਮਕਾਂ ਅਤੇ ਪੈਂਦੇ ਪਰਛਾਵੇਂ ਸਭ ਸੋਧਯੋਗ ਰਹਿੰਦੇ ਹਨ.
+vectorcraft	Booleans that don't fail	ਅਸਫਲ ਨਾ ਹੋਣ ਵਾਲੀਆਂ ਬੂਲੀਅਨ ਕਾਰਵਾਈਆਂ
+vectorcraft	Drawings with thousands of shapes stay responsive on a retina display.	ਹਜ਼ਾਰਾਂ ਆਕਾਰਾਂ ਵਾਲੇ ਚਿੱਤਰ ਵੀ ਰੈਟੀਨਾ ਡਿਸਪਲੇਅ ਉੱਤੇ ਤੁਰੰਤ ਜਵਾਬ ਦਿੰਦੇ ਹਨ.
+vectorcraft	Genuinely fast	ਵਾਕਈ ਤੇਜ਼
+vectorcraft	Image tracing	ਚਿੱਤਰ ਟ੍ਰੇਸਿੰਗ
+vectorcraft	Live, editable effects	ਤੁਰੰਤ ਦਿਖਦੇ, ਸੋਧਯੋਗ ਪ੍ਰਭਾਵ
+vectorcraft	Native JSON documents, SVG and PDF import and export, and PNG, JPEG and WebP output.	ਮੂਲ JSON ਦਸਤਾਵੇਜ਼, SVG ਅਤੇ PDF ਆਯਾਤ ਤੇ ਨਿਰਯਾਤ, ਅਤੇ PNG, JPEG ਤੇ WebP ਆਉਟਪੁੱਟ.
+vectorcraft	Open formats	ਖੁੱਲ੍ਹੇ ਫਾਰਮੈਟ
+vectorcraft	Pen, direct selection, shape booleans, snapping guides and an appearance panel, laid out the way you expect.	ਪੈਨ, ਸਿੱਧੀ ਚੋਣ, ਆਕਾਰਾਂ ਉੱਤੇ ਬੂਲੀਅਨ ਕਾਰਵਾਈਆਂ, ਸਨੈਪ ਕਰਨ ਵਾਲੀਆਂ ਸੇਧਾਂ ਅਤੇ ਦਿੱਖ ਪੈਨਲ, ਤੁਹਾਡੀ ਉਮੀਦ ਮੁਤਾਬਕ ਸਜੇ ਹੋਏ.
+vectorcraft	Shape booleans work on the exact curves, so there is no "cannot perform operation", and undo is unlimited.	ਆਕਾਰਾਂ ਦੀਆਂ ਬੂਲੀਅਨ ਕਾਰਵਾਈਆਂ ਸਹੀ ਵਕਰਾਂ ਉੱਤੇ ਕੰਮ ਕਰਦੀਆਂ ਹਨ, ਇਸ ਲਈ ਕੋਈ "ਕਾਰਵਾਈ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕਦੀ" ਸੁਨੇਹਾ ਨਹੀਂ ਆਉਂਦਾ, ਅਤੇ ਵਾਪਸ ਕਰਨਾ ਅਸੀਮਤ ਹੈ.
+vectorcraft	The workflow you know	ਤੁਹਾਡੀ ਜਾਣੀ-ਪਛਾਣੀ ਕਾਰਜ-ਵਿਧੀ
+vectorcraft	Turn raster images into clean vector paths, with presets for the common cases.	ਆਮ ਹਾਲਤਾਂ ਲਈ ਪ੍ਰੀਸੈੱਟਾਂ ਨਾਲ ਰੈਸਟਰ ਚਿੱਤਰਾਂ ਨੂੰ ਸਾਫ਼ ਵੈਕਟਰ ਪਾਥਾਂ ਵਿੱਚ ਬਦਲੋ.
+vectorcraft	Vector illustration	ਵੈਕਟਰ ਚਿੱਤਰਕਾਰੀ
+vectorcraft	Vector illustration, with familiar tools and editable effects.	ਜਾਣੂ ਟੂਲਾਂ ਅਤੇ ਸੋਧਯੋਗ ਪ੍ਰਭਾਵਾਂ ਨਾਲ ਵੈਕਟਰ ਚਿੱਤਰਕਾਰੀ.
+wordcraft	A word processor with the ribbon, shortcuts and behavior you already know. Open source, and built from public specifications.	ਉਹ ਰਿਬਨ, ਸ਼ਾਰਟਕੱਟ ਅਤੇ ਵਿਹਾਰ ਵਾਲਾ ਵਰਡ ਪ੍ਰੋਸੈਸਰ ਜਿਨ੍ਹਾਂ ਨੂੰ ਤੁਸੀਂ ਪਹਿਲਾਂ ਹੀ ਜਾਣਦੇ ਹੋ. ਖੁੱਲ੍ਹਾ ਸਰੋਤ ਅਤੇ ਜਨਤਕ ਨਿਰਧਾਰਨਾਂ ਤੋਂ ਬਣਾਇਆ ਗਿਆ.
+wordcraft	Built for agents	ਏਜੰਟਾਂ ਲਈ ਬਣਾਇਆ
+wordcraft	Every action is a command, driven from the ribbon, shortcuts, a command-line tool, a JSON control channel or an MCP server.	ਹਰ ਕਾਰਵਾਈ ਇੱਕ ਕਮਾਂਡ ਹੈ, ਜਿਸਨੂੰ ਰਿਬਨ, ਸ਼ਾਰਟਕੱਟਾਂ, ਕਮਾਂਡ-ਲਾਈਨ ਟੂਲ, JSON ਕੰਟਰੋਲ ਚੈਨਲ ਜਾਂ MCP ਸਰਵਰ ਤੋਂ ਚਲਾਇਆ ਜਾ ਸਕਦਾ ਹੈ.
+wordcraft	Everywhere	ਹਰ ਥਾਂ
+wordcraft	Familiar	ਜਾਣੂ
+wordcraft	Fast	ਤੇਜ਼
+wordcraft	Opens and saves .docx, and also .odt, .rtf, .html, .md, .tex and .txt. Opens older .doc files and exports PDF with real, selectable text.	.docx ਦੇ ਨਾਲ .odt, .rtf, .html, .md, .tex ਅਤੇ .txt ਖੋਲ੍ਹਦਾ ਅਤੇ ਸੰਭਾਲਦਾ ਹੈ. ਪੁਰਾਣੀਆਂ .doc ਫ਼ਾਈਲਾਂ ਖੋਲ੍ਹਦਾ ਹੈ ਅਤੇ ਅਸਲੀ ਚੁਣਨਯੋਗ ਲਿਖਤ ਵਾਲੀ PDF ਨਿਰਯਾਤ ਕਰਦਾ ਹੈ.
+wordcraft	Paragraph layout is cached, so typing stays responsive even in long documents.	ਪੈਰਿਆਂ ਦਾ ਖਾਕਾ ਕੈਸ਼ ਕੀਤਾ ਜਾਂਦਾ ਹੈ, ਇਸ ਲਈ ਲੰਮੇ ਦਸਤਾਵੇਜ਼ਾਂ ਵਿੱਚ ਵੀ ਟਾਈਪ ਕਰਨ ਵੇਲੇ ਤੁਰੰਤ ਜਵਾਬ ਮਿਲਦਾ ਹੈ.
+wordcraft	Private	ਨਿੱਜੀ
+wordcraft	Ribbon tabs and groups, a live Styles gallery and the editing behavior you expect, from list continuation to Format Painter.	ਲਿਸਟ ਜਾਰੀ ਰੱਖਣ ਤੋਂ Format Painter ਤੱਕ, ਰਿਬਨ ਟੈਬਾਂ ਅਤੇ ਸਮੂਹ, ਤੁਰੰਤ ਸ਼ੈਲੀ ਝਲਕਾਂ ਅਤੇ ਤੁਹਾਡੀ ਉਮੀਦ ਮੁਤਾਬਕ ਸੰਪਾਦਨ ਵਿਹਾਰ.
+wordcraft	Spelling, grammar and everything else work offline.	ਸ਼ਬਦ-ਜੋੜ, ਵਿਆਕਰਨ ਅਤੇ ਹੋਰ ਸਭ ਕੁਝ ਆਫਲਾਈਨ ਕੰਮ ਕਰਦਾ ਹੈ.
+wordcraft	The familiar word processor, native and offline.	ਜਾਣੂ ਵਰਡ ਪ੍ਰੋਸੈਸਰ, ਮੂਲ ਅਤੇ ਆਫਲਾਈਨ.
+wordcraft	Work on macOS, Windows, Linux, BSD and the web.	macOS, Windows, Linux, BSD ਅਤੇ ਵੈੱਬ ਉੱਤੇ ਕੰਮ ਕਰੋ.
+wordcraft	Writing and document design	ਲਿਖਣਾ ਅਤੇ ਦਸਤਾਵੇਜ਼ ਡਿਜ਼ਾਇਨ
+wordcraft	Your files	ਤੁਹਾਡੀਆਂ ਫ਼ਾਈਲਾਂ

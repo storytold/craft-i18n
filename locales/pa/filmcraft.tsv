@@ -1,0 +1,3501 @@
+# ਪੰਜਾਬੀ (pa) interface catalog for FilmCraft.
+# Columns, separated by a TAB:  context <TAB> English source text <TAB> translation
+#   context  usually empty. `@plural`, `@id` and `@msg` mean something to the apps; any other
+#            word is a label that tells apart two meanings of the same English.
+#   escapes  \n  \t  \\  inside a column. `{name}` placeholders must appear in both columns (in any
+#            order), and a trailing "…" in one needs one in the other.
+#   @plural  English `one|other`; the translation lists this language's plural forms, `|`-separated.
+#   Lines starting with # and blank lines are ignored. A missing entry shows in English.
+#
+# Clean room: every entry was written from the plain meaning of the English text in ordinary
+# computing vocabulary. No other product's localisation, string table or translated UI was
+# consulted or copied; add entries the same way.
+# AI-assisted clean-room translations by @ishveet with OpenAI Codex.
+# Review: expanded entries were sample-reviewed, not comprehensively reviewed line by line by a native speaker.
+
+	   Angle	   ਕੋਣ
+	   Blur	   ਧੁੰਦਲਾਪਣ
+	   Corner Radius	   ਕੋਨੇ ਦਾ ਅਰਧ-ਵਿਆਸ
+	   Distance	   ਦੂਰੀ
+	   Opacity	   ਅਪਾਰਦਰਸ਼ਤਾ
+	   Size	   ਆਕਾਰ
+	   Template: {name}	   ਟੈਂਪਲੇਟ: {name}
+	  (none)	  (ਕੋਈ ਨਹੀਂ)
+	 (removed from {list})	 ({list} ਵਿੱਚੋਂ ਹਟਾਇਆ)
+	 (unavailable)	 (ਉਪਲਬਧ ਨਹੀਂ)
+	 ({ch} output channels)	 ({ch} ਆਉਟਪੁੱਟ ਚੈਨਲ)
+	 and 	 ਅਤੇ 
+	 frames	 ਫਰੇਮ
+	 seconds	 ਸਕਿੰਟ
+	 · {time} left	 · {time} ਬਾਕੀ
+	(Custom)	(ਪਸੰਦੀਦਾ)
+	(Default)	(ਮੂਲ)
+	(RGB) Gamma	(RGB) ਗਾਮਾ
+	(RGB) Input Black Level	(RGB) ਇਨਪੁੱਟ ਕਾਲੇ ਦਾ ਪੱਧਰ
+	(RGB) Input White Level	(RGB) ਇਨਪੁੱਟ ਚਿੱਟੇ ਦਾ ਪੱਧਰ
+	(RGB) Output Black Level	(RGB) ਆਉਟਪੁੱਟ ਕਾਲੇ ਦਾ ਪੱਧਰ
+	(RGB) Output White Level	(RGB) ਆਉਟਪੁੱਟ ਚਿੱਟੇ ਦਾ ਪੱਧਰ
+	(empty)	(ਖਾਲੀ)
+	(gap)	(ਵਿੱਥ)
+	(no audio)	(ਕੋਈ ਆਡੀਓ ਨਹੀਂ)
+	(no clip selected)	(ਕੋਈ ਕਲਿੱਪ ਨਹੀਂ ਚੁਣੀ)
+	(no clips)	(ਕੋਈ ਕਲਿੱਪਾਂ ਨਹੀਂ)
+	(no sequence)	(ਕੋਈ ਸੀਕਵੈਂਸ ਨਹੀਂ)
+	(no sequences)	(ਕੋਈ ਸੀਕਵੈਂਸਾਂ ਨਹੀਂ)
+	+ Cmd	+ Cmd
+	+ Opt	+ Opt
+	0 fastest, 8 smallest	0 ਸਭ ਤੋਂ ਤੇਜ਼, 8 ਸਭ ਤੋਂ ਛੋਟਾ
+	10 Bit Black Point	10 ਬਿਟ ਕਾਲਾ ਬਿੰਦੂ
+	10 Bit White Point	10 ਬਿਟ ਚਿੱਟਾ ਬਿੰਦੂ
+	10-bit color	10-ਬਿਟ ਰੰਗ
+	105mm Prime	105mm ਪ੍ਰਾਈਮ
+	16 bit	16 ਬਿਟ
+	24 bit	24 ਬਿਟ
+	29.97 fps Drop-Frame	29.97 fps ਡਰਾਪ-ਫਰੇਮ
+	29.97 fps Non Drop-Frame	29.97 fps ਨਾਨ ਡਰਾਪ-ਫਰੇਮ
+	32 bit	32 ਬਿਟ
+	32 bit float	32 ਬਿਟ ਫਲੋਟ
+	35mm Prime	35mm ਪ੍ਰਾਈਮ
+	3D Roll	3D ਰੋਲ
+	3D Rotate	3D ਘੁੰਮਾਅ
+	3D Spin	3D ਸਪਿਨ
+	3D Spinback	3D ਸਪਿਨਬੈਕ
+	4-Color Gradient	4-ਰੰਗ ਗ੍ਰੇਡੀਐਂਟ
+	5.1 Media	5.1 ਮੀਡੀਆ
+	5.1 Mixdown Type	5.1 ਮਿਕਸਡਾਊਨ ਕਿਸਮ
+	5.1 panner (drag the puck; double-click: front centre)	5.1 ਪੈਨਰ (ਗੋਲ ਨਿਸ਼ਾਨ ਖਿੱਚੋ; ਦੋ ਵਾਰ ਕਲਿੱਕ: ਅੱਗੇ ਕੇਂਦਰ)
+	50-300mm Zoom	50-300mm ਜ਼ੂਮ
+	59.94 fps Drop-Frame	59.94 fps ਡਰਾਪ-ਫਰੇਮ
+	59.94 fps Non Drop-Frame	59.94 fps ਨਾਨ ਡਰਾਪ-ਫਰੇਮ
+	A boxed label with a round pointer; move the label and the pointer follows.	ਗੋਲ ਇਸ਼ਾਰੇ ਵਾਲਾ ਡੱਬੇਦਾਰ ਲੇਬਲ; ਲੇਬਲ ਹਿਲਾਉਣ ਨਾਲ ਇਸ਼ਾਰਾ ਵੀ ਨਾਲ ਚੱਲਦਾ ਹੈ.
+	A clean-room, pure-Rust non-linear video editor. Part of the ArtCraft family.	ਕਲੀਨ-ਰੂਮ ਢੰਗ ਨਾਲ ਬਣਿਆ, ਪੂਰੀ ਤਰ੍ਹਾਂ Rust ਵਿੱਚ ਲਿਖਿਆ ਨਾਨ-ਲੀਨੀਅਰ ਵੀਡੀਓ ਸੰਪਾਦਕ. ArtCraft ਪਰਿਵਾਰ ਦਾ ਹਿੱਸਾ.
+	A cut sequence with transitions, effects and music	ਟ੍ਰਾਂਜ਼ਿਸ਼ਨਾਂ, ਪ੍ਰਭਾਵਾਂ ਅਤੇ ਸੰਗੀਤ ਵਾਲਾ ਸੰਪਾਦਿਤ ਸੀਕਵੈਂਸ
+	A file dialog is already open	ਇੱਕ ਫ਼ਾਈਲ ਡਾਇਲਾਗ ਪਹਿਲਾਂ ਹੀ ਖੁੱਲ੍ਹਾ ਹੈ
+	A news-style line that crawls in from the right and leaves at the left.	ਖ਼ਬਰਾਂ ਵਰਗੀ ਲਾਈਨ ਜੋ ਸੱਜਿਓਂ ਆਉਂਦੀ ਅਤੇ ਖੱਬਿਓਂ ਬਾਹਰ ਜਾਂਦੀ ਹੈ.
+	A range marker needs a positive duration	ਰੇਂਜ ਮਾਰਕਰ ਦੀ ਮਿਆਦ ਸਿਫ਼ਰ ਤੋਂ ਵੱਧ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ
+	A rounded tag that fits its text, with a status dot.	ਸਥਿਤੀ ਬਿੰਦੂ ਵਾਲਾ ਗੋਲ ਕੋਨਿਆਂ ਦਾ ਟੈਗ, ਜੋ ਆਪਣੇ ਪਾਠ ਅਨੁਸਾਰ ਫਿੱਟ ਹੁੰਦਾ ਹੈ.
+	A title on a rounded card with a soft shadow.	ਹਲਕੇ ਪਰਛਾਵੇਂ ਵਾਲੇ ਗੋਲ ਕੋਨਿਆਂ ਦੇ ਕਾਰਡ ਉੱਤੇ ਸਿਰਲੇਖ.
+	AAC Audio	AAC ਆਡੀਓ
+	AAC Audio 48 kHz 320 kbps	AAC ਆਡੀਓ 48 kHz 320 kbps
+	AAF Export Settings	AAF ਨਿਰਯਾਤ ਸੈਟਿੰਗਾਂ
+	AAF…	AAF…
+	AIFF	AIFF
+	AIFF 48 kHz 16-bit	AIFF 48 kHz 16-ਬਿਟ
+	AIFF, stereo 48 kHz 16-bit PCM	AIFF, ਸਟੀਰੀਓ 48 kHz 16-ਬਿਟ PCM
+	APV	APV
+	APV 422-10	APV 422-10
+	APV 422-12	APV 422-12
+	ASC CDL	ASC CDL
+	AV1	AV1
+	AV1 needs a hardware encoder; none was found on this machine, and FilmCraft has no software AV1 encoder yet.	AV1 ਲਈ ਹਾਰਡਵੇਅਰ ਐਨਕੋਡਰ ਲੋੜੀਂਦਾ ਹੈ; ਇਸ ਮਸ਼ੀਨ ਉੱਤੇ ਕੋਈ ਨਹੀਂ ਮਿਲਿਆ, ਅਤੇ FilmCraft ਵਿੱਚ ਹਾਲੇ ਸਾਫ਼ਟਵੇਅਰ AV1 ਐਨਕੋਡਰ ਨਹੀਂ ਹੈ.
+	About FilmCraft	FilmCraft ਬਾਰੇ
+	Accent Color	ਉਭਾਰ ਦਾ ਰੰਗ
+	Accessible color contrast	ਪਹੁੰਚਯੋਗ ਰੰਗ ਕਾਂਟ੍ਰਾਸਟ
+	Action Safe Area	ਐਕਸ਼ਨ ਸੁਰੱਖਿਅਤ ਖੇਤਰ
+	Action and Title Safe Areas	ਐਕਸ਼ਨ ਅਤੇ ਸਿਰਲੇਖ ਸੁਰੱਖਿਅਤ ਖੇਤਰ
+	Action-Safe Margin	ਐਕਸ਼ਨ-ਸੁਰੱਖਿਅਤ ਹਾਸ਼ੀਆ
+	Action:	ਕਾਰਵਾਈ:
+	Active Monitor	ਸਰਗਰਮ ਮਾਨੀਟਰ
+	Adaptive	ਅਨੁਕੂਲੀ
+	Adaptive ({bpp} bits per pixel)	ਅਨੁਕੂਲੀ ({bpp} ਬਿਟ ਪ੍ਰਤੀ ਪਿਕਸਲ)
+	Add Audio Submix Track	ਆਡੀਓ ਸਬਮਿਕਸ ਟ੍ਰੈਕ ਜੋੜੋ
+	Add Caption at Playhead	ਪਲੇਹੈੱਡ ਉੱਤੇ ਉਪਸਿਰਲੇਖ ਜੋੜੋ
+	Add Chapter Marker…	ਅਧਿਆਇ ਮਾਰਕਰ ਜੋੜੋ…
+	Add Custom Color	ਪਸੰਦੀਦਾ ਰੰਗ ਜੋੜੋ
+	Add Edit	ਕੱਟ ਜੋੜੋ
+	Add Edit to All Tracks	ਸਾਰੇ ਟ੍ਰੈਕਾਂ ਵਿੱਚ ਕੱਟ ਜੋੜੋ
+	Add Flash Cue Marker…	Flash ਕਿਊ ਮਾਰਕਰ ਜੋੜੋ…
+	Add Frame Hold	ਫਰੇਮ ਹੋਲਡ ਜੋੜੋ
+	Add Guide	ਗਾਈਡ ਜੋੜੋ
+	Add Guide…	ਗਾਈਡ ਜੋੜੋ…
+	Add Lumetri Color to clip	ਕਲਿੱਪ ਉੱਤੇ Lumetri Color ਜੋੜੋ
+	Add Marker	ਮਾਰਕਰ ਜੋੜੋ
+	Add Marker (M)	ਮਾਰਕਰ ਜੋੜੋ (M)
+	Add New Caption Track…	ਨਵਾਂ ਉਪਸਿਰਲੇਖ ਟ੍ਰੈਕ ਜੋੜੋ…
+	Add Property…	ਵਿਸ਼ੇਸ਼ਤਾ ਜੋੜੋ…
+	Add Range Marker	ਰੇਂਜ ਮਾਰਕਰ ਜੋੜੋ
+	Add Range Marker to In and Out	ਇਨ ਅਤੇ ਆਊਟ ਬਿੰਦੂਆਂ ਵਿਚਕਾਰ ਰੇਂਜ ਮਾਰਕਰ ਜੋੜੋ
+	Add Track	ਟ੍ਰੈਕ ਜੋੜੋ
+	Add Tracks	ਟ੍ਰੈਕ ਜੋੜੋ
+	Add Tracks…	ਟ੍ਰੈਕ ਜੋੜੋ…
+	Add a timecode row	ਟਾਈਮਕੋਡ ਕਤਾਰ ਜੋੜੋ
+	Add and apply	ਜੋੜੋ ਅਤੇ ਲਾਗੂ ਕਰੋ
+	Add another shortcut	ਹੋਰ ਸ਼ਾਰਟਕੱਟ ਜੋੜੋ
+	Add audio submix tracks	ਆਡੀਓ ਸਬਮਿਕਸ ਟ੍ਰੈਕ ਜੋੜੋ
+	Add audio tracks	ਆਡੀਓ ਟ੍ਰੈਕ ਜੋੜੋ
+	Add caption at playhead	ਪਲੇਹੈੱਡ ਉੱਤੇ ਉਪਸਿਰਲੇਖ ਜੋੜੋ
+	Add captions	ਉਪਸਿਰਲੇਖ ਜੋੜੋ
+	Add color	ਰੰਗ ਜੋੜੋ
+	Add custom color	ਪਸੰਦੀਦਾ ਰੰਗ ਜੋੜੋ
+	Add custom color…	ਪਸੰਦੀਦਾ ਰੰਗ ਜੋੜੋ…
+	Add keyframe	ਕੀਫਰੇਮ ਜੋੜੋ
+	Add media to your project. Drop files anywhere in the window, or choose a source below.	ਆਪਣੇ ਪ੍ਰੋਜੈਕਟ ਵਿੱਚ ਮੀਡੀਆ ਜੋੜੋ. ਫ਼ਾਈਲਾਂ ਵਿੰਡੋ ਵਿੱਚ ਕਿਤੇ ਵੀ ਸੁੱਟੋ, ਜਾਂ ਹੇਠਾਂ ਸਰੋਤ ਚੁਣੋ.
+	Add media to your project. Drop files or folders anywhere in the window, or choose a source below.	ਆਪਣੇ ਪ੍ਰੋਜੈਕਟ ਵਿੱਚ ਮੀਡੀਆ ਜੋੜੋ. ਫ਼ਾਈਲਾਂ ਜਾਂ ਫੋਲਡਰ ਵਿੰਡੋ ਵਿੱਚ ਕਿਤੇ ਵੀ ਸੁੱਟੋ, ਜਾਂ ਹੇਠਾਂ ਸਰੋਤ ਚੁਣੋ.
+	Add to Favorites	ਮਨਪਸੰਦ ਵਿੱਚ ਜੋੜੋ
+	Add to favorites	ਮਨਪਸੰਦ ਵਿੱਚ ਜੋੜੋ
+	Add tracks automatically when editing source clips onto the Timeline	ਸਰੋਤ ਕਲਿੱਪਾਂ ਨੂੰ ਟਾਈਮਲਾਈਨ ਉੱਤੇ ਸੰਪਾਦਿਤ ਕਰਦੇ ਸਮੇਂ ਆਪਣੇ ਆਪ ਟ੍ਰੈਕ ਜੋੜੋ
+	Add video tracks	ਵੀਡੀਓ ਟ੍ਰੈਕ ਜੋੜੋ
+	Add/Remove Keyframe	ਕੀਫਰੇਮ ਜੋੜੋ/ਹਟਾਓ
+	Added to the export queue	ਨਿਰਯਾਤ ਕਤਾਰ ਵਿੱਚ ਜੋੜਿਆ ਗਿਆ
+	Additional Scale	ਵਾਧੂ ਸਕੇਲ
+	Additive Dissolve	ਐਡਿਟਿਵ ਡਿਜ਼ਾਲਵ
+	Additive Dissolve (Legacy)	ਐਡਿਟਿਵ ਡਿਜ਼ਾਲਵ (ਪੁਰਾਣਾ)
+	Adjust	ਸਮਾਯੋਜਿਤ ਕਰੋ
+	Adjust Gain by:	ਗੇਨ ਵਿੱਚ ਇੰਨੀ ਤਬਦੀਲੀ ਕਰੋ:
+	Adjustment Layer…	ਐਡਜਸਟਮੈਂਟ ਪਰਤ…
+	Adjustments	ਐਡਜਸਟਮੈਂਟਾਂ
+	After {name}	{name} ਤੋਂ ਬਾਅਦ
+	Aggressive	ਤੀਬਰ
+	Align Bottom	ਹੇਠਾਂ ਇਕਸਾਰ ਕਰੋ
+	Align Center Horizontally	ਲੇਟਵੇਂ ਕੇਂਦਰ ਵਿੱਚ ਇਕਸਾਰ ਕਰੋ
+	Align Center Vertically	ਖੜ੍ਹਵੇਂ ਕੇਂਦਰ ਵਿੱਚ ਇਕਸਾਰ ਕਰੋ
+	Align Left	ਖੱਬੇ ਇਕਸਾਰ ਕਰੋ
+	Align Right	ਸੱਜੇ ਇਕਸਾਰ ਕਰੋ
+	Align Timecode	ਟਾਈਮਕੋਡ ਇਕਸਾਰ ਕਰੋ
+	Align Top	ਉੱਪਰ ਇਕਸਾਰ ਕਰੋ
+	Align and Transform	ਇਕਸਾਰ ਕਰੋ ਅਤੇ ਰੂਪਾਂਤਰਿਤ ਕਰੋ
+	Align to Grid	ਗ੍ਰਿੱਡ ਨਾਲ ਇਕਸਾਰ ਕਰੋ
+	Align to Selection	ਚੋਣ ਨਾਲ ਇਕਸਾਰ ਕਰੋ
+	Align to Video Frame	ਵੀਡੀਓ ਫਰੇਮ ਨਾਲ ਇਕਸਾਰ ਕਰੋ
+	Align to Video Frame as Group	ਸਮੂਹ ਵਜੋਂ ਵੀਡੀਓ ਫਰੇਮ ਨਾਲ ਇਕਸਾਰ ਕਰੋ
+	All Cameras	ਸਾਰੇ ਕੈਮਰੇ
+	All Caps	ਸਾਰੇ ਵੱਡੇ ਅੱਖਰ
+	All Categories	ਸਭ ਸ਼੍ਰੇਣੀਆਂ
+	All Empty Tracks	ਸਾਰੇ ਖਾਲੀ ਟ੍ਰੈਕ
+	All Events	ਸਾਰੀਆਂ ਘਟਨਾਵਾਂ
+	All Intra	ਸਾਰੇ ਫਰੇਮ ਇੰਟਰਾ
+	All Panels	ਸਾਰੇ ਪੈਨਲ
+	All lines	ਸਾਰੀਆਂ ਲਾਈਨਾਂ
+	All markers are hidden by the colour filter.	ਸਾਰੇ ਮਾਰਕਰ ਰੰਗ ਫਿਲਟਰ ਨਾਲ ਲੁਕੇ ਹੋਏ ਹਨ.
+	All media is online.	ਸਾਰਾ ਮੀਡੀਆ ਆਨਲਾਈਨ ਹੈ.
+	Allow Duplicate Media During Project Import	ਪ੍ਰੋਜੈਕਟ ਆਯਾਤ ਦੌਰਾਨ ਦੁਹਰਾਇਆ ਮੀਡੀਆ ਮਨਜ਼ੂਰ ਕਰੋ
+	Allow Selection tool to choose Roll and Ripple trims without modifier key	ਚੋਣ ਟੂਲ ਨੂੰ ਮੋਡੀਫਾਇਰ ਕੁੰਜੀ ਤੋਂ ਬਿਨਾਂ ਰੋਲ ਅਤੇ ਰਿਪਲ ਟ੍ਰਿਮ ਚੁਣਨ ਦਿਓ
+	Allow current tool to change trim type of previously selected edit point	ਮੌਜੂਦਾ ਟੂਲ ਨੂੰ ਪਹਿਲਾਂ ਚੁਣੇ ਸੰਪਾਦਨ ਬਿੰਦੂ ਦੀ ਟ੍ਰਿਮ ਕਿਸਮ ਬਦਲਣ ਦਿਓ
+	Allow duplicate media during project import	ਪ੍ਰੋਜੈਕਟ ਆਯਾਤ ਦੌਰਾਨ ਦੁਹਰਾਇਆ ਮੀਡੀਆ ਮਨਜ਼ੂਰ ਕਰੋ
+	Alpha	ਅਲਫ਼ਾ
+	Alpha Adjust	ਅਲਫ਼ਾ ਸਮਾਯੋਜਨ
+	Alpha Blurriness	ਅਲਫ਼ਾ ਧੁੰਦਲਾਪਣ
+	Alpha Channel	ਅਲਫ਼ਾ ਚੈਨਲ
+	Alpha Glow	ਅਲਫ਼ਾ ਚਮਕ
+	Alt	Alt
+	Always Deinterlace	ਹਮੇਸ਼ਾ ਡੀਇੰਟਰਲੇਸ ਕਰੋ
+	Always import embedded CEA-708 closed captions with wide aspect.	ਹਮੇਸ਼ਾ ਸਮਾਏ ਹੋਏ CEA-708 ਬੰਦ ਉਪਸਿਰਲੇਖ ਚੌੜੇ ਪੱਖ-ਅਨੁਪਾਤ ਨਾਲ ਆਯਾਤ ਕਰੋ.
+	Always override audio tags	ਹਮੇਸ਼ਾ ਆਡੀਓ ਟੈਗਾਂ ਨੂੰ ਓਵਰਰਾਈਡ ਕਰੋ
+	Ambience	ਮਾਹੌਲ
+	Ambience Intensity	ਮਾਹੌਲ ਦੀ ਤੀਬਰਤਾ
+	Ambience Light Color	ਮਾਹੌਲੀ ਰੌਸ਼ਨੀ ਦਾ ਰੰਗ
+	Amount	ਮਾਤਰਾ
+	Amount of Noise	ਨੌਇਜ਼ ਦੀ ਮਾਤਰਾ
+	Amount to Decolor	ਰੰਗ ਹਟਾਉਣ ਦੀ ਮਾਤਰਾ
+	Amount to Tint	ਹਲਕਾ ਰੰਗ ਚੜ੍ਹਾਉਣ ਦੀ ਮਾਤਰਾ
+	Amplifier	ਐਂਪਲੀਫਾਇਰ
+	Amplify	ਆਵਾਜ਼ ਵਧਾਓ
+	Amplitude	ਐਂਪਲੀਟਿਊਡ
+	Amplitude and Compression	ਐਂਪਲੀਟਿਊਡ ਅਤੇ ਕੰਪ੍ਰੈਸ਼ਨ
+	An earlier start failed with the default graphics. Updating the graphics driver usually fixes this.	ਮੂਲ ਗ੍ਰਾਫਿਕਸ ਨਾਲ ਪਹਿਲਾਂ ਸ਼ੁਰੂ ਕਰਨਾ ਅਸਫਲ ਰਿਹਾ. ਗ੍ਰਾਫਿਕਸ ਡਰਾਈਵਰ ਅੱਪਡੇਟ ਕਰਨ ਨਾਲ ਆਮ ਤੌਰ ਉੱਤੇ ਇਹ ਠੀਕ ਹੋ ਜਾਂਦਾ ਹੈ.
+	Analog	ਐਨਾਲੌਗ
+	Analog Delay	ਐਨਾਲੌਗ ਡਿਲੇ
+	Analyze	ਵਿਸ਼ਲੇਸ਼ਣ ਕਰੋ
+	Analyze all imported media to search for visuals or audio	ਦ੍ਰਿਸ਼ਾਂ ਜਾਂ ਆਡੀਓ ਦੀ ਖੋਜ ਲਈ ਸਾਰੇ ਆਯਾਤ ਮੀਡੀਆ ਦਾ ਵਿਸ਼ਲੇਸ਼ਣ ਕਰੋ
+	Anamorphic	ਐਨਾਮਾਰਫਿਕ
+	Anamorphic 2:1 (2.0)	ਐਨਾਮਾਰਫਿਕ 2:1 (2.0)
+	Anchor	ਐਂਕਰ
+	Anchor Point	ਐਂਕਰ ਬਿੰਦੂ
+	Anchor point	ਐਂਕਰ ਬਿੰਦੂ
+	Anchor to In Point	ਇਨ ਬਿੰਦੂ ਨਾਲ ਟਿਕਾਓ
+	Anchor to Out Point	ਆਊਟ ਬਿੰਦੂ ਨਾਲ ਟਿਕਾਓ
+	Animate zoom, scrolling and menus	ਜ਼ੂਮ, ਸਕ੍ਰੋਲਿੰਗ ਅਤੇ ਮੀਨੂ ਐਨੀਮੇਟ ਕਰੋ
+	Animated GIF	ਐਨੀਮੇਟ ਕੀਤਾ GIF
+	Animated GIF 640×360	ਐਨੀਮੇਟ ਕੀਤਾ GIF 640×360
+	Animation	ਐਨੀਮੇਸ਼ਨ
+	Anti-aliasing Quality	ਐਂਟੀ-ਏਲੀਅਸਿੰਗ ਦੀ ਗੁਣਵੱਤਾ
+	Anti-flicker Filter	ਝਿਲਮਿਲਾਹਟ ਰੋਕੂ ਫਿਲਟਰ
+	Antialiasing for Best Quality	ਵਧੀਆ ਗੁਣਵੱਤਾ ਲਈ ਐਂਟੀ-ਏਲੀਅਸਿੰਗ
+	Appearance Mode	ਦਿੱਖ ਮੋਡ
+	Appearance Settings…	ਦਿੱਖ ਸੈਟਿੰਗਾਂ…
+	Appearance…	ਦਿੱਖ…
+	Apple ProRes	Apple ProRes
+	Apple ProRes 422	Apple ProRes 422
+	Apple ProRes 422 HQ	Apple ProRes 422 HQ
+	Apple ProRes 422 LT	Apple ProRes 422 LT
+	Apple ProRes 422 Proxy	Apple ProRes 422 Proxy
+	Apple ProRes 4444	Apple ProRes 4444
+	Apple ProRes 4444 XQ	Apple ProRes 4444 XQ
+	Apple ProRes 4444 with Alpha	ਅਲਫ਼ਾ ਨਾਲ Apple ProRes 4444
+	Application shortcuts work whatever panel has focus	ਐਪਲੀਕੇਸ਼ਨ ਸ਼ਾਰਟਕੱਟ ਕਿਸੇ ਵੀ ਪੈਨਲ ਵਿੱਚ ਫੋਕਸ ਹੋਣ ਉੱਤੇ ਕੰਮ ਕਰਦੇ ਹਨ
+	Apply Audio Transition	ਆਡੀਓ ਟ੍ਰਾਂਜ਼ਿਸ਼ਨ ਲਾਗੂ ਕਰੋ
+	Apply Default Audio Transition	ਮੂਲ ਆਡੀਓ ਟ੍ਰਾਂਜ਼ਿਸ਼ਨ ਲਾਗੂ ਕਰੋ
+	Apply Default Transitions	ਮੂਲ ਟ੍ਰਾਂਜ਼ਿਸ਼ਨਾਂ ਲਾਗੂ ਕਰੋ
+	Apply Default Transitions to Selection	ਚੋਣ ਉੱਤੇ ਮੂਲ ਟ੍ਰਾਂਜ਼ਿਸ਼ਨਾਂ ਲਾਗੂ ਕਰੋ
+	Apply Default Transitions to Selection (Shift+D)	ਚੋਣ ਉੱਤੇ ਮੂਲ ਟ੍ਰਾਂਜ਼ਿਸ਼ਨਾਂ ਲਾਗੂ ਕਰੋ (Shift+D)
+	Apply Default Video Transition	ਮੂਲ ਵੀਡੀਓ ਟ੍ਰਾਂਜ਼ਿਸ਼ਨ ਲਾਗੂ ਕਰੋ
+	Apply Guide Template	ਗਾਈਡ ਟੈਂਪਲੇਟ ਲਾਗੂ ਕਰੋ
+	Apply Match	ਰੰਗ ਮੇਲ ਲਾਗੂ ਕਰੋ
+	Apply Video Transition	ਵੀਡੀਓ ਟ੍ਰਾਂਜ਼ਿਸ਼ਨ ਲਾਗੂ ਕਰੋ
+	Apply a cut at each detected cut point	ਹਰ ਪਛਾਣੇ ਕੱਟ ਬਿੰਦੂ ਉੱਤੇ ਕੱਟ ਲਾਗੂ ਕਰੋ
+	Apply to Selected Clips	ਚੁਣੀਆਂ ਕਲਿੱਪਾਂ ਉੱਤੇ ਲਾਗੂ ਕਰੋ
+	Are you sure you want to discard your changes to '{file}'?	ਕੀ ਤੁਸੀਂ ਯਕੀਨਨ '{file}' ਵਿੱਚ ਆਪਣੀਆਂ ਤਬਦੀਲੀਆਂ ਰੱਦ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?
+	ArtCraft Website	ArtCraft ਵੈੱਬਸਾਈਟ
+	Aspect	ਪੱਖ-ਅਨੁਪਾਤ
+	Assembly	ਅਸੈਂਬਲੀ
+	Assign an audio type to the selection:	ਚੋਣ ਲਈ ਆਡੀਓ ਕਿਸਮ ਚੁਣੋ:
+	Assign {key} to {command}	{command} ਲਈ {key} ਨਿਰਧਾਰਤ ਕਰੋ
+	Asymmetry	ਅਸਮਮਿਤੀ
+	At Startup	ਸ਼ੁਰੂ ਕਰਨ ਵੇਲੇ
+	At Unnumbered Markers	ਬਿਨਾਂ ਨੰਬਰ ਵਾਲੇ ਮਾਰਕਰਾਂ ਉੱਤੇ
+	At playback end, return to beginning when restarting playback	ਪਲੇਬੈਕ ਦੇ ਅੰਤ ਉੱਤੇ, ਪਲੇਬੈਕ ਮੁੜ ਸ਼ੁਰੂ ਕਰਦੇ ਸਮੇਂ ਸ਼ੁਰੂ ਵਿੱਚ ਵਾਪਸ ਜਾਓ
+	Att	ਅਟੈਕ
+	Attach Proxies…	ਪ੍ਰਾਕਸੀ ਜੋੜੋ…
+	Attack	ਅਟੈਕ
+	Attempt to force hardware to document sample rate	ਹਾਰਡਵੇਅਰ ਨੂੰ ਦਸਤਾਵੇਜ਼ ਦੀ ਸੈਂਪਲ ਦਰ ਉੱਤੇ ਲਿਆਉਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੋ
+	Audio	ਆਡੀਓ
+	Audio Attributes	ਆਡੀਓ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ
+	Audio Bitrate	ਆਡੀਓ ਬਿਟਰੇਟ
+	Audio Channels…	ਆਡੀਓ ਚੈਨਲ…
+	Audio Clip Mixer	ਆਡੀਓ ਕਲਿੱਪ ਮਿਕਸਰ
+	Audio Codec	ਆਡੀਓ ਕੋਡੈਕ
+	Audio Duration	ਆਡੀਓ ਮਿਆਦ
+	Audio Effects	ਆਡੀਓ ਪ੍ਰਭਾਵ
+	Audio File Format:	ਆਡੀਓ ਫ਼ਾਈਲ ਫਾਰਮੈਟ:
+	Audio Format	ਆਡੀਓ ਫਾਰਮੈਟ
+	Audio Gain	ਆਡੀਓ ਗੇਨ
+	Audio Gain…	ਆਡੀਓ ਗੇਨ…
+	Audio Hardware	ਆਡੀਓ ਹਾਰਡਵੇਅਰ
+	Audio Hardware…	ਆਡੀਓ ਹਾਰਡਵੇਅਰ…
+	Audio In	ਆਡੀਓ ਇਨ
+	Audio In Point	ਆਡੀਓ ਇਨ ਬਿੰਦੂ
+	Audio Info	ਆਡੀਓ ਜਾਣਕਾਰੀ
+	Audio Meters	ਆਡੀਓ ਮੀਟਰ
+	Audio Only	ਸਿਰਫ਼ ਆਡੀਓ
+	Audio Options	ਆਡੀਓ ਚੋਣਾਂ
+	Audio Out	ਆਡੀਓ ਆਊਟ
+	Audio Out Point	ਆਡੀਓ ਆਊਟ ਬਿੰਦੂ
+	Audio Previews:	ਆਡੀਓ ਪੂਰਵ-ਝਲਕਾਂ:
+	Audio Samples	ਆਡੀਓ ਸੈਂਪਲ
+	Audio Time Units	ਆਡੀਓ ਸਮਾਂ ਇਕਾਈਆਂ
+	Audio Track Mixer	ਆਡੀਓ ਟ੍ਰੈਕ ਮਿਕਸਰ
+	Audio Track Mixer menu	ਆਡੀਓ ਟ੍ਰੈਕ ਮਿਕਸਰ ਮੀਨੂ
+	Audio Tracks	ਆਡੀਓ ਟ੍ਰੈਕ
+	Audio Transition Default Duration	ਆਡੀਓ ਟ੍ਰਾਂਜ਼ਿਸ਼ਨ ਦੀ ਮੂਲ ਮਿਆਦ
+	Audio Transitions	ਆਡੀਓ ਟ੍ਰਾਂਜ਼ਿਸ਼ਨਾਂ
+	Audio Usage	ਆਡੀਓ ਵਰਤੋਂ
+	Audio Waveform	ਆਡੀਓ ਵੇਵਫਾਰਮ
+	Audio Waveforms	ਆਡੀਓ ਵੇਵਫਾਰਮ
+	Audio analysis:	ਆਡੀਓ ਵਿਸ਼ਲੇਸ਼ਣ:
+	Audio effects	ਆਡੀਓ ਪ੍ਰਭਾਵ
+	Audio on track {t}	ਟ੍ਰੈਕ {t} ਉੱਤੇ ਆਡੀਓ
+	Audio only	ਸਿਰਫ਼ ਆਡੀਓ
+	Audio output failed: playing without sound (check Settings > Audio Hardware)	ਆਡੀਓ ਆਉਟਪੁੱਟ ਅਸਫਲ: ਆਵਾਜ਼ ਤੋਂ ਬਿਨਾਂ ਚੱਲ ਰਿਹਾ ਹੈ (ਸੈਟਿੰਗਾਂ > ਆਡੀਓ ਹਾਰਡਵੇਅਰ ਜਾਂਚੋ)
+	Audio output failed: playing without sound (check Settings ▸ Audio Hardware)	ਆਡੀਓ ਆਉਟਪੁੱਟ ਅਸਫਲ: ਆਵਾਜ਼ ਤੋਂ ਬਿਨਾਂ ਚੱਲ ਰਿਹਾ ਹੈ (ਸੈਟਿੰਗਾਂ ▸ ਆਡੀਓ ਹਾਰਡਵੇਅਰ ਜਾਂਚੋ)
+	Audio output is not responding: playing without sound (check Settings > Audio Hardware)	ਆਡੀਓ ਆਉਟਪੁੱਟ ਜਵਾਬ ਨਹੀਂ ਦੇ ਰਹੀ: ਆਵਾਜ਼ ਤੋਂ ਬਿਨਾਂ ਚੱਲ ਰਿਹਾ ਹੈ (ਸੈਟਿੰਗਾਂ > ਆਡੀਓ ਹਾਰਡਵੇਅਰ ਜਾਂਚੋ)
+	Audio output is not responding: playing without sound (check Settings ▸ Audio Hardware)	ਆਡੀਓ ਆਉਟਪੁੱਟ ਜਵਾਬ ਨਹੀਂ ਦੇ ਰਹੀ: ਆਵਾਜ਼ ਤੋਂ ਬਿਨਾਂ ਚੱਲ ਰਿਹਾ ਹੈ (ਸੈਟਿੰਗਾਂ ▸ ਆਡੀਓ ਹਾਰਡਵੇਅਰ ਜਾਂਚੋ)
+	Audio {n}:	ਆਡੀਓ {n}:
+	Audio:	ਆਡੀਓ:
+	Audio…	ਆਡੀਓ…
+	Auto (system)	ਆਪਣੇ ਆਪ (ਸਿਸਟਮ)
+	Auto Align	ਆਪਣੇ ਆਪ ਇਕਸਾਰ ਕਰੋ
+	Auto Bezier	ਆਟੋ ਬੇਜ਼ੀਏ
+	Auto Gate	ਆਟੋ ਗੇਟ
+	Auto Makeup	ਆਟੋ ਮੇਕਅਪ ਗੇਨ
+	Auto Reframe	ਆਟੋ ਰੀਫਰੇਮ
+	Auto Save	ਆਪਣੇ ਆਪ ਸੰਭਾਲੋ
+	Auto Save Now	ਹੁਣੇ ਆਪਣੇ ਆਪ ਸੰਭਾਲੋ
+	Auto Save also saves the current project(s)	ਆਟੋ ਸੇਵ ਮੌਜੂਦਾ ਪ੍ਰੋਜੈਕਟ ਵੀ ਸੰਭਾਲਦਾ ਹੈ
+	Auto Save…	ਆਟੋ ਸੇਵ…
+	Auto Tone Map Media (HDR and log into SDR)	ਮੀਡੀਆ ਦੀ ਆਪਣੇ ਆਪ ਟੋਨ ਮੈਪਿੰਗ (HDR ਅਤੇ ਲੌਗ ਤੋਂ SDR ਵਿੱਚ)
+	Auto tone map media (HDR and log into SDR)	ਮੀਡੀਆ ਦੀ ਆਪਣੇ ਆਪ ਟੋਨ ਮੈਪਿੰਗ (HDR ਅਤੇ ਲੌਗ ਤੋਂ SDR ਵਿੱਚ)
+	Auto-Adjust Multi-Camera Playback Quality	ਮਲਟੀ-ਕੈਮਰਾ ਪਲੇਬੈਕ ਗੁਣਵੱਤਾ ਆਪਣੇ ਆਪ ਢਾਲੋ
+	Auto-Match	ਆਪਣੇ ਆਪ ਮੇਲ ਕਰੋ
+	Auto-Match Loudness	ਆਵਾਜ਼ ਦੇ ਪੱਧਰ ਦਾ ਆਪਣੇ ਆਪ ਮੇਲ ਕਰੋ
+	Auto-saves go to: {dir}	ਆਟੋ-ਸੇਵ ਇੱਥੇ ਜਾਂਦੇ ਹਨ: {dir}
+	Auto-tag audio types in the timeline	ਟਾਈਮਲਾਈਨ ਵਿੱਚ ਆਡੀਓ ਕਿਸਮਾਂ ਨੂੰ ਆਪਣੇ ਆਪ ਟੈਗ ਕਰੋ
+	Auto-transcribe all imported clips	ਸਾਰੀਆਂ ਆਯਾਤ ਕਲਿੱਪਾਂ ਨੂੰ ਆਪਣੇ ਆਪ ਲਿਪੀਬੱਧ ਕਰੋ
+	Auto-transcribe only clips in sequences	ਸਿਰਫ਼ ਸੀਕਵੈਂਸਾਂ ਵਿਚਲੀਆਂ ਕਲਿੱਪਾਂ ਨੂੰ ਆਪਣੇ ਆਪ ਲਿਪੀਬੱਧ ਕਰੋ
+	Automatch Time	ਆਟੋਮੈਚ ਸਮਾਂ
+	Automate To Sequence	ਸੀਕਵੈਂਸ ਵਿੱਚ ਆਪਣੇ ਆਪ ਤਰਤੀਬ ਦਿਓ
+	Automate to Sequence	ਸੀਕਵੈਂਸ ਵਿੱਚ ਆਪਣੇ ਆਪ ਤਰਤੀਬ ਦਿਓ
+	Automate to Sequence…	ਸੀਕਵੈਂਸ ਵਿੱਚ ਆਪਣੇ ਆਪ ਤਰਤੀਬ ਦਿਓ…
+	Automatic Click Remover	ਆਪਣੇ ਆਪ ਕਲਿੱਕ ਹਟਾਉਣ ਵਾਲਾ
+	Automatically Hide Dependent Clips	ਨਿਰਭਰ ਕਲਿੱਪਾਂ ਆਪਣੇ ਆਪ ਲੁਕਾਓ
+	Automatically Save Every	ਇੰਨੇ ਸਮੇਂ ਬਾਅਦ ਆਪਣੇ ਆਪ ਸੰਭਾਲੋ
+	Automatically delete cache files older than	ਇਸ ਤੋਂ ਪੁਰਾਣੀਆਂ ਕੈਸ਼ ਫ਼ਾਈਲਾਂ ਆਪਣੇ ਆਪ ਮਿਟਾਓ
+	Automatically delete oldest cache files when cache exceeds	ਕੈਸ਼ ਇਸ ਤੋਂ ਵੱਧ ਹੋਣ ਉੱਤੇ ਸਭ ਤੋਂ ਪੁਰਾਣੀਆਂ ਕੈਸ਼ ਫ਼ਾਈਲਾਂ ਆਪਣੇ ਆਪ ਮਿਟਾਓ
+	Automatically refresh growing files	ਵਧ ਰਹੀਆਂ ਫ਼ਾਈਲਾਂ ਆਪਣੇ ਆਪ ਤਾਜ਼ਾ ਕਰੋ
+	Automatically resume playback for growing files in Source Monitor	ਸਰੋਤ ਮਾਨੀਟਰ ਵਿੱਚ ਵਧ ਰਹੀਆਂ ਫ਼ਾਈਲਾਂ ਲਈ ਪਲੇਬੈਕ ਆਪਣੇ ਆਪ ਮੁੜ ਚਾਲੂ ਕਰੋ
+	Automatically save projects	ਪ੍ਰੋਜੈਕਟ ਆਪਣੇ ਆਪ ਸੰਭਾਲੋ
+	Automatically transcribe clips	ਕਲਿੱਪਾਂ ਨੂੰ ਆਪਣੇ ਆਪ ਲਿਪੀਬੱਧ ਕਰੋ
+	Automation Keyframe Optimization	ਆਟੋਮੇਸ਼ਨ ਕੀਫਰੇਮ ਅਨੁਕੂਲਨ
+	Average Data Rate	ਔਸਤ ਡਾਟਾ ਦਰ
+	Avid DNxHR	Avid DNxHR
+	Avid DNxHR HQ	Avid DNxHR HQ
+	Avid DNxHR LB	Avid DNxHR LB
+	Avid DNxHR SQ	Avid DNxHR SQ
+	Avid Log Exchange	Avid Log Exchange
+	Avid Log Exchange…	Avid Log Exchange…
+	Avid-style OP-Atom: DNxHR HQ picture file plus one 24-bit 48 kHz PCM file per channel (_A1, _A2…)	Avid-ਸ਼ੈਲੀ OP-Atom: DNxHR HQ ਚਿੱਤਰ ਫ਼ਾਈਲ ਅਤੇ ਹਰ ਚੈਨਲ ਲਈ ਇੱਕ 24-ਬਿਟ 48 kHz PCM ਫ਼ਾਈਲ (_A1, _A2…)
+	BMP	BMP
+	BMP Sequence	BMP ਸੀਕਵੈਂਸ
+	Background Color	ਪਿੱਛੋਕੜ ਦਾ ਰੰਗ
+	Background Corner Radius	ਪਿੱਛੋਕੜ ਦੇ ਕੋਨੇ ਦਾ ਅਰਧ-ਵਿਆਸ
+	Background Opacity	ਪਿੱਛੋਕੜ ਦੀ ਅਪਾਰਦਰਸ਼ਤਾ
+	Background Size	ਪਿੱਛੋਕੜ ਦਾ ਆਕਾਰ
+	Background fill	ਪਿੱਛੋਕੜ ਦਾ ਭਰਨ
+	Backspace	Backspace
+	Balance	ਸੰਤੁਲਨ
+	Balanced Voice	ਸੰਤੁਲਿਤ ਆਵਾਜ਼
+	Band 1	ਬੈਂਡ 1
+	Band 2	ਬੈਂਡ 2
+	Band 3	ਬੈਂਡ 3
+	Band 4	ਬੈਂਡ 4
+	Band 5	ਬੈਂਡ 5
+	Band Pass	ਬੈਂਡ ਪਾਸ
+	Band Slide	ਬੈਂਡ ਸਲਾਈਡ
+	Band Stop	ਬੈਂਡ ਸਟਾਪ
+	Band {n}	ਬੈਂਡ {n}
+	Bandpass	ਬੈਂਡਪਾਸ
+	Bar Color	ਪੱਟੀ ਦਾ ਰੰਗ
+	Barn Doors	ਦੋ-ਪੱਲਾ ਦਰਵਾਜ਼ਾ
+	Bars and Tone	ਰੰਗ ਪੱਟੀਆਂ ਅਤੇ ਟੋਨ
+	Bars and Tone…	ਰੰਗ ਪੱਟੀਆਂ ਅਤੇ ਟੋਨ…
+	Baseline	ਆਧਾਰ ਰੇਖਾ
+	Baseline Shift	ਆਧਾਰ ਰੇਖਾ ਦਾ ਖਿਸਕਾਅ
+	Basic	ਮੁੱਢਲਾ
+	Basic 3D	ਮੁੱਢਲਾ 3D
+	Basic Correction	ਮੁੱਢਲਾ ਸੁਧਾਰ
+	Bass	ਬੇਸ
+	Before First Track	ਪਹਿਲੇ ਟ੍ਰੈਕ ਤੋਂ ਪਹਿਲਾਂ
+	Begin Text Editing for a Graphic Layer	ਗ੍ਰਾਫਿਕ ਪਰਤ ਲਈ ਪਾਠ ਸੰਪਾਦਨ ਸ਼ੁਰੂ ਕਰੋ
+	Begins With	ਇਸ ਨਾਲ ਸ਼ੁਰੂ ਹੁੰਦਾ ਹੈ
+	Behind	ਪਿੱਛੇ
+	Bessel	Bessel
+	Bevel Alpha	ਬੇਵਲ ਅਲਫ਼ਾ
+	Bevel join	ਬੇਵਲ ਜੋੜ
+	Bezier	ਬੇਜ਼ੀਏ
+	Bin	ਬਿਨ
+	Bin From Selection	ਚੋਣ ਤੋਂ ਬਿਨ
+	Bin: {name}	ਬਿਨ: {name}
+	Binauralizer - Ambisonics	ਬਾਇਨੌਰਲਾਈਜ਼ਰ - ਐਂਬੀਸੋਨਿਕਸ
+	Bins	ਬਿਨ
+	Bitrate Encoding	ਬਿਟਰੇਟ ਐਨਕੋਡਿੰਗ
+	Bits per Sample:	ਬਿਟ ਪ੍ਰਤੀ ਸੈਂਪਲ:
+	Black Input Level	ਕਾਲੇ ਦਾ ਇਨਪੁੱਟ ਪੱਧਰ
+	Black Video…	ਕਾਲਾ ਵੀਡੀਓ…
+	Black and white with crushed blacks and strong contrast	ਦਬੇ ਹੋਏ ਕਾਲੇ ਟੋਨਾਂ ਅਤੇ ਤਿੱਖੇ ਕਾਂਟ੍ਰਾਸਟ ਨਾਲ ਕਾਲਾ ਅਤੇ ਚਿੱਟਾ
+	Blacks	ਕਾਲੇ ਟੋਨ
+	Bleach Bypass	ਬਲੀਚ ਬਾਈਪਾਸ
+	Bleach-bypass style: desaturated with hard contrast	ਬਲੀਚ-ਬਾਈਪਾਸ ਸ਼ੈਲੀ: ਘੱਟ ਰੰਗੀਨਤਾ ਨਾਲ ਤਿੱਖਾ ਕਾਂਟ੍ਰਾਸਟ
+	Blend	ਮਿਲਾਓ
+	Blend Mode	ਮਿਲਾਉਣ ਦਾ ਮੋਡ
+	Blend With Original	ਅਸਲ ਨਾਲ ਮਿਲਾਓ
+	Blending Mode	ਮਿਲਾਉਣ ਦਾ ਮੋਡ
+	Block Dissolve	ਬਲਾਕ ਡਿਜ਼ਾਲਵ
+	Block Height	ਬਲਾਕ ਦੀ ਉਚਾਈ
+	Block Motion	ਬਲਾਕ ਚਾਲ
+	Block Size	ਬਲਾਕ ਦਾ ਆਕਾਰ
+	Block Width	ਬਲਾਕ ਦੀ ਚੌੜਾਈ
+	Blocks	ਬਲਾਕ
+	Blue Blurriness	ਨੀਲਾ ਧੁੰਦਲਾਪਣ
+	Blue Curve	ਨੀਲੀ ਕਰਵ
+	Blue Offset	ਨੀਲਾ ਆਫਸੈੱਟ
+	Blue Power	ਨੀਲੀ ਪਾਵਰ
+	Blue Slope	ਨੀਲੀ ਢਲਾਣ
+	Blue-Blue	ਨੀਲਾ-ਨੀਲਾ
+	Blue-Const	ਨੀਲਾ-ਸਥਿਰ
+	Blue-Green	ਨੀਲਾ-ਹਰਾ
+	Blue-Red	ਨੀਲਾ-ਲਾਲ
+	Blur	ਧੁੰਦਲਾਪਣ
+	Blur & Sharpen	ਧੁੰਦਲਾ ਅਤੇ ਤਿੱਖਾ ਕਰੋ
+	Blur Amount	ਧੁੰਦਲਾਪਣ ਦੀ ਮਾਤਰਾ
+	Blur Angle	ਧੁੰਦਲਾਪਣ ਦਾ ਕੋਣ
+	Blur Dimensions	ਧੁੰਦਲਾਪਣ ਦੇ ਆਯਾਮ
+	Blur Dissolve	ਬਲਰ ਡਿਜ਼ਾਲਵ
+	Blur In	ਧੁੰਦਲਾਪਣ ਅੰਦਰ
+	Blur Layer	ਧੁੰਦਲਾਪਣ ਦੀ ਪਰਤ
+	Blur Length	ਧੁੰਦਲਾਪਣ ਦੀ ਲੰਬਾਈ
+	Blur Out	ਧੁੰਦਲਾਪਣ ਬਾਹਰ
+	Blurriness	ਧੁੰਦਲਾਪਣ
+	Bokeh Blur	ਬੋਕੇ ਧੁੰਦਲਾਪਣ
+	Boost	ਵਾਧਾ
+	Boost Vibrance	ਰੰਗ ਜੀਵੰਤਾ ਵਧਾਓ
+	Border	ਕਿਨਾਰਾ
+	Border Color	ਕਿਨਾਰੇ ਦਾ ਰੰਗ
+	Border Width	ਕਿਨਾਰੇ ਦੀ ਚੌੜਾਈ
+	Borders	ਕਿਨਾਰੇ
+	Bottom Center	ਹੇਠਾਂ ਕੇਂਦਰ
+	Bottom Left	ਹੇਠਾਂ ਖੱਬੇ
+	Bottom Right	ਹੇਠਾਂ ਸੱਜੇ
+	Bounce	ਉਛਾਲ
+	Box	ਡੱਬਾ
+	Box Color	ਡੱਬੇ ਦਾ ਰੰਗ
+	Box Opacity	ਡੱਬੇ ਦੀ ਅਪਾਰਦਰਸ਼ਤਾ
+	Branching	ਸ਼ਾਖਾਵਾਂ
+	Breakout to Mono	ਮੋਨੋ ਚੈਨਲਾਂ ਵਿੱਚ ਵੰਡੋ
+	Breakout to mono	ਮੋਨੋ ਚੈਨਲਾਂ ਵਿੱਚ ਵੰਡੋ
+	Bright	ਚਮਕਦਾਰ
+	Bright Air	ਚਮਕਦਾਰ ਏਅਰ
+	Bright Studio	ਚਮਕਦਾਰ ਸਟੂਡੀਓ
+	Brightens inside a feathered circular mask	ਨਰਮ ਕਿਨਾਰਿਆਂ ਵਾਲੇ ਗੋਲ ਮਾਸਕ ਦੇ ਅੰਦਰ ਚਮਕਾਉਂਦਾ ਹੈ
+	Brightness & Contrast	ਚਮਕ ਅਤੇ ਕਾਂਟ੍ਰਾਸਟ
+	Bring Forward	ਅੱਗੇ ਲਿਆਓ
+	Bring to Front	ਸਭ ਤੋਂ ਅੱਗੇ ਲਿਆਓ
+	British Stack	ਬ੍ਰਿਟਿਸ਼ ਸਟੈਕ
+	Broadcast	ਪ੍ਰਸਾਰਣ
+	Brown	ਭੂਰਾ
+	Browse	ਬ੍ਰਾਊਜ਼ ਕਰੋ
+	Browse files…	ਫ਼ਾਈਲਾਂ ਬ੍ਰਾਊਜ਼ ਕਰੋ…
+	Brush Hardness	ਬਰਸ਼ ਦੀ ਕਠੋਰਤਾ
+	Brush Opacity	ਬਰਸ਼ ਦੀ ਅਪਾਰਦਰਸ਼ਤਾ
+	Brush Position	ਬਰਸ਼ ਦੀ ਸਥਿਤੀ
+	Brush Size	ਬਰਸ਼ ਦਾ ਆਕਾਰ
+	Brush Spacing (secs)	ਬਰਸ਼ ਫ਼ਾਸਲਾ (ਸਕਿੰਟ)
+	Brush Strokes	ਬਰਸ਼ ਦੇ ਸਟ੍ਰੋਕ
+	Bubbles	ਬੁਲਬੁਲੇ
+	Bulge	ਉਭਾਰ
+	Bulge Smoother	ਉਭਾਰ ਸਮਤਲ ਕਰਨ ਵਾਲਾ
+	Bump Height	ਉਭਾਰ ਦੀ ਉਚਾਈ
+	Burn Alpha	ਬਰਨ ਅਲਫ਼ਾ
+	Burn Captions Into Video	ਵੀਡੀਓ ਵਿੱਚ ਉਪਸਿਰਲੇਖ ਪੱਕੇ ਜੋੜੋ
+	Burn Chroma	ਬਰਨ ਕ੍ਰੋਮਾ
+	Burn Color	ਬਰਨ ਰੰਗ
+	Butt cap	ਸਿੱਧਾ ਸਿਰਾ
+	Butterworth	Butterworth
+	Button Editor	ਬਟਨ ਸੰਪਾਦਕ
+	Bypass	ਬਾਈਪਾਸ
+	CBR	CBR
+	CEA-608	CEA-608
+	CEA-708	CEA-708
+	CRF (constant quality)	CRF (ਸਥਿਰ ਗੁਣਵੱਤਾ)
+	Cache analysis results for re-use	ਮੁੜ ਵਰਤੋਂ ਲਈ ਵਿਸ਼ਲੇਸ਼ਣ ਨਤੀਜੇ ਕੈਸ਼ ਕਰੋ
+	Callout – Pointer	ਕਾਲਆਊਟ – ਇਸ਼ਾਰਾ
+	Callout – Tag	ਕਾਲਆਊਟ – ਟੈਗ
+	Callouts	ਕਾਲਆਊਟ
+	Camera 1	ਕੈਮਰਾ 1
+	Camera Angle	ਕੈਮਰਾ ਕੋਣ
+	Camera Angle Metadata	ਕੈਮਰਾ ਕੋਣ ਮੈਟਾਡਾਟਾ
+	Camera Blur	ਕੈਮਰਾ ਧੁੰਦਲਾਪਣ
+	Camera Names	ਕੈਮਰਾ ਨਾਂ
+	Camera Shake	ਕੈਮਰਾ ਕੰਬਣ
+	Camera {n} — {name}	ਕੈਮਰਾ {n} — {name}
+	Cameras shown in the Multi-Camera view (uncheck to hide).	ਮਲਟੀ-ਕੈਮਰਾ ਦ੍ਰਿਸ਼ ਵਿੱਚ ਦਿਖਾਏ ਕੈਮਰੇ (ਲੁਕਾਉਣ ਲਈ ਨਿਸ਼ਾਨ ਹਟਾਓ).
+	Cancel Dynamic Trim	ਡਾਇਨਾਮਿਕ ਟ੍ਰਿਮ ਰੱਦ ਕਰੋ
+	Cancel Queued Export	ਕਤਾਰਬੱਧ ਨਿਰਯਾਤ ਰੱਦ ਕਰੋ
+	Cancelled	ਰੱਦ ਕੀਤਾ ਗਿਆ
+	Cannot open {dir}: {e}	{dir} ਖੋਲ੍ਹਿਆ ਨਹੀਂ ਜਾ ਸਕਦਾ: {e}
+	Capitalisation	ਵੱਡੇ-ਛੋਟੇ ਅੱਖਰਾਂ ਦੀ ਵਰਤੋਂ
+	Caption	ਉਪਸਿਰਲੇਖ
+	Caption Export Settings	ਉਪਸਿਰਲੇਖ ਨਿਰਯਾਤ ਸੈਟਿੰਗਾਂ
+	Caption Tracks	ਉਪਸਿਰਲੇਖ ਟ੍ਰੈਕ
+	Caption track options	ਉਪਸਿਰਲੇਖ ਟ੍ਰੈਕ ਚੋਣਾਂ
+	Captions	ਉਪਸਿਰਲੇਖ
+	Captions and Graphics	ਉਪਸਿਰਲੇਖ ਅਤੇ ਗ੍ਰਾਫਿਕਸ
+	Captions…	ਉਪਸਿਰਲੇਖ…
+	Capture	ਕੈਪਚਰ ਕਰੋ
+	Capture Format:	ਕੈਪਚਰ ਫਾਰਮੈਟ:
+	Captured View:	ਕੈਪਚਰ ਕੀਤਾ ਦ੍ਰਿਸ਼:
+	Captured and Generated:	ਕੈਪਚਰ ਕੀਤਾ ਅਤੇ ਤਿਆਰ ਕੀਤਾ:
+	Caribbean	ਕੈਰੀਬੀਅਨ
+	Case Sensitive	ਵੱਡੇ-ਛੋਟੇ ਅੱਖਰਾਂ ਵਿੱਚ ਫ਼ਰਕ
+	Category	ਸ਼੍ਰੇਣੀ
+	Cathedral	ਗਿਰਜਾਘਰ
+	Cell Pattern	ਸੈੱਲ ਪੈਟਰਨ
+	Center Align Text	ਪਾਠ ਕੇਂਦਰ ਵਿੱਚ ਇਕਸਾਰ ਕਰੋ
+	Center Channel Pan	ਕੇਂਦਰੀ ਚੈਨਲ ਪੈਨ
+	Center Gradient	ਕੇਂਦਰੀ ਗ੍ਰੇਡੀਐਂਟ
+	Center Horizontally	ਲੇਟਵੇਂ ਕੇਂਦਰ ਵਿੱਚ
+	Center Input	ਕੇਂਦਰੀ ਇਨਪੁੱਟ
+	Center Left	ਕੇਂਦਰ ਖੱਬੇ
+	Center Out	ਕੇਂਦਰ ਤੋਂ ਬਾਹਰ ਵੱਲ
+	Center Point (Latitude)	ਕੇਂਦਰ ਬਿੰਦੂ (ਅਕਸ਼ਾਂਸ਼)
+	Center Point (Longitude)	ਕੇਂਦਰ ਬਿੰਦੂ (ਦੇਸ਼ਾਂਤਰ)
+	Center Right	ਕੇਂਦਰ ਸੱਜੇ
+	Center Split	ਕੇਂਦਰ ਤੋਂ ਵੰਡ
+	Center Vertically	ਖੜ੍ਹਵੇਂ ਕੇਂਦਰ ਵਿੱਚ
+	Center align text	ਪਾਠ ਕੇਂਦਰ ਵਿੱਚ ਇਕਸਾਰ ਕਰੋ
+	Center of Sphere	ਗੋਲੇ ਦਾ ਕੇਂਦਰ
+	Centred credits that roll up from below the frame and leave at the top.	ਕੇਂਦਰ ਵਿੱਚ ਇਕਸਾਰ ਕੀਤੇ ਕ੍ਰੈਡਿਟ ਜੋ ਫਰੇਮ ਦੇ ਹੇਠਿਓਂ ਉੱਪਰ ਆਉਂਦੇ ਅਤੇ ਉੱਪਰੋਂ ਬਾਹਰ ਜਾਂਦੇ ਹਨ.
+	Cents	ਸੈਂਟ
+	Cerulean	ਸੇਰੂਲੀਅਨ
+	Ch. {n}	ਚੈ. {n}
+	Change Mask	ਮਾਸਕ ਬਦਲੋ
+	Change Sequence Settings	ਸੀਕਵੈਂਸ ਸੈਟਿੰਗਾਂ ਬਦਲੋ
+	Change the sequence to match the clip's settings?	ਸੀਕਵੈਂਸ ਨੂੰ ਕਲਿੱਪ ਦੀਆਂ ਸੈਟਿੰਗਾਂ ਨਾਲ ਮੇਲ ਕਰਨ ਲਈ ਬਦਲਣਾ ਹੈ?
+	Change to Color	ਇਸ ਰੰਗ ਵਿੱਚ ਬਦਲੋ
+	Changes are copied in the background a moment after each edit. If FilmCraft quits unexpectedly, they are offered the next time it starts.	ਹਰ ਸੰਪਾਦਨ ਤੋਂ ਥੋੜ੍ਹੀ ਦੇਰ ਬਾਅਦ ਤਬਦੀਲੀਆਂ ਪਿੱਛੇ ਕਾਪੀ ਹੁੰਦੀਆਂ ਹਨ. ਜੇ FilmCraft ਅਚਾਨਕ ਬੰਦ ਹੋ ਜਾਵੇ, ਅਗਲੀ ਵਾਰ ਸ਼ੁਰੂ ਹੋਣ ਉੱਤੇ ਉਹ ਪੇਸ਼ ਕੀਤੀਆਂ ਜਾਂਦੀਆਂ ਹਨ.
+	Channel	ਚੈਨਲ
+	Channel Blur	ਚੈਨਲ ਧੁੰਦਲਾਪਣ
+	Channel Format:	ਚੈਨਲ ਫਾਰਮੈਟ:
+	Channel Mix	ਚੈਨਲ ਮਿਕਸ
+	Channel Mixer	ਚੈਨਲ ਮਿਕਸਰ
+	Channel Volume	ਚੈਨਲ ਆਵਾਜ਼ ਪੱਧਰ
+	Channel {n}	ਚੈਨਲ {n}
+	Channels	ਚੈਨਲ
+	Chaos	ਅਫ਼ਰਾ-ਤਫ਼ਰੀ
+	Chapter	ਅਧਿਆਇ
+	Chapter Marker	ਅਧਿਆਇ ਮਾਰਕਰ
+	Chebyshev	Chebyshev
+	Checker Wipe	ਸ਼ਤਰੰਜੀ ਵਾਈਪ
+	Checkerboard	ਸ਼ਤਰੰਜੀ ਪੈਟਰਨ
+	Chinese	ਚੀਨੀ
+	Choke	ਸੁੰਗੜਾਅ
+	Choose Color…	ਰੰਗ ਚੁਣੋ…
+	Choose color with system picker	ਸਿਸਟਮ ਚੋਣਕਾਰ ਨਾਲ ਰੰਗ ਚੁਣੋ
+	Chorus	ਕੋਰਸ
+	Chorus/Flanger	ਕੋਰਸ/ਫਲੈਂਜਰ
+	Chroma	ਕ੍ਰੋਮਾ
+	Chroma Leak	ਕ੍ਰੋਮਾ ਲੀਕ
+	Chromatic Aberration (Blue)	ਰੰਗੀਨ ਵਿਪਥਨ (ਨੀਲਾ)
+	Chromatic Aberration (Green)	ਰੰਗੀਨ ਵਿਪਥਨ (ਹਰਾ)
+	Chromatic Aberration (Red)	ਰੰਗੀਨ ਵਿਪਥਨ (ਲਾਲ)
+	Cinematic	ਸਿਨੇਮਾਈ
+	Cineon Converter	Cineon ਕਨਵਰਟਰ
+	Clamp Signal	ਸਿਗਨਲ ਸੀਮਿਤ ਕਰੋ
+	Clarity	ਸਪਸ਼ਟਤਾ
+	Clean Combo	ਕਲੀਨ ਕੌਂਬੋ
+	Clean Up Noisy Dialogue	ਡਾਇਲਾਗ ਤੋਂ ਨੌਇਜ਼ ਸਾਫ਼ ਕਰੋ
+	Clear (Delete)	ਸਾਫ਼ ਕਰੋ (Delete)
+	Clear All Events	ਸਾਰੀਆਂ ਘਟਨਾਵਾਂ ਸਾਫ਼ ਕਰੋ
+	Clear Audio Type	ਆਡੀਓ ਕਿਸਮ ਹਟਾਓ
+	Clear Edit Point Selection	ਸੰਪਾਦਨ ਬਿੰਦੂ ਦੀ ਚੋਣ ਹਟਾਓ
+	Clear Finished	ਮੁਕੰਮਲ ਹੋਏ ਹਟਾਓ
+	Clear Finished Exports	ਮੁਕੰਮਲ ਹੋਏ ਨਿਰਯਾਤ ਹਟਾਓ
+	Clear Guides	ਗਾਈਡਾਂ ਸਾਫ਼ ਕਰੋ
+	Clear History	ਇਤਿਹਾਸ ਸਾਫ਼ ਕਰੋ
+	Clear In	ਇਨ ਬਿੰਦੂ ਹਟਾਓ
+	Clear In and Out	ਇਨ ਅਤੇ ਆਊਟ ਬਿੰਦੂ ਹਟਾਓ
+	Clear Markers	ਮਾਰਕਰ ਸਾਫ਼ ਕਰੋ
+	Clear Muddiness	ਧੁੰਦਲਾਪਣ ਘਟਾਓ
+	Clear Out	ਆਊਟ ਬਿੰਦੂ ਹਟਾਓ
+	Clear Poster Frame	ਪੋਸਟਰ ਫਰੇਮ ਹਟਾਓ
+	Clear Recent Directories	ਹਾਲੀਆ ਡਾਇਰੈਕਟਰੀਆਂ ਸਾਫ਼ ਕਰੋ
+	Clear Selected Marker	ਚੁਣਿਆ ਮਾਰਕਰ ਹਟਾਓ
+	Clear Transition	ਟ੍ਰਾਂਜ਼ਿਸ਼ਨ ਹਟਾਓ
+	Cleared {n} shortcut(s) of {command}	{command} ਦੇ {n} ਸ਼ਾਰਟਕੱਟ ਸਾਫ਼ ਕੀਤੇ
+	Click a command's Shortcut cell and press keys to assign it; + adds another shortcut.	ਕਮਾਂਡ ਦੇ ਸ਼ਾਰਟਕੱਟ ਸੈੱਲ ਉੱਤੇ ਕਲਿੱਕ ਕਰਕੇ ਕੁੰਜੀਆਂ ਦਬਾਓ; + ਨਾਲ ਹੋਰ ਸ਼ਾਰਟਕੱਟ ਜੁੜਦਾ ਹੈ.
+	Click a key on the keyboard to see its shortcuts	ਕਿਸੇ ਕੁੰਜੀ ਦੇ ਸ਼ਾਰਟਕੱਟ ਵੇਖਣ ਲਈ ਕੀਬੋਰਡ ਉੱਤੇ ਉਸ ਨੂੰ ਕਲਿੱਕ ਕਰੋ
+	Click in the Program monitor to place mask points (drag for curves); click the first point or press Enter to close	ਮਾਸਕ ਬਿੰਦੂ ਰੱਖਣ ਲਈ ਪ੍ਰੋਗਰਾਮ ਮਾਨੀਟਰ ਵਿੱਚ ਕਲਿੱਕ ਕਰੋ (ਕਰਵਾਂ ਲਈ ਖਿੱਚੋ); ਬੰਦ ਕਰਨ ਲਈ ਪਹਿਲੇ ਬਿੰਦੂ ਉੱਤੇ ਕਲਿੱਕ ਕਰੋ ਜਾਂ Enter ਦਬਾਓ
+	Click to select all clips to the left in all tracks. Shift-click for a single track.	ਸਾਰੇ ਟ੍ਰੈਕਾਂ ਵਿੱਚ ਖੱਬੇ ਪਾਸੇ ਦੀਆਂ ਸਭ ਕਲਿੱਪਾਂ ਚੁਣਨ ਲਈ ਕਲਿੱਕ ਕਰੋ. ਇੱਕ ਟ੍ਰੈਕ ਲਈ Shift ਨਾਲ ਕਲਿੱਕ ਕਰੋ.
+	Click to select all clips to the right in all tracks. Shift-click for a single track.	ਸਾਰੇ ਟ੍ਰੈਕਾਂ ਵਿੱਚ ਸੱਜੇ ਪਾਸੇ ਦੀਆਂ ਸਭ ਕਲਿੱਪਾਂ ਚੁਣਨ ਲਈ ਕਲਿੱਕ ਕਰੋ. ਇੱਕ ਟ੍ਰੈਕ ਲਈ Shift ਨਾਲ ਕਲਿੱਕ ਕਰੋ.
+	Click to select, or click in empty space and drag to marquee select. Use Shift, Alt, and Ctrl for other options.	ਚੁਣਨ ਲਈ ਕਲਿੱਕ ਕਰੋ, ਜਾਂ ਖਾਲੀ ਥਾਂ ਵਿੱਚ ਕਲਿੱਕ ਕਰਕੇ ਘੇਰੇ ਨਾਲ ਚੁਣਨ ਲਈ ਖਿੱਚੋ. ਹੋਰ ਚੋਣਾਂ ਲਈ Shift, Alt ਅਤੇ Ctrl ਵਰਤੋ.
+	Click to select, or click in empty space and drag to marquee select. Use Shift, Opt, and Cmd for other options.	ਚੁਣਨ ਲਈ ਕਲਿੱਕ ਕਰੋ, ਜਾਂ ਖਾਲੀ ਥਾਂ ਵਿੱਚ ਕਲਿੱਕ ਕਰਕੇ ਘੇਰੇ ਨਾਲ ਚੁਣਨ ਲਈ ਖਿੱਚੋ. ਹੋਰ ਚੋਣਾਂ ਲਈ Shift, Opt ਅਤੇ Cmd ਵਰਤੋ.
+	Click to split a clip. Shift-click to split all tracks.	ਕਲਿੱਪ ਵੰਡਣ ਲਈ ਕਲਿੱਕ ਕਰੋ. ਸਾਰੇ ਟ੍ਰੈਕ ਵੰਡਣ ਲਈ Shift ਨਾਲ ਕਲਿੱਕ ਕਰੋ.
+	Click to zoom in; Alt-click to zoom out.	ਜ਼ੂਮ ਇਨ ਲਈ ਕਲਿੱਕ ਕਰੋ; ਜ਼ੂਮ ਆਊਟ ਲਈ Alt ਨਾਲ ਕਲਿੱਕ ਕਰੋ.
+	Click to zoom in; Opt-click to zoom out.	ਜ਼ੂਮ ਇਨ ਲਈ ਕਲਿੱਕ ਕਰੋ; ਜ਼ੂਮ ਆਊਟ ਲਈ Opt ਨਾਲ ਕਲਿੱਕ ਕਰੋ.
+	Client	ਕਲਾਇੰਟ
+	Clip	ਕਲਿੱਪ
+	Clip Channel Format:	ਕਲਿੱਪ ਚੈਨਲ ਫਾਰਮੈਟ:
+	Clip Fx Editor	ਕਲਿੱਪ Fx ਸੰਪਾਦਕ
+	Clip ID (fingerprint)	ਕਲਿੱਪ ID (ਫਿੰਗਰਪ੍ਰਿੰਟ)
+	Clip Keyframes	ਕਲਿੱਪ ਕੀਫਰੇਮ
+	Clip Level	ਕਲਿੱਪ ਪੱਧਰ
+	Clip Marker	ਕਲਿੱਪ ਮਾਰਕਰ
+	Clip Mismatch Warning	ਕਲਿੱਪ ਬੇਮੇਲ ਚੇਤਾਵਨੀ
+	Clip Name	ਕਲਿੱਪ ਦਾ ਨਾਂ
+	Clip Name:	ਕਲਿੱਪ ਦਾ ਨਾਂ:
+	Clip Names	ਕਲਿੱਪਾਂ ਦੇ ਨਾਂ
+	Clip Names and Markers	ਕਲਿੱਪਾਂ ਦੇ ਨਾਂ ਅਤੇ ਮਾਰਕਰ
+	Clip Overlap:	ਕਲਿੱਪ ਓਵਰਲੈਪ:
+	Clip Size	ਕਲਿੱਪ ਦਾ ਆਕਾਰ
+	Clip Speed / Duration	ਕਲਿੱਪ ਗਤੀ / ਮਿਆਦ
+	Clip Volume	ਕਲਿੱਪ ਆਵਾਜ਼ ਪੱਧਰ
+	Clip {n}	ਕਲਿੱਪ {n}
+	Clip: {name}	ਕਲਿੱਪ: {name}
+	Clipping	ਕਲਿੱਪਿੰਗ
+	Clips	ਕਲਿੱਪਾਂ
+	Clock Wipe	ਘੜੀ ਵਾਈਪ
+	Clock Wipe (Legacy)	ਘੜੀ ਵਾਈਪ (ਪੁਰਾਣਾ)
+	Clockwise	ਘੜੀ ਦੀ ਦਿਸ਼ਾ ਵਿੱਚ
+	Clone	ਕਲੋਨ
+	Close All	ਸਭ ਬੰਦ ਕਰੋ
+	Close All Other Projects	ਹੋਰ ਸਾਰੇ ਪ੍ਰੋਜੈਕਟ ਬੰਦ ਕਰੋ
+	Close All Projects	ਸਾਰੇ ਪ੍ਰੋਜੈਕਟ ਬੰਦ ਕਰੋ
+	Close Bin	ਬਿਨ ਬੰਦ ਕਰੋ
+	Close Gap	ਵਿੱਥ ਬੰਦ ਕਰੋ
+	Close Other Timeline Panels	ਹੋਰ ਟਾਈਮਲਾਈਨ ਪੈਨਲ ਬੰਦ ਕਰੋ
+	Close Panel	ਪੈਨਲ ਬੰਦ ਕਰੋ
+	Close Project	ਪ੍ਰੋਜੈਕਟ ਬੰਦ ਕਰੋ
+	Close Sequence	ਸੀਕਵੈਂਸ ਬੰਦ ਕਰੋ
+	Closed Captions	ਬੰਦ ਉਪਸਿਰਲੇਖ
+	Cmd	Cmd
+	Codec:	ਕੋਡੈਕ:
+	Codec: {codec}	ਕੋਡੈਕ: {codec}
+	Cold Mono	ਠੰਢਾ ਮੋਨੋ
+	Collect Files and Copy to New Location	ਫ਼ਾਈਲਾਂ ਇਕੱਠੀਆਂ ਕਰਕੇ ਨਵੀਂ ਥਾਂ ਉੱਤੇ ਕਾਪੀ ਕਰੋ
+	Color & Alpha	ਰੰਗ ਅਤੇ ਅਲਫ਼ਾ
+	Color 1	ਰੰਗ 1
+	Color 2	ਰੰਗ 2
+	Color 3	ਰੰਗ 3
+	Color 4	ਰੰਗ 4
+	Color Balance	ਰੰਗ ਸੰਤੁਲਨ
+	Color Burn	ਕਲਰ ਬਰਨ
+	Color Channel	ਰੰਗ ਚੈਨਲ
+	Color Correction	ਰੰਗ ਸੁਧਾਰ
+	Color Distortion	ਰੰਗ ਵਿਗਾੜ
+	Color Dodge	ਕਲਰ ਡੌਜ
+	Color Emboss	ਰੰਗ ਉੱਭਰੀ ਨੱਕਾਸ਼ੀ
+	Color Key	ਕਲਰ ਕੀ
+	Color Management	ਰੰਗ ਪ੍ਰਬੰਧਨ
+	Color Management · {n} item	ਰੰਗ ਪ੍ਰਬੰਧਨ · {n} ਆਈਟਮ
+	Color Management · {n} items	ਰੰਗ ਪ੍ਰਬੰਧਨ · {n} ਆਈਟਮਾਂ
+	Color Management…	ਰੰਗ ਪ੍ਰਬੰਧਨ…
+	Color Match	ਰੰਗ ਮੇਲ
+	Color Matte Color	ਇਕਸਾਰ ਰੰਗੀਨ ਮੀਡੀਆ ਦਾ ਰੰਗ
+	Color Matte…	ਇਕਸਾਰ ਰੰਗੀਨ ਮੀਡੀਆ…
+	Color Pass	ਚੁਣਿਆ ਰੰਗ ਰੱਖੋ
+	Color Replace	ਰੰਗ ਬਦਲੋ
+	Color Space	ਰੰਗ ਸਪੇਸ
+	Color Theme	ਰੰਗ ਥੀਮ
+	Color To Leave	ਰੱਖਣ ਵਾਲਾ ਰੰਗ
+	Color Tolerance	ਰੰਗ ਸਹਿਣਸ਼ੀਲਤਾ
+	Color Wheels & Match	ਰੰਗ ਚੱਕਰ ਅਤੇ ਮੇਲ
+	Color picker	ਰੰਗ ਚੋਣਕਾਰ
+	Color selected markers	ਚੁਣੇ ਮਾਰਕਰਾਂ ਨੂੰ ਰੰਗੋ
+	Color/Black	ਰੰਗ/ਕਾਲਾ
+	Color/Gray	ਰੰਗ/ਸਲੇਟੀ
+	Colorize	ਰੰਗ ਚੜ੍ਹਾਓ
+	Color…	ਰੰਗ…
+	Colour Space	ਰੰਗ ਸਪੇਸ
+	Column order	ਕਾਲਮਾਂ ਦਾ ਕ੍ਰਮ
+	Commands:	ਕਮਾਂਡਾਂ:
+	Comment Marker	ਟਿੱਪਣੀ ਮਾਰਕਰ
+	Comments:	ਟਿੱਪਣੀਆਂ:
+	Community	ਭਾਈਚਾਰਾ
+	Comparison	ਤੁਲਨਾ
+	Comparison View	ਤੁਲਨਾ ਦ੍ਰਿਸ਼
+	Complexity	ਜਟਿਲਤਾ
+	Composite	ਸੰਯੁਕਤ
+	Composite In Back	ਪਿੱਛੇ ਸੰਯੋਜਿਤ ਕਰੋ
+	Composite In Front	ਅੱਗੇ ਸੰਯੋਜਿਤ ਕਰੋ
+	Composite Using	ਇਸ ਨਾਲ ਸੰਯੋਜਿਤ ਕਰੋ
+	Composite Video	ਕੰਪੋਜ਼ਿਟ ਵੀਡੀਓ
+	Composite in Linear Color	ਲੀਨੀਅਰ ਰੰਗ ਵਿੱਚ ਸੰਯੋਜਿਤ ਕਰੋ
+	Composite on Original	ਅਸਲ ਉੱਤੇ ਸੰਯੋਜਿਤ ਕਰੋ
+	Composite on the GPU when available	ਉਪਲਬਧ ਹੋਣ ਉੱਤੇ GPU ਉੱਤੇ ਸੰਯੋਜਿਤ ਕਰੋ
+	Compound Blur	ਕੰਪਾਊਂਡ ਧੁੰਦਲਾਪਣ
+	Compression Before Clipping	ਕਲਿੱਪਿੰਗ ਤੋਂ ਪਹਿਲਾਂ ਕੰਪ੍ਰੈਸ਼ਨ
+	Compression Level	ਸੰਕੁਚਨ ਪੱਧਰ
+	Compressor	ਕੰਪ੍ਰੈਸਰ
+	Configure…	ਸੰਰਚਿਤ ਕਰੋ…
+	Conflict: {key} is assigned to {commands} ({ctx})	ਟਕਰਾਅ: {key} ਨੂੰ {commands} ਲਈ ਨਿਰਧਾਰਤ ਕੀਤਾ ਹੈ ({ctx})
+	Consolidate Duplicates	ਦੁਹਰਾਈਆਂ ਨਕਲਾਂ ਇਕੱਠੀਆਂ ਕਰੋ
+	Consolidate and Transcode	ਇਕੱਠਾ ਕਰੋ ਅਤੇ ਟ੍ਰਾਂਸਕੋਡ ਕਰੋ
+	Constant Gain	ਸਥਿਰ ਗੇਨ
+	Constant Power	ਸਥਿਰ ਪਾਵਰ
+	Containers	ਕੰਟੇਨਰ
+	Contains	ਸ਼ਾਮਲ ਹੈ
+	Contains:	ਸ਼ਾਮਲ ਹੈ:
+	Continuous	ਲਗਾਤਾਰ
+	Continuous Bezier	ਲਗਾਤਾਰ ਬੇਜ਼ੀਏ
+	Contrast	ਕਾਂਟ੍ਰਾਸਟ
+	Conversion Type	ਰੂਪਾਂਤਰਣ ਕਿਸਮ
+	Convert to Master Clip	ਮਾਸਟਰ ਕਲਿੱਪ ਵਿੱਚ ਬਦਲੋ
+	Convolution Reverb	ਕਨਵੋਲਿਊਸ਼ਨ ਰੀਵਰਬ
+	Cool Blue	ਠੰਢਾ ਨੀਲਾ
+	Cool, desaturated and punchy	ਠੰਢਾ, ਘੱਟ ਰੰਗੀਨ ਅਤੇ ਤਿੱਖਾ
+	Copy Paste Includes Sequence Markers	ਕਾਪੀ-ਪੇਸਟ ਵਿੱਚ ਸੀਕਵੈਂਸ ਮਾਰਕਰ ਸ਼ਾਮਲ ਕਰੋ
+	Copy and Create Proxies	ਕਾਪੀ ਕਰੋ ਅਤੇ ਪ੍ਰਾਕਸੀ ਬਣਾਓ
+	Copyright	ਕਾਪੀਰਾਈਟ
+	Core Width	ਕੇਂਦਰੀ ਚੌੜਾਈ
+	Corner	ਕੋਨਾ
+	Corner Pin	ਕੋਰਨਰ ਪਿਨ
+	Corner Radius	ਕੋਨੇ ਦਾ ਅਰਧ-ਵਿਆਸ
+	Correction	ਸੁਧਾਰ
+	Couldn't open your web browser	ਤੁਹਾਡਾ ਵੈੱਬ ਬ੍ਰਾਊਜ਼ਰ ਖੋਲ੍ਹਿਆ ਨਹੀਂ ਜਾ ਸਕਿਆ
+	Count	ਗਿਣਤੀ
+	Countdown Sound Cues	ਉਲਟੀ ਗਿਣਤੀ ਦੇ ਧੁਨੀ ਸੰਕੇਤ
+	Counter-clockwise	ਘੜੀ ਦੀ ਉਲਟ ਦਿਸ਼ਾ ਵਿੱਚ
+	Crash Recovery	ਕਰੈਸ਼ ਤੋਂ ਮੁੜ-ਪ੍ਰਾਪਤੀ
+	Crawl Left	ਖੱਬੇ ਸਰਕੋ
+	Crawl Right	ਸੱਜੇ ਸਰਕੋ
+	Create 4-point polygon mask	4-ਬਿੰਦੂ ਬਹੁਭੁਜ ਮਾਸਕ ਬਣਾਓ
+	Create Captions from Transcript…	ਲਿਪੀਬੱਧ ਪਾਠ ਤੋਂ ਉਪਸਿਰਲੇਖ ਬਣਾਓ…
+	Create Folder For Imported Projects	ਆਯਾਤ ਕੀਤੇ ਪ੍ਰੋਜੈਕਟਾਂ ਲਈ ਫੋਲਡਰ ਬਣਾਓ
+	Create Multi-Camera Source Sequence	ਮਲਟੀ-ਕੈਮਰਾ ਸਰੋਤ ਸੀਕਵੈਂਸ ਬਣਾਓ
+	Create Multi-Camera Source Sequence…	ਮਲਟੀ-ਕੈਮਰਾ ਸਰੋਤ ਸੀਕਵੈਂਸ ਬਣਾਓ…
+	Create Proxies	ਪ੍ਰਾਕਸੀ ਬਣਾਓ
+	Create Proxies…	ਪ੍ਰਾਕਸੀ ਬਣਾਓ…
+	Create Search Bin	ਖੋਜ ਬਿਨ ਬਣਾਓ
+	Create Sidecar File	ਸਾਈਡਕਾਰ ਫ਼ਾਈਲ ਬਣਾਓ
+	Create a bin of subclips from each detected cut point	ਹਰ ਪਛਾਣੇ ਕੱਟ ਬਿੰਦੂ ਤੋਂ ਸਬਕਲਿੱਪਾਂ ਦਾ ਬਿਨ ਬਣਾਓ
+	Create a caption track or import a caption file.	ਉਪਸਿਰਲੇਖ ਟ੍ਰੈਕ ਬਣਾਓ ਜਾਂ ਉਪਸਿਰਲੇਖ ਫ਼ਾਈਲ ਆਯਾਤ ਕਰੋ.
+	Create a clip marker at each detected cut point	ਹਰ ਪਛਾਣੇ ਕੱਟ ਬਿੰਦੂ ਉੱਤੇ ਕਲਿੱਪ ਮਾਰਕਰ ਬਣਾਓ
+	Create captions	ਉਪਸਿਰਲੇਖ ਬਣਾਓ
+	Create ellipse mask	ਅੰਡਾਕਾਰ ਮਾਸਕ ਬਣਾਓ
+	Create folder for imported projects	ਆਯਾਤ ਕੀਤੇ ਪ੍ਰੋਜੈਕਟਾਂ ਲਈ ਫੋਲਡਰ ਬਣਾਓ
+	Create new caption track	ਨਵਾਂ ਉਪਸਿਰਲੇਖ ਟ੍ਰੈਕ ਬਣਾਓ
+	Create new graphic	ਨਵਾਂ ਗ੍ਰਾਫਿਕ ਬਣਾਓ
+	Creating {n} proxy file(s)…	{n} ਪ੍ਰਾਕਸੀ ਫ਼ਾਈਲਾਂ ਬਣਾਈਆਂ ਜਾ ਰਹੀਆਂ ਹਨ…
+	Creative	ਰਚਨਾਤਮਕ
+	Creator	ਬਣਾਉਣ ਵਾਲਾ
+	Credits	ਕ੍ਰੈਡਿਟ
+	Crop Less <-> Smooth More	ਘੱਟ ਕਿਨਾਰੇ ਕੱਟੋ <-> ਵੱਧ ਸੁਚੱਜਾ ਕਰੋ
+	Cross Displacement	ਕ੍ਰਾਸ ਵਿਸਥਾਪਨ
+	Cross Dissolve	ਕ੍ਰਾਸ ਡਿਜ਼ਾਲਵ
+	Cross Dissolve (Legacy)	ਕ੍ਰਾਸ ਡਿਜ਼ਾਲਵ (ਪੁਰਾਣਾ)
+	Cross Processed	ਕ੍ਰਾਸ ਪ੍ਰੋਸੈਸ ਕੀਤਾ
+	Cross Zoom	ਕ੍ਰਾਸ ਜ਼ੂਮ
+	Cross Zoom (Legacy)	ਕ੍ਰਾਸ ਜ਼ੂਮ (ਪੁਰਾਣਾ)
+	Crossfade	ਕ੍ਰਾਸਫੇਡ
+	Crossovers	ਕ੍ਰਾਸਓਵਰ
+	Crystallize	ਕ੍ਰਿਸਟਲ ਬਣਾਓ
+	Crystals	ਕ੍ਰਿਸਟਲ
+	Ctrl	Ctrl
+	Cube Spin	ਘਣ ਸਪਿਨ
+	Curl Radius	ਮੁੜਾਅ ਦਾ ਅਰਧ-ਵਿਆਸ
+	Current Time	ਮੌਜੂਦਾ ਸਮਾਂ
+	Current duration {seconds} s	ਮੌਜੂਦਾ ਮਿਆਦ {seconds} s
+	Currently: {loc} — {files} file(s), {size}	ਇਸ ਵੇਲੇ: {loc} — {files} ਫ਼ਾਈਲਾਂ, {size}
+	Cursor	ਕਰਸਰ
+	Curvature	ਵਕਰਤਾ
+	Curve	ਵਕਰ
+	Curves	ਵਕਰ
+	Custom ({n} points)	ਪਸੰਦੀਦਾ ({n} ਬਿੰਦੂ)
+	Custom ({ratio})	ਪਸੰਦੀਦਾ ({ratio})
+	Custom Color	ਪਸੰਦੀਦਾ ਰੰਗ
+	Custom Color…	ਪਸੰਦੀਦਾ ਰੰਗ…
+	Custom Setup	ਪਸੰਦੀਦਾ ਸੈਟਅੱਪ
+	Cut to Camera 1	ਕੈਮਰਾ 1 ਉੱਤੇ ਕੱਟ ਕਰੋ
+	Cut to Camera 2	ਕੈਮਰਾ 2 ਉੱਤੇ ਕੱਟ ਕਰੋ
+	Cut to Camera 3	ਕੈਮਰਾ 3 ਉੱਤੇ ਕੱਟ ਕਰੋ
+	Cut to Camera 4	ਕੈਮਰਾ 4 ਉੱਤੇ ਕੱਟ ਕਰੋ
+	Cut to Camera 5	ਕੈਮਰਾ 5 ਉੱਤੇ ਕੱਟ ਕਰੋ
+	Cut to Camera 6	ਕੈਮਰਾ 6 ਉੱਤੇ ਕੱਟ ਕਰੋ
+	Cut to Camera 7	ਕੈਮਰਾ 7 ਉੱਤੇ ਕੱਟ ਕਰੋ
+	Cut to Camera 8	ਕੈਮਰਾ 8 ਉੱਤੇ ਕੱਟ ਕਰੋ
+	Cut to Camera 9	ਕੈਮਰਾ 9 ਉੱਤੇ ਕੱਟ ਕਰੋ
+	Cutoff	ਕੱਟਆਫ਼
+	Cyan	ਸਾਇਨ
+	Cyan-teal shadows and warm highlights with a little more contrast	ਸਾਇਨ-ਟੀਲ ਪਰਛਾਵੇਂ ਅਤੇ ਗਰਮ ਉਭਰੇ ਟੋਨ, ਥੋੜ੍ਹੇ ਵੱਧ ਕਾਂਟ੍ਰਾਸਟ ਨਾਲ
+	Cycle (in Revolutions)	ਚੱਕਰ (ਪੂਰੇ ਘੁੰਮਣਾਂ ਵਿੱਚ)
+	Cycle Evolution	ਬਦਲਾਅ ਦਾ ਚੱਕਰ ਦੁਹਰਾਓ
+	D1/DV NTSC (0.9091)	D1/DV NTSC (0.9091)
+	D1/DV PAL (1.0940)	D1/DV PAL (1.0940)
+	DPX	DPX
+	DPX Sequence	DPX ਸੀਕਵੈਂਸ
+	DVCPRO HD (1.5)	DVCPRO HD (1.5)
+	Damping	ਦਮਨ
+	Damping HF	ਉੱਚ ਫ੍ਰੀਕਵੈਂਸੀ ਦਮਨ
+	Damping LF	ਘੱਟ ਫ੍ਰੀਕਵੈਂਸੀ ਦਮਨ
+	Dark Theme	ਗੂੜ੍ਹੀ ਥੀਮ
+	Darken	ਗੂੜ੍ਹਾ ਕਰੋ
+	Darkens outside a feathered oval mask	ਨਰਮ ਕਿਨਾਰਿਆਂ ਵਾਲੇ ਅੰਡਾਕਾਰ ਮਾਸਕ ਦੇ ਬਾਹਰ ਗੂੜ੍ਹਾ ਕਰਦਾ ਹੈ
+	Darker Color	ਵੱਧ ਗੂੜ੍ਹਾ ਰੰਗ
+	Darkest	ਸਭ ਤੋਂ ਗੂੜ੍ਹਾ
+	Data	ਡਾਟਾ
+	Date Created	ਬਣਾਉਣ ਦੀ ਮਿਤੀ
+	Date Modified	ਸੋਧਣ ਦੀ ਮਿਤੀ
+	Day for night: darker, cooler and less saturated	ਦਿਨ ਨੂੰ ਰਾਤ ਵਰਗਾ: ਗੂੜ੍ਹਾ, ਠੰਢਾ ਅਤੇ ਘੱਟ ਰੰਗੀਨ
+	DeEss	ਡੀਐੱਸ
+	DeEsser	ਡੀਐੱਸਰ
+	DeHum	ਹੰਮ ਹਟਾਓ
+	DeHummer	ਹੰਮ ਹਟਾਉਣ ਵਾਲਾ
+	DeNoise	ਨੌਇਜ਼ ਘਟਾਓ
+	DeReverb	ਰੀਵਰਬ ਘਟਾਓ
+	Decay	ਘਟਾਅ
+	Decay Time (RT60)	ਘਟਾਅ ਸਮਾਂ (RT60)
+	Decoded frames held for the monitors and thumbnails: {used} of {budget}.	ਮਾਨੀਟਰਾਂ ਅਤੇ ਥੰਬਨੇਲਾਂ ਲਈ ਰੱਖੇ ਡੀਕੋਡ ਕੀਤੇ ਫਰੇਮ: {budget} ਵਿੱਚੋਂ {used}.
+	Decoders	ਡੀਕੋਡਰ
+	Decrease Audio Tracks Height	ਆਡੀਓ ਟ੍ਰੈਕਾਂ ਦੀ ਉਚਾਈ ਘਟਾਓ
+	Decrease Clip Volume	ਕਲਿੱਪ ਦੀ ਆਵਾਜ਼ ਘਟਾਓ
+	Decrease Clip Volume Many	ਕਲਿੱਪ ਦੀ ਆਵਾਜ਼ ਵੱਧ ਘਟਾਓ
+	Decrease Font Size by Five Units	ਫ਼ੌਂਟ ਆਕਾਰ ਪੰਜ ਇਕਾਈਆਂ ਘਟਾਓ
+	Decrease Font Size by One Unit	ਫ਼ੌਂਟ ਆਕਾਰ ਇੱਕ ਇਕਾਈ ਘਟਾਓ
+	Decrease Leading by Five Units	ਲਾਈਨਾਂ ਦਾ ਫ਼ਾਸਲਾ ਪੰਜ ਇਕਾਈਆਂ ਘਟਾਓ
+	Decrease Leading by One Unit	ਲਾਈਨਾਂ ਦਾ ਫ਼ਾਸਲਾ ਇੱਕ ਇਕਾਈ ਘਟਾਓ
+	Decrease Video Tracks Height	ਵੀਡੀਓ ਟ੍ਰੈਕਾਂ ਦੀ ਉਚਾਈ ਘਟਾਓ
+	Default Audio Tracks	ਮੂਲ ਆਡੀਓ ਟ੍ਰੈਕ
+	Default Emoji font	ਮੂਲ ਇਮੋਜੀ ਫ਼ੌਂਟ
+	Default Input	ਮੂਲ ਇਨਪੁੱਟ
+	Default Media Scaling	ਮੂਲ ਮੀਡੀਆ ਸਕੇਲਿੰਗ
+	Default Output	ਮੂਲ ਆਉਟਪੁੱਟ
+	Default clip size:	ਕਲਿੱਪ ਦਾ ਮੂਲ ਆਕਾਰ:
+	Default closed caption font	ਬੰਦ ਉਪਸਿਰਲੇਖਾਂ ਦਾ ਮੂਲ ਫ਼ੌਂਟ
+	Default language	ਮੂਲ ਭਾਸ਼ਾ
+	Default location	ਮੂਲ ਟਿਕਾਣਾ
+	Default paragraph direction	ਪੈਰੇ ਦੀ ਮੂਲ ਦਿਸ਼ਾ
+	Default subtitle and text font	ਉਪਸਿਰਲੇਖ ਅਤੇ ਪਾਠ ਦਾ ਮੂਲ ਫ਼ੌਂਟ
+	Delay	ਡਿਲੇ
+	Delay 1	ਡਿਲੇ 1
+	Delay 2	ਡਿਲੇ 2
+	Delay 3	ਡਿਲੇ 3
+	Delay 4	ਡਿਲੇ 4
+	Delay and Echo	ਡਿਲੇ ਅਤੇ ਗੂੰਜ
+	Delete Arrangement	ਤਰਤੀਬ ਮਿਟਾਓ
+	Delete Audio Tracks	ਆਡੀਓ ਟ੍ਰੈਕ ਮਿਟਾਓ
+	Delete Caption Track	ਉਪਸਿਰਲੇਖ ਟ੍ਰੈਕ ਮਿਟਾਓ
+	Delete Caption Tracks	ਉਪਸਿਰਲੇਖ ਟ੍ਰੈਕ ਮਿਟਾਓ
+	Delete Captions	ਉਪਸਿਰਲੇਖ ਮਿਟਾਓ
+	Delete Empty Caption Tracks	ਖਾਲੀ ਉਪਸਿਰਲੇਖ ਟ੍ਰੈਕ ਮਿਟਾਓ
+	Delete Graphic Layer	ਗ੍ਰਾਫਿਕ ਪਰਤ ਮਿਟਾਓ
+	Delete Guide Template	ਗਾਈਡ ਟੈਂਪਲੇਟ ਮਿਟਾਓ
+	Delete Layer	ਪਰਤ ਮਿਟਾਓ
+	Delete Marker	ਮਾਰਕਰ ਮਿਟਾਓ
+	Delete Mask	ਮਾਸਕ ਮਿਟਾਓ
+	Delete Media Cache Files	ਮੀਡੀਆ ਕੈਸ਼ ਫ਼ਾਈਲਾਂ ਮਿਟਾਓ
+	Delete Preset	ਪ੍ਰੀਸੈੱਟ ਮਿਟਾਓ
+	Delete Redoable Actions	ਮੁੜ ਕੀਤੀਆਂ ਜਾ ਸਕਣ ਵਾਲੀਆਂ ਕਾਰਵਾਈਆਂ ਮਿਟਾਓ
+	Delete Render Files	ਰੈਂਡਰ ਫ਼ਾਈਲਾਂ ਮਿਟਾਓ
+	Delete Render Files In to Out	ਇਨ ਤੋਂ ਆਊਟ ਤੱਕ ਰੈਂਡਰ ਫ਼ਾਈਲਾਂ ਮਿਟਾਓ
+	Delete Search Bin	ਖੋਜ ਬਿਨ ਮਿਟਾਓ
+	Delete Track	ਟ੍ਰੈਕ ਮਿਟਾਓ
+	Delete Tracks	ਟ੍ਰੈਕ ਮਿਟਾਓ
+	Delete Tracks…	ਟ੍ਰੈਕ ਮਿਟਾਓ…
+	Delete Transcript	ਲਿਪੀਬੱਧ ਪਾਠ ਮਿਟਾਓ
+	Delete Video Tracks	ਵੀਡੀਓ ਟ੍ਰੈਕ ਮਿਟਾਓ
+	Delete files older than	ਇਸ ਤੋਂ ਪੁਰਾਣੀਆਂ ਫ਼ਾਈਲਾਂ ਮਿਟਾਓ
+	Delete oldest files when the cache exceeds	ਕੈਸ਼ ਇਸ ਤੋਂ ਵੱਧ ਹੋਣ ਉੱਤੇ ਸਭ ਤੋਂ ਪੁਰਾਣੀਆਂ ਫ਼ਾਈਲਾਂ ਮਿਟਾਓ
+	Delete selected captions	ਚੁਣੇ ਉਪਸਿਰਲੇਖ ਮਿਟਾਓ
+	Delete selected markers	ਚੁਣੇ ਮਾਰਕਰ ਮਿਟਾਓ
+	Delete the dimmed actions after the current state? They cannot be redone.	ਮੌਜੂਦਾ ਹਾਲਤ ਤੋਂ ਅੱਗੇ ਦੀਆਂ ਫਿੱਕੀਆਂ ਕਾਰਵਾਈਆਂ ਮਿਟਾਉਣੀਆਂ ਹਨ? ਉਹ ਮੁੜ ਨਹੀਂ ਕੀਤੀਆਂ ਜਾ ਸਕਣਗੀਆਂ.
+	Delete this preset	ਇਹ ਪ੍ਰੀਸੈੱਟ ਮਿਟਾਓ
+	Deleted preset “{active}”	“{active}” ਪ੍ਰੀਸੈੱਟ ਮਿਟਾਇਆ
+	Deleted {n} file(s), {size}.	{n} ਫ਼ਾਈਲਾਂ, {size} ਮਿਟਾਈਆਂ.
+	Delete…	ਮਿਟਾਓ…
+	Demo Footage	ਡੈਮੋ ਫੁਟੇਜ
+	Demo Project	ਡੈਮੋ ਪ੍ਰੋਜੈਕਟ
+	Demo footage	ਡੈਮੋ ਫੁਟੇਜ
+	Demo project	ਡੈਮੋ ਪ੍ਰੋਜੈਕਟ
+	Denoise	ਸ਼ੋਰ ਘਟਾਓ
+	Depth	ਡੂੰਘਾਈ
+	Desaturate	ਰੰਗੀਨਤਾ ਹਟਾਓ
+	Descending	ਉਤਰਦਾ ਕ੍ਰਮ
+	Deselect All	ਸਭ ਦੀ ਚੋਣ ਹਟਾਓ
+	Deselect All Project Items	ਪ੍ਰੋਜੈਕਟ ਦੀਆਂ ਸਭ ਆਈਟਮਾਂ ਦੀ ਚੋਣ ਹਟਾਓ
+	Destination	ਮੰਜ਼ਿਲ
+	Destination Path	ਮੰਜ਼ਿਲ ਦਾ ਪਾਥ
+	Destination:	ਮੰਜ਼ਿਲ:
+	Destinations	ਮੰਜ਼ਿਲਾਂ
+	Detach Proxies	ਪ੍ਰਾਕਸੀ ਵੱਖ ਕਰੋ
+	Detail Amplitude	ਬਾਰੀਕੀ ਦੀ ਐਂਪਲੀਟਿਊਡ
+	Detail Level	ਬਾਰੀਕੀ ਦਾ ਪੱਧਰ
+	Detailed Analysis	ਵਿਸਤ੍ਰਿਤ ਵਿਸ਼ਲੇਸ਼ਣ
+	Details: {path}	ਵੇਰਵੇ: {path}
+	Device Class	ਡਿਵਾਈਸ ਸ਼੍ਰੇਣੀ
+	Dialogue	ਡਾਇਲਾਗ
+	Difference	ਫ਼ਰਕ
+	Dimensions	ਮਾਪ
+	Dimmed	ਫਿੱਕਾ
+	Dip to Black	ਕਾਲੇ ਵਿੱਚ ਫੇਡ
+	Dip to Black (Legacy)	ਕਾਲੇ ਵਿੱਚ ਫੇਡ (ਪੁਰਾਣਾ)
+	Dip to Color	ਰੰਗ ਵਿੱਚ ਫੇਡ
+	Dip to White	ਚਿੱਟੇ ਵਿੱਚ ਫੇਡ
+	Dip to White (Legacy)	ਚਿੱਟੇ ਵਿੱਚ ਫੇਡ (ਪੁਰਾਣਾ)
+	DirectX 12 only	ਕੇਵਲ DirectX 12
+	Direction	ਦਿਸ਼ਾ
+	Directional	ਦਿਸ਼ਾਤਮਕ
+	Directional Blur	ਦਿਸ਼ਾਤਮਕ ਧੁੰਦਲਾਪਣ
+	Directional Blur (Legacy)	ਦਿਸ਼ਾਤਮਕ ਧੁੰਦਲਾਪਣ (ਪੁਰਾਣਾ)
+	Disable video output when in the background	ਪਿੱਛੇ ਹੋਣ ਵੇਲੇ ਵੀਡੀਓ ਆਉਟਪੁੱਟ ਬੰਦ ਕਰੋ
+	Disabled clips	ਅਯੋਗ ਕੀਤੀਆਂ ਕਲਿੱਪਾਂ
+	Discard Unsaved Changes	ਅਣਸੰਭਾਲੀਆਂ ਤਬਦੀਲੀਆਂ ਰੱਦ ਕਰੋ
+	Discard take	ਟੇਕ ਰੱਦ ਕਰੋ
+	Discord	Discord
+	Disk space: original {original} · resulting {result} ({n} files)	ਡਿਸਕ ਥਾਂ: ਅਸਲ {original} · ਨਤੀਜਾ {result} ({n} ਫ਼ਾਈਲਾਂ)
+	Disk space: —	ਡਿਸਕ ਥਾਂ: —
+	Disperse	ਖਿਲਾਰੋ
+	Displacement	ਵਿਸਥਾਪਨ
+	Display Color Management	ਡਿਸਪਲੇ ਰੰਗ ਪ੍ਰਬੰਧਨ
+	Display Color Settings	ਡਿਸਪਲੇ ਰੰਗ ਸੈਟਿੰਗਾਂ
+	Display Format:	ਡਿਸਪਲੇ ਫਾਰਮੈਟ:
+	Display Mode	ਡਿਸਪਲੇ ਮੋਡ
+	Display out of sync indicators for unlinked clips	ਵੱਖ ਕੀਤੀਆਂ ਕਲਿੱਪਾਂ ਲਈ ਸਿੰਕ ਤੋਂ ਬਾਹਰ ਹੋਣ ਦੇ ਸੰਕੇਤ ਦਿਖਾਓ
+	Dissolve	ਘੁਲਾਓ
+	Dissolve Blocks	ਡਿਜ਼ਾਲਵ ਬਲਾਕ
+	Distance to Image	ਚਿੱਤਰ ਤੋਂ ਦੂਰੀ
+	Distort	ਵਿਗਾੜੋ
+	Distortion	ਵਿਗਾੜ
+	Distortion Complexity	ਵਿਗਾੜ ਦੀ ਜਟਿਲਤਾ
+	Distortion Rate	ਵਿਗਾੜ ਦਰ
+	Distortion Type	ਵਿਗਾੜ ਕਿਸਮ
+	Distribute Horizontally	ਲੇਟਵੇਂ ਵੰਡੋ
+	Distribute Space Horizontally	ਲੇਟਵੇਂ ਫ਼ਾਸਲਾ ਵੰਡੋ
+	Distribute Space Vertically	ਖੜ੍ਹਵੇਂ ਫ਼ਾਸਲਾ ਵੰਡੋ
+	Distribute Vertically	ਖੜ੍ਹਵੇਂ ਵੰਡੋ
+	Divide	ਵੰਡੋ
+	Do not delete cache files automatically	ਕੈਸ਼ ਫ਼ਾਈਲਾਂ ਆਪਣੇ ਆਪ ਨਾ ਮਿਟਾਓ
+	Dock Panel	ਪੈਨਲ ਡੌਕ ਕਰੋ
+	Docking Action	ਡੌਕ ਕਰਨ ਦੀ ਕਾਰਵਾਈ
+	Does Not Contain	ਸ਼ਾਮਲ ਨਹੀਂ ਹੈ
+	Don't Save	ਨਾ ਸੰਭਾਲੋ
+	Don't label speakers	ਬੋਲਣ ਵਾਲਿਆਂ ਦੇ ਲੇਬਲ ਨਾ ਲਗਾਓ
+	Dot Color	ਬਿੰਦੂ ਦਾ ਰੰਗ
+	Double-click a sequence in the Project panel to open it here.	ਇੱਥੇ ਖੋਲ੍ਹਣ ਲਈ ਪ੍ਰੋਜੈਕਟ ਪੈਨਲ ਵਿੱਚ ਸੀਕਵੈਂਸ ਉੱਤੇ ਦੋ ਵਾਰ ਕਲਿੱਕ ਕਰੋ.
+	Down	ਹੇਠਾਂ
+	Download Speech Model	ਬੋਲੀ ਮਾਡਲ ਡਾਊਨਲੋਡ ਕਰੋ
+	Draft decoding at reduced playback resolution (H.264: faster, some frames less filtered)	ਘਟਾਈ ਪਲੇਬੈਕ ਰੈਜ਼ੋਲੂਸ਼ਨ ਉੱਤੇ ਡਰਾਫਟ ਡੀਕੋਡਿੰਗ (H.264: ਤੇਜ਼, ਕੁਝ ਫਰੇਮ ਘੱਟ ਫਿਲਟਰ ਕੀਤੇ)
+	Drag a clip to slide it between its neighbours.	ਕਲਿੱਪ ਨੂੰ ਗੁਆਂਢੀਆਂ ਵਿਚਕਾਰ ਸਲਾਈਡ ਕਰਨ ਲਈ ਖਿੱਚੋ.
+	Drag a clip to slip its source in/out without moving it.	ਕਲਿੱਪ ਨੂੰ ਹਿਲਾਏ ਬਿਨਾਂ ਉਸ ਦੇ ਸਰੋਤ ਦੇ ਇਨ/ਆਊਟ ਬਿੰਦੂ ਖਿਸਕਾਉਣ ਲਈ ਖਿੱਚੋ.
+	Drag an edge to change the clip's speed so it fills the new duration.	ਕਲਿੱਪ ਦੀ ਗਤੀ ਬਦਲ ਕੇ ਨਵੀਂ ਮਿਆਦ ਭਰਨ ਲਈ ਕਿਨਾਰਾ ਖਿੱਚੋ.
+	Drag an edit point to ripple trim; later clips move to keep the gap closed.	ਰਿਪਲ ਟ੍ਰਿਮ ਲਈ ਸੰਪਾਦਨ ਬਿੰਦੂ ਖਿੱਚੋ; ਅੱਗੇ ਦੀਆਂ ਕਲਿੱਪਾਂ ਵਿੱਥ ਬੰਦ ਰੱਖਣ ਲਈ ਹਿਲਦੀਆਂ ਹਨ.
+	Drag an edit point to roll it: the out of one clip and the in of the next move together.	ਰੋਲ ਕਰਨ ਲਈ ਸੰਪਾਦਨ ਬਿੰਦੂ ਖਿੱਚੋ: ਇੱਕ ਕਲਿੱਪ ਦਾ ਆਊਟ ਅਤੇ ਅਗਲੀ ਦਾ ਇਨ ਬਿੰਦੂ ਇਕੱਠੇ ਹਿਲਦੇ ਹਨ.
+	Drag inward to round the corners	ਕੋਨੇ ਗੋਲ ਕਰਨ ਲਈ ਅੰਦਰ ਵੱਲ ਖਿੱਚੋ
+	Drag the edge of a music clip to remix it to the new duration at musically matching beats.	ਸੰਗੀਤਕ ਬੀਟਾਂ ਨਾਲ ਮੇਲ ਕਰਕੇ ਨਵੀਂ ਮਿਆਦ ਲਈ ਰੀਮਿਕਸ ਕਰਨ ਵਾਸਤੇ ਸੰਗੀਤ ਕਲਿੱਪ ਦਾ ਕਿਨਾਰਾ ਖਿੱਚੋ.
+	Drag to scroll the timeline.	ਟਾਈਮਲਾਈਨ ਸਕ੍ਰੋਲ ਕਰਨ ਲਈ ਖਿੱਚੋ.
+	Drag: move · Alt-click: smooth/corner · Cmd-click: delete	ਖਿੱਚੋ: ਹਿਲਾਓ · Alt-ਕਲਿੱਕ: ਨਰਮ/ਕੋਨਾ · Cmd-ਕਲਿੱਕ: ਮਿਟਾਓ
+	Drag: move · Alt-click: smooth/corner · Ctrl-click: delete	ਖਿੱਚੋ: ਹਿਲਾਓ · Alt-ਕਲਿੱਕ: ਨਰਮ/ਕੋਨਾ · Ctrl-ਕਲਿੱਕ: ਮਿਟਾਓ
+	Drive	ਡਰਾਈਵ
+	Drop Shadow	ਡਿੱਗਦੀ ਛਾਂ
+	Drop media here to create sequence.	ਸੀਕਵੈਂਸ ਬਣਾਉਣ ਲਈ ਇੱਥੇ ਮੀਡੀਆ ਸੁੱਟੋ.
+	Dry	ਬਿਨਾਂ ਪ੍ਰਭਾਵ
+	Dry Out	ਬਿਨਾਂ ਪ੍ਰਭਾਵ ਵਾਲੀ ਆਉਟਪੁੱਟ
+	Dry Up a Roomy Voice	ਕਮਰੇ ਦੀ ਗੂੰਜ ਵਾਲੀ ਆਵਾਜ਼ ਸੁੱਕੀ ਕਰੋ
+	Duck Deep Under Dialogue	ਡਾਇਲਾਗ ਦੌਰਾਨ ਬਹੁਤ ਘੱਟ ਆਵਾਜ਼ ਕਰੋ
+	Duck Under Dialogue	ਡਾਇਲਾਗ ਦੌਰਾਨ ਘੱਟ ਆਵਾਜ਼ ਕਰੋ
+	Duck Under Voice and Effects	ਬੋਲੀ ਅਤੇ ਪ੍ਰਭਾਵਾਂ ਦੌਰਾਨ ਘੱਟ ਆਵਾਜ਼ ਕਰੋ
+	Duck against:	ਇਨ੍ਹਾਂ ਦੌਰਾਨ ਆਵਾਜ਼ ਘਟਾਓ:
+	Ducking	ਡਕਿੰਗ
+	Duration	ਮਿਆਦ
+	Duration:	ਮਿਆਦ:
+	Duration: {tc}	ਮਿਆਦ: {tc}
+	Dutch	ਡੱਚ
+	Dynamic Audio Waveforms	ਗਤੀਸ਼ੀਲ ਆਡੀਓ ਵੇਵਫਾਰਮ
+	Dynamic Link	ਡਾਇਨਾਮਿਕ ਲਿੰਕ
+	Dynamic Trim Stop	ਡਾਇਨਾਮਿਕ ਟ੍ਰਿਮ ਰੋਕੋ
+	Dynamics	ਡਾਇਨਾਮਿਕਸ
+	Dynamics Processing	ਡਾਇਨਾਮਿਕਸ ਪ੍ਰੋਸੈਸਿੰਗ
+	EDL…	EDL…
+	EQ	EQ
+	Early Reflections	ਸ਼ੁਰੂਆਤੀ ਪਰਾਵਰਤਨ
+	Earthquake	ਭੂਚਾਲ
+	Ease In	ਸ਼ੁਰੂ ਵਿੱਚ ਹੌਲੀ
+	Ease In and Out	ਸ਼ੁਰੂ ਅਤੇ ਅੰਤ ਵਿੱਚ ਹੌਲੀ
+	Ease Out	ਅੰਤ ਵਿੱਚ ਹੌਲੀ
+	Easing	ਈਜ਼ਿੰਗ
+	Echo	ਗੂੰਜ
+	Echo Glow	ਗੂੰਜ ਦੀ ਚਮਕ
+	Echo Operator	ਗੂੰਜ ਓਪਰੇਟਰ
+	Echo Time (seconds)	ਗੂੰਜ ਸਮਾਂ (ਸਕਿੰਟ)
+	Echoes	ਗੂੰਜਾਂ
+	Edge Color	ਕਿਨਾਰੇ ਦਾ ਰੰਗ
+	Edge Feather	ਕਿਨਾਰੇ ਦੀ ਨਰਮੀ
+	Edge Glow	ਕਿਨਾਰੇ ਦੀ ਚਮਕ
+	Edge Sharpness	ਕਿਨਾਰੇ ਦੀ ਤਿੱਖਾਪਣ
+	Edge Softness	ਕਿਨਾਰੇ ਦੀ ਨਰਮਾਈ
+	Edge Thickness	ਕਿਨਾਰੇ ਦੀ ਮੋਟਾਈ
+	Edge Thin	ਕਿਨਾਰੇ ਪਤਲੇ ਕਰੋ
+	Edge Threshold	ਕਿਨਾਰੇ ਦੀ ਹੱਦ
+	Edge Type	ਕਿਨਾਰੇ ਦੀ ਕਿਸਮ
+	Edge Width	ਕਿਨਾਰੇ ਦੀ ਚੌੜਾਈ
+	Edit Cameras	ਕੈਮਰੇ ਸੋਧੋ
+	Edit Cameras…	ਕੈਮਰੇ ਸੋਧੋ…
+	Edit Caption Text	ਉਪਸਿਰਲੇਖ ਪਾਠ ਸੋਧੋ
+	Edit Columns	ਕਾਲਮ ਸੋਧੋ
+	Edit Columns…	ਕਾਲਮ ਸੋਧੋ…
+	Edit Custom Color	ਪਸੰਦੀਦਾ ਰੰਗ ਸੋਧੋ
+	Edit Marker	ਮਾਰਕਰ ਸੋਧੋ
+	Edit Marker…	ਮਾਰਕਰ ਸੋਧੋ…
+	Edit Narration	ਵਰਣਨ-ਬੋਲੀ ਸੋਧੋ
+	Edit Offline File	ਆਫਲਾਈਨ ਫ਼ਾਈਲ ਸੋਧੋ
+	Edit Offline…	ਆਫਲਾਈਨ ਸੋਧੋ…
+	Edit Original	ਮੂਲ ਸੋਧੋ
+	Edit Project Notes	ਪ੍ਰੋਜੈਕਟ ਨੋਟ ਸੋਧੋ
+	Edit Subclip	ਸਬਕਲਿੱਪ ਸੋਧੋ
+	Edit Subclip…	ਸਬਕਲਿੱਪ ਸੋਧੋ…
+	Edit Workspaces	ਵਰਕਸਪੇਸ ਸੋਧੋ
+	Edit Workspaces…	ਵਰਕਸਪੇਸ ਸੋਧੋ…
+	Edit color	ਰੰਗ ਸੋਧੋ
+	Editable properties:	ਸੋਧਣਯੋਗ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ:
+	Editing Mode:	ਸੰਪਾਦਨ ਮੋਡ:
+	Editing or removing a swatch leaves assigned colors unchanged.	ਸਵੈਚ ਸੋਧਣ ਜਾਂ ਹਟਾਉਣ ਨਾਲ ਨਿਰਧਾਰਤ ਰੰਗ ਨਹੀਂ ਬਦਲਦੇ.
+	Effect	ਪ੍ਰਭਾਵ
+	Effect Controls	ਪ੍ਰਭਾਵ ਕੰਟਰੋਲ
+	Effect presets	ਪ੍ਰਭਾਵ ਪ੍ਰੀਸੈੱਟ
+	Effects	ਪ੍ਰਭਾਵ
+	Ellipse	ਅੰਡਾਕਾਰ
+	Ellipse Tool	ਅੰਡਾਕਾਰ ਟੂਲ
+	Elliptical	ਅੰਡਾਕਾਰ
+	Embed	ਇੰਬੈਡ ਕਰੋ
+	Emboss	ਉੱਭਰੀ ਨੱਕਾਸ਼ੀ
+	Empty tracks	ਖਾਲੀ ਟ੍ਰੈਕ
+	Enable	ਯੋਗ ਕਰੋ
+	Enable HSL Secondary	HSL ਸੈਕੰਡਰੀ ਯੋਗ ਕਰੋ
+	Enable Mercury Transmit	Mercury Transmit ਯੋਗ ਕਰੋ
+	Enable ProRes hardware accelerated encoding, if available	ਜੇ ਉਪਲਬਧ ਹੋਵੇ, ProRes ਹਾਰਡਵੇਅਰ-ਤੇਜ਼ ਐਨਕੋਡਿੰਗ ਯੋਗ ਕਰੋ
+	Enable Remix	ਰੀਮਿਕਸ ਯੋਗ ਕਰੋ
+	Enable clip and XMP metadata linking	ਕਲਿੱਪ ਅਤੇ XMP ਮੈਟਾਡਾਟਾ ਜੋੜਨਾ ਯੋਗ ਕਰੋ
+	Enable developer mode	ਡਿਵੈਲਪਰ ਮੋਡ ਯੋਗ ਕਰੋ
+	Enable hardware accelerated decoding (requires restart)	ਹਾਰਡਵੇਅਰ-ਤੇਜ਼ ਡੀਕੋਡਿੰਗ ਯੋਗ ਕਰੋ (ਮੁੜ ਚਾਲੂ ਕਰਨਾ ਲੋੜੀਂਦਾ ਹੈ)
+	Enable language auto-detection	ਭਾਸ਼ਾ ਦੀ ਆਪਣੇ ਆਪ ਪਛਾਣ ਯੋਗ ਕਰੋ
+	Enable proxies	ਪ੍ਰਾਕਸੀ ਯੋਗ ਕਰੋ
+	Enable track for recording	ਰਿਕਾਰਡਿੰਗ ਲਈ ਟ੍ਰੈਕ ਯੋਗ ਕਰੋ
+	Encapsulate	ਸਮੇਟੋ
+	Encoder	ਐਨਕੋਡਰ
+	Encoding {n}%	ਐਨਕੋਡਿੰਗ {n}%
+	End Color	ਅੰਤਲਾ ਰੰਗ
+	End Credits	ਅੰਤਲੇ ਕ੍ਰੈਡਿਟ
+	End Credits – Roll	ਅੰਤਲੇ ਕ੍ਰੈਡਿਟ – ਉੱਪਰ ਸਰਕਣਾ
+	End Off Screen	ਸਕ੍ਰੀਨ ਤੋਂ ਬਾਹਰ ਖ਼ਤਮ ਕਰੋ
+	End Point	ਅੰਤ ਬਿੰਦੂ
+	End of Ramp	ਰੈਂਪ ਦਾ ਅੰਤ
+	End:	ਅੰਤ:
+	End: {tc}	ਅੰਤ: {tc}
+	Ends With	ਇਸ ਨਾਲ ਖ਼ਤਮ ਹੁੰਦਾ ਹੈ
+	Enhance Speech	ਬੋਲੀ ਸੁਧਾਰੋ
+	Enter	Enter
+	Enter a positive duration within the supported speed range.	ਸਹਾਇਤਾਪ੍ਰਾਪਤ ਗਤੀ ਰੇਂਜ ਅੰਦਰ ਸਿਫ਼ਰ ਤੋਂ ਵੱਧ ਮਿਆਦ ਦਿਓ.
+	Enter a valid HH:MM:SS:FF timecode	ਵੈਧ HH:MM:SS:FF ਟਾਈਮਕੋਡ ਦਿਓ
+	Enter a valid HTTP or HTTPS URL without credentials	ਪ੍ਰਮਾਣ-ਜਾਣਕਾਰੀ ਤੋਂ ਬਿਨਾਂ ਵੈਧ HTTP ਜਾਂ HTTPS URL ਦਿਓ
+	Enter six hex digits, for example FF80C0.	ਛੇ ਹੈਕਸ ਅੰਕ ਦਿਓ, ਜਿਵੇਂ FF80C0.
+	Entire Source	ਪੂਰਾ ਸਰੋਤ
+	Enumerate Cameras	ਕੈਮਰਿਆਂ ਦੀ ਗਿਣਤੀਵਾਰ ਸੂਚੀ ਬਣਾਓ
+	Errors Only	ਕੇਵਲ ਗਲਤੀਆਂ
+	Essential Graphics	ਜ਼ਰੂਰੀ ਗ੍ਰਾਫਿਕਸ
+	Essential Sound	ਜ਼ਰੂਰੀ ਧੁਨੀ
+	EssentialSound	ਜ਼ਰੂਰੀ ਧੁਨੀ
+	Estimated file size: {size}	ਅੰਦਾਜ਼ਨ ਫ਼ਾਈਲ ਆਕਾਰ: {size}
+	Events	ਘਟਨਾਵਾਂ
+	Every frame a keyframe (edit-friendly, larger files)	ਹਰ ਫਰੇਮ ਇੱਕ ਕੀਫਰੇਮ (ਸੰਪਾਦਨ ਲਈ ਸੁਖਾਲਾ, ਵੱਡੀਆਂ ਫ਼ਾਈਲਾਂ)
+	Evolution	ਕ੍ਰਮਿਕ ਬਦਲਾਅ
+	Evolution Options	ਕ੍ਰਮਿਕ ਬਦਲਾਅ ਦੀਆਂ ਚੋਣਾਂ
+	Exact name matches only	ਕੇਵਲ ਬਿਲਕੁਲ ਮਿਲਦੇ ਨਾਂ
+	Exciter Amount	ਐਕਸਾਈਟਰ ਦੀ ਮਾਤਰਾ
+	Exciter Mode	ਐਕਸਾਈਟਰ ਮੋਡ
+	Exclude Unused Clips	ਨਾ ਵਰਤੀਆਂ ਕਲਿੱਪਾਂ ਨੂੰ ਛੱਡੋ
+	Exclusion	ਐਕਸਕਲੂਜ਼ਨ
+	Existing XMP files written by other applications are left unchanged.	ਹੋਰ ਐਪਲੀਕੇਸ਼ਨਾਂ ਦੀਆਂ ਲਿਖੀਆਂ ਮੌਜੂਦਾ XMP ਫ਼ਾਈਲਾਂ ਬਿਨਾਂ ਬਦਲੇ ਰਹਿੰਦੀਆਂ ਹਨ.
+	Exit Trim Mode	ਟ੍ਰਿਮ ਮੋਡ ਤੋਂ ਬਾਹਰ ਆਓ
+	Expand All Tracks	ਸਾਰੇ ਟ੍ਰੈਕ ਫੈਲਾਓ
+	Expander	ਐਕਸਪੈਂਡਰ
+	Exponential Fade	ਐਕਸਪੋਨੈਂਸ਼ਲ ਫੇਡ
+	Export As Motion Graphics Template	ਮੋਸ਼ਨ ਗ੍ਰਾਫਿਕਸ ਟੈਂਪਲੇਟ ਵਜੋਂ ਨਿਰਯਾਤ ਕਰੋ
+	Export As Motion Graphics Template…	ਮੋਸ਼ਨ ਗ੍ਰਾਫਿਕਸ ਟੈਂਪਲੇਟ ਵਜੋਂ ਨਿਰਯਾਤ ਕਰੋ…
+	Export Audio	ਆਡੀਓ ਨਿਰਯਾਤ ਕਰੋ
+	Export Frame	ਫਰੇਮ ਨਿਰਯਾਤ ਕਰੋ
+	Export Frame (Shift+E)	ਫਰੇਮ ਨਿਰਯਾਤ ਕਰੋ (Shift+E)
+	Export Frame: use Export mode (M6)	ਫਰੇਮ ਨਿਰਯਾਤ: ਨਿਰਯਾਤ ਮੋਡ ਵਰਤੋ (M6)
+	Export Markers as CSV…	ਮਾਰਕਰ CSV ਵਜੋਂ ਨਿਰਯਾਤ ਕਰੋ…
+	Export Options	ਨਿਰਯਾਤ ਦੇ ਵਿਕਲਪ
+	Export Preset…	ਪ੍ਰੀਸੈੱਟ ਨਿਰਯਾਤ ਕਰੋ…
+	Export formats	ਨਿਰਯਾਤ ਫਾਰਮੈਟ
+	Export presets	ਨਿਰਯਾਤ ਪ੍ਰੀਸੈੱਟ
+	Export the labels to a preset file…	ਲੇਬਲ ਪ੍ਰੀਸੈੱਟ ਫ਼ਾਈਲ ਵਿੱਚ ਨਿਰਯਾਤ ਕਰੋ…
+	Export: no file chosen (agents: export.presets.export {path, names})	ਨਿਰਯਾਤ: ਕੋਈ ਫ਼ਾਈਲ ਨਹੀਂ ਚੁਣੀ (ਏਜੰਟ: export.presets.export {path, names})
+	Export: no file chosen (agents: shortcuts.export {path})	ਨਿਰਯਾਤ: ਕੋਈ ਫ਼ਾਈਲ ਨਹੀਂ ਚੁਣੀ (ਏਜੰਟ: shortcuts.export {path})
+	Exported graphics template to {path}	ਗ੍ਰਾਫਿਕਸ ਟੈਂਪਲੇਟ {path} ਉੱਤੇ ਨਿਰਯਾਤ ਕੀਤਾ
+	Exported {path}	{path} ਨਿਰਯਾਤ ਕੀਤਾ ਗਿਆ
+	Exporting	ਨਿਰਯਾਤ ਹੋ ਰਿਹਾ ਹੈ
+	Exporting {path}	{path} ਨਿਰਯਾਤ ਹੋ ਰਿਹਾ ਹੈ
+	Exposure	ਐਕਸਪੋਜ਼ਰ
+	Extend Next Edit To Playhead	ਅਗਲਾ ਸੰਪਾਦਨ ਬਿੰਦੂ ਪਲੇਹੈੱਡ ਤੱਕ ਵਧਾਓ
+	Extend Previous Edit To Playhead	ਪਿਛਲਾ ਸੰਪਾਦਨ ਬਿੰਦੂ ਪਲੇਹੈੱਡ ਤੱਕ ਵਧਾਓ
+	Extend Selected Edit to Playhead	ਚੁਣਿਆ ਸੰਪਾਦਨ ਬਿੰਦੂ ਪਲੇਹੈੱਡ ਤੱਕ ਵਧਾਓ
+	Extend Selection Down	ਚੋਣ ਹੇਠਾਂ ਵਧਾਓ
+	Extend Selection Left	ਚੋਣ ਖੱਬੇ ਵਧਾਓ
+	Extend Selection Right	ਚੋਣ ਸੱਜੇ ਵਧਾਓ
+	Extend Selection Up	ਚੋਣ ਉੱਪਰ ਵਧਾਓ
+	Extended Dynamic Range Monitoring	ਵਿਸਤ੍ਰਿਤ ਡਾਇਨਾਮਿਕ ਰੇਂਜ ਮਾਨੀਟਰਿੰਗ
+	Extract (')	ਕੱਢੋ (')
+	Extract Audio	ਆਡੀਓ ਕੱਢੋ
+	Extract selected text	ਚੁਣਿਆ ਪਾਠ ਕੱਢੋ
+	Eyedropper	ਆਈਡਰਾਪਰ
+	Eyedropper (pick a color from the Program monitor)	ਆਈਡਰਾਪਰ (ਪ੍ਰੋਗਰਾਮ ਮਾਨੀਟਰ ਤੋਂ ਰੰਗ ਚੁਣੋ)
+	Eyedropper: no picture to sample	ਆਈਡਰਾਪਰ: ਸੈਂਪਲ ਲਈ ਕੋਈ ਤਸਵੀਰ ਨਹੀਂ
+	FCPXML…	FCPXML…
+	FFT Filter	FFT ਫਿਲਟਰ
+	FLAC	FLAC
+	FLAC (lossless)	FLAC (ਬਿਨਾਂ ਨੁਕਸਾਨ)
+	FLAC 48 kHz 24-bit	FLAC 48 kHz 24-ਬਿਟ
+	FLAC stores whole-number samples only	FLAC ਸਿਰਫ਼ ਪੂਰਨ-ਅੰਕ ਸੈਂਪਲ ਸੰਭਾਲਦਾ ਹੈ
+	FLAC, stereo 48 kHz 24-bit, lossless	FLAC, ਸਟੀਰੀਓ 48 kHz 24-ਬਿਟ, ਬਿਨਾਂ ਨੁਕਸਾਨ
+	Face Detection (protect skin tones)	ਚਿਹਰਾ ਪਛਾਣ (ਚਮੜੀ ਦੇ ਟੋਨ ਸੁਰੱਖਿਅਤ ਰੱਖੋ)
+	Fade	ਫਿੱਕਾ ਕਰੋ
+	Fade In	ਫੇਡ ਇਨ
+	Fade Out	ਫੇਡ ਆਊਟ
+	Faded Film	ਫਿੱਕੀ ਫਿਲਮ
+	Faded Matte	ਫਿੱਕਾ ਮੈਟ
+	Faded Print	ਫਿੱਕਾ ਪ੍ਰਿੰਟ
+	Fades	ਫੇਡ
+	Failed: {e}	ਅਸਫਲ: {e}
+	Falloff	ਘਟਦੀ ਤੀਬਰਤਾ
+	Far Away	ਬਹੁਤ ਦੂਰ
+	Fast	ਤੇਜ਼
+	Faster Motion	ਤੇਜ਼ ਚਾਲ
+	Faux Bold	ਬਣਾਉਟੀ ਮੋਟਾ
+	Faux Italic	ਬਣਾਉਟੀ ਤਿਰਛਾ
+	Favorites	ਮਨਪਸੰਦ
+	Favorites only	ਕੇਵਲ ਮਨਪਸੰਦ
+	Feather	ਕਿਨਾਰੇ ਨਰਮ ਕਰੋ
+	Feedback	ਫੀਡਬੈਕ
+	Feedback 1	ਫੀਡਬੈਕ 1
+	Feedback 2	ਫੀਡਬੈਕ 2
+	Feedback 3	ਫੀਡਬੈਕ 3
+	Feedback 4	ਫੀਡਬੈਕ 4
+	Feet + Frames 16mm	ਫੁੱਟ + ਫਰੇਮ 16mm
+	Feet + Frames 35mm	ਫੁੱਟ + ਫਰੇਮ 35mm
+	Female	ਔਰਤ
+	Fewer · More	ਘੱਟ · ਵੱਧ
+	Field Options	ਫੀਲਡ ਚੋਣਾਂ
+	Field Options…	ਫੀਲਡ ਚੋਣਾਂ…
+	Field Order	ਫੀਲਡ ਕ੍ਰਮ
+	Fields:	ਫੀਲਡ:
+	File Extension	ਫ਼ਾਈਲ ਐਕਸਟੈਂਸ਼ਨ
+	File Format	ਫ਼ਾਈਲ ਫਾਰਮੈਟ
+	File Name & Location	ਫ਼ਾਈਲ ਦਾ ਨਾਮ ਅਤੇ ਟਿਕਾਣਾ
+	File Name:	ਫ਼ਾਈਲ ਦਾ ਨਾਮ:
+	File Path	ਫ਼ਾਈਲ ਪਾਥ
+	File Size	ਫ਼ਾਈਲ ਦਾ ਆਕਾਰ
+	File Types Displayed	ਦਿਖਾਈਆਂ ਫ਼ਾਈਲ ਕਿਸਮਾਂ
+	File…	ਫ਼ਾਈਲ…
+	Fill Background	ਪਿੱਛੋਕੜ ਭਰੋ
+	Fill Color	ਭਰਾਈ ਦਾ ਰੰਗ
+	Fill Left with Right	ਖੱਬਾ ਚੈਨਲ ਸੱਜੇ ਨਾਲ ਭਰੋ
+	Fill Point	ਭਰਨ ਬਿੰਦੂ
+	Fill Right with Left	ਸੱਜਾ ਚੈਨਲ ਖੱਬੇ ਨਾਲ ਭਰੋ
+	Fill Selector	ਭਰਨ ਚੋਣਕਾਰ
+	Fill Type	ਭਰਨ ਦੀ ਕਿਸਮ
+	Fill frame	ਫਰੇਮ ਭਰੋ
+	Fill the slots above first	ਪਹਿਲਾਂ ਉੱਪਰਲੇ ਸਲਾਟ ਭਰੋ
+	Film Dissolve	ਫਿਲਮ ਡਿਜ਼ਾਲਵ
+	Film Dissolve (Legacy)	ਫਿਲਮ ਡਿਜ਼ਾਲਵ (ਪੁਰਾਣਾ)
+	Film Emulation	ਫਿਲਮ ਅਨੁਕਰਣ
+	Film Roll	ਫਿਲਮ ਰੋਲ
+	FilmCraft Graphics Template	FilmCraft ਗ੍ਰਾਫਿਕਸ ਟੈਂਪਲੇਟ
+	FilmCraft Help…	FilmCraft ਮਦਦ…
+	FilmCraft Project	FilmCraft ਪ੍ਰੋਜੈਕਟ
+	FilmCraft always composites in linear light	FilmCraft ਹਮੇਸ਼ਾ ਲੀਨੀਅਰ ਰੌਸ਼ਨੀ ਵਿੱਚ ਸੰਯੋਜਿਤ ਕਰਦਾ ਹੈ
+	FilmCraft hit an error	FilmCraft ਵਿੱਚ ਗਲਤੀ ਆਈ
+	FilmCraft keeps the rest of the RAM free for other applications.	FilmCraft ਬਾਕੀ RAM ਹੋਰ ਐਪਲੀਕੇਸ਼ਨਾਂ ਲਈ ਖਾਲੀ ਰੱਖਦਾ ਹੈ.
+	FilmCraft on GitHub	GitHub ਉੱਤੇ FilmCraft
+	FilmCraft on getartcraft.com	getartcraft.com ਉੱਤੇ FilmCraft
+	FilmCraft quit unexpectedly while “{name}” had unsaved changes.	FilmCraft ਅਚਾਨਕ ਬੰਦ ਹੋਇਆ ਜਦੋਂ “{name}” ਦੀਆਂ ਤਬਦੀਲੀਆਂ ਅਣਸੰਭਾਲੀਆਂ ਸਨ.
+	FilmCraft was closed while “{name}” had unsaved changes.	FilmCraft ਬੰਦ ਕੀਤਾ ਗਿਆ ਜਦੋਂ “{name}” ਦੀਆਂ ਤਬਦੀਲੀਆਂ ਅਣਸੰਭਾਲੀਆਂ ਸਨ.
+	Filter	ਫਿਲਟਰ
+	Filter Frequency	ਫਿਲਟਰ ਫ੍ਰੀਕਵੈਂਸੀ
+	Filter Resonance	ਫਿਲਟਰ ਰੈਜ਼ੋਨੈਂਸ
+	Filter and EQ	ਫਿਲਟਰ ਅਤੇ EQ
+	Final Cut Pro XML…	Final Cut Pro XML…
+	Final Delay	ਅੰਤਲਾ ਡਿਲੇ
+	Find Edges	ਕਿਨਾਰੇ ਲੱਭੋ
+	Find Next	ਅਗਲਾ ਲੱਭੋ
+	Find in:	ਇਸ ਵਿੱਚ ਲੱਭੋ:
+	Find:	ਲੱਭੋ:
+	Fit to frame	ਫਰੇਮ ਵਿੱਚ ਫਿੱਟ ਕਰੋ
+	Flanger	ਫਲੈਂਜਰ
+	Flare	ਫਲੇਅਰ
+	Flare Brightness	ਫਲੇਅਰ ਦੀ ਚਮਕ
+	Flare Center	ਫਲੇਅਰ ਦਾ ਕੇਂਦਰ
+	Flare Color	ਫਲੇਅਰ ਦਾ ਰੰਗ
+	Flash	ਫਲੈਸ਼
+	Flash Cue Marker	Flash ਕਿਊ ਮਾਰਕਰ
+	Flash Cue Point	Flash ਕਿਊ ਬਿੰਦੂ
+	Flatten	ਮਲਟੀ-ਕੈਮਰਾ ਕਲਿੱਪਾਂ ਨੂੰ ਦਿਖਦੇ ਕੋਣ ਦੀਆਂ ਕਲਿੱਪਾਂ ਵਿੱਚ ਬਦਲੋ
+	Flicker	ਝਿਲਮਿਲਾਹਟ
+	Flicker Removal	ਝਿਲਮਿਲਾਹਟ ਹਟਾਓ
+	Flickers	ਝਿਲਮਿਲਾਹਟਾਂ
+	Flip Motion	ਫਲਿਪ ਚਾਲ
+	Flip Over	ਉਲਟੋ
+	Float	ਤੈਰਦਾ ਰੱਖੋ
+	Focus	ਫੋਕਸ
+	Focus Blur	ਫੋਕਸ ਧੁੰਦਲਾਪਣ
+	Focus Point	ਫੋਕਸ ਬਿੰਦੂ
+	Focus Shape	ਫੋਕਸ ਆਕਾਰ
+	Focus Size	ਫੋਕਸ ਦਾ ਮਾਪ
+	Fold Motion	ਫੋਲਡ ਚਾਲ
+	Foldback	ਫੋਲਡਬੈਕ
+	Font Size	ਫ਼ੌਂਟ ਦਾ ਆਕਾਰ
+	Font Style	ਫ਼ੌਂਟ ਸ਼ੈਲੀ
+	Font family	ਫ਼ੌਂਟ ਪਰਿਵਾਰ
+	Fonts used in the project:	ਪ੍ਰੋਜੈਕਟ ਵਿੱਚ ਵਰਤੇ ਫ਼ੌਂਟ:
+	For color management parameters, go to the Settings tab in the Lumetri Color panel.	ਰੰਗ ਪ੍ਰਬੰਧਨ ਪੈਰਾਮੀਟਰਾਂ ਲਈ Lumetri Color ਪੈਨਲ ਦੀ ਸੈਟਿੰਗਾਂ ਟੈਬ ਉੱਤੇ ਜਾਓ.
+	Forest	ਜੰਗਲ
+	Format and size	ਫਾਰਮੈਟ ਅਤੇ ਆਕਾਰ
+	Four Scopes (RGB, 8 bit)	ਚਾਰ ਸਕੋਪ (RGB, 8 ਬਿਟ)
+	Four Scopes (YUV, float, no clamp)	ਚਾਰ ਸਕੋਪ (YUV, ਫਲੋਟ, ਬਿਨਾਂ ਸੀਮਾ)
+	Fractal Influence	ਫ੍ਰੈਕਟਲ ਪ੍ਰਭਾਵ
+	Fractal Type	ਫ੍ਰੈਕਟਲ ਕਿਸਮ
+	Frame	ਫਰੇਮ
+	Frame Blending	ਫਰੇਮ ਮਿਲਾਉਣਾ
+	Frame Color	ਫਰੇਮ ਰੰਗ
+	Frame Count	ਫਰੇਮ ਗਿਣਤੀ
+	Frame Hold Options	ਫਰੇਮ ਹੋਲਡ ਚੋਣਾਂ
+	Frame Hold Options…	ਫਰੇਮ ਹੋਲਡ ਚੋਣਾਂ…
+	Frame Layout	ਫਰੇਮ ਖਾਕਾ
+	Frame Rate	ਫਰੇਮ ਦਰ
+	Frame Rate:	ਫਰੇਮ ਦਰ:
+	Frame Sampling	ਫਰੇਮ ਸੈਂਪਲਿੰਗ
+	Frame Size	ਫਰੇਮ ਦਾ ਆਕਾਰ
+	Frame Size / Rate	ਫਰੇਮ ਆਕਾਰ / ਦਰ
+	Frame Size:	ਫਰੇਮ ਦਾ ਆਕਾਰ:
+	Frame Width	ਫਰੇਮ ਚੌੜਾਈ
+	Frame cache for monitors and thumbnails	ਮਾਨੀਟਰਾਂ ਅਤੇ ਥੰਬਨੇਲਾਂ ਲਈ ਫਰੇਮ ਕੈਸ਼
+	Frames	ਫਰੇਮ
+	Frames per Still:	ਪ੍ਰਤੀ ਅਚੱਲ ਚਿੱਤਰ ਫਰੇਮ:
+	Framing	ਫਰੇਮਬੰਦੀ
+	Free draw bezier	ਬੇਜ਼ੀਏ ਖੁੱਲ੍ਹਾ ਬਣਾਓ
+	Freeform	ਖੁੱਲ੍ਹੀ ਸ਼ਕਲ
+	Freeform View	ਖੁੱਲ੍ਹਾ ਦ੍ਰਿਸ਼
+	Freeform View Options	ਖੁੱਲ੍ਹੇ ਦ੍ਰਿਸ਼ ਦੀਆਂ ਚੋਣਾਂ
+	Freeform View Options…	ਖੁੱਲ੍ਹੇ ਦ੍ਰਿਸ਼ ਦੀਆਂ ਚੋਣਾਂ…
+	French	ਫਰਾਂਸੀਸੀ
+	Frequency	ਆਵਿਰਤੀ
+	From Bin	ਬਿਨ ਤੋਂ
+	From East	ਪੂਰਬ ਤੋਂ
+	From North	ਉੱਤਰ ਤੋਂ
+	From Source Monitor	ਸਰੋਤ ਮਾਨੀਟਰ ਤੋਂ
+	From Source Monitor, Match Frame	ਸਰੋਤ ਮਾਨੀਟਰ ਤੋਂ, ਫਰੇਮ ਮੇਲ ਕਰੋ
+	From South	ਦੱਖਣ ਤੋਂ
+	From West	ਪੱਛਮ ਤੋਂ
+	From file…	ਫ਼ਾਈਲ ਤੋਂ…
+	From preset file:	ਪ੍ਰੀਸੈੱਟ ਫ਼ਾਈਲ ਤੋਂ:
+	From the Left	ਖੱਬੇ ਤੋਂ
+	From the Right	ਸੱਜੇ ਤੋਂ
+	Front + LFE	ਅੱਗੇ + LFE
+	Front + Rear	ਅੱਗੇ + ਪਿੱਛੇ
+	Front + Rear + LFE	ਅੱਗੇ + ਪਿੱਛੇ + LFE
+	Front Only	ਕੇਵਲ ਅੱਗੇ
+	Full	ਪੂਰਾ
+	Full screen	ਪੂਰੀ ਸਕ੍ਰੀਨ
+	Fuzz	ਫ਼ਜ਼
+	GB	GB
+	GPU Rendering	GPU ਰੈਂਡਰਿੰਗ
+	GPU acceleration is unavailable; preview renders on the CPU	GPU ਤੇਜ਼ੀ ਉਪਲਬਧ ਨਹੀਂ; ਝਲਕ CPU ਉੱਤੇ ਰੈਂਡਰ ਹੁੰਦੀ ਹੈ
+	Gain	ਗੇਨ
+	Gamma	ਗਾਮਾ
+	Gamma Correction	ਗਾਮਾ ਸੁਧਾਰ
+	Gamut Warning	ਰੰਗ ਸੀਮਾ ਦੀ ਚੇਤਾਵਨੀ
+	Gamut Warning Color	ਰੰਗ ਸੀਮਾ ਚੇਤਾਵਨੀ ਦਾ ਰੰਗ
+	Gang to Program	ਪ੍ਰੋਗਰਾਮ ਨਾਲ ਇਕੱਠੇ ਚਲਾਓ
+	Gap	ਖ਼ਾਲੀ ਫ਼ਾਸਲਾ
+	Gap Color	ਵਿੱਥ ਦਾ ਰੰਗ
+	Gaps	ਵਿੱਥਾਂ
+	Gaussian Blur	ਗਾਊਸੀਅਨ ਧੁੰਦਲਾਪਣ
+	Gaussian Blur (Legacy)	ਗਾਊਸੀਅਨ ਧੁੰਦਲਾਪਣ (ਪੁਰਾਣਾ)
+	Gaussian Blur from 0 to 60 over the last second	ਆਖ਼ਰੀ ਸਕਿੰਟ ਦੌਰਾਨ ਗਾਊਸੀਅਨ ਧੁੰਦਲਾਪਣ 0 ਤੋਂ 60 ਤੱਕ
+	Gaussian Blur from 60 to 0 over the first second	ਪਹਿਲੇ ਸਕਿੰਟ ਦੌਰਾਨ ਗਾਊਸੀਅਨ ਧੁੰਦਲਾਪਣ 60 ਤੋਂ 0 ਤੱਕ
+	General…	ਆਮ…
+	Generate	ਤਿਆਰ ਕਰੋ
+	Generate Audio Waveform	ਆਡੀਓ ਵੇਵਫਾਰਮ ਬਣਾਓ
+	Generate Ducking Keyframes	ਡਕਿੰਗ ਕੀਫਰੇਮ ਬਣਾਓ
+	Generate Keyframes	ਕੀਫਰੇਮ ਬਣਾਓ
+	Generate Timecode	ਟਾਈਮਕੋਡ ਬਣਾਓ
+	Generate waveforms and conform audio using multithreading	ਮਲਟੀਥ੍ਰੈਡਿੰਗ ਨਾਲ ਵੇਵਫਾਰਮ ਬਣਾਓ ਅਤੇ ਆਡੀਓ ਅਨੁਕੂਲ ਕਰੋ
+	Generate waveforms automatically during import	ਆਯਾਤ ਵੇਲੇ ਆਪਣੇ ਆਪ ਵੇਵਫਾਰਮ ਬਣਾਓ
+	Generating waveform…	ਵੇਵਫਾਰਮ ਬਣਾਇਆ ਜਾ ਰਿਹਾ ਹੈ…
+	German	ਜਰਮਨ
+	Get Media File Properties for	ਇਸ ਲਈ ਮੀਡੀਆ ਫ਼ਾਈਲ ਦੀਆਂ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਲਵੋ
+	Get Project Notes	ਪ੍ਰੋਜੈਕਟ ਨੋਟ ਲਵੋ
+	Ghosts	ਘੋਸਟ
+	Glint	ਝਲਕ
+	Glitch	ਗਲਿਚ
+	Glow	ਚਮਕ
+	Glow Brightness	ਚਮਕ ਦੀ ਤੀਬਰਤਾ
+	Glow Color	ਚਮਕ ਦਾ ਰੰਗ
+	Glow Only	ਕੇਵਲ ਚਮਕ
+	Glow Radius	ਚਮਕ ਦਾ ਅਰਧ-ਵਿਆਸ
+	Glow Saturation	ਚਮਕ ਦੀ ਰੰਗੀਨਤਾ
+	Glow Width	ਚਮਕ ਦੀ ਚੌੜਾਈ
+	Go Back	ਪਿੱਛੇ ਜਾਓ
+	Go Forward	ਅੱਗੇ ਜਾਓ
+	Go to Gap	ਵਿੱਥ ਉੱਤੇ ਜਾਓ
+	Go to In	ਇਨ ਬਿੰਦੂ ਉੱਤੇ ਜਾਓ
+	Go to In (Shift+I)	ਇਨ ਬਿੰਦੂ ਉੱਤੇ ਜਾਓ (Shift+I)
+	Go to In Point	ਇਨ ਬਿੰਦੂ ਉੱਤੇ ਜਾਓ
+	Go to Next Caption Segment	ਅਗਲੇ ਉਪਸਿਰਲੇਖ ਖੰਡ ਉੱਤੇ ਜਾਓ
+	Go to Next Edit Point	ਅਗਲੇ ਸੰਪਾਦਨ ਬਿੰਦੂ ਉੱਤੇ ਜਾਓ
+	Go to Next Edit Point on Any Track	ਕਿਸੇ ਵੀ ਟ੍ਰੈਕ ਦੇ ਅਗਲੇ ਸੰਪਾਦਨ ਬਿੰਦੂ ਉੱਤੇ ਜਾਓ
+	Go to Next Marker	ਅਗਲੇ ਮਾਰਕਰ ਉੱਤੇ ਜਾਓ
+	Go to Out	ਆਊਟ ਬਿੰਦੂ ਉੱਤੇ ਜਾਓ
+	Go to Out (Shift+O)	ਆਊਟ ਬਿੰਦੂ ਉੱਤੇ ਜਾਓ (Shift+O)
+	Go to Out Point	ਆਊਟ ਬਿੰਦੂ ਉੱਤੇ ਜਾਓ
+	Go to Previous Caption Segment	ਪਿਛਲੇ ਉਪਸਿਰਲੇਖ ਖੰਡ ਉੱਤੇ ਜਾਓ
+	Go to Previous Edit Point	ਪਿਛਲੇ ਸੰਪਾਦਨ ਬਿੰਦੂ ਉੱਤੇ ਜਾਓ
+	Go to Previous Edit Point on Any Track	ਕਿਸੇ ਵੀ ਟ੍ਰੈਕ ਦੇ ਪਿਛਲੇ ਸੰਪਾਦਨ ਬਿੰਦੂ ਉੱਤੇ ਜਾਓ
+	Go to Previous Marker	ਪਿਛਲੇ ਮਾਰਕਰ ਉੱਤੇ ਜਾਓ
+	Go to Selected Clip End	ਚੁਣੀ ਕਲਿੱਪ ਦੇ ਅੰਤ ਉੱਤੇ ਜਾਓ
+	Go to Selected Clip Start	ਚੁਣੀ ਕਲਿੱਪ ਦੇ ਸ਼ੁਰੂ ਉੱਤੇ ਜਾਓ
+	Go to Sequence End	ਸੀਕਵੈਂਸ ਦੇ ਅੰਤ ਉੱਤੇ ਜਾਓ
+	Go to Sequence Start	ਸੀਕਵੈਂਸ ਦੇ ਸ਼ੁਰੂ ਉੱਤੇ ਜਾਓ
+	Go to Split	ਵੰਡ ਬਿੰਦੂ ਉੱਤੇ ਜਾਓ
+	Go to next keyframe	ਅਗਲੇ ਕੀਫਰੇਮ ਉੱਤੇ ਜਾਓ
+	Go to previous keyframe	ਪਿਛਲੇ ਕੀਫਰੇਮ ਉੱਤੇ ਜਾਓ
+	Golden Dusk	ਸੁਨਹਿਰੀ ਸ਼ਾਮ
+	Golden Hour	ਸੁਨਹਿਰੀ ਵੇਲਾ
+	Good	ਵਧੀਆ
+	Grab bag	ਮਿਲੀਆਂ-ਜੁਲੀਆਂ ਚੀਜ਼ਾਂ
+	Gradient	ਗ੍ਰੇਡੀਐਂਟ
+	Gradient Angle	ਗ੍ਰੇਡੀਐਂਟ ਕੋਣ
+	Gradient End	ਗ੍ਰੇਡੀਐਂਟ ਦਾ ਅੰਤ
+	Gradient Layer	ਗ੍ਰੇਡੀਐਂਟ ਪਰਤ
+	Gradient Placement	ਗ੍ਰੇਡੀਐਂਟ ਦੀ ਥਾਂ
+	Gradient Scatter	ਗ੍ਰੇਡੀਐਂਟ ਖਿਲਾਰ
+	Gradient Shape	ਗ੍ਰੇਡੀਐਂਟ ਦੀ ਸ਼ਕਲ
+	Gradient Start	ਗ੍ਰੇਡੀਐਂਟ ਦਾ ਸ਼ੁਰੂ
+	Gradient Wipe	ਗ੍ਰੇਡੀਐਂਟ ਵਾਈਪ
+	Gradient Wipe (Legacy)	ਗ੍ਰੇਡੀਐਂਟ ਵਾਈਪ (ਪੁਰਾਣਾ)
+	Grain Size	ਦਾਣਿਆਂ ਦਾ ਆਕਾਰ
+	Graphic Equalizer (10 Bands)	ਗ੍ਰਾਫਿਕ ਇਕੁਅਲਾਈਜ਼ਰ (10 ਬੈਂਡ)
+	Graphic Equalizer (20 Bands)	ਗ੍ਰਾਫਿਕ ਇਕੁਅਲਾਈਜ਼ਰ (20 ਬੈਂਡ)
+	Graphic Equalizer (30 Bands)	ਗ੍ਰਾਫਿਕ ਇਕੁਅਲਾਈਜ਼ਰ (30 ਬੈਂਡ)
+	Graphics and Titles	ਗ੍ਰਾਫਿਕਸ ਅਤੇ ਸਿਰਲੇਖ
+	Graphics problem: switched to software compositing	ਗ੍ਰਾਫਿਕਸ ਸਮੱਸਿਆ: ਸਾਫ਼ਟਵੇਅਰ ਸੰਯੋਜਨ ਵਰਤਿਆ ਜਾ ਰਿਹਾ ਹੈ
+	Graphics text search arrives with M10.1–M10.2	ਗ੍ਰਾਫਿਕਸ ਪਾਠ ਖੋਜ M10.1–M10.2 ਨਾਲ ਆਵੇਗੀ
+	Graphics…	ਗ੍ਰਾਫਿਕਸ…
+	Green Blurriness	ਹਰਾ ਧੁੰਦਲਾਪਣ
+	Green Curve	ਹਰੀ ਕਰਵ
+	Green Offset	ਹਰਾ ਆਫਸੈੱਟ
+	Green Power	ਹਰੀ ਪਾਵਰ
+	Green Slope	ਹਰੀ ਢਲਾਣ
+	Green-Blue	ਹਰਾ-ਨੀਲਾ
+	Green-Const	ਹਰਾ-ਸਥਿਰ
+	Green-Green	ਹਰਾ-ਹਰਾ
+	Green-Red	ਹਰਾ-ਲਾਲ
+	Grid	ਗ੍ਰਿਡ
+	Grid spacing:	ਗ੍ਰਿੱਡ ਫ਼ਾਸਲਾ:
+	Group	ਸਮੂਹ
+	Grow	ਵਧਾਓ
+	Growing Files	ਵਧ ਰਹੀਆਂ ਫ਼ਾਈਲਾਂ
+	Grunge	ਗਰੰਜ
+	Grunge & Distort	ਗਰੰਜ ਅਤੇ ਵਿਗਾੜ
+	Guide Templates	ਗਾਈਡ ਟੈਂਪਲੇਟ
+	Guides	ਗਾਈਡਾਂ
+	GuitarSuite	ਗਿਟਾਰਸੂਟ
+	H.264	H.264
+	H.264 1920×1080 for video sharing sites, VBR 1 pass, 16 Mbps	ਵੀਡੀਓ ਸਾਂਝੀਆਂ ਕਰਨ ਵਾਲੀਆਂ ਸਾਈਟਾਂ ਲਈ H.264 1920×1080, VBR 1 ਪਾਸ, 16 Mbps
+	H.264 1920×1080, VBR 1 pass, 20 Mbps target, AAC 320 kbps	H.264 1920×1080, VBR 1 ਪਾਸ, 20 Mbps ਟੀਚਾ, AAC 320 kbps
+	H.264 1920×1080, VBR 2 pass, 18 Mbps	H.264 1920×1080, VBR 2 ਪਾਸ, 18 Mbps
+	H.264 3840×2160 for video sharing sites, VBR 1 pass, 45 Mbps	ਵੀਡੀਓ ਸਾਂਝੀਆਂ ਕਰਨ ਵਾਲੀਆਂ ਸਾਈਟਾਂ ਲਈ H.264 3840×2160, VBR 1 ਪਾਸ, 45 Mbps
+	H.264 3840×2160, VBR 1 pass, 60 Mbps target, AAC 320 kbps	H.264 3840×2160, VBR 1 ਪਾਸ, 60 Mbps ਟੀਚਾ, AAC 320 kbps
+	H.264 3840×2160, VBR 2 pass, 50 Mbps	H.264 3840×2160, VBR 2 ਪਾਸ, 50 Mbps
+	H.264 9:16 portrait for short-form social video, scaled to fill, 12 Mbps	ਛੋਟੇ ਸੋਸ਼ਲ ਵੀਡੀਓ ਲਈ H.264 9:16 ਪੋਰਟਰੇਟ, ਭਰਨ ਲਈ ਸਕੇਲ ਕੀਤਾ, 12 Mbps
+	H.264 at the sequence's frame size and rate; 0.05 bits per pixel	ਸੀਕਵੈਂਸ ਦੇ ਫਰੇਮ ਆਕਾਰ ਅਤੇ ਦਰ ਉੱਤੇ H.264; 0.05 ਬਿਟ ਪ੍ਰਤੀ ਪਿਕਸਲ
+	H.264 at the sequence's frame size and rate; 0.1 bits per pixel	ਸੀਕਵੈਂਸ ਦੇ ਫਰੇਮ ਆਕਾਰ ਅਤੇ ਦਰ ਉੱਤੇ H.264; 0.1 ਬਿਟ ਪ੍ਰਤੀ ਪਿਕਸਲ
+	H.264 at the sequence's frame size and rate; bitrate adapts to the frame size (0.2 bits per pixel)	ਸੀਕਵੈਂਸ ਦੇ ਫਰੇਮ ਆਕਾਰ ਅਤੇ ਦਰ ਉੱਤੇ H.264; ਬਿਟਰੇਟ ਫਰੇਮ ਦੇ ਆਕਾਰ ਅਨੁਸਾਰ ਢਲਦਾ ਹੈ (0.2 ਬਿਟ ਪ੍ਰਤੀ ਪਿਕਸਲ)
+	H.265 (HEVC)	H.265 (HEVC)
+	H.265 (HEVC) needs a hardware encoder (NVENC on NVIDIA GPUs, VideoToolbox on macOS); none was found on this machine, and FilmCraft has no software H.265 encoder yet. Choose H.264 or ProRes instead.	H.265 (HEVC) ਲਈ ਹਾਰਡਵੇਅਰ ਐਨਕੋਡਰ ਲੋੜੀਂਦਾ ਹੈ (NVIDIA GPU ਉੱਤੇ NVENC, macOS ਉੱਤੇ VideoToolbox); ਇਸ ਮਸ਼ੀਨ ਉੱਤੇ ਕੋਈ ਨਹੀਂ ਮਿਲਿਆ, ਅਤੇ FilmCraft ਵਿੱਚ ਹਾਲੇ ਸਾਫ਼ਟਵੇਅਰ H.265 ਐਨਕੋਡਰ ਨਹੀਂ ਹੈ. ਇਸ ਦੀ ਥਾਂ H.264 ਜਾਂ ProRes ਚੁਣੋ.
+	HD Anamorphic 1080 (1.333)	HD ਐਨਾਮਾਰਫਿਕ 1080 (1.333)
+	HDR	HDR
+	HDR Graphics White (Nits)	HDR ਗ੍ਰਾਫਿਕਸ ਚਿੱਟਾ (ਨਿਟ)
+	HDR Range	HDR ਰੇਂਜ
+	HDR Specular	HDR ਸਪੈਕੁਲਰ
+	HDR White	HDR ਚਿੱਟਾ
+	HLS Vectorscope + Histogram	HLS ਵੈਕਟਰਸਕੋਪ + ਹਿਸਟੋਗ੍ਰਾਮ
+	HSL Secondary	HSL ਸੈਕੰਡਰੀ
+	Half Saturation	ਅੱਧੀ ਰੰਗੀਨਤਾ
+	Handle Frames:	ਹੈਂਡਲ ਫਰੇਮ:
+	Hard	ਸਖ਼ਤ
+	Hard Clip	ਹਾਰਡ ਕਲਿੱਪ
+	Hard Light	ਹਾਰਡ ਲਾਈਟ
+	Hard Limiter	ਹਾਰਡ ਲਿਮਿਟਰ
+	Hard Mix	ਹਾਰਡ ਮਿਕਸ
+	Hard Mono	ਹਾਰਡ ਮੋਨੋ
+	Hard Sun	ਤਿੱਖੀ ਧੁੱਪ
+	Hardware (AV1 has no software encoder)	ਹਾਰਡਵੇਅਰ (AV1 ਦਾ ਸਾਫ਼ਟਵੇਅਰ ਐਨਕੋਡਰ ਨਹੀਂ ਹੈ)
+	Hardware (H.265 has no software encoder)	ਹਾਰਡਵੇਅਰ (H.265 ਦਾ ਸਾਫ਼ਟਵੇਅਰ ਐਨਕੋਡਰ ਨਹੀਂ ਹੈ)
+	Hardware decoding	ਹਾਰਡਵੇਅਰ ਡੀਕੋਡਿੰਗ
+	Hardware decoding: Auto uses the system's video decoder (VideoToolbox on macOS, Media Foundation on Windows, VA-API for H.264 and HEVC on Linux) for the streams it supports, and FilmCraft's own decoder for everything else or if the hardware fails. Media that is already open keeps its decoder until it is reopened.	ਹਾਰਡਵੇਅਰ ਡੀਕੋਡਿੰਗ: ਆਟੋ ਸਿਸਟਮ ਦਾ ਵੀਡੀਓ ਡੀਕੋਡਰ (macOS ਉੱਤੇ VideoToolbox, Windows ਉੱਤੇ Media Foundation, Linux ਉੱਤੇ H.264 ਅਤੇ HEVC ਲਈ VA-API) ਸਮਰਥਿਤ ਸਟ੍ਰੀਮਾਂ ਲਈ ਵਰਤਦਾ ਹੈ, ਅਤੇ ਬਾਕੀ ਸਭ ਲਈ ਜਾਂ ਹਾਰਡਵੇਅਰ ਅਸਫਲ ਹੋਣ ਉੱਤੇ FilmCraft ਦਾ ਆਪਣਾ ਡੀਕੋਡਰ. ਪਹਿਲਾਂ ਹੀ ਖੁੱਲ੍ਹਾ ਮੀਡੀਆ ਮੁੜ ਖੋਲ੍ਹਣ ਤੱਕ ਆਪਣਾ ਡੀਕੋਡਰ ਰੱਖਦਾ ਹੈ.
+	Hardware decoding: Auto uses the system's video decoder (VideoToolbox on macOS, Media Foundation on Windows, VA-API or NVDEC for H.264 and HEVC on Linux) for the streams it supports, and FilmCraft's own decoder for everything else or if the hardware fails. Media that is already open keeps its decoder until it is reopened.	ਹਾਰਡਵੇਅਰ ਡੀਕੋਡਿੰਗ: ਆਟੋ ਸਿਸਟਮ ਦਾ ਵੀਡੀਓ ਡੀਕੋਡਰ (macOS ਉੱਤੇ VideoToolbox, Windows ਉੱਤੇ Media Foundation, Linux ਉੱਤੇ H.264 ਅਤੇ HEVC ਲਈ VA-API ਜਾਂ NVDEC) ਸਮਰਥਿਤ ਸਟ੍ਰੀਮਾਂ ਲਈ ਵਰਤਦਾ ਹੈ, ਅਤੇ ਬਾਕੀ ਸਭ ਲਈ ਜਾਂ ਹਾਰਡਵੇਅਰ ਅਸਫਲ ਹੋਣ ਉੱਤੇ FilmCraft ਦਾ ਆਪਣਾ ਡੀਕੋਡਰ. ਪਹਿਲਾਂ ਹੀ ਖੁੱਲ੍ਹਾ ਮੀਡੀਆ ਮੁੜ ਖੋਲ੍ਹਣ ਤੱਕ ਆਪਣਾ ਡੀਕੋਡਰ ਰੱਖਦਾ ਹੈ.
+	Head	ਸ਼ੁਰੂਆਤੀ ਹਿੱਸਾ
+	Head Size	ਸਿਰ ਦਾ ਆਕਾਰ
+	Head and Tail	ਸ਼ੁਰੂ ਅਤੇ ਅੰਤ
+	Heading	ਸਿਰਲੇਖ
+	Heart	ਦਿਲ
+	Hex	ਹੈਕਸ
+	Hex color	ਹੈਕਸ ਰੰਗ
+	Hexagon	ਛੇਭੁਜ
+	Hide All Caption Tracks	ਸਾਰੇ ਉਪਸਿਰਲੇਖ ਟ੍ਰੈਕ ਲੁਕਾਓ
+	Hide Back Face	ਪਿਛਲਾ ਪਾਸਾ ਲੁਕਾਓ
+	Hide FilmCraft	FilmCraft ਲੁਕਾਓ
+	High Cutoff	ਉੱਚ ਕੱਟਆਫ਼
+	High Frequency Cut	ਉੱਚ ਫ੍ਰੀਕਵੈਂਸੀ ਕੱਟ
+	High Frequency Damping	ਉੱਚ ਫ੍ਰੀਕਵੈਂਸੀ ਦਮਨ
+	High Pass	ਹਾਈ ਪਾਸ
+	High Quality 1080p HD	ਉੱਚ ਗੁਣਵੱਤਾ 1080p HD
+	High Quality 2160p 4K	ਉੱਚ ਗੁਣਵੱਤਾ 2160p 4K
+	High Quality Playback	ਉੱਚ ਗੁਣਵੱਤਾ ਪਲੇਬੈਕ
+	High Shelf	ਹਾਈ ਸ਼ੈਲਫ਼
+	High Shelf Gain	ਹਾਈ ਸ਼ੈਲਫ਼ ਗੇਨ
+	High Tone	ਉੱਚਾ ਟੋਨ
+	High contrast with held highlights and deep shadows	ਉਭਰੇ ਟੋਨ ਕਾਇਮ ਰੱਖਦੇ ਅਤੇ ਡੂੰਘੇ ਪਰਛਾਵੇਂ ਵਾਲਾ ਤਿੱਖਾ ਕਾਂਟ੍ਰਾਸਟ
+	Highlight	ਉਭਾਰੋ
+	Highlight Blue Balance	ਉਭਰੇ ਟੋਨਾਂ ਦਾ ਨੀਲਾ ਸੰਤੁਲਨ
+	Highlight Brightness	ਉਭਰੇ ਟੋਨਾਂ ਦੀ ਚਮਕ
+	Highlight Color	ਉਭਰੇ ਟੋਨਾਂ ਦਾ ਰੰਗ
+	Highlight Green Balance	ਉਭਰੇ ਟੋਨਾਂ ਦਾ ਹਰਾ ਸੰਤੁਲਨ
+	Highlight Red Balance	ਉਭਰੇ ਟੋਨਾਂ ਦਾ ਲਾਲ ਸੰਤੁਲਨ
+	Highlight Rolloff	ਉਭਰੇ ਟੋਨਾਂ ਦਾ ਰੋਲਆਫ਼
+	Highlight Threshold	ਉਭਰੇ ਟੋਨਾਂ ਦੀ ਹੱਦ
+	Highlight Tint	ਉਭਰੇ ਟੋਨਾਂ ਦੀ ਰੰਗਤ
+	Highlights	ਚਮਕਦਾਰ ਟੋਨ
+	Highlights Lightness	ਉਭਰੇ ਟੋਨਾਂ ਦੀ ਹਲਕਾਪਣ
+	Highpass	ਹਾਈਪਾਸ
+	Hindi	ਹਿੰਦੀ
+	Hindi digits	ਹਿੰਦੀ ਅੰਕ
+	Histogram	ਹਿਸਟੋਗ੍ਰਾਮ
+	History	ਇਤਿਹਾਸ
+	Hold	ਕਾਇਮ ਰੱਖੋ
+	Hold Filters	ਫਿਲਟਰ ਕਾਇਮ ਰੱਖੋ
+	Hold On	ਫਰੇਮ ਕਾਇਮ ਰੱਖੋ
+	Horizontal 16:9	ਲੇਟਵਾਂ 16:9
+	Horizontal Alignment	ਲੇਟਵੀਂ ਇਕਸਾਰਤਾ
+	Horizontal Blocks	ਲੇਟਵੇਂ ਬਲਾਕ
+	Horizontal Decentering	ਲੇਟਵਾਂ ਕੇਂਦਰ-ਵਿਸਥਾਪਨ
+	Horizontal Displacement	ਲੇਟਵਾਂ ਵਿਸਥਾਪਨ
+	Horizontal Flip	ਲੇਟਵਾਂ ਉਲਟਾਅ
+	Horizontal Margin	ਲੇਟਵਾਂ ਹਾਸ਼ੀਆ
+	Horizontal and Vertical	ਲੇਟਵਾਂ ਅਤੇ ਖੜ੍ਹਵਾਂ
+	Hover Scrub	ਮਾਊਸ ਫੇਰ ਕੇ ਸਕ੍ਰਬ ਕਰੋ
+	Hue	ਰੰਗਤ
+	Hue Center	ਰੰਗਤ ਕੇਂਦਰ
+	Hue Range	ਰੰਗਤ ਰੇਂਜ
+	Hue Saturation Curves	ਰੰਗਤ-ਰੰਗੀਨਤਾ ਕਰਵਾਂ
+	Hue Shift	ਰੰਗਤ ਦਾ ਬਦਲਾਅ
+	Hue Tolerance	ਰੰਗਤ ਸਹਿਣਸ਼ੀਲਤਾ
+	Hue vs Hue	ਰੰਗਤ ਬਨਾਮ ਰੰਗਤ
+	Hue vs Luma	ਰੰਗਤ ਬਨਾਮ ਲੂਮਾ
+	Hue vs Sat	ਰੰਗਤ ਬਨਾਮ ਰੰਗੀਨਤਾ
+	I/O Buffer Size	I/O ਬਫ਼ਰ ਆਕਾਰ
+	Icon View	ਆਈਕਨ ਦ੍ਰਿਸ਼
+	Ignore Alpha	ਅਲਫ਼ਾ ਅਣਡਿੱਠਾ ਕਰੋ
+	Ignore Audio	ਆਡੀਓ ਅਣਡਿੱਠੀ ਕਰੋ
+	Ignore Hours	ਘੰਟੇ ਅਣਡਿੱਠੇ ਕਰੋ
+	Ignore Options	ਚੋਣਾਂ ਅਣਡਿੱਠੀਆਂ ਕਰੋ
+	Ignore Video	ਵੀਡੀਓ ਅਣਡਿੱਠੀ ਕਰੋ
+	Image Control	ਚਿੱਤਰ ਕੰਟਰੋਲ
+	Image Overlay	ਚਿੱਤਰ ਓਵਰਲੇਅ
+	Image Sequence	ਚਿੱਤਰ ਸੀਕਵੈਂਸ
+	Immersive Video	ਇਮਰਸਿਵ ਵੀਡੀਓ
+	Import From	ਇੱਥੋਂ ਆਯਾਤ ਕਰੋ
+	Import Image Sequence…	ਚਿੱਤਰ ਸੀਕਵੈਂਸ ਆਯਾਤ ਕਰੋ…
+	Import Presets…	ਪ੍ਰੀਸੈੱਟ ਆਯਾਤ ਕਰੋ…
+	Import a preset file…	ਪ੍ਰੀਸੈੱਟ ਫ਼ਾਈਲ ਆਯਾਤ ਕਰੋ…
+	Import as Image Sequence	ਚਿੱਤਰ ਸੀਕਵੈਂਸ ਵਜੋਂ ਆਯਾਤ ਕਰੋ
+	Import captions file…	ਉਪਸਿਰਲੇਖ ਫ਼ਾਈਲ ਆਯਾਤ ਕਰੋ…
+	Import from Media Browser	ਮੀਡੀਆ ਬ੍ਰਾਊਜ਼ਰ ਤੋਂ ਆਯਾਤ ਕਰੋ
+	Import numbered stills as image sequences	ਨੰਬਰਵਾਰ ਸਥਿਰ ਚਿੱਤਰਾਂ ਨੂੰ ਚਿੱਤਰ ਸੀਕਵੈਂਸਾਂ ਵਜੋਂ ਆਯਾਤ ਕਰੋ
+	Import: no file chosen (agents: export.presets.import {path})	ਆਯਾਤ: ਕੋਈ ਫ਼ਾਈਲ ਨਹੀਂ ਚੁਣੀ (ਏਜੰਟ: export.presets.import {path})
+	Import: no file chosen (agents: shortcuts.import {path})	ਆਯਾਤ: ਕੋਈ ਫ਼ਾਈਲ ਨਹੀਂ ਚੁਣੀ (ਏਜੰਟ: shortcuts.import {path})
+	Imported “{name}”	“{name}” ਆਯਾਤ ਕੀਤਾ
+	Impulse	ਇੰਪਲਸ
+	In	ਇਨ
+	In Point	ਇਨ ਬਿੰਦੂ
+	In Points	ਇਨ ਬਿੰਦੂ
+	In a Room	ਕਮਰੇ ਵਿੱਚ
+	In the Media Cache	ਮੀਡੀਆ ਕੈਸ਼ ਵਿੱਚ
+	In the project	ਪ੍ਰੋਜੈਕਟ ਵਿੱਚ
+	In/Out Duration	ਇਨ/ਆਊਟ ਮਿਆਦ
+	In: {name}	ਇਨ: {name}
+	Include Alpha Channel	ਅਲਫ਼ਾ ਚੈਨਲ ਸ਼ਾਮਲ ਕਰੋ
+	Include Handles:	ਹੈਂਡਲ ਸ਼ਾਮਲ ਕਰੋ:
+	Include Preview Files	ਝਲਕ ਫ਼ਾਈਲਾਂ ਸ਼ਾਮਲ ਕਰੋ
+	Include Proxies	ਪ੍ਰਾਕਸੀ ਸ਼ਾਮਲ ਕਰੋ
+	Include captions on import	ਆਯਾਤ ਵੇਲੇ ਉਪਸਿਰਲੇਖ ਸ਼ਾਮਲ ਕਰੋ
+	Incoming	ਅੰਦਰ ਆ ਰਿਹਾ
+	Increase Audio Tracks Height	ਆਡੀਓ ਟ੍ਰੈਕਾਂ ਦੀ ਉਚਾਈ ਵਧਾਓ
+	Increase Clip Volume	ਕਲਿੱਪ ਦੀ ਆਵਾਜ਼ ਵਧਾਓ
+	Increase Clip Volume Many	ਕਲਿੱਪ ਦੀ ਆਵਾਜ਼ ਵੱਧ ਵਧਾਓ
+	Increase Font Size by Five Units	ਫ਼ੌਂਟ ਆਕਾਰ ਪੰਜ ਇਕਾਈਆਂ ਵਧਾਓ
+	Increase Font Size by One Unit	ਫ਼ੌਂਟ ਆਕਾਰ ਇੱਕ ਇਕਾਈ ਵਧਾਓ
+	Increase Leading by Five Units	ਲਾਈਨਾਂ ਦਾ ਫ਼ਾਸਲਾ ਪੰਜ ਇਕਾਈਆਂ ਵਧਾਓ
+	Increase Leading by One Unit	ਲਾਈਨਾਂ ਦਾ ਫ਼ਾਸਲਾ ਇੱਕ ਇਕਾਈ ਵਧਾਓ
+	Increase Video Tracks Height	ਵੀਡੀਓ ਟ੍ਰੈਕਾਂ ਦੀ ਉਚਾਈ ਵਧਾਓ
+	Indeterminate Media Timebase	ਅਣਨਿਰਧਾਰਤ ਮੀਡੀਆ ਟਾਈਮਬੇਸ
+	Info	ਜਾਣਕਾਰੀ
+	Ingest	ਇਨਜੈਸਟ
+	Ingest Settings	ਇਨਜੈਸਟ ਸੈਟਿੰਗਾਂ
+	Ingest Settings…	ਇਨਜੈਸਟ ਸੈਟਿੰਗਾਂ…
+	Initial Delay	ਸ਼ੁਰੂਆਤੀ ਡਿਲੇ
+	Inner	ਅੰਦਰਲਾ
+	Inner Radius	ਅੰਦਰਲਾ ਅਰਧ-ਵਿਆਸ
+	Input Boost	ਇਨਪੁੱਟ ਵਾਧਾ
+	Input LUT	ਇਨਪੁੱਟ LUT
+	Input:	ਇਨਪੁੱਟ:
+	Insert (,)	ਪਾਓ (,)
+	Insert Edit	ਇਨਸਰਟ ਸੰਪਾਦਨ
+	Insert Frame Hold Segment	ਫਰੇਮ ਹੋਲਡ ਖੰਡ ਪਾਓ
+	Insert and overwrite sequences as nests or individual clips	ਸੀਕਵੈਂਸਾਂ ਨੂੰ ਨੇਸਟ ਜਾਂ ਵੱਖਰੀਆਂ ਕਲਿੱਪਾਂ ਵਜੋਂ ਪਾਓ ਅਤੇ ਉੱਪਰ ਲਿਖੋ
+	Inset	ਅੰਦਰ ਧੱਸਿਆ
+	Inside	ਅੰਦਰ
+	Inside Color	ਅੰਦਰਲਾ ਰੰਗ
+	Install Motion Graphics Template (.fcgt)	ਮੋਸ਼ਨ ਗ੍ਰਾਫਿਕਸ ਟੈਂਪਲੇਟ ਇੰਸਟਾਲ ਕਰੋ (.fcgt)
+	Install Motion Graphics Template…	ਮੋਸ਼ਨ ਗ੍ਰਾਫਿਕਸ ਟੈਂਪਲੇਟ ਇੰਸਟਾਲ ਕਰੋ…
+	Install…	ਇੰਸਟਾਲ ਕਰੋ…
+	Intensity	ਤੀਬਰਤਾ
+	Inter	Inter
+	Interface Language	ਇੰਟਰਫੇਸ ਦੀ ਭਾਸ਼ਾ
+	Interior Room Tone	ਅੰਦਰਲੇ ਕਮਰੇ ਦੀ ਧੁਨੀ
+	Internal Black Point	ਅੰਦਰੂਨੀ ਕਾਲਾ ਬਿੰਦੂ
+	Internal White Point	ਅੰਦਰੂਨੀ ਚਿੱਟਾ ਬਿੰਦੂ
+	Interpolation	ਇੰਟਰਪੋਲੇਸ਼ਨ
+	Interpret Footage	ਫੁਟੇਜ ਦੀ ਵਿਆਖਿਆ ਕਰੋ
+	Interpret Footage…	ਫੁਟੇਜ ਦੀ ਵਿਆਖਿਆ ਕਰੋ…
+	Intersect	ਸਾਂਝਾ ਹਿੱਸਾ ਲਵੋ
+	Intro Duration	ਸ਼ੁਰੂਆਤੀ ਭਾਗ ਦੀ ਮਿਆਦ
+	Inverse Falloff	ਉਲਟ ਘਟਦੀ ਤੀਬਰਤਾ
+	Invert Alpha	ਅਲਫ਼ਾ ਉਲਟਾਓ
+	Invert Blur	ਧੁੰਦਲਾਪਣ ਉਲਟਾਓ
+	Invert Fill	ਭਰਨ ਉਲਟਾਓ
+	Invert Gradient	ਗ੍ਰੇਡੀਐਂਟ ਉਲਟਾਓ
+	Invert Left	ਖੱਬਾ ਉਲਟਾਓ
+	Invert Right	ਸੱਜਾ ਉਲਟਾਓ
+	Inverted	ਉਲਟਿਆ
+	Iris	ਆਇਰਿਸ
+	Iris Box	ਆਇਰਿਸ ਡੱਬਾ
+	Iris Cross	ਆਇਰਿਸ ਕ੍ਰਾਸ
+	Iris Diamond	ਆਇਰਿਸ ਹੀਰਾ
+	Iris Radius	ਆਇਰਿਸ ਅਰਧ-ਵਿਆਸ
+	Iris Rotation	ਆਇਰਿਸ ਘੁੰਮਾਅ
+	Iris Round	ਆਇਰਿਸ ਗੋਲ
+	Iris Shape	ਆਇਰਿਸ ਸ਼ਕਲ
+	Italian	ਇਤਾਲਵੀ
+	JPEG	JPEG
+	JPEG Sequence	JPEG ਸੀਕਵੈਂਸ
+	Japanese	ਜਪਾਨੀ
+	JetBrains Mono	JetBrains Mono
+	Join Through Edits	ਲਗਾਤਾਰ ਕੱਟ ਮੁੜ ਜੋੜੋ
+	Join the ArtCraft Discord (discord.gg/artcraft)	ArtCraft Discord ਨਾਲ ਜੁੜੋ (discord.gg/artcraft)
+	Join the ArtCraft Discord…	ArtCraft Discord ਨਾਲ ਜੁੜੋ…
+	Join us on Discord	Discord 'ਤੇ ਸਾਡੇ ਨਾਲ ਜੁੜੋ
+	Kaleidoscope	ਕੈਲੀਡੋਸਕੋਪ
+	Keep Existing Settings	ਮੌਜੂਦਾ ਸੈਟਿੰਗਾਂ ਰੱਖੋ
+	Keep a recovery copy of unsaved changes	ਅਣਸੰਭਾਲੀਆਂ ਤਬਦੀਲੀਆਂ ਦੀ ਮੁੜ-ਪ੍ਰਾਪਤੀ ਕਾਪੀ ਰੱਖੋ
+	Keep:	ਰੱਖੋ:
+	Kerning	ਕਰਨਿੰਗ
+	Key	ਕੀ
+	Key Color	ਕੀ ਰੰਗ
+	Key Frame Distance	ਕੀਫਰੇਮ ਫ਼ਾਸਲਾ
+	Key:	ਕੁੰਜੀ:
+	Keyboard Shortcuts	ਕੀਬੋਰਡ ਸ਼ਾਰਟਕੱਟ
+	Keyboard Shortcuts…	ਕੀਬੋਰਡ ਸ਼ਾਰਟਕੱਟ…
+	Keyboard: US	ਕੀਬੋਰਡ: US
+	Keyboard: US (macOS)	ਕੀਬੋਰਡ: US (macOS)
+	Keying	ਕੀਇੰਗ
+	Korean	ਕੋਰੀਆਈ
+	LUT	LUT
+	Lab	Lab
+	Label Color Presets	ਲੇਬਲ ਰੰਗ ਪ੍ਰੀਸੈੱਟ
+	Label Colors	ਲੇਬਲ ਰੰਗ
+	Label Defaults	ਲੇਬਲਾਂ ਦੇ ਮੂਲ ਮੁੱਲ
+	Label speakers	ਬੋਲਣ ਵਾਲਿਆਂ ਦੇ ਲੇਬਲ ਲਗਾਓ
+	Labels…	ਲੇਬਲ…
+	Language:	ਭਾਸ਼ਾ:
+	Large	ਵੱਡਾ
+	Large Hall	ਵੱਡਾ ਹਾਲ
+	Large Trim Offset	ਵੱਡਾ ਟ੍ਰਿਮ ਆਫਸੈੱਟ
+	Large Volume Adjustment	ਆਵਾਜ਼ ਵਿੱਚ ਵੱਡੀ ਤਬਦੀਲੀ
+	Large blocks resolving to the picture over the first second	ਪਹਿਲੇ ਸਕਿੰਟ ਦੌਰਾਨ ਵੱਡੇ ਬਲਾਕ ਤਸਵੀਰ ਵਿੱਚ ਬਦਲਦੇ ਹਨ
+	Large centred title, accent rule and subtitle.	ਕੇਂਦਰ ਵਿੱਚ ਵੱਡਾ ਸਿਰਲੇਖ, ਉਭਾਰ ਲਾਈਨ ਅਤੇ ਉਪਸਿਰਲੇਖ.
+	Larger	ਵਧੇਰੇ ਵੱਡਾ
+	Last auto-save {a}	ਆਖ਼ਰੀ ਆਟੋ-ਸੇਵ {a}
+	Last auto-save {a} · last recovery copy {j}	ਆਖ਼ਰੀ ਆਟੋ-ਸੇਵ {a} · ਆਖ਼ਰੀ ਮੁੜ-ਪ੍ਰਾਪਤੀ ਕਾਪੀ {j}
+	Last recovery copy {j}	ਆਖ਼ਰੀ ਮੁੜ-ਪ੍ਰਾਪਤੀ ਕਾਪੀ {j}
+	Latch	ਲੈਚ
+	Lavender	ਲੈਵੈਂਡਰ
+	Layer Name	ਪਰਤ ਦਾ ਨਾਮ
+	Layout:	ਖਾਕਾ:
+	Leading	ਲਾਈਨਾਂ ਦਾ ਫ਼ਾਸਲਾ
+	Learning	ਸਿੱਖਣਾ
+	Leave Color	ਰੰਗ ਰੱਖੋ
+	Left - Left	ਖੱਬਾ - ਖੱਬਾ
+	Left - Right	ਖੱਬਾ - ਸੱਜਾ
+	Left Align Text	ਪਾਠ ਖੱਬੇ ਇਕਸਾਰ ਕਰੋ
+	Left align text	ਲਿਖਤ ਖੱਬੇ ਇਕਸਾਰ ਕਰੋ
+	Left channel to device output	ਖੱਬਾ ਚੈਨਲ ਡਿਵਾਈਸ ਆਉਟਪੁੱਟ ਨਾਲ
+	Left to Right	ਖੱਬੇ ਤੋਂ ਸੱਜੇ
+	Left to right	ਖੱਬੇ ਤੋਂ ਸੱਜੇ
+	Legacy	ਪੁਰਾਣਾ ਢੰਗ
+	Legal Range Squeeze	ਮਨਜ਼ੂਰ ਵੀਡੀਓ ਰੇਂਜ ਵਿੱਚ ਸਮੇਟੋ
+	Length	ਲੰਬਾਈ
+	Lens Blur	ਲੈਂਜ਼ ਬਲਰ
+	Lens Distortion	ਲੈਂਜ਼ ਵਿਗਾੜ
+	Lens Flare	ਲੈਂਜ਼ ਫਲੇਅਰ
+	Lens Type	ਲੈਂਜ਼ ਕਿਸਮ
+	Level	ਪੱਧਰ
+	Level 1	ਪੱਧਰ 1
+	Level 2	ਪੱਧਰ 2
+	Level 3	ਪੱਧਰ 3
+	Level 4	ਪੱਧਰ 4
+	Levels	ਪੱਧਰ
+	Libraries	ਲਾਇਬ੍ਰੇਰੀਆਂ
+	Lift	ਲਿਫਟ
+	Lift (;)	ਲਿਫਟ (;)
+	Lift Shadows	ਪਰਛਾਵੇਂ ਹਲਕੇ ਕਰੋ
+	Lift selected text	ਚੁਣਿਆ ਪਾਠ ਲਿਫਟ ਕਰੋ
+	Lifted blacks, softer contrast, muted colour	ਹਲਕੇ ਕੀਤੇ ਕਾਲੇ, ਨਰਮ ਕਾਂਟ੍ਰਾਸਟ, ਮੱਧਮ ਰੰਗ
+	Ligatures	ਲਿਗੇਚਰ
+	Light	Light
+	Light 1	ਰੌਸ਼ਨੀ 1
+	Light 2	ਰੌਸ਼ਨੀ 2
+	Light 3	ਰੌਸ਼ਨੀ 3
+	Light 4	ਰੌਸ਼ਨੀ 4
+	Light 5	ਰੌਸ਼ਨੀ 5
+	Light Angle	ਰੌਸ਼ਨੀ ਦਾ ਕੋਣ
+	Light Color	ਰੌਸ਼ਨੀ ਦਾ ਰੰਗ
+	Light Intensity	ਰੌਸ਼ਨੀ ਦੀ ਤੀਬਰਤਾ
+	Light Leak	ਰੌਸ਼ਨੀ ਲੀਕ
+	Light Leaks	ਰੌਸ਼ਨੀ ਲੀਕ
+	Light Sweep	ਰੌਸ਼ਨੀ ਸਵੀਪ
+	Light Theme	ਹਲਕੀ ਥੀਮ
+	Light Type	ਰੌਸ਼ਨੀ ਦੀ ਕਿਸਮ
+	Lighten	ਹਲਕਾ ਕਰੋ
+	Lighter Color	ਵੱਧ ਹਲਕਾ ਰੰਗ
+	Lighting Effects	ਰੌਸ਼ਨੀ ਦੇ ਪ੍ਰਭਾਵ
+	Lightning	ਬਿਜਲੀ ਦੀ ਚਮਕ
+	Lights & Blurs	ਰੌਸ਼ਨੀਆਂ ਅਤੇ ਧੁੰਦਲਾਪਣ
+	Lights & Glows	ਰੌਸ਼ਨੀਆਂ ਅਤੇ ਚਮਕ
+	Limiter	ਲਿਮਿਟਰ
+	Limiter Release	ਲਿਮਿਟਰ ਰਿਲੀਜ਼
+	Limiter Threshold	ਲਿਮਿਟਰ ਹੱਦ
+	Line Thickness	ਰੇਖਾ ਦੀ ਮੋਟਾਈ
+	Linear	ਲੀਨੀਅਰ
+	Linear Burn	ਲੀਨੀਅਰ ਬਰਨ
+	Linear Dodge (Add)	ਲੀਨੀਅਰ ਡੌਜ (ਜੋੜ)
+	Linear Gradient	ਲੀਨੀਅਰ ਗ੍ਰੇਡੀਐਂਟ
+	Linear Light	ਲੀਨੀਅਰ ਲਾਈਟ
+	Linear Ramp	ਲੀਨੀਅਰ ਰੈਂਪ
+	Linear Wipe	ਲੀਨੀਅਰ ਵਾਈਪ
+	Linear Wipe (Legacy)	ਲੀਨੀਅਰ ਵਾਈਪ (ਪੁਰਾਣਾ)
+	Linear keyframe thinning	ਲੀਨੀਅਰ ਕੀਫਰੇਮ ਘਟਾਉਣਾ
+	Linear to Log	ਲੀਨੀਅਰ ਤੋਂ ਲੌਗ
+	Link Channels	ਚੈਨਲ ਜੋੜੋ
+	Link Media	ਮੀਡੀਆ ਲਿੰਕ ਕਰੋ
+	Link Media…	ਮੀਡੀਆ ਲਿੰਕ ਕਰੋ…
+	Link to Media	ਮੀਡੀਆ ਨਾਲ ਲਿੰਕ ਕਰੋ
+	Linked Selection	ਲਿੰਕ ਕੀਤੀ ਚੋਣ
+	Linked {n} clip(s)	{n} ਕਲਿੱਪਾਂ ਲਿੰਕ ਕੀਤੀਆਂ
+	Liquid Distortion	ਤਰਲ ਵਿਗਾੜ
+	List View	ਸੂਚੀ ਦ੍ਰਿਸ਼
+	Loaded “{name}”	“{name}” ਲੋਡ ਕੀਤਾ
+	Local Drives	ਸਥਾਨਕ ਡਰਾਈਵ
+	Local Projects	ਸਥਾਨਕ ਪ੍ਰੋਜੈਕਟ
+	Locate…	ਟਿਕਾਣਾ ਲੱਭੋ…
+	Lock Guides	ਗਾਈਡਾਂ ਲਾਕ ਕਰੋ
+	Log Note	ਲੌਗ ਨੋਟ
+	Log Note:	ਲੌਗ ਨੋਟ:
+	Log to Linear	ਲੌਗ ਤੋਂ ਲੀਨੀਅਰ
+	Log to Log	ਲੌਗ ਤੋਂ ਲੌਗ
+	Logo Cutout	ਲੋਗੋ ਕੱਟਆਊਟ
+	Long Shadow	ਲੰਮਾ ਪਰਛਾਵਾਂ
+	Look	ਦਿੱਖ
+	Look LUT	ਦਿੱਖ LUT
+	Look-Ahead Time	ਲੁੱਕ-ਅਹੈੱਡ ਸਮਾਂ
+	Looks for a newer FilmCraft release and offers to update.	FilmCraft ਦੀ ਨਵੀਂ ਰਿਲੀਜ਼ ਲੱਭ ਕੇ ਅੱਪਡੇਟ ਦੀ ਪੇਸ਼ਕਸ਼ ਕਰਦਾ ਹੈ.
+	Loop	ਲੂਪ
+	Loop marked range	ਨਿਸ਼ਾਨਬੱਧ ਰੇਂਜ ਦੁਹਰਾਓ
+	Looping GIF, 640×360 at 15 fps	ਦੁਹਰਾਉਂਦਾ GIF, 640×360, 15 fps ਉੱਤੇ
+	Loudness	ਆਵਾਜ਼ ਦੀ ਤੀਬਰਤਾ
+	Loudness Maximizer	ਆਵਾਜ਼ ਤੀਬਰਤਾ ਵੱਧ ਤੋਂ ਵੱਧ ਕਰਨ ਵਾਲਾ
+	Loudness Meter	ਆਵਾਜ਼ ਤੀਬਰਤਾ ਮੀਟਰ
+	Loudness Normalization	ਆਵਾਜ਼ ਤੀਬਰਤਾ ਨਾਰਮਲਾਈਜ਼ੇਸ਼ਨ
+	Louver	ਝਰੋਖਾ
+	Low Frequency Cut	ਘੱਟ ਫ੍ਰੀਕਵੈਂਸੀ ਕੱਟ
+	Low Pass	ਲੋਅ ਪਾਸ
+	Low Shelf	ਲੋਅ ਸ਼ੈਲਫ਼
+	Low Shelf Gain	ਲੋਅ ਸ਼ੈਲਫ਼ ਗੇਨ
+	Low Tone	ਨੀਵਾਂ ਟੋਨ
+	Lower First	ਹੇਠਲਾ ਪਹਿਲਾਂ
+	Lower Left	ਹੇਠਾਂ ਖੱਬੇ
+	Lower Right	ਹੇਠਾਂ ਸੱਜੇ
+	Lower Third – Rule	ਹੇਠਲਾ ਤਿਹਾਈ ਭਾਗ – ਲਾਈਨ
+	Lower Third – Slab	ਹੇਠਲਾ ਤਿਹਾਈ ਭਾਗ – ਪੱਟੀ
+	Lower Thirds	ਹੇਠਲੇ ਤਿਹਾਈ ਸਿਰਲੇਖ
+	Lowpass	ਲੋਅਪਾਸ
+	Luma	ਲੂਮਾ
+	Luma Curve	ਲੂਮਾ ਕਰਵ
+	Luma Fade	ਲੂਮਾ ਫੇਡ
+	Luma Key	ਲੂਮਾ ਕੀ
+	Luma Max	ਵੱਧ ਤੋਂ ਵੱਧ ਲੂਮਾ
+	Luma Min	ਘੱਟ ਤੋਂ ਘੱਟ ਲੂਮਾ
+	Luma Min / Max	ਘੱਟ / ਵੱਧ ਤੋਂ ਵੱਧ ਲੂਮਾ
+	Luma Source	ਲੂਮਾ ਸਰੋਤ
+	Luma and Chroma	ਲੂਮਾ ਅਤੇ ਕ੍ਰੋਮਾ
+	Luma vs Sat	ਲੂਮਾ ਬਨਾਮ ਰੰਗੀਨਤਾ
+	Lumetri	Lumetri
+	Lumetri Color	Lumetri Color
+	Lumetri Presets	Lumetri ਪ੍ਰੀਸੈੱਟ
+	Lumetri Scopes	Lumetri ਸਕੋਪ
+	Luminance	ਪ੍ਰਕਾਸ਼ਮਾਨਤਾ
+	Luminance Threshold	ਪ੍ਰਕਾਸ਼ਮਾਨਤਾ ਹੱਦ
+	Luminosity	ਪ੍ਰਕਾਸ਼ਮਾਨਤਾ
+	MB	MB
+	MIT OR Apache-2.0. Fonts: Inter, Noto Serif and JetBrains Mono (SIL OFL 1.1).	MIT OR Apache-2.0. ਫ਼ੌਂਟ: Inter, Noto Serif ਅਤੇ JetBrains Mono (SIL OFL 1.1).
+	MPEG-4 audio (.m4a), stereo 48 kHz AAC-LC at 320 kbps	MPEG-4 ਆਡੀਓ (.m4a), ਸਟੀਰੀਓ 48 kHz AAC-LC, 320 kbps ਉੱਤੇ
+	MXF OP-Atom	MXF OP-Atom
+	MXF OP-Atom DNxHR (Avid)	MXF OP-Atom DNxHR (Avid)
+	MXF OP1a	MXF OP1a
+	MXF OP1a DNxHR HQ	MXF OP1a DNxHR HQ
+	MXF OP1a H.264	MXF OP1a H.264
+	MXF OP1a ProRes 422 HQ	MXF OP1a ProRes 422 HQ
+	MXF OP1a, DNxHR HQ (8-bit 4:2:2), 24-bit 48 kHz PCM, start timecode	MXF OP1a, DNxHR HQ (8-ਬਿਟ 4:2:2), 24-ਬਿਟ 48 kHz PCM, ਸ਼ੁਰੂਆਤੀ ਟਾਈਮਕੋਡ
+	MXF OP1a, H.264 High long GOP (0.3 bits per pixel), 24-bit 48 kHz PCM	MXF OP1a, H.264 High ਲੰਮਾ GOP (0.3 ਬਿਟ ਪ੍ਰਤੀ ਪਿਕਸਲ), 24-ਬਿਟ 48 kHz PCM
+	MXF OP1a, ProRes 422 HQ, 24-bit 48 kHz PCM, start timecode	MXF OP1a, ProRes 422 HQ, 24-ਬਿਟ 48 kHz PCM, ਸ਼ੁਰੂਆਤੀ ਟਾਈਮਕੋਡ
+	MXF export writes integer PCM only	MXF ਨਿਰਯਾਤ ਸਿਰਫ਼ ਪੂਰਨ-ਅੰਕ PCM ਲਿਖਦਾ ਹੈ
+	Magenta	ਮੈਜੈਂਟਾ
+	Magnify	ਵੱਡਾ ਕਰੋ
+	Magnify (Legacy)	ਵੱਡਾ ਕਰੋ (ਪੁਰਾਣਾ)
+	Main	ਮੁੱਖ
+	Main (8-bit)	Main (8-ਬਿਟ)
+	Main (8-bit; Main 10 for HDR sequences)	Main (8-ਬਿਟ; HDR ਸੀਕਵੈਂਸਾਂ ਲਈ Main 10)
+	Main 10 (10-bit, HDR)	Main 10 (10-ਬਿਟ, HDR)
+	Maintain Audio Pitch	ਆਡੀਓ ਸੁਰ ਦੀ ਉਚਾਈ ਕਾਇਮ ਰੱਖੋ
+	Maintain pitch while shuttling	ਸ਼ਟਲ ਕਰਦੇ ਸਮੇਂ ਸੁਰ ਦੀ ਉਚਾਈ ਕਾਇਮ ਰੱਖੋ
+	Major Radius	ਵੱਡਾ ਅਰਧ-ਵਿਆਸ
+	Make Offline	ਆਫਲਾਈਨ ਕਰੋ
+	Make Offline…	ਆਫਲਾਈਨ ਕਰੋ…
+	Make Subclip	ਸਬਕਲਿੱਪ ਬਣਾਓ
+	Make Subclip…	ਸਬਕਲਿੱਪ ਬਣਾਓ…
+	Make Subsequence	ਸਬਸੀਕਵੈਂਸ ਬਣਾਓ
+	Make {n} selected clip(s) offline. Their clips show the offline slate until you link them again.	{n} ਚੁਣੀਆਂ ਕਲਿੱਪਾਂ ਆਫਲਾਈਨ ਕਰੋ. ਮੁੜ ਲਿੰਕ ਕਰਨ ਤੱਕ ਉਹ ਆਫਲਾਈਨ ਪੱਟੀ ਦਿਖਾਉਣਗੀਆਂ.
+	Makeup	ਮੇਕਅਪ ਗੇਨ
+	Male	ਮਰਦ
+	Manage Colors	ਰੰਗ ਪ੍ਰਬੰਧਿਤ ਕਰੋ
+	Manage Colors…	ਰੰਗ ਪ੍ਰਬੰਧਿਤ ਕਰੋ…
+	Manage Guides	ਗਾਈਡਾਂ ਪ੍ਰਬੰਧਿਤ ਕਰੋ
+	Manage Guides…	ਗਾਈਡਾਂ ਪ੍ਰਬੰਧਿਤ ਕਰੋ…
+	Manage Saved View Presets	ਸੰਭਾਲੇ ਦ੍ਰਿਸ਼ ਪ੍ਰੀਸੈੱਟ ਪ੍ਰਬੰਧਿਤ ਕਰੋ
+	Mango	ਅੰਬ
+	Map Black To	ਕਾਲੇ ਨੂੰ ਇਸ ਵਿੱਚ ਬਦਲੋ
+	Map White To	ਚਿੱਟੇ ਨੂੰ ਇਸ ਵਿੱਚ ਬਦਲੋ
+	Maps full-range levels into 16–235 (video range) with a luma curve	ਲੂਮਾ ਕਰਵ ਨਾਲ ਪੂਰੀ ਰੇਂਜ ਦੇ ਪੱਧਰ 16–235 (ਵੀਡੀਓ ਰੇਂਜ) ਵਿੱਚ ਬਦਲਦਾ ਹੈ
+	Mark Clip	ਕਲਿੱਪ ਨਿਸ਼ਾਨਬੱਧ ਕਰੋ
+	Mark In	ਇਨ ਬਿੰਦੂ ਨਿਸ਼ਾਨਬੱਧ ਕਰੋ
+	Mark In (Hover Scrub)	ਇਨ ਬਿੰਦੂ ਨਿਸ਼ਾਨਬੱਧ ਕਰੋ (ਮਾਊਸ ਫੇਰ ਕੇ ਸਕ੍ਰਬ)
+	Mark In (I)	ਇਨ ਬਿੰਦੂ ਨਿਸ਼ਾਨਬੱਧ ਕਰੋ (I)
+	Mark Out	ਆਊਟ ਬਿੰਦੂ ਨਿਸ਼ਾਨਬੱਧ ਕਰੋ
+	Mark Out (Hover Scrub)	ਆਊਟ ਬਿੰਦੂ ਨਿਸ਼ਾਨਬੱਧ ਕਰੋ (ਮਾਊਸ ਫੇਰ ਕੇ ਸਕ੍ਰਬ)
+	Mark Out (O)	ਆਊਟ ਬਿੰਦੂ ਨਿਸ਼ਾਨਬੱਧ ਕਰੋ (O)
+	Mark Selection	ਚੋਣ ਨਿਸ਼ਾਨਬੱਧ ਕਰੋ
+	Mark Split	ਵੰਡ ਨਿਸ਼ਾਨਬੱਧ ਕਰੋ
+	Marker	ਮਾਰਕਰ
+	Marker changed or was removed. Reopen it to continue.	ਮਾਰਕਰ ਬਦਲਿਆ ਜਾਂ ਹਟਾਇਆ ਗਿਆ ਹੈ. ਜਾਰੀ ਰੱਖਣ ਲਈ ਮੁੜ ਖੋਲ੍ਹੋ.
+	Marker owner is unavailable	ਮਾਰਕਰ ਦਾ ਮਾਲਕ ਉਪਲਬਧ ਨਹੀਂ ਹੈ
+	Markers	ਮਾਰਕਰ
+	Mask Only	ਕੇਵਲ ਮਾਸਕ
+	Masks	ਮਾਸਕ
+	Master Amplitude	ਮਾਸਟਰ ਐਂਪਲੀਟਿਊਡ
+	Master Gain	ਮਾਸਟਰ ਗੇਨ
+	Master volume: use the Audio Track Mixer	ਮਾਸਟਰ ਆਵਾਜ਼ ਪੱਧਰ: ਆਡੀਓ ਟ੍ਰੈਕ ਮਿਕਸਰ ਵਰਤੋ
+	Master · {name}	ਮਾਸਟਰ · {name}
+	Mastering	ਮਾਸਟਰਿੰਗ
+	Match Frame	ਫਰੇਮ ਮੇਲ ਕਰੋ
+	Match Playhead	ਪਲੇਹੈੱਡ ਮੇਲ ਕਰੋ
+	Match Source	ਸਰੋਤ ਨਾਲ ਮੇਲ ਕਰੋ
+	Match Source ({seq_sr} Hz)	ਸਰੋਤ ਨਾਲ ਮੇਲ ਕਰੋ ({seq_sr} Hz)
+	Match Source – Adaptive High Bitrate	ਸਰੋਤ ਨਾਲ ਮੇਲ – ਅਨੁਕੂਲੀ ਉੱਚ ਬਿਟਰੇਟ
+	Match Source – Adaptive Low Bitrate	ਸਰੋਤ ਨਾਲ ਮੇਲ – ਅਨੁਕੂਲੀ ਘੱਟ ਬਿਟਰੇਟ
+	Match Source – Adaptive Medium Bitrate	ਸਰੋਤ ਨਾਲ ਮੇਲ – ਅਨੁਕੂਲੀ ਦਰਮਿਆਨਾ ਬਿਟਰੇਟ
+	Match file properties:	ਫ਼ਾਈਲ ਦੀਆਂ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਨਾਲ ਮੇਲ:
+	Match frame sets in point	ਫਰੇਮ ਮੇਲ ਇਨ ਬਿੰਦੂ ਨਿਰਧਾਰਤ ਕਰਦਾ ਹੈ
+	Match {n} of {total}	{total} ਵਿੱਚੋਂ ਮੇਲ {n}
+	Match:	ਮੇਲ:
+	Matches	ਮੇਲ
+	Matches each of the {n} clips on its own.	{n} ਕਲਿੱਪਾਂ ਵਿੱਚੋਂ ਹਰੇਕ ਦਾ ਵੱਖਰੇ ਤੌਰ ਉੱਤੇ ਮੇਲ ਕਰਦਾ ਹੈ.
+	Matte	ਮੈਟ
+	Matte Alpha	ਮੈਟ ਅਲਫ਼ਾ
+	Matte Cleanup	ਮੈਟ ਸਫ਼ਾਈ
+	Matte Generation	ਮੈਟ ਬਣਾਉਣਾ
+	Matte Luma	ਮੈਟ ਲੂਮਾ
+	Maximize Frame	ਫਰੇਮ ਵੱਡਾ ਕਰੋ
+	Maximize or Restore Active Frame	ਸਰਗਰਮ ਫਰੇਮ ਵੱਡਾ ਕਰੋ ਜਾਂ ਮੁੜ ਬਹਾਲ ਕਰੋ
+	Maximize or Restore Frame Under Cursor	ਕਰਸਰ ਹੇਠਲਾ ਫਰੇਮ ਵੱਡਾ ਕਰੋ ਜਾਂ ਮੁੜ ਬਹਾਲ ਕਰੋ
+	Maximum Amplitude	ਵੱਧ ਤੋਂ ਵੱਧ ਐਂਪਲੀਟਿਊਡ
+	Maximum Bit Depth	ਵੱਧ ਤੋਂ ਵੱਧ ਬਿਟ ਡੂੰਘਾਈ
+	Maximum Bitrate	ਵੱਧ ਤੋਂ ਵੱਧ ਬਿਟਰੇਟ
+	Maximum Block Size	ਵੱਧ ਤੋਂ ਵੱਧ ਬਲਾਕ ਆਕਾਰ
+	Maximum Blur	ਵੱਧ ਤੋਂ ਵੱਧ ਧੁੰਦਲਾਪਣ
+	Maximum Project Versions	ਪ੍ਰੋਜੈਕਟ ਦੇ ਵੱਧ ਤੋਂ ਵੱਧ ਸੰਸਕਰਣ
+	Maximum Reduction	ਵੱਧ ਤੋਂ ਵੱਧ ਕਮੀ
+	Maximum Render Quality	ਵੱਧ ਤੋਂ ਵੱਧ ਰੈਂਡਰ ਗੁਣਵੱਤਾ
+	Maximum Scale	ਵੱਧ ਤੋਂ ਵੱਧ ਸਕੇਲ
+	Media	ਮੀਡੀਆ
+	Media Analysis	ਮੀਡੀਆ ਵਿਸ਼ਲੇਸ਼ਣ
+	Media Analysis & Transcription	ਮੀਡੀਆ ਵਿਸ਼ਲੇਸ਼ਣ ਅਤੇ ਲਿਪੀਅੰਕਣ
+	Media Analysis & Transcription…	ਮੀਡੀਆ ਵਿਸ਼ਲੇਸ਼ਣ ਅਤੇ ਲਿਪੀਅੰਕਣ…
+	Media Browser	ਮੀਡੀਆ ਬ੍ਰਾਊਜ਼ਰ
+	Media Browser Settings	ਮੀਡੀਆ ਬ੍ਰਾਊਜ਼ਰ ਸੈਟਿੰਗਾਂ
+	Media Cache	ਮੀਡੀਆ ਕੈਸ਼
+	Media Cache Database	ਮੀਡੀਆ ਕੈਸ਼ ਡਾਟਾਬੇਸ
+	Media Cache Files	ਮੀਡੀਆ ਕੈਸ਼ ਫ਼ਾਈਲਾਂ
+	Media Cache Management	ਮੀਡੀਆ ਕੈਸ਼ ਪ੍ਰਬੰਧਨ
+	Media Cache…	ਮੀਡੀਆ ਕੈਸ਼…
+	Media Duration	ਮੀਡੀਆ ਮਿਆਦ
+	Media End	ਮੀਡੀਆ ਦਾ ਅੰਤ
+	Media File	ਮੀਡੀਆ ਫ਼ਾਈਲ
+	Media Name:	ਮੀਡੀਆ ਦਾ ਨਾਮ:
+	Media Source Channels	ਮੀਡੀਆ ਸਰੋਤ ਚੈਨਲ
+	Media Start	ਮੀਡੀਆ ਦੀ ਸ਼ੁਰੂਆਤ
+	Media Start:	ਮੀਡੀਆ ਦੀ ਸ਼ੁਰੂਆਤ:
+	Media Time	ਮੀਡੀਆ ਸਮਾਂ
+	Media Timecode	ਮੀਡੀਆ ਟਾਈਮਕੋਡ
+	Media Type	ਮੀਡੀਆ ਕਿਸਮ
+	Media analysis and transcriptions will be cached in the Media Cache folder. Reanalysis won't be required if the media is imported into another project on this computer.	ਮੀਡੀਆ ਵਿਸ਼ਲੇਸ਼ਣ ਅਤੇ ਲਿਪੀਬੱਧ ਪਾਠ ਮੀਡੀਆ ਕੈਸ਼ ਫੋਲਡਰ ਵਿੱਚ ਸੰਭਾਲੇ ਜਾਣਗੇ. ਇਸ ਕੰਪਿਊਟਰ ਉੱਤੇ ਮੀਡੀਆ ਕਿਸੇ ਹੋਰ ਪ੍ਰੋਜੈਕਟ ਵਿੱਚ ਆਯਾਤ ਕਰਨ ਉੱਤੇ ਮੁੜ ਵਿਸ਼ਲੇਸ਼ਣ ਲੋੜੀਂਦਾ ਨਹੀਂ ਹੋਵੇਗਾ.
+	Media colour space (from file metadata): {detected}	ਮੀਡੀਆ ਰੰਗ ਸਪੇਸ (ਫ਼ਾਈਲ ਮੈਟਾਡਾਟਾ ਤੋਂ): {detected}
+	Media files are deleted	ਮੀਡੀਆ ਫ਼ਾਈਲਾਂ ਮਿਟਾ ਦਿੱਤੀਆਂ ਜਾਂਦੀਆਂ ਹਨ
+	Media files remain on disk	ਮੀਡੀਆ ਫ਼ਾਈਲਾਂ ਡਿਸਕ ਉੱਤੇ ਰਹਿੰਦੀਆਂ ਹਨ
+	Media missing	ਮੀਡੀਆ ਗੁੰਮ ਹੈ
+	MediaBrowser	ਮੀਡੀਆ ਬ੍ਰਾਊਜ਼ਰ
+	MediaCache	ਮੀਡੀਆ ਕੈਸ਼
+	Median	ਮੱਧਿਕਾ
+	Media…	ਮੀਡੀਆ…
+	Medium Room	ਦਰਮਿਆਨਾ ਕਮਰਾ
+	Memory	ਮੈਮੋਰੀ
+	Memory…	ਮੈਮੋਰੀ…
+	Merge Captions	ਉਪਸਿਰਲੇਖ ਮਿਲਾਓ
+	Merge Clips	ਕਲਿੱਪਾਂ ਮਿਲਾਓ
+	Merge Clips…	ਕਲਿੱਪਾਂ ਮਿਲਾਓ…
+	Merge selected captions	ਚੁਣੇ ਉਪਸਿਰਲੇਖ ਮਿਲਾਓ
+	Merged clip created	ਮਿਲੀ ਹੋਈ ਕਲਿੱਪ ਬਣਾਈ ਗਈ
+	Metadata & Timecode Burn-in	ਮੈਟਾਡਾਟਾ ਅਤੇ ਟਾਈਮਕੋਡ ਪੱਕੇ ਜੋੜੋ
+	Metadata Display	ਮੈਟਾਡਾਟਾ ਡਿਸਪਲੇ
+	Metadata Display…	ਮੈਟਾਡਾਟਾ ਡਿਸਪਲੇ…
+	Meter Input(s) Only	ਕੇਵਲ ਇਨਪੁੱਟ ਮਾਪੋ
+	Method	ਢੰਗ
+	Method:	ਢੰਗ:
+	Metrics Kerning	ਮੈਟ੍ਰਿਕ ਕਰਨਿੰਗ
+	Mid	ਮੱਧ
+	Mid Point	ਵਿਚਕਾਰਲਾ ਬਿੰਦੂ
+	Midtone Blue Balance	ਵਿਚਕਾਰਲੇ ਟੋਨਾਂ ਦਾ ਨੀਲਾ ਸੰਤੁਲਨ
+	Midtone Green Balance	ਵਿਚਕਾਰਲੇ ਟੋਨਾਂ ਦਾ ਹਰਾ ਸੰਤੁਲਨ
+	Midtone Red Balance	ਵਿਚਕਾਰਲੇ ਟੋਨਾਂ ਦਾ ਲਾਲ ਸੰਤੁਲਨ
+	Midtones	ਵਿਚਕਾਰਲੇ ਟੋਨ
+	Midtones Lightness	ਵਿਚਕਾਰਲੇ ਟੋਨਾਂ ਦਾ ਹਲਕਾਪਣ
+	Milliseconds	ਮਿਲੀਸਕਿੰਟ
+	Minimize All Tracks	ਸਾਰੇ ਟ੍ਰੈਕ ਛੋਟੇ ਕਰੋ
+	Minimum time	ਘੱਟ ਤੋਂ ਘੱਟ ਸਮਾਂ
+	Minimum time interval thinning	ਘੱਟੋ-ਘੱਟ ਸਮਾਂ ਅੰਤਰਾਲ ਅਨੁਸਾਰ ਘਟਾਉਣਾ
+	Minor Radius	ਛੋਟਾ ਅਰਧ-ਵਿਆਸ
+	Mirror Alternate	ਵਾਰੀ-ਵਾਰੀ ਸ਼ੀਸ਼ੇ ਵਾਂਗ ਉਲਟਾਓ
+	Missing	ਗੁੰਮ
+	Missing font replacement	ਗੁੰਮ ਫ਼ੌਂਟ ਦਾ ਬਦਲ
+	Miter join	ਨੁਕੀਲਾ ਜੋੜ
+	Miter limit	ਨੁਕੀਲੇ ਜੋੜ ਦੀ ਸੀਮਾ
+	Mix	ਮਿਲਾਵਟ
+	Mixdown video	ਵੀਡੀਓ ਮਿਕਸਡਾਊਨ
+	Mixed Crystals	ਮਿਲੇ-ਜੁਲੇ ਕ੍ਰਿਸਟਲ
+	Mixer	ਮਿਕਸਰ
+	Mode	ਮੋਡ
+	Modern High Gain	ਮਾਡਰਨ ਹਾਈ ਗੇਨ
+	Modifier held / selected	ਮੋਡੀਫਾਇਰ ਦਬਾਇਆ / ਚੁਣਿਆ
+	Modifiers	ਮੋਡੀਫਾਇਰ
+	Modify	ਸੋਧੋ
+	Modify Clip: Audio Channels	ਕਲਿੱਪ ਸੋਧੋ: ਆਡੀਓ ਚੈਨਲ
+	Modify Clip: Timecode	ਕਲਿੱਪ ਸੋਧੋ: ਟਾਈਮਕੋਡ
+	Modulation	ਮੋਡੂਲੇਸ਼ਨ
+	Modulation Rate	ਮੋਡੂਲੇਸ਼ਨ ਦਰ
+	Mono	ਮੋਨੋ
+	Mono Media	ਮੋਨੋ ਮੀਡੀਆ
+	Monochrome	ਇਕਰੰਗੀ
+	Monochrome toned cyan-blue	ਸਾਇਨ-ਨੀਲੇ ਟੋਨ ਵਾਲਾ ਇਕਰੰਗੀ
+	Monochrome toned warm brown	ਗਰਮ ਭੂਰੇ ਟੋਨ ਵਾਲਾ ਇਕਰੰਗੀ
+	Monoscopic	ਮੋਨੋਸਕੋਪਿਕ
+	Monospace only	ਕੇਵਲ ਇਕੋ-ਚੌੜਾਈ ਵਾਲੇ ਫ਼ੌਂਟ
+	More colour in the less saturated areas	ਘੱਟ ਰੰਗੀਨ ਹਿੱਸਿਆਂ ਵਿੱਚ ਵੱਧ ਰੰਗ
+	More presets…	ਹੋਰ ਪ੍ਰੀਸੈੱਟ…
+	More transport controls	ਹੋਰ ਪਲੇਬੈਕ ਕੰਟਰੋਲ
+	Morph Cut	ਮਾਰਫ਼ ਕੱਟ
+	Mosaic	ਮੋਜ਼ੇਕ
+	Mosaic (Legacy)	ਮੋਜ਼ੇਕ (ਪੁਰਾਣਾ)
+	Mosaic In	ਮੋਜ਼ੇਕ ਇਨ
+	Motion	ਗਤੀ
+	Motion Blur	ਗਤੀ ਧੁੰਦਲਾਪਣ
+	Motion Camera	ਮੋਸ਼ਨ ਕੈਮਰਾ
+	Motion Graphics Template…	ਮੋਸ਼ਨ ਗ੍ਰਾਫਿਕਸ ਟੈਂਪਲੇਟ…
+	Motion Preset	ਗਤੀ ਪ੍ਰੀਸੈੱਟ
+	Motion Tween	ਮੋਸ਼ਨ ਟਵੀਨ
+	Move All Audio Targets Down	ਸਾਰੇ ਆਡੀਓ ਟਾਰਗੇਟ ਹੇਠਾਂ ਹਿਲਾਓ
+	Move All Audio Targets Up	ਸਾਰੇ ਆਡੀਓ ਟਾਰਗੇਟ ਉੱਪਰ ਹਿਲਾਓ
+	Move All Video Targets Down	ਸਾਰੇ ਵੀਡੀਓ ਟਾਰਗੇਟ ਹੇਠਾਂ ਹਿਲਾਓ
+	Move All Video Targets Up	ਸਾਰੇ ਵੀਡੀਓ ਟਾਰਗੇਟ ਉੱਪਰ ਹਿਲਾਓ
+	Move Selection Down	ਚੋਣ ਹੇਠਾਂ ਹਿਲਾਓ
+	Move Selection End	ਚੋਣ ਅੰਤ ਉੱਤੇ ਹਿਲਾਓ
+	Move Selection Home	ਚੋਣ ਸ਼ੁਰੂ ਉੱਤੇ ਹਿਲਾਓ
+	Move Selection Left	ਚੋਣ ਖੱਬੇ ਹਿਲਾਓ
+	Move Selection Page Down	ਚੋਣ ਇੱਕ ਸਫ਼ਾ ਹੇਠਾਂ ਹਿਲਾਓ
+	Move Selection Page Up	ਚੋਣ ਇੱਕ ਸਫ਼ਾ ਉੱਪਰ ਹਿਲਾਓ
+	Move Selection Right	ਚੋਣ ਸੱਜੇ ਹਿਲਾਓ
+	Move Selection Up	ਚੋਣ ਉੱਪਰ ਹਿਲਾਓ
+	Move clips to the lowest track possible	ਕਲਿੱਪਾਂ ਨੂੰ ਸਭ ਤੋਂ ਹੇਠਲੇ ਸੰਭਵ ਟ੍ਰੈਕ ਉੱਤੇ ਹਿਲਾਓ
+	Move source clips to Processed Clips bin	ਸਰੋਤ ਕਲਿੱਪਾਂ ਨੂੰ ਪ੍ਰੋਸੈਸ ਕੀਤੀਆਂ ਕਲਿੱਪਾਂ ਦੇ ਬਿਨ ਵਿੱਚ ਹਿਲਾਓ
+	Movie	ਮੂਵੀ
+	Movie (audio and video)	ਮੂਵੀ (ਆਡੀਓ ਅਤੇ ਵੀਡੀਓ)
+	Movies, audio and stills from disk	ਡਿਸਕ ਤੋਂ ਮੂਵੀਆਂ, ਆਡੀਓ ਅਤੇ ਸਥਿਰ ਚਿੱਤਰ
+	Multi-Camera	ਮਲਟੀ-ਕੈਮਰਾ
+	Multi-Camera Audio Follows Video	ਮਲਟੀ-ਕੈਮਰਾ ਆਡੀਓ ਵੀਡੀਓ ਅਨੁਸਾਰ ਚੱਲਦੀ ਹੈ
+	Multi-Camera Layout	ਮਲਟੀ-ਕੈਮਰਾ ਖਾਕਾ
+	Multi-Camera Record	ਮਲਟੀ-ਕੈਮਰਾ ਰਿਕਾਰਡ
+	Multi-Camera Record On/Off (0)	ਮਲਟੀ-ਕੈਮਰਾ ਰਿਕਾਰਡ ਚਾਲੂ/ਬੰਦ (0)
+	Multi-Camera Record On/Off Toggle	ਮਲਟੀ-ਕੈਮਰਾ ਰਿਕਾਰਡ ਚਾਲੂ/ਬੰਦ ਬਦਲੋ
+	Multi-Camera Record off	ਮਲਟੀ-ਕੈਮਰਾ ਰਿਕਾਰਡ ਬੰਦ
+	Multi-Camera Record on	ਮਲਟੀ-ਕੈਮਰਾ ਰਿਕਾਰਡ ਚਾਲੂ
+	Multi-Camera Selection Top Down	ਮਲਟੀ-ਕੈਮਰਾ ਚੋਣ ਉੱਪਰੋਂ ਹੇਠਾਂ
+	Multi-Camera View	ਮਲਟੀ-ਕੈਮਰਾ ਦ੍ਰਿਸ਼
+	Multi-camera source sequence with {n} camera(s)	{n} ਕੈਮਰਿਆਂ ਵਾਲਾ ਮਲਟੀ-ਕੈਮਰਾ ਸਰੋਤ ਸੀਕਵੈਂਸ
+	Multiband Compressor	ਮਲਟੀਬੈਂਡ ਕੰਪ੍ਰੈਸਰ
+	Multicam	ਮਲਟੀਕੈਮ
+	Multichannel Mono Media	ਮਲਟੀਚੈਨਲ ਮੋਨੋ ਮੀਡੀਆ
+	Multiple Clips Selected	ਕਈ ਕਲਿੱਪਾਂ ਚੁਣੀਆਂ ਹਨ
+	Multiplexer	ਮਲਟੀਪਲੈਕਸਰ
+	Multiply	ਗੁਣਾ ਕਰੋ
+	Multitap Delay	ਮਲਟੀਟੈਪ ਡਿਲੇ
+	Music	ਸੰਗੀਤ
+	Mute	ਆਵਾਜ਼ ਬੰਦ ਕਰੋ
+	Mute Send	ਸੈਂਡ ਦੀ ਆਵਾਜ਼ ਬੰਦ ਕਰੋ
+	Mute input during timeline recording	ਟਾਈਮਲਾਈਨ ਰਿਕਾਰਡਿੰਗ ਦੌਰਾਨ ਇਨਪੁੱਟ ਦੀ ਆਵਾਜ਼ ਬੰਦ ਕਰੋ
+	My Shortcuts	ਮੇਰੇ ਸ਼ਾਰਟਕੱਟ
+	My Templates	ਮੇਰੇ ਟੈਂਪਲੇਟ
+	Name Color	ਨਾਮ ਦਾ ਰੰਗ
+	Name Overlay	ਨਾਮ ਓਵਰਲੇਅ
+	Name Size	ਨਾਮ ਦਾ ਆਕਾਰ
+	Name and role on a coloured slab that widens with the name.	ਰੰਗੀਨ ਪੱਟੀ ਉੱਤੇ ਨਾਮ ਅਤੇ ਭੂਮਿਕਾ, ਜੋ ਨਾਮ ਨਾਲ ਚੌੜੀ ਹੁੰਦੀ ਹੈ.
+	Name over a thin rule that always matches the name's width.	ਪਤਲੀ ਲਾਈਨ ਉੱਤੇ ਨਾਮ, ਜੋ ਹਮੇਸ਼ਾ ਨਾਮ ਦੀ ਚੌੜਾਈ ਨਾਲ ਮਿਲਦੀ ਹੈ.
+	Narrow	ਤੰਗ
+	Navigate to End of Segment	ਖੰਡ ਦੇ ਅੰਤ ਉੱਤੇ ਜਾਓ
+	Navigate to Next Line	ਅਗਲੀ ਲਾਈਨ ਉੱਤੇ ਜਾਓ
+	Navigate to Next Word	ਅਗਲੇ ਸ਼ਬਦ ਉੱਤੇ ਜਾਓ
+	Navigate to Previous Line	ਪਿਛਲੀ ਲਾਈਨ ਉੱਤੇ ਜਾਓ
+	Navigate to Previous Word	ਪਿਛਲੇ ਸ਼ਬਦ ਉੱਤੇ ਜਾਓ
+	Navigate to Start of Segment	ਖੰਡ ਦੇ ਸ਼ੁਰੂ ਉੱਤੇ ਜਾਓ
+	Neon Color	ਨੀਓਨ ਰੰਗ
+	Neon Wipe	ਨੀਓਨ ਵਾਈਪ
+	Nested Sequence Name	ਨੇਸਟ ਕੀਤੇ ਸੀਕਵੈਂਸ ਦਾ ਨਾਮ
+	Nest…	ਨੇਸਟ ਕਰੋ…
+	Network	ਨੈੱਟਵਰਕ
+	Neutral Mono	ਨਿਰਪੱਖ ਮੋਨੋ
+	New	ਨਵਾਂ
+	New Bin	ਨਵਾਂ ਬਿਨ
+	New Bin From Selection	ਚੋਣ ਤੋਂ ਨਵਾਂ ਬਿਨ
+	New Color Matte	ਨਵਾਂ ਇਕਸਾਰ ਰੰਗੀਨ ਮੀਡੀਆ
+	New Ellipse	ਨਵਾਂ ਅੰਡਾਕਾਰ
+	New Item	ਨਵੀਂ ਆਈਟਮ
+	New Layer	ਨਵੀਂ ਪਰਤ
+	New Media Browser Panel	ਨਵਾਂ ਮੀਡੀਆ ਬ੍ਰਾਊਜ਼ਰ ਪੈਨਲ
+	New Offline File	ਨਵੀਂ ਆਫਲਾਈਨ ਫ਼ਾਈਲ
+	New Project Panel	ਨਵਾਂ ਪ੍ਰੋਜੈਕਟ ਪੈਨਲ
+	New Project Shortcut	ਨਵਾਂ ਪ੍ਰੋਜੈਕਟ ਸ਼ਾਰਟਕੱਟ
+	New Rectangle	ਨਵੀਂ ਆਇਤ
+	New Search Bin	ਨਵਾਂ ਖੋਜ ਬਿਨ
+	New Sequence	ਨਵਾਂ ਸੀਕਵੈਂਸ
+	New Sequence From Clip	ਕਲਿੱਪ ਤੋਂ ਨਵਾਂ ਸੀਕਵੈਂਸ
+	New Submix	ਨਵਾਂ ਸਬਮਿਕਸ
+	New Text	ਨਵਾਂ ਪਾਠ
+	New Text Layer	ਨਵੀਂ ਪਾਠ ਪਰਤ
+	New Workspace	ਨਵਾਂ ਕਾਰਜ-ਖੇਤਰ
+	New {format} track	ਨਵਾਂ {format} ਟ੍ਰੈਕ
+	Next Appearance Mode	ਅਗਲਾ ਦਿੱਖ ਮੋਡ
+	Next Multi-Camera Page	ਅਗਲਾ ਮਲਟੀ-ਕੈਮਰਾ ਸਫ਼ਾ
+	Next in Sequence	ਸੀਕਵੈਂਸ ਵਿੱਚ ਅਗਲਾ
+	Next in Track	ਟ੍ਰੈਕ ਵਿੱਚ ਅਗਲਾ
+	Next to original media files	ਅਸਲ ਮੀਡੀਆ ਫ਼ਾਈਲਾਂ ਦੇ ਨਾਲ
+	Next to the media	ਮੀਡੀਆ ਦੇ ਨਾਲ
+	Next to the original media, in a Proxies folder	ਅਸਲ ਮੀਡੀਆ ਦੇ ਨਾਲ, Proxies ਫੋਲਡਰ ਵਿੱਚ
+	Night	ਰਾਤ
+	Night Exterior	ਰਾਤ ਦਾ ਬਾਹਰੀ ਦ੍ਰਿਸ਼
+	No Fields (Progressive Scan)	ਕੋਈ ਫੀਲਡ ਨਹੀਂ (ਪ੍ਰੋਗਰੈਸਿਵ ਸਕੈਨ)
+	No Motion	ਕੋਈ ਗਤੀ ਨਹੀਂ
+	No Scroll	ਸਕ੍ਰੋਲ ਨਹੀਂ
+	No background jobs.	ਕੋਈ ਪਿਛੋਕੜ ਕੰਮ ਨਹੀਂ.
+	No candidates yet — Search a folder or Locate the file.	ਹਾਲੇ ਕੋਈ ਸੰਭਵ ਮੇਲ ਨਹੀਂ — ਫੋਲਡਰ ਖੋਜੋ ਜਾਂ ਫ਼ਾਈਲ ਦਾ ਟਿਕਾਣਾ ਲੱਭੋ.
+	No captions on this track. Press + to add one at the playhead.	ਇਸ ਟ੍ਰੈਕ ਉੱਤੇ ਕੋਈ ਉਪਸਿਰਲੇਖ ਨਹੀਂ. ਪਲੇਹੈੱਡ ਉੱਤੇ ਜੋੜਨ ਲਈ + ਦਬਾਓ.
+	No contributor data was built into this copy.	ਇਸ ਕਾਪੀ ਵਿੱਚ ਕੋਈ ਯੋਗਦਾਨੀ ਡਾਟਾ ਸ਼ਾਮਲ ਨਹੀਂ ਕੀਤਾ ਗਿਆ.
+	No effects	ਕੋਈ ਪ੍ਰਭਾਵ ਨਹੀਂ
+	No events.	ਕੋਈ ਘਟਨਾਵਾਂ ਨਹੀਂ.
+	No export preset named `{name}`	`{name}` ਨਾਮ ਦਾ ਕੋਈ ਨਿਰਯਾਤ ਪ੍ਰੀਸੈੱਟ ਨਹੀਂ
+	No markers	ਕੋਈ ਮਾਰਕਰ ਨਹੀਂ
+	No markers. Press M to add one.	ਕੋਈ ਮਾਰਕਰ ਨਹੀਂ. ਜੋੜਨ ਲਈ M ਦਬਾਓ.
+	No matching captions.	ਕੋਈ ਮੇਲ ਖਾਂਦੇ ਉਪਸਿਰਲੇਖ ਨਹੀਂ.
+	No matching commands	ਕੋਈ ਮੇਲ ਖਾਂਦੀਆਂ ਕਮਾਂਡਾਂ ਨਹੀਂ
+	No matching markers	ਕੋਈ ਮੇਲ ਖਾਂਦੇ ਮਾਰਕਰ ਨਹੀਂ
+	No matching text.	ਕੋਈ ਮੇਲ ਖਾਂਦਾ ਪਾਠ ਨਹੀਂ.
+	No model credits were built into this copy.	ਇਸ ਕਾਪੀ ਵਿੱਚ ਮਾਡਲਾਂ ਦਾ ਕੋਈ ਸਿਹਰਾ ਸ਼ਾਮਲ ਨਹੀਂ ਕੀਤਾ ਗਿਆ.
+	No multi-camera clip at the playhead	ਪਲੇਹੈੱਡ ਉੱਤੇ ਕੋਈ ਮਲਟੀ-ਕੈਮਰਾ ਕਲਿੱਪ ਨਹੀਂ
+	No plugins are installed. Changes will take effect the next time you start FilmCraft.	ਕੋਈ ਪਲੱਗਇਨ ਇੰਸਟਾਲ ਨਹੀਂ. FilmCraft ਅਗਲੀ ਵਾਰ ਚਾਲੂ ਕਰਨ ਉੱਤੇ ਤਬਦੀਲੀਆਂ ਲਾਗੂ ਹੋਣਗੀਆਂ.
+	No presets folder: the app has no data directory	ਪ੍ਰੀਸੈੱਟ ਫੋਲਡਰ ਨਹੀਂ: ਐਪ ਦੀ ਕੋਈ ਡਾਟਾ ਡਾਇਰੈਕਟਰੀ ਨਹੀਂ ਹੈ
+	No saved colors	ਕੋਈ ਸੰਭਾਲੇ ਰੰਗ ਨਹੀਂ
+	No saved guide templates.	ਕੋਈ ਸੰਭਾਲੇ ਗਾਈਡ ਟੈਂਪਲੇਟ ਨਹੀਂ.
+	No sequence open	ਕੋਈ ਸੀਕਵੈਂਸ ਨਹੀਂ ਖੁੱਲ੍ਹਾ
+	No source clip open	ਕੋਈ ਸਰੋਤ ਕਲਿੱਪ ਨਹੀਂ ਖੁੱਲ੍ਹੀ
+	No templates match.	ਕੋਈ ਟੈਂਪਲੇਟ ਮੇਲ ਨਹੀਂ ਖਾਂਦਾ.
+	No text graphics in this sequence. Add text with the Type tool.	ਇਸ ਸੀਕਵੈਂਸ ਵਿੱਚ ਕੋਈ ਪਾਠ ਗ੍ਰਾਫਿਕਸ ਨਹੀਂ. Type ਟੂਲ ਨਾਲ ਪਾਠ ਜੋੜੋ.
+	Noise	ਨੋਇਜ਼
+	Noise & Grain	ਨੌਇਜ਼ ਅਤੇ ਦਾਣੇ
+	Noise (Legacy)	ਨੌਇਜ਼ (ਪੁਰਾਣਾ)
+	Noise Level	ਨੌਇਜ਼ ਪੱਧਰ
+	Noise Reduction/Restoration	ਨੌਇਜ਼ ਘਟਾਉਣਾ/ਬਹਾਲੀ
+	Noise Type	ਨੌਇਜ਼ ਕਿਸਮ
+	Non-Additive Dissolve	ਨਾਨ-ਐਡਿਟਿਵ ਡਿਜ਼ਾਲਵ
+	Normalize All Peaks to:	ਸਾਰੀਆਂ ਪੀਕਾਂ ਇਸ ਉੱਤੇ ਨਾਰਮਲਾਈਜ਼ ਕਰੋ:
+	Normalize Max Peak to:	ਵੱਧ ਤੋਂ ਵੱਧ ਪੀਕ ਇਸ ਉੱਤੇ ਨਾਰਮਲਾਈਜ਼ ਕਰੋ:
+	Normalize Mix Track	ਮਿਕਸ ਟ੍ਰੈਕ ਨਾਰਮਲਾਈਜ਼ ਕਰੋ
+	Normalize Mix Track to:	ਮਿਕਸ ਟ੍ਰੈਕ ਇਸ ਉੱਤੇ ਨਾਰਮਲਾਈਜ਼ ਕਰੋ:
+	Normalize Mix Track…	ਮਿਕਸ ਟ੍ਰੈਕ ਨਾਰਮਲਾਈਜ਼ ਕਰੋ…
+	Not Now	ਹੁਣੇ ਨਹੀਂ
+	Not matched yet	ਹਾਲੇ ਮੇਲ ਨਹੀਂ ਕੀਤਾ
+	Not supported by FilmCraft's encoders yet	FilmCraft ਦੇ ਐਨਕੋਡਰ ਹਾਲੇ ਇਸ ਦਾ ਸਮਰਥਨ ਨਹੀਂ ਕਰਦੇ
+	Not supported in FilmCraft yet	FilmCraft ਵਿੱਚ ਹਾਲੇ ਸਮਰਥਿਤ ਨਹੀਂ
+	Notch 1	ਨੌਚ 1
+	Notch 2	ਨੌਚ 2
+	Notch 3	ਨੌਚ 3
+	Notch 4	ਨੌਚ 4
+	Notch 5	ਨੌਚ 5
+	Notch 6	ਨੌਚ 6
+	Notch Filter	ਨੌਚ ਫਿਲਟਰ
+	Notch Width	ਨੌਚ ਚੌੜਾਈ
+	Notes	ਨੋਟ
+	Notes for this project: to-dos, instructions, frame numbers… Saved with the project.	ਇਸ ਪ੍ਰੋਜੈਕਟ ਲਈ ਨੋਟ: ਕਰਨ ਵਾਲੇ ਕੰਮ, ਹਦਾਇਤਾਂ, ਫਰੇਮ ਨੰਬਰ… ਪ੍ਰੋਜੈਕਟ ਨਾਲ ਸੰਭਾਲੇ ਜਾਂਦੇ ਹਨ.
+	Nothing found with that name.	ਉਸ ਨਾਮ ਨਾਲ ਕੁਝ ਨਹੀਂ ਮਿਲਿਆ.
+	Nothing is assigned to this key	ਇਸ ਕੁੰਜੀ ਲਈ ਕੁਝ ਨਿਰਧਾਰਤ ਨਹੀਂ ਹੈ
+	Nudge Clip Selection Down	ਕਲਿੱਪ ਚੋਣ ਹੇਠਾਂ ਖਿਸਕਾਓ
+	Nudge Clip Selection Left Five Frames	ਕਲਿੱਪ ਚੋਣ ਖੱਬੇ ਪੰਜ ਫਰੇਮ ਖਿਸਕਾਓ
+	Nudge Clip Selection Left One Frame	ਕਲਿੱਪ ਚੋਣ ਖੱਬੇ ਇੱਕ ਫਰੇਮ ਖਿਸਕਾਓ
+	Nudge Clip Selection Right Five Frames	ਕਲਿੱਪ ਚੋਣ ਸੱਜੇ ਪੰਜ ਫਰੇਮ ਖਿਸਕਾਓ
+	Nudge Clip Selection Right One Frame	ਕਲਿੱਪ ਚੋਣ ਸੱਜੇ ਇੱਕ ਫਰੇਮ ਖਿਸਕਾਓ
+	Nudge Clip Selection Up	ਕਲਿੱਪ ਚੋਣ ਉੱਪਰ ਖਿਸਕਾਓ
+	Nudge Selected Object down by five	ਚੁਣੀ ਵਸਤੂ ਪੰਜ ਹੇਠਾਂ ਖਿਸਕਾਓ
+	Nudge Selected Object down by one	ਚੁਣੀ ਵਸਤੂ ਇੱਕ ਹੇਠਾਂ ਖਿਸਕਾਓ
+	Nudge Selected Object to left by five	ਚੁਣੀ ਵਸਤੂ ਪੰਜ ਖੱਬੇ ਖਿਸਕਾਓ
+	Nudge Selected Object to left by one	ਚੁਣੀ ਵਸਤੂ ਇੱਕ ਖੱਬੇ ਖਿਸਕਾਓ
+	Nudge Selected Object to right by five	ਚੁਣੀ ਵਸਤੂ ਪੰਜ ਸੱਜੇ ਖਿਸਕਾਓ
+	Nudge Selected Object to right by one	ਚੁਣੀ ਵਸਤੂ ਇੱਕ ਸੱਜੇ ਖਿਸਕਾਓ
+	Nudge Selected Object up by five	ਚੁਣੀ ਵਸਤੂ ਪੰਜ ਉੱਪਰ ਖਿਸਕਾਓ
+	Nudge Selected Object up by one	ਚੁਣੀ ਵਸਤੂ ਇੱਕ ਉੱਪਰ ਖਿਸਕਾਓ
+	Nudge Volume +1dB	ਆਵਾਜ਼ +1dB ਖਿਸਕਾਓ
+	Nudge Volume +3dB	ਆਵਾਜ਼ +3dB ਖਿਸਕਾਓ
+	Nudge Volume -1dB	ਆਵਾਜ਼ -1dB ਖਿਸਕਾਓ
+	Nudge Volume -3dB	ਆਵਾਜ਼ -3dB ਖਿਸਕਾਓ
+	Number Of Echoes	ਗੂੰਜਾਂ ਦੀ ਗਿਣਤੀ
+	Number of Audio Clips:	ਆਡੀਓ ਕਲਿੱਪਾਂ ਦੀ ਗਿਣਤੀ:
+	Number of Channels:	ਚੈਨਲਾਂ ਦੀ ਗਿਣਤੀ:
+	Number of Harmonics	ਹਾਰਮੋਨਿਕਾਂ ਦੀ ਗਿਣਤੀ
+	Numbered BMP stills (24-bit)	ਨੰਬਰਵਾਰ BMP ਸਥਿਰ ਚਿੱਤਰ (24-ਬਿਟ)
+	Numbered DPX stills (10-bit RGB)	ਨੰਬਰਵਾਰ DPX ਸਥਿਰ ਚਿੱਤਰ (10-ਬਿਟ RGB)
+	Numbered JPEG stills (quality 90)	ਨੰਬਰਵਾਰ JPEG ਸਥਿਰ ਚਿੱਤਰ (ਗੁਣਵੱਤਾ 90)
+	Numbered OpenEXR stills (half float, linear, uncompressed)	ਨੰਬਰਵਾਰ OpenEXR ਸਥਿਰ ਚਿੱਤਰ (ਹਾਫ਼ ਫਲੋਟ, ਲੀਨੀਅਰ, ਬਿਨਾਂ ਸੰਕੁਚਨ)
+	Numbered PNG stills at the sequence's frame size	ਸੀਕਵੈਂਸ ਦੇ ਫਰੇਮ ਆਕਾਰ ਉੱਤੇ ਨੰਬਰਵਾਰ PNG ਸਥਿਰ ਚਿੱਤਰ
+	Numbered TIFF stills (RGB, 8-bit)	ਨੰਬਰਵਾਰ TIFF ਸਥਿਰ ਚਿੱਤਰ (RGB, 8-ਬਿਟ)
+	Numbered Targa stills (24-bit, uncompressed)	ਨੰਬਰਵਾਰ Targa ਸਥਿਰ ਚਿੱਤਰ (24-ਬਿਟ, ਬਿਨਾਂ ਸੰਕੁਚਨ)
+	OMF Export Settings	OMF ਨਿਰਯਾਤ ਸੈਟਿੰਗਾਂ
+	OMF Title:	OMF ਸਿਰਲੇਖ:
+	OMF…	OMF…
+	Obsolete	ਪੁਰਾਣਾ
+	Octagon	ਅੱਠਭੁਜ
+	Offline	ਆਫਲਾਈਨ
+	Offline All	ਸਭ ਨੂੰ ਆਫਲਾਈਨ ਕਰੋ
+	Offline File…	ਆਫਲਾਈਨ ਫ਼ਾਈਲ…
+	Offset	ਆਫਸੈੱਟ
+	Offset (Turbulence)	ਆਫਸੈੱਟ (ਟਰਬੂਲੈਂਸ)
+	Offset Audio by:	ਆਡੀਓ ਦਾ ਆਫਸੈੱਟ ਇੰਨਾ ਰੱਖੋ:
+	Offset From	ਇੱਥੋਂ ਆਫਸੈੱਟ
+	Offset To	ਇੱਥੇ ਤੱਕ ਆਫਸੈੱਟ
+	Offset:	ਆਫਸੈੱਟ:
+	Omni	ਸਰਬਦਿਸ਼ਾਈ
+	On Original Image	ਅਸਲ ਚਿੱਤਰ ਉੱਤੇ
+	On Transparent	ਪਾਰਦਰਸ਼ੀ ਉੱਤੇ
+	Opacity 0 → 100 % over the first second	ਪਹਿਲੇ ਸਕਿੰਟ ਦੌਰਾਨ ਅਪਾਰਦਰਸ਼ਤਾ 0 → 100 %
+	Opacity 100 → 0 % over the last second	ਆਖ਼ਰੀ ਸਕਿੰਟ ਦੌਰਾਨ ਅਪਾਰਦਰਸ਼ਤਾ 100 → 0 %
+	Open Air	ਖੁੱਲ੍ਹੀ ਹਵਾ
+	Open Bin	ਬਿਨ ਖੋਲ੍ਹੋ
+	Open Demo Project	ਡੈਮੋ ਪ੍ਰੋਜੈਕਟ ਖੋਲ੍ਹੋ
+	Open In Source Monitor	ਸਰੋਤ ਮਾਨੀਟਰ ਵਿੱਚ ਖੋਲ੍ਹੋ
+	Open Ingest Settings	ਇਨਜੈਸਟ ਸੈਟਿੰਗਾਂ ਖੋਲ੍ਹੋ
+	Open Link	ਲਿੰਕ ਖੋਲ੍ਹੋ
+	Open Most Recent	ਸਭ ਤੋਂ ਹਾਲੀਆ ਖੋਲ੍ਹੋ
+	Open Presets Folder	ਪ੍ਰੀਸੈੱਟ ਫੋਲਡਰ ਖੋਲ੍ਹੋ
+	Open Project…	ਪ੍ਰੋਜੈਕਟ ਖੋਲ੍ਹੋ…
+	Open Search	ਖੋਜ ਖੋਲ੍ਹੋ
+	Open a sequence to export	ਨਿਰਯਾਤ ਲਈ ਸੀਕਵੈਂਸ ਖੋਲ੍ਹੋ
+	Open a sequence to search its graphics	ਗ੍ਰਾਫਿਕਸ ਖੋਜਣ ਲਈ ਸੀਕਵੈਂਸ ਖੋਲ੍ਹੋ
+	Open a sequence to see its transcript	ਲਿਪੀਬੱਧ ਪਾਠ ਵੇਖਣ ਲਈ ਸੀਕਵੈਂਸ ਖੋਲ੍ਹੋ
+	Open a sequence to work with captions	ਉਪਸਿਰਲੇਖਾਂ ਉੱਤੇ ਕੰਮ ਕਰਨ ਲਈ ਸੀਕਵੈਂਸ ਖੋਲ੍ਹੋ
+	Open in New Tab	ਨਵੀਂ ਟੈਬ ਵਿੱਚ ਖੋਲ੍ਹੋ
+	Open in New Window	ਨਵੀਂ ਵਿੰਡੋ ਵਿੱਚ ਖੋਲ੍ਹੋ
+	Open in Place	ਇੱਥੇ ਹੀ ਖੋਲ੍ਹੋ
+	Open in Source Monitor	ਸਰੋਤ ਮਾਨੀਟਰ ਵਿੱਚ ਖੋਲ੍ਹੋ
+	Open in Timeline	ਟਾਈਮਲਾਈਨ ਵਿੱਚ ਖੋਲ੍ਹੋ
+	Open in new window	ਨਵੀਂ ਵਿੰਡੋ ਵਿੱਚ ਖੋਲ੍ਹੋ
+	Open in place	ਇੱਥੇ ਹੀ ਖੋਲ੍ਹੋ
+	Open new tab	ਨਵੀਂ ਟੈਬ ਖੋਲ੍ਹੋ
+	Open this address in your browser yourself:	ਇਹ ਪਤਾ ਆਪਣੇ ਬ੍ਰਾਊਜ਼ਰ ਵਿੱਚ ਖ਼ੁਦ ਖੋਲ੍ਹੋ:
+	OpenEXR	OpenEXR
+	OpenEXR Sequence	OpenEXR ਸੀਕਵੈਂਸ
+	OpenTimelineIO…	OpenTimelineIO…
+	OpenType	OpenType
+	Opened {url}	{url} ਖੋਲ੍ਹਿਆ
+	Opens in your web browser: {url}	ਤੁਹਾਡੇ ਵੈੱਬ ਬ੍ਰਾਊਜ਼ਰ ਵਿੱਚ ਖੁੱਲ੍ਹਦਾ ਹੈ: {url}
+	Opens this address in your web browser	ਇਹ ਪਤਾ ਤੁਹਾਡੇ ਵੈੱਬ ਬ੍ਰਾਊਜ਼ਰ ਵਿੱਚ ਖੋਲ੍ਹਦਾ ਹੈ
+	Opens up the shadows	ਪਰਛਾਵੇਂ ਹਲਕੇ ਕਰਦਾ ਹੈ
+	Optical Flow	ਆਪਟੀਕਲ ਫਲੋ
+	Order	ਕ੍ਰਮ
+	Ordering:	ਕ੍ਰਮ:
+	Other	ਹੋਰ
+	Out	ਆਊਟ
+	Out Point	ਆਊਟ ਬਿੰਦੂ
+	Out Points	ਆਊਟ ਬਿੰਦੂ
+	Out: {name}	ਆਊਟ: {name}
+	Outer	ਬਾਹਰਲਾ
+	Outgoing	ਬਾਹਰ ਜਾ ਰਿਹਾ
+	Output Gain	ਆਉਟਪੁੱਟ ਗੇਨ
+	Output Mapping	ਆਉਟਪੁੱਟ ਮੈਪਿੰਗ
+	Outro Duration	ਅੰਤਲੇ ਭਾਗ ਦੀ ਮਿਆਦ
+	Outside	ਬਾਹਰ
+	Outside Color	ਬਾਹਰਲਾ ਰੰਗ
+	Overflow	ਓਵਰਫਲੋ
+	Overlay	ਓਵਰਲੇ
+	Override media colour space:	ਮੀਡੀਆ ਰੰਗ ਸਪੇਸ ਓਵਰਰਾਈਡ ਕਰੋ:
+	Overshoot	ਓਵਰਸ਼ੂਟ
+	Overwrite	ਉੱਪਰ ਲਿਖੋ
+	Overwrite (.)	ਉੱਪਰ ਲਿਖੋ (.)
+	Overwrite Edit	ਓਵਰਰਾਈਟ ਸੰਪਾਦਨ
+	Overwrite with Current View	ਮੌਜੂਦਾ ਦ੍ਰਿਸ਼ ਨਾਲ ਉੱਪਰ ਲਿਖੋ
+	PNG	PNG
+	PNG Sequence	PNG ਸੀਕਵੈਂਸ
+	PNG or JPEG file	PNG ਜਾਂ JPEG ਫ਼ਾਈਲ
+	Page Peel	ਸਫ਼ਾ ਉਖਾੜੋ
+	Page Scroll	ਸਫ਼ਾ ਸਕ੍ਰੋਲ
+	Page Turn	ਸਫ਼ਾ ਮੋੜੋ
+	Page {page} of {pages}	{pages} ਵਿੱਚੋਂ ਸਫ਼ਾ {page}
+	Paint Bucket	ਪੇਂਟ ਬਾਲਟੀ
+	Paint On Black	ਕਾਲੇ ਉੱਤੇ ਪੇਂਟ ਕਰੋ
+	Paint On Original Image	ਅਸਲ ਚਿੱਤਰ ਉੱਤੇ ਪੇਂਟ ਕਰੋ
+	Paint On Transparent	ਪਾਰਦਰਸ਼ੀ ਉੱਤੇ ਪੇਂਟ ਕਰੋ
+	Paint On White	ਚਿੱਟੇ ਉੱਤੇ ਪੇਂਟ ਕਰੋ
+	Paint Style	ਪੇਂਟ ਸ਼ੈਲੀ
+	Paint Surface	ਪੇਂਟ ਸਤ੍ਹਾ
+	Pan	ਪੈਨ
+	Pan (Y Axis)	ਪੈਨ (Y ਧੁਰਾ)
+	Pan / balance (drag; double-click: centre)	ਪੈਨ / ਸੰਤੁਲਨ (ਖਿੱਚੋ; ਦੋ ਵਾਰ ਕਲਿੱਕ: ਕੇਂਦਰ)
+	Panel	ਪੈਨਲ
+	Panel Wipe	ਪੈਨਲ ਵਾਈਪ
+	Panel shortcuts override application shortcuts while that panel has focus	ਪੈਨਲ ਵਿੱਚ ਫੋਕਸ ਹੋਣ ਵੇਲੇ ਉਸ ਦੇ ਸ਼ਾਰਟਕੱਟ ਐਪਲੀਕੇਸ਼ਨ ਸ਼ਾਰਟਕੱਟਾਂ ਤੋਂ ਪਹਿਲਾਂ ਲਾਗੂ ਹੁੰਦੇ ਹਨ
+	Panner	ਪੈਨਰ
+	Panner - Ambisonics	ਪੈਨਰ - ਐਂਬੀਸੋਨਿਕਸ
+	Parade	ਪਰੇਡ
+	Parade (RGB)	ਪਰੇਡ (RGB)
+	Parade ({kind})	ਪਰੇਡ ({kind})
+	Parade Type	ਪਰੇਡ ਕਿਸਮ
+	Paragraph	ਪੈਰਾ
+	Paragraph Text	ਪੈਰਾ ਪਾਠ
+	Parametric Equalizer	ਪੈਰਾਮੈਟ੍ਰਿਕ ਇਕੁਅਲਾਈਜ਼ਰ
+	Passband Ripple	ਪਾਸਬੈਂਡ ਰਿਪਲ
+	Paste Attributes	ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਚਿਪਕਾਓ
+	Paste Attributes…	ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਚਿਪਕਾਓ…
+	Paste Insert	ਚਿਪਕਾ ਕੇ ਪਾਓ
+	Path Points	ਮਾਰਗ ਬਿੰਦੂ
+	Path: {path}	ਪਾਥ: {path}
+	Pause Media Encoder queue during playback	ਪਲੇਬੈਕ ਦੌਰਾਨ Media Encoder ਕਤਾਰ ਰੋਕੋ
+	Paused Resolution	ਰੁਕੇ ਹੋਏ ਵੇਲੇ ਰੈਜ਼ੋਲੂਸ਼ਨ
+	Peak Amplitude: {peak}	ਪੀਕ ਐਂਪਲੀਟਿਊਡ: {peak}
+	Peak Frequency	ਪੀਕ ਫ੍ਰੀਕਵੈਂਸੀ
+	Peak Gain	ਪੀਕ ਗੇਨ
+	Pedestal	ਪੈਡੈਸਟਲ
+	Pen Tool	ਪੈਨ ਟੂਲ
+	Pentagon	ਪੰਜਭੁਜ
+	Per line	ਪ੍ਰਤੀ ਲਾਈਨ
+	Percent Blur	ਪ੍ਰਤੀਸ਼ਤ ਧੁੰਦਲਾਪਣ
+	Perspective	ਪਰਸਪੈਕਟਿਵ
+	Phase Difference	ਫੇਜ਼ ਫ਼ਰਕ
+	Phaser	ਫੇਜ਼ਰ
+	Phone Call	ਫ਼ੋਨ ਕਾਲ
+	Phosphor	ਫਾਸਫ਼ਰ
+	Phosphor Color	ਫਾਸਫ਼ਰ ਰੰਗ
+	Photocopy	ਫੋਟੋਕਾਪੀ
+	Photocopy Color	ਫੋਟੋਕਾਪੀ ਰੰਗ
+	PiP 35% Upper Right	PiP 35% ਉੱਪਰ ਸੱਜੇ
+	Picture-in-picture: 35 % scale in the upper right	ਤਸਵੀਰ ਵਿੱਚ ਤਸਵੀਰ: ਉੱਪਰ ਸੱਜੇ 35 % ਸਕੇਲ
+	Pillow	ਸਿਰਹਾਣਾ
+	Pin All	ਸਭ ਟਿਕਾਓ
+	Pin Horizontal	ਲੇਟਵਾਂ ਟਿਕਾਓ
+	Pin Light	ਪਿੰਨ ਲਾਈਟ
+	Pin To	ਇਸ ਨਾਲ ਟਿਕਾਓ
+	Pin Vertical	ਖੜ੍ਹਵਾਂ ਟਿਕਾਓ
+	Pinned Edges	ਟਿਕਾਏ ਕਿਨਾਰੇ
+	Pinning	ਟਿਕਾਉਣਾ
+	Pitch Shifter	ਸੁਰ ਦੀ ਉਚਾਈ ਬਦਲਣ ਵਾਲਾ
+	Pixel Aspect Ratio:	ਪਿਕਸਲ ਪੱਖ-ਅਨੁਪਾਤ:
+	Place files dropped onto the Timeline directly on the Timeline	ਟਾਈਮਲਾਈਨ ਉੱਤੇ ਸੁੱਟੀਆਂ ਫ਼ਾਈਲਾਂ ਨੂੰ ਸਿੱਧਾ ਟਾਈਮਲਾਈਨ ਉੱਤੇ ਰੱਖੋ
+	Placement	ਰੱਖਣ ਦੀ ਸਥਿਤੀ
+	Placement:	ਰੱਖਣ ਦੀ ਸਥਿਤੀ:
+	Plate	ਪਲੇਟ
+	Plateau Wipe	ਪਠਾਰ ਵਾਈਪ
+	Plateaus	ਪਠਾਰ
+	Plates	ਪਲੇਟਾਂ
+	Play Around	ਆਲੇ-ਦੁਆਲੇ ਚਲਾਓ
+	Play Around Edit (Space loops, Shift+K once)	ਸੰਪਾਦਨ ਬਿੰਦੂ ਦੇ ਆਲੇ-ਦੁਆਲੇ ਚਲਾਓ (Space ਨਾਲ ਦੁਹਰਾਓ, Shift+K ਇੱਕ ਵਾਰ)
+	Play In to Out	ਇਨ ਤੋਂ ਆਊਟ ਤੱਕ ਚਲਾਓ
+	Play In to Out with Preroll/Postroll	ਪ੍ਰੀਰੋਲ/ਪੋਸਟਰੋਲ ਸਮੇਤ ਇਨ ਤੋਂ ਆਊਟ ਤੱਕ ਚਲਾਓ
+	Play Source	ਸਰੋਤ ਚਲਾਓ
+	Play after rendering previews	ਝਲਕਾਂ ਰੈਂਡਰ ਕਰਨ ਤੋਂ ਬਾਅਦ ਚਲਾਓ
+	Play audio while scrubbing in Source and Program Monitors	ਸਰੋਤ ਅਤੇ ਪ੍ਰੋਗਰਾਮ ਮਾਨੀਟਰਾਂ ਵਿੱਚ ਸਕ੍ਰਬ ਕਰਦੇ ਸਮੇਂ ਆਡੀਓ ਚਲਾਓ
+	Play from Playhead to Out Point	ਪਲੇਹੈੱਡ ਤੋਂ ਆਊਟ ਬਿੰਦੂ ਤੱਕ ਚਲਾਓ
+	Play-Stop Toggle (Space)	ਚਲਾਓ-ਰੋਕੋ ਬਦਲੋ (Space)
+	Play/Stop	ਚਲਾਓ/ਰੋਕੋ
+	Playback	ਪਲੇਬੈਕ
+	Playback Resolution	ਪਲੇਬੈਕ ਰੈਜ਼ੋਲੂਸ਼ਨ
+	Playback starts the pre-roll before the playhead (or the In point); with In/Out marked, recording punches in and out there.	ਪਲੇਬੈਕ ਪਲੇਹੈੱਡ (ਜਾਂ ਇਨ ਬਿੰਦੂ) ਤੋਂ ਪਹਿਲਾਂ ਪ੍ਰੀਰੋਲ ਸ਼ੁਰੂ ਕਰਦਾ ਹੈ; ਇਨ/ਆਊਟ ਨਿਸ਼ਾਨਬੱਧ ਹੋਣ ਉੱਤੇ ਰਿਕਾਰਡਿੰਗ ਉੱਥੇ ਸ਼ੁਰੂ ਅਤੇ ਬੰਦ ਹੁੰਦੀ ਹੈ.
+	Playback…	ਪਲੇਬੈਕ…
+	Playhead	ਪਲੇਹੈੱਡ
+	Playhead position determines trim monitor loop playback	ਪਲੇਹੈੱਡ ਦੀ ਸਥਿਤੀ ਟ੍ਰਿਮ ਮਾਨੀਟਰ ਦਾ ਦੁਹਰਾਉਂਦਾ ਪਲੇਬੈਕ ਤੈਅ ਕਰਦੀ ਹੈ
+	Playhead:	ਪਲੇਹੈੱਡ:
+	Plugins	ਪਲੱਗਇਨ
+	Plugins…	ਪਲੱਗਇਨ…
+	Podcast Voice	ਪੌਡਕਾਸਟ ਆਵਾਜ਼
+	Point 1	ਬਿੰਦੂ 1
+	Point 1 Color	ਬਿੰਦੂ 1 ਦਾ ਰੰਗ
+	Point 1 Latitude	ਬਿੰਦੂ 1 ਦਾ ਅਕਸ਼ਾਂਸ਼
+	Point 1 Longitude	ਬਿੰਦੂ 1 ਦਾ ਦੇਸ਼ਾਂਤਰ
+	Point 2	ਬਿੰਦੂ 2
+	Point 2 Color	ਬਿੰਦੂ 2 ਦਾ ਰੰਗ
+	Point 2 Latitude	ਬਿੰਦੂ 2 ਦਾ ਅਕਸ਼ਾਂਸ਼
+	Point 2 Longitude	ਬਿੰਦੂ 2 ਦਾ ਦੇਸ਼ਾਂਤਰ
+	Point 3	ਬਿੰਦੂ 3
+	Point 3 Color	ਬਿੰਦੂ 3 ਦਾ ਰੰਗ
+	Point 3 Latitude	ਬਿੰਦੂ 3 ਦਾ ਅਕਸ਼ਾਂਸ਼
+	Point 3 Longitude	ਬਿੰਦੂ 3 ਦਾ ਦੇਸ਼ਾਂਤਰ
+	Point 4	ਬਿੰਦੂ 4
+	Point 5	ਬਿੰਦੂ 5
+	Point 6	ਬਿੰਦੂ 6
+	Point 7	ਬਿੰਦੂ 7
+	Point 8	ਬਿੰਦੂ 8
+	Point Text	ਬਿੰਦੂ ਲਿਖਤ
+	Pointer Color	ਇਸ਼ਾਰੇ ਦਾ ਰੰਗ
+	Points	ਬਿੰਦੂ
+	Policy	ਨੀਤੀ
+	Polygon Sides	ਬਹੁਭੁਜ ਦੀਆਂ ਭੁਜਾਵਾਂ
+	Pop Motion	ਪੌਪ ਚਾਲ
+	Portuguese	ਪੁਰਤਗਾਲੀ
+	Position & Rotation	ਸਥਿਤੀ ਅਤੇ ਘੁੰਮਾਅ
+	Position Amount	ਸਥਿਤੀ ਦੀ ਮਾਤਰਾ
+	Position, Scale & Rotation	ਸਥਿਤੀ, ਸਕੇਲ ਅਤੇ ਘੁੰਮਾਅ
+	Position, Scale, Rotation	ਸਥਿਤੀ, ਸਕੇਲ, ਘੁੰਮਾਅ
+	Position:	ਥਾਂ:
+	Position: bottom	ਸਥਿਤੀ: ਹੇਠਾਂ
+	Position: middle	ਸਥਿਤੀ: ਵਿਚਕਾਰ
+	Position: top	ਸਥਿਤੀ: ਉੱਪਰ
+	Post-Fader	ਫੇਡਰ ਤੋਂ ਬਾਅਦ
+	Post-roll	ਪੋਸਟਰੋਲ
+	Post-roll:	ਪੋਸਟਰੋਲ:
+	Posterize	ਪੋਸਟਰਾਈਜ਼ ਕਰੋ
+	Posterize Time	ਸਮਾਂ ਪੋਸਟਰਾਈਜ਼ ਕਰੋ
+	Postroll	ਪੋਸਟਰੋਲ
+	Pre-Delay	ਪ੍ਰੀ-ਡਿਲੇ
+	Pre-Fader	ਫੇਡਰ ਤੋਂ ਪਹਿਲਾਂ
+	Pre-roll:	ਪ੍ਰੀਰੋਲ:
+	Preroll	ਪ੍ਰੀਰੋਲ
+	Presence Lift	ਮੌਜੂਦਗੀ ਉਭਾਰ
+	Preserve Luminosity	ਪ੍ਰਕਾਸ਼ਮਾਨਤਾ ਬਰਕਰਾਰ ਰੱਖੋ
+	Preserve Scale	ਸਕੇਲ ਕਾਇਮ ਰੱਖੋ
+	Preset Manager	ਪ੍ਰੀਸੈੱਟ ਮੈਨੇਜਰ
+	Preset library is up to date	ਪ੍ਰੀਸੈੱਟ ਲਾਇਬ੍ਰੇਰੀ ਅੱਪ-ਟੂ-ਡੇਟ ਹੈ
+	Preset library updated	ਪ੍ਰੀਸੈੱਟ ਲਾਇਬ੍ਰੇਰੀ ਅੱਪਡੇਟ ਹੋਈ
+	Preset name	ਪ੍ਰੀਸੈੱਟ ਦਾ ਨਾਮ
+	Preset:	ਪ੍ਰੀਸੈੱਟ:
+	Presets	ਪ੍ਰੀਸੈੱਟ
+	Preview Area	ਝਲਕ ਖੇਤਰ
+	Preview File Format:	ਝਲਕ ਫ਼ਾਈਲ ਫਾਰਮੈਟ:
+	Previous Multi-Camera Page	ਪਿਛਲਾ ਮਲਟੀ-ਕੈਮਰਾ ਸਫ਼ਾ
+	Previous in Sequence	ਸੀਕਵੈਂਸ ਵਿੱਚ ਪਿਛਲਾ
+	Previous in Track	ਟ੍ਰੈਕ ਵਿੱਚ ਪਿਛਲਾ
+	ProcAmp	ProcAmp
+	Processing Options	ਪ੍ਰੋਸੈਸਿੰਗ ਚੋਣਾਂ
+	Profile	ਪ੍ਰੋਫਾਈਲ
+	Program	ਪ੍ਰੋਗਰਾਮ
+	Programme left → device output {l}, right → device output {r}{dev}. Outputs beyond the device's channels fall back to 1 and 2.	ਪ੍ਰੋਗਰਾਮ ਦਾ ਖੱਬਾ → ਡਿਵਾਈਸ ਆਉਟਪੁੱਟ {l}, ਸੱਜਾ → ਡਿਵਾਈਸ ਆਉਟਪੁੱਟ {r}{dev}. ਡਿਵਾਈਸ ਦੇ ਚੈਨਲਾਂ ਤੋਂ ਬਾਹਰਲੇ ਆਉਟਪੁੱਟਾਂ ਲਈ 1 ਅਤੇ 2 ਵਰਤੇ ਜਾਂਦੇ ਹਨ.
+	Progress	ਤਰੱਕੀ
+	Progressive	ਪ੍ਰੋਗਰੈਸਿਵ
+	Project	ਪ੍ਰੋਜੈਕਟ
+	Project Auto Save:	ਪ੍ਰੋਜੈਕਟ ਆਟੋ ਸੇਵ:
+	Project Colors	ਪ੍ਰੋਜੈਕਟ ਰੰਗ
+	Project Manager	ਪ੍ਰੋਜੈਕਟ ਮੈਨੇਜਰ
+	Project Manager: writing {path}	ਪ੍ਰੋਜੈਕਟ ਮੈਨੇਜਰ: {path} ਲਿਖਿਆ ਜਾ ਰਿਹਾ ਹੈ
+	Project Manager…	ਪ੍ਰੋਜੈਕਟ ਮੈਨੇਜਰ…
+	Project Metadata	ਪ੍ਰੋਜੈਕਟ ਮੈਟਾਡਾਟਾ
+	Project Notes	ਪ੍ਰੋਜੈਕਟ ਨੋਟ
+	Project Settings	ਪ੍ਰੋਜੈਕਟ ਸੈਟਿੰਗਾਂ
+	Project View Preset {n}	ਪ੍ਰੋਜੈਕਟ ਦ੍ਰਿਸ਼ ਪ੍ਰੀਸੈੱਟ {n}
+	Project: {name}	ਪ੍ਰੋਜੈਕਟ: {name}
+	ProjectPanel	ਪ੍ਰੋਜੈਕਟ ਪੈਨਲ
+	Projecting cap	ਬਾਹਰ ਨਿਕਲਦਾ ਸਿਰਾ
+	Projection:	ਪ੍ਰੋਜੈਕਸ਼ਨ:
+	Projects	ਪ੍ਰੋਜੈਕਟ
+	Project…	ਪ੍ਰੋਜੈਕਟ…
+	Properties	ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ
+	Protect Highlights	ਉਭਰੇ ਟੋਨ ਸੁਰੱਖਿਅਤ ਰੱਖੋ
+	Proxies are made in the background and attached when done. Export always uses full-resolution media.	ਪ੍ਰਾਕਸੀ ਪਿੱਛੇ ਬਣਦੇ ਹਨ ਅਤੇ ਪੂਰੇ ਹੋਣ ਉੱਤੇ ਜੁੜਦੇ ਹਨ. ਨਿਰਯਾਤ ਹਮੇਸ਼ਾ ਪੂਰੀ ਰੈਜ਼ੋਲੂਸ਼ਨ ਮੀਡੀਆ ਵਰਤਦਾ ਹੈ.
+	Proxy	ਪ੍ਰਾਕਸੀ
+	Pull Motion	ਖਿੱਚ ਚਾਲ
+	Pulls highlights and whites down	ਉਭਰੇ ਅਤੇ ਚਿੱਟੇ ਟੋਨਾਂ ਦਾ ਪੱਧਰ ਘਟਾਉਂਦਾ ਹੈ
+	Push	ਧੱਕੋ
+	Push (Legacy)	ਧੱਕੋ (ਪੁਰਾਣਾ)
+	Q	Q
+	Quality (CRF)	ਗੁਣਵੱਤਾ (CRF)
+	Queue ({n})	ਕਤਾਰ ({n})
+	Quick Export	ਤੇਜ਼ ਨਿਰਯਾਤ
+	Quick Export: open a sequence first	ਤੇਜ਼ ਨਿਰਯਾਤ: ਪਹਿਲਾਂ ਸੀਕਵੈਂਸ ਖੋਲ੍ਹੋ
+	Quick Export: {path}	ਤੇਜ਼ ਨਿਰਯਾਤ: {path}
+	QuickTime (Motion JPEG)	QuickTime (Motion JPEG)
+	QuickTime, APV 422-10 (10-bit 4:2:2), 24-bit 48 kHz PCM	QuickTime, APV 422-10 (10-ਬਿਟ 4:2:2), 24-ਬਿਟ 48 kHz PCM
+	QuickTime, APV 422-12 (12-bit 4:2:2), 24-bit 48 kHz PCM	QuickTime, APV 422-12 (12-ਬਿਟ 4:2:2), 24-ਬਿਟ 48 kHz PCM
+	QuickTime, DNxHR HQ (8-bit 4:2:2), 24-bit 48 kHz PCM	QuickTime, DNxHR HQ (8-ਬਿਟ 4:2:2), 24-ਬਿਟ 48 kHz PCM
+	QuickTime, DNxHR LB (8-bit 4:2:2), 24-bit 48 kHz PCM	QuickTime, DNxHR LB (8-ਬਿਟ 4:2:2), 24-ਬਿਟ 48 kHz PCM
+	QuickTime, DNxHR SQ (8-bit 4:2:2), 24-bit 48 kHz PCM	QuickTime, DNxHR SQ (8-ਬਿਟ 4:2:2), 24-ਬਿਟ 48 kHz PCM
+	QuickTime, ProRes 422 HQ, 24-bit 48 kHz PCM	QuickTime, ProRes 422 HQ, 24-ਬਿਟ 48 kHz PCM
+	QuickTime, ProRes 422 LT, 24-bit 48 kHz PCM	QuickTime, ProRes 422 LT, 24-ਬਿਟ 48 kHz PCM
+	QuickTime, ProRes 422 Proxy, 24-bit 48 kHz PCM	QuickTime, ProRes 422 Proxy, 24-ਬਿਟ 48 kHz PCM
+	QuickTime, ProRes 422, 24-bit 48 kHz PCM	QuickTime, ProRes 422, 24-ਬਿਟ 48 kHz PCM
+	QuickTime, ProRes 4444 (4:4:4) with alpha channel, 24-bit 48 kHz PCM	QuickTime, ProRes 4444 (4:4:4) ਅਲਫ਼ਾ ਚੈਨਲ ਨਾਲ, 24-ਬਿਟ 48 kHz PCM
+	QuickTime, ProRes 4444 (4:4:4), 24-bit 48 kHz PCM	QuickTime, ProRes 4444 (4:4:4), 24-ਬਿਟ 48 kHz PCM
+	QuickTime, ProRes 4444 XQ (4:4:4), 24-bit 48 kHz PCM	QuickTime, ProRes 4444 XQ (4:4:4), 24-ਬਿਟ 48 kHz PCM
+	Quit FilmCraft	FilmCraft ਬੰਦ ਕਰੋ
+	RAM reserved for other applications	ਹੋਰ ਐਪਲੀਕੇਸ਼ਨਾਂ ਲਈ ਰਾਖਵੀਂ RAM
+	RGB Curves	RGB ਕਰਵਾਂ
+	RGB Split	RGB ਵੰਡ
+	RGB-White	RGB-ਚਿੱਟਾ
+	RGBA Channels	RGBA ਚੈਨਲ
+	Radial	ਰੇਡੀਅਲ
+	Radial Blur	ਰੇਡੀਅਲ ਧੁੰਦਲਾਪਣ
+	Radial Ramp	ਰੇਡੀਅਲ ਰੈਂਪ
+	Radial Wipe	ਰੇਡੀਅਲ ਵਾਈਪ
+	Radial Wipe (Legacy)	ਰੇਡੀਅਲ ਵਾਈਪ (ਪੁਰਾਣਾ)
+	Radio Announcer	ਰੇਡੀਓ ਘੋਸ਼ਕ
+	Radio Voice	ਰੇਡੀਓ ਆਵਾਜ਼
+	Radius	ਅਰਧ-ਵਿਆਸ
+	Ramp	ਰੈਂਪ
+	Ramp Shape	ਰੈਂਪ ਦੀ ਸ਼ਕਲ
+	Random	ਬੇਤਰਤੀਬ
+	Random Seed	ਬੇਤਰਤੀਬ ਸੀਡ
+	Range	ਰੇਂਜ
+	Range marker	ਰੇਂਜ ਮਾਰਕਰ
+	Rate Stretch Tool	ਰੇਟ ਸਟ੍ਰੈਚ ਟੂਲ
+	Ratio	ਅਨੁਪਾਤ
+	Ray	ਕਿਰਨ
+	Ray Color	ਕਿਰਨ ਦਾ ਰੰਗ
+	Ray Length	ਕਿਰਨ ਦੀ ਲੰਬਾਈ
+	Rays	ਕਿਰਨਾਂ
+	Rays Only	ਕੇਵਲ ਕਿਰਨਾਂ
+	Razor Tool	ਰੇਜ਼ਰ ਟੂਲ
+	Read	ਪੜ੍ਹੋ
+	Rec. 2100	Rec. 2100
+	Rec. 601	Rec. 601
+	Rec. 709	Rec. 709
+	Recent Directories	ਹਾਲੀਆ ਡਾਇਰੈਕਟਰੀਆਂ
+	Recognize when different speakers are talking	ਵੱਖਰੇ ਬੋਲਣ ਵਾਲਿਆਂ ਨੂੰ ਪਛਾਣੋ
+	Reconnect Full Resolution Media…	ਪੂਰੀ ਰੈਜ਼ੋਲੂਸ਼ਨ ਮੀਡੀਆ ਮੁੜ ਜੋੜੋ…
+	Record	ਰਿਕਾਰਡ ਕਰੋ
+	Record (voice-over on the record-enabled track)	ਰਿਕਾਰਡ ਕਰੋ (ਰਿਕਾਰਡ-ਯੋਗ ਟ੍ਰੈਕ ਉੱਤੇ ਵੌਇਸ-ਓਵਰ)
+	Recorded {n} multi-camera cut(s)	{n} ਮਲਟੀ-ਕੈਮਰਾ ਕੱਟ ਰਿਕਾਰਡ ਕੀਤੇ
+	Recording voice-over…	ਵੌਇਸ-ਓਵਰ ਰਿਕਾਰਡ ਹੋ ਰਿਹਾ ਹੈ…
+	Recover Unsaved Changes	ਅਣਸੰਭਾਲੀਆਂ ਤਬਦੀਲੀਆਂ ਮੁੜ ਪ੍ਰਾਪਤ ਕਰੋ
+	Recover Unsaved Changes…	ਅਣਸੰਭਾਲੀਆਂ ਤਬਦੀਲੀਆਂ ਮੁੜ ਪ੍ਰਾਪਤ ਕਰੋ…
+	Recover unsaved changes from {when}?	{when} ਦੀਆਂ ਅਣਸੰਭਾਲੀਆਂ ਤਬਦੀਲੀਆਂ ਮੁੜ ਪ੍ਰਾਪਤ ਕਰਨੀਆਂ ਹਨ?
+	Recovery copy: {dir}	ਮੁੜ-ਪ੍ਰਾਪਤੀ ਕਾਪੀ: {dir}
+	Rectangle Tool	ਆਇਤ ਟੂਲ
+	Red Blurriness	ਲਾਲ ਧੁੰਦਲਾਪਣ
+	Red Curve	ਲਾਲ ਕਰਵ
+	Red Offset	ਲਾਲ ਆਫਸੈੱਟ
+	Red Power	ਲਾਲ ਪਾਵਰ
+	Red Slope	ਲਾਲ ਢਲਾਣ
+	Red-Blue	ਲਾਲ-ਨੀਲਾ
+	Red-Const	ਲਾਲ-ਸਥਿਰ
+	Red-Green	ਲਾਲ-ਹਰਾ
+	Red-Red	ਲਾਲ-ਲਾਲ
+	Reduce Axis	ਧੁਰਾ ਘਟਾਓ
+	Reduce By	ਇੰਨਾ ਘਟਾਓ
+	Reduce Interlace Flicker	ਇੰਟਰਲੇਸ ਝਿਲਮਿਲਾਹਟ ਘਟਾਓ
+	Reduce Noise	ਨੋਇਜ਼ ਘਟਾਓ
+	Reduce Reverb	ਰੀਵਰਬ ਘਟਾਓ
+	Reduce Rumble	ਰੰਬਲ ਘਟਾਓ
+	Reference	ਹਵਾਲਾ
+	Reference  {tc}	ਹਵਾਲਾ  {tc}
+	Reference Monitor	ਹਵਾਲਾ ਮਾਨੀਟਰ
+	Reference track:	ਹਵਾਲਾ ਟ੍ਰੈਕ:
+	Reference: next frame	ਹਵਾਲਾ: ਅਗਲਾ ਫਰੇਮ
+	Reference: previous frame	ਹਵਾਲਾ: ਪਿਛਲਾ ਫਰੇਮ
+	Refine	ਸੁਧਾਰੋ
+	Reflected	ਪਰਾਵਰਤਿਤ
+	Reflection Angle	ਪਰਾਵਰਤਨ ਕੋਣ
+	Reflection Center	ਪਰਾਵਰਤਨ ਕੇਂਦਰ
+	Refraction	ਅਪਵਰਤਨ
+	Reframe Offset	ਰੀਫਰੇਮ ਆਫਸੈੱਟ
+	Reframe Zoom	ਰੀਫਰੇਮ ਜ਼ੂਮ
+	Refresh Changed Media	ਬਦਲਿਆ ਮੀਡੀਆ ਤਾਜ਼ਾ ਕਰੋ
+	Refresh Project	ਪ੍ਰੋਜੈਕਟ ਤਾਜ਼ਾ ਕਰੋ
+	Refresh Sort Order	ਲੜੀਬੱਧ ਕ੍ਰਮ ਤਾਜ਼ਾ ਕਰੋ
+	Refresh growing Files Every	ਵਧ ਰਹੀਆਂ ਫ਼ਾਈਲਾਂ ਇੰਨੇ ਸਮੇਂ ਬਾਅਦ ਤਾਜ਼ਾ ਕਰੋ
+	Regular	ਆਮ
+	Rel	ਰਿਲੀਜ਼
+	Relaxed	ਨਰਮ
+	Release	ਰਿਲੀਜ਼
+	Release Time	ਰਿਲੀਜ਼ ਸਮਾਂ
+	Relief	ਉਭਾਰ
+	Relink others automatically	ਹੋਰਾਂ ਨੂੰ ਆਪਣੇ ਆਪ ਮੁੜ ਲਿੰਕ ਕਰੋ
+	Remaining	ਬਾਕੀ
+	Remix	ਰੀਮਿਕਸ
+	Remix Properties	ਰੀਮਿਕਸ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ
+	Remix Properties…	ਰੀਮਿਕਸ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ…
+	Remix Tool	ਰੀਮਿਕਸ ਟੂਲ
+	Remixed to {seconds} s	{seconds} s ਲਈ ਰੀਮਿਕਸ ਕੀਤਾ
+	Remixing music to a target duration is not available yet. Trim the clip and add a crossfade instead.	ਟੀਚਾ ਮਿਆਦ ਲਈ ਸੰਗੀਤ ਰੀਮਿਕਸ ਕਰਨਾ ਹਾਲੇ ਉਪਲਬਧ ਨਹੀਂ. ਇਸ ਦੀ ਥਾਂ ਕਲਿੱਪ ਟ੍ਰਿਮ ਕਰਕੇ ਕ੍ਰਾਸਫੇਡ ਜੋੜੋ.
+	Remove Attributes	ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਹਟਾਓ
+	Remove Attributes…	ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਹਟਾਓ…
+	Remove Audio from AV Clip	AV ਕਲਿੱਪ ਵਿੱਚੋਂ ਆਡੀਓ ਹਟਾਓ
+	Remove Effect	ਪ੍ਰਭਾਵ ਹਟਾਓ
+	Remove Filler Words	ਫ਼ਾਲਤੂ ਭਰਨ ਵਾਲੇ ਸ਼ਬਦ ਹਟਾਓ
+	Remove Fringe	ਕਿਨਾਰੇ ਦੀ ਰੰਗੀਨ ਝਾਲਰ ਹਟਾਓ
+	Remove Media Cache Files	ਮੀਡੀਆ ਕੈਸ਼ ਫ਼ਾਈਲਾਂ ਹਟਾਓ
+	Remove Pauses	ਵਿਰਾਮ ਹਟਾਓ
+	Remove Row	ਕਤਾਰ ਹਟਾਓ
+	Remove Send	ਸੈਂਡ ਹਟਾਓ
+	Remove Unused	ਨਾ ਵਰਤੇ ਹਟਾਓ
+	Remove filler words	ਫ਼ਾਲਤੂ ਭਰਨ ਵਾਲੇ ਸ਼ਬਦ ਹਟਾਓ
+	Remove from Favorites	ਮਨਪਸੰਦ ਵਿੱਚੋਂ ਹਟਾਓ
+	Remove from favorites	ਮਨਪਸੰਦਾਂ ਵਿੱਚੋਂ ਹਟਾਓ
+	Remove keyframe	ਕੀਫਰੇਮ ਹਟਾਓ
+	Remove saved color	ਸੰਭਾਲਿਆ ਰੰਗ ਹਟਾਓ
+	Render Audio	ਆਡੀਓ ਰੈਂਡਰ ਕਰੋ
+	Render Edit in Audition files to:	Audition ਵਿੱਚ ਸੰਪਾਦਨ ਦੀਆਂ ਫ਼ਾਈਲਾਂ ਇੱਥੇ ਰੈਂਡਰ ਕਰੋ:
+	Render Effects In to Out	ਇਨ ਤੋਂ ਆਊਟ ਤੱਕ ਪ੍ਰਭਾਵ ਰੈਂਡਰ ਕਰੋ
+	Render In to Out	ਇਨ ਤੋਂ ਆਊਟ ਤੱਕ ਰੈਂਡਰ ਕਰੋ
+	Render Selection	ਚੋਣ ਰੈਂਡਰ ਕਰੋ
+	Render at Maximum Depth	ਵੱਧ ਤੋਂ ਵੱਧ ਡੂੰਘਾਈ ਉੱਤੇ ਰੈਂਡਰ ਕਰੋ
+	Render audio clip effects	ਆਡੀਓ ਕਲਿੱਪ ਪ੍ਰਭਾਵ ਰੈਂਡਰ ਕਰੋ
+	Render audio when rendering video	ਵੀਡੀਓ ਰੈਂਡਰ ਕਰਦੇ ਸਮੇਂ ਆਡੀਓ ਰੈਂਡਰ ਕਰੋ
+	Rendered preview	ਰੈਂਡਰ ਕੀਤੀ ਝਲਕ
+	Renderer:	ਰੈਂਡਰਰ:
+	Rendering:	ਰੈਂਡਰਿੰਗ:
+	Repair	ਮੁਰੰਮਤ
+	Repeat Edge Pixels	ਕਿਨਾਰੇ ਦੇ ਪਿਕਸਲ ਦੁਹਰਾਓ
+	Replace Color	ਰੰਗ ਬਦਲੋ
+	Replace File	ਫ਼ਾਈਲ ਬਦਲੋ
+	Replace Fonts in Projects	ਪ੍ਰੋਜੈਕਟਾਂ ਵਿੱਚ ਫ਼ੌਂਟ ਬਦਲੋ
+	Replace Fonts in Projects…	ਪ੍ਰੋਜੈਕਟਾਂ ਵਿੱਚ ਫ਼ੌਂਟ ਬਦਲੋ…
+	Replace With Clip	ਕਲਿੱਪ ਨਾਲ ਬਦਲੋ
+	Replace With Clip From Source Monitor	ਸਰੋਤ ਮਾਨੀਟਰ ਦੀ ਕਲਿੱਪ ਨਾਲ ਬਦਲੋ
+	Replace:	ਬਦਲੋ:
+	Replaced {n} font uses	{n} ਫ਼ੌਂਟ ਵਰਤੋਂਆਂ ਬਦਲੀਆਂ
+	Replicate	ਦੁਹਰਾਓ
+	Report an Issue…	ਸਮੱਸਿਆ ਦੀ ਰਿਪੋਰਟ ਕਰੋ…
+	Report an issue	ਸਮੱਸਿਆ ਦੀ ਰਿਪੋਰਟ ਕਰੋ
+	Reset All Parameters	ਸਾਰੇ ਪੈਰਾਮੀਟਰ ਮੁੜ ਸੈੱਟ ਕਰੋ
+	Reset Duration	ਮਿਆਦ ਮੁੜ ਸੈੱਟ ਕਰੋ
+	Reset Effect	ਪ੍ਰਭਾਵ ਮੁੜ ਸੈੱਟ ਕਰੋ
+	Reset Interface Zoom	ਇੰਟਰਫੇਸ ਜ਼ੂਮ ਮੁੜ ਸੈੱਟ ਕਰੋ
+	Reset Parameter	ਪੈਰਾਮੀਟਰ ਮੁੜ ਸੈੱਟ ਕਰੋ
+	Reset Preferences	ਤਰਜੀਹਾਂ ਮੁੜ ਸੈੱਟ ਕਰੋ
+	Reset to Grid	ਗ੍ਰਿੱਡ ਉੱਤੇ ਮੁੜ ਸੈੱਟ ਕਰੋ
+	Reset to Saved Layout	ਸੰਭਾਲੇ ਖਾਕੇ ਉੱਤੇ ਮੁੜ ਸੈੱਟ ਕਰੋ
+	Reset…	ਮੁੜ ਸੈੱਟ ਕਰੋ…
+	Resize floating panel	ਤੈਰਦੇ ਪੈਨਲ ਦਾ ਆਕਾਰ ਬਦਲੋ
+	Responsive Design - Position	ਅਨੁਕੂਲੀ ਡਿਜ਼ਾਈਨ - ਸਥਿਤੀ
+	Responsive Design - Time	ਅਨੁਕੂਲੀ ਡਿਜ਼ਾਈਨ - ਸਮਾਂ
+	Responsive Design – Time remaps the graphic's layer keyframes; clip effects like Opacity and Motion keep media time	ਅਨੁਕੂਲੀ ਡਿਜ਼ਾਈਨ – ਸਮਾਂ ਗ੍ਰਾਫਿਕ ਦੀਆਂ ਪਰਤਾਂ ਦੇ ਕੀਫਰੇਮਾਂ ਦਾ ਸਮਾਂ ਬਦਲਦਾ ਹੈ; ਅਪਾਰਦਰਸ਼ਤਾ ਅਤੇ ਗਤੀ ਵਰਗੇ ਕਲਿੱਪ ਪ੍ਰਭਾਵ ਮੀਡੀਆ ਸਮਾਂ ਰੱਖਦੇ ਹਨ
+	Restore Arrangement	ਤਰਤੀਬ ਮੁੜ ਬਹਾਲ ਕਰੋ
+	Restore Captions from Source Clip	ਸਰੋਤ ਕਲਿੱਪ ਤੋਂ ਉਪਸਿਰਲੇਖ ਮੁੜ ਬਹਾਲ ਕਰੋ
+	Restore Frame	ਫਰੇਮ ਮੁੜ ਬਹਾਲ ਕਰੋ
+	Restore Original	ਅਸਲ ਮੁੜ ਬਹਾਲ ਕਰੋ
+	Restore View Preset	ਦ੍ਰਿਸ਼ ਪ੍ਰੀਸੈੱਟ ਮੁੜ ਬਹਾਲ ਕਰੋ
+	Restore Workspace	ਵਰਕਸਪੇਸ ਮੁੜ ਬਹਾਲ ਕਰੋ
+	Restore open sequences when opening projects	ਪ੍ਰੋਜੈਕਟ ਖੋਲ੍ਹਦੇ ਸਮੇਂ ਖੁੱਲ੍ਹੇ ਸੀਕਵੈਂਸ ਮੁੜ ਬਹਾਲ ਕਰੋ
+	Restrict Trims To Subclip Boundaries	ਟ੍ਰਿਮ ਸਬਕਲਿੱਪ ਹੱਦਾਂ ਤੱਕ ਸੀਮਿਤ ਰੱਖੋ
+	Result	ਨਤੀਜਾ
+	Resulting Project	ਨਤੀਜੇ ਵਜੋਂ ਬਣਿਆ ਪ੍ਰੋਜੈਕਟ
+	Retro	ਰੇਟਰੋ
+	Reveal Log Files…	ਲੌਗ ਫ਼ਾਈਲਾਂ ਦਿਖਾਓ…
+	Reveal Nested Sequence	ਨੇਸਟ ਕੀਤਾ ਸੀਕਵੈਂਸ ਦਿਖਾਓ
+	Reveal Original Image	ਅਸਲ ਚਿੱਤਰ ਦਿਖਾਓ
+	Reveal Project in Finder…	Finder ਵਿੱਚ ਪ੍ਰੋਜੈਕਟ ਦਿਖਾਓ…
+	Reveal Sequence in Project	ਪ੍ਰੋਜੈਕਟ ਵਿੱਚ ਸੀਕਵੈਂਸ ਦਿਖਾਓ
+	Reveal in Project	ਪ੍ਰੋਜੈਕਟ ਵਿੱਚ ਦਿਖਾਓ
+	Reverb	ਰੀਵਰਬ
+	Reverb Amount	ਰੀਵਰਬ ਮਾਤਰਾ
+	Reverse	ਉਲਟਾਓ
+	Reverse Field Dominance	ਫੀਲਡ ਪ੍ਰਮੁੱਖਤਾ ਉਲਟਾਓ
+	Reverse Match Frame	ਉਲਟ ਫਰੇਮ ਮੇਲ
+	Reverse Speed	ਗਤੀ ਉਲਟਾਓ
+	Revert Remix	ਰੀਮਿਕਸ ਵਾਪਸ ਕਰੋ
+	Revert to the preset's colors and names	ਪ੍ਰੀਸੈੱਟ ਦੇ ਰੰਗ ਅਤੇ ਨਾਂ ਮੁੜ ਬਹਾਲ ਕਰੋ
+	Right - Left	ਸੱਜਾ - ਖੱਬਾ
+	Right - Right	ਸੱਜਾ - ਸੱਜਾ
+	Right Align Text	ਪਾਠ ਸੱਜੇ ਇਕਸਾਰ ਕਰੋ
+	Right align text	ਲਿਖਤ ਸੱਜੇ ਇਕਸਾਰ ਕਰੋ
+	Right channel to device output	ਸੱਜਾ ਚੈਨਲ ਡਿਵਾਈਸ ਆਉਟਪੁੱਟ ਨਾਲ
+	Right to left	ਸੱਜੇ ਤੋਂ ਖੱਬੇ
+	Ripple Delete	ਮਿਟਾ ਕੇ ਵਿੱਥ ਬੰਦ ਕਰੋ
+	Ripple Delete Head Frame	ਸ਼ੁਰੂਆਤੀ ਫਰੇਮ ਮਿਟਾ ਕੇ ਵਿੱਥ ਬੰਦ ਕਰੋ
+	Ripple Edit Tool	ਰਿਪਲ ਸੰਪਾਦਨ ਟੂਲ
+	Ripple Edit, Shifting Trailing Clips	ਰਿਪਲ ਸੰਪਾਦਨ, ਅਗਲੀਆਂ ਕਲਿੱਪਾਂ ਹਿਲਾਉਂਦੇ ਹੋਏ
+	Ripple Sequence Markers	ਸੀਕਵੈਂਸ ਮਾਰਕਰ ਰਿਪਲ ਕਰੋ
+	Ripple Trim In	ਇਨ ਬਿੰਦੂ ਰਿਪਲ ਟ੍ਰਿਮ ਕਰੋ
+	Ripple Trim Next Edit to Playhead	ਅਗਲਾ ਸੰਪਾਦਨ ਪਲੇਹੈੱਡ ਤੱਕ ਰਿਪਲ ਟ੍ਰਿਮ ਕਰੋ
+	Ripple Trim Out	ਆਊਟ ਬਿੰਦੂ ਰਿਪਲ ਟ੍ਰਿਮ ਕਰੋ
+	Ripple Trim Previous Edit to Playhead	ਪਿਛਲਾ ਸੰਪਾਦਨ ਪਲੇਹੈੱਡ ਤੱਕ ਰਿਪਲ ਟ੍ਰਿਮ ਕਰੋ
+	Ripple trim adds edits to keep both sides of trim in sync	ਰਿਪਲ ਟ੍ਰਿਮ ਦੋਵੇਂ ਪਾਸੇ ਸਿੰਕ ਰੱਖਣ ਲਈ ਕੱਟ ਜੋੜਦਾ ਹੈ
+	Role	ਭੂਮਿਕਾ
+	Roll	ਰੋਲ
+	Roll (Z Axis)	ਰੋਲ (Z ਧੁਰਾ)
+	Roll Edit	ਰੋਲ ਸੰਪਾਦਨ
+	Rolling Edit Tool	ਰੋਲਿੰਗ ਸੰਪਾਦਨ ਟੂਲ
+	Room Size	ਕਮਰੇ ਦਾ ਆਕਾਰ
+	Rose	ਗੁਲਾਬੀ
+	Rotation Amount	ਘੁੰਮਾਅ ਦੀ ਮਾਤਰਾ
+	Roughen	ਖੁਰਦਰਾ ਕਰੋ
+	Roughen Color	ਖੁਰਦਰਾ ਰੰਗ
+	Roughen Edges	ਕਿਨਾਰੇ ਖੁਰਦਰੇ ਕਰੋ
+	Round cap	ਗੋਲ ਸਿਰਾ
+	Round join	ਗੋਲ ਜੋੜ
+	Rounded Crop	ਗੋਲ ਕੋਨਿਆਂ ਵਾਲਾ ਕ੍ਰੌਪ
+	Roundness	ਗੋਲਾਈ
+	Rule Color	ਲਾਈਨ ਦਾ ਰੰਗ
+	Russian	ਰੂਸੀ
+	Rusty	ਜੰਗਾਲੀ
+	Rusty Color	ਜੰਗਾਲੀ ਰੰਗ
+	SFX	SFX
+	SMPTE HD bars with 1 kHz reference tone	1 kHz ਹਵਾਲਾ ਟੋਨ ਨਾਲ SMPTE HD ਰੰਗ ਪੱਟੀਆਂ
+	Safe Margins	ਸੁਰੱਖਿਅਤ ਹਾਸ਼ੀਏ
+	Safe graphics mode: {mode}	ਸੁਰੱਖਿਅਤ ਗ੍ਰਾਫਿਕਸ ਮੋਡ: {mode}
+	Same as Project	ਪ੍ਰੋਜੈਕਟ ਵਰਗਾ
+	Sample Rate	ਸੈਂਪਲ ਦਰ
+	Sample Rate:	ਸੈਂਪਲ ਦਰ:
+	Sample Size	ਸੈਂਪਲ ਦੀ ਬਿਟ ਡੂੰਘਾਈ
+	Sat vs Sat	ਰੰਗੀਨਤਾ ਬਨਾਮ ਰੰਗੀਨਤਾ
+	Saturation	ਰੰਗੀਨਤਾ
+	Saturation Min	ਘੱਟੋ-ਘੱਟ ਰੰਗੀਨਤਾ
+	Saturation at 50 %	50 % ਉੱਤੇ ਰੰਗੀਨਤਾ
+	Save .cfa and .pek media cache files next to original media files when possible	ਜਿੱਥੇ ਸੰਭਵ ਹੋਵੇ .cfa ਅਤੇ .pek ਮੀਡੀਆ ਕੈਸ਼ ਫ਼ਾਈਲਾਂ ਅਸਲ ਮੀਡੀਆ ਦੇ ਨਾਲ ਸੰਭਾਲੋ
+	Save All	ਸਭ ਸੰਭਾਲੋ
+	Save Arrangement	ਤਰਤੀਬ ਸੰਭਾਲੋ
+	Save Arrangement…	ਤਰਤੀਬ ਸੰਭਾਲੋ…
+	Save As	ਹੋਰ ਨਾਮ ਨਾਲ ਸੰਭਾਲੋ
+	Save As New View Preset	ਨਵੇਂ ਦ੍ਰਿਸ਼ ਪ੍ਰੀਸੈੱਟ ਵਜੋਂ ਸੰਭਾਲੋ
+	Save As…	ਹੋਰ ਨਾਮ ਨਾਲ ਸੰਭਾਲੋ…
+	Save Changes to this Workspace	ਇਸ ਵਰਕਸਪੇਸ ਦੀਆਂ ਤਬਦੀਲੀਆਂ ਸੰਭਾਲੋ
+	Save Current View Preset	ਮੌਜੂਦਾ ਦ੍ਰਿਸ਼ ਪ੍ਰੀਸੈੱਟ ਸੰਭਾਲੋ
+	Save Guides as Template	ਗਾਈਡਾਂ ਟੈਂਪਲੇਟ ਵਜੋਂ ਸੰਭਾਲੋ
+	Save Guides as Template…	ਗਾਈਡਾਂ ਟੈਂਪਲੇਟ ਵਜੋਂ ਸੰਭਾਲੋ…
+	Save Preset	ਪ੍ਰੀਸੈੱਟ ਸੰਭਾਲੋ
+	Save Preset…	ਪ੍ਰੀਸੈੱਟ ਸੰਭਾਲੋ…
+	Save Project	ਪ੍ਰੋਜੈਕਟ ਸੰਭਾਲੋ
+	Save a Copy…	ਇੱਕ ਕਾਪੀ ਸੰਭਾਲੋ…
+	Save as New Workspace…	ਨਵੇਂ ਵਰਕਸਪੇਸ ਵਜੋਂ ਸੰਭਾਲੋ…
+	Save as Template	ਨਮੂਨੇ ਵਜੋਂ ਸੰਭਾਲੋ
+	Save as Template…	ਟੈਂਪਲੇਟ ਵਜੋਂ ਸੰਭਾਲੋ…
+	Save changes to “{project_name}” before closing?	ਬੰਦ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ “{project_name}” ਦੀਆਂ ਤਬਦੀਲੀਆਂ ਸੰਭਾਲਣੀਆਂ ਹਨ?
+	Save color	ਰੰਗ ਸੰਭਾਲੋ
+	Save current settings as:	ਮੌਜੂਦਾ ਸੈਟਿੰਗਾਂ ਇਸ ਨਾਮ ਨਾਲ ਸੰਭਾਲੋ:
+	Save preset as:	ਪ੍ਰੀਸੈੱਟ ਇਸ ਨਾਮ ਨਾਲ ਸੰਭਾਲੋ:
+	Saved as a FilmCraft graphics template (.fcgt) in your templates folder.	ਤੁਹਾਡੇ ਟੈਂਪਲੇਟ ਫੋਲਡਰ ਵਿੱਚ FilmCraft ਗ੍ਰਾਫਿਕਸ ਟੈਂਪਲੇਟ (.fcgt) ਵਜੋਂ ਸੰਭਾਲਿਆ.
+	Saved preset “{name}”	“{name}” ਪ੍ਰੀਸੈੱਟ ਸੰਭਾਲਿਆ
+	Saved template {path}	ਟੈਂਪਲੇਟ {path} ਸੰਭਾਲਿਆ
+	Saves the view, columns, sort, thumbnail and font size.	ਦ੍ਰਿਸ਼, ਕਾਲਮ, ਲੜੀਬੱਧ ਕ੍ਰਮ, ਥੰਬਨੇਲ ਅਤੇ ਫ਼ੌਂਟ ਆਕਾਰ ਸੰਭਾਲਦਾ ਹੈ.
+	Saves this session's log and shows it in your file manager.	ਇਸ ਸੈਸ਼ਨ ਦਾ ਲੌਗ ਸੰਭਾਲ ਕੇ ਤੁਹਾਡੇ ਫ਼ਾਈਲ ਮੈਨੇਜਰ ਵਿੱਚ ਦਿਖਾਉਂਦਾ ਹੈ.
+	Scale (Degrees)	ਸਕੇਲ (ਡਿਗਰੀਆਂ)
+	Scale Amount	ਸਕੇਲ ਮਾਤਰਾ
+	Scale Attribute Times	ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਦੇ ਸਮੇਂ ਸਕੇਲ ਕਰੋ
+	Scale From	ਇੱਥੋਂ ਸਕੇਲ
+	Scale Height	ਉਚਾਈ ਸਕੇਲ ਕਰੋ
+	Scale Match	ਸਕੇਲ ਮੇਲ
+	Scale To	ਇੱਥੇ ਤੱਕ ਸਕੇਲ
+	Scale To Fill	ਭਰਨ ਲਈ ਸਕੇਲ ਕਰੋ
+	Scale To Fit	ਫਿੱਟ ਕਰਨ ਲਈ ਸਕੇਲ ਕਰੋ
+	Scale Width	ਚੌੜਾਈ ਸਕੇਲ ਕਰੋ
+	Scale motion effects proportionally when changing frame size	ਫਰੇਮ ਆਕਾਰ ਬਦਲਦੇ ਸਮੇਂ ਗਤੀ ਪ੍ਰਭਾਵ ਅਨੁਪਾਤ ਅਨੁਸਾਰ ਸਕੇਲ ਕਰੋ
+	Scale to Frame Size	ਫਰੇਮ ਆਕਾਰ ਤੱਕ ਸਕੇਲ ਕਰੋ
+	Scale to frame size	ਫਰੇਮ ਆਕਾਰ ਤੱਕ ਸਕੇਲ ਕਰੋ
+	Scaling	ਪੈਮਾਨਾ ਬਦਲਣਾ
+	Scan Lines	ਸਕੈਨ ਲਾਈਨਾਂ
+	Scan Presets Folder	ਪ੍ਰੀਸੈੱਟ ਫੋਲਡਰ ਸਕੈਨ ਕਰੋ
+	Scene	ਦ੍ਰਿਸ਼
+	Scene Edit Detection	ਦ੍ਰਿਸ਼ ਕੱਟ ਪਛਾਣ
+	Scene Edit Detection: analysing in the background (see Progress)	ਦ੍ਰਿਸ਼ ਕੱਟ ਪਛਾਣ: ਪਿੱਛੇ ਵਿਸ਼ਲੇਸ਼ਣ ਚੱਲ ਰਿਹਾ ਹੈ (ਤਰੱਕੀ ਵੇਖੋ)
+	Scene Edit Detection…	ਦ੍ਰਿਸ਼ ਕੱਟ ਪਛਾਣ…
+	Scene:	ਦ੍ਰਿਸ਼:
+	Scientific Filter	ਵਿਗਿਆਨਕ ਫਿਲਟਰ
+	Scratch Disks	ਅਸਥਾਈ ਕੰਮ ਦੀਆਂ ਡਿਸਕਾਂ
+	Scratch Disks…	ਅਸਥਾਈ ਕੰਮ ਦੀਆਂ ਡਿਸਕਾਂ…
+	Scratch disk location for Captured Audio	ਕੈਪਚਰ ਕੀਤੀ ਆਡੀਓ ਲਈ ਅਸਥਾਈ ਕੰਮ ਦੀ ਡਿਸਕ ਦਾ ਟਿਕਾਣਾ
+	Screen	ਸਕ੍ਰੀਨ
+	Search Bin	ਖੋਜ ਬਿਨ
+	Search commands or keys	ਕਮਾਂਡਾਂ ਜਾਂ ਕੁੰਜੀਆਂ ਖੋਜੋ
+	Search effects	ਪ੍ਰਭਾਵ ਖੋਜੋ
+	Search fields	ਖੇਤਰ ਖੋਜੋ
+	Search in:	ਇਸ ਵਿੱਚ ਖੋਜੋ:
+	Search markers	ਮਾਰਕਰ ਖੋਜੋ
+	Search name, notes, author	ਨਾਮ, ਨੋਟ, ਲੇਖਕ ਖੋਜੋ
+	Search presets	ਪ੍ਰੀਸੈੱਟ ਖੋਜੋ
+	Search templates	ਟੈਂਪਲੇਟ ਖੋਜੋ
+	Search:	ਖੋਜੋ:
+	Seconds	ਸਕਿੰਟ
+	Segmentation Marker	ਖੰਡਬੰਦੀ ਮਾਰਕਰ
+	Segments	ਖੰਡ
+	Segments:	ਖੰਡ:
+	Select All Matching	ਸਾਰੇ ਮੇਲ ਖਾਂਦੇ ਚੁਣੋ
+	Select All Project Items	ਪ੍ਰੋਜੈਕਟ ਦੀਆਂ ਸਭ ਆਈਟਮਾਂ ਚੁਣੋ
+	Select Camera 1	ਕੈਮਰਾ 1 ਚੁਣੋ
+	Select Camera 2	ਕੈਮਰਾ 2 ਚੁਣੋ
+	Select Camera 3	ਕੈਮਰਾ 3 ਚੁਣੋ
+	Select Camera 4	ਕੈਮਰਾ 4 ਚੁਣੋ
+	Select Camera 5	ਕੈਮਰਾ 5 ਚੁਣੋ
+	Select Camera 6	ਕੈਮਰਾ 6 ਚੁਣੋ
+	Select Camera 7	ਕੈਮਰਾ 7 ਚੁਣੋ
+	Select Camera 8	ਕੈਮਰਾ 8 ਚੁਣੋ
+	Select Camera 9	ਕੈਮਰਾ 9 ਚੁਣੋ
+	Select Clip at Playhead	ਪਲੇਹੈੱਡ ਉੱਤੇ ਕਲਿੱਪ ਚੁਣੋ
+	Select Find Box	ਖੋਜ ਬਕਸਾ ਚੁਣੋ
+	Select Label Group	ਲੇਬਲ ਸਮੂਹ ਚੁਣੋ
+	Select Next Clip	ਅਗਲੀ ਕਲਿੱਪ ਚੁਣੋ
+	Select Next Graphic	ਅਗਲਾ ਗ੍ਰਾਫਿਕ ਚੁਣੋ
+	Select Next Layer	ਅਗਲੀ ਪਰਤ ਚੁਣੋ
+	Select Next Panel	ਅਗਲਾ ਪੈਨਲ ਚੁਣੋ
+	Select Previous Clip	ਪਿਛਲੀ ਕਲਿੱਪ ਚੁਣੋ
+	Select Previous Graphic	ਪਿਛਲਾ ਗ੍ਰਾਫਿਕ ਚੁਣੋ
+	Select Previous Layer	ਪਿਛਲੀ ਪਰਤ ਚੁਣੋ
+	Select Previous Panel	ਪਿਛਲਾ ਪੈਨਲ ਚੁਣੋ
+	Select a clip to grade	ਰੰਗ-ਸੁਧਾਰ ਲਈ ਕਲਿੱਪ ਚੁਣੋ
+	Select a clip to see its properties	ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਵੇਖਣ ਲਈ ਕਲਿੱਪ ਚੁਣੋ
+	Select a clip to view its metadata.	ਮੈਟਾਡਾਟਾ ਵੇਖਣ ਲਈ ਕਲਿੱਪ ਚੁਣੋ.
+	Select a graphic clip, or use the Type tool (T) on the Program monitor	ਗ੍ਰਾਫਿਕ ਕਲਿੱਪ ਚੁਣੋ, ਜਾਂ ਪ੍ਰੋਗਰਾਮ ਮਾਨੀਟਰ ਉੱਤੇ ਪਾਠ ਟੂਲ (T) ਵਰਤੋ
+	Select a layer to edit its properties.	ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਸੋਧਣ ਲਈ ਪਰਤ ਚੁਣੋ.
+	Select all	ਸਭ ਚੁਣੋ
+	Select all visible markers	ਸਾਰੇ ਦਿਸਦੇ ਮਾਰਕਰ ਚੁਣੋ
+	Select an item to preview it	ਝਲਕ ਲਈ ਆਈਟਮ ਚੁਣੋ
+	Select audio clips to edit them here	ਇੱਥੇ ਸੋਧਣ ਲਈ ਆਡੀਓ ਕਲਿੱਪਾਂ ਚੁਣੋ
+	Select audio clips, then click a preset to apply it.	ਆਡੀਓ ਕਲਿੱਪਾਂ ਚੁਣੋ, ਫਿਰ ਪ੍ਰੀਸੈੱਟ ਲਾਗੂ ਕਰਨ ਲਈ ਉਸ ਉੱਤੇ ਕਲਿੱਕ ਕਰੋ.
+	Select items to clear	ਸਾਫ਼ ਕਰਨ ਵਾਲੀਆਂ ਆਈਟਮਾਂ ਚੁਣੋ
+	Select one clip (or a linked clip) in the Timeline, or one item in the Project panel, to rename	ਨਾਮ ਬਦਲਣ ਲਈ ਟਾਈਮਲਾਈਨ ਵਿੱਚ ਇੱਕ ਕਲਿੱਪ (ਜਾਂ ਲਿੰਕ ਕੀਤੀ ਕਲਿੱਪ), ਜਾਂ ਪ੍ਰੋਜੈਕਟ ਪੈਨਲ ਵਿੱਚ ਇੱਕ ਆਈਟਮ ਚੁਣੋ
+	Select to Next Line	ਅਗਲੀ ਲਾਈਨ ਤੱਕ ਚੁਣੋ
+	Select to Next Word	ਅਗਲੇ ਸ਼ਬਦ ਤੱਕ ਚੁਣੋ
+	Select to Previous Line	ਪਿਛਲੀ ਲਾਈਨ ਤੱਕ ਚੁਣੋ
+	Select to Previous Word	ਪਿਛਲੇ ਸ਼ਬਦ ਤੱਕ ਚੁਣੋ
+	Select to Segment End	ਖੰਡ ਦੇ ਅੰਤ ਤੱਕ ਚੁਣੋ
+	Select to Segment Start	ਖੰਡ ਦੇ ਸ਼ੁਰੂ ਤੱਕ ਚੁਣੋ
+	Selected: {command}	ਚੁਣਿਆ: {command}
+	Selection Follows Playhead	ਚੋਣ ਪਲੇਹੈੱਡ ਅਨੁਸਾਰ ਚੱਲਦੀ ਹੈ
+	Selection Order	ਚੋਣ ਕ੍ਰਮ
+	Selection Tool	ਚੋਣ ਟੂਲ
+	Selection as FilmCraft Project…	FilmCraft ਪ੍ਰੋਜੈਕਟ ਵਜੋਂ ਚੋਣ…
+	Selection…	ਚੋਣ…
+	Semi-tones	ਅੱਧੇ ਸੁਰ
+	Send Backward	ਪਿੱਛੇ ਭੇਜੋ
+	Send exports here with Send to Queue, then start the queue.	ਇੱਥੇ ਭੇਜੋ, ਫਿਰ ਕਤਾਰ ਸ਼ੁਰੂ ਕਰੋ. ਨਿਰਯਾਤ ਜੋੜਨ ਲਈ ਕਤਾਰ ਵਿੱਚ ਭੇਜੋ ਵਰਤੋ.
+	Send to Back	ਸਭ ਤੋਂ ਪਿੱਛੇ ਭੇਜੋ
+	Send to Queue	ਕਤਾਰ ਵਿੱਚ ਭੇਜੋ
+	Send {n} Level	ਸੈਂਡ {n} ਪੱਧਰ
+	Sensitivity:	ਸੰਵੇਦਨਸ਼ੀਲਤਾ:
+	Separate Audio	ਆਡੀਓ ਵੱਖ ਕਰੋ
+	Separate Files	ਵੱਖਰੀਆਂ ਫ਼ਾਈਲਾਂ
+	Sepia Tone	ਸੇਪੀਆ ਟੋਨ
+	Sequence	ਸੀਕਵੈਂਸ
+	Sequence Color Management	ਸੀਕਵੈਂਸ ਰੰਗ ਪ੍ਰਬੰਧਨ
+	Sequence From Clip	ਕਲਿੱਪ ਤੋਂ ਸੀਕਵੈਂਸ
+	Sequence Name	ਸੀਕਵੈਂਸ ਦਾ ਨਾਮ
+	Sequence Name:	ਸੀਕਵੈਂਸ ਦਾ ਨਾਮ:
+	Sequence Settings	ਸੀਕਵੈਂਸ ਸੈਟਿੰਗਾਂ
+	Sequence Settings…	ਸੀਕਵੈਂਸ ਸੈਟਿੰਗਾਂ…
+	Sequence Time	ਸੀਕਵੈਂਸ ਸਮਾਂ
+	Sequence Timecode	ਸੀਕਵੈਂਸ ਟਾਈਮਕੋਡ
+	Sequence name	ਸੀਕਵੈਂਸ ਦਾ ਨਾਮ
+	Sequence, {w}x{h}, {fps} fps, {rate} Hz	ਸੀਕਵੈਂਸ, {w}x{h}, {fps} fps, {rate} Hz
+	Sequences	ਸੀਕਵੈਂਸ
+	Sequence…	ਸੀਕਵੈਂਸ…
+	Sequentially	ਕ੍ਰਮਵਾਰ
+	Set	ਸੈੱਟ ਕਰੋ
+	Set Comparison Reference	ਤੁਲਨਾ ਹਵਾਲਾ ਨਿਰਧਾਰਤ ਕਰੋ
+	Set Creative Look	ਰਚਨਾਤਮਕ ਦਿੱਖ ਨਿਰਧਾਰਤ ਕਰੋ
+	Set Gain to:	ਗੇਨ ਇਸ ਉੱਤੇ ਸੈੱਟ ਕਰੋ:
+	Set Input LUT	ਇਨਪੁੱਟ LUT ਨਿਰਧਾਰਤ ਕਰੋ
+	Set Poster Frame	ਪੋਸਟਰ ਫਰੇਮ ਨਿਰਧਾਰਤ ਕਰੋ
+	Set Project Panel View	ਪ੍ਰੋਜੈਕਟ ਪੈਨਲ ਦ੍ਰਿਸ਼ ਨਿਰਧਾਰਤ ਕਰੋ
+	Set Timecode:	ਟਾਈਮਕੋਡ ਨਿਰਧਾਰਤ ਕਰੋ:
+	Set Transition Duration	ਟ੍ਰਾਂਜ਼ਿਸ਼ਨ ਮਿਆਦ ਨਿਰਧਾਰਤ ਕਰੋ
+	Set as Default Transition	ਮੂਲ ਟ੍ਰਾਂਜ਼ਿਸ਼ਨ ਵਜੋਂ ਨਿਰਧਾਰਤ ਕਰੋ
+	Set focus on the Timeline when performing Insert/Overwrite edits	ਇਨਸਰਟ/ਓਵਰਰਾਈਟ ਸੰਪਾਦਨ ਕਰਦੇ ਸਮੇਂ ਟਾਈਮਲਾਈਨ ਉੱਤੇ ਫੋਕਸ ਰੱਖੋ
+	Set the reference to the playhead	ਹਵਾਲਾ ਪਲੇਹੈੱਡ ਉੱਤੇ ਨਿਰਧਾਰਤ ਕਰੋ
+	Set to frame size	ਫਰੇਮ ਆਕਾਰ ਉੱਤੇ ਸੈੱਟ ਕਰੋ
+	Setting	ਸੈਟਿੰਗ
+	Settings:	ਸੈਟਿੰਗਾਂ:
+	Shadow	ਪਰਛਾਵਾਂ
+	Shadow Angle	ਪਰਛਾਵੇਂ ਦਾ ਕੋਣ
+	Shadow Blue Balance	ਪਰਛਾਵਿਆਂ ਦਾ ਨੀਲਾ ਸੰਤੁਲਨ
+	Shadow Blur	ਪਰਛਾਵੇਂ ਦਾ ਧੁੰਦਲਾਪਣ
+	Shadow Color	ਪਰਛਾਵੇਂ ਦਾ ਰੰਗ
+	Shadow Distance	ਪਰਛਾਵੇਂ ਦੀ ਦੂਰੀ
+	Shadow Green Balance	ਪਰਛਾਵਿਆਂ ਦਾ ਹਰਾ ਸੰਤੁਲਨ
+	Shadow Only	ਕੇਵਲ ਪਰਛਾਵਾਂ
+	Shadow Opacity	ਪਰਛਾਵੇਂ ਦੀ ਅਪਾਰਦਰਸ਼ਤਾ
+	Shadow Red Balance	ਪਰਛਾਵਿਆਂ ਦਾ ਲਾਲ ਸੰਤੁਲਨ
+	Shadow Size	ਪਰਛਾਵੇਂ ਦਾ ਆਕਾਰ
+	Shadow Tint	ਪਰਛਾਵੇਂ ਦੀ ਰੰਗਤ
+	Shadows	ਛਾਵਾਂ
+	Shadows Lightness	ਪਰਛਾਵਿਆਂ ਦਾ ਹਲਕਾਪਣ
+	Shake	ਕੰਬਣ
+	Shape	ਸ਼ਕਲ
+	Shape Dissolve	ਸ਼ਕਲ ਡਿਜ਼ਾਲਵ
+	Shape Flow	ਸ਼ਕਲ ਪ੍ਰਵਾਹ
+	Shape Size	ਸ਼ਕਲ ਦਾ ਆਕਾਰ
+	Shapes	ਆਕਾਰ
+	Shard Size	ਟੁਕੜੇ ਦਾ ਆਕਾਰ
+	Sharp Colors	ਤਿੱਖੇ ਰੰਗ
+	Sharpen	ਤਿੱਖਾ ਕਰੋ
+	Sharpen Amount	ਤਿੱਖੇਪਣ ਦੀ ਮਾਤਰਾ
+	Shift	Shift
+	Shift Center To	ਕੇਂਦਰ ਇੱਥੇ ਖਿਸਕਾਓ
+	Shift clips that overlap trim point during ripple trimming	ਰਿਪਲ ਟ੍ਰਿਮ ਵੇਲੇ ਟ੍ਰਿਮ ਬਿੰਦੂ ਨਾਲ ਓਵਰਲੈਪ ਕਰਦੀਆਂ ਕਲਿੱਪਾਂ ਹਿਲਾਓ
+	Shot	ਸ਼ਾਟ
+	Shot/Take:	ਸ਼ਾਟ/ਟੇਕ:
+	Show "Project:" and "Bin:" in Project panel tab	ਪ੍ਰੋਜੈਕਟ ਪੈਨਲ ਟੈਬ ਵਿੱਚ "Project:" ਅਤੇ "Bin:" ਦਿਖਾਓ
+	Show Active Caption Tracks Only	ਕੇਵਲ ਸਰਗਰਮ ਉਪਸਿਰਲੇਖ ਟ੍ਰੈਕ ਦਿਖਾਓ
+	Show All Caption Tracks	ਸਾਰੇ ਉਪਸਿਰਲੇਖ ਟ੍ਰੈਕ ਦਿਖਾਓ
+	Show All Marker Colors	ਸਾਰੇ ਮਾਰਕਰ ਰੰਗ ਦਿਖਾਓ
+	Show Audio Names	ਆਡੀਓ ਨਾਂ ਦਿਖਾਓ
+	Show Audio Waveform	ਆਡੀਓ ਵੇਵਫਾਰਮ ਦਿਖਾਓ
+	Show Clip Mismatch Warning dialog	ਕਲਿੱਪ ਬੇਮੇਲ ਚੇਤਾਵਨੀ ਡਾਇਲਾਗ ਦਿਖਾਓ
+	Show Dot	ਬਿੰਦੂ ਦਿਖਾਓ
+	Show Duplicate Frame Markers	ਦੁਹਰਾਏ ਫਰੇਮ ਮਾਰਕਰ ਦਿਖਾਓ
+	Show Event Indicator	ਘਟਨਾ ਸੰਕੇਤਕ ਦਿਖਾਓ
+	Show Focus Area	ਫੋਕਸ ਖੇਤਰ ਦਿਖਾਓ
+	Show Guides	ਗਾਈਡਾਂ ਦਿਖਾਓ
+	Show Home	ਮੁੱਖ ਸਕ੍ਰੀਨ ਦਿਖਾਓ
+	Show Keyframes	ਕੀਫਰੇਮ ਦਿਖਾਓ
+	Show Mask	ਮਾਸਕ ਦਿਖਾਓ
+	Show Mask Tracker Preview	ਮਾਸਕ ਟ੍ਰੈਕਰ ਝਲਕ ਦਿਖਾਓ
+	Show Multi-Camera Preview Monitor	ਮਲਟੀ-ਕੈਮਰਾ ਝਲਕ ਮਾਨੀਟਰ ਦਿਖਾਓ
+	Show Next Screen	ਅਗਲੀ ਸਕ੍ਰੀਨ ਦਿਖਾਓ
+	Show Only Noise	ਕੇਵਲ ਨੌਇਜ਼ ਦਿਖਾਓ
+	Show Open Dialog	ਖੋਲ੍ਹਣ ਦਾ ਡਾਇਲਾਗ ਦਿਖਾਓ
+	Show Previous Screen	ਪਿਛਲੀ ਸਕ੍ਰੀਨ ਦਿਖਾਓ
+	Show Program Transcript	ਪ੍ਰੋਗਰਾਮ ਦਾ ਲਿਪੀਬੱਧ ਪਾਠ ਦਿਖਾਓ
+	Show Project Load Error Dialog	ਪ੍ਰੋਜੈਕਟ ਲੋਡ ਗਲਤੀ ਡਾਇਲਾਗ ਦਿਖਾਓ
+	Show Rich Tool Tips	ਵਿਸਤ੍ਰਿਤ ਟੂਲਟਿੱਪ ਦਿਖਾਓ
+	Show Role	ਭੂਮਿਕਾ ਦਿਖਾਓ
+	Show Rulers	ਰੂਲਰ ਦਿਖਾਓ
+	Show Through Edits	ਲਗਾਤਾਰ ਕੱਟ ਦਿਖਾਓ
+	Show Tool Tips	ਟੂਲਟਿੱਪ ਦਿਖਾਓ
+	Show Transport Controls	ਪਲੇਬੈਕ ਕੰਟਰੋਲ ਦਿਖਾਓ
+	Show Video Names	ਵੀਡੀਓ ਨਾਂ ਦਿਖਾਓ
+	Show Video Thumbnails	ਵੀਡੀਓ ਥੰਬਨੇਲ ਦਿਖਾਓ
+	Show Workspace Reset Warning dialog on double click	ਦੋ ਵਾਰ ਕਲਿੱਕ ਕਰਨ ਉੱਤੇ ਵਰਕਸਪੇਸ ਮੁੜ ਸੈੱਟ ਚੇਤਾਵਨੀ ਡਾਇਲਾਗ ਦਿਖਾਓ
+	Show clip names	ਕਲਿੱਪਾਂ ਦੇ ਨਾਂ ਦਿਖਾਓ
+	Show durations	ਮਿਆਦਾਂ ਦਿਖਾਓ
+	Show finished jobs	ਮੁਕੰਮਲ ਕੰਮ ਦਿਖਾਓ
+	Show graphs	ਗ੍ਰਾਫ ਦਿਖਾਓ
+	Show in the Preset menu	ਪ੍ਰੀਸੈੱਟ ਮੀਨੂ ਵਿੱਚ ਦਿਖਾਓ
+	Show or hide {color} markers	{color} ਮਾਰਕਰ ਦਿਖਾਓ ਜਾਂ ਲੁਕਾਓ
+	Show system compatibility issues at startup	ਸ਼ੁਰੂ ਕਰਨ ਵੇਲੇ ਸਿਸਟਮ ਅਨੁਕੂਲਤਾ ਸਮੱਸਿਆਵਾਂ ਦਿਖਾਓ
+	Show the presets folder	ਪ੍ਰੀਸੈੱਟ ਫੋਲਡਰ ਦਿਖਾਓ
+	Show {n}	{n} ਦਿਖਾਓ
+	Show/Hide Effects and Sends	ਪ੍ਰਭਾਵ ਅਤੇ ਸੈਂਡ ਦਿਖਾਓ/ਲੁਕਾਓ
+	Show/Hide Tracks	ਟ੍ਰੈਕ ਦਿਖਾਓ/ਲੁਕਾਓ
+	Show/Hide Tracks…	ਟ੍ਰੈਕ ਦਿਖਾਓ/ਲੁਕਾਓ…
+	Shows a report on this computer.	ਇਸ ਕੰਪਿਊਟਰ ਬਾਰੇ ਰਿਪੋਰਟ ਦਿਖਾਉਂਦਾ ਹੈ.
+	Shows the version, community links and credits in a FilmCraft window.	FilmCraft ਵਿੰਡੋ ਵਿੱਚ ਵਰਜਨ, ਭਾਈਚਾਰਾ ਲਿੰਕ ਅਤੇ ਕ੍ਰੈਡਿਟ ਦਿਖਾਉਂਦਾ ਹੈ.
+	Shrink	ਸੁੰਗੜੋ
+	Shutter Angle	ਸ਼ਟਰ ਕੋਣ
+	Shuttle Left	ਸ਼ਟਲ ਖੱਬੇ
+	Shuttle Right	ਸ਼ਟਲ ਸੱਜੇ
+	Shuttle Slow Left	ਸ਼ਟਲ ਹੌਲੀ ਖੱਬੇ
+	Shuttle Slow Right	ਸ਼ਟਲ ਹੌਲੀ ਸੱਜੇ
+	Shuttle Stop	ਸ਼ਟਲ ਰੋਕੋ
+	Signal Scale	ਸਿਗਨਲ ਸਕੇਲ
+	Silver Retention	ਚਾਂਦੀ ਕਾਇਮ ਰੱਖਣਾ
+	Similarity	ਸਮਾਨਤਾ
+	Simple Notch Filter	ਸਧਾਰਨ ਨੌਚ ਫਿਲਟਰ
+	Simple Parametric EQ	ਸਧਾਰਨ ਪੈਰਾਮੈਟ੍ਰਿਕ EQ
+	Simple Text	ਸਧਾਰਨ ਪਾਠ
+	Simplify	ਸਧਾਰਨ ਬਣਾਓ
+	Simplify Sequence	ਸੀਕਵੈਂਸ ਸਰਲ ਕਰੋ
+	Simplify Sequence…	ਸੀਕਵੈਂਸ ਸਰਲ ਕਰੋ…
+	Single-band Compressor	ਇੱਕ-ਬੈਂਡ ਕੰਪ੍ਰੈਸਰ
+	Sinusoidal	ਸਾਈਨਸੌਇਡਲ
+	Six procedural 1080p clips with sound	ਧੁਨੀ ਨਾਲ ਛੇ ਪ੍ਰਕਿਰਿਆਤਮਕ 1080p ਕਲਿੱਪਾਂ
+	Size / Opacity	ਆਕਾਰ / ਅਪਾਰਦਰਸ਼ਤਾ
+	Skew	ਤਿਰਛਾਪਣ
+	Skew Axis	ਤਿਰਛਾਪਣ ਧੁਰਾ
+	Slab Color	ਪੱਟੀ ਦਾ ਰੰਗ
+	Slats	ਪੱਟੀਆਂ
+	Slice	ਸਲਾਈਸ
+	Slices	ਸਲਾਈਸ
+	Slide	ਸਲਾਈਡ
+	Slide (Legacy)	ਸਲਾਈਡ (ਪੁਰਾਣਾ)
+	Slide Clip Selection Left Five Frames	ਕਲਿੱਪ ਚੋਣ ਖੱਬੇ ਪੰਜ ਫਰੇਮ ਸਲਾਈਡ ਕਰੋ
+	Slide Clip Selection Left One Frame	ਕਲਿੱਪ ਚੋਣ ਖੱਬੇ ਇੱਕ ਫਰੇਮ ਸਲਾਈਡ ਕਰੋ
+	Slide Clip Selection Right Five Frames	ਕਲਿੱਪ ਚੋਣ ਸੱਜੇ ਪੰਜ ਫਰੇਮ ਸਲਾਈਡ ਕਰੋ
+	Slide Clip Selection Right One Frame	ਕਲਿੱਪ ਚੋਣ ਸੱਜੇ ਇੱਕ ਫਰੇਮ ਸਲਾਈਡ ਕਰੋ
+	Slide Tool	ਸਲਾਈਡ ਟੂਲ
+	Slip Clip Selection Left Five Frames	ਕਲਿੱਪ ਚੋਣ ਖੱਬੇ ਪੰਜ ਫਰੇਮ ਸਲਿੱਪ ਕਰੋ
+	Slip Clip Selection Left One Frame	ਕਲਿੱਪ ਚੋਣ ਖੱਬੇ ਇੱਕ ਫਰੇਮ ਸਲਿੱਪ ਕਰੋ
+	Slip Clip Selection Right Five Frames	ਕਲਿੱਪ ਚੋਣ ਸੱਜੇ ਪੰਜ ਫਰੇਮ ਸਲਿੱਪ ਕਰੋ
+	Slip Clip Selection Right One Frame	ਕਲਿੱਪ ਚੋਣ ਸੱਜੇ ਇੱਕ ਫਰੇਮ ਸਲਿੱਪ ਕਰੋ
+	Slip Tool	ਸਲਿੱਪ ਟੂਲ
+	Slope	ਢਲਾਣ
+	Slow	ਹੌਲੀ
+	Slower Motion	ਹੌਲੀ ਚਾਲ
+	Small	ਛੋਟਾ
+	Small Caps	ਛੋਟੇ ਵੱਡੇ ਅੱਖਰ
+	Small Room	ਛੋਟਾ ਕਮਰਾ
+	Smaller	ਵਧੇਰੇ ਛੋਟਾ
+	Smart Limit	ਸਮਾਰਟ ਸੀਮਾ
+	Smart Tools	ਸਮਾਰਟ ਟੂਲ
+	Smart quotes	ਸਮਾਰਟ ਹਵਾਲਾ ਚਿੰਨ੍ਹ
+	Smooth	ਨਰਮ
+	Smooth Motion	ਨਰਮ ਚਾਲ
+	Smooth Scroll	ਨਰਮ ਸਕ੍ਰੋਲ
+	Smoothness	ਨਰਮੀ
+	Snap in Program Monitor	ਪ੍ਰੋਗਰਾਮ ਮਾਨੀਟਰ ਵਿੱਚ ਸਨੈਪ ਕਰੋ
+	Snap in Timeline	ਟਾਈਮਲਾਈਨ ਵਿੱਚ ਸਨੈਪ ਕਰੋ
+	Snap in Timeline (S)	ਟਾਈਮਲਾਈਨ ਵਿੱਚ ਸਨੈਪ ਕਰੋ (S)
+	Snap playhead in Timeline when Snap is enabled	ਸਨੈਪ ਯੋਗ ਹੋਣ ਉੱਤੇ ਟਾਈਮਲਾਈਨ ਵਿੱਚ ਪਲੇਹੈੱਡ ਸਨੈਪ ਕਰੋ
+	Snap to grid	ਗਰਿੱਡ ਨਾਲ ਸਨੈਪ ਕਰੋ
+	Social Vertical 1080×1920	ਸੋਸ਼ਲ ਖੜ੍ਹਵਾਂ 1080×1920
+	Soft	ਨਰਮ
+	Soft Clamp	ਨਰਮ ਸੀਮਾ
+	Soft Clip	ਸਾਫਟ ਕਲਿੱਪ
+	Soft Edges (Best Quality)	ਨਰਮ ਕਿਨਾਰੇ (ਵਧੀਆ ਗੁਣਵੱਤਾ)
+	Soft Light	ਸਾਫਟ ਲਾਈਟ
+	Soft Vignette	ਨਰਮ ਵਿਨਿਏਟ
+	Soft Wipe	ਨਰਮ ਵਾਈਪ
+	Soften	ਨਰਮ ਕਰੋ
+	Soften Harshness	ਕਰੜਾਪਣ ਨਰਮ ਕਰੋ
+	Softness	ਨਰਮੀ
+	Solarize	ਸੋਲਰਾਈਜ਼ ਕਰੋ
+	Solid	ਠੋਸ
+	Solid Colors	ਇਕਸਾਰ ਰੰਗ
+	Solo	ਸੋਲੋ
+	Solo safe	ਸੋਲੋ-ਸੁਰੱਖਿਅਤ
+	Something went wrong while drawing the window. Your project is still open; save it to be safe.	ਵਿੰਡੋ ਬਣਾਉਂਦੇ ਸਮੇਂ ਗਲਤੀ ਆਈ. ਤੁਹਾਡਾ ਪ੍ਰੋਜੈਕਟ ਹਾਲੇ ਖੁੱਲ੍ਹਾ ਹੈ; ਸੁਰੱਖਿਆ ਲਈ ਸੰਭਾਲ ਲਵੋ.
+	Sort Icons	ਆਈਕਨ ਲੜੀਬੱਧ ਕਰੋ
+	Sort Order	ਲੜੀਬੱਧ ਕ੍ਰਮ
+	Source In/Out	ਸਰੋਤ ਇਨ/ਆਊਟ
+	Source In/Out is only 1 frame. Choose Entire Source to export the whole sequence.	ਸਰੋਤ ਇਨ/ਆਊਟ ਸਿਰਫ਼ 1 ਫਰੇਮ ਹੈ. ਪੂਰਾ ਸੀਕਵੈਂਸ ਨਿਰਯਾਤ ਕਰਨ ਲਈ ਪੂਰਾ ਸਰੋਤ ਚੁਣੋ.
+	Source Play/Stop	ਸਰੋਤ ਚਲਾਓ/ਰੋਕੋ
+	Source Point	ਸਰੋਤ ਬਿੰਦੂ
+	Source Settings	ਸਰੋਤ ਸੈਟਿੰਗਾਂ
+	Source Settings…	ਸਰੋਤ ਸੈਟਿੰਗਾਂ…
+	Source Text	ਸਰੋਤ ਪਾਠ
+	Source Timecode	ਸਰੋਤ ਟਾਈਮਕੋਡ
+	Source channels the selected audio clips play:	ਚੁਣੀਆਂ ਆਡੀਓ ਕਲਿੱਪਾਂ ਵੱਲੋਂ ਚਲਾਏ ਸਰੋਤ ਚੈਨਲ:
+	Source code on GitHub	GitHub 'ਤੇ ਸਰੋਤ ਕੋਡ
+	Source · {name}	ਸਰੋਤ · {name}
+	Source:	ਸਰੋਤ:
+	Spacer	ਫ਼ਾਸਲਾ ਦੇਣ ਵਾਲਾ
+	Spanish	ਸਪੇਨੀ
+	Speaker	ਬੋਲਣ ਵਾਲਾ
+	Speaker Angle	ਸਪੀਕਰ ਕੋਣ
+	Speaker Labeling	ਬੋਲਣ ਵਾਲੇ ਦਾ ਲੇਬਲ
+	Special Effects	ਖ਼ਾਸ ਪ੍ਰਭਾਵ
+	Speech model	ਬੋਲੀ ਮਾਡਲ
+	Speech-to-text turns the dialogue into editable text.	ਬੋਲੀ-ਤੋਂ-ਪਾਠ ਡਾਇਲਾਗ ਨੂੰ ਸੋਧਣਯੋਗ ਪਾਠ ਵਿੱਚ ਬਦਲਦਾ ਹੈ.
+	Speed {n}%	ਗਤੀ {n}%
+	Speed/Duration…	ਗਤੀ/ਮਿਆਦ…
+	Speed:	ਗਤੀ:
+	Spherize	ਗੋਲਾਕਾਰ ਬਣਾਓ
+	Spiky	ਨੁਕੀਲਾ
+	Spill	ਰੰਗ ਛਲਕਾਅ
+	Spill Suppression	ਰੰਗ ਛਲਕਾਅ ਦਮਨ
+	Spin	ਘੁੰਮਾਓ
+	Spin Direction	ਘੁੰਮਣ ਦੀ ਦਿਸ਼ਾ
+	Spin Motion	ਘੁੰਮਣ ਦੀ ਚਾਲ
+	Split (Legacy)	ਵੰਡੋ (ਪੁਰਾਣਾ)
+	Split Caption	ਉਪਸਿਰਲੇਖ ਵੰਡੋ
+	Split caption at playhead	ਪਲੇਹੈੱਡ ਉੱਤੇ ਉਪਸਿਰਲੇਖ ਵੰਡੋ
+	Spotlight	ਸਪਾਟਲਾਈਟ
+	Spread	ਫੈਲਾਅ
+	Spring Motion	ਸਪਰਿੰਗ ਚਾਲ
+	Square (Width Only)	ਵਰਗ (ਕੇਵਲ ਚੌੜਾਈ)
+	Square 1:1	ਵਰਗ 1:1
+	Square Pixels (1.0)	ਵਰਗ ਪਿਕਸਲ (1.0)
+	Stabilization	ਸਥਿਰਤਾ
+	Stabilize Only	ਕੇਵਲ ਸਥਿਰ ਕਰੋ
+	Stabilize, Crop	ਸਥਿਰ ਕਰੋ, ਕਿਨਾਰੇ ਕੱਟੋ
+	Stabilize, Crop, Auto-scale	ਸਥਿਰ ਕਰੋ, ਕਿਨਾਰੇ ਕੱਟੋ, ਆਪਣੇ ਆਪ ਸਕੇਲ ਕਰੋ
+	Stabilize, Synthesize Edges	ਸਥਿਰ ਕਰੋ, ਕਿਨਾਰੇ ਬਣਾਓ
+	Stack	ਢੇਰ
+	Stack Clips	ਕਲਿੱਪਾਂ ਦਾ ਢੇਰ ਲਗਾਓ
+	Stages	ਪੜਾਅ
+	Star Wipe	ਤਾਰਾ ਵਾਈਪ
+	Start Angle	ਸ਼ੁਰੂਆਤੀ ਕੋਣ
+	Start Color	ਸ਼ੁਰੂਆਤੀ ਰੰਗ
+	Start Export Queue	ਨਿਰਯਾਤ ਕਤਾਰ ਸ਼ੁਰੂ ਕਰੋ
+	Start Off Screen	ਸਕ੍ਰੀਨ ਤੋਂ ਬਾਹਰ ਸ਼ੁਰੂ ਕਰੋ
+	Start Point	ਸ਼ੁਰੂ ਬਿੰਦੂ
+	Start Queue	ਕਤਾਰ ਸ਼ੁਰੂ ਕਰੋ
+	Start Voice-over Recording	ਵੌਇਸ-ਓਵਰ ਰਿਕਾਰਡਿੰਗ ਸ਼ੁਰੂ ਕਰੋ
+	Start at 0	0 ਤੋਂ ਸ਼ੁਰੂ ਕਰੋ
+	Start at 1	1 ਤੋਂ ਸ਼ੁਰੂ ਕਰੋ
+	Start of Ramp	ਰੈਂਪ ਦੀ ਸ਼ੁਰੂਆਤ
+	Start with an Empty Project	ਖਾਲੀ ਪ੍ਰੋਜੈਕਟ ਨਾਲ ਸ਼ੁਰੂ ਕਰੋ
+	Start:	ਸ਼ੁਰੂ:
+	Start: {tc}	ਸ਼ੁਰੂ: {tc}
+	Starting Intensity	ਸ਼ੁਰੂਆਤੀ ਤੀਬਰਤਾ
+	Static Plates	ਸਥਿਰ ਪਲੇਟਾਂ
+	Steel Blue	ਸਟੀਲ ਨੀਲਾ
+	Step Back 1 Frame	1 ਫਰੇਮ ਪਿੱਛੇ ਜਾਓ
+	Step Back 1 Frame (Left)	1 ਫਰੇਮ ਪਿੱਛੇ ਜਾਓ (Left)
+	Step Back Five Frames	ਪੰਜ ਫਰੇਮ ਪਿੱਛੇ ਜਾਓ
+	Step Back One Frame	ਇੱਕ ਫਰੇਮ ਪਿੱਛੇ ਜਾਓ
+	Step Forward 1 Frame	1 ਫਰੇਮ ਅੱਗੇ ਜਾਓ
+	Step Forward 1 Frame (Right)	1 ਫਰੇਮ ਅੱਗੇ ਜਾਓ (Right)
+	Step Forward Five Frames	ਪੰਜ ਫਰੇਮ ਅੱਗੇ ਜਾਓ
+	Step Forward One Frame	ਇੱਕ ਫਰੇਮ ਅੱਗੇ ਜਾਓ
+	Step forward/back many	ਕਈ ਫਰੇਮ ਅੱਗੇ/ਪਿੱਛੇ ਜਾਓ
+	Stereo	ਸਟੀਰੀਓ
+	Stereo Expand	ਸਟੀਰੀਓ ਫੈਲਾਅ
+	Stereo Expander	ਸਟੀਰੀਓ ਫੈਲਾਉਣ ਵਾਲਾ
+	Stereo Imagery	ਸਟੀਰੀਓ ਚਿੱਤਰਣ
+	Stereo Media	ਸਟੀਰੀਓ ਮੀਡੀਆ
+	Stereo Phasing	ਸਟੀਰੀਓ ਫੇਜ਼ਿੰਗ
+	Stereo Width	ਸਟੀਰੀਓ ਚੌੜਾਈ
+	Stereoscopic - Over/Under	ਸਟੀਰੀਓਸਕੋਪਿਕ - ਉੱਪਰ/ਹੇਠਾਂ
+	Stereoscopic - Side by Side	ਸਟੀਰੀਓਸਕੋਪਿਕ - ਨਾਲ-ਨਾਲ
+	Still	ਸਥਿਰ ਚਿੱਤਰ
+	Still Image Default Duration	ਸਥਿਰ ਚਿੱਤਰ ਦੀ ਮੂਲ ਮਿਆਦ
+	Stone Church	ਪੱਥਰ ਦਾ ਗਿਰਜਾਘਰ
+	Stop Export Queue	ਨਿਰਯਾਤ ਕਤਾਰ ਰੋਕੋ
+	Stop Multi-Camera Recording	ਮਲਟੀ-ਕੈਮਰਾ ਰਿਕਾਰਡਿੰਗ ਰੋਕੋ
+	Stop Source	ਸਰੋਤ ਰੋਕੋ
+	Stop Voice-over Recording	ਵੌਇਸ-ਓਵਰ ਰਿਕਾਰਡਿੰਗ ਰੋਕੋ
+	Stop tracking	ਟ੍ਰੈਕਿੰਗ ਰੋਕੋ
+	Stopband Attenuation	ਸਟਾਪਬੈਂਡ ਦਮਨ
+	Straight Color	ਸਿੱਧਾ ਰੰਗ
+	Strength	ਤਾਕਤ
+	Stretch	ਖਿੱਚ ਕੇ ਲੰਬਾ ਕਰੋ
+	Stretch Gradient to Fit	ਫਿੱਟ ਕਰਨ ਲਈ ਗ੍ਰੇਡੀਐਂਟ ਖਿੱਚੋ
+	Stretch Map to Fit	ਫਿੱਟ ਕਰਨ ਲਈ ਮੈਪ ਖਿੱਚੋ
+	Stretch To Fill	ਭਰਨ ਲਈ ਖਿੱਚੋ
+	Stretch Width or Height	ਚੌੜਾਈ ਜਾਂ ਉਚਾਈ ਖਿੱਚੋ
+	Stretch Wipe	ਸਟ੍ਰੈਚ ਵਾਈਪ
+	Stretch to Fit Frame	ਫਰੇਮ ਵਿੱਚ ਫਿੱਟ ਕਰਨ ਲਈ ਖਿੱਚੋ
+	Stripe	ਧਾਰੀ
+	Stripes	ਧਾਰੀਆਂ
+	Strobe Color	ਸਟ੍ਰੋਬ ਰੰਗ
+	Strobe Duration (secs)	ਸਟ੍ਰੋਬ ਮਿਆਦ (ਸਕਿੰਟ)
+	Strobe Light	ਸਟ੍ਰੋਬ ਰੌਸ਼ਨੀ
+	Strobe Period (secs)	ਸਟ੍ਰੋਬ ਅੰਤਰਾਲ (ਸਕਿੰਟ)
+	Stroke	ਸਟ੍ਰੋਕ
+	Stroke 2	ਸਟ੍ਰੋਕ 2
+	Stroke 2 Color	ਸਟ੍ਰੋਕ 2 ਦਾ ਰੰਗ
+	Stroke 2 Type	ਸਟ੍ਰੋਕ 2 ਦੀ ਕਿਸਮ
+	Stroke 2 Width	ਸਟ੍ਰੋਕ 2 ਦੀ ਚੌੜਾਈ
+	Stroke Angle	ਸਟ੍ਰੋਕ ਕੋਣ
+	Stroke Color	ਸਟ੍ਰੋਕ ਦਾ ਰੰਗ
+	Stroke Density	ਸਟ੍ਰੋਕ ਘਣਤਾ
+	Stroke Length	ਸਟ੍ਰੋਕ ਦੀ ਲੰਬਾਈ
+	Stroke Length (secs)	ਸਟ੍ਰੋਕ ਲੰਬਾਈ (ਸਕਿੰਟ)
+	Stroke Only	ਕੇਵਲ ਸਟ੍ਰੋਕ
+	Stroke Randomness	ਸਟ੍ਰੋਕ ਬੇਤਰਤੀਬੀ
+	Stroke Type	ਸਟ੍ਰੋਕ ਕਿਸਮ
+	Stroke Width	ਸਟ੍ਰੋਕ ਦੀ ਚੌੜਾਈ
+	Stroke line cap	ਸਟ੍ਰੋਕ ਰੇਖਾ ਦਾ ਸਿਰਾ
+	Stroke line join	ਸਟ੍ਰੋਕ ਰੇਖਾ ਦਾ ਜੋੜ
+	Studio	ਸਟੂਡੀਓ
+	Studio Reverb	ਸਟੂਡੀਓ ਰੀਵਰਬ
+	Stylize	ਸ਼ੈਲੀ ਦਿਓ
+	SubRip Subtitle (.srt)	SubRip ਉਪਸਿਰਲੇਖ (.srt)
+	Subclip End	ਸਬਕਲਿੱਪ ਅੰਤ
+	Subclip Start	ਸਬਕਲਿੱਪ ਸ਼ੁਰੂ
+	Subclip: {name}	ਸਬਕਲਿੱਪ: {name}
+	Subspace Warp	ਸਬਸਪੇਸ ਵਾਰਪ
+	Subtitle	ਉਪਸਿਰਲੇਖ
+	Subtract	ਘਟਾਓ
+	Sum multichannel outputs to mono in Source Monitor	ਸਰੋਤ ਮਾਨੀਟਰ ਵਿੱਚ ਮਲਟੀਚੈਨਲ ਆਉਟਪੁੱਟ ਮੋਨੋ ਵਿੱਚ ਜੋੜੋ
+	Super Narrow	ਬਹੁਤ ਤੰਗ
+	Surface Gloss	ਸਤ੍ਹਾ ਦੀ ਚਮਕ
+	Surface Material	ਸਤ੍ਹਾ ਦੀ ਸਮੱਗਰੀ
+	Surround Reverb	ਸਰਾਊਂਡ ਰੀਵਰਬ
+	Swap	ਅਦਲਾ-ਬਦਲੀ ਕਰੋ
+	Swap Channels	ਚੈਨਲਾਂ ਦੀ ਅਦਲਾ-ਬਦਲੀ ਕਰੋ
+	Switch Audio	ਆਡੀਓ ਬਦਲੋ
+	Swivel	ਆਲੇ-ਦੁਆਲੇ ਘੁੰਮਾਓ
+	Sync Voice-over Capture	ਵੌਇਸ-ਓਵਰ ਕੈਪਚਰ ਸਿੰਕ ਕਰੋ
+	Sync with system	ਸਿਸਟਮ ਨਾਲ ਸਮਕਾਲੀ ਕਰੋ
+	Synchronize Clips	ਕਲਿੱਪਾਂ ਸਿੰਕ ਕਰੋ
+	Synchronize Point	ਸਿੰਕ ਬਿੰਦੂ
+	Synchronized {n} clip group(s)	{n} ਕਲਿੱਪ ਸਮੂਹ ਸਿੰਕ ਕੀਤੇ
+	Synchronize…	ਸਿੰਕ ਕਰੋ…
+	Synthetic	ਕ੍ਰਿਤ੍ਰਿਮ
+	System Compatibility Report	ਸਿਸਟਮ ਅਨੁਕੂਲਤਾ ਰਿਪੋਰਟ
+	System Compatibility Report…	ਸਿਸਟਮ ਅਨੁਕੂਲਤਾ ਰਿਪੋਰਟ…
+	System Default	ਸਿਸਟਮ ਮੂਲ
+	System Language	ਸਿਸਟਮ ਭਾਸ਼ਾ
+	System color picker unavailable: {error}	ਸਿਸਟਮ ਰੰਗ ਚੋਣਕਾਰ ਉਪਲਬਧ ਨਹੀਂ: {error}
+	TIFF	TIFF
+	TIFF Sequence	TIFF ਸੀਕਵੈਂਸ
+	TV Power	TV ਪਾਵਰ
+	Tab	ਟੈਬ
+	Tag Color	ਟੈਗ ਦਾ ਰੰਗ
+	Tan	ਹਲਕਾ ਭੂਰਾ
+	Tape	ਟੇਪ
+	Tape Name	ਟੇਪ ਦਾ ਨਾਮ
+	Tape Name:	ਟੇਪ ਦਾ ਨਾਮ:
+	Tape/Tube	ਟੇਪ/ਟਿਊਬ
+	Targa	Targa
+	Targa Sequence	Targa ਸੀਕਵੈਂਸ
+	Target	ਟੀਚਾ
+	Target Aspect	ਟੀਚਾ ਪੱਖ-ਅਨੁਪਾਤ
+	Target Bitrate	ਟੀਚਾ ਬਿਟਰੇਟ
+	Target Color	ਟੀਚਾ ਰੰਗ
+	Target Duration:	ਟੀਚਾ ਮਿਆਦ:
+	Target Field of View	ਟੀਚਾ ਦ੍ਰਿਸ਼-ਖੇਤਰ
+	Target Loudness	ਟੀਚਾ ਆਵਾਜ਼ ਤੀਬਰਤਾ
+	Teal	ਨੀਲਾ-ਹਰਾ
+	Teal & Orange	ਟੀਲ ਅਤੇ ਸੰਤਰੀ
+	Teal Shadows, Warm Skin	ਟੀਲ ਪਰਛਾਵੇਂ, ਗਰਮ ਚਮੜੀ
+	Technical	ਤਕਨੀਕੀ
+	Telephone	ਟੈਲੀਫ਼ੋਨ
+	Teletext	ਟੈਲੀਟੈਕਸਟ
+	Temperature	ਤਾਪਮਾਨ
+	Template Name:	ਟੈਂਪਲੇਟ ਦਾ ਨਾਮ:
+	Template Properties	ਟੈਂਪਲੇਟ ਦੀਆਂ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ
+	Templates	ਨਮੂਨੇ
+	Temporal Interpolation	ਸਮੇਂ ਦੀ ਇੰਟਰਪੋਲੇਸ਼ਨ
+	Text (graphics and captions)	ਪਾਠ (ਗ੍ਰਾਫਿਕਸ ਅਤੇ ਉਪਸਿਰਲੇਖ)
+	Text Animator	ਪਾਠ ਐਨੀਮੇਟਰ
+	Text Box Height	ਪਾਠ ਡੱਬੇ ਦੀ ਉਚਾਈ
+	Text Box Width	ਪਾਠ ਡੱਬੇ ਦੀ ਚੌੜਾਈ
+	Text Color	ਪਾਠ ਦਾ ਰੰਗ
+	Text Layer Type	ਪਾਠ ਪਰਤ ਦੀ ਕਿਸਮ
+	Text Properties	ਪਾਠ ਦੀਆਂ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ
+	Text Styling	ਪਾਠ ਸ਼ੈਲੀ
+	Text to Speech	ਪਾਠ ਤੋਂ ਬੋਲੀ
+	TextPanel	ਪਾਠ ਪੈਨਲ
+	The control server is disabled: FILMCRAFT_CONTROL_TOKEN must contain 64 random hex characters (see docs/control-protocol.md)	ਕੰਟਰੋਲ ਸਰਵਰ ਅਯੋਗ ਹੈ: FILMCRAFT_CONTROL_TOKEN ਵਿੱਚ 64 ਬੇਤਰਤੀਬ ਹੈਕਸ ਅੱਖਰ ਹੋਣੇ ਚਾਹੀਦੇ ਹਨ (docs/control-protocol.md ਵੇਖੋ)
+	The default graphics are used from the next start.	ਅਗਲੀ ਸ਼ੁਰੂਆਤ ਤੋਂ ਮੂਲ ਗ੍ਰਾਫਿਕਸ ਵਰਤੇ ਜਾਂਦੇ ਹਨ.
+	The language changed but could not be saved: {e}	ਭਾਸ਼ਾ ਬਦਲ ਗਈ ਪਰ ਸੰਭਾਲੀ ਨਹੀਂ ਜਾ ਸਕੀ: {e}
+	The media cache holds render previews of unsaved projects and other files FilmCraft can recreate. Deleting them is always safe; FilmCraft rebuilds them as needed.	ਮੀਡੀਆ ਕੈਸ਼ ਵਿੱਚ ਅਣਸੰਭਾਲੇ ਪ੍ਰੋਜੈਕਟਾਂ ਦੀਆਂ ਰੈਂਡਰ ਝਲਕਾਂ ਅਤੇ ਹੋਰ ਫ਼ਾਈਲਾਂ ਹੁੰਦੀਆਂ ਹਨ ਜੋ FilmCraft ਮੁੜ ਬਣਾ ਸਕਦਾ ਹੈ. ਉਨ੍ਹਾਂ ਨੂੰ ਮਿਟਾਉਣਾ ਹਮੇਸ਼ਾ ਸੁਰੱਖਿਅਤ ਹੈ; ਲੋੜ ਅਨੁਸਾਰ FilmCraft ਉਨ੍ਹਾਂ ਨੂੰ ਮੁੜ ਬਣਾਉਂਦਾ ਹੈ.
+	The project had not been saved yet.	ਪ੍ਰੋਜੈਕਟ ਹਾਲੇ ਸੰਭਾਲਿਆ ਨਹੀਂ ਗਿਆ ਸੀ.
+	The selected clips have different audio types. Assign one type to edit them together.	ਚੁਣੀਆਂ ਕਲਿੱਪਾਂ ਦੀਆਂ ਆਡੀਓ ਕਿਸਮਾਂ ਵੱਖਰੀਆਂ ਹਨ. ਇਕੱਠੇ ਸੋਧਣ ਲਈ ਇੱਕ ਕਿਸਮ ਨਿਰਧਾਰਤ ਕਰੋ.
+	The sequence has no caption track.	ਸੀਕਵੈਂਸ ਵਿੱਚ ਕੋਈ ਉਪਸਿਰਲੇਖ ਟ੍ਰੈਕ ਨਹੀਂ ਹੈ.
+	This build has no speech-to-text; import a transcript with transcript.set.	ਇਸ ਬਿਲਡ ਵਿੱਚ ਬੋਲੀ-ਤੋਂ-ਪਾਠ ਨਹੀਂ; transcript.set ਨਾਲ ਲਿਪੀਬੱਧ ਪਾਠ ਆਯਾਤ ਕਰੋ.
+	This clip does not match the sequence settings.	ਇਹ ਕਲਿੱਪ ਸੀਕਵੈਂਸ ਸੈਟਿੰਗਾਂ ਨਾਲ ਮੇਲ ਨਹੀਂ ਖਾਂਦੀ.
+	Thr	ਹੱਦ
+	Thumbnail Size Next	ਅਗਲਾ ਥੰਬਨੇਲ ਆਕਾਰ
+	Thumbnail Size Previous	ਪਿਛਲਾ ਥੰਬਨੇਲ ਆਕਾਰ
+	Thumbnail View	ਥੰਬਨੇਲ ਦ੍ਰਿਸ਼
+	Thumbnail controls for all pointing devices	ਸਾਰੇ ਪੌਇੰਟਿੰਗ ਜੰਤਰਾਂ ਲਈ ਥੰਬਨੇਲ ਕੰਟਰੋਲ
+	Thumbnails show effects applied	ਥੰਬਨੇਲ ਲਾਗੂ ਕੀਤੇ ਪ੍ਰਭਾਵ ਦਿਖਾਉਂਦੇ ਹਨ
+	Ticked attributes are removed from the selected clips.	ਨਿਸ਼ਾਨ ਲੱਗੀਆਂ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਚੁਣੀਆਂ ਕਲਿੱਪਾਂ ਵਿੱਚੋਂ ਹਟਾਈਆਂ ਜਾਂਦੀਆਂ ਹਨ.
+	Ticker – Crawl	ਟਿਕਰ – ਸਰਕਣਾ
+	Tile Gradient	ਗ੍ਰੇਡੀਐਂਟ ਟਾਈਲ ਕਰੋ
+	Tilt	ਝੁਕਾਅ
+	Tilt (X Axis)	ਝੁਕਾਅ (X ਧੁਰਾ)
+	Time Interpolation	ਸਮੇਂ ਦੀ ਇੰਟਰਪੋਲੇਸ਼ਨ
+	Time Remapping	ਸਮਾਂ ਰੀਮੈਪਿੰਗ
+	Time and Pitch	ਸਮਾਂ ਅਤੇ ਸੁਰ ਦੀ ਉਚਾਈ
+	Time is outside the supported range	ਸਮਾਂ ਸਹਾਇਤਾਪ੍ਰਾਪਤ ਰੇਂਜ ਤੋਂ ਬਾਹਰ ਹੈ
+	Timebase:	ਟਾਈਮਬੇਸ:
+	Timecode	ਟਾਈਮਕੋਡ
+	Timecode Conversion	ਟਾਈਮਕੋਡ ਰੂਪਾਂਤਰਣ
+	Timecode Overlay	ਟਾਈਮਕੋਡ ਓਵਰਲੇਅ
+	Timecode:	ਟਾਈਮਕੋਡ:
+	Timecode…	ਟਾਈਮਕੋਡ…
+	Timeline	ਟਾਈਮਲਾਈਨ
+	Timeline Display Settings	ਟਾਈਮਲਾਈਨ ਡਿਸਪਲੇ ਸੈਟਿੰਗਾਂ
+	Timeline Mouse Scrolling	ਟਾਈਮਲਾਈਨ ਮਾਊਸ ਸਕ੍ਰੋਲਿੰਗ
+	Timeline Playback Auto-Scrolling	ਟਾਈਮਲਾਈਨ ਪਲੇਬੈਕ ਆਪਣੇ ਆਪ ਸਕ੍ਰੋਲ ਕਰਨਾ
+	Timeline: (no sequences)	ਟਾਈਮਲਾਈਨ: (ਕੋਈ ਸੀਕਵੈਂਸ ਨਹੀਂ)
+	Timeline…	ਟਾਈਮਲਾਈਨ…
+	Tint	ਰੰਗ ਝਲਕ
+	Tint Color	ਝਲਕ ਦਾ ਰੰਗ
+	Title Color	ਸਿਰਲੇਖ ਦਾ ਰੰਗ
+	Title Safe Area	ਸਿਰਲੇਖ ਸੁਰੱਖਿਅਤ ਖੇਤਰ
+	Title Size	ਸਿਰਲੇਖ ਦਾ ਆਕਾਰ
+	Title – Boxed	ਸਿਰਲੇਖ – ਡੱਬੇ ਵਿੱਚ
+	Title – Centered	ਸਿਰਲੇਖ – ਕੇਂਦਰ ਵਿੱਚ
+	Titles	ਸਿਰਲੇਖ
+	To	ਤੱਕ
+	To {name}	{name} ਨੂੰ
+	Toggle All Audio Targets	ਸਾਰੇ ਆਡੀਓ ਟਾਰਗੇਟ ਬਦਲੋ
+	Toggle All Source Audio	ਸਾਰੀ ਸਰੋਤ ਆਡੀਓ ਬਦਲੋ
+	Toggle All Source Video	ਸਾਰੀ ਸਰੋਤ ਵੀਡੀਓ ਬਦਲੋ
+	Toggle All Video Targets	ਸਾਰੇ ਵੀਡੀਓ ਟਾਰਗੇਟ ਬਦਲੋ
+	Toggle Audio During Scrubbing	ਸਕ੍ਰਬ ਕਰਦੇ ਸਮੇਂ ਆਡੀਓ ਚਾਲੂ/ਬੰਦ ਕਰੋ
+	Toggle Full Screen	ਪੂਰੀ ਸਕ੍ਰੀਨ ਚਾਲੂ/ਬੰਦ ਕਰੋ
+	Toggle Mute for All Targeted Audio Tracks	ਸਾਰੇ ਟਾਰਗੇਟ ਕੀਤੇ ਆਡੀਓ ਟ੍ਰੈਕਾਂ ਦੀ ਆਵਾਜ਼ ਚਾਲੂ/ਬੰਦ ਕਰੋ
+	Toggle Proxies	ਪ੍ਰਾਕਸੀ ਚਾਲੂ/ਬੰਦ ਕਰੋ
+	Toggle Solo for All Targeted Audio Tracks	ਸਾਰੇ ਟਾਰਗੇਟ ਕੀਤੇ ਆਡੀਓ ਟ੍ਰੈਕਾਂ ਦਾ ਸੋਲੋ ਚਾਲੂ/ਬੰਦ ਕਰੋ
+	Toggle Source/Program Monitor Focus	ਸਰੋਤ/ਪ੍ਰੋਗਰਾਮ ਮਾਨੀਟਰ ਫੋਕਸ ਬਦਲੋ
+	Toggle Target Audio 1	ਟਾਰਗੇਟ ਆਡੀਓ 1 ਬਦਲੋ
+	Toggle Target Audio 2	ਟਾਰਗੇਟ ਆਡੀਓ 2 ਬਦਲੋ
+	Toggle Target Audio 3	ਟਾਰਗੇਟ ਆਡੀਓ 3 ਬਦਲੋ
+	Toggle Target Audio 4	ਟਾਰਗੇਟ ਆਡੀਓ 4 ਬਦਲੋ
+	Toggle Target Audio 5	ਟਾਰਗੇਟ ਆਡੀਓ 5 ਬਦਲੋ
+	Toggle Target Audio 6	ਟਾਰਗੇਟ ਆਡੀਓ 6 ਬਦਲੋ
+	Toggle Target Audio 7	ਟਾਰਗੇਟ ਆਡੀਓ 7 ਬਦਲੋ
+	Toggle Target Audio 8	ਟਾਰਗੇਟ ਆਡੀਓ 8 ਬਦਲੋ
+	Toggle Target Video 1	ਟਾਰਗੇਟ ਵੀਡੀਓ 1 ਬਦਲੋ
+	Toggle Target Video 2	ਟਾਰਗੇਟ ਵੀਡੀਓ 2 ਬਦਲੋ
+	Toggle Target Video 3	ਟਾਰਗੇਟ ਵੀਡੀਓ 3 ਬਦਲੋ
+	Toggle Target Video 4	ਟਾਰਗੇਟ ਵੀਡੀਓ 4 ਬਦਲੋ
+	Toggle Target Video 5	ਟਾਰਗੇਟ ਵੀਡੀਓ 5 ਬਦਲੋ
+	Toggle Target Video 6	ਟਾਰਗੇਟ ਵੀਡੀਓ 6 ਬਦਲੋ
+	Toggle Target Video 7	ਟਾਰਗੇਟ ਵੀਡੀਓ 7 ਬਦਲੋ
+	Toggle Target Video 8	ਟਾਰਗੇਟ ਵੀਡੀਓ 8 ਬਦਲੋ
+	Toggle Track Output for All Targeted Video Tracks	ਸਾਰੇ ਟਾਰਗੇਟ ਕੀਤੇ ਵੀਡੀਓ ਟ੍ਰੈਕਾਂ ਦੀ ਆਉਟਪੁੱਟ ਚਾਲੂ/ਬੰਦ ਕਰੋ
+	Toggle Trim Type	ਟ੍ਰਿਮ ਕਿਸਮ ਬਦਲੋ
+	Toggle View	ਦ੍ਰਿਸ਼ ਬਦਲੋ
+	Toggle animation	ਐਨੀਮੇਸ਼ਨ ਚਾਲੂ/ਬੰਦ ਕਰੋ
+	Tolerance	ਸਹਿਣਸ਼ੀਲਤਾ
+	Tone	ਟੋਨ
+	Top Center	ਉੱਪਰ ਕੇਂਦਰ
+	Top Left	ਉੱਪਰ ਖੱਬੇ
+	Top Right	ਉੱਪਰ ਸੱਜੇ
+	Total Duration	ਕੁੱਲ ਮਿਆਦ
+	Touch	ਟਚ
+	Track Color	ਟ੍ਰੈਕ ਦਾ ਰੰਗ
+	Track Fx Editor	ਟ੍ਰੈਕ Fx ਸੰਪਾਦਕ
+	Track Keyframes	ਟ੍ਰੈਕ ਕੀਫਰੇਮ
+	Track Matte Key	ਟ੍ਰੈਕ ਮੈਟ ਕੀ
+	Track Select Backward Tool	ਪਿੱਛੇ ਵੱਲ ਟ੍ਰੈਕ ਚੋਣ ਟੂਲ
+	Track Select Forward Tool	ਅੱਗੇ ਵੱਲ ਟ੍ਰੈਕ ਚੋਣ ਟੂਲ
+	Track Selected Mask	ਚੁਣਿਆ ਮਾਸਕ ਟ੍ਰੈਕ ਕਰੋ
+	Track selected mask backward	ਚੁਣਿਆ ਮਾਸਕ ਪਿੱਛੇ ਟ੍ਰੈਕ ਕਰੋ
+	Track selected mask backward 1 frame	ਚੁਣਿਆ ਮਾਸਕ 1 ਫਰੇਮ ਪਿੱਛੇ ਟ੍ਰੈਕ ਕਰੋ
+	Track selected mask forward	ਚੁਣਿਆ ਮਾਸਕ ਅੱਗੇ ਟ੍ਰੈਕ ਕਰੋ
+	Track selected mask forward 1 frame	ਚੁਣਿਆ ਮਾਸਕ 1 ਫਰੇਮ ਅੱਗੇ ਟ੍ਰੈਕ ਕਰੋ
+	Track type	ਟ੍ਰੈਕ ਦੀ ਕਿਸਮ
+	Tracking	ਟ੍ਰੈਕਿੰਗ
+	Tracking method: {method}	ਟ੍ਰੈਕਿੰਗ ਢੰਗ: {method}
+	Tracks	ਟ੍ਰੈਕ
+	Transcode	ਟ੍ਰਾਂਸਕੋਡ ਕਰੋ
+	Transcribe	ਲਿਪੀਬੱਧ ਕਰੋ
+	Transcribe Sequence	ਸੀਕਵੈਂਸ ਲਿਪੀਬੱਧ ਕਰੋ
+	Transcribe Sequence…	ਸੀਕਵੈਂਸ ਲਿਪੀਬੱਧ ਕਰੋ…
+	Transcribe sequence	ਸੀਕਵੈਂਸ ਲਿਪੀਬੱਧ ਕਰੋ
+	Transcribe…	ਲਿਪੀਬੱਧ ਕਰੋ…
+	Transcript	ਲਿਪੀਬੱਧ ਪਾਠ
+	Transcription	ਲਿਪੀਅੰਕਣ
+	Transcription preferences	ਲਿਪੀਅੰਕਣ ਤਰਜੀਹਾਂ
+	Transform	ਰੂਪ ਬਦਲੋ
+	Transformers	ਟ੍ਰਾਂਸਫਾਰਮਰ
+	Transience	ਟ੍ਰਾਂਜ਼ੀਅੰਸ
+	Transition Completion	ਟ੍ਰਾਂਜ਼ਿਸ਼ਨ ਦੀ ਪੂਰਨਤਾ
+	Transition Softness	ਟ੍ਰਾਂਜ਼ਿਸ਼ਨ ਦੀ ਨਰਮੀ
+	Transitions	ਟ੍ਰਾਂਜ਼ਿਸ਼ਨ
+	Transmit Multi-Camera View	ਮਲਟੀ-ਕੈਮਰਾ ਦ੍ਰਿਸ਼ ਪ੍ਰਸਾਰਿਤ ਕਰੋ
+	Transparency Grid	ਪਾਰਦਰਸ਼ਤਾ ਗ੍ਰਿਡ
+	Transparent Video…	ਪਾਰਦਰਸ਼ੀ ਵੀਡੀਓ…
+	Trash	ਰੱਦੀ
+	Travel Motion	ਟਰੈਵਲ ਚਾਲ
+	Treble	ਟ੍ਰੈਬਲ
+	Triangle	ਤਿਕੋਣ
+	Trim	ਟ੍ਰਿਮ ਕਰੋ
+	Trim Backward	ਪਿੱਛੇ ਟ੍ਰਿਮ ਕਰੋ
+	Trim Backward Many	ਵੱਧ ਪਿੱਛੇ ਟ੍ਰਿਮ ਕਰੋ
+	Trim Edit	ਟ੍ਰਿਮ ਸੰਪਾਦਨ
+	Trim Forward	ਅੱਗੇ ਟ੍ਰਿਮ ਕਰੋ
+	Trim Forward Many	ਵੱਧ ਅੱਗੇ ਟ੍ਰਿਮ ਕਰੋ
+	Trim In	ਇਨ ਬਿੰਦੂ ਟ੍ਰਿਮ ਕਰੋ
+	Trim Next Edit to Playhead	ਅਗਲਾ ਸੰਪਾਦਨ ਪਲੇਹੈੱਡ ਤੱਕ ਟ੍ਰਿਮ ਕਰੋ
+	Trim Out	ਆਊਟ ਬਿੰਦੂ ਟ੍ਰਿਮ ਕਰੋ
+	Trim Previous Edit to Playhead	ਪਿਛਲਾ ਸੰਪਾਦਨ ਪਲੇਹੈੱਡ ਤੱਕ ਟ੍ਰਿਮ ਕਰੋ
+	Trim audio files	ਆਡੀਓ ਫ਼ਾਈਲਾਂ ਟ੍ਰਿਮ ਕਰੋ
+	Trimming	ਟ੍ਰਿਮ ਕਰਨਾ
+	Trim…	ਟ੍ਰਿਮ ਕਰੋ…
+	True Peak Limit	ਅਸਲ ਪੀਕ ਹੱਦ
+	Tube	ਟਿਊਬ
+	Tube-modeled Compressor	ਟਿਊਬ-ਮਾਡਲ ਕੰਪ੍ਰੈਸਰ
+	Tubular	ਨਲੀਦਾਰ
+	Turbulent	ਅਸ਼ਾਂਤ
+	Turbulent Displace	ਟਰਬੂਲੈਂਟ ਵਿਸਥਾਪਨ
+	Turbulent Sharp	ਟਰਬੂਲੈਂਟ ਤਿੱਖਾ
+	Turbulent Smooth	ਟਰਬੂਲੈਂਟ ਨਰਮ
+	Turbulent Smoother	ਟਰਬੂਲੈਂਟ ਹੋਰ ਨਰਮ
+	Turn on animation and add keyframe	ਐਨੀਮੇਸ਼ਨ ਚਾਲੂ ਕਰਕੇ ਕੀਫਰੇਮ ਜੋੜੋ
+	Tweed	ਟਵੀਡ
+	Twirl	ਭੰਵਰ ਬਣਾਓ
+	Twirl (Legacy)	ਭੰਵਰ ਬਣਾਓ (ਪੁਰਾਣਾ)
+	Twirl Center	ਭੰਵਰ ਕੇਂਦਰ
+	Twirl Radius	ਭੰਵਰ ਅਰਧ-ਵਿਆਸ
+	Twist	ਮਰੋੜ
+	Twist Smoother	ਮਰੋੜ ਹੋਰ ਨਰਮ
+	Type Tool	ਲਿਖਤ ਟੂਲ
+	Type a shortcut… (Esc cancels)	ਸ਼ਾਰਟਕੱਟ ਦਬਾਓ… (Esc ਨਾਲ ਰੱਦ ਹੁੰਦਾ ਹੈ)
+	Type:	ਕਿਸਮ:
+	UI Scale	UI ਸਕੇਲ
+	UI:	UI:
+	URL	URL
+	Ultra Key	ਅਲਟਰਾ ਕੀ
+	Uncompressed (PCM)	ਬਿਨਾਂ ਸੰਕੁਚਨ (PCM)
+	Undock Panel	ਪੈਨਲ ਅਣਡੌਕ ਕਰੋ
+	Uniform Scale	ਇਕਸਾਰ ਸਕੇਲ
+	Uniform Spacing	ਇਕਸਾਰ ਫ਼ਾਸਲਾ
+	Universal Counting Leader…	ਯੂਨੀਵਰਸਲ ਕਾਊਂਟਿੰਗ ਲੀਡਰ…
+	Unlink	ਲਿੰਕ ਹਟਾਓ
+	Unreadable	ਪੜ੍ਹਿਆ ਨਹੀਂ ਜਾ ਸਕਦਾ
+	Unrendered: render to play back in real time	ਰੈਂਡਰ ਨਹੀਂ ਕੀਤਾ: ਅਸਲ ਸਮੇਂ ਵਿੱਚ ਚਲਾਉਣ ਲਈ ਰੈਂਡਰ ਕਰੋ
+	Unrendered: should play back in real time	ਰੈਂਡਰ ਨਹੀਂ ਕੀਤਾ: ਅਸਲ ਸਮੇਂ ਵਿੱਚ ਚੱਲਣਾ ਚਾਹੀਦਾ ਹੈ
+	Unsharp Mask	ਅਨਸ਼ਾਰਪ ਮਾਸਕ
+	Unstack	ਢੇਰ ਖੋਲ੍ਹੋ
+	Unstack Clips	ਕਲਿੱਪਾਂ ਦਾ ਢੇਰ ਖੋਲ੍ਹੋ
+	Untagged	ਬਿਨਾਂ ਟੈਗ
+	Untitled	ਬਿਨਾਂ ਸਿਰਲੇਖ
+	Untitled Workspace	ਬਿਨਾਂ ਸਿਰਲੇਖ ਵਰਕਸਪੇਸ
+	Up One Level	ਇੱਕ ਪੱਧਰ ਉੱਪਰ
+	Up one level	ਇੱਕ ਪੱਧਰ ਉੱਪਰ
+	Update Metadata	ਮੈਟਾਡਾਟਾ ਅੱਪਡੇਟ ਕਰੋ
+	Update Metadata…	ਮੈਟਾਡਾਟਾ ਅੱਪਡੇਟ ਕਰੋ…
+	Update it at least every	ਘੱਟੋ-ਘੱਟ ਇੰਨੇ ਸਮੇਂ ਬਾਅਦ ਅੱਪਡੇਟ ਕਰੋ
+	Update timeline dynamically during ripple edits.	ਰਿਪਲ ਸੰਪਾਦਨ ਦੌਰਾਨ ਟਾਈਮਲਾਈਨ ਗਤੀਸ਼ੀਲ ਤੌਰ ਉੱਤੇ ਅੱਪਡੇਟ ਕਰੋ.
+	Upgrade Caption to Graphic	ਉਪਸਿਰਲੇਖ ਨੂੰ ਗ੍ਰਾਫਿਕ ਵਿੱਚ ਬਦਲੋ
+	Upgrade to Source Graphic	ਸਰੋਤ ਗ੍ਰਾਫਿਕ ਵਿੱਚ ਬਦਲੋ
+	Upper First	ਉੱਪਰਲਾ ਪਹਿਲਾਂ
+	Upper Frequency	ਉੱਪਰੀ ਫ੍ਰੀਕਵੈਂਸੀ
+	Upper Left	ਉੱਪਰ ਖੱਬੇ
+	Upper Right	ਉੱਪਰ ਸੱਜੇ
+	Use Color Noise	ਰੰਗੀਨ ਨੌਇਜ਼ ਵਰਤੋ
+	Use Default Graphics	ਮੂਲ ਗ੍ਰਾਫਿਕਸ ਵਰਤੋ
+	Use Effect Shutter Angle	ਪ੍ਰਭਾਵ ਦਾ ਸ਼ਟਰ ਕੋਣ ਵਰਤੋ
+	Use End Color	ਅੰਤਲਾ ਰੰਗ ਵਰਤੋ
+	Use File	ਫ਼ਾਈਲ ਵਰਤੋ
+	Use Glow Color	ਚਮਕ ਦਾ ਰੰਗ ਵਰਤੋ
+	Use Maximum Render Quality	ਵੱਧ ਤੋਂ ਵੱਧ ਰੈਂਡਰ ਗੁਣਵੱਤਾ ਵਰਤੋ
+	Use Media Source	ਮੀਡੀਆ ਸਰੋਤ ਵਰਤੋ
+	Use Tint Color	ਰੰਗ ਝਲਕ ਦਾ ਰੰਗ ਵਰਤੋ
+	Use file metadata	ਫ਼ਾਈਲ ਮੈਟਾਡਾਟਾ ਵਰਤੋ
+	Use the file's timecode	ਫ਼ਾਈਲ ਦਾ ਟਾਈਮਕੋਡ ਵਰਤੋ
+	User	ਵਰਤੋਂਕਾਰ
+	User Order	ਵਰਤੋਂਕਾਰ ਕ੍ਰਮ
+	Utility	ਸਹੂਲਤ
+	VBR, 1 pass	VBR, 1 ਪਾਸ
+	VBR, 2 pass	VBR, 2 ਪਾਸ
+	VHS Damage	VHS ਨੁਕਸਾਨ
+	VR Blur	VR ਧੁੰਦਲਾਪਣ
+	VR Chroma Leaks	VR ਕ੍ਰੋਮਾ ਲੀਕ
+	VR Chromatic Aberrations	VR ਰੰਗੀਨ ਵਿਪਥਨ
+	VR Color Gradients	VR ਰੰਗ ਗ੍ਰੇਡੀਐਂਟ
+	VR De-Noise	VR ਨੌਇਜ਼ ਘਟਾਓ
+	VR Digital Glitch	VR ਡਿਜੀਟਲ ਗਲਿਚ
+	VR Fractal Noise	VR ਫ੍ਰੈਕਟਲ ਨੌਇਜ਼
+	VR Glow	VR ਚਮਕ
+	VR Gradient Wipe	VR ਗ੍ਰੇਡੀਐਂਟ ਵਾਈਪ
+	VR Iris Wipe	VR ਆਇਰਿਸ ਵਾਈਪ
+	VR Light Leaks	VR ਰੌਸ਼ਨੀ ਲੀਕ
+	VR Light Rays	VR ਰੌਸ਼ਨੀ ਕਿਰਨਾਂ
+	VR Mobius Zoom	VR ਮੋਬੀਅਸ ਜ਼ੂਮ
+	VR Plane to Sphere	VR ਸਮਤਲ ਤੋਂ ਗੋਲਾ
+	VR Projection	VR ਪ੍ਰੋਜੈਕਸ਼ਨ
+	VR Properties	VR ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ
+	VR Random Blocks	VR ਬੇਤਰਤੀਬ ਬਲਾਕ
+	VR Rotate Sphere	VR ਗੋਲਾ ਘੁੰਮਾਓ
+	VR Sharpen	VR ਤਿੱਖਾ ਕਰੋ
+	VR Spherical Blur	VR ਗੋਲਾਕਾਰ ਧੁੰਦਲਾਪਣ
+	Validate Content Credentials on import	ਆਯਾਤ ਵੇਲੇ ਸਮੱਗਰੀ ਦੇ ਪ੍ਰਮਾਣ-ਪੱਤਰ ਜਾਂਚੋ
+	Value	ਮੁੱਲ
+	Variations:	ਬਦਲਾਅ:
+	Vectorscope (YUV)	ਵੈਕਟਰਸਕੋਪ (YUV)
+	Vectorscope + Waveform YC	ਵੈਕਟਰਸਕੋਪ + ਵੇਵਫਾਰਮ YC
+	Vectorscope HLS	ਵੈਕਟਰਸਕੋਪ HLS
+	Vectorscope Targets	ਵੈਕਟਰਸਕੋਪ ਟਾਰਗੇਟ
+	Vectorscope YUV	ਵੈਕਟਰਸਕੋਪ YUV
+	Velocity	ਵੇਗ
+	Venetian Blinds	ਵੇਨੇਸ਼ੀਅਨ ਬਲਾਈਂਡ
+	Version {version}	ਵਰਜਨ {version}
+	Vertical 4:5	ਖੜ੍ਹਵਾਂ 4:5
+	Vertical 9:16	ਖੜ੍ਹਵਾਂ 9:16
+	Vertical Alignment	ਖੜ੍ਹਵੀਂ ਇਕਸਾਰਤਾ
+	Vertical Blocks	ਖੜ੍ਹਵੇਂ ਬਲਾਕ
+	Vertical Decentering	ਖੜ੍ਹਵਾਂ ਕੇਂਦਰ-ਵਿਸਥਾਪਨ
+	Vertical Displacement	ਖੜ੍ਹਵਾਂ ਵਿਸਥਾਪਨ
+	Vertical Flip	ਖੜ੍ਹਵਾਂ ਉਲਟਾਅ
+	Vertical Margin	ਖੜ੍ਹਵਾਂ ਹਾਸ਼ੀਆ
+	Vertical Text	ਖੜ੍ਹਵਾਂ ਪਾਠ
+	Vertical Type Tool	ਖੜ੍ਹਵੀਂ ਲਿਖਤ ਟੂਲ
+	Very Narrow	ਬਹੁਤ ਤੰਗ
+	Vibrance	ਵਾਈਬ੍ਰੈਂਸ
+	Video	ਵੀਡੀਓ
+	Video 1	ਵੀਡੀਓ 1
+	Video 2	ਵੀਡੀਓ 2
+	Video 3	ਵੀਡੀਓ 3
+	Video 4	ਵੀਡੀਓ 4
+	Video 5	ਵੀਡੀਓ 5
+	Video 6	ਵੀਡੀਓ 6
+	Video 7	ਵੀਡੀਓ 7
+	Video 8	ਵੀਡੀਓ 8
+	Video Attributes	ਵੀਡੀਓ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ
+	Video Codec	ਵੀਡੀਓ ਕੋਡੈਕ
+	Video Duration	ਵੀਡੀਓ ਮਿਆਦ
+	Video Effects	ਵੀਡੀਓ ਪ੍ਰਭਾਵ
+	Video Frame	ਵੀਡੀਓ ਫਰੇਮ
+	Video In	ਵੀਡੀਓ ਇਨ
+	Video In Point	ਵੀਡੀਓ ਇਨ ਬਿੰਦੂ
+	Video Info	ਵੀਡੀਓ ਜਾਣਕਾਰੀ
+	Video Limiter	ਵੀਡੀਓ ਲਿਮਿਟਰ
+	Video Only	ਕੇਵਲ ਵੀਡੀਓ
+	Video Options	ਵੀਡੀਓ ਚੋਣਾਂ
+	Video Out	ਵੀਡੀਓ ਆਊਟ
+	Video Out Point	ਵੀਡੀਓ ਆਊਟ ਬਿੰਦੂ
+	Video Previews	ਵੀਡੀਓ ਝਲਕਾਂ
+	Video Previews:	ਵੀਡੀਓ ਝਲਕਾਂ:
+	Video Rendering and Playback	ਵੀਡੀਓ ਰੈਂਡਰਿੰਗ ਅਤੇ ਪਲੇਬੈਕ
+	Video Thumbnails	ਵੀਡੀਓ ਥੰਬਨੇਲ
+	Video Tracks	ਵੀਡੀਓ ਟ੍ਰੈਕ
+	Video Transition Default Duration	ਵੀਡੀਓ ਟ੍ਰਾਂਜ਼ਿਸ਼ਨ ਦੀ ਮੂਲ ਮਿਆਦ
+	Video Transitions	ਵੀਡੀਓ ਟ੍ਰਾਂਜ਼ਿਸ਼ਨ
+	Video Usage	ਵੀਡੀਓ ਵਰਤੋਂ
+	Video Usage: {vu}  Audio Usage: {au}	ਵੀਡੀਓ ਵਰਤੋਂ: {vu}  ਆਡੀਓ ਵਰਤੋਂ: {au}
+	Video and Audio	ਵੀਡੀਓ ਅਤੇ ਆਡੀਓ
+	Video and Audio Waveform Split	ਵੀਡੀਓ ਅਤੇ ਆਡੀਓ ਵੇਵਫਾਰਮ ਦੀ ਵੰਡ
+	Video and Waveform	ਵੀਡੀਓ ਅਤੇ ਵੇਵਫਾਰਮ
+	Video effects	ਵੀਡੀਓ ਪ੍ਰਭਾਵ
+	Video {n}:	ਵੀਡੀਓ {n}:
+	Video:	ਵੀਡੀਓ:
+	Vignette	ਵਿਨਿਏਟ
+	Vimeo 1080p Full HD	Vimeo 1080p Full HD
+	Vimeo 2160p 4K Ultra HD	Vimeo 2160p 4K Ultra HD
+	Violet	ਜਾਮਨੀ
+	Vivid Light	ਵਿਵਿਡ ਲਾਈਟ
+	Vocal Booth	ਗਾਇਨ ਬੂਥ
+	Vocal Enhancer	ਗਾਇਨ ਸੁਧਾਰਕ
+	Voice in a Hall	ਹਾਲ ਵਿੱਚ ਆਵਾਜ਼
+	Voice-Over Record Settings	ਵੌਇਸ-ਓਵਰ ਰਿਕਾਰਡ ਸੈਟਿੰਗਾਂ
+	Voice-Over Record Settings…	ਵੌਇਸ-ਓਵਰ ਰਿਕਾਰਡ ਸੈਟਿੰਗਾਂ…
+	Voice-over Record	ਵੌਇਸ-ਓਵਰ ਰਿਕਾਰਡ
+	Voice-over record (right-click: Voice-Over Record Settings…)	ਵੌਇਸ-ਓਵਰ ਰਿਕਾਰਡ (ਸੱਜਾ ਕਲਿੱਕ: ਵੌਇਸ-ਓਵਰ ਰਿਕਾਰਡ ਸੈਟਿੰਗਾਂ…)
+	Voice-over recorded: {p}	ਵੌਇਸ-ਓਵਰ ਰਿਕਾਰਡ ਕੀਤਾ: {p}
+	Voice-over recording stopped (nothing recorded)	ਵੌਇਸ-ਓਵਰ ਰਿਕਾਰਡਿੰਗ ਰੋਕੀ (ਕੁਝ ਰਿਕਾਰਡ ਨਹੀਂ ਹੋਇਆ)
+	Voice-over take discarded	ਵੌਇਸ-ਓਵਰ ਟੇਕ ਰੱਦ ਕੀਤਾ
+	Voiceover	ਵੌਇਸ-ਓਵਰ
+	Volume	ਆਵਾਜ਼ ਦੀ ਮਾਤਰਾ
+	Volume (drag; double-click: 0 dB)	ਆਵਾਜ਼ ਦਾ ਪੱਧਰ (ਖਿੱਚੋ; ਦੋ ਵਾਰ ਕਲਿੱਕ: 0 dB)
+	Volumetric Rays	ਆਇਤਨਾਤਮਕ ਕਿਰਨਾਂ
+	WAV, stereo 48 kHz 16-bit PCM	WAV, ਸਟੀਰੀਓ 48 kHz 16-ਬਿਟ PCM
+	WAV, stereo 48 kHz 24-bit PCM	WAV, ਸਟੀਰੀਓ 48 kHz 24-ਬਿਟ PCM
+	Warm Film	ਗਰਮ ਫਿਲਮ
+	Warm Negative	ਗਰਮ ਨੈਗੇਟਿਵ
+	Warm Room	ਗਰਮ ਕਮਰਾ
+	Warm Tint	ਗਰਮ ਰੰਗ ਝਲਕ
+	Warm Voice	ਗਰਮ ਆਵਾਜ਼
+	Warm highlights, brown shadows	ਗਰਮ ਉਭਰੇ ਟੋਨ, ਭੂਰੇ ਪਰਛਾਵੇਂ
+	Warm print stock with gentle roll-off	ਨਰਮ ਰੋਲਆਫ਼ ਵਾਲਾ ਗਰਮ ਪ੍ਰਿੰਟ ਸਟਾਕ
+	Warm, soft late-afternoon light	ਦੁਪਹਿਰ ਤੋਂ ਬਾਅਦ ਦੀ ਗਰਮ, ਨਰਮ ਰੌਸ਼ਨੀ
+	Warnings and Errors	ਚੇਤਾਵਨੀਆਂ ਅਤੇ ਗਲਤੀਆਂ
+	Warp Stabilizer	ਵਾਰਪ ਸਥਿਰਕ
+	Wave	ਲਹਿਰ
+	Wave Height	ਲਹਿਰ ਦੀ ਉਚਾਈ
+	Wave Speed	ਲਹਿਰ ਦੀ ਗਤੀ
+	Wave Warp	ਲਹਿਰ ਵਾਰਪ
+	Wave Width	ਲਹਿਰ ਦੀ ਚੌੜਾਈ
+	Waveform	ਵੇਵਫਾਰਮ
+	Waveform (Luma)	ਵੇਵਫਾਰਮ (ਲੂਮਾ)
+	Waveform (RGB)	ਵੇਵਫਾਰਮ (RGB)
+	Waveform ({kind})	ਵੇਵਫਾਰਮ ({kind})
+	Waveform Audio	ਵੇਵਫਾਰਮ ਆਡੀਓ
+	Waveform Audio 48 kHz 16-bit	ਵੇਵਫਾਰਮ ਆਡੀਓ 48 kHz 16-ਬਿਟ
+	Waveform Audio 48 kHz 24-bit	ਵੇਵਫਾਰਮ ਆਡੀਓ 48 kHz 24-ਬਿਟ
+	Waveform Type	ਵੇਵਫਾਰਮ ਕਿਸਮ
+	Wavelength	ਤਰੰਗ ਲੰਬਾਈ
+	Web & Social	ਵੈੱਬ ਅਤੇ ਸੋਸ਼ਲ
+	Web Link	ਵੈੱਬ ਲਿੰਕ
+	WebVTT (.vtt)	WebVTT (.vtt)
+	Wet	ਪ੍ਰਭਾਵ ਵਾਲਾ
+	Wet Out	ਪ੍ਰਭਾਵ ਵਾਲੀ ਆਉਟਪੁੱਟ
+	When Opening a Project	ਪ੍ਰੋਜੈਕਟ ਖੋਲ੍ਹਦੇ ਸਮੇਂ
+	When enabled, GIF transparency is on/off: alpha below 128 is transparent; 128 and above is opaque.	ਯੋਗ ਹੋਣ ਉੱਤੇ GIF ਪਾਰਦਰਸ਼ਤਾ ਚਾਲੂ/ਬੰਦ ਹੁੰਦੀ ਹੈ: 128 ਤੋਂ ਘੱਟ ਅਲਫ਼ਾ ਪਾਰਦਰਸ਼ੀ ਹੈ; 128 ਅਤੇ ਇਸ ਤੋਂ ਵੱਧ ਅਪਾਰਦਰਸ਼ੀ ਹੈ.
+	Whip	ਵ੍ਹਿਪ
+	Whip (Legacy)	ਵ੍ਹਿਪ (ਪੁਰਾਣਾ)
+	Whisper base (balanced)	Whisper base (ਸੰਤੁਲਿਤ)
+	Whisper small (most accurate)	Whisper small (ਸਭ ਤੋਂ ਸਹੀ)
+	Whisper tiny (fastest)	Whisper tiny (ਸਭ ਤੋਂ ਤੇਜ਼)
+	White	ਚਿੱਟਾ
+	White Input Level	ਚਿੱਟੇ ਦਾ ਇਨਪੁੱਟ ਪੱਧਰ
+	White Is High	ਚਿੱਟਾ ਉੱਚਾ ਹੈ
+	White/Black	ਚਿੱਟਾ/ਕਾਲਾ
+	Whites	ਚਿੱਟੇ ਟੋਨ
+	Wide Outdoor	ਖੁੱਲ੍ਹਾ ਬਾਹਰੀ ਸਥਾਨ
+	Wide gamut color (composite in BT.2020)	ਚੌੜੀ ਰੰਗ ਸੀਮਾ (BT.2020 ਵਿੱਚ ਸੰਯੋਜਨ)
+	Widener	ਚੌੜਾ ਕਰਨ ਵਾਲਾ
+	Wiggle	ਹਿਲਜੁਲ
+	Wipe	ਵਾਈਪ
+	Wipe Angle	ਵਾਈਪ ਕੋਣ
+	Without keyframes	ਕੀਫਰੇਮਾਂ ਤੋਂ ਬਿਨਾਂ
+	Wonder Glow	ਵੰਡਰ ਚਮਕ
+	Work Area	ਕੰਮ ਦਾ ਖੇਤਰ
+	Work Area Bar	ਕੰਮ ਖੇਤਰ ਦੀ ਪੱਟੀ
+	Working Color Space	ਕੰਮ ਕਰਨ ਦੀ ਰੰਗ ਸਪੇਸ
+	Working Color Space:	ਕੰਮ ਕਰਨ ਦੀ ਰੰਗ ਸਪੇਸ:
+	Workspaces	ਕਾਰਜ-ਖੇਤਰ
+	Wrap Back	ਪਿੱਛੇ ਲਪੇਟੋ
+	Write	ਲਿਖੋ
+	Write Automation	ਆਟੋਮੇਸ਼ਨ ਲਿਖੋ
+	Write XMP ID to files on import	ਆਯਾਤ ਵੇਲੇ ਫ਼ਾਈਲਾਂ ਵਿੱਚ XMP ID ਲਿਖੋ
+	Write clip markers to XMP	ਕਲਿੱਪ ਮਾਰਕਰ XMP ਵਿੱਚ ਲਿਖੋ
+	Write keyframes	ਕੀਫਰੇਮ ਲਿਖੋ
+	Write the metadata of the selected clip(s) ({n}) to XMP files next to their media?	ਚੁਣੀਆਂ ਕਲਿੱਪਾਂ ({n}) ਦਾ ਮੈਟਾਡਾਟਾ ਉਨ੍ਹਾਂ ਦੇ ਮੀਡੀਆ ਨਾਲ ਵਾਲੀਆਂ XMP ਫ਼ਾਈਲਾਂ ਵਿੱਚ ਲਿਖਣਾ ਹੈ?
+	Write-on	ਲਿਖਦੇ ਜਾਓ
+	X	X
+	X Rotation	X ਘੁੰਮਾਅ
+	Y	Y
+	Y Rotation	Y ਘੁੰਮਾਅ
+	YC	YC
+	YC no Chroma	ਬਿਨਾਂ ਕ੍ਰੋਮਾ YC
+	YUV	YUV
+	Yellow-green highlights and blue-lifted shadows from crossed channel curves	ਕ੍ਰਾਸ ਕੀਤੀਆਂ ਚੈਨਲ ਕਰਵਾਂ ਤੋਂ ਪੀਲੇ-ਹਰੇ ਉਭਰੇ ਟੋਨ ਅਤੇ ਨੀਲੇ ਕੀਤੇ ਪਰਛਾਵੇਂ
+	YouTube 1080p Full HD	YouTube 1080p Full HD
+	YouTube 2160p 4K Ultra HD	YouTube 2160p 4K Ultra HD
+	Z Position	Z ਸਥਿਤੀ
+	Z Rotation	Z ਘੁੰਮਾਅ
+	ZIP (1 scan line)	ZIP (1 ਸਕੈਨ ਲਾਈਨ)
+	ZIP (16 scan lines)	ZIP (16 ਸਕੈਨ ਲਾਈਨਾਂ)
+	Zoom Amount	ਜ਼ੂਮ ਮਾਤਰਾ
+	Zoom Blur	ਜ਼ੂਮ ਧੁੰਦਲਾਪਣ
+	Zoom In	ਵੱਡਾ ਕਰੋ
+	Zoom Out	ਛੋਟਾ ਕਰੋ
+	Zoom Program Monitor to 100%	ਪ੍ਰੋਗਰਾਮ ਮਾਨੀਟਰ ਨੂੰ 100% ਜ਼ੂਮ ਕਰੋ
+	Zoom Program Monitor to Fit	ਪ੍ਰੋਗਰਾਮ ਮਾਨੀਟਰ ਨੂੰ ਫਿੱਟ ਕਰਨ ਲਈ ਜ਼ੂਮ ਕਰੋ
+	Zoom Source Monitor to 100%	ਸਰੋਤ ਮਾਨੀਟਰ ਨੂੰ 100% ਜ਼ੂਮ ਕਰੋ
+	Zoom Source Monitor to Fit	ਸਰੋਤ ਮਾਨੀਟਰ ਨੂੰ ਫਿੱਟ ਕਰਨ ਲਈ ਜ਼ੂਮ ਕਰੋ
+	Zoom Strength	ਜ਼ੂਮ ਤਾਕਤ
+	Zoom Tool	ਜ਼ੂਮ ਟੂਲ
+	Zoom to Sequence	ਸੀਕਵੈਂਸ ਤੱਕ ਜ਼ੂਮ ਕਰੋ
+	days	ਦਿਨ
+	first marker	ਪਹਿਲਾ ਮਾਰਕਰ
+	frames	ਫਰੇਮ
+	horizontal	ਲੇਟਵਾਂ
+	in	ਇਨ
+	lowercase	ਸਾਰੇ ਛੋਟੇ ਅੱਖਰ
+	lowest (V1…)	ਸਭ ਤੋਂ ਹੇਠਲਾ (V1…)
+	milliseconds	ਮਿਲੀਸਕਿੰਟ
+	minute(s)	ਮਿੰਟ
+	no Chinese font is installed on this system; the interface stays in English	ਇਸ ਸਿਸਟਮ ਉੱਤੇ ਕੋਈ ਚੀਨੀ ਫ਼ੌਂਟ ਇੰਸਟਾਲ ਨਹੀਂ; ਇੰਟਰਫੇਸ ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਰਹਿੰਦਾ ਹੈ
+	no GPU adapter: the CPU compositor is used	ਕੋਈ GPU ਅਡੈਪਟਰ ਨਹੀਂ: CPU ਕੰਪੋਜ਼ਿਟਰ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ
+	no Japanese font is installed on this system; the interface stays in English	ਇਸ ਸਿਸਟਮ ਉੱਤੇ ਕੋਈ ਜਪਾਨੀ ਫ਼ੌਂਟ ਇੰਸਟਾਲ ਨਹੀਂ; ਇੰਟਰਫੇਸ ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਰਹਿੰਦਾ ਹੈ
+	no Korean font is installed on this system; the interface stays in English	ਇਸ ਸਿਸਟਮ ਉੱਤੇ ਕੋਈ ਕੋਰੀਆਈ ਫ਼ੌਂਟ ਇੰਸਟਾਲ ਨਹੀਂ; ਇੰਟਰਫੇਸ ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਰਹਿੰਦਾ ਹੈ
+	not available in this session	ਇਸ ਸੈਸ਼ਨ ਵਿੱਚ ਉਪਲਬਧ ਨਹੀਂ
+	out	ਆਊਟ
+	pre 	ਪਹਿਲਾਂ 
+	second(s)	ਸਕਿੰਟ
+	seconds	ਸਕਿੰਟ
+	software rendering	ਸਾਫ਼ਟਵੇਅਰ ਰੈਂਡਰਿੰਗ
+	tracks	ਟ੍ਰੈਕ
+	vertical	ਖੜ੍ਹਵਾਂ
+	with:	ਇਸ ਨਾਲ:
+	{active} (modified)	{active} (ਸੋਧਿਆ)
+	{category} · My Template	{category} · ਮੇਰਾ ਟੈਂਪਲੇਟ
+	{codec} · {rate} Hz · {n} channel(s)	{codec} · {rate} Hz · {n} ਚੈਨਲ
+	{first} - Merged	{first} - ਮਿਲਾਇਆ
+	{first} Multicam	{first} ਮਲਟੀਕੈਮ
+	{fps} fps · {n} frames queued	{fps} fps · {n} ਫਰੇਮ ਕਤਾਰ ਵਿੱਚ
+	{f} (missing)	{f} (ਗੁੰਮ)
+	{key} can't be used as a shortcut	{key} ਨੂੰ ਸ਼ਾਰਟਕੱਟ ਵਜੋਂ ਨਹੀਂ ਵਰਤਿਆ ਜਾ ਸਕਦਾ
+	{mode} · no clip	{mode} · ਕੋਈ ਕਲਿੱਪ ਨਹੀਂ
+	{mode} · no sequence	{mode} · ਕੋਈ ਸੀਕਵੈਂਸ ਨਹੀਂ
+	{name} (Modified)	{name} (ਸੋਧਿਆ)
+	{name} (Simplified)	{name} (ਸਰਲ ਕੀਤਾ)
+	{name} (copy)	{name} (ਕਾਪੀ)
+	{name} (user)	{name} (ਵਰਤੋਂਕਾਰ)
+	{name} - Edited	{name} - ਸੋਧਿਆ
+	{name} Selection.fcproj	{name} ਚੋਣ.fcproj
+	{n} Color	{n} ਰੰਗ
+	{n} Font	{n} ਫ਼ੌਂਟ
+	{n} Position	{n} ਸਥਿਤੀ
+	{n} Size	{n} ਆਕਾਰ
+	{n} clip(s) can't find their media. Locate them, search a folder, or leave them offline.	{n} ਕਲਿੱਪਾਂ ਦਾ ਮੀਡੀਆ ਨਹੀਂ ਮਿਲ ਰਿਹਾ. ਉਨ੍ਹਾਂ ਦਾ ਟਿਕਾਣਾ ਦਿਓ, ਫੋਲਡਰ ਖੋਜੋ ਜਾਂ ਆਫਲਾਈਨ ਛੱਡੋ.
+	{n} clip(s) selected.	{n} ਕਲਿੱਪਾਂ ਚੁਣੀਆਂ ਹਨ.
+	{n} clip(s) selected; the clip on the reference track stays put.	{n} ਕਲਿੱਪਾਂ ਚੁਣੀਆਂ ਹਨ; ਹਵਾਲਾ ਟ੍ਰੈਕ ਦੀ ਕਲਿੱਪ ਆਪਣੀ ਥਾਂ ਰਹਿੰਦੀ ਹੈ.
+	{n} clip(s): {names}	{n} ਕਲਿੱਪਾਂ: {names}
+	{n} editable properties	{n} ਸੋਧਣਯੋਗ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ
+	{n} items	{n} ਆਈਟਮਾਂ
+	{n} s ago	{n} ਸਕਿੰਟ ਪਹਿਲਾਂ
+	{n} sessions have unsaved changes:	{n} ਸੈਸ਼ਨਾਂ ਵਿੱਚ ਅਣਸੰਭਾਲੀਆਂ ਤਬਦੀਲੀਆਂ ਹਨ:
+	{n}. (empty)	{n}. (ਖਾਲੀ)
+	{panel} Panel	{panel} ਪੈਨਲ
+	{panel} — coming in a later milestone	{panel} — ਬਾਅਦਲੇ ਮੀਲ-ਪੱਥਰ ਵਿੱਚ ਆਵੇਗਾ
+	{rate} fps Drop-Frame Timecode	{rate} fps ਡਰਾਪ-ਫਰੇਮ ਟਾਈਮਕੋਡ
+	{rate} fps Non Drop-Frame Timecode	{rate} fps ਨਾਨ ਡਰਾਪ-ਫਰੇਮ ਟਾਈਮਕੋਡ
+	{rate} fps Timecode	{rate} fps ਟਾਈਮਕੋਡ
+	{rate} frames/second	{rate} ਫਰੇਮ/ਸਕਿੰਟ
+	{sel} of {total} items selected	{total} ਆਈਟਮਾਂ ਵਿੱਚੋਂ {sel} ਚੁਣੀਆਂ
+	{tc}  Chapter	{tc}  ਅਧਿਆਇ
+	{total} items	{total} ਆਈਟਮਾਂ
+	● Recording	● ਰਿਕਾਰਡਿੰਗ
+	✓ Enable	✓ ਯੋਗ ਕਰੋ
+	✔ matches	✔ ਮੇਲ ਖਾਂਦਾ ਹੈ
+	✔ same file	✔ ਉਹੀ ਫ਼ਾਈਲ
+	✖ different file	✖ ਵੱਖਰੀ ਫ਼ਾਈਲ
+@id	file.close	ਬੰਦ ਕਰੋ
+	Caption Track	ਉਪਸਿਰਲੇਖ ਟ੍ਰੈਕ
