@@ -37,9 +37,12 @@
 	4 x 6 in label (101.6 x 152.4 mm)	4 x 6 tommer etikett (101,6 x 152,4 mm)
 	9 digit, A letter, O letter or digit, X any character	9 siffer, A bokstav, O bokstav eller siffer, X hvilket som helst tegn
 	; 1 page already had text	; 1 side hadde allerede tekst
+	; 1 page skipped	; 1 side hoppet over
+	; corrected {n} pages	; korrigerte {n} sider
 	; failed: {list}	; mislyktes: {list}
 	; skipped: {n}	; hoppet over: {n}
 	; {n} pages already had text	; {n} sider hadde allerede tekst
+	; {n} pages skipped	; {n} sider hoppet over
 	? of {n}	? av {n}
 	@{login}: {prs} PRs, {commits} commits, +{added} / −{deleted} lines (Δ {delta}), +{bin_added} / −{bin_deleted} binary assets, {first} – {last}	@{login}: {prs} PR-er, {commits} commits, +{added} / −{deleted} linjer (Δ {delta}), +{bin_added} / −{bin_deleted} binærfiler, {first} – {last}
 	[Custom]	[Egendefinert]
@@ -159,6 +162,7 @@
 	Add rectangle	Legg til rektangel
 	Add redaction mark	Legg til sladdemerke
 	Add search index	Legg til søkeindeks
+	Add searchable text	Legg til søkbar tekst
 	Add signature	Legg til signatur
 	Add squiggly underline	Legg til bølgete understreking
 	Add stamp	Legg til stempel
@@ -287,6 +291,7 @@ calendar date	August	august
 	Auto-size text to fit redaction region	Tilpass tekststørrelsen til sladdeområdet
 	Automatic (historical model)	Automatisk (historisk modell)
 	Automatic AcroForm scripts are disabled until safe execution isolation is available; saved field values were preserved. Explicit button and console scripts are still available.	Automatiske AcroForm-skript er slått av til sikker kjøreisolering er tilgjengelig; lagrede feltverdier er beholdt. Skript for knapper og konsollen er fortsatt tilgjengelige.
+	Automatically rotate sideways and upside-down pages	Roter sidelengs og opp-ned sider automatisk
 	Automatically tag PDF	Tagg PDF automatisk
 	average	gjennomsnitt
 	Back	Tilbake
@@ -572,6 +577,8 @@ certificate	Basic constraints	Grunnleggende begrensninger
 	Copy the pages with a match as a list such as 1-3, 7	Kopier sidene med treff som en liste, for eksempel 1-3, 7
 	Copy to clipboard	Kopier til utklippstavlen
 	Correct recognized text	Korriger gjenkjent tekst
+	Correct scans	Korriger skanninger
+	Corrected scan	Korrigert skanning
 	Could not save: {e}	Kunne ikke lagre: {e}
 	Couldn't add {name}: {e}	Kunne ikke legge til {name}: {e}
 	Couldn't be read: {reason}	Couldn't be read: {reason}
@@ -651,6 +658,7 @@ certificate	Basic constraints	Grunnleggende begrensninger
 	Crop image	Beskjær bilde
 	Crop page	Beskjær side
 	Crop pages	Beskjær sider
+	Crop scanner borders to the paper edge	Beskjær skannerkanter til papirkanten
 key	Ctrl	Ctrl
 	Currency symbol:	Valutasymbol:
 	Current page ({n})	Gjeldende side ({n})
@@ -1590,6 +1598,7 @@ animation effects	On	På
 	Only allow this if you trust the source document.	Tillat dette bare hvis du stoler på kildedokumentet.
 	Only change the colour of black text or line art	Endre bare fargen på svart tekst eller strektegninger
 	Only checked properties will change. Mixed means the selected fields have different values.	Bare avkryssede egenskaper endres. Blandet betyr at de valgte feltene har ulike verdier.
+	Only clear paper edges are cropped. Indistinguishable white borders are kept.	Bare tydelige papirkanter beskjæres. Hvite kanter som ikke kan skilles ut, beholdes.
 	Only continue if you trust this document. An address can carry information from the document, such as what you typed into its form.	Fortsett bare hvis du stoler på dette dokumentet. En adresse kan inneholde informasjon fra dokumentet, for eksempel det du skrev inn i skjemaet.
 	Only the document's owner can change its security (open it with the permissions password)	Bare dokumentets eier kan endre sikkerheten (åpne det med tillatelsespassordet)
 	Only the page content changes: links, comments, form fields and bookmarks on the original pages stay.	Bare sideinnholdet endres: lenker, kommentarer, skjemafelt og bokmerker på de opprinnelige sidene beholdes.
@@ -2063,6 +2072,7 @@ certificate	Public key	Offentlig nøkkel
 	Run JavaScript	Kjør JavaScript
 	Running action… file {d} of {t}	Kjører handling… fil {d} av {t}
 calendar weekday	Sa	lø
+	Safety margin (pt)	Sikkerhetsmarg (pt)
 	Same as interface	Samme som grensesnittet
 	Same as interface ({language})	Samme som grensesnittet ({language})
 	Same as text	Samme som teksten
@@ -2120,7 +2130,10 @@ calendar weekday	Sa	lø
 	Scale relative to target page	Skaler i forhold til målsiden
 	Scan	Skann
 	Scan & OCR	Skann og OCR
+	Scan and text recognition	Skanning og tekstgjenkjenning
+	Scan correction	Skannekorrigering
 	Scan interrupted	Scan interrupted
+	Scan processing cancelled	Skannebehandling avbrutt
 	Scan reverse side now (1 front)	Scan reverse side now (1 front)
 	Scan reverse sides	Scan reverse sides
 	Scan reverse sides now ({n} fronts)	Scan reverse sides now ({n} fronts)
@@ -2158,6 +2171,7 @@ calendar weekday	Sa	lø
 	Search tools and commands	Søk etter verktøy og kommandoer
 	Search tools and commands…	Søk etter verktøy og kommandoer…
 	Search tools…	Søk etter verktøy…
+	Searchable Image	Søkbart bilde
 	Searchable Image (Exact)	Søkbart bilde (eksakt)
 	Searching a folder needs the desktop app	Searching a folder needs the desktop app
 	Searching… {s} of {p} pages	Søker… {s} av {p} sider
@@ -2380,6 +2394,8 @@ action wizard	Start	Start
 	Stopped before the end.	Stopped before the end.
 	Stopped: too many files took too long to read.	Stopped: too many files took too long to read.
 	Store JPEG images as JPEG XL (smaller, can be undone; needs a reader that supports JPEG XL)	Lagre JPEG-bilder som JPEG XL (mindre, kan angres; krever en leser som støtter JPEG XL)
+	Straighten scanned page	Rett opp skannet side
+	Straighten skewed scans	Rett opp skjeve skanninger
 	Straighten the page	Straighten the page
 	Strength: {s}	Styrke: {s}
 	Strikethrough text	Gjennomstreking av tekst
@@ -2779,6 +2795,7 @@ signature pad	Type	Skriv
 	Type text	Skriv tekst
 	Type the web address.	Skriv inn nettadressen.
 	Type your {what}.	Skriv inn {what}.
+	Uncertain orientations are left unchanged. Deskew fits the full image inside the page.	Usikre retninger endres ikke. Opprettingen får hele bildet til å passe inni siden.
 	Unchecked	Ikke avkrysset
 	Unchecked reads	Unchecked reads
 	Underline	Understrek
