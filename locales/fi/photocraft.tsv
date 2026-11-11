@@ -142,12 +142,9 @@
 	Adjustment visible	Säätö näkyvissä
 	Adjustments	Säädöt
 	Adobe	Adobe
-	Adobe Every-line Composer	Adobe kaikkien rivien asettelija
-	Adobe PDF Presets…	Adobe PDF -esiasetukset…
 	Adobe rgb	Adobe RGB
 	Adobe RGB (1998)	Adobe RGB (1998)
 	Adobe RGB (1998) compatible	Adobe RGB (1998) -yhteensopiva
-	Adobe Single-line Composer	Adobe yksirivinen asettelija
 	Adobe-rgb-compat	Adobe RGB -yhteensopiva
 	Advanced Blending	Sekoituksen lisäasetukset
 	Advanced Controls	Lisäasetukset
@@ -181,7 +178,6 @@
 	All Classes	Kaikki luokat
 	All Layers No Adjustments	Kaikki tasot ilman säätöjä
 	All shortcuts reset to PhotoCraft defaults.	Kaikki pikanäppäimet palautettu PhotoCraftin oletusasetuksiin.
-	All shortcuts reset to Photoshop defaults.	Kaikki pikanäppäimet palautettu Photoshopin oletuksiin.
 	All User Slices	Kaikki käyttäjän viipaleet
 	Allow agent control	Salli agentin ohjaus
 	Allow Continue	Salli jatkaminen
@@ -338,6 +334,7 @@ cameraRaw	Aqua	Turkoosi
 	Background	Tausta
 	Background (Default)	Tausta (oletus)
 	Background (default)	Tausta (oletus)
+	Background (default):	Tausta (oletus):
 	Background Color	Taustaväri
 	Background Eraser	Taustapyyhekumi
 	Background Eraser Tool	Taustapyyhekumi
@@ -497,17 +494,6 @@ fontWeight	Bold	Lihavoitu
 	Camera Data	Kameratiedot
 	Camera Make	Kameran valmistaja
 	Camera Model	Kameran malli
-	Camera Raw	Camera Raw
-	Camera Raw ({name})	Camera Raw ({name})
-cameraRaw	Camera Raw ({name})	Camera Raw ({name})
-	Camera Raw Defaults	Camera Raw -oletukset
-	Camera Raw Filter	Camera Raw -suodatin
-	Camera Raw Filter ({layer})	Camera Raw -suodatin ({layer})
-cameraRaw	Camera Raw Filter ({layer})	Camera Raw -suodatin ({layer})
-	Camera Raw Filter…	Camera Raw -suodatin…
-	Camera Raw isn't open	Camera Raw ei ole auki
-cameraRaw	Camera Raw isn't open	Camera Raw ei ole auki
-	Camera Raw…	Camera Raw…
 cameraRaw	Cancel	Peruuta
 	Cancel (Esc)	Peruuta (Esc)
 	Cancel any current edits (Esc)	Peruuta nykyiset muokkaukset (Esc)
@@ -600,6 +586,7 @@ cameraRaw	Clarity	Selkeys
 	Clean the brush after each stroke	Puhdista sivellin jokaisen vedon jälkeen
 	Cleanliness	Puhtaus
 	Clear Amount	Tyhjennyksen määrä
+	Clear aspect ratio values	Tyhjennä kuvasuhteen arvot
 	Clear Brush Controls	Nollaa siveltimen asetukset
 	Clear Brush Strokes	Tyhjennä siveltimenvedot
 	Clear Canvas Guides	Poista kankaan apuviivat
@@ -781,6 +768,7 @@ cameraRaw	Color Priority	Väriprioriteetti
 	Contact Sheet II…	Vedosarkki II…
 	Content-Aware	Sisältötietoinen
 	Content-Aware Fill	Sisältötietoinen täyttö
+	Content-aware fill	Sisältöön perustuva täyttö
 	Content-Aware Fill needs a selection on a pixel layer	Sisältötietoinen täyttö tarvitsee valinnan pikselitasolla
 	Content-Aware Fill…	Sisältötietoinen täyttö…
 	Content-Aware Move	Sisältötietoinen siirto
@@ -1027,7 +1015,6 @@ cameraData	Date Taken	Kuvauspäivä
 	Default Foreground and Background Colors (D)	Oletusarvoiset edusta- ja taustavärit (D)
 	Default Leaves	Oletuslehdet
 	Default PhotoCraft Size	PhotoCraftin oletuskoko
-	Default Photoshop Size	Photoshopin oletuskoko
 	Default printer	Oletustulostin
 	Default restored.	Oletus palautettu.
 	Defaults	Oletukset
@@ -1108,6 +1095,7 @@ cameraRaw	Detail	Yksityiskohdat
 	Detailed	Yksityiskohtainen
 	Details	Tiedot
 	Detect Faces	Tunnista kasvot
+	Determines if pixel data outside the crop box is retained or deleted	Määrittää, säilytetäänkö rajauskehyksen ulkopuoliset pikselit vai poistetaanko ne
 	Developing {name}	Kehitetään tiedostoa {name}
 cameraRaw	Developing {name}	Kehitetään tiedostoa {name}
 	Diagonal	Diagonaalinen
@@ -1146,6 +1134,7 @@ cameraRaw	Developing {name}	Kehitetään tiedostoa {name}
 	Display profiles: {reason}	Näyttöprofiilit: {reason}
 	Display Text	Näytä teksti
 	Display-p3	Display P3
+	Displays pop-up help for the fill methods	Näyttää ponnahdusohjeen täyttötavoista
 	Dissolve	Liuota
 	Dissolve is approximated: it blends without Photoshop's dither.	Liuota on likimääräinen: se sekoittaa ilman Photoshopin ditteröintiä.
 	Distort	Vääristys
@@ -1420,11 +1409,13 @@ layers	Fill	Täyttö
 	Fill Light	Täytevalo
 	Fill new type layers with placeholder	Täytä uudet tekstitasot paikkamerkkitekstillä
 	Fill Opacity	Täytön peittävyys
+	Fill options	Täyttöasetukset
 	Fill Path	Täytä polku
 	Fill path with foreground color	Täytä polku edustavärillä
 	Fill Path…	Täytä polku…
 	Fill Screen	Täytä näyttö
 	Fill Settings	Täyttöasetukset
+	Fill the expanded area with your background color or transparent pixels	Täytä laajennettu alue taustavärillä tai läpinäkyvillä pikseleillä
 	Fill with Background Color	Täytä taustavärillä
 	Fill with Background Color, Preserve Transparency	Täytä taustavärillä, säilytä läpinäkyvyys
 	Fill with Foreground Color	Täytä edustavärillä
@@ -1767,6 +1758,7 @@ cameraRaw	Highlights	Korostukset
 	Horizontal Type Tool	Vaakasuuntainen tekstityökalu
 	Horizontally	Vaakasuunnassa
 	Hotspot	Kuuma piste
+	How expanded crop area gets filled	Miten laajennettu rajausalue täytetään
 	How often fastening points are placed by themselves	Kuinka usein kiinnityspisteitä lisätään automaattisesti
 	How the camera's color filter mosaic is filled in. It is applied when the file opens; the preview shows the method it was opened with.	Miten kameran värisuodatinmosaiikki täydennetään. Menetelmä otetaan käyttöön tiedostoa avattaessa; esikatselu näyttää menetelmän, jolla tiedosto avattiin.
 	Hsb	HSB
@@ -2093,10 +2085,10 @@ cameraRaw	Load settings from a Camera Raw .xmp file	Lataa asetukset Camera Raw .
 	Load Settings…	Lataa asetukset…
 cameraRaw	Load Settings…	Lataa asetukset…
 	Load the brush after each stroke	Lisää maalia siveltimeen jokaisen vedon jälkeen
-	Loaded Camera Raw settings from {file}	Camera Raw -asetukset ladattu tiedostosta {file}
-cameraRaw	Loaded Camera Raw settings from {file}	Camera Raw -asetukset ladattu tiedostosta {file}
-	Loaded Camera Raw settings from {file} ({n} not supported)	Camera Raw -asetukset ladattu tiedostosta {file} ({n} tukematonta)
 	Loaded contours from {file}	Kontuurit ladattu tiedostosta {file}
+	Loaded RAW Develop settings from {file}	RAW-kehitys -asetukset ladattu tiedostosta {file}
+cameraRaw	Loaded RAW Develop settings from {file}	RAW-kehitys -asetukset ladattu tiedostosta {file}
+	Loaded RAW Develop settings from {file} ({n} not supported)	RAW-kehitys -asetukset ladattu tiedostosta {file} ({n} tukematonta)
 @plural	Loaded {n} action from {file}|Loaded {n} actions from {file}	Ladattu {n} toiminto tiedostosta {file}|Ladattu {n} toimintoa tiedostosta {file}
 	Loading fonts…	Ladataan fontteja…
 	Loading…	Ladataan…
@@ -2306,6 +2298,8 @@ cameraData	Model	Malli
 	Move to	Siirrä ryhmään
 	Move to New Window	Siirrä uuteen ikkunaan
 	Move Tool	Siirtotyökalu
+	Move Toolbar to the Left	Siirrä työkalupalkki vasemmalle
+	Move Toolbar to the Right	Siirrä työkalupalkki oikealle
 	Movie Prime	Elokuvaobjektiivi
 	Multichannel	Monikanava
 	Multiple Flames Along Path	Useita liekkejä polkua pitkin
@@ -2492,7 +2486,6 @@ cameraRaw	Open	Avaa
 	Open File	Avaa tiedosto
 	Open Folder	Avaa kansio
 	Open Image	Avaa kuva
-	Open in camera raw	Avaa Camera Raw'ssa
 	Open paths use centered strokes	Avoimet polut käyttävät keskitettyjä reunaviivoja
 	Open Recent	Viimeksi avatut
 	Open Recent is unavailable on the web	Avaa viimeisimmät ei ole käytettävissä verkossa
@@ -2849,8 +2842,19 @@ cameraRaw	Radius	Säde
 	Rate	Nopeus
 	Ratio	Kuvasuhde
 	Raw Data	Raakadata
+	RAW Defaults	RAW-oletukset
 	Raw Defaults	Raw-oletukset
+	RAW Defaults…	RAW-oletukset…
 	Raw Defaults…	Raw-oletusarvot…
+	RAW Develop	RAW-kehitys
+	RAW Develop ({name})	RAW-kehitys ({name})
+cameraRaw	RAW Develop ({name})	RAW-kehitys ({name})
+	RAW Develop Filter	RAW-kehitys -suodatin
+	RAW Develop Filter ({layer})	RAW-kehitys -suodatin ({layer})
+cameraRaw	RAW Develop Filter ({layer})	RAW-kehitys -suodatin ({layer})
+	RAW Develop Filter…	RAW-kehitys -suodatin…
+	RAW Develop isn't open	RAW-kehitys ei ole auki
+cameraRaw	RAW Develop isn't open	RAW-kehitys ei ole auki
 	Reading	Luetaan
 	Reading…	Luetaan…
 	Real-Time Refinement	Reaaliaikainen tarkennus
@@ -2973,6 +2977,7 @@ fontWeight	Regular	Normaali
 	Reset Section	Nollaa osio
 	Reset Swatches	Palauta värimallit
 	Reset the brush to the defaults	Palauta sivellin oletuksiin
+	Reset the crop box, image rotation, and aspect ratio settings	Palauta rajauskehys, kuvan kierto ja kuvasuhde
 	Reset to Default	Palauta oletukseen
 	Reset to defaults	Palauta oletukset
 	Reset Tool	Nollaa työkalu
@@ -3062,6 +3067,7 @@ cameraRaw	Roundness	Pyöreys
 	Same folder	Sama kansio
 	Sample a pixel anywhere on the screen	Poimi pikseli mistä tahansa näytöltä
 	Sample All Layers	Ota näyte kaikilta tasoilta
+	Sample content from part of the image and use it to fill a small area	Ota sisältöä kuvan osasta pienen alueen täyttämiseksi
 	Sample Size	Näytteen koko
 	Sample Size:	Näytteen koko:
 	Sample:	Näyte:
@@ -3115,6 +3121,7 @@ cameraRaw	Save these settings as a Camera Raw .xmp file	Tallenna nämä asetukse
 	Saved contours to {file}	Kontuurit tallennettu tiedostoon {file}
 @plural	Saved for Web: {n} file|Saved for Web: {n} files	Tallennettu verkkoa varten: {n} tiedosto|Tallennettu verkkoa varten: {n} tiedostoa
 	Saved Multichannel	Tallennettu monikanavaisena
+	Saved RAW Develop settings to {file}	RAW-kehityksen asetukset tallennettu tiedostoon {file}
 	Saved {name}	Tallennettu {name}
 @plural	Saved {n} action to {file}|Saved {n} actions to {file}	Tallennettu {n} toiminto tiedostoon {file}|Tallennettu {n} toimintoa tiedostoon {file}
 @plural	Saved {n} color to {file}|Saved {n} colors to {file}	Tallennettu {n} väri tiedostoon {file}|Tallennettu {n} väriä tiedostoon {file}
@@ -3165,6 +3172,7 @@ cameraRaw	Save these settings as a Camera Raw .xmp file	Tallenna nämä asetukse
 	Second Color Readout	Toinen värilukema
 	seconds	sekuntia
 	Seed	Siemen
+	Select a preset aspect ratio or crop size	Valitse esiasetettu kuvasuhde tai rajaustittikoko
 	Select a type layer or click into text to insert glyphs	Valitse tekstitaso tai napsauta tekstiä lisätäksesi glyfejä
 	Select a type layer to edit its character and paragraph settings.	Valitse tekstitaso muokataksesi sen merkki- ja kappaleasetuksia.
 	Select All Layers	Valitse kaikki tasot
@@ -3232,6 +3240,8 @@ fontWeight	SemiBold	Puolilihavoitu
 	Set shape fill type	Aseta muodon täyttötyyppi
 	Set shape stroke type	Aseta muodon reunaviivatyyppi
 	Set Start Timecode…	Aseta aloitusaikakoodi…
+	Set the aspect ratio for the crop box	Aseta rajauskehyksen kuvasuhde
+	Set the overlay options for the Crop Tool	Aseta rajauksen peittokuvan asetukset
 	Set the overlay options for the Crop tool	Aseta rajaustyökalun peitteen asetukset
 	Set the text color	Aseta tekstin väri
 	Set the tone sliders from the image	Aseta sävyliukusäätimet kuvan perusteella
@@ -3621,6 +3631,7 @@ cameraRaw	Texture	Tekstuuri
 	The fastest and the softest, with color fringing on fine detail.	Nopein ja pehmein, hienoissa yksityiskohdissa värireunuksia.
 	The file could not be opened.	Tiedostoa ei voitu avata.
 	The file could not be saved.	Tiedostoa ei voitu tallentaa.
+	The fill for this layer must be rasterized before proceeding. It will no longer be editable as a fill. Rasterize the fill?	Tämä täyttötaso on rasteroitava ennen jatkamista. Sen täyttösisältöä ei voi enää muokata. Rasteroidaanko taso?
 	The GPU compositor wasn't used: {reason}	GPU-koostinta ei käytetty: {reason}
 	The gradient the Gradient tool paints with	Liukuväri, jolla liukuvärityökalu maalaa
 	The keyboard shortcut set was not imported: {error}	Pikanäppäinsarjaa ei tuotu: {error}
@@ -3641,7 +3652,6 @@ fontWeight	Thin	Ohut
 	This adjustment ({key}) is kept as imported and can't be edited yet.	Tämä säätö ({key}) säilytetään tuotuna, eikä sitä voi vielä muokata.
 	This document's layers need {needed} but may hold {budget}: whole-document redraws use the CPU	Tämän asiakirjan tasot tarvitsevat {needed}, mutta saavat käyttää {budget}: koko asiakirjan uudelleenpiirrot käyttävät suoritinta
 	This document's layers: {needed} of {budget} for layers	Tämän asiakirjan tasot: {needed} / {budget} tasoille
-	This fill layer must be rasterized before proceeding. Its fill content will no longer be editable. Rasterize the layer?	Tämä täyttötaso on rasteroitava ennen jatkamista. Sen täyttösisältöä ei voi enää muokata. Rasteroidaanko taso?
 	This layer must be rasterized before proceeding.	Tämä taso on rasteroitava ennen jatkamista.
 	This Layer:	Tämä taso:
 	This redraw took {seconds} s on the CPU.	Tämä uudelleenpiirto kesti {seconds} s suorittimella.

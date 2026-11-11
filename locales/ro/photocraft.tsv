@@ -156,12 +156,9 @@
 	Adjustment visible	Ajustare vizibilă
 	Adjustments	Ajustări
 	Adobe	Adobe
-	Adobe Every-line Composer	Compozitor Adobe multilinie
-	Adobe PDF Presets…	Presetări Adobe PDF…
 	Adobe rgb	Adobe RGB
 	Adobe RGB (1998)	Adobe RGB (1998)
 	Adobe RGB (1998) compatible	Compatibil cu Adobe RGB (1998)
-	Adobe Single-line Composer	Compozitor Adobe cu o linie
 	Adobe-rgb-compat	Compatibil Adobe RGB
 	Advanced	Avansat
 	Advanced Blending	Fuziune avansată
@@ -367,6 +364,7 @@ cameraRaw	Aqua	Aguamarine
 	Background	Fundal
 	Background (Default)	Fundal (implicit)
 	Background (default)	Fundal (implicit)
+	Background (default):	Fundal (implicit):
 	Background Color	Culoare de fundal
 	Background Contents	Conținut fundal
 	Background Eraser	Radieră de fundal
@@ -544,14 +542,6 @@ fontWeight	Bold	Bold
 	Camera Data	Date cameră
 	Camera Make	Producător cameră
 	Camera Model	Model cameră
-	Camera Raw	Camera Raw
-	Camera Raw ({name})	Camera Raw ({name})
-	Camera Raw Defaults	Valori implicite Camera Raw
-	Camera Raw Filter	Filtru Camera Raw
-	Camera Raw Filter ({layer})	Filtru Camera Raw ({layer})
-	Camera Raw Filter…	Filtru Camera Raw…
-	Camera Raw isn't open	Camera Raw nu este deschis
-	Camera Raw…	Camera Raw…
 	Cancel	Anulare
 	Cancel (Esc)	Anulare (Esc)
 	Cancel any current edits (Esc)	Anulare editări curente (Esc)
@@ -657,6 +647,7 @@ fontWeight	Bold	Bold
 	Clear	Golire
 	Clear All	Ștergere tot
 	Clear Amount	Cantitate transparență
+	Clear aspect ratio values	Goliți valorile raportului de aspect
 	Clear Brush Controls	Ștergere controale pensulă
 	Clear Brush Strokes	Ștergere tușe de pensulă
 	Clear Canvas Guides	Ștergere ghidaje pânză
@@ -858,6 +849,7 @@ cameraRaw	Color Grading	Gradare culoare
 	Contact Sheet II…	Planșă de contact II…
 	Content-Aware	Sensibil la conținut
 	Content-Aware Fill	Umplere sensibilă la conținut
+	Content-aware fill	Umplere în funcție de conținut
 	Content-Aware Fill needs a selection on a pixel layer	Umplerea sensibilă la conținut necesită o selecție pe un strat de pixeli
 	Content-Aware Fill…	Umplere sensibilă la conținut…
 	Content-Aware Move	Deplasare cu detecție de conținut
@@ -1216,6 +1208,7 @@ cameraData	Date Taken	Data capturii
 	Detailed	Detaliat
 	Details	Detalii
 	Detect Faces	Detectare fețe
+	Determines if pixel data outside the crop box is retained or deleted	Stabilește dacă pixelii din afara cadrului de decupare sunt păstrați sau șterși
 	Developing {name}	Se procesează {name}
 	Diagonal	Diagonal
 	Diagonal (Descending)	Diagonală (descrescătoare)
@@ -1262,6 +1255,7 @@ cameraData	Date Taken	Data capturii
 	Display profiles: {reason}	Profiluri afișaj: {reason}
 	Display Text	Text afișat
 	Display-p3	Display P3
+	Displays pop-up help for the fill methods	Afișează ajutorul contextual pentru metodele de umplere
 	Dissolve	Dizolvare
 	Dissolve is approximated: it blends without Photoshop's dither.	Dizolvarea este aproximată: fuzionează fără tramarea din Photoshop.
 	Distance	Distanță
@@ -1567,11 +1561,13 @@ cameraData	F-Stop	Diafragmă f
 	Fill Light	Lumină de umplere
 	Fill new type layers with placeholder	Umplere straturi de text noi cu text substituent
 	Fill Opacity	Opacitate umplere
+	Fill options	Opțiuni de umplere
 	Fill Path	Umplere traseu
 	Fill path with foreground color	Umplere traseu cu culoarea frontală
 	Fill Path…	Umplere traseu…
 	Fill Screen	Umplere ecran
 	Fill Settings	Setări umplere
+	Fill the expanded area with your background color or transparent pixels	Umple zona extinsă cu culoarea de fundal sau cu pixeli transparenți
 	Fill with Background Color	Umplere cu culoarea de fundal
 	Fill with Background Color, Preserve Transparency	Umplere cu culoarea de fundal, conservare transparență
 	Fill with Foreground Color	Umplere cu culoarea frontală
@@ -1958,6 +1954,7 @@ cameraRaw	Green	Verzi
 	Horizontal Type Tool	Instrument Text orizontal
 	Horizontally	Orizontal
 	Hotspot	Punct focal
+	How expanded crop area gets filled	Cum se umple zona de decupare extinsă
 	How often fastening points are placed by themselves	Cât de des se plasează automat punctele de fixare
 	How the camera's colour filter mosaic is filled in. It is applied when the file opens; the preview shows the method it was opened with.	Cum este completat mozaicul filtrului de culoare al camerei. Se aplică la deschiderea fișierului; previzualizarea arată metoda cu care a fost deschis.
 	Hsb	HSB
@@ -2339,9 +2336,9 @@ cameraRaw	Lights	Luminile
 	Load settings from a Camera Raw .xmp file	Încărcare setări dintr-un fișier .xmp Camera Raw
 	Load Settings…	Încărcare setări…
 	Load the brush after each stroke	Încărcare pensula după fiecare tușă
-	Loaded Camera Raw settings from {file}	Setări Camera Raw încărcate din {file}
-	Loaded Camera Raw settings from {file} ({n} not supported)	Setări Camera Raw încărcate din {file} ({n} nesuportate)
 	Loaded contours from {file}	S-au încărcat contururile din {file}
+	Loaded RAW Develop settings from {file}	Setări Developare RAW încărcate din {file}
+	Loaded RAW Develop settings from {file} ({n} not supported)	Setări Developare RAW încărcate din {file} ({n} nesuportate)
 @plural	Loaded {n} action from {file}|Loaded {n} actions from {file}	S-a încărcat {n} acțiune din {file}|S-au încărcat {n} acțiuni din {file}|S-au încărcat {n} de acțiuni din {file}
 	Loading fonts…	Se încarcă fonturile…
 	Loading…	Se încarcă…
@@ -2577,6 +2574,8 @@ cameraData	Model	Model
 	Move Panel	Deplasare panou
 	Move to	Deplasare la
 	Move Tool	Instrument Deplasare
+	Move Toolbar to the Left	Mută bara de instrumente la stânga
+	Move Toolbar to the Right	Mută bara de instrumente la dreapta
 	Move Up	Deplasare sus
 	Movie Prime	Film Prime
 	Multichannel	Multicanal
@@ -2802,7 +2801,6 @@ layerLabel	No Color	Fără culoare
 	Open File	Deschidere fișier
 	Open Folder	Deschidere folder
 	Open Image	Deschidere imagine
-	Open in camera raw	Deschidere în Camera Raw
 	Open paths use centered strokes	Traseele deschise folosesc trasee centrate
 	Open Recent	Deschidere recente
 	Open Recent is unavailable on the web	Deschidere recente nu este disponibilă pe web
@@ -3215,8 +3213,16 @@ cameraRaw	Purple	Violeți
 	Rate	Viteză
 	Ratio	Raport
 	Raw Data	Date brute
+	RAW Defaults	Valori implicite RAW
 	Raw Defaults	Valori implicite Raw
+	RAW Defaults…	Valori implicite RAW…
 	Raw Defaults…	Valori implicite Raw…
+	RAW Develop	Developare RAW
+	RAW Develop ({name})	Developare RAW ({name})
+	RAW Develop Filter	Filtru Developare RAW
+	RAW Develop Filter ({layer})	Filtru Developare RAW ({layer})
+	RAW Develop Filter…	Filtru Developare RAW…
+	RAW Develop isn't open	Developare RAW nu este deschis
 	Reading	Se citește
 	Reading…	Se citește…
 	Ready	Pregătit
@@ -3352,6 +3358,7 @@ fontWeight	Regular	Normal
 	Reset Section	Resetare secțiune
 	Reset Swatches	Resetare mostre
 	Reset the brush to the defaults	Resetare pensulă la valorile implicite
+	Reset the crop box, image rotation, and aspect ratio settings	Resetează cadrul de decupare, rotirea imaginii și raportul de aspect
 	Reset to Default	Resetare la valoarea implicită
 	Reset to defaults	Resetare la valorile implicite
 	Reset Tool	Resetare instrument
@@ -3453,6 +3460,7 @@ cameraRaw	Roughness	Rugozitate
 	Same folder	Același folder
 	Sample a pixel anywhere on the screen	Eșantionați un pixel oriunde pe ecran
 	Sample All Layers	Eșantionare toate straturile
+	Sample content from part of the image and use it to fill a small area	Preia conținut dintr-o parte a imaginii pentru a umple o zonă mică
 	Sample Size	Dimensiune eșantion
 	Sample Size:	Dimensiune eșantion:
 	Sample:	Probă:
@@ -3514,6 +3522,7 @@ cameraRaw	Roughness	Rugozitate
 	Saved contours to {file}	S-au salvat contururile în {file}
 @plural	Saved for Web: {n} file|Saved for Web: {n} files	Salvat pentru web: {n} fișier|Salvat pentru web: {n} fișiere|Salvat pentru web: {n} de fișiere
 	Saved Multichannel	Multicanal salvat
+	Saved RAW Develop settings to {file}	Setările de developare RAW au fost salvate în {file}
 	Saved {name}	S-a salvat {name}
 @plural	Saved {n} action to {file}|Saved {n} actions to {file}	S-a salvat {n} acțiune în {file}|S-au salvat {n} acțiuni în {file}|S-au salvat {n} de acțiuni în {file}
 @plural	Saved {n} color to {file}|Saved {n} colors to {file}	S-a salvat {n} culoare în {file}|S-au salvat {n} culori în {file}|S-au salvat {n} de culori în {file}
@@ -3571,6 +3580,7 @@ cameraRaw	Roughness	Rugozitate
 	seconds	secunde
 	Seed	Sămânță
 	Select	Selectare
+	Select a preset aspect ratio or crop size	Alegeți un raport de aspect sau o dimensiune de decupare prestabilită
 	Select a type layer or click into text to insert glyphs	Selectați un strat de text sau faceți clic în text pentru a insera glife
 	Select a type layer to edit its character and paragraph settings.	Selectați un strat de text pentru a-i edita setările de caracter și paragraf.
 	Select All	Selectare tot
@@ -3666,6 +3676,8 @@ fontWeight	SemiBold	Semi Bold
 	Set shape fill type	Setare tip de umplere a formei
 	Set shape stroke type	Setare tip de contur al formei
 	Set Start Timecode…	Stabilire cod de timp inițial…
+	Set the aspect ratio for the crop box	Setați raportul de aspect pentru cadrul de decupare
+	Set the overlay options for the Crop Tool	Setați opțiunile suprapunerii de decupare
 	Set the overlay options for the Crop tool	Definire opțiuni de suprapunere pentru instrumentul Decupare
 	Set the text color	Setare culoare text
 	Set the tone sliders from the image	Stabilire glisoarele de ton din imagine
@@ -4105,6 +4117,7 @@ cameraRaw	Temperature	Temperatură
 	The fastest and the softest, with colour fringing on fine detail.	Cea mai rapidă și cea mai moale, cu franjare de culoare pe detalii fine.
 	The file could not be opened.	Fișierul nu a putut fi deschis.
 	The file could not be saved.	Fișierul nu a putut fi salvat.
+	The fill for this layer must be rasterized before proceeding. It will no longer be editable as a fill. Rasterize the fill?	Acest strat de umplere trebuie rasterizat înainte de a continua. Conținutul său de umplere nu va mai fi editabil. Rasterizați stratul?
 	The frame is locked	Cadrul este blocat
 	The frame is unavailable	Cadrul nu este disponibil
 	The GPU compositor is still being prepared	Compozitorul GPU este încă în curs de pregătire
@@ -4130,7 +4143,6 @@ fontWeight	Thin	Ultrafină
 	This adjustment ({key}) is kept as imported and can't be edited yet.	Acest ajustaj ({key}) este conservat ca a fost importat și nu poate fi editat încă.
 	This document's layers need {needed} but may hold {budget}: whole-document redraws use the CPU	Straturile acestui document necesită {needed} dar pot ocupa {budget}: redesenările întregului document folosesc CPU
 	This document's layers: {needed} of {budget} for layers	Straturile acestui document: {needed} din {budget} pentru straturi
-	This fill layer must be rasterized before proceeding. Its fill content will no longer be editable. Rasterize the layer?	Acest strat de umplere trebuie rasterizat înainte de a continua. Conținutul său de umplere nu va mai fi editabil. Rasterizați stratul?
 	This layer must be rasterized before proceeding.	Acest strat trebuie rasterizat înainte de a continua.
 	This Layer:	Acest strat:
 	This redraw took {seconds} s on the CPU.	Această redesenare a durat {seconds} s pe CPU.

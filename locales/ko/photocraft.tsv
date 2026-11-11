@@ -278,6 +278,7 @@ cameraRaw	Aqua	청록
 	Backend: {backend} ({type})	백엔드: {backend}({type})
 	Background (Default)	배경(기본값)
 	Background (default)	배경(기본값)
+	Background (default):	배경 (기본값):
 	Background Color	배경색
 	Background Eraser	배경 지우개
 	Background Eraser Tool	배경 지우개 도구
@@ -413,14 +414,6 @@ fontWeight	Bold	굵게
 	Calculations…	연산…
 	Calibration	보정
 	Camera Data	카메라 데이터
-	Camera Raw	Camera Raw
-	Camera Raw ({name})	Camera Raw ({name})
-	Camera Raw Defaults	Camera Raw 기본값
-	Camera Raw Filter	Camera Raw 필터
-	Camera Raw Filter ({layer})	Camera Raw 필터 ({layer})
-	Camera Raw Filter…	Camera Raw 필터…
-	Camera Raw isn't open	Camera Raw가 열려 있지 않습니다
-	Camera Raw…	Camera Raw…
 	Cancel (Esc)	취소 (Esc)
 	Cancel any current edits (Esc)	현재 편집 취소 (Esc)
 	Cancel current crop operation  (Esc)	현재 자르기 작업 취소  (Esc)
@@ -487,6 +480,7 @@ cameraRaw	Clarity	명료도
 	Clean the brush after each stroke	획마다 브러시 세척
 	Cleanliness	청결도
 	Clear Amount	투명 양
+	Clear aspect ratio values	종횡비 값 지우기
 	Clear Brush Controls	브러시 제어 지우기
 	Clear Brush Strokes	브러시 획 지우기
 	Clear Canvas Guides	캔버스 안내선 지우기
@@ -637,6 +631,7 @@ cameraRaw	Color Mixer	색상 혼합기
 	Contact Sheet II…	밀착 인화 II…
 	Content-Aware	내용 인식
 	Content-Aware Fill	내용 인식 채우기
+	Content-aware fill	내용 기반 채우기
 	Content-Aware Fill needs a selection on a pixel layer	내용 인식 채우기를 사용하려면 픽셀 레이어에 선택 영역이 필요합니다
 	Content-Aware Fill…	내용 인식 채우기…
 	Content-Aware Move	내용 인식 이동
@@ -924,6 +919,7 @@ cameraRaw	Dehaze	안개 제거
 cameraRaw	Detail	세부 정보
 	Detailed	자세하게
 	Detect Faces	얼굴 감지
+	Determines if pixel data outside the crop box is retained or deleted	자르기 프레임 밖의 픽셀을 유지할지 삭제할지 결정
 	Developing {name}	{name} 현상 중
 	Diagonal (Descending)	대각선(내림)
 	Diameter:	직경:
@@ -952,6 +948,7 @@ cameraRaw	Detail	세부 정보
 	Display profile not used	디스플레이 프로파일 사용 안 함
 	Display profiles: {reason}	디스플레이 프로파일: {reason}
 	Display Text	표시 텍스트
+	Displays pop-up help for the fill methods	채우기 방법에 대한 팝업 도움말 표시
 	Dissolve	디졸브
 	Dissolve is approximated: it blends without Photoshop's dither.	디졸브는 근사치입니다. Photoshop의 디더링 없이 혼합됩니다.
 	Distribute Heights	높이 분포
@@ -1168,11 +1165,13 @@ layers	Fill	칠
 	Fill Layer	칠 레이어
 	Fill new type layers with placeholder	새 문자 레이어에 예시 텍스트 채우기
 	Fill Opacity	칠 불투명도
+	Fill options	채우기 옵션
 	Fill Path	패스 칠
 	Fill path with foreground color	전경색으로 패스 채우기
 	Fill Path…	패스 칠…
 	Fill Screen	화면 채우기
 	Fill Settings	채우기 설정
+	Fill the expanded area with your background color or transparent pixels	확장된 영역을 배경색 또는 투명 픽셀로 채우기
 	Fill with Background Color	배경색으로 칠
 	Fill with Background Color, Preserve Transparency	배경색으로 칠, 투명도 유지
 	Fill with Foreground Color	전경색으로 칠
@@ -1462,6 +1461,7 @@ cameraRaw	Highlights	밝은 영역
 	Horizontal Type Mask Tool	수평 문자 마스크 도구
 	Horizontal Type Tool	수평 문자 도구
 	Hotspot	핫스폿
+	How expanded crop area gets filled	확장된 자르기 영역을 채우는 방법
 	How often fastening points are placed by themselves	고정점이 자동으로 놓이는 빈도
 	How the camera's color filter mosaic is filled in. It is applied when the file opens; the preview shows the method it was opened with.	카메라 컬러 필터 모자이크를 채우는 방법입니다. 파일을 열 때 적용되며, 미리 보기는 파일을 연 방식으로 표시됩니다.
 	Hsb	HSB
@@ -1734,9 +1734,9 @@ cameraRaw	Lights	밝은 중간 영역
 	Load settings from a Camera Raw .xmp file	Camera Raw .xmp 파일에서 설정 불러오기
 	Load Settings…	설정 불러오기…
 	Load the brush after each stroke	획마다 브러시 채우기
-	Loaded Camera Raw settings from {file}	{file}에서 Camera Raw 설정을 불러왔습니다
-	Loaded Camera Raw settings from {file} ({n} not supported)	{file}에서 Camera Raw 설정을 불러왔습니다 (미지원 {n}개)
 	Loaded contours from {file}	{file}에서 윤곽선을 불러왔습니다
+	Loaded RAW Develop settings from {file}	{file}에서 RAW 현상 설정을 불러왔습니다
+	Loaded RAW Develop settings from {file} ({n} not supported)	{file}에서 RAW 현상 설정을 불러왔습니다 (미지원 {n}개)
 @plural	Loaded {n} action from {file}|Loaded {n} actions from {file}	{file}에서 액션 {n}개를 불러왔습니다
 	Loading fonts…	글꼴 불러오는 중…
 	Load…	불러오기…
@@ -1915,6 +1915,8 @@ cameraData	Model	모델
 	Move to	이동 위치
 	Move to New Window	새 창으로 이동
 	Move Tool	이동 도구
+	Move Toolbar to the Left	도구 모음을 왼쪽으로 이동
+	Move Toolbar to the Right	도구 모음을 오른쪽으로 이동
 	Movie Prime	영화용 단렌즈
 	Multichannel	다중 채널
 	Multiple Flames Along Path	패스를 따른 여러 불꽃
@@ -2065,7 +2067,6 @@ layerLabel	No Color	색상 없음
 	Open documents as tabs	문서를 탭으로 열기
 	Open Document…	열기…
 	Open EXR Parts…	EXR 파트 열기…
-	Open in camera raw	Camera Raw에서 열기
 	Open paths use centered strokes	열린 패스는 가운데 획을 사용합니다
 	Open Recent	최근 파일 열기
 	Open Recent is unavailable on the web	웹에서는 최근 파일 열기를 사용할 수 없습니다.
@@ -2358,8 +2359,16 @@ cameraRaw	Radius	반경
 	Rasterize Type	문자 래스터화
 	Rasterize Type Layer	문자 레이어 래스터화
 	Rate	속도
+	RAW Defaults	RAW 기본값
 	Raw Defaults	RAW 기본값
+	RAW Defaults…	RAW 기본값…
 	Raw Defaults…	RAW 기본값…
+	RAW Develop	RAW 현상
+	RAW Develop ({name})	RAW 현상 ({name})
+	RAW Develop Filter	RAW 현상 필터
+	RAW Develop Filter ({layer})	RAW 현상 필터 ({layer})
+	RAW Develop Filter…	RAW 현상 필터…
+	RAW Develop isn't open	RAW 현상가 열려 있지 않습니다
 	Reading	읽는 중
 	Reading…	읽는 중…
 	Real-Time Refinement	실시간 다듬기
@@ -2468,6 +2477,7 @@ fontWeight	Regular	보통
 	Reset Section	섹션 초기화
 	Reset Swatches	색상 견본 재설정
 	Reset the brush to the defaults	브러시를 기본값으로 초기화
+	Reset the crop box, image rotation, and aspect ratio settings	자르기 프레임, 이미지 회전 및 종횡비 재설정
 	Reset to Default	기본값으로 되돌리기
 	Reset to defaults	기본값으로 초기화
 	Reset Tool	도구 초기화
@@ -2538,6 +2548,7 @@ cameraRaw	Roundness	원형률
 	Same folder	같은 폴더
 	Sample a pixel anywhere on the screen	화면의 아무 픽셀에서 색상 추출
 	Sample All Layers	모든 레이어 샘플링
+	Sample content from part of the image and use it to fill a small area	이미지의 일부에서 내용을 샘플링하여 작은 영역 채우기
 	Sample Size:	샘플 크기:
 	Sample:	샘플:
 	Sample: foreground color	샘플: 전경색
@@ -2580,9 +2591,9 @@ cameraRaw	Saturation	채도
 	Save these shortcuts as a new set	이 단축키를 새 세트로 저장
 	Save your work and restart PhotoCraft to retry GPU acceleration. CPU rendering remains active for this session.	작업을 저장하고 PhotoCraft를 다시 시작하면 GPU 가속을 다시 시도합니다. 현재 세션에서는 CPU 렌더링을 계속 사용합니다.
 	Saved a copy as {path}	사본을 {path}(으)로 저장했습니다.
-	Saved Camera Raw settings to {file}	Camera Raw 설정을 {file}에 저장했습니다
 	Saved contours to {file}	윤곽선을 {file}에 저장했습니다
 @plural	Saved for Web: {n} file|Saved for Web: {n} files	웹용으로 저장됨: 파일 {n}개
+	Saved RAW Develop settings to {file}	RAW 현상 설정을 {file}에 저장했습니다
 	Saved {name}	{name} 저장됨
 @plural	Saved {n} action to {file}|Saved {n} actions to {file}	{file}에 액션 {n}개를 저장했습니다
 @plural	Saved {n} color to {file}|Saved {n} colors to {file}	{file}에 색상 {n}개 저장
@@ -2628,6 +2639,7 @@ cameraRaw	Saturation	채도
 	Search…	검색…
 	seconds	초
 	Seed	난수 시드
+	Select a preset aspect ratio or crop size	사전 설정 종횡비 또는 자르기 크기 선택
 	Select a type layer or click into text to insert glyphs	글리프를 삽입하려면 문자 레이어를 선택하거나 텍스트 안을 클릭하세요
 	Select a type layer to edit its character and paragraph settings.	문자 및 단락 설정을 편집하려면 문자 레이어를 선택하세요.
 	Select All Layers	모든 레이어 선택
@@ -2686,6 +2698,8 @@ fontWeight	SemiBold	반굵게
 	Set saved.	세트를 저장했습니다.
 	Set shape fill type	모양 채우기 유형 설정
 	Set shape stroke type	모양 획 유형 설정
+	Set the aspect ratio for the crop box	자르기 프레임의 종횡비 설정
+	Set the overlay options for the Crop Tool	자르기 오버레이 옵션 설정
 	Set the overlay options for the Crop tool	자르기 도구의 오버레이 옵션 설정
 	Set the text color	텍스트 색상 설정
 	Set the tone sliders from the image	이미지에서 톤 슬라이더 설정
@@ -3018,6 +3032,7 @@ cameraRaw	Texture	텍스처
 	The document “{name}” has an embedded color profile that does not match the current {mode} working space.	문서 “{name}”에 포함된 색상 프로파일이 현재 {mode} 작업 색상 공간과 일치하지 않습니다.
 	The document “{name}” may be damaged.	문서 “{name}”이(가) 손상되었을 수 있습니다.
 	The fastest and the softest, with color fringing on fine detail.	가장 빠르고 가장 부드러우며, 미세한 디테일에 색 번짐이 있음.
+	The fill for this layer must be rasterized before proceeding. It will no longer be editable as a fill. Rasterize the fill?	계속하려면 이 칠 레이어를 래스터화해야 합니다. 이후에는 칠 내용을 편집할 수 없습니다. 레이어를 래스터화할까요?
 	The frame is locked	프레임이 잠겨 있습니다
 	The frame is unavailable	프레임을 사용할 수 없습니다
 	The GPU compositor is still being prepared	The GPU compositor is still being prepared
@@ -3040,7 +3055,6 @@ fontWeight	Thin	아주 가늘게
 	This adjustment ({key}) is kept as imported and can't be edited yet.	이 조정({key})은 가져온 상태로 유지되며 아직 편집할 수 없습니다.
 	This document's layers need {needed} but may hold {budget}: whole-document redraws use the CPU	이 문서의 레이어에 {needed}가 필요하지만 {budget}만 사용할 수 있습니다: 문서 전체 다시 그리기는 CPU를 사용합니다
 	This document's layers: {needed} of {budget} for layers	이 문서의 레이어: 레이어용 {budget} 중 {needed}
-	This fill layer must be rasterized before proceeding. Its fill content will no longer be editable. Rasterize the layer?	계속하려면 이 칠 레이어를 래스터화해야 합니다. 이후에는 칠 내용을 편집할 수 없습니다. 레이어를 래스터화할까요?
 	This layer must be rasterized before proceeding.	계속하려면 이 레이어를 래스터화해야 합니다.
 	This Layer:	현재 레이어:
 	This redraw took {seconds} s on the CPU.	이번 다시 그리기는 CPU에서 {seconds}초 걸렸습니다.

@@ -136,12 +136,9 @@
 	Adjustment Properties	Proprietà regolazione
 	Adjustment visible	Regolazione visibile
 	Adobe	Adobe
-	Adobe Every-line Composer	Compositore ogni riga Adobe
-	Adobe PDF Presets…	Predefiniti Adobe PDF…
 	Adobe rgb	Adobe RGB
 	Adobe RGB (1998)	Adobe RGB (1998)
 	Adobe RGB (1998) compatible	Compatibile Adobe RGB (1998)
-	Adobe Single-line Composer	Compositore riga singola Adobe
 	Adobe-rgb-compat	Adobe RGB (compatibile)
 	Advanced	Avanzato
 	Advanced Blending	Fusione avanzata
@@ -176,7 +173,6 @@ smartSvg	AI/PDF/EPS contents will be edited as SVG. Saving replaces the embedded
 	All Classes	Tutte le classi
 	All Layers No Adjustments	Tutti i livelli senza regolazioni
 	All shortcuts reset to PhotoCraft defaults.	Tutte le scorciatoie ripristinate ai predefiniti di PhotoCraft.
-	All shortcuts reset to Photoshop defaults.	Tutte le scorciatoie ripristinate ai predefiniti di Photoshop.
 	All User Slices	Tutte le sezioni utente
 	Allow agent control	Consenti controllo agente
 	Allow Continue	Consenti di continuare
@@ -320,6 +316,7 @@ cameraRaw	Aqua	Acqua
 	Backend: {backend} ({type})	Backend: {backend} ({type})
 	Background (Default)	Sfondo (predefinito)
 	Background (default)	Sfondo (predefinito)
+	Background (default):	Sfondo (predefinito):
 	Background Eraser	Gomma per sfondo
 	Background Eraser Tool	Strumento Gomma per sfondo
 	Background From Layer	Sfondo da livello
@@ -462,14 +459,6 @@ fontWeight	Bold	Grassetto
 	Camera Data	Dati fotocamera
 	Camera Make	Marca fotocamera
 	Camera Model	Modello fotocamera
-	Camera Raw	Camera Raw
-	Camera Raw ({name})	Camera Raw ({name})
-	Camera Raw Defaults	Predefiniti Camera Raw
-	Camera Raw Filter	Filtro Camera Raw
-	Camera Raw Filter ({layer})	Filtro Camera Raw ({layer})
-	Camera Raw Filter…	Filtro Camera Raw…
-	Camera Raw isn't open	Camera Raw non è aperto
-	Camera Raw…	Camera Raw…
 	Cancel (Esc)	Annulla (Esc)
 	Cancel any current edits (Esc)	Annulla modifiche correnti (Esc)
 	Cancel current crop operation  (Esc)	Annulla operazione ritaglio corrente (Esc)
@@ -548,6 +537,7 @@ cameraRaw	Clarity	Chiarezza
 	Cleanliness	Pulizia
 	Clear All	Cancella tutto
 	Clear Amount	Area senza bagliore
+	Clear aspect ratio values	Cancella i valori delle proporzioni
 	Clear Brush Controls	Cancella controlli pennello
 	Clear Brush Strokes	Cancella tracce del pennello
 	Clear Canvas Guides	Cancella guide quadro
@@ -717,6 +707,7 @@ cameraRaw	Color Mixer	Miscelatore colore
 	Contact Sheet II…	Provino a contatto II…
 	Content-Aware	In base al contenuto
 	Content-Aware Fill	Riempimento in base al contenuto
+	Content-aware fill	Riempimento in base al contenuto
 	Content-Aware Fill needs a selection on a pixel layer	Il Riempimento in base al contenuto richiede una selezione su un livello pixel
 	Content-Aware Fill…	Riempimento in base al contenuto…
 	Content-Aware Move	Spostamento in base al contenuto
@@ -948,7 +939,6 @@ cameraData	Date Taken	Data di scatto
 	Default Foreground and Background Colors (D)	Colori di primo piano e sfondo predefiniti (D)
 	Default Leaves	Foglie predefinite
 	Default PhotoCraft Size	Dimensione predefinita PhotoCraft
-	Default Photoshop Size	Dimensione predefinita di Photoshop
 	Default printer	Stampante predefinita
 	Default restored.	Predefinito ripristinato.
 	Defaults	Predefiniti
@@ -1022,6 +1012,7 @@ cameraRaw	Dehaze	Elimina foschia
 cameraRaw	Detail	Dettaglio
 	Detailed	Dettagliato
 	Detect Faces	Rileva volti
+	Determines if pixel data outside the crop box is retained or deleted	Determina se i pixel esterni al riquadro di ritaglio vengono conservati o eliminati
 	Developing {name}	Sviluppo di {name}
 	Diagonal (Descending)	Diagonale (discendente)
 	Diamond	Diamante
@@ -1055,6 +1046,7 @@ cameraRaw	Detail	Dettaglio
 	Display profiles: {reason}	Profili dello schermo: {reason}
 	Display Text	Mostra testo
 	Display-p3	Display P3
+	Displays pop-up help for the fill methods	Mostra la guida a comparsa sui metodi di riempimento
 	Dissolve	Dissolvi
 	Dissolve is approximated: it blends without Photoshop's dither.	Dissolvi è approssimato: la fusione avviene senza il dither di Photoshop.
 	Distribute Heights	Distribuisci altezze
@@ -1306,11 +1298,13 @@ layers	Fill	Riempimento
 	Fill Light	Luce di riempimento
 	Fill new type layers with placeholder	Riempi nuovi livelli testo con segnaposto
 	Fill Opacity	Opacità riempimento
+	Fill options	Opzioni di riempimento
 	Fill Path	Riempi tracciato
 	Fill path with foreground color	Riempi tracciato con colore primo piano
 	Fill Path…	Riempi tracciato…
 	Fill Screen	Riempi schermo
 	Fill Settings	Impostazioni di riempimento
+	Fill the expanded area with your background color or transparent pixels	Riempie l'area estesa con il colore di sfondo o pixel trasparenti
 	Fill with Background Color	Riempi con colore sfondo
 	Fill with Background Color, Preserve Transparency	Riempi con colore sfondo, conserva trasparenza
 	Fill with Foreground Color	Riempi con colore primo piano
@@ -1622,6 +1616,7 @@ cameraRaw	Highlights	Luci
 	Horizontal Type Mask Tool	Strumento Maschera testo orizzontale
 	Horizontal Type Tool	Strumento Testo orizzontale
 	Hotspot	Area di massima intensità
+	How expanded crop area gets filled	Come viene riempita l'area di ritaglio estesa
 	How often fastening points are placed by themselves	Frequenza con cui i punti di ancoraggio vengono posti da soli
 	How the camera's color filter mosaic is filled in. It is applied when the file opens; the preview shows the method it was opened with.	Come viene completato il mosaico del filtro colore della fotocamera. Si applica all'apertura del file; l'anteprima mostra il metodo con cui è stato aperto.
 	Hsb	HSB
@@ -1925,9 +1920,9 @@ cameraRaw	Lights	Toni chiari
 	Load settings from a Camera Raw .xmp file	Carica le impostazioni da un file .xmp di Camera Raw
 	Load Settings…	Carica impostazioni…
 	Load the brush after each stroke	Carica il pennello dopo ogni tratto
-	Loaded Camera Raw settings from {file}	Impostazioni Camera Raw caricate da {file}
-	Loaded Camera Raw settings from {file} ({n} not supported)	Impostazioni Camera Raw caricate da {file} ({n} non supportate)
 	Loaded contours from {file}	Profili caricati da {file}
+	Loaded RAW Develop settings from {file}	Impostazioni Sviluppo RAW caricate da {file}
+	Loaded RAW Develop settings from {file} ({n} not supported)	Impostazioni Sviluppo RAW caricate da {file} ({n} non supportate)
 @plural	Loaded {n} action from {file}|Loaded {n} actions from {file}	Caricata {n} azione da {file}|Caricate {n} azioni da {file}
 	Loading fonts…	Caricamento font…
 	Loading…	Caricamento…
@@ -2126,6 +2121,8 @@ cameraData	Model	Modello
 	Move to	Sposta in
 	Move to New Window	Sposta in una nuova finestra
 	Move Tool	Strumento Sposta
+	Move Toolbar to the Left	Sposta la barra degli strumenti a sinistra
+	Move Toolbar to the Right	Sposta la barra degli strumenti a destra
 	Movie Prime	Focale fissa cinematografica
 	Multichannel	Multicanale
 	Multiple Flames Along Path	Più fiamme lungo il tracciato
@@ -2299,7 +2296,6 @@ layerLabel	No Color	Nessun colore
 	Open File	Apri file
 	Open Folder	Apri cartella
 	Open Image	Apri immagine
-	Open in camera raw	Apri in Camera Raw
 	Open paths use centered strokes	I tracciati aperti usano tracce centrate
 	Open Recent is unavailable on the web	Apri recenti non è disponibile sul web
 	open source	open source
@@ -2622,8 +2618,16 @@ cameraRaw	Radius	Raggio
 	Rasterize Type Layer	Rasterizza livello di testo
 	Rate	Velocità
 	Raw Data	Dati grezzi
+	RAW Defaults	Predefiniti RAW
 	Raw Defaults	Predefiniti Raw
+	RAW Defaults…	Predefiniti RAW…
 	Raw Defaults…	Predefiniti Raw…
+	RAW Develop	Sviluppo RAW
+	RAW Develop ({name})	Sviluppo RAW ({name})
+	RAW Develop Filter	Filtro Sviluppo RAW
+	RAW Develop Filter ({layer})	Filtro Sviluppo RAW ({layer})
+	RAW Develop Filter…	Filtro Sviluppo RAW…
+	RAW Develop isn't open	Sviluppo RAW non è aperto
 	Reading	Lettura
 	Reading…	Lettura…
 	Real-Time Refinement	Perfezionamento in tempo reale
@@ -2738,6 +2742,7 @@ fontWeight	Regular	Normale
 	Reset Section	Reimposta sezione
 	Reset Swatches	Ripristina campioni
 	Reset the brush to the defaults	Reimposta pennello ai predefiniti
+	Reset the crop box, image rotation, and aspect ratio settings	Reimposta il riquadro di ritaglio, la rotazione dell'immagine e le proporzioni
 	Reset to Default	Ripristina predefinito
 	Reset to defaults	Ripristina predefiniti
 	Reset Tool	Ripristina strumento
@@ -2815,6 +2820,7 @@ cameraRaw	Roundness	Rotondità
 	Same folder	Stessa cartella
 	Sample a pixel anywhere on the screen	Campiona un pixel in qualsiasi punto dello schermo
 	Sample All Layers	Campiona tutti i livelli
+	Sample content from part of the image and use it to fill a small area	Preleva contenuto da una parte dell'immagine per riempire una piccola area
 	Sample Size:	Dimensione campione:
 	Sample:	Campione:
 	Sample: foreground color	Campione: colore primo piano
@@ -2862,10 +2868,10 @@ cameraRaw	Saturation	Saturazione
 	Save these shortcuts as a new set	Salva queste scorciatoie come nuovo set
 	Save your work and restart PhotoCraft to retry GPU acceleration. CPU rendering remains active for this session.	Salva il lavoro e riavvia PhotoCraft per riprovare l'accelerazione GPU. Per questa sessione resta attivo il rendering su CPU.
 	Saved a copy as {path}	Copia salvata come {path}
-	Saved Camera Raw settings to {file}	Impostazioni Camera Raw salvate in {file}
 	Saved contours to {file}	Profili salvati in {file}
 @plural	Saved for Web: {n} file|Saved for Web: {n} files	Salvato per il Web: {n} file|Salvato per il Web: {n} file
 	Saved Multichannel	Multicanale salvato
+	Saved RAW Develop settings to {file}	Impostazioni Sviluppo RAW salvate in {file}
 	Saved {name}	Salvato: {name}
 @plural	Saved {n} action to {file}|Saved {n} actions to {file}	Salvata {n} azione in {file}|Salvate {n} azioni in {file}
 @plural	Saved {n} color to {file}|Saved {n} colors to {file}	Salvato {n} colore in {file}|Salvati {n} colori in {file}
@@ -2917,6 +2923,7 @@ cameraRaw	Saturation	Saturazione
 	seconds	secondi
 	Seed	Seme
 	Select	Selezione
+	Select a preset aspect ratio or crop size	Scegli un formato o una dimensione di ritaglio predefiniti
 	Select a type layer or click into text to insert glyphs	Seleziona un livello testo o fai clic nel testo per inserire glifi
 	Select a type layer to edit its character and paragraph settings.	Seleziona un livello testo per modificarne impostazioni carattere e paragrafo.
 	Select All Layers	Seleziona tutti i livelli
@@ -2983,6 +2990,8 @@ fontWeight	SemiBold	Semigrassetto
 	Set shape fill type	Imposta tipo riempimento forma
 	Set shape stroke type	Imposta tipo traccia forma
 	Set Start Timecode…	Imposta timecode iniziale…
+	Set the aspect ratio for the crop box	Imposta le proporzioni del riquadro di ritaglio
+	Set the overlay options for the Crop Tool	Imposta le opzioni della sovrapposizione di ritaglio
 	Set the overlay options for the Crop tool	Imposta le opzioni di sovrapposizione dello strumento Taglierina
 	Set the text color	Imposta colore testo
 	Set the tone sliders from the image	Imposta i cursori dei toni dall’immagine
@@ -3341,6 +3350,7 @@ cameraRaw	Texture	Texture
 	The fastest and the softest, with color fringing on fine detail.	Il più veloce e il più morbido, con frange di colore nei dettagli fini.
 	The file could not be opened.	Impossibile aprire il file.
 	The file could not be saved.	Impossibile salvare il file.
+	The fill for this layer must be rasterized before proceeding. It will no longer be editable as a fill. Rasterize the fill?	Per procedere il livello di riempimento deve essere rasterizzato. Il riempimento non sarà più modificabile. Rasterizzare il livello?
 	The frame is locked	La cornice è bloccata
 	The frame is unavailable	La cornice non è disponibile
 	The GPU compositor is still being prepared	The GPU compositor is still being prepared
@@ -3363,7 +3373,6 @@ fontWeight	Thin	Sottile
 	This adjustment ({key}) is kept as imported and can't be edited yet.	Questa regolazione ({key}) resta come è stata importata e non si può ancora modificare.
 	This document's layers need {needed} but may hold {budget}: whole-document redraws use the CPU	I livelli di questo documento richiedono {needed} ma possono occupare {budget}: i ridisegni dell'intero documento usano la CPU
 	This document's layers: {needed} of {budget} for layers	Livelli di questo documento: {needed} su {budget} per i livelli
-	This fill layer must be rasterized before proceeding. Its fill content will no longer be editable. Rasterize the layer?	Per procedere il livello di riempimento deve essere rasterizzato. Il riempimento non sarà più modificabile. Rasterizzare il livello?
 	This layer must be rasterized before proceeding.	Per procedere il livello deve essere rasterizzato.
 	This Layer:	Questo livello:
 	This redraw took {seconds} s on the CPU.	Questo ridisegno sulla CPU ha richiesto {seconds} s.

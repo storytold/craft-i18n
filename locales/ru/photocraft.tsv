@@ -141,12 +141,9 @@
 	Adjustment Properties	Свойства коррекции
 	Adjustment visible	Коррекция видима
 	Adobe	Adobe
-	Adobe Every-line Composer	Абзацная компоновка Adobe
-	Adobe PDF Presets…	Наборы Adobe PDF…
 	Adobe rgb	Adobe RGB
 	Adobe RGB (1998)	Adobe RGB (1998)
 	Adobe RGB (1998) compatible	Совместим с Adobe RGB (1998)
-	Adobe Single-line Composer	Построчная компоновка Adobe
 	Adobe-rgb-compat	Adobe RGB (совместимо)
 	Advanced Blending	Дополнительные параметры наложения
 	Advanced Controls	Дополнительное управление
@@ -181,7 +178,6 @@ smartSvg	AI/PDF/EPS contents will be edited as SVG. Saving replaces the embedded
 	All Classes	Все классы
 	All Layers No Adjustments	Все слои без коррекции
 	All shortcuts reset to PhotoCraft defaults.	Все комбинации клавиш сброшены к стандартным PhotoCraft.
-	All shortcuts reset to Photoshop defaults.	Все сочетания клавиш сброшены к значениям Photoshop по умолчанию.
 	All User Slices	Все пользовательские фрагменты
 	Allow agent control	Разрешить управление агентами
 	Allow Continue	Разрешить продолжение
@@ -326,6 +322,7 @@ cameraRaw	Aqua	Голубые
 	Backend: {backend} ({type})	Сервер: {backend} ({type})
 	Background (Default)	Фон (по умолчанию)
 	Background (default)	Фон (по умолчанию)
+	Background (default):	Фон (по умолчанию):
 	Background Eraser	Фоновый ластик
 	Background Eraser Tool	Фоновый ластик
 	Background From Layer	Фон из слоя
@@ -472,14 +469,6 @@ fontWeight	Bold	Жирный
 	Camera Data	Данные камеры
 	Camera Make	Производитель камеры
 	Camera Model	Модель камеры
-	Camera Raw	Camera Raw
-	Camera Raw ({name})	Camera Raw ({name})
-	Camera Raw Defaults	Значения Camera Raw по умолчанию
-	Camera Raw Filter	Фильтр Camera Raw
-	Camera Raw Filter ({layer})	Фильтр Camera Raw ({layer})
-	Camera Raw Filter…	Фильтр Camera Raw…
-	Camera Raw isn't open	Camera Raw не открыт
-	Camera Raw…	Camera Raw…
 	Cancel (Esc)	Отмена (Esc)
 	Cancel any current edits (Esc)	Отменить все текущие правки (Esc)
 	Cancel current crop operation  (Esc)	Отменить текущее кадрирование  (Esc)
@@ -558,6 +547,7 @@ cameraRaw	Clarity	Чёткость
 	Clean the brush after each stroke	Очищать кисть после каждого штриха
 	Cleanliness	Чистота
 	Clear Amount	Величина очистки
+	Clear aspect ratio values	Очистить значения соотношения сторон
 	Clear Brush Controls	Очистить параметры кисти
 	Clear Brush Strokes	Очистить мазки кисти
 	Clear Canvas Guides	Удалить направляющие холста
@@ -728,6 +718,7 @@ cameraRaw	Color Mixer	Смеситель цветов
 	Contact Sheet II…	Контактный лист II…
 	Content-Aware	С учётом содержимого
 	Content-Aware Fill	Заливка с учётом содержимого
+	Content-aware fill	Заполнение с учётом содержимого
 	Content-Aware Fill needs a selection on a pixel layer	Заливка с учётом содержимого требует выделенной области на пиксельном слое
 	Content-Aware Fill…	Заливка с учётом содержимого…
 	Content-Aware Move	Перемещение с учётом содержимого
@@ -963,7 +954,6 @@ cameraData	Date Taken	Дата съёмки
 	Default Foreground and Background Colors (D)	Цвета по умолчанию (D)
 	Default Leaves	Листья по умолчанию
 	Default PhotoCraft Size	Размер PhotoCraft по умолчанию
-	Default Photoshop Size	Размер Photoshop по умолчанию
 	Default printer	Принтер по умолчанию
 	Default restored.	Значения по умолчанию восстановлены.
 	Defaults	По умолчанию
@@ -1037,6 +1027,7 @@ cameraRaw	Dehaze	Удаление дымки
 cameraRaw	Detail	Детализация
 	Detailed	Подробно
 	Detect Faces	Распознавать лица
+	Determines if pixel data outside the crop box is retained or deleted	Определяет, сохраняются или удаляются пиксели за пределами рамки кадрирования
 	Developing {name}	Обработка {name}
 	Diagonal (Descending)	Диагональ (нисходящая)
 	Diamond Gradient	Ромбовидный градиент
@@ -1071,6 +1062,7 @@ cameraRaw	Detail	Детализация
 	Display profiles: {reason}	Профили дисплеев: {reason}
 	Display Text	Показывать текст
 	Display-p3	Display P3
+	Displays pop-up help for the fill methods	Показывает всплывающую справку о методах заполнения
 	Dissolve	Растворение
 	Dissolve is approximated: it blends without Photoshop's dither.	Растворение приближённое: смешивание без дизеринга Photoshop.
 	Distortion	Дисторсия
@@ -1330,11 +1322,13 @@ layers	Fill	Заливка
 	Fill Light	Подсветка
 	Fill new type layers with placeholder	Заполнять новые текстовые слои условным текстом
 	Fill Opacity	Непрозрачность заливки
+	Fill options	Параметры заполнения
 	Fill Path	Залить контур
 	Fill path with foreground color	Залить контур цветом переднего плана
 	Fill Path…	Залить контур…
 	Fill Screen	Заполнить экран
 	Fill Settings	Параметры заливки
+	Fill the expanded area with your background color or transparent pixels	Заполнить расширенную область цветом фона или прозрачными пикселями
 	Fill with Background Color	Залить цветом фона
 	Fill with Background Color, Preserve Transparency	Залить цветом фона, сохранить прозрачность
 	Fill with Foreground Color	Залить цветом переднего плана
@@ -1656,6 +1650,7 @@ cameraRaw	Highlights	Света
 	Horizontal Type Mask Tool	Горизонтальный текст-маска
 	Horizontal Type Tool	Горизонтальный текст
 	Hotspot	Горячая точка
+	How expanded crop area gets filled	Как заполняется расширенная область кадрирования
 	How often fastening points are placed by themselves	Как часто точки привязки ставятся автоматически
 	How the camera's color filter mosaic is filled in. It is applied when the file opens; the preview shows the method it was opened with.	Как восстанавливается мозаика цветного фильтра камеры. Применяется при открытии файла; превью показывает метод, с которым файл был открыт.
 	Hsb	HSB
@@ -1974,9 +1969,9 @@ cameraRaw	Lights	Светлые тона
 	Load settings from a Camera Raw .xmp file	Загрузить настройки из файла Camera Raw .xmp
 	Load Settings…	Загрузить настройки…
 	Load the brush after each stroke	Загружать кисть после каждого штриха
-	Loaded Camera Raw settings from {file}	Настройки Camera Raw загружены из {file}
-	Loaded Camera Raw settings from {file} ({n} not supported)	Настройки Camera Raw загружены из {file} (не поддерживается: {n})
 	Loaded contours from {file}	Контуры загружены из {file}
+	Loaded RAW Develop settings from {file}	Настройки Обработка RAW загружены из {file}
+	Loaded RAW Develop settings from {file} ({n} not supported)	Настройки Обработка RAW загружены из {file} (не поддерживается: {n})
 @plural	Loaded {n} action from {file}|Loaded {n} actions from {file}	Загружена {n} операция из {file}|Загружены {n} операции из {file}|Загружено {n} операций из {file}
 	Loading fonts…	Загрузка шрифтов…
 	Loading…	Загрузка…
@@ -2184,6 +2179,8 @@ cameraData	Model	Модель
 	Move to	Переместить в
 	Move to New Window	Переместить в новое окно
 	Move Tool	Перемещение
+	Move Toolbar to the Left	Переместить панель инструментов влево
+	Move Toolbar to the Right	Переместить панель инструментов вправо
 	Movie Prime	Киносъёмочный фикс
 	Multichannel	Многоканальный
 	Multiple Flames Along Path	Несколько языков пламени вдоль контура
@@ -2361,7 +2358,6 @@ layerLabel	No Color	Без цвета
 	Open File	Открыть файл
 	Open Folder	Открыть папку
 	Open Image	Открыть изображение
-	Open in camera raw	Открывать в Camera Raw
 	Open paths use centered strokes	Открытые контуры используют обводку по центру
 	Open Recent is unavailable on the web	«Открыть недавние» недоступно в веб-версии
 	open source	открытый исходный код
@@ -2693,8 +2689,16 @@ cameraRaw	Radius	Радиус
 	Rate	Скорость
 	Ratio	Соотношение
 	Raw Data	Необработанные данные
+	RAW Defaults	Настройки RAW по умолчанию
 	Raw Defaults	Значения RAW по умолчанию
+	RAW Defaults…	Настройки RAW по умолчанию…
 	Raw Defaults…	Значения RAW по умолчанию…
+	RAW Develop	Обработка RAW
+	RAW Develop ({name})	Обработка RAW ({name})
+	RAW Develop Filter	Фильтр Обработка RAW
+	RAW Develop Filter ({layer})	Фильтр Обработка RAW ({layer})
+	RAW Develop Filter…	Фильтр Обработка RAW…
+	RAW Develop isn't open	Обработка RAW не открыт
 	Reading	Чтение
 	Reading…	Чтение…
 	Real-Time Refinement	Уточнение в реальном времени
@@ -2814,6 +2818,7 @@ fontWeight	Regular	Обычный
 	Reset Section	Сбросить раздел
 	Reset Swatches	Восстановить образцы
 	Reset the brush to the defaults	Сбросить кисть к значениям по умолчанию
+	Reset the crop box, image rotation, and aspect ratio settings	Сбросить рамку кадрирования, поворот изображения и соотношение сторон
 	Reset to Default	Сбросить к значению по умолчанию
 	Reset to defaults	Сбросить к значениям по умолчанию
 	Reset Tool	Сбросить инструмент
@@ -2897,6 +2902,7 @@ cameraRaw	Roundness	Округлость
 	Same folder	Та же папка
 	Sample a pixel anywhere on the screen	Выберите пиксель в любом месте экрана
 	Sample All Layers	По всем слоям
+	Sample content from part of the image and use it to fill a small area	Взять содержимое из части изображения для заполнения небольшой области
 	Sample Size:	Размер выборки:
 	Sample:	Выборка:
 	Sample: foreground color	Выборка: основной цвет
@@ -2945,10 +2951,10 @@ cameraRaw	Saturation	Насыщенность
 	Save these shortcuts as a new set	Сохранить эти комбинации как новый набор
 	Save your work and restart PhotoCraft to retry GPU acceleration. CPU rendering remains active for this session.	Сохраните работу и перезапустите PhotoCraft, чтобы повторить попытку ускорения GPU. Отрисовка на CPU остаётся активной в этом сеансе.
 	Saved a copy as {path}	Копия сохранена как {path}
-	Saved Camera Raw settings to {file}	Настройки Camera Raw сохранены в {file}
 	Saved contours to {file}	Контуры сохранены в {file}
 @plural	Saved for Web: {n} file|Saved for Web: {n} files	Сохранено для Web: {n} файл|Сохранено для Web: {n} файла|Сохранено для Web: {n} файлов
 	Saved Multichannel	Saved Multichannel
+	Saved RAW Develop settings to {file}	Настройки Обработка RAW сохранены в {file}
 	Saved {name}	Сохранено: {name}
 @plural	Saved {n} action to {file}|Saved {n} actions to {file}	Сохранена {n} операция в {file}|Сохранены {n} операции в {file}|Сохранено {n} операций в {file}
 @plural	Saved {n} color to {file}|Saved {n} colors to {file}	Сохранён {n} цвет в {file}|Сохранены {n} цвета в {file}|Сохранено {n} цветов в {file}
@@ -2998,6 +3004,7 @@ cameraRaw	Saturation	Насыщенность
 	Second Color Readout	Вторая цветовая проба
 	seconds	с
 	Seed	Зерно
+	Select a preset aspect ratio or crop size	Выберите предустановленное соотношение сторон или размер кадрирования
 	Select a type layer or click into text to insert glyphs	Выберите текстовый слой или щёлкните в текст, чтобы вставить глифы
 	Select a type layer to edit its character and paragraph settings.	Выберите текстовый слой, чтобы изменить параметры символов и абзацев.
 	Select All Layers	Выбрать все слои
@@ -3062,6 +3069,8 @@ fontWeight	SemiBold	Полужирный
 	Set shape fill type	Тип заливки фигуры
 	Set shape stroke type	Тип обводки фигуры
 	Set Start Timecode…	Задать стартовый таймкод…
+	Set the aspect ratio for the crop box	Задайте соотношение сторон рамки кадрирования
+	Set the overlay options for the Crop Tool	Настроить параметры наложения кадрирования
 	Set the overlay options for the Crop tool	Задать параметры перекрытия для инструмента «Рамка»
 	Set the text color	Цвет текста
 	Set the tone sliders from the image	Установить ползунки тона по изображению
@@ -3424,6 +3433,7 @@ cameraRaw	Texture	Текстура
 	The fastest and the softest, with color fringing on fine detail.	Самый быстрый и самый мягкий, с цветной каймой на мелких деталях.
 	The file could not be opened.	Не удалось открыть файл.
 	The file could not be saved.	Не удалось сохранить файл.
+	The fill for this layer must be rasterized before proceeding. It will no longer be editable as a fill. Rasterize the fill?	Перед продолжением необходимо растрировать этот слой заливки. Содержимое заливки перестанет быть редактируемым. Растрировать слой?
 	The frame is locked	Рамка заблокирована
 	The frame is unavailable	Рамка недоступна
 	The GPU compositor is still being prepared	The GPU compositor is still being prepared
@@ -3446,7 +3456,6 @@ fontWeight	Thin	Тонкий
 	This adjustment ({key}) is kept as imported and can't be edited yet.	Эта коррекция ({key}) сохраняется в импортированном виде и пока не может быть изменена.
 	This document's layers need {needed} but may hold {budget}: whole-document redraws use the CPU	Слоям этого документа нужно {needed}, но занимать они могут {budget}: весь документ перерисовывается на CPU
 	This document's layers: {needed} of {budget} for layers	Слои этого документа: {needed} из {budget} для слоёв
-	This fill layer must be rasterized before proceeding. Its fill content will no longer be editable. Rasterize the layer?	Перед продолжением необходимо растрировать этот слой заливки. Содержимое заливки перестанет быть редактируемым. Растрировать слой?
 	This layer must be rasterized before proceeding.	Перед продолжением необходимо растрировать этот слой.
 	This Layer:	Этот слой:
 	This redraw took {seconds} s on the CPU.	Эта перерисовка на CPU заняла {seconds} с.

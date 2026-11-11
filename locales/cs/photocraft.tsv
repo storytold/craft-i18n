@@ -287,6 +287,7 @@ cameraRaw	Aqua	Tyrkysové
 	Backend: {backend} ({type})	Backend: {backend} ({type})
 	Background (Default)	Pozadí (výchozí)
 	Background (default)	Pozadí (výchozí)
+	Background (default):	Pozadí (výchozí):
 	Background Eraser	Guma pozadí
 	Background Eraser Tool	Nástroj guma pozadí
 	Background From Layer	Pozadí z vrstvy
@@ -418,14 +419,6 @@ fontWeight	Bold	Tučná
 	Calibration	Kalibrace
 	Camera Calibration	Kalibrace fotoaparátu
 	Camera Data	Údaje fotoaparátu
-	Camera Raw	Camera Raw
-	Camera Raw ({name})	Camera Raw ({name})
-	Camera Raw Defaults	Výchozí nastavení Camera Raw
-	Camera Raw Filter	Filtr Camera Raw
-	Camera Raw Filter ({layer})	Filtr Camera Raw ({layer})
-	Camera Raw Filter…	Filtr Camera Raw…
-	Camera Raw isn't open	Camera Raw není otevřen
-	Camera Raw…	Camera Raw…
 	Cancel (Esc)	Zrušit (Esc)
 	Cancel any current edits (Esc)	Zrušit aktuální úpravy (Esc)
 	Cancel current crop operation  (Esc)	Zrušit aktuální oříznutí  (Esc)
@@ -497,6 +490,7 @@ fontWeight	Bold	Tučná
 	Clean the brush after each stroke	Vyčistit štětec po každém tahu
 	Cleanliness	Čistota
 	Clear Amount	Míra čistých oblastí
+	Clear aspect ratio values	Vymazat hodnoty poměru stran
 	Clear Brush Controls	Obnovit ovládací prvky stopy
 	Clear Brush Strokes	Vymazat tahy štětce
 	Clear Canvas Guides	Vymazat vodítka plátna
@@ -646,6 +640,7 @@ cameraRaw	Color Grading	Barevné ladění
 	Contact Sheet II…	Kontaktní arch II…
 	Content-Aware	S ohledem na obsah
 	Content-Aware Fill	Výplň s ohledem na obsah
+	Content-aware fill	Vyplnění podle obsahu
 	Content-Aware Fill needs a selection on a pixel layer	Výplň s ohledem na obsah potřebuje výběr na pixelové vrstvě
 	Content-Aware Fill…	Výplň s ohledem na obsah…
 	Content-Aware Move	Přesun s ohledem na obsah
@@ -932,6 +927,7 @@ cameraRaw	Dehaze	Odstranění oparu
 	Detail	Detail
 	Detailed	Podrobný
 	Detect Faces	Rozpoznat obličeje
+	Determines if pixel data outside the crop box is retained or deleted	Určuje, zda se pixely mimo rámeček ořezu zachovají, nebo odstraní
 	Developing {name}	Vyvolávání {name}
 	Diagonal (Descending)	Diagonála (sestupná)
 	Diamond Gradient	Kosočtvercový přechod
@@ -960,6 +956,7 @@ cameraRaw	Dehaze	Odstranění oparu
 	Display profiles: {reason}	Profily displejů: {reason}
 	Display Text	Zobrazený text
 	Display-p3	Display P3
+	Displays pop-up help for the fill methods	Zobrazí místní nápovědu k metodám vyplňování
 	Dissolve	Rozpustit
 	Dissolve is approximated: it blends without Photoshop's dither.	Režim Rozpustit je pouze aproximován: prolíná bez ditheringu Photoshopu.
 	Distort	Zkreslit
@@ -1184,11 +1181,13 @@ layers	Fill	Krytí výplně
 	Fill Layer	Vrstva výplně
 	Fill new type layers with placeholder	Vyplnit nové textové vrstvy zástupným textem
 	Fill Opacity	Krytí výplně
+	Fill options	Možnosti vyplnění
 	Fill Path	Vyplnit cestu
 	Fill path with foreground color	Vyplnit cestu barvou popředí
 	Fill Path…	Vyplnit cestu…
 	Fill Screen	Vyplnit obrazovku
 	Fill Settings	Nastavení výplně
+	Fill the expanded area with your background color or transparent pixels	Vyplnit rozšířenou oblast barvou pozadí nebo průhlednými pixely
 	Fill with Background Color	Vyplnit barvou pozadí
 	Fill with Background Color, Preserve Transparency	Vyplnit barvou pozadí, zachovat průhlednost
 	Fill with Foreground Color	Vyplnit barvou popředí
@@ -1469,6 +1468,7 @@ cameraRaw	Green	Zelené
 	Horizontal Type Mask Tool	Nástroj maska vodorovného textu
 	Horizontal Type Tool	Nástroj vodorovný text
 	Hotspot	Jádro světla
+	How expanded crop area gets filled	Jak se vyplní rozšířená oblast ořezu
 	How often fastening points are placed by themselves	Jak často se kotevní body umisťují samy
 	How the camera's color filter mosaic is filled in. It is applied when the file opens; the preview shows the method it was opened with.	Jak se doplňuje mozaika barevného filtru fotoaparátu. Použije se při otevření souboru; náhled ukazuje metodu, se kterou byl otevřen.
 	Hsb	HSB
@@ -1738,9 +1738,9 @@ cameraRaw	Lights	Světlé tóny
 	Load settings from a Camera Raw .xmp file	Načíst nastavení ze souboru Camera Raw .xmp
 	Load Settings…	Načíst nastavení…
 	Load the brush after each stroke	Naplnit štětec po každém tahu
-	Loaded Camera Raw settings from {file}	Nastavení Camera Raw načteno ze souboru {file}
-	Loaded Camera Raw settings from {file} ({n} not supported)	Nastavení Camera Raw načteno ze souboru {file} (nepodporováno: {n})
 	Loaded contours from {file}	Obrysy načteny ze souboru {file}
+	Loaded RAW Develop settings from {file}	Nastavení Vyvolání RAW načteno ze souboru {file}
+	Loaded RAW Develop settings from {file} ({n} not supported)	Nastavení Vyvolání RAW načteno ze souboru {file} (nepodporováno: {n})
 @plural	Loaded {n} action from {file}|Loaded {n} actions from {file}	Načtena {n} akce ze souboru {file}|Načteny {n} akce ze souboru {file}|Načteno {n} akcí ze souboru {file}
 	Loading fonts…	Načítání písem…
 	Load…	Načíst…
@@ -1918,6 +1918,8 @@ cameraData	Model	Model
 	Move to	Přesunout do
 	Move to New Window	Přesunout do nového okna
 	Move Tool	Nástroj přesun
+	Move Toolbar to the Left	Přesunout panel nástrojů doleva
+	Move Toolbar to the Right	Přesunout panel nástrojů doprava
 	Move Up	Přesunout nahoru
 	Movie Prime	Filmové pevné ohnisko
 	Multichannel	Vícekanálový
@@ -2073,7 +2075,6 @@ layerLabel	No Color	Žádná barva
 	Open EXR Parts…	Otevřít části EXR…
 	Open File	Otevřít soubor
 	Open Folder	Otevřít složku
-	Open in camera raw	Otevírat v Camera Raw
 	Open paths use centered strokes	Otevřené cesty používají vystředěné tahy
 	Open Recent is unavailable on the web	Otevření nedávných souborů není ve webové verzi dostupné
 	open source	otevřený zdrojový kód
@@ -2374,8 +2375,16 @@ cameraRaw	Purple	Fialové
 	Rate	Rychlost
 	Ratio	Poměr
 	Raw Data	Nezpracovaná data
+	RAW Defaults	Výchozí nastavení RAW
 	Raw Defaults	Výchozí nastavení Raw
+	RAW Defaults…	Výchozí nastavení RAW…
 	Raw Defaults…	Výchozí nastavení Raw…
+	RAW Develop	Vyvolání RAW
+	RAW Develop ({name})	Vyvolání RAW ({name})
+	RAW Develop Filter	Filtr Vyvolání RAW
+	RAW Develop Filter ({layer})	Filtr Vyvolání RAW ({layer})
+	RAW Develop Filter…	Filtr Vyvolání RAW…
+	RAW Develop isn't open	Vyvolání RAW není otevřen
 	Reading	Načítání
 	Reading…	Načítání…
 	Real-Time Refinement	Upřesnění v reálném čase
@@ -2483,6 +2492,7 @@ fontWeight	Regular	Normální
 	Reset Section	Obnovit sekci
 	Reset Swatches	Obnovit vzorky
 	Reset the brush to the defaults	Obnovit výchozí nastavení štětce
+	Reset the crop box, image rotation, and aspect ratio settings	Obnovit rámeček ořezu, otočení obrázku a poměr stran
 	Reset to Default	Obnovit výchozí
 	Reset to defaults	Obnovit výchozí
 	Reset Tool	Obnovit nástroj
@@ -2553,6 +2563,7 @@ cameraRaw	Roughness	Drsnost
 	Same folder	Stejná složka
 	Sample a pixel anywhere on the screen	Vzorkovat pixel kdekoli na obrazovce
 	Sample All Layers	Vzorkovat všechny vrstvy
+	Sample content from part of the image and use it to fill a small area	Vzít obsah z části obrázku k vyplnění malé oblasti
 	Sample Size:	Velikost vzorku:
 	Sample:	Vzorek:
 	Sample: foreground color	Vzorek: barva popředí
@@ -2597,9 +2608,9 @@ cameraRaw	Roughness	Drsnost
 	Save these shortcuts as a new set	Uložit tyto zkratky jako novou sadu
 	Save your work and restart PhotoCraft to retry GPU acceleration. CPU rendering remains active for this session.	Chcete-li znovu zkusit akceleraci GPU, uložte práci a restartujte PhotoCraft. V této relaci zůstane aktivní vykreslování pomocí CPU.
 	Saved a copy as {path}	Kopie uložena jako {path}
-	Saved Camera Raw settings to {file}	Nastavení Camera Raw uložena do {file}
 	Saved contours to {file}	Obrysy uloženy do souboru {file}
 @plural	Saved for Web: {n} file|Saved for Web: {n} files	Uloženo pro web: {n} soubor|Uloženo pro web: {n} soubory|Uloženo pro web: {n} souborů
+	Saved RAW Develop settings to {file}	Nastavení Vyvolání RAW uložena do {file}
 	Saved {name}	Uloženo: {name}
 @plural	Saved {n} action to {file}|Saved {n} actions to {file}	Uložena {n} akce do souboru {file}|Uloženy {n} akce do souboru {file}|Uloženo {n} akcí do souboru {file}
 @plural	Saved {n} color to {file}|Saved {n} colors to {file}	Uložena {n} barva do {file}|Uloženy {n} barvy do {file}|Uloženo {n} barev do {file}
@@ -2645,6 +2656,7 @@ cameraRaw	Roughness	Drsnost
 	Search…	Hledat…
 	seconds	sekund
 	Seed	Semínko
+	Select a preset aspect ratio or crop size	Zvolit přednastavený poměr stran nebo velikost ořezu
 	Select a type layer or click into text to insert glyphs	Vyberte textovou vrstvu nebo klikněte do textu a vložte glyfy
 	Select a type layer to edit its character and paragraph settings.	Vyberte textovou vrstvu a upravte nastavení znaků a odstavce.
 	Select All Layers	Vybrat všechny vrstvy
@@ -2705,6 +2717,8 @@ fontWeight	SemiBold	Polotučná
 	Set saved.	Sada uložena.
 	Set shape fill type	Nastavit typ výplně tvaru
 	Set shape stroke type	Nastavit typ tahu tvaru
+	Set the aspect ratio for the crop box	Nastavit poměr stran pro rámeček ořezu
+	Set the overlay options for the Crop Tool	Nastavit možnosti překryvu ořezu
 	Set the overlay options for the Crop tool	Nastavit volby překryvu pro nástroj Oříznutí
 	Set the text color	Nastavit barvu textu
 	Set the tone sliders from the image	Nastavit posuvníky tónů podle obrazu
@@ -3037,6 +3051,7 @@ cameraRaw	Temperature	Barevná teplota
 	The document “{name}” has an embedded color profile that does not match the current {mode} working space.	Dokument „{name}“ má vložený barevný profil, který neodpovídá aktuálnímu pracovnímu prostoru barev {mode}.
 	The document “{name}” may be damaged.	Dokument „{name}“ může být poškozený.
 	The fastest and the softest, with color fringing on fine detail.	Nejrychlejší a nejměkčí, s barevnými lemy v jemných detailech.
+	The fill for this layer must be rasterized before proceeding. It will no longer be editable as a fill. Rasterize the fill?	Před pokračováním je nutné tuto vrstvu výplně rastrovat. Její výplň už nebude možné upravovat. Rastrovat vrstvu?
 	The frame is locked	Rámeček je zamčený
 	The frame is unavailable	Rámeček není dostupný
 	The GPU compositor is still being prepared	The GPU compositor is still being prepared
@@ -3059,7 +3074,6 @@ fontWeight	Thin	Jemná
 	This adjustment ({key}) is kept as imported and can't be edited yet.	Tato úprava ({key}) se uchovává v importované podobě a zatím ji nelze měnit.
 	This document's layers need {needed} but may hold {budget}: whole-document redraws use the CPU	Vrstvy tohoto dokumentu potřebují {needed}, ale mohou zabrat {budget}: překreslení celého dokumentu probíhá na CPU
 	This document's layers: {needed} of {budget} for layers	Vrstvy tohoto dokumentu: {needed} z {budget} pro vrstvy
-	This fill layer must be rasterized before proceeding. Its fill content will no longer be editable. Rasterize the layer?	Před pokračováním je nutné tuto vrstvu výplně rastrovat. Její výplň už nebude možné upravovat. Rastrovat vrstvu?
 	This layer must be rasterized before proceeding.	Před pokračováním je nutné tuto vrstvu rastrovat.
 	This Layer:	Tato vrstva:
 	This redraw took {seconds} s on the CPU.	Toto překreslení na CPU trvalo {seconds} s.

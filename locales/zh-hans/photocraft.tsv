@@ -115,7 +115,6 @@
 	Adjustment Preview	调整预览
 	Adjustment visible	显示调整
 	Adobe	Adobe
-	Adobe PDF Presets…	Adobe PDF 预设…
 	Adobe rgb	Adobe RGB
 	Adobe RGB (1998) compatible	兼容 Adobe RGB (1998)
 	Adwaita	Adwaita
@@ -236,6 +235,7 @@ cameraRaw	Amount	强度
 	Autosave minutes	自动保存间隔（分钟）
 	Background (Default)	背景（默认）
 	Background (default)	背景（默认）
+	Background (default):	背景（默认）：
 	Background Eraser	背景橡皮擦
 	Background Eraser Tool	背景橡皮擦工具
 	Background From Layer	从图层创建背景
@@ -337,12 +337,6 @@ fontWeight	Bold	粗体
 	Calculations…	计算…
 	Calibration	校准
 	Camera Data	相机数据
-	Camera Raw ({name})	Camera Raw（{name}）
-	Camera Raw Defaults	Camera Raw 默认设置
-	Camera Raw Filter ({layer})	Camera Raw 滤镜（{layer}）
-	Camera Raw Filter…	Camera Raw 滤镜…
-	Camera Raw isn't open	尚未打开 Camera Raw
-	Camera Raw…	Camera Raw…
 	Cancel (Esc)	取消（Esc）
 	Cancel any current edits (Esc)	取消当前所有编辑（Esc）
 	Cancel current crop operation  (Esc)	取消当前裁剪操作  （Esc）
@@ -393,6 +387,7 @@ fontWeight	Bold	粗体
 	Classic Theme	经典主题
 	Clean Brush	清理画笔
 	Clean the brush after each stroke	每次描边后清理画笔
+	Clear aspect ratio values	清除宽高比值
 	Clear Brush Controls	清除画笔控件
 	Clear Brush Strokes	清除画笔描边
 	Clear Canvas Guides	清除画布参考线
@@ -527,6 +522,7 @@ fontWeight	Bold	粗体
 	Contact Sheet II…	联系表 II…
 	Content-Aware	内容识别
 	Content-Aware Fill	内容识别填充
+	Content-aware fill	内容识别填充
 	Content-Aware Fill needs a selection on a pixel layer	内容识别填充需要像素图层上的选区
 	Content-Aware Fill…	内容识别填充…
 	Content-Aware Move Tool	内容感知移动工具
@@ -753,6 +749,7 @@ cameraData	Date Taken	拍摄日期
 	Destination	目标
 	Detail	细节
 	Detailed	详细
+	Determines if pixel data outside the crop box is retained or deleted	确定保留还是删除裁剪框外的像素
 	Developing {name}	正在处理 {name}
 	Diagonal (Descending)	对角线（下降）
 	Diamond Gradient	菱形渐变
@@ -773,6 +770,7 @@ cameraData	Date Taken	拍摄日期
 	Display P3	Display P3
 	Display p3	Display P3
 	Display Text	显示文字
+	Displays pop-up help for the fill methods	显示填充方法的弹出帮助
 	Dissolve	溶解
 	Dissolve is approximated: it blends without Photoshop's dither.	“溶解”为近似效果：混合时没有 Photoshop 的抖动。
 	Distribute Heights	分布高度
@@ -951,9 +949,11 @@ cameraData	F-Stop	光圈值
 	Fill Layer	填充图层
 	Fill new type layers with placeholder	用占位文字填充新文字图层
 	Fill Opacity	填充不透明度
+	Fill options	填充选项
 	Fill path with foreground color	以前景色填充路径
 	Fill Screen	填充屏幕
 	Fill Settings	填充设置
+	Fill the expanded area with your background color or transparent pixels	用背景色或透明像素填充扩展区域
 	Fill with {mode}-neutral color (50% gray)	使用{mode}中性色填充（50% 灰色）
 	Fill with {mode}-neutral color (black)	使用{mode}中性色填充（黑色）
 	Fill with {mode}-neutral color (white)	使用{mode}中性色填充（白色）
@@ -1155,6 +1155,7 @@ cameraData	Focal Length (35 mm)	焦距（35 毫米等效）
 	Horizontal type	横排文字
 	Horizontal Type Mask Tool	横排文字蒙版工具
 	Horizontal Type Tool	横排文字工具
+	How expanded crop area gets filled	扩展裁剪区域的填充方式
 	How often fastening points are placed by themselves	自动放置紧固点的频率
 	How the camera's color filter mosaic is filled in. It is applied when the file opens; the preview shows the method it was opened with.	如何填补相机彩色滤镜阵列的马赛克。在打开文件时应用；预览显示打开时所用的方法。
 	HSB Sliders	HSB 滑块
@@ -1367,9 +1368,9 @@ cameraRaw	Lights	亮调
 	Load settings from a Camera Raw .xmp file	从 Camera Raw .xmp 文件载入设置
 	Load Settings…	载入设置…
 	Load the brush after each stroke	每次描边后载入画笔
-	Loaded Camera Raw settings from {file}	已从 {file} 载入 Camera Raw 设置
-	Loaded Camera Raw settings from {file} ({n} not supported)	已从 {file} 载入 Camera Raw 设置（{n} 项不支持）
 	Loaded contours from {file}	已从 {file} 载入等高线
+	Loaded RAW Develop settings from {file}	已从 {file} 载入 RAW 显影 设置
+	Loaded RAW Develop settings from {file} ({n} not supported)	已从 {file} 载入 RAW 显影 设置（{n} 项不支持）
 @plural	Loaded {n} action from {file}|Loaded {n} actions from {file}	已从 {file} 载入 {n} 个动作
 	Loading fonts…	正在加载字体…
 	Load…	载入…
@@ -1504,6 +1505,8 @@ cameraData	Model	型号
 	Move to	移动到
 	Move to New Window	移到新窗口
 	Move Tool	移动工具
+	Move Toolbar to the Left	将工具栏移到左侧
+	Move Toolbar to the Right	将工具栏移到右侧
 	Multichannel	多通道
 	My Brushes	我的画笔
 	name	名称
@@ -1627,7 +1630,6 @@ cameraData	Model	型号
 	Open documents as tabs	以标签页打开文档
 	Open Document…	打开…
 	Open EXR Parts…	打开 EXR 分段…
-	Open in camera raw	在 Camera Raw 中打开
 	Open paths use centered strokes	开放路径使用居中描边
 	open source	开源
 	Open the release page to choose an installer for your system.	打开发布页，选择适合您系统的安装包。
@@ -1848,7 +1850,15 @@ cameraData	Model	型号
 	Rasterize Type	栅格化文字
 	Rasterize Type Layer	栅格化文字图层
 	Rate	速率
+	RAW Defaults	RAW 默认设置
+	RAW Defaults…	RAW 默认设置…
 	Raw Defaults…	Raw 默认设置…
+	RAW Develop	RAW 显影
+	RAW Develop ({name})	RAW 显影（{name}）
+	RAW Develop Filter	RAW 显影滤镜
+	RAW Develop Filter ({layer})	RAW 显影 滤镜（{layer}）
+	RAW Develop Filter…	RAW 显影 滤镜…
+	RAW Develop isn't open	尚未打开 RAW 显影
 	Reading…	正在读取…
 	Real-Time Refinement	实时调整
 	Recent	最近使用
@@ -1934,6 +1944,7 @@ fontWeight	Regular	常规
 	Reset Section	重置此部分
 	Reset Swatches	复位色板
 	Reset the brush to the defaults	将画笔重置为默认值
+	Reset the crop box, image rotation, and aspect ratio settings	重置裁剪框、图像旋转和宽高比
 	Reset to Default	重置为默认
 	Reset to defaults	重置为默认值
 	Reset Tool	重置工具
@@ -1991,6 +2002,7 @@ fontWeight	Regular	常规
 	Same folder	同一文件夹
 	Sample a pixel anywhere on the screen	在屏幕任意位置采样像素
 	Sample All Layers	对所有图层采样
+	Sample content from part of the image and use it to fill a small area	从图像的一部分取样内容来填充小区域
 	Sample Size:	采样大小：
 	Sample:	采样：
 	Sample: foreground color	采样：前景色
@@ -2027,9 +2039,9 @@ fontWeight	Regular	常规
 	Save these settings as a Camera Raw .xmp file	将这些设置存储为 Camera Raw .xmp 文件
 	Save these shortcuts as a .kys file	将这些快捷键存储为 .kys 文件
 	Save these shortcuts as a new set	将这些快捷键存储为新组
-	Saved Camera Raw settings to {file}	已将 Camera Raw 设置保存到 {file}
 	Saved contours to {file}	已将等高线存储到 {file}
 @plural	Saved for Web: {n} file|Saved for Web: {n} files	已存储为 Web 所用格式：{n} 个文件
+	Saved RAW Develop settings to {file}	已将 RAW 显影 设置保存到 {file}
 	Saved {name}	已保存 {name}
 @plural	Saved {n} action to {file}|Saved {n} actions to {file}	已将 {n} 个动作存储到 {file}
 @plural	Saved {n} color to {file}|Saved {n} colors to {file}	已将 {n} 种颜色保存到 {file}
@@ -2064,6 +2076,7 @@ fontWeight	Regular	常规
 	Search settings…	搜索设置…
 	Search…	搜索…
 	seconds	秒
+	Select a preset aspect ratio or crop size	选择预设的宽高比或裁剪尺寸
 	Select a type layer or click into text to insert glyphs	选择文字图层或单击文字内部以插入字形
 	Select a type layer to edit its character and paragraph settings.	选择文字图层以编辑字符和段落设置。
 	Select an action first	请先选择一个动作
@@ -2111,6 +2124,8 @@ fontWeight	SemiBold	半粗
 	Set saved.	已存储组。
 	Set shape fill type	设置形状填充类型
 	Set shape stroke type	设置形状描边类型
+	Set the aspect ratio for the crop box	设置裁剪框的宽高比
+	Set the overlay options for the Crop Tool	设置裁剪叠加选项
 	Set the overlay options for the Crop tool	设置裁剪工具的叠加选项
 	Set the text color	设置文字颜色
 	Set the tone sliders from the image	根据图像设置色调滑块

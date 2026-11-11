@@ -132,12 +132,9 @@
 	Adjustment Preview	Podgląd korekty
 	Adjustment visible	Korekta widoczna
 	Adobe	Adobe
-	Adobe Every-line Composer	Skład wielowierszowy Adobe
-	Adobe PDF Presets…	Ustawienia wstępne Adobe PDF…
 	Adobe rgb	Adobe RGB
 	Adobe RGB (1998)	Adobe RGB (1998)
 	Adobe RGB (1998) compatible	Zgodny z Adobe RGB (1998)
-	Adobe Single-line Composer	Skład jednowierszowy Adobe
 	Advanced Blending	Mieszanie zaawansowane
 	Advanced Controls	Zaawansowane ustawienia
 	Adwaita	Adwaita
@@ -297,6 +294,7 @@ cameraRaw	Aqua	Błękitny
 	Avoid Widows/Orphans	Unikaj wdów i sierot
 	Background (Default)	Tło (domyślne)
 	Background (default)	Tło (domyślne)
+	Background (default):	Tło (domyślne):
 	Background Eraser	Gumka tła
 	Background Eraser Tool	Narzędzie Gumka tła
 	Background From Layer	Tło z warstwy
@@ -431,14 +429,6 @@ fontWeight	Bold	Pogrubiony
 	Camera Data	Dane aparatu
 	Camera Make	Producent aparatu
 	Camera Model	Model aparatu
-	Camera Raw	Camera Raw
-	Camera Raw ({name})	Camera Raw ({name})
-	Camera Raw Defaults	Domyślne ustawienia Camera Raw
-	Camera Raw Filter	Filtr Camera Raw
-	Camera Raw Filter ({layer})	Filtr Camera Raw ({layer})
-	Camera Raw Filter…	Filtr Camera Raw…
-	Camera Raw isn't open	Camera Raw nie jest otwarty
-	Camera Raw…	Camera Raw…
 	Cancel (Esc)	Anuluj (Esc)
 	Cancel any current edits (Esc)	Anuluj wszystkie bieżące zmiany (Esc)
 	Cancel current crop operation  (Esc)	Anuluj bieżące przycinanie  (Esc)
@@ -509,6 +499,7 @@ fontWeight	Bold	Pogrubiony
 	Clean the brush after each stroke	Czyść pędzel po każdym pociągnięciu
 	Cleanliness	Czystość
 	Clear Amount	Wielkość przejrzystości
+	Clear aspect ratio values	Wyczyść wartości proporcji
 	Clear Brush Controls	Wyczyść elementy sterujące pędzlem
 	Clear Brush Strokes	Wyczyść pociągnięcia pędzla
 	Clear Canvas Guides	Usuń prowadnice płótna
@@ -665,6 +656,7 @@ cameraRaw	Color Grading	Korekcja kolorystyczna
 	Contact Sheet II…	Arkusz kontaktowy II…
 	Content-Aware	Z uwzględnieniem zawartości
 	Content-Aware Fill	Wypełnienie z uwzględnieniem zawartości
+	Content-aware fill	Wypełnianie oparte na zawartości
 	Content-Aware Fill needs a selection on a pixel layer	Wypełnienie z uwzględnieniem zawartości wymaga zaznaczenia na warstwie pikselowej
 	Content-Aware Fill…	Wypełnienie z uwzględnieniem zawartości…
 	Content-Aware Move	Przesunięcie z uwzględnieniem zawartości
@@ -953,6 +945,7 @@ cameraData	Date Taken	Data wykonania
 	Detail	Szczegóły
 	Detailed	Szczegółowy
 	Detect Faces	Wykrywaj twarze
+	Determines if pixel data outside the crop box is retained or deleted	Określa, czy piksele poza ramką kadrowania są zachowywane, czy usuwane
 	Developing {name}	Wywoływanie {name}
 	Diagonal (Descending)	Przekątna (malejąca)
 	Diamond Gradient	Gradient rombowy
@@ -978,6 +971,7 @@ cameraData	Date Taken	Data wykonania
 	Display P3	Display P3
 	Display p3	Display P3
 	Display Text	Tekst wyświetlany
+	Displays pop-up help for the fill methods	Pokazuje pomoc wyskakującą dotyczącą metod wypełniania
 	Dissolve	Rozpuszczanie
 	Dissolve is approximated: it blends without Photoshop's dither.	Rozpuszczanie jest przybliżone: miesza się bez ditheringu Photoshopa.
 	Distort	Zniekształć
@@ -1203,10 +1197,12 @@ cameraData	F-Stop	Przysłona
 	Fill Light	Światło wypełniające
 	Fill new type layers with placeholder	Wypełniaj nowe warstwy tekstowe tekstem zastępczym
 	Fill Opacity	Krycie wypełnienia
+	Fill options	Opcje wypełniania
 	Fill Path	Wypełnij ścieżkę
 	Fill path with foreground color	Wypełnij ścieżkę kolorem pierwszego planu
 	Fill Screen	Wypełnij ekran
 	Fill Settings	Ustawienia wypełnienia
+	Fill the expanded area with your background color or transparent pixels	Wypełnij rozszerzony obszar kolorem tła lub przezroczystymi pikselami
 	Fill with {mode}-neutral color (50% gray)	Wypełnij kolorem neutralnym dla trybu {mode} (50% szarości)
 	Fill with {mode}-neutral color (black)	Wypełnij kolorem neutralnym dla trybu {mode} (czarny)
 	Fill with {mode}-neutral color (white)	Wypełnij kolorem neutralnym dla trybu {mode} (biały)
@@ -1492,6 +1488,7 @@ cameraRaw	Green	Zielony
 	Horizontal Type Mask Tool	Narzędzie Maska tekstu poziomego
 	Horizontal Type Tool	Narzędzie Tekst poziomy
 	Hotspot	Punkt centralny
+	How expanded crop area gets filled	Jak wypełniany jest rozszerzony obszar kadrowania
 	How often fastening points are placed by themselves	Jak często punkty mocujące są stawiane automatycznie
 	How the camera's color filter mosaic is filled in. It is applied when the file opens; the preview shows the method it was opened with.	Sposób uzupełniania mozaiki filtra barwnego aparatu. Stosowany przy otwieraniu pliku; podgląd pokazuje metodę, z którą plik został otwarty.
 	Hsb	HSB
@@ -1767,9 +1764,9 @@ cameraRaw	Lights	Jasne tony
 	Load settings from a Camera Raw .xmp file	Wczytaj ustawienia z pliku .xmp Camera Raw
 	Load Settings…	Wczytaj ustawienia…
 	Load the brush after each stroke	Napełniaj pędzel po każdym pociągnięciu
-	Loaded Camera Raw settings from {file}	Wczytano ustawienia Camera Raw z pliku {file}
-	Loaded Camera Raw settings from {file} ({n} not supported)	Wczytano ustawienia Camera Raw z pliku {file} (nieobsługiwane: {n})
 	Loaded contours from {file}	Wczytano kontury z {file}
+	Loaded RAW Develop settings from {file}	Wczytano ustawienia Wywoływanie RAW z pliku {file}
+	Loaded RAW Develop settings from {file} ({n} not supported)	Wczytano ustawienia Wywoływanie RAW z pliku {file} (nieobsługiwane: {n})
 @plural	Loaded {n} action from {file}|Loaded {n} actions from {file}	Wczytano {n} operację z {file}|Wczytano {n} operacje z {file}|Wczytano {n} operacji z {file}
 	Loading fonts…	Wczytywanie czcionek…
 	Load…	Wczytaj…
@@ -1948,6 +1945,8 @@ cameraData	Model	Model
 	Move to	Przenieś do
 	Move to New Window	Przenieś do nowego okna
 	Move Tool	Narzędzie Przesunięcie
+	Move Toolbar to the Left	Przenieś pasek narzędzi w lewo
+	Move Toolbar to the Right	Przenieś pasek narzędzi w prawo
 	Movie Prime	Obiektyw filmowy stałoogniskowy
 	Multichannel	Wielokanałowy
 	Multiple Flames Along Path	Wiele płomieni wzdłuż ścieżki
@@ -2105,7 +2104,6 @@ cameraData	Model	Model
 	Open documents as tabs	Otwieraj dokumenty jako karty
 	Open Document…	Otwórz…
 	Open EXR Parts…	Otwórz części EXR…
-	Open in camera raw	Otwórz w Camera Raw
 	Open paths use centered strokes	Otwarte ścieżki używają wyśrodkowanych obrysów
 	open source	otwarte oprogramowanie
 	Open the release page to choose an installer for your system.	Otwórz stronę wydania, aby wybrać instalator dla swojego systemu.
@@ -2394,8 +2392,16 @@ cameraRaw	Purple	Fioletowy
 	Rate	Szybkość
 	Ratio	Proporcje
 	Raw Data	Dane surowe
+	RAW Defaults	Domyślne ustawienia RAW
 	Raw Defaults	Domyślne ustawienia Raw
+	RAW Defaults…	Domyślne ustawienia RAW…
 	Raw Defaults…	Domyślne ustawienia Raw…
+	RAW Develop	Wywoływanie RAW
+	RAW Develop ({name})	Wywoływanie RAW ({name})
+	RAW Develop Filter	Filtr Wywoływanie RAW
+	RAW Develop Filter ({layer})	Filtr Wywoływanie RAW ({layer})
+	RAW Develop Filter…	Filtr Wywoływanie RAW…
+	RAW Develop isn't open	Wywoływanie RAW nie jest otwarty
 	Reading	Odczyt
 	Reading…	Odczyt…
 	Real-Time Refinement	Dopracowanie w czasie rzeczywistym
@@ -2500,6 +2506,7 @@ fontWeight	Regular	Zwykły
 	Reset Section	Resetuj sekcję
 	Reset Swatches	Resetuj próbki
 	Reset the brush to the defaults	Przywróć domyślne ustawienia pędzla
+	Reset the crop box, image rotation, and aspect ratio settings	Zresetuj ramkę kadrowania, obrót obrazu i proporcje
 	Reset to Default	Przywróć domyślne
 	Reset to defaults	Przywróć wartości domyślne
 	Reset Tool	Resetuj narzędzie
@@ -2579,6 +2586,7 @@ cameraRaw	Roughness	Chropowatość
 	Same folder	Ten sam folder
 	Sample a pixel anywhere on the screen	Pobierz kolor piksela w dowolnym miejscu ekranu
 	Sample All Layers	Próbkuj wszystkie warstwy
+	Sample content from part of the image and use it to fill a small area	Pobierz zawartość z części obrazu, aby wypełnić mały obszar
 	Sample Size:	Wielkość próbki:
 	Sample:	Próbka:
 	Sample: foreground color	Próbka: kolor pierwszego planu
@@ -2620,10 +2628,10 @@ cameraRaw	Roughness	Chropowatość
 	Save these shortcuts as a .kys file	Zapisz te skróty jako plik .kys
 	Save these shortcuts as a new set	Zapisz te skróty jako nowy zestaw
 	Saved	Zapisano
-	Saved Camera Raw settings to {file}	Zapisano ustawienia Camera Raw w {file}
 	Saved contours to {file}	Zapisano kontury w {file}
 @plural	Saved for Web: {n} file|Saved for Web: {n} files	Zapisano dla Internetu: {n} plik|Zapisano dla Internetu: {n} pliki|Zapisano dla Internetu: {n} plików
 	Saved Multichannel	Zapisany wielokanałowy
+	Saved RAW Develop settings to {file}	Zapisano ustawienia Wywoływanie RAW w {file}
 	Saved {name}	Zapisano: {name}
 @plural	Saved {n} action to {file}|Saved {n} actions to {file}	Zapisano {n} operację do {file}|Zapisano {n} operacje do {file}|Zapisano {n} operacji do {file}
 @plural	Saved {n} color to {file}|Saved {n} colors to {file}	Zapisano {n} kolor do {file}|Zapisano {n} kolory do {file}|Zapisano {n} kolorów do {file}
@@ -2670,6 +2678,7 @@ cameraRaw	Roughness	Chropowatość
 	seconds	s
 	Seed	Ziarno losowania
 	Select	Zaznaczenie
+	Select a preset aspect ratio or crop size	Wybierz wstępnie ustawiony współczynnik proporcji lub rozmiar kadrowania
 	Select a type layer or click into text to insert glyphs	Zaznacz warstwę tekstową lub kliknij w tekście, aby wstawić glify
 	Select a type layer to edit its character and paragraph settings.	Zaznacz warstwę tekstową, aby edytować jej ustawienia znaków i akapitów.
 	Select All Layers	Zaznacz wszystkie warstwy
@@ -2731,6 +2740,8 @@ fontWeight	SemiBold	Półgruby
 	Set shape fill type	Ustaw typ wypełnienia kształtu
 	Set shape stroke type	Ustaw typ obrysu kształtu
 	Set Start Timecode…	Ustaw początkowy kod czasowy…
+	Set the aspect ratio for the crop box	Ustaw współczynnik proporcji ramki kadrowania
+	Set the overlay options for the Crop Tool	Ustaw opcje nakładki kadrowania
 	Set the overlay options for the Crop tool	Ustaw opcje nakładki narzędzia Kadrowanie
 	Set the text color	Ustaw kolor tekstu
 	Set the tone sliders from the image	Ustaw suwaki tonów na podstawie obrazu

@@ -231,6 +231,7 @@ cameraRaw	Amount	強度
 	Autosave minutes	自動儲存間隔 (分鐘)
 	Background (Default)	背景（預設）
 	Background (default)	背景（預設）
+	Background (default):	背景（預設）：
 	Background Eraser	背景橡皮擦
 	Background Eraser Tool	背景橡皮擦工具
 	Background From Layer	從圖層建立背景
@@ -331,12 +332,6 @@ fontWeight	Bold	粗體
 	Calculations…	運算…
 	Calibration	校準
 	Camera Data	相機資料
-	Camera Raw ({name})	Camera Raw（{name}）
-	Camera Raw Defaults	Camera Raw 預設值
-	Camera Raw Filter ({layer})	Camera Raw 濾鏡（{layer}）
-	Camera Raw Filter…	Camera Raw 濾鏡…
-	Camera Raw isn't open	Camera Raw 未開啟
-	Camera Raw…	Camera Raw…
 	Cancel (Esc)	取消 (Esc)
 	Cancel any current edits (Esc)	取消目前所有編輯 (Esc)
 	Cancel current crop operation  (Esc)	取消目前的裁切作業 (Esc)
@@ -387,6 +382,7 @@ fontWeight	Bold	粗體
 	Classic Theme	經典主題
 	Clean Brush	清理筆刷
 	Clean the brush after each stroke	每次描邊後清理筆刷
+	Clear aspect ratio values	清除寬高比值
 	Clear Brush Controls	清除筆刷控制項
 	Clear Brush Strokes	清除筆刷筆觸
 	Clear Canvas Guides	清除版面參考線
@@ -511,6 +507,7 @@ fontWeight	Bold	粗體
 	Contact Sheet II…	縮圖目錄 II…
 	Content-Aware	內容感知
 	Content-Aware Fill	內容感知填滿
+	Content-aware fill	內容感知填滿
 	Content-Aware Fill needs a selection on a pixel layer	內容感知填滿需要在像素圖層上建立選取範圍
 	Content-Aware Fill…	內容感知填滿…
 	Content-Aware Move Tool	內容感知移動工具
@@ -730,6 +727,7 @@ cameraData	Date Taken	拍攝日期
 	Despeckle	去除斑點
 	Detail	細節
 	Detailed	詳細
+	Determines if pixel data outside the crop box is retained or deleted	決定保留或刪除裁切框外的像素
 	Developing {name}	正在處理 {name}
 	Diagonal (Descending)	對角線（下降）
 	Diamond Gradient	菱形漸層
@@ -750,6 +748,7 @@ cameraData	Date Taken	拍攝日期
 	Display P3	Display P3
 	Display p3	Display P3
 	Display Text	顯示文字
+	Displays pop-up help for the fill methods	顯示填滿方法的快顯說明
 	Dissolve	溶解
 	Dissolve is approximated: it blends without Photoshop's dither.	「溶解」為近似效果：混合時沒有 Photoshop 的仿色。
 	Distance	間距
@@ -923,9 +922,11 @@ cameraData	F-Stop	光圈值
 	Fill Layer	填滿圖層
 	Fill new type layers with placeholder	以預留位置文字填滿新文字圖層
 	Fill Opacity	填滿不透明度
+	Fill options	填滿選項
 	Fill path with foreground color	以前景色填滿路徑
 	Fill Screen	填滿螢幕
 	Fill Settings	填色設定
+	Fill the expanded area with your background color or transparent pixels	以背景色或透明像素填滿擴展區域
 	Fill with {mode}-neutral color (50% gray)	使用{mode}中性色填滿（50% 灰色）
 	Fill with {mode}-neutral color (black)	使用{mode}中性色填滿（黑色）
 	Fill with {mode}-neutral color (white)	使用{mode}中性色填滿（白色）
@@ -1123,6 +1124,7 @@ cameraData	Focal Length (35 mm)	焦距（35 公釐等效）
 	Horizontal type	水平文字
 	Horizontal Type Mask Tool	水平文字遮色片工具
 	Horizontal Type Tool	水平文字工具
+	How expanded crop area gets filled	擴展裁切區域的填滿方式
 	How often fastening points are placed by themselves	自動放置固定點的頻率
 	How the camera's color filter mosaic is filled in. It is applied when the file opens; the preview shows the method it was opened with.	如何填補相機彩色濾鏡陣列的馬賽克。在開啟檔案時套用；預覽顯示開啟時所用的方法。
 	HSB Sliders	HSB 滑桿
@@ -1326,9 +1328,9 @@ cameraRaw	Lights	亮調
 	Load settings from a Camera Raw .xmp file	從 Camera Raw .xmp 檔案載入設定
 	Load Settings…	載入設定…
 	Load the brush after each stroke	每次描邊後載入筆刷
-	Loaded Camera Raw settings from {file}	已從 {file} 載入 Camera Raw 設定
-	Loaded Camera Raw settings from {file} ({n} not supported)	已從 {file} 載入 Camera Raw 設定（{n} 項不支援）
 	Loaded contours from {file}	已從 {file} 載入等高線
+	Loaded RAW Develop settings from {file}	已從 {file} 載入 RAW 顯影 設定
+	Loaded RAW Develop settings from {file} ({n} not supported)	已從 {file} 載入 RAW 顯影 設定（{n} 項不支援）
 @plural	Loaded {n} action from {file}|Loaded {n} actions from {file}	已從 {file} 載入 {n} 個動作
 	Loading fonts…	正在載入字體…
 	Load…	載入…
@@ -1464,6 +1466,8 @@ cameraData	Model	型號
 	Move to	移至
 	Move to New Window	移至新視窗
 	Move Tool	移動工具
+	Move Toolbar to the Left	將工具列移到左側
+	Move Toolbar to the Right	將工具列移到右側
 	Multichannel	多重色版
 	My Brushes	我的筆刷
 	name	名稱
@@ -1582,7 +1586,6 @@ cameraData	Model	型號
 	Open documents as tabs	以索引標籤開啟文件
 	Open Document…	開啟…
 	Open EXR Parts…	開啟 EXR 分段…
-	Open in camera raw	在 Camera Raw 中開啟
 	Open paths use centered strokes	開放路徑使用置中筆畫
 	open source	開源
 	Open the release page to choose an installer for your system.	開啟發佈頁，選擇適合您系統的安裝程式。
@@ -1799,7 +1802,15 @@ cameraData	Model	型號
 	Rasterize Type	點陣化文字
 	Rasterize Type Layer	點陣化文字圖層
 	Rate	速率
+	RAW Defaults	RAW 預設值
+	RAW Defaults…	RAW 預設值…
 	Raw Defaults…	Raw 預設值…
+	RAW Develop	RAW 顯影
+	RAW Develop ({name})	RAW 顯影（{name}）
+	RAW Develop Filter	RAW 顯影濾鏡
+	RAW Develop Filter ({layer})	RAW 顯影 濾鏡（{layer}）
+	RAW Develop Filter…	RAW 顯影 濾鏡…
+	RAW Develop isn't open	RAW 顯影 未開啟
 	Reading…	正在讀取…
 	Real-Time Refinement	即時調整
 	Recent	最近
@@ -1882,6 +1893,7 @@ fontWeight	Regular	常規
 	Reset Section	重設區段
 	Reset Swatches	重設色票
 	Reset the brush to the defaults	將筆刷重設為預設值
+	Reset the crop box, image rotation, and aspect ratio settings	重設裁切框、影像旋轉和寬高比
 	Reset to Default	重設為預設
 	Reset to defaults	重設為預設值
 	Reset Tool	重設工具
@@ -1937,6 +1949,7 @@ fontWeight	Regular	常規
 	Same folder	同一資料夾
 	Sample a pixel anywhere on the screen	在螢幕任意位置取樣像素
 	Sample All Layers	取樣全部圖層
+	Sample content from part of the image and use it to fill a small area	從影像的一部分取樣內容來填滿小區域
 	Sample Size:	取樣大小：
 	Sample:	取樣：
 	Sample: foreground color	取樣：前景色
@@ -1974,9 +1987,9 @@ fontWeight	Regular	常規
 	Save these settings as a Camera Raw .xmp file	將這些設定儲存為 Camera Raw .xmp 檔案
 	Save these shortcuts as a .kys file	將這些快速鍵儲存為 .kys 檔案
 	Save these shortcuts as a new set	將這些快速鍵儲存為新組合
-	Saved Camera Raw settings to {file}	已將 Camera Raw 設定儲存到 {file}
 	Saved contours to {file}	已將等高線儲存到 {file}
 @plural	Saved for Web: {n} file|Saved for Web: {n} files	儲存為網頁用：{n} 個檔案
+	Saved RAW Develop settings to {file}	已將 RAW 顯影 設定儲存到 {file}
 	Saved {name}	已儲存 {name}
 @plural	Saved {n} action to {file}|Saved {n} actions to {file}	已將 {n} 個動作儲存到 {file}
 @plural	Saved {n} color to {file}|Saved {n} colors to {file}	已將 {n} 種顏色儲存至 {file}
@@ -2010,6 +2023,7 @@ fontWeight	Regular	常規
 	Search settings…	搜尋設定…
 	Search…	搜尋…
 	seconds	秒
+	Select a preset aspect ratio or crop size	選擇預設的寬高比或裁切尺寸
 	Select a type layer or click into text to insert glyphs	選取文字圖層或按一下文字以插入字符
 	Select a type layer to edit its character and paragraph settings.	選取文字圖層以編輯其字元和段落設定。
 	Select an action first	請先選取一個動作
@@ -2057,6 +2071,8 @@ fontWeight	SemiBold	半粗
 	Set saved.	已儲存組合。
 	Set shape fill type	設定形狀填滿類型
 	Set shape stroke type	設定形狀筆畫類型
+	Set the aspect ratio for the crop box	設定裁切框的寬高比
+	Set the overlay options for the Crop Tool	設定裁切覆蓋選項
 	Set the overlay options for the Crop tool	設定裁切工具的覆蓋選項
 	Set the text color	設定文字顏色
 	Set the tone sliders from the image	根據影像設定色調滑桿

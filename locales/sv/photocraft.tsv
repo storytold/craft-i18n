@@ -137,12 +137,9 @@
 	Adjustment visible	Justering synlig
 	Adjustments	Justeringar
 	Adobe	Adobe
-	Adobe Every-line Composer	Adobe Every-line Composer
-	Adobe PDF Presets…	Adobe PDF-förinställningar…
 	Adobe rgb	Adobe RGB
 	Adobe RGB (1998)	Adobe RGB (1998)
 	Adobe RGB (1998) compatible	Kompatibel med Adobe RGB (1998)
-	Adobe Single-line Composer	Adobe Single-line Composer
 	Adobe-rgb-compat	Adobe RGB (kompatibel)
 	Advanced Blending	Avancerad blandning
 	Advanced Controls	Avancerade kontroller
@@ -174,7 +171,6 @@
 	All Classes	Alla klasser
 	All Layers No Adjustments	Alla lager utan justeringar
 	All shortcuts reset to PhotoCraft defaults.	Alla kortkommandon har återställts till PhotoCrafts standardvärden.
-	All shortcuts reset to Photoshop defaults.	Alla kortkommandon har återställts till Photoshops standardvärden.
 	All User Slices	Alla användarskivor
 	Allow agent control	Tillåt agentstyrning
 	Allow Continue	Tillåt att fortsätta
@@ -327,6 +323,7 @@ cameraRaw	Aqua	Akvamarin
 	Background	Bakgrund
 	Background (Default)	Bakgrund (standard)
 	Background (default)	Bakgrund (standard)
+	Background (default):	Bakgrund (standard):
 	Background Color	Bakgrundsfärg
 	Background Eraser	Bakgrundssuddgummi
 	Background Eraser Tool	Bakgrundssuddgummiverktyg
@@ -478,17 +475,6 @@ fontWeight	Bold	Fet
 	Camera Data	Kameradata
 	Camera Make	Kameratillverkare
 	Camera Model	Kameramodell
-	Camera Raw	Camera Raw
-	Camera Raw ({name})	Camera Raw ({name})
-cameraRaw	Camera Raw ({name})	Camera Raw ({name})
-	Camera Raw Defaults	Standardinställningar för Camera Raw
-	Camera Raw Filter	Camera Raw-filter
-	Camera Raw Filter ({layer})	Camera Raw-filter ({layer})
-cameraRaw	Camera Raw Filter ({layer})	Camera Raw-filter ({layer})
-	Camera Raw Filter…	Camera Raw-filter…
-	Camera Raw isn't open	Camera Raw är inte öppet
-cameraRaw	Camera Raw isn't open	Camera Raw är inte öppet
-	Camera Raw…	Camera Raw…
 cameraRaw	Cancel	Avbryt
 	Cancel (Esc)	Avbryt (Esc)
 	Cancel any current edits (Esc)	Avbryt alla pågående ändringar (Esc)
@@ -574,6 +560,7 @@ cameraRaw	Clarity	Klarhet
 	Cleanliness	Renhet
 	Clear All	Rensa alla
 	Clear Amount	Rensningsgrad
+	Clear aspect ratio values	Rensa värden för bildförhållande
 	Clear Brush Controls	Rensa penselkontroller
 	Clear Brush Strokes	Rensa penseldrag
 	Clear Canvas Guides	Rensa stödlinjer för arbetsytan
@@ -747,6 +734,7 @@ cameraRaw	Color Priority	Färgprioritet
 	Contact Sheet II…	Kontaktkarta II…
 	Content-Aware	Innehållsmedveten
 	Content-Aware Fill	Innehållsmedveten fyllning
+	Content-aware fill	Innehållsbaserad fyllning
 	Content-Aware Fill needs a selection on a pixel layer	Innehållsmedveten fyllning kräver en markering på ett pixellager
 	Content-Aware Fill…	Innehållsmedveten fyllning…
 	Content-Aware Move	Innehållsmedveten flytt
@@ -989,7 +977,6 @@ cameraData	Date Taken	Fotograferingsdatum
 	Default Foreground and Background Colors (D)	Standardfärger för förgrund och bakgrund (D)
 	Default Leaves	Standardlöv
 	Default PhotoCraft Size	Standardstorlek för PhotoCraft
-	Default Photoshop Size	Standardstorlek för Photoshop
 	Default printer	Standardskrivare
 	Default restored.	Standardvärdet har återställts.
 	Defaults	Standardvärden
@@ -1074,6 +1061,7 @@ cameraRaw	Detail	Detalj
 	Detailed	Detaljerad
 	Details	Detaljer
 	Detect Faces	Identifiera ansikten
+	Determines if pixel data outside the crop box is retained or deleted	Avgör om bildpunkter utanför beskärningsramen behålls eller tas bort
 	Developing {name}	Framkallar {name}
 cameraRaw	Developing {name}	Framkallar {name}
 	Diagonal (Descending)	Diagonal (fallande)
@@ -1109,6 +1097,7 @@ cameraRaw	Developing {name}	Framkallar {name}
 	Display profiles: {reason}	Bildskärmsprofiler: {reason}
 	Display Text	Visa text
 	Display-p3	Display P3
+	Displays pop-up help for the fill methods	Visar popup-hjälp för fyllningsmetoderna
 	Dissolve	Upplös
 	Dissolve is approximated: it blends without Photoshop's dither.	Upplös är en approximation: den blandar utan Photoshops dithering.
 	Distribute Heights	Fördela höjder
@@ -1368,11 +1357,13 @@ layers	Fill	Fyllning
 	Fill Light	Upplättningsljus
 	Fill new type layers with placeholder	Fyll nya textlager med platshållartext
 	Fill Opacity	Fyllningsopacitet
+	Fill options	Fyllningsalternativ
 	Fill Path	Fyll bana
 	Fill path with foreground color	Fyll banan med förgrundsfärgen
 	Fill Path…	Fyll bana…
 	Fill Screen	Fyll skärmen
 	Fill Settings	Fyllningsinställningar
+	Fill the expanded area with your background color or transparent pixels	Fyll det utökade området med bakgrundsfärgen eller genomskinliga bildpunkter
 	Fill with Background Color	Fyll med bakgrundsfärg
 	Fill with Background Color, Preserve Transparency	Fyll med bakgrundsfärg, bevara genomskinlighet
 	Fill with Foreground Color	Fyll med förgrundsfärg
@@ -1697,6 +1688,7 @@ cameraRaw	Highlights	Högdagrar
 	Horizontal Type Tool	Verktyget Vågrät text
 	Horizontally	Vågrätt
 	Hotspot	Brännpunkt
+	How expanded crop area gets filled	Hur det utökade beskärningsområdet fylls
 	How often fastening points are placed by themselves	Hur ofta fästpunkter placeras automatiskt
 	How the camera's color filter mosaic is filled in. It is applied when the file opens; the preview shows the method it was opened with.	Hur kamerans färgfiltermosaik fylls i. Den tillämpas när filen öppnas; förhandsgranskningen visar metoden som den öppnades med.
 	Hsb	HSB
@@ -2013,10 +2005,10 @@ cameraRaw	Load settings from a Camera Raw .xmp file	Läs in inställningar från
 	Load Settings…	Läs in inställningar…
 cameraRaw	Load Settings…	Läs in inställningar…
 	Load the brush after each stroke	Ladda penseln efter varje penseldrag
-	Loaded Camera Raw settings from {file}	Läste in Camera Raw-inställningar från {file}
-cameraRaw	Loaded Camera Raw settings from {file}	Läste in Camera Raw-inställningar från {file}
-	Loaded Camera Raw settings from {file} ({n} not supported)	Läste in Camera Raw-inställningar från {file} ({n} stöds inte)
 	Loaded contours from {file}	Konturer inlästa från {file}
+	Loaded RAW Develop settings from {file}	Läste in RAW-framkallning-inställningar från {file}
+cameraRaw	Loaded RAW Develop settings from {file}	Läste in RAW-framkallning-inställningar från {file}
+	Loaded RAW Develop settings from {file} ({n} not supported)	Läste in RAW-framkallning-inställningar från {file} ({n} stöds inte)
 @plural	Loaded {n} action from {file}|Loaded {n} actions from {file}	Läste in {n} åtgärd från {file}|Läste in {n} åtgärder från {file}
 	Loading fonts…	Läser in teckensnitt…
 	Loading…	Läser in…
@@ -2226,6 +2218,8 @@ cameraData	Model	Modell
 	Move to	Flytta till
 	Move to New Window	Flytta till nytt fönster
 	Move Tool	Flyttverktyg
+	Move Toolbar to the Left	Flytta verktygsfältet till vänster
+	Move Toolbar to the Right	Flytta verktygsfältet till höger
 	Move Up	Flytta uppåt
 	Movie Prime	Film med fast brännvidd
 	Multichannel	Flerkanal
@@ -2406,7 +2400,6 @@ cameraRaw	Open	Öppna
 	Open File	Öppna fil
 	Open Folder	Öppna mapp
 	Open Image	Öppna bild
-	Open in camera raw	Öppna i Camera Raw
 	Open paths use centered strokes	Öppna banor använder centrerade linjer
 	Open Recent	Öppna senaste
 	Open Recent is unavailable on the web	Öppna senaste är inte tillgängligt på webben
@@ -2754,8 +2747,19 @@ cameraRaw	Radius	Radie
 	Rate	Hastighet
 	Ratio	Förhållande
 	Raw Data	Rådata
+	RAW Defaults	Standardinställningar för RAW
 	Raw Defaults	Raw-standardvärden
+	RAW Defaults…	Standardinställningar för RAW…
 	Raw Defaults…	Raw-standardvärden…
+	RAW Develop	RAW-framkallning
+	RAW Develop ({name})	RAW-framkallning ({name})
+cameraRaw	RAW Develop ({name})	RAW-framkallning ({name})
+	RAW Develop Filter	RAW-framkallning-filter
+	RAW Develop Filter ({layer})	RAW-framkallning-filter ({layer})
+cameraRaw	RAW Develop Filter ({layer})	RAW-framkallning-filter ({layer})
+	RAW Develop Filter…	RAW-framkallning-filter…
+	RAW Develop isn't open	RAW-framkallning är inte öppet
+cameraRaw	RAW Develop isn't open	RAW-framkallning är inte öppet
 	Reading	Läsning
 	Reading…	Läser…
 	Real-Time Refinement	Förfining i realtid
@@ -2871,6 +2875,7 @@ fontWeight	Regular	Normal
 	Reset Section	Återställ avsnitt
 	Reset Swatches	Återställ färgrutor
 	Reset the brush to the defaults	Återställ penseln till standardvärdena
+	Reset the crop box, image rotation, and aspect ratio settings	Återställ beskärningsramen, bildrotationen och bildförhållandet
 	Reset to Default	Återställ till standard
 	Reset to defaults	Återställ till standardvärden
 	Reset Tool	Återställ verktyg
@@ -2956,6 +2961,7 @@ cameraRaw	Roundness	Rundhet
 	Same folder	Samma mapp
 	Sample a pixel anywhere on the screen	Ta prov på en pixel var som helst på skärmen
 	Sample All Layers	Ta prov på alla lager
+	Sample content from part of the image and use it to fill a small area	Hämta innehåll från en del av bilden för att fylla ett litet område
 	Sample Size	Provstorlek
 	Sample Size:	Provstorlek:
 	Sample:	Prov:
@@ -3008,6 +3014,7 @@ cameraRaw	Save these settings as a Camera Raw .xmp file	Spara de här inställni
 	Saved contours to {file}	Konturer sparade i {file}
 @plural	Saved for Web: {n} file|Saved for Web: {n} files	Sparat för webben: {n} fil|Sparat för webben: {n} filer
 	Saved Multichannel	Sparad flerkanal
+	Saved RAW Develop settings to {file}	RAW-framkallningsinställningar sparade i {file}
 	Saved {name}	Sparade {name}
 @plural	Saved {n} action to {file}|Saved {n} actions to {file}	Sparade {n} åtgärd i {file}|Sparade {n} åtgärder i {file}
 @plural	Saved {n} color to {file}|Saved {n} colors to {file}	Sparade {n} färg i {file}|Sparade {n} färger i {file}
@@ -3057,6 +3064,7 @@ cameraRaw	Save these settings as a Camera Raw .xmp file	Spara de här inställni
 	Second Color Readout	Andra färgavläsning
 	seconds	sekunder
 	Seed	Startvärde
+	Select a preset aspect ratio or crop size	Välj ett förinställt bildförhållande eller beskärningsstorlek
 	Select a type layer or click into text to insert glyphs	Markera ett textlager eller klicka i texten för att infoga glyfer
 	Select a type layer to edit its character and paragraph settings.	Markera ett textlager för att redigera dess tecken- och styckeinställningar.
 	Select All Layers	Markera alla lager
@@ -3122,6 +3130,8 @@ fontWeight	SemiBold	Halvfet
 	Set shape fill type	Ange formens fyllningstyp
 	Set shape stroke type	Ange formens linjetyp
 	Set Start Timecode…	Ange starttidskod…
+	Set the aspect ratio for the crop box	Ange bildförhållandet för beskärningsramen
+	Set the overlay options for the Crop Tool	Ange alternativ för beskärningsöverlägget
 	Set the overlay options for the Crop tool	Ange överläggsalternativ för beskärningsverktyget
 	Set the text color	Ange textfärg
 	Set the tone sliders from the image	Ställ in tonreglagen utifrån bilden
@@ -3493,6 +3503,7 @@ cameraRaw	Texture	Struktur
 	The fastest and the softest, with color fringing on fine detail.	Snabbast och mjukast, med färgfransar vid fina detaljer.
 	The file could not be opened.	Det gick inte att öppna filen.
 	The file could not be saved.	Det gick inte att spara filen.
+	The fill for this layer must be rasterized before proceeding. It will no longer be editable as a fill. Rasterize the fill?	Det här fyllningslagret måste rasteriseras innan du fortsätter. Fyllningsinnehållet går inte längre att redigera. Vill du rasterisera lagret?
 	The GPU compositor wasn't used: {reason}	GPU-kompositören användes inte: {reason}
 	The gradient the Gradient tool paints with	Gradienten som Gradientverktyget målar med
 	The keyboard shortcut set was not imported: {error}	Kortkommandouppsättningen importerades inte: {error}
@@ -3512,7 +3523,6 @@ fontWeight	Thin	Tunn
 	This adjustment ({key}) is kept as imported and can't be edited yet.	Den här justeringen ({key}) behålls som den importerades och kan inte redigeras ännu.
 	This document's layers need {needed} but may hold {budget}: whole-document redraws use the CPU	Lagren i det här dokumentet behöver {needed} men får använda {budget}: omritningar av hela dokumentet använder CPU:n
 	This document's layers: {needed} of {budget} for layers	Lagren i det här dokumentet: {needed} av {budget} för lager
-	This fill layer must be rasterized before proceeding. Its fill content will no longer be editable. Rasterize the layer?	Det här fyllningslagret måste rasteriseras innan du fortsätter. Fyllningsinnehållet går inte längre att redigera. Vill du rasterisera lagret?
 	This layer must be rasterized before proceeding.	Det här lagret måste rasteriseras innan du fortsätter.
 	This Layer:	Det här lagret:
 	This redraw took {seconds} s on the CPU.	Den här omritningen tog {seconds} s på CPU:n.

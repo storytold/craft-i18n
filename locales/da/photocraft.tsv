@@ -145,12 +145,9 @@
 	Adjustment visible	Justering synlig
 	Adjustments	Justeringer
 	Adobe	Adobe
-	Adobe Every-line Composer	Adobe-flerlinjeopsætter
-	Adobe PDF Presets…	Adobe PDF-forudindstillinger…
 	Adobe rgb	Adobe rgb
 	Adobe RGB (1998)	Adobe RGB (1998)
 	Adobe RGB (1998) compatible	Adobe RGB (1998)-kompatibel
-	Adobe Single-line Composer	Adobe-enkeltlinjeopsætter
 	Adobe-rgb-compat	Adobe-rgb-kompat
 	Advanced Blending	Avanceret blanding
 	Advanced Controls	Avancerede kontrolelementer
@@ -185,7 +182,6 @@
 	All Classes	Alle klasser
 	All Layers No Adjustments	Alle lag uden justeringer
 	All shortcuts reset to PhotoCraft defaults.	Alle genveje er nulstillet til PhotoCrafts standardindstillinger.
-	All shortcuts reset to Photoshop defaults.	Alle genveje er nulstillet til Photoshop-standarderne.
 	All User Slices	Alle brugerudsnit
 	Allow agent control	Tillad agentstyring
 	Allow Continue	Tillad fortsættelse
@@ -341,6 +337,7 @@ cameraRaw	Aqua	Turkis
 	Background	Baggrund
 	Background (Default)	Baggrund (standard)
 	Background (default)	Baggrund (standard)
+	Background (default):	Baggrund (standard):
 	Background Color	Baggrundsfarve
 	Background Contents	Baggrundsindhold
 	Background Eraser	Baggrundsviskelæder
@@ -502,17 +499,6 @@ fontWeight	Bold	Fed
 	Camera Data	Kameradata
 	Camera Make	Kameramærke
 	Camera Model	Kameramodel
-	Camera Raw	Camera Raw
-	Camera Raw ({name})	Camera Raw ({name})
-cameraRaw	Camera Raw ({name})	Camera Raw ({name})
-	Camera Raw Defaults	Camera Raw-standarder
-	Camera Raw Filter	Camera Raw-filter
-	Camera Raw Filter ({layer})	Camera Raw-filter ({layer})
-cameraRaw	Camera Raw Filter ({layer})	Camera Raw-filter ({layer})
-	Camera Raw Filter…	Camera Raw-filter…
-	Camera Raw isn't open	Camera Raw er ikke åben
-cameraRaw	Camera Raw isn't open	Camera Raw er ikke åben
-	Camera Raw…	Camera Raw…
 cameraRaw	Cancel	Annullér
 	Cancel (Esc)	Annullér (Esc)
 	Cancel any current edits (Esc)	Annullér alle aktuelle redigeringer (Esc)
@@ -607,6 +593,7 @@ cameraRaw	Clarity	Klarhed
 	Clear	Ryd
 	Clear All	Ryd alt
 	Clear Amount	Klarhedsgrad
+	Clear aspect ratio values	Ryd værdier for billedformat
 	Clear Brush Controls	Ryd penselkontroller
 	Clear Brush Strokes	Ryd penselstrøg
 	Clear Canvas Guides	Ryd lærredshjælpelinjer
@@ -788,6 +775,7 @@ cameraRaw	Color Priority	Farveprioritet
 	Contact Sheet II…	Kontaktark II…
 	Content-Aware	Indholdsbevidst
 	Content-Aware Fill	Indholdsbevidst udfyldning
+	Content-aware fill	Indholdsbaseret udfyldning
 	Content-Aware Fill needs a selection on a pixel layer	Indholdsbevidst udfyldning kræver en markering på et pixellag
 	Content-Aware Fill…	Indholdsbevidst udfyldning…
 	Content-Aware Move	Indholdsbevidst flytning
@@ -1038,7 +1026,6 @@ cameraData	Date Taken	Optagelsesdato
 	Default Foreground and Background Colors (D)	Standard forgrunds- og baggrundsfarver (D)
 	Default Leaves	Standardblade
 	Default PhotoCraft Size	PhotoCraft-standardstørrelse
-	Default Photoshop Size	Photoshop-standardstørrelse
 	Default printer	Standardprinter
 	Default restored.	Standarden er gendannet.
 	Defaults	Standardindstillinger
@@ -1120,6 +1107,7 @@ cameraRaw	Detail	Detaljer
 	Detailed	Detaljeret
 	Details	Detaljer
 	Detect Faces	Registrér ansigter
+	Determines if pixel data outside the crop box is retained or deleted	Bestemmer, om pixels uden for beskæringsrammen bevares eller slettes
 	Developing {name}	Fremkalder {name}
 cameraRaw	Developing {name}	Fremkalder {name}
 	Diagonal	Diagonal
@@ -1158,6 +1146,7 @@ cameraRaw	Developing {name}	Fremkalder {name}
 	Display profiles: {reason}	Skærmprofiler: {reason}
 	Display Text	Vis tekst
 	Display-p3	Display-p3
+	Displays pop-up help for the fill methods	Viser pop op-hjælp til fyldningsmetoderne
 	Dissolve	Opløst
 	Dissolve is approximated: it blends without Photoshop's dither.	Opløst er tilnærmet: det blander uden Photoshops dither.
 	Distribute Heights	Fordel højder
@@ -1430,11 +1419,13 @@ layers	Fill	Udfyldning
 	Fill Light	Udfyldningslys
 	Fill new type layers with placeholder	Udfyld nye tekstlag med pladsholder
 	Fill Opacity	Udfyldningsopacitet
+	Fill options	Fyldningsindstillinger
 	Fill Path	Udfyld sti
 	Fill path with foreground color	Udfyld sti med forgrundsfarve
 	Fill Path…	Udfyld sti…
 	Fill Screen	Fyld skærm
 	Fill Settings	Udfyldningsindstillinger
+	Fill the expanded area with your background color or transparent pixels	Fyld det udvidede område med baggrundsfarven eller gennemsigtige pixels
 	Fill with Background Color	Udfyld med baggrundsfarve
 	Fill with Background Color, Preserve Transparency	Udfyld med baggrundsfarve, bevar gennemsigtighed
 	Fill with Foreground Color	Udfyld med forgrundsfarve
@@ -1772,6 +1763,7 @@ cameraRaw	Highlights	Højlys
 	Horizontal Type Tool	Vandret tekstværktøj
 	Horizontally	Vandret
 	Hotspot	Hotspot
+	How expanded crop area gets filled	Hvordan det udvidede beskæringsområde fyldes
 	How often fastening points are placed by themselves	Hvor ofte fastgøringspunkter placeres af sig selv
 	How the camera's color filter mosaic is filled in. It is applied when the file opens; the preview shows the method it was opened with.	Hvordan kameraets farvefiltermosaik udfyldes. Det anvendes, når filen åbnes; forhåndsvisningen viser den metode, den blev åbnet med.
 	Hsb	HSB
@@ -2096,10 +2088,10 @@ cameraRaw	Load settings from a Camera Raw .xmp file	Indlæs indstillinger fra en
 	Load Settings…	Indlæs indstillinger…
 cameraRaw	Load Settings…	Indlæs indstillinger…
 	Load the brush after each stroke	Fyld penslen efter hvert strøg
-	Loaded Camera Raw settings from {file}	Indlæste Camera Raw-indstillinger fra {file}
-cameraRaw	Loaded Camera Raw settings from {file}	Indlæste Camera Raw-indstillinger fra {file}
-	Loaded Camera Raw settings from {file} ({n} not supported)	Indlæste Camera Raw-indstillinger fra {file} ({n} understøttes ikke)
 	Loaded contours from {file}	Indlæste konturer fra {file}
+	Loaded RAW Develop settings from {file}	Indlæste RAW-fremkaldelse-indstillinger fra {file}
+cameraRaw	Loaded RAW Develop settings from {file}	Indlæste RAW-fremkaldelse-indstillinger fra {file}
+	Loaded RAW Develop settings from {file} ({n} not supported)	Indlæste RAW-fremkaldelse-indstillinger fra {file} ({n} understøttes ikke)
 @plural	Loaded {n} action from {file}|Loaded {n} actions from {file}	Indlæste {n} handling fra {file}|Indlæste {n} handlinger fra {file}
 	Loading fonts…	Indlæser skrifttyper…
 	Loading…	Indlæser…
@@ -2304,6 +2296,8 @@ cameraData	Model	Model
 	Move to	Flyt til
 	Move to New Window	Flyt til nyt vindue
 	Move Tool	Flytteværktøj
+	Move Toolbar to the Left	Flyt værktøjslinjen til venstre
+	Move Toolbar to the Right	Flyt værktøjslinjen til højre
 	Movie Prime	Movie Prime
 	Multichannel	Multikanal
 	Multiple Flames Along Path	Flere flammer langs sti
@@ -2489,7 +2483,6 @@ cameraRaw	Open	Åbn
 	Open File	Åbn fil
 	Open Folder	Åbn mappe
 	Open Image	Åbn billede
-	Open in camera raw	Åbn i Camera Raw
 	Open paths use centered strokes	Åbne stier bruger centreret kontur
 	Open Recent	Åbn seneste
 	Open Recent is unavailable on the web	Åbn seneste er ikke tilgængelig i webversionen
@@ -2840,8 +2833,19 @@ cameraRaw	Radius	Radius
 	Rasterize Type Layer	Rasterisér tekstlag
 	Rate	Hastighed
 	Raw Data	Rådata
+	RAW Defaults	RAW-standarder
 	Raw Defaults	Raw-standarder
+	RAW Defaults…	RAW-standarder…
 	Raw Defaults…	Raw-standarder…
+	RAW Develop	RAW-fremkaldelse
+	RAW Develop ({name})	RAW-fremkaldelse ({name})
+cameraRaw	RAW Develop ({name})	RAW-fremkaldelse ({name})
+	RAW Develop Filter	RAW-fremkaldelse-filter
+	RAW Develop Filter ({layer})	RAW-fremkaldelse-filter ({layer})
+cameraRaw	RAW Develop Filter ({layer})	RAW-fremkaldelse-filter ({layer})
+	RAW Develop Filter…	RAW-fremkaldelse-filter…
+	RAW Develop isn't open	RAW-fremkaldelse er ikke åben
+cameraRaw	RAW Develop isn't open	RAW-fremkaldelse er ikke åben
 	Reading	Læser
 	Reading…	Læser…
 	Real-Time Refinement	Forfining i realtid
@@ -2964,6 +2968,7 @@ fontWeight	Regular	Normal
 	Reset Section	Nulstil sektion
 	Reset Swatches	Nulstil farveprøver
 	Reset the brush to the defaults	Nulstil penslen til standardindstillingerne
+	Reset the crop box, image rotation, and aspect ratio settings	Nulstil beskæringsrammen, billedrotationen og billedformatet
 	Reset to Default	Nulstil til standard
 	Reset to defaults	Nulstil til standard
 	Reset Tool	Nulstil værktøj
@@ -3056,6 +3061,7 @@ cameraRaw	Roundness	Rundhed
 	Same folder	Samme mappe
 	Sample a pixel anywhere on the screen	Tag en prøve af en pixel hvor som helst på skærmen
 	Sample All Layers	Prøvetag alle lag
+	Sample content from part of the image and use it to fill a small area	Hent indhold fra en del af billedet for at fylde et lille område
 	Sample Size	Prøvestørrelse
 	Sample Size:	Prøvestørrelse:
 	Sample:	Prøve:
@@ -3108,6 +3114,7 @@ cameraRaw	Save these settings as a Camera Raw .xmp file	Gem disse indstillinger 
 	Saved contours to {file}	Gemte konturer i {file}
 @plural	Saved for Web: {n} file|Saved for Web: {n} files	Gemt til web: {n} fil|Gemt til web: {n} filer
 	Saved Multichannel	Gemt som multikanal
+	Saved RAW Develop settings to {file}	RAW-fremkaldelsesindstillinger gemt i {file}
 	Saved {name}	Gemte {name}
 @plural	Saved {n} action to {file}|Saved {n} actions to {file}	Gemte {n} handling i {file}|Gemte {n} handlinger i {file}
 @plural	Saved {n} color to {file}|Saved {n} colors to {file}	Gemte {n} farve i {file}|Gemte {n} farver i {file}
@@ -3160,6 +3167,7 @@ cameraRaw	Save these settings as a Camera Raw .xmp file	Gem disse indstillinger 
 	Second Color Readout	Anden farveaflæsning
 	seconds	sekunder
 	Seed	Startværdi
+	Select a preset aspect ratio or crop size	Vælg et forudindstillet billedformat eller beskæringsstørrelse
 	Select a type layer or click into text to insert glyphs	Markér et tekstlag, eller klik i teksten for at indsætte glyffer
 	Select a type layer to edit its character and paragraph settings.	Markér et tekstlag for at redigere dets tegn- og afsnitsindstillinger.
 	Select All Layers	Markér alle lag
@@ -3226,6 +3234,8 @@ fontWeight	SemiBold	Halvfed
 	Set shape fill type	Angiv udfyldningstype for form
 	Set shape stroke type	Angiv konturtype for form
 	Set Start Timecode…	Angiv starttidskode…
+	Set the aspect ratio for the crop box	Angiv billedformatet for beskæringsrammen
+	Set the overlay options for the Crop Tool	Angiv indstillinger for beskæringsoverlejringen
 	Set the overlay options for the Crop tool	Angiv overlejringsindstillingerne for beskæringsværktøjet
 	Set the text color	Angiv tekstfarven
 	Set the tone sliders from the image	Indstil toneskyderne ud fra billedet
@@ -3612,6 +3622,7 @@ cameraRaw	Texture	Tekstur
 	The fastest and the softest, with color fringing on fine detail.	Den hurtigste og den blødeste, med farvefrynser i fine detaljer.
 	The file could not be opened.	Filen kunne ikke åbnes.
 	The file could not be saved.	Filen kunne ikke gemmes.
+	The fill for this layer must be rasterized before proceeding. It will no longer be editable as a fill. Rasterize the fill?	Dette udfyldningslag skal rasteriseres, før du fortsætter. Dets udfyldningsindhold kan ikke længere redigeres. Vil du rasterisere laget?
 	The GPU compositor wasn't used: {reason}	GPU-sammensætteren blev ikke brugt: {reason}
 	The gradient the Gradient tool paints with	Den gradient, som gradientværktøjet maler med
 	The keyboard shortcut set was not imported: {error}	Sættet med tastaturgenveje blev ikke importeret: {error}
@@ -3632,7 +3643,6 @@ fontWeight	Thin	Tynd
 	This adjustment ({key}) is kept as imported and can't be edited yet.	Denne justering ({key}) bevares som importeret og kan ikke redigeres endnu.
 	This document's layers need {needed} but may hold {budget}: whole-document redraws use the CPU	Dette dokuments lag kræver {needed}, men kan rumme {budget}: gentegninger af hele dokumentet bruger CPU'en
 	This document's layers: {needed} of {budget} for layers	Dette dokuments lag: {needed} af {budget} til lag
-	This fill layer must be rasterized before proceeding. Its fill content will no longer be editable. Rasterize the layer?	Dette udfyldningslag skal rasteriseres, før du fortsætter. Dets udfyldningsindhold kan ikke længere redigeres. Vil du rasterisere laget?
 	This layer must be rasterized before proceeding.	Dette lag skal rasteriseres, før du fortsætter.
 	This Layer:	Dette lag:
 	This redraw took {seconds} s on the CPU.	Denne gentegning tog {seconds} s på CPU'en.

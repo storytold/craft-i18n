@@ -249,6 +249,7 @@ smartSvg	AI/PDF/EPS contents will be edited as SVG. Saving replaces the embedded
 	Backend: {backend} ({type})	Backend: {backend} ({type})
 	Background (Default)	Hintergrund (Standard)
 	Background (default)	Hintergrund (Standard)
+	Background (default):	Hintergrund (Standard):
 	Background Contents	Hintergrundinhalte
 	Background Eraser	Hintergrund-Radiergummi
 	Background Eraser Tool	Hintergrund-Radiergummi-Werkzeug
@@ -364,12 +365,6 @@ fontWeight	Bold	Fett
 	Calculations…	Berechnungen…
 	Calibration	Kalibrierung
 	Camera Data	Kameradaten
-	Camera Raw ({name})	Camera Raw ({name})
-	Camera Raw Defaults	Camera-Raw-Standardeinstellungen
-	Camera Raw Filter ({layer})	Camera-Raw-Filter ({layer})
-	Camera Raw Filter…	Camera-Raw-Filter…
-	Camera Raw isn't open	Camera Raw ist nicht geöffnet
-	Camera Raw…	Camera Raw…
 	Cancel (Esc)	Abbrechen (Esc)
 	Cancel any current edits (Esc)	Aktuelle Bearbeitungen abbrechen (Esc)
 	Cancel current crop operation  (Esc)	Aktuelle Freistellung abbrechen  (Esc)
@@ -437,6 +432,7 @@ smartSvg	Choose the application used to edit this SVG:	Wählen Sie die Anwendung
 	Cleanliness	Sauberkeit
 	Clear	Löschen
 	Clear All	Alle löschen
+	Clear aspect ratio values	Seitenverhältniswerte löschen
 	Clear Brush Controls	Pinselsteuerungen löschen
 	Clear Brush Strokes	Pinselstriche löschen
 	Clear Canvas Guides	Zeichenflächen-Hilfslinien löschen
@@ -563,6 +559,7 @@ smartSvg	Choose the application used to edit this SVG:	Wählen Sie die Anwendung
 	Contact Sheet II…	Kontaktabzug II…
 	Content-Aware	Inhaltsbasiert
 	Content-Aware Fill	Inhaltsbasiert füllen
+	Content-aware fill	Inhaltsbasiert füllen
 	Content-Aware Fill needs a selection on a pixel layer	Inhaltsbasiertes Füllen braucht eine Auswahl auf einer Pixelebene
 	Content-Aware Fill…	Inhaltsbasiert füllen…
 	Content-Aware Move Tool	Inhaltsbasiert-verschieben-Werkzeug
@@ -803,6 +800,7 @@ cameraData	Date Taken	Aufnahmedatum
 	Despeckle	Flecken entfernen
 	Detail	Details
 	Detailed	Detailliert
+	Determines if pixel data outside the crop box is retained or deleted	Legt fest, ob Bilddaten außerhalb des Zuschnittrahmens erhalten oder gelöscht werden
 	Developing {name}	{name} wird entwickelt
 	Diagonal (Descending)	Diagonal (absteigend)
 	Diamond Gradient	Rautenverlauf
@@ -825,6 +823,7 @@ cameraData	Date Taken	Aufnahmedatum
 	Display p3	Display P3
 	Display Text	Text anzeigen
 	Display-p3	Display P3
+	Displays pop-up help for the fill methods	Zeigt Pop-up-Hilfe zu den Füllmethoden an
 	Dissolve	Sprenkeln
 	Dissolve is approximated: it blends without Photoshop's dither.	Sprenkeln wird nur angenähert: Es wird ohne das Dithering von Photoshop gemischt.
 	Distribute Heights	Höhen verteilen
@@ -1012,10 +1011,12 @@ cameraData	F-Stop	Blende
 	Fill Layer	Füllebene
 	Fill new type layers with placeholder	Neue Textebenen mit Platzhalter füllen
 	Fill Opacity	Füll-Deckkraft
+	Fill options	Fülloptionen
 	Fill Path	Pfad füllen
 	Fill path with foreground color	Pfad mit Vordergrundfarbe füllen
 	Fill Screen	Bildschirm ausfüllen
 	Fill Settings	Füllungseinstellungen
+	Fill the expanded area with your background color or transparent pixels	Den erweiterten Bereich mit der Hintergrundfarbe oder transparenten Pixeln füllen
 	Fill with Background Color	Mit Hintergrundfarbe füllen
 	Fill with Background Color, Preserve Transparency	Mit Hintergrundfarbe füllen, Transparenz erhalten
 	Fill with Foreground Color	Mit Vordergrundfarbe füllen
@@ -1250,6 +1251,7 @@ cameraData	Focal Length (35 mm)	Brennweite (35 mm)
 	Horizontal type	Horizontaler Text
 	Horizontal Type Mask Tool	Horizontales Textmaskierungswerkzeug
 	Horizontal Type Tool	Horizontales Text-Werkzeug
+	How expanded crop area gets filled	Wie der erweiterte Zuschnittbereich gefüllt wird
 	How often fastening points are placed by themselves	Wie oft Ankerpunkte automatisch gesetzt werden
 	How the camera's color filter mosaic is filled in. It is applied when the file opens; the preview shows the method it was opened with.	Wie das Farbfiltermosaik der Kamera aufgefüllt wird. Es wird beim Öffnen der Datei angewendet; die Vorschau zeigt die Methode, mit der sie geöffnet wurde.
 	Hsb	HSB
@@ -1479,9 +1481,9 @@ fontWeight	Light	Leicht
 	Load settings from a Camera Raw .xmp file	Einstellungen aus einer Camera-Raw-.xmp-Datei laden
 	Load Settings…	Einstellungen laden…
 	Load the brush after each stroke	Pinsel nach jedem Strich laden
-	Loaded Camera Raw settings from {file}	Camera-Raw-Einstellungen aus {file} geladen
-	Loaded Camera Raw settings from {file} ({n} not supported)	Camera-Raw-Einstellungen aus {file} geladen ({n} nicht unterstützt)
 	Loaded contours from {file}	Konturen aus {file} geladen
+	Loaded RAW Develop settings from {file}	RAW-Entwicklung-Einstellungen aus {file} geladen
+	Loaded RAW Develop settings from {file} ({n} not supported)	RAW-Entwicklung-Einstellungen aus {file} geladen ({n} nicht unterstützt)
 @plural	Loaded {n} action from {file}|Loaded {n} actions from {file}	{n} Aktion aus {file} geladen|{n} Aktionen aus {file} geladen
 	Loading fonts…	Schriften werden geladen…
 	Load…	Laden…
@@ -1632,6 +1634,8 @@ cameraData	Model	Modell
 	Move to	Verschieben nach
 	Move to New Window	In neues Fenster verschieben
 	Move Tool	Verschieben-Werkzeug
+	Move Toolbar to the Left	Werkzeugleiste nach links verschieben
+	Move Toolbar to the Right	Werkzeugleiste nach rechts verschieben
 	Move Up	Nach oben
 	Movie Prime	Film-Festbrennweite
 	Multichannel	Mehrkanal
@@ -1763,7 +1767,6 @@ layerLabel	No Color	Keine Farbe
 	Open documents as tabs	Dokumente als Registerkarten öffnen
 	Open Document…	Öffnen…
 	Open EXR Parts…	EXR-Teile öffnen…
-	Open in camera raw	In Camera Raw öffnen
 	Open paths use centered strokes	Offene Pfade verwenden zentrierte Konturen
 	open source	Open Source
 	Open the release page to choose an installer for your system.	Öffnen Sie die Versionsseite und wählen Sie ein Installationspaket für Ihr System.
@@ -2007,7 +2010,15 @@ smartSvg	PhotoCraft (internal editor)	PhotoCraft (interner Editor)
 	Rasterize Type	Text rasterisieren
 	Rasterize Type Layer	Textebene rasterisieren
 	Rate	Rate
+	RAW Defaults	RAW-Standardeinstellungen
+	RAW Defaults…	RAW-Standardeinstellungen…
 	Raw Defaults…	RAW-Standardwerte…
+	RAW Develop	RAW-Entwicklung
+	RAW Develop ({name})	RAW-Entwicklung ({name})
+	RAW Develop Filter	RAW-Entwicklungsfilter
+	RAW Develop Filter ({layer})	RAW-Entwicklung-Filter ({layer})
+	RAW Develop Filter…	RAW-Entwicklung-Filter…
+	RAW Develop isn't open	RAW-Entwicklung ist nicht geöffnet
 	Reading…	Lesen…
 	Real-Time Refinement	Verbesserung in Echtzeit
 	Recent	Zuletzt
@@ -2095,6 +2106,7 @@ fontWeight	Regular	Normal
 	Reset Section	Abschnitt zurücksetzen
 	Reset Swatches	Farbfelder zurücksetzen
 	Reset the brush to the defaults	Pinsel auf Standardwerte zurücksetzen
+	Reset the crop box, image rotation, and aspect ratio settings	Zuschnittrahmen, Bilddrehung und Seitenverhältniseinstellungen zurücksetzen
 	Reset to Default	Auf Standard zurücksetzen
 	Reset to defaults	Auf Standardwerte zurücksetzen
 	Reset Tool	Werkzeug zurücksetzen
@@ -2160,6 +2172,7 @@ fontWeight	Regular	Normal
 	Same folder	Gleicher Ordner
 	Sample a pixel anywhere on the screen	Ein Pixel an beliebiger Stelle auf dem Bildschirm auswählen
 	Sample All Layers	Alle Ebenen einbeziehen
+	Sample content from part of the image and use it to fill a small area	Inhalte aus einem Teil des Bildes entnehmen und damit einen kleinen Bereich füllen
 	Sample Size:	Aufnahmebereich:
 	Sample:	Probe:
 	Sample: foreground color	Abtasten: Vordergrundfarbe
@@ -2197,9 +2210,9 @@ fontWeight	Regular	Normal
 	Save these shortcuts as a .kys file	Diese Kurzbefehle als .kys-Datei speichern
 	Save these shortcuts as a new set	Diese Kurzbefehle als neuen Satz speichern
 smartSvg	Save to the opened SVG file. Each saved change becomes one undo step in PhotoCraft.	Speichern Sie die geöffnete SVG-Datei. Jede gespeicherte Änderung wird in PhotoCraft zu einem Rückgängig-Schritt.
-	Saved Camera Raw settings to {file}	Camera-Raw-Einstellungen in {file} gespeichert
 	Saved contours to {file}	Konturen in {file} gespeichert
 @plural	Saved for Web: {n} file|Saved for Web: {n} files	Für Web gespeichert: {n} Datei|Für Web gespeichert: {n} Dateien
+	Saved RAW Develop settings to {file}	RAW-Entwicklung-Einstellungen in {file} gespeichert
 	Saved {name}	Gespeichert: {name}
 @plural	Saved {n} action to {file}|Saved {n} actions to {file}	{n} Aktion in {file} gespeichert|{n} Aktionen in {file} gespeichert
 @plural	Saved {n} color to {file}|Saved {n} colors to {file}	{n} Farbe in {file} gespeichert|{n} Farben in {file} gespeichert
@@ -2238,6 +2251,7 @@ smartSvg	Save to the opened SVG file. Each saved change becomes one undo step in
 	seconds	Sekunden
 	Seed	Startwert
 	Select	Auswahl
+	Select a preset aspect ratio or crop size	Voreingestelltes Seitenverhältnis oder Zuschnittgröße wählen
 	Select a type layer or click into text to insert glyphs	Wähle eine Textebene aus oder klicke in den Text, um Glyphen einzufügen
 	Select a type layer to edit its character and paragraph settings.	Wähle eine Textebene, um ihre Zeichen- und Absatzeinstellungen zu bearbeiten.
 	Select an action first	Wählen Sie zuerst eine Aktion aus
@@ -2286,6 +2300,8 @@ fontWeight	SemiBold	Halbfett
 	Set saved.	Satz gespeichert.
 	Set shape fill type	Fülltyp der Form festlegen
 	Set shape stroke type	Konturtyp der Form festlegen
+	Set the aspect ratio for the crop box	Seitenverhältnis für den Zuschnittrahmen festlegen
+	Set the overlay options for the Crop Tool	Optionen für die Zuschnittüberlagerung festlegen
 	Set the overlay options for the Crop tool	Überlagerungsoptionen für das Freistellungswerkzeug festlegen
 	Set the text color	Textfarbe festlegen
 	Set the tone sliders from the image	Tonwert-Regler aus dem Bild setzen
