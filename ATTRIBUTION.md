@@ -297,3 +297,12 @@ licence texts from [spdx/license-list-data](https://github.com/spdx/license-list
 ## WordCraft: Arabic rows for the Macros, Create Source, Language data and Custom Document Properties labels
 
 @tlomts-dev contributed seven Arabic (`ar`) rows to `locales/ar/wordcraft.tsv` (`Run`, `Corporate Author`, `Language data`, `Language Packs`, `Install Language Pack`, `Remove Language Pack`, `Custom Document Properties`) for labels that showed in English in the Arabic interface, AI-assisted with Claude Code and written from the plain meaning of the English, in the terminology the file already uses (`Author`, `Properties`, `Remove`, `Language`, and `Run` as in the PdfCraft catalog). No other product's localisation was consulted. @salehnemari-max, the catalog's Arabic author and a native speaker, read the seven rows and approved them as they are; they match the terms already in the catalog.
+
+## VectorCraft: German rows for strings the catalog was missing
+
+@V8Tom74 added 585 German (`de`) rows to `locales/de/vectorcraft.tsv` for VectorCraft strings the
+German catalog was missing (tools, effects, swatch names, document presets, PostScript and automation
+messages). AI-assisted with Claude Code (Opus 5.5), clean room: written from the plain meaning of the
+English, keeping the terms the existing German catalog already uses (Farbfeld, Zeichenfläche, Kontur,
+Schnittmaske, Flächentext …). Rows whose German would equal the English (paper and format names such
+as `A4`, `PDF/X-4:2010`, `HDTV 1080p`) were left out. Not separately reviewed by a native speaker.
