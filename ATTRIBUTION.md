@@ -257,7 +257,7 @@ consulted. **No native speaker has reviewed these rows.**
 
 ## PhotoCraft: Content-Aware Fill Sampling Brush tooltips (storytold/photocraft#10404)
 
-Two rows in `photocraft.tsv` of 26 locales: "Add  (hold {key} to subtract)" and "Subtract  (hold
+Two rows in `photocraft.tsv` of 25 locales: "Add  (hold {key} to subtract)" and "Subtract  (hold
 {key} to add)", the Sampling Brush's Add and Subtract tooltips, which name the key that reverses the
 mode while painting. `sr-latn` already had both. Contributor: Stefan Sels (@qvest-ssels) with Claude
 Code, AI-assisted: written from the plain meaning of the English, reusing each catalog's own words
