@@ -310,3 +310,18 @@ Synced from `photocraft@7c64653` to `photocraft@2772ac1` with
 ## TextureCraft initial migration
 
 The `texturecraft.tsv` catalogs for ar, de, es, fr, it, ja, ko, pt-br and zh-hans were migrated from [TextureCraft `21856d778347e13857f65c8f1107170797bd070f`](https://github.com/storytold/texturecraft/tree/21856d778347e13857f65c8f1107170797bd070f/crates/ui-egui/src/i18n), MIT OR Apache-2.0. Original wording and contributor credits remain in the upstream history. Migration tooling was AI-assisted; no new translations were authored and no additional native-speaker review was performed. Every original row was checked against the resolved app and shared catalogs. Tracked in storytold/texturecraft#419.
+
+## WordCraft: French (Canada) proofing-language label
+
+The `French (Canada)` label in `locales/<locale>/wordcraft.tsv` was added by
+@totoz64 with OpenAI Codex (AI-assisted) for these 36 locales:
+
+`ar`, `bg`, `bn`, `bs`, `cs`, `da`, `de`, `es`, `et`, `fa`, `fr`, `he`,
+`hr`, `hu`, `id`, `it`, `ja`, `ka`, `ko`, `lv`, `nb`, `nl`, `pl`, `pt-br`,
+`ro`, `ru`, `sk`, `sl`, `sr`, `sr-latn`, `sv`, `tr`, `uk`, `vi`, `zh-hans`,
+and `zh-hant`.
+
+These additions were written from the plain meaning of the English label; no
+other product's localisation, string table or translated interface was consulted.
+Native-speaker review of these newly added labels is pending in all 36 locales.
+Related application change: storytold/wordcraft#3185.
