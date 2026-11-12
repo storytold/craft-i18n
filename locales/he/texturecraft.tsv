@@ -1,0 +1,543 @@
+# עברית (he) interface catalog for TextureCraft.
+# Columns, separated by a TAB:  context <TAB> English source text <TAB> translation
+#   context  usually empty. `@plural`, `@id` and `@msg` mean something to the apps; any other
+#            word is a label that tells apart two meanings of the same English.
+#   escapes  \n  \t  \\  inside a column. `{name}` placeholders must appear in both columns (in any
+#            order), and a trailing "…" in one needs one in the other.
+#   @plural  English `one|other`; the translation lists this language's plural forms, `|`-separated.
+#   Lines starting with # and blank lines are ignored. A missing entry shows in English.
+#
+# Hebrew draft: 98 source-verified seed rows, plus 41, 60, 138 and 190 quick-win additions.
+# Two initial seed strings already resolve from common.tsv, so 527 app rows in total.
+# Original 9 locally reviewed wording preserved; native-speaker and maintainer review pending.
+# Clean room: every entry was written from the plain meaning of the English text in ordinary
+# computing vocabulary. No other product's localisation, string table or translated UI was
+# consulted or copied; add entries the same way.
+
+	1 effect	אפקט אחד
+	A click fills what is under it; a dragged rectangle fills what it selects as it grows	לחיצה ממלאת את האזור שמתחתיה; גרירת מלבן ממלאת את האזור שנבחר ככל שהמלבן גדל
+	A folder blends its children (pass-through). Set per-channel opacity in the layer rows.	תיקייה ממזגת את השכבות שבתוכה (מעבר דרך). אפשר להגדיר אטימות לכל ערוץ בשורות השכבות.
+	Accent color	צבע הדגשה
+	Add an anchor point to a layer below to use its stack as a mask.	הוסף נקודת עיגון לשכבה שמתחת כדי להשתמש במערך השכבות שלה כמסכה.
+	Adjustments	התאמות
+	Aligned: the offset set by the first stroke is kept. V + click sets a new source.	מיושר: ההיסט שנקבע במשיכת המכחול הראשונה נשמר. V ולחיצה מגדירים מקור חדש.
+	Amount	כמות
+	Anchor point	נקודת עיגון
+	Anchor: {name}	עיגון: {name}
+	Anchor: {name} ({channel})	עיגון: {name} ({channel})
+	Bake an ID map (F8) to pick colors from the mesh.	אפה מפת מזהים (F8) כדי לדגום צבעים מהרשת.
+	Bake mesh maps (F8) for curvature, AO and thickness based generators.	אפה מפות רשת (F8) לשימוש במחוללים המבוססים על עקמומיות, AO ועובי.
+	Baking {map} ({n}/{total})	אופה את {map} ({n}/{total})
+	Baking {map} ({n}/{total}), texture set {set} of {sets}	אופה את {map} ({n}/{total}), ערכת טקסטורות {set} מתוך {sets}
+	Brightness	בהירות
+	Cage	כלוב
+	Cage Scene	סצנת כלוב
+	Cage Type	סוג כלוב
+	Cage: {name}	כלוב: {name}
+	Cell size (texels at 2K)	גודל תא (טקסלים ב־2K)
+	Cells	תאים
+	Channel source: uniform value, procedural, image or anchor	מקור הערוץ: ערך אחיד, יצירה פרוצדורלית, תמונה או עיגון
+	Check All	סמן הכול
+	Check for Updates...	בדיקת עדכונים...
+	Click a mesh part to show or hide the selected layer on it.	לחץ על חלק מהרשת כדי להציג או להסתיר עליו את השכבה שנבחרה.
+	Click the mesh to pick its material into the brush	לחץ על הרשת כדי לדגום את החומר שלה למברשת
+	Continue with the sample project	המשך עם פרויקט הדוגמה
+	Contrast	ניגודיות
+	Contrast/Luminosity	ניגודיות / בהיקות
+	Copy RGB values	העתק ערכי RGB
+	Copy the selected layer alone (its empty parts copy nothing)	העתק רק את השכבה שנבחרה (חלקים ריקים לא יועתקו)
+	Curvature	עקמומיות
+	Data folder	תיקיית נתונים
+	Decal	מדבקה
+	Denoise	הפחתת רעש
+	Depth	עומק
+	Difference	הפרש
+	Dilation Width	רוחב הרחבה
+	Disable	השבת
+	Distort	עיוות
+	Done on CPU: {n} / {max} samples, {s} s	הושלם במעבד: {n} מתוך {max} דגימות, {s} שניות
+	Done on GPU: {n} / {max} samples, {s} s	הושלם במעבד הגרפי: {n} מתוך {max} דגימות, {s} שניות
+	Double-click or press Enter to edit	לחץ פעמיים או הקש Enter לעריכה
+	Double-click to rename	לחץ פעמיים לשינוי שם
+	Download as	הורדה בתור
+	Downloaded {name}	הורד {name}
+	Drag the frame to move the decal, a corner to scale it, the round handle to turn it	גרור את המסגרת להזזת המדבקה, פינה לשינוי גודל או את הידית העגולה לסיבוב
+	Drags the layer stack's values along the stroke into the selected layer.	גורר את ערכי מערך השכבות לאורך משיכת המכחול אל השכבה שנבחרה.
+	Edge Contrast	ניגודיות קצוות
+	Edge Detect	זיהוי קצוות
+	Edges	קצוות
+	Editing quick mask: paint where painting is allowed (U to finish)	עריכת מסכה מהירה: צבע היכן שהצביעה מותרת (U לסיום)
+	Editing the quick mask: fills paint where painting is allowed. Press U to finish.	עריכת מסכה מהירה: מילוי צובע היכן שהצביעה מותרת. הקש U לסיום.
+	Editing the quick mask: strokes paint where painting is allowed. Press U to finish.	עריכת מסכה מהירה: משיכות מכחול צובעות היכן שהצביעה מותרת. הקש U לסיום.
+	Emissive	פליטת אור
+	Enter a finite number	הזן מספר סופי
+	Environment: {name}	סביבה: {name}
+	Environments	סביבות
+	Expand or collapse the folder	הרחב או כווץ את התיקייה
+	File ID	מזהה קובץ
+	File name without extension; variables insert names	שם קובץ ללא סיומת; משתנים משלבים שמות
+	File type	סוג קובץ
+	Flow	זרימה
+	Flow jitter	שונות בזרימה
+	Focus: show only the active texture set	מיקוד: הצג רק את ערכת הטקסטורות הפעילה
+	Folders	תיקיות
+	Follow Newest Map	עקוב אחר המפה החדשה ביותר
+	Gamma	גמא
+	General properties	מאפיינים כלליים
+	Geometry mask	מסכת גאומטריה
+	Gradient	מעבר צבע
+	Gradient Map	מפת מעבר צבע
+	Hardness	קשיחות
+	HDR environments	סביבות HDR
+	High Poly Scene	סצנת רשת עתירת מצולעים
+	High poly: {name}	רשת עתירת מצולעים: {name}
+	Highlights	אזורים בהירים
+	History	היסטוריה
+	Hue Shift	הסטת גוון
+	Hue shift (degrees)	הסטת גוון (מעלות)
+	Ignore Backface	התעלם מפאות אחוריות
+	Ignore Backface Suffix	התעלם מסיומת הפאות האחוריות
+	Input high	גבול קלט עליון
+	Input low	גבול קלט תחתון
+	Invert mask background	הפוך את רקע המסכה
+	Invert mask value	הפוך את ערך המסכה
+	Invert quick mask	הפוך מסכה מהירה
+	Key light (shadow-casting light, direct only)	אור ראשי (מטיל צל, תאורה ישירה בלבד)
+	Keyboard	מקלדת
+	Layer memory: {mb} MB	זיכרון שכבה: {mb} MB
+	Lens size: how quickly things blur away from the focus distance	גודל העדשה: קצב הטשטוש עם ההתרחקות ממרחק המיקוד
+	Levels	רמות
+	Light / direction	אור / כיוון
+	Light azimuth (degrees)	אזימוט האור (מעלות)
+	Light elevation (degrees)	גובה האור (מעלות)
+	Light intensity	עוצמת האור
+	Lightness	בהירות הצבע
+	Load UI Layout	טעינת פריסת הממשק
+	Loaded UI layout {path}	פריסת הממשק נטענה מ־{path}
+	Mask	מסכה
+	Mask effects	אפקטים של המסכה
+	Mask value (gray)	ערך המסכה (אפור)
+	Mask with height	מסכה עם גובה
+	Max Frontal Distance	מרחק קדמי מרבי
+	Max Occluder Distance	מרחק חוסם מרבי
+	Max RAM while saving	זיכרון RAM מרבי בזמן שמירה
+	Max Rear Distance	מרחק אחורי מרבי
+	Mesh Normals Based	מבוסס על נורמלים של הרשת
+	Min Occluder Distance	מרחק חוסם מזערי
+	New project	פרויקט חדש
+	No font on this system can show this language	אין במערכת גופן שיכול להציג את השפה הזו
+	no GPU	אין GPU
+	No High-Poly Meshes	אין רשתות עתירות מצולעים
+	Noise amount	כמות רעש
+	Noise scale	קנה מידה לרעש
+	Normal DirectX	מפת נורמל DirectX
+	Normal from height	נורמל מתוך גובה
+	Normal Invert	היפוך נורמל
+	Normal map combine	שילוב מפות נורמל
+	Normal map detail	פרטים במפת נורמל
+	Normal map inverse detail	פרטים הפוכים במפת נורמל
+	Normal OpenGL	מפת נורמל OpenGL
+	Only Same Mesh Name	רק רשתות בעלות אותו שם
+	Orthographic	אורתוגרפי
+	Output directory	תיקיית פלט
+	Output high	גבול פלט עליון
+	Output low	גבול פלט תחתון
+	Output Size	גודל פלט
+	Overlay	שכבת־על
+	Paint Cage	צביעת כלוב
+	Paint on the mesh to edit the layer content.	צבע על הרשת כדי לערוך את תוכן השכבה.
+	Paint on the mesh to edit this mask. Use the Material tab's mask value for gray.	צבע על הרשת כדי לערוך את המסכה. השתמש בערך המסכה בלשונית החומר עבור אפור.
+	Painting is paused while a bake is shown. Cancel the bake or wait for it to finish.	הצביעה מושהית בזמן הצגת האפייה. בטל את האפייה או המתן לסיומה.
+	Parallax occlusion (height channel)	הסתרה לפי פרלקסה (ערוץ גובה)
+	Partial mask values follow the layer's height: high parts show first	ערכי מסכה חלקיים מושפעים מגובה השכבה: החלקים הגבוהים נחשפים ראשונים
+	Path trace on the processor instead of the graphics card (slower)	עקיבת נתיבים במעבד במקום בכרטיס הגרפי (איטית יותר)
+	Pattern scale	קנה מידה לתבנית
+	Perlin noise	רעש פרלין
+	Perspective	פרספקטיבה
+	Position gradient	מעבר צבע לפי מיקום
+	Posterize	צמצום דרגות הצבע
+	Press a key...	הקש על מקש...
+	Project	פרויקט
+	Quit	יציאה
+	Re-cook	חשב מחדש
+	Relative to Low Mesh	ביחס לרשת דלת מצולעים
+	Remove Cage	הסרת כלוב
+	RENDERING	מרנדר
+	Rendering (path traced)	רינדור (עקיבת נתיבים)
+	Report a bug...	דיווח על תקלה...
+	Restore Defaults	שחזור ברירות מחדל
+	Samples	דגימות
+	Sampling Radius	רדיוס דגימה
+	Saturation	רוויה
+	Saving UI layouts to files is available in the desktop app	שמירת פריסות ממשק לקבצים זמינה ביישום למחשב
+	Seams Intensity	עוצמת התפרים
+	Search commands or keys	חיפוש פקודות או קיצורי מקלדת
+	Sharpen	חידוד
+	Show at startup	הצג בעת ההפעלה
+	Show for Selected Texture Set Only	הצג רק עבור ערכת הטקסטורות שנבחרה
+	Show or hide texture sets	הצג או הסתר ערכות טקסטורות
+	Show or hide the texture set	הצג או הסתר את ערכת הטקסטורות
+	Show plane	הצג מישור
+	Size jitter	שונות בגודל
+	Skew Correction	תיקון הטיה
+	Skew Correction Method	שיטת תיקון הטיה
+	Softness	רכות
+	Spray	ריסוס
+	Strength	עוצמה
+	System title bar (applies on restart)	שורת כותרת של המערכת (יחול לאחר הפעלה מחדש)
+	Texture sets	ערכות טקסטורות
+	TextureCraft had to close:	TextureCraft נאלצה להיסגר:
+	TextureCraft project	פרויקט TextureCraft
+	TextureCraft project or mesh	פרויקט או רשת של TextureCraft
+	Textures	טקסטורות
+	The bake worker stopped	תהליך האפייה נעצר
+	The eraser removes paint from the enabled channels.	המחק מסיר צבע מהערוצים הפעילים.
+	The file dialog couldn't be shown: {error}	לא ניתן להציג את חלונית הקבצים: {error}
+	The project changed while the dialog was open, so nothing was done	הפרויקט השתנה בזמן שהחלונית הייתה פתוחה, ולכן לא בוצעה פעולה
+	The resize worker stopped	תהליך שינוי הגודל נעצר
+	Threshold	סף
+	Tolerance	סבילות
+	UI layout	פריסת ממשק
+	UI layout: {error}	פריסת הממשק: {error}
+	UI layouts	פריסות ממשק
+	UV tile {tile} resolution	רזולוציית אריח UV {tile}
+	Version: {version} ({gpu})	גרסה: {version} ({gpu})
+	Warp	עיוות מרחבי
+	World Space Normal	נורמל במרחב העולם
+	{action} (undone)	בוטל: {action}
+	{n} items share a shortcut; the first one listed wins.	ל־{n} פריטים אותו קיצור; הפריט הראשון ברשימה יקבל עדיפות.
+	0 turns autosave off. Copies go to {folder}	0 משבית שמירה אוטומטית. עותקים נשמרים בתיקייה {folder}
+	2D view only	תצוגת דו־ממד בלבד
+	3D mesh	רשת תלת־ממדית
+	3D meshes	רשתות תלת־ממדיות
+	3D texture painting: layers, masks, smart materials, mesh map baking and export.	צביעת טקסטורות בתלת־ממד: שכבות, מסכות, חומרים חכמים, אפיית מפות רשת וייצוא.
+	3D view only	תצוגת תלת־ממד בלבד
+	3D/2D views	תצוגות תלת־ממד ודו־ממד
+	a missing layer	שכבה חסרה
+	About TextureCraft	אודות TextureCraft
+	About TextureCraft...	אודות TextureCraft...
+	Add anchor point	הוספת נקודת עיגון
+	Add as decal (view center)	הוספה כמדבקה (מרכז התצוגה)
+	Add black mask	הוסף מסכה שחורה
+	Add channel	הוסף ערוץ
+	Add color	הוסף צבע
+	Add compare mask	הוסף מסכת השוואה
+	Add effect	הוסף אפקט
+	Add fill	הוסף מילוי
+	Add fill layer	הוסף שכבת מילוי
+	Add filter	הוסף מסנן
+	Add folder	הוסף תיקייה
+	Add generator	הוסף מחולל
+	Add High-Poly Meshes	הוסף רשתות עתירות מצולעים
+	Add levels	הוסף רמות
+	Add mask	הוסף מסכה
+	Add mask with color selection	הוסף מסכה לפי בחירת צבע
+	Add output	הוסף פלט
+	Add paint	הוסף צביעה
+	Add paint layer	הוסף שכבת צביעה
+	Add smart material from the shelf	הוסף חומר חכם מהמדף
+	Add to the layer content	הוסף לתוכן השכבה
+	Add to the mask	הוסף למסכה
+	Add white mask	הוסף מסכה לבנה
+	Add...	הוסף...
+	Advanced settings	הגדרות מתקדמות
+	All layers	כל השכבות
+	Alpha	אלפא
+	Alphas	תבניות אלפא
+	Also bound to {item} ({menu})	משויך גם אל {item} ({menu})
+	Ambient	סביבתי
+	Ambient occlusion	חסימת אור סביבתית
+	Ambient Occlusion	חסימת אור סביבתית
+	Angle (degrees)	זווית (מעלות)
+	Angle fade from	תחילת דעיכה לפי זווית
+	Angle fade to	סיום דעיכה לפי זווית
+	Angle jitter	שונות בזווית
+	Angle span	טווח זוויות
+	Anisotropy angle	זווית אנאיזוטרופיה
+	Anisotropy level	רמת אנאיזוטרופיה
+	Antialiasing	החלקת קצוות
+	AO intensity	עוצמת הסתרה סביבתית
+	Aperture	מפתח צמצם
+	Apply Diffusion	החל דיפוזיה
+	Assets	נכסים
+	Auto Tonemapping	מיפוי טונים אוטומטי
+	Automatic (from the mesh UVs)	אוטומטי (לפי UV של הרשת)
+	Autosave every	שמירה אוטומטית בכל
+	Average Normals	נורמלים ממוצעים
+	Axis	ציר
+	Axis position	מיקום הציר
+	Back to painting	חזרה לצביעה
+	Backface culling	הסתרת פאות אחוריות
+	Bake mesh maps	אפיית מפות רשת
+	Bake Mesh Maps	אפיית מפות רשת
+	Bake Selected Textures ({n})	אפיית הטקסטורות שנבחרו ({n})
+	Baked Lighting	תאורה אפויה
+	Baked maps imported: {count}	יובאו מפות אפויות: {count}
+	Baking	אפייה
+	Baking Visualization	המחשת אפייה
+	Base color	צבע בסיס
+	Based on each texture set's size	לפי גודל כל סט הטקסטורות
+	Basic settings	הגדרות בסיסיות
+	Bent Normals	נורמלים מעוקמים
+	Bevel	שיפוע
+	Blending	מיזוג
+	Blending mode of the displayed channel	מצב מיזוג של הערוץ המוצג
+	Blur	טשטוש
+	Blur and sharpen	טשטוש וחידוד
+	Blur Directional	טשטוש כיווני
+	Bounces	החזרי אור
+	Bricks	לבנים
+	Brush	מברשת
+	Brush name	שם מברשת
+	Brush size	גודל מברשת
+	Brush size down / up	הקטן / הגדל גודל מברשת
+	Brushed lines	קווים מוברשים
+	Brushes	מברשות
+	Built-in (read-only): duplicate it to edit	מובנה (לקריאה בלבד): שכפל כדי לערוך
+	Built-in templates are read-only: duplicate one to edit it	תבניות מובנות הן לקריאה בלבד: שכפל תבנית כדי לערוך אותה
+	Built-in: {mesh}	מובנה: {mesh}
+	By Mesh Name	לפי שם הרשת
+	Camera	מצלמה
+	Camera settings	הגדרות מצלמה
+	Cancel the stroke	בטל את קו המברשת
+	Channel	ערוץ
+	Channels	ערוצים
+	Clear mask	נקה מסכה
+	Clear recent projects	ניקוי רשימת הפרויקטים האחרונים
+	Click the mesh to place the decal	לחץ על הרשת כדי למקם את המדבקה
+	Clone	שכפול
+	Coat normal	נורמל שכבת הציפוי
+	coat rough	חספוס שכבת הציפוי
+	Coat roughness	חספוס שכבת הציפוי
+	Color Balance	איזון צבעים
+	Color burn	צריבת צבע
+	Color dodge	הבהרת צבע
+	Color Generator	מחולל צבע
+	Color picker	בוחר צבעים
+	Color selection	בחירת צבע
+	Color Source	מקור הצבע
+	Color space	מרחב צבע
+	Combine with the layer's height	שלב עם גובה השכבה
+	Common Settings	הגדרות משותפות
+	Compare mask	מסכת השוואה
+	Content effects	אפקטים של התוכן
+	Converted maps	מפות שהומרו
+	Copy effect	העתק אפקט
+	Copy layer(s)	העתק שכבה/שכבות
+	Copy to all texture sets	העתק לכל סטי הטקסטורות
+	Copy what the texture set shows	העתק את מה שסט הטקסטורות מציג
+	Couldn't encode the render	לא ניתן לקודד את תוצאת הרינדור
+	Couldn't export textures: {error}	לא ניתן לייצא טקסטורות: {error}
+	Couldn't export the mesh: {error}	לא ניתן לייצא את הרשת: {error}
+	Couldn't export the template: {error}	לא ניתן לייצא את התבנית: {error}
+	Couldn't import {name}: {error}	לא ניתן לייבא את {name}: {error}
+	Couldn't open {name}: {error}	לא ניתן לפתוח את {name}: {error}
+	Couldn't read the render back from the GPU	לא ניתן לקרוא את תוצאת הרינדור בחזרה מה־GPU
+	Couldn't save {name}: {error}	לא ניתן לשמור את {name}: {error}
+	Couldn't save the render: {error}	לא ניתן לשמור את תוצאת הרינדור: {error}
+	Create smart material	צור חומר חכם
+	Current layer	השכבה הנוכחית
+	Cut effect	גזור אפקט
+	Cut layer(s)	גזור שכבה/שכבות
+	Cylindrical projection	הקרנה גלילית
+	Decal projection	הקרנת מדבקה
+	Default camera	מצלמת ברירת המחדל
+	Delete the selected template	מחיקת התבנית שנבחרה
+	Delete this camera	מחיקת המצלמה הזו
+	Deleted template "{name}"	התבנית "{name}" נמחקה
+	Details saved to {file}	הפרטים נשמרו ב־{file}
+	DirectX normal map	מפת נורמל מסוג DirectX
+	Displacement (height channel)	תזוזה (ערוץ גובה)
+	Display material	הצג חומר
+	Display next channel	הצג את הערוץ הבא
+	Display next mesh map	הצג את מפת הרשת הבאה
+	Display previous channel	הצג את הערוץ הקודם
+	Display previous mesh map	הצג את מפת הרשת הקודמת
+	Display Settings	הגדרות תצוגה
+	Document resolution	רזולוציית המסמך
+	Documentation...	תיעוד...
+	Don't save	לא לשמור
+	Drag onto an output channel	גרור אל ערוץ פלט
+	Duplicate effect	שכפל אפקט
+	Duplicate layer(s)	שכפל שכבה/שכבות
+	Duplicate the selected template	שכפול התבנית שנבחרה
+	Edit keyboard shortcuts...	עריכת קיצורי מקלדת...
+	Edit quick mask	ערוך מסכה מהירה
+	Enable or disable the effect	הפעל או כבה את האפקט
+	Enable quick mask	הפעל מסכה מהירה
+	Enable Seams	הפעלת תפרי UV
+	Environment blur	טשטוש הסביבה
+	Environment map	מפת סביבה
+	Environment opacity	אטימות הסביבה
+	Environment settings	הגדרות סביבה
+	Export mesh	ייצוא רשת
+	Export Mesh...	ייצוא רשת...
+	Export template	ייצא תבנית
+	Export templates	ייצא תבניות
+	Export textures	ייצוא טקסטורות
+	Export Textures...	ייצוא טקסטורות...
+	Export the selected template (.json)	ייצא את התבנית הנבחרת (.json)
+	Exported mesh to {path}	הרשת יוצאה אל {path}
+	Face Normals Based	מבוסס נורמלים של פאות
+	Field of view (deg)	שדה ראייה (מעלות)
+	Fill layer	שכבת מילוי
+	Fill mode	מצב מילוי
+	Fill only polygons the camera sees (3D view)	מלא רק מצולעים שהמצלמה רואה (תצוגה תלת־ממדית)
+	Fill the closed path (lasso)	מלא את הנתיב הסגור (לאסו)
+	Fill the path (close it first)	מלא את הנתיב (סגור אותו קודם)
+	Filter	מסנן
+	Filters	מסננים
+	Flatten layer	שיטוח שכבה
+	Flow and opacity	זרימה ואטימות
+	Focus distance	מרחק מיקוד
+	From template	מתוך תבנית
+	From template / project	מתוך תבנית / פרויקט
+	General export parameters	פרמטרים כלליים לייצוא
+	Generate from Mesh	יצירה מתוך רשת
+	Generate from Normal Map	יצירה מתוך מפת נורמל
+	Generator	מחולל
+	Geometry and UVs only	גאומטריה ו־UV בלבד
+	GPU error: {error}	שגיאת GPU: {error}
+	Group layer(s)	קיבוץ שכבות
+	Hide all	הסתר הכול
+	Hide UI	הסתר את הממשק
+	Hide while painting	הסתר בזמן צביעה
+	High Definition Mesh (HP)	רשת ברזולוציה גבוהה (HP)
+	High Poly Mesh Suffix	סיומת לרשת עתירת מצולעים
+	High-Poly Parameters	פרמטרים לרשת עתירת מצולעים
+	Import a template (.json)	ייבוא תבנית (.json)
+	Import baked maps	ייבוא מפות אפויות
+	Import HDR...	ייבוא HDR...
+	Import material...	ייבוא חומר...
+	Import MaterialX material...	ייבוא חומר MaterialX...
+	Import resources...	ייבוא משאבים...
+	Import...	ייבוא...
+	Imported {name}	יובא {name}
+	Imported template "{name}"	התבנית "{name}" יובאה
+	Include in Bake	כלול באפייה
+	Input maps	מפות קלט
+	Invert mask	הפוך מסכה
+	Invert show/hide	הפוך מצב הצגה והסתרה
+	Keyboard shortcuts	קיצורי מקלדת
+	Layer mask	מסכת שכבה
+	Low Poly Mesh Suffix	סיומת לרשת דלת מצולעים
+	Material	חומר
+	Material finish	גימור החומר
+	Materials	חומרים
+	Max project size on open	גודל פרויקט מרבי בפתיחה
+	Mesh Map Bakers	כלי אפיית מפות רשת
+	Mesh Map Settings	הגדרות מפות רשת
+	Mesh map: {map}	מפת רשת: {map}
+	Mesh maps	מפות רשת
+	Mesh maps baked	מפות הרשת נאפו
+	Meshes	רשתות
+	Missing (bake to create)	חסר (יש לאפות כדי ליצור)
+	My smart materials	החומרים החכמים שלי
+	New project...	פרויקט חדש...
+	New template	תבנית חדשה
+	No GPU renderer available	אין מנוע רינדור זמין ב־GPU
+	No recent projects yet	אין פרויקטים אחרונים
+	Normal map format	פורמט מפת נורמל
+	Not exported: no source in this texture set	לא בוצע ייצוא: אין מקור בערכת הטקסטורות הזו
+	Not imported: {files}	לא יובאו: {files}
+	Not saved: {error}	לא נשמר: {error}
+	Open...	פתיחה...
+	Output template	תבנית פלט
+	Output templates	תבניות פלט
+	Overlay opacity	אטימות שכבת־העל
+	Paint	ציור
+	Paint layer	שכבת צביעה
+	Painting	צביעה
+	Pan	הזזת התצוגה
+	Paste layer(s)	הדבקת שכבות
+	Pick color	דגימת צבע
+	Pick focus in the viewport	בחירת מוקד באזור התצוגה
+	Planar projection	הקרנה מישורית
+	Polygon fill	מילוי מצולע
+	Preset	הגדרה קבועה מראש
+	Project Configuration...	הגדרות פרויקט...
+	Project opened	הפרויקט נפתח
+	Project template	תבנית פרויקט
+	Projection	הקרנה
+	Projects and meshes	פרויקטים ורשתות
+	Quick mask	מסכה מהירה
+	Recent projects	פרויקטים אחרונים
+	Rectangle fill	מילוי מלבן
+	Reimport mesh	ייבוא הרשת מחדש
+	Remove channel	הסרת ערוץ
+	Remove layer	הסר שכבה
+	Remove layer(s)	הסר שכבות
+	Remove mask	הסר מסכה
+	Remove resource	הסרת משאב
+	Remove the shortcut	הסרת הקיצור
+	Remove unused resources...	הסרת משאבים שאינם בשימוש...
+	Rename the selected template	שינוי שם התבנית שנבחרה
+	Render on the CPU	רינדור במעבד (CPU)
+	Rendering	רינדור
+	Rendering on CPU: {n} / {max} samples, {s} s	רינדור במעבד: {n} מתוך {max} דגימות, {s} שנ׳
+	Rendering on GPU: {n} / {max} samples, {s} s	רינדור במעבד הגרפי: {n} מתוך {max} דגימות, {s} שנ׳
+	Replace Color	החלפת צבע
+	Replacement color	צבע חלופי
+	Rescan the library folder	סריקה מחדש של תיקיית הספרייה
+	Reset all	איפוס הכול
+	Reset to {shortcut}	איפוס ל־{shortcut}
+	Reset to defaults	איפוס לברירות המחדל
+	Reset UI	איפוס הממשק
+	Restore every default shortcut	שחזור כל קיצורי ברירת המחדל
+	Save a copy...	שמירת עותק...
+	Save as...	שמירה בשם...
+	Save current brush	שמירת המברשת הנוכחית
+	Save current layout...	שמירת פריסת הממשק הנוכחית...
+	Save current project as template	שמירת הפרויקט הנוכחי כתבנית
+	Save render...	שמירת הרינדור...
+	Save the changes to {name} before closing?	לשמור את השינויים ב־{name} לפני הסגירה?
+	Save the changes to {name} first?	האם לשמור תחילה את השינויים ב־{name}?
+	Save UI Layout	שמירת פריסת הממשק
+	Save view as camera	שמירת התצוגה כמצלמה
+	Saved {path}	נשמר: {path}
+	Saved UI layout {path}	פריסת הממשק נשמרה ב־{path}
+	Scatter color	פיזור צבע
+	Screenshot of the viewport	צילום אזור התצוגה
+	Search all assets	חיפוש בכל הנכסים
+	Select a layer	בחר שכבה
+	Select an output template	בחירת תבנית פלט
+	Select the layer content	בחר את תוכן השכבה
+	Selection mode	מצב בחירה
+	Settings...	הגדרות...
+	Shader Settings	הגדרות הצללה
+	Shortcuts list...	רשימת קיצורים...
+	Show all	הצג הכול
+	Show axis	הצג ציר
+	Show cursor	הצג סמן
+	Show entire mesh	הצג את כל הרשת
+	Show log...	הצגת יומן...
+	Show or hide the layer	הצג או הסתר את השכבה
+	Show UV wireframe in the 2D view	הצג קווי רשת UV בתצוגת דו־ממד
+	Show wireframe in the 3D view	הצג קווי רשת בתצוגת תלת־ממד
+	Smart material saved to {path}	החומר החכם נשמר ב־{path}
+	Smart materials	חומרים חכמים
+	Smudge	מריחה
+	Spherical projection	הקרנה כדורית
+	Starting render...	הרינדור מתחיל...
+	Stroke opacity	אטימות משיכת המכחול
+	Symmetry settings	הגדרות סימטריה
+	Template name	שם התבנית
+	Texture resolution	רזולוציית טקסטורה
+	Texture set channels	ערוצי ערכת הטקסטורות
+	Texture set resolution	רזולוציית ערכת הטקסטורות
+	Texture Set Settings	הגדרות ערכת טקסטורות
+	Texture Sets	ערכות טקסטורות
+	The GPU couldn't render this scene: {error}	לא ניתן לרנדר את הסצנה באמצעות GPU: {error}
+	Tone mapping	מיפוי גוונים
+	Tri-planar projection	הקרנה תלת־מישורית
+	Unsaved changes	שינויים שלא נשמרו
+	UV checker	תבנית בדיקת UV
+	UV island fill	מילוי אי UV
+	UV projection	הקרנת UV
+	UV Seams	תפרי UV
+	UV tiles	אריחי UV
+	UV tiles (UDIM)	אריחי UV (UDIM)
+	UV transformations	טרנספורמציות UV
+	Viewer settings	הגדרות המציג
+	Viewport	אזור תצוגה
+	Views	תצוגות

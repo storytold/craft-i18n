@@ -310,3 +310,88 @@ Synced from `photocraft@7c64653` to `photocraft@2772ac1` with
 ## TextureCraft initial migration
 
 The `texturecraft.tsv` catalogs for ar, de, es, fr, it, ja, ko, pt-br and zh-hans were migrated from [TextureCraft `21856d778347e13857f65c8f1107170797bd070f`](https://github.com/storytold/texturecraft/tree/21856d778347e13857f65c8f1107170797bd070f/crates/ui-egui/src/i18n), MIT OR Apache-2.0. Original wording and contributor credits remain in the upstream history. Migration tooling was AI-assisted; no new translations were authored and no additional native-speaker review was performed. Every original row was checked against the resolved app and shared catalogs. Tracked in storytold/texturecraft#419.
+
+## TextureCraft: Hebrew draft (ArtCraft localization, 12 November 2026)
+
+The initial Hebrew catalog locales/he/texturecraft.tsv is an AI-assisted,
+clean-room draft using a 100-key source-linked English terminology seed from
+a separately verified Claude Code contribution (Kaneo task #62), with 9
+previously curated Hebrew TextureCraft translations preserved. Two terms
+(Export, Fill) already have identical Hebrew values in shared he/common.tsv,
+leaving 98 app-specific rows. The sources are the original English keys in
+TextureCraft, not translations from other software or the Arabic catalog.
+Source-key, placeholder, Unicode and TSV tests were performed; native
+speaker and maintainer review, Native GUI RTL QA and release approval pending.
+
+## TextureCraft: 41 reconciled additional Hebrew quick wins (12 November 2026)
+
+VelvetOS ArtCraft Hebrew Localization reconciled a separate 28-row draft against
+an independently source-verified DAY-06 98-row TextureCraft Hebrew catalog.
+Fifteen duplicate English keys were not added again; original DAY-06 wording
+was retained for their overlaps (including ten differing but plausible
+translations). Thirteen unique prior-draft rows and 28 new English-keyed
+TextureCraft interface labels were added, for 139 app-specific rows total.
+Scope: 2D/3D views, layer and generator actions, baking progress, geometry,
+materials, UI settings and parameterized status messages. The English keys were
+checked against the existing source-linked TextureCraft export catalog. Original
+Hebrew wording was created from English semantics, without copying localization
+files from third-party products. Translation drafting and reconciliation were
+AI-assisted; no independent native-speaker review, Hebrew GUI screenshot, full
+application build, maintainer acceptance or release is claimed.
+
+## TextureCraft: third Hebrew quick-wins contribution (12 November 2026)
+
+VelvetOS ArtCraft Hebrew Localization contributed 60 more original Hebrew
+translations to `locales/he/texturecraft.tsv`, taking the app-specific catalog
+from 139 to 199 unique English-keyed rows. The new labels cover five coherent
+high-use workflows: project open/save and unsaved-change prompts (14),
+import/export and file errors (12), layer/mask commands (12), rendering and GPU
+status/errors (12), and project/texture/UI settings (10). All 60 source keys were
+checked against official `storytold/texturecraft` Rust sources at
+`42c8ea5b3c3a4cabdda03f535355cd61ac756479` and the migrated English-key
+inventory. Existing 139 translations, including earlier curated wording,
+remain unchanged. Five new focused regression cases and checks for accidental
+BiDi control characters protect Unicode and parameterized error/status strings.
+AI-assisted drafting from original English meaning only; no external product's
+translation table was consulted or copied. Native-speaker review, real Native
+Hebrew GUI/RTL readback, and maintainer acceptance are still required.
+
+## TextureCraft: fourth Hebrew quick-wins contribution (12 November 2026)
+
+VelvetOS ArtCraft Hebrew Localization added 138 independently authored Hebrew
+translations for actual English TextureCraft UI strings, increasing
+`locales/he/texturecraft.tsv` from 199 to 337 app-specific rows. Five
+source-verified groups: viewport/camera and navigation (26), painting/color and
+materials (30), UV/mesh work (32), assets/templates (22), and settings, keyboard
+shortcuts and status messages (28). Source strings were checked against the
+existing migrated English-key catalog and the official TextureCraft Rust source
+checkout at `42c8ea5b3c3a4cabdda03f535355cd61ac756479`, including quoted
+strings and app-level messages. Previously translated entries and all nine
+earlier curated terms remain unchanged. This contribution also extends the
+focused regression suite by five tests (15 total), covering 40 representative
+new labels, placeholders, direct Hebrew catalog resolution and Unicode checks.
+Translations were AI-assisted and independently drafted from English meaning
+without copying any other product's translation catalog. No additional
+native-speaker proofreading, native Hebrew GUI/RTL run, app pin update,
+installed binary, maintainer acceptance or release is claimed.
+
+## TextureCraft: fifth Hebrew quick-wins contribution (12 November 2026)
+
+VelvetOS ArtCraft Hebrew Localization authored an additional 190 Hebrew user-interface
+translations for currently present TextureCraft Rust source strings, taking the
+app-specific `locales/he/texturecraft.tsv` catalog from 337 to 527 distinct rows.
+The work covers five practical areas: layer and mask editing (33), painting,
+colors and effects (42), mesh baking and normals (42), file/setup/preferences
+(43), and rendering/status feedback (30). Every new source key was checked
+against the migrated TextureCraft catalog and the original application Rust
+source at `42c8ea5b3c3a4cabdda03f535355cd61ac756479`. One unused migrated
+catalog label was excluded rather than counted; a stray BiDi mark in the draft
+was removed. Previously delivered 337 values, including nine early curated
+Hebrew strings, are preserved unchanged. The focused source-linked regression
+suite was extended by five cases, from 15 to 20 tests.
+
+This is AI-assisted, clean-room translation authored from original English
+meaning without copying translation catalogs of other products. A native
+Hebrew speaker has not independently proofread these new strings; no native
+TextureCraft GUI, locale-picker integration, compiled/installed release,
+Hebrew RTL visual QA, maintainer merge or release is claimed.
