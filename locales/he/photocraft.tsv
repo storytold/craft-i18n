@@ -16,7 +16,7 @@
 	(No neutral color exists for {mode} mode.)	(אין צבע נייטרלי למצב {mode}.)
 	(print to the printer)	(הדפסה למדפסת)
 	+ Add variable	+ הוסף משתנה
-	0 turns this threshold off; SVG groups nested deeper than 100 levels are always rasterized.	0 מכבה את הסף הזה; קבוצות SVG מקוננות עמוק מ-100 רמות מרוסטרות תמיד.
+	0 turns this threshold off; SVG groups nested deeper than 100 levels are always rasterized.	הערך 0 משבית סף זה; קבוצות SVG המקוננות בעומק העולה על 100 רמות מומרות תמיד לרסטר.
 	10 fps	10 fps
 	100%	100%
 	101 by 101 Average	ממוצע 101 על 101
@@ -33,8 +33,8 @@
 	16 Bits/Channel	16 סיביות/ערוץ
 	175%	175%
 	180°	180°
-	2-up Horizontal	שתי תמונות אופקית
-	2-up Vertical	שתי תמונות אנכית
+	2-up Horizontal	שתי תצוגות בפריסה אופקית
+	2-up Vertical	שתי תצוגות בפריסה אנכית
 	200%	200%
 	24 bits/pixel	24 סיביות/פיקסל
 	24 fps	24 fps
@@ -42,9 +42,9 @@
 	250%	250%
 	3 by 3 Average	ממוצע 3 על 3
 	3 x 3	3 x 3
-	3-up Horizontal	שלוש תמונות אופקית
+	3-up Horizontal	שלוש תצוגות בפריסה אופקית
 	3-up Stacked	שלוש תמונות בערימה
-	3-up Vertical	שלוש תמונות אנכית
+	3-up Vertical	שלוש תצוגות בפריסה אנכית
 	30 fps	30 fps
 	30 frames @ 30 fps	30 פריימים ב-30 fps
 	300%	300%
@@ -109,7 +109,7 @@
 	Add a layer style	הוסף סגנון שכבה
 	Add a mask  (from the selection; {key} inverts)	הוסף מסכה  (מהבחירה; {key} הופך)
 	Add a mask  (from the selection; ⌥ inverts)	הוסף מסכה  (מהבחירה; ⌥ הופך)
-	Add an adjustment	הוסף התאמה
+	Add an adjustment	הוסף שכבת התאמה
 	Add Anchor Point Tool	כלי הוספת נקודת עוגן
 	Add beauty precomp from the AOVs	הוסף הרכבה (beauty) מראש מתוך AOVs
 	Add disk	הוסף דיסק
@@ -174,8 +174,8 @@
 	AI Integrations…	שילובי בינה מלאכותית…
 	Airbrush: keeps depositing paint while the pointer rests.	אירוגרף: ממשיך להפקיד צבע כל עוד המצביע נשאר במקום.
 	Airbrush: keeps painting while the pointer rests.	אירוגרף: ממשיך לצבוע כל עוד המצביע נשאר במקום.
-	Align and Distribute	יישור וחלוקה
-	Align and distribute	יישור וחלוקה
+	Align and Distribute	יישור ופיזור
+	Align and distribute	יישור ופיזור
 	Align horizontal centers	יישר מרכזים אופקיים
 	Align left edges	יישר קצוות שמאליים
 	Align right edges	יישר קצוות ימניים
@@ -248,14 +248,14 @@ cameraRaw	Amount	מידה
 	Apply Data Set…	החל ערכת נתונים…
 	Apply Image	החל תמונה
 	Apply Image…	החל תמונה…
-	Apply Layer Comp	החל קומפ שכבות
+	Apply Layer Comp	החל תצורת שכבות
 	Apply Layer Mask	החל מסכת שכבה
 	Apply Mask	החל מסכה
 	Apply mask to layer before removing?	להחיל את המסכה על השכבה לפני ההסרה?
-	Apply next selected layer comp	החל את קומפ השכבות הנבחר הבא
+	Apply next selected layer comp	החל את תצורת השכבות הנבחרת הבאה
 	Apply Per Tip	החל על כל קצה
-	Apply previous selected layer comp	החל את קומפ השכבות הנבחר הקודם
-	Apply the pen's tilt and rotation to the tip shape	החל את הטיית העט והסיבוב שלו על צורת הקצה
+	Apply previous selected layer comp	החל את תצורת השכבות הנבחרת הקודמת
+	Apply the pen's tilt and rotation to the tip shape	החל את הטיית העט וסיבובו על צורת קצה המברשת
 	Apply the removal ({key})	החל את ההסרה ({key})
 	Apply to All	החל על הכול
 	Apply Vanishing Point ({key})	החל נקודת היעלמות ({key})
@@ -409,7 +409,7 @@ fontWeight	Black	שחור
 	Black & White…	שחור ולבן…
 	Black Clip	גזירת שחור
 	Black Intensity	עוצמת שחור
-	Black Matte	מסגרת שחורה
+	Black Matte	תצוגה על רקע שחור
 	Black Point Compensation	פיצוי נקודה שחורה
 	Black, White	שחור, לבן
 	Blackletter	בלאקלטר (Blackletter)
@@ -420,7 +420,7 @@ cameraRaw	Blacks	שחורים
 	Blast	התפוצצות
 	Bleach Bypass	דילוג הלבנה (Bleach Bypass)
 	Blend	מיזוג
-	Blend Clipped Layers as Group	מזג שכבות גזורות כקבוצה
+	Blend Clipped Layers as Group	מזג שכבות עם מסכת גזירה כקבוצה
 	Blend If	מיזוג אם (Blend If)
 	Blend If:	מיזוג אם:
 	Blend Interior Effects as Group	מזג אפקטים פנימיים כקבוצה
@@ -493,7 +493,7 @@ fontWeight	Bold	מודגש
 	Brush Preset picker	בוחר ערכת מברשת
 	Brush Preview	תצוגה מקדימה של מברשת
 	Brush preview color	צבע תצוגה מקדימה של מברשת
-	Brush Projection	הטלת מברשת
+	Brush Projection	הקרנת קצה המברשת
 	Brush Reconstruct Options	אפשרויות שחזור מברשת
 	Brush Settings	הגדרות מברשת
 	Brush Settings…  (F5): every option of this brush	הגדרות מברשת…  ‏(F5): כל אפשרות של מברשת זו
@@ -659,7 +659,7 @@ fontWeight	Bold	מודגש
 	Click to fill similar colours	לחץ כדי למלא צבעים דומים
 	Click to pick · Esc to cancel	לחץ לבחירה · Esc לביטול
 	Click to place · Alt-click or drag off-canvas to remove	לחץ להצבה · Alt-לחיצה או גרירה מחוץ לקנבס להסרה
-	Click to refresh histogram with uncached data	לחץ לרענון ההיסטוגרמה עם נתונים לא ממוטמנים
+	Click to refresh histogram with uncached data	לחץ כדי לרענן את ההיסטוגרמה ללא שימוש בנתוני מטמון
 	Click to restore the current colour	לחץ לשחזור הצבע הנוכחי
 	Click to sample the foreground colour  ·  {key}-click for background	לחץ כדי לדגום את צבע החזית  ·  {key}-לחיצה לרקע
 	Click to zoom in  ·  {key}-click to zoom out  ·  drag right/left to zoom in/out	לחץ להגדלה  ·  {key}-לחיצה להקטנה  ·  גרור ימינה/שמאלה להגדלה/הקטנה
@@ -734,10 +734,10 @@ cameraRaw	Color Grading	דירוג צבע
 	Color Indicates Masked Areas	הצבע מציין אזורים ממוסכים
 	Color Indicates Selected Areas	הצבע מציין אזורים נבחרים
 	Color Indicates:	הצבע מציין:
-	Color Lookup	חיפוש צבע
-	Color Lookup Tables	טבלאות חיפוש צבע
-	Color Lookup Tables…	טבלאות חיפוש צבע…
-	Color Lookup…	חיפוש צבע…
+	Color Lookup	מיפוי צבעים
+	Color Lookup Tables	טבלאות מיפוי צבעים
+	Color Lookup Tables…	טבלאות מיפוי צבעים…
+	Color Lookup…	מיפוי צבעים…
 	Color Management	ניהול צבע
 	Color Management Policies	מדיניות ניהול צבע
 	Color management: {error}	ניהול צבע: {error}
@@ -821,7 +821,7 @@ cameraRaw	Color Grading	דירוג צבע
 	Contact Sheet II…	גיליון מגע II…
 	Content-Aware	מודע לתוכן
 	Content-Aware Fill	מילוי מודע לתוכן
-	Content-aware fill	מילוי לפי תוכן
+	Content-aware fill	מילוי מודע לתוכן
 	Content-Aware Fill needs a selection on a pixel layer	מילוי מודע לתוכן דורש בחירה בשכבת פיקסלים
 	Content-Aware Fill…	מילוי מודע לתוכן…
 	Content-Aware Move	הזזה מודעת לתוכן
@@ -945,7 +945,7 @@ cameraRaw	Color Grading	דירוג צבע
 	Create new gradient	צור מעבר צבעים חדש
 	Create new group	צור קבוצה חדשה
 	Create new layer	צור שכבה חדשה
-	Create new layer comp	צור קומפ שכבות חדש
+	Create new layer comp	צור תצורת שכבות חדשה
 	Create new path	צור נתיב חדש
 	Create new pattern from the selection	צור תבנית חדשה מהבחירה
 	Create new set	צור קבוצה חדשה
@@ -1121,7 +1121,7 @@ cameraData	Date Taken	תאריך צילום
 	Delete Group	מחק קבוצה
 	Delete Layer	מחק שכבה
 	Delete layer	מחק שכבה
-	Delete layer comp	מחק קומפ שכבות
+	Delete layer comp	מחק תצורת שכבות
 	Delete Layer Mask	מחק מסכת שכבה
 	Delete layer ‘{name}’?	למחוק את השכבה '{name}'?
 	Delete layer?	למחוק שכבה?
@@ -1160,7 +1160,7 @@ cameraData	Date Taken	תאריך צילום
 	Desaturate Monitor Colors By	הפחת רוויית צבעי הצג ב-
 	Description	תיאור
 	Deselect	בטל בחירה
-	Deselect All	בטל בחירת הכול
+	Deselect All	בטל את כל הבחירות
 	Deselect Layers	בטל בחירת שכבות
 	Despeckle	הסר נקודות
 	Destination	יעד
@@ -1212,12 +1212,12 @@ cameraData	Date Taken	תאריך צילום
 	Display Text	הצג טקסט
 	Display-p3	Display P3
 	Displays pop-up help for the fill methods	מציג עזרה קופצת על שיטות המילוי
-	Dissolve	פירוק (Dissolve)
-	Dissolve is approximated: it blends without Photoshop's dither.	פירוק (Dissolve) מקורב: הוא ממזג בלי הדיתור של Photoshop.
+	Dissolve	התמוססות (Dissolve)
+	Dissolve is approximated: it blends without Photoshop's dither.	מצב התמוססות (Dissolve) מחושב בקירוב: המיזוג אינו כולל את הדיתור של Photoshop.
 	Distance	מרחק
 	Distort	עיוות
 	Distortion	עיוות
-	Distribute	חלוקה
+	Distribute	פיזור
 	Distribution	התפלגות
 	Dither	דיתור (Dither)
 	Divide	חלוקה
@@ -1275,9 +1275,9 @@ cameraData	Date Taken	תאריך צילום
 	Drawn on the CPU: {reason}. Click for System Info.	צויר על ה-CPU: {reason}. לחץ לפרטי מערכת.
 	Driver: {driver}	מנהל התקן: {driver}
 	Drop an image or PSD anywhere to open it.	שחרר תמונה או PSD בכל מקום כדי לפתוח אותה.
-	Drop Shadow	צל נפל
-	Drop shadow	צל נפל
-	Drop Shadow…	צל נפל…
+	Drop Shadow	הטלת צל
+	Drop shadow	הטלת צל
+	Drop Shadow…	הטלת צל…
 	Dropped files weren't placed: their document was closed.	הקבצים שנגררו לא הוצבו: המסמך שלהם נסגר.
 	Dropped files weren't placed: too many are waiting for their document.	הקבצים שנגררו לא הוצבו: יותר מדי קבצים ממתינים למסמך שלהם.
 	Dry Brush	מברשת יבשה
@@ -1289,7 +1289,7 @@ cameraData	Date Taken	תאריך צילום
 	Duplicate Channel	שכפל ערוץ
 	Duplicate Frame	שכפל פריים
 	Duplicate Layer	שכפל שכבה
-	Duplicate Layer Comp	שכפל קומפ שכבות
+	Duplicate Layer Comp	שכפל תצורת שכבות
 	Duplicate Layers	שכפל שכבות
 	Duplicate Layers…	שכפל שכבות…
 	Duplicate Layer…	שכפל שכבה…
@@ -1330,7 +1330,7 @@ cameraData	Date Taken	תאריך צילום
 	Edit Type	ערוך טקסט
 	Edit › Keyboard Shortcuts › Reset All to Defaults undoes an import.	עריכה › קיצורי מקלדת › אפס הכול לברירת המחדל מבטל ייבוא.
 	Edit › Paste	עריכה › הדבק
-@id	edit.purge.undo	בטל (Purge)
+@id	edit.purge.undo	מחיקת מצבי ביטול במסמך הפעיל
 @id	edit.transform.scale	קנה מידה
 	Edits	עריכות
 	Edits that change the whole document, such as a layer's blend mode, opacity or visibility, redraw all of it.	עריכות שמשנות את כל המסמך, כגון מצב המיזוג, האטימות או מצב התצוגה של שכבה, מציירות אותו מחדש במלואו.
@@ -1475,9 +1475,9 @@ cameraData	F-Stop	צמצם (F-Stop)
 	Faux Bold	מודגש מדומה (Faux Bold)
 	Faux Italic	נטוי מדומה (Faux Italic)
 	Favorite fonts	גופנים מועדפים
-	Feather	הכהיה (Feather)
-	Feather Radius	רדיוס הכהיה
-	Feather…	הכהיה (Feather)…
+	Feather	ריכוך קצוות
+	Feather Radius	רדיוס ריכוך קצוות
+	Feather…	ריכוך קצוות…
 	Fewer Points	פחות נקודות
 	Fiber Length	אורך סיבים
 	Fibers	סיבים
@@ -1590,7 +1590,7 @@ cameraData	F-Stop	צמצם (F-Stop)
 	Flip Y Jitter	ריצוד היפוך Y
 	Float All in Windows	צף הכול בחלונות
 	Float in Window	צף בחלון
-	Float Panel	צף פאנל
+	Float Panel	הצף את הפאנל
 	Floating point	נקודה צפה
 	Flow	זרימה
 	Flow Jitter	ריצוד זרימה
@@ -1661,9 +1661,9 @@ cameraData	Focal Length (35 mm)	אורך מוקד (35 מ"מ)
 	Gamma	גמא
 	Gamma Correction	תיקון גמא
 	Gamma:	גמא:
-	Gamut Warning	אזהרת טווח צבעים
-	Gamut warning color	צבע אזהרת טווח צבעים
-	Gamut warning opacity	אטימות אזהרת טווח צבעים
+	Gamut Warning	אזהרת חריגה מטווח הצבעים
+	Gamut warning color	צבע אזהרת חריגה מטווח הצבעים
+	Gamut warning opacity	אטימות אזהרת חריגה מטווח הצבעים
 	Gap	רווח
 	Gaussian	גאוסית
 	Gaussian Blur	טשטוש גאוסי
@@ -1683,7 +1683,7 @@ cameraData	Focal Length (35 mm)	אורך מוקד (35 מ"מ)
 cameraRaw	Global	גלובלי
 	Global Light	אור גלובלי
 	Global Light…	אור גלובלי…
-	Global Refinements	חידודים גלובליים
+	Global Refinements	שיפורים כלליים
 	Gloss	ברק
 	Gloss Contour	קו מתאר ברק
 	Glossy	מבריק
@@ -1806,7 +1806,7 @@ cameraRaw	Green	ירוק
 	Hanging Punctuation	פיסוק תלוי
 	Hard	קשה
 	Hard Light	אור קשה
-	Hard Mix	מיקס קשה (Hard Mix)
+	Hard Mix	מיזוג קשיח (Hard Mix)
 	Hardness	קשיחות
 	Hardness:	קשיחות:
 	HDR Toning	גוון HDR
@@ -1850,7 +1850,7 @@ cameraRaw	Green	ירוק
 	Highlight	הדגשה
 	Highlight Amount	מידת הדגשה
 	Highlight Area	אזור הדגשה
-	Highlight Clipping Warning (O)	אזהרת גזירת הדגשות (O)
+	Highlight Clipping Warning (O)	אזהרה על אובדן פרטים באזורים בהירים (O)
 	Highlight Color	צבע הדגשה
 	Highlight Compression	דחיסת הדגשות
 	Highlight Mode	מצב הדגשה
@@ -1863,7 +1863,7 @@ cameraRaw	Green	ירוק
 	Highlights from:	הדגשות מ:
 	Hirakawa–Parks: the cleanest edges and the least colour fringing, the slowest.	Hirakawa–Parks: הקצוות הנקיים ביותר והכי פחות גזירת צבע, האיטי ביותר.
 	Histogram	היסטוגרמה
-	Histories	היסטוריות
+	Histories	היסטוריות העריכה
 	History	היסטוריה
 	History Brush	מברשת היסטוריה
 	History Brush Tool	כלי מברשת היסטוריה
@@ -2014,11 +2014,11 @@ cameraRaw	Hue	גוון
 	Interpolation:	אינטרפולציה:
 	Interpret Footage	פרש חומר גלם
 	Interpret Footage…	פרש חומר גלם…
-	Intersect Mask with Selection	חתוך מסכה עם הבחירה
-	Intersect Shape Areas	חתוך אזורי צורה
-	Intersect with	חתוך עם
-	Intersect with selection  ({key})	חתוך עם הבחירה  ({key})
-	Intersect with selection  (⇧⌥)	חתוך עם הבחירה  (⇧⌥)
+	Intersect Mask with Selection	השאר רק את החפיפה בין המסכה לבחירה
+	Intersect Shape Areas	חיתוך בין אזורי צורות
+	Intersect with	חיתוך עם
+	Intersect with selection  ({key})	חיתוך עם הבחירה  ({key})
+	Intersect with selection  (⇧⌥)	חיתוך עם הבחירה  (⇧⌥)
 	Interval	מרווח
 	Invalid delete command	פקודת מחיקה לא תקינה
 	Invalid frame transform	התמרת מסגרת לא חוקית
@@ -2093,10 +2093,10 @@ fontWeight	Italic	נטוי
 	Last Modified	שונה לאחרונה
 	Layer	שכבה
 	Layer Bounds	גבולות שכבה
-	Layer Comp	קומפ שכבות
-	Layer Comps	קומפים של שכבות
-	Layer Comps to Files	קומפים של שכבות לקבצים
-	Layer Comps to Files…	קומפים של שכבות לקבצים…
+	Layer Comp	תצורת שכבות
+	Layer Comps	תצורות שכבות
+	Layer Comps to Files	ייצוא תצורות שכבות לקבצים
+	Layer Comps to Files…	ייצוא תצורות שכבות לקבצים…
 	Layer Content Options	אפשרויות תוכן שכבה
 	Layer Content Options…	אפשרויות תוכן שכבה…
 	Layer Count	מספר שכבות
@@ -2107,7 +2107,7 @@ fontWeight	Italic	נטוי
 	Layer from Background	שכבה מרקע
 	Layer From Background…	שכבה מרקע…
 	Layer from Background…	שכבה מרקע…
-	Layer Knocks Out Drop Shadow	השכבה מנקבת את הצל הנפל (Knocks Out)
+	Layer Knocks Out Drop Shadow	השכבה מסתירה את הצל המוטל מתחתיה
 	Layer Mask	מסכת שכבה
 	layer mask	מסכת שכבה
 	Layer Mask Display Options…	אפשרויות תצוגת מסכת שכבה…
@@ -2283,7 +2283,7 @@ cameraRaw	Lights	בהירים
 	Lossless	ללא אובדן
 	Low	נמוך
 	Low resolution previews	תצוגות מקדימות ברזולוציה נמוכה
-	Low-Latency Drawing (vsync off, applies at next launch)	ציור בחיוג נמוך (vsync כבוי, חל בהפעלה הבאה)
+	Low-Latency Drawing (vsync off, applies at next launch)	ציור בהשהיה נמוכה (VSync כבוי; יחול בהפעלה הבאה)
 	Lower	תחתון
 	Lowercase extension	סיומת באותיות קטנות
 	Lum	בהירות אור
@@ -2337,7 +2337,7 @@ cameraData	Make	יצרן
 	Marker Size	גודל סמן
 	Marquee	בחירה מלבנית (Marquee)
 	Mask	מסכה
-	Mask All	מסך הכול
+	Mask All	מסך את הכול
 	Mask All Objects	מסך את כל האובייקטים
 	Mask Channel	ערוץ מסכה
 	Mask Incomplete Blocks	מסך בלוקים לא שלמים
@@ -2355,7 +2355,7 @@ cameraRaw	Masking	מיסוך
 	Match Location	התאם מיקום
 	Match Rotation	התאם סיבוב
 	Match Zoom	התאם מידת תקריב
-	Matte	מסגרת (Matte)
+	Matte	צבע רקע לשקיפות (Matte)
 	Matting	מיסוך קצוות
 	Max Offset	היסט מקסימלי
 	Max Radius	רדיוס מקסימלי
@@ -2390,7 +2390,7 @@ fontWeight	Medium	בינוני
 	Merge Spot Channel	מזג ערוץ ספוט
 	Merge to HDR Pro	מיזוג ל-HDR Pro
 	Merge to HDR Pro…	מיזוג ל-HDR Pro…
-	Merge Visible	מזג גלויות
+	Merge Visible	מזג שכבות גלויות
 	Merged Layers	שכבות ממוזגות
 	Merged PRs	בקשות מיזוג ממוזגות (PRs)
 	Mesh	רשת (Mesh)
@@ -2530,7 +2530,7 @@ cameraData	Model	דגם
 	New Guide…	קו מנחה חדש…
 	New Layer	שכבה חדשה
 	New Layer Based Slice	פרוסה מבוססת שכבה חדשה
-	New Layer Comp	קומפ שכבות חדש
+	New Layer Comp	תצורת שכבות חדשה
 	New Layer from Brush	שכבה חדשה ממברשת
 	New Layer With Mask	שכבה חדשה עם מסכה
 	New Layer…	שכבה חדשה…
@@ -2579,7 +2579,7 @@ layerLabel	No Color	בלי צבע
 	No fonts match these filters.	אין גופנים התואמים למסננים אלה.
 	No Image	אין תמונה
 	No import is waiting. Import the file again.	אין ייבוא ממתין. ייבא את הקובץ שוב.
-	No Layer Comps	אין קומפים של שכבות
+	No Layer Comps	אין תצורות שכבות
 	No Layer Effects	ללא אפקטי שכבה
 	No Layer Mask	ללא מסכת שכבה
 	No Layers	אין שכבות
@@ -2776,7 +2776,7 @@ cameraRaw	Orange	כתום
 	Paragraph Styles	סגנונות פסקה
 	Paragraph Styles Panel	פאנל סגנונות פסקה
 	Parallel	מקביל
-	Pass Through	מעבר (Pass Through)
+	Pass Through	מעבר דרך (Pass Through)
 	Paste	הדבק
 	Paste Complete Stroke	הדבק קו מתאר מלא
 	Paste Fill	הדבק מילוי
@@ -3070,16 +3070,16 @@ cameraRaw	Purple	סגול
 	Randomize Shapes	צורות אקראיות
 	Range	טווח
 	Range:	טווח:
-	Rasterize	רסטור
-	Rasterize Fill Content	רסטור תוכן מילוי
-	Rasterize Layer	רסטור שכבה
-	Rasterize Layer Style	רסטור סגנון שכבה
-	Rasterize Layers	רסטור שכבות
-	Rasterize Shape	רסטור צורה
-	Rasterize Smart Object	רסטור אובייקט חכם
-	Rasterize svg groups deeper than	רסטר קבוצות SVG עמוקות יותר מ
-	Rasterize Type	רסטור טקסט
-	Rasterize Type Layer	רסטור שכבת טקסט
+	Rasterize	המר לרסטר
+	Rasterize Fill Content	המר תוכן מילוי לרסטר
+	Rasterize Layer	המר שכבה לרסטר
+	Rasterize Layer Style	המר סגנון שכבה לרסטר
+	Rasterize Layers	המר שכבות לרסטר
+	Rasterize Shape	המר צורה לרסטר
+	Rasterize Smart Object	המר אובייקט חכם לרסטר
+	Rasterize svg groups deeper than	המר לרסטר קבוצות SVG בעומק העולה על
+	Rasterize Type	המר טקסט לרסטר
+	Rasterize Type Layer	המר שכבת טקסט לרסטר
 	Rate	קצב
 	Ratio	יחס
 	Raw Data	נתוני Raw
@@ -3096,7 +3096,7 @@ cameraRaw	Purple	סגול
 	Reading	קורא
 	Reading…	קורא…
 	Ready	מוכן
-	Real-Time Refinement	חידוד בזמן אמת
+	Real-Time Refinement	שיפור בזמן אמת
 	Recent file count	מספר קבצים אחרונים
 	Recent Files	קבצים אחרונים
 	Recent files	קבצים אחרונים
@@ -3129,14 +3129,14 @@ cameraRaw	Red	אדום
 	Reduce Noise	הפחת רעש
 	Reduce Noise…	הפחת רעש…
 	Reference point location	מיקום נקודת ייחוס
-	Refine	חידוד (Refine)
-	Refine Edge	חידוד קצה
-	Refine Edge Brush (R)	מברשת חידוד קצה (R)
-	Refine Edge Brush Tool	כלי מברשת חידוד קצה
-	Refine Hair	חדד שיער
-	Refine Hair needs hair detection, which isn't available yet	חידוד שיער דורש גילוי שיער, שאינו זמין עדיין
-	Refine Mode	מצב חידוד
-	Refine Strokes	חידוד משיכות
+	Refine	שיפור
+	Refine Edge	שיפור קצוות
+	Refine Edge Brush (R)	מברשת שיפור קצוות (R)
+	Refine Edge Brush Tool	כלי מברשת לשיפור קצוות
+	Refine Hair	שיפור בחירת שיער
+	Refine Hair needs hair detection, which isn't available yet	שיפור בחירת שיער מחייב זיהוי שיער, שעדיין אינו זמין
+	Refine Mode	מצב שיפור
+	Refine Strokes	משיכות לשיפור קצוות
 	Reflect	שיקוף
 	Reflected	מוחזר
 	Reflected Gradient	מעבר צבעים מוחזר
@@ -3157,22 +3157,22 @@ fontWeight	Regular	רגיל
 	Remember to turn off the printer's own colour management in Print Settings…	זכור לכבות את ניהול הצבע של המדפסת עצמה בהגדרות הדפסה…
 	Remember workspace changes	זכור שינויי סביבת עבודה
 	Remove	הסר
-	Remove after each stroke	הסר אחרי כל משיכה
+	Remove after each stroke	בצע הסרה לאחר כל משיכת מברשת
 	Remove All	הסר הכול
 	Remove All Pins	הסר את כל הסיכות
 	Remove Background	הסר רקע
-	Remove Black Matte	הסר מסגרת שחורה
+	Remove Black Matte	הסר השפעת רקע שחור משולי השכבה
 	Remove from Favorites	הסר מהמועדפים
 	Remove from favorites	הסר מהמועדפים
 	Remove from Recent	הסר מהרשימה האחרונה
-	Remove Jpeg Artifact	הסר ארטיפקט JPEG
+	Remove Jpeg Artifact	הסר פגמי דחיסת JPEG
 	Remove pair	הסר זוג
 	Remove Planes	הסר מישורים
 	Remove stop	הסר נקודת עצירה
-	Remove Tool	הסר כלי
+	Remove Tool	כלי להסרת אובייקטים
 	Remove variable	הסר משתנה
 	Remove Warp Split	הסר פיצול עיוות
-	Remove White Matte	הסר מסגרת לבנה
+	Remove White Matte	הסר השפעת רקע לבן משולי השכבה
 	Remove {name} from Recent	הסר את {name} מהרשימה האחרונה
 	Rename	שנה שם
 	Rename Brush	שנה שם מברשת
@@ -3181,7 +3181,7 @@ fontWeight	Regular	רגיל
 	Rename Group	שנה שם קבוצה
 	Rename Group…	שנה שם קבוצה…
 	Rename Layer	שנה שם שכבה
-	Rename Layer Comp	שנה שם קומפ שכבות
+	Rename Layer Comp	שנה את שם תצורת השכבות
 	Rename Layer…	שנה שם שכבה…
 	Rename Path…	שנה שם נתיב…
 	Rename Tool Preset	שנה שם ערכת כלי
@@ -3210,7 +3210,7 @@ fontWeight	Regular	רגיל
 	Report a Bug	דווח על באג
 	Report an Issue	דווח על תקלה
 	Report an Issue…	דווח על תקלה…
-	Resample	שינוי דגימה מחדש (Resample)
+	Resample	דגימה מחדש
 	Reselect	בחר מחדש
 	Reset	אפס
 	Reset Alignment	אפס יישור
@@ -3296,7 +3296,7 @@ fontWeight	Regular	רגיל
 	Rotate 90° Counter Clockwise	סובב 90° נגד כיוון השעון
 	Rotate Auto	סיבוב אוטומטי
 	Rotate Fixed	סיבוב קבוע
-	Rotate View	סבב תצוגה
+	Rotate View	סובב את התצוגה
 	Rotate View Tool	כלי סיבוב תצוגה
 	Rotate view with trackpad	סובב תצוגה עם משטח מגע
 	Rotate:	סיבוב:
@@ -3459,7 +3459,7 @@ cameraRaw	Roughness	גסות
 	Select Linked Layers	בחר שכבות מקושרות
 	Select Plane	בחר מישור
 	Select Similar Colors	בחר צבעים דומים
-	Select Subject	בחר נושא
+	Select Subject	בחר את נושא התמונה
 	Select text to apply a character style	בחר טקסט כדי להחיל סגנון תווים
 	Select the crop presets to delete	בחר את ערכות החיתוך למחיקה
 	Select the crop presets to delete:	בחר את ערכות החיתוך למחיקה:
@@ -3545,7 +3545,7 @@ fontWeight	SemiBold	מודגש-חלקי
 	Settings from {name}; {count} not supported: {names}	הגדרות מתוך {name}; {count} לא נתמכות: {names}
 	Settings:	הגדרות:
 	Shadow Amount	מידת צל
-	Shadow Clipping Warning (U)	אזהרת גזירת צללים (U)
+	Shadow Clipping Warning (U)	אזהרה על אובדן פרטים באזורים כהים (U)
 	Shadow Color	צבע צל
 	Shadow Intensity	עוצמת צל
 	Shadow Mode	מצב צל
@@ -3873,7 +3873,7 @@ curves	Smooth	החלק
 	Subtract from selection  ({key})	החסר מהבחירה  ({key})
 	Subtract from selection  (⌥)	החסר מהבחירה  (⌥)
 	Subtract Front Shape	חסר צורה קדמית
-	Subtract Mask from Selection	חסר מסכה מהבחירה
+	Subtract Mask from Selection	החסר את המסכה מהבחירה
 	Subtract Shapes at Overlap	חסר צורות בחפיפה
 	Suggestions:	הצעות:
 	Sumi-e	סומי-אה (Sumi-e)
@@ -3950,7 +3950,7 @@ cameraRaw	Temperature	טמפרטורה
 	The fastest and the softest, with colour fringing on fine detail.	המהירה והרכה ביותר, עם גזירת צבע בפרטים דקים.
 	The file could not be opened.	לא ניתן היה לפתוח את הקובץ.
 	The file could not be saved.	לא ניתן היה לשמור את הקובץ.
-	The fill for this layer must be rasterized before proceeding. It will no longer be editable as a fill. Rasterize the fill?	שכבת המילוי הזו חייבת להיות מרוסטרת לפני ההמשך. תוכן המילוי שלה לא יהיה עוד עריך. לרסטר את השכבה?
+	The fill for this layer must be rasterized before proceeding. It will no longer be editable as a fill. Rasterize the fill?	כדי להמשיך יש להמיר את תוכן המילוי של השכבה לרסטר. לאחר מכן לא ניתן יהיה לערוך אותו כמילוי. להמיר את המילוי לרסטר?
 	The frame is locked	המסגרת נעולה
 	The frame is unavailable	המסגרת אינה זמינה
 	The GPU compositor is still being prepared	מרכיב ה-GPU עדיין בהכנה
@@ -3975,13 +3975,13 @@ fontWeight	Thin	דק
 	This adjustment ({key}) is kept as imported and can't be edited yet.	התאמה זו ({key}) נשמרת כמיובאת ולא ניתן עדיין לערוך אותה.
 	This document's layers need {needed} but may hold {budget}: whole-document redraws use the CPU	שכבות המסמך הזה צריכות {needed} אבל עשויות להכיל {budget}: ציור מחדש של כל המסמך משתמש ב-CPU
 	This document's layers: {needed} of {budget} for layers	שכבות המסמך הזה: {needed} מתוך {budget} לשכבות
-	This layer must be rasterized before proceeding.	השכבה הזו חייבת להיות מרוסטרת לפני ההמשך.
+	This layer must be rasterized before proceeding.	כדי להמשיך יש להמיר את השכבה לרסטר.
 	This Layer:	שכבה זו:
 	This redraw took {seconds} s on the CPU.	הציור מחדש הזה לקח {seconds} שניות על ה-CPU.
 	This session: {reason}	הפעלה זו: {reason}
-	This shape layer must be rasterized before proceeding. It will no longer be editable as a shape. Rasterize the shape?	שכבת הצורה הזו חייבת להיות מרוסטרת לפני ההמשך. היא לא תהיה עוד עריכה כצורה. לרסטר את הצורה?
-	This smart object must be rasterized before proceeding. Edit Contents will no longer be available. Rasterize the smart object?	האובייקט החכם הזה חייב להיות מרוסטר לפני ההמשך. התוכן שלו לא יהיה עוד עריך. לרסטר את האובייקט החכם?
-	This type layer must be rasterized before proceeding. Its text will no longer be editable. Rasterize the type?	שכבת הטקסט הזו חייבת להיות מרוסטרת לפני ההמשך. הטקסט שלה לא יהיה עוד עריך. לרסטר את הטקסט?
+	This shape layer must be rasterized before proceeding. It will no longer be editable as a shape. Rasterize the shape?	כדי להמשיך יש להמיר את שכבת הצורה לרסטר. לאחר מכן לא ניתן יהיה לערוך אותה כצורה. להמיר את הצורה לרסטר?
+	This smart object must be rasterized before proceeding. Edit Contents will no longer be available. Rasterize the smart object?	כדי להמשיך יש להמיר את האובייקט החכם לרסטר. לאחר מכן הפקודה עריכת תוכן לא תהיה זמינה. להמיר את האובייקט החכם לרסטר?
+	This type layer must be rasterized before proceeding. Its text will no longer be editable. Rasterize the type?	כדי להמשיך יש להמיר את שכבת הטקסט לרסטר. לאחר מכן לא ניתן יהיה לערוך את הטקסט. להמיר את הטקסט לרסטר?
 	Threshold	סף
 	Threshold Level	רמת סף
 	Threshold…	סף…
@@ -4096,7 +4096,7 @@ cameraRaw	Tint	טינט
 	Ultra Light	קלוש ביותר
 	Unaltered	לא משתנה
 	Unavailable in this color mode	לא זמין במצב צבע זה
-	Uncached Refresh	רענון לא ממוטמן
+	Uncached Refresh	רענון ללא מטמון
 	Uncoated CMYK	CMYK לא מצופה
 	Undefined Areas	אזורים לא מוגדרים
 	Underline	קו תחתי
@@ -4138,8 +4138,8 @@ cameraRaw	Tint	טינט
 	Update All Modified Content	עדכן את כל התוכן ששונה
 	Update All Text Layers	עדכן את כל שכבות הטקסט
 	Update and Restart	עדכן והפעל מחדש
-	Update Layer Comp	עדכן קומפ שכבות
-	Update layer comp (visibility, position and appearance)	עדכן קומפ שכבות (מצב תצוגה, מיקום ומראה)
+	Update Layer Comp	עדכן תצורת שכבות
+	Update layer comp (visibility, position and appearance)	עדכן תצורת שכבות (נראות, מיקום ומראה)
 	Update Modified Content	עדכן תוכן ששונה
 	Update the current brush with these settings	עדכן את המברשת הנוכחית עם הגדרות אלה
 @plural	Updated {n} linked smart object changed on disk|Updated {n} linked smart objects changed on disk	עודכן {n} אובייקט חכם מקושר שהשתנה בדיסק|עודכנו {n} אובייקטים חכמים מקושרים שהשתנו בדיסק|עודכנו {n} אובייקטים חכמים מקושרים שהשתנו בדיסק
@@ -4225,7 +4225,7 @@ cameraRaw	Vibrance	תוססות
 	Violet, Orange	סגול, כתום
 	Visibility	מצב תצוגה
 	Visible	גלוי
-	Vivid Light	אור חזק (Vivid)
+	Vivid Light	אור עז (Vivid Light)
 	Vulkan	Vulkan
 	W	W
 	W x H x Resolution	W x H x רזולוציה
@@ -4270,7 +4270,7 @@ cameraRaw	Vibrance	תוססות
 	White Clip	גזירת לבן
 	White Intensity	עוצמת לבן
 	White Is High	לבן הוא גבוה
-	White Matte	מסגרת לבנה
+	White Matte	תצוגה על רקע לבן
 	Whites	לבנים
 cameraRaw	Whites	לבנים
 	Whole Word	מילה שלמה
