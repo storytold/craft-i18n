@@ -310,3 +310,16 @@ Synced from `photocraft@7c64653` to `photocraft@2772ac1` with
 ## TextureCraft initial migration
 
 The `texturecraft.tsv` catalogs for ar, de, es, fr, it, ja, ko, pt-br and zh-hans were migrated from [TextureCraft `21856d778347e13857f65c8f1107170797bd070f`](https://github.com/storytold/texturecraft/tree/21856d778347e13857f65c8f1107170797bd070f/crates/ui-egui/src/i18n), MIT OR Apache-2.0. Original wording and contributor credits remain in the upstream history. Migration tooling was AI-assisted; no new translations were authored and no additional native-speaker review was performed. Every original row was checked against the resolved app and shared catalogs. Tracked in storytold/texturecraft#419.
+
+
+## MaterialCraft initial migration
+
+`locales/ar/materialcraft.tsv` was migrated from the Arabic Rust table in
+[MaterialCraft `b73facdc7b8b5ce102cd9e14d964058a15182dc0`](https://github.com/storytold/materialcraft/blob/b73facdc7b8b5ce102cd9e14d964058a15182dc0/crates/ui-egui/src/i18n/ar.rs),
+MIT OR Apache-2.0. Original wording and contributor credits remain in the upstream
+history. Migration tooling was AI-assisted; no new translations were authored and
+no additional native-speaker review was performed. All 400 original rows were
+checked against the resolved app and shared catalogs; identical shared rows were
+omitted and differing app translations retained as overrides. The unmerged Hebrew
+catalog/font PRs storytold/materialcraft#197 and #198 are outside this snapshot.
+Tracked in storytold/materialcraft#210.
