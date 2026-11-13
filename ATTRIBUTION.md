@@ -321,3 +321,12 @@ sv, tr, uk, vi, zh-hans and zh-hant (sr.tsv became sr-latn). The source PR said
 the translations were machine-drafted and invited native-speaker review. LZW and
 ZIP stay identity rows, as in the PSD catalogs. Locales that already had these
 keys (including he, ro and ur) were left unchanged.
+
+## WordCraft: the indent unit in characters (storytold/wordcraft#6065)
+
+One row in `wordcraft.tsv`: `ch`, the unit WordCraft's Paragraph dialog shows and accepts for an
+indent measured in characters (storytold/wordcraft#6530), beside each catalog's existing `cm`,
+`mm`, `pi` and `pt` rows. `zh-hans` 字符 and `zh-hant` 字元, each catalog's own
+word in its "Characters" rows. Contributor: @Nghiathan13 with Claude Code (Opus 5.5), AI-assisted:
+written from the plain meaning of the English and the catalogs' own wording, with no other
+product's localisation consulted. **No native speaker has reviewed these rows.**
