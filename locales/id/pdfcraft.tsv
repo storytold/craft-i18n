@@ -14,7 +14,7 @@
 	  · not fixable here	  · tidak dapat diperbaiki di sini
 	 (page {p})	 (halaman {p})
 	 (searching… {s} of {p} pages)	 (mencari… {s} dari {p} halaman)
-	 ({n} at {dpi} dpi, the largest size they can be drawn at)	 ({n} pada {dpi} dpi, ukuran terbesar yang dapat digambarnya)
+	 ({n} at {dpi} dpi, the largest size they can be drawn at)	 ({n} pada {dpi} dpi, ukuran terbesar yang dapat ditampilkan)
 	 ({s} not exported: {first})	 ({s} tidak diekspor: {first})
 	 on page {label}	 di halaman {label}
 	 on page {p}	 di halaman {p}
@@ -34,7 +34,7 @@
 	1 page	1 halaman
 	1 page selected	1 halaman dipilih
 	1 page selected.	1 halaman dipilih.
-	1 page was scanned.	1 page was scanned.
+	1 page was scanned.	1 halaman berhasil dipindai.
 	180 degrees	180 derajat
 	4 x 6 in label (101.6 x 152.4 mm)	Label 4 x 6 inci (101,6 x 152,4 mm)
 	9 digit, A letter, O letter or digit, X any character	9 angka, A huruf, O huruf atau angka, X karakter apa pun
@@ -52,9 +52,9 @@
 	a bookmark cannot be moved inside itself	bookmark tidak dapat dipindahkan ke dalam dirinya sendiri
 	A button	Sebuah tombol
 	A clean-room, open-source PDF application written in Rust. MIT OR Apache-2.0.	Aplikasi PDF clean-room sumber terbuka yang ditulis dengan Rust. MIT OR Apache-2.0.
-	A colour on this page couldn't be computed and is shown in a fallback colour.	Sebuah warna di halaman ini tidak dapat dihitung dan ditampilkan dengan warna pengganti.
+	A colour on this page couldn't be computed and is shown in a fallback colour.	Ada warna di halaman ini yang tidak dapat dihitung dan ditampilkan dengan warna pengganti.
 	a column is too narrow: make the area wider, give the column more of it, or use fewer columns or less column spacing	lajur terlalu sempit: buat area lebih lebar, beri lajur itu bagian yang lebih besar, atau gunakan lebih sedikit lajur atau jarak antarlajur yang lebih kecil
-	A cover on the scanner is open.	A cover on the scanner is open.
+	A cover on the scanner is open.	Penutup pemindai terbuka.
 	A diagonal CONFIDENTIAL watermark on every page.	Watermark CONFIDENTIAL diagonal pada setiap halaman.
 	a document must keep at least one page	dokumen harus mempertahankan setidaknya satu halaman
 	A document needs at least one page: copy instead	Dokumen memerlukan minimal satu halaman: gunakan salinan
@@ -63,11 +63,11 @@
 	A font isn't embedded	Font tidak tertanam
 	A form field has additional actions	Sebuah kolom formulir memiliki tindakan tambahan
 	A link	Sebuah tautan
-	A link or special file, which isn't followed	A link or special file, which isn't followed
+	A link or special file, which isn't followed	Tautan atau file khusus yang tidak ditelusuri
 	A logo or name at the left of the tabs, where a title bar would show one: PdfCraft's own, or your company's.	Logo atau nama di sebelah kiri tab, tempat bilah judul biasanya menampilkannya: milik PdfCraft, atau milik perusahaan Anda.
-	A page count stops the feeder after that many sheets. Cancel ends the transfer early; pages already received stay in the document.	A page count stops the feeder after that many sheets. Cancel ends the transfer early; pages already received stay in the document.
+	A page count stops the feeder after that many sheets. Cancel ends the transfer early; pages already received stay in the document.	Pemindai berhenti setelah jumlah lembar yang ditentukan. Batal menghentikan pemindaian lebih awal; halaman yang sudah diterima tetap ada di dokumen.
 	A picture covers page {pages} (a scan?), so the background won't show there.	Sebuah gambar menutupi halaman {pages} (hasil pindai?), jadi latar belakang tidak akan terlihat di sana.
-	A placed signature is a comment until it is locked: anyone with a PDF editor can move or remove it. Locking makes your Fill & Sign text, marks and signatures part of the page.	Tanda tangan yang ditempatkan adalah komentar sampai dikunci: siapa pun yang memiliki editor PDF dapat memindahkan atau menghapusnya. Mengunci menjadikan teks, tanda, dan tanda tangan Isi & Tanda Tangani Anda bagian dari halaman.
+	A placed signature is a comment until it is locked: anyone with a PDF editor can move or remove it. Locking makes your Fill & Sign text, marks and signatures part of the page.	Tanda tangan yang ditempatkan masih berupa anotasi sampai dikunci. Siapa pun yang memakai editor PDF dapat memindahkan atau menghapusnya. Penguncian menyatukan teks, tanda, dan tanda tangan dari Isi & Tanda Tangani dengan isi halaman.
 	A PNG or SVG file. It is read from this place each time PdfCraft starts.	File PNG atau SVG. File dibaca dari lokasi ini setiap kali PdfCraft dimulai.
 	A script	Sebuah skrip
 	A selected field has no widget on any page, so the fields can't be edited together.	Kolom yang dipilih tidak memiliki widget di halaman mana pun, sehingga kolom tidak dapat diedit bersama.
@@ -212,7 +212,7 @@
 	Advanced options	Opsi lanjutan
 	Advanced Options {chevron}	Opsi Lanjutan {chevron}
 	Advanced search…	Pencarian lanjutan…
-	Advanced…	Advanced…
+	Advanced…	Lanjutan…
 	AI Assistant	Asisten AI
 	AI assistant	Asisten AI
 	Algorithm	Algoritma
@@ -221,7 +221,6 @@
 	Align left	Rata kiri
 	Align objects	Sejajarkan objek
 	Align right	Rata kanan
-	Alignment	Alignment
 	All annotations are tagged	Semua anotasi diberi tag
 	All document contents	Seluruh isi dokumen
 	All document contents except metadata	Seluruh isi dokumen kecuali metadata
@@ -233,7 +232,7 @@
 	All open documents	Semua dokumen terbuka
 	All page content is tagged	Semua konten halaman diberi tag
 	All pages	Semua halaman
-	All pages asks the driver for the whole stack.	All pages asks the driver for the whole stack.
+	All pages asks the driver for the whole stack.	Semua halaman meminta driver memindai seluruh tumpukan kertas.
 	All pages in document	Semua halaman dalam dokumen
 	All pages in range	Semua halaman dalam rentang
 	All permissions	Semua izin
@@ -256,7 +255,7 @@
 	Alternate text on an element without page content is never reached. Remove it or attach the element to content.	Teks alternatif pada elemen tanpa konten halaman tidak akan pernah dijangkau. Hapus atau pasang elemen tersebut ke konten.
 	Alternate text should not hide annotation	Teks alternatif tidak boleh menyembunyikan anotasi
 	Alternate text that will never be read	Teks alternatif yang tidak akan pernah dibaca
-	Always use my default zoom and page layout	Always use my default zoom and page layout
+	Always use my default zoom and page layout	Selalu gunakan pembesaran dan tata letak halaman bawaan saya
 	An action is already running	Sebuah tindakan sedang berjalan
 	An action with this name already exists.	Tindakan dengan nama ini sudah ada.
 	an Aruba account needs its domain (the "dominio" Aruba gives with the account): enter it	akun Aruba memerlukan domainnya ("dominio" yang diberikan Aruba bersama akun): masukkan domain tersebut
@@ -323,7 +322,7 @@ calendar date	August	Agustus
 	Auto ({percent}%)	Otomatis ({percent}%)
 	Auto follows the system's text size. Pages always render at the display's full resolution.	Otomatis mengikuti ukuran teks sistem. Halaman selalu dirender pada resolusi penuh layar.
 	Auto portrait/landscape	Potret/landscape otomatis
-	Auto-deskew	Auto-deskew
+	Auto-deskew	Luruskan otomatis
 	Auto-rotate pages	Putar halaman otomatis
 	Auto-size text to fit redaction region	Sesuaikan ukuran teks otomatis agar pas dengan area penyensoran
 	Automatic (historical model)	Otomatis (model historis)
@@ -335,7 +334,7 @@ calendar date	August	Agustus
 	Back	Kembali
 	Back side only	Hanya sisi belakang
 	Back to all tools	Kembali ke semua alat
-	Back to Prepare a form	Back to Prepare a form
+	Back to Prepare a form	Kembali ke Siapkan formulir
 	Back to the default keys	Kembali ke tombol bawaan
 	Back to the document	Kembali ke dokumen
 	Background	Latar belakang
@@ -343,7 +342,7 @@ calendar date	August	Agustus
 	Basic constraints	Batasan dasar
 certificate	Basic constraints	Batasan dasar
 	Bates numbering	Penomoran Bates
-	Bed	Bed
+	Bed	Kaca pemindai
 	Before each selected page (select pages in Organize)	Sebelum setiap halaman yang dipilih (pilih halaman di Atur)
 	Before the number	Sebelum nomor
 	Behind text and images	Di belakang teks dan gambar
@@ -362,7 +361,7 @@ certificate	Basic constraints	Batasan dasar
 	Bookmark options	Opsi bookmark
 	Bookmarks	Bookmark
 	Bookmarks are present in large documents	Bookmark ada pada dokumen besar
-	Bookmarks panel	Panel markah
+	Bookmarks panel	Panel bookmark
 	Bookmarks Panel and Page	Panel Bookmark dan Halaman
 	Border Color:	Warna Garis Batas:
 	Border colour	Warna garis batas
@@ -373,13 +372,12 @@ certificate	Basic constraints	Batasan dasar
 	Bottom left	Kiri bawah
 	Bottom right	Kanan bawah
 	Box	Kotak
-	Brightness	Brightness
 	Bring All to Front	Bawa Semua ke Depan
 	Bring forward	Satu lapisan maju
 	Bring to front	Paling depan
 	Bring your own model (off by default)	Gunakan model Anda sendiri (nonaktif secara bawaan)
 	Browser's print dialog	Dialog cetak browser
-	Bulleted list	Bulleted list
+	Bulleted list	Daftar berpoin
 	Butt	Rata
 	Button	Tombol
 	Button is checked by default	Tombol tercentang secara bawaan
@@ -388,13 +386,13 @@ certificate	Basic constraints	Batasan dasar
 	Buttons with the same name and value are selected in unison	Tombol dengan nama dan nilai yang sama dipilih bersama-sama
 	By the standard device formulas; profiles are not applied.	Menurut rumus perangkat standar; profil tidak diterapkan.
 	Bytes	Byte
-	Calculation order	Calculation order
+	Calculation order	Urutan perhitungan
 	Calibrate from two points	Kalibrasi dari dua titik
 	Callout	Kotak komentar
 	Can't be read: {e}	Tidak dapat dibaca: {e}
 	Can't save as {level}; nothing was changed:	Tidak dapat menyimpan sebagai {level}; tidak ada yang diubah:
 	Cancel drawing	Batalkan menggambar
-	Cancel reverse sides	Cancel reverse sides
+	Cancel reverse sides	Batalkan pemindaian sisi belakang
 	Canceling…	Membatalkan…
 	Cancelled	Dibatalkan
 	Cancelling…	Membatalkan…
@@ -465,21 +463,21 @@ certificate	Basic constraints	Batasan dasar
 	Check for updates…	Periksa pembaruan…
 	Check spelling	Periksa ejaan
 	Check spelling while typing	Periksa ejaan saat mengetik
-	Check that the feeder has paper, or wait for the scanner to finish, then choose Continue.	Check that the feeder has paper, or wait for the scanner to finish, then choose Continue.
-	Check that the feeder has paper, or wait for the scanner to finish, then choose Try again.	Check that the feeder has paper, or wait for the scanner to finish, then choose Try again.
-	Check that the tags read in the order a sighted reader would. Use the Reading Order tool or the Tags panel to correct it.	Pastikan tag dibaca dalam urutan seperti yang akan dibaca pembaca yang melihat. Gunakan alat Urutan Baca atau panel Tag untuk memperbaikinya.
+	Check that the feeder has paper, or wait for the scanner to finish, then choose Continue.	Pastikan ada kertas di pengumpan, atau tunggu hingga pemindai selesai, lalu pilih Lanjutkan.
+	Check that the feeder has paper, or wait for the scanner to finish, then choose Try again.	Pastikan ada kertas di pengumpan, atau tunggu hingga pemindai selesai, lalu pilih Coba lagi.
+	Check that the tags read in the order a sighted reader would. Use the Reading Order tool or the Tags panel to correct it.	Pastikan urutan tag sesuai dengan urutan baca pada tampilan halaman. Gunakan alat Urutan Baca atau panel Tag untuk memperbaikinya.
 	Check the pages	Periksa halaman
 	Check the pages of {name}: {why}	Periksa halaman {name}: {why}
-	Check the scanner is on and connected, then choose Continue.	Check the scanner is on and connected, then choose Continue.
-	Check the scanner is on and connected, then choose Try again.	Check the scanner is on and connected, then choose Try again.
-	CheckBox	CheckBox
+	Check the scanner is on and connected, then choose Continue.	Pastikan pemindai menyala dan tersambung, lalu pilih Lanjutkan.
+	Check the scanner is on and connected, then choose Try again.	Pastikan pemindai menyala dan tersambung, lalu pilih Coba lagi.
+	CheckBox	Kotak centang
 	Checkbox	Kotak centang
 	Checked	Dicentang
 	Checked {objects} objects against the Arlington PDF Model for PDF {version}.	{objects} objek diperiksa terhadap Model PDF Arlington untuk PDF {version}.
 	Checking for a newer version…	Mencari versi yang lebih baru…
 	Checking Options ({on} of 32 in all categories)	Memeriksa Opsi ({on} dari 32 di semua kategori)
 	Checking pages…	Memeriksa halaman…
-	Checking the scanner…	Checking the scanner…
+	Checking the scanner…	Memeriksa pemindai…
 	Checking the structure… {n} objects so far	Memeriksa struktur… {n} objek sejauh ini
 	Checkmark	Tanda centang
 	Choose a digital ID file	Pilih file ID digital
@@ -517,11 +515,11 @@ certificate	Basic constraints	Batasan dasar
 	Clear personal dictionary	Kosongkan kamus pribadi
 	Clear Recent Files	Hapus File Terbaru
 	Clear redaction marks	Hapus tanda penyensoran
-	Clear region	Clear region
+	Clear region	Hapus area pilihan
 	Clear search	Bersihkan pencarian
 	Clear selection / close find	Hapus pilihan / tutup pencarian
-	Clear the jam and load the remaining sheets squarely, then choose Continue.	Clear the jam and load the remaining sheets squarely, then choose Continue.
-	Clear the jam and load the sheets squarely, then choose Try again.	Clear the jam and load the sheets squarely, then choose Try again.
+	Clear the jam and load the remaining sheets squarely, then choose Continue.	Keluarkan kertas yang macet dan masukkan sisa lembar dengan rapi, lalu pilih Lanjutkan.
+	Clear the jam and load the sheets squarely, then choose Try again.	Keluarkan kertas yang macet dan masukkan kembali lembar dengan rapi, lalu pilih Coba lagi.
 	Click on the page to add a {tool}, or drag to set its size	Klik pada halaman untuk menambahkan {tool}, atau seret untuk mengatur ukurannya
 	Click on the page to add text; each click starts a new box, and ✓ finishes. Drag items to move them, drag a corner to resize, double-click text to edit it.	Klik pada halaman untuk menambahkan teks; setiap klik memulai kotak baru, dan ✓ menyelesaikannya. Seret item untuk memindahkannya, seret sudut untuk mengubah ukurannya, klik dua kali teks untuk mengeditnya.
 	Click text or an image to edit it	Klik teks atau gambar untuk mengeditnya
@@ -529,15 +527,14 @@ certificate	Basic constraints	Batasan dasar
 	Click to sort, drag to move the column. Drag its edge to resize it.	Klik untuk mengurutkan, seret untuk memindahkan kolom. Seret tepinya untuk mengubah ukurannya.
 	Click vertices. Enter or double-click finishes a perimeter or area. Click the first point to close an area.	Klik titik sudut. Enter atau klik dua kali menyelesaikan perimeter atau area. Klik titik pertama untuk menutup area.
 	Click where the copied comments go; Escape lets them go	Klik di tempat komentar yang disalin diletakkan; Escape melepaskannya
-	Clipboard	Papan klip
 	Clockwise 90 degrees	90 derajat searah jarum jam
 	Close (Esc)	Tutup (Esc)
 	Close all	Tutup semua
 	Close file	Tutup file
 	Close panel	Tutup panel
 	Close Tab	Tutup Tab
-	Close the feeder cover and check the paper, then choose Continue.	Close the feeder cover and check the paper, then choose Continue.
-	Close the feeder cover and check the paper, then choose Try again.	Close the feeder cover and check the paper, then choose Try again.
+	Close the feeder cover and check the paper, then choose Continue.	Tutup penutup pengumpan dan periksa kertasnya, lalu pilih Lanjutkan.
+	Close the feeder cover and check the paper, then choose Try again.	Tutup penutup pengumpan dan periksa kertasnya, lalu pilih Coba lagi.
 	Close Window	Tutup Jendela
 	Close window	Tutup jendela
 	Closed arrow	Panah tertutup
@@ -551,7 +548,7 @@ certificate	Basic constraints	Batasan dasar
 	Collapse tag	Ciutkan tag
 	Collapse {folder}	Ciutkan {folder}
 	Color contrast	Kontras warna
-	Color document	Color document
+	Color document	Dokumen berwarna
 	Color Images	Gambar berwarna
 	Color Spaces	Ruang warna
 	Colour bars	Bilah warna
@@ -605,18 +602,17 @@ certificate	Basic constraints	Batasan dasar
 	Configure New Digital ID	Konfigurasi ID Digital Baru
 	Confirm Password	Konfirmasi Kata Sandi
 	Conformance level:	Tingkat kesesuaian:
-	Connected by USB.	Connected by USB.
+	Connected by USB.	Tersambung melalui USB.
 	Connected lines	Garis terhubung
-	Connected over the network (Web Services). Options come from that driver, not the USB one.	Connected over the network (Web Services). Options come from that driver, not the USB one.
+	Connected over the network (Web Services). Options come from that driver, not the USB one.	Tersambung melalui jaringan (Web Services). Opsi berasal dari driver jaringan, bukan driver USB.
 	Console	Konsol
 	Content copying	Penyalinan konten
 	Content copying for accessibility	Penyalinan konten untuk aksesibilitas
-	Content Streams	Content Streams
-	Continue scanning	Continue scanning
-	Continue scanning fronts	Continue scanning fronts
-	Continue scanning reverse sides	Continue scanning reverse sides
+	Content Streams	Stream konten
+	Continue scanning	Lanjutkan pemindaian
+	Continue scanning fronts	Lanjutkan pemindaian sisi depan
+	Continue scanning reverse sides	Lanjutkan pemindaian sisi belakang
 	Continuous scrolling	Gulir terus-menerus
-	Contrast	Contrast
 	Convert colors	Konversi warna
 	Convert colours	Konversi warna
 	Convert colours…	Konversi warna…
@@ -624,7 +620,7 @@ certificate	Basic constraints	Batasan dasar
 	Convert to	Konversi ke
 	Convert to PDF and email…	Konversi ke PDF dan kirim lewat email…
 	Convert to PDF with PdfCraft	Konversi ke PDF dengan PdfCraft
-	Converted from an EPUB book.	Converted from an EPUB book.
+	Converted from an EPUB book.	Dikonversi dari buku EPUB.
 	Converted from an EPUB book. Details lists how it was laid out and what was left out.	Dikonversi dari buku EPUB. Detail menjelaskan tata letaknya dan apa yang tidak disertakan.
 	Converted to {level} ({n} changes)	Dikonversi ke {level} ({n} perubahan)
 	Converted {c} colours and {i} pictures on {p} pages	Mengonversi {c} warna dan {i} gambar pada {p} halaman
@@ -652,7 +648,7 @@ certificate	Basic constraints	Batasan dasar
 	Could not save: {e}	Tidak dapat menyimpan: {e}
 	Couldn't add {name}: {e}	Tidak dapat menambahkan {name}: {e}
 	Couldn't attach the file	Tidak dapat melampirkan file
-	Couldn't be read: {reason}	Couldn't be read: {reason}
+	Couldn't be read: {reason}	Tidak dapat dibaca: {reason}
 	Couldn't check for updates: {e}	Tidak dapat memeriksa pembaruan: {e}
 	Couldn't combine files: {e}	Tidak dapat menggabungkan file: {e}
 	Couldn't copy the image: {e}	Tidak dapat menyalin gambar: {e}
@@ -720,9 +716,9 @@ certificate	Basic constraints	Batasan dasar
 	Created a PDF from the first {n} files	PDF dibuat dari {n} file pertama
 	Created a PDF from {n} files	Membuat PDF dari {n} file
 	Created a PDF from {n} files; left out: {names}	Membuat PDF dari {n} file; tidak disertakan: {names}
-	Created Scan.pdf	Created Scan.pdf
+	Created Scan.pdf	Scan.pdf dibuat
 	Created {n} links	{n} tautan dibuat
-	Created {n} scanned files	Created {n} scanned files
+	Created {n} scanned files	{n} file hasil pindai dibuat
 	Creates 1 file from {n} pages.	Membuat 1 file dari {n} halaman.
 	Creates {f} files from {n} pages.	Membuat {f} file dari {n} halaman.
 	Creator	Pembuat
@@ -774,7 +770,6 @@ calendar date	December	Desember
 	Decipher Only	Hanya Dekripsi
 	Declared conformance: {shown}	Kesesuaian yang dinyatakan: {shown}
 	Decorative figure	Gambar dekoratif
-	Default	Bawaan
 	Default page display	Tampilan halaman bawaan
 	Default Value:	Nilai Bawaan:
 	Default workspace mode	Mode ruang kerja bawaan
@@ -890,12 +885,12 @@ key	Delete	Delete
 	Downloading attachments on the web arrives with M3.10 ({n} bytes ready)	Mengunduh lampiran di versi web hadir dengan M3.10 ({n} byte siap)
 	Downsample to	Turunkan sampel ke
 	DPI sets the printed page size without resampling the image.	DPI mengatur ukuran halaman cetak tanpa mengambil ulang sampel gambar.
-	Drag a field to move it, or select it and press {up} or {down}.	Drag a field to move it, or select it and press {up} or {down}.
+	Drag a field to move it, or select it and press {up} or {down}.	Seret kolom untuk memindahkannya, atau pilih kolom lalu tekan {up} atau {down}.
 	Drag a point to reshape the line. Delete removes it.	Seret titik untuk mengubah bentuk garis. Delete menghapusnya.
 	Drag a rectangle around the area to copy	Seret sebuah persegi panjang di sekitar area yang akan disalin
 	Drag a rectangle on a page to crop it; double-click a page for Set Page Boxes	Seret persegi panjang pada halaman untuk memotongnya; klik dua kali halaman untuk Kotak Halaman
 	Drag a rectangle to create a link; double-click a link to edit it	Seret persegi panjang untuk membuat tautan; klik dua kali tautan untuk mengeditnya
-	Drag on the preview to choose a region. An empty selection scans the whole area.	Drag on the preview to choose a region. An empty selection scans the whole area.
+	Drag on the preview to choose a region. An empty selection scans the whole area.	Seret pada pratinjau untuk memilih area. Jika tidak ada area yang dipilih, seluruh area akan dipindai.
 	Drag the corners onto the document's edges, then choose Enhance page.	Seret sudutnya ke tepi dokumen, lalu pilih Peningkatan halaman.
 	Drag the selection to move it. Esc clears the selection.	Seret pilihan untuk memindahkannya. Esc menghapus pilihan.
 	Drag to draw the area where the signature should appear.	Seret untuk menggambar area tempat tanda tangan akan ditampilkan.
@@ -916,13 +911,13 @@ key	Delete	Delete
 	Drawing	Gambar
 	Drawing scale	Skala gambar
 	Drawing scale changes. Use Actual size for full-scale plans.	Skala gambar berubah. Gunakan Ukuran sebenarnya untuk gambar berskala penuh.
-	Driver default	Driver default
+	Driver default	Bawaan driver
 	Drop PDFs or folders here, or choose them.	Letakkan PDF atau folder di sini, atau pilih.
 	Drop PDFs, images, text files or folders here, or choose them.	Jatuhkan PDF, gambar, file teks, atau folder di sini, atau pilih dari komputer.
 	Drop-down list	Daftar drop-down
 	Dropdown Properties	Properti Dropdown
-	Duplex	Duplex
-	Duplex is not offered.	Duplex is not offered.
+	Duplex	Dua sisi
+	Duplex is not offered.	Pemindaian dua sisi tidak tersedia.
 	Duplicate "{name}" onto:	Duplikasi "{name}" ke:
 	Duplicate Field	Duplikasi Kolom
 	Duplicate field	Duplikat kolom
@@ -945,7 +940,7 @@ key	Delete	Delete
 	Each image once, named after the document and page. JPEG images are saved unchanged; others as PNG.	Setiap gambar sekali, diberi nama sesuai dokumen dan halamannya. Gambar JPEG disimpan apa adanya; lainnya sebagai PNG.
 	Each page as it looks, its text kept searchable. For documents whose layout matters.	Setiap halaman tampil apa adanya, teksnya tetap dapat dicari. Untuk dokumen yang tata letaknya penting.
 	Each page on its own sheet, named Page 1, Page 2…	Setiap halaman pada lembarnya sendiri, bernama Halaman 1, Halaman 2…
-	Earlier in calculation order	Earlier in calculation order
+	Earlier in calculation order	Majukan dalam urutan perhitungan
 	Earlier in tab order	Lebih awal dalam urutan tab
 	earlier saves are still waiting for the website	penyimpanan sebelumnya masih menunggu situs
 comment menu	Edit	Edit
@@ -963,7 +958,7 @@ comment menu	Edit	Edit
 	Edit text & images	Edit teks & gambar
 	Edit text…	Edit teks…
 	Edit this PDF	Edit PDF ini
-	Edit {field}'s formula	Edit {field}'s formula
+	Edit {field}'s formula	Edit rumus {field}
 	Editing	Mengedit
 	Email Address	Alamat Email
 	Email Addresses	Alamat Email
@@ -971,7 +966,7 @@ comment menu	Edit	Edit
 	Embedded files must be PDF/A files themselves (use PDF/A-3 for others)	File tersemat harus berupa file PDF/A (gunakan PDF/A-3 untuk yang lain)
 	Enable Acrobat JavaScript	Aktifkan Acrobat JavaScript
 	Enable copying of text, images, and other content	Izinkan penyalinan teks, gambar, dan konten lainnya
-	Enable text access for screen reader devices for the visually impaired	Aktifkan akses teks untuk pembaca layar bagi tuna netra
+	Enable text access for screen reader devices for the visually impaired	Izinkan pembaca layar mengakses teks bagi pengguna dengan hambatan penglihatan
 	Enabled	Aktif
 	Encipher Only	Hanya Enkripsi
 	Encrypt	Enkripsi
@@ -983,7 +978,7 @@ comment menu	Edit	Edit
 	Encryption	Enkripsi
 key	End	End
 	End entity	Entitas akhir
-	Endpoint	Endpoint
+	Endpoint	Titik ujung
 	Endpoints	Endpoint
 	English	Inggris
 	Enhance camera image	Perbaiki kualitas gambar kamera
@@ -1008,8 +1003,8 @@ key	Esc	Esc
 	Even pages	Halaman genap
 	Even Pages Only	Hanya Halaman Genap
 	Even pages only	Hanya halaman genap
-	Every field calculates after the fields it reads.	Every field calculates after the fields it reads.
-	Every field outside a loop calculates after the fields it reads.	Every field outside a loop calculates after the fields it reads.
+	Every field calculates after the fields it reads.	Setiap kolom dihitung setelah kolom yang menjadi sumber nilainya.
+	Every field outside a loop calculates after the fields it reads.	Setiap kolom di luar siklus dihitung setelah kolom yang menjadi sumber nilainya.
 	Every PDF in the folder	Semua PDF di folder
 	Every PDF in the folder and the folders inside it	Semua PDF di folder dan folder di dalamnya
 	Every PDF, image and text file in the folder	Semua file PDF, gambar, dan teks di dalam folder
@@ -1081,7 +1076,7 @@ key	Esc	Esc
 scroll speed	Fast	Cepat
 	February	Februari
 calendar date	February	Februari
-	Feeder	Feeder
+	Feeder	Pengumpan kertas
 	Field	Kolom
 	Field "{}" on page {p} has no description (tooltip)	Kolom "{}" pada halaman {p} tidak memiliki deskripsi (tooltip)
 	Field descriptions	Deskripsi kolom
@@ -1156,7 +1151,7 @@ calendar date	February	Februari
 	Find tools and commands…	Cari alat dan perintah…
 	Find untagged content	Temukan konten tanpa tag
 	Finding document fonts…	Mencari font dokumen…
-	Finish	Finish
+	Finish	Selesai
 	Finish or discard the text being edited before selecting several objects.	Selesaikan atau buang teks yang sedang diedit sebelum memilih beberapa objek.
 	First / last page	Halaman pertama / terakhir
 	First page	Halaman pertama
@@ -1175,7 +1170,7 @@ calendar date	February	Februari
 	Fix	Perbaiki
 	Fix hairlines	Perbaiki garis rambut
 	Fix hairlines…	Perbaiki garis rambut…
-	Fix order	Fix order
+	Fix order	Perbaiki urutan
 	Fix reading order	Perbaiki urutan baca
 	Fixed layout	Tata letak tetap
 	Fixed what could be fixed; 1 problem remains	Memperbaiki yang bisa diperbaiki; 1 masalah tersisa
@@ -1225,15 +1220,15 @@ calendar weekday	Fr	Jum
 	From a PDF page or an image	Dari halaman PDF atau gambar
 	From colour	Dari warna
 	From Finder: select files, then right-click > Quick Actions > Combine files in PdfCraft. Not listed? Turn it on once under Quick Actions > Customize.	Dari Finder: pilih file, lalu klik kanan > Aksi Cepat > Gabungkan file di PdfCraft. Tidak ada di daftar? Aktifkan sekali di Aksi Cepat > Sesuaikan.
-	From scanner…	From scanner…
+	From scanner…	Dari pemindai…
 	From template	Dari templat
 	From {file}	Dari {file}
 	From:	Dari:
 	Front side only	Hanya sisi depan
-	front(s)	front(s)
-	Fronts scanned: {n}. Flip the sheet on the bed, then choose Scan reverse sides.	Fronts scanned: {n}. Flip the sheet on the bed, then choose Scan reverse sides.
-	Fronts scanned: {n}. Flip the stack so the last sheet is on top, reload it, then choose Scan reverse sides.	Fronts scanned: {n}. Flip the stack so the last sheet is on top, reload it, then choose Scan reverse sides.
-	Full area	Full area
+	front(s)	sisi depan
+	Fronts scanned: {n}. Flip the sheet on the bed, then choose Scan reverse sides.	Sisi depan dipindai: {n}. Balik lembar di kaca pemindai, lalu pilih Pindai sisi belakang.
+	Fronts scanned: {n}. Flip the stack so the last sheet is on top, reload it, then choose Scan reverse sides.	Sisi depan dipindai: {n}. Balik tumpukan agar lembar terakhir berada di atas, masukkan kembali, lalu pilih Pindai sisi belakang.
+	Full area	Seluruh area
 	Full Screen	Layar penuh
 	Full screen mode	Mode layar penuh
 	Future placements use this size. Existing signatures are unchanged.	Penempatan berikutnya akan menggunakan ukuran ini. Tanda tangan yang ada tidak berubah.
@@ -1295,7 +1290,6 @@ calendar weekday	Fr	Jum
 	Historical OCR add-ons require the desktop app.	Add-on OCR historis memerlukan aplikasi desktop.
 	Historical print (Fraktur)	Cetakan historis (Fraktur)
 	Historical spelling is preserved. Handwriting, abbreviations and complex layouts need checking.	Ejaan historis dipertahankan. Tulisan tangan, singkatan, dan tata letak yang rumit perlu diperiksa.
-	Home	Beranda
 key	Home	Home
 	Home / End	Home / End
 	Horizontal reversed	Horizontal terbalik
@@ -1348,15 +1342,15 @@ key	Home	Home
 	Insert pages from {name}	Sisipkan halaman dari {name}
 	Insert pages from {name} — 1 field renamed	Sisipkan halaman dari {name} — 1 kolom diganti namanya
 	Insert pages from {name} — fields renamed	Sisipkan halaman dari {name} — kolom diganti namanya
-	Insert scanned pages	Insert scanned pages
+	Insert scanned pages	Sisipkan halaman hasil pindai
 	Insert text	Sisipkan teks
 	Insert the USB token or smart card, then refresh to list its digital IDs.	Masukkan token USB atau kartu pintar, lalu segarkan untuk menampilkan ID digitalnya.
 	Inserted	Disisipkan
 	Inserted page	Halaman disisipkan
-	Inserted scanned pages	Inserted scanned pages
+	Inserted scanned pages	Halaman hasil pindai disisipkan
 	Inserted text	Teks yang disisipkan
 	Inserting, deleting, and rotating pages	Menyisipkan, menghapus, dan memutar halaman
-	Inset	Inset
+	Inset	Jarak ke dalam
 	Inspector	Inspektur
 	Installed fonts…	Font terpasang…
 	Intended usage	Penggunaan yang dimaksud
@@ -1371,7 +1365,7 @@ certificate	Intended usage	Kegunaan yang dimaksud
 	Invert	Balik
 	Invert colors	Balik warna
 	Invert everything	Balik semuanya
-	Invert tones	Invert tones
+	Invert tones	Balik warna
 	Inverted page background	Latar halaman yang dibalik
 	Inverted text	Teks yang dibalik
 	Invisible Rectangle	Persegi panjang tak terlihat
@@ -1393,7 +1387,7 @@ certificate	Issuer	Penerbit
 	Item:	Item:
 	Items marked Ready work today.	Item yang ditandai Siap sudah berfungsi hari ini.
 	its alternate text is inside another element's and will never be read	teks alternatifnya berada di dalam elemen lain dan tidak akan pernah dibaca
-	Its script also reads fields whose names it builds as it runs, so those reads can't be checked.	Its script also reads fields whose names it builds as it runs, so those reads can't be checked.
+	Its script also reads fields whose names it builds as it runs, so those reads can't be checked.	Skrip ini juga membaca kolom yang namanya disusun saat skrip berjalan, sehingga ketergantungan tersebut tidak dapat diperiksa.
 	Its security settings don't allow copying pages	Pengaturan keamanannya tidak mengizinkan penyalinan halaman
 	January	Januari
 calendar date	January	Januari
@@ -1418,9 +1412,9 @@ calendar date	June	Juni
 	Keep the Windows title bar above the tab strip. Turned off, the tab strip is the title bar, with the window buttons at its right; Snap Layouts on the maximize button need the Windows title bar.	Pertahankan bilah judul Windows di atas strip tab. Jika dimatikan, strip tab menjadi bilah judul, dengan tombol jendela di sebelah kanannya; Snap Layouts pada tombol maksimalkan memerlukan bilah judul Windows.
 	Keep tool selected	Pertahankan alat terpilih
 	Keep tool selected: on	Pertahankan alat terpilih: aktif
-	Key Agreement	Key Agreement
+	Key Agreement	Kesepakatan kunci
 	Key Algorithm	Algoritma kunci
-	Key Encipherment	Key Encipherment
+	Key Encipherment	Enkripsi kunci
 	Key usage	Penggunaan kunci
 certificate	Key usage	Penggunaan kunci
 	Keyboard shortcuts	Pintasan keyboard
@@ -1428,26 +1422,25 @@ certificate	Key usage	Penggunaan kunci
 	Keys of the document view	Tombol tampilan dokumen
 	Keywords	Kata kunci
 	Labels: {preview}. Later pages keep their labels.	Label: {preview}. Halaman berikutnya tetap memakai labelnya.
-	Lamp	Lamp
-	Lamp on	Lamp on
+	Lamp	Lampu
+	Lamp on	Lampu menyala
 	Landscape	Landskap
 	Landscape and Portrait Pages	Halaman Landskap dan Potret
 	Landscape Pages	Halaman Landskap
 	Landscape pages	Halaman lanskap
 	Language and spelling	Bahasa dan ejaan
-	Large scan	Large scan
+	Large scan	Hasil pindai berukuran besar
 	Larger pages	Halaman lebih besar
-	Larger than 512 MiB	Larger than 512 MiB
-	Larger thumbnails	Larger thumbnails
+	Larger than 512 MiB	Lebih besar dari 512 MiB
+	Larger thumbnails	Perbesar gambar mini
 	Last page	Halaman terakhir
 	Later	Nanti
-	Later in calculation order	Later in calculation order
+	Later in calculation order	Mundurkan dalam urutan perhitungan
 	Later in tab order	Nanti dalam urutan tab
 	Latin (accented)	Latin (beraksen)
-	Layer options	Layer options
+	Layer options	Opsi lapisan
 	Layers panel	Panel lapisan
 	Layers Panel and Page	Panel Lapisan dan Halaman
-	Layout	Tata letak
 	Layout and Magnification	Tata Letak dan Pembesaran
 	Lbl and LBody	Lbl dan LBody
 	Lbl and LBody must be children of LI	Lbl dan LBody harus menjadi anak dari LI
@@ -1456,7 +1449,6 @@ certificate	Key usage	Penggunaan kunci
 	Left Footer Text	Teks Footer Kiri
 	Left Header Text	Teks Header Kiri
 	Left out: {names}	Dilewati: {names}
-	Less	Less
 	less than a minute left	kurang dari satu menit lagi
 	LI must be a child of L	LI harus menjadi anak dari L
 	Light blue	Biru muda
@@ -1481,7 +1473,7 @@ certificate	Key usage	Penggunaan kunci
 	Link Type:	Jenis tautan:
 	Link URL	URL tautan
 	links	tautan
-	Links on page	Links on page
+	Links on page	Tautan di halaman
 	Links, actions and JavaScripts	Tautan, aksi dan JavaScript
 	List box	Kotak daftar
 	List Box Properties	Properti Kotak Daftar
@@ -1489,15 +1481,15 @@ certificate	Key usage	Penggunaan kunci
 	List items belong in a list. Fix the list's tags.	Item daftar harus berada dalam daftar. Perbaiki tag daftar.
 	List labels and bodies belong in a list item. Fix the list's tags.	Label dan badan daftar harus berada dalam item daftar. Perbaiki tag daftar.
 	List view	Tampilan daftar
-	Listing scanners…	Listing scanners…
-	Listing the folder…	Listing the folder…
+	Listing scanners…	Mencari pemindai…
+	Listing the folder…	Membaca isi folder…
 	Lists	Daftar
 	Load document font	Muat font dokumen
 	Load font…	Muat font…
-	Load more sheets, then choose Continue; or choose Finish to keep what was scanned.	Load more sheets, then choose Continue; or choose Finish to keep what was scanned.
-	Load sheets in the feeder, then choose Try again.	Load sheets in the feeder, then choose Try again.
-	Load to edit	Load to edit
-	Loading {name}…	Loading {name}…
+	Load more sheets, then choose Continue; or choose Finish to keep what was scanned.	Tambahkan kertas lalu pilih Lanjutkan, atau pilih Selesai untuk menyimpan halaman yang sudah dipindai.
+	Load sheets in the feeder, then choose Try again.	Masukkan kertas ke pengumpan, lalu pilih Coba lagi.
+	Load to edit	Muat untuk diedit
+	Loading {name}…	Memuat {name}…
 	Loading…	Memuat…
 	Local cross-PDF links require the desktop app	Tautan antar-PDF lokal memerlukan aplikasi desktop
 	Location: 	Lokasi: 
@@ -1509,15 +1501,15 @@ certificate	Key usage	Penggunaan kunci
 	Logical Reading Order	Urutan Baca Logis
 	Logo	Logo
 	Logo and name	Logo dan nama
-	Look at the scanner for a message or an open door or cover, fix what it shows, then choose Continue.	Look at the scanner for a message or an open door or cover, fix what it shows, then choose Continue.
-	Look at the scanner for a message or an open door or cover, fix what it shows, then choose Try again.	Look at the scanner for a message or an open door or cover, fix what it shows, then choose Try again.
+	Look at the scanner for a message or an open door or cover, fix what it shows, then choose Continue.	Periksa pesan di pemindai serta pintu atau penutup yang terbuka. Atasi masalahnya, lalu pilih Lanjutkan.
+	Look at the scanner for a message or an open door or cover, fix what it shows, then choose Try again.	Periksa pesan di pemindai serta pintu atau penutup yang terbuka. Atasi masalahnya, lalu pilih Coba lagi.
 	Looking for certificates…	Mencari sertifikat…
 	Looking for PDFs…	Mencari PDF…
 	Looking for printers…	Mencari printer…
-	Loop	Loop
+	Loop	Siklus
 	Low resolution	Resolusi rendah
 	Low Resolution (150 dpi)	Resolusi Rendah (150 dpi)
-	Lowering this forgets the oldest files. At 0 there is no list.	Lowering this forgets the oldest files. At 0 there is no list.
+	Lowering this forgets the oldest files. At 0 there is no list.	Mengurangi jumlah ini menghapus entri paling lama dari daftar. Nilai 0 menonaktifkan daftar.
 	Make accessible	Jadikan aksesibel
 	Make Current Properties Default	Jadikan Properti Saat Ini sebagai Bawaan
 	Make Properties Default	Jadikan properti default
@@ -1525,7 +1517,7 @@ certificate	Key usage	Penggunaan kunci
 	Make scans searchable, then make them smaller.	Buat hasil pindai dapat dicari, lalu perkecil ukurannya.
 	Manage embedded index	Kelola indeks tersematam
 	Manage levels	Kelola lapisan
-	Manual duplex needs one reverse side for each front.	Manual duplex needs one reverse side for each front.
+	Manual duplex needs one reverse side for each front.	Pemindaian dua sisi manual memerlukan satu sisi belakang untuk setiap sisi depan.
 	March	Maret
 calendar date	March	Maret
 	Margins	Margin
@@ -1550,7 +1542,7 @@ calendar date	March	Maret
 	Mask:	Masker:
 	Match field sizes	Samakan ukuran kolom
 	Match page at 100%	Samakan halaman pada 100%
-	Matches: {matches}. Files with matches: {files}. PDFs read to the end: {searched} of {found}.	Matches: {matches}. Files with matches: {files}. PDFs read to the end: {searched} of {found}.
+	Matches: {matches}. Files with matches: {files}. PDFs read to the end: {searched} of {found}.	Hasil cocok: {matches}. File dengan hasil cocok: {files}. PDF yang selesai dibaca: {searched} dari {found}.
 	maximum	maksimum
 	May	Mei
 calendar date	May	Mei
@@ -1575,10 +1567,9 @@ calendar date	May	Mei
 	Midpoint	Titik tengah
 	Midpoints	Titik tengah
 	minimum	minimum
-	Mirror	Mirror
-	Mirror the page	Mirror the page
-	Missing field	Missing field
-	Missing from the calculation order saved in the PDF: other PDF viewers may not calculate it.	Missing from the calculation order saved in the PDF: other PDF viewers may not calculate it.
+	Mirror the page	Cerminkan halaman
+	Missing field	Kolom tidak ditemukan
+	Missing from the calculation order saved in the PDF: other PDF viewers may not calculate it.	Tidak tercantum dalam urutan perhitungan yang disimpan di PDF; penampil PDF lain mungkin tidak menghitung kolom ini.
 	Mixed	Campuran
 calendar weekday	Mo	Sen
 	Modern print	Cetakan modern
@@ -1605,7 +1596,7 @@ calendar weekday	Mo	Sen
 	Move later	Pindahkan lebih nanti
 	Move object	Pindahkan objek
 	Move objects	Pindahkan objek
-	Move only what must move, so every field calculates after the fields it reads.	Move only what must move, so every field calculates after the fields it reads.
+	Move only what must move, so every field calculates after the fields it reads.	Pindahkan hanya kolom yang perlu dipindah agar setiap kolom dihitung setelah kolom yang menjadi sumber nilainya.
 	Move out of parent tag	Pindahkan keluar dari tag induk
 	Move page	Pindahkan halaman
 	Move pages	Pindahkan halaman
@@ -1619,7 +1610,7 @@ calendar weekday	Mo	Sen
 	Move to window	Pindahkan ke jendela
 	Move up	Pindahkan ke atas
 	Moved page	Halaman dipindah
-	Moves only what must move	Moves only what must move
+	Moves only what must move	Hanya memindahkan yang perlu
 	Multi-line	Multi-baris
 	Multiple	Banyak
 	Multiple files	Beberapa file
@@ -1639,7 +1630,7 @@ calendar weekday	Mo	Sen
 	Needs manual check	Perlu pemeriksaan manual
 	Negative number style:	Gaya angka negatif:
 	Nested alternate text	Teks alternatif bersarang
-	Network	Network
+	Network	Jaringan
 	Network printer (WS-Print)	Printer jaringan (WS-Print)
 	New Action	Tindakan Baru
 	New Action…	Tindakan Baru…
@@ -1682,7 +1673,7 @@ calendar weekday	Mo	Sen
 	No email app is set up on this computer.	Tidak ada aplikasi email yang disiapkan di komputer ini.
 	No errors in the rules that were evaluated.	Tidak ada galat pada aturan yang dievaluasi.
 	No errors: the structure follows the Arlington PDF Model.	Tidak ada galat: struktur mengikuti Model PDF Arlington.
-	No field reads it	No field reads it
+	No field reads it	Tidak dibaca oleh kolom lain
 	No file chosen	Tidak ada file yang dipilih
 	No file dialog could open	Tidak ada dialog file yang dapat dibuka
 	No fill	Tanpa isian
@@ -1701,12 +1692,12 @@ calendar weekday	Mo	Sen
 	No matching tools	Tidak ada alat yang cocok
 	No model credits were built into this copy.	Kredit model tidak disertakan dalam salinan ini.
 	No openly licensed document fonts found. Load a font file.	Tidak ditemukan font dokumen berlisensi terbuka. Muat sebuah file font.
-	No order can fix a loop. Change one of the formulas.	No order can fix a loop. Change one of the formulas.
+	No order can fix a loop. Change one of the formulas.	Mengubah urutan tidak dapat mengatasi siklus. Ubah salah satu rumus.
 	no output folder was chosen	tidak ada folder keluaran yang dipilih
 	No page has text: the document appears to be images of pages	Tidak ada halaman yang memiliki teks: dokumen tampaknya berupa gambar halaman
 	No pages match those choices	Tidak ada halaman yang cocok dengan pilihan tersebut
 	No pages selected	Tidak ada halaman yang dipilih
-	No pages were scanned.	No pages were scanned.
+	No pages were scanned.	Tidak ada halaman yang dipindai.
 	No PDF files were found.	Tidak ditemukan berkas PDF.
 	No PDFs found in {folder}	Tidak ada PDF yang ditemukan di {folder}
 	No PDFs in this folder yet	Belum ada PDF di folder ini
@@ -1717,7 +1708,7 @@ calendar weekday	Mo	Sen
 	No problems found: the document conforms to {level}.	Tidak ada masalah ditemukan: dokumen memenuhi {level}.
 	No recent files	Tidak ada file terbaru
 	No recipients yet.	Belum ada penerima.
-	No scanner is connected.	No scanner is connected.
+	No scanner is connected.	Tidak ada pemindai yang tersambung.
 	No security	Tanpa keamanan
 	No sheets	Tidak ada lembar
 	No signature was found in the frame. Move the frame over the signature or raise the ink sensitivity.	Tidak ada tanda tangan di dalam bingkai. Pindahkan bingkai ke atas tanda tangan atau naikkan sensitivitas tinta.
@@ -1734,7 +1725,7 @@ calendar weekday	Mo	Sen
 	No untagged content was found.	Tidak ditemukan konten tanpa tag.
 	no unused output name	tidak ada nama keluaran yang belum terpakai
 	No usable CMYK output intent: RGB and CIE-based colours separate by the ISO 32000 device formulas.	Tidak ada niat keluaran CMYK yang dapat digunakan: warna RGB dan berbasis CIE dipisahkan dengan rumus perangkat ISO 32000.
-	Non-Repudiation	Non-Repudiation
+	Non-Repudiation	Nirpenyangkalan
 	None	Tidak ada
 	none	tidak ada
 	None (prefix only)	Tidak ada (hanya awalan)
@@ -1754,11 +1745,11 @@ scroll speed	Normal	Normal
 	not in a TR	bukan di dalam TR
 	not in an L (list)	bukan di dalam L (daftar)
 	not in an LI (list item)	bukan di dalam LI (item daftar)
-	Not in order	Not in order
+	Not in order	Belum masuk urutan
 	Not now	Jangan sekarang
 	Not present	Tidak ada
 	Not replaced: {why}	Tidak diganti: {why}
-	Not searched: {n}	Not searched: {n}
+	Not searched: {n}	Tidak ditelusuri: {n}
 	Note	Catatan
 	Nothing	Tidak ada
 	nothing in the file matches this document	tidak ada yang di dalam file ini cocok dengan dokumen ini
@@ -1775,7 +1766,7 @@ calendar date	November	November
 	Number of pages	Jumlah halaman
 	Number pages	Nomor halaman
 	Number pages…	Nomor halaman…
-	Numbered list	Numbered list
+	Numbered list	Daftar bernomor
 	October	Oktober
 calendar date	October	Oktober
 	Odd pages	Halaman ganjil
@@ -1833,8 +1824,8 @@ animation effects	On	Aktif
 	Open next PDF in folder	Buka PDF berikutnya di folder
 	Open previous PDF in folder	Buka PDF sebelumnya di folder
 	Open Recent	Buka yang baru saja dibuka
-	Open the cover, clear any jam or sheets fed together, load the remaining sheets squarely, then choose Continue.	Open the cover, clear any jam or sheets fed together, load the remaining sheets squarely, then choose Continue.
-	Open the cover, clear any jam or sheets fed together, load the sheets squarely, then choose Try again.	Open the cover, clear any jam or sheets fed together, load the sheets squarely, then choose Try again.
+	Open the cover, clear any jam or sheets fed together, load the remaining sheets squarely, then choose Continue.	Buka penutup, keluarkan kertas yang macet atau tertarik bersamaan, lalu masukkan sisa lembar dengan rapi dan pilih Lanjutkan.
+	Open the cover, clear any jam or sheets fed together, load the sheets squarely, then choose Try again.	Buka penutup, keluarkan kertas yang macet atau tertarik bersamaan, lalu masukkan kembali lembar dengan rapi dan pilih Coba lagi.
 	Open the file as it was saved then	Buka file seperti saat disimpan
 	Open the older version first	Buka versi lama terlebih dahulu
 	Open this local PDF?	Buka PDF lokal ini?
@@ -1847,7 +1838,7 @@ animation effects	On	Aktif
 	Opening the browser's print dialog…	Membuka dialog cetak browser…
 	Opening {name}…	Membuka {name}…
 	Opens the printer driver's preferences. They are saved for every print from this computer; the copies, two-sided, grayscale and paper chosen here still apply.	Membuka preferensi driver printer. Preferensi ini tersimpan untuk setiap cetak dari komputer ini; jumlah salinan, cetak dua sisi, skala abu-abu dan kertas yang dipilih di sini tetap berlaku.
-	Optical resolution {x} × {y} dpi.	Optical resolution {x} × {y} dpi.
+	Optical resolution {x} × {y} dpi.	Resolusi optik {x} × {y} dpi.
 	Optimization cancelled	Optimalkan dibatalkan
 	Optimization is already running	Optimalkan sudah berjalan
 	Optimize	Optimalkan
@@ -1864,18 +1855,17 @@ animation effects	On	Aktif
 	Optional	Opsional
 	Optional: needs an AI provider you configure	Opsional: memerlukan penyedia AI yang Anda konfigurasi
 	Options for this reply	Opsi untuk balasan ini
-	Order · top calculates first	Order · top calculates first
+	Order · top calculates first	Urutan · paling atas dihitung lebih dulu
 	Organization Name	Nama Organisasi
 	Organizational Unit	Unit Organisasi
 	Organize	Atur
 	Organize pages	Atur halaman
-	Orientation	Orientation
 	Original: replace pages	Asli: ganti halaman
 	other changes	perubahan lain
 	Other colour…	Warna lain…
 	Other elements alternate text	Teks alternatif elemen lainnya
 	Other elements that require alternate text	Elemen lain yang memerlukan teks alternatif
-	Other options	Other options
+	Other options	Opsi lainnya
 	Other provider (CSC API)	Penyedia lain (API CSC)
 	Other signatures remain, so the copy is saved as an update of the signed file: the removed signature stays in its earlier revision, where it can be recovered.	Masih ada tanda tangan lain, jadi salinan disimpan sebagai pembaruan file yang ditandatangani: tanda tangan yang dihapus tetap ada di revisi sebelumnya, tempat tanda tangan itu dapat dipulihkan.
 	Other signatures remain, so the removed one is still in the file's earlier revision; check the remaining signatures again.	Masih ada tanda tangan lain, jadi tanda tangan yang dihapus masih ada di revisi file sebelumnya; periksa kembali tanda tangan yang tersisa.
@@ -1939,7 +1929,7 @@ animation effects	On	Aktif
 	Pages per sheet:	Halaman per lembar:
 	Pages selected	Halaman yang dipilih
 	Pages that are only pictures of text can't be read aloud or searched. Recognize text (OCR) to add a text layer.	Halaman yang hanya berisi gambar teks tidak dapat dibaca dengan suara atau dicari. Gunakan Pengenalan teks (OCR) untuk menambahkan lapisan teks.
-	Pages that couldn't be read: {n}	Pages that couldn't be read: {n}
+	Pages that couldn't be read: {n}	Halaman yang tidak dapat dibaca: {n}
 	Pages to Print	Halaman yang Dicetak
 	Pages whose text couldn't be read: {n}. A match on them isn't listed.	Halaman yang teksnya tidak dapat dibaca: {n}. Kecocokan di halaman tersebut tidak dicantumkan.
 	Pages with links, comments or fields should tab in structure order. The fix sets each page's tab order to Use Document Structure.	Halaman dengan tautan, komentar atau kolom harus dapat di-tab dalam urutan struktur. Perbaikan mengatur urutan tab setiap halaman ke Gunakan Struktur Dokumen.
@@ -1951,7 +1941,7 @@ animation effects	On	Aktif
 	Panel layout could not be restored: {error}	Tata letak panel tidak dapat dipulihkan: {error}
 	Panel move was not applied: {error}	Pemindahan panel tidak diterapkan: {error}
 	Paper:	Kertas:
-	Paragraph spacing	Paragraph spacing
+	Paragraph spacing	Jarak antarparagraf
 	Part of	Bagian dari
 	Part of this page isn't shown: its content goes past the most PdfCraft draws for one page.	Sebagian halaman ini tidak ditampilkan: isinya melebihi batas maksimum yang digambar PdfCraft untuk satu halaman.
 	Passed	Lulus
@@ -1996,7 +1986,7 @@ animation effects	On	Aktif
 	Permitted actions after certifying	Tindakan yang diizinkan setelah disertifikasi
 	Phone Number	Nomor Telepon
 	Phone Numbers	Nomor Telepon
-	Photometric	Photometric
+	Photometric	Fotometrik
 	Pick a tool in the quick bar, or type above.	Pilih alat di bilah cepat, atau ketik di atas.
 	Pictures cover pages {pages} (scans?), so the background won't show there.	Gambar menutupi halaman-halaman {pages} (hasil pindai?), jadi latar belakang tidak akan terlihat di sana.
 	Pictures need alternate text that describes them, or must be marked decorative. Add alternate text to each figure.	Gambar memerlukan teks alternatif yang menjelaskannya, atau harus ditandai sebagai dekoratif. Tambahkan teks alternatif ke setiap gambar.
@@ -2017,7 +2007,6 @@ animation effects	On	Aktif
 	Pinned Tools	Alat yang Disematkan
 	Pinned {folder} to Home	{folder} disematkan ke Beranda
 	Pinned {tool} to Home	{tool} disematkan ke Beranda
-	Pixels	Pixels
 	PKCS #11 modules	Modul PKCS #11
 	Place saved {what}	Tempatkan {what} yang tersimpan
 	Plain text in reading order; pages are separated by form feeds.	Teks biasa dalam urutan baca; halaman dipisahkan oleh form feed.
@@ -2027,7 +2016,7 @@ animation effects	On	Aktif
 	Planned · {m}	Direncanakan · {m}
 	Point at the page to read its ink coverage.	Arahkan ke halaman untuk membaca cakupan tintanya.
 	Points from the page's bottom-left corner.	Titik diukur dari sudut kiri bawah halaman.
-	Polyline	Polyline
+	Polyline	Garis bersambung
 	Portable mode is off: {folder} can't be written ({error}). Settings are kept in your user folder instead.	Mode portabel mati: {folder} tidak dapat ditulis ({error}). Pengaturan akan disimpan di folder pengguna Anda sebagai gantinya.
 	Portrait Pages	Halaman Potret
 	Portrait pages	Halaman potret
@@ -2048,9 +2037,9 @@ animation effects	On	Aktif
 	Preset	Prasetel
 	Press the new keys (Esc cancels)	Tekan tombol baru (Esc membatalkan)
 	Prevent G-SYNC/FreeSync flicker (applies at next launch)	Cegah kedipan G-SYNC/FreeSync (berlaku saat peluncuran berikutnya)
-	Preview is for the bed. Set a region in inches below, or leave it empty for the whole sheet.	Preview is for the bed. Set a region in inches below, or leave it empty for the whole sheet.
+	Preview is for the bed. Set a region in inches below, or leave it empty for the whole sheet.	Pratinjau memakai kaca pemindai. Tentukan area dalam inci di bawah ini, atau kosongkan untuk memindai seluruh lembar.
 	Preview unavailable: {e}	Pratinjau tidak tersedia: {e}
-	Preview uses the bed. Switch the source to Bed, or scan without a preview.	Preview uses the bed. Switch the source to Bed, or scan without a preview.
+	Preview uses the bed. Switch the source to Bed, or scan without a preview.	Pratinjau memakai kaca pemindai. Ubah sumber ke Kaca pemindai, atau pindai tanpa pratinjau.
 	Preview: page {p} of {n}	Pratinjau: halaman {p} dari {n}
 	Previous ({key})	Sebelumnya ({key})
 	Previous (⇧⌘G)	Sebelumnya (⇧⌘G)
@@ -2074,7 +2063,7 @@ animation effects	On	Aktif
 	Printed with errors	Dicetak dengan kesalahan
 	Printed with warnings	Dicetak dengan peringatan
 	Printer address:	Alamat printer:
-	Printer default	Printer default
+	Printer default	Bawaan printer
 	printer marks	tanda printer
 	Printer marks added	Tanda printer ditambahkan
 	Printer orientation:	Orientasi printer:
@@ -2100,7 +2089,7 @@ animation effects	On	Aktif
 	Public key	Kunci publik
 certificate	Public key	Kunci publik
 	pure black stays 100% K or gray 0 instead of a mix	hitam murni tetap 100% K atau abu-abu 0, bukan campuran
-	PushButton	PushButton
+	PushButton	Tombol tekan
 	Quality:	Kualitas:
 	Query printer	Tanya printer
 	Query the printer first to see what it supports.	Tanyai printer terlebih dahulu untuk melihat apa yang didukungnya.
@@ -2116,17 +2105,17 @@ certificate	Public key	Kunci publik
 	Read mode	Mode baca
 	Read Only	Hanya Baca
 	Reading colours	Warna pembacaan
-	Reading file {n} of {total}: {name}	Reading file {n} of {total}: {name}
-	Reading the printer's settings…	Reading the printer's settings…
-	Reads {names}, which read it back. No order can fix a loop: change one of the formulas.	Reads {names}, which read it back. No order can fix a loop: change one of the formulas.
-	Reads {name}, which calculates later, so it shows an old value.	Reads {name}, which calculates later, so it shows an old value.
-	Reads {name}, which the form doesn't have, so it gets no value there.	Reads {name}, which the form doesn't have, so it gets no value there.
+	Reading file {n} of {total}: {name}	Membaca file {n} dari {total}: {name}
+	Reading the printer's settings…	Membaca pengaturan printer…
+	Reads {names}, which read it back. No order can fix a loop: change one of the formulas.	Membaca {names}, yang juga membaca kolom ini. Mengubah urutan tidak dapat mengatasi siklus; ubah salah satu rumus.
+	Reads {name}, which calculates later, so it shows an old value.	Membaca {name} yang dihitung belakangan, sehingga nilai yang ditampilkan belum diperbarui.
+	Reads {name}, which the form doesn't have, so it gets no value there.	Membaca {name} yang tidak ada di formulir, sehingga tidak mendapat nilai dari kolom itu.
 	Reason	Alasan
 	Reason: 	Alasan: 
 	Reasons: {reasons}	Alasan: {reasons}
 	Reassign	Tetapkan ulang
 	Recent colours	Warna terbaru
-	Recent files to keep	Recent files to keep
+	Recent files to keep	Jumlah file terakhir dalam daftar
 	Recipients	Penerima
 	Recognize scanned text automatically	Kenali teks pindaian secara otomatis
 	Recognize Text	Kenali Teks
@@ -2147,13 +2136,13 @@ certificate	Public key	Kunci publik
 	Redact	Sensor
 	Redact a PDF	Sensor PDF
 	Redact all	Sensor semua
-	Redact Image	Redaksi gambar
+	Redact Image	Sensor gambar
 	Redact pages	Sensori halaman
 	Redact pages…	Sensori halaman…
 	Redact text and images	Sensor teks dan gambar
 	Redacted area fill colour:	Warna isi area bersensor:
 	Redaction code:	Kode sensor:
-	Redaction mark appearance	Tampilan tanda redaksi
+	Redaction mark appearance	Tampilan tanda sensor
 	Redaction properties…	Properti penyensoran…
 	Redaction Tool Properties	Properti Alat Sensor
 	Redid {label}	Mengulangi {label}
@@ -2164,8 +2153,8 @@ certificate	Public key	Kunci publik
 	Reduce file size…	Perkecil ukuran file…
 	Reference point: {point} (Tab: next)	Titik acuan: {point} (Tab: berikutnya)
 	Reflowable	Dapat dialirkan ulang
-	Refresh lists scanners. It does not feed paper.	Refresh lists scanners. It does not feed paper.
-	Region in inches. Leave the width or the height at zero to scan the whole area.	Region in inches. Leave the width or the height at zero to scan the whole area.
+	Refresh lists scanners. It does not feed paper.	Segarkan memperbarui daftar pemindai tanpa menarik kertas.
+	Region in inches. Leave the width or the height at zero to scan the whole area.	Area dalam inci. Biarkan lebar atau tinggi bernilai nol untuk memindai seluruh area.
 	Registration marks	Tanda registrasi
 	Regularity	Keteraturan
 	Rejected	Ditolak
@@ -2270,7 +2259,7 @@ certificate	Public key	Kunci publik
 	Reset columns	Atur ulang kolom
 	Reset page size	Atur ulang ukuran halaman
 	Reset panel layout	Atur ulang tata letak panel
-	Reset to Initial Visibility	Reset to Initial Visibility
+	Reset to Initial Visibility	Kembalikan ke tampilan awal
 	Reset to printer defaults	Atur ulang ke bawaan printer
 	Resize comment	Ubah ukuran komentar
 	Resize object	Ubah ukuran objek
@@ -2290,9 +2279,9 @@ certificate	Public key	Kunci publik
 	Reverse open arrow	Balik panah terbuka
 	Reverse pages	Balik halaman
 	Reverse portrait	Potret terbalik
-	reverse side(s)	reverse side(s)
-	Reverse sides	Reverse sides
-	Reverse sides interleaved.	Reverse sides interleaved.
+	reverse side(s)	sisi belakang
+	Reverse sides	Sisi belakang
+	Reverse sides interleaved.	Sisi depan dan belakang sudah diselingi.
 	Revert changes	Kembalikan perubahan
 	Revert to the previously saved version of “{name}”? Changes since then can't be undone afterwards.	Kembalikan ke versi “{name}” yang tersimpan sebelumnya? Perubahan setelahnya tidak dapat dibatalkan.
 	Reverted to the last saved version	Dikembalikan ke versi tersimpan terakhir
@@ -2406,30 +2395,30 @@ calendar weekday	Sa	Sab
 	Scan & OCR	Pindai & OCR
 	Scan and text recognition	Pindai dan pengenalan teks
 	Scan correction	Koreksi hasil pindai
-	Scan interrupted	Scan interrupted
+	Scan interrupted	Pemindaian terhenti
 	Scan processing cancelled	Pemrosesan hasil pindai dibatalkan
-	Scan reverse side now (1 front)	Scan reverse side now (1 front)
-	Scan reverse sides	Scan reverse sides
-	Scan reverse sides now ({n} fronts)	Scan reverse sides now ({n} fronts)
-	Scan the front, flip the sheet on the bed, then scan the reverse side.	Scan the front, flip the sheet on the bed, then scan the reverse side.
-	Scan the fronts before the reverse sides.	Scan the fronts before the reverse sides.
-	Scan the fronts, flip the stack (last sheet on top), then scan the reverse sides. Pages are interleaved front, back, …	Scan the fronts, flip the stack (last sheet on top), then scan the reverse sides. Pages are interleaved front, back, …
-	Scan the missing reverse sides, then choose Finish.	Scan the missing reverse sides, then choose Finish.
+	Scan reverse side now (1 front)	Pindai sisi belakang sekarang (1 sisi depan)
+	Scan reverse sides	Pindai sisi belakang
+	Scan reverse sides now ({n} fronts)	Pindai sisi belakang sekarang ({n} sisi depan)
+	Scan the front, flip the sheet on the bed, then scan the reverse side.	Pindai sisi depan, balik lembar di kaca pemindai, lalu pindai sisi belakangnya.
+	Scan the fronts before the reverse sides.	Pindai sisi depan sebelum sisi belakang.
+	Scan the fronts, flip the stack (last sheet on top), then scan the reverse sides. Pages are interleaved front, back, …	Pindai sisi depan, balik tumpukan (lembar terakhir di atas), lalu pindai sisi belakang. Halaman akan diselingi: depan, belakang, …
+	Scan the missing reverse sides, then choose Finish.	Pindai sisi belakang yang belum dipindai, lalu pilih Selesai.
 	scanned text	teks hasil pindai
 	Scanned text detected	Teks pindaian terdeteksi
-	Scanner	Scanner
-	Scanner settings	Scanner settings
-	Scanning front {n} of {t}…	Scanning front {n} of {t}…
-	Scanning front {n}…	Scanning front {n}…
-	Scanning needs Windows (WIA) in this version.	Scanning needs Windows (WIA) in this version.
-	Scanning page {n} of {t}…	Scanning page {n} of {t}…
-	Scanning page {n}…	Scanning page {n}…
-	Scanning reverse side {n} of {t}…	Scanning reverse side {n} of {t}…
-	Scanning reverse side {n}…	Scanning reverse side {n}…
-	Scanning…	Scanning…
+	Scanner	Pemindai
+	Scanner settings	Pengaturan pemindai
+	Scanning front {n} of {t}…	Memindai sisi depan {n} dari {t}…
+	Scanning front {n}…	Memindai sisi depan {n}…
+	Scanning needs Windows (WIA) in this version.	Versi ini memerlukan Windows (WIA) untuk memindai.
+	Scanning page {n} of {t}…	Memindai halaman {n} dari {t}…
+	Scanning page {n}…	Memindai halaman {n}…
+	Scanning reverse side {n} of {t}…	Memindai sisi belakang {n} dari {t}…
+	Scanning reverse side {n}…	Memindai sisi belakang {n}…
+	Scanning…	Memindai…
 	Screen flicker	Kedipan layar
 	Screen readers choose their voice from the document's language. Set it in Document Properties > Advanced > Language.	Pembaca layar memilih suaranya dari bahasa dokumen. Atur di Properti dokumen > Lanjutan > Bahasa.
-	Script	Script
+	Script	Skrip
 	Script Name:	Nama Skrip:
 	Script:	Skrip:
 	Scripted content must be usable with a keyboard and assistive technology. Check the document's scripts.	Konten berskrip harus dapat digunakan dengan keyboard dan teknologi bantu. Periksa skrip dokumen.
@@ -2440,8 +2429,8 @@ calendar weekday	Sa	Sab
 	Scroll tabs left	Gulir tab ke kiri
 	Scroll tabs right	Gulir tab ke kanan
 	Scroll the page	Gulir halaman
-	Search a folder	Search a folder
-	Search a folder…	Search a folder…
+	Search a folder	Cari di folder
+	Search a folder…	Cari di folder…
 	Search comments	Cari komentar
 	Search panel	Panel pencarian
 	Search results	Hasil pencarian
@@ -2450,11 +2439,11 @@ calendar weekday	Sa	Sab
 	Search tools…	Cari alat…
 	Searchable Image	Gambar yang Dapat Dicari
 	Searchable Image (Exact)	Gambar yang Dapat Dicari (Tepat)
-	Searching a folder needs the desktop app	Searching a folder needs the desktop app
+	Searching a folder needs the desktop app	Pencarian di folder memerlukan aplikasi desktop
 	Searching… {s} of {p} pages	Mencari… {s} dari {p} halaman
 	Searching… {s}/{p}	Mencari… {s}/{p}
 	Search…	Cari…
-	Secured	Secured
+	Secured	Terlindungi
 	Security method	Metode keamanan
 	Security properties	Properti keamanan
 	Security properties…	Properti keamanan…
@@ -2503,8 +2492,8 @@ certificate	Self-signed	Ditandatangani sendiri
 	Sent to {printer}: {msg}	Dikirim ke {printer}: {msg}
 	Sent. The printer can't say whether it printed.	Terkirim. Printer tidak dapat memastikan apakah sudah tercetak.
 	Separate PDFs	Pisahkan PDF
-	Separate the sheets and load the remaining ones, then choose Continue.	Separate the sheets and load the remaining ones, then choose Continue.
-	Separate the sheets and load them again, then choose Try again.	Separate the sheets and load them again, then choose Try again.
+	Separate the sheets and load the remaining ones, then choose Continue.	Pisahkan lembar yang menempel dan masukkan sisa kertas, lalu pilih Lanjutkan.
+	Separate the sheets and load them again, then choose Try again.	Pisahkan lembar yang menempel dan masukkan kembali, lalu pilih Coba lagi.
 	Separating page {n}…	Memisahkan halaman {n}…
 	Separator style:	Gaya pemisah:
 	Sepia night	Sepia malam
@@ -2537,7 +2526,7 @@ certificate	Serial number	Nomor seri
 	Set the image of {name}	Atur gambar untuk {name}
 	Set to current page ({n})	Samakan dengan halaman saat ini ({n})
 	Set to zero	Samakan dengan nol
-	Settings this source offers. Leave a control alone to keep the driver’s value.	Settings this source offers. Leave a control alone to keep the driver’s value.
+	Settings this source offers. Leave a control alone to keep the driver’s value.	Pengaturan yang tersedia untuk sumber ini. Biarkan pengaturan tetap seperti semula untuk memakai nilai dari driver.
 	SHA-1 digest	Digest SHA-1
 certificate	SHA-1 digest	Ringkasan SHA-1
 	SHA-256 digest	Digest SHA-256
@@ -2553,7 +2542,6 @@ key	Shift	Shift
 	Shift- or Ctrl/Command-click to select several fields.	Klik Shift- atau Ctrl/Command untuk memilih beberapa kolom.
 	Shift-click to select several objects. Drag empty space to select an area.	Klik Shift untuk memilih beberapa objek. Seret ruang kosong untuk memilih area.
 	ships in milestone {m}	rilis di milestone {m}
-	Shortcut	Shortcut
 	Show a basic title bar for the window buttons instead of the tab strip. GNOME doesn't draw title bars for apps, so this one doesn't follow its theme.	Tampilkan bilah judul sederhana untuk tombol jendela alih-alih strip tab. GNOME tidak menggambar bilah judul untuk aplikasi, jadi yang ini tidak mengikuti temanya.
 	Show a field	Tampilkan kolom
 	Show a notice when a document is secured	Tampilkan pemberitahuan saat dokumen diamankan
@@ -2569,13 +2557,13 @@ key	Shift	Shift
 	Show less	Tampilkan lebih sedikit
 	Show line weights	Tampilkan ketebalan garis
 	Show on other pages too	Tampilkan juga di halaman lain
-	Show on the page which fields each field reads	Show on the page which fields each field reads
+	Show on the page which fields each field reads	Tampilkan di halaman kolom mana yang menjadi sumber nilai setiap kolom
 	Show or hide toolbars and panels	Tampilkan atau sembunyikan bilah alat dan panel
 	Show password	Tampilkan kata sandi
 	Show Report	Tampilkan Laporan
 	Show template {name}	Tampilkan templat {name}
 	Show the accessibility report	Tampilkan laporan aksesibilitas
-	Show the current page number over the document	Show the current page number over the document
+	Show the current page number over the document	Tampilkan nomor halaman saat ini di atas dokumen
 	Show the Discord button in the title bar and the community card on Home	Tampilkan tombol Discord di bilah judul dan kartu komunitas di Beranda
 	Show the menus in the macOS menu bar	Tampilkan menu di bilah menu macOS
 	Show this dialog when the Checker starts	Tampilkan dialog ini saat Pemeriksa dimulai
@@ -2583,7 +2571,7 @@ key	Shift	Shift
 	Show {n} more	Tampilkan {n} lagi
 	Shown while the pointer is over a mark.	Ditampilkan saat pointer berada di atas tanda.
 	Shrink oversized pages	Perkecil halaman yang terlalu besar
-	Shrink the page content to make room for the header and footer	Shrink the page content to make room for the header and footer
+	Shrink the page content to make room for the header and footer	Perkecil isi halaman untuk memberi ruang bagi header dan footer
 	Side by side	Berdampingan
 	Side panels	Panel samping
 	Sign	Tanda tangani
@@ -2638,20 +2626,20 @@ key	Shift	Shift
 	Slash	Garis miring
 scroll speed	Slow	Lambat
 	Smaller pages	Halaman lebih kecil
-	Smaller thumbnails	Smaller thumbnails
+	Smaller thumbnails	Perkecil gambar mini
 	Smart card  ·  	Kartu pintar  ·  
 	Snap targets	Target tempel
 	Snap to drawing	Tempel ke gambar
 	Snap to drawing: off	Tempel ke gambar: nonaktif
 	Snap to drawing: on	Tempel ke gambar: aktif
-	Snapping	Snapping
+	Snapping	Lekat otomatis
 	Social Security Number	Nomor Jaminan Sosial
 	Social Security Numbers	Nomor Jaminan Sosial
 	Soft dark gray	Abu-abu gelap lembut
 	Solid	Padat
 	Some bookmarks are not shown here: the panel lists a limited number, nested a limited depth.	Sebagian bookmark tidak ditampilkan di sini: panel hanya menampilkan jumlah dan tingkat kedalaman yang terbatas.
 	Some content could not be classified safely and was kept in the count.	Beberapa konten tidak dapat diklasifikasikan dengan aman dan tetap dihitung.
-	Some names are built as it runs	Some names are built as it runs
+	Some names are built as it runs	Sebagian nama disusun saat skrip berjalan
 	Some page content couldn't be read; snapping uses the rest.	Sebagian konten halaman tidak dapat dibaca; tempelan memakai bagian sisanya.
 	Some pages contain no countable text. Scanned images need OCR first.	Beberapa halaman tidak berisi teks yang dapat dihitung. Gambar hasil pemindaian memerlukan OCR terlebih dahulu.
 	Sort by	Urutkan menurut
@@ -2673,7 +2661,7 @@ key	Space	Space
 	Split down	Pisah ke bawah
 	Split into files…	Pisah menjadi file…
 	Split right	Pisah ke kanan
-	Spreadsheet (.xlsx)	Spreadsheet (.xlsx)
+	Spreadsheet (.xlsx)	Lembar kerja (.xlsx)
 	Squiggly	Bergelombang
 	Squiggly underline	Garis bawah bergelombang
 	Squiggly underline text	Teks garis bawah bergelombang
@@ -2691,13 +2679,12 @@ action wizard	Start	Mulai
 	Still printing; the job continues on the printer	Masih mencetak; pekerjaan berlanjut di printer
 	Still rendering — this page is unusually complex…	Masih merender — halaman ini sangat kompleks…
 	Still waiting for your email app…	Masih menunggu aplikasi email Anda…
-	Stop	Stop
-	Stopped at {limit} matches.	Stopped at {limit} matches.
-	Stopped before the end.	Stopped before the end.
-	Stopped: too many files took too long to read.	Stopped: too many files took too long to read.
+	Stopped at {limit} matches.	Pencarian dihentikan setelah {limit} hasil cocok.
+	Stopped before the end.	Dihentikan sebelum selesai.
+	Stopped: too many files took too long to read.	Dihentikan karena terlalu banyak file yang lama dibaca.
 	Store JPEG images as JPEG XL (smaller, can be undone; needs a reader that supports JPEG XL)	Simpan gambar JPEG sebagai JPEG XL (lebih kecil, dapat dibatalkan; memerlukan pembaca yang mendukung JPEG XL)
 	Straighten skewed scans	Luruskan hasil pindai yang miring
-	Straighten the page	Straighten the page
+	Straighten the page	Luruskan halaman
 	Strength: {s}	Kekuatan: {s}
 	Strikethrough text	Teks coret
 	Stroke colour	Warna garis
@@ -2706,7 +2693,6 @@ action wizard	Start	Mulai
 calendar weekday	Su	Su
 certificate	Subject	Subjek
 	Submit a form	Kirim formulir
-	Subscript	Subscript
 	Subset	Subhimpunan
 	Success	Berhasil
 	Suggest edits	Sarankan perubahan
@@ -2714,11 +2700,10 @@ certificate	Subject	Subjek
 	Summarize	Ringkas
 	Summarize comments	Ringkas komentar
 	Summarize Options	Ringkasan Opsi
-	Superscript	Superscript
 	Swap width and height	Tukar lebar dan tinggi
 	Switch light / dark theme	Ganti tema terang / gelap
-	Switch the scanner off and on again, wait until it is ready, then choose Continue.	Switch the scanner off and on again, wait until it is ready, then choose Continue.
-	Switch the scanner off and on again, wait until it is ready, then choose Try again.	Switch the scanner off and on again, wait until it is ready, then choose Try again.
+	Switch the scanner off and on again, wait until it is ready, then choose Continue.	Matikan lalu nyalakan kembali pemindai. Tunggu hingga siap, lalu pilih Lanjutkan.
+	Switch the scanner off and on again, wait until it is ready, then choose Try again.	Matikan lalu nyalakan kembali pemindai. Tunggu hingga siap, lalu pilih Coba lagi.
 	Switch to List view to change the pages it takes.	Beralih ke tampilan Daftar untuk mengubah halaman yang digunakannya.
 	Switch to two-page view first to show the cover page	Beralih ke tampilan dua halaman terlebih dahulu untuk menampilkan halaman sampul
 	System font	Fon sistem
@@ -2787,7 +2772,7 @@ calendar weekday	Th	Kam
 	That didn't work: an internal error stopped it ({m}).	Itu tidak berhasil: kesalahan internal menghentikannya ({m}).
 	That didn't work: an internal error stopped it ({m}). Your documents are unchanged.	itu tidak berhasil: kesalahan internal menghentikannya ({m}). Dokumen Anda tidak berubah.
 	the area, the spacing and the column widths must be numbers, the spacing 0 or more and each width more than 0	area, jarak, dan lebar lajur harus berupa angka, jarak 0 atau lebih dan setiap lebar lebih dari 0
-	The bed scans one page at a time. Scan one front, flip it, then scan its reverse side.	The bed scans one page at a time. Scan one front, flip it, then scan its reverse side.
+	The bed scans one page at a time. Scan one front, flip it, then scan its reverse side.	Kaca pemindai memindai satu halaman setiap kali. Pindai sisi depan, balik lembar, lalu pindai sisi belakangnya.
 	the certificate authorities	otoritas sertifikat
 	The certificate of {} does not allow this many CA certificates below it (path length), so it is not used to vouch for {}.	Sertifikat {} tidak mengizinkan jumlah sertifikat CA sebesar itu di bawahnya (panjang jalur), sehingga tidak digunakan untuk menjamin {}.
 	The certificate of {} is not a CA certificate that may issue certificates, so it is not used to vouch for {}.	Sertifikat {} bukan sertifikat CA yang dapat menerbitkan sertifikat, sehingga tidak digunakan untuk menjamin {}.
@@ -2837,18 +2822,18 @@ calendar weekday	Th	Kam
 	The document's embedded revocation information shows that the signer's certificate has not been revoked.	Informasi pencabutan yang tertanam pada dokumen menunjukkan bahwa sertifikat penanda tangan belum dicabut.
 	The document's security settings don't allow copying text and images	Pengaturan keamanan dokumen tidak mengizinkan penyalinan teks dan gambar
 	The document's security settings don't allow filling in form fields	Pengaturan keamanan dokumen tidak mengizinkan pengisian kolom formulir
-	The document's security settings don't allow printing	The document's security settings don't allow printing
+	The document's security settings don't allow printing	Pengaturan keamanan dokumen tidak mengizinkan pencetakan
 	The document's security settings don't allow this change	Pengaturan keamanan dokumen tidak mengizinkan perubahan ini
-	The driver may accept a turn and leave the picture as it was.	The driver may accept a turn and leave the picture as it was.
-	The driver reports a paper jam.	The driver reports a paper jam.
-	The driver reports a sheet waiting. The bit can stay on after the tray is empty.	The driver reports a sheet waiting. The bit can stay on after the tray is empty.
+	The driver may accept a turn and leave the picture as it was.	Driver mungkin menerima perintah rotasi tanpa memutar gambar.
+	The driver reports a paper jam.	Driver melaporkan kertas macet.
+	The driver reports a sheet waiting. The bit can stay on after the tray is empty.	Driver melaporkan ada lembar yang menunggu. Status ini bisa tetap aktif meski baki sudah kosong.
 	The ECDSA signature is not in canonical DER (trailing bytes, padding or a missing sign byte); it was read anyway.	Tanda tangan ECDSA bukan DER kanonis (byte tambahan, padding, atau byte tanda yang hilang); tetapi tetap dibaca.
 	The ECDSA signature is the raw r and s values instead of a DER sequence; it was read anyway.	Tanda tangan ECDSA berupa nilai r dan s mentah, bukan urutan DER; tetapi tetap dibaca.
 	The embedded timestamp token is valid and its authority is trusted; trusted time is {}.	Token stempel waktu yang tertanam valid dan otoritasnya dipercaya; waktu yang dipercaya adalah {}.
 	The existing action will be preserved.	Tindakan yang ada akan dipertahankan.
 	The extracted pages aren't protected: the original's security settings don't carry over.	Halaman yang diekstrak tidak dilindungi: pengaturan keamanan dokumen asli tidak ikut terbawa.
-	The feeder ran out of paper.	The feeder ran out of paper.
-	The feeder took more than one sheet.	The feeder took more than one sheet.
+	The feeder ran out of paper.	Kertas di pengumpan habis.
+	The feeder took more than one sheet.	Pengumpan menarik lebih dari satu lembar sekaligus.
 	The field properties could not be changed.	Properti kolom tidak dapat diubah.
 	The field properties dialog is no longer open.	Dialog properti kolom tidak lagi terbuka.
 	The field {name} no longer exists.	Kolom {name} tidak lagi ada.
@@ -2860,7 +2845,7 @@ calendar weekday	Th	Kam
 	The fonts PdfCraft writes with can't draw “{c}” ({code}), so it shows as ? in every PDF viewer. The text is saved.	Font yang dipakai PdfCraft tidak dapat menggambar “{c}” ({code}), sehingga teks itu tampil sebagai ? di setiap penampil PDF. Teks tetap tersimpan.
 	The form asks to be submitted to {u}; PdfCraft doesn't send form data. Save the document to keep your entries.	Formulir diminta untuk dikirim ke {u}; PdfCraft tidak mengirim data formulir. Simpan dokumen untuk mempertahankan isi Anda.
 	The form asks viewers to make appearances (NeedAppearances)	Formulir meminta penampil untuk membuat tampilan (NeedAppearances)
-	The fronts already scanned are kept for the reverse-side pass.	The fronts already scanned are kept for the reverse-side pass.
+	The fronts already scanned are kept for the reverse-side pass.	Hasil pindai sisi depan tetap disimpan untuk dipasangkan dengan sisi belakang.
 	The historical model detects its supported scripts automatically; Japanese is not included.	Model historis mendeteksi aksara yang didukungnya secara otomatis; bahasa Jepang tidak termasuk.
 	The image couldn't be used as an icon: {e}	Gambar tidak dapat digunakan sebagai ikon: {e}
 	The image has been copied ({w} × {h} pixels)	Gambar telah disalin ({w} × {h} piksel)
@@ -2879,13 +2864,13 @@ calendar weekday	Th	Kam
 	The new file has no signature left and no earlier revision holding it.	File baru tidak memiliki tanda tangan lagi dan tidak ada revisi sebelumnya yang menyimpannya.
 	The newest {n} of {total} PDFs	{n} PDF terbaru dari {total}
 	The operation failed.	Operasi gagal.
-	The order saved in the PDF needs tidying	The order saved in the PDF needs tidying
+	The order saved in the PDF needs tidying	Urutan yang disimpan di PDF perlu diperbaiki
 	The originals are not changed. A file of the same name in the output folder is kept, and the new one gets a number.	Berkas asli tidak diubah. Berkas bernama sama di folder keluaran tetap disimpan, dan berkas baru diberi nomor.
 	The other signatures ({names}) will report that the document changed after they signed. Check them again: nothing says they stay valid.	Tanda tangan lainnya ({names}) akan melaporkan bahwa dokumen berubah setelah ditandatangani. Periksa kembali: tidak ada jaminan tanda tangan tersebut tetap valid.
 	The output folder can't be one of the folders being read, or contain one.	Folder keluaran tidak boleh salah satu folder yang dibaca, atau berisi salah satunya.
 	The page could not be separated: {error}	Halaman tidak dapat dipisahkan: {error}
 	The page has changed; select the image again	Halaman telah berubah; pilih gambar lagi
-	The pages already scanned were kept in the document.	The pages already scanned were kept in the document.
+	The pages already scanned were kept in the document.	Halaman yang sudah dipindai tetap ada di dokumen.
 	The pages were extracted but not deleted, because the document changed while you were choosing a folder.	Halaman diekstrak tetapi tidak dihapus, karena dokumen berubah saat Anda memilih folder.
 	the paragraph can't be rewritten	paragraf tidak dapat ditulis ulang
 	the password is incorrect	kata sandinya salah
@@ -2899,7 +2884,7 @@ calendar weekday	Th	Kam
 	The PDF text fonts can't draw “{c}” ({code}). Choose supported text.	Font teks PDF tidak dapat menggambar “{c}” ({code}). Pilih teks yang didukung.
 	The PIN goes only to the card; PdfCraft doesn't keep it.	PIN hanya dikirim ke kartu; PdfCraft tidak menyimpannya.
 	The PIN is incorrect.	PIN salah.
-	The preview could not be shown.	The preview could not be shown.
+	The preview could not be shown.	Pratinjau tidak dapat ditampilkan.
 	The print job stopped unexpectedly	Pekerjaan cetak berhenti secara tak terduga
 	The printer accepts none of the formats this document can be sent in	Printer tidak menerima satu pun format yang dapat digunakan untuk mengirim dokumen ini
 	The printer address was refused	Alamat printer ditolak
@@ -2916,30 +2901,30 @@ calendar weekday	Th	Kam
 	The redirect URI must be http://127.0.0.1 or http://localhost with a port.	URI pengalihan harus http://127.0.0.1 atau http://localhost dengan port.
 	The replacement file doesn't have that many pages.	File pengganti tidak memiliki sebanyak itu halaman.
 	the request stopped without an answer	permintaan berhenti tanpa jawaban
-	The rest are left out of this list.	The rest are left out of this list.
+	The rest are left out of this list.	Sisanya tidak ditampilkan dalam daftar ini.
 	The restrictions apply to recipients without “All permissions”. It's applied when you save.	Pembatasan berlaku untuk penerima tanpa “Semua izin”. Diterapkan saat Anda menyimpan.
-	The reverse sides already scanned are kept.	The reverse sides already scanned are kept.
-	The reverse sides were cancelled: their document was closed.	The reverse sides were cancelled: their document was closed.
+	The reverse sides already scanned are kept.	Hasil pindai sisi belakang yang sudah diterima tetap disimpan.
+	The reverse sides were cancelled: their document was closed.	Pemindaian sisi belakang dibatalkan karena dokumennya ditutup.
 	the rows are too short: make the area taller, or use fewer rows or less row spacing	baris terlalu pendek: buat area lebih tinggi, atau gunakan lebih sedikit baris atau jarak antarbaris yang lebih kecil
 	The RSA signature value does not have the length of the key's modulus (leading zero bytes dropped or added); it was read anyway.	Nilai tanda tangan RSA tidak memiliki panjang sebesar modulus kunci (nol di depan dihapus atau ditambahkan); tetapi tetap dibaca.
 	The RSA signature's DigestInfo has no NULL parameter (older signers write it so); it was read anyway.	DigestInfo tanda tangan RSA tidak memiliki parameter NULL (penandatangan lama menulisnya demikian); tetapi tetap dibaca.
 	The same password is tried on each file.	Kata sandi yang sama dicoba pada setiap file.
-	The same printer is also available over the network.	The same printer is also available over the network.
-	The same printer is also available over USB.	The same printer is also available over USB.
-	The scan could not be started.	The scan could not be started.
-	The scan produced no pages.	The scan produced no pages.
-	The scan was cancelled at the scanner.	The scan was cancelled at the scanner.
-	The scan was interrupted.	The scan was interrupted.
-	The scan was stopped: its document was closed.	The scan was stopped: its document was closed.
-	The scanner has a paper jam.	The scanner has a paper jam.
-	The scanner is busy, or the feeder has no paper.	The scanner is busy, or the feeder has no paper.
-	The scanner is busy.	The scanner is busy.
-	The scanner is offline or needs attention.	The scanner is offline or needs attention.
-	The scanner list could not be refreshed.	The scanner list could not be refreshed.
-	The scanner needs attention.	The scanner needs attention.
-	The scanner reported a lamp or device error.	The scanner reported a lamp or device error.
-	The scanner reported a paper problem (a jam or several sheets fed together).	The scanner reported a paper problem (a jam or several sheets fed together).
-	The search stopped unexpectedly.	The search stopped unexpectedly.
+	The same printer is also available over the network.	Printer yang sama juga tersedia melalui jaringan.
+	The same printer is also available over USB.	Printer yang sama juga tersedia melalui USB.
+	The scan could not be started.	Pemindaian tidak dapat dimulai.
+	The scan produced no pages.	Pemindaian tidak menghasilkan halaman.
+	The scan was cancelled at the scanner.	Pemindaian dibatalkan dari perangkat pemindai.
+	The scan was interrupted.	Pemindaian terhenti.
+	The scan was stopped: its document was closed.	Pemindaian dihentikan karena dokumennya ditutup.
+	The scanner has a paper jam.	Kertas macet di pemindai.
+	The scanner is busy, or the feeder has no paper.	Pemindai sedang digunakan, atau kertas di pengumpan habis.
+	The scanner is busy.	Pemindai sedang digunakan.
+	The scanner is offline or needs attention.	Pemindai tidak tersambung atau memerlukan penanganan.
+	The scanner list could not be refreshed.	Daftar pemindai tidak dapat diperbarui.
+	The scanner needs attention.	Pemindai memerlukan penanganan.
+	The scanner reported a lamp or device error.	Pemindai melaporkan gangguan lampu atau perangkat.
+	The scanner reported a paper problem (a jam or several sheets fed together).	Pemindai melaporkan masalah kertas (macet atau beberapa lembar tertarik bersamaan).
+	The search stopped unexpectedly.	Pencarian berhenti secara tak terduga.
 	The security settings don't allow screen readers to read the text	Pengaturan keamanan tidak mengizinkan pembaca layar untuk membaca teks
 	The selected area has been copied ({w} × {h} pixels)	Area yang dipilih telah disalin ({w} × {h} piksel)
 	The selected area is no longer on a page of this document.	Area terpilih tidak lagi berada di halaman dokumen ini.
@@ -3064,7 +3049,7 @@ calendar weekday	Th	Kam
 	This file is already as small as it can be made ({size}). No copy was saved.	File ini sudah sekecil mungkin ({size}). Tidak ada salinan yang disimpan.
 	this file isn't XFDF, FDF, XML or text form data	file ini bukan XFDF, FDF, XML, atau data formulir teks
 	This file was damaged and has been repaired. Saving keeps the repaired version.	File ini rusak dan telah diperbaiki. Menyimpan mempertahankan versi yang sudah diperbaiki.
-	This folder is too large or too deep to search all of it.	This folder is too large or too deep to search all of it.
+	This folder is too large or too deep to search all of it.	Folder ini terlalu besar atau memiliki terlalu banyak tingkat subfolder untuk ditelusuri seluruhnya.
 	This folder isn't available right now. It may have moved, or its drive or cloud sync is offline.	Folder ini sedang tidak tersedia. Folder mungkin telah berpindah, atau drive atau sinkronisasi cloud-nya sedang luring.
 	This form also contains XFA data, which PdfCraft doesn't read yet. You can fill its fields, but Acrobat may show the XFA values instead.	Formulir ini juga berisi data XFA, yang belum dibaca PdfCraft. Anda dapat mengisi kolomnya, tetapi Acrobat mungkin menampilkan nilai XFA sebagai gantinya.
 	This form's scripts are turned off because one ran too long. Reopen the document to run them again.	Skrip formulir ini dinonaktifkan karena salah satunya berjalan terlalu lama. Buka kembali dokumen untuk menjalankannya lagi.
@@ -3074,7 +3059,7 @@ calendar weekday	Th	Kam
 	This is the last PDF in its folder	Ini PDF terakhir di foldernya
 	This key is used for “{what}” and can't be changed.	Tombol ini digunakan untuk “{what}” dan tidak dapat diubah.
 	This key moves around the interface on its own. Add Ctrl to use it.	Tombol ini bergerak di antarmuka dengan sendirinya. Tambahkan Ctrl untuk menggunakannya.
-	This large file is being read from disk to save memory, so it can't be edited, filled in or signed yet.	This large file is being read from disk to save memory, so it can't be edited, filled in or signed yet.
+	This large file is being read from disk to save memory, so it can't be edited, filled in or signed yet.	File besar ini dibaca langsung dari disk untuk menghemat memori, sehingga belum dapat diedit, diisi, atau ditandatangani.
 	This measurement needs at least {n} points.	Pengukuran ini memerlukan minimal {n} titik.
 	This page contains objects that cannot be selected together.	Halaman ini berisi objek yang tidak dapat dipilih bersama-sama.
 	This page couldn't be displayed.\n{e}	Halaman ini tidak dapat ditampilkan.\n{e}
@@ -3097,8 +3082,7 @@ calendar weekday	Th	Kam
 	this signing service can't be used: it needs OAuth sign-in in a browser, which PdfCraft doesn't support yet	layanan tanda tangan ini tidak dapat digunakan: memerlukan masuk OAuth di browser, yang belum didukung PdfCraft
 	This web address mixes letters from different alphabets, a common way to imitate another site's name.	Alamat web ini mencampur huruf dari beberapa abjad, cara umum untuk menyamar sebagai nama situs lain.
 	This web address uses letters from another alphabet, which can look like familiar ones.	Alamat web ini memakai huruf dari abjad lain, yang bisa tampak seperti huruf yang familier.
-	Threshold	Threshold
-	Thumbnail size	Thumbnail size
+	Thumbnail size	Ukuran gambar mini
 	Thumbnails	Thumbnail
 	Tile scale:	Skala ubin:
 	Timed responses	Respons berjadwal
@@ -3107,7 +3091,7 @@ calendar weekday	Th	Kam
 	Timestamps and revocation information need the desktop app. Turn them off in Preferences ▸ Signatures to sign here.	Stempel waktu dan informasi pencabutan memerlukan aplikasi desktop. Matikan di Preferensi > Tanda tangan untuk menandatangani di sini.
 	to	hingga
 	To change locked fields, also set Locked to No.	Untuk mengubah kolom terkunci, tetapkan juga Terkunci ke Tidak.
-	To print this large file, load all of it first with Load to edit.	To print this large file, load all of it first with Load to edit.
+	To print this large file, load all of it first with Load to edit.	Untuk mencetak file besar ini, muat seluruh isinya lebih dulu dengan Muat untuk diedit.
 	to {n}	hingga {n}
 	To:	Ke:
 	Today	Hari ini
@@ -3116,21 +3100,21 @@ calendar weekday	Th	Kam
 	Token  ·  	Token  ·  
 	Token PIN	PIN token
 	Tokens and smart cards sign through a PKCS #11 module. Only add modules you trust: a module runs its own code.	Token dan kartu pintar menandatangani melalui modul PKCS #11. Tambahkan hanya modul yang Anda percayai: modul menjalankan kodenya sendiri.
-	Too early	Too early
+	Too early	Terlalu awal
 	Too many spot inks to separate: {names}	Terlalu banyak tinta spot untuk dipisahkan: {names}
 	Too many windows are open	Terlalu banyak jendela terbuka
-	Took too long to read	Took too long to read
+	Took too long to read	Waktu baca terlalu lama
 	Tools panel side	Sisi panel alat
 	Tools shown in All tools	Alat yang ditampilkan di «Semua alat»
-	Tooltip	Tooltip
-	Tooltip:	Tooltip:
+	Tooltip	Petunjuk
+	Tooltip:	Petunjuk:
 	Top left	Kiri atas
 	Top right	Kanan atas
 	Top-level bookmarks ({n})	Bookmark tingkat atas ({n})
 	Total	Total
 	Total area coverage	Cakupan area total
 	TR must be a child of Table, THead, TBody, or TFoot	TR harus menjadi anak dari Table, THead, TBody, atau TFoot
-	Transfer format: {format}.	Transfer format: {format}.
+	Transfer format: {format}.	Format transfer: {format}.
 	Translate	Terjemahkan
 	Trim marks	Tanda pangkas
 	Trim the picture with its handles; Enter or Done applies	Pangkas gambar dengan pegangannya; Enter atau Selesai menerapkannya
@@ -3142,7 +3126,7 @@ calendar weekday	Tu	Sel
 	Turn off continuous scrolling	Nonaktifkan gulir terus-menerus
 	Turn on continuous scrolling	Aktifkan gulir terus-menerus
 	Turn upside down (180°)	Putar terbalik (180°)
-	Turned left	Turned left
+	Turned left	Diputar ke kiri
 	Turned off because your administrator's policy couldn't be read.	Dimatikan karena kebijakan administrator Anda tidak dapat dibaca.
 	Turned off by your administrator.	Dimatikan oleh administrator Anda.
 	two cells would both be named {name}	dua sel akan sama-sama bernama {name}
@@ -3163,7 +3147,7 @@ signature pad	Type	Ketik
 	Typewriter	Mesin ketik
 	Uncertain orientations are left unchanged. Deskew fits the full image inside the page.	Orientasi yang tidak pasti dibiarkan apa adanya. Pelurusan menyesuaikan seluruh gambar ke dalam halaman.
 	Unchecked	Tidak dicentang
-	Unchecked reads	Unchecked reads
+	Unchecked reads	Ketergantungan yang belum diperiksa
 	Underline	Garis bawah
 	Underline text	Teks bergaris bawah
 	Undid {label}	Membatalkan {label}
@@ -3172,7 +3156,7 @@ signature pad	Type	Ketik
 	Undo {action}	Urungkan {action}
 	Ungroup	Pisahkan grup
 	Ungroup artwork	Pisahkan grup grafis
-	Unit	Unit
+	Unit	Satuan
 	Units	Unit
 	Unknown author	Penulis tidak dikenal
 	unknown signer	penanda tangan tidak dikenal
@@ -3201,7 +3185,7 @@ signature pad	Type	Ketik
 	Update header & footer…	Perbarui header & footer…
 	Update watermark	Perbarui tanda air
 	Update watermark…	Perbarui tanda air…
-	Upside down	Upside down
+	Upside down	Terbalik
 	URL to submit to	URL tujuan pengiriman
 	USB	USB
 	Use 72 DPI (one point per pixel)	Gunakan 72 DPI (satu titik per piksel)
@@ -3259,7 +3243,7 @@ certificate	Validity starts	Validitas dimulai
 certificate	Version	Versi
 	Version {v}	Versi {v}
 	Vertex	Verteks
-	Vertical resolution	Vertical resolution
+	Vertical resolution	Resolusi vertikal
 	Vertical reversed	Vertikal terbalik
 	Vertical text cannot be moved with this selection.	Teks vertikal tidak dapat dipindahkan dengan pilihan ini.
 	Vertically	Vertikal
@@ -3277,8 +3261,8 @@ certificate	Version	Versi
 	Visual initials (Fill & Sign, not digital)	Inisial visual (Isi & Tanda Tangani, bukan digital)
 	Visual signature (Fill & Sign, not digital)	Tanda tangan visual (Isi & Tanda Tangani, bukan digital)
 	Wait for text recognition to finish before changing add-ons	Tunggu hingga pengenalan teks selesai sebelum mengubah add-on
-	Wait for the scanner to finish, or close any other program using it, then choose Continue.	Wait for the scanner to finish, or close any other program using it, then choose Continue.
-	Wait for the scanner to finish, or close any other program using it, then choose Try again.	Wait for the scanner to finish, or close any other program using it, then choose Try again.
+	Wait for the scanner to finish, or close any other program using it, then choose Continue.	Tunggu hingga pemindai selesai, atau tutup aplikasi lain yang menggunakannya, lalu pilih Lanjutkan.
+	Wait for the scanner to finish, or close any other program using it, then choose Try again.	Tunggu hingga pemindai selesai, atau tutup aplikasi lain yang menggunakannya, lalu pilih Coba lagi.
 	Waiting for the system print dialog…	Menunggu dialog cetak sistem…
 	Waiting for your approval in the browser…	Menunggu persetujuan Anda di browser…
 	Waiting in the printer's queue	Menunggu dalam antrean printer
@@ -3292,8 +3276,8 @@ calendar weekday	We	Rab
 	White on black	Putih di atas hitam
 	Whole words only	Hanya kata utuh
 	Widen the page to make room	Lebarkan halaman untuk memberi ruang
-	Will use the bed.	Will use the bed.
-	Will use the feeder.	Will use the feeder.
+	Will use the bed.	Akan memakai kaca pemindai.
+	Will use the feeder.	Akan memakai pengumpan kertas.
 	Window Options	Opsi Jendela
 	Windows store  ·  	Windows store  ·  
 	Word count	Jumlah kata
@@ -3334,12 +3318,10 @@ calendar weekday	We	Rab
 	Zip Code	Kode Pos
 	Zip Code + 4	Kode Pos + 4
 	Zoom (Z)	Zoom (Z)
-	Zoom in	Perbesar
 	Zoom in ({key})	Perbesar ({key})
 	Zoom in (⌘+)	Perbesar (⌘+)
 	Zoom in / out (also pinch or {key}-scroll)	Perbesar / perkecil (juga cubit atau gulir {key})
 	Zoom in / out (also pinch or ⌘-scroll)	Perbesar / perkecil (juga cubit atau ⌘-gulir)
-	Zoom out	Perkecil
 	Zoom out ({key})	Perkecil ({key})
 	Zoom out (⌘−)	Perkecil (⌘−)
 	Zoom to page level	Zoom ke tingkat halaman
@@ -3351,11 +3333,11 @@ calendar weekday	We	Rab
 	{chars} can't be written into the PDF yet: Fill & Sign text is Western European or Korean only. Pick a numeric format such as dd.mm.yyyy.	{chars} belum dapat ditulis ke PDF: teks Isi & Tanda Tangani hanya untuk Western European dan Korea. Pilih format angka seperti dd.mm.yyyy.
 	{c} of {n}{more}	{c} dari {n}{more}
 	{dpi} pixels/inch	{dpi} piksel/inci
-	{fields} read each other	{fields} read each other
-	{field} reads fields named as it runs	{field} reads fields named as it runs
-	{field} reads its own value	{field} reads its own value
-	{field} reads no other field	{field} reads no other field
-	{field} reads {fields}	{field} reads {fields}
+	{fields} read each other	{fields} saling membaca nilai
+	{field} reads fields named as it runs	{field} membaca kolom yang namanya disusun saat skrip berjalan
+	{field} reads its own value	{field} membaca nilainya sendiri
+	{field} reads no other field	{field} tidak membaca kolom lain
+	{field} reads {fields}	{field} membaca {fields}
 	{field}: {e}	{field}: {e}
 	{file} is too large for a stamp (at most {n} MB)	{file} terlalu besar untuk stempel (maksimal {n} MB)
 	{folder} is already pinned to Home	{folder} sudah disematkan ke Beranda
@@ -3370,10 +3352,10 @@ calendar weekday	We	Rab
 	{label} (1 issue)	{label} (1 masalah)
 	{label} ({n} issues)	{label} ({n} masalah)
 	{label} failed: {e}	{label} gagal: {e}
-	{month} {day}, {y}	{month} {day}, {y}
+	{month} {day}, {y}	{day} {month} {y}
 	{month} {y}	{month} {y}
 	{msg} to {dir}	{msg} ke {dir}
-	{names} and {last}	{names} and {last}
+	{names} and {last}	{names} dan {last}
 	{names} certifies this document without allowing comments, and will report this change.	{names} menyertifikasi dokumen ini tanpa mengizinkan komentar, dan akan melaporkan perubahan ini.
 	{names} certifies this document, and removing a signature is not a change its certification permits.	{names} menyertifikasi dokumen ini, dan menghapus tanda tangan bukan perubahan yang diizinkan sertifikasinya.
 	{name} (default)	{name} (bawaan)
@@ -3407,13 +3389,13 @@ calendar weekday	We	Rab
 	{n} match(es) marked for redaction.	{n} kecocokan ditandai untuk disensor.
 	{n} measurements use an unsupported format and are left out.	{n} pengukuran menggunakan format yang tidak didukung dan dikecualikan.
 @plural	{n} object selected|{n} objects selected	{n} objek dipilih
-	{n} of {m} pages were scanned.	{n} of {m} pages were scanned.
+	{n} of {m} pages were scanned.	{n} dari {m} halaman berhasil dipindai.
 	{n} pages	{n} halaman
 	{n} pages and no bookmarks	{n} halaman dan tanpa bookmark
 	{n} pages hold more content than PdfCraft can read, page {page} first: parts of them aren't drawn, and only part of their text can be found or copied.	{n} halaman berisi lebih banyak konten daripada yang dapat dibaca PdfCraft, dimulai dari halaman {page}: sebagian tidak digambar, dan hanya sebagian teksnya yang dapat dicari atau disalin.
 	{n} pages selected	{n} halaman dipilih
 	{n} pages selected.	{n} halaman dipilih.
-	{n} pages were scanned.	{n} pages were scanned.
+	{n} pages were scanned.	{n} halaman berhasil dipindai.
 @plural	{n} page|{n} pages	{n} halaman
 @plural	{n} pixel|{n} pixels	{n} piksel
 @plural	{n} reply|{n} replies	{n} balasan
@@ -3441,7 +3423,7 @@ calendar weekday	We	Rab
 	{who}, certificate issued by {issuer}.	{who}, sertifikat diterbitkan oleh {issuer}.
 	{why} ({n})	{why} ({n})
 	{words} on {pages}	{words} di {pages}
-	{w} × {h} in, {pxw} × {pxh} pixels, {size}	{w} × {h} in, {pxw} × {pxh} pixels, {size}
+	{w} × {h} in, {pxw} × {pxh} pixels, {size}	{w} × {h} inci, {pxw} × {pxh} piksel, {size}
 	{} annotation on page {p} isn't tagged	anotasi {} pada halaman {p} tidak diberi tag
 	{} annotations aren't allowed	anotasi {} tidak diizinkan
 	ΔLOC	ΔLOC
