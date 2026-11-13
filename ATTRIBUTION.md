@@ -310,3 +310,7 @@ Synced from `photocraft@7c64653` to `photocraft@2772ac1` with
 ## TextureCraft initial migration
 
 The `texturecraft.tsv` catalogs for ar, de, es, fr, it, ja, ko, pt-br and zh-hans were migrated from [TextureCraft `21856d778347e13857f65c8f1107170797bd070f`](https://github.com/storytold/texturecraft/tree/21856d778347e13857f65c8f1107170797bd070f/crates/ui-egui/src/i18n), MIT OR Apache-2.0. Original wording and contributor credits remain in the upstream history. Migration tooling was AI-assisted; no new translations were authored and no additional native-speaker review was performed. Every original row was checked against the resolved app and shared catalogs. Tracked in storytold/texturecraft#419.
+
+## PhotoCraft: Swedish rows kept up to date
+
+Patrik Lermon (@kler) adds and updates PhotoCraft's `sv` rows as PhotoCraft gains strings, written from the English meaning with craft-sv-translate. Terms follow the existing Swedish rows. AI-drafted with Claude Code from the English source. The author is a native Swedish speaker who spot-checks the Swedish but has not checked every string.
