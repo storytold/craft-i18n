@@ -898,6 +898,7 @@ cameraRaw	Darks	Tamni tonovi
 cameraData	Date Taken	Datum snimanja
 	DateTime Original	Izvorni datum i vreme
 	Day For Night	Dan za noć
+	DDS Import	Uvoz DDS
 	DDS Options	DDS opcije
 	De-Interlace…	Uklanjanje preplitanja…
 	Decontaminate	Očisti boje
@@ -1328,6 +1329,7 @@ layers	Fill:	Popuna:
 	Flatten Image	Spljošti sliku
 	Flip Canvas Horizontal	Okreni platno horizontalno
 	Flip Canvas Vertical	Okreni platno vertikalno
+	Flip vertically	Obrni vertikalno
 	Flip X	Okreni po X
 	Flip X Jitter	Kolebanje okretanja po X
 	Flip Y	Okreni po Y
@@ -1864,6 +1866,7 @@ cameraRaw	Lights	Svetli tonovi
 	Load settings from a Camera Raw .xmp file	Učitaj podešavanja iz Camera Raw .xmp datoteke
 	Load Settings…	Učitaj podešavanja…
 	Load the brush after each stroke	Napuni četkicu posle svakog poteza
+	Load transparency as alpha channel	Učitaj providnost kao alfa kanal
 	Loaded contours from {file}	Konture učitane iz {file}
 	Loaded RAW Develop settings from {file}	RAW obrada podešavanja su učitana iz {file}
 	Loaded RAW Develop settings from {file} ({n} not supported)	RAW obrada podešavanja su učitana iz {file} (nije podržano: {n})
@@ -2014,6 +2017,7 @@ cameraRaw	Midtones	Srednji tonovi
 	Minimum Diameter	Minimalni prečnik
 	Minimum Roundness	Minimalna zaobljenost
 	Minimum…	Minimum…
+	Mipmaps as separate layers	Mipmape kao zasebni slojevi
 	Missing delete command	Nedostaje komanda za brisanje
 	Missing glyph protection	Zaštita od glifova koji nedostaju
 	Missing Profiles: Ask When Opening	Profili koji nedostaju: pitaj pri otvaranju
@@ -2225,10 +2229,12 @@ layerLabel	No Color	Bez boje
 	Open As	Otvori kao
 	Open as smart object	Otvori kao pametni objekat
 	Open As…	Otvori kao…
+	Open cancelled	Otvaranje otkazano
 	Open color-less EXR as ACEScg	Otvori EXR bez podatka o bojama kao ACEScg
 	Open documents as tabs	Otvaraj dokumente kao kartice
 	Open Document…	Otvori…
 	Open EXR Parts…	Otvori EXR delove…
+	Open failed: {error}	Otvaranje nije uspelo: {error}
 	Open File	Otvori datoteku
 	Open Folder	Otvori fasciklu
 	Open Image	Otvori sliku
@@ -3561,6 +3567,7 @@ navigator	Zoom	Uvećanje
 	{message} ({note})	{message} ({note})
 	{mode} Color · {bits} bit	{mode} boje · {bits} bita
 	{name} (Photoshop)	{name} (Photoshop)
+	{name} ({width} × {height})	{name} ({width} × {height})
 	{name} can't keep everything in this document	{name} ne može da sačuva sve iz ovog dokumenta
 	{name} options	Opcije: {name}
 	{name} Properties	Svojstva: {name}
@@ -3571,6 +3578,7 @@ navigator	Zoom	Uvećanje
 @plural	{n} file could not be loaded: {errors}|{n} files could not be loaded: {errors}	Nije moguće učitati {n} datoteku: {errors}|Nije moguće učitati {n} datoteke: {errors}|Nije moguće učitati {n} datoteka: {errors}
 @plural	{n} layer recorded by this comp was deleted. Update the comp, or clear the warning.|{n} layers recorded by this comp were deleted. Update the comp, or clear the warning.	{n} sloj zabeležen u ovoj kompoziciji je obrisan. Ažurirajte kompoziciju ili uklonite upozorenje.|{n} sloja zabeležena u ovoj kompoziciji su obrisana. Ažurirajte kompoziciju ili uklonite upozorenje.|{n} slojeva zabeleženih u ovoj kompoziciji je obrisano. Ažurirajte kompoziciju ili uklonite upozorenje.
 @plural	{n} layer|{n} layers	{n} sloj|{n} sloja|{n} slojeva
+@plural	{n} mip level|{n} mip levels	{n} mip nivo|{n} mip nivoa|{n} mip nivoa
 	{n} of {max} sample points	{n} od {max} tačaka uzorkovanja
 @plural	{n} plane|{n} planes	{n} ravan|{n} ravni|{n} ravni
 @plural	{n} preset|{n} presets	{n} šablon|{n} šablona|{n} šablona

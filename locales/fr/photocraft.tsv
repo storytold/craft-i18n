@@ -928,6 +928,7 @@ cameraRaw	Darks	Tons sombres
 cameraData	Date Taken	Date de prise de vue
 	DateTime Original	Date et heure de prise de vue
 	Day For Night	Nuit américaine
+	DDS Import	Importation DDS
 	DDS Options	Options DDS
 	De-Interlace	Désentrelacer
 	De-Interlace…	Désentrelacer…
@@ -1378,6 +1379,7 @@ layers	Fill:	Remplissage :
 	Flip Canvas Vertical	Retourner le canevas verticalement
 	Flip Horizontal	Symétrie horizontale
 	Flip Vertical	Symétrie verticale
+	Flip vertically	Retourner verticalement
 	Flip X	Retourner en X
 	Flip X Jitter	Variation du retournement en X
 	Flip Y	Retourner en Y
@@ -1948,6 +1950,7 @@ cameraRaw	Lights	Tons clairs
 	Load settings from a Camera Raw .xmp file	Charger les paramètres d’un fichier .xmp Camera Raw
 	Load Settings…	Charger les paramètres…
 	Load the brush after each stroke	Charger le pinceau après chaque trait
+	Load transparency as alpha channel	Charger la transparence en canal alpha
 	Loaded contours from {file}	Contours chargés depuis {file}
 	Loaded RAW Develop settings from {file}	Paramètres Développement RAW chargés depuis {file}
 	Loaded RAW Develop settings from {file} ({n} not supported)	Paramètres Développement RAW chargés depuis {file} ({n} non pris en charge)
@@ -2111,6 +2114,7 @@ cameraRaw	Midtones	Tons moyens
 	Minimum Diameter	Diamètre minimal
 	Minimum Roundness	Arrondi minimal
 	Minimum…	Minimum…
+	Mipmaps as separate layers	Mipmaps en calques séparés
 	Missing delete command	Commande de suppression manquante
 	Missing glyph protection	Protection contre les glyphes manquants
 	Missing Profiles: Ask When Opening	Profils manquants : demander à l'ouverture
@@ -2329,10 +2333,12 @@ layerLabel	No Color	Aucune couleur
 	Open As	Ouvrir en tant que
 	Open as smart object	Ouvrir en tant qu'objet intelligent
 	Open As…	Ouvrir en tant que…
+	Open cancelled	Ouverture annulée
 	Open color-less EXR as ACEScg	Ouvrir les EXR sans espace colorimétrique en ACEScg
 	Open documents as tabs	Ouvrir les documents dans des onglets
 	Open Document…	Ouvrir…
 	Open EXR Parts…	Ouvrir les parties EXR…
+	Open failed: {error}	Échec de l'ouverture : {error}
 	Open File	Ouvrir un fichier
 	Open Folder	Ouvrir un dossier
 	Open Image	Ouvrir une image
@@ -3731,6 +3737,7 @@ navigator	Zoom	Zoom
 	{message} ({note})	{message} ({note})
 	{mode} Color · {bits} bit	Couleurs {mode} · {bits} bits
 	{name} (Photoshop)	{name} (Photoshop)
+	{name} ({width} × {height})	{name} ({width} × {height})
 	{name} can't keep everything in this document	{name} ne peut pas conserver tout le contenu de ce document
 	{name} options	Options de {name}
 	{name} Properties	Propriétés de {name}
@@ -3741,6 +3748,7 @@ navigator	Zoom	Zoom
 @plural	{n} file could not be loaded: {errors}|{n} files could not be loaded: {errors}	{n} fichier n'a pas pu être chargé : {errors}|{n} fichiers n'ont pas pu être chargés : {errors}
 @plural	{n} layer recorded by this comp was deleted. Update the comp, or clear the warning.|{n} layers recorded by this comp were deleted. Update the comp, or clear the warning.	{n} calque enregistré par cette composition a été supprimé. Mettez la composition à jour ou effacez l'avertissement.|{n} calques enregistrés par cette composition ont été supprimés. Mettez la composition à jour ou effacez l'avertissement.
 @plural	{n} layer|{n} layers	{n} calque|{n} calques
+@plural	{n} mip level|{n} mip levels	{n} niveau mip|{n} niveaux mip
 	{n} of {max} sample points	{n} sur {max} points d'échantillonnage
 @plural	{n} plane|{n} planes	{n} plan|{n} plans
 @plural	{n} preset|{n} presets	{n} préréglage|{n} préréglages

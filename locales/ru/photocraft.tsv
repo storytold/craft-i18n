@@ -935,6 +935,7 @@ cameraRaw	Darks	Тёмные тона
 cameraData	Date Taken	Дата съёмки
 	DateTime Original	Дата и время съёмки
 	Day For Night	День как ночь
+	DDS Import	Импорт DDS
 	DDS Options	Параметры DDS
 	De-Interlace…	Устранить чересстрочность…
 	Decontaminate	Очистить
@@ -1394,6 +1395,7 @@ layers	Fill:	Заливка:
 	Flip Canvas Vertical	Отразить холст по вертикали
 	Flip Horizontal	Отразить по горизонтали
 	Flip Vertical	Отразить по вертикали
+	Flip vertically	Отразить по вертикали
 	Flip X	Отразить по X
 	Flip X Jitter	Колебание отражения по X
 	Flip Y	Отразить по Y
@@ -1969,6 +1971,7 @@ cameraRaw	Lights	Светлые тона
 	Load settings from a Camera Raw .xmp file	Загрузить настройки из файла Camera Raw .xmp
 	Load Settings…	Загрузить настройки…
 	Load the brush after each stroke	Загружать кисть после каждого штриха
+	Load transparency as alpha channel	Загрузить прозрачность как альфа-канал
 	Loaded contours from {file}	Контуры загружены из {file}
 	Loaded RAW Develop settings from {file}	Настройки Обработка RAW загружены из {file}
 	Loaded RAW Develop settings from {file} ({n} not supported)	Настройки Обработка RAW загружены из {file} (не поддерживается: {n})
@@ -2130,6 +2133,7 @@ cameraRaw	Midtones	Средние тона
 	Minimum Diameter	Минимальный диаметр
 	Minimum Roundness	Минимальная круглость
 	Minimum…	Минимум…
+	Mipmaps as separate layers	Мип-уровни отдельными слоями
 	Mirror	Отражение
 	Missing delete command	Отсутствует команда удаления
 	Missing glyph protection	Защита от отсутствующих глифов
@@ -2351,10 +2355,12 @@ layerLabel	No Color	Без цвета
 	Open As	Открыть как
 	Open as smart object	Открывать как смарт-объект
 	Open As…	Открыть как…
+	Open cancelled	Открытие отменено
 	Open color-less EXR as ACEScg	Открывать EXR без цветового профиля как ACEScg
 	Open documents as tabs	Открывать документы во вкладках
 	Open Document…	Открыть…
 	Open EXR Parts…	Открыть части EXR…
+	Open failed: {error}	Не удалось открыть: {error}
 	Open File	Открыть файл
 	Open Folder	Открыть папку
 	Open Image	Открыть изображение
@@ -3772,6 +3778,7 @@ navigator	Zoom	Масштаб
 	{message} ({note})	{message} ({note})
 	{mode} Color · {bits} bit	{mode}, {bits} бит
 	{name} (Photoshop)	{name} (Photoshop)
+	{name} ({width} × {height})	{name} ({width} × {height})
 	{name} can't keep everything in this document	{name} не может сохранить все содержимое этого документа
 	{name} options	Параметры: {name}
 	{name} Properties	Свойства: {name}
@@ -3782,6 +3789,7 @@ navigator	Zoom	Масштаб
 @plural	{n} file could not be loaded: {errors}|{n} files could not be loaded: {errors}	Не удалось загрузить {n} файл: {errors}|Не удалось загрузить {n} файла: {errors}|Не удалось загрузить {n} файлов: {errors}
 @plural	{n} layer recorded by this comp was deleted. Update the comp, or clear the warning.|{n} layers recorded by this comp were deleted. Update the comp, or clear the warning.	Удалён {n} слой, записанный в этом варианте. Обновите вариант или сбросьте предупреждение.|Удалены {n} слоя, записанных в этом варианте. Обновите вариант или сбросьте предупреждение.|Удалено {n} слоёв, записанных в этом варианте. Обновите вариант или сбросьте предупреждение.
 @plural	{n} layer|{n} layers	{n} слой|{n} слоя|{n} слоёв
+@plural	{n} mip level|{n} mip levels	{n} MIP-уровень|{n} MIP-уровня|{n} MIP-уровней
 	{n} of {max} sample points	{n} из {max} точек замера
 @plural	{n} plane|{n} planes	{n} плоскость|{n} плоскости|{n} плоскостей
 @plural	{n} preset|{n} presets	{n} набор|{n} набора|{n} наборов

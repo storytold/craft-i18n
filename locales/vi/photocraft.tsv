@@ -809,6 +809,7 @@ cameraRaw	Darks	Vùng tối vừa
 	Data Sets…	Tập dữ liệu…
 cameraData	Date Taken	Ngày chụp
 	Day For Night	Ngày đổi thành đêm
+	DDS Import	Nhập DDS
 	DDS Options	Tùy chọn DDS
 	De-Interlace…	Khử xen kẽ…
 	Decontaminate	Khử nhiễm màu
@@ -1189,6 +1190,7 @@ layers	Fill:	Độ tô:
 	Flatten Image	Làm phẳng ảnh
 	Flip Canvas Horizontal	Lật canvas ngang
 	Flip Canvas Vertical	Lật canvas dọc
+	Flip vertically	Lật dọc
 	Flip X	Lật X
 	Flip X Jitter	Dao động lật X
 	Flip Y	Lật Y
@@ -1673,6 +1675,7 @@ cameraRaw	Lights	Vùng sáng vừa
 	Load settings from a Camera Raw .xmp file	Tải cài đặt từ tệp .xmp Camera Raw
 	Load Settings…	Tải cài đặt…
 	Load the brush after each stroke	Nạp sơn cho cọ sau mỗi nét vẽ
+	Load transparency as alpha channel	Tải độ trong suốt thành kênh alpha
 	Loaded contours from {file}	Đã tải đường viền từ {file}
 	Loaded RAW Develop settings from {file}	Đã tải cài đặt Xử lý RAW từ {file}
 	Loaded RAW Develop settings from {file} ({n} not supported)	Đã tải cài đặt Xử lý RAW từ {file} ({n} không được hỗ trợ)
@@ -1811,6 +1814,7 @@ cameraRaw	Midtones	Tông trung gian
 	Minimum Diameter	Đường kính tối thiểu
 	Minimum Roundness	Độ tròn tối thiểu
 	Minimum…	Cực tiểu…
+	Mipmaps as separate layers	Mipmap thành các lớp riêng
 	Mirror	Phản chiếu
 	Missing delete command	Thiếu lệnh xóa
 	Missing glyph protection	Bảo vệ khi thiếu glyph
@@ -1990,10 +1994,12 @@ cameraData	Model	Kiểu máy
 	Open As	Mở bằng
 	Open as smart object	Mở dưới dạng đối tượng thông minh
 	Open As…	Mở dạng…
+	Open cancelled	Đã hủy mở
 	Open color-less EXR as ACEScg	Mở EXR không khai báo màu sắc dưới dạng ACEScg
 	Open documents as tabs	Mở tài liệu dưới dạng thẻ
 	Open Document…	Mở…
 	Open EXR Parts…	Mở các phần EXR…
+	Open failed: {error}	Mở thất bại: {error}
 	Open paths use centered strokes	Đường dẫn mở dùng nét căn giữa
 	open source	mã nguồn mở
 	Open the release page to choose an installer for your system.	Mở trang phát hành để chọn bộ cài đặt cho hệ thống của bạn.
@@ -3220,6 +3226,7 @@ cameraRaw	Yellow	Vàng
 	{message} ({note})	{message} ({note})
 	{mode} Color · {bits} bit	Màu {mode} · {bits} bit
 	{name} (Photoshop)	{name} (Photoshop)
+	{name} ({width} × {height})	{name} ({width} × {height})
 	{name} can't keep everything in this document	{name} không thể giữ mọi thứ trong tài liệu này
 	{name} options	Tùy chọn {name}
 	{name} Properties	Thuộc tính {name}
@@ -3230,6 +3237,7 @@ cameraRaw	Yellow	Vàng
 @plural	{n} file could not be loaded: {errors}|{n} files could not be loaded: {errors}	Không thể nạp {n} tệp: {errors}
 @plural	{n} layer recorded by this comp was deleted. Update the comp, or clear the warning.|{n} layers recorded by this comp were deleted. Update the comp, or clear the warning.	{n} lớp được ghi trong tổ hợp này đã bị xóa. Hãy cập nhật tổ hợp hoặc xóa cảnh báo.
 @plural	{n} layer|{n} layers	{n} lớp
+@plural	{n} mip level|{n} mip levels	{n} mức mip
 	{n} of {max} sample points	{n} trên {max} điểm lấy mẫu
 @plural	{n} plane|{n} planes	{n} mặt phẳng
 @plural	{n} preset|{n} presets	{n} thiết lập sẵn

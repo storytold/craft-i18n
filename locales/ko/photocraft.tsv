@@ -833,6 +833,7 @@ cameraRaw	Darks	어두운 영역
 	Data Sets…	데이터 세트…
 cameraData	Date Taken	촬영 날짜
 	Day For Night	주간을 야간으로
+	DDS Import	DDS 가져오기
 	DDS Options	DDS 옵션
 	De-Interlace	인터레이스 제거
 	De-Interlace…	인터레이스 제거…
@@ -1234,6 +1235,7 @@ layers	Fill:	칠:
 	Flatten Image	이미지 병합
 	Flip Canvas Horizontal	캔버스 가로로 뒤집기
 	Flip Canvas Vertical	캔버스 세로로 뒤집기
+	Flip vertically	세로로 뒤집기
 	Flip X	X축 뒤집기
 	Flip X Jitter	X축 뒤집기 지터
 	Flip Y	Y축 뒤집기
@@ -1734,6 +1736,7 @@ cameraRaw	Lights	밝은 중간 영역
 	Load settings from a Camera Raw .xmp file	Camera Raw .xmp 파일에서 설정 불러오기
 	Load Settings…	설정 불러오기…
 	Load the brush after each stroke	획마다 브러시 채우기
+	Load transparency as alpha channel	투명도를 알파 채널로 불러오기
 	Loaded contours from {file}	{file}에서 윤곽선을 불러왔습니다
 	Loaded RAW Develop settings from {file}	{file}에서 RAW 현상 설정을 불러왔습니다
 	Loaded RAW Develop settings from {file} ({n} not supported)	{file}에서 RAW 현상 설정을 불러왔습니다 (미지원 {n}개)
@@ -1877,6 +1880,7 @@ cameraRaw	Midtones	중간톤
 	Minimum Diameter	최소 직경
 	Minimum Roundness	최소 원형률
 	Minimum…	최소값…
+	Mipmaps as separate layers	밉맵을 개별 레이어로
 	Missing delete command	삭제 명령이 없습니다
 	Missing glyph protection	누락된 글리프 보호
 	Miter	마이터
@@ -2063,10 +2067,12 @@ layerLabel	No Color	색상 없음
 	Open As	형식을 지정하여 열기
 	Open as smart object	스마트 오브젝트로 열기
 	Open As…	형식을 지정하여 열기…
+	Open cancelled	열기 취소됨
 	Open color-less EXR as ACEScg	색 공간 정보 없는 EXR을 ACEScg로 열기
 	Open documents as tabs	문서를 탭으로 열기
 	Open Document…	열기…
 	Open EXR Parts…	EXR 파트 열기…
+	Open failed: {error}	열기 실패: {error}
 	Open paths use centered strokes	열린 패스는 가운데 획을 사용합니다
 	Open Recent	최근 파일 열기
 	Open Recent is unavailable on the web	웹에서는 최근 파일 열기를 사용할 수 없습니다.
@@ -3336,6 +3342,7 @@ navigator	Zoom	확대/축소
 	{message} ({note})	{message} ({note})
 	{mode} Color · {bits} bit	{mode} 색상 · {bits}비트
 	{name} (Photoshop)	{name} (Photoshop)
+	{name} ({width} × {height})	{name}({width} × {height})
 	{name} can't keep everything in this document	{name}에는 이 문서의 모든 내용을 저장할 수 없습니다
 	{name} options	{name} 옵션
 	{name} Properties	{name} 속성
@@ -3346,6 +3353,7 @@ navigator	Zoom	확대/축소
 @plural	{n} file could not be loaded: {errors}|{n} files could not be loaded: {errors}	파일 {n}개를 불러오지 못했습니다: {errors}
 @plural	{n} layer recorded by this comp was deleted. Update the comp, or clear the warning.|{n} layers recorded by this comp were deleted. Update the comp, or clear the warning.	이 레이어 구성 요소에 기록된 레이어 {n}개가 삭제되었습니다. 레이어 구성 요소를 업데이트하거나 경고를 지우세요.
 @plural	{n} layer|{n} layers	레이어 {n}개
+@plural	{n} mip level|{n} mip levels	밉맵 레벨 {n}개
 	{n} of {max} sample points	{max}개 중 {n}개의 샘플 지점
 @plural	{n} plane|{n} planes	평면 {n}개
 @plural	{n} preset|{n} presets	사전 설정 {n}개
