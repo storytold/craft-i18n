@@ -306,3 +306,7 @@ in the source PR. PhotoCraft #12851 (@rmsff) rekeys the fill-rasterization promp
 in 22 catalogs, preserving the existing translations and their credits above.
 Synced from `photocraft@7c64653` to `photocraft@2772ac1` with
 `tools/sync_app.py`; no translations were newly authored in this top-up.
+
+## TextureCraft initial migration
+
+The `texturecraft.tsv` catalogs for ar, de, es, fr, it, ja, ko, pt-br and zh-hans were migrated from [TextureCraft `21856d778347e13857f65c8f1107170797bd070f`](https://github.com/storytold/texturecraft/tree/21856d778347e13857f65c8f1107170797bd070f/crates/ui-egui/src/i18n), MIT OR Apache-2.0. Original wording and contributor credits remain in the upstream history. Migration tooling was AI-assisted; no new translations were authored and no additional native-speaker review was performed. Every original row was checked against the resolved app and shared catalogs. Tracked in storytold/texturecraft#419.
