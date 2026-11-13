@@ -310,3 +310,11 @@ Synced from `photocraft@7c64653` to `photocraft@2772ac1` with
 ## TextureCraft initial migration
 
 The `texturecraft.tsv` catalogs for ar, de, es, fr, it, ja, ko, pt-br and zh-hans were migrated from [TextureCraft `21856d778347e13857f65c8f1107170797bd070f`](https://github.com/storytold/texturecraft/tree/21856d778347e13857f65c8f1107170797bd070f/crates/ui-egui/src/i18n), MIT OR Apache-2.0. Original wording and contributor credits remain in the upstream history. Migration tooling was AI-assisted; no new translations were authored and no additional native-speaker review was performed. Every original row was checked against the resolved app and shared catalogs. Tracked in storytold/texturecraft#419.
+
+## TextureCraft: Edit > Change mesh... (texturecraft #230)
+
+Adds "Change mesh..." and "Relative to the bounding box diagonal." to the `texturecraft.tsv` catalogs
+of ar, de, es, fr, it, ja, ko, pt-br and zh-hans. The "Change mesh..." translations are new and
+AI-assisted, written from the plain meaning of the English and the wording these catalogs already use
+for "Reimport mesh"; no native speaker reviewed them. The "Relative to the bounding box diagonal."
+translations are the existing ones from TextureCraft's `ui-egui/src/i18n` tables.
