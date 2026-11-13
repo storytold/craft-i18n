@@ -78,6 +78,7 @@
 	A file is still being placed; try again when it has finished.	Файлът все още се поставя; опитайте отново, когато приключи.
 	A frame supports affine transforms; select its image for perspective transforms	Рамката поддържа афинни трансформации; изберете нейното изображение за перспективни трансформации
 	A frame supports affine transforms; select its image to warp it	Рамката поддържа афинни трансформации; изберете нейното изображение, за да го изкривите
+	A grey mix that spreads the image's tones	Сив микс, който разнася тоновете на изображението
 	A picked document is no longer a grayscale document of the same size.	Избраният документ вече не е документ в сивата скала със същия размер.
 	A picked document is no longer open.	Избраният документ вече не е отворен.
 	A save to {name} is still running; try again when it finishes	Запазването в {name} все още тече; опитайте отново, когато приключи
@@ -99,6 +100,7 @@
 	Add a mask  (from the selection; {key} inverts)	Добавяне на маска  (от селекцията; {key} инвертира)
 	Add a mask  (from the selection; ⌥ inverts)	Добавяне на маска  (от селекцията; ⌥ инвертира)
 	Add an adjustment	Добавяне на корекция
+	Add Anchor Point	Добавяне на опорна точка
 	Add Anchor Point Tool	Инструмент „Добавяне на опорна точка“
 	Add beauty precomp from the AOVs	Добавяне на предварителна компилация за разкрасяване от AOV
 	Add disk	Добавяне на диск
@@ -171,13 +173,16 @@ smartSvg	AI/PDF/EPS contents will be edited as SVG. Saving replaces the embedded
 	Align horizontal centers	Подравняване по хоризонталните центрове
 	Align left edges	Подравняване по левите ръбове
 	Align right edges	Подравняване по десните ръбове
+	Align To:	Подравняване към:
 	Align top edges	Подравняване по горни ръбове
 	Align vertical centers	Подравняване по вертикални центрове
 	Align with layer	Подравняване със слоя
 	Align {what}	Подравняване на {what}
+	Align:	Подравняване:
 	Aligned	Подравнено
 	All Classes	Всички класове
 	All Layers No Adjustments	Всички слоеве без корекции
+	All open documents	Всички отворени документи
 	All shortcuts reset to PhotoCraft defaults.	Всички клавишни комбинации са нулирани до стандартните за PhotoCraft.
 	All shortcuts reset to Photoshop defaults.	Всички клавишни комбинации са нулирани до стандартните за Photoshop.
 	All User Slices	Всички потребителски откъси
@@ -185,6 +190,8 @@ smartSvg	AI/PDF/EPS contents will be edited as SVG. Saving replaces the embedded
 	Allow Continue	Разрешаване на продължаване
 	Allow Non-Linear History	Разреши нелинейна история
 	Allow scripts to connect	Разрешаване на скриптовете да се свързват
+	Allow Tool Recording	Разрешаване на запис на инструмент
+	Allows rotation and scaling of selection	Позволява завъртане и мащабиране на селекция
 	Alpha	Алфа
 	Alt-click a plane to set the clone source	Alt-кликнете върху равнина, за да зададете източника за клониране
 	Alt-click to define a source point to clone from	Alt-щракване за дефиниране на изходна точка за клониране
@@ -216,6 +223,7 @@ cameraRaw	Amount	[cameraRaw] Количество
 	Anisotropic	Анизотропно
 	Answer the open import question first, then import this file again.	Първо отговорете на отворения въпрос за импортиране, след това импортирайте този файл отново.
 	Answer the unsaved-changes prompt first	Първо отговорете на запитването за запазване на промените
+	Anti-alias brush application	Изглаждане при прилагане на четка
 	Anti-aliased	Загладено
 	Anti-aliasing method	Метод за заглаждане
 	Aperture	Диафрагма
@@ -251,6 +259,7 @@ cameraRaw	Aqua	[cameraRaw] Аквамарин
 	Arc Lower	Долна дъга
 	Arc Upper	Горна дъга
 	Arch	Арка
+	Are you sure you want to delete all notes?	Сигурни ли сте, че искате да изтриете всички бележки?
 	Are you sure you want to quit?	Сигурни ли сте, че искате да излезете?
 	Are you sure?	Сигурни ли сте?
 	Area	Площ
@@ -412,11 +421,13 @@ cameraRaw	Blue	Синьо
 	Blur Gallery	Галерия с размиване
 	Blur More	Повече размиване
 	Blur Tool	Инструмент размиване
+	blur tool	инструмент за замъгляване
 fontWeight	Bold	Получер
 	Bold Italic	Получер курсив
 	Border	Край
 	Border…	Край…
 	Both Axes	И двете оси
+	Bottom align text	Подравняване на текст отдолу
 	Bottom Edges	Долни ръбове
 	Box Blur	Кутийно размиване
 	Box Blur…	Кутийно размиване…
@@ -459,6 +470,7 @@ fontWeight	Bold	Получер
 	Brush Tip	Връх на четката
 	Brush Tip Shape	Форма на върха на четката
 	Brush Tool	Инструмент Четка
+	brush tool	инструмент четка
 	Brush Tool Options	Опции на инструмент Четка
 	Brush Type	Тип четка
 	brushes	четки
@@ -467,6 +479,7 @@ fontWeight	Bold	Получер
 	Bundle Arrow-Key Nudges	Групиране на премествания със стрелки
 	Burn	Затъмняване
 	Burn Tool	Инструмент Затъмняване
+	burn tool	инструмент за изгаряне
 	Butt / Flat	Право / Плоско
 	Button Mode	Режим на бутон
 	Button Mode On	Режим на бутон Вкл.
@@ -564,9 +577,12 @@ fontWeight	Bold	Получер
 	Choke	Заглушаване
 	Choose a format that keeps it, such as Photoshop (PSD), or save a copy.	Изберете формат, който я запазва, като например Photoshop (PSD), или запишете копие.
 	Choose a gradient file (.grd).	Изберете градиентен файл (.grd).
+	Choose a menu command. Playback asks for its settings when needed.	Изберете команда от менюто. Възпроизвеждането ще поиска настройките си, когато е необходимо.
 	Choose a new shortcut for this command, or leave it without one.	Изберете нов пряк път за тази команда, или я оставете без такъв.
+	Choose a remix mode	Изберете режим на ремикс
 smartSvg	Choose executable…	Изберете изпълним файл…
 	Choose Folder	Избор на папка
+	Choose Import as New Group or Replace.	Изберете импортиране като нова група или заместване.
 	Choose Stack Mode:	Избор на режим на купчина:
 smartSvg	Choose the application used to edit this SVG:	Изберете приложението, използвано за редактиране на този SVG:
 	Chrome	Хром
@@ -597,6 +613,7 @@ cameraRaw	Clarity	Яснота
 	Click a red pupil to neutralize it	Кликнете върху червена зеница, за да я неутрализирате
 	Click a segment to add an anchor point · {alt}-click an anchor to delete it	Кликнете върху сегмент за добавяне на опорна точка · {alt}-клик върху опорна точка за изтриването й
 	Click an anchor point to delete it · {alt}-click a segment to add one	Кликнете върху опорна точка за изтриване · {alt}-клик върху сегмент за добавяне
+	Click and move left or right to scale using the Zoom Tool (OpenGL only)	Щракнете и преместете наляво или надясно за мащабиране с инструмента за мащабиране (само за OpenGL)
 	Click sets foreground · right-click sets background	Клик задава основен цвят · десен клик задава фонов цвят
 	Click the first point or press {key} to close · Esc cancels	Кликнете върху първата точка или натиснете {key} за затваряне · Esc отменя
 	Click the first point or press {key} to close · {del} removes a point · Esc cancels	Кликнете върху първата точка или натиснете {key} за затваряне · {del} премахва точка · Esc отменя
@@ -645,6 +662,7 @@ cameraRaw	Clarity	Яснота
 	Close Style Options	Затвори опциите за стил
 	Close Tab Group	Затвори групата от раздели
 	Close Window	Затвори прозореца
+	Closed document	Затворен документ
 	Clouds	Облаци
 	Clumped	На буци
 	Cmyk	Cmyk
@@ -752,6 +770,8 @@ cameraRaw	Color Mixer	Цветен миксер
 	Cone - Inverted	Конус – обърнат
 	Confirm	Потвърди
 	Confirm or cancel the open action step dialog first	Първо потвърдете или отменете отворения диалогов прозорец за стъпка на действие
+	Confirm or cancel the pending menu item first.	Първо потвърдете или отменете чакащия елемент от менюто.
+	Confirm or cancel the pending Record Again editor first.	Първо потвърдете или отменете чакащия редактор за запис отново.
 	Conform	Съгласуване
 	Consolidate All to Here	Обедини всички тук
 	Consolidate All to Tabs	Обединяване на всички в подпрозорци
@@ -810,6 +830,7 @@ cameraRaw	Contrast	Контраст
 	Copy Color as HTML	Копирай цвят като HTML
 	Copy Color's Hex Code	Копирай шестнадесетичния код на цвета
 	Copy Complete Stroke	Копиране на целия щрих
+	Copy CSS	Копиране на CSS
 	Copy Fill	Копиране на запълването
 	Copy Layer Style	Копиране на стила на слоя
 	Copy Merged	Обединено копиране
@@ -828,17 +849,27 @@ cameraRaw	Contrast	Контраст
 	Could not complete the Free Transform command because the layer is locked.	Командата „Свободно трансформиране“ не може да бъде изпълнена, тъй като слоят е заключен.
 	Could not open	Неуспешно отваряне
 	Could not rename the action: {error}	Действието не може да бъде преименувано: {error}
+	Could not set the clone source because it does not work with Indexed Color images (convert image to RGB Color mode to edit).	Не може да се зададе източникът за клониране, защото не работи с изображения с индексирани цветове (конвертирайте изображението в режим RGB Color, за да редактирате).
 	Could not transform because the layer is locked.	Не може да се трансформира, защото слоят е заключен.
 	Could not transform: the layer is empty	Трансформирането е невъзможно: слоят е празен
 	Could not use Perspective Warp: the layer is empty	Перспективното деформиране не може да бъде използвано: слоят е празен
 	Could not use Puppet Warp: no opaque pixels	Деформирането с марионетка не може да бъде използвано: няма плътни пиксели
 	Could not use Puppet Warp: the layer is empty	Деформирането с марионетка не може да бъде използвано: слоят е празен
+	Could not use the clone stamp tool because the area to clone has not been defined (Alt-click to define a source point).	Не може да се използва инструментът за клониране, защото областта за клониране не е дефинирана (Alt-щракване за дефиниране на изходна точка).
+	Could not use the clone stamp tool because the area to clone has not been defined (Option-click to define a source point).	Не може да се използва инструментът за клониране, защото областта за клониране не е дефинирана (Option-щракване за дефиниране на изходна точка).
+	Could not use the magic eraser because it does not work with Bitmap images (convert image to Grayscale mode to edit).	Не може да се използва магическата гума, защото не работи с растерни изображения (конвертирайте изображението в режим Grayscale, за да редактирате).
+	Could not use the magic eraser because it does not work with Indexed Color images (convert image to RGB Color mode to edit).	Не може да се използва магическата гума, защото не работи с изображения с индексирани цветове (конвертирайте изображението в режим RGB Color, за да редактирате).
 	Could not use the move tool because the layer is locked.	Инструментът за преместване не може да бъде използван, тъй като слоят е заключен.
+	Could not use the type tool because the layer is locked.	Не може да се използва инструментът за текст, защото слоят е заключен.
+	Could not use the {tool} because the target layer is a group.	Не може да се използва {tool}, защото целевият слой е група.
 	Could not write {name}: {error}	Не може да се запише {name}: {error}
 	Couldn't open {name}: {error}	{name} не можа да бъде отворен: {error}
 	Couldn't place {name}: {error}	{name} не можа да бъде поставен: {error}
 	Couldn't save preferences: {error}. Retrying…	Предпочитанията не можаха да бъдат запазени: {error}. Опит за повторно запазване…
 	Count	Брой
+	Count Color	Преброяване на цветове
+	Count Group	Преброяване на групи
+	Count group color	Преброяване на цветове на група
 	Count Jitter	Трептене на броя
 	Count Tool	Инструмент „Брояч“
 	Count:	Брой:
@@ -915,6 +946,7 @@ cameraRaw	Contrast	Контраст
 	Current & Below No Adjustments	Текущ и долу без корекции
 	Current Brush Load	Текущо натоварване на четката
 	Current Colors	Текущи цветове
+	Current document	Текущ документ
 	Current Layer	Текущ слой
 	Current Layer:	Текущ слой:
 	Current Path	Текущ път
@@ -1028,6 +1060,7 @@ cameraData	Date Taken	[cameraData] Дата на заснемане
 	Dehaze	Премахване на мъгла
 cameraRaw	Dehaze	Премахване на мъглата
 	Delete All Empty Layers	Изтриване на всички празни слоеве
+	Delete Anchor Point	Изтриване на опорна точка
 	Delete Anchor Point Tool	Инструмент „Изтриване на опорна точка“
 	Delete and Fill Selection	Изтриване и запълване на селекцията
 	Delete brush	Изтриване на четка
@@ -1061,6 +1094,7 @@ cameraRaw	Dehaze	Премахване на мъглата
 	Delete Smart Filters	Изтриване на интелигентни филтри
 	Delete Snapshot	Изтриване на моментна снимка
 	Delete style	Изтриване на стил
+	Delete the currently selected count group	Изтриване на текущо избраната група за броене
 	Delete the vector mask?	Изтриване на векторната маска?
 	Delete this note?	Изтриване на тази бележка?
 	Delete this set	Изтриване на този набор
@@ -1089,6 +1123,7 @@ cameraRaw	Detail	Детайл
 	Detailed	Детайлно
 	Detect Faces	Откриване на лица
 	Determines if pixel data outside the crop box is retained or deleted	Определя дали пикселните данни извън рамката за изрязване се запазват или изтриват
+	Determines the spread of replaced color	Определя разпространението на заместения цвят
 	Developing {name}	Разработване на {name}
 	Diagonal (Descending)	Диагонал (низходящ)
 	Diameter	Диаметър
@@ -1128,12 +1163,15 @@ cameraRaw	Detail	Детайл
 	Dissolve is approximated: it blends without Photoshop's dither.	Разтварянето е приблизително: то смесва без дитъра на Photoshop.
 	Distribute Heights	Разпредели по височина
 	Distribute horizontally	Разпределяне хоризонтално
+	Distribute Spacing:	Разпределяне на разстоянието:
 	Distribute vertically	Разпределяне вертикално
 	Distribute Widths	Разпредели по ширина
+	Distribute:	Разпределяне:
 	Distribution	Разпределение
 	Dither	Дихеринг
 	Divide…	Разделяне…
 	Do not append "copy" to filename when saving a copy	Не добавяй "copy" към името на файла при записване на копие
+	Do not erase the foreground swatch color	Не изтривайте цвета на мострата на предния план
 	Do you want to save the changes you made to “{name}” before closing?	Искате ли да запазите промените, направени в „{name}“, преди да затворите?
 	Do you want to save the changes you made to “{name}” before quitting?	Искате ли да запазите промените, направени в „{name}“, преди да излезете?
 	Do you want to save you made to “{name}” before quitting?	Искате ли да запазите направеното в „{name}“ преди излизане?
@@ -1147,6 +1185,7 @@ cameraRaw	Detail	Детайл
 	Documentation	Документация
 	Dodge	Изсветляване
 	Dodge Tool	Инструмент Изсветляване
+	dodge tool	инструмент за изсветляване
 	Dodge/Burn	Изсветляване/Затъмняване
 	Domed	Изпъкнал
 	Domed (Inverted)	Изпъкнал (обърнат)
@@ -1184,6 +1223,7 @@ cameraRaw	Detail	Детайл
 	Draw to modify the curve	Рисувайте, за да промените кривата
 	Draw with the Pen tool (P) or make a work path from a selection.	Рисувайте с инструмента Перо (P) или създайте работен път от селекция.
 	Drawn on the CPU: {reason}. Click for System Info.	Изчертано на процесора: {reason}. Кликнете за системна информация.
+	Draws background color over foreground colors	Рисува цвят на фона върху цветовете на предния план
 	Driver: {driver}	Драйвер: {driver}
 	Drop an image or PSD anywhere to open it.	Пуснете изображение или PSD навсякъде, за да го отворите.
 	Drop shadow	Пропадаща сянка
@@ -1265,6 +1305,7 @@ cameraRaw	Effects	Ефекти
 	Enable narrow options bar	Активиране на стеснена лента с опции
 	Enable Smart Filters	Активиране на интелигентни филтри
 	Enable Timeline Quick Config	Активиране на бърза конфигурация на времевата скала
+	Enable to remix all layers	Активирайте за смесване на всички слоеве
 	Enable Vector Mask	Активиране на векторна маска
 	Enable {name}	Активиране на {name}
 	Enabled	Активирано
@@ -1282,12 +1323,15 @@ cameraRaw	Effects	Ефекти
 	Equalize	Изравняване
 	Equalize Entire Image Based On Selected Area	Изравняване на цялото изображение спрямо избрана област
 	Equalize Selected Area Only	Изравняване само на избрана област
+	Erase range of similar colors	Изтриване на диапазон от подобни цветове
+	Erase to History	Изтриване в историята
 	Erase with Brush or Pencil (hold)	Изтриване с четка или молив (задръжте)
 	Eraser	Изтриване
 	Error File	Файл с грешка
 	Errors	Грешки
 	Esc to cancel	Esc за отмяна
 	Essentials	Основни
+	Estimated file size	Приблизителен размер на файла
 	Exclude Overlapping Shapes	Изключване на припокриващи се фигури
 	Excluded Area	Изключена област
 	EXIF	EXIF
@@ -1368,6 +1412,7 @@ cameraData	F-Stop	[cameraData] Диафрагма
 	Feather	Смекчаване
 cameraRaw	Feather	Смекчаване
 	Feather Radius	Радиус на смекчаване
+	Feather Radius:	Радиус на размиване:
 	Feather…	Смекчаване…
 	Fewer Points	По-малко точки
 	Fiber Length	Дължина на влакната
@@ -1480,6 +1525,7 @@ layers	Fill:	Запълване:
 	Floating point	Плаваща запетая
 	Flow	Поток
 	Flow Jitter	Колебание на потока
+	Flow:	Поток:
 	Flower Color	Цвят на цвете
 	Focal Distance	Фокусно разстояние
 	Focal Length	Фокусно разстояние
@@ -1513,6 +1559,7 @@ cameraData	Focal Length (35 mm)	[cameraData] Фокусно разстояние
 	Free Transform a Copy	Свободно трансформиране на копие
 	Free Transform is still being applied; try again when it has finished.	Свободната трансформация все още се прилага; опитайте отново, когато приключи.
 	Free Transform Path	Свободно трансформиране на път
+	Free Transform Points	Точки за свободна трансформация
 	Freeform Pen Tool	Инструмент „Свободна писалка“
 	Freeze Lasso	Замразяващо ласо
 	Freeze Lasso: drag to freeze an area, Alt-drag to thaw it (L)	Замразяващо ласо: плъзнете за замразяване на област, Alt-плъзгане за размразяване (L)
@@ -1598,6 +1645,7 @@ cameraRaw	Global	Глобални
 	Gradient picker	Избор на градиент
 	Gradient Preset Options	Опции за предварителни настройки на градиент
 	Gradient stops	Опорни точки на градиента
+	gradient tool	инструмент градиент
 	Gradient-corrected interpolation: sharp and fast, with some color fringing on fine detail.	Интерполация с корекция на градиента: рязка и бърза, с известно цветно окантяване при фини детайли.
 	Gradients	Градиенти
 	gradients	градиенти
@@ -1725,6 +1773,7 @@ cameraRaw	Highlights	Светли участъци
 	Horizontal Type Tool	Инструмент „Хоризонтален текст“
 	Hotspot	Гореща точка
 	How expanded crop area gets filled	Как се запълва разширената област за изрязване
+	How far to let the erasing spread	Доколко да позволите на изтриването да се разпространи
 	How often fastening points are placed by themselves	Колко често автоматично се поставят опорни точки
 	How the camera's color filter mosaic is filled in. It is applied when the file opens; the preview shows the method it was opened with.	Как се запълва мозайката на цветния филтър на камерата. Прилага се при отваряне на файла; предварителният преглед показва метода, с който е отворен.
 	Hsb	HSB
@@ -1832,6 +1881,8 @@ cameraRaw	Hue	Цветови тон
 	Input Mode	Входен режим
 	Input:	Вход:
 	Insert Blank Frame	Вмъкване на празен кадър
+	Insert Menu Item…	Вмъкване на елемент от менюто…
+	Insert Path	Вмъкване на път
 	Insert Stop…	Вмъкване на спиране…
 	Installed RAM: {ram} MB; this limit: {percent}%	Инсталирана RAM: {ram} MB; този лимит: {percent}%
 	Integer	Цяло число
@@ -1871,6 +1922,7 @@ colorRange	Invert	Инвертиране
 	ISO Speed	ISO чувствителност
 cameraData	ISO Speed	[cameraData] ISO скорост
 	Isolate Layers	Изолиране на слоеве
+	it is a folder, not a file; drop the files inside it instead	това е папка, а не файл; пуснете файловете в нея
 fontWeight	Italic	Курсив
 	Its layers don't fit the GPU memory budget. Raising Memory usage in Preferences › Performance raises the budget, up to a quarter of this computer's memory.	Неговите слоеве не се побират в паметта на GPU. Увеличаването на използването на паметта в Предпочитания › Производителност увеличава бюджета до една четвърт от паметта на този компютър.
 	Its layers need {needed} of GPU memory; the budget leaves them {budget}.	Слоевете му изискват {needed} GPU памет; бюджетът им оставя {budget}.
@@ -2048,6 +2100,7 @@ cameraRaw	Lights	Светли тонове
 	Load Selection…	Зареждане на селекция…
 	Load settings from a Camera Raw .xmp file	Зареждане на настройки от Camera Raw .xmp файл
 	Load Settings…	Зареждане на настройки…
+	Load Solid Colors Only	Зареждане само на плътни цветове
 	Load the brush after each stroke	Зареди четката след всеки щрих
 	Loaded Camera Raw settings from {file}	Заредени са настройки за Camera Raw от {file}
 	Loaded Camera Raw settings from {file} ({n} not supported)	Заредени са настройки за Camera Raw от {file} ({n} не се поддържа)
@@ -2127,6 +2180,7 @@ cameraData	Make	[cameraData] Производител
 	Make Work Path	Създай работен път
 	Make work path from selection	Създай работен път от селекцията
 	Make Work Path…	Създай работен път…
+	Make:	Създаване:
 	Malvar–He–Cutler	Malvar–He–Cutler
 	Manage submitted jobs in the system print queue	Управление на изпратените задачи в системната опашка за печат
 	Manual	Ръчно
@@ -2190,6 +2244,7 @@ fontWeight	Medium	Среден
 	Merge to HDR Pro	Слеване в HDR Pro
 	Merge to HDR Pro…	Слеване в HDR Pro…
 	Merge Visible	Слеване на видимите
+	Merged	Сляти
 	Merged Layers	Обединени слоеве
 	Merged PRs	Сляти заявки за сливане (PR)
 	Mesh Size	Размер на мрежата
@@ -2208,6 +2263,7 @@ cameraRaw	Midtones	Средни тонове
 	Midtones to:	Средни тонове до:
 	Migrate Presets	Мигриране на предварителни настройки
 	Minimalistic	Минималистичен
+	Minimizes clipping in shadows and highlights, and keeps colors from shifting hue	Минимизира отрязването в сенките и светлите участъци и запазва цветовете от промяна на нюанса
 	Minimum Depth	Минимална дълбочина
 	Minimum Diameter	Минимален диаметър
 	Minimum Roundness	Минимална закръгленост
@@ -2346,6 +2402,7 @@ cameraData	Model	[cameraData] Модел
 	Next note	Следваща бележка
 	Next Theme	Следваща тема
 	No Adv. Blending	Без разширено смесване
+	No anchor to delete	Няма опорна точка за изтриване
 	No author	Няма автор
 	No brush presets	Няма готови настройки за четка
 	No character style	Няма стил на знаците
@@ -2354,6 +2411,7 @@ layerLabel	No Color	Без цвят
 	No contributor data was built into this copy.	В това копие няма вградени данни за сътрудниците.
 	No custom shape "{name}": pick one in the options bar or Window › Shapes	Няма потребителска фигура „{name}“: изберете такава от лентата с опции или Прозорец › Фигури
 	No Dither	Без дихеринг
+	No document.	Няма документ.
 	No favorite fonts yet: click the star beside a font to add it.	Все още няма любими шрифтове: кликнете върху звездата до шрифта, за да го добавите.
 	No fonts match these filters.	Няма шрифтове, които да отговарят на тези филтри.
 	No Image	Няма изображение
@@ -2366,16 +2424,23 @@ layerLabel	No Color	Без цвят
 	No matching commands	Няма съвпадащи команди
 	No matching fonts	Няма съвпадащи шрифтове
 	No matching settings	Няма съвпадащи настройки
+	No menu item belongs to this chooser.	Нито един елемент от менюто не принадлежи на този избирач.
+	No menu item is waiting.	Нито един елемент от менюто не чака.
 	No model credits were built into this copy.	В това копие няма вградени кредити за модела.
 	No note to delete	Няма бележка за изтриване
 	No object found there — drag a rectangle around it	Там не е намерен обект — плъзнете правоъгълник около него
+	No options for the Add Anchor Point Tool.	Няма опции за инструмент Добавяне на опорна точка.
+	No options for the Delete Anchor Point Tool.	Няма опции за инструмент Изтриване на опорна точка.
+	No path to make a mask from: draw one with the Pen tool or select one in the Paths panel.	Няма път, от който да се създаде маска: нарисувайте такъв с инструмент Перо или изберете такъв в панел Пътища.
 	No path to make a selection from: draw one with the Pen tool or select one in the Paths panel.	Няма път за създаване на селекция: начертайте го с инструмента Перо или изберете такъв в панела Пътища.
 	No path to make a shape from: draw one with the Pen tool or select one in the Paths panel.	Няма път, от който да се създаде форма: начертайте такъв с инструмента „Перо“ или изберете такъв от панела „Пътища“.
 	No patterns	Няма мотиви
 	No pin selected	Няма избрана карфица
+	No pixels are selected.	Няма избрани пиксели.
 	No presets for the current tool.	Няма готови настройки за текущия инструмент.
 	No presets of this type.	Няма готови настройки от този тип.
 	No properties	Няма свойства
+	No recorded step belongs to this editor.	Нито една записана стъпка не принадлежи на този редактор.
 	No Results	Няма резултати
 	No Results Found	Няма намерени резултати
 	No saved presets yet.	Все още няма запазени готови настройки.
@@ -2383,6 +2448,7 @@ layerLabel	No Color	Без цвят
 	No similar fonts: the current font doesn't say what it looks like.	Няма подобни шрифтове: текущият шрифт не предоставя информация за външния си вид.
 	No slices are selected. Click a slice in the preview to select it.	Няма избрани срезове. Кликнете върху срез в прегледа, за да го изберете.
 	No Spelling Suggestions	Няма предложения за правопис
+	No step is waiting.	Нито една стъпка не чака.
 	No subject found — try a rectangle around the object	Няма намерен обект — опитайте с правоъгълник около обекта
 	No subject found — try Object Selection or the Lasso	Няма намерен обект — опитайте Селекция на обект или Ласо
 	No Thumbnails	Няма миниатюри
@@ -2460,6 +2526,7 @@ layerLabel	No Color	Без цвят
 	Open anyway	Отваряне въпреки това
 	Open As	Отваряне като
 	Open as smart object	Отваряне като интелигентен обект
+	Open as Smart Object…	Отваряне като смарт обект…
 	Open As…	Отваряне като…
 	Open color-less EXR as ACEScg	Отвори безцветен EXR като ACEScg
 	Open documents as tabs	Отваряне на документите като раздели
@@ -2558,6 +2625,8 @@ smartSvg	Other application	Друго приложение
 	Patch	Кръпка
 	Patch Tool	Инструмент „Кръпка“
 	Patch:	Кръпка:
+	Path alignment	Подравняване на контур
+	Path arrangement	Подредба на контур
 	Path Blur	Размиване по път
 	Path Blur…	Размиване по път…
 	Path operations	Операции с пътища
@@ -2641,6 +2710,7 @@ smartSvg	PhotoCraft (internal editor)	PhotoCraft (вътрешен редакт�
 	Pixel Layer	Пикселен слой
 	Pixel Length:	Дължина в пиксели:
 	Pixel Replacement	Замяна на пиксели
+	pixels	пиксели
 	Pixels/Centimeter	Пиксели/сантиметър
 	Pixels/Inch	Пиксели/инч
 	Pixels:	Пиксели:
@@ -2693,6 +2763,7 @@ smartSvg	PhotoCraft (internal editor)	PhotoCraft (вътрешен редакт�
 	Preferences can't be saved	Предпочитанията не могат да бъдат запазени
 	Preferences saved	Предпочитанията са запазени
 	Preferences were reset: {error}	Предпочитанията бяха нулирани: {error}
+	Preparing Free Transform	Подготовка на свободно трансформиране
 	Presentation	Презентация
 	Preserve Details	Запазване на детайлите
 	Preserve details	Запазване на детайлите
@@ -2836,6 +2907,7 @@ cameraRaw	Radius	Радиус
 	Recently Used Colors	Наскоро използвани цветове
 	Reconstruct	Възстановяване
 	Reconstruct All	Възстановяване на всичко
+	Record Again	Запис отново
 	Record Measurements	Запис на измервания
 	Record ● a sequence of edits, then play ▶ it on any document.	Запишете ● последователност от корекции, след което я изпълнете ▶ върху произволен документ.
 	Recover on launch	Възстановяване при стартиране
@@ -2911,6 +2983,7 @@ fontWeight	Regular	Нормален
 	Render	Рендиране
 	Render Video	Рендиране на видео
 	Render Video…	Рендиране на видео…
+	Rendering	Рендиране
 	Rendering Mode	Режим на рендиране
 	Rendering mode	Режим на рендиране
 	Rendering…	Рендиране…
@@ -2943,6 +3016,7 @@ fontWeight	Regular	Нормален
 	Reset Swatches	Нулиране на мострите
 	Reset the brush to the defaults	Нулиране на четката до настройките по подразбиране
 	Reset the crop box, image rotation, and aspect ratio settings	Нулиране на рамката за изрязване, завъртането на изображението и настройките за пропорции
+	Reset the warp	Нулиране на изкривяването
 	Reset to Default	Връщане към стандартните
 	Reset to defaults	Връщане към настройките по подразбиране
 	Reset Tool	Нулиране на инструмента
@@ -2951,6 +3025,7 @@ fontWeight	Regular	Нормален
 	Reset Workspace	Нулиране на работната среда
 	Resize image during place	Преоразмеряване на изображението при поставяне
 	Resize Windows to Fit	Преоразмеряване на прозорците по размер
+	Resize windows when zooming using the Zoom Tool	Преоразмеряване на прозорците при мащабиране с инструмента за мащабиране
 	Resolution: {dpi} pixels/inch	Разделителна способност: {dpi} пиксела/инч
 	Resolve Missing Fonts	Разрешаване на липсващите шрифтове
 	Resolve Missing Fonts…	Разрешаване на липсващите шрифтове…
@@ -3017,6 +3092,7 @@ cameraRaw	Roughness	Грапавост
 cameraRaw	Roundness	Закръгленост
 	Roundness Jitter	Колебание на закръглеността
 	Row Order	Ред на редовете
+	Rubber Band	Гумена лента
 	Rule of Thirds	Правило на третините
 	Ruler Tool	Инструмент „Линия“
 	Ruler Units	Единици на линията
@@ -3112,6 +3188,7 @@ smartSvg	Save to the opened SVG file. Each saved change becomes one undo step in
 	Script	Скрипт
 	Script Events Manager	Мениджър на събития за скриптове
 	Script Events Manager…	Мениджър на събития за скриптове…
+	Scroll all open document windows when using the hand tool	Превъртане на всички отворени прозореца на документи при използване на инструмента ръка
 	Scroll All Windows	Превъртане на всички прозорци
 	Scroll menu down	Превъртане на менюто надолу
 	Scroll menu up	Превъртане на менюто нагоре
@@ -3119,6 +3196,7 @@ smartSvg	Save to the opened SVG file. Each saved change becomes one undo step in
 	Scrubby slider acceleration	Ускорение на плъзгача за динамично влачене
 	Scrubby Zoom	Динамично мащабиране
 	Seafoam	Морска пяна
+	Search and select fonts	Търсене и избиране на шрифтове
 	Search Brushes	Търсене на четки
 	Search commands	Търсене на команди
 	Search commands (⌘K)	Търсене на команди (⌘K)
@@ -3136,6 +3214,8 @@ smartSvg	Save to the opened SVG file. Each saved change becomes one undo step in
 	Select a type layer to edit its character and paragraph settings.	Изберете текстов слой, за да редактирате неговите настройки за знаци и абзаци.
 	Select All Layers	Избор на всички слоеве
 	Select an action first	Първо изберете действие
+	Select an action first.	Изберете действие първо.
+	Select an action step first.	Изберете стъпка от действие първо.
 	Select and Mask	Селекция и маска
 	Select and Mask was closed: another layer was selected	Избор и маска беше затворена: беше избран друг слой
 	Select and Mask was closed: its document is no longer the active one	Избор и маска беше затворена: документът ѝ вече не е активен
@@ -3150,6 +3230,7 @@ smartSvg	Save to the opened SVG file. Each saved change becomes one undo step in
 	Select Layer Above	Избор на слоя отгоре
 	Select Layer Below	Избор на слоя отдолу
 	Select Linked Layers	Избор на свързани слоеве
+	Select Pixels	Избиране на пиксели
 	Select Plane	Избор на равнина
 	Select Similar Colors	Избор на подобни цветове
 	Select Subject	Избор на обект
@@ -3167,6 +3248,7 @@ smartSvg	Save to the opened SVG file. Each saved change becomes one undo step in
 	Selection Edges	Ръбове на селекцията
 	Selection Preview:	Преглед на селекцията:
 	Selections	Селекции
+	Selection…	Избор…
 	Selective Color	Селективен цвят
 	Selective Color…	Селективен цвят…
 	Semi Bold	Получерен
@@ -3199,13 +3281,17 @@ fontWeight	SemiBold	Полуглавен
 	Set 8	Набор 8
 	Set 9	Набор 9
 	Set additional Crop options	Задаване на допълнителни опции за изрязване
+	Set additional pen and path options	Задаване на допълнителни опции за писалка и контур
 	Set additional smoothing options	Задаване на допълнителни опции за изглаждане
 	Set as default	Задай по подразбиране
 	Set background color	Задаване на фонов цвят
 	Set Black Point	Задаване на черно пикселно ниво
 	Set Colors	Задаване на цветове
 	Set deleted.	Наборът е изтрит.
+	Set exposure for stroke	Задаване на експозиция за щрих
 	Set flow rate for stroke	Задаване на поток за щрих
+	Set font size	Задаване на размер на шрифта
+	Set font style	Задаване на стил на шрифта
 	Set foreground color	Задаване на цвят на предния план
 	Set GPU Memory in Preferences › Performance to what your graphics card can hold, at most 3/8 of its memory. Automatic follows Memory Usage, within a quarter of this computer's memory and 3/8 of the card's, and doesn't count the document against a card whose memory is known. The status bar shows GPU Memory Full while they don't fit.	Задайте GPU памет в Предпочитания › Производителност до това, което може да побере вашата графична карта, най-много 3/8 от нейната памет. Автоматичното следва Използване на паметта, в рамките на една четвърт от паметта на този компютър и 3/8 от тази на картата, и не отчита документа спрямо карта, чиято памет е известна. Лентата на състоянието показва GPU памет пълна, докато те не се побират.
 	Set horizontal skew	Задаване на хоризонтално изкривяване
@@ -3223,7 +3309,9 @@ fontWeight	SemiBold	Полуглавен
 	Set smoothing for stroke\nUse higher values to reduce the shakiness of brush strokes	Задаване на изглаждане за щрих\nИзползвайте по-високи стойности за намаляване на трептенето на щрихите на четката
 	Set Start Timecode…	Задаване на начален времеви код…
 	Set symmetry options for Painting	Настройка на опции за симетрия за Рисуване
+	Set text color	Задаване на цвят на текста
 	Set the aspect ratio for the crop box	Задайте пропорциите за рамката за изрязване
+	Set the brush angle	Задаване на ъгъл на четката
 	Set the overlay options for the Crop Tool	Задайте опциите за наслагване за инструмента за изрязване
 	Set the overlay options for the Crop tool	Задайте опциите за покритие на инструмента Изрязване
 	Set the text color	Задайте цвета на текста
@@ -3266,6 +3354,7 @@ cameraRaw	Shadows	Сенки
 	Sharpen More	Повече заостряне
 	Sharpen Radius	Радиус на заостряне
 	Sharpen Tool	Инструмент Заостряне
+	sharpen tool	инструмент за изостряне
 	Sharpening	Заостряне
 	Shear	Срязване
 	Shear…	Срязване…
@@ -3372,11 +3461,13 @@ curves	Smooth	Гладка
 	Smooth the curve values	Изглаждане на стойностите на кривата
 	Smoothing	Изглаждане
 	Smoothing Options	Опции за изглаждане
+	Smoothness {s}% · {method}	Гладкост {s}% · {method}
 	Smooth…	Изглаждане…
 	SMPTE C	SMPTE C
 	Smudge	Размазване
 	Smudge Stick	Пръчка за размазване
 	Smudge Tool	Инструмент „Размазване“
+	smudge tool	инструмент за размазване
 	Snap	Прилепване
 	Snap To	Прилепване към
 	Snap to Origin	Прилепване към началото
@@ -3414,6 +3505,7 @@ curves	Smooth	Гладка
 	Source2 Channel	Канал на източник 2
 	Source2 Invert	Инвертиране на източник 2
 	Source:	Източник:
+	Source: document closed	Източник: документът е затворен
 	Source: not set ({key}-click with Clone Stamp)	Източник: не е зададен (кликнете с {key} и Щемпел за клониране)
 	Source: set	Източник: зададен
 	Source: {name}	Източник: {name}
@@ -3437,6 +3529,7 @@ curves	Smooth	Гладка
 	Split:	Разделяне:
 	Sponge	Гъба
 	Sponge Tool	Инструмент „Гъба“
+	sponge tool	инструмент гъба
 	Spot	Петно
 	Spot Channel	Спот канал
 	Spot Color	Петнообразен цвят
@@ -3581,15 +3674,24 @@ cameraRaw	Texture	Текстура
 	Texture Each Tip	Текстура за всеки връх
 	Texturizer	Текстуриране
 	Thaw Mask	Размразяване на маската
+	The action or insertion command changed. Request Insert Menu Item again.	Командата за действие или вмъкване е променена. Моля, заявете Вмъкване на елемент от менюто отново.
+	The actions changed. Request Record Again again.	Действията са променени. Моля, заявете Запис отново отново.
 	The active layer has no pixels here — turn on Sample All Layers or select a layer with pixels	Активният слой няма пиксели тук — включете „Вземане на проби от всички слоеве“ или изберете слой с пиксели
+	The adjustment target is missing or unavailable.	Целта за корекция липсва или е недостъпна.
 @plural	The brush group “{group}” already has {n} brush of yours.|The brush group “{group}” already has {n} brushes of yours.	Групата четки „{group}“ вече съдържа {n} ваша четка.|Групата четки „{group}“ вече съдържа {n} ваши четки.
 	The canvas is shown as sRGB. Choose a monitor profile in Edit › Color Settings.	Платното се показва като sRGB. Изберете профил на монитора в Редактиране › Цветови настройки.
 	The canvas on {display} is shown as sRGB. Choose a monitor profile in Edit › Color Settings.	Платното на {display} се показва като sRGB. Изберете профил на монитора в Редактиране › Цветови настройки.
+	The command permissions changed. Request Insert Menu Item again.	Разрешенията за командата са променени. Моля, заявете Вмъкване на елемент от менюто отново.
+	The command permissions changed. Request Record Again again.	Разрешенията за командата са променени. Моля, заявете Запис отново отново.
 	The current gradient (pick one in Window › Gradients)	Текущият градиент (изберете от Прозорец › Градиенти)
 	The current scratch directory ({path}) doesn't report its free space, so PhotoCraft can't stop before it fills up, and large files get no extra room from it without a Scratch Size Limit. This warning applies to the current configuration; changes above take effect on Apply or OK. Set a limit or use a local disk.	Текущата временна директория ({path}) не отчита свободното си пространство, така че PhotoCraft не може да спре, преди да се запълни, а големите файлове не получават допълнително място от нея без ограничение на размера на временния файл. Това предупреждение се отнася за текущата конфигурация; промените по-горе влизат в сила при „Приложи“ или „ОК“. Задайте ограничение или използвайте локален диск.
+	The document changed. Please choose Clear All again.	Документът е променен. Моля, изберете Изчистване на всички отново.
+	The document changed. Request Record Again again.	Документът е променен. Поискайте запис отново.
 	The document does not have an embedded colour profile. Working space: {working}.	Документът няма вграден цветови профил. Работно пространство: {working}.
 	The document has an embedded colour profile that does not match the working space.\nEmbedded: {embedded}\nWorking: {working}	Документът има вграден цветови профил, който не съвпада с работното пространство.\nВграден: {embedded}\nРаботен: {working}
 	The document is closed	Документът е затворен
+	The document or active layer changed. Open Fill again.	Документът или активният слой е променен. Отворете запълване отново.
+	The document or active layer changed. Open Stroke again.	Документът или активният слой е променен. Отворете контур отново.
 	The document or its notes changed. Please delete the note again.	Документът или бележките му са променени. Моля, изтрийте бележката отново.
 	The document or selected layers changed. Please request deletion again.	Документът или избраните слоеве бяха променени. Моля, заявете изтриването отново.
 	The document or Smart Filter changed. Reopen its dialog.	Документът или интелигентният филтър са променени. Отворете отново диалоговия му прозорец.
@@ -3612,6 +3714,10 @@ cameraRaw	Texture	Текстура
 	The name in the save dialog was “{name}”.	Името в диалоговия прозорец за запис беше „{name}“.
 	The path was discarded	Пътят беше отхвърлен
 	The path was kept as the Work Path	Пътят беше запазен като работен път
+	The preference could not be saved: {error}	Предпочитанието не можа да бъде запазено: {error}
+	The Record Again command changed.	Командата Запис отново е променена.
+	The step editor could not be opened.	Редакторът на стъпки не можа да бъде отворен.
+	The step has no command editor.	Стъпката няма редактор на команди.
 	The transform couldn't be applied.	Трансформацията не можа да бъде приложена.
 	Theme	Тема
 	There are too many sets: delete one first.	Има твърде много набори: изтрийте един първо.
@@ -3621,11 +3727,13 @@ cameraRaw	Texture	Текстура
 	Thin	Тънка
 fontWeight	Thin	Тънък
 	This adjustment ({key}) is kept as imported and can't be edited yet.	Тази корекция ({key}) се запазва както е импортирана и все още не може да се редактира.
+	This custom shape can't be added to a shape layer with a path operation: choose New Layer	Тази персонализирана форма не може да бъде добавена към слой с форма с операция на път: изберете Нов слой
 	This document's layers need {needed} but may hold {budget}: whole-document redraws use the CPU	Слоевете на този документ изискват {needed}, но могат да съдържат {budget}: прерисуванията на целия документ използват процесора
 	This document's layers: {needed} of {budget} for layers	Слоеве на този документ: {needed} от {budget} за слоеве
 	This fill layer must be rasterized before proceeding. Its fill content will no longer be editable. Rasterize the layer?	Този слой за запълване трябва да бъде растеризиран, преди да продължите. Съдържанието му за запълване вече няма да може да се редактира. Да се растеризира ли слоят?
 	This layer must be rasterized before proceeding.	Този слой трябва да бъде растеризиран, преди да продължите.
 	This Layer:	Този слой:
+	This operation will turn a live shape into a regular path. Continue?	Тази операция ще превърне жива форма в обикновен път. Продължи?
 	This redraw took {seconds} s on the CPU.	Това пречертаване отне {seconds} с на CPU.
 	This session: {reason}	Тази сесия: {reason}
 	This shape layer must be rasterized before proceeding. It will no longer be editable as a shape. Rasterize the shape?	Този слой с фигура трябва да бъде растеризиран, преди да продължите. Той вече няма да може да се редактира като фигура. Да се растеризира ли фигурата?
@@ -3663,6 +3771,7 @@ cameraRaw	Tint	Нюанс
 	To Center	Към центъра
 	To drop files, start PhotoCraft under XWayland: `{command}`	За да пуснете файлове, стартирайте PhotoCraft под XWayland: `{command}`
 	To paste from other apps, start PhotoCraft under XWayland: `{command}`	За да поставите от други приложения, стартирайте PhotoCraft под XWayland: `{command}`
+	Toggle Character and Paragraph panels	Превключване на панелите за знаци и абзаци
 	Toggle count group visibility	Превключи видимостта на групата отброявания
 	Toggle Last State	Превключи последното състояние
 	Toggle Layer Mask Overlay	Превключи наслагването на слойната маска
@@ -3671,6 +3780,8 @@ cameraRaw	Tint	Нюанс
 	Toggle the Brush Settings panel	Превключи панела „Настройки на четката“
 	Toggle the Brush Settings panel  (F5)	Превключи панела „Настройки на четката“  (F5)
 	Toggle visibility	Превключи видимостта
+	Toggle visibility of count group	Превключване на видимостта на групата за броене
+	Tolerance for choosing related colors	Толеранс за избор на свързани цветове
 	Tone Curve	Тонална крива
 	Tone Histogram	Тонална хистограма
 	Tone:	Тон:
@@ -3681,6 +3792,7 @@ cameraRaw	Tint	Нюанс
 	Toolbar…	Лента с инструменти…
 	Tools…	Инструменти…
 	Top	Горно
+	Top align text	Подравняване на текст отгоре
 	Top Edges	Горни краища
 	Torn Edges	Назъбени краища
 	Total Ink	Общо мастило
@@ -3782,6 +3894,7 @@ smartSvg	Updates wait while another document or an editing dialog is active.	А�
 	Use legacy free transform	Използване на старото свободно трансформиране
 	Use Measurement Scale	Използване на мерна скала
 	Use Previous Layer to Create Clipping Mask	Използване на предишния слой за създаване на изрязваща маска
+	Use relative positioning for reference point	Използване на относително позициониране за референтна точка
 	Use Selection In Source	Използване на селекцията в източника
 	Use Selection In Target	Използване на селекция в целта
 	Use shift key for tool switch	Използване на клавиша Shift за превключване на инструмент
@@ -3791,6 +3904,7 @@ smartSvg	Updates wait while another document or an editing dialog is active.	А�
 	Use the embedded profile ({profile})	Използване на вградения профил ({profile})
 	Use these settings for new arrows	Използване на тези настройки за нови стрелки
 	Use:	Използване:
+	Useful mixer brush combinations	Полезни комбинации на четка за смесване
 	Uses the foreground and background colors.	Използва цветовете на предния план и фона.
 	Uses the foreground and background colours.	Използва цветовете на предния план и фона.
 	Vanishing Point	Точка на изчезване
@@ -3931,6 +4045,9 @@ cameraRaw	Yellow	Жълто
 	Zoom	Мащабиране
 navigator	Zoom	Мащабиране
 	Zoom clicked point to center	Центриране на щракнатата точка при мащабиране
+	Zoom current window to 1:1	Мащабиране на текущия прозорец до 1:1
+	Zoom current window to fill the screen	Мащабиране на текущия прозорец за запълване на екрана
+	Zoom current window to screen size	Мащабиране на текущия прозорец до размера на екрана
 	Zoom In (hold, drag to scrub)	Увеличаване (задръжте, плъзнете за превъртане)
 	Zoom Out (hold)	Намаляване (задръжте)
 	Zoom resizes windows	Мащабирането преоразмерява прозорците
