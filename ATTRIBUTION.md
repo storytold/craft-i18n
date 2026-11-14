@@ -245,6 +245,11 @@ product's localisation consulted. **No native speaker has reviewed these rows.**
 neutral, standard short forms; "Hong Kong SAR" and "Macao SAR" use each locale's word for special
 administrative region.
 
+Three more names, Guinea-Bissau, São Tomé and Príncipe and Timor-Leste, are for the regions that write
+Portuguese like Portugal and had none, in the same 36 locales: Renato Pinto (@quebranozes) with
+Claude Code (Claude Opus 5.5), AI-assisted, written the same way, as each locale's usual short name.
+No native speaker has reviewed these three rows either.
+
 ## WordCraft: the Watermark dialog strings (storytold/wordcraft#5735)
 
 Eight rows in `wordcraft.tsv` of every locale that has one (35): "No watermark", "Picture
