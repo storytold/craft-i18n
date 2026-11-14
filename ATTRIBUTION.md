@@ -110,6 +110,16 @@ storytold/wordcraft#4237) in `ar`, `bg`, `cs`, `da`, `de`, `es`, `et`, `fr`,
 English meaning, using each locale's existing WordCraft terms (its name for the Normal style,
 template, default and Reset). No native-speaker review is recorded.
 
+## WordCraft: Japanese interface and checker follow-up
+
+@haranishi contributed the remaining Japanese interface rows and the proofing/accessibility
+message templates in `bg`, `cs`, `hr`, `hu`, `it`, `ja`, `pl`, `ro`, `ru`, `sl`, `sv`, `tr`
+and `vi`, moved from storytold/wordcraft#1588 at `ed384d7275e4ee08eceeec0e182115e4234c897c`
+after the app adopted shared catalogs. Prepared and checked with OpenAI Codex, and revised after
+review with Claude Code, from the plain meaning of the English; no native-speaker review is recorded for these additions. Existing
+upstream wording is retained when it changed independently. The earlier translator credits
+above are unchanged.
+
 ## WordCraft: Swedish rows kept up to date
 
 Patrik Lermon (@kler) adds and updates WordCraft's `sv` rows as WordCraft gains strings, AI-assisted
