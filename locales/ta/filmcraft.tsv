@@ -1,0 +1,3029 @@
+# Tamil (ta) interface catalog for FilmCraft.
+# Columns, separated by a TAB:  context <TAB> English source text <TAB> translation
+#   context  usually empty. `@plural`, `@id` and `@msg` mean something to the apps; any other
+#            word is a label that tells apart two meanings of the same English.
+#   escapes  \n  \t  \\  inside a column. `{name}` placeholders must appear in both columns (in any
+#            order), and a trailing "…" in one needs one in the other.
+#   @plural  English `one|other`; the translation lists this language's plural forms, `|`-separated.
+#   Lines starting with # and blank lines are ignored. A missing entry shows in English.
+#
+# Clean room: every entry was written from the plain meaning of the English text in ordinary
+# computing vocabulary. No other product's localisation, string table or translated UI was
+# consulted or copied; add entries the same way.
+
+	Template: {name}	வார்ப்புரு: {name}
+	(removed from {list})	({list} இலிருந்து அகற்றப்பட்டது)
+	(unavailable)	(கிடைக்கவில்லை)
+	({ch} output channels)	{ch} வெளியீட்டு சேனல்கள்)
+	and	மற்றும்
+	· {time} left	· {time} மீதமுள்ளது
+	(Default)	(இயல்புநிலை)
+	(empty)	(காலி)
+	(gap)	(இடைவெளி)
+	(no audio)	(ஆடியோ இல்லை)
+	(no clip selected)	(துண்டு எதுவும் தேர்ந்தெடுக்கப்படவில்லை)
+	(no clips)	(துண்டுகள் இல்லை)
+	(no sequence)	(வரிசைத் தொகுப்பு இல்லை)
+	(no sequences)	(வரிசைத் தொகுப்புகள் இல்லை)
+	(RGB) Gamma	(RGB) காமா
+	(RGB) Input Black Level	(RGB) உள்ளீட்டு கருப்பு நிலை
+	(RGB) Input White Level	(RGB) உள்ளீட்டு வெள்ளை நிலை
+	(RGB) Output Black Level	(RGB) வெளியீட்டு கருப்பு நிலை
+	(RGB) Output White Level	(RGB) வெளியீட்டு வெள்ளை நிலை
+	+ Cmd	+ Cmd
+	+ Opt	+ Opt
+	0 fastest, 8 smallest	0 வேகமானது, 8 சிறியது
+	10 Bit Black Point	10 பிட் கருப்புப் புள்ளி
+	10 Bit White Point	10 பிட் வெள்ளைப் புள்ளி
+	105mm Prime	105 மிமீ பிரைம் லென்ஸ்
+	29.97 fps Drop-Frame	29.97 fps தவிர்க்கப்பட்ட-சட்டகம்
+	29.97 fps Non Drop-Frame	29.97 fps தவிர்க்கப்படாத-சட்டகம்
+	32 bit float	32 பிட் மிதப்புப் புள்ளி
+	35mm Prime	35 மிமீ முதன்மை லென்ஸ்
+	3D Roll	முப்பரிமாண அடுக்குச் சுழற்சி
+	3D Rotate	முப்பரிமாணச் சுழற்று
+	3D Spin	முப்பரிமாணத் தற்சுழற்சி
+	3D Spinback	முப்பரிமாணத் தலைகீழ் மீள்சுழற்சி
+	4-Color Gradient	4-நிறப் படித்திறன்
+	5.1 Media	5.1 ஊடகம்
+	5.1 Mixdown Type	5.1 ஒலி ஒருங்கிணைப்பு வகை
+	5.1 panner (drag the puck; double-click: front centre)	5.1 திசையமைவுக் கருவி (புள்ளியை இழுக்கவும்; இரட்டைச் சொடுக்கு: முன் மையம்)
+	50-300mm Zoom	50-300 மிமீ உருப்பெருக்கு
+	59.94 fps Drop-Frame	59.94 fps தவிர்க்கப்பட்ட-சட்டகம்
+	59.94 fps Non Drop-Frame	59.94 fps தவிர்க்கப்படாத-சட்டகம்
+	A boxed label with a round pointer; move the label and the pointer follows.	வட்டச் சுட்டியுடன் கூடிய பெட்டி லேபிள்; லேபிளை நகர்த்தினால் சுட்டி அதைப் பின்தொடரும்.
+	A clean-room, pure-Rust non-linear video editor. Part of the ArtCraft family.	தூய Rust-இல் கிளீன்-ரூம் முறையில் உருவாக்கப்பட்ட நேர்கோட்டற்ற வீடியோ எடிட்டர். ArtCraft குடும்பத்தின் ஒரு பகுதி.
+	A cut sequence with transitions, effects and music	மாற்றங்கள், விளைவுகள், இசையுடன் கூடிய வெட்டு வரிசைத் தொகுப்பு
+	A file dialog is already open	கோப்பு உரையாடல் ஏற்கெனவே திறந்துள்ளது
+	A news-style line that crawls in from the right and leaves at the left.	வலப்புறத்திலிருந்து ஊர்ந்து வந்து இடப்புறம் வெளியேறும் செய்தி பாணி வரி.
+	A rounded tag that fits its text, with a status dot.	உரைக்கு ஏற்ப அமையும், நிலைப் புள்ளியுடன் கூடிய வட்டமான குறிச்சொல்.
+	A title on a rounded card with a soft shadow.	மென்மையான நிழலுடன் வட்டமான அட்டையில் ஒரு தலைப்பு.
+	AAC Audio	AAC ஆடியோ
+	AAC Audio 48 kHz 320 kbps	AAC ஆடியோ 48 kHz 320 kbps
+	AAF Export Settings	AAF ஏற்றுமதி அமைப்புகள்
+	AAF…	AAF…
+	About FilmCraft	FilmCraft பற்றி
+	Accent Color	அழுத்த நிறம்
+	Accessible color contrast	அணுகத்தக்க நிற வேறுபாடு
+	Action and Title Safe Areas	செயல் மற்றும் தலைப்புப் பாதுகாப்புப் பகுதிகள்
+	Action Safe Area	செயல் பாதுகாப்புப் பகுதி
+	Action-Safe Margin	செயல் பாதுகாப்பு ஓரம்
+	Action:	செயல்:
+	Active Monitor	செயலில் உள்ள திரை
+	Adaptive ({bpp} bits per pixel)	தகவமைவு (ஒரு பிக்சலுக்கு {bpp} பிட்கள்)
+	Add a timecode row	காலக்குறியீடு வரிசையைச் சேர்
+	Add another shortcut	மற்றொரு குறுக்குவழியைச் சேர்
+	Add Audio Submix Track	ஆடியோ சப்மிக்ஸ் தடத்தைச் சேர்
+	Add audio submix tracks	ஆடியோ சப்மிக்ஸ் தடங்களைச் சேர்
+	Add audio tracks	ஆடியோ தடங்களைச் சேர்
+	Add Caption at Playhead	இயக்கக் குறிமுள்ளில் வசனத்தைச் சேர்
+	Add caption at playhead	இயக்கக் குறிமுள்ளில் வசனத்தைச் சேர்
+	Add captions	வசனங்களைச் சேர்
+	Add Chapter Marker…	அத்தியாயக் குறிப்பானைச் சேர்…
+	Add Edit	தொகுப்புப் புள்ளியைச் சேர்
+	Add Edit to All Tracks	அனைத்து தடங்களிலும் தொகுப்புப் புள்ளியைச் சேர்
+	Add Flash Cue Marker…	ஃபிளாஷ் க்யூ குறிப்பானைச் சேர்…
+	Add Frame Hold	உறைந்த சட்டகமைச் சேர்
+	Add Guide	வழிகாட்டி கோடைச் சேர்
+	Add Guide…	வழிகாட்டி கோடைச் சேர்…
+	Add keyframe	முக்கியச் சட்டகமைச் சேர்
+	Add Lumetri Color to clip	துண்டில் லூமெட்ரி நிறத்தைச் சேர்
+	Add Marker	குறிப்பானைச் சேர்
+	Add Marker (M)	குறிப்பானைச் சேர் (M)
+	Add media to your project. Drop files anywhere in the window, or choose a source below.	உங்கள் திட்டத்தில் ஊடகங்களைச் சேர்க்கவும். கோப்புகளை சாளரத்தில் எங்கு வேண்டுமானாலும் இழுத்து விடவும், அல்லது கீழே ஒரு மூலத்தைத் தேர்ந்தெடுக்கவும்.
+	Add New Caption Track…	புதிய வசன டிராக்கைச் சேர்…
+	Add Property…	பண்பைச் சேர்…
+	Add Range Marker	வரம்புக் குறிப்பானைச் சேர்
+	Add Range Marker to In and Out	உள்–வெளிப் புள்ளிகளுக்கு வரம்புக் குறிப்பானைச் சேர்
+	Add to Favorites	பிடித்தவையில் சேர்
+	Add Tracks	தடங்களைச் சேர்
+	Add tracks automatically when editing source clips onto the Timeline	மூல துண்டுகளை காலவரிசையில் தொகுக்கும்போது தடங்களைத் தானாகச் சேர்
+	Add Tracks…	தடங்களைச் சேர்…
+	Add video tracks	வீடியோ தடங்களைச் சேர்
+	Add/Remove Keyframe	முக்கியச் சட்டகமைச் சேர்/அகற்று
+	Added to the export queue	ஏற்றுமதி வரிசையில் சேர்க்கப்பட்டது
+	Additional Scale	கூடுதல் அளவு
+	Additive Dissolve	கூட்டல் கரைவு
+	Additive Dissolve (Legacy)	கூட்டல் கரைவு (பழைய பதிப்பு)
+	Adjust Gain by:	கெயினை இதன்படி சரிசெய்:
+	Adjustment Layer…	சரிசெய்தல் அடுக்கு…
+	After {name}	{name} க்குப் பிறகு
+	Aggressive	தீவிரமான
+	AIFF	AIFF
+	AIFF 48 kHz 16-bit	AIFF 48 kHz 16 பிட்
+	AIFF, stereo 48 kHz 16-bit PCM	AIFF, இருவழித் தடம், 48 kHz 16 பிட் PCM
+	Align and Transform	சீரமை மற்றும் உருமாற்று
+	Align Bottom	கீழே சீரமை
+	Align Center Horizontally	கிடைமட்டமாக மையத்தில் சீரமை
+	Align Center Vertically	செங்குத்தாக மையத்தில் சீரமை
+	Align Timecode	காலக்குறியீட்டை சீரமை
+	Align to Grid	கட்டத்துடன் சீரமை
+	Align to Video Frame	வீடியோ சட்டகமுடன் சீரமை
+	Align to Video Frame as Group	வீடியோ சட்டகமுடன் குழுவாகச் சீரமை
+	Align Top	மேலே சீரமை
+	All Cameras	அனைத்து கேமராக்கள்
+	All Empty Tracks	அனைத்து காலி தடங்கள்
+	All Events	அனைத்து நிகழ்வுகள்
+	All lines	அனைத்து வரிகள்
+	All markers are hidden by the colour filter.	நிற வடிப்பான் அனைத்து குறிப்பான்களையும் மறைத்துள்ளது.
+	All media is online.	அனைத்து ஊடகங்களும் இணைப்பில் உள்ளன.
+	All Panels	அனைத்துப் பலகங்கள்
+	Allow current tool to change trim type of previously selected edit point	தற்போதைய கருவி, முன்பு தேர்ந்தெடுத்த தொகுப்புப் புள்ளியின் ஒதுக்கீடு வகையை மாற்ற அனுமதி
+	Allow Duplicate Media During Project Import	திட்டத்தை இறக்குமதி செய்யும்போது நகல் ஊடகங்களை அனுமதி
+	Allow duplicate media during project import	திட்டத்தை இறக்குமதி செய்யும்போது நகல் ஊடகங்களை அனுமதி
+	Allow Selection tool to choose Roll and Ripple trims without modifier key	மாற்றி விசை இல்லாமலே ரோல் மற்றும் ரிப்பிள் ஒதுக்கீடுகளைத் தேர்வுக் கருவி தேர்ந்தெடுக்க அனுமதி
+	Alpha Adjust	ஆல்பா சரிசெய்தல்
+	Alpha Blurriness	ஆல்பா மங்கல்
+	Alpha Channel	ஆல்பா சேனல்
+	Alpha Glow	ஆல்பா ஒளிர்வு
+	Always Deinterlace	எப்போதும் வரிப் பின்னலை நீக்கம் செய்
+	Always import embedded CEA-708 closed captions with wide aspect.	அகலத் தோற்ற விகிதத்துடன் உட்பொதிக்கப்பட்ட CEA-708 மூடிய வசனங்களை எப்போதும் இறக்குமதி செய்
+	Always override audio tags	ஆடியோ குறிச்சொற்களை எப்போதும் மேலெழுது
+	Ambience	சுற்றுப்புறம்
+	Ambience Intensity	சுற்றுப்புறத் தீவிரம்
+	Ambience Light Color	சுற்றுப்புற ஒளி நிறம்
+	Amount of Noise	இரைச்சல் அளவு
+	Amount to Decolor	நிறம் நீக்கும் அளவு
+	Amount to Tint	சாயல் அளவு
+	Amplifier	பெருக்கி
+	Amplify	பெருக்கு
+	Amplitude	வீச்சு
+	Amplitude and Compression	வீச்சு மற்றும் சுருக்கம்
+	An earlier start failed with the default graphics. Updating the graphics driver usually fixes this.	முந்தைய தொடக்கத்தில் இயல்புநிலை வரைகலை இயக்கி தோல்வியடைந்தது. வரைகலை இயக்கியை புதுப்பித்தால் இது வழக்கமாக சரியாகும்.
+	Analog	அனலாக்
+	Analog Delay	அனலாக் தாமதம்
+	Analyze	ஆய்வு செய்
+	Analyze all imported media to search for visuals or audio	காட்சிகள் அல்லது ஆடியோவைத் தேட, இறக்குமதி செய்த அனைத்து ஊடகங்களையும் ஆய்வு செய்
+	Anamorphic	அனமார்பிக்
+	Anamorphic 2:1 (2.0)	அனமார்பிக் 2:1 (2.0)
+	Anchor	நங்கூரம்
+	Anchor Point	நங்கூரப் புள்ளி
+	Anchor point	நங்கூரப் புள்ளி
+	Anchor to In Point	தொடக்கப் புள்ளியில் நங்கூரமிடு
+	Anchor to Out Point	முடிவுப் புள்ளியில் நங்கூரமிடு
+	Animated GIF	அனிமேஷன் GIF
+	Animated GIF 640×360	அனிமேஷன் GIF 640×360
+	Anti-aliasing Quality	ஆன்டி-அலியாசிங் தரம்
+	Anti-flicker Filter	மினுமினுப்பு எதிர்ப்பு வடிப்பான்
+	Antialiasing for Best Quality	சிறந்த தரத்திற்கான ஆன்டி-அலியாசிங்
+	Appearance Mode	தோற்றப் பயன்முறை
+	Appearance…	தோற்றம்…
+	Apple ProRes	Apple ProRes
+	Apple ProRes 422	Apple ProRes 422
+	Apple ProRes 422 HQ	Apple ProRes 422 HQ
+	Apple ProRes 422 LT	Apple ProRes 422 LT
+	Apple ProRes 422 Proxy	Apple ProRes 422 Proxy
+	Apple ProRes 4444	Apple ProRes 4444
+	Apple ProRes 4444 with Alpha	Apple ProRes 4444 ஆல்பாவுடன்
+	Apple ProRes 4444 XQ	Apple ProRes 4444 XQ
+	Application shortcuts work whatever panel has focus	எந்தப் பலகம் கவனத்தில் இருந்தாலும் பயன்பாட்டுக் குறுக்குவழிகள் செயல்படும்
+	Apply a cut at each detected cut point	கண்டறியப்பட்ட ஒவ்வொரு வெட்டுப் புள்ளியிலும் வெட்டைப் பயன்படுத்து
+	Apply Audio Transition	ஆடியோ மாற்றத்தைப் பயன்படுத்து
+	Apply Default Audio Transition	இயல்புநிலை ஆடியோ மாற்றத்தைப் பயன்படுத்து
+	Apply Default Transitions	இயல்புநிலை மாற்றங்களைப் பயன்படுத்து
+	Apply Default Transitions to Selection	தேர்வில் இயல்புநிலை மாற்றங்களைப் பயன்படுத்து
+	Apply Default Transitions to Selection (Shift+D)	தேர்வில் இயல்புநிலை மாற்றங்களைப் பயன்படுத்து (Shift+D)
+	Apply Default Video Transition	இயல்புநிலை வீடியோ மாற்றத்தைப் பயன்படுத்து
+	Apply Guide Template	வழிகாட்டி வார்ப்புருவைப் பயன்படுத்து
+	Apply Match	பொருத்தத்தைப் பயன்படுத்து
+	Apply to Selected Clips	தேர்ந்தெடுத்த துண்டுகளில் பயன்படுத்து
+	Apply Video Transition	வீடியோ மாற்றத்தைப் பயன்படுத்து
+	APV	APV
+	APV 422-10	APV 422-10
+	APV 422-12	APV 422-12
+	Are you sure you want to discard your changes to '{file}'?	'{file}' இல் செய்த மாற்றங்களை நிச்சயமாக நிராகரிக்க வேண்டுமா?
+	ASC CDL	ASC CDL
+	Aspect	தோற்ற விகிதம்
+	Assembly	அசெம்பிளி
+	Assign an audio type to the selection:	தேர்வுக்கு ஒரு ஆடியோ வகையை ஒதுக்கு:
+	Assign {key} to {command}	{key} ஐ {command} க்கு ஒதுக்கு
+	Asymmetry	சமச்சீரின்மை
+	At playback end, return to beginning when restarting playback	இயக்கம் முடிந்ததும், மீண்டும் இயக்கும்போது தொடக்கத்திற்குத் திரும்பு
+	At Startup	தொடக்கத்தில்
+	At Unnumbered Markers	எண்ணிடப்படாத குறிப்பான்களில்
+	Att	அட்.
+	Attach Proxies…	ப்ராக்ஸிகளை இணை…
+	Attack	அட்டாக்
+	Attempt to force hardware to document sample rate	வன்பொருளை ஆவண மாதிரி விகிதத்திற்கு வற்புறுத்த முயற்சி
+	Audio analysis:	ஆடியோ பகுப்பாய்வு:
+	Audio Attributes	ஆடியோ பண்புக்கூறுகள்
+	Audio Bitrate	ஆடியோ பிட்வீதம்
+	Audio Channels…	ஆடியோ சேனல்கள்…
+	Audio Clip Mixer	ஆடியோ துண்டு மிக்ஸர்
+	Audio Codec	ஆடியோ கோடெக்
+	Audio Duration	ஆடியோ கால அளவு
+	Audio Effects	ஆடியோ விளைவுகள்
+	Audio effects	ஆடியோ விளைவுகள்
+	Audio File Format:	ஆடியோ கோப்பு வடிவம்:
+	Audio Format	ஆடியோ வடிவம்
+	Audio Gain	ஆடியோ கெயின்
+	Audio Gain…	ஆடியோ கெயின்…
+	Audio Hardware	ஆடியோ வன்பொருள்
+	Audio Hardware…	ஆடியோ வன்பொருள்…
+	Audio In	ஆடியோ உள்ளீடு
+	Audio In Point	ஆடியோ தொடக்கப் புள்ளி
+	Audio Info	ஆடியோ தகவல்
+	Audio Meters	ஆடியோ அளவிகள்
+	Audio on track {t}	டிராக் {t} இல் ஆடியோ
+	Audio Only	ஆடியோ மட்டும்
+	Audio only	ஆடியோ மட்டும்
+	Audio Options	ஆடியோ விருப்பங்கள்
+	Audio Out	ஆடியோ முடிவு
+	Audio Out Point	ஆடியோ முடிவுப் புள்ளி
+	Audio output failed: playing without sound (check Settings ▸ Audio Hardware)	ஆடியோ வெளியீடு தோல்வியடைந்தது: ஒலியின்றி இயக்கப்படுகிறது (அமைப்புகள் ▸ ஆடியோ வன்பொருளைச் சரிபார்க்கவும்)
+	Audio output is not responding: playing without sound (check Settings ▸ Audio Hardware)	ஆடியோ வெளியீடு பதிலளிக்கவில்லை: ஒலியின்றி இயக்கப்படுகிறது (அமைப்புகள் ▸ ஆடியோ வன்பொருளைச் சரிபார்க்கவும்)
+	Audio Previews:	ஆடியோ முன்னோட்டங்கள்:
+	Audio Samples	ஆடியோ மாதிரிகள்
+	Audio Time Units	ஆடியோ நேர அலகுகள்
+	Audio Track Mixer	ஆடியோ டிராக் மிக்ஸர்
+	Audio Track Mixer menu	ஆடியோ டிராக் மிக்ஸர் மெனு
+	Audio Tracks	ஆடியோ தடங்கள்
+	Audio Transition Default Duration	ஆடியோ மாற்றத்தின் இயல்புநிலை கால அளவு
+	Audio Transitions	ஆடியோ மாற்றங்கள்
+	Audio Usage	ஆடியோ பயன்பாடு
+	Audio Waveform	ஆடியோ அலைவடிவம்
+	Audio Waveforms	ஆடியோ அலைவடிவங்கள்
+	Audio {n}:	ஆடியோ {n}:
+	Audio:	ஆடியோ:
+	Audio…	ஆடியோ…
+	Auto (system)	தானியங்கி (முறைமை)
+	Auto Align	தானியங்கு வரிசைப்படுத்தல்
+	Auto Bezier	தானியங்கு பெசியர்
+	Auto Gate	தானியங்கு ஒலி வாயில்
+	Auto Makeup	தானியங்கு ஒலி சீரமைப்பு
+	Auto Reframe	தானியங்கு சட்டக மறுசீரமைப்பு
+	Auto Save	தானியங்கு சேமிப்பு
+	Auto Save also saves the current project(s)	தானியங்கு சேமிப்பு தற்போதைய திட்டங்களையும் சேமிக்கும்
+	Auto Save Now	இப்போது தானாகச் சேமி
+	Auto Save…	தானியங்கு சேமிப்பு…
+	Auto Tone Map Media (HDR and log into SDR)	ஊடகத்தைத் தானாக தொனி வரைபடமாக்கு (HDR மற்றும் log இலிருந்து SDR க்கு)
+	Auto tone map media (HDR and log into SDR)	ஊடகத்தைத் தானாக தொனி வரைபடமாக்கு (HDR மற்றும் log இலிருந்து SDR க்கு)
+	Auto-Adjust Multi-Camera Playback Quality	பல-கேமரா இயக்கத் தரத்தைத் தானாகச் சரிசெய்
+	Auto-Match	தானாகப் பொருத்து
+	Auto-Match Loudness	ஒலி அளவைத் தானாகப் பொருத்து
+	Auto-saves go to: {dir}	தானியங்குச் சேமிப்புகள் இங்கே செல்லும்: {dir}
+	Auto-tag audio types in the timeline	காலவரிசையில் ஆடியோ வகைகளைத் தானாகக் குறியிடு
+	Auto-transcribe all imported clips	இறக்குமதி செய்த அனைத்து துண்டுகளையும் தானாகப் படியெடு
+	Auto-transcribe only clips in sequences	வரிசைத் தொகுப்புகளில் உள்ள துண்டுகளை மட்டும் தானாகப் படியெடு
+	Automatch Time	தானியங்குப் பொருத்த நேரம்
+	Automate To Sequence	தானியங்கு வரிசைப்படுத்தல்
+	Automate to Sequence	தானியங்கு வரிசைப்படுத்தல்
+	Automate to Sequence…	தானியங்கு வரிசைப்படுத்தல்…
+	Automatic	தானியங்கு
+	Automatic Click Remover	தானியங்கு கிளிக் நீக்கி
+	Automatically delete cache files older than	இதைவிடப் பழைய கேச் கோப்புகளைத் தானாக நீக்கு
+	Automatically delete oldest cache files when cache exceeds	கேச் இதை மீறும்போது மிகப் பழைய கேச் கோப்புகளைத் தானாக நீக்கு
+	Automatically Hide Dependent Clips	சார்ந்த துண்டுகளைத் தானாக மறை
+	Automatically refresh growing files	வளரும் கோப்புகளைத் தானாகப் புதுப்பி
+	Automatically resume playback for growing files in Source Monitor	மூலத் திரையில் வளரும் கோப்புகளின் இயக்கத்தைத் தானாகத் தொடர்
+	Automatically Save Every	தானாகச் சேமிக்கும் இடைவெளி
+	Automatically save projects	திட்டங்களைத் தானாகச் சேமி
+	Automatically transcribe clips	துண்டுகளைத் தானாகப் படியெடு
+	Automation Keyframe Optimization	தானியக்க முக்கியச் சட்டகத்தை மேம்படுத்தல்
+	AV1	AV1
+	Average Data Rate	சராசரி தரவு விகிதம்
+	Avid DNxHR	Avid DNxHR
+	Avid DNxHR HQ	Avid DNxHR HQ
+	Avid DNxHR LB	Avid DNxHR LB
+	Avid DNxHR SQ	Avid DNxHR SQ
+	Avid Log Exchange	Avid Log Exchange
+	Avid Log Exchange…	Avid Log Exchange…
+	Avid-style OP-Atom: DNxHR HQ picture file plus one 24-bit 48 kHz PCM file per channel (_A1, _A2…)	Avid பாணி OP-Atom: DNxHR HQ படக் கோப்பு, மேலும் ஒரு சேனலுக்கு ஒரு 24 பிட் 48 kHz PCM கோப்பு (_A1, _A2…)
+	Background Corner Radius	பின்னணி மூலை ஆரம்
+	Background fill	பின்னணி நிரப்பு
+	Background Opacity	பின்னணி ஒளிபுகாமை
+	Background Size	பின்னணி அளவு
+	Balanced Voice	சமநிலைக் குரல்
+	Band 1	அலைக்கற்றை 1
+	Band 2	அலைக்கற்றை 2
+	Band 3	அலைக்கற்றை 3
+	Band 4	அலைக்கற்றை 4
+	Band 5	அலைக்கற்றை 5
+	Band Pass	அலைக்கற்றை அனுமதி வடிகட்டி
+	Band Slide	அலைக்கற்றை சறுக்கு
+	Band Stop	அலைக்கற்றை ஸ்டாப்
+	Band {n}	அலைக்கற்றை {n}
+	Bandpass	அலைக்கற்றை அனுமதி வடிகட்டி
+	Bar Color	பட்டை நிறம்
+	Barn Doors	கொட்டகைக் கதவுகள்
+	Bars and Tone	பட்டைகள் மற்றும் தொனி
+	Bars and Tone…	பட்டைகள் மற்றும் தொனி…
+	Basic 3D	அடிப்படை 3D
+	Basic Correction	அடிப்படைத் திருத்தம்
+	Bass	கனத்த ஒலி
+	Before First Track	முதல் டிராக்கிற்கு முன்
+	Begin Text Editing for a Graphic Layer	கிராபிக் அடுக்கிற்கான உரைத் திருத்தத்தைத் தொடங்கு
+	Begins With	இதில் தொடங்கும்
+	Behind	பின்னால்
+	Bessel	பெசல்
+	Bevel Alpha	பெவல் ஆல்பா
+	Bevel join	பெவல் இணைப்பு
+	Bezier	பெசியர்
+	Bin	கோப்புறை
+	Bin From Selection	தேர்விலிருந்து கோப்புறை
+	Bin: {name}	கோப்புறை: {name}
+	Binauralizer - Ambisonics	பைனாரலைசர் - ஆம்பிசோனிக்ஸ்
+	Bins	கோப்புறைகள்
+	Bitrate Encoding	பிட்வீதம் குறியாக்கம்
+	Bits per Sample:	ஒரு மாதிரிக்கான பிட்கள்:
+	Black and white with crushed blacks and strong contrast	நசுக்கப்பட்ட கருப்புகளும் வலுவான மாறுபாடும் கொண்ட கருப்பு-வெள்ளை
+	Black Input Level	கருப்பு உள்ளீட்டு நிலை
+	Black Video…	கருப்பு வீடியோ…
+	Bleach Bypass	ப்ளீச் பைபாஸ்
+	Bleach-bypass style: desaturated with hard contrast	ப்ளீச்-பைபாஸ் பாணி: நிறச்செறிவு குறைந்து, கடுமையான மாறுபாட்டுடன்
+	Blend	கலப்பு
+	Blend With Original	அசலுடன் கலப்பு
+	Block Dissolve	பிளாக் கரைவு
+	Block Height	பிளாக் உயரம்
+	Block Motion	பிளாக் இயக்கம்
+	Block Size	பிளாக் அளவு
+	Block Width	பிளாக் அகலம்
+	Blue Blurriness	நீல மங்கல்
+	Blue Curve	நீல வளைவு
+	Blue Offset	நீல ஆஃப்செட்
+	Blue Power	நீல பவர்
+	Blue Slope	நீல சரிவு
+	Blue-Blue	நீலம்-நீலம்
+	Blue-Const	நீலம்-மாறிலி
+	Blue-Green	நீலம்-பச்சை
+	Blue-Red	நீலம்-சிவப்பு
+	Blur	மங்கல்
+	Blur & Sharpen	மங்கல் & கூர்மை
+	Blur Amount	மங்கல் அளவு
+	Blur Dimensions	மங்கல் பரிமாணங்கள்
+	Blur Dissolve	மங்கல் கரைவு
+	Blur In	மங்கலுடன் உள்வருகை
+	Blur Layer	மங்கல் அடுக்கு
+	Blur Length	மங்கல் நீளம்
+	Blur Out	மங்கலுடன் வெளியேற்றம்
+	Blurriness	மங்கல் தன்மை
+	BMP	BMP
+	BMP Sequence	BMP வரிசைத் தொகுப்பு
+	Bokeh Blur	போக்கே மங்கல்
+	Boost	அதிகரிப்பு
+	Boost Vibrance	வைப்ரன்ஸை அதிகரி
+	Border Color	எல்லை நிறம்
+	Border Width	எல்லை அகலம்
+	Bottom Center	கீழ் மையம்
+	Bounce	துள்ளல்
+	Box	பெட்டி
+	Box Color	பெட்டி நிறம்
+	Box Opacity	பெட்டி ஒளிபுகாமை
+	Branching	கிளைப்பிரிப்பு
+	Breakout to Mono	ஒற்றைத் தடமாகப் பிரி
+	Breakout to mono	ஒற்றைத் தடமாகப் பிரி
+	Bright	பிரகாசமான
+	Bright Air	பிரகாசமான காற்று
+	Bright Studio	பிரகாசமான ஸ்டுடியோ
+	Brightens inside a feathered circular mask	மென்மையாக்கப்பட்ட வட்ட முகமூடியின் உட்பகுதியை ஒளிரச் செய்கிறது
+	Brightness & Contrast	பிரகாசம் & மாறுபாடு
+	British Stack	பிரிட்டிஷ் ஸ்டாக்
+	Broadcast	ஒளிபரப்பு
+	Browse files…	கோப்புகளை உலாவு…
+	Brush Hardness	தூரிகை கடினத்தன்மை
+	Brush Opacity	தூரிகை ஒளிபுகாமை
+	Brush Position	தூரிகை நிலை
+	Brush Spacing (secs)	தூரிகை இடைவெளி (வி)
+	Bubbles	குமிழ்கள்
+	Bulge Smoother	வீக்க மென்மையாக்கம்
+	Bump Height	புடைப்பு உயரம்
+	Burn Alpha	பர்ன் ஆல்பா
+	Burn Captions Into Video	வசனங்களை வீடியோவில் பதி
+	Burn Chroma	பர்ன் குரோமா
+	Burn Color	பர்ன் நிறம்
+	Butt cap	தட்டை முனை
+	Butterworth	பட்டர்வொர்த்
+	Button Editor	பொத்தான் எடிட்டர்
+	Bypass	பைபாஸ்
+	Cache analysis results for re-use	மறுபயன்பாட்டிற்காக ஆய்வு முடிவுகளை கேச் செய்
+	Callout – Pointer	கால்அவுட் – சுட்டி
+	Callout – Tag	கால்அவுட் – குறிச்சொல்
+	Callouts	கால்அவுட்கள்
+	Camera 1	கேமரா 1
+	Camera Angle	கேமரா கோணம்
+	Camera Angle Metadata	கேமரா கோண மீதரவு
+	Camera Blur	கேமரா மங்கல்
+	Camera Names	கேமரா பெயர்கள்
+	Camera Shake	கேமரா அதிர்வு
+	Camera {n} — {name}	கேமரா {n} — {name}
+	Cameras shown in the Multi-Camera view (uncheck to hide).	பல-கேமரா காட்சியில் காட்டப்படும் கேமராக்கள் (மறைக்க தேர்வை நீக்கவும்).
+	Cancel Dynamic Trim	இயக்க ஒதுக்கீடை ரத்துசெய்
+	Cancel Queued Export	வரிசையிலுள்ள ஏற்றுமதியை ரத்துசெய்
+	Cancelled	ரத்துசெய்யப்பட்டது
+	Cannot open {dir}: {e}	{dir} ஐத் திறக்க முடியவில்லை: {e}
+	Capitalisation	பெரிய எழுத்தாக்கம்
+	Caption track options	வசன டிராக் விருப்பங்கள்
+	Caption Tracks	வசன தடங்கள்
+	Captions	வசனங்கள்
+	Captions and Graphics	வசனங்கள் மற்றும் வரைகலை
+	Captions…	வசனங்கள்…
+	Capture	பிடிப்பு
+	Capture Format:	பிடிப்பு வடிவம்:
+	Captured and Generated:	பிடிக்கப்பட்டு உருவாக்கப்பட்டது:
+	Captured View:	பிடிப்புத் தோற்றம்:
+	Caribbean	கரீபியன்
+	Cathedral	கதீட்ரல்
+	CBR	CBR
+	CEA-608	CEA-608
+	CEA-708	CEA-708
+	Cell Pattern	செல் வடிவமாதிரி
+	Center Align Text	உரையை மையத்தில் சீரமை
+	Center align text	உரையை மையத்தில் சீரமை
+	Center Channel Pan	மைய சேனல் நகர்த்து
+	Center Gradient	மைய நிறப் படித்திறன்
+	Center Horizontally	கிடைமட்டமாக மையப்படுத்து
+	Center Input	மைய உள்ளீடு
+	Center Left	மையம் இடது
+	Center of Sphere	கோளத்தின் மையம்
+	Center Out	மையத்திலிருந்து வெளியே
+	Center Point (Latitude)	மையப் புள்ளி (அட்சரேகை)
+	Center Point (Longitude)	மையப் புள்ளி (தீர்க்கரேகை)
+	Center Right	மையம் வலது
+	Center Split	மையப் பிளவு
+	Center Vertically	செங்குத்தாக மையப்படுத்து
+	Centred credits that roll up from below the frame and leave at the top.	மையப்படுத்தப்பட்ட கிரெடிட்ஸ், சட்டகத்தின் கீழிருந்து மேலே உருண்டு மேலே வெளியேறும்.
+	Cents	சென்ட்கள்
+	Cerulean	வான் நீலம்
+	Ch. {n}	சே. {n}
+	Change Mask	முகமூடியை மாற்று
+	Change to Color	நிறமாக மாற்று
+	Changes are copied in the background a moment after each edit. If FilmCraft quits unexpectedly, they are offered the next time it starts.	ஒவ்வொரு தொகுப்புக்குப் பிறகும் சிறிது நேரத்தில் மாற்றங்கள் பின்னணியில் நகலெடுக்கப்படும். FilmCraft எதிர்பாராமல் மூடப்பட்டால், அடுத்த முறை தொடங்கும்போது அவை வழங்கப்படும்.
+	Channel Blur	சேனல் மங்கல்
+	Channel Format:	சேனல் வடிவம்:
+	Channel Mix	சேனல் கலவை
+	Channel Volume	சேனல் ஒலியளவு
+	Channel {n}	சேனல் {n}
+	Chaos	கேயாஸ்
+	Chebyshev	செபிஷேவ்
+	Checker Wipe	செக்கர் துடைப்பழிவு
+	Chinese	சீனம்
+	Choke	சோக்
+	Chorus	கோரஸ்
+	Chorus/Flanger	கோரஸ்/ஃபிளேஞ்சர்
+	Chroma	குரோமா
+	Chroma Leak	குரோமா கசிவு
+	Chromatic Aberration (Blue)	நிறப் பிறழ்வு (நீலம்)
+	Chromatic Aberration (Green)	நிறப் பிறழ்வு (பச்சை)
+	Chromatic Aberration (Red)	நிறப் பிறழ்வு (சிவப்பு)
+	Cinematic	சினிமாட்டிக்
+	Cineon Converter	சினியான் மாற்றி
+	Clamp Signal	சிக்னலை வரம்பிடு
+	Clean Combo	சுத்தமான காம்போ
+	Clean Up Noisy Dialogue	இரைச்சலான உரையாடலைத் தூய்மைப்படுத்து
+	Clear (Delete)	அழி (Delete)
+	Clear All Events	அனைத்து நிகழ்வுகளையும் அழி
+	Clear Audio Type	ஆடியோ வகையை அழி
+	Clear Edit Point Selection	தொகுப்புப் புள்ளித் தேர்வை அழி
+	Clear Finished	முடிந்தவற்றை அழி
+	Clear Finished Exports	முடிந்த ஏற்றுமதிகளை அழி
+	Clear In	உள் புள்ளியை அழி
+	Clear In and Out	உள் மற்றும் வெளிப் புள்ளிகளை அழி
+	Clear Markers	குறிப்பான்களை அழி
+	Clear Muddiness	கலங்கலை நீக்கு
+	Clear Out	வெளிப் புள்ளியை அழி
+	Clear Poster Frame	முகப்புச் சட்டகம் அழி
+	Clear Recent Directories	சமீபத்திய கோப்புறைகளை அழி
+	Clear Selected Marker	தேர்ந்தெடுத்த குறிப்பானை அழி
+	Clear Transition	மாற்றத்தை அழி
+	Cleared {n} shortcut(s) of {command}	{command} இன் {n} குறுக்குவழி(கள்) அழிக்கப்பட்டன
+	Click a command's Shortcut cell and press keys to assign it; + adds another shortcut.	ஒரு கட்டளையின் குறுக்குவழிக் கலத்தைச் சொடுக்கி, அதை ஒதுக்க விசைகளை அழுத்தவும்; + மற்றொரு குறுக்குவழியைச் சேர்க்கும்.
+	Click a key on the keyboard to see its shortcuts	விசைப்பலகையில் ஒரு விசையைச் சொடுக்கி அதன் குறுக்குவழிகளைப் பார்க்கவும்
+	Click in the Program monitor to place mask points (drag for curves); click the first point or press Enter to close	முகமூடிப் புள்ளிகளை வைக்க நிரல் திரையில் சொடுக்கவும் (வளைவுகளுக்கு இழுக்கவும்); மூட, முதல் புள்ளியைச் சொடுக்கவும் அல்லது Enter ஐ அழுத்தவும்
+	Click to select all clips to the left in all tracks. Shift-click for a single track.	அனைத்து தடங்களிலும் இடப்புறமுள்ள எல்லா துண்டுகளையும் தேர்ந்தெடுக்கச் சொடுக்கவும். ஒரே தடங்கிற்கு Shift+சொடுக்கு.
+	Click to select all clips to the right in all tracks. Shift-click for a single track.	அனைத்து தடங்களிலும் வலப்புறமுள்ள எல்லா துண்டுகளையும் தேர்ந்தெடுக்கச் சொடுக்கவும். ஒரே தடங்கிற்கு Shift+சொடுக்கு.
+	Click to select, or click in empty space and drag to marquee select. Use Shift, Alt, and Ctrl for other options.	தேர்ந்தெடுக்கச் சொடுக்கவும், அல்லது காலி இடத்தில் சொடுக்கி இழுத்துச் சட்டத் தேர்வு செய்யவும். பிற விருப்பங்களுக்கு Shift, Alt, Ctrl ஐப் பயன்படுத்தவும்.
+	Click to select, or click in empty space and drag to marquee select. Use Shift, Opt, and Cmd for other options.	தேர்ந்தெடுக்கச் சொடுக்கவும், அல்லது காலி இடத்தில் சொடுக்கி இழுத்துச் சட்டத் தேர்வு செய்யவும். பிற விருப்பங்களுக்கு Shift, Opt, Cmd ஐப் பயன்படுத்தவும்.
+	Click to split a clip. Shift-click to split all tracks.	துண்டைப் பிரிக்கச் சொடுக்கவும். அனைத்து தடங்களையும் பிரிக்க Shift+சொடுக்கு.
+	Click to zoom in; Alt-click to zoom out.	பெரிதாக்கச் சொடுக்கவும்; சிறிதாக்க Alt+சொடுக்கு.
+	Click to zoom in; Opt-click to zoom out.	பெரிதாக்கச் சொடுக்கவும்; சிறிதாக்க Opt+சொடுக்கு.
+	Client	வாடிக்கையாளர்
+	Clip	துண்டு
+	Clip Channel Format:	துண்டுச் சேனல் வடிவம்:
+	Clip Fx Editor	துண்டு விளைவு எடிட்டர்
+	Clip ID (fingerprint)	துண்டு ஐடி (கைரேகை)
+	Clip Keyframes	துண்டின் முக்கியச் சட்டகங்கள்
+	Clip Level	துண்டு நிலை
+	Clip Marker	துண்டுக் குறிப்பான்
+	Clip Name	துண்டுப் பெயர்
+	Clip Name:	துண்டுப் பெயர்:
+	Clip Names	துண்டுப் பெயர்கள்
+	Clip Names and Markers	துண்டுப் பெயர்கள் மற்றும் குறிப்பான்கள்
+	Clip Overlap:	துண்டு மேற்பொருந்து:
+	Clip Size	துண்டு அளவு
+	Clip Speed / Duration	துண்டின் வேகம் / கால அளவு
+	Clip Volume	துண்டு ஒலியளவு
+	Clip {n}	துண்டு {n}
+	Clip: {name}	துண்டு: {name}
+	Clipping	சிதைவு
+	Clips	துண்டுகள்
+	Clock Wipe	கடிகார துடைப்பழிவு
+	Clock Wipe (Legacy)	கடிகார துடைப்பழிவு (பழைய பதிப்பு)
+	Clockwise	கடிகாரச் சுழற்சித் திசையில்
+	Close All Other Projects	மற்ற அனைத்துத் திட்டங்களையும் மூடு
+	Close All Projects	அனைத்துத் திட்டங்களையும் மூடு
+	Close Bin	கோப்புறையை மூடு
+	Close Gap	இடைவெளியை மூடு
+	Close Other Timeline Panels	மற்ற காலவரிசை பலகங்களை மூடு
+	Close Project	திட்டத்தை மூடு
+	Close Sequence	வரிசைத் தொகுப்பை மூடு
+	Closed Captions	மூடிய வசனங்கள்
+	Codec:	கோடெக்:
+	Codec: {codec}	கோடெக்: {codec}
+	Cold Mono	வறண்ட ஒற்றை ஒலி
+	Collect Files and Copy to New Location	கோப்புகளைச் சேகரித்துப் புதிய இடத்திற்கு நகலெடு
+	Color & Alpha	நிறம் & ஆல்பா
+	Color 1	நிறம் 1
+	Color 2	நிறம் 2
+	Color 3	நிறம் 3
+	Color 4	நிறம் 4
+	Color Channel	நிறச் சேனல்
+	Color Correction	நிறத் திருத்தம்
+	Color Distortion	நிறச் சிதைவு
+	Color Emboss	நிற எம்போஸ்
+	Color Key	நிறக் கீ
+	Color Management · {n} item	நிற மேலாண்மை · {n} உருப்படி
+	Color Management · {n} items	நிற மேலாண்மை · {n} உருப்படிகள்
+	Color Management…	நிற மேலாண்மை…
+	Color Match	நிறப் பொருத்தம்
+	Color Matte Color	வண்ண மறைப்பு நிறம்
+	Color Matte…	வண்ண மறைப்பு…
+	Color Pass	நிறப் பாஸ்
+	Color Replace	நிற மாற்றீடு
+	Color Theme	நிறத் தீம்
+	Color To Leave	வைத்திருக்கும் நிறம்
+	Color Tolerance	நிறச் சகிப்பு
+	Color Wheels & Match	நிறச் சக்கரங்கள் & பொருத்தம்
+	Color/Black	நிறம்/கருப்பு
+	Color/Gray	நிறம்/சாம்பல்
+	Colour Space	நிற வெளி
+	Column order	நெடுவரிசை வரிசை
+	Comments:	கருத்துகள்:
+	Comparison View	ஒப்பீட்டுக் காட்சி
+	Complexity	சிக்கலான தன்மை
+	Composite In Back	பின்புறத்தில் கம்போசிட் செய்
+	Composite In Front	முன்புறத்தில் கம்போசிட் செய்
+	Composite in Linear Color	நேரியல் நிறத்தில் கம்போசிட் செய்
+	Composite on Original	அசல் மீது கம்போசிட் செய்
+	Composite on the GPU when available	கிடைக்கும்போது வரைகலை செயலியில் கம்போசிட் செய்
+	Composite Using	இதைப் பயன்படுத்தி கம்போசிட் செய்
+	Composite Video	கம்போசிட் வீடியோ
+	Compound Blur	கூட்டு மங்கல்
+	Compression Before Clipping	சிதைவுக்கு முன் சுருக்கம்
+	Compression Level	சுருக்க அளவு
+	Compressor	சுருக்கி
+	Configure…	உள்ளமை…
+	Conflict: {key} is assigned to {commands} ({ctx})	முரண்பாடு: {key} என்பது {commands} க்கு ஒதுக்கப்பட்டுள்ளது ({ctx})
+	Consolidate and Transcode	ஒருங்கிணைத்து மாற்றுக்குறியாக்கு
+	Consolidate Duplicates	நகல்களை ஒருங்கிணை
+	Constant Gain	மாறா கெயின்
+	Constant Power	மாறா பவர்
+	Containers	கொள்கலன்கள்
+	Contains:	கொண்டுள்ளது:
+	Continuous	தொடர்ச்சியான
+	Continuous Bezier	தொடர் பெசியர்
+	Conversion Type	மாற்ற வகை
+	Convert to Master Clip	மாஸ்டர் துண்டாக மாற்று
+	Convolution Reverb	கன்வல்யூஷன் எதிரொலிப்பு
+	Cool Blue	குளிர் நீலம்
+	Cool, desaturated and punchy	குளிர்ந்த, நிறச்செறிவு குறைந்த, அழுத்தமான
+	Copy and Create Proxies	நகலெடுத்து ப்ராக்ஸிகளை உருவாக்கு
+	Copy Paste Includes Sequence Markers	நகலெடு-ஒட்டு வரிசைத் தொகுப்பு குறிப்பான்களையும் உள்ளடக்கும்
+	Core Width	மைய அகலம்
+	Corner Pin	கார்னர் பின்
+	Corner Radius	மூலை ஆரம்
+	Couldn't open your web browser	உங்கள் இணைய உலாவியைத் திறக்க முடியவில்லை
+	Count	எண்ணிக்கை
+	Countdown Sound Cues	கவுண்ட்டவுன் ஒலிக் குறிப்புகள்
+	Counter-clockwise	கடிகாரச் சுழற்சிக்கு எதிர்த் திசையில்
+	Crash Recovery	செயலிழப்பு மீட்பு
+	Crawl Left	இடதுபுறம் ஊர்
+	Crawl Right	வலதுபுறம் ஊர்
+	Create 4-point polygon mask	4-புள்ளி பலகோண முகமூடியை உருவாக்கு
+	Create a bin of subclips from each detected cut point	கண்டறியப்பட்ட ஒவ்வொரு வெட்டுப் புள்ளியிலிருந்தும் துணைக்துண்டுகளின் கோப்புறை உருவாக்கு
+	Create a caption track or import a caption file.	வசன டிராக்கை உருவாக்கவும் அல்லது வசனக் கோப்பை இறக்குமதி செய்யவும்.
+	Create a clip marker at each detected cut point	கண்டறியப்பட்ட ஒவ்வொரு வெட்டுப் புள்ளியிலும் துண்டு குறிப்பானை உருவாக்கு
+	Create captions	வசனங்களை உருவாக்கு
+	Create Captions from Transcript…	படியெடுப்பிலிருந்து வசனங்களை உருவாக்கு…
+	Create ellipse mask	நீள்வட்ட முகமூடியை உருவாக்கு
+	Create Folder For Imported Projects	இறக்குமதி செய்த திட்டங்களுக்குக் கோப்புறையை உருவாக்கு
+	Create folder for imported projects	இறக்குமதி செய்த திட்டங்களுக்குக் கோப்புறையை உருவாக்கு
+	Create Multi-Camera Source Sequence	பல-கேமரா மூல வரிசைத் தொகுப்பை உருவாக்கு
+	Create Multi-Camera Source Sequence…	பல-கேமரா மூல வரிசைத் தொகுப்பை உருவாக்கு…
+	Create new caption track	புதிய வசன டிராக்கை உருவாக்கு
+	Create new graphic	புதிய கிராபிக்கை உருவாக்கு
+	Create Proxies	ப்ராக்ஸிகளை உருவாக்கு
+	Create Proxies…	ப்ராக்ஸிகளை உருவாக்கு…
+	Create Search Bin	தேடல் பின்னை உருவாக்கு
+	Create Sidecar File	துணைக் கோப்பை உருவாக்கு
+	Creating {n} proxy file(s)…	{n} ப்ராக்ஸி கோப்பு(கள்) உருவாக்கப்படுகின்றன…
+	Creative	படைப்பாற்றல்
+	Creator	உருவாக்குநர்
+	Credits	கிரெடிட்ஸ்
+	CRF (constant quality)	CRF (மாறாத் தரம்)
+	Crop Less <-> Smooth More	குறைவாக வெட்டிச் சுருக்கு <-> அதிகம் மென்மையாக்கு
+	Cross Displacement	குறுக்கு இடப்பெயர்ச்சி
+	Cross Dissolve	குறுக்குக் கரைவு
+	Cross Dissolve (Legacy)	குறுக்குக் கரைவு (பழைய பதிப்பு)
+	Cross Processed	குறுக்கு செயலாக்கம்
+	Cross Zoom	குறுக்கு உருப்பெருக்கு
+	Cross Zoom (Legacy)	குறுக்கு உருப்பெருக்கு (பழைய பதிப்பு)
+	Crossfade	கிராஸ்ஃபேடு
+	Crossovers	குறுக்குமாற்றுகள்
+	Crystals	படிகங்கள்
+	Cube Spin	கனசதுரச் சுழற்சி
+	Curl Radius	சுருள் ஆரம்
+	Current duration {seconds} s	தற்போதைய கால அளவு: {seconds} வி
+	Currently: {loc} — {files} file(s), {size}	தற்போது: {loc} — {files} கோப்பு(கள்), {size}
+	Cursor	கர்சர்
+	Custom ({n} points)	தனிப்பயன் ({n} புள்ளிகள்)
+	Custom ({ratio})	தனிப்பயன் ({ratio})
+	Custom Color	தனிப்பயன் நிறம்
+	Custom Setup	தனிப்பயன் அமைப்பு
+	Cut to Camera 1	கேமரா 1 க்கு வெட்டு
+	Cut to Camera 2	கேமரா 2 க்கு வெட்டு
+	Cut to Camera 3	கேமரா 3 க்கு வெட்டு
+	Cut to Camera 4	கேமரா 4 க்கு வெட்டு
+	Cut to Camera 5	கேமரா 5 க்கு வெட்டு
+	Cut to Camera 6	கேமரா 6 க்கு வெட்டு
+	Cut to Camera 7	கேமரா 7 க்கு வெட்டு
+	Cut to Camera 8	கேமரா 8 க்கு வெட்டு
+	Cut to Camera 9	கேமரா 9 க்கு வெட்டு
+	Cutoff	கட்ஆஃப்
+	Cyan-teal shadows and warm highlights with a little more contrast	சற்று கூடுதல் மாறுபாட்டுடன் நீல-பச்சை நிழல்களும் வெதுவெதுப்பான ஒளிர்வுகளும்
+	Cycle (in Revolutions)	சுழற்சி (புரட்சிகளில்)
+	Cycle Evolution	சுழற்சி பரிணாமம்
+	D1/DV NTSC (0.9091)	D1/DV NTSC (0.9091)
+	D1/DV PAL (1.0940)	D1/DV PAL (1.0940)
+	Damping	தணிப்பு
+	Damping HF	தணிப்பு HF
+	Damping LF	தணிப்பு LF
+	Darkens outside a feathered oval mask	மென்மையாக்கப்பட்ட நீள்வட்ட முகமூடியின் வெளிப்பகுதியை இருளாக்குகிறது
+	Darker Color	அடர் நிறம்
+	Darkest	மிக அடர்
+	Date Modified	மாற்றிய தேதி
+	Day for night: darker, cooler and less saturated	பகலில் இரவு: அடர்ந்த, குளிர்ந்த, நிறச்செறிவு குறைந்த
+	days	நாட்கள்
+	Decay	டிகே
+	Decay Time (RT60)	டிகே நேரம் (RT60)
+	Decoded frames held for the monitors and thumbnails: {used} of {budget}.	திரைகள் மற்றும் சிறுபடங்களுக்காக வைத்திருக்கும் டிகோட் செய்த சட்டகங்கள்: {budget} இல் {used}.
+	Decoders	டிகோடர்கள்
+	Decrease Audio Tracks Height	ஆடியோ தடங்களின் உயரத்தைக் குறை
+	Decrease Clip Volume	துண்டின் ஒலியளவைக் குறை
+	Decrease Clip Volume Many	துண்டின் ஒலியளவை அதிகமாகக் குறை
+	Decrease Font Size by Five Units	எழுத்துரு அளவை ஐந்து அலகுகள் குறை
+	Decrease Font Size by One Unit	எழுத்துரு அளவை ஒரு அலகு குறை
+	Decrease Leading by Five Units	வரியிடைவெளியை ஐந்து அலகுகள் குறை
+	Decrease Leading by One Unit	வரியிடைவெளியை ஒரு அலகு குறை
+	Decrease Video Tracks Height	வீடியோ தடங்களின் உயரத்தைக் குறை
+	DeEss	டீ-எஸ்
+	DeEsser	டீ-எஸ்ஸர்
+	Default Audio Tracks	இயல்புநிலை ஆடியோ தடங்கள்
+	Default clip size:	இயல்புநிலை துண்டின் அளவு:
+	Default closed caption font	மூடிய வசனங்களின் இயல்புநிலை எழுத்துரு
+	Default Emoji font	இயல்புநிலை எமோஜி எழுத்துரு
+	Default Input	இயல்புநிலை உள்ளீடு
+	Default language	இயல்புநிலை மொழி
+	Default location	இயல்புநிலை இடம்
+	Default Media Scaling	இயல்புநிலை ஊடக அளவிடல்
+	Default Output	இயல்புநிலை வெளியீடு
+	Default paragraph direction	இயல்புநிலை பத்தித் திசை
+	Default subtitle and text font	வசனங்கள் மற்றும் உரையின் இயல்புநிலை எழுத்துரு
+	DeHum	ஹம் நீக்கு
+	DeHummer	ஹம் நீக்கி
+	Delay	தாமதம்
+	Delay 1	தாமதம் 1
+	Delay 2	தாமதம் 2
+	Delay 3	தாமதம் 3
+	Delay 4	தாமதம் 4
+	Delay and Echo	தாமதம் மற்றும் எதிரொலி
+	Delete Arrangement	ஏற்பாட்டை நீக்கு
+	Delete Audio Tracks	ஆடியோ தடங்களை நீக்கு
+	Delete Caption Track	வசன டிராக்கை நீக்கு
+	Delete Caption Tracks	வசன தடங்களை நீக்கு
+	Delete Captions	வசனங்களை நீக்கு
+	Delete Empty Caption Tracks	காலி வசன தடங்களை நீக்கு
+	Delete files older than	இதைவிடப் பழைய கோப்புகளை நீக்கு
+	Delete Graphic Layer	கிராபிக் அடுக்கை நீக்கு
+	Delete Guide Template	வழிகாட்டி வார்ப்புருவை நீக்கு
+	Delete Media Cache Files	ஊடக கேச் கோப்புகளை நீக்கு
+	Delete oldest files when the cache exceeds	கேச் இதை மீறும்போது மிகப் பழைய கோப்புகளை நீக்கு
+	Delete Preset	முன்னமைவை நீக்கு
+	Delete Render Files	ரெண்டர் கோப்புகளை நீக்கு
+	Delete Render Files In to Out	உள் முதல் வெளி வரை ரெண்டர் கோப்புகளை நீக்கு
+	Delete Search Bin	தேடல் கோப்புறையை நீக்கு
+	Delete selected captions	தேர்ந்தெடுத்த வசனங்களை நீக்கு
+	Delete this preset	இந்த முன்னமைவை நீக்கு
+	Delete Tracks	தடங்களை நீக்கு
+	Delete Tracks…	தடங்களை நீக்கு…
+	Delete Transcript	படியெடுப்பை நீக்கு
+	Delete Video Tracks	வீடியோ தடங்களை நீக்கு
+	Deleted preset “{active}”	முன்னமைவு “{active}” நீக்கப்பட்டது
+	Deleted {n} file(s), {size}.	{n} கோப்பு(கள்) நீக்கப்பட்டன, {size}.
+	Demo Footage	டெமோ காட்சிகள்
+	Demo footage	டெமோ காட்சிகள்
+	Demo Project	டெமோ திட்டம்
+	Demo project	டெமோ திட்டம்
+	DeNoise	இரைச்சல் குறைப்பி
+	Denoise	இரைச்சலைக் குறை
+	DeReverb	எதிரொலிப்பை நீக்கு
+	Deselect All Project Items	அனைத்துத் திட்ட உருப்படிகளின் தேர்வை நீக்கு
+	Destination Path	சேருமிடப் பாதை
+	Destinations	சேருமிடங்கள்
+	Detach Proxies	ப்ராக்ஸிகளைப் பிரி
+	Detail Amplitude	விவர வீச்சு
+	Detail Level	விவர நிலை
+	Detailed Analysis	விரிவான பகுப்பாய்வு
+	Details: {path}	விவரங்கள்: {path}
+	Device Class	சாதன வகுப்பு
+	Dialogue	உரையாடல்
+	Diamond	வைரம்
+	Dimmed	மங்கலாக்கப்பட்டது
+	Dip to Black	கருப்பில் மறைவு
+	Dip to Black (Legacy)	கருப்பில் மறைவு (பழைய பதிப்பு)
+	Dip to Color	நிறத்தில் மறைவு
+	Dip to White	வெள்ளையில் மறைவு
+	Dip to White (Legacy)	வெள்ளையில் மறைவு (பழைய பதிப்பு)
+	Directional	திசை சார்ந்த
+	Directional Blur	திசை மங்கல்
+	Directional Blur (Legacy)	திசை மங்கல் (பழைய பதிப்பு)
+	DirectX 12 only	DirectX 12 மட்டும்
+	Disable video output when in the background	பின்னணியில் இருக்கும்போது வீடியோ வெளியீட்டை முடக்கு
+	Disabled clips	முடக்கப்பட்ட துண்டுகள்
+	Discard take	டேக்கை நிராகரி
+	Discard Unsaved Changes	சேமிக்காத மாற்றங்களை நிராகரி
+	Disk space: original {original} · resulting {result} ({n} files)	வட்டு இடம்: அசல் {original} · விளைவு {result} ({n} கோப்புகள்)
+	Disk space: —	வட்டு இடம்: —
+	Disperse	சிதறடி
+	Displacement	இடப்பெயர்ச்சி
+	Display Color Management	திரை நிற மேலாண்மை
+	Display Color Settings	திரை நிற அமைப்புகள்
+	Display Format:	காட்சி வடிவம்:
+	Display Mode	காட்சிப் பயன்முறை
+	Display out of sync indicators for unlinked clips	இணைப்பற்ற துண்டுகளுக்கு ஒத்திசைவின்மைக் குறிகாட்டிகளைக் காண்பி
+	Dissolve	கரைவு
+	Dissolve Blocks	கரைவு பிளாக்குகள்
+	Distance to Image	படத்திற்கான தூரம்
+	Distortion Complexity	சிதைவு சிக்கலான தன்மை
+	Distortion Rate	சிதைவு விகிதம்
+	Distortion Type	சிதைவு வகை
+	Distribute Horizontally	கிடைமட்டமாகப் பகிர்
+	Distribute Space Horizontally	இடைவெளியைக் கிடைமட்டமாகப் பகிர்
+	Distribute Space Vertically	இடைவெளியைச் செங்குத்தாகப் பகிர்
+	Distribute Vertically	செங்குத்தாகப் பகிர்
+	Do not delete cache files automatically	கேச் கோப்புகளைத் தானாக நீக்காதே
+	Docking Action	டாக்கிங் செயல்
+	Does Not Contain	கொண்டிருக்காது
+	Don't label speakers	பேச்சாளர்களுக்கு லேபிள் இடாதே
+	Dot Color	புள்ளி நிறம்
+	Double-click a sequence in the Project panel to open it here.	இங்கே திறக்க, திட்டப் பலகத்தில் ஒரு வரிசைத் தொகுப்பை இரட்டைச் சொடுக்கவும்.
+	Download Speech Model	பேச்சு மாதிரியைப் பதிவிறக்கு
+	DPX	DPX
+	DPX Sequence	DPX வரிசைத் தொகுப்பு
+	Draft decoding at reduced playback resolution (H.264: faster, some frames less filtered)	குறைக்கப்பட்ட இயக்கத் தெளிவுத்திறனில் வரைவு டிகோடிங் (H.264: வேகமானது, சில சட்டகங்கள் குறைவாக வடிகட்டப்படும்)
+	Drag a clip to slide it between its neighbours.	துண்டை அதன் அண்டை துண்டுகளுக்கு இடையே சறுக்க அதை இழுக்கவும்.
+	Drag a clip to slip its source in/out without moving it.	துண்டை நகர்த்தாமல் அதன் மூல உள்/வெளிப் புள்ளிகளை நகர்த்த அதை இழுக்கவும்.
+	Drag an edge to change the clip's speed so it fills the new duration.	துண்டின் புதிய கால அளவை நிரப்பும்படி அதன் வேகத்தை மாற்ற ஒரு விளிம்பை இழுக்கவும்.
+	Drag an edit point to ripple trim; later clips move to keep the gap closed.	அலைவு ஒதுக்கீடு செய்ய தொகுப்புப் புள்ளியை இழுக்கவும்; இடைவெளி இல்லாமல் இருக்க பின்வரும் துண்டுகள் நகரும்.
+	Drag an edit point to roll it: the out of one clip and the in of the next move together.	ரோல் செய்ய தொகுப்புப் புள்ளியை இழுக்கவும்: ஒரு துண்டின் வெளிப் புள்ளியும் அடுத்ததன் உள் புள்ளியும் ஒன்றாக நகரும்.
+	Drag inward to round the corners	மூலைகளை வட்டமாக்க உள்நோக்கி இழுக்கவும்
+	Drag the edge of a music clip to remix it to the new duration at musically matching beats.	இசைக் துண்டை இசைக்கு ஏற்ற துடிப்புகளில் புதிய கால அளவிற்கு மறுகலக்க, அதன் விளிம்பை இழுக்கவும்.
+	Drag to scroll the timeline.	காலவரிசையை உருட்ட இழுக்கவும்.
+	Drag: move · Alt-click: smooth/corner · Cmd-click: delete	இழுத்தல்: நகர்த்து · Alt+சொடுக்கு: மென்மை/மூலை · Cmd+சொடுக்கு: நீக்கு
+	Drag: move · Alt-click: smooth/corner · Ctrl-click: delete	இழுத்தல்: நகர்த்து · Alt+சொடுக்கு: மென்மை/மூலை · Ctrl+சொடுக்கு: நீக்கு
+	Drive	டிரைவ்
+	Drop media here to create sequence.	வரிசைத் தொகுப்பை உருவாக்க ஊடகங்களை இங்கே விடவும்.
+	Dry	டிரை
+	Dry Out	டிரை அவுட்
+	Dry Up a Roomy Voice	அதிக எதிரொலிக் குரலை உலர்த்து
+	Duck against:	இதற்கு எதிராகத் தணி:
+	Duck Deep Under Dialogue	உரையாடலுக்குக் கீழே ஆழமாகத் தணி
+	Duck Under Dialogue	உரையாடலுக்குக் கீழே தணி
+	Duck Under Voice and Effects	குரல் மற்றும் விளைவுகளுக்குக் கீழே தணி
+	Ducking	தானியங்கி ஒலி குறைப்பு
+	Duration:	கால அளவு:
+	DVCPRO HD (1.5)	DVCPRO HD (1.5)
+	Dynamic Audio Waveforms	மாறும் ஆடியோ அலைவடிவங்கள்
+	Dynamic Link	டைனமிக் லிங்க்
+	Dynamic Trim Stop	டைனமிக் ஒதுக்கீடு நிறுத்தம்
+	Dynamics Processing	டைனமிக்ஸ் செயலாக்கம்
+	Early Reflections	ஆரம்பகால எதிரொலிப்புகள்
+	Earthquake	நிலநடுக்கம்
+	Ease In	உள்வருகையை மென்மையாக்கு
+	Ease In and Out	உள்வருகை மற்றும் வெளியேற்றத்தை மென்மையாக்கு
+	Ease Out	வெளியேற்றத்தை மென்மையாக்கு
+	Easing	மென்மையாக்கம்
+	Echo	எதிரொலி
+	Echo Glow	எதிரொலி ஒளிர்வு
+	Echo Operator	எதிரொலிச் செயலி
+	Echo Time (seconds)	எதிரொலி நேரம் (வினாடிகள்)
+	Echoes	எதிரொலிகள்
+	Edge Color	விளிம்பு நிறம்
+	Edge Feather	விளிம்பு மென்மையாக்கம்
+	Edge Glow	விளிம்பு ஒளிர்வு
+	Edge Sharpness	விளிம்புக் கூர்மை
+	Edge Softness	விளிம்பு மென்மை
+	Edge Thin	விளிம்பை மெலிதாக்கு
+	Edge Threshold	விளிம்பு எல்லை மதிப்பு
+	Edge Type	விளிம்பு வகை
+	Edit Cameras	கேமராக்களைத் திருத்து
+	Edit Cameras…	கேமராக்களைத் திருத்து…
+	Edit Caption Text	வசன உரையைத் திருத்து
+	Edit Columns	நெடுவரிசைகளைத் திருத்து
+	Edit Columns…	நெடுவரிசைகளைத் திருத்து…
+	Edit Narration	விவரிப்பைத் திருத்து
+	Edit Offline File	இணைப்பற்ற கோப்பைத் திருத்து
+	Edit Offline…	இணைப்பின்றித் திருத்து…
+	Edit Project Notes	திட்டக் குறிப்புகளைத் திருத்து
+	Edit Subclip	துணைத்துண்டைத் திருத்து
+	Edit Subclip…	துணைத்துண்டைத் திருத்து…
+	Edit Workspaces	பணியிடங்களைத் திருத்து
+	Edit Workspaces…	பணியிடங்களைத் திருத்து…
+	Editable properties:	திருத்தக்கூடிய பண்புகள்:
+	Editing Mode:	திருத்தப் பயன்முறை:
+	EDL…	EDL…
+	Effect Controls	விளைவுக் கட்டுப்பாடுகள்
+	Effect presets	விளைவு முன்னமைவுகள்
+	Elliptical	நீள்வட்ட
+	Empty tracks	காலித் தடங்கள்
+	Enable clip and XMP metadata linking	துண்டு மற்றும் XMP மீதரவு இணைப்பை இயக்கு
+	Enable developer mode	டெவலப்பர் பயன்முறையை இயக்கு
+	Enable hardware accelerated decoding (requires restart)	வன்பொருள் முடுக்கப்பட்ட டிகோடிங்கை இயக்கு (மறுதொடக்கம் தேவை)
+	Enable HSL Secondary	HSL இரண்டாம்நிலையை இயக்கு
+	Enable language auto-detection	மொழி தானியங்கு கண்டறிதலை இயக்கு
+	Enable Mercury Transmit	Mercury Transmit ஐ இயக்கு
+	Enable ProRes hardware accelerated encoding, if available	கிடைத்தால், வன்பொருள் முடுக்கப்பட்ட ProRes குறியாக்கத்தை இயக்கு
+	Enable proxies	ப்ராக்ஸிகளை இயக்கு
+	Enable Remix	மறு கலவை இயக்கு
+	Enable track for recording	பதிவுசெய்ய டிராக்கை இயக்கு
+	Encapsulate	உறையிடு
+	Encoder	குறியாக்கி
+	Encoding {n}%	குறியாக்கம் {n}%
+	End Color	முடிவு நிறம்
+	End Credits	எண்ட் கிரெடிட்ஸ்
+	End Credits – Roll	எண்ட் கிரெடிட்ஸ் – செங்குத்து உருளல்
+	End of Ramp	சரிவின் முடிவு
+	End Off Screen	திரைக்கு வெளியே முடி
+	End Point	முடிவுப் புள்ளி
+	End:	முடிவு:
+	Ends With	இதில் முடியும்
+	Enhance Speech	பேச்சை மேம்படுத்து
+	Entire Source	முழு மூலம்
+	Enumerate Cameras	கேமராக்களுக்கு எண்ணிடு
+	EQ	ஈக்வலைசர்
+	Errors Only	பிழைகள் மட்டும்
+	Essential Graphics	அத்தியாவசிய வரைகலை
+	Essential Sound	அத்தியாவசிய ஒலி
+	EssentialSound	அத்தியாவசிய ஒலி
+	Estimated file size: {size}	மதிப்பிடப்பட்ட கோப்பு அளவு: {size}
+	Events	நிகழ்வுகள்
+	Evolution	பரிணாமம்
+	Evolution Options	பரிணாம விருப்பங்கள்
+	Exact name matches only	சரியான பெயர் பொருத்தங்கள் மட்டும்
+	Exciter Amount	எக்சைட்டர் அளவு
+	Exciter Mode	எக்சைட்டர் பயன்முறை
+	Exclude Unused Clips	பயன்படுத்தாத துண்டுகளை விலக்கு
+	Existing XMP files written by other applications are left unchanged.	பிற பயன்பாடுகள் எழுதிய ஏற்கெனவே உள்ள XMP கோப்புகள் மாற்றப்படாது.
+	Exit Trim Mode	ஒதுக்கு பயன்முறையிலிருந்து வெளியேறு
+	Expand All Tracks	அனைத்து தடங்களையும் விரி
+	Expander	எக்ஸ்பாண்டர்
+	Exponential Fade	அடுக்குக்குறி ஃபேடு
+	Export As Motion Graphics Template	அசைவூட்ட வரைகலை வார்ப்புருவாக ஏற்றுமதி செய்
+	Export As Motion Graphics Template…	அசைவூட்ட வரைகலை வார்ப்புருவாக ஏற்றுமதி செய்…
+	Export Audio	ஆடியோவை ஏற்றுமதி செய்
+	Export formats	ஏற்றுமதி வடிவங்கள்
+	Export Frame	சட்டகமை ஏற்றுமதி செய்
+	Export Frame (Shift+E)	சட்டகமை ஏற்றுமதி செய் (Shift+E)
+	Export Frame: use Export mode (M6)	சட்டகமை ஏற்றுமதி செய்: ஏற்றுமதிப் பயன்முறையை (M6) பயன்படுத்தவும்
+	Export Markers as CSV…	குறிப்பான்களை CSV ஆக ஏற்றுமதி செய்…
+	Export presets	ஏற்றுமதி முன்னமைவுகள்
+	Export Preset…	முன்னமைவை ஏற்றுமதி செய்…
+	Export the labels to a preset file…	லேபிள்களை முன்னமைவுக் கோப்பாக ஏற்றுமதி செய்…
+	Export: no file chosen (agents: export.presets.export {path, names})	ஏற்றுமதி: கோப்பு தேர்ந்தெடுக்கப்படவில்லை (agents: export.presets.export {path, names})
+	Export: no file chosen (agents: shortcuts.export {path})	ஏற்றுமதி: கோப்பு தேர்ந்தெடுக்கப்படவில்லை (agents: shortcuts.export {path})
+	Exported graphics template to {path}	வரைகலை வார்ப்புரு {path} க்கு ஏற்றுமதி செய்யப்பட்டது
+	Exported {path}	ஏற்றுமதி செய்யப்பட்டது: {path}
+	Exporting	ஏற்றுமதி செய்கிறது
+	Exporting {path}	{path} ஏற்றுமதி செய்யப்படுகிறது
+	Extend Next Edit To Playhead	அடுத்த தொகுப்புப் புள்ளியை இயக்கக் குறிமுள் வரை நீட்டு
+	Extend Previous Edit To Playhead	முந்தைய தொகுப்புப் புள்ளியை இயக்கக் குறிமுள் வரை நீட்டு
+	Extend Selected Edit to Playhead	தேர்ந்தெடுத்த தொகுப்புப் புள்ளியை இயக்கக் குறிமுள் வரை நீட்டு
+	Extend Selection Down	தேர்வைக் கீழ்நோக்கி நீட்டு
+	Extend Selection Left	தேர்வை இடப்புறம் நீட்டு
+	Extend Selection Right	தேர்வை வலப்புறம் நீட்டு
+	Extend Selection Up	தேர்வை மேல்நோக்கி நீட்டு
+	Extended Dynamic Range Monitoring	நீட்டிக்கப்பட்ட டைனமிக் ரேஞ்ச் கண்காணிப்பு
+	Extract (')	பிரித்தெடு (')
+	Extract Audio	ஆடியோவைப் பிரித்தெடு
+	Extract selected text	தேர்ந்தெடுத்த உரையைப் பிரித்தெடு
+	Eyedropper (pick a color from the Program monitor)	ஐட்ராப்பர் (நிரல் திரையிலிருந்து நிறத்தை எடு)
+	Eyedropper: no picture to sample	ஐட்ராப்பர்: மாதிரி எடுக்கப் படம் இல்லை
+	Face Detection (protect skin tones)	முக அடையாளம் (தோல் நிறங்களைப் பாதுகாக்கும்)
+	Fade	ஃபேடு
+	Fade In	ஃபேடு இன்
+	Fade Out	ஃபேடு அவுட்
+	Faded Matte	மங்கிய மறைப்பு
+	Faded Print	மங்கிய பிரிண்ட்
+	Fades	ஃபேடுகள்
+	Failed: {e}	தோல்வி: {e}
+	Falloff	ஃபால்ஆஃப்
+	Far Away	தொலைவில்
+	Fast	வேகம்
+	Faster Motion	வேகமான இயக்கம்
+	Faux Bold	போலி தடித்த எழுத்து
+	Faux Italic	போலிச் சாய்வு எழுத்து
+	Favorites only	பிடித்தவை மட்டும்
+	FCPXML…	FCPXML…
+	Feather	ஃபெதர்
+	Feedback	பின்னூட்டம்
+	Feedback 1	பின்னூட்டம் 1
+	Feedback 2	பின்னூட்டம் 2
+	Feedback 3	பின்னூட்டம் 3
+	Feedback 4	பின்னூட்டம் 4
+	Feet + Frames 16mm	அடி + சட்டகங்கள் 16 மிமீ
+	Feet + Frames 35mm	அடி + சட்டகங்கள் 35 மிமீ
+	Female	பெண்
+	Fewer · More	குறைவு · அதிகம்
+	FFT Filter	FFT வடிப்பான்
+	Field Options	புல விருப்பங்கள்
+	Field Options…	புல விருப்பங்கள்…
+	Field Order	புல வரிசை
+	File Extension	கோப்பு நீட்டிப்பு
+	File Name & Location	கோப்புப் பெயர் & இடம்
+	File Name:	கோப்புப் பெயர்:
+	File Path	கோப்புப் பாதை
+	File Types Displayed	காட்டப்படும் கோப்பு வகைகள்
+	File…	கோப்பு…
+	Fill Background	பின்னணியை நிரப்பு
+	Fill Color	நிரப்பு நிறம்
+	Fill frame	சட்டகமை நிரப்பு
+	Fill Left with Right	இடப்புறத்தை வலப்புறத்தால் நிரப்பு
+	Fill Point	நிரப்புப் புள்ளி
+	Fill Right with Left	வலப்புறத்தை இடப்புறத்தால் நிரப்பு
+	Fill Selector	நிரப்பித் தேர்வி
+	Fill the slots above first	மேலுள்ள இடங்களை முதலில் நிரப்பவும்
+	Fill Type	நிரப்பு வகை
+	Film Dissolve	ஃபிலிம் கரைவு
+	Film Dissolve (Legacy)	ஃபிலிம் கரைவு (பழைய பதிப்பு)
+	Film Emulation	ஃபிலிம் பாவனை
+	Film Roll	ஃபிலிம் ரோல்
+	FilmCraft always composites in linear light	FilmCraft எப்போதும் நேரியல் ஒளியில் கம்போசிட் செய்கிறது
+	FilmCraft Graphics Template	FilmCraft வரைகலை வார்ப்புரு
+	FilmCraft Help…	FilmCraft உதவி…
+	FilmCraft hit an error	FilmCraft ஒரு பிழையைச் சந்தித்தது
+	FilmCraft keeps the rest of the RAM free for other applications.	FilmCraft மீதமுள்ள RAM ஐ மற்ற பயன்பாடுகளுக்காக காலியாக வைத்திருக்கிறது.
+	FilmCraft on getartcraft.com	getartcraft.com இல் FilmCraft
+	FilmCraft on GitHub	GitHub இல் FilmCraft
+	FilmCraft Project	FilmCraft திட்டம்
+	FilmCraft quit unexpectedly while “{name}” had unsaved changes.	“{name}” இல் சேமிக்காத மாற்றங்கள் இருந்தபோது FilmCraft எதிர்பாராமல் மூடப்பட்டது.
+	FilmCraft was closed while “{name}” had unsaved changes.	“{name}” இல் சேமிக்காத மாற்றங்கள் இருந்தபோது FilmCraft மூடப்பட்டது.
+	Filter and EQ	வடிப்பான் மற்றும் ஈக்வலைசர்
+	Filter Frequency	வடிப்பான் அதிர்வெண்
+	Filter Resonance	வடிப்பான் அதிர்வுறுதல்
+	Final Cut Pro XML…	Final Cut Pro XML…
+	Final Delay	இறுதித் தாமதம்
+	Find Edges	விளிம்புகளைக் கண்டறி
+	Find in:	இதில் தேடு:
+	first marker	முதல் குறிப்பான்
+	Fit to frame	சட்டகமுக்குப் பொருத்து
+	FLAC	FLAC
+	FLAC (lossless)	FLAC (இழப்பற்றது)
+	FLAC 48 kHz 24-bit	FLAC 48 kHz 24 பிட்
+	FLAC stores whole-number samples only	FLAC முழுஎண் மாதிரிகளை மட்டுமே சேமிக்கும்
+	FLAC, stereo 48 kHz 24-bit, lossless	FLAC, இருவழித் தடம், 48 kHz 24 பிட், இழப்பற்றது
+	Flanger	ஃபிளேஞ்சர்
+	Flare	ஃபிளேர்
+	Flare Brightness	ஃபிளேர் பிரகாசம்
+	Flare Center	ஃபிளேர் மையம்
+	Flare Color	ஃபிளேர் நிறம்
+	Flash	ஃபிளாஷ்
+	Flash Cue Marker	ஃபிளாஷ் க்யூ குறிப்பான்
+	Flicker	மினுமினுப்பு
+	Flicker Removal	மினுமினுப்பு நீக்கம்
+	Flickers	மினுமினுப்புகள்
+	Flip Motion	புரட்டு இயக்கம்
+	Flip Over	புரட்டு
+	Float	ஃப்ளோட்
+	Focus Blur	ஃபோகஸ் மங்கல்
+	Focus Point	ஃபோகஸ் புள்ளி
+	Focus Shape	ஃபோகஸ் வடிவம்
+	Focus Size	ஃபோகஸ் அளவு
+	Fold Motion	மடிப்பு இயக்கம்
+	Foldback	ஃபோல்ட்பேக்
+	Font family	எழுத்துரு குடும்பம்
+	Font Style	எழுத்துரு பாணி
+	Fonts used in the project:	திட்டத்தில் பயன்படுத்திய எழுத்துருக்கள்:
+	For color management parameters, go to the Settings tab in the Lumetri Color panel.	நிற மேலாண்மை அளவுருக்களுக்கு, லூமெட்ரி நிறப் பலகத்தின் அமைப்புகள் தாவலுக்குச் செல்லவும்.
+	Forest	காடு
+	Format and size	வடிவம் மற்றும் அளவு
+	Four Scopes (RGB, 8 bit)	நான்கு ஸ்கோப்கள் (RGB, 8 பிட்)
+	Four Scopes (YUV, float, no clamp)	நான்கு ஸ்கோப்கள் (YUV, ஃப்ளோட், வரம்பிடாமல்)
+	Fractal Influence	ஃப்ராக்டல் தாக்கம்
+	Fractal Type	ஃப்ராக்டல் வகை
+	Frame Blending	சட்டக கலப்பு
+	Frame cache for monitors and thumbnails	திரைகள் மற்றும் சிறுபடங்களுக்கான சட்டக கேச்
+	Frame Color	சட்டக நிறம்
+	Frame Count	சட்டக எண்ணிக்கை
+	Frame Hold Options	உறைந்த சட்டக விருப்பங்கள்
+	Frame Hold Options…	உறைந்த சட்டக விருப்பங்கள்…
+	Frame Layout	சட்டக அமைவு
+	Frame Rate	சட்டக வீதம்
+	Frame Rate:	சட்டக வீதம்:
+	Frame Sampling	சட்டக மாதிரியெடுப்பு
+	Frame Size	சட்டக அளவு
+	Frame Size / Rate	சட்டக அளவு / வீதம்
+	Frame Size:	சட்டக அளவு:
+	Frame Width	சட்டக அகலம்
+	Frames	சட்டகங்கள்
+	frames	சட்டகங்கள்
+	Frames per Still:	ஒரு நிலைப்படத்திற்கான சட்டகங்கள்:
+	Framing	சட்டமிடல்
+	Free draw bezier	கைவரைவு பெசியர்
+	Freeform	தன்வடிவம்
+	Freeform View	தன்வடிவக் காட்சி
+	Freeform View Options	தன்வடிவக் காட்சி விருப்பங்கள்
+	Freeform View Options…	தன்வடிவக் காட்சி விருப்பங்கள்…
+	From Bin	கோப்புறையிலிருந்து
+	From East	கிழக்கிலிருந்து
+	From file…	கோப்பிலிருந்து…
+	From North	வடக்கிலிருந்து
+	From Source Monitor	மூலத் திரையிலிருந்து
+	From Source Monitor, Match Frame	மூலத் திரையிலிருந்து, சட்டகத்தைப் பொருத்து
+	From South	தெற்கிலிருந்து
+	From the Left	இடப்புறத்திலிருந்து
+	From the Right	வலப்புறத்திலிருந்து
+	From West	மேற்கிலிருந்து
+	Front + LFE	முன் + LFE
+	Front + Rear	முன் + பின்
+	Front + Rear + LFE	முன் + பின் + LFE
+	Front Only	முன் மட்டும்
+	Full screen	முழுத்திரை
+	Fuzz	ஃபஸ்
+	Gain	கெயின்
+	Gamut Warning Color	கேமட் எச்சரிக்கை நிறம்
+	Gang to Program	நிரலுடன் இணை
+	Gap	இடைவெளி
+	Gap Color	இடைவெளி நிறம்
+	Gaps	இடைவெளிகள்
+	Gaussian Blur (Legacy)	காசியன் மங்கல் (பழைய பதிப்பு)
+	Gaussian Blur from 0 to 60 over the last second	கடைசி வினாடியில் 0 முதல் 60 வரை காசியன் மங்கல்
+	Gaussian Blur from 60 to 0 over the first second	முதல் வினாடியில் 60 முதல் 0 வரை காசியன் மங்கல்
+	GB	GB
+	Generate Audio Waveform	ஆடியோ அலைவடிவத்தை உருவாக்கு
+	Generate Ducking Keyframes	டக்கிங் முக்கியச் சட்டகங்களை உருவாக்கு
+	Generate Keyframes	முக்கியச் சட்டகங்களை உருவாக்கு
+	Generate Timecode	காலக்குறியீட்டை உருவாக்கு
+	Generate waveforms and conform audio using multithreading	பல இழைகளைப் பயன்படுத்தி அலைவடிவங்களை உருவாக்கி ஆடியோவை இணக்கமாக்கு
+	Generate waveforms automatically during import	இறக்குமதியின்போது அலைவடிவங்களைத் தானாக உருவாக்கு
+	Generating waveform…	அலைவடிவம் உருவாக்கப்படுகிறது…
+	Get Media File Properties for	இதற்கான ஊடகக் கோப்புப் பண்புகளைப் பெறு
+	Get Project Notes	திட்டக் குறிப்புகளைப் பெறு
+	Ghosts	நிழல் உருவங்கள்
+	Glint	மின்னல்
+	Glitch	கிளிட்ச்
+	Glow Color	ஒளிர்வு நிறம்
+	Glow Only	ஒளிர்வு மட்டும்
+	Glow Radius	ஒளிர்வு ஆரம்
+	Glow Saturation	ஒளிர்வு செறிவு
+	Glow Width	ஒளிர்வு அகலம்
+	Go Back	பின்செல்
+	Go Forward	முன்செல்
+	Go to Gap	இடைவெளிக்குச் செல்
+	Go to In	தொடக்கப் புள்ளிக்குச் செல்
+	Go to In (Shift+I)	தொடக்கப் புள்ளிக்குச் செல் (Shift+I)
+	Go to In Point	தொடக்கப் புள்ளிக்குச் செல்
+	Go to Next Caption Segment	அடுத்த வசனப் பிரிவுக்குச் செல்
+	Go to Next Edit Point	அடுத்த தொகுப்புப் புள்ளிக்குச் செல்
+	Go to Next Edit Point on Any Track	எந்த டிராக்கிலும் அடுத்த தொகுப்புப் புள்ளிக்குச் செல்
+	Go to next keyframe	அடுத்த முக்கியச் சட்டகமுக்குச் செல்
+	Go to Next Marker	அடுத்த குறிப்பானுக்குச் செல்
+	Go to Out	முடிவுப் புள்ளிக்குச் செல்
+	Go to Out (Shift+O)	முடிவுப் புள்ளிக்குச் செல் (Shift+O)
+	Go to Out Point	முடிவுப் புள்ளிக்குச் செல்
+	Go to Previous Caption Segment	முந்தைய வசனப் பிரிவுக்குச் செல்
+	Go to Previous Edit Point	முந்தைய தொகுப்புப் புள்ளிக்குச் செல்
+	Go to Previous Edit Point on Any Track	எந்த டிராக்கிலும் முந்தைய தொகுப்புப் புள்ளிக்குச் செல்
+	Go to previous keyframe	முந்தைய முக்கியச் சட்டகமுக்குச் செல்
+	Go to Previous Marker	முந்தைய குறிப்பானுக்குச் செல்
+	Go to Selected Clip End	தேர்ந்தெடுத்த துண்டின் முடிவுக்குச் செல்
+	Go to Selected Clip Start	தேர்ந்தெடுத்த துண்டின் தொடக்கத்திற்குச் செல்
+	Go to Sequence End	வரிசைத் தொகுப்பின் முடிவுக்குச் செல்
+	Go to Sequence Start	வரிசைத் தொகுப்பின் தொடக்கத்திற்குச் செல்
+	Go to Split	பிளவுக்குச் செல்
+	Golden Dusk	தங்க அந்தி
+	Golden Hour	தங்க நேரம்
+	GPU acceleration is unavailable; preview renders on the CPU	வரைகலை செயலியின் முடுக்கம் கிடைக்கவில்லை; முன்னோட்டம் கணினிச் செயலியில் ரெண்டர் செய்யப்படுகிறது
+	GPU Rendering	வரைகலை செயலியில் ரெண்டரிங்
+	Grab bag	பலவகை
+	Gradient Angle	நிறப் படித்திறன் கோணம்
+	Gradient End	நிறப் படித்திறன் முடிவு
+	Gradient Layer	நிறப் படித்திறன் அடுக்கு
+	Gradient Placement	சாய்வு அமைவிடம்
+	Gradient Scatter	சாய்வு சிதறல்
+	Gradient Shape	நிறப் படித்திறன் வடிவம்
+	Gradient Start	நிறப் படித்திறன் தொடக்கம்
+	Gradient Wipe	நிறப் படித்திறன் துடைப்பழிவு
+	Gradient Wipe (Legacy)	நிறப் படித்திறன் துடைப்பழிவு (பழைய பதிப்பு)
+	Grain Size	துகள் அளவு
+	Graphic Equalizer (10 Bands)	கிராபிக் சீரமைப்பான் (10 அலைக்கற்றைகள்)
+	Graphic Equalizer (20 Bands)	கிராபிக் சீரமைப்பான் (20 அலைக்கற்றைகள்)
+	Graphic Equalizer (30 Bands)	கிராபிக் சீரமைப்பான் (30 அலைக்கற்றைகள்)
+	Graphics and Titles	வரைகலை மற்றும் தலைப்புகள்
+	Graphics problem: switched to software compositing	வரைகலை சிக்கல்: மென்பொருள் கம்போசிட்டிங்கிற்கு மாறியது
+	Graphics text search arrives with M10.1–M10.2	வரைகலை உரைத் தேடல் M10.1–M10.2 உடன் வரும்
+	Graphics…	வரைகலை…
+	Green Blurriness	பச்சை மங்கல்
+	Green Curve	பச்சை வளைவு
+	Green Offset	பச்சை ஆஃப்செட்
+	Green Power	பச்சை பவர்
+	Green Slope	பச்சை சரிவு
+	Green-Blue	பச்சை-நீலம்
+	Green-Const	பச்சை-மாறிலி
+	Green-Green	பச்சை-பச்சை
+	Green-Red	பச்சை-சிவப்பு
+	Grid spacing:	கட்ட இடைவெளி:
+	Grow	வளர்
+	Growing Files	வளரும் கோப்புகள்
+	Grunge	கிரஞ்ச்
+	Grunge & Distort	கிரஞ்ச் & சிதைவு
+	Guide Templates	வழிகாட்டி வார்ப்புருக்கள்
+	GuitarSuite	GuitarSuite
+	H.264	H.264
+	H.264 1920×1080 for video sharing sites, VBR 1 pass, 16 Mbps	வீடியோ பகிர்வுத் தளங்களுக்கான H.264 1920×1080, VBR 1 பாஸ், 16 Mbps
+	H.264 1920×1080, VBR 1 pass, 20 Mbps target, AAC 320 kbps	H.264 1920×1080, VBR 1 பாஸ், 20 Mbps இலக்கு, AAC 320 kbps
+	H.264 1920×1080, VBR 2 pass, 18 Mbps	H.264 1920×1080, VBR 2 பாஸ், 18 Mbps
+	H.264 3840×2160 for video sharing sites, VBR 1 pass, 45 Mbps	வீடியோ பகிர்வுத் தளங்களுக்கான H.264 3840×2160, VBR 1 பாஸ், 45 Mbps
+	H.264 3840×2160, VBR 1 pass, 60 Mbps target, AAC 320 kbps	H.264 3840×2160, VBR 1 பாஸ், 60 Mbps இலக்கு, AAC 320 kbps
+	H.264 3840×2160, VBR 2 pass, 50 Mbps	H.264 3840×2160, VBR 2 பாஸ், 50 Mbps
+	H.264 9:16 portrait for short-form social video, scaled to fill, 12 Mbps	சமூக ஊடகக் குறுவீடியோக்களுக்கான H.264 9:16 செங்குத்து, நிரப்பும்படி அளவிடப்பட்டது, 12 Mbps
+	H.264 at the sequence's frame size and rate; 0.05 bits per pixel	வரிசைத் தொகுப்பின் சட்டக அளவு மற்றும் வீதத்தில் H.264; ஒரு பிக்சலுக்கு 0.05 பிட்கள்
+	H.264 at the sequence's frame size and rate; 0.1 bits per pixel	வரிசைத் தொகுப்பின் சட்டக அளவு மற்றும் வீதத்தில் H.264; ஒரு பிக்சலுக்கு 0.1 பிட்கள்
+	H.264 at the sequence's frame size and rate; bitrate adapts to the frame size (0.2 bits per pixel)	வரிசைத் தொகுப்பின் சட்டக அளவு மற்றும் வீதத்தில் H.264; பிட்வீதம் சட்டக அளவுக்கு ஏற்ப மாறும் (ஒரு பிக்சலுக்கு 0.2 பிட்கள்)
+	H.265 (HEVC)	H.265 (HEVC)
+	Half Saturation	50% செறிவு
+	Handle Frames:	கூடுதல் சட்டகங்கள்:
+	Hard Clip	கடின துண்டு
+	Hard Limiter	கடின லிமிட்டர்
+	Hard Mono	முழுமையான ஒற்றை ஒலித் தடம்
+	Hard Sun	கடும் வெயில்
+	Hardware (AV1 has no software encoder)	வன்பொருள் (AV1 க்கு மென்பொருள் குறியாக்கி இல்லை)
+	Hardware (H.265 has no software encoder)	வன்பொருள் (H.265 க்கு மென்பொருள் குறியாக்கி இல்லை)
+	Hardware decoding	வன்பொருள் டிகோடிங்
+	Hardware decoding: Auto uses the system's video decoder (VideoToolbox on macOS, Media Foundation on Windows, VA-API or NVDEC for H.264 and HEVC on Linux) for the streams it supports, and FilmCraft's own decoder for everything else or if the hardware fails. Media that is already open keeps its decoder until it is reopened.	வன்பொருள் டிகோடிங்: தானியங்கு என்பது, ஆதரிக்கப்படும் ஸ்ட்ரீம்களுக்கு சிஸ்டத்தின் வீடியோ டிகோடரை (macOS இல் VideoToolbox, Windows இல் Media Foundation, Linux இல் H.264 மற்றும் HEVC க்கு VA-API அல்லது NVDEC) பயன்படுத்தும்; மற்ற அனைத்திற்கும் அல்லது வன்பொருள் தோல்வியடைந்தால் FilmCraft இன் சொந்த டிகோடரைப் பயன்படுத்தும். ஏற்கெனவே திறந்துள்ள ஊடகங்கள் மீண்டும் திறக்கப்படும் வரை தங்கள் டிகோடரையே வைத்திருக்கும்.
+	HD Anamorphic 1080 (1.333)	HD அனமார்பிக் 1080 (1.333)
+	HDR	HDR
+	HDR Graphics White (Nits)	HDR வரைகலை வெள்ளை (நிட்ஸ்)
+	HDR Range	HDR வரம்பு
+	HDR Specular	HDR ஸ்பெகுலர்
+	HDR White	HDR வெள்ளை
+	Head	தலை
+	Head and Tail	தலை மற்றும் வால்
+	Head Size	தலை அளவு
+	Heading	தலைப்பு
+	Hide All Caption Tracks	அனைத்து வசன தடங்களையும் மறை
+	Hide Back Face	பின்புறத்தை மறை
+	Hide FilmCraft	FilmCraft ஐ மறை
+	High contrast with held highlights and deep shadows	கட்டுப்படுத்தப்பட்ட ஒளிர்வுகளும் ஆழமான நிழல்களும் கொண்ட உயர் மாறுபாடு
+	High Cutoff	உச்ச அதிர்வெண் துண்டிப்பு
+	High Frequency Cut	உயர் அதிர்வெண் வெட்டு
+	High Frequency Damping	உயர் அதிர்வெண் தணிப்பு
+	High Quality 1080p HD	உயர் தர 1080p HD
+	High Quality 2160p 4K	உயர் தர 2160p 4K
+	High Quality Playback	உயர் தர இயக்கம்
+	High Shelf	உயர் அடுக்கு
+	High Shelf Gain	உயர் அடுக்கு வலுவூட்டம்
+	High Tone	உயர் தொனி
+	Highlight	ஒளிர்வுப் பகுதி
+	Highlight Blue Balance	ஒளிர்வுப் பகுதி நீல சமநிலை
+	Highlight Brightness	ஒளிர்வுப் பகுதி பிரகாசம்
+	Highlight Color	சிறப்பித்தல் நிறம்
+	Highlight Green Balance	ஒளிர்வுப் பகுதி பச்சை சமநிலை
+	Highlight Red Balance	ஒளிர்வுப் பகுதி சிவப்பு சமநிலை
+	Highlight Rolloff	ஒளிர்வுப் பகுதி ரோல்ஆஃப்
+	Highlight Threshold	ஒளிர்வுப் பகுதி எல்லை மதிப்பு
+	Highlight Tint	ஒளிர்வுப் பகுதி சாயல்
+	Highlights Lightness	ஒளிர்வுப் பகுதி ஒளிர்வு அளவு
+	Highpass	உச்ச அதிர்வெண் அனுமதி வடிகட்டி
+	Hindi digits	ஹிந்தி இலக்கங்கள்
+	HLS Vectorscope + Histogram	HLS வெக்டர்ஸ்கோப் + ஹிஸ்டோகிராம்
+	Hold	ஹோல்ட்
+	Hold Filters	வடிப்பான்களை உறையவை
+	Hold On	இதில் உறையவை
+	horizontal	கிடைமட்டம்
+	Horizontal 16:9	கிடைமட்ட 16:9
+	Horizontal Alignment	கிடைமட்ட சீரமைப்பு
+	Horizontal and Vertical	கிடைமட்டம் மற்றும் செங்குத்து
+	Horizontal Blocks	கிடைமட்ட பிளாக்குகள்
+	Horizontal Decentering	கிடைமட்ட மையவிலகல்
+	Horizontal Displacement	கிடைமட்ட இடப்பெயர்ச்சி
+	Horizontal Flip	கிடைமட்டப் புரட்டு
+	Horizontal Margin	கிடைமட்ட ஓரம்
+	Hover Scrub	சுட்டி மேல் ஸ்க்ரப்
+	HSL Secondary	HSL இரண்டாம்நிலை
+	Hue Center	சாயல் மையம்
+	Hue Range	சாயல் வரம்பு
+	Hue Saturation Curves	சாயல் செறிவு வளைவுகள்
+	Hue Tolerance	சாயல் சகிப்பு
+	Hue vs Hue	சாயல் எதிர் சாயல்
+	Hue vs Luma	சாயல் எதிர் லூமா
+	Hue vs Sat	சாயல் எதிர் செறிவு
+	I/O Buffer Size	I/O பஃபர் அளவு
+	Icon View	ஐகான் காட்சி
+	Ignore Alpha	ஆல்பாவைப் புறக்கணி
+	Ignore Audio	ஆடியோவைப் புறக்கணி
+	Ignore Hours	மணிகளைப் புறக்கணி
+	Ignore Options	புறக்கணிப்பு விருப்பங்கள்
+	Ignore Video	வீடியோவைப் புறக்கணி
+	Image Control	பட கட்டுப்பாடு
+	Image Overlay	பட மேலடுக்கு
+	Image Sequence	பட வரிசைத் தொகுப்பு
+	Immersive Video	ஆழ்நிலை வீடியோ
+	Import a preset file…	முன்னமைவுக் கோப்பை இறக்குமதி செய்…
+	Import as Image Sequence	பட வரிசைத் தொகுப்பாக இறக்குமதி செய்
+	Import captions file…	வசனக் கோப்பை இறக்குமதி செய்…
+	Import From	இதிலிருந்து இறக்குமதி செய்
+	Import from Media Browser	மீடியா உலாவியிலிருந்து இறக்குமதி செய்
+	Import Image Sequence…	பட வரிசைத் தொகுப்பை இறக்குமதி செய்…
+	Import numbered stills as image sequences	எண்ணிடப்பட்ட நிலைப்படங்களைப் பட வரிசைத் தொகுப்புகளாக இறக்குமதி செய்
+	Import Presets…	முன்னமைவுகளை இறக்குமதி செய்…
+	Import: no file chosen (agents: export.presets.import {path})	இறக்குமதி: கோப்பு தேர்ந்தெடுக்கப்படவில்லை (agents: export.presets.import {path})
+	Import: no file chosen (agents: shortcuts.import {path})	இறக்குமதி: கோப்பு தேர்ந்தெடுக்கப்படவில்லை (agents: shortcuts.import {path})
+	Imported “{name}”	“{name}” இறக்குமதி செய்யப்பட்டது
+	Impulse	இம்பல்ஸ்
+	In	உள்
+	in	உள்
+	In a Room	ஓர் அறையில்
+	In Point	தொடக்கப் புள்ளி
+	In Points	தொடக்கப் புள்ளிகள்
+	In the Media Cache	ஊடக கேச்சில்
+	In the project	திட்டத்தில்
+	In/Out Duration	உள்–வெளிக் கால அளவு
+	In: {name}	உள்: {name}
+	Include Alpha Channel	ஆல்பா சேனலைச் சேர்
+	Include captions on import	இறக்குமதியின்போது வசனங்களைச் சேர்
+	Include Handles:	கூடுதல் பிரேம்களைச் சேர்:
+	Include Preview Files	முன்னோட்டக் கோப்புகளைச் சேர்
+	Include Proxies	ப்ராக்ஸிகளைச் சேர்
+	Incoming	உள்வரும்
+	Increase Audio Tracks Height	ஆடியோ தடங்களின் உயரத்தை அதிகரி
+	Increase Clip Volume	துண்டின் ஒலியளவை அதிகரி
+	Increase Clip Volume Many	துண்டின் ஒலியளவை அதிகமாக அதிகரி
+	Increase Font Size by Five Units	எழுத்துரு அளவை ஐந்து அலகுகள் அதிகரி
+	Increase Font Size by One Unit	எழுத்துரு அளவை ஒரு அலகு அதிகரி
+	Increase Leading by Five Units	வரியிடைவெளியை ஐந்து அலகுகள் அதிகரி
+	Increase Leading by One Unit	வரியிடைவெளியை ஒரு அலகு அதிகரி
+	Increase Video Tracks Height	வீடியோ தடங்களின் உயரத்தை அதிகரி
+	Indeterminate Media Timebase	நிர்ணயிக்கப்படாத ஊடக நேர அடிப்படை
+	Ingest	உள்வாங்கு
+	Ingest Settings	உள்வாங்கல் அமைப்புகள்
+	Ingest Settings…	உள்வாங்கல் அமைப்புகள்…
+	Initial Delay	தொடக்கத் தாமதம்
+	Inner	உள்
+	Inner Radius	உள் ஆரம்
+	Input Boost	உள்ளீட்டு வலுவூட்டல்
+	Input LUT	உள்ளீட்டு LUT
+	Insert (,)	செருகு (,)
+	Insert and overwrite sequences as nests or individual clips	வரிசைத் தொகுப்புகளை நெஸ்ட்களாக அல்லது தனிக் துண்டுகளாகச் செருகி மேலெழுது
+	Insert Edit	செருகு தொகுப்பு
+	Insert Frame Hold Segment	உறைந்த சட்டகப் பகுதியைச் செருகு
+	Inset	உள்விளிம்பு
+	Inside Color	உள் நிறம்
+	Install Motion Graphics Template (.fcgt)	அசைவூட்ட வரைகலை வார்ப்புருவை நிறுவு (.fcgt)
+	Install Motion Graphics Template…	அசைவூட்ட வரைகலை வார்ப்புருவை நிறுவு…
+	Install…	நிறுவு…
+	Inter	Inter
+	Interior Room Tone	உள் அறை ஒலி
+	Internal Black Point	உள் கருப்புப் புள்ளி
+	Internal White Point	உள் வெள்ளைப் புள்ளி
+	Interpret Footage	காட்சிகளை விளக்கு
+	Interpret Footage…	காட்சிகளை விளக்கு…
+	Intro Duration	அறிமுகக் கால அளவு
+	Inverse Falloff	தலைகீழ் ஃபால்ஆஃப்
+	Invert Alpha	ஆல்பாவைத் தலைகீழாக்கு
+	Invert Blur	மங்கலைத் தலைகீழாக்கு
+	Invert Fill	நிரப்பைத் தலைகீழாக்கு
+	Invert Gradient	நிறப் படித்திறனை தலைகீழாக்கு
+	Invert Left	இடப்புறத்தைத் தலைகீழாக்கு
+	Invert Right	வலப்புறத்தைத் தலைகீழாக்கு
+	Inverted	தலைகீழ்
+	Iris	கண்விழி காட்சி மாற்றம்
+	Iris Box	சதுரக் கண்விழி மாற்றம்
+	Iris Cross	சிலுவைக் கண்விழி மாற்றம்
+	Iris Diamond	வைரக் கண்விழி மாற்றம்
+	Iris Radius	வட்டக் கண்விழி மாற்றம்
+	Iris Rotation	கண்விழி மாற்றச் சுழற்சி
+	Iris Round	வட்டக் கண்விழி மாற்றம்
+	Iris Shape	கண்விழி மாற்ற வடிவம்
+	JetBrains Mono	JetBrains ஒற்றைத் தடம்
+	Join the ArtCraft Discord (discord.gg/artcraft)	ArtCraft Discord இல் சேரவும் (discord.gg/artcraft)
+	Join Through Edits	தொடர்ச்சியான வெட்டுகளை இணை
+	JPEG	JPEG
+	JPEG Sequence	JPEG வரிசைத் தொகுப்பு
+	Kaleidoscope	கலைடோஸ்கோப்
+	Keep a recovery copy of unsaved changes	சேமிக்காத மாற்றங்களின் மீட்பு நகலை வைத்திரு
+	Kerning	கெர்னிங்
+	Key	கீ
+	Key Color	கீ நிறம்
+	Key Frame Distance	முக்கியச் சட்டக இடைவெளி
+	Key:	விசை:
+	Keyboard: US	விசைப்பலகை: US
+	Keyboard: US (macOS)	விசைப்பலகை: US (macOS)
+	Keying	கீயிங்
+	Label Color Presets	லேபிள் நிற முன்னமைவுகள்
+	Label Colors	லேபிள் நிறங்கள்
+	Label Defaults	இயல்புநிலை லேபிள்கள்
+	Label speakers	பேச்சாளர்களுக்கு லேபிள் இடு
+	Labels…	லேபிள்கள்…
+	Large blocks resolving to the picture over the first second	முதல் வினாடியில் படமாகத் தெளிவடையும் பெரிய பிளாக்குகள்
+	Large centred title, accent rule and subtitle.	மையப்படுத்தப்பட்ட பெரிய தலைப்பு, அழுத்தக் கோடு மற்றும் துணைத்தலைப்பு.
+	Large Hall	பெரிய மண்டபம்
+	Large Trim Offset	பெரிய ஒதுக்கீட்டு நகர்வு
+	Large Volume Adjustment	பெரிய ஒலியளவு சரிசெய்தல்
+	Larger	பெரியது
+	Last auto-save {a}	கடைசி தானியங்கு சேமிப்பு {a}
+	Last auto-save {a} · last recovery copy {j}	கடைசி தானியங்கு சேமிப்பு {a} · கடைசி மீட்பு நகல் {j}
+	Last recovery copy {j}	கடைசி மீட்பு நகல் {j}
+	Latch	லாட்ச்
+	Lavender	லாவெண்டர்
+	Layer Name	அடுக்கின் பெயர்
+	Layout:	அமைவு:
+	Learning	கற்றல்
+	Leave Color	நிறத்தை வைத்திரு
+	Left - Left	இடது - இடது
+	Left - Right	இடது - வலது
+	Left Align Text	உரையை இடப்புறம் சீரமை
+	Left align text	உரையை இடப்புறம் சீரமை
+	Left channel to device output	இடது சேனலைச் சாதன வெளியீட்டிற்கு
+	Left to right	இடமிருந்து வலம்
+	Legacy	பழையவை
+	Legal Range Squeeze	சட்டபூர்வ வரம்புச் சுருக்கம்
+	Lens Blur	லென்ஸ் மங்கல்
+	Lens Distortion	லென்ஸ் சிதைவு
+	Lens Flare	லென்ஸ் ஒளிக்கீற்று
+	Lens Type	லென்ஸ் வகை
+	Lift	காட்சி நீக்கம்
+	Lift (;)	காட்சி நீக்கம் (;)
+	Lift selected text	தேர்ந்தெடுத்த உரையை நீக்கு
+	Lift Shadows	நிழற்பகுதியைச் சீரமை
+	Lifted blacks, softer contrast, muted colour	உயர்த்தப்பட்ட கருப்புகள், மென்மையான மாறுபாடு, மங்கிய நிறம்
+	Ligatures	லிகேச்சர்கள்
+	Light 1	ஒளி 1
+	Light 2	ஒளி 2
+	Light 3	ஒளி 3
+	Light 4	ஒளி 4
+	Light 5	ஒளி 5
+	Light Angle	ஒளிக் கோணம்
+	Light Color	ஒளி நிறம்
+	Light Leak	ஒளிக் கசிவு
+	Light Leaks	ஒளிக் கசிவுகள்
+	Light Sweep	ஒளித் துடைப்பு
+	Lightning	மின்னல்
+	Lights & Blurs	ஒளிகள் & மங்கல்கள்
+	Lights & Glows	ஒளிகள் & ஒளிர்வுகள்
+	Limiter	லிமிட்டர்
+	Limiter Release	லிமிட்டர் விடுவிப்பு
+	Limiter Threshold	லிமிட்டர் எல்லை மதிப்பு
+	Line Thickness	கோட்டின் தடிமன்
+	Linear Dodge (Add)	லீனியர் டாட்ஜ் (கூட்டு)
+	Linear keyframe thinning	நேரியல் முக்கியச் சட்டக குறைப்பு
+	Linear Ramp	நேரியல் சரிவு
+	Linear to Log	நேரியலிலிருந்து லாகிற்கு
+	Linear Wipe	நேரியல் துடைப்பழிவு
+	Linear Wipe (Legacy)	நேரியல் துடைப்பழிவு (பழைய பதிப்பு)
+	Link	இணை
+	Link Channels	சேனல்களை இணை
+	Link Media	ஊடகத்தை இணை
+	Link Media…	ஊடகத்தை இணை…
+	Link to Media	ஊடகத்துடன் இணை
+	Linked Selection	இணைக்கப்பட்ட தேர்வு
+	Linked {n} clip(s)	{n} துண்டு(கள்) இணைக்கப்பட்டன
+	Liquid Distortion	திரவச் சிதைவு
+	Loaded “{name}”	“{name}” ஏற்றப்பட்டது
+	Local Drives	உள்ளூர் இயக்ககங்கள்
+	Local Projects	உள்ளூர் திட்டங்கள்
+	Locate…	கண்டறி…
+	Log Note	பதிவுக் குறிப்பு
+	Log Note:	பதிவுக் குறிப்பு:
+	Log to Linear	லாகிலிருந்து நேரியலுக்கு
+	Log to Log	லாகிலிருந்து லாகிற்கு
+	Logo Cutout	லோகோ கட்அவுட்
+	Long Shadow	நீண்ட நிழல்
+	Look	தோற்றம்
+	Look LUT	தோற்ற LUT
+	Look-Ahead Time	முன்கூட்டிய நேரம்
+	Loop	சுழல்
+	Loop marked range	குறிக்கப்பட்ட வரம்பைச் சுழற்று
+	Looping GIF, 640×360 at 15 fps	சுழலும் GIF, 15 fps இல் 640×360
+	Loudness	ஒலி அளவு
+	Loudness Maximizer	ஒலி அளவு மிகைப்பி
+	Loudness Meter	ஒலி அளவு அளவீடி
+	Loudness Normalization	ஒலி அளவு இயல்பாக்கம்
+	Louver	லூவர்
+	Low Frequency Cut	தாழ் அதிர்வெண் வெட்டு
+	Low Pass	தாழ் அதிர்வெண் அனுமதி
+	Low Shelf	கீழ் அடுக்கு
+	Low Shelf Gain	கீழ் அடுக்கு வலுவூட்டம்
+	Low Tone	தாழ் தொனி
+	Lower First	கீழ் முதலில்
+	Lower Left	கீழ் இடது
+	Lower Right	கீழ் வலது
+	Lower Third – Rule	கீழ்மூன்றில் உரை – வரிக் கோடு
+	Lower Third – Slab	கீழ்மூன்றில் உரை – பலகை
+	Lower Thirds	கீழ்மூன்றில் உரைகள்
+	lowest (V1…)	மிகக் கீழுள்ளது (V1…)
+	Lowpass	தாழ் அதிர்வெண் அனுமதி வடிகட்டி
+	Luma	லூமா
+	Luma and Chroma	லூமா மற்றும் குரோமா
+	Luma Curve	லூமா வளைவு
+	Luma Fade	லூமா மங்கல்
+	Luma Key	லூமா கீ
+	Luma Max	லூமா அதிகபட்சம்
+	Luma Min	லூமா குறைந்தபட்சம்
+	Luma Min / Max	லூமா குறை. / அதிக.
+	Luma Source	லூமா மூலம்
+	Luma vs Sat	லூமா எதிர் செறிவு
+	Lumetri	லூமெட்ரி
+	Lumetri Color	லூமெட்ரி நிறம்
+	Lumetri Presets	லூமெட்ரி முன்னமைவுகள்
+	Lumetri Scopes	லூமெட்ரி ஸ்கோப்கள்
+	Luminance Threshold	ஒளிர்வுச் சுட்டு எல்லை மதிப்பு
+	LUT	LUT
+	Magnify	பெரிதாக்கு
+	Magnify (Legacy)	பெரிதாக்கு (பழைய பதிப்பு)
+	Main	முதன்மை
+	Main (8-bit)	முதன்மை (8 பிட்)
+	Main (8-bit; Main 10 for HDR sequences)	முதன்மை (8 பிட்; HDR வரிசைத் தொகுப்புகளுக்கு முதன்மை 10)
+	Main 10 (10-bit, HDR)	முதன்மை 10 (10 பிட், HDR)
+	Maintain pitch while shuttling	ஷட்டிலின்போது சுருதியைப் பராமரி
+	Major Radius	பெரிய ஆரம்
+	Make Offline	இணைப்பைத் துண்டி
+	Make Offline…	இணைப்பைத் துண்டி…
+	Make Subclip	துணைத்துண்டை உருவாக்கு
+	Make Subclip…	துணைத்துண்டை உருவாக்கு…
+	Make Subsequence	துணைச் வரிசைத் தொகுப்பை உருவாக்கு
+	Make {n} selected clip(s) offline. Their clips show the offline slate until you link them again.	தேர்ந்தெடுத்த {n} துண்டு(கள்) இணைப்பைத் துண்டி. மீண்டும் இணைக்கும் வரை அவற்றின் துண்டுகள் இணைப்பற்ற பலகையைக் காட்டும்.
+	Makeup	ஈடுசெய்தல்
+	Male	ஆண்
+	Manage Guides	வழிகாட்டி கோடுகளை நிர்வகி
+	Manage Guides…	வழிகாட்டி கோடுகளை நிர்வகி…
+	Manage Saved View Presets	சேமித்த காட்சி முன்னமைவுகளை நிர்வகி
+	Mango	மாம்பழம்
+	Map Black To	கருப்பை இதற்கு வரைபடமாக்கு
+	Map White To	வெள்ளையை இதற்கு வரைபடமாக்கு
+	Maps full-range levels into 16–235 (video range) with a luma curve	லூமா வளைவு மூலம் முழு வரம்பு நிலைகளை 16–235 (வீடியோ வரம்பு) ஆக மாற்றுகிறது
+	Mark Clip	துண்டைக் குறி
+	Mark In	தொடக்கப் புள்ளியைக் குறி
+	Mark In (Hover Scrub)	தொடக்கப் புள்ளியைக் குறி (சுட்டி மேல் ஸ்க்ரப்)
+	Mark In (I)	தொடக்கப் புள்ளியைக் குறி (I)
+	Mark Out	முடிவுப் புள்ளியைக் குறி
+	Mark Out (Hover Scrub)	முடிவுப் புள்ளியைக் குறி (சுட்டி மேல் ஸ்க்ரப்)
+	Mark Out (O)	முடிவுப் புள்ளியைக் குறி (O)
+	Mark Selection	தேர்வைக் குறி
+	Mark Split	பிளவைக் குறி
+	Marker	குறிப்பான்
+	Markers	குறிப்பான்கள்
+	Mask Only	முகமூடி மட்டும்
+	Master Amplitude	முதன்மை வீச்சு
+	Master Gain	முதன்மை கெயின்
+	Master volume: use the Audio Track Mixer	முதன்மை ஒலியளவு: ஆடியோ டிராக் மிக்ஸரைப் பயன்படுத்தவும்
+	Master · {name}	முதன்மை · {name}
+	Mastering	மூலப்பதிவாக்கம்
+	Match file properties:	பொருந்த வேண்டிய கோப்புப் பண்புகள்:
+	Match Frame	சட்டகமைப் பொருத்து
+	Match frame sets in point	சட்டகப் பொருத்தம் தொடக்கப் புள்ளியை அமைக்கும்
+	Match Playhead	இயக்கக் குறிமுள்ளுடன் பொருத்து
+	Match Source	மூலத்திற்கு ஏற்ப
+	Match Source ({seq_sr} Hz)	மூலத்திற்கு ஏற்ப ({seq_sr} Hz)
+	Match Source – Adaptive High Bitrate	மூலத்திற்கு ஏற்ப – தகவமைவு உயர் பிட்வீதம்
+	Match Source – Adaptive Low Bitrate	மூலத்திற்கு ஏற்ப – தகவமைவு தாழ் பிட்வீதம்
+	Match Source – Adaptive Medium Bitrate	மூலத்திற்கு ஏற்ப – தகவமைவு நடுத்தர பிட்வீதம்
+	Match {n} of {total}	பொருத்தம் {n} / {total}
+	Match:	பொருத்து:
+	Matches	பொருந்துவது
+	Matches each of the {n} clips on its own.	{n} துண்டுகளில் ஒவ்வொன்றையும் தனித்தனியாகப் பொருத்துகிறது.
+	Matte Alpha	ஆல்பா மறைப்பு
+	Matte Cleanup	மறைப்புச் சுத்திகரிப்பு
+	Matte Generation	மறைப்பு உருவாக்கம்
+	Matte Luma	லூமா மறைப்பு
+	Maximize Frame	சட்டகமைப் பெரிதாக்கு
+	Maximize or Restore Active Frame	செயலில் உள்ள சட்டகத்தைப் பெரிதாக்கு அல்லது மீட்டமை
+	Maximize or Restore Frame Under Cursor	சுட்டியின் கீழுள்ள சட்டகத்தைப் பெரிதாக்கு அல்லது மீட்டமை
+	Maximum Amplitude	அதிகபட்ச வீச்சு
+	Maximum Bit Depth	அதிகபட்ச பிட் ஆழம்
+	Maximum Bitrate	அதிகபட்ச பிட்வீதம்
+	Maximum Block Size	அதிகபட்ச பிளாக் அளவு
+	Maximum Blur	அதிகபட்ச மங்கல்
+	Maximum Project Versions	அதிகபட்சத் திட்டப் பதிப்புகள்
+	Maximum Reduction	அதிகபட்சக் குறைப்பு
+	Maximum Render Quality	அதிகபட்ச ரெண்டர் தரம்
+	Maximum Scale	அதிகபட்ச அளவு
+	MB	MB
+	Media	ஊடகம்
+	Media Analysis	ஊடகப் பகுப்பாய்வு
+	Media Analysis & Transcription	ஊடகப் பகுப்பாய்வு & படியெடுப்பு
+	Media Analysis & Transcription…	ஊடகப் பகுப்பாய்வு & படியெடுப்பு…
+	Media analysis and transcriptions will be cached in the Media Cache folder. Reanalysis won't be required if the media is imported into another project on this computer.	ஊடகப் பகுப்பாய்வுகளும் படியெடுப்புகளும் ஊடக கேச் கோப்புறையில் சேமிக்கப்படும். இந்தக் கணினியில் உள்ள மற்றொரு திட்டத்தில் ஊடகம் இறக்குமதி செய்யப்பட்டால் மீண்டும் பகுப்பாய்வு தேவைப்படாது.
+	Media Browser	ஊடக உலாவி
+	Media Browser Settings	ஊடக உலாவி அமைப்புகள்
+	Media Cache	ஊடக கேச்
+	Media Cache Database	ஊடக கேச் தரவுத்தளம்
+	Media Cache Files	ஊடக கேச் கோப்புகள்
+	Media Cache Management	ஊடக கேச் மேலாண்மை
+	Media Cache…	ஊடக கேச்…
+	Media colour space (from file metadata): {detected}	ஊடக நிற வெளி (கோப்பு மீதரவின்படி): {detected}
+	Media Duration	ஊடகக் கால அளவு
+	Media End	ஊடக முடிவு
+	Media File	ஊடகக் கோப்பு
+	Media files are deleted	ஊடகக் கோப்புகள் நீக்கப்படும்
+	Media files remain on disk	ஊடகக் கோப்புகள் வட்டில் இருக்கும்
+	Media missing	ஊடகம் காணவில்லை
+	Media Name:	ஊடகப் பெயர்:
+	Media Source Channels	ஊடக மூல சேனல்கள்
+	Media Start	ஊடகத் தொடக்கம்
+	Media Start:	ஊடகத் தொடக்கம்:
+	Media Time	ஊடக நேரம்
+	Media Timecode	ஊடக காலக்குறியீடு
+	Media Type	ஊடக வகை
+	MediaBrowser	ஊடக உலாவி
+	MediaCache	ஊடக கேச்
+	Media…	ஊடகம்…
+	Medium	நடுத்தரம்
+	Medium Room	நடுத்தர அறை
+	Memory	நினைவகம்
+	Memory…	நினைவகம்…
+	Merge Captions	வசனங்களை ஒன்றிணை
+	Merge Clips	துண்டுகளை ஒன்றிணை
+	Merge Clips…	துண்டுகளை ஒன்றிணை…
+	Merge selected captions	தேர்ந்தெடுத்த வசனங்களை ஒன்றிணை
+	Merged clip created	ஒன்றிணைந்த துண்டு உருவாக்கப்பட்டது
+	Metadata & Timecode Burn-in	மீதரவு & காலக்குறியீடு பதிப்பு
+	Metadata Display	மீதரவு காட்சி
+	Metadata Display…	மீதரவு காட்சி…
+	Meter Input(s) Only	உள்ளீடுகளை மட்டும் அளவிடு
+	Metrics Kerning	மெட்ரிக்ஸ் கெர்னிங்
+	Mid	நடு
+	Mid Point	நடுப் புள்ளி
+	Midtone Blue Balance	இடைநிலைத் தொனி நீல சமநிலை
+	Midtone Green Balance	இடைநிலைத் தொனி பச்சை சமநிலை
+	Midtone Red Balance	இடைநிலைத் தொனி சிவப்பு சமநிலை
+	Midtones Lightness	இடைநிலைத் தொனி ஒளிர்வு அளவு
+	Milliseconds	மில்லிவினாடிகள்
+	milliseconds	மில்லிவினாடிகள்
+	Minimize All Tracks	அனைத்து தடங்களையும் சுருக்கு
+	Minimum time	குறைந்தபட்ச நேரம்
+	Minimum time interval thinning	குறைந்தபட்ச நேர இடைவெளிக் குறைப்பு
+	Minor Radius	சிறிய ஆரம்
+	minute(s)	நிமிடம்(கள்)
+	Mirror	கண்ணாடி
+	Mirror Alternate	மாற்று கண்ணாடி
+	Missing font replacement	இல்லாத எழுத்துருக்களுக்கான மாற்றீடு
+	MIT OR Apache-2.0. Fonts: Inter, Noto Serif and JetBrains Mono (SIL OFL 1.1).	MIT OR Apache-2.0. எழுத்துருக்கள்: Inter, Noto Serif மற்றும் JetBrains ஒற்றைத் தடம் (SIL OFL 1.1).
+	Miter join	கூர்முனை இணைப்பு
+	Miter limit	கூர்முனை வரம்பு
+	Mix	கலவை
+	Mixdown video	விடியோவை ஒன்றிணை
+	Mixed Crystals	கலப்புப் படிகங்கள்
+	Mixer	கலப்பான்
+	Modern High Gain	நவீன உயர் பெருக்கம்
+	Modifier held / selected	மாற்றி விசை அழுத்தப்பட்டது / தேர்ந்தெடுக்கப்பட்டது
+	Modifiers	மாற்றி விசைகள்
+	Modify Clip: Audio Channels	துண்டை மாற்று: ஆடியோ சேனல்கள்
+	Modify Clip: Timecode	துண்டை மாற்று: காலக்குறியீடு
+	Modulation	மாற்றியமைத்தல்
+	Modulation Rate	மாற்றியமைத்தல் வீதம்
+	Mono Media	ஒற்றைத் தட ஊடகம்
+	Monochrome toned cyan-blue	இள நீல-பச்சை-நீலத் தொனி கொண்ட ஒற்றைநிறம்
+	Monochrome toned warm brown	வெதுவெதுப்பான பழுப்புத் தொனி கொண்ட ஒற்றைநிறம்
+	Monoscopic	ஒற்றைநோக்கு
+	Monospace only	மோனோஸ்பேஸ் மட்டும்
+	More colour in the less saturated areas	செறிவு குறைந்த பகுதிகளில் கூடுதல் நிறம்
+	More presets…	மேலும் முன்னமைவுகள்…
+	More transport controls	மேலும் இயக்கக் கட்டுப்பாடுகள்
+	Morph Cut	மார்ப் கட்
+	Mosaic (Legacy)	மொசைக் (பழைய பதிப்பு)
+	Mosaic In	மொசைக் உள்வருகை
+	Motion Blur	இயக்க மங்கல்
+	Motion Camera	இயக்க கேமரா
+	Motion Graphics Template…	அசைவூட்ட வரைகலை வார்ப்புரு…
+	Motion Preset	இயக்க முன்னமைவு
+	Motion Tween	இயக்க ட்வீன்
+	Move All Audio Targets Down	அனைத்து ஆடியோ இலக்குகளையும் கீழே நகர்த்து
+	Move All Audio Targets Up	அனைத்து ஆடியோ இலக்குகளையும் மேலே நகர்த்து
+	Move All Video Targets Down	அனைத்து வீடியோ இலக்குகளையும் கீழே நகர்த்து
+	Move All Video Targets Up	அனைத்து வீடியோ இலக்குகளையும் மேலே நகர்த்து
+	Move clips to the lowest track possible	துண்டுகளைச் சாத்தியமான மிகக் கீழ் தடங்கிற்கு நகர்த்து
+	Move Selection Down	தேர்வைக் கீழே நகர்த்து
+	Move Selection End	தேர்வை முடிவுக்கு நகர்த்து
+	Move Selection Home	தேர்வைத் தொடக்கத்திற்கு நகர்த்து
+	Move Selection Left	தேர்வை இடப்புறம் நகர்த்து
+	Move Selection Page Down	தேர்வை ஒரு பக்கம் கீழே நகர்த்து
+	Move Selection Page Up	தேர்வை ஒரு பக்கம் மேலே நகர்த்து
+	Move Selection Right	தேர்வை வலப்புறம் நகர்த்து
+	Move Selection Up	தேர்வை மேலே நகர்த்து
+	Move source clips to Processed Clips bin	மூல துண்டுகளைச் செயலாக்கிய துண்டுகள் கோப்புறைக்கு நகர்த்து
+	Movie	திரைப்படம்
+	Movie (audio and video)	திரைப்படம் (ஆடியோ மற்றும் வீடியோ)
+	Movies, audio and stills from disk	வட்டிலிருந்து திரைப்படங்கள், ஆடியோ மற்றும் நிலைப்படங்கள்
+	MPEG-4 audio (.m4a), stereo 48 kHz AAC-LC at 320 kbps	MPEG-4 ஆடியோ (.m4a), இருவழித் தடம் 48 kHz AAC-LC 320 kbps இல்
+	Multi-Camera	பல-கேமரா
+	Multi-Camera Audio Follows Video	பல-கேமரா ஆடியோ வீடியோவைப் பின்தொடரும்
+	Multi-Camera Layout	பல-கேமரா அமைவு
+	Multi-Camera Record	பல-கேமரா பதிவு
+	Multi-Camera Record off	பல-கேமரா பதிவு அணைவு
+	Multi-Camera Record on	பல-கேமரா பதிவு இயக்கம்
+	Multi-Camera Record On/Off (0)	பல-கேமரா பதிவை இயக்கு/அணை (0)
+	Multi-Camera Record On/Off Toggle	பல-கேமரா பதிவை இயக்கு/அணை மாற்றி
+	Multi-Camera Selection Top Down	பல-கேமரா தேர்வு மேலிருந்து கீழ்
+	Multi-camera source sequence with {n} camera(s)	{n} கேமரா(க்கள்) கொண்ட பல-கேமரா மூல வரிசைத் தொகுப்பு
+	Multi-Camera View	பல-கேமரா காட்சி
+	Multiband Compressor	பலகூட்டு அலைக்கற்றை ஒலி சுருக்கி
+	Multicam	மல்டிகேம்
+	Multichannel Mono Media	பலசேனல் ஒற்றைத் தட ஊடகம்
+	Multiple Clips Selected	பல துண்டுகள் தேர்ந்தெடுக்கப்பட்டன
+	Multiplexer	மல்டிபிளெக்ஸர்
+	Multitap Delay	மல்டிடேப் தாமதம்
+	Music	இசை
+	Mute	ஒலியடக்கு
+	Mute input during timeline recording	காலவரிசை பதிவின்போது உள்ளீட்டை ஒலியடக்கு
+	Mute Send	அனுப்புதலை ஒலியடக்கு
+	MXF export writes integer PCM only	MXF ஏற்றுமதி முழுஎண் PCM ஐ மட்டுமே எழுதும்
+	MXF OP-Atom	MXF OP-Atom
+	MXF OP-Atom DNxHR (Avid)	MXF OP-Atom DNxHR (Avid)
+	MXF OP1a	MXF OP1a
+	MXF OP1a DNxHR HQ	MXF OP1a DNxHR HQ
+	MXF OP1a H.264	MXF OP1a H.264
+	MXF OP1a ProRes 422 HQ	MXF OP1a ProRes 422 HQ
+	MXF OP1a, DNxHR HQ (8-bit 4:2:2), 24-bit 48 kHz PCM, start timecode	MXF OP1a, DNxHR HQ (8 பிட் 4:2:2), 24 பிட் 48 kHz PCM, தொடக்க காலக்குறியீடு
+	MXF OP1a, H.264 High long GOP (0.3 bits per pixel), 24-bit 48 kHz PCM	MXF OP1a, H.264 High நீண்ட GOP (ஒரு பிக்சலுக்கு 0.3 பிட்கள்), 24 பிட் 48 kHz PCM
+	MXF OP1a, ProRes 422 HQ, 24-bit 48 kHz PCM, start timecode	MXF OP1a, ProRes 422 HQ, 24 பிட் 48 kHz PCM, தொடக்க காலக்குறியீடு
+	My Shortcuts	எனது குறுக்குவழிகள்
+	My Templates	எனது வார்ப்புருக்கள்
+	Name and role on a coloured slab that widens with the name.	பெயருக்கு ஏற்ப அகலும் வண்ணப் பலகையில் பெயரும் பொறுப்பும்.
+	Name Color	பெயர் நிறம்
+	Name over a thin rule that always matches the name's width.	பெயரின் அகலத்திற்கு எப்போதும் பொருந்தும் மெல்லிய கோட்டின் மேல் பெயர்.
+	Name Overlay	பெயர் மேலடுக்கு
+	Name Size	பெயர் அளவு
+	Narrow	குறுகிய
+	Navigate to End of Segment	பிரிவின் முடிவுக்குச் செல்
+	Navigate to Next Line	அடுத்த வரிக்குச் செல்
+	Navigate to Next Word	அடுத்த சொல்லுக்குச் செல்
+	Navigate to Previous Line	முந்தைய வரிக்குச் செல்
+	Navigate to Previous Word	முந்தைய சொல்லுக்குச் செல்
+	Navigate to Start of Segment	பிரிவின் தொடக்கத்திற்குச் செல்
+	Neon Color	நியான் நிறம்
+	Neon Wipe	நியான் துடைப்பழிவு
+	Nested Sequence Name	உள்ளமைந்த வரிசைத் தொகுப்பின் பெயர்
+	Nest…	உள்ளமை…
+	Network	பிணையம்
+	Neutral Mono	சமநிலை ஒற்றை ஒலித் தடம்
+	New Bin	புதிய கோப்புறை
+	New Bin From Selection	தேர்விலிருந்து புதிய கோப்புறை
+	New Color Matte	புதிய வண்ண மறைப்பு
+	New Ellipse	புதிய நீள்வட்டம்
+	New Item	புதிய உருப்படி
+	New Media Browser Panel	புதிய ஊடக உலாவிப் பலகம்
+	New Offline File	புதிய இணைப்பற்ற கோப்பு
+	New Project Panel	புதிய திட்டப் பலகம்
+	New Project Shortcut	புதிய திட்டக் குறுக்குவழி
+	New Rectangle	புதிய செவ்வகம்
+	New Search Bin	புதிய தேடல் கோப்புறை
+	New Sequence	புதிய வரிசைத் தொகுப்பு
+	New Sequence From Clip	துண்டுலிருந்து புதிய வரிசைத் தொகுப்பு
+	New Submix	புதிய சப்மிக்ஸ்
+	New Text	புதிய உரை
+	New Text Layer	புதிய உரை அடுக்கு
+	New {format} track	புதிய {format} டிராக்
+	Next in Sequence	வரிசைத் தொகுப்பில் அடுத்தது
+	Next in Track	டிராக்கில் அடுத்தது
+	Next Multi-Camera Page	அடுத்த பல-கேமரா பக்கம்
+	Next to original media files	அசல் ஊடகக் கோப்புகளுக்கு அருகில்
+	Next to the media	ஊடகத்திற்கு அருகில்
+	Next to the original media, in a Proxies folder	அசல் ஊடகத்திற்கு அருகில், Proxies கோப்புறையில்
+	Night	இரவு
+	Night Exterior	இரவு வெளிப்புறம்
+	No background jobs.	பின்னணிப் பணிகள் இல்லை.
+	No candidates yet — Search a folder or Locate the file.	இன்னும் வேட்பாளர்கள் இல்லை — கோப்புறையில் தேடவும் அல்லது கோப்பைக் கண்டறியவும்.
+	No captions on this track. Press + to add one at the playhead.	இந்த டிராக்கில் வசனங்கள் இல்லை. இயக்கக் குறிமுள்ளில் ஒன்றைச் சேர்க்க + ஐ அழுத்தவும்.
+	no Chinese font is installed on this system; the interface stays in English	இந்த சிஸ்டத்தில் சீன எழுத்துரு நிறுவப்படவில்லை; இடைமுகம் ஆங்கிலத்திலேயே இருக்கும்
+	No contributor data was built into this copy.	இந்த நகலில் பங்களிப்பாளர் தரவு உள்ளடக்கப்படவில்லை.
+	No effects	விளைவுகள் இல்லை
+	No events.	நிகழ்வுகள் இல்லை.
+	No export preset named `{name}`	`{name}` என்ற பெயரில் ஏற்றுமதி முன்னமைவு இல்லை
+	No Fields (Progressive Scan)	புலங்கள் இல்லை (தொடர் வருடல்)
+	no GPU adapter: the CPU compositor is used	வரைகலைச் செயலியின் இணைப்பி இல்லை: கணினிச் செயலியில் கம்போசிட்டர் பயன்படுத்தப்படுகிறது
+	no Japanese font is installed on this system; the interface stays in English	இந்த சிஸ்டத்தில் ஜப்பானிய எழுத்துரு நிறுவப்படவில்லை; இடைமுகம் ஆங்கிலத்திலேயே இருக்கும்
+	no Korean font is installed on this system; the interface stays in English	இந்த சிஸ்டத்தில் கொரிய எழுத்துரு நிறுவப்படவில்லை; இடைமுகம் ஆங்கிலத்திலேயே இருக்கும்
+	No markers. Press M to add one.	குறிப்பான்கள் இல்லை. ஒன்றைச் சேர்க்க M ஐ அழுத்தவும்.
+	No matching captions.	பொருந்தும் வசனங்கள் இல்லை.
+	No model credits were built into this copy.	இந்த நகலில் மாதிரி நன்றியுரைகள் உள்ளடக்கப்படவில்லை.
+	No Motion	இயக்கம் இல்லை
+	No multi-camera clip at the playhead	இயக்கக் குறிமுள்ளில் பல-கேமரா துண்டு இல்லை
+	No plugins are installed. Changes will take effect the next time you start FilmCraft.	செருகுநிரல்கள் எதுவும் நிறுவப்படவில்லை. FilmCraft ஐ அடுத்த முறை தொடங்கும்போது மாற்றங்கள் நடைமுறைக்கு வரும்.
+	No saved guide templates.	சேமித்த வழிகாட்டி வார்ப்புருக்கள் இல்லை.
+	No Scroll	உருட்டல் இல்லை
+	No templates match.	பொருந்தும் வார்ப்புருக்கள் இல்லை.
+	Noise & Grain	இரைச்சல் & துகள்
+	Noise (Legacy)	இரைச்சல் (பழைய பதிப்பு)
+	Noise Level	இரைச்சல் நிலை
+	Noise Reduction/Restoration	இரைச்சல் குறைப்பு/மீட்டெடுப்பு
+	Noise Type	இரைச்சல் வகை
+	Non-Additive Dissolve	கூட்டலற்ற கரைவு
+	Normalize All Peaks to:	அனைத்து உச்சங்களையும் இதற்கு இயல்பாக்கு:
+	Normalize Max Peak to:	அதிகபட்ச உச்சத்தை இதற்கு இயல்பாக்கு:
+	Normalize Mix Track	மிக்ஸ் டிராக்கை இயல்பாக்கு
+	Normalize Mix Track to:	மிக்ஸ் டிராக்கை இதற்கு இயல்பாக்கு:
+	Normalize Mix Track…	மிக்ஸ் டிராக்கை இயல்பாக்கு…
+	not available in this session	இந்த அமர்வில் கிடைக்கவில்லை
+	Not matched yet	இன்னும் பொருத்தப்படவில்லை
+	Not Now	இப்போது வேண்டாம்
+	Not supported by FilmCraft's encoders yet	FilmCraft இன் குறியாக்கிகளால் இன்னும் ஆதரிக்கப்படவில்லை
+	Not supported in FilmCraft yet	FilmCraft இல் இன்னும் ஆதரிக்கப்படவில்லை
+	Notch 1	நாட்ச் 1
+	Notch 2	நாட்ச் 2
+	Notch 3	நாட்ச் 3
+	Notch 4	நாட்ச் 4
+	Notch 5	நாட்ச் 5
+	Notch 6	நாட்ச் 6
+	Notch Filter	நாட்ச் வடிப்பான்
+	Notch Width	நாட்ச் அகலம்
+	Notes for this project: to-dos, instructions, frame numbers… Saved with the project.	இந்தத் திட்டத்திற்கான குறிப்புகள்: செய்ய வேண்டியவை, அறிவுறுத்தல்கள், பிரேம் எண்கள்… திட்டத்துடன் சேமிக்கப்படும்.
+	Nothing found with that name.	அந்தப் பெயரில் எதுவும் கிடைக்கவில்லை.
+	Nothing is assigned to this key	இந்த விசைக்கு எதுவும் ஒதுக்கப்படவில்லை
+	Nudge Clip Selection Down	துண்டு தேர்வைக் கீழே நகர்த்து
+	Nudge Clip Selection Left Five Frames	துண்டு தேர்வை ஐந்து சட்டகங்கள் இடப்புறம் நகர்த்து
+	Nudge Clip Selection Left One Frame	துண்டு தேர்வை ஒரு சட்டகம் இடப்புறம் நகர்த்து
+	Nudge Clip Selection Right Five Frames	துண்டு தேர்வை ஐந்து சட்டகம்கள் வலப்புறம் நகர்த்து
+	Nudge Clip Selection Right One Frame	துண்டு தேர்வை ஒரு சட்டகம் வலப்புறம் நகர்த்து
+	Nudge Clip Selection Up	துண்டு தேர்வை மேலே நகர்த்து
+	Nudge Selected Object down by five	தேர்ந்தெடுத்த பொருளை ஐந்து பிக்சல்கள் கீழே நகர்த்து
+	Nudge Selected Object down by one	தேர்ந்தெடுத்த பொருளை ஒரு பிக்சல் கீழே நகர்த்து
+	Nudge Selected Object to left by five	தேர்ந்தெடுத்த பொருளை ஐந்து பிக்சல்கள் இடப்புறம் நகர்த்து
+	Nudge Selected Object to left by one	தேர்ந்தெடுத்த பொருளை ஒரு பிக்சல் இடப்புறம் நகர்த்து
+	Nudge Selected Object to right by five	தேர்ந்தெடுத்த பொருளை ஐந்து பிக்சல்கள் வலப்புறம் நகர்த்து
+	Nudge Selected Object to right by one	தேர்ந்தெடுத்த பொருளை ஒரு பிக்சல் வலப்புறம் நகர்த்து
+	Nudge Selected Object up by five	தேர்ந்தெடுத்த பொருளை ஐந்து பிக்சல்கள் மேலே நகர்த்து
+	Nudge Selected Object up by one	தேர்ந்தெடுத்த பொருளை ஒரு பிக்சல் மேலே நகர்த்து
+	Nudge Volume +1dB	ஒலியளவை +1 dB சரிசெய்
+	Nudge Volume +3dB	ஒலியளவை +3 dB சரிசெய்
+	Nudge Volume -1dB	ஒலியளவை -1 dB சரிசெய்
+	Nudge Volume -3dB	ஒலியளவை -3 dB சரிசெய்
+	Number of Audio Clips:	ஆடியோ துண்டுகளின் எண்ணிக்கை:
+	Number of Channels:	சேனல்களின் எண்ணிக்கை:
+	Number Of Echoes	எதிரொலிகளின் எண்ணிக்கை
+	Number of Harmonics	ஹார்மோனிக்குகளின் எண்ணிக்கை
+	Numbered BMP stills (24-bit)	எண்ணிடப்பட்ட BMP நிலைப்படங்கள் (24 பிட்)
+	Numbered DPX stills (10-bit RGB)	எண்ணிடப்பட்ட DPX நிலைப்படங்கள் (10 பிட் RGB)
+	Numbered JPEG stills (quality 90)	எண்ணிடப்பட்ட JPEG நிலைப்படங்கள் (தரம் 90)
+	Numbered OpenEXR stills (half float, linear, uncompressed)	எண்ணிடப்பட்ட OpenEXR நிலைப்படங்கள் (அரை ஃப்ளோட், நேரியல், சுருக்கமற்றது)
+	Numbered PNG stills at the sequence's frame size	வரிசைத் தொகுப்பின் சட்டகம் அளவில் எண்ணிடப்பட்ட PNG நிலைப்படங்கள்
+	Numbered Targa stills (24-bit, uncompressed)	எண்ணிடப்பட்ட Targa நிலைப்படங்கள் (24 பிட், சுருக்கமற்றது)
+	Numbered TIFF stills (RGB, 8-bit)	எண்ணிடப்பட்ட TIFF நிலைப்படங்கள் (RGB, 8 பிட்)
+	Obsolete	வழக்கொழிந்தவை
+	Offline All	அனைத்தும் இணைப்பின்றி
+	Offline File…	இணைப்பற்ற கோப்பு…
+	Offset (Turbulence)	ஆஃப்செட் (டர்புலன்ஸ்)
+	Offset Audio by:	ஆடியோவை இவ்வளவு நகர்த்து:
+	Offset From	இதிலிருந்து நகர்த்து
+	Offset To	இதுவரை நகர்த்து
+	OMF Export Settings	OMF ஏற்றுமதி அமைப்புகள்
+	OMF Title:	OMF தலைப்பு:
+	OMF…	OMF…
+	Omni	Omni
+	On Original Image	அசல் படத்தின் மேல்
+	On Transparent	ஒளிபுகும் பின்னணியில்
+	Opacity 0 → 100 % over the first second	முதல் வினாடியில் ஒளிபுகாமை 0 → 100 %
+	Opacity 100 → 0 % over the last second	கடைசி வினாடியில் ஒளிபுகாமை 100 → 0 %
+	Open a sequence to export	ஏற்றுமதி செய்ய ஒரு வரிசைத் தொகுப்பைத் திறக்கவும்
+	Open a sequence to see its transcript	படியெடுப்பைப் பார்க்க ஒரு வரிசைத் தொகுப்பைத் திறக்கவும்
+	Open a sequence to work with captions	வசனங்களுடன் பணிபுரிய ஒரு வரிசைத் தொகுப்பைத் திறக்கவும்
+	Open Air	திறந்தவெளி
+	Open Bin	கோப்புறையைத் திற
+	Open Demo Project	மாதிரித் திட்டத்தைத் திற
+	Open in New Tab	புதிய தாவலில் திற
+	Open in New Window	புதிய சாளரத்தில் திற
+	Open in new window	புதிய சாளரத்தில் திற
+	Open in Place	இருக்கும் இடத்திலேயே திற
+	Open in place	இருக்கும் இடத்திலேயே திற
+	Open In Source Monitor	மூல திரையில் திற
+	Open in Source Monitor	மூல திரையில் திற
+	Open in Timeline	காலவரிசையில் திற
+	Open Ingest Settings	உள்வாங்கல் அமைப்புகளைத் திற
+	Open Most Recent	மிகச் சமீபத்தியதைத் திற
+	Open new tab	புதிய தாவலைத் திற
+	Open Project…	திட்டத்தைத் திற…
+	Open Search	தேடலைத் திற
+	Open this address in your browser yourself:	இந்த முகவரியை நீங்களே உங்கள் உலாவியில் திறக்கவும்:
+	Opened {url}	{url} திறக்கப்பட்டது
+	OpenEXR	OpenEXR
+	OpenEXR Sequence	OpenEXR வரிசைத் தொகுப்பு
+	Opens in your web browser: {url}	உங்கள் இணைய உலாவியில் திறக்கும்: {url}
+	Opens up the shadows	நிழல்களைத் திறக்கிறது
+	OpenTimelineIO…	OpenTimelineIO…
+	Optical Flow	ஆப்டிகல் ஃப்ளோ
+	Order	வரிசை
+	Ordering:	வரிசைப்படுத்தல்:
+	Out	வெளி
+	out	வெளி
+	Out Point	வெளிப் புள்ளி
+	Out Points	வெளிப் புள்ளிகள்
+	Out: {name}	வெளி: {name}
+	Outer	வெளிப்புறம்
+	Outgoing	வெளிச்செல்லும்
+	Output Gain	வெளியீட்டு கெயின்
+	Output Mapping	வெளியீட்டு வரைபடமாக்கல்
+	Outro Duration	முடிவுரைக் கால அளவு
+	Outside Color	வெளிப்புற நிறம்
+	Overflow	வழிதல்
+	Override media colour space:	ஊடக நிற வெளியை மேலெழுது:
+	Overshoot	ஓவர்ஷூட்
+	Overwrite	மேலெழுது
+	Overwrite (.)	மேலெழுது (.)
+	Overwrite Edit	மேலெழுது தொகுப்பு
+	Overwrite with Current View	தற்போதைய காட்சியுடன் மேலெழுது
+	Page Peel	பக்கம் உரித்தல்
+	Page Scroll	பக்க உருட்டல்
+	Page Turn	பக்கம் புரட்டல்
+	Paint Bucket	வண்ண வாளி
+	Paint On Black	கருப்பின் மேல் வண்ணம் தீட்டு
+	Paint On Original Image	அசல் படத்தின் மேல் வண்ணம் தீட்டு
+	Paint On Transparent	ஒளிபுகும் பின்னணியில் வண்ணம் தீட்டு
+	Paint On White	வெள்ளையின் மேல் வண்ணம் தீட்டு
+	Paint Style	வண்ணம் தீட்டும் பாணி
+	Paint Surface	வண்ணம் தீட்டும் பரப்பு
+	Pan	நகர்த்து
+	Pan (Y Axis)	நகர்த்து (Y அச்சு)
+	Pan / balance (drag; double-click: centre)	நகர்த்து / சமநிலை (இழுக்கவும்; இரட்டைச் சொடுக்கு: மையம்)
+	Panel shortcuts override application shortcuts while that panel has focus	அந்தப் பலகம் கவனத்தில் இருக்கும்போது பலகக் குறுக்குவழிகள் பயன்பாட்டுக் குறுக்குவழிகளை மேலெழுதும்
+	Panel Wipe	பலக துடைப்பழிவு
+	Panner	ஒலி திசை மாற்றி
+	Panner - Ambisonics	ஒலி திசை மாற்றி - ஆம்பிசோனிக்ஸ்
+	Parade	அணிவகுப்பு
+	Parade (RGB)	அணிவகுப்பு (RGB)
+	Parade ({kind})	அணிவகுப்பு ({kind})
+	Parade Type	அணிவகுப்பு வகை
+	Paragraph Text	பத்தி உரை
+	Parametric Equalizer	பாராமெட்ரிக் சீரமைப்பான்
+	Passband Ripple	பாஸ்பேண்ட் அலைவு
+	Paste Attributes	பண்புக்கூறுகளை ஒட்டு
+	Paste Attributes…	பண்புக்கூறுகளை ஒட்டு…
+	Paste Insert	ஒட்டிச் செருகு
+	Path Points	பாதைப் புள்ளிகள்
+	Path: {path}	பாதை: {path}
+	Pause Media Encoder queue during playback	இயக்கத்தின்போது மீடியா என்கோடர் வரிசையை இடைநிறுத்து
+	Paused Resolution	இடைநிறுத்தத் தெளிவுத்திறன்
+	Peak Amplitude: {peak}	உச்ச வீச்சு: {peak}
+	Peak Frequency	உச்ச அதிர்வெண்
+	Peak Gain	உச்ச கெயின்
+	Pedestal	பெடஸ்டல்
+	Per line	ஒவ்வொரு வரிக்கும்
+	Percent Blur	மங்கல் சதவீதம்
+	Phase Difference	கட்ட வேறுபாடு
+	Phaser	ஃபேஸர்
+	Phone Call	தொலைபேசி அழைப்பு
+	Phosphor	பாஸ்பர்
+	Phosphor Color	பாஸ்பர் நிறம்
+	Photocopy Color	ஒளிநகல் நிறம்
+	Picture-in-picture: 35 % scale in the upper right	படத்துக்குள் படம்: மேல் வலப்புறத்தில் 35 % அளவு
+	Pillow	தலையணை
+	Pin All	அனைத்தையும் பொருத்து
+	Pin Horizontal	கிடைமட்டமாகப் பொருத்து
+	Pin Light	பின் லைட்
+	Pin To	இதனுடன் பொருத்து
+	Pin Vertical	செங்குத்தாகப் பொருத்து
+	Pinned Edges	பொருத்திய விளிம்புகள்
+	Pinning	பொருத்துதல்
+	PiP 35% Upper Right	PiP 35% மேல் வலது
+	Pitch Shifter	சுருதி மாற்றி
+	Pixel Aspect Ratio:	பிக்சல் தோற்ற விகிதம்:
+	Place files dropped onto the Timeline directly on the Timeline	காலவரிசையில் விடப்படும் கோப்புகளை நேரடியாக டைம்லைனிலேயே வை
+	Placement	அமைவிடம்
+	Placement:	அமைவிடம்:
+	Plate	தகடு
+	Plateau Wipe	பீடபூமி துடைப்பழிவு
+	Plateaus	பீடபூமிகள்
+	Plates	தகடுகள்
+	Play after rendering previews	முன்னோட்டங்களை ரெண்டர் செய்த பிறகு இயக்கு
+	Play Around	சுற்றிலும் இயக்கு
+	Play Around Edit (Space loops, Shift+K once)	தொகுப்பைச் சுற்றி இயக்கு (Space சுழல், Shift+K ஒருமுறை)
+	Play audio while scrubbing in Source and Program Monitors	மூல மற்றும் நிரல் திரைகளில் ஸ்க்ரப் செய்யும்போது ஆடியோவை இயக்கு
+	Play from Playhead to Out Point	இயக்கக் குறிமுள்ளிலிருந்து வெளிப் புள்ளி வரை இயக்கு
+	Play In to Out	உள் புள்ளியிலிருந்து வெளிப் புள்ளி வரை இயக்கு
+	Play In to Out with Preroll/Postroll	முன்/பின் கூடுதல் நேரத்துடன் தொடக்கப் புள்ளியிலிருந்து முடிவுப் புள்ளி வரை இயக்கு
+	Play Source	மூலத்தை இயக்கு
+	Play-Stop Toggle (Space)	இயக்கு-நிறுத்து மாற்றி (Space)
+	Play/Stop	இயக்கு/நிறுத்து
+	Playback	இயக்கம்
+	Playback Resolution	இயக்கத் தெளிவுத்திறன்
+	Playback starts the pre-roll before the playhead (or the In point); with In/Out marked, recording punches in and out there.	இயக்கக் குறிமுள்ளுக்கு (அல்லது தொடக்கப் புள்ளிக்கு) முன் ப்ரீ-ரோலுடன் இயக்கம் தொடங்கும்; தொடக்க/முடிவுப் புள்ளிகள் குறிக்கப்பட்டிருந்தால், பதிவு அங்கே உள்நுழைந்து வெளியேறும்.
+	Playback…	இயக்கம்…
+	Playhead	இயக்கக் குறிமுள்
+	Playhead position determines trim monitor loop playback	இயக்கக் குறிமுள் நிலை ஒதுக்கீட்டு திரை சுழல் இயக்கத்தை நிர்ணயிக்கும்
+	Playhead:	இயக்கக் குறிமுள்:
+	Plugins	செருகுநிரல்கள்
+	Plugins…	செருகுநிரல்கள்…
+	PNG	PNG
+	PNG or JPEG file	PNG அல்லது JPEG கோப்பு
+	PNG Sequence	PNG வரிசைத் தொகுப்பு
+	Podcast Voice	பாட்காஸ்ட் குரல்
+	Point 1	புள்ளி 1
+	Point 1 Color	புள்ளி 1 நிறம்
+	Point 1 Latitude	புள்ளி 1 அட்சரேகை
+	Point 1 Longitude	புள்ளி 1 தீர்க்கரேகை
+	Point 2	புள்ளி 2
+	Point 2 Color	புள்ளி 2 நிறம்
+	Point 2 Latitude	புள்ளி 2 அட்சரேகை
+	Point 2 Longitude	புள்ளி 2 தீர்க்கரேகை
+	Point 3	புள்ளி 3
+	Point 3 Color	புள்ளி 3 நிறம்
+	Point 3 Latitude	புள்ளி 3 அட்சரேகை
+	Point 3 Longitude	புள்ளி 3 தீர்க்கரேகை
+	Point 4	புள்ளி 4
+	Point 5	புள்ளி 5
+	Point 6	புள்ளி 6
+	Point 7	புள்ளி 7
+	Point 8	புள்ளி 8
+	Point Text	புள்ளி உரை
+	Pointer Color	சுட்டி நிறம்
+	Policy	கொள்கை
+	Polygon Sides	பலகோணப் பக்கங்கள்
+	Pop Motion	பாப் இயக்கம்
+	Position & Rotation	நிலை & சுழற்சி
+	Position Amount	நிலை அளவு
+	Position, Scale & Rotation	நிலை, அளவு & சுழற்சி
+	Position, Scale, Rotation	நிலை, அளவு, சுழற்சி
+	Position: bottom	நிலை: கீழே
+	Position: middle	நிலை: நடுவில்
+	Position: top	நிலை: மேலே
+	Post-Fader	பிந்தைய-சீராக்கி
+	Post-roll	முடிவு-ஓட்டம்
+	Post-roll:	முடிவு-ஓட்டம்:
+	Posterize Time	நேரத்தைப் போஸ்டரைஸ் செய்
+	Postroll	போஸ்ட்ரோல்
+	pre 	முன் 
+	Pre-Delay	முன்-தாமதம்
+	Pre-Fader	முந்தைய-சீராக்கி
+	Pre-roll:	தொடக்க-ஓட்டம்:
+	Preroll	தொடக்க ஓட்டம்
+	Presence Lift	பிரசன்ஸ் லிஃப்ட்
+	Preserve Scale	அளவைப் பாதுகாத்திடு
+	Preset name	முன்னமைவுப் பெயர்
+	Preview Area	முன்னோட்டப் பகுதி
+	Preview File Format:	முன்னோட்டக் கோப்பு வடிவம்:
+	Previous in Sequence	வரிசைத் தொகுப்பில் முந்தையது
+	Previous in Track	டிராக்கில் முந்தையது
+	Previous Multi-Camera Page	முந்தைய பல-கேமரா பக்கம்
+	ProcAmp	ProcAmp
+	Processing Options	செயலாக்க விருப்பங்கள்
+	Program	நிரல்
+	Programme left → device output {l}, right → device output {r}{dev}. Outputs beyond the device's channels fall back to 1 and 2.	நிரல் இடது → சாதன வெளியீடு {l}, வலது → சாதன வெளியீடு {r}{dev}. சாதனத்தின் சேனல்களுக்கு அப்பாற்பட்ட வெளியீடுகள் 1 மற்றும் 2 க்கு மாறும்.
+	Progress	முன்னேற்றம்
+	Project	திட்டம்
+	Project Auto Save:	திட்ட தானியங்கு சேமிப்பு:
+	Project Manager	திட்ட மேலாளர்
+	Project Manager: writing {path}	திட்ட மேலாளர்: {path} எழுதப்படுகிறது
+	Project Manager…	திட்ட மேலாளர்…
+	Project Metadata	திட்ட மீதரவு
+	Project Notes	திட்டக் குறிப்புகள்
+	Project Settings	திட்ட அமைப்புகள்
+	Project View Preset {n}	திட்டக் காட்சி முன்னமைவு {n}
+	Project: {name}	திட்டம்: {name}
+	Projecting cap	நீட்டிய முனை
+	Projection:	முன்கணிப்புக் காட்சி:
+	ProjectPanel	திட்டப் பலகம்
+	Projects	திட்டங்கள்
+	Project…	திட்டம்…
+	Protect Highlights	ஒளிர்வுகளைப் பாதுகாத்திடு
+	Proxies are made in the background and attached when done. Export always uses full-resolution media.	ப்ராக்ஸிகள் பின்னணியில் உருவாக்கப்பட்டு முடிந்ததும் இணைக்கப்படும். ஏற்றுமதி எப்போதும் முழுத் தெளிவுத்திறன் ஊடகத்தையே பயன்படுத்தும்.
+	Proxy	ப்ராக்ஸி
+	Pull Motion	இழுப்பு இயக்கம்
+	Pulls highlights and whites down	ஒளிர்வுகளையும் வெள்ளைகளையும் குறைக்கிறது
+	Push	தள்ளு
+	Push (Legacy)	தள்ளு (பழைய பதிப்பு)
+	Q	Q
+	Quality (CRF)	தரம் (CRF)
+	Queue ({n})	வரிசை ({n})
+	Quick Export	விரைவு ஏற்றுமதி
+	Quick Export: open a sequence first	விரைவு ஏற்றுமதி: முதலில் ஒரு வரிசைத் தொகுப்பைத் திறக்கவும்
+	Quick Export: {path}	விரைவு ஏற்றுமதி: {path}
+	QuickTime (Motion JPEG)	QuickTime (Motion JPEG)
+	QuickTime, APV 422-10 (10-bit 4:2:2), 24-bit 48 kHz PCM	QuickTime, APV 422-10 (10 பிட் 4:2:2), 24 பிட் 48 kHz PCM
+	QuickTime, APV 422-12 (12-bit 4:2:2), 24-bit 48 kHz PCM	QuickTime, APV 422-12 (12 பிட் 4:2:2), 24 பிட் 48 kHz PCM
+	QuickTime, DNxHR HQ (8-bit 4:2:2), 24-bit 48 kHz PCM	QuickTime, DNxHR HQ (8 பிட் 4:2:2), 24 பிட் 48 kHz PCM
+	QuickTime, DNxHR LB (8-bit 4:2:2), 24-bit 48 kHz PCM	QuickTime, DNxHR LB (8 பிட் 4:2:2), 24 பிட் 48 kHz PCM
+	QuickTime, DNxHR SQ (8-bit 4:2:2), 24-bit 48 kHz PCM	QuickTime, DNxHR SQ (8 பிட் 4:2:2), 24 பிட் 48 kHz PCM
+	QuickTime, ProRes 422 HQ, 24-bit 48 kHz PCM	QuickTime, ProRes 422 HQ, 24 பிட் 48 kHz PCM
+	QuickTime, ProRes 422 LT, 24-bit 48 kHz PCM	QuickTime, ProRes 422 LT, 24 பிட் 48 kHz PCM
+	QuickTime, ProRes 422 Proxy, 24-bit 48 kHz PCM	QuickTime, ProRes 422 Proxy, 24 பிட் 48 kHz PCM
+	QuickTime, ProRes 422, 24-bit 48 kHz PCM	QuickTime, ProRes 422, 24 பிட் 48 kHz PCM
+	QuickTime, ProRes 4444 (4:4:4) with alpha channel, 24-bit 48 kHz PCM	QuickTime, ஆல்பா சேனலுடன் ProRes 4444 (4:4:4), 24 பிட் 48 kHz PCM
+	QuickTime, ProRes 4444 (4:4:4), 24-bit 48 kHz PCM	QuickTime, ProRes 4444 (4:4:4), 24 பிட் 48 kHz PCM
+	QuickTime, ProRes 4444 XQ (4:4:4), 24-bit 48 kHz PCM	QuickTime, ProRes 4444 XQ (4:4:4), 24 பிட் 48 kHz PCM
+	Quit FilmCraft	FilmCraft ஐ விட்டு வெளியேறு
+	Radial Ramp	வட்ட வடிவ சரிவு
+	Radial Wipe	வட்ட வடிவ சரிவு துடைப்பழிவு
+	Radial Wipe (Legacy)	வட்ட வடிவ சரிவு துடைப்பழிவு (பழைய பதிப்பு)
+	Radio Announcer	வானொலி அறிவிப்பாளர்
+	Radio Voice	வானொலிக் குரல்
+	RAM reserved for other applications	பிற பயன்பாடுகளுக்காக ஒதுக்கப்பட்ட RAM
+	Ramp	சரிவு
+	Ramp Shape	சரிவு வடிவம்
+	Random Seed	சீரற்ற விதை
+	Range	வரம்பு
+	Rate Stretch Tool	வீத நீட்சிக் கருவி
+	Ray	கதிர்
+	Ray Color	கதிர் நிறம்
+	Ray Length	கதிர் நீளம்
+	Rays Only	கதிர்கள் மட்டும்
+	Razor Tool	ரேசர் கருவி
+	Read	படி
+	Rec. 2100	Rec. 2100
+	Rec. 601	Rec. 601
+	Rec. 709	Rec. 709
+	Recent Directories	சமீபத்திய கோப்புறைகள்
+	Recognize when different speakers are talking	வெவ்வேறு பேச்சாளர்கள் பேசுவதை அடையாளம் காண்
+	Reconnect Full Resolution Media…	முழுத் தெளிவுத்திறன் ஊடகத்தை மீண்டும் இணை…
+	Record	பதிவு
+	Record (voice-over on the record-enabled track)	பதிவு (பதிவு இயக்கப்பட்ட டிராக்கில் குரல் பதிவு)
+	Recorded {n} multi-camera cut(s)	{n} பல-கேமரா வெட்டு(கள்) பதிவுசெய்யப்பட்டன
+	Recording voice-over…	குரல் பதிவுசெய்யப்படுகிறது…
+	Recover Unsaved Changes	சேமிக்காத மாற்றங்களை மீட்டெடு
+	Recover unsaved changes from {when}?	{when} இல் இருந்த சேமிக்காத மாற்றங்களை மீட்டெடுக்கவா?
+	Recover Unsaved Changes…	சேமிக்காத மாற்றங்களை மீட்டெடு…
+	Recovery copy: {dir}	மீட்பு நகல்: {dir}
+	Red Blurriness	சிவப்பு மங்கல்
+	Red Curve	சிவப்பு வளைவு
+	Red Offset	சிவப்பு ஆஃப்செட்
+	Red Power	சிவப்பு பவர்
+	Red Slope	சிவப்பு சரிவு
+	Red-Blue	சிவப்பு-நீலம்
+	Red-Const	சிவப்பு-மாறிலி
+	Red-Green	சிவப்பு-பச்சை
+	Red-Red	சிவப்பு-சிவப்பு
+	Reduce Axis	அச்சைக் குறை
+	Reduce By	இவ்வளவு குறை
+	Reduce Interlace Flicker	வரிப் பின்னலின் மினுமினுப்பைக் குறை
+	Reduce Reverb	எதிரொலிப்பைக் குறை
+	Reduce Rumble	ரம்பிளைக் குறை
+	Reference	குறிப்பு
+	Reference  {tc}	குறிப்பு  {tc}
+	Reference Monitor	குறிப்புத் திரை
+	Reference track:	குறிப்பு டிராக்:
+	Reference: next frame	குறிப்பு: அடுத்த சட்டகம்
+	Reference: previous frame	குறிப்பு: முந்தைய சட்டகம்
+	Reflection Angle	பிரதிபலிப்புக் கோணம்
+	Reflection Center	பிரதிபலிப்பு மையம்
+	Refraction	ஒளிவிலகல்
+	Reframe Offset	மறுசீரமைப்பு நகர்வு அளவு
+	Reframe Zoom	மறுசீரமைப்பு உருப்பெருக்கம்
+	Refresh Changed Media	மாறிய ஊடகத்தைப் புதுப்பி
+	Refresh growing Files Every	வளரும் கோப்புகளை இவ்வளவு இடைவெளியில் புதுப்பி
+	Refresh Project	திட்டத்தைப் புதுப்பி
+	Refresh Sort Order	வரிசையைப் புதுப்பி
+	Rel	விடு.
+	Release	விடுவிப்பு
+	Release Time	விடுவிப்பு நேரம்
+	Relink others automatically	மற்றவற்றைத் தானாக மீண்டும் இணை
+	Remaining	மீதம்
+	Remix	மறு கலவை
+	Remix Properties	மறு கலவை பண்புகள்
+	Remix Properties…	மறு கலவை பண்புகள்…
+	Remix Tool	மறு கலவை கருவி
+	Remixed to {seconds} s	{seconds} வி ஆக மறு கலவை செய்யப்பட்டது
+	Remixing music to a target duration is not available yet. Trim the clip and add a crossfade instead.	இசையை இலக்குக் கால அளவிற்கு மறு கலவை செய்வது இன்னும் கிடைக்கவில்லை. அதற்குப் பதிலாக துண்டை ஒதுக்கல் செய்து கிராஸ்ஃபேடைச் சேர்க்கவும்.
+	Remove Attributes	பண்புக்கூறுகளை அகற்று
+	Remove Attributes…	பண்புக்கூறுகளை அகற்று…
+	Remove Audio from AV Clip	AV துண்டுலிருந்து ஆடியோவை அகற்று
+	Remove Effect	விளைவை அகற்று
+	Remove Filler Words	நிரப்புச் சொற்களை அகற்று
+	Remove filler words	நிரப்புச் சொற்களை அகற்று
+	Remove Fringe	ஓர ஒளிவட்டத்தை அகற்று
+	Remove from Favorites	பிடித்தவையிலிருந்து அகற்று
+	Remove keyframe	முக்கியச் சட்டகமை அகற்று
+	Remove Media Cache Files	ஊடக கேச் கோப்புகளை அகற்று
+	Remove Pauses	இடைநிறுத்தங்களை அகற்று
+	Remove Row	வரிசையை அகற்று
+	Remove Send	அனுப்புதலை அகற்று
+	Remove Unused	பயன்படுத்தாதவற்றை அகற்று
+	Render at Maximum Depth	அதிகபட்ச ஆழத்தில் ரெண்டர் செய்
+	Render Audio	ஆடியோவை ரெண்டர் செய்
+	Render audio clip effects	ஆடியோ துண்டு விளைவுகளை ரெண்டர் செய்
+	Render audio when rendering video	வீடியோவை ரெண்டர் செய்யும்போது ஆடியோவையும் ரெண்டர் செய்
+	Render Edit in Audition files to:	Audition இல் திருத்திய கோப்புகளை இங்கே ரெண்டர் செய்:
+	Render Effects In to Out	உள் முதல் வெளி வரை விளைவுகளை ரெண்டர் செய்
+	Render In to Out	உள் முதல் வெளி வரை ரெண்டர் செய்
+	Render Selection	தேர்வை ரெண்டர் செய்
+	Rendered preview	ரெண்டர் செய்த முன்னோட்டம்
+	Renderer:	ரெண்டரர்:
+	Rendering:	ரெண்டரிங்:
+	Repair	சீரமை
+	Repeat Edge Pixels	விளிம்பு பிக்சல்களை மீண்டும் செய்
+	Replace Color	நிறத்தை மாற்று
+	Replace Fonts in Projects	திட்டங்களில் எழுத்துருக்களை மாற்று
+	Replace Fonts in Projects…	திட்டங்களில் எழுத்துருக்களை மாற்று…
+	Replace With Clip	துண்டுடால் மாற்று
+	Replace With Clip From Source Monitor	மூலத் திரையிலுள்ள துண்டால் மாற்று
+	Replaced {n} font uses	{n} எழுத்துரு பயன்பாடுகள் மாற்றப்பட்டன
+	Replicate	நகலாக்கு
+	Report an issue	சிக்கலைப் புகாரளி
+	Reset All Parameters	அனைத்து அளவுருக்களையும் மீட்டமை
+	Reset Duration	கால அளவை மீட்டமை
+	Reset Effect	விளைவை மீட்டமை
+	Reset Parameter	அளவுருவை மீட்டமை
+	Reset to Grid	கட்டத்திற்கு மீட்டமை
+	Reset to Saved Layout	சேமித்த அமைவிற்கு மீட்டமை
+	Resize floating panel	மிதக்கும் பலகத்தின் அளவை மாற்று
+	Responsive Design - Position	தகவமைவு வடிவமைப்பு - நிலை
+	Responsive Design - Time	தகவமைவு வடிவமைப்பு - நேரம்
+	Restore Arrangement	ஏற்பாட்டை மீட்டமை
+	Restore Captions from Source Clip	மூல துண்டிலிருந்து வசனங்களை மீட்டமை
+	Restore Frame	சட்டகத்தை மீட்டமை
+	Restore open sequences when opening projects	திட்டங்களைத் திறக்கும்போது திறந்திருந்த வரிசைத் தொகுப்புகளை மீட்டமை
+	Restore Original	அசலை மீட்டமை
+	Restore View Preset	காட்சி முன்னமைவை மீட்டமை
+	Restore Workspace	பணியிடத்தை மீட்டமை
+	Restrict Trims To Subclip Boundaries	ஒதுக்கல்களைத் துணைத்துண்டு எல்லைகளுக்குள் கட்டுப்படுத்து
+	Resulting Project	விளைவுத் திட்டம்
+	Retro	ரெட்ரோ
+	Reveal in Finder	கோப்பு மேலாளரில் காண்பி
+	Reveal in Project	திட்டத்தில் காண்பி
+	Reveal Log Files…	பதிவுக் கோப்புகளைக் காண்பி…
+	Reveal Nested Sequence	உள்ளமைந்த வரிசைத் தொகுப்பைக் காண்பி
+	Reveal Original Image	அசல் படத்தைக் காண்பி
+	Reveal Project in Finder…	கோப்பு மேலாளரில் திட்டத்தைக் காண்பி…
+	Reveal Sequence in Project	திட்டத்தில் வரிசைத் தொகுப்பைக் காண்பி
+	Reverb	எதிரொலிப்பு
+	Reverb Amount	எதிரொலிப்பின் அளவு
+	Reverse Field Dominance	புல ஆதிக்கத்தைத் தலைகீழாக்கு
+	Reverse Match Frame	தலைகீழ் சட்டகப் பொருத்தம்
+	Reverse Speed	வேகத்தைத் தலைகீழாக்கு
+	Revert Remix	மறு கலவையைத் திரும்பப்பெறு
+	Revert to the preset's colors and names	முன்னமைவின் நிறங்கள் மற்றும் பெயர்களுக்குத் திரும்பு
+	Review	மதிப்பாய்வு
+	RGB Curves	RGB வளைவுகள்
+	RGB Split	RGB பிளவு
+	RGB-White	RGB-வெள்ளை
+	RGBA Channels	RGBA சேனல்கள்
+	Right - Left	வலது - இடது
+	Right - Right	வலது - வலது
+	Right Align Text	உரையை வலப்புறம் சீரமை
+	Right align text	உரையை வலப்புறம் சீரமை
+	Right channel to device output	வலது சேனலைச் சாதன வெளியீட்டிற்கு
+	Right to left	வலமிருந்து இடம்
+	Ripple Delete	அலைவு நீக்கு
+	Ripple Delete Head Frame	தொடக்கப் சட்டகங்களை அலைவு நீக்கு
+	Ripple Edit Tool	அலைவு தொகுப்புக் கருவி
+	Ripple Edit, Shifting Trailing Clips	அலைவு தொகுப்பு, பின்வரும் துண்டுகளை நகர்த்தி
+	Ripple Sequence Markers	வரிசைத் தொகுப்புக் குறிப்பான்களை அலைவு செய்
+	Ripple trim adds edits to keep both sides of trim in sync	ஒதுக்கல் இரு பக்கங்களும் ஒத்திசைவில் இருக்க அலைவு ஒதுக்கீடு தொகுப்புப் புள்ளிகளைச் சேர்க்கும்
+	Ripple Trim In	அலைவு ஒதுக்கீடு துவக்கம்
+	Ripple Trim Next Edit to Playhead	அடுத்த தொகுப்புப் புள்ளியை இயக்கக் குறிமுள் வரை அலைவு ஒதுக்கீடு செய்
+	Ripple Trim Out	அலைவு ஒதுக்கீடு முடிவு
+	Ripple Trim Previous Edit to Playhead	முந்தைய தொகுப்புப் புள்ளியை இயக்கக் குறிமுள் வரை அலைவு ஒதுக்கீடு செய்
+	Role	பொறுப்பு
+	Roll	சுருள்
+	Roll (Z Axis)	சுழற்சி (Z அச்சு)
+	Roll Edit	சுழல் வெட்டு
+	Rolling Edit Tool	சுழல் திருத்தக் கருவி
+	Room Size	அறை அளவு
+	Rose	ரோஜா
+	Rotation Amount	சுழற்சி அளவு
+	Roughen	கரடுமுரடாக்கு
+	Roughen Color	கரடுமுரடான நிறம்
+	Roughen Edges	கரடுமுரடான விளிம்புகள்
+	Round cap	வட்ட முனை
+	Round join	வட்ட இணைப்பு
+	Rounded Crop	வட்டமான வெட்டிச் சுருக்கு
+	Rule Color	கோட்டு நிறம்
+	Rusty	துருப்பிடித்த
+	Rusty Color	துரு நிறம்
+	Safe graphics mode: {mode}	பாதுகாப்பான வரைகலை பயன்முறை: {mode}
+	Safe Margins	பாதுகாப்பு ஓரங்கள்
+	Same as Project	திட்டத்தைப் போலவே
+	Sample Rate	மாதிரி விகிதம்
+	Sample Rate:	மாதிரி விகிதம்:
+	Sat vs Sat	செறிவு எதிர் செறிவு
+	Saturation at 50 %	50 % செறிவு
+	Saturation Min	குறைந்தபட்ச செறிவு
+	Save .cfa and .pek media cache files next to original media files when possible	முடிந்தால் .cfa மற்றும் .pek ஊடக கேச் கோப்புகளை அசல் ஊடகக் கோப்புகளுக்கு அருகில் சேமி
+	Save All	அனைத்தையும் சேமி
+	Save Arrangement	ஏற்பாட்டைச் சேமி
+	Save Arrangement…	ஏற்பாட்டைச் சேமி…
+	Save As New View Preset	புதிய காட்சி முன்னமைவாகச் சேமி
+	Save as New Workspace…	புதிய பணியிடமாகச் சேமி…
+	Save Changes to this Workspace	இந்தப் பணியிடத்தின் மாற்றங்களைச் சேமி
+	Save changes to “{project_name}” before closing?	மூடுவதற்கு முன் “{project_name}” இன் மாற்றங்களைச் சேமிக்கவா?
+	Save current settings as:	தற்போதைய அமைப்புகளை இவ்வாறு சேமி:
+	Save Current View Preset	தற்போதைய காட்சி முன்னமைவைச் சேமி
+	Save Guides as Template	வழிகாட்டிகளை வார்ப்புருவாகச் சேமி
+	Save Guides as Template…	வழிகாட்டிகளை வார்ப்புருவாகச் சேமி…
+	Save Preset	முன்னமைவைச் சேமி
+	Save preset as:	முன்னமைவை இவ்வாறு சேமி:
+	Save Project	திட்டத்தைச் சேமி
+	Saved as a FilmCraft graphics template (.fcgt) in your templates folder.	உங்கள் வார்ப்புருக்கள் கோப்புறையில் FilmCraft வரைகலை வார்ப்புருவாக (.fcgt) சேமிக்கப்படும்.
+	Saved preset “{name}”	முன்னமைவு “{name}” சேமிக்கப்பட்டது
+	Saved template {path}	வார்ப்புரு {path} இல் சேமிக்கப்பட்டது
+	Saves the view, columns, sort, thumbnail and font size.	காட்சி, நெடுவரிசைகள், வரிசை, சிறுபடம் மற்றும் எழுத்துரு அளவைச் சேமிக்கும்.
+	Saves this session's log and shows it in your file manager.	இந்த அமர்வின் பதிவைச் சேமித்து உங்கள் கோப்பு மேலாளரில் காட்டும்.
+	Scale (Degrees)	அளவு (பாகைகள்)
+	Scale Amount	அளவீட்டு அளவு
+	Scale Attribute Times	பண்புக்கூறு நேரங்களை அளவிடு
+	Scale From	இதிலிருந்து அளவிடு
+	Scale Height	உயரத்தை அளவிடு
+	Scale Match	அளவைப் பொருத்து
+	Scale motion effects proportionally when changing frame size	சட்டக அளவை மாற்றும்போது இயக்க விளைவுகளை விகிதாசாரமாக அளவிடு
+	Scale To	இதற்கு அளவிடு
+	Scale To Fill	நிரப்ப அளவிடு
+	Scale To Fit	பொருந்த அளவிடு
+	Scale to Frame Size	சட்டக அளவிற்கு அளவிடு
+	Scale to frame size	சட்டக அளவிற்கு அளவிடு
+	Scale Width	அகலத்தை அளவிடு
+	Scaling	அளவிடல்
+	Scan Lines	வருடல் கோடுகள்
+	Scene	காட்சி
+	Scene Edit Detection	காட்சித் தொகுப்பு கண்டறிதல்
+	Scene Edit Detection: analysing in the background (see Progress)	காட்சித் தொகுப்பு கண்டறிதல்: பின்னணியில் பகுப்பாய்வு செய்கிறது (முன்னேற்றத்தைப் பார்க்கவும்)
+	Scene Edit Detection…	காட்சித் தொகுப்பு கண்டறிதல்…
+	Scene:	காட்சி:
+	Scientific Filter	அறிவியல் வடிப்பான்
+	Scratch disk location for Captured Audio	பிடிபட்ட ஆடியோவிற்கான நினைவக வட்டு இடம்
+	Scratch Disks	நினைவக வட்டுகள்
+	Scratch Disks…	நினைவக வட்டுகள்…
+	Search Bin	தேடல் கோப்புறை
+	Search commands or keys	கட்டளைகள் அல்லது விசைகளைத் தேடு
+	Search effects	விளைவுகளைத் தேடு
+	Search fields	புலங்களைத் தேடு
+	Search in:	இதில் தேடு:
+	Search presets	முன்னமைவுகளைத் தேடு
+	Search templates	வார்ப்புருக்களைத் தேடு
+	Search:	தேடல்:
+	second(s)	வினாடி(கள்)
+	Seconds	வினாடிகள்
+	seconds	வினாடிகள்
+	Segments:	பிரிவுகள்:
+	Select a clip to grade	கிரேடு செய்ய ஒரு துண்டைத் தேர்ந்தெடுக்கவும்
+	Select a clip to see its properties	பண்புகளைப் பார்க்க ஒரு துண்டைத் தேர்ந்தெடுக்கவும்
+	Select a clip to view its metadata.	மீதரவைப் பார்க்க ஒரு துண்டைத் தேர்ந்தெடுக்கவும்.
+	Select a graphic clip, or use the Type tool (T) on the Program monitor	ஒரு கிராபிக் துண்டைத் தேர்ந்தெடுக்கவும் அல்லது நிரல் திரையில் உரைக் கருவியை (T) பயன்படுத்தவும்
+	Select a layer to edit its properties.	பண்புகளைத் திருத்த ஓர் அடுக்கைத் தேர்ந்தெடுக்கவும்.
+	Select All Matching	பொருந்துபவை அனைத்தையும் தேர்ந்தெடு
+	Select All Project Items	அனைத்துத் திட்ட உருப்படிகளையும் தேர்ந்தெடு
+	Select an item to preview it	முன்னோட்டம் பார்க்க ஓர் உருப்படியைத் தேர்ந்தெடுக்கவும்
+	Select audio clips to edit them here	இங்கே திருத்த ஆடியோ துண்டுகளைத் தேர்ந்தெடுக்கவும்
+	Select audio clips, then click a preset to apply it.	ஆடியோ துண்டுகளைத் தேர்ந்தெடுத்து, பயன்படுத்த ஒரு முன்னமைவைச் சொடுக்கவும்.
+	Select Camera 1	கேமரா 1 ஐத் தேர்ந்தெடு
+	Select Camera 2	கேமரா 2 ஐத் தேர்ந்தெடு
+	Select Camera 3	கேமரா 3 ஐத் தேர்ந்தெடு
+	Select Camera 4	கேமரா 4 ஐத் தேர்ந்தெடு
+	Select Camera 5	கேமரா 5 ஐத் தேர்ந்தெடு
+	Select Camera 6	கேமரா 6 ஐத் தேர்ந்தெடு
+	Select Camera 7	கேமரா 7 ஐத் தேர்ந்தெடு
+	Select Camera 8	கேமரா 8 ஐத் தேர்ந்தெடு
+	Select Camera 9	கேமரா 9 ஐத் தேர்ந்தெடு
+	Select Clip at Playhead	இயக்கக் குறிமுள்ளில் உள்ள துண்டைத் தேர்ந்தெடு
+	Select Find Box	தேடல் பெட்டியைத் தேர்ந்தெடு
+	Select items to clear	அழிக்க வேண்டிய உருப்படிகளைத் தேர்ந்தெடுக்கவும்
+	Select Label Group	லேபிள் குழுவைத் தேர்ந்தெடு
+	Select Next Clip	அடுத்த துண்டைத் தேர்ந்தெடு
+	Select Next Graphic	அடுத்த கிராபிக்கைத் தேர்ந்தெடு
+	Select Next Layer	அடுத்த அடுக்கைத் தேர்ந்தெடு
+	Select Next Panel	அடுத்த பலகத்தைத் தேர்ந்தெடு
+	Select Previous Clip	முந்தைய துண்டைத் தேர்ந்தெடு
+	Select Previous Graphic	முந்தைய கிராபிக்கைத் தேர்ந்தெடு
+	Select Previous Layer	முந்தைய அடுக்கைத் தேர்ந்தெடு
+	Select Previous Panel	முந்தைய பலகத்தைத் தேர்ந்தெடு
+	Select to Next Line	அடுத்த வரி வரை தேர்ந்தெடு
+	Select to Next Word	அடுத்த சொல் வரை தேர்ந்தெடு
+	Select to Previous Line	முந்தைய வரி வரை தேர்ந்தெடு
+	Select to Previous Word	முந்தைய சொல் வரை தேர்ந்தெடு
+	Select to Segment End	பிரிவின் முடிவு வரை தேர்ந்தெடு
+	Select to Segment Start	பிரிவின் தொடக்கம் வரை தேர்ந்தெடு
+	Selected: {command}	தேர்ந்தெடுக்கப்பட்டது: {command}
+	Selection as FilmCraft Project…	தேர்வை FilmCraft திட்டமாக…
+	Selection Follows Playhead	தேர்வு இயக்கக் குறிமுள்ளைப் பின்தொடரும்
+	Selection Order	தேர்வு வரிசை
+	Selection…	தேர்வு…
+	Semi-tones	அரைத்தொனிகள்
+	Send exports here with Send to Queue, then start the queue.	"வரிசைக்கு அனுப்பு" மூலம் ஏற்றுமதிகளை இங்கே அனுப்பி, பிறகு வரிசையைத் தொடங்கவும்.
+	Send to Queue	வரிசைக்கு அனுப்பு
+	Send {n} Level	அனுப்புதல் {n} நிலை
+	Sensitivity:	உணர்திறன்:
+	Separate Audio	தனி ஆடியோ
+	Separate Files	தனிக் கோப்புகள்
+	Sepia Tone	செபியா தொனி
+	Sequence	வரிசைத் தொகுப்பு
+	Sequence Color Management	வரிசைத் தொகுப்பு நிற மேலாண்மை
+	Sequence From Clip	துண்டுலிருந்து வரிசைத் தொகுப்பு
+	Sequence Name	வரிசைத் தொகுப்பு பெயர்
+	Sequence name	வரிசைத் தொகுப்பு பெயர்
+	Sequence Name:	வரிசைத் தொகுப்பு பெயர்:
+	Sequence Settings	வரிசைத் தொகுப்பு அமைப்புகள்
+	Sequence Settings…	வரிசைத் தொகுப்பு அமைப்புகள்…
+	Sequence Time	வரிசைத் தொகுப்பு நேரம்
+	Sequence Timecode	வரிசைத் தொகுப்பு காலக்குறியீடு
+	Sequence, {w}x{h}, {fps} fps, {rate} Hz	வரிசைத் தொகுப்பு, {w}x{h}, {fps} fps, {rate} Hz
+	Sequences	வரிசைத் தொகுப்புகள்
+	Sequence…	வரிசைத் தொகுப்பு…
+	Sequentially	வரிசைக்கிரமமாக
+	Set Comparison Reference	ஒப்பீட்டுக் குறிப்பை அமை
+	Set Creative Look	படைப்பாற்றல் தோற்றத்தை அமை
+	Set focus on the Timeline when performing Insert/Overwrite edits	செருகு/மேலெழுது தொகுப்புகளைச் செய்யும்போது காலவரிசையில் கவனத்தை அமை
+	Set Gain to:	கெயினை இதற்கு அமை:
+	Set Input LUT	உள்ளீட்டு LUT ஐ அமை
+	Set Poster Frame	போஸ்டர் சட்டகமை அமை
+	Set Project Panel View	திட்டப் பலகக் காட்சியை அமை
+	Set the reference to the playhead	குறிப்பை இயக்கக் குறிமுள்ளில் அமை
+	Set Timecode:	காலக்குறியீட்டை அமை:
+	Set to frame size	சட்டக அளவிற்கு அமை
+	Set Transition Duration	மாற்றக் கால அளவை அமை
+	Setting	அமைப்பு
+	SFX	ஒலி விளைவுகள்
+	Shadow Angle	நிழல் கோணம்
+	Shadow Blue Balance	நிழல் நீல சமநிலை
+	Shadow Blur	நிழல் மங்கல்
+	Shadow Color	நிழல் நிறம்
+	Shadow Distance	நிழல் தூரம்
+	Shadow Green Balance	நிழல் பச்சை சமநிலை
+	Shadow Only	நிழல் மட்டும்
+	Shadow Opacity	நிழல் ஒளிபுகாமை
+	Shadow Red Balance	நிழல் சிவப்பு சமநிலை
+	Shadow Size	நிழல் அளவு
+	Shadow Tint	நிழல் சாயல்
+	Shadows Lightness	நிழல்களின் ஒளிர்வு அளவு
+	Shake	குலுக்கல்
+	Shape Dissolve	வடிவக் கரைவு
+	Shape Flow	வடிவ ஓட்டம்
+	Shape Size	வடிவ அளவு
+	Shard Size	துண்டு அளவு
+	Sharp Colors	கூர்மையான நிறங்கள்
+	Sharpen Amount	கூர்மையாக்கல் அளவு
+	Shift Center To	மையத்தை இதற்கு நகர்த்து
+	Shift clips that overlap trim point during ripple trimming	அலைவு ஒதுக்கீட்டின்போது ஒதுக்குப் புள்ளியுடன் மேற்பொருந்தும் துண்டுகளை நகர்த்து
+	Shot	ஷாட்
+	Shot/Take:	ஷாட்/டேக்:
+	Show "Project:" and "Bin:" in Project panel tab	திட்டப் பலகத் தாவலில் "திட்டம்:" மற்றும் "பின்:" ஐக் காண்பி
+	Show Active Caption Tracks Only	செயலில் உள்ள வசன தடங்களை மட்டும் காண்பி
+	Show All Caption Tracks	அனைத்து வசன தடங்களையும் காண்பி
+	Show All Marker Colors	அனைத்துக் குறிப்பான் நிறங்களையும் காண்பி
+	Show Audio Waveform	ஆடியோ அலைவடிவத்தைக் காண்பி
+	Show Clip Mismatch Warning dialog	துண்டு பொருந்தாமை எச்சரிக்கை உரையாடலைக் காண்பி
+	Show clip names	துண்டு பெயர்களைக் காண்பி
+	Show Dot	புள்ளியைக் காண்பி
+	Show durations	கால அளவுகளைக் காண்பி
+	Show Event Indicator	நிகழ்வுக் குறிகாட்டியைக் காண்பி
+	Show finished jobs	முடிந்த பணிகளைக் காண்பி
+	Show Focus Area	ஃபோகஸ் பகுதியைக் காண்பி
+	Show graphs	வரைபடங்களைக் காண்பி
+	Show Home	முகப்பைக் காண்பி
+	Show in the Preset menu	முன்னமைவு மெனுவில் காண்பி
+	Show Keyframes	முக்கியச் சட்டகங்களைக் காண்பி
+	Show Mask Tracker Preview	முகமூடி டிராக்கர் முன்னோட்டத்தைக் காண்பி
+	Show Multi-Camera Preview Monitor	பல-கேமரா முன்னோட்ட திரையைக் காண்பி
+	Show Next Screen	அடுத்த திரையைக் காண்பி
+	Show Only Noise	இரைச்சலை மட்டும் காண்பி
+	Show Open Dialog	திற உரையாடலைக் காண்பி
+	Show or hide {color} markers	{color} குறிப்பான்களைக் காண்பி அல்லது மறை
+	Show Previous Screen	முந்தைய திரையைக் காண்பி
+	Show Program Transcript	நிரல் படியெடுப்பைக் காண்பி
+	Show Project Load Error Dialog	திட்ட ஏற்றப் பிழை உரையாடலைக் காண்பி
+	Show Rich Tool Tips	விரிவான கருவிக்குறிப்புகளைக் காண்பி
+	Show Role	பொறுப்பைக் காண்பி
+	Show system compatibility issues at startup	தொடக்கத்தில் சிஸ்டம் இணக்கத்தன்மை சிக்கல்களைக் காண்பி
+	Show the presets folder	முன்னமைவுகள் கோப்புறையைக் காண்பி
+	Show Through Edits	தொடர்ச்சியான வெட்டுகளைக் காண்பி
+	Show Tool Tips	கருவிக்குறிப்புகளைக் காண்பி
+	Show Transport Controls	இயக்கக் கட்டுப்பாடுகளைக் காண்பி
+	Show Video Thumbnails	வீடியோ சிறுபடங்களைக் காண்பி
+	Show Workspace Reset Warning dialog on double click	இரட்டைச் சொடுக்கில் பணியிட மீட்டமைப்பு எச்சரிக்கை உரையாடலைக் காண்பி
+	Show {n}	{n} ஐக் காண்பி
+	Show/Hide Effects and Sends	விளைவுகள் மற்றும் அனுப்புதல்களைக் காண்பி/மறை
+	Show/Hide Tracks	தடங்களைக் காண்பி/மறை
+	Show/Hide Tracks…	தடங்களைக் காண்பி/மறை…
+	Shows a report on this computer.	இந்தக் கணினி பற்றிய அறிக்கையைக் காட்டும்.
+	Shows the version, community links and credits in a FilmCraft window.	FilmCraft சாளரத்தில் பதிப்பு, சமூக இணைப்புகள் மற்றும் நன்றியுரைகளைக் காட்டும்.
+	Shrink	சுருக்கு
+	Shutter Angle	ஷட்டர் கோணம்
+	Shuttle Left	ஷட்டில் இடது
+	Shuttle Right	ஷட்டில் வலது
+	Shuttle Slow Left	மெதுவான ஷட்டில் இடது
+	Shuttle Slow Right	மெதுவான ஷட்டில் வலது
+	Shuttle Stop	ஷட்டிலை நிறுத்து
+	Signal Scale	சிக்னல் அளவு
+	Silver Retention	வெள்ளி தக்கவைப்பு
+	Similarity	ஒற்றுமை
+	Simple Notch Filter	எளிய நாட்ச் வடிப்பான்
+	Simple Parametric EQ	எளிய பாராமெட்ரிக் ஈக்வலைசர்
+	Simple Text	எளிய உரை
+	Simplify Sequence	சீவரிசைத் தொகுப்பை எளிமைப்படுத்து
+	Simplify Sequence…	வரிசைத் தொகுப்பை எளிமைப்படுத்து…
+	Single-band Compressor	ஒற்றை-அலைக்கற்றை ஒலிச் சுருக்கி
+	Sinusoidal	சைனுசாய்டல்
+	Six procedural 1080p clips with sound	ஒலியுடன் கூடிய ஆறு நடைமுறை 1080p துண்டுகள்
+	Size / Opacity	அளவு / ஒளிபுகாமை
+	Skew	பக்கவாட்டு உருமாற்றம்
+	Skew Axis	சாய்வு அச்சு
+	Slab Color	பலகை நிறம்
+	Slats	பட்டைகள்
+	Slide	சறுக்கு
+	Slide (Legacy)	சறுக்கு (பழைய பதிப்பு)
+	Slide Clip Selection Left Five Frames	துண்டுத் தேர்வை ஐந்து சட்டகங்களை இடப்புறம் சறுக்கு
+	Slide Clip Selection Left One Frame	துண்டுத் தேர்வை ஒரு சட்டகத்தை இடப்புறம் சறுக்கு
+	Slide Clip Selection Right Five Frames	துண்டுத் தேர்வை ஐந்து சட்டகங்களை வலப்புறம் சறுக்கு
+	Slide Clip Selection Right One Frame	துண்டுத் தேர்வை ஒரு சட்டகத்தை வலப்புறம் ஸ்லைடு செய்
+	Slide Tool	சறுக்கு கருவி
+	Slip Clip Selection Left Five Frames	துண்டுத் தேர்வின் உள்ளடக்கத்தை ஐந்து சட்டகங்களை இடப்புறம் ஸ்லிப் செய்
+	Slip Clip Selection Left One Frame	துண்டுத் தேர்வின் உள்ளடக்கத்தை ஒரு சட்டகத்தை இடப்புறம் ஸ்லிப் செய்
+	Slip Clip Selection Right Five Frames	துண்டுத் தேர்வின் உள்ளடக்கத்தை ஐந்து சட்டகங்களை வலப்புறம் ஸ்லிப் செய்
+	Slip Clip Selection Right One Frame	துண்டுத் தேர்வின் உள்ளடக்கத்தை ஒரு சட்டகத்தை வலப்புறம் ஸ்லிப் செய்
+	Slip Tool	ஸ்லிப் கருவி
+	Slope	சரிவு
+	Slow	மெதுவான
+	Slower Motion	மெதுவான இயக்கம்
+	Small Room	சிறிய அறை
+	Smaller	சிறியது
+	Smart Limit	ஸ்மார்ட் வரம்பு
+	Smart Tools	ஸ்மார்ட் கருவிகள்
+	Smooth	மென்மையான
+	Smooth Motion	மென்மையான இயக்கம்
+	Smooth Scroll	மென்மையான உருட்டல்
+	SMPTE HD bars with 1 kHz reference tone	1 kHz குறிப்புத் தொனியுடன் SMPTE HD பட்டைகள்
+	Snap in Program Monitor	நிரல் திரையில் ஒட்டு
+	Snap in Timeline	காலவரிசையில் ஒட்டு
+	Snap in Timeline (S)	காலவரிசையில் ஒட்டு (S)
+	Snap playhead in Timeline when Snap is enabled	ஒட்டு இயக்கப்பட்டிருக்கும்போது காலவரிசையில் இயக்கக் குறிமுள்ளை ஒட்டு
+	Snap to grid	கட்டத்தில் ஒட்டு
+	Social Vertical 1080×1920	சமூக ஊடகச் செங்குத்து 1080×1920
+	Soft Clamp	மென்மையான கிளாம்ப்
+	Soft Clip	மென்மையான துண்டு
+	Soft Edges (Best Quality)	மென்மையான விளிம்புகள் (சிறந்த தரம்)
+	Soft Vignette	மென்மையான விளிம்பு மங்கல் விளைவு
+	Soft Wipe	மென்மையான துடைப்பழிவு
+	Soften Harshness	கடுமையைக் குறை
+	software rendering	மென்பொருள் ரெண்டரிங்
+	Solid	திடமான
+	Solid Colors	திட நிறங்கள்
+	Solo	சோலோ
+	Solo safe	சோலோ பாதுகாப்பு
+	Something went wrong while drawing the window. Your project is still open; save it to be safe.	சாளரத்தை வரையும்போது ஏதோ தவறாகிவிட்டது. உங்கள் திட்டம் இன்னும் திறந்தே உள்ளது; பாதுகாப்பிற்காக அதைச் சேமிக்கவும்.
+	Sort Icons	ஐகான்களை வரிசைப்படுத்து
+	Sort Order	வரிசைப்படுத்தும் முறை
+	Source channels the selected audio clips play:	தேர்ந்தெடுத்த ஆடியோ துண்டுகள் இயக்கும் மூல சேனல்கள்:
+	Source In/Out	மூல உள்/வெளி
+	Source Play/Stop	மூலத்தை இயக்கு/நிறுத்து
+	Source Point	மூலப் புள்ளி
+	Source Settings	மூல அமைப்புகள்
+	Source Settings…	மூல அமைப்புகள்…
+	Source Text	மூல உரை
+	Source Timecode	மூல காலக்குறியீடு
+	Source · {name}	மூலம் · {name}
+	Source:	மூலம்:
+	Spacer	இடைவெளிப்பான்
+	Speaker	பேச்சாளர்
+	Speaker Angle	ஸ்பீக்கர் கோணம்
+	Speaker Labeling	பேச்சாளர் லேபிளிடல்
+	Special Effects	சிறப்பு விளைவுகள்
+	Speech model	பேச்சு மாதிரி
+	Speech-to-text turns the dialogue into editable text.	பேச்சிலிருந்து உரை மாற்றம் உரையாடலைத் திருத்தக்கூடிய உரையாக மாற்றுகிறது.
+	Speed {n}%	வேகம் {n}%
+	Speed/Duration…	வேகம்/கால அளவு…
+	Speed:	வேகம்:
+	Spiky	கூர்மையான
+	Spill	ஸ்பில்
+	Spill Suppression	ஸ்பில் அடக்குதல்
+	Spin	சுழற்று
+	Spin Direction	சுழற்சித் திசை
+	Spin Motion	சுழற்சி இயக்கம்
+	Split (Legacy)	பிரி (பழைய பதிப்பு)
+	Split Caption	வசனத்தைப் பிரி
+	Split caption at playhead	இயக்கக் குறிமுள்ளில் வசனத்தைப் பிரி
+	Spotlight	ஸ்பாட்லைட்
+	Spread	பரவல்
+	Spring Motion	ஸ்பிரிங் இயக்கம்
+	Square (Width Only)	சதுரம் (அகலம் மட்டும்)
+	Square 1:1	சதுரம் 1:1
+	Square Pixels (1.0)	சதுர பிக்சல்கள் (1.0)
+	Stabilization	நிலைப்படுத்தல்
+	Stabilize Only	நிலைப்படுத்து மட்டும்
+	Stabilize, Crop	நிலைப்படுத்து, வெட்டிச் சுருக்கு
+	Stabilize, Crop, Auto-scale	நிலைப்படுத்து, வெட்டிச் சுருக்கு, தானாக அளவிடு
+	Stabilize, Synthesize Edges	நிலைப்படுத்து, விளிம்புகளை உருவாக்கு
+	Stack	அடுக்கு
+	Stack Clips	துண்டுகளை அடுக்கு
+	Stages	நிலைகள்
+	Star Wipe	நட்சத்திர துடைப்பழிவு
+	Start Angle	தொடக்கக் கோணம்
+	Start at 0	0 இல் தொடங்கு
+	Start at 1	1 இல் தொடங்கு
+	Start Color	தொடக்க நிறம்
+	Start Export Queue	ஏற்றுமதி வரிசையைத் தொடங்கு
+	Start of Ramp	சரிவின் தொடக்கம்
+	Start Off Screen	திரைக்கு வெளியே தொடங்கு
+	Start Point	தொடக்கப் புள்ளி
+	Start Queue	வரிசையைத் தொடங்கு
+	Start Voice-over Recording	குரல் பதிவைத் தொடங்கு
+	Start with an Empty Project	காலியான திட்டத்துடன் தொடங்கு
+	Start:	தொடக்கம்:
+	Starting Intensity	தொடக்கத் தீவிரம்
+	Static Plates	நிலையான தகடுகள்
+	Steel Blue	எஃகு நீலம்
+	Step Back 1 Frame	1 சட்டகம் பின்செல்
+	Step Back 1 Frame (Left)	1 சட்டகம் பின்செல் (இடது)
+	Step Back Five Frames	ஐந்து சட்டகங்கள் பின்செல்
+	Step Back One Frame	ஒரு சட்டகம் பின்செல்
+	Step Forward 1 Frame	1 சட்டகம் முன்செல்
+	Step Forward 1 Frame (Right)	1 சட்டகம் முன்செல் (வலது)
+	Step Forward Five Frames	ஐந்து சட்டகங்கள் முன்செல்
+	Step Forward One Frame	ஒரு சட்டகம் முன்செல்
+	Step forward/back many	பல சட்டகங்கள் முன்/பின் செல்
+	Stereo	இருவழித் தடம்
+	Stereo Expand	இருவழித் தட விரிவாக்கம்
+	Stereo Expander	இருவழித் தட எக்ஸ்பாண்டர்
+	Stereo Imagery	இருவழித் தட படிமம்
+	Stereo Media	இருவழித் தட ஊடகம்
+	Stereo Phasing	இருவழித் தட ஃபேசிங்
+	Stereo Width	இருவழித் தட அகலம்
+	Stereoscopic - Over/Under	இருநோக்கு - மேல்/கீழ்
+	Stereoscopic - Side by Side	இருநோக்கு - அருகருகே
+	Still	நிலைப்படம்
+	Still Image Default Duration	நிலைப்படத்தின் இயல்புநிலை கால அளவு
+	Stone Church	கல் தேவாலயம்
+	Stop Export Queue	ஏற்றுமதி வரிசையை நிறுத்து
+	Stop Multi-Camera Recording	பல-கேமரா பதிவை நிறுத்து
+	Stop Source	மூலத்தை நிறுத்து
+	Stop tracking	கண்காணிப்பை நிறுத்து
+	Stop Voice-over Recording	குரல் பதிவை நிறுத்து
+	Stopband Attenuation	ஸ்டாப்பேண்ட் தணிப்பு
+	Straight Color	நேரடி நிறம்
+	Stretch Gradient to Fit	பொருந்த நிறப் படித்திறனை நீட்டு
+	Stretch Map to Fit	பொருந்த வரைபடத்தை நீட்டு
+	Stretch To Fill	நிரப்ப நீட்டு
+	Stretch to Fit Frame	சட்டகமுக்குப் பொருந்த நீட்டு
+	Stretch Width or Height	அகலம் அல்லது உயரத்தை நீட்டு
+	Stretch Wipe	நீட்சி துடைப்பழிவு
+	Stripe	பட்டை
+	Stripes	பட்டைகள்
+	Strobe Color	ஸ்ட்ரோப் நிறம்
+	Strobe Duration (secs)	ஸ்ட்ரோப் கால அளவு (வி)
+	Strobe Light	ஸ்ட்ரோப் ஒளி
+	Strobe Period (secs)	ஸ்ட்ரோப் கால இடைவெளி (வி)
+	Stroke 2	கோடு 2
+	Stroke 2 Color	கோடு 2 நிறம்
+	Stroke 2 Type	கோடு 2 வகை
+	Stroke 2 Width	கோடு 2 அகலம்
+	Stroke Angle	கோட்டுக் கோணம்
+	Stroke Density	கோட்டு அடர்த்தி
+	Stroke Length (secs)	கோட்டு நீளம் (வி)
+	Stroke line cap	கோட்டின் முனை
+	Stroke line join	கோட்டின் இணைப்பு
+	Stroke Only	கோடு மட்டும்
+	Stroke Randomness	கோட்டுச் சீரற்ற தன்மை
+	Stroke Type	கோடு வகை
+	Stroke Width	கோட்டு அகலம்
+	Studio Reverb	ஸ்டுடியோ எதிரொலிப்பு
+	Subclip End	துணைத்துண்டு முடிவு
+	Subclip Start	துணைத்துண்டு தொடக்கம்
+	Subclip: {name}	துணைத்துண்டு: {name}
+	SubRip Subtitle (.srt)	SubRip வசனம் (.srt)
+	Subspace Warp	சப்ஸ்பேஸ் வார்ப்
+	Sum multichannel outputs to mono in Source Monitor	மூலத் திரையில் பலசேனல் வெளியீடுகளை ஒற்றைத் தடமாகக் கூட்டு
+	Super Narrow	மிகக் குறுகிய
+	Surface Gloss	பரப்பு பளபளப்பு
+	Surface Material	பரப்புப் பொருள்
+	Surround Reverb	சரவுண்ட் எதிரொலிப்பு
+	Swap	இடமாற்று
+	Swap Channels	சேனல்களை இடமாற்று
+	Switch Audio	ஆடியோவை மாற்று
+	Swivel	சுழல்தல்
+	Sync Voice-over Capture	குரல் பதிவு கேப்சரை ஒத்திசை
+	Synchronize Clips	துண்டுகளை ஒத்திசை
+	Synchronize Point	ஒத்திசைவுப் புள்ளி
+	Synchronized {n} clip group(s)	{n} துண்டு குழு(க்கள்) ஒத்திசைக்கப்பட்டன
+	Synchronize…	ஒத்திசை…
+	Synthetic	செயற்கை
+	System Compatibility Report	சிஸ்டம் இணக்கத்தன்மை அறிக்கை
+	System Compatibility Report…	சிஸ்டம் இணக்கத்தன்மை அறிக்கை…
+	System Default	சிஸ்டம் இயல்புநிலை
+	System Language	சிஸ்டம் மொழி
+	Tag Color	குறிச்சொல் நிறம்
+	Tan	பழுப்பு
+	Tape	டேப்
+	Tape Name	டேப் பெயர்
+	Tape Name:	டேப் பெயர்:
+	Tape/Tube	டேப்/டியூப்
+	Targa	டார்கா
+	Targa Sequence	டார்கா வரிசைத் தொகுப்பு
+	Target Aspect	இலக்குத் தோற்ற விகிதம்
+	Target Bitrate	இலக்கு பிட்வீதம்
+	Target Color	இலக்கு நிறம்
+	Target Duration:	இலக்குக் கால அளவு:
+	Target Field of View	இலக்குப் பார்வைப் புலம்
+	Target Loudness	இலக்கு ஒலி அளவு
+	Teal	கரும் நீல-பச்சை
+	Teal & Orange	கரும் நீல-பச்சை & செம்மஞ்சள்
+	Teal Shadows, Warm Skin	கரும் நீல-பச்சை நிழல்கள், வெதுவெதுப்பான தோல்
+	Technical	தொழில்நுட்பம்
+	Telephone	தொலைபேசி
+	Teletext	டெலிடெக்ஸ்ட்
+	Template Name:	வார்ப்புருப் பெயர்:
+	Template Properties	வார்ப்புருப் பண்புகள்
+	Temporal Interpolation	காலவழி இடைச்செருகல்
+	Text (graphics and captions)	உரை (வரைகலை மற்றும் வசனங்கள்)
+	Text Animator	உரை அனிமேட்டர்
+	Text Box Height	உரைப் பெட்டி உயரம்
+	Text Box Width	உரைப் பெட்டி அகலம்
+	Text Color	உரை நிறம்
+	Text Layer Type	உரை அடுக்கு வகை
+	Text Properties	உரைப் பண்புகள்
+	Text Styling	உரைப் பாணியமைப்பு
+	Text to Speech	உரையிலிருந்து பேச்சு
+	TextPanel	உரைப் பலகம்
+	The default graphics are used from the next start.	அடுத்த தொடக்கத்திலிருந்து இயல்புநிலை வரைகலை பயன்படுத்தப்படும்.
+	The language changed but could not be saved: {e}	மொழி மாறியது, ஆனால் சேமிக்க முடியவில்லை: {e}
+	The media cache holds render previews of unsaved projects and other files FilmCraft can recreate. Deleting them is always safe; FilmCraft rebuilds them as needed.	ஊடக கேச், சேமிக்காத திட்டங்களின் ரெண்டர் முன்னோட்டங்களையும் FilmCraft மீண்டும் உருவாக்கக்கூடிய பிற கோப்புகளையும் கொண்டுள்ளது. அவற்றை நீக்குவது எப்போதும் பாதுகாப்பானது; தேவைப்படும்போது FilmCraft அவற்றை மீண்டும் உருவாக்கும்.
+	The project had not been saved yet.	திட்டம் இன்னும் சேமிக்கப்படவில்லை.
+	The selected clips have different audio types. Assign one type to edit them together.	தேர்ந்தெடுத்த துண்டுகள் வெவ்வேறு ஆடியோ வகைகளைக் கொண்டுள்ளன. அவற்றை ஒன்றாகத் திருத்த ஒரு வகையை ஒதுக்கவும்.
+	The sequence has no caption track.	வரிசைத் தொகுப்பில் வசன டிராக் இல்லை.
+	This build has no speech-to-text; import a transcript with transcript.set.	இந்த உருவாக்கத்தில் பேச்சிலிருந்து உரை மாற்றம் இல்லை; transcript.set மூலம் ஒரு படியெடுப்பை இறக்குமதி செய்யவும்.
+	Thr	எல்.
+	Thumbnail controls for all pointing devices	அனைத்து சுட்டிச் சாதனங்களுக்கான சிறுபடக் கட்டுப்பாடுகள்
+	Thumbnail Size Next	அடுத்த சிறுபட அளவு
+	Thumbnail Size Previous	முந்தைய சிறுபட அளவு
+	Thumbnail View	சிறுபடக் காட்சி
+	Thumbnails show effects applied	சிறுபடங்கள் பயன்படுத்திய விளைவுகளைக் காட்டும்
+	Ticker – Crawl	டிக்கர் – ஊர்தல்
+	TIFF	TIFF
+	TIFF Sequence	TIFF வரிசைத் தொகுப்பு
+	Tile Gradient	டைல் நிறப் படித்திறன்
+	Tilt (X Axis)	சாய்வு (X அச்சு)
+	Time and Pitch	நேரம் மற்றும் சுருதி
+	Time Interpolation	நேர இடைச்செருகல்
+	Time Remapping	நேர மறுவரைபடம்
+	Timebase:	நேர அடிப்படை:
+	Timecode Conversion	காலக்குறியீடு மாற்றம்
+	Timecode Overlay	காலக்குறியீடு மேலடுக்கு
+	Timecode:	காலக்குறியீடு:
+	Timecode…	காலக்குறியீடு…
+	Timeline Display Settings	காலவரிசையின் காட்சி அமைப்புகள்
+	Timeline Mouse Scrolling	காலவரிசையின் சுட்டி உருட்டல்
+	Timeline Playback Auto-Scrolling	காலவரிசையின் இயக்கத் தானியங்கு உருட்டல்
+	Timeline: (no sequences)	காலவரிசை: (வரிசைத் தொகுப்புகள் இல்லை)
+	Timeline…	காலவரிசை…
+	Tint Color	சாயல் நிறம்
+	Title Color	தலைப்பு நிறம்
+	Title Safe Area	தலைப்புப் பாதுகாப்புப் பகுதி
+	Title Size	தலைப்பு அளவு
+	Title – Boxed	தலைப்பு – பெட்டியிட்டது
+	Title – Centered	தலைப்பு – மையப்படுத்தியது
+	Titles	தலைப்புகள்
+	To {name}	{name} க்கு
+	Toggle All Audio Targets	அனைத்து ஆடியோ இலக்குகளையும் மாற்று
+	Toggle All Source Audio	அனைத்து மூல ஆடியோவையும் மாற்று
+	Toggle All Source Video	அனைத்து மூல வீடியோவையும் மாற்று
+	Toggle All Video Targets	அனைத்து வீடியோ இலக்குகளையும் மாற்று
+	Toggle animation	அனிமேஷனை இயக்கு/அணை
+	Toggle Audio During Scrubbing	ஸ்க்ரப் செய்யும்போது ஆடியோவை மாற்று
+	Toggle Full Screen	முழுத்திரையை மாற்று
+	Toggle Mute for All Targeted Audio Tracks	இலக்கிடப்பட்ட அனைத்து ஆடியோ தடங்களின் ஒலியடக்கத்தை மாற்று
+	Toggle Proxies	ப்ராக்ஸிகளை மாற்று
+	Toggle Solo for All Targeted Audio Tracks	இலக்கிடப்பட்ட அனைத்து ஆடியோ தடங்களின் சோலோவை மாற்று
+	Toggle Source/Program Monitor Focus	மூல/நிரல் திரை கவனத்தை மாற்று
+	Toggle Target Audio 1	இலக்கு ஆடியோ 1 ஐ மாற்று
+	Toggle Target Audio 2	இலக்கு ஆடியோ 2 ஐ மாற்று
+	Toggle Target Audio 3	இலக்கு ஆடியோ 3 ஐ மாற்று
+	Toggle Target Audio 4	இலக்கு ஆடியோ 4 ஐ மாற்று
+	Toggle Target Audio 5	இலக்கு ஆடியோ 5 ஐ மாற்று
+	Toggle Target Audio 6	இலக்கு ஆடியோ 6 ஐ மாற்று
+	Toggle Target Audio 7	இலக்கு ஆடியோ 7 ஐ மாற்று
+	Toggle Target Audio 8	இலக்கு ஆடியோ 8 ஐ மாற்று
+	Toggle Target Video 1	இலக்கு வீடியோ 1 ஐ மாற்று
+	Toggle Target Video 2	இலக்கு வீடியோ 2 ஐ மாற்று
+	Toggle Target Video 3	இலக்கு வீடியோ 3 ஐ மாற்று
+	Toggle Target Video 4	இலக்கு வீடியோ 4 ஐ மாற்று
+	Toggle Target Video 5	இலக்கு வீடியோ 5 ஐ மாற்று
+	Toggle Target Video 6	இலக்கு வீடியோ 6 ஐ மாற்று
+	Toggle Target Video 7	இலக்கு வீடியோ 7 ஐ மாற்று
+	Toggle Target Video 8	இலக்கு வீடியோ 8 ஐ மாற்று
+	Toggle Track Output for All Targeted Video Tracks	இலக்கிடப்பட்ட அனைத்து வீடியோ தடங்களின் தட வெளியீட்டை மாற்று
+	Toggle Trim Type	ஒதுக்கு வகையை மாற்று
+	Toggle View	காட்சியை மாற்று
+	Tone	தொனி
+	Top Center	மேல் மையம்
+	Total Duration	மொத்தக் கால அளவு
+	Touch	தொடு
+	Track Fx Editor	தட விளைவுத் திருத்தி
+	Track Keyframes	தட முக்கியச் சட்டகங்கள்
+	Track Matte Key	தட மறைப்பு விசை
+	Track Select Backward Tool	பின்னோக்கி தடத் தேர்வுக் கருவி
+	Track Select Forward Tool	முன்னோக்கி தடத் தேர்வுக் கருவி
+	Track Selected Mask	தேர்ந்தெடுக்கப்பட்ட தட மறைப்பு
+	Track selected mask backward	தேர்ந்தெடுத்த முகமூடியைப் பின்னோக்கிக் கண்காணி
+	Track selected mask backward 1 frame	தேர்ந்தெடுத்த முகமூடியை 1 சட்டகம் பின்னோக்கிக் கண்காணி
+	Track selected mask forward	தேர்ந்தெடுத்த முகமூடியை முன்னோக்கிக் கண்காணி
+	Track selected mask forward 1 frame	தேர்ந்தெடுத்த முகமூடியை 1 சட்டகம் முன்னோக்கிக் கண்காணி
+	Track type	தட வகை
+	Tracking	தடமறிதல்
+	Tracking method: {method}	கண்காணிப்பு முறை: {method}
+	Tracks	தடங்கள்
+	tracks	தடங்கள்
+	Transcode	மாற்றுக்குறியாக்கு
+	Transcribe	படியெடு
+	Transcribe Sequence	வரிசைத் தொகுப்பைப் படியெடு
+	Transcribe sequence	வரிசைத் தொகுப்பைப் படியெடு
+	Transcribe Sequence…	வரிசைத் தொகுப்பைப் படியெடு…
+	Transcribe…	படியெடு…
+	Transcript	படியெடுப்பு
+	Transcription	படியெடுப்பு
+	Transcription preferences	படியெடுப்பு விருப்பத்தேர்வுகள்
+	Transformers	மின்மாற்றிகள்
+	Transience	நிலையற்ற தன்மை
+	Transition Completion	மாற்றம் நிறைவு
+	Transition Softness	மாற்ற மென்மை
+	Transitions	மாற்றங்கள்
+	Transmit Multi-Camera View	பல-கேமரா காட்சியை அனுப்பு
+	Transparent Video…	ஒளிபுகும் வீடியோ…
+	Trash	குப்பைத்தொட்டி
+	Travel Motion	பயண இயக்கம்
+	Treble	கீச்சு ஒலி
+	Trim	ஒதுக்கு
+	Trim audio files	ஒலி வடிவாங்களைக் ஒதுக்கு
+	Trim Backward	பின்னோக்கி ஒதுக்கு
+	Trim Backward Many	பல பிரேம்கள் பின்னோக்கி ஒதுக்கு
+	Trim Edit	ஒதுக்கிச் சீரமைத்தல்
+	Trim Forward	முன்னோக்கி ஒதுக்கு
+	Trim Forward Many	பல பிரேம்கள் முன்னோக்கி ஒதுக்கீடு செய்
+	Trim In	துவக்க ஒதுக்கீடு
+	Trim Next Edit to Playhead	அடுத்த தொகுப்புப் புள்ளியை இயக்கக் குறிமுள் வரை ஒதுக்கு
+	Trim Out	முடிவு ஒதுக்கீடு
+	Trim Previous Edit to Playhead	முந்தைய தொகுப்புப் புள்ளியை இயக்கக் குறிமுள் வரை ஒதுக்கு
+	Trimming	ஒதுக்கீடு
+	Trim…	ஒதுக்கு…
+	True Peak Limit	உண்மை உச்ச வரம்பு
+	Tube	டியூப்
+	Tube-modeled Compressor	டியூப் மாதிரிச் சுருக்கி
+	Tubular	குழாய் வடிவ
+	Turbulent Displace	டர்புலன்ட் இடப்பெயர்ச்சி
+	Turbulent Sharp	டர்புலன்ட் கூர்மை
+	Turbulent Smooth	டர்புலன்ட் மென்மை
+	Turbulent Smoother	டர்புலன்ட் மிக மென்மை
+	Turn on animation and add keyframe	அனிமேஷனை இயக்கி முக்கிய சட்டகமைச் சேர்
+	TV Power	டிவி பவர்
+	Tweed	ட்வீட்
+	Twirl (Legacy)	சுழல் (பழைய பதிப்பு)
+	Twirl Center	சுழல் மையம்
+	Twirl Radius	சுழல் ஆரம்
+	Twist Smoother	முறுக்கு மென்மையாக்கம்
+	Type a shortcut… (Esc cancels)	ஒரு குறுக்குவழியை அழுத்தவும்… (Esc ரத்துசெய்யும்)
+	UI Scale	இடைமுக அளவு
+	UI:	இடைமுகம்:
+	Ultra Key	அல்ட்ரா கீ
+	Uncompressed (PCM)	சுருக்கமற்றது (PCM)
+	Undock Panel	பலகத்தைப் பிரித்தெடு
+	Uniform Scale	சீரான அளவு
+	Uniform Spacing	சீரான இடைவெளி
+	Universal Counting Leader…	யுனிவர்சல் கவுண்டிங் லீடர்…
+	Unlink	இணைப்பை நீக்கு
+	Unreadable	படிக்க இயலாதது
+	Unrendered: render to play back in real time	ரெண்டர் செய்யப்படவில்லை: நேரலையில் இயக்க ரெண்டர் செய்யவும்
+	Unrendered: should play back in real time	ரெண்டர் செய்யப்படவில்லை: நேரலையில் இயங்க வேண்டும்
+	Unstack	அடுக்கை நீக்கு
+	Unstack Clips	துண்டுகளின் அடுக்கை நீக்கு
+	Untagged	குறிச்சொல்லிடப்படாதது
+	Untitled Workspace	தலைப்பிடாத பணியிடம்
+	Up One Level	ஒரு நிலை மேலே
+	Up one level	ஒரு நிலை மேலே
+	Update it at least every	குறைந்தது இவ்வளவு இடைவெளிக்கு ஒருமுறை புதுப்பி
+	Update Metadata	மீதரவைப் புதுப்பி
+	Update Metadata…	மீதரவைப் புதுப்பி…
+	Update timeline dynamically during ripple edits.	அலைவு தொகுப்புகளின்போது காலவரிசையை மாறும்வகையில் புதுப்பி.
+	Upgrade Caption to Graphic	வசனத்தை கிராபிக்காக மேம்படுத்து
+	Upgrade to Source Graphic	மூல கிராபிக்காக மேம்படுத்து
+	Upper First	மேல் முதலில்
+	Upper Frequency	மேல் அதிர்வெண்
+	Upper Left	மேல் இடது
+	Upper Right	மேல் வலது
+	Use Color Noise	நிற இரைச்சலைப் பயன்படுத்து
+	Use Default Graphics	இயல்புநிலை வரைகலையைப் பயன்படுத்து
+	Use Effect Shutter Angle	விளைவின் ஷட்டர் கோணத்தைப் பயன்படுத்து
+	Use End Color	முடிவு நிறத்தைப் பயன்படுத்து
+	Use File	கோப்பைப் பயன்படுத்து
+	Use file metadata	கோப்பு மீதரவைப் பயன்படுத்து
+	Use Glow Color	ஒளிர்வு நிறத்தைப் பயன்படுத்து
+	Use Maximum Render Quality	அதிகபட்ச ரெண்டர் தரத்தைப் பயன்படுத்து
+	Use Media Source	ஊடக மூலத்தைப் பயன்படுத்து
+	Use the file's timecode	கோப்பின் காலக்குறியீட்டைப் பயன்படுத்து
+	Use Tint Color	சாயல் நிறத்தைப் பயன்படுத்து
+	User Order	பயனர் வரிசை
+	Utility	பயன்பாட்டு நிரல்
+	Validate Content Credentials on import	இறக்குமதியின்போது உள்ளடக்கச் சான்றுகளைச் சரிபார்
+	Variations:	மாறுபாடுகள்:
+	VBR, 1 pass	VBR, 1 பாஸ்
+	VBR, 2 pass	VBR, 2 பாஸ்
+	Vectorscope (YUV)	வெக்டர்ஸ்கோப் (YUV)
+	Vectorscope + Waveform YC	வெக்டர்ஸ்கோப் + அலைவடிவம் YC
+	Vectorscope HLS	வெக்டர்ஸ்கோப் HLS
+	Vectorscope Targets	வெக்டர்ஸ்கோப் இலக்குகள்
+	Vectorscope YUV	வெக்டர்ஸ்கோப் YUV
+	Velocity	வேகம்
+	Venetian Blinds	வெனீஷியன் பிளைண்ட்ஸ்
+	vertical	செங்குத்து
+	Vertical 4:5	செங்குத்து 4:5
+	Vertical 9:16	செங்குத்து 9:16
+	Vertical Blocks	செங்குத்து பிளாக்குகள்
+	Vertical Decentering	செங்குத்து மையவிலகல்
+	Vertical Displacement	செங்குத்து இடப்பெயர்ச்சி
+	Vertical Flip	செங்குத்துப் புரட்டு
+	Vertical Margin	செங்குத்து ஓரம்
+	Vertical Text	செங்குத்து உரை
+	Very Narrow	மிகக் குறுகிய
+	VHS Damage	VHS சேதம்
+	Vibrance	வைப்ரன்ஸ்
+	Video 1	வீடியோ 1
+	Video 2	வீடியோ 2
+	Video 3	வீடியோ 3
+	Video 4	வீடியோ 4
+	Video 5	வீடியோ 5
+	Video 6	வீடியோ 6
+	Video 7	வீடியோ 7
+	Video 8	வீடியோ 8
+	Video and Audio	வீடியோ மற்றும் ஆடியோ
+	Video and Audio Waveform Split	வீடியோ மற்றும் ஆடியோ அலைவடிவப் பிளவு
+	Video and Waveform	வீடியோ மற்றும் அலைவடிவம்
+	Video Attributes	வீடியோ பண்புக்கூறுகள்
+	Video Codec	வீடியோ கோடெக்
+	Video Duration	வீடியோ கால அளவு
+	Video Effects	வீடியோ விளைவுகள்
+	Video effects	வீடியோ விளைவுகள்
+	Video Frame	வீடியோ சட்டகம்
+	Video In	வீடியோ உள்ளீடு
+	Video In Point	வீடியோ உள் புள்ளி
+	Video Info	வீடியோ தகவல்
+	Video Limiter	வீடியோ வரம்புக் கருவி
+	Video Only	வீடியோ மட்டும்
+	Video Options	வீடியோ விருப்பங்கள்
+	Video Out	வீடியோ வெளியீடு
+	Video Out Point	வீடியோ வெளிப் புள்ளி
+	Video Previews	வீடியோ முன்னோட்டங்கள்
+	Video Previews:	வீடியோ முன்னோட்டங்கள்:
+	Video Rendering and Playback	வீடியோ ரெண்டரிங் மற்றும் இயக்கம்
+	Video Thumbnails	வீடியோ சிறுபடங்கள்
+	Video Tracks	வீடியோ தடங்கள்
+	Video Transition Default Duration	வீடியோ மாற்றத்தின் இயல்புநிலை கால அளவு
+	Video Transitions	வீடியோ மாற்றங்கள்
+	Video Usage	வீடியோ பயன்பாடு
+	Video Usage: {vu}  Audio Usage: {au}	வீடியோ பயன்பாடு: {vu}  ஆடியோ பயன்பாடு: {au}
+	Video {n}:	வீடியோ {n}:
+	Video:	வீடியோ:
+	View	காண்
+	Vignette	வினெட்
+	Vimeo 1080p Full HD	Vimeo 1080p Full HD
+	Vimeo 2160p 4K Ultra HD	Vimeo 2160p 4K Ultra HD
+	Vocal Booth	குரல் அறை
+	Vocal Enhancer	குரல் மேம்படுத்தி
+	Voice in a Hall	மண்டபத்தில் குரல்
+	Voice-over Record	குரல் பதிவு
+	Voice-over record (right-click: Voice-Over Record Settings…)	குரல் பதிவு (வலது சொடுக்கு: குரல் பதிவு அமைப்புகள்…)
+	Voice-Over Record Settings	குரல் பதிவு அமைப்புகள்
+	Voice-Over Record Settings…	குரல் பதிவு அமைப்புகள்…
+	Voice-over recorded: {p}	குரல் பதிவு செய்யப்பட்டது: {p}
+	Voice-over recording stopped (nothing recorded)	குரல் பதிவு நிறுத்தப்பட்டது (எதுவும் பதிவாகவில்லை)
+	Voice-over take discarded	குரல் பதிவு டேக் நிராகரிக்கப்பட்டது
+	Voiceover	வாய்ஸ்ஓவர்
+	Volume	ஒலியளவு
+	Volume (drag; double-click: 0 dB)	ஒலியளவு (இழுக்கவும்; இரட்டைச் சொடுக்கு: 0 dB)
+	Volumetric Rays	கனஅளவு கதிர்கள்
+	VR Blur	VR மங்கல்
+	VR Chroma Leaks	VR குரோமா கசிவுகள்
+	VR Chromatic Aberrations	VR நிறப் பிறழ்வுகள்
+	VR Color Gradients	VR நிறப் படித்திறன்கள்
+	VR De-Noise	VR இரைச்சல் குறைப்பு
+	VR Digital Glitch	VR டிஜிட்டல் கிளிட்ச்
+	VR Fractal Noise	VR ஃப்ராக்டல் இரைச்சல்
+	VR Glow	VR ஒளிர்வு
+	VR Gradient Wipe	VR நிறப் படித்திறன் துடைப்பழிவு
+	VR Iris Wipe	VR வட்டத் துடைப்பு காட்சி மாற்றம்
+	VR Light Leaks	VR ஒளிக் கசிவுகள்
+	VR Light Rays	VR ஒளிக் கதிர்கள்
+	VR Mobius Zoom	VR மோபியஸ் உருப்பெருக்கம்
+	VR Plane to Sphere	VR தளத்திலிருந்து கோளத்திற்கு
+	VR Projection	VR ப்ரொஜெக்ஷன்
+	VR Properties	VR பண்புகள்
+	VR Random Blocks	VR சீரற்ற பிளாக்குகள்
+	VR Rotate Sphere	VR கோளத்தைச் சுழற்று
+	VR Sharpen	VR கூர்மையாக்கு
+	VR Spherical Blur	VR கோள மங்கல்
+	Warm Film	வெதுவெதுப்பான ஃபிலிம்
+	Warm highlights, brown shadows	வெதுவெதுப்பான ஒளிர்வுகள், பழுப்பு நிழல்கள்
+	Warm Negative	வெதுவெதுப்பான நெகட்டிவ்
+	Warm print stock with gentle roll-off	மென்மையான ரோல்ஆஃப் கொண்ட வெதுவெதுப்பான பிரிண்ட் ஸ்டாக்
+	Warm Room	வெதுவெதுப்பான அறை
+	Warm Tint	வெதுவெதுப்பான சாயல்
+	Warm Voice	வெதுவெதுப்பான குரல்
+	Warm, soft late-afternoon light	மாலை நேரத்தின் வெதுவெதுப்பான, மென்மையான ஒளி
+	Warnings and Errors	எச்சரிக்கைகள் மற்றும் பிழைகள்
+	Warp Stabilizer	வளைவு நிலைப்படுத்தி
+	WAV, stereo 48 kHz 16-bit PCM	WAV, இருவழித் தடம், 48 kHz 16 பிட் PCM
+	WAV, stereo 48 kHz 24-bit PCM	WAV, இருவழித் தடம், 48 kHz 24 பிட் PCM
+	Wave Height	அலை உயரம்
+	Wave Speed	அலை வேகம்
+	Wave Warp	அலை வளைவு
+	Wave Width	அலை அகலம்
+	Waveform	அலைவடிவம்
+	Waveform (Luma)	அலைவடிவம் (லூமா)
+	Waveform (RGB)	அலைவடிவம் (RGB)
+	Waveform ({kind})	அலைவடிவம் ({kind})
+	Waveform Audio	Waveform Audio
+	Waveform Audio 48 kHz 16-bit	Waveform Audio 48 kHz 16 பிட்
+	Waveform Audio 48 kHz 24-bit	Waveform Audio 48 kHz 24 பிட்
+	Waveform Type	அலைவடிவ வகை
+	Wavelength	அலைநீளம்
+	Web & Social	இணையம் & சமூக ஊடகம்
+	WebVTT (.vtt)	WebVTT (.vtt)
+	Wet Out	வெட் அவுட்
+	When Opening a Project	திட்டத்தைத் திறக்கும்போது
+	Whip	கசையடி
+	Whip (Legacy)	கசையடி (பழைய பதிப்பு)
+	Whisper base (balanced)	Whisper base (சமநிலை)
+	Whisper small (most accurate)	Whisper small (மிகத் துல்லியம்)
+	Whisper tiny (fastest)	Whisper tiny (மிக வேகம்)
+	White Input Level	வெள்ளை உள்ளீட்டு நிலை
+	White/Black	வெள்ளை/கருப்பு
+	Wide gamut color (composite in BT.2020)	அகல கேமட் நிறம் (BT.2020 இல் கம்போசிட் செய்)
+	Wide Outdoor	அகலமான வெளிப்புறம்
+	Widener	அகலப்படுத்தி
+	Wiggle	அதிர்வு
+	Wipe	துடைப்பழிவு
+	Wipe Angle	துடைப்பழிவு கோணம்
+	with:	இதனுடன்:
+	Without keyframes	முக்கியச் சட்டகங்கள் இல்லாமல்
+	Wonder Glow	வொண்டர் ஒளிர்வு
+	Work Area	பணிப் பகுதி
+	Working Color Space	பணி நிற வெளி
+	Working Color Space:	பணி நிற வெளி:
+	Wrap Back	பின்னோக்கிச் சுற்று
+	Write	எழுது
+	Write Automation	தானியக்கத்தை எழுது
+	Write clip markers to XMP	துண்டுக் குறிப்பான்களை XMP இல் எழுது
+	Write keyframes	முக்கியச் சட்டகங்களை எழுது
+	Write the metadata of the selected clip(s) ({n}) to XMP files next to their media?	தேர்ந்தெடுத்த துண்டு(கள்) ({n}) மீதரவை அவற்றின் ஊடகத்திற்கு அருகிலுள்ள XMP கோப்புகளில் எழுதவா?
+	Write XMP ID to files on import	இறக்குமதியின்போது கோப்புகளில் XMP ஐடியை எழுது
+	Write-on	எழுதக்கூடிய
+	X Rotation	X சுழற்சி
+	Y Rotation	Y சுழற்சி
+	YC	YC
+	YC no Chroma	YC குரோமா இல்லாமல்
+	Yellow-green highlights and blue-lifted shadows from crossed channel curves	கடந்த சேனல் வளைவுகளால் மஞ்சள்-பச்சை ஒளிர்வுகளும் நீலம் நோக்கி உயர்த்தப்பட்ட நிழல்களும்
+	YouTube 1080p Full HD	YouTube 1080p Full HD
+	YouTube 2160p 4K Ultra HD	YouTube 2160p 4K Ultra HD
+	YUV	YUV
+	Z Position	Z நிலை
+	Z Rotation	Z சுழற்சி
+	ZIP (1 scan line)	ZIP (1 வருடல் கோடு)
+	ZIP (16 scan lines)	ZIP (16 வருடல் கோடுகள்)
+	Zoom Amount	உருப்பெருக்க அளவு
+	Zoom Blur	உருப்பெருக்க மங்கல்
+	Zoom Program Monitor to 100%	நிரல் திரையை 100% ஆகப் பெரிதாக்கு
+	Zoom Program Monitor to Fit	நிரல் திரையைப் பொருத்தமாக்கு
+	Zoom Source Monitor to 100%	மூல திரையை 100% ஆகப் பெரிதாக்கு
+	Zoom Source Monitor to Fit	மூல திரையைப் பொருத்தமாக்கு
+	Zoom Strength	உருப்பெருக்க வலிமை
+	Zoom to Sequence	வரிசைத் தொகுப்புக்கு ஜூம் செய்
+	{active} (modified)	{active} (மாற்றப்பட்டது)
+	{category} · My Template	{category} · எனது வார்ப்புரு
+	{codec} · {rate} Hz · {n} channel(s)	{codec} · {rate} Hz · {n} சேனல்(கள்)
+	{first} - Merged	{first} - ஒன்றிணைக்கப்பட்டது
+	{first} Multicam	{first} மல்டிகேம்
+	{fps} fps · {n} frames queued	{fps} fps · {n} சட்டகங்கள் வரிசையில்
+	{f} (missing)	{f} (காணவில்லை)
+	{key} can't be used as a shortcut	{key} ஐக் குறுக்குவழியாகப் பயன்படுத்த முடியாது
+	{mode} · no clip	{mode} · துண்டு இல்லை
+	{mode} · no sequence	{mode} · வரிசைத் தொகுப்பு இல்லை
+	{name} (copy)	{name} (நகல்)
+	{name} (Modified)	{name} (மாற்றப்பட்டது)
+	{name} (Simplified)	{name} (எளிமைப்படுத்தப்பட்டது)
+	{name} (user)	{name} (பயனர்)
+	{name} - Edited	{name} - திருத்தப்பட்டது
+	{name} Selection.fcproj	{name} தேர்வு.fcproj
+	{n} clip(s) can't find their media. Locate them, search a folder, or leave them offline.	{n} துண்டு(கள்) தங்கள் ஊடகத்தைக் கண்டறிய முடியவில்லை. அவற்றைக் கண்டறியவும், கோப்புறையில் தேடவும், அல்லது இணைப்பின்றி விடவும்.
+	{n} clip(s) selected.	{n} துண்டு(கள்) தேர்ந்தெடுக்கப்பட்டன.
+	{n} clip(s) selected; the clip on the reference track stays put.	{n} துண்டு(கள்) தேர்ந்தெடுக்கப்பட்டன; குறிப்பு டிராக்கிலுள்ள துண்டு இடத்திலேயே இருக்கும்.
+	{n} clip(s): {names}	{n} துண்டு(கள்): {names}
+	{n} Color	{n} நிறம்
+	{n} editable properties	{n} திருத்தக்கூடிய பண்புகள்
+	{n} Font	{n} எழுத்துரு
+	{n} items	{n} உருப்படிகள்
+	{n} Position	{n} நிலை
+	{n} s ago	{n} வி முன்பு
+	{n} sessions have unsaved changes:	{n} அமர்வுகளில் சேமிக்காத மாற்றங்கள் உள்ளன:
+	{n} Size	{n} அளவு
+	{n}. (empty)	{n}. (காலி)
+	{panel} Panel	{panel} பலகம்
+	{panel} — coming in a later milestone	{panel}: பிந்தைய வெளியீட்டில் வரும்
+	{rate} fps Drop-Frame Timecode	{rate} fps தவிர்க்கப்பட்ட-சட்டகம் காலக்குறியீடு
+	{rate} fps Non Drop-Frame Timecode	{rate} fps தவிர்க்கப்படாத-சட்டகம் காலக்குறியீடு
+	{rate} fps Timecode	{rate} fps காலக்குறியீடு
+	{rate} frames/second	{rate} சட்டகங்கள்/வினாடி
+	{sel} of {total} items selected	{total} உருப்படிகளில் {sel} தேர்ந்தெடுக்கப்பட்டன
+	{tc}  Chapter	{tc}  அத்தியாயம்
+	{total} items	{total} உருப்படிகள்
+	✓ Enable	✓ இயக்கு
+	✔ matches	✔ பொருந்துகிறது
+	✔ same file	✔ அதே கோப்பு
+	✖ different file	✖ வேறு கோப்பு

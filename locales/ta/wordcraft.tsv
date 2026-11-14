@@ -1,0 +1,2755 @@
+# Tamil (ta) interface catalog for WordCraft.
+# Columns, separated by a TAB:  context <TAB> English source text <TAB> translation
+#   context  usually empty. `@plural`, `@id` and `@msg` mean something to the apps; any other
+#            word is a label that tells apart two meanings of the same English.
+#   escapes  \n  \t  \\  inside a column. `{name}` placeholders must appear in both columns (in any
+#            order), and a trailing "…" in one needs one in the other.
+#   @plural  English `one|other`; the translation lists this language's plural forms, `|`-separated.
+#   Lines starting with # and blank lines are ignored. A missing entry shows in English.
+#
+# Clean room: every entry was written from the plain meaning of the English text in ordinary
+# computing vocabulary. No other product's localisation, string table or translated UI was
+# consulted or copied; add entries the same way.
+
+	(All)	(அனைத்தும்)
+	(no style)	(பாணி இல்லை)
+	(no suggestions)	(பரிந்துரைகள் இல்லை)
+	(normal text)	(இயல்பான உரை)
+	(not matched)	(பொருத்தப்படவில்லை)
+	(picture or object)	(படம் அல்லது பொருள்)
+	*Bold* and _italic_ as real formatting	*தடித்த*, _சாய்வு_ ஆகியவற்றை உண்மையான வடிவமைப்பாக
+	0 or More Characters	0 அல்லது அதற்கு மேற்பட்ட எழுத்துகள்
+	1. Formatting restrictions	1. வடிவமைப்புக் கட்டுப்பாடுகள்
+	1.5 Line Spacing	1.5 வரி இடைவெளி
+	1/4 Em Space	1/4 எம் இடைவெளி
+	1×2 Empty Matrix	1×2 வெற்று அணி
+	1×3 Empty Matrix	1×3 வெற்று அணி
+	2. Editing restrictions	2. திருத்தக் கட்டுப்பாடுகள்
+	2×1 Empty Matrix	2×1 வெற்று அணி
+	2×2 Determinant	2×2 அணிக்கோவை
+	2×2 Empty Matrix	2×2 வெற்று அணி
+	2×2 Identity Matrix	2×2 அலகு அணி
+	2×2 Identity Matrix (sparse)	2×2 அலகு அணி (ஐதான)
+	2×2 Matrix in Brackets	சதுர அடைப்புக்குறிகளில் 2×2 அணி
+	2×2 Matrix in Double Bars	இரட்டைப் பட்டைகளில் 2×2 அணி
+	2×2 Matrix in Parentheses	பிறை அடைப்புக்குறிகளில் 2×2 அணி
+	2×3 Empty Matrix	2×3 வெற்று அணி
+	3-D	முப்பரிமாணம்
+	3. Start enforcement	3. செயல்படுத்தத் தொடங்கு
+	3×1 Empty Matrix	3×1 வெற்று அணி
+	3×2 Empty Matrix	3×2 வெற்று அணி
+	3×3 Empty Matrix	3×3 வெற்று அணி
+	3×3 Identity Matrix	3×3 அலகு அணி
+	3×3 Identity Matrix (sparse)	3×3 அலகு அணி (ஐதான)
+	<< Less	<< குறைவாக
+	<< Remove	<< அகற்று
+	a drawing canvas can't be ungrouped	வரைதல் தளத்தின் குழுவைப் பிரிக்க முடியாது
+	a drawing canvas can't go inside a text box	வரைதல் தளத்தை உரைப் பெட்டிக்குள் வைக்க முடியாது
+	A file dialog is already open.	ஒரு கோப்பு உரையாடல் பெட்டி ஏற்கனவே திறந்துள்ளது.
+	A free, open-source word processor written from scratch in Rust.\nPart of the Crafting Apps from the ArtCraft team.	Rust மொழியில் அடியிலிருந்து எழுதப்பட்ட, இலவச, திறந்த மூலச் சொல் செயலி.\nArtCraft குழுவின் Crafting Apps தொகுப்பின் ஒரு பகுதி.
+	a group holding Word ink can't be ungrouped yet	Word மையைக் கொண்ட குழுவை இப்போதைக்குப் பிரிக்க முடியாது
+	A mail merge field	அஞ்சல் ஒன்றிணைப்புப் புலம்
+	A numbered sequence (figures, tables…)	எண்ணிட்ட வரிசைத் தொகுப்பு (படங்கள், அட்டவணைகள்…)
+	A password is required to open this document.	இந்த ஆவணத்தைத் திறக்கக் கடவுச்சொல் தேவை.
+	A table of contents	உள்ளடக்க அட்டவணை
+#	A xor B	
+#	A, B, C, …	
+#	a, b, c, …	
+	AaBbCcDd	அஆஇஈஉஊ
+	AaBbYyZz	அஆஇஈஉஊ
+	About WordCraft	WordCraft பற்றி
+	Above Chart	விளக்கப்படத்துக்கு மேலே
+	Above the item	உருப்படிக்கு மேலே
+	Above/below	மேலே/கீழே
+	Absolute value cases	தனிமதிப்பு வகைகள்
+	Accent	உச்சரிப்புக்குறி
+	Accent Gradient	அழுத்த நிறப் படித்திறன்
+	Accent with Reflection	அழுத்த நிறம், பிரதிபலிப்புடன்
+	Accent {n}	அழுத்த நிறம் {n}
+	Accents	உச்சரிப்புக்குறிகள்
+	Accept	ஏற்றுக்கொள்
+	Accept All Changes	அனைத்து மாற்றங்களையும் ஏற்றுக்கொள்
+	Accept All Changes and Stop Tracking	அனைத்து மாற்றங்களையும் ஏற்றுக்கொண்டு கண்காணிப்பை நிறுத்து
+	Accept and Move to Next	ஏற்றுக்கொண்டு அடுத்ததற்குச் செல்
+	Accept This Change	இந்த மாற்றத்தை ஏற்றுக்கொள்
+	Accessed on	அணுகிய நாள்
+	Accessibility Pane	அணுகல்தன்மைப் பலகம்
+	Account	கணக்கு
+	Acute	ஏறு சாய்வுக்குறி
+	Add >>	சேர் >>
+	Add a language	ஒரு மொழியைச் சேர்
+	Add a language…	ஒரு மொழியைச் சேர்…
+	Add a period with double-space	இரட்டை இடைவெளி இட்டால் முற்றுப்புள்ளி சேர்
+	Add a Table	அட்டவணையைச் சேர்
+	Add at least one field.	குறைந்தது ஒரு புலத்தையாவது சேர்க்கவும்.
+	Add Chart Element	விளக்கப்பட உறுப்பைச் சேர்
+	Add Condition	நிபந்தனையைச் சேர்
+	Add Field	புலத்தைச் சேர்
+	Add Font…	எழுத்துருவைச் சேர்…
+	Add gradient stop	நிறப் படித்திறன் நிறுத்தத்தைச் சேர்
+	Add line numbering	வரி எண்ணிடலைச் சேர்
+	Add New Source…	புதிய மூலத்தைச் சேர்…
+	Add Object to Selection	பொருளைத் தேர்வில் சேர்
+	Add Pen	பேனாவைச் சேர்
+	Add Row	வரிசையைச் சேர்
+	Add Series	தொடரைச் சேர்
+	Add Shape	வடிவத்தைச் சேர்
+	Add Space Before Paragraph	பத்திக்கு முன் இடைவெளி சேர்
+	Add space between Asian and Latin text	ஆசிய உரைக்கும் லத்தீன் உரைக்கும் இடையே இடைவெளி சேர்
+	Add space between Asian text and numbers	ஆசிய உரைக்கும் எண்களுக்கும் இடையே இடைவெளி சேர்
+	Add tab stop at:	தாவல் நிறுத்தம் சேர்க்கும் இடம்:
+	Add Text	உரையைச் சேர்
+	Add the chapter number	அத்தியாய எண்ணைச் சேர்
+	Add to AutoCorrect	தானியங்கித் திருத்தத்தில் சேர்
+	Add to Document	ஆவணத்தில் சேர்
+	Add to Quick Access Toolbar	விரைவு அணுகல் கருவிப்பட்டியில் சேர்
+	Add to Style Gallery	பாணிக் காட்சியகத்தில் சேர்
+	Add whether it is above or below	மேலே உள்ளதா கீழே உள்ளதா என்பதையும் சேர்
+	Add/Edit\nBibliography	நூற்பட்டியலைச்\nசேர்/திருத்து
+	Add/Edit\nCitation	மூலக்குறிப்பைச்\nசேர்/திருத்து
+	Add\nNote	குறிப்பைச்\nசேர்
+	Add\nPen	பேனாவைச்\nசேர்
+	Add\nShape	வடிவத்தைச்\nசேர்
+	Added 1 font	1 எழுத்துரு சேர்க்கப்பட்டது
+	Added Fonts	சேர்க்கப்பட்ட எழுத்துருக்கள்
+	Added {n} fonts	{n} எழுத்துருக்கள் சேர்க்கப்பட்டன
+	Address	முகவரி
+	Address Block	முகவரித் தொகுதி
+	Address labels	முகவரிச் சீட்டுகள்
+	Address:	முகவரி:
+	Address\nBlock	முகவரித்\nதொகுதி
+	Advanced Find	மேம்பட்ட கண்டறிதல்
+	Advanced Find…	மேம்பட்ட கண்டறிதல்…
+	Advanced Properties…	மேம்பட்ட பண்புகள்…
+	Afrikaans	ஆஃப்ரிகான்ஸ்
+	After:	பின்:
+	Agents	முகவர்கள்
+	Agents connected to WordCraft can show you messages through the Assistant. Muted, they're told you'd rather not.	WordCraft உடன் இணைக்கப்பட்ட முகவர்கள் உதவியாளர் வழியாக உங்களுக்குச் செய்திகளைக் காட்டலாம். ஒலியடக்கப்பட்டால், நீங்கள் அதை விரும்பவில்லை என்று அவற்றுக்குத் தெரிவிக்கப்படும்.
+	Ah, Latin. The language of deadlines.	ஆ, லத்தீன். இறந்த மொழி; காலக்கெடுக்களின் தாய்மொழி.
+	Ah, the editing phase. My favourite. Very decisive.	ஆ, திருத்தும் கட்டம். எனக்கு மிகவும் பிடித்தது. ரொம்பத் தீர்க்கமானது.
+	Albanian	அல்பேனியன்
+	Align Bottom Center	கீழே மையத்தில் சீரமை
+	Align Bottom Left	கீழே இடதுபுறம் சீரமை
+	Align Bottom Right	கீழே வலதுபுறம் சீரமை
+	Align Center	மையத்தில் சீரமை
+	Align Center Left	நடுவில் இடதுபுறம் சீரமை
+	Align Center Right	நடுவில் வலதுபுறம் சீரமை
+	Align Top Center	மேலே மையத்தில் சீரமை
+	Align Top Left	மேலே இடதுபுறம் சீரமை
+	Align Top Right	மேலே வலதுபுறம் சீரமை
+	Aligned at:	சீரமைக்கும் இடம்:
+	All - Linear	அனைத்தும் - நேரியல்
+	All - Professional	அனைத்தும் - தொழில்முறை
+	All Borders	அனைத்து எல்லைகள்
+	All caps	அனைத்தும் பெரிய எழுத்துகள்
+	All Commands	அனைத்துக் கட்டளைகளும்
+	All documents based on the Normal template?	இயல்பான வார்ப்புருவை அடிப்படையாகக் கொண்ட அனைத்து ஆவணங்களுக்குமா?
+	All Fonts	அனைத்து எழுத்துருக்களும்
+	All Levels	அனைத்து மட்டங்களும்
+	All Markup	அனைத்துக் குறியீடுகளும்
+	All pages in the range	வரம்பிலுள்ள அனைத்துப் பக்கங்களும்
+	All symbol sets	அனைத்துக் குறியீட்டுத் தொகுப்புகளும்
+	All system fonts are already available.	அனைத்துக் கணினி எழுத்துருக்களும் ஏற்கனவே கிடைக்கின்றன.
+	Allow hanging punctuation	தொங்கும் நிறுத்தற்குறிகளை அனுமதி
+	Allow Latin text to wrap in the middle of a word	லத்தீன் உரை ஒரு சொல்லின் நடுவில் அடுத்த வரிக்குச் செல்ல அனுமதி
+	Allow line breaks	வரி முறிவுகளை அனுமதி
+	Allow row to break across pages	வரிசை பக்கங்களுக்கு இடையே பிரிய அனுமதி
+	Alphabetical	அகர வரிசைப்படி
+	Alt Text	மாற்று உரை
+	Alt text	மாற்று உரை
+	Alt Text Pane	மாற்று உரைப் பலகம்
+	Alt:	Alt:
+	Alt\nText	மாற்று\nஉரை
+	an agent	ஒரு முகவர்
+	An installed Language pack is used after this folder.	நிறுவப்பட்ட மொழித் தொகுப்பு இந்தக் கோப்புறைக்குப் பிறகு பயன்படுத்தப்படும்.
+	And	மற்றும்
+	Angle Brackets	கோண அடைப்புக்குறிகள்
+	Angle Brackets with Separator	பிரிப்பானுடன் கோண அடைப்புக்குறிகள்
+	Angle Brackets with Two Separators	இரண்டு பிரிப்பான்களுடன் கோண அடைப்புக்குறிகள்
+	Angola	அங்கோலா
+	Animate the caret (it glides and fades)	கர்சரை அசைவூட்டு (அது சறுக்கிச் செல்லும், மெல்ல மங்கும்)
+	Animation effects:	அசைவூட்ட விளைவுகள்:
+	Annotation Reference	குறிப்புரைச் சுட்டுக்குறி
+	Annotation Subject	குறிப்புரைப் பொருள்
+	Annotation Text	குறிப்புரை உரை
+	Annoying	எரிச்சலூட்டும் அளவுக்கு
+	Another file	வேறொரு கோப்பு
+	Any Character	ஏதேனும் ஓர் எழுத்து
+	Any Digit	ஏதேனும் ஓர் இலக்கம்
+	Any field	ஏதேனும் புலம்
+	Any Letter	ஏதேனும் ஓர் அகரவரிசை எழுத்து
+	Anyone can open this document. Encrypt it with a password to keep it private.	இந்த ஆவணத்தை யார் வேண்டுமானாலும் திறக்கலாம். இதைத் தனிப்பட்டதாக வைத்திருக்க, கடவுச்சொல் மூலம் குறியாக்கவும்.
+	Anyone who opens the document will need this password.	ஆவணத்தைத் திறக்கும் எவருக்கும் இந்தக் கடவுச்சொல் தேவைப்படும்.
+#	APA	
+	Apply as you type	தட்டச்சு செய்யும்போதே பயன்படுத்து
+	Apply Asian line-breaking rules (kinsoku)	ஆசிய வரி முறிப்பு விதிகளைப் பயன்படுத்து (kinsoku)
+	Apply formatting to:	வடிவமைப்பைப் பயன்படுத்த வேண்டிய பகுதி:
+	Apply Style	பாணியைப் பயன்படுத்து
+	Apply Styles	பாணிகளைப் பயன்படுத்து
+	Arabic	அரபு
+numerals	Arabic	அரபு
+	Arch Down	கீழ்நோக்கிய வில்வளைவு
+	Arch Up	மேல்நோக்கிய வில்வளைவு
+	Argentina	அர்ஜென்டினா
+	Armenian	ஆர்மேனியன்
+	Arrange\nAll	அனைத்தையும்\nஒழுங்கமை
+	Article I.	உறுப்புரை I.
+	Artistic Effects	கலைநய விளைவுகள்
+	As Recommended	பரிந்துரைத்தபடி
+	As you type	நீங்கள் தட்டச்சு செய்யும்போது
+	ASAP	கூடிய விரைவில்
+	Asian text font:	ஆசிய உரை எழுத்துரு:
+	Asian Typography	ஆசிய அச்சுக்கலை
+	Assistant	உதவியாளர்
+	Assistant Suggestions	உதவியாளர் பரிந்துரைகள்
+	At least	குறைந்தபட்சம்
+	At least {n}	குறைந்தது {n}
+	Atelier	கலைப் பட்டறை
+	Atmosphere	வளிமண்டலம்
+	Attach Template	வார்ப்புருவை இணை
+	Attach…	இணை…
+	Australia	ஆஸ்திரேலியா
+	Austria	ஆஸ்திரியா
+	Auto orientation	தானியங்கித் திசையமைவு
+	AutoCorrect	தானியங்கித் திருத்தம்
+	AutoCorrect Options	தானியங்கித் திருத்த விருப்பங்கள்
+	AutoCorrect Options…	தானியங்கித் திருத்த விருப்பங்கள்…
+	AutoFit	தானியங்கிப் பொருத்தம்
+	AutoFit behavior	தானியங்கிப் பொருத்த முறை
+	AutoFit Column by Double-Clicking	இருமுறை சொடுக்கி நெடுவரிசையைத் தானாகப் பொருத்து
+	AutoFit Contents	உள்ளடக்கத்துக்குத் தானாகப் பொருத்து
+	AutoFit to contents	உள்ளடக்கத்துக்கு ஏற்பத் தானாகப் பொருத்து
+	AutoFit to window	சாளரத்துக்கு ஏற்பத் தானாகப் பொருத்து
+	AutoFit Window	சாளரத்துக்குத் தானாகப் பொருத்து
+	AutoFormat As You Type	தட்டச்சு செய்யும்போதே தானியங்கி வடிவமைப்பு
+	Automatic ({language})	தானியங்கி ({language})
+	Automatic ({region})	தானியங்கி ({region})
+	Automatic bulleted lists	தானியங்கிப் புள்ளிப் பட்டியல்கள்
+	Automatic follows your system's language. Menus and commands change; your documents don't.	தானியங்கி என்பது உங்கள் கணினியின் மொழியைப் பின்பற்றும். மெனுக்களும் கட்டளைகளும் மாறும்; உங்கள் ஆவணங்கள் மாறாது.
+	Automatic numbered lists	தானியங்கி எண்ணிட்ட பட்டியல்கள்
+	Automatic Table 1 (3 levels)	தானியங்கி அட்டவணை 1 (3 மட்டங்கள்)
+	Automatic Table 2 (2 levels)	தானியங்கி அட்டவணை 2 (2 மட்டங்கள்)
+	Automatically add words to list (First Letter)	பட்டியலில் சொற்களைத் தானாகச் சேர் (முதல் எழுத்து)
+	Automatically add words to list (INitial CAps)	பட்டியலில் சொற்களைத் தானாகச் சேர் (தொடக்க இரு பெரிய எழுத்துகள்)
+	Automatically hyphenate document	ஆவணத்தைத் தானாகச் சொற்பிரிப்பு செய்
+	Automatically Update Document Styles	ஆவணப் பாணிகளைத் தானாகப் புதுப்பி
+	Automatically update document styles	ஆவணப் பாணிகளைத் தானாகப் புதுப்பி
+	AutoSave documents you have saved in WordCraft	WordCraft-இல் நீங்கள் சேமித்த ஆவணங்களுக்குத் தானியங்கிச் சேமிப்பு
+	AutoSave failed: {error}. Save the document to turn AutoSave back on.	தானியங்கிச் சேமிப்பு தோல்வியடைந்தது: {error}. தானியங்கிச் சேமிப்பை மீண்டும் இயக்க, ஆவணத்தைச் சேமிக்கவும்.
+	AutoSave isn't available in the browser: it can't write to your files. Save downloads a copy.	உலாவியில் தானியங்கிச் சேமிப்பு கிடைக்காது: அதனால் உங்கள் கோப்புகளில் எழுத முடியாது. சேமி கட்டளை ஒரு நகலைப் பதிவிறக்கும்.
+	AutoSave only keeps .docx, .odt and .rtf files; {name} can't keep all formatting. Save as .docx to turn on AutoSave.	தானியங்கிச் சேமிப்பு .docx, .odt மற்றும் .rtf கோப்புகளை மட்டுமே சேமிக்கும்; {name} எல்லா வடிவமைப்பையும் தக்கவைக்க முடியாது. தானியங்கிச் சேமிப்பை இயக்க .docx ஆகச் சேமிக்கவும்.
+	AutoSave saves every change to the file (needs a saved document)	தானியங்கிச் சேமிப்பு ஒவ்வொரு மாற்றத்தையும் கோப்பில் சேமிக்கும் (சேமிக்கப்பட்ட ஆவணம் தேவை)
+	AutoSave writes your changes to the file a moment after you stop typing.	நீங்கள் தட்டச்சு செய்வதை நிறுத்திய சிறிது நேரத்தில், தானியங்கிச் சேமிப்பு உங்கள் மாற்றங்களைக் கோப்பில் எழுதும்.
+	AutoText	தானியங்கி உரை
+#	B4 (JIS)   10.12" × 14.33"	
+#	B5 (JIS)   7.17" × 10.12"	
+	Balloons	குமிழ்கள்
+	Banded Columns	பட்டையிட்ட நெடுவரிசைகள்
+	Banded Rows	பட்டையிட்ட வரிசைகள்
+	Base text:	அடிப்படை உரை:
+	Based on: {style}	இதன் அடிப்படையில்: {style}
+	Baseline Dots	அடிப்படைக் கோட்டுப் புள்ளிகள்
+	Basic Cycle	அடிப்படைச் சுழற்சி
+	Basic List	அடிப்படைப் பட்டியல்
+	Basic Math	அடிப்படைக் கணிதம்
+	Basic Matrix	அடிப்படை அணி
+	Basic Process	அடிப்படைச் செயல்முறை
+	Basic Pyramid	அடிப்படைப் பிரமிடு
+	Basic Radial	அடிப்படை ஆரவடிவம்
+	Basic Venn	அடிப்படை வென்
+	Bayes' rule	பேய்ஸ் விதி
+	Before:	முன்:
+	Beginning of Word	சொல்லின் தொடக்கம்
+	Behind Text	உரைக்குப் பின்னால்
+	Belarus	பெலாரஸ்
+	Belarusian	பெலாருசியன்
+	Belgium	பெல்ஜியம்
+	Below text	உரைக்குக் கீழே
+	Below the item	உருப்படிக்குக் கீழே
+	Between	இடையில்
+	Bibliography	நூற்பட்டியல்
+	Binomial Coefficient	ஈருறுப்புக் கெழு
+	Binomial Coefficient (angle)	ஈருறுப்புக் கெழு (கோண அடைப்பு)
+	Binomial Coefficient with Angle Brackets	கோண அடைப்புக்குறிகளுடன் ஈருறுப்புக் கெழு
+	Binomial expansion of (x+a)ⁿ	(x+a)ⁿ-இன் ஈருறுப்பு விரிவு
+	Blank	வெற்று
+	Blank (Three Columns)	வெற்று (மூன்று நெடுவரிசைகள்)
+	Blank document	வெற்று ஆவணம்
+	Blank Page	வெற்றுப் பக்கம்
+	Block\nAuthors	ஆசிரியர்களைத்\nதடு
+	Blue:	நீலம்:
+	Body Text	முதன்மை உரை
+	Body text in a short paragraph to show spacing.	இடைவெளியைக் காட்டுவதற்காக ஒரு சிறு பத்தியில் உள்ள உரை.
+	Bold choice. Ctrl+Z is right there if you need it.	துணிச்சலான தேர்வு. தேவைப்பட்டால் Ctrl+Z இங்கேயே இருக்கிறது.
+	Bolivia	பொலிவியா
+	Book	நூல்
+	Book Title	நூல் தலைப்பு
+	Book title	நூலின் தலைப்பு
+	Bookmark	புத்தகக்குறி
+	Bookmark name:	புத்தகக்குறியின் பெயர்:
+	Bookmark text	புத்தகக்குறி உரை
+	Bookmarks	புத்தகக்குறிகள்
+	Border lines	எல்லைக் கோடுகள்
+	Border Painter	எல்லை தீட்டி
+	Border\nPainter	எல்லை\nதீட்டி
+	Borders and Shading	எல்லைகள் மற்றும் நிழலிடல்
+	Borders and Shading…	எல்லைகளும் நிழலிடலும்…
+	Bosnia and Herzegovina	போஸ்னியா மற்றும் ஹெர்சகோவினா
+	Bosnian	போஸ்னியன்
+	Both Sides	இரு பக்கங்களும்
+	Bottom Border	கீழ் எல்லை
+	Bottom Left Cell	கீழ் இடது கலம்
+	Bottom Margin	கீழ் ஓரம்
+	Bottom of Page	பக்கத்தின் அடியில்
+	Bottom Right Cell	கீழ் வலது கலம்
+	Box	பெட்டி
+	Boxed Formula	பெட்டியிட்ட சூத்திரம்
+	Boxed Formula (example)	பெட்டியிட்ட சூத்திரம் (எடுத்துக்காட்டு)
+	Boxed Formulas	பெட்டியிட்ட சூத்திரங்கள்
+	Braces	நெளி அடைப்புக்குறிகள்
+	Braces with Separator	பிரிப்பானுடன் நெளி அடைப்புக்குறிகள்
+	Bracket	அடைப்புக்குறி
+	Brackets	அடைப்புக்குறிகள்
+	Brackets with Separators	பிரிப்பான்களுடன் அடைப்புக்குறிகள்
+	Brazil	பிரேசில்
+	Breaks	முறிவுகள்
+	Breve	அரைவட்டக்குறி
+	Bright Green	பளிச்சிடும் பச்சை
+	Brighter +20%	பிரகாசம் கூடுதல் +20%
+	Brightness, contrast and sharpness	பிரகாசம், மாறுபாடு மற்றும் கூர்மை
+	Browse in WordCraft…	WordCraft இல் உலாவு…
+	Building Block Gallery Content Control	கட்டுமானத் தொகுதிக் காட்சியக உள்ளடக்கக் கட்டுப்பாடு
+	Built in	உள்ளமைந்தது
+	Built-In	உள்ளமைந்தவை
+	Built-in Heading styles	உள்ளமைந்த தலைப்புப் பாணிகள்
+	Built-in style	உள்ளமைந்த பாணி
+	Built-in styles can't be deleted.	உள்ளமைந்த பாணிகளை நீக்க முடியாது.
+	Bulgarian	பல்கேரியன்
+	Bullet Library	புள்ளி நூலகம்
+	Bullets	புள்ளிகள்
+	By author	ஆசிரியர் வாரியாக
+	Cabo Verde	கபோ வெர்டே
+	Calendar	நாட்காட்டி
+	Can't be deleted	நீக்க முடியாது
+	Can't find a command? Press Alt+Q and type what you want to do.	கட்டளையைக் கண்டறிய முடியவில்லையா? Alt+Q ஐ அழுத்தி, நீங்கள் செய்ய விரும்புவதைத் தட்டச்சு செய்யவும்.
+	Can't find a command? Press {key} and type what you want to do.	கட்டளையைக் கண்டறிய முடியவில்லையா? {key} ஐ அழுத்தி, நீங்கள் செய்ய விரும்புவதைத் தட்டச்சு செய்யவும்.
+	can't split at the first row	முதல் வரிசையில் பிரிக்க முடியாது
+	Canada	கனடா
+	Canvas Member	வரைதல் தள உறுப்பு
+	Capitalize Each Word	ஒவ்வொரு சொல்லின் முதலெழுத்தையும் பெரிய எழுத்தாக்கு
+	Capitalize first letter of sentences	வாக்கியங்களின் முதல் எழுத்தைப் பெரிய எழுத்தாக்கு
+	Capitalize first letter of table cells	அட்டவணைக் கலங்களின் முதல் எழுத்தைப் பெரிய எழுத்தாக்கு
+	Capitalize names of days	கிழமைகளின் பெயர்களைப் பெரிய எழுத்தில் தொடங்கு
+	Capitalize the first word of a sentence	வாக்கியத்தின் முதல் சொல்லைப் பெரிய எழுத்தில் தொடங்கு
+	Caption Numbering	படவிளக்க எண்ணிடல்
+	Caption text	படவிளக்க உரை
+	Caption:	படவிளக்கம்:
+	Captions	வசனங்கள்
+	Careful, any further back and we'll undo the invention of paper.	கவனம், இன்னும் கொஞ்சம் பின்னால் போனால் காகிதத்தின் கண்டுபிடிப்பையே செயல்தவிர்த்துவிடுவோம்.
+	Caret Character	தொப்பிக்குறி எழுத்து
+	Case changes	பெரிய/சிறிய எழுத்து மாற்றங்கள்
+	Cases (Three Conditions)	வகைகள் (மூன்று நிபந்தனைகள்)
+	Cases (Two Conditions)	வகைகள் (இரண்டு நிபந்தனைகள்)
+	Cases and Stacks	வகைகளும் அடுக்குகளும்
+	Catalan	கேட்டலான்
+	Catalan (Valencian)	கேட்டலான் (வலென்சியன்)
+	Categories	வகைகள்
+	Categories:	வகைகள்:
+	Category {n}	வகை {n}
+	Ceiling	மேல்மட்டம்
+	Cell	கலம்
+	Cell Margins	கல ஓரங்கள்
+	Cell\nMargins	கல\nஓரங்கள்
+	Center Glow	மைய ஒளிர்வு
+	Centered as Group	குழுவாக மையப்படுத்தியது
+	Change Chart Type	விளக்கப்பட வகையை மாற்று
+	Change Colors	நிறங்களை மாற்று
+	Change in y over change in x	x-இன் மாற்றத்தால் வகுத்த y-இன் மாற்றம்
+	Change Layout	அமைப்பை மாற்று
+	Change List Level	பட்டியல் மட்டத்தை மாற்று
+	Change Password…	கடவுச்சொல்லை மாற்று…
+	Change Picture	படத்தை மாற்று
+	Change Picture…	படத்தை மாற்று…
+	Change Shape	வடிவத்தை மாற்று
+	Change Structure	கட்டமைப்பை மாற்று
+	Change to Display	தனி வரி வடிவத்துக்கு மாற்று
+	Change to Inline	வரிக்குள் என மாற்று
+	Change to Level 1	மட்டம் 1 ஆக மாற்று
+	Change to Level 2	மட்டம் 2 ஆக மாற்று
+	Change to Level 3	மட்டம் 3 ஆக மாற்று
+	Change to Level 4	மட்டம் 4 ஆக மாற்று
+	Change to Level 5	மட்டம் 5 ஆக மாற்று
+	Change to Level 6	மட்டம் 6 ஆக மாற்று
+	Change to Level 7	மட்டம் 7 ஆக மாற்று
+	Change to Level 8	மட்டம் 8 ஆக மாற்று
+	Change to Level 9	மட்டம் 9 ஆக மாற்று
+	Change to:	இதற்கு மாற்று:
+	Change\nChart Type	விளக்கப்பட\nவகையை மாற்று
+	Change\nColors	நிறங்களை\nமாற்று
+	Changed lines:	மாற்றப்பட்ட வரிகள்:
+	Changes	மாற்றங்கள்
+	Change…	மாற்று…
+	Chapter 1	அத்தியாயம் 1
+	Chapter in a book	நூலில் உள்ள அத்தியாயம்
+	Chapters begin at:	அத்தியாயங்கள் தொடங்குவது:
+	Character Border	எழுத்து எல்லை
+	Character code:	எழுத்துக் குறியீடு:
+	Character in Range	வரம்பிலுள்ள எழுத்து
+	Character level	எழுத்து நிலை
+	Character Position	எழுத்து நிலை
+	Character Scale	எழுத்து அளவுவிகிதம்
+	Character Shading	எழுத்து நிழலிடல்
+	Character Spacing	எழுத்து இடைவெளி
+	Character spacing	எழுத்து இடைவெளி
+	Character style	எழுத்துப் பாணி
+	Characters (no spaces)	எழுத்துகள் (இடைவெளிகள் இல்லாமல்)
+	Characters (with spaces)	எழுத்துகள் (இடைவெளிகளுடன்)
+	Characters per line:	ஒரு வரிக்கு எழுத்துகள்:
+	Chart	விளக்கப்படம்
+	Chart Design	விளக்கப்பட வடிவமைப்பு
+	Chart Layouts	விளக்கப்பட அமைப்புகள்
+	Chart Title	விளக்கப்படத் தலைப்பு
+	charts and diagrams can't be moved or resized yet	விளக்கப்படங்களையும் வரைபடங்களையும் இப்போதைக்கு நகர்த்தவோ அளவை மாற்றவோ முடியாது
+	Check	சரிக்குறி
+	Check Accessibility	அணுகல்தன்மையைச் சரிபார்
+	Check Box Content Control	தேர்வுப்பெட்டி உள்ளடக்கக் கட்டுப்பாடு
+	Check Compatibility	இணக்கத்தன்மையைச் சரிபார்
+	Check for Errors	பிழைகளைச் சரிபார்
+	Check for\nUpdates…	புதுப்பிப்புகளைச்\nசரிபார்…
+	Check Spelling as You Type	தட்டச்சிடும்போதே எழுத்துக்கூட்டலைச் சரிபார்
+	Check spelling as you type	தட்டச்சு செய்யும்போதே எழுத்துக்கூட்டலைச் சரிபார்
+	Check\nAccessibility	அணுகல்தன்மையைச்\nசரிபார்
+	Checked styles are allowed:	குறியிடப்பட்ட பாணிகள் அனுமதிக்கப்படும்:
+	Checked symbol	குறியிட்ட நிலைக் குறியீடு
+	Checking for updates…	புதுப்பிப்புகளைத் தேடுகிறது…
+	Chevron Down	கீழ்நோக்கிய அம்புக்குறி வடிவம்
+	Chevron Up	மேல்நோக்கிய அம்புக்குறி வடிவம்
+#	Chicago	
+	Chile	சிலி
+	China	சீனா
+	Chinese (Simplified)	சீனம் (எளிமையாக்கப்பட்டது)
+	Chinese (Traditional)	சீனம் (பாரம்பரியம்)
+	Choose a command	ஒரு கட்டளையைத் தேர்ந்தெடுக்கவும்
+	Choose a shortcut	ஒரு குறுக்குவழியைத் தேர்ந்தெடுக்கவும்
+	Choose List Item	பட்டியல் உருப்படியைத் தேர்ந்தெடு
+	Choose the sheet that holds the recipients.	பெறுநர்கள் உள்ள தாளைத் தேர்ந்தெடுக்கவும்.
+	Circle area from its radius	ஆரத்திலிருந்து வட்டத்தின் பரப்பு
+	Circled Dot	வட்டமிட்ட புள்ளி
+	Circled Plus	வட்டமிட்ட கூட்டல்
+	Circled Times	வட்டமிட்ட பெருக்கல்
+	Citation Style	மூலக்குறிப்புப் பாணி
+	Citations	மூலக்குறிப்புகள்
+	Citations & Bibliography	மூலக்குறிப்புகள் & நூற்பட்டியல்
+	Clear All Formatting	அனைத்து வடிவமைப்பையும் அழி
+	Clear Character Formatting	எழுத்து வடிவமைப்பை அழி
+	Clear Character Style	எழுத்துப் பாணியை அழி
+	Clear Formatting Level	வடிவமைப்பு மட்டத்தை அழி
+	Clear Paragraph Formatting	பத்தி வடிவமைப்பை அழி
+	Click a border between two cells to merge them. Esc stops.	இரண்டு கலங்களுக்கு இடையிலான எல்லையைச் சொடுக்கி அவற்றை ஒன்றிணைக்கவும். நிறுத்த Esc அழுத்தவும்.
+	Click an item to paste it.	ஒட்ட, ஓர் உருப்படியைக் கிளிக் செய்யவும்.
+	Click level to modify:	மாற்ற வேண்டிய மட்டத்தைச் சொடுக்கவும்:
+	Click the empty text box the text should continue in (Esc cancels)	உரை தொடர வேண்டிய வெற்று உரைப் பெட்டியைச் சொடுக்கவும் (Esc ரத்துசெய்யும்)
+	Click to switch back to inserting	மீண்டும் செருகும் பயன்முறைக்கு மாற சொடுக்கவும்
+	Clipboard Contents	கிளிப்போர்டு உள்ளடக்கம்
+	Clipboard Items	கிளிப்போர்டு உருப்படிகள்
+	Clipboard Pane	கிளிப்போர்டு பலகம்
+	Close Document	ஆவணத்தை மூடு
+	Close Equation	சமன்பாட்டை மூடு
+	Close Header and Footer	தலைப்பகுதி மற்றும் அடிப்பகுதியை மூடு
+	Close Outline View	புறவரிப் பார்வையை மூடு
+	Close Outline\nView	புறவரிப் பார்வையை\nமூடு
+	Clustered Bar	குழுவாக்கப்பட்ட பட்டை
+	Clustered Column	குழுவாக்கப்பட்ட நெடுவரிசை
+#	cm	
+	Col #:	நெடுவரிசை எண்:
+	Collapse Selection	தேர்வைச் சுருக்கு
+	Collate copies	நகல்களை வரிசைப்படி அடுக்கு
+	Collect entries from:	இவற்றிலிருந்து உள்ளீடுகளைச் சேகரி:
+	Colombia	கொலம்பியா
+	Colon Equal	முக்காற்புள்ளி சமம்
+	Color model:	நிற மாதிரி:
+	Color only	நிறம் மட்டும்
+	Color: {color}	நிறம்: {color}
+	Colorful	வண்ணமயமான
+	Column	நெடுவரிசை
+	Column Break	நெடுவரிசை முறிவு
+	Column Selection	நெடுவரிசைத் தேர்வு
+	Column {n}	நெடுவரிசை {n}
+	Column:	நெடுவரிசை:
+	Combine Documents	ஆவணங்களை இணை
+	Combo Box Content Control	சேர்க்கைப் பெட்டி உள்ளடக்கக் கட்டுப்பாடு
+	Commands	கட்டளைகள்
+	Commas	காற்புள்ளிகள்
+	Comments beside each page and tracked changes in PDFs, prints and images; a comment list at the end of web pages, Markdown and text.	PDF கோப்புகள், அச்சுப் பிரதிகள், படங்கள் ஆகியவற்றில் ஒவ்வொரு பக்கத்தின் அருகிலும் கருத்துகளும் கண்காணிக்கப்பட்ட மாற்றங்களும்; இணையப் பக்கங்கள், Markdown, உரை ஆகியவற்றில் இறுதியில் ஒரு கருத்துப் பட்டியல்.
+	Comments Pane	கருத்துகள் பலகம்
+	Common Accent Objects	பொதுவான உச்சரிப்புக்குறிப் பொருள்கள்
+	Common Brackets	பொதுவான அடைப்புக்குறிகள்
+	Common Fractions	பொதுவான பின்னங்கள்
+	Common Functions	பொதுவான சார்புகள்
+	Common Large Operators	பொதுவான பெரிய செயற்குறிகள்
+	Common Operator Structures	பொதுவான செயற்குறிக் கட்டமைப்புகள்
+	Common Operators	பொதுவான செயற்குறிகள்
+	Common Radicals	பொதுவான மூலக்குறிகள்
+	Common Subscripts and Superscripts	பொதுவான கீழெழுத்துகள் மற்றும் மேலெழுத்துகள்
+	Communication	தகவல்தொடர்பு
+	Community\nDiscord	Discord\nசமூகம்
+	Compact	நெருக்கமான
+	Compare Documents	ஆவணங்களை ஒப்பிடு
+	Compare to	ஒப்பிட வேண்டிய மதிப்பு
+	Compared: {changes} changes	ஒப்பிடப்பட்டது: {changes} மாற்றங்கள்
+	Comparing with another file needs the desktop app.	வேறொரு கோப்புடன் ஒப்பிட டெஸ்க்டாப் பயன்பாடு தேவை.
+	Comparison settings	ஒப்பீட்டு அமைப்புகள்
+	Compress Pictures	படங்களைச் சுருக்கு
+	Compress punctuation at the start of a line	வரியின் தொடக்கத்திலுள்ள நிறுத்தற்குறிகளைச் சுருக்கு
+	Conference	மாநாடு
+	Conference paper	மாநாட்டுக் கட்டுரை
+	CONFIDENTIAL	ரகசியம்
+	Confirm password:	கடவுச்சொல்லை உறுதிசெய்:
+	Connect Shapes	வடிவங்களை இணை
+	Container Title	உள்ளடக்கிய படைப்பின் தலைப்பு
+	Content Control at Selection	தேர்வில் உள்ள உள்ளடக்கக் கட்டுப்பாடு
+	Content Control Properties	உள்ளடக்கக் கட்டுப்பாட்டுப் பண்புகள்
+	Contents can't be edited	உள்ளடக்கத்தைத் திருத்த முடியாது
+	Context	சூழல்
+numerals	Context	சூழல்
+	Continue from previous section	முந்தைய பிரிவிலிருந்து தொடர்
+	Continue without restoring	மீட்டமைக்காமல் தொடர்
+	Continuous	தொடர்ச்சியான
+	Continuous numbering	தொடர்ச்சியான எண்ணிடல்
+	Contour Integral	சுற்றுத் தொகையீடு
+	Contour Integral with Limits	எல்லைகளுடன் சுற்றுத் தொகையீடு
+	Contour Integral with Stacked Limits	அடுக்கிய எல்லைகளுடன் சுற்றுத் தொகையீடு
+	Contour Integrals	சுற்றுத் தொகையீடுகள்
+	Controls	கட்டுப்பாடுகள்
+	Conversions	உருமாற்றங்கள்
+	Convert between built-up and linear form	அடுக்கு வடிவத்துக்கும் நேரியல் வடிவத்துக்கும் இடையே மாற்று
+	Convert Notes	குறிப்புகளை மாற்று
+	Convert Text to Table	உரையை அட்டவணையாக மாற்று
+	Convert Text to Table…	உரையை அட்டவணையாக மாற்று…
+	Convert to Shapes	வடிவங்களாக மாற்று
+	Convert to Text	உரையாக மாற்று
+	Coproduct	இணைப் பெருக்குத்தொகை
+	Coproduct with Limits	எல்லைகளுடன் இணைப் பெருக்குத்தொகை
+	Coproduct with Lower Limit	கீழ் எல்லையுடன் இணைப் பெருக்குத்தொகை
+	Coproduct with Subscript-Superscript Limits	கீழெழுத்து-மேலெழுத்து எல்லைகளுடன் இணைப் பெருக்குத்தொகை
+	Copy Formatting	வடிவமைப்பை நகலெடு
+	Copy of the text a bookmark marks	புத்தகக்குறி குறிக்கும் உரையின் நகல்
+	Copy Styles	பாணிகளை நகலெடு
+	Copy to	இவ்விடத்துக்கு நகலெடு
+	Copyright Sign	பதிப்புரிமைக் குறியீடு
+	Corporate Author	நிறுவன ஆசிரியர்
+	Correct accidental usage of cAPS LOCK key	cAPS LOCK விசையைத் தவறுதலாகப் பயன்படுத்தியதைச் சரிசெய்
+	Correct TWo INitial CApitals	தொடக்க இரு பெரிய எழுத்துகளைச் சரிசெய்
+	Corrections	திருத்தங்கள்
+	Cosecant Function	கொசெகண்ட் சார்பு
+	Cosine 2x	கொசைன் 2x
+	Cosine Function	கொசைன் சார்பு
+	Costa Rica	கோஸ்டா ரிகா
+	Cotangent Function	கொடேன்ஜென்ட் சார்பு
+	Could not check for updates:\n{error}	புதுப்பிப்புகளைச் சரிபார்க்க முடியவில்லை:\n{error}
+	Couldn't download {name}: {error}	{name} ஐப் பதிவிறக்க முடியவில்லை: {error}
+	Couldn't get the list of languages: {error}	மொழிகளின் பட்டியலைப் பெற முடியவில்லை: {error}
+	Couldn't install: {error}	நிறுவ முடியவில்லை: {error}
+	Couldn't make WordCraft the default: {error}	WordCraft ஐ இயல்புநிலையாக்க முடியவில்லை: {error}
+	Couldn't open {path}: {error}	{path} ஐத் திறக்க முடியவில்லை: {error}
+	Couldn't remove: {error}	நீக்க முடியவில்லை: {error}
+	Couldn't save {name}, so it is still open and nothing was lost: {error}	{name} ஐச் சேமிக்க முடியவில்லை, எனவே அது இன்னும் திறந்தே உள்ளது, எதுவும் இழக்கப்படவில்லை: {error}
+	Couldn't turn on downloading: {error}	பதிவிறக்கத்தை இயக்க முடியவில்லை: {error}
+	Count by:	எண்ணிடும் இடைவெளி:
+	Count words in text boxes and notes	உரைப் பெட்டிகளிலும் குறிப்புகளிலும் உள்ள சொற்களை எண்ணு
+	Courtesy Title	மரியாதைப் பட்டம்
+	Cover Page	அட்டைப் பக்கம்
+#	Craft	
+	Create a Style	ஒரு பாணியை உருவாக்கு
+	Create an interactive outline of your document.\n\nIt's a great way to keep track of where you are or quickly move your content around.\n\nTo get started, go to the Home tab and apply Heading styles to the headings in your document.	உங்கள் ஆவணத்தின் ஊடாடும் புறவரியை உருவாக்கவும்.\n\nநீங்கள் எங்கே இருக்கிறீர்கள் என்பதைக் கண்காணிக்கவோ உங்கள் உள்ளடக்கத்தை விரைவாக இடம் மாற்றவோ இது சிறந்த வழி.\n\nதொடங்க, முகப்பு தத்தலுக்குச் சென்று உங்கள் ஆவணத்திலுள்ள தலைப்புகளுக்குத் தலைப்புப் பாணிகளைப் பயன்படுத்தவும்.
+	Create Graphic	வரைகலையை உருவாக்கு
+	Create Link	இணைப்பை உருவாக்கு
+	Create New Style	புதிய பாணியை உருவாக்கு
+	Create Source	மூலத்தை உருவாக்கு
+	Croatian	குரோஷியன்
+	Crop on the page works on unturned pictures: set Rotation to 0° first, or use the crop boxes	பக்கத்திலேயே வெட்டிச் சுருக்குதல் சுழற்றப்படாத படங்களில் மட்டுமே செயல்படும்: முதலில் சுழற்சியை 0° என அமைக்கவும், அல்லது வெட்டிச் சுருக்கும் பெட்டிகளைப் பயன்படுத்தவும்
+	Cross-reference	குறுக்குக் குறிப்பு
+	Cross-reference:	குறுக்குக் குறிப்பு:
+	Ctrl+Enter starts a new page. Much tidier than pressing Enter until it happens.	Ctrl+Enter புதிய பக்கத்தைத் தொடங்கும். பக்கம் தானாக மாறும் வரை Enter விசையை அழுத்திக்கொண்டே இருப்பதைவிட இது மிகவும் நேர்த்தியானது.
+	Ctrl+H finds and replaces text, formatting and special characters.	Ctrl+H உரை, வடிவமைப்பு, சிறப்பு எழுத்துகள் ஆகியவற்றைக் கண்டறிந்து மாற்றும்.
+	Ctrl+K turns the selected text into a link.	Ctrl+K தேர்ந்தெடுத்த உரையை இணைப்பாக மாற்றும்.
+	Ctrl+Shift+G counts your words, characters and paragraphs.	Ctrl+Shift+G உங்கள் சொற்கள், எழுத்துகள், பத்திகளை எண்ணும்.
+	Cuba	கியூபா
+	Cube Root	கனமூலம்
+	Current - Linear	தற்போதையது - நேரியல்
+	Current - Professional	தற்போதையது - தொழில்முறை
+	Current Document	தற்போதைய ஆவணம்
+	Current Position	தற்போதைய இடம்
+	Current record	தற்போதைய பதிவு
+	Current style: {style}	தற்போதைய பாணி: {style}
+	Curved Arrow Connector	வளைந்த அம்புக்குறி இணைப்பான்
+	Curved Connector	வளைந்த இணைப்பான்
+	Custom dictionary	தனிப்பயன் அகராதி
+	Custom Document Properties	தனிப்பயன் ஆவணப் பண்புகள்
+	Custom Margins…	தனிப்பயன் ஓரங்கள்…
+	Custom mark:	தனிப்பயன் குறி:
+	Custom range	தனிப்பயன் வரம்பு
+	Custom size	தனிப்பயன் அளவு
+	Custom Table of Contents…	தனிப்பயன் உள்ளடக்க அட்டவணை…
+	Custom Watermark	தனிப்பயன் நீர்க்குறி
+	Custom Watermark…	தனிப்பயன் நீர்க்குறி…
+	Customize	தனிப்பயனாக்கம்
+	Customize Keyboard	விசைப்பலகையைத் தனிப்பயனாக்கு
+	Customize Quick Access Toolbar	விரைவு அணுகல் கருவிப்பட்டியைத் தனிப்பயனாக்கு
+	Customize Quick Access Toolbar…	விரைவு அணுகல் கருவிப்பட்டியைத் தனிப்பயனாக்கு…
+	Customize Ribbon	ரிப்பனைத் தனிப்பயனாக்கு
+	Customize the Ribbon…	ரிப்பனைத் தனிப்பயனாக்கு…
+	Cycle	சுழற்சி
+	Cyprus	சைப்ரஸ்
+	Czech	செக்
+	Danish	டேனிஷ்
+	Dark Blue	அடர் நீலம்
+	Dark Mode	இருண்ட பயன்முறை
+	Dark page (white text on black)	இருண்ட பக்கம் (கருப்புப் பின்னணியில் வெள்ளை உரை)
+	Dark Red	அடர் சிவப்பு
+	Dark Variations	அடர் நிற வகைகள்
+	Dark with Shadow	அடர், நிழலுடன்
+	Dark Yellow	அடர் மஞ்சள்
+	Darker −20%	பிரகாசம் குறைவு −20%
+	Darkroom	இருட்டறை
+	Data Labels	தரவு லேபிள்கள்
+	Date & Time	தேதி & நேரம்
+	Date formats:	தேதி வடிவமைப்புகள்:
+	Date Picker Content Control	தேதித் தேர்வி உள்ளடக்கக் கட்டுப்பாடு
+	Day	நாள்
+	Decimal	தசமம்
+	Decorative objects only add visual interest: screen readers skip them.	அலங்காரப் பொருட்கள் காட்சி அழகை மட்டுமே சேர்க்கின்றன: திரை வாசிப்பான்கள் அவற்றைத் தவிர்த்துவிடும்.
+	Decrease Indent	உள்தள்ளலைக் குறை
+	Deep	ஆழமான
+	Default formatting	இயல்புநிலை வடிவமைப்பு
+	Default Paragraph Font	இயல்புநிலை பத்தி எழுத்துரு
+	Default tab stops:	இயல்புநிலைத் தாவல் நிறுத்தங்கள்:
+	Define New Bullet	புதிய புள்ளிக்குறியை வரையறு
+	Define New Multilevel List	புதிய பல்நிலைப் பட்டியலை வரையறு
+	Define New Multilevel List…	புதிய பல்நிலைப் பட்டியலை வரையறு…
+	Define New Number Format	புதிய எண் வடிவத்தை வரையறு
+	Deflate	உள்வளைவு
+	Delete Around Caret in Equation	சமன்பாட்டில் கர்சரைச் சுற்றியுள்ளதை நீக்கு
+	Delete Back in Equation	சமன்பாட்டில் பின்னோக்கி நீக்கு
+	Delete Bookmark	புத்தகக்குறியை நீக்கு
+	Delete Cells	கலங்களை நீக்கு
+	Delete Clipboard Item	கிளிப்போர்டு உருப்படியை நீக்கு
+	Delete Columns	நெடுவரிசைகளை நீக்கு
+	Delete Comment	கருத்தை நீக்கு
+	Delete in Equation	சமன்பாட்டில் நீக்கு
+	Delete Label	லேபிளை நீக்கு
+	Delete Next Word	அடுத்த சொல்லை நீக்கு
+	Delete Previous Word	முந்தைய சொல்லை நீக்கு
+	Delete Rows	வரிசைகளை நீக்கு
+	Delete Selected Ink	தேர்ந்தெடுத்த மையை நீக்கு
+	Delete Table	அட்டவணையை நீக்கு
+	Delete Table Style	அட்டவணைப் பாணியை நீக்கு
+	Deletions:	நீக்கல்கள்:
+	Delivery address:	விநியோக முகவரி:
+	Delta Equal To	டெல்டா சமம்
+	Delta over arrow	அம்புக்குறி மேல் டெல்டா
+	Demote	கீழிறக்கு
+	Demote to Body Text	முதன்மை உரையாகக் கீழிறக்கு
+	Derivative as a limit	எல்லையாக வகைக்கெழு
+	Describe what this object shows, for people who can't see it.	பார்க்க இயலாதவர்களுக்காக, இந்தப் பொருள் எதைக் காட்டுகிறது என்பதை விவரிக்கவும்.
+	Describe what this table shows, for people who can't see it.	பார்க்க இயலாதவர்களுக்காக, இந்த அட்டவணை எதைக் காட்டுகிறது என்பதை விவரிக்கவும்.
+	Design	வடிவமைப்பு
+	Design Mode	வடிவமைப்புப் பயன்முறை
+	Detach Template	வார்ப்புருவைப் பிரி
+	Detect language automatically	மொழியைத் தானாகக் கண்டறி
+	Developer	உருவாக்குநர்
+	development build	மேம்பாட்டு உருவாக்கம்
+	Diagonal Dots	மூலைவிட்டப் புள்ளிகள்
+	Dictate	பேசித் தட்டச்சு செய்
+	Dictionaries	அகராதிகள்
+	Dictionaries folder:	அகராதிகள் கோப்புறை:
+	Dictionary files	அகராதிக் கோப்புகள்
+	Different First Page	வேறுபட்ட முதல் பக்கம்
+	Different Odd & Even Pages	வேறுபட்ட ஒற்றைப்படை & இரட்டைப்படைப் பக்கங்கள்
+	Differential	வகையீடு
+	Differential theta	வகையீடு தீட்டா
+	Differential x	வகையீடு x
+	Differential y	வகையீடு y
+	Differentials	வகையீடுகள்
+	Direct formatting	நேரடி வடிவமைப்பு
+	Directory	அடைவு
+	Discard the recovery copy of {name}?	{name}-இன் மீட்பு நகலை நிராகரிக்கவா?
+	Discard…	நிராகரி…
+	Discord community	Discord சமூகம்
+	Display for Review	மதிப்பாய்வுக்கான காட்சி
+	Display text	காட்சி உரை
+	Distance from text	உரையிலிருந்து தூரம்
+	Distance from text:	உரையிலிருந்து தூரம்:
+	Distribute Columns	நெடுவரிசைகளைச் சமமாகப் பகிர்
+	Distribute letters	எழுத்துகளைப் பரப்பு
+	Distribute Rows	வரிசைகளைச் சமமாகப் பகிர்
+	Distribute spacing	இடைவெளியைப் பரப்பு
+	Distributed	பரவலாகச் சீரமை
+	Do Not Check Spelling or Grammar	எழுத்துக்கூட்டல் அல்லது இலக்கணத்தைச் சரிபார்க்க வேண்டாம்
+	Do not check spelling or grammar	எழுத்துக்கூட்டலையோ இலக்கணத்தையோ சரிபார்க்க வேண்டாம்
+	DO NOT COPY	நகலெடுக்க வேண்டாம்
+	Do Not Show in TOC	உள்ளடக்க அட்டவணையில் காட்டாதே
+	Do you want to save changes to {name}?	{name} ஆவணத்தில் செய்த மாற்றங்களைச் சேமிக்க விரும்புகிறீர்களா?
+	Dock Left	இடதுபுறம் நிலைநிறுத்து
+	Dock Right	வலதுபுறம் நிலைநிறுத்து
+	Document End	ஆவண முடிவு
+	Document Formatting	ஆவண வடிவமைப்பு
+	Document Grid	ஆவணக் கட்டம்
+	Document Information	ஆவணத் தகவல்
+	Document name	ஆவணப் பெயர்
+	Document Property	ஆவணப் பண்பு
+	Document Start	ஆவணத் தொடக்கம்
+	Document template:	ஆவண வார்ப்புரு:
+	Document Text	ஆவண உரை
+	Document1	ஆவணம்1
+	Document\nPreferences	ஆவண\nவிருப்பத்தேர்வுகள்
+	Documents you open will show up here.	நீங்கள் திறக்கும் ஆவணங்கள் இங்கே தோன்றும்.
+	Does not contain	கொண்டிருக்காது
+#	DOI	
+	Dominican Republic	டொமினிகன் குடியரசு
+	Don't add space between paragraphs of the same style	ஒரே பாணியிலான பத்திகளுக்கு இடையே இடைவெளி சேர்க்க வேண்டாம்
+	Don't capitalize after:	இவற்றுக்குப் பிறகு பெரிய எழுத்தாக்க வேண்டாம்:
+	Don't hyphenate	சொற்பிரிப்பு செய்ய வேண்டாம்
+	Don't read Zotero, Mendeley or EndNote citations and bibliographies	Zotero, Mendeley அல்லது EndNote மூலக்குறிப்புகளையும் நூற்பட்டியல்களையும் படிக்க வேண்டாம்
+	Don't show me this tip again	இந்த உதவிக்குறிப்பை மீண்டும் எனக்குக் காட்ட வேண்டாம்
+	Dot dash	புள்ளி-கோடு
+	Dot-dash	புள்ளி-கோடு
+	Dot-dot-dash	புள்ளி-புள்ளி-கோடு
+	Double	இரட்டை
+	Double Bar	இரட்டைப் பட்டை
+	Double Closing Quote	இரட்டை மூடும் மேற்கோள் குறி
+	Double Dot	இரட்டைப் புள்ளி
+	Double Integral	இரட்டைத் தொகையீடு
+	Double Integral with Limits	எல்லைகளுடன் இரட்டைத் தொகையீடு
+	Double Integral with Stacked Limits	அடுக்கிய எல்லைகளுடன் இரட்டைத் தொகையீடு
+	Double Left Arrow with Text Above	மேலே உரையுடன் இரட்டை இடது அம்புக்குறி
+	Double Left Arrow with Text Below	கீழே உரையுடன் இரட்டை இடது அம்புக்குறி
+	Double Left Right Arrow with Text Above	மேலே உரையுடன் இரட்டை இடது-வலது அம்புக்குறி
+	Double Left Right Arrow with Text Below	கீழே உரையுடன் இரட்டை இடது-வலது அம்புக்குறி
+	Double Opening Quote	இரட்டைத் திறக்கும் மேற்கோள் குறி
+	Double Right Arrow with Text Above	மேலே உரையுடன் இரட்டை வலது அம்புக்குறி
+	Double Right Arrow with Text Below	கீழே உரையுடன் இரட்டை வலது அம்புக்குறி
+	Double Spacing	இரட்டை இடைவெளி
+	Double Square Brackets	இரட்டைச் சதுர அடைப்புக்குறிகள்
+	Double Strikethrough	இரட்டைக் குறுக்குக்கோடு
+	Double strikethrough	இரட்டைக் குறுக்குக்கோடு
+	Double summation	இரட்டைக் கூட்டுத்தொகை
+	Double Underline	இரட்டை அடிக்கோடு
+	Double Vertical Bars	இரட்டைச் செங்குத்துப் பட்டைகள்
+	Doughnut	வளையம்
+	Download fetches the dictionary from LibreOffice's dictionary collection into the dictionaries folder. Each keeps its own licence (GPL, LGPL or MPL) and stays a separate file that WordCraft only reads.	பதிவிறக்கு பொத்தான், LibreOffice அகராதித் தொகுப்பிலிருந்து அகராதியைப் பெற்று அகராதிகள் கோப்புறையில் சேர்க்கும். ஒவ்வொன்றும் அதன் சொந்த உரிமத்தை (GPL, LGPL அல்லது MPL) வைத்திருக்கும்; WordCraft படிக்க மட்டுமே செய்யும் தனிக் கோப்பாகவே இருக்கும்.
+	Downloading is off. Clicking Add a language… or Install turns it on: WordCraft then downloads language packs and fonts from GitHub.	பதிவிறக்கம் முடக்கத்தில் உள்ளது. ஒரு மொழியைச் சேர்… அல்லது நிறுவு என்பதைக் கிளிக் செய்தால் அது இயக்கப்படும்: பின்னர் WordCraft மொழித் தொகுப்புகளையும் எழுத்துருக்களையும் GitHub-இலிருந்து பதிவிறக்கும்.
+	Downloading the {language} dictionary…	{language} அகராதியைப் பதிவிறக்குகிறது…
+	Downloading…	பதிவிறக்குகிறது…
+	DRAFT	வரைவு
+	Drag a rectangle to draw a table, or a line across cells to split them. Esc stops.	அட்டவணையை வரைய ஒரு செவ்வகத்தை இழுக்கவும், அல்லது கலங்களைப் பிரிக்க அவற்றின் குறுக்கே ஒரு கோட்டை இழுக்கவும். நிறுத்த Esc அழுத்தவும்.
+	Draw Ink	மையால் வரை
+	Draw Table	அட்டவணையை வரை
+	Draw\nTable	அட்டவணையை\nவரை
+	Drawing Canvas	வரைதல் தளம்
+	Drawing Tools	வரைதல் கருவிகள்
+	Drawing\nCanvas	வரைதல்\nதளம்
+	Drop Cap	தொடக்கப் பெரிய எழுத்து
+	Drop cap	தொடக்கப் பெரிய எழுத்து
+	Drop Cap Options…	தொடக்கப் பெரிய எழுத்து விருப்பங்கள்…
+	drop caps can't go in a table	அட்டவணைக்குள் தொடக்கப் பெரிய எழுத்தை வைக்க முடியாது
+	Drop-Down List Content Control	கீழிறங்கு பட்டியல் உள்ளடக்கக் கட்டுப்பாடு
+	Dropped	இறக்கப்பட்டது
+	Drops all formatting and pastes plain text.	எல்லா வடிவமைப்பையும் நீக்கி, எளிய உரையாக ஒட்டும்.
+	Dutch, Nederlands or nl	டச்சு, Nederlands அல்லது nl
+	E-mail Messages	மின்னஞ்சல் செய்திகள்
+	East	கிழக்கு
+	Ecuador	ஈக்வடார்
+	Edit Comment	கருத்தைத் திருத்து
+	Edit Data	தரவைத் திருத்து
+	Edit Document	ஆவணத்தைத் திருத்து
+	Edit Equation	சமன்பாட்டைத் திருத்து
+	Edit Field Code	புலக் குறியீட்டைத் திருத்து
+	Edit Field…	புலத்தைத் திருத்து…
+	Edit Footer	அடிப்பகுதியைத் திருத்து
+	Edit Header	தலைப்பகுதியைத் திருத்து
+	Edit Individual Documents…	தனித்தனி ஆவணங்களைத் திருத்து…
+	Edit Items	உருப்படிகளைத் திருத்து
+	Edit Recipient List	பெறுநர் பட்டியலைத் திருத்து
+	Edit Source	மூலத்தைத் திருத்து
+	Edit\nData	தரவைத்\nதிருத்து
+	Edit\nRecipient List	பெறுநர் பட்டியலைத்\nதிருத்து
+	Edited	திருத்தப்பட்டது
+	Editing endnote	இறுதிக்குறிப்பு திருத்தப்படுகிறது
+	Editing footnote	அடிக்குறிப்பு திருத்தப்படுகிறது
+	Editing header/footer	தலைப்பகுதி/அடிப்பகுதி திருத்தப்படுகிறது
+	Editing in this document is restricted.	இந்த ஆவணத்தில் திருத்துவது கட்டுப்படுத்தப்பட்டுள்ளது.
+	Editing is blocked in Viewing mode.	பார்ப்பதற்கான பயன்முறையில் திருத்துதல் தடுக்கப்பட்டுள்ளது.
+	Editing — edit the document directly	திருத்துதல் — ஆவணத்தை நேரடியாகத் திருத்தலாம்
+	Edition	பதிப்பு
+	Editor	பதிப்பாசிரியர்
+	Egypt	எகிப்து
+	El Salvador	எல் சால்வடார்
+	Elbow Arrow Connector	செங்கோண அம்புக்குறி இணைப்பான்
+	Elbow Connector	செங்கோண இணைப்பான்
+	Emphasis	அழுத்தம்
+	Empty Matrices	வெற்று அணிகள்
+	Enclose Characters	எழுத்துகளைச் சுற்றி வடிவமிடு
+	Enclosure	சூழ் வடிவம்
+	Encrypt with Password	கடவுச்சொல்லால் குறியாக்கு
+	Encrypt with Password…	கடவுச்சொல்லுடன் குறியாக்கு…
+	End of document	ஆவணத்தின் இறுதி
+	End of section	பிரிவின் இறுதி
+	End of Word	சொல்லின் முடிவு
+	Endnote Reference	இறுதிக்குறிப்புச் சுட்டுக்குறி
+	Endnote Text	இறுதிக்குறிப்பு உரை
+	Endnotes	இறுதிக்குறிப்புகள்
+	Endnotes to footnotes	இறுதிக்குறிப்புகளை அடிக்குறிப்புகளாக
+	English (Australia)	ஆங்கிலம் (ஆஸ்திரேலியா)
+	English (Canada)	ஆங்கிலம் (கனடா)
+	English (India)	ஆங்கிலம் (இந்தியா)
+	English (Ireland)	ஆங்கிலம் (அயர்லாந்து)
+	English (New Zealand)	ஆங்கிலம் (நியூசிலாந்து)
+	English (South Africa)	ஆங்கிலம் (தென்னாப்பிரிக்கா)
+	English (United Kingdom)	ஆங்கிலம் (ஐக்கிய இராச்சியம்)
+	English (United States)	ஆங்கிலம் (அமெரிக்க ஐக்கிய நாடுகள்)
+	English, the languages of this document and every installed Language pack. Language packs add spelling dictionaries and hyphenation.	ஆங்கிலம், இந்த ஆவணத்தின் மொழிகள், நிறுவப்பட்ட ஒவ்வொரு மொழித் தொகுப்பும். மொழித் தொகுப்புகள் எழுத்துக்கூட்டல் அகராதிகளையும் சொற்பிரிப்பையும் சேர்க்கின்றன.
+	Engrave	செதுக்கல்
+	Enlarge symbol	குறியீட்டைப் பெரிதாக்கு
+	Enter a number.	ஓர் எண்ணை உள்ளிடவும்.
+	Enter bookmark name:	புத்தகக்குறியின் பெயரை உள்ளிடவும்:
+	Enter formatting for number:	எண்ணுக்கான வடிவமைப்பை உள்ளிடவும்:
+	Enter in Equation	சமன்பாட்டில் Enter அழுத்து
+	Enter page number:	பக்க எண்ணை உள்ளிடவும்:
+	Entire caption	முழுப் படவிளக்கம்
+	Entry marked.	உள்ளீடு குறிக்கப்பட்டது.
+	Envelope #10	உறை #10
+	Envelope #10   4.12" × 9.50"	உறை #10   4.12" × 9.50"
+	Envelope Address	உறை முகவரி
+	Envelope DL   4.33" × 8.66"	உறை DL   4.33" × 8.66"
+	Envelope Return	உறை அனுப்புநர் முகவரி
+	Envelope size:	உறை அளவு:
+	Envelopes	உறைகள்
+	Equal by Definition	வரையறைப்படி சமம்
+	Equal column width	சம நெடுவரிசை அகலம்
+	Equal Equal	சமம் சமம்
+	Equal to	இதற்குச் சமம்
+	Equals:	இதற்குச் சமமானால்:
+	Equation	சமன்பாடு
+	Equation Gallery	சமன்பாட்டுக் காட்சியகம்
+	Equation Info	சமன்பாட்டுத் தகவல்
+	Equation Number	சமன்பாட்டு எண்
+	Equation Options	சமன்பாட்டு விருப்பங்கள்
+	Equatorial Guinea	எக்குவடோரியல் கினி
+	Erase Ink	மையை அழி
+	Errors ({n})	பிழைகள் ({n})
+	Esperanto	எஸ்பெராண்டோ
+	Estonian	எஸ்தோனியன்
+	Euler's identity	ஆய்லரின் முற்றொருமை
+	Even Banded Columns	இரட்டைப்படைப் பட்டை நெடுவரிசைகள்
+	Even Banded Rows	இரட்டைப்படைப் பட்டை வரிசைகள்
+	Even Page	இரட்டைப்படைப் பக்கம்
+	Every change is recorded as a tracked change.	ஒவ்வொரு மாற்றமும் கண்காணிக்கப்படும் மாற்றமாகப் பதிவுசெய்யப்படும்.
+	Every command is available to scripts and AI agents: run `wordcraft-cli mcp` for an MCP server, or start the app with `--control <port>` for the JSON control channel.	ஒவ்வொரு கட்டளையும் ஸ்கிரிப்டுகளுக்கும் AI முகவர்களுக்கும் கிடைக்கும்: MCP சேவையகத்திற்கு `wordcraft-cli mcp` ஐ இயக்கவும், அல்லது JSON கட்டுப்பாட்டுச் சேனலுக்கு `--control <port>` உடன் பயன்பாட்டைத் தொடங்கவும்.
+	Every field needs a name.	ஒவ்வொரு புலத்துக்கும் ஒரு பெயர் தேவை.
+	Everyone	அனைவரும்
+	Exactly	சரியாக
+	Exactly {n}	சரியாக {n}
+	Exceptions (optional)	விதிவிலக்குகள் (விரும்பினால்)
+	Exceptions…	விதிவிலக்குகள்…
+#	Executive   7.25" × 10.50"	
+	Existing File or Web Page	ஏற்கெனவே உள்ள கோப்பு அல்லது இணையப் பக்கம்
+	Expand or Collapse Heading	தலைப்பை விரிவாக்கு அல்லது சுருக்கு
+	Exponential	அடுக்குக்குறி
+	Exponential series	அடுக்குக்குறித் தொடர்
+	Export a copy to share (PDF, Word document)	பகிர்வதற்காக ஒரு நகலை ஏற்றுமதி செய் (PDF, Word ஆவணம்)
+	Export Page as PNG	பக்கத்தை PNG ஆக ஏற்றுமதி செய்
+	Extend Selection	தேர்வை நீட்டு
+	Extend Selection by Units	தேர்வை அலகுகளாக நீட்டு
+	Extra space	கூடுதல் இடைவெளி
+	F4 repeats your last action. Formatting ten headings is suddenly one click and nine taps.	F4 உங்கள் கடைசிச் செயலை மீண்டும் செய்யும். பத்துத் தலைப்புகளை வடிவமைப்பது திடீரென்று ஒரு கிளிக்கும் ஒன்பது தட்டல்களுமாகிவிடுகிறது.
+	F7 checks the spelling and grammar of the whole document.	F7 முழு ஆவணத்தின் எழுத்துக்கூட்டலையும் இலக்கணத்தையும் சரிபார்க்கும்.
+	Faster: {command} is {key} on the keyboard.	விரைவு வழி: {command} என்பது விசைப்பலகையில் {key}.
+	Field code:	புலக் குறியீடு:
+	Field Codes	புலக் குறியீடுகள்
+	Field codes:	புலக் குறியீடுகள்:
+	Field name	புலப் பெயர்
+	Field name:	புலப் பெயர்:
+	Field names must be different.	புலப் பெயர்கள் வெவ்வேறாக இருக்க வேண்டும்.
+	Field names:	புலப் பெயர்கள்:
+	Field:	புலம்:
+	Field…	புலம்…
+	Figure	படம்
+	File locations	கோப்பு இருப்பிடங்கள்
+	File name:	கோப்புப் பெயர்:
+	File type	கோப்பு வகை
+	File › New lists the .dotx and .dotm templates here under Personal; Save as Word Template starts here.	கோப்பு › புதிய இங்குள்ள .dotx, .dotm வார்ப்புருக்களைத் தனிப்பட்டவை என்பதன் கீழ் பட்டியலிடும்; Word வார்ப்புருவாகச் சேமி இங்கிருந்து தொடங்கும்.
+	Fill color:	நிரப்பு நிறம்:
+	Filling in forms	படிவங்களை நிரப்புதல்
+	Film	திரைப்படம்
+	Filter and Sort	வடிகட்டு மற்றும் வரிசைப்படுத்து
+	Filter Recipients	பெறுநர்களை வடிகட்டு
+	Find in list:	பட்டியலில் கண்டறி:
+	Find Next Editable Region	அடுத்த திருத்தக்கூடிய பகுதியைக் கண்டறி
+	Find Previous	முந்தையதைக் கண்டறி
+	Find Recipient	பெறுநரைக் கண்டறி
+	Find What Expression	கண்டறிய வேண்டிய கோவை
+	Find What Text	கண்டறிய வேண்டிய உரை
+	Find what:	தேட வேண்டியது:
+	Find “{text}” in the document	ஆவணத்தில் “{text}” என்பதைக் கண்டறி
+	Finding printers…	அச்சுப்பொறிகளைத் தேடுகிறது…
+	Finish & Merge	முடித்து & ஒன்றிணை
+	Finish &\nMerge	முடித்து &\nஒன்றிணை
+	Finished	முடிந்தது
+	Finland	பின்லாந்து
+	Finnish	ஃபின்னிஷ்
+	First Column	முதல் நெடுவரிசை
+	First line	முதல் வரி
+	First line:	முதல் வரி:
+	First Name	முதல் பெயர்
+	First Record	முதல் பதிவு
+	First row of data contains column headers	தரவின் முதல் வரிசையில் நெடுவரிசைத் தலைப்புகள் உள்ளன
+	Fix Position on Page	பக்கத்தில் இடத்தை நிலைநிறுத்து
+	Fixed Column Width	நிலையான நெடுவரிசை அகலம்
+	Float	ஃப்ளோட்
+	Floor	கீழ்மட்டம்
+	Folder path	கோப்புறைப் பாதை
+	Follow number with:	எண்ணுக்குப் பின் வருவது:
+	Font Color	எழுத்துரு நிறம்
+	Font color	எழுத்துரு நிறம்
+	Font color:	எழுத்துரு நிறம்:
+	Font Dialog	எழுத்துரு உரையாடல் பெட்டி
+	Font: {font}	எழுத்துரு: {font}
+	Font…	எழுத்துரு…
+	Footer	அடிப்பகுதி
+	Footnote and Endnote	அடிக்குறிப்பு மற்றும் இறுதிக்குறிப்பு
+	Footnote Reference	அடிக்குறிப்புச் சுட்டுக்குறி
+	Footnote Text	அடிக்குறிப்பு உரை
+	Footnotes	அடிக்குறிப்புகள்
+	Footnotes and endnotes	அடிக்குறிப்புகளும் இறுதிக்குறிப்புகளும்
+	Footnotes to endnotes	அடிக்குறிப்புகளை இறுதிக்குறிப்புகளாக
+	For which item:	எந்த உருப்படிக்கு:
+	Format Page Numbers	பக்க எண்களை வடிவமை
+	Format Page Numbers…	பக்க எண்களை வடிவமை…
+	Format Painter	வடிவமைப்புத் தூரிகை
+	Format Shape	வடிவத்தை வடிவமை
+	Format Shape Pane	வடிவ வடிவமைப்புப் பலகம்
+	Format Shape…	வடிவத்தை வடிவமை…
+	Formatted	வடிவமைக்கப்பட்டது
+	Formatted Text	வடிவமைக்கப்பட்ட உரை
+	Formatting	வடிவமைப்பு
+	Formatting at Selection	தேர்வில் உள்ள வடிவமைப்பு
+	Formatting exceptions	வடிவமைப்பு விதிவிலக்குகள்
+	Formatting marks	வடிவமைப்புக் குறிகள்
+	Formatting saved for new documents:	புதிய ஆவணங்களுக்காகச் சேமிக்கப்பட்ட வடிவமைப்பு:
+	Formatting, case changes, white space and tables are compared; the other settings are kept for later.	வடிவமைப்பு, பெரிய/சிறிய எழுத்து மாற்றங்கள், வெற்றிடம், அட்டவணைகள் ஆகியவை ஒப்பிடப்படுகின்றன; பிற அமைப்புகள் பின்னர் பயன்படுத்துவதற்காக வைக்கப்படுகின்றன.
+	Formula	சூத்திரம்
+	Formula:	சூத்திரம்:
+	Forward	முன்னோக்கிச் செல்
+	Fraction	பின்னம்
+	Fractions (1/2) as fraction characters (½)	பின்னங்களை (1/2) பின்ன எழுத்துகளாக (½)
+	Frames and effects	சட்டகங்கள் மற்றும் விளைவுகள்
+	France	பிரான்ஸ்
+	French (France)	பிரெஞ்சு (பிரான்ஸ்)
+	From Bottom Left Corner	கீழ் இடது மூலையிலிருந்து
+	From Bottom Right Corner	கீழ் வலது மூலையிலிருந்து
+	From Center	மையத்திலிருந்து
+	From text:	உரையிலிருந்து:
+	From Top Left Corner	மேல் இடது மூலையிலிருந்து
+	From Top Right Corner	மேல் வலது மூலையிலிருந்து
+	from Unicode (hex)	Unicode-இலிருந்து (பதினறும எண்)
+	From {name}	{name} இடமிருந்து
+	From:	இருந்து:
+	Full page of the same label	ஒரே சீட்டால் நிரம்பிய முழுப் பக்கம்
+	Full Saturation 100%	முழுச் செறிவு 100%
+	Full Screen View	முழுத்திரைப் பார்வை
+	Full\nScreen	முழுத்\nதிரை
+	Fun fact: a blank page is just a draft that hasn't been told yet.	சுவாரசியத் தகவல்: வெற்றுப் பக்கம் என்பது, தான் ஒரு வரைவு என்று இன்னும் யாரும் சொல்லாத ஒரு வரைவுதான்.
+	Function	சார்பு
+	Galician	காலிசியன்
+	Gallery	காட்சியகம்
+#	GB/T 7714	
+	Georgian	ஜார்ஜியன்
+	German (Germany)	ஜெர்மன் (ஜெர்மனி)
+	Germany	ஜெர்மனி
+	Get the list of languages again	மொழிகளின் பட்டியலை மீண்டும் பெறு
+#	getartcraft.com/apps/wordcraft	
+	Gets the list of Language packs, then this language's pack if there is one.	மொழித் தொகுப்புகளின் பட்டியலைப் பெறும், பின்னர் இந்த மொழிக்கான தொகுப்பு இருந்தால் அதைப் பெறும்.
+	Getting the list of languages…	மொழிகளின் பட்டியலைப் பெறுகிறது…
+	Glow Colors	ஒளிர்வு நிறங்கள்
+	Go Back	பின்செல்
+	Go To	இதற்குச் செல்
+	Go to	அங்கு செல்
+	Go To (⌘⌥G)	இதற்குச் செல் (⌘⌥G)
+	Go to Record	பதிவுக்குச் செல்
+	Go to what:	எதற்குச் செல்ல வேண்டும்:
+	Go To…	இடத்துக்குச் செல்…
+	Gone! Like it was never written. Mostly because it now wasn't.	போயே போச்சு! எழுதப்படவே இல்லாதது போல. பெரும்பாலும், இப்போது அது உண்மையிலேயே எழுதப்படாததால்தான்.
+	Good afternoon	மதிய வணக்கம்
+	Good evening	மாலை வணக்கம்
+	Good morning	காலை வணக்கம்
+	GOST (name sort)	GOST (பெயர் வரிசை)
+	GOST (title sort)	GOST (தலைப்பு வரிசை)
+	Grab bag	கலவைப் பை
+	Gradient fill	நிறப் படித்திறன் நிரப்பு
+	Gradient stops	நிறப் படித்திறன் நிறுத்தங்கள்
+	Grammar built in	இலக்கணம் உள்ளமைந்தது
+	Grave	இறங்கு சாய்வுக்குறி
+	Gray 0%	சாம்பல் 0%
+	Gray-25%	சாம்பல்-25%
+	Gray-50%	சாம்பல்-50%
+	Greater than	இதைவிடப் பெரியது
+	Greater than or equal	இதைவிடப் பெரியது அல்லது சமம்
+	Greek	கிரேக்கம்
+	Greek Letters	கிரேக்க எழுத்துகள்
+	Green:	பச்சை:
+	Greeting Line	வாழ்த்து வரி
+	Greeting\nLine	வாழ்த்து\nவரி
+	Grid Table 1 Light	கட்ட அட்டவணை 1 வெளிர்
+	Grid Table 4 – Blue	கட்ட அட்டவணை 4 – நீலம்
+	Grid Table 4 – Green	கட்ட அட்டவணை 4 – பச்சை
+	Grid Table 4 – Orange	கட்ட அட்டவணை 4 – ஆரஞ்சு
+	Grid Table 4 – Purple	கட்ட அட்டவணை 4 – ஊதா
+	Gridlines	கட்டக்கோடுகள்
+	Grouping Character Above	மேலே குழுவாக்கும் எழுத்து
+	Grouping Character Below	கீழே குழுவாக்கும் எழுத்து
+	Grow Font 1 Point	எழுத்துருவை 1 புள்ளி பெரிதாக்கு
+	Guatemala	குவாத்தமாலா
+	H:	கி:
+	Hanging Indent	தொங்கும் உள்தள்ளல்
+#	Harvard (Anglia)	
+	Hat	தொப்பிக்குறி
+	Header	தலைப்பகுதி
+	Header & Footer	தலைப்பகுதி & அடிப்பகுதி
+	Header Row	தலைப்பு வரிசை
+	Header row	தலைப்பு வரிசை
+	Header/Footer Position	தலைப்பகுதி/அடிப்பகுதி நிலை
+	Headers and footers	தலைப்பகுதிகளும் அடிப்பகுதிகளும்
+	Heading	தலைப்பு
+	Heading 1	தலைப்பு 1
+	Heading 2	தலைப்பு 2
+	Heading 3	தலைப்பு 3
+	Heading styles (levels 1–{n})	தலைப்புப் பாணிகள் (மட்டங்கள் 1–{n})
+	Heading text	தலைப்பு உரை
+	Heading {n}	தலைப்பு {n}
+	Hebrew	ஹீப்ரு
+	Hex:	ஹெக்ஸ்:
+	Hi! I'm Nib, your writing assistant. I offer tips, shortcuts and the occasional unsolicited opinion. Shall I stick around?	வணக்கம்! நான் Nib, உங்கள் எழுத்து உதவியாளர். உதவிக்குறிப்புகள், குறுக்குவழிகள், அவ்வப்போது யாரும் கேட்காத கருத்துகள் ஆகியவற்றைத் தருவேன். நான் இங்கேயே இருக்கட்டுமா?
+	Hidden bookmarks	மறைக்கப்பட்ட புத்தகக்குறிகள்
+	Hide Codes	குறியீடுகளை மறை
+	Hide from style lists	பாணிப் பட்டியல்களிலிருந்து மறை
+	Hide Ink	மையை மறை
+	Hide Quick Access Toolbar	விரைவு அணுகல் கருவிப்பட்டியை மறை
+	Hide White Space	வெற்றிடத்தை மறை
+	Hide\nInk	மையை\nமறை
+	Hierarchy	படிநிலை
+	Highlight	முன்னிலைப்படுத்தல்
+	Highlight Merge Fields	ஒன்றிணைப்புப் புலங்களை முன்னிலைப்படுத்து
+	Highlight\nMerge Fields	ஒன்றிணைப்புப் புலங்களை\nமுன்னிலைப்படுத்து
+	Highlighter	முன்னிலைப்படுத்தி
+numerals	Hindi	இந்தி
+	Home folder	முகப்புக் கோப்புறை
+	Honduras	ஹோண்டுராஸ்
+	Hong Kong SAR	ஹாங்காங் சிறப்பு நிர்வாகப் பகுதி
+	Horizontal Line	கிடைமட்டக் கோடு
+	How many pages the whole document has	முழு ஆவணத்திலும் உள்ள பக்கங்களின் எண்ணிக்கை
+	How many pages this section has	இந்தப் பிரிவில் உள்ள பக்கங்களின் எண்ணிக்கை
+	How many words the document holds	ஆவணத்தில் உள்ள சொற்களின் எண்ணிக்கை
+	HTML Format	HTML வடிவம்
+	Hue:	சாயல்:
+	Hungarian	ஹங்கேரியன்
+	Hunspell .aff and .dic files here (pl_PL, pt_BR, it_IT, hr_HR, tr_TR) are used before the system's.	இங்குள்ள Hunspell .aff, .dic கோப்புகள் (pl_PL, pt_BR, it_IT, hr_HR, tr_TR) கணினியில் உள்ளவற்றுக்கு முன்பாகப் பயன்படுத்தப்படும்.
+	Hyperbolic Cosecant Function	அதிபரவளையக் கொசெகண்ட் சார்பு
+	Hyperbolic Cosine Function	அதிபரவளையக் கொசைன் சார்பு
+	Hyperbolic Cotangent Function	அதிபரவளையக் கொடேன்ஜென்ட் சார்பு
+	Hyperbolic Functions	அதிபரவளையச் சார்புகள்
+	Hyperbolic Secant Function	அதிபரவளையச் செகண்ட் சார்பு
+	Hyperbolic Sine Function	அதிபரவளையச் சைன் சார்பு
+	Hyperbolic Tangent Function	அதிபரவளைய டேன்ஜென்ட் சார்பு
+	Hyperlink	இணைப்பு
+	Hyphenate at:	சொற்பிரிப்பு இடம்:
+	Hyphenate words in CAPS	முழுதும் பெரிய எழுத்திலுள்ள சொற்களையும் சொற்பிரிப்பு செய்
+	Hyphenation Options…	சொற்பிரிப்பு விருப்பங்கள்…
+	Hyphenation zone:	சொற்பிரிப்பு மண்டலம்:
+	Hyphens (--) as dashes (—)	சுருக்கக்குறிகளை (--) நீள்கோடுகளாக (—)
+	Hypotenuse	கர்ணம்
+	I promise it's saved. I checked. Twice.	சத்தியமாகச் சேமிக்கப்பட்டுவிட்டது. நான் சரிபார்த்தேன். இரண்டு முறை.
+	I'd write something myself, but I'm all nib and no ink.	நானே ஏதாவது எழுதியிருப்பேன், ஆனால் என்னிடம் முனை மட்டும்தான், மை இல்லை.
+#	I, II, III, …	
+#	i, ii, iii, …	
+	Icelandic	ஐஸ்லாந்திக்
+	Icon Color	சின்ன நிறம்
+	Icons	சின்னங்கள்
+	Identity Matrices	அலகு அணிகள்
+#	IEEE	
+	If…Then…Else	என்றால்…அப்படியானால்…இல்லையெனில்
+	If…Then…Else…	என்றால்…அப்படியானால்…இல்லையெனில்…
+	Ignore punctuation characters	நிறுத்தற்குறிகளைப் புறக்கணி
+	Ignore web and file addresses	இணைய மற்றும் கோப்பு முகவரிகளைப் புறக்கணி
+	Ignore white-space characters	வெற்றிட எழுத்துகளைப் புறக்கணி
+	Ignore words in capitals	பெரிய எழுத்துகளில் உள்ள சொற்களைப் புறக்கணி
+	Ignore words with numbers	எண்கள் உள்ள சொற்களைப் புறக்கணி
+	Illustrations	சித்திரங்கள்
+	Immersive	ஆழ்நிலை
+	Immersive Reader	ஆழ்நிலை வாசிப்பான்
+	Immersive\nReader	ஆழ்நிலை\nவாசிப்பான்
+	Imported 1 source	1 மூலம் இறக்குமதி செய்யப்பட்டது
+	Imported {n} sources	{n} மூலங்கள் இறக்குமதி செய்யப்பட்டன
+	In Default apps, choose WordCraft for the document types you want it to open.	இயல்புநிலைப் பயன்பாடுகள் என்பதில், WordCraft திறக்க வேண்டிய ஆவண வகைகளுக்கு அதைத் தேர்ந்தெடுக்கவும்.
+	In equations, typing a name after a backslash replaces it with its symbol.	சமன்பாடுகளில், பின்சாய்வுக்கோட்டுக்குப் பிறகு ஒரு பெயரைத் தட்டச்சு செய்தால், அது அதன் குறியீட்டால் மாற்றப்படும்.
+	In Front of Text	உரைக்கு முன்னால்
+	In Line with Text	உரையுடன் வரிக்குள்
+	In margin	ஓரத்தில்
+	In the margin	ஓரத்தில்
+	Include label and number	லேபிளையும் எண்ணையும் சேர்
+	Include level number from:	இந்த மட்டத்தின் எண்ணையும் சேர்:
+	Include page numbers	பக்க எண்களைச் சேர்
+	Increase Indent	உள்தள்ளலை அதிகரி
+	Indent	உள்தள்ளு
+	Indent from left:	இடதுபுறத்திலிருந்து உள்தள்ளல்:
+	Indentation	உள்தள்ளல்
+	Indented	உள்தள்ளியது
+	Indents	உள்தள்ளல்கள்
+	Indents and Spacing	உள்தள்ளல்களும் இடைவெளியும்
+	Index and Tables	பொருளடைவும் அட்டவணைகளும்
+	Index Heading	பொருளடைவுத் தலைப்பு
+	Index {n}	பொருளடைவு {n}
+	India	இந்தியா
+	Indonesian	இந்தோனேசியன்
+	Initial column width:	தொடக்க நெடுவரிசை அகலம்:
+	Initials:	முதலெழுத்துகள்:
+	Ink	மை
+	Ink Replay	மை மறுஇயக்கம்
+	Ink to Shape	மையிலிருந்து வடிவம்
+	Ink to\nMath	மையிலிருந்து\nகணிதம்
+	Ink to\nShape	மையிலிருந்து\nவடிவம்
+	Ink\nReplay	மை\nமறுஇயக்கம்
+	Inline	வரிக்குள்
+	Input Format	உள்ளீட்டு வடிவம்
+	Insert a new equation (Alt+=)	புதிய சமன்பாட்டைச் செருகு (Alt+=)
+	Insert Above	மேலே செருகு
+	Insert Below	கீழே செருகு
+	Insert Caption	படவிளக்கத்தைச் செருகு
+	Insert Caption…	படவிளக்கத்தைச் செருகு…
+	Insert Chart	விளக்கப்படத்தைச் செருகு
+	Insert Citation	மூலக்குறிப்பைச் செருகு
+	Insert Columns to the Left	இடதுபுறம் நெடுவரிசைகளைச் செருகு
+	Insert Columns to the Right	வலதுபுறம் நெடுவரிசைகளைச் செருகு
+	Insert Date Field	தேதிப் புலத்தைச் செருகு
+	Insert Endnote	இறுதிக்குறிப்பைச் செருகு
+	Insert Footnote	அடிக்குறிப்பைச் செருகு
+	Insert Hyperlink	இணைப்பைச் செருகு
+	Insert Index	பொருளடைவைச் செருகு
+	Insert Left	இடப்புறம் செருகு
+	Insert Merge Field	ஒன்றிணைப்புப் புலத்தைச் செருகு
+	Insert Merge\nField	ஒன்றிணைப்புப்\nபுலத்தைச் செருகு
+	Insert New Equation	புதிய சமன்பாட்டைச் செருகு
+	Insert one text or another, depending on a field's value.	ஒரு புலத்தின் மதிப்பைப் பொறுத்து, ஓர் உரையையோ வேறோர் உரையையோ செருகும்.
+	Insert Page Field	பக்கப் புலத்தைச் செருகு
+	Insert reference to:	செருக வேண்டிய குறிப்பு:
+	Insert Right	வலப்புறம் செருகு
+	Insert Row or Column by Clicking	சொடுக்கி வரிசை அல்லது நெடுவரிசையைச் செருகு
+	Insert Rows Above	மேலே வரிசைகளைச் செருகு
+	Insert Rows Below	கீழே வரிசைகளைச் செருகு
+	Insert Shapes	வடிவங்களைச் செருகு
+	Insert SmartArt	SmartArt-ஐச் செருகு
+	Insert Spike	காகிதக் குத்தியைச் செருகு
+	Insert Structure	கட்டமைப்பைச் செருகு
+	Insert Symbol	குறியீட்டைச் செருகு
+	Insert Table	அட்டவணையைச் செருகு
+	Insert Table of Authorities	சட்ட ஆதார அட்டவணையைச் செருகு
+	Insert Table of Figures	படங்களின் அட்டவணையைச் செருகு
+	Insert Table…	அட்டவணையைச் செருகு…
+	Insert Time Field	நேரப் புலத்தைச் செருகு
+	Insert\nAbove	மேலே\nசெருகு
+	Insert\nCaption	படவிளக்கத்தைச்\nசெருகு
+	Insert\nCitation	மூலக்குறிப்பைச்\nசெருகு
+	Insert\nFootnote	அடிக்குறிப்பைச்\nசெருகு
+	Insertions and Deletions	செருகல்களும் நீக்கல்களும்
+	Insertions:	செருகல்கள்:
+	Inside Borders	உள் எல்லைகள்
+	Inside Horizontal Border	உள் கிடைமட்ட எல்லை
+	Inside Vertical Border	உள் செங்குத்து எல்லை
+	Inside:	உள்புறம்:
+	Inspect Styles at Selection	தேர்வில் உள்ள பாணிகளை ஆய்வுசெய்
+	Install	நிறுவு
+	Install ({size})	நிறுவு ({size})
+	Install Language Pack	மொழித் தொகுப்பை நிறுவு
+	Install spelling ({size})	எழுத்துக்கூட்டலை நிறுவு ({size})
+	Installed	நிறுவப்பட்டது
+	Installing turns on downloading of fonts and Language packs from GitHub.	நிறுவினால், GitHub-இலிருந்து எழுத்துருக்களையும் மொழித் தொகுப்புகளையும் பதிவிறக்குவது இயக்கப்படும்.
+	Installing… {percent}%	நிறுவுகிறது… {percent}%
+	Institution	நிறுவனம்
+	Integral	தொகையீடு
+	Integral of e^(−x²)	e^(−x²) இன் தொகையீடு
+	Integral with Limits	எல்லைகளுடன் தொகையீடு
+	Integral with Stacked Limits	அடுக்கிய எல்லைகளுடன் தொகையீடு
+	Integrals	தொகையீடுகள்
+	Intense Emphasis	தீவிர அழுத்தம்
+	Intense Quote	தீவிர மேற்கோள்
+	Intense Reference	தீவிரக் குறிப்பு
+	Interface language:	இடைமுக மொழி:
+	Interface size:	இடைமுக அளவு:
+	Interface theme:	இடைமுகத் தோற்றம்:
+	Interface\nTheme	இடைமுகத்\nதீம்
+	Internet addresses as links	இணைய முகவரிகளை இணைப்புகளாக
+	Intersection with Limits	எல்லைகளுடன் வெட்டு
+	Intersection with Lower Limit	கீழ் எல்லையுடன் வெட்டு
+	Intersection with Subscript-Superscript Limits	கீழெழுத்து-மேலெழுத்து எல்லைகளுடன் வெட்டு
+	Inverse Cosecant Function	நேர்மாறு கொசெகன்ட் சார்பு
+	Inverse Cosine Function	நேர்மாறு கொசைன் சார்பு
+	Inverse Cotangent Function	நேர்மாறு கோடேன்ஜென்ட் சார்பு
+	Inverse Functions	நேர்மாறு சார்புகள்
+	Inverse Hyperbolic Cosecant Function	நேர்மாறு அதிபரவளைய கொசெகன்ட் சார்பு
+	Inverse Hyperbolic Cosine Function	நேர்மாறு அதிபரவளைய கொசைன் சார்பு
+	Inverse Hyperbolic Cotangent Function	நேர்மாறு அதிபரவளைய கோடேன்ஜென்ட் சார்பு
+	Inverse Hyperbolic Functions	நேர்மாறு அதிபரவளையச் சார்புகள்
+	Inverse Hyperbolic Secant Function	நேர்மாறு அதிபரவளைய செகன்ட் சார்பு
+	Inverse Hyperbolic Sine Function	நேர்மாறு அதிபரவளைய சைன் சார்பு
+	Inverse Hyperbolic Tangent Function	நேர்மாறு அதிபரவளைய டேன்ஜென்ட் சார்பு
+	Inverse Secant Function	நேர்மாறு செகன்ட் சார்பு
+	Inverse Sine Function	நேர்மாறு சைன் சார்பு
+	Inverse Tangent Function	நேர்மாறு டேன்ஜென்ட் சார்பு
+	Ionosphere	அயனி மண்டலம்
+	Iraq	ஈராக்
+	Ireland	அயர்லாந்து
+	Irish	ஐரிஷ்
+	Is blank	காலியாக உள்ளது
+	Is not blank	காலியாக இல்லை
+	ISO 690 (author-date)	ISO 690 (ஆசிரியர்-தேதி)
+	ISO 690 (numerical)	ISO 690 (எண்முறை)
+	Issue	இதழ் எண்
+	It looks like you're writing a letter. Want an envelope for it, or a letter template to start from?	நீங்கள் ஒரு கடிதம் எழுதுவது போல் தெரிகிறது. அதற்கு ஓர் உறை வேண்டுமா, அல்லது தொடங்குவதற்கு ஒரு கடித வார்ப்புரு வேண்டுமா?
+	Italy	இத்தாலி
+	Its dictionary couldn't be read: {reason}	இதன் அகராதியைப் படிக்க முடியவில்லை: {reason}
+	Jamaica	ஜமைக்கா
+	Join the ArtCraft community on Discord	Discord-இல் ArtCraft சமூகத்தில் இணையுங்கள்
+	Join us on Discord: discord.gg/artcraft	Discord-இல் எங்களுடன் இணையுங்கள்: discord.gg/artcraft
+	Jordan	ஜோர்டான்
+	Journal	ஆய்விதழ்
+	Journal article	ஆய்விதழ்க் கட்டுரை
+	Justification of a display equation	தனி வரியில் உள்ள சமன்பாட்டின் சீரமைப்பு
+	Justified	இருபுறச் சீரமைப்பு
+	Kazakhstan	கஜகஸ்தான்
+	Keep Lines Together	வரிகளை ஒன்றாக வைத்திரு
+	Keep lines together	வரிகளை ஒன்றாக வை
+	Keep me around	நான் இங்கேயே இருக்கட்டும்
+	Keep Text Only	உரையை மட்டும் வைத்திரு
+	Keep the password somewhere safe: without it nobody, WordCraft included, can open the document. Leave both boxes empty to remove the password.	கடவுச்சொல்லைப் பாதுகாப்பான இடத்தில் வைத்திருக்கவும்: அது இல்லாமல் WordCraft உட்பட யாராலும் இந்த ஆவணத்தைத் திறக்க முடியாது. கடவுச்சொல்லை அகற்ற, இரண்டு பெட்டிகளையும் காலியாக விடவும்.
+	Keep with Next	அடுத்ததுடன் வைத்திரு
+	Keep with next	அடுத்ததுடன் சேர்த்து வை
+	Keeps the fonts and formatting of the copied text.	நகலெடுத்த உரையின் எழுத்துருக்களையும் வடிவமைப்பையும் தக்கவைக்கும்.
+	Kerning for fonts:	எழுத்துருக்களுக்கான கெர்னிங்:
+	Keyboard shortcuts:	விசைப்பலகைக் குறுக்குவழிகள்:
+	Keys for this command:	இந்தக் கட்டளைக்கான விசைகள்:
+	Kuwait	குவைத்
+	Label changes with:	மாற்றங்களைக் குறிக்கும் பெயர்:
+	Label:	லேபிள்:
+	Language data	மொழித் தரவு
+	Language Packs	மொழித் தொகுப்புகள்
+	Language packs aren't available in the browser.	உலாவியில் மொழித் தொகுப்புகள் கிடைக்காது.
+	Language packs come from a test source: {source}	மொழித் தொகுப்புகள் ஒரு சோதனை மூலத்திலிருந்து வருகின்றன: {source}
+	Language packs need the font store folder, and there is none on this computer.	மொழித் தொகுப்புகளுக்கு எழுத்துருக் களஞ்சியக் கோப்புறை தேவை, ஆனால் இந்தக் கணினியில் அது இல்லை.
+	Language Preferences…	மொழி விருப்பத்தேர்வுகள்…
+	Large\nOperator	பெரிய\nசெயற்குறி
+	Largest Only	பெரிய பக்கம் மட்டும்
+	Lasso Select	லாஸ்ஸோ தேர்வு
+	Last Column	கடைசி நெடுவரிசை
+	Last Name	குடும்பப் பெயர்
+	Last Record	கடைசிப் பதிவு
+	Last, First; Last, First	குடும்பப்பெயர், முதற்பெயர்; குடும்பப்பெயர், முதற்பெயர்
+	Latin text font:	லத்தீன் உரை எழுத்துரு:
+	Latvian	லாட்வியன்
+	Layout Summary	அமைப்புச் சுருக்கம்
+	Layouts	அமைப்பு வகைகள்
+	Leader	குறிப்புக்கோடு
+	Leave a recipient out of the merge when a field has this value.	ஒரு புலத்தில் இந்த மதிப்பு இருந்தால், அந்தப் பெறுநரை ஒன்றிணைப்பில் சேர்க்காமல் விடும்.
+	Leave Equation	சமன்பாட்டிலிருந்து வெளியேறு
+	Leave out the date and time of comments and tracked changes when saving	சேமிக்கும்போது கருத்துகள் மற்றும் கண்காணிக்கப்பட்ட மாற்றங்களின் தேதியையும் நேரத்தையும் விட்டுவிடு
+	Leave the equation (Esc)	சமன்பாட்டிலிருந்து வெளியேறு (Esc)
+	leave the equation first	முதலில் சமன்பாட்டிலிருந்து வெளியேறவும்
+	Leave the label out of the caption	படவிளக்கத்தில் லேபிளைச் சேர்க்காதே
+	Lebanon	லெபனான்
+	Left Arrow with Text Above	மேலே உரையுடன் இடது அம்புக்குறி
+	Left Arrow with Text Below	கீழே உரையுடன் இடது அம்புக்குறி
+	Left Border	இடது எல்லை
+	Left border	இடது எல்லை
+	Left Bracket Twice	இருமுறை இடது சதுர அடைப்புக்குறி
+	Left indent	இடது உள்தள்ளல்
+	Left Margin	இடது ஓரம்
+	Left Only	இடது பக்கம் மட்டும்
+	Left Right Arrow Above	மேலே இடது-வலது அம்புக்குறி
+	Left Right Arrow with Text Above	மேலே உரையுடன் இடது-வலது அம்புக்குறி
+	Left Right Arrow with Text Below	கீழே உரையுடன் இடது-வலது அம்புக்குறி
+	Left Subscript-Superscript	இடது கீழெழுத்து-மேலெழுத்து
+	Left-to-right	இடமிருந்து வலம்
+	Left-to-Right Text Direction	இடமிருந்து வலமாக உரைத் திசை
+	Leftwards Arrow Above	மேலே இடப்புற அம்புக்குறி
+	Leftwards Harpoon Above	மேலே இடப்புற அரை அம்புக்குறி
+#	Legal   8.50" × 14.00"	
+	Legal style numbering	சட்ட ஆவணப் பாணி எண்ணிடல்
+	Legend	குறிவிளக்கம்
+	Less Contrast −20%	மாறுபாடு குறைவு −20%
+	Less than	இதைவிடச் சிறியது
+	Less than or equal	இதைவிடச் சிறியது அல்லது சமம்
+template	Letter	கடிதம்
+#	Letter   8.50" × 11.00"	
+	Letter headings	எழுத்துத் தலைப்புகள்
+	Letter template	கடித வார்ப்புரு
+	Letter-Like Symbols	எழுத்து போன்ற குறியீடுகள்
+	Letters	கடிதங்கள்
+	Level 5	மட்டம் 5
+	Level 6	மட்டம் 6
+	Level 7	மட்டம் 7
+	Level 8	மட்டம் 8
+	Level 9	மட்டம் 9
+	Level {n}	மட்டம் {n}
+	Levels:	மட்டங்கள்:
+	Licence: {licence}. Source: {source}	உரிமம்: {licence}. மூலம்: {source}
+	Liechtenstein	லீக்டன்ஸ்டைன்
+	Light Variations	வெளிர் நிற வகைகள்
+	Light with Outline	வெளிர், வெளிக்கோட்டுடன்
+	Limit	எல்லை
+	Limit and	எல்லை மற்றும்
+	Limit and\nLog	எல்லை மற்றும்\nமடக்கை
+	Limit consecutive hyphens to:	அடுத்தடுத்த சுருக்கக்குறிகளின் வரம்பு:
+	Limit Example	எல்லை எடுத்துக்காட்டு
+	Limit formatting to a selection of styles	வடிவமைப்பைத் தேர்ந்தெடுத்த பாணிகளுக்கு மட்டும் வரம்பிடு
+	Line and Page Breaks	வரி மற்றும் பக்க முறிவுகள்
+	Line and Paragraph Spacing	வரி மற்றும் பத்தி இடைவெளி
+	Line between	இடையில் கோடு
+	Line Break	வரி முறிவு
+	Line breaking	வரி முறிப்பு
+	Line End	வரி முடிவு
+	Line Number	வரி எண்
+	Line Numbering Options…	வரி எண்ணிடல் விருப்பங்கள்…
+	Line Numbers	வரி எண்கள்
+	Line Spacing	வரி இடைவெளி
+	Line Spacing Options…	வரி இடைவெளி விருப்பங்கள்…
+	Line spacing:	வரி இடைவெளி:
+	Line Start	வரித் தொடக்கம்
+	Linear Diagonal - Bottom Left to Top Right	நேரியல் மூலைவிட்டம் - கீழ் இடதிலிருந்து மேல் வலதுக்கு
+	Linear Diagonal - Bottom Right to Top Left	நேரியல் மூலைவிட்டம் - கீழ் வலதிலிருந்து மேல் இடதுக்கு
+	Linear Diagonal - Top Left to Bottom Right	நேரியல் மூலைவிட்டம் - மேல் இடதிலிருந்து கீழ் வலதுக்கு
+	Linear Diagonal - Top Right to Bottom Left	நேரியல் மூலைவிட்டம் - மேல் வலதிலிருந்து கீழ் இடதுக்கு
+	Linear Down	நேரியல் கீழ்நோக்கி
+	Linear Fraction	நேரியல் பின்னம்
+	Linear Left	நேரியல் இடப்புறமாக
+	Linear Right	நேரியல் வலப்புறமாக
+	Linear Up	நேரியல் மேல்நோக்கி
+	Lines and characters	வரிகளும் எழுத்துகளும்
+	Lines only	வரிகள் மட்டும்
+	Lines per page:	ஒரு பக்கத்துக்கு வரிகள்:
+	Lines to drop:	இறக்க வேண்டிய வரிகள்:
+	Link entries to their headings	உள்ளீடுகளை அவற்றின் தலைப்புகளுடன் இணை
+	Link level to style:	மட்டத்தைப் பாணியுடன் இணை:
+	Link to Previous	முந்தையதுடன் இணை
+	Link to:	இதனுடன் இணை:
+	Linked style (paragraph and character)	இணைக்கப்பட்ட பாணி (பத்தி மற்றும் எழுத்து)
+	Links and References	இணைப்புகளும் குறிப்புகளும்
+	Link…	இணைப்பு…
+	List Definition	பட்டியல் வரையறை
+	List entries	பட்டியல் உள்ளீடுகள்
+	List Paragraph	பட்டியல் பத்தி
+	List Table 3 – Blue	பட்டியல் அட்டவணை 3 – நீலம்
+	List Table 3 – Green	பட்டியல் அட்டவணை 3 – பச்சை
+	List Table 3 – Orange	பட்டியல் அட்டவணை 3 – ஆரஞ்சு
+	List Table 3 – Purple	பட்டியல் அட்டவணை 3 – ஊதா
+	Lit from Bottom	கீழிருந்து ஒளியூட்டல்
+	Lit from Top	மேலிருந்து ஒளியூட்டல்
+	Lithuanian	லிதுவேனியன்
+	Load System Installed Fonts…	கணினியில் நிறுவப்பட்ட எழுத்துருக்களை ஏற்று…
+	Loaded {count} system fonts.	{count} கணினி எழுத்துருக்கள் ஏற்றப்பட்டன.
+	Local font access is not supported by your browser.	உங்கள் உலாவி உள்ளூர் எழுத்துரு அணுகலை ஆதரிக்கவில்லை.
+	Local font access was denied.	உள்ளூர் எழுத்துரு அணுகல் மறுக்கப்பட்டது.
+	Local recovery is unavailable or still loading.	உள்ளூர் மீட்பு கிடைக்கவில்லை அல்லது இன்னும் ஏற்றப்படுகிறது.
+	Location: {path}	இடம்: {path}
+	Lock aspect ratio	தோற்ற விகிதத்தைப் பூட்டு
+	Lock Fields	புலங்களைப் பூட்டு
+	Log	மடக்கை
+	Logarithm	மடக்கை
+	Logarithm with Base	அடிமானத்துடன் மடக்கை
+	Logical AND	தருக்க AND
+	Logical AND with Limits	எல்லைகளுடன் தருக்க AND
+	Logical OR	தருக்க OR
+	Logical OR with Limits	எல்லைகளுடன் தருக்க OR
+	Lorem ipsum: because the real words are still at the café.	Lorem ipsum: ஏனென்றால் உண்மையான சொற்கள் இன்னும் டீக்கடையிலேயே இருக்கின்றன.
+	Lum:	ஒளிர்வு:
+	Luxembourg	லக்சம்பர்க்
+	Macao SAR	மக்காவு சிறப்பு நிர்வாகப் பகுதி
+	Macedonian	மாசிடோனியன்
+	Macro name:	மேக்ரோ பெயர்:
+	Macros	மேக்ரோக்கள்
+	Made from the author and year when empty	காலியாக இருந்தால் ஆசிரியர், ஆண்டு ஆகியவற்றிலிருந்து உருவாக்கப்படும்
+	Magazine or newspaper article	இதழ் அல்லது செய்தித்தாள் கட்டுரை
+	Mail Merge	அஞ்சல் ஒன்றிணைப்பு
+	Mailings	அஞ்சல்கள்
+	Main entry:	முதன்மை உள்ளீடு:
+	Make WordCraft the default for Word documents…	Word ஆவணங்களுக்கு WordCraft-ஐ இயல்புநிலையாக்கு…
+	Makes the ribbon, menus and dialogs larger or smaller. Auto follows your system's display scaling; 100% is one screen pixel per point. Document zoom is separate.	ரிப்பன், மெனுக்கள், உரையாடல் பெட்டிகளைப் பெரிதாக்கும் அல்லது சிறிதாக்கும். தானியங்கி என்பது உங்கள் கணினியின் திரை அளவாக்கத்தைப் பின்பற்றும்; 100% என்பது ஒரு புள்ளிக்கு ஒரு திரை பிக்சல். ஆவணப் பெரிதாக்கம் தனியானது.
+	Malaysia	மலேசியா
+	Manage Sources	மூலங்களை நிர்வகி
+	Manage Styles	பாணிகளை நிர்வகி
+	Manage Styles…	பாணிகளை நிர்வகி…
+	Manual Hyphenation	கைமுறைச் சொற்பிரிப்பு
+	Manual hyphenation is complete.	கைமுறைச் சொற்பிரிப்பு முடிந்தது.
+	Manual Line Break	கைமுறை வரி முறிவு
+	Manual Page Break	கைமுறைப் பக்க முறிவு
+	Manual…	கைமுறை…
+	Many pages	பல பக்கங்கள்
+	Mark	குறி
+	Mark All	அனைத்தையும் குறி
+	Mark as decorative	அலங்காரமாகக் குறி
+	Mark Citation	மூலக்குறிப்பைக் குறி
+	Mark Entry	உள்ளீட்டைக் குறி
+	Mark Entry…	உள்ளீட்டைக் குறி…
+	Mark grammar errors as you type	தட்டச்சு செய்யும்போதே இலக்கணப் பிழைகளைக் குறி
+	Mark Index Entry	பொருளடைவு உள்ளீட்டைக் குறி
+	Mark selected text as:	தேர்ந்தெடுத்த உரையை இம்மொழியாகக் குறி:
+	Mark\nCitation	மூலக்குறிப்பைக்\nகுறி
+	Mark\nEntry	உள்ளீட்டைக்\nகுறி
+#	Markdown (*.md)	
+	Match case	பெரிய/சிறிய எழுத்துப் பொருத்தம்
+	Match Fields	புலங்களைப் பொருத்து
+	Match prefix	முன்னொட்டைப் பொருத்து
+	Match suffix	பின்னொட்டைப் பொருத்து
+	Matches: {count}	பொருத்தங்கள்: {count}
+	Math AutoCorrect	கணிதத் தானியங்கித் திருத்தம்
+	Matrices with Brackets	அடைப்புக்குறிகளுடன் அணிகள்
+	Matrix	அணி
+	Maximum Example	பெருமம் எடுத்துக்காட்டு
+	Measured By	அளக்கப்படுவது
+	Measurement units:	அளவீட்டு அலகுகள்:
+	Merge cells before split	பிரிக்கும் முன் கலங்களை ஒன்றிணை
+	Merge Formatting	வடிவமைப்பை ஒன்றிணை
+	Merge Record #	ஒன்றிணைப்புப் பதிவு #
+	Mesosphere	இடை மண்டலம்
+	Mexico	மெக்சிகோ
+	Midline Dots	நடுக்கோட்டுப் புள்ளிகள்
+	Minus Equal	கழித்தல் சமம்
+	Mirror indents	பிரதிபலிப்பு உள்தள்ளல்கள்
+	Mirror margins	பிரதிபலிப்பு ஓரங்கள்
+	Mirrored	பிரதிபலித்த
+	MIT OR Apache-2.0. Copyright (c) 2026 ArtCraft Team and the WordCraft contributors.	MIT OR Apache-2.0. பதிப்புரிமை (c) 2026 ArtCraft குழு மற்றும் WordCraft பங்களிப்பாளர்கள்.
+#	MLA	
+#	mm	
+	Moderate	மிதமான
+	Modify Style	பாணியை மாற்றியமை
+	Modify Table Style	அட்டவணைப் பாணியை மாற்றியமை
+	Modify Table Style…	அட்டவணைப் பாணியை மாற்றியமை…
+	Modify…	மாற்றியமை…
+	Mon	திங்
+	Monaco	மொனாக்கோ
+	Montenegro	மான்டெனெக்ரோ
+	Month	மாதம்
+	More >>	மேலும் >>
+	More Colors…	மேலும் நிறங்கள்…
+	More Columns…	மேலும் நெடுவரிசைகள்…
+	More Commands…	மேலும் கட்டளைகள்…
+	More Contrast +20%	மாறுபாடு கூடுதல் +20%
+	More Gradients…	மேலும் நிறப் படித்திறன்கள்…
+	More options	மேலும் விருப்பங்கள்
+	More Paper Sizes…	மேலும் காகித அளவுகள்…
+	More Symbols…	மேலும் குறியீடுகள்…
+	More tabs	மேலும் தத்தல்கள்
+	More templates →	மேலும் வார்ப்புருக்கள் →
+	More Underlines…	மேலும் அடிக்கோடுகள்…
+	Morocco	மொராக்கோ
+	Move in Equation	சமன்பாட்டில் நகர்
+	Move or Resize	நகர்த்து அல்லது அளவை மாற்று
+	Move Pane: {title}	பலகத்தை நகர்த்து: {title}
+	Move Paragraph Down	பத்தியைக் கீழே நகர்த்து
+	Move Paragraph Up	பத்தியை மேலே நகர்த்து
+	Move Past Citation	மூலக்குறிப்பைக் கடந்து செல்
+	Move Past\nCitation	மூலக்குறிப்பைக்\nகடந்து செல்
+	Move Selected Ink	தேர்ந்தெடுத்த மையை நகர்த்து
+	Move Table by Dragging	இழுத்து அட்டவணையை நகர்த்து
+	Move with Text	உரையுடன் நகர்த்து
+	Moved from	இங்கிருந்து நகர்த்தப்பட்டது
+	Moved from:	நகர்த்தப்பட்ட மூல இடம்:
+	Moved objects snap to the page's edges and centre, the margins and other objects. Hold Alt to move freely.	நகர்த்தப்படும் பொருள்கள் பக்கத்தின் விளிம்புகள், மையம், ஓரங்கள் மற்றும் பிற பொருள்களுடன் ஒட்டிக்கொள்ளும். சுதந்திரமாக நகர்த்த Alt-ஐ அழுத்திப் பிடிக்கவும்.
+	Moved to	இங்கு நகர்த்தப்பட்டது
+	Moved to:	நகர்த்தப்பட்ட புதிய இடம்:
+	Moves	நகர்வுகள்
+	Mozambique	மொசாம்பிக்
+	Multilevel List	பல்நிலைப் பட்டியல்
+	Multilevel List Library	பல்நிலைப் பட்டியல் நூலகம்
+	Multiple Pages	பல பக்கங்கள்
+	Mute agent messages	முகவர் செய்திகளை ஒலியடக்கு
+	Muted 50%	மங்கிய 50%
+	My list has	எனது பட்டியலில் இருப்பது
+	Name of the file this document is saved as	இந்த ஆவணம் சேமிக்கப்பட்டுள்ள கோப்பின் பெயர்
+	Narrow	குறுகிய
+	Narrow  {size} all	குறுகிய  அனைத்தும் {size}
+	Natural Logarithm	இயல் மடக்கை
+	Nature	இயற்கை
+	Navigation Pane	வழிசெலுத்தல் பலகம்
+	Negated Relations	மறுக்கப்பட்ட உறவுகள்
+	Netherlands	நெதர்லாந்து
+	New blank documents are written in this language	புதிய வெற்று ஆவணங்கள் இந்த மொழியில் எழுதப்படும்
+	New Comment	புதிய கருத்து
+	New comments and tracked changes are recorded under this name and these initials.	புதிய கருத்துகளும் கண்காணிக்கப்பட்ட மாற்றங்களும் இந்தப் பெயர் மற்றும் முதலெழுத்துகளின் கீழ் பதிவுசெய்யப்படும்.
+	New Documents Based on This Template	இந்த வார்ப்புருவை அடிப்படையாகக் கொண்ட புதிய ஆவணங்கள்
+	New documents based on this template	இந்த வார்ப்புருவை அடிப்படையாகக் கொண்ட புதிய ஆவணங்கள்
+	New documents will use this font.	புதிய ஆவணங்கள் இந்த எழுத்துருவைப் பயன்படுத்தும்.
+	New documents will use this page setup.	புதிய ஆவணங்கள் இந்தப் பக்க அமைப்பைப் பயன்படுத்தும்.
+	New documents will use this paragraph formatting.	புதிய ஆவணங்கள் இந்தப் பத்தி வடிவமைப்பைப் பயன்படுத்தும்.
+	New documents will use this style.	புதிய ஆவணங்கள் இந்தப் பாணியைப் பயன்படுத்தும்.
+	New documents will use WordCraft's built-in formatting.	புதிய ஆவணங்கள் WordCraft இன் உள்ளமைந்த வடிவமைப்பைப் பயன்படுத்தும்.
+	New documents will use WordCraft's built-in formatting. Your saved defaults can't be recovered. Reset?	புதிய ஆவணங்கள் WordCraft இன் உள்ளமைந்த வடிவமைப்பைப் பயன்படுத்தும். நீங்கள் சேமித்த இயல்புநிலைகளை மீட்டெடுக்க முடியாது. மீட்டமைக்கவா?
+	New Drawing Canvas	புதிய வரைதல் தளம்
+	New Entry	புதிய உள்ளீடு
+	New Label	புதிய லேபிள்
+	New Label…	புதிய லேபிள்…
+	New Paragraph	புதிய பத்தி
+	New shortcut:	புதிய குறுக்குவழி:
+	New Tab	புதிய தத்தல்
+	New Table Style	புதிய அட்டவணைப் பாணி
+	New Table Style…	புதிய அட்டவணைப் பாணி…
+	New word	புதிய சொல்
+	New Zealand	நியூசிலாந்து
+	New\nComment	புதிய\nகருத்து
+	New\nWindow	புதிய\nசாளரம்
+	Next Comment	அடுத்த கருத்து
+	Next Field	அடுத்த புலம்
+	Next Footnote	அடுத்த அடிக்குறிப்பு
+	Next Record	அடுத்த பதிவு
+	Next Section	அடுத்த பிரிவு
+	Next Sentence	அடுத்த வாக்கியம்
+	Next sentence	அடுத்த வாக்கியம்
+	Nib floats over the window with tips and the occasional remark.	Nib உதவிக்குறிப்புகளுடனும் அவ்வப்போது சில கருத்துகளுடனும் சாளரத்தின் மேல் மிதக்கும்.
+	Nib, your assistant. Drag to move; right-click for options.	Nib, உங்கள் உதவியாளர். நகர்த்த இழுக்கவும்; விருப்பங்களுக்கு வலது கிளிக் செய்யவும்.
+	Nicaragua	நிகரகுவா
+	No accessibility issues found.	அணுகல்தன்மைச் சிக்கல்கள் எதுவும் கண்டறியப்படவில்லை.
+	No Border	எல்லை இல்லை
+	No changes (read only)	மாற்றங்கள் இல்லை (படிக்க மட்டும்)
+	No contributor data was built into this copy.	இந்த நகலில் பங்களிப்பாளர் தரவு சேர்க்கப்படவில்லை.
+	No document is open. Create a document or open one first.	எந்த ஆவணமும் திறக்கப்படவில்லை. முதலில் ஓர் ஆவணத்தை உருவாக்கவும் அல்லது திறக்கவும்.
+	no equation at the caret	கர்சர் உள்ள இடத்தில் சமன்பாடு இல்லை
+	No errors found: every merge field is in the recipient list.	பிழைகள் எதுவும் இல்லை: ஒவ்வொரு ஒன்றிணைப்புப் புலமும் பெறுநர் பட்டியலில் உள்ளது.
+	No Fill	நிரப்பு இல்லை
+	No fill	நிரப்பு இல்லை
+	No Glow	ஒளிர்வு இல்லை
+	No Gradient	நிறப் படித்திறன் இல்லை
+	No grid	கட்டம் இல்லை
+	No header row	தலைப்பு வரிசை இல்லை
+	No icons match your search.	உங்கள் தேடலுக்குப் பொருந்தும் ஐகான்கள் எதுவும் இல்லை.
+	No items to show.	காண்பிக்க உருப்படிகள் எதுவும் இல்லை.
+	No language matches your search.	உங்கள் தேடலுக்குப் பொருந்தும் மொழி எதுவும் இல்லை.
+	No languages to show yet.	காண்பிக்க இன்னும் மொழிகள் எதுவும் இல்லை.
+	No Markup	குறியீடுகள் இல்லை
+	No model credits were built into this copy.	இந்த நகலில் மாதிரி நன்றிகள் சேர்க்கப்படவில்லை.
+	No new sources in that file	அந்தக் கோப்பில் புதிய மூலங்கள் இல்லை
+	No Outline	வெளிக்கோடு இல்லை
+	No Paragraph Space	பத்தி இடைவெளி இல்லை
+	No printers found. Configure a system printer or export a PDF.	அச்சுப்பொறிகள் எதுவும் கிடைக்கவில்லை. ஒரு கணினி அச்சுப்பொறியை உள்ளமைக்கவும் அல்லது PDF ஆக ஏற்றுமதி செய்யவும்.
+	No recovery copies.	மீட்பு நகல்கள் எதுவும் இல்லை.
+	No Reflection	பிரதிபலிப்பு இல்லை
+	No Scaling	அளவிடுதல் இல்லை
+	No Shadow	நிழல் இல்லை
+	No Soft Edges	மென் விளிம்புகள் இல்லை
+	No sources yet.	இன்னும் மூலங்கள் எதுவும் இல்லை.
+	No Spacing	இடைவெளி இல்லை
+	No spelling dictionary for {language} is installed, so it isn't checked. WordCraft looks for the Hunspell dictionary {name} in the WORDCRAFT_DICTIONARIES folder and in the usual system locations.	{language} மொழிக்கான எழுத்துக்கூட்டல் அகராதி நிறுவப்படவில்லை, எனவே அம்மொழி உரை சரிபார்க்கப்படவில்லை. WordCraft, Hunspell அகராதி {name} ஐ WORDCRAFT_DICTIONARIES கோப்புறையிலும் வழக்கமான கணினி இடங்களிலும் தேடுகிறது.
+	No templates match your search.	உங்கள் தேடலுக்குப் பொருந்தும் வார்ப்புருக்கள் எதுவும் இல்லை.
+	No Transform	உருமாற்றம் இல்லை
+	No watermark	நீர்க்குறி இல்லை
+	No words yet. Add to Dictionary on a misspelled word puts it here.	இன்னும் சொற்கள் எதுவும் இல்லை. எழுத்துப்பிழையுள்ள சொல்லில் அகராதியில் சேர் என்பதைத் தேர்ந்தெடுத்தால் அது இங்கே சேர்க்கப்படும்.
+	No-Width Non Break	அகலமில்லா முறிக்காத குறி
+	No-Width Optional Break	அகலமில்லா விருப்ப முறிவு
+	Nonbreaking Hyphen	முறிக்காத சுருக்கக்குறி
+	Normal  {size} all	இயல்பான  அனைத்தும் {size}
+	Normal Indent	இயல்பான உள்தள்ளல்
+	Normal probability density	இயல்நிலை நிகழ்தகவு அடர்த்தி
+	Normal speed	இயல்பான வேகம்
+	Normal Style	இயல்பான பாணி
+	Normal Table	இயல்பான அட்டவணை
+	Normal Text	இயல்பான உரை
+	Normal Word Document	இயல்பான Word ஆவணம்
+	North	வடக்கு
+	Norwegian (Bokmål)	நார்வேஜியன் (பொக்மால்)
+	Norwegian (Nynorsk)	நார்வேஜியன் (நினார்ஸ்க்)
+	Not	அல்லாதது
+	Not available right now	இப்போது கிடைக்கவில்லை
+	Not available yet	இன்னும் கிடைக்கவில்லை
+	not editing an equation	நீங்கள் சமன்பாட்டைத் திருத்திக்கொண்டிருக்கவில்லை
+	Not equal to	இதற்குச் சமமில்லை
+	Not in Dictionary	அகராதியில் இல்லை
+	Not linked: click a text box	இணைக்கப்படவில்லை: ஒரு உரைப் பெட்டியைக் கிளிக் செய்யவும்
+	Not now	இப்போது வேண்டாம்
+	Not saved	சேமிக்கப்படவில்லை
+	Not saved yet	இன்னும் சேமிக்கப்படவில்லை
+	Not set	அமைக்கப்படவில்லை
+	Not set: the system's usual places	அமைக்கப்படவில்லை: கணினியின் வழக்கமான இடங்கள்
+	Not used by any command	எந்தக் கட்டளையும் பயன்படுத்தவில்லை
+	Not {name}	{name} இல்லை
+	Nothing	எதுவுமில்லை
+	Nothing collected yet. Items you copy or cut appear here.	இன்னும் எதுவும் சேகரிக்கப்படவில்லை. நீங்கள் நகலெடுக்கும் அல்லது வெட்டும் உருப்படிகள் இங்கே தோன்றும்.
+	nothing is selected	எதுவும் தேர்ந்தெடுக்கப்படவில்லை
+	Nothing of this type in the document.	ஆவணத்தில் இந்த வகையில் எதுவும் இல்லை.
+	Now used by {command}	தற்போது {command} கட்டளை பயன்படுத்துகிறது
+	Nudge	சிறு நகர்வு
+	Num Occurrences	நிகழ்வுகளின் எண்ணிக்கை
+	Number alignment:	எண் சீரமைப்பு:
+	Number format	எண் வடிவமைப்பு
+	Number of columns:	நெடுவரிசைகளின் எண்ணிக்கை:
+	Number of rows:	வரிசைகளின் எண்ணிக்கை:
+	Number of the page the field sits on	புலம் அமைந்துள்ள பக்கத்தின் எண்
+	Number of the section the field sits in	புலம் அமைந்துள்ள பிரிவின் எண்
+	Number only, without the label's words	எண் மட்டும், லேபிளின் சொற்கள் இல்லாமல்
+	Number style for this level:	இந்த மட்டத்துக்கான எண் பாணி:
+	Number the equation; the number sits at the right margin (or type # then the number)	சமன்பாட்டுக்கு எண்ணிடு; எண் வலது ஓரத்தில் அமையும் (அல்லது # ஐத் தட்டச்சு செய்து பின்னர் எண்ணைத் தட்டச்சு செய்யவும்)
+	Numbering	எண்ணிடல்
+	Numbering:	எண்ணிடல்:
+	Numbering…	எண்ணிடல்…
+	Numerals	எண்கள்
+	Numerals:	எண்கள்:
+	n×n Identity Matrix	n×n அலகு அணி
+	n×n Matrix	n×n அணி
+	Odd Banded Columns	ஒற்றைப்படைப் பட்டை நெடுவரிசைகள்
+	Odd Banded Rows	ஒற்றைப்படைப் பட்டை வரிசைகள்
+	Odd Page	ஒற்றைப்படைப் பக்கம்
+	Office	அலுவலகம்
+	Office 2003 Default	Office 2003 இயல்புநிலை
+	Offset (pt):	நகர்வு (pt):
+	Offset: Bottom	விலகல்: கீழ்
+	Offset: Bottom Left	விலகல்: கீழ் இடது
+	Offset: Bottom Right	விலகல்: கீழ் வலது
+	Offset: Center	விலகல்: மையம்
+	Offset: Left	விலகல்: இடது
+	Offset: Right	விலகல்: வலது
+	Offset: Top	விலகல்: மேல்
+	Offset: Top Left	விலகல்: மேல் இடது
+	Offset: Top Right	விலகல்: மேல் வலது
+	Old menu keys: Alt, {keys}. Keep typing, or press Esc to cancel.	பழைய மெனு விசைகள்: Alt, {keys}. தொடர்ந்து தட்டச்சு செய்யவும், அல்லது ரத்துசெய்ய Esc-ஐ அழுத்தவும்.
+	On: the caret glides to its new place when you type or use the arrow keys, and its blink fades. Off: it jumps and blinks on and off.	இயக்கத்தில்: நீங்கள் தட்டச்சு செய்யும்போதோ அம்புக்குறி விசைகளைப் பயன்படுத்தும்போதோ கர்சர் தனது புதிய இடத்திற்குச் சறுக்கிச் செல்லும், அதன் மின்னுதல் மெல்ல மங்கும். முடக்கத்தில்: அது தாவிச் செல்லும், தோன்றி மறைந்து மின்னும்.
+	On: WordCraft opens on File › Home, with a blank document, the templates and your recent documents. Off: it opens a blank document.	இயக்கத்தில்: WordCraft கோப்பு › முகப்பு பக்கத்தில் திறக்கும்; அதில் ஒரு வெற்று ஆவணம், வார்ப்புருக்கள், உங்கள் சமீபத்திய ஆவணங்கள் இருக்கும். முடக்கத்தில்: அது ஒரு வெற்று ஆவணத்தைத் திறக்கும்.
+	One	ஒன்று
+	One half	அரை
+	One label per recipient	ஒரு பெறுநருக்கு ஒரு சீட்டு
+	One line per item. Enter adds an item.	ஒரு உருப்படிக்கு ஒரு வரி. Enter அழுத்தினால் ஓர் உருப்படி சேர்க்கப்படும்.
+	One Page	ஒரு பக்கம்
+	One-sided	ஒருபக்கம்
+	Only allow this kind of editing:	இந்த வகைத் திருத்தத்தை மட்டும் அனுமதி:
+	Only comments can be added, except in regions marked editable.	திருத்தக்கூடியவை எனக் குறிக்கப்பட்ட பகுதிகளைத் தவிர, பிற இடங்களில் கருத்துகளை மட்டுமே சேர்க்க முடியும்.
+	Only for the selected text	தேர்ந்தெடுத்த உரைக்கு மட்டும்
+	Only form fields can be filled in.	படிவப் புலங்களை மட்டுமே நிரப்ப முடியும்.
+	only in Outline view	புறவரிப் பார்வையில் மட்டும்
+	Only in this document	இந்த ஆவணத்தில் மட்டும்
+	Only label and number	லேபிளும் எண்ணும் மட்டும்
+	Only text properties can be changed.	உரைப் பண்புகளை மட்டுமே மாற்ற முடியும்.
+	Only the allowed styles can be applied.	அனுமதிக்கப்பட்ட பாணிகளை மட்டுமே பயன்படுத்த முடியும்.
+	Only web (http, https) and email (mailto) links can be followed	இணைய (http, https), மின்னஞ்சல் (mailto) இணைப்புகளை மட்டுமே பின்தொடர முடியும்
+	Only you can turn on downloading: click the button yourself. Agents can install once it is on.	பதிவிறக்கத்தை நீங்கள் மட்டுமே இயக்க முடியும்: பொத்தானை நீங்களே கிளிக் செய்யவும். அது இயக்கப்பட்டதும் முகவர்கள் நிறுவலாம்.
+spacing	Open	விசாலமான
+	Open a document first	முதலில் ஒரு ஆவணத்தைத் திறக்கவும்
+	Open a file with WordCraft's own browser when the system file dialog doesn't appear.	கணினியின் கோப்பு உரையாடல் பெட்டி தோன்றாதபோது, WordCraft இன் சொந்த உலாவி மூலம் கோப்பைத் திறக்கவும்.
+	OpenDocument Text (*.odt)	OpenDocument உரை (*.odt)
+	Opening print dialog…	அச்சு உரையாடல் பெட்டியைத் திறக்கிறது…
+	Opens .docx, .doc, .rtf and .odt files and Word templates with WordCraft from now on.	இனிமேல் .docx, .doc, .rtf, .odt கோப்புகளையும் Word வார்ப்புருக்களையும் WordCraft-இல் திறக்கும்.
+	Opens Settings › Default apps, where you choose WordCraft for .docx and the other document types.	அமைப்புகள் › இயல்புநிலைப் பயன்பாடுகள் பகுதியைத் திறக்கும்; அங்கு .docx மற்றும் பிற ஆவண வகைகளுக்கு WordCraft-ஐத் தேர்ந்தெடுக்கலாம்.
+	Operator	செயற்குறி
+	Operator Structures	செயற்குறிக் கட்டமைப்புகள்
+	Operators	செயற்குறிகள்
+	Optional Hyphen	விருப்பச் சுருக்கக்குறி
+	Or	அல்லது
+	Or save a copy in another format:	அல்லது ஒரு நகலை வேறொரு வடிவத்தில் சேமிக்கவும்:
+	Ordinals (1st) as superscript	வரிசை எண்களை (1st) மேலெழுத்தாக
+	Organizer	ஒழுங்கமைப்பான்
+	Organizer…	ஒழுங்கமைப்பான்…
+	Original document	அசல் ஆவணம்
+	Original size	அசல் அளவு
+	Other Large Operators	பிற பெரிய செயற்குறிகள்
+	Other styles and their TOC level:	பிற பாணிகளும் அவற்றின் உள்ளடக்க அட்டவணை மட்டமும்:
+	Other:	பிற:
+	Otherwise insert:	இல்லையெனில் செருகு:
+	Outline Level	புறவரி மட்டம்
+	Outline level	புறவரி மட்டம்
+	Outline levels	புறவரி மட்டங்கள்
+	Outline State	புறவரி நிலை
+	Outline Tools	புறவரிக் கருவிகள்
+	Outlining	புறவரியாக்கம்
+	Outside border	வெளி எல்லை
+	Outside Borders	வெளி எல்லைகள்
+	Outside:	வெளிப்புறம்:
+	Outward Brackets	வெளிநோக்கிய அடைப்புக்குறிகள்
+	Overbar	மேல் கோடு
+	Overbars and Underbars	மேல் கோடுகளும் கீழ் கோடுகளும்
+	Overbrace	மேல் நெளி அடைப்புக்குறி
+	Overtype	மேலெழுதும் பயன்முறை
+	Overtype (typing replaces the characters after the caret)	மேலெழுதுதல் (தட்டச்சு செய்வது கர்சருக்குப் பின் உள்ள எழுத்துகளை மாற்றும்)
+	Page Background	பக்கப் பின்னணி
+	Page Border	பக்க எல்லை
+	Page Borders	பக்க எல்லைகள்
+	Page Break	பக்க முறிவு
+	Page Break Before	முன்னதாகப் பக்க முறிவு
+	Page break before	முன்னால் பக்க முறிவு
+	Page Breaks	பக்க முறிவுகள்
+	Page Color	பக்க நிறம்
+	Page color	பக்க நிறம்
+	Page display	பக்கக் காட்சி
+	Page Down	பக்கம் கீழே
+	Page image (*.png)	பக்கப் படம் (*.png)
+	Page Movement	பக்க நகர்வு
+	Page Number	பக்க எண்
+	Page Number Format	பக்க எண் வடிவமைப்பு
+	Page number style	பக்க எண் பாணி
+	Page numbering	பக்க எண்ணிடல்
+	Page numbers at the right margin	வலது ஓரத்தில் பக்க எண்கள்
+	Page on which a bookmarked passage falls	புத்தகக்குறியிட்ட பகுதி அமைந்துள்ள பக்கம்
+	Page Setup	பக்க அமைப்பு
+	Page title	பக்கத் தலைப்பு
+	Page Up	பக்கம் மேலே
+	Page Width	பக்க அகலம்
+	Page width	பக்க அகலம்
+	Page X of Y	பக்கம் X / Y
+	Page {page}	பக்கம் {page}
+	Page\nBorders	பக்க\nஎல்லைகள்
+	Page\nColor	பக்க\nநிறம்
+	Page\nNumber	பக்க\nஎண்
+	Pages in the range	வரம்பிலுள்ள பக்கங்கள்
+	Pages like 1-3, 5	1-3, 5 போன்ற பக்கங்கள்
+	Pages of bookmark:	புத்தகக்குறியின் பக்கங்கள்:
+	Panama	பனாமா
+	Pane Options	பலக விருப்பங்கள்
+	Paper size:	காகித அளவு:
+	Paragraph Character	பத்திக் குறியீட்டு எழுத்து
+	Paragraph Details	பத்தி விவரங்கள்
+	Paragraph Down	பத்தி கீழே
+	Paragraph Mark	பத்திக் குறி
+	Paragraph marks	பத்திக் குறிகள்
+	Paragraph Settings	பத்தி அமைப்புகள்
+	Paragraph Spacing	பத்தி இடைவெளி
+	Paragraph style	பத்திப் பாணி
+	Paragraph Up	பத்தி மேலே
+	Paragraphs	பத்திகள்
+	Paragraph…	பத்தி…
+	Paraguay	பராகுவே
+	Parentheses	பிறை அடைப்புக்குறிகள்
+	Parentheses with Separator	பிரிப்பானுடன் பிறை அடைப்புக்குறிகள்
+	Partial Differential	பகுதி வகையீடு
+	Password:	கடவுச்சொல்:
+	Paste (⌘V)	ஒட்டு (⌘V)
+	Paste All	அனைத்தையும் ஒட்டு
+	Paste as:	இவ்வாறு ஒட்டு:
+	Paste Clipboard Item	கிளிப்போர்டு உருப்படியை ஒட்டு
+	Paste Formatting	வடிவமைப்பை ஒட்டு
+	Paste function:	செயல்பாட்டை ஒட்டு:
+	Paste Special…	சிறப்பாக ஒட்டு…
+	Paste: Keep Text Only	ஒட்டு: உரையை மட்டும் வைத்திரு
+	Paste: Merge Formatting	ஒட்டு: வடிவமைப்பை ஒன்றிணை
+	Pastes the clipboard's picture.	கிளிப்போர்டில் உள்ள படத்தை ஒட்டும்.
+	Paused	இடைநிறுத்தப்பட்டது
+	PDF document (*.pdf)	PDF ஆவணம் (*.pdf)
+	Pens	பேனாக்கள்
+	People	மக்கள்
+	Periodical	பருவ இதழ்
+	Persian	பாரசீகம்
+	Personal	தனிப்பட்டவை
+	Personal Templates	தனிப்பட்ட வார்ப்புருக்கள்
+	Personalize	தனிநபர் அமைப்புகள்
+	Peru	பெரு
+	Philippines	பிலிப்பைன்ஸ்
+	Phonetic Guide	ஒலிப்பு வழிகாட்டி
+#	pi	
+	Pi Over 2	பை வகுத்தல் 2
+	Pick a custom group (New Group makes one)	ஒரு தனிப்பயன் குழுவைத் தேர்ந்தெடுக்கவும் (புதிய குழு மூலம் ஒன்றை உருவாக்கலாம்)
+	Pick a field from the list	பட்டியலிலிருந்து ஒரு புலத்தைத் தேர்ந்தெடுக்கவும்
+	Picture	படம்
+	Picture Border	பட எல்லை
+	Picture border	பட எல்லை
+	Picture Content Control	பட உள்ளடக்கக் கட்டுப்பாடு
+	Picture Format	பட வடிவமைப்பு
+	Picture Styles	படப் பாணிகள்
+	Picture transparency	பட வெளிப்படைத்தன்மை
+	Picture watermark	பட நீர்க்குறி
+	Pictures	படங்கள்
+	Pie	பை
+	Place in This Document	இந்த ஆவணத்தில் உள்ள இடம்
+	Placeholder text	இடநிரப்பு உரை
+	Plain Table 1	எளிய அட்டவணை 1
+	Plain text (*.txt)	எளிய உரை (*.txt)
+	Plain Text Content Control	எளிய உரை உள்ளடக்கக் கட்டுப்பாடு
+	Play/Pause	இயக்கு/இடைநிறுத்து
+	Plus Equal	கூட்டல் சமம்
+	Points and above	புள்ளிகளும் அதற்கு மேலும்
+	Polish	போலிஷ்
+	Portugal	போர்ச்சுகல்
+	Portuguese (Brazil)	போர்ச்சுகீசியம் (பிரேசில்)
+	Portuguese (Portugal)	போர்ச்சுகீசியம் (போர்ச்சுகல்)
+	Possible spelling mistake	எழுத்துப்பிழையாக இருக்கலாம்
+	Postal Code	அஞ்சல் குறியீடு
+	Power series of (1+x)ⁿ	(1+x)ⁿ இன் அடுக்குத் தொடர்
+	Preferred width:	விருப்ப அகலம்:
+	Preserve formatting during updates	புதுப்பிக்கும்போது வடிவமைப்பைத் தக்கவை
+	Preset gradients	முன்னமைவு நிறப் படித்திறன்கள்
+	Press a key combination	ஒரு விசைச் சேர்க்கையை அழுத்தவும்
+	Preview Results	முடிவுகளை முன்னோட்டமிடு
+	Preview\nResults	முடிவுகளை\nமுன்னோட்டமிடு
+	Previous 1 or More	முந்தையது 1 அல்லது அதற்கு மேல்
+	Previous Comment	முந்தைய கருத்து
+	Previous Field	முந்தைய புலம்
+	Previous Record	முந்தைய பதிவு
+	Previous Section	முந்தைய பிரிவு
+	Previous Sentence	முந்தைய வாக்கியம்
+	Previous sentence	முந்தைய வாக்கியம்
+	Print Documents	ஆவணங்களை அச்சிடு
+	Print Documents…	ஆவணங்களை அச்சிடு…
+	Print failed: the printing worker stopped.	அச்சிடல் தோல்வியடைந்தது: அச்சிடும் பின்னணிச் செயல்முறை நின்றுவிட்டது.
+	Print failed: {error}	அச்சிடல் தோல்வியடைந்தது: {error}
+	Print job submitted.	அச்சுப் பணி சமர்ப்பிக்கப்பட்டது.
+	Print job submitted: spooled {count} sheet(s)	அச்சுப் பணி சமர்ப்பிக்கப்பட்டது: {count} தாள்(கள்) அச்சு வரிசைக்கு அனுப்பப்பட்டன
+	Print job submitted: {receipt}	அச்சுப் பணி சமர்ப்பிக்கப்பட்டது: {receipt}
+	Print Layout	அச்சு அமைப்பு
+	Print Markup	குறியீடுகளை அச்சிடு
+	Print settings	அச்சு அமைப்புகள்
+	Print the page color	பக்க நிறத்தை அச்சிடு
+	Print to PDF	PDF ஆக அச்சிடு
+	Print\nLayout	அச்சு\nஅமைப்பு
+	Printer default	அச்சுப்பொறி இயல்புநிலை
+	Printer discovery failed.	அச்சுப்பொறிகளைக் கண்டறிவது தோல்வியடைந்தது.
+	Privacy for this document	இந்த ஆவணத்திற்கான தனியுரிமை
+	Privacy Options	தனியுரிமை விருப்பங்கள்
+	Privacy Settings	தனியுரிமை அமைப்புகள்
+	Process	செயல்முறை
+	Product	பெருக்குத்தொகை
+	Product of A	A இன் பெருக்குத்தொகை
+	Product with Limits	எல்லைகளுடன் பெருக்குத்தொகை
+	Product with Lower Limit	கீழ் எல்லையுடன் பெருக்குத்தொகை
+	Product with Subscript-Superscript Limits	கீழெழுத்து-மேலெழுத்து எல்லைகளுடன் பெருக்குத்தொகை
+	Products and Coproducts	பெருக்குத்தொகைகளும் இணைப் பெருக்குத்தொகைகளும்
+	Professional	தொழில்முறை
+	Promote	உயர்த்து
+	Promote to Heading 1	தலைப்பு 1 ஆக உயர்த்து
+	Proofing	சரிபார்ப்பு
+	Proofing Issues	சரிபார்ப்புச் சிக்கல்கள்
+	Proofing language	சரிபார்ப்பு மொழி
+	Property names are 1–{max} characters.	பண்புப் பெயர்கள் 1–{max} எழுத்துகள் நீளமாக இருக்க வேண்டும்.
+	Property values are at most {max} bytes.	பண்பு மதிப்புகள் அதிகபட்சம் {max} பைட்டுகள் வரை இருக்கலாம்.
+	Protect Document	ஆவணத்தைப் பாதுகா
+#	pt	
+	Publisher	பதிப்பகம்
+	Puerto Rico	போர்ட்டோ ரிகோ
+	Put the caret in a content control first.	முதலில் ஓர் உள்ளடக்கக் கட்டுப்பாட்டுக்குள் கர்சரை வைக்கவும்.
+	Put the default commands back on the Quick Access Toolbar?	இயல்புநிலைக் கட்டளைகளை விரைவு அணுகல் கருவிப்பட்டியில் மீண்டும் வைக்கவா?
+	Qatar	கத்தார்
+	Quadratic Root	இருபடி மூலம்
+	Quick Access Toolbar	விரைவு அணுகல் கருவிப்பட்டி
+	Quick Parts	விரைவுப் பகுதிகள்
+	Quick Tables	விரைவு அட்டவணைகள்
+	Quote	மேற்கோள்
+	Radical	மூலக்குறி
+	Radical with Degree	படியுடன் மூலக்குறி
+	Radicals	மூலக்குறிகள்
+	Raised/lowered	உயர்த்தல்/தாழ்த்தல்
+	Read Aloud	உரக்கப் படி
+	Read Aloud Status	உரக்கப் படித்தல் நிலை
+	Read Mode	வாசிப்புப் பயன்முறை
+	Read\nAloud	உரக்கப்\nபடி
+	Read\nMode	வாசிப்புப்\nபயன்முறை
+	Reading	படிக்கிறது
+	Reading Column Width	வாசிப்பு நெடுவரிசை அகலம்
+	Reading Highlight	வாசிப்பு முன்னிலைப்படுத்தல்
+	Reading Line Spacing	வாசிப்பு வரி இடைவெளி
+	Reading Mode	வாசிப்புப் பயன்முறை
+	Reading Page Color	வாசிப்புப் பக்க நிறம்
+	Reading Speed	வாசிப்பு வேகம்
+	Reading Text Size	வாசிப்பு உரை அளவு
+	Reads the clipboard's rich text and keeps its formatting.	கிளிப்போர்டில் உள்ள வடிவமைப்புள்ள உரையைப் படித்து, அதன் வடிவமைப்பைத் தக்கவைக்கும்.
+	Reads the clipboard's web content and keeps its formatting.	கிளிப்போர்டில் உள்ள இணைய உள்ளடக்கத்தைப் படித்து, அதன் வடிவமைப்பைத் தக்கவைக்கும்.
+	Recent documents to show:	காண்பிக்க வேண்டிய சமீபத்திய ஆவணங்கள்:
+	Recently Used Fonts	சமீபத்தில் பயன்படுத்திய எழுத்துருக்கள்
+	Recently used symbols:	சமீபத்தில் பயன்படுத்திய குறியீடுகள்:
+	Recipient List	பெறுநர் பட்டியல்
+	Recipient lists	பெறுநர் பட்டியல்கள்
+	Recipients: {count}	பெறுநர்கள்: {count}
+	Recolor a one-color picture, such as an icon	ஐகான் போன்ற ஒற்றை நிறப் படத்தின் நிறத்தை மாற்று
+	Recolor Selected Ink	தேர்ந்தெடுத்த மையின் நிறத்தை மாற்று
+	Record Macro	மேக்ரோவைப் பதிவுசெய்
+	Record…	பதிவுசெய்…
+	Recover documents	ஆவணங்களை மீட்டெடு
+	Recover Unsaved Documents	சேமிக்கப்படாத ஆவணங்களை மீட்டெடு
+	Recovery copy	மீட்பு நகல்
+	Recovery is disabled while this document has a password.	இந்த ஆவணத்துக்குக் கடவுச்சொல் இருக்கும்வரை மீட்பு முடக்கப்பட்டுள்ளது.
+	Red:	சிவப்பு:
+	Reduce Hanging Indent	தொங்கும் உள்தள்ளலைக் குறை
+	Reference type:	குறிப்பு வகை:
+	References	குறிப்புதவிகள்
+	Reflection	பிரதிபலிப்பு
+	Refresh printers	அச்சுப்பொறிகளைப் புதுப்பி
+	Region:	பகுதி:
+	Registered	பதிவுசெய்யப்பட்டது
+	Registered Sign	பதிவுசெய்யப்பட்ட வணிகக் குறியீடு
+	Regular expressions	முறைமைக் கோவைகள்
+	Reject	நிராகரி
+	Reject All Changes	அனைத்து மாற்றங்களையும் நிராகரி
+	Reject All Changes and Stop Tracking	அனைத்து மாற்றங்களையும் நிராகரித்துக் கண்காணிப்பை நிறுத்து
+	Reject and Move to Next	நிராகரித்து அடுத்ததற்குச் செல்
+	Reject Change	மாற்றத்தை நிராகரி
+	Relationship	தொடர்பு
+	Relative to original picture size	அசல் பட அளவைப் பொறுத்து
+	Remove Added Font	சேர்த்த எழுத்துருவை நீக்கு
+	Remove condition	நிபந்தனையை அகற்று
+	Remove Content Control	உள்ளடக்கக் கட்டுப்பாட்டை நீக்கு
+	Remove every custom shortcut and restore the built-in keys?	தனிப்பயன் குறுக்குவழிகள் அனைத்தையும் அகற்றி, உள்ளமைந்த விசைகளை மீட்டமைக்கவா?
+	Remove every custom tab and group and show all tabs again?	எல்லாத் தனிப்பயன் தத்தல்களையும் குழுக்களையும் அகற்றி, எல்லாத் தத்தல்களையும் மீண்டும் காட்டவா?
+	Remove field	புலத்தை நீக்கு
+	Remove Footer	அடிப்பகுதியை நீக்கு
+	Remove from Quick Access Toolbar	விரைவு அணுகல் கருவிப்பட்டியிலிருந்து நீக்கு
+	Remove gradient stop	நிறப் படித்திறன் நிறுத்தத்தை நீக்கு
+	Remove Header	தலைப்பகுதியை நீக்கு
+	Remove Hyperlink	இணைப்பை நீக்கு
+	Remove Language Pack	மொழித் தொகுப்பை நீக்கு
+	Remove my name from comments, changes and file properties when saving	சேமிக்கும்போது கருத்துகள், மாற்றங்கள், கோப்புப் பண்புகளிலிருந்து எனது பெயரை நீக்கு
+	Remove Password	கடவுச்சொல்லை அகற்று
+	Remove Pen	பேனாவை நீக்கு
+	Remove recipient	பெறுநரை நீக்கு
+	Remove row	வரிசையை அகற்று
+	Remove series	தொடரை அகற்று
+	Remove Space After Paragraph	பத்திக்குப் பின் உள்ள இடைவெளியை அகற்று
+	Remove Table of Contents	உள்ளடக்க அட்டவணையை அகற்று
+	Remove the control once edited	திருத்தியதும் கட்டுப்பாட்டை அகற்று
+	Remove the space before the punctuation	நிறுத்தற்குறிக்கு முன் உள்ள இடைவெளியை நீக்கு
+	Remove Watermark	நீர்க்குறியை நீக்கு
+	Rename Document	ஆவணத்தின் பெயரை மாற்று
+	Reopen	மீண்டும் திற
+	Repeat as header row on each page	ஒவ்வொரு பக்கத்திலும் தலைப்பு வரிசையாக மீண்டும் காட்டு
+	Repeat Header Rows	தலைப்பு வரிசைகளை மீண்டும் காட்டு
+	Repeating Section Content Control	மீளும் பிரிவு உள்ளடக்கக் கட்டுப்பாடு
+	Replace All	அனைத்தையும் மாற்று
+	Replace as you type	தட்டச்சு செய்யும்போதே மாற்று
+	Replace Document Text	ஆவண உரையை மாற்று
+	Replace text as you type	தட்டச்சு செய்யும்போதே உரையை மாற்று
+	Replace with:	மாற்றுவது:
+	Replay	மறுஇயக்கம்
+	Research	ஆய்வு
+	Researcher	ஆய்வாளர்
+	Researcher needs an online service; WordCraft keeps your documents offline.	ஆய்வாளருக்கு ஓர் இணையச் சேவை தேவை; WordCraft உங்கள் ஆவணங்களை ஆஃப்லைனிலேயே வைத்திருக்கிறது.
+	Reset All…	அனைத்தையும் மீட்டமை…
+	Reset Character Formatting	எழுத்து வடிவமைப்பை மீட்டமை
+	Reset Crop	வெட்டிச் சுருக்கலை மீட்டமை
+	Reset Default Formatting	இயல்புநிலை வடிவமைப்பை மீட்டமை
+	Reset Graphic	வரைகலையை மீட்டமை
+	Reset Paragraph Formatting	பத்தி வடிவமைப்பை மீட்டமை
+	Reset Picture	படத்தை மீட்டமை
+	Reset tips	உதவிக்குறிப்புகளை மீட்டமை
+	Reset to Normal	இயல்பான பாணிக்கு மீட்டமை
+	Reset\nGraphic	வரைகலையை\nமீட்டமை
+	Resize Pane	பலகத்தின் அளவை மாற்று
+	Resize Table by Dragging	இழுத்து அட்டவணையின் அளவை மாற்று
+	Resolve	தீர்
+	Resolved	தீர்க்கப்பட்டது
+	Restart at 1	1-இலிருந்து மீண்டும் தொடங்கு
+	Restart Each Page	ஒவ்வொரு பக்கத்திலும் மீண்டும் தொடங்கு
+	Restart Each Section	ஒவ்வொரு பிரிவிலும் மீண்டும் தொடங்கு
+	Restart list after:	இதற்குப் பின் பட்டியலை மீண்டும் தொடங்கு:
+	Restore opens an unsaved copy. Your original file stays unchanged.	மீட்டமை என்பது சேமிக்கப்படாத ஒரு நகலைத் திறக்கும். உங்கள் அசல் கோப்பு மாறாமல் இருக்கும்.
+	Restrict Editing	திருத்துவதைக் கட்டுப்படுத்து
+	Restrict\nEditing	திருத்துவதைக்\nகட்டுப்படுத்து
+	Results	முடிவுகள்
+	Return address labels	அனுப்புநர் முகவரிச் சீட்டுகள்
+	Return address:	அனுப்புநர் முகவரி:
+	Reviewing	மதிப்பாய்வு செய்தல்
+	Reviewing Pane	மதிப்பாய்வுப் பலகம்
+	Reviewing — edits become suggestions	மதிப்பாய்வு — திருத்தங்கள் பரிந்துரைகளாக மாறும்
+	Revised document	திருத்தப்பட்ட ஆவணம்
+	Rewind	பின்னோக்கிச் செல்
+	Rewinding. Tell me when to stop.	பின்னோக்கிச் செல்கிறேன். எப்போது நிறுத்த வேண்டும் என்று சொல்லுங்கள்.
+	Ribbon	ரிப்பன்
+	Ribbon and Quick Access Toolbar:	ரிப்பன் மற்றும் விரைவு அணுகல் கருவிப்பட்டி:
+	Ribbon tabs	ரிப்பன் தத்தல்கள்
+	Rich Text Content Control	செறிவான உரை உள்ளடக்கக் கட்டுப்பாடு
+	Rich Text Format (*.rtf)	செறிவான உரை வடிவம் (*.rtf)
+	Rich Text Format (RTF)	செறிவு உரை வடிவம் (RTF)
+	Right (vertical)	வலது (செங்குத்து)
+	Right Arrow with Text Above	மேலே உரையுடன் வலது அம்புக்குறி
+	Right Arrow with Text Below	கீழே உரையுடன் வலது அம்புக்குறி
+	Right Border	வலது எல்லை
+	Right border	வலது எல்லை
+	Right Bracket Twice	இருமுறை வலது சதுர அடைப்புக்குறி
+	Right indent	வலது உள்தள்ளல்
+	Right Margin	வலது ஓரம்
+	Right Only	வலது பக்கம் மட்டும்
+	Right-to-left	வலமிருந்து இடம்
+	Right-to-Left Section	வலமிருந்து இடமாக அமையும் பிரிவு
+	Right-to-Left Table	வலமிருந்து இடமாக அட்டவணை
+	Right-to-Left Text Direction	வலமிருந்து இடமாக உரைத் திசை
+	Rightwards Arrow Above	மேலே வலப்புற அம்புக்குறி
+	Rightwards Harpoon Above	மேலே வலப்புற அரை அம்புக்குறி
+	Romanian	ருமேனியன்
+	Roots of ax²+bx+c	ax²+bx+c இன் மூலங்கள்
+	Rotate all text 270°	எல்லா உரையையும் 270° சுழற்று
+	Rotate all text 90°	எல்லா உரையையும் 90° சுழற்று
+	Rotate Left 90°	இடப்புறம் 90° சுழற்று
+	Rotate Right 90°	வலப்புறம் 90° சுழற்று
+	Rotate with shape	வடிவத்துடன் சுழற்று
+	Rounded	வட்டமான
+	Row	வரிசை
+	Row:	வரிசை:
+	Rows & Columns	வரிசைகள் & நெடுவரிசைகள்
+	Ruby text:	ஒலிப்பு உரை:
+	Rules	விதிகள்
+	Run	இயக்கு
+	Run-in	ஒரே வரியில்
+	Russia	ரஷ்யா
+	Résumé	சுயவிவரக் குறிப்பு
+	SAMPLE	மாதிரி
+	Sat:	செறிவு:
+	Saturation and recolor	செறிவும் நிற மாற்றமும்
+	Save a copy in another format. Printing goes through a PDF you can print from any viewer.	வேறொரு வடிவத்தில் ஒரு நகலைச் சேமிக்கவும். அச்சிடுதல் ஒரு PDF வழியாக நடக்கும்; அதை எந்தப் பார்வையிடும் பயன்பாட்டிலிருந்தும் அச்சிடலாம்.
+	Save as Word Template…	Word வார்ப்புருவாகச் சேமி…
+	Save documents	ஆவணங்களைச் சேமித்தல்
+	Save the document to turn on AutoSave	தானியங்கிச் சேமிப்பை இயக்க ஆவணத்தைச் சேமிக்கவும்
+	Save the document to turn on AutoSave (a file you have only opened isn't rewritten until you save it)	தானியங்கிச் சேமிப்பை இயக்க ஆவணத்தைச் சேமிக்கவும் (நீங்கள் திறந்து மட்டும் வைத்துள்ள கோப்பு, நீங்கள் சேமிக்கும் வரை மீண்டும் எழுதப்படாது)
+	Save these pages as PDF…	இந்தப் பக்கங்களை PDF ஆகச் சேமி…
+	Saved. Saved again. Still saved. It's very saved.	சேமிக்கப்பட்டது. மீண்டும் சேமிக்கப்பட்டது. இன்னும் சேமிக்கப்பட்டே இருக்கிறது. ரொம்பவே சேமிக்கப்பட்டுவிட்டது.
+	Saves a .dotx template in your templates folder. It shows up in File › New under Personal.	உங்கள் வார்ப்புருக் கோப்புறையில் ஒரு .dotx வார்ப்புருவைச் சேமிக்கும். அது கோப்பு › புதிய என்பதில் தனிப்பட்டவை என்பதன் கீழ் தோன்றும்.
+	Saving {name} was cancelled, so it is still open and nothing was lost.	{name} ஐச் சேமிப்பது ரத்துசெய்யப்பட்டது, எனவே அது இன்னும் திறந்தே உள்ளது, எதுவும் இழக்கப்படவில்லை.
+	Sayings	வாசகங்கள்
+	Sayings:	வாசகங்கள்:
+	Scale Drawing	வரைதலை அளவிடு
+	Scale Font Sizes	எழுத்துரு அளவுகளை விகிதப்படி மாற்று
+	Scale to paper size	காகித அளவுக்கு அளவிடு
+	Scatter	சிதறல்
+	Script	ஸ்கிரிப்ட்
+	Scroll ribbon left	ரிப்பனை இடதுபுறம் உருட்டு
+	Scroll ribbon right	ரிப்பனை வலதுபுறம் உருட்டு
+	Search Commands	கட்டளைகளைத் தேடு
+	Search commands and help	கட்டளைகளையும் உதவியையும் தேடு
+	Search document	ஆவணத்தில் தேடு
+	Search for templates	வார்ப்புருக்களைத் தேடு
+	Search icons	ஐகான்களைத் தேடு
+	Search Options	தேடல் விருப்பங்கள்
+	Search:	தேடல்:
+	Secant Function	செகன்ட் சார்பு
+	Section 1.01	பிரிவு 1.01
+	Section Break	பிரிவு முறிவு
+	Section Breaks	பிரிவு முறிவுகள்
+	Section Character	பிரிவுக் குறியீட்டு எழுத்து
+	Section direction:	பிரிவுத் திசை:
+	Section Mark	பிரிவுக் குறி
+	Section Properties	பிரிவுப் பண்புகள்
+	Sections	பிரிவுகள்
+	See	காண்க
+	select a chart first	முதலில் ஒரு விளக்கப்படத்தைத் தேர்ந்தெடுக்கவும்
+	select a connector first	முதலில் ஓர் இணைப்பானைத் தேர்ந்தெடுக்கவும்
+	select a drawing canvas first	முதலில் ஒரு வரைதல் தளத்தைத் தேர்ந்தெடுக்கவும்
+	select a floating picture or shape first	முதலில் மிதக்கும் படம் அல்லது வடிவத்தைத் தேர்ந்தெடுக்கவும்
+	select a group first	முதலில் ஒரு குழுவைத் தேர்ந்தெடுக்கவும்
+	select a picture first	முதலில் ஒரு படத்தைத் தேர்ந்தெடுக்கவும்
+	Select a picture first.	முதலில் ஒரு படத்தைத் தேர்ந்தெடுக்கவும்.
+	select a picture or shape first	முதலில் ஒரு படம் அல்லது வடிவத்தைத் தேர்ந்தெடுக்கவும்
+	Select a picture, shape, chart or table to describe it.	ஒரு படம், வடிவம், விளக்கப்படம் அல்லது அட்டவணையை விவரிக்க, அதைத் தேர்ந்தெடுக்கவும்.
+	Select a place in this document:	இந்த ஆவணத்தில் ஓர் இடத்தைத் தேர்ந்தெடுக்கவும்:
+	Select a printer	ஒரு அச்சுப்பொறியைத் தேர்ந்தெடு
+	Select a property to change.	மாற்றுவதற்கு ஒரு பண்பைத் தேர்ந்தெடுக்கவும்.
+	select a shape first	முதலில் ஒரு வடிவத்தைத் தேர்ந்தெடுக்கவும்
+	Select a shape, text box or drawing canvas to format its fill.	ஒரு வடிவம், உரைப் பெட்டி அல்லது வரைதல் தளத்தின் நிரப்பை வடிவமைக்க அதைத் தேர்ந்தெடுக்கவும்.
+	select a SmartArt graphic first	முதலில் ஒரு SmartArt வரைகலையைத் தேர்ந்தெடுக்கவும்
+	select a text box first	முதலில் ஓர் உரைப் பெட்டியைத் தேர்ந்தெடுக்கவும்
+	select a text box linked to another first	முதலில் வேறொரு பெட்டியுடன் இணைக்கப்பட்ட உரைப் பெட்டியைத் தேர்ந்தெடுக்கவும்
+	Select Cell	கலத்தைத் தேர்ந்தெடு
+	Select Column	நெடுவரிசையைத் தேர்ந்தெடு
+	Select Heading and Content	தலைப்பையும் உள்ளடக்கத்தையும் தேர்ந்தெடு
+	Select Line	வரியைத் தேர்ந்தெடு
+	Select Paragraph	பத்தியைத் தேர்ந்தெடு
+	Select Picture…	படத்தைத் தேர்ந்தெடு…
+	Select Range	வரம்பைத் தேர்ந்தெடு
+	Select Recipients	பெறுநர்களைத் தேர்ந்தெடு
+	select recipients first	முதலில் பெறுநர்களைத் தேர்ந்தெடுக்கவும்
+	Select recipients first to choose from their fields.	அவர்களின் புலங்களிலிருந்து தேர்வுசெய்ய, முதலில் பெறுநர்களைத் தேர்ந்தெடுக்கவும்.
+	Select recipients first to match their fields.	அவர்களின் புலங்களைப் பொருத்த, முதலில் பெறுநர்களைத் தேர்ந்தெடுக்கவும்.
+	Select Row	வரிசையைத் தேர்ந்தெடு
+	Select Sentence	வாக்கியத்தைத் தேர்ந்தெடு
+	Select Table	அட்டவணையைத் தேர்ந்தெடு
+	Select Table Cells by Clicking	சொடுக்கி அட்டவணைக் கலங்களைத் தேர்ந்தெடு
+	Select Text	உரையைத் தேர்ந்தெடு
+	Select Text with Similar Formatting	ஒத்த வடிவமைப்புள்ள உரையைத் தேர்ந்தெடு
+	Select text, then tick who can still edit it.	உரையைத் தேர்ந்தெடுத்து, அதை இன்னும் யார் திருத்தலாம் என்பதைக் குறியிடவும்.
+	select two or more cells to merge	ஒன்றிணைக்க இரண்டு அல்லது அதற்கு மேற்பட்ட கலங்களைத் தேர்ந்தெடுக்கவும்
+	select two or more pictures or shapes first (Shift+click)	முதலில் இரண்டு அல்லது அதற்கு மேற்பட்ட படங்கள் அல்லது வடிவங்களைத் தேர்ந்தெடுக்கவும் (Shift+கிளிக்)
+	Select Word	சொல்லைத் தேர்ந்தெடு
+	Select\nRecipients	பெறுநர்களைத்\nதேர்ந்தெடு
+	Selected Fields	தேர்ந்தெடுத்த புலங்கள்
+	Selected text	தேர்ந்தெடுத்த உரை
+	Selection Pane	தேர்வுப் பலகம்
+	Semitransparent	அரை ஒளிஊடுருவல்
+	Send the document straight to the system print dialog, or save a copy in another format below.	ஆவணத்தை நேரடியாகக் கணினியின் அச்சு உரையாடல் பெட்டிக்கு அனுப்பவும், அல்லது கீழே ஒரு நகலை வேறொரு வடிவத்தில் சேமிக்கவும்.
+	Sentence	வாக்கியம்
+	Sentence case.	வாக்கிய எழுத்து.
+	Separate text at	உரையைப் பிரிக்கும் இடம்
+	Separate text with	உரையைப் பிரிக்கும் குறி
+	Separator:	பிரிப்பான்:
+	Sepia	செபியா
+	Sequence name:	வரிசைத் தொகுப்பு பெயர்:
+	Serbian (Cyrillic)	செர்பியன் (சிரில்லிக்)
+	Serbian (Latin)	செர்பியன் (லத்தீன்)
+	Series name	தொடரின் பெயர்
+	Series {n}	தொடர் {n}
+	Set As Default	இயல்புநிலையாக அமை
+	Set as default	இயல்புநிலையாக அமை
+	Set As Default (Font)	இயல்புநிலையாக அமை (எழுத்துரு)
+	Set As Default (Page Setup)	இயல்புநிலையாக அமை (பக்க அமைப்பு)
+	Set As Default (Paragraph)	இயல்புநிலையாக அமை (பத்தி)
+	Set as Default Language	இயல்புநிலை மொழியாக அமை
+	Set Caret	கர்சரை அமை
+	Set Character Formatting	எழுத்து வடிவமைப்பை அமை
+	Set Date	தேதியை அமை
+	Set Equation	சமன்பாட்டை அமை
+	Set left- and first-indent with tabs and backspaces	Tab, Backspace விசைகளால் இடது மற்றும் முதல்-வரி உள்தள்ளலை அமை
+	Set Numbering Value	எண்ணிடல் மதிப்பை அமை
+	Set Paragraph Formatting	பத்தி வடிவமைப்பை அமை
+	Set Proofing Language…	சரிபார்ப்பு மொழியை அமை…
+	Setting:	அமைப்பு:
+	Shading	நிழலிடல்
+	Shadow, glow and soft edges	நிழல், ஒளிர்வு மற்றும் மென் விளிம்புகள்
+	Shape Fill	வடிவ நிரப்பு
+	Shape Format	வடிவ வடிவமைப்பு
+	Shape Outline	வடிவ வெளிக்கோடு
+	Shape Styles	வடிவப் பாணிகள்
+	Shift+Enter starts a new line without starting a new paragraph.	Shift+Enter புதிய பத்தியைத் தொடங்காமல் புதிய வரியைத் தொடங்கும்.
+#	Shift+Tab	
+	Shipping labels	சரக்கு அனுப்புதல் சீட்டுகள்
+	Shortcut key:	குறுக்குவழி விசை:
+	Show alignment guides when moving pictures and shapes	படங்களையும் வடிவங்களையும் நகர்த்தும்போது சீரமைப்பு வழிகாட்டிகளைக் காண்பி
+	Show all formatting marks	அனைத்து வடிவமைப்புக் குறிகளையும் காண்பி
+	Show All Levels	அனைத்து மட்டங்களையும் காட்டு
+	Show all revisions inline	அனைத்துத் திருத்தங்களையும் வரிக்குள் காட்டு
+	Show changes at:	மாற்றங்களைக் காட்டும் நிலை:
+	Show changes in:	மாற்றங்களைக் காட்டும் ஆவணம்:
+	Show Comments	கருத்துகளைக் காட்டு
+	Show documents with their colours inverted, like View › Switch Modes. Saving, printing and PDFs are unchanged.	பார்வை › பயன்முறைகளை மாற்று போலவே, ஆவணங்களை அவற்றின் நிறங்களைத் தலைகீழாக்கிக் காண்பிக்கும். சேமித்தல், அச்சிடல், PDF-கள் மாறாது.
+	Show every bibliography field	எல்லா நூற்பட்டியல் புலங்களையும் காட்டு
+	Show First Line Only	முதல் வரியை மட்டும் காட்டு
+	Show in the Styles gallery	பாணிகள் காட்சியகத்தில் காண்பி
+	Show its list number	அதன் பட்டியல் எண்ணைக் காட்டு
+	Show its number relative to this field	இந்தப் புலத்தைப் பொறுத்து அதன் எண்ணைக் காட்டு
+	Show its number with all higher levels	அனைத்து மேல் மட்டங்களுடனும் அதன் எண்ணைக் காட்டு
+	Show KeyTips (Alt or F10)	விசைக் குறிப்புகளைக் காண்பி (Alt அல்லது F10)
+	Show Level	மட்டத்தைக் காட்டு
+	Show Level 1	மட்டம் 1 வரை காட்டு
+	Show Level 2	மட்டம் 2 வரை காட்டு
+	Show Level 3	மட்டம் 3 வரை காட்டு
+	Show Level 4	மட்டம் 4 வரை காட்டு
+	Show Level 5	மட்டம் 5 வரை காட்டு
+	Show Level 6	மட்டம் 6 வரை காட்டு
+	Show Level 7	மட்டம் 7 வரை காட்டு
+	Show Level 8	மட்டம் 8 வரை காட்டு
+	Show Level 9	மட்டம் 9 வரை காட்டு
+	Show Markup	குறியீடுகளைக் காண்பி
+	Show Notes	குறிப்புகளைக் காண்பி
+	Show only comments and formatting in balloons	கருத்துகளையும் வடிவமைப்பையும் மட்டும் குமிழ்களில் காட்டு
+	Show only records that will be merged	ஒன்றிணைக்கப்படும் பதிவுகளை மட்டும் காண்பி
+	Show or Hide Style	பாணியைக் காண்பி அல்லது மறை
+	Show Quick Access Toolbar	விரைவு அணுகல் கருவிப்பட்டியைக் காட்டு
+	Show revisions in balloons	திருத்தங்களைக் குமிழ்களில் காட்டு
+	Show Text Formatting	உரை வடிவமைப்பைக் காட்டு
+	Show the Assistant	உதவியாளரைக் காண்பி
+	Show the community button in the title bar	தலைப்புப் பட்டையில் சமூகப் பொத்தானைக் காண்பி
+	Show the equation in the line of text	சமன்பாட்டை உரை வரிக்குள் காண்பி
+	Show the equation on a line of its own	சமன்பாட்டைத் தனி வரியில் காண்பி
+	Show the mini toolbar when text is selected	உரை தேர்ந்தெடுக்கப்படும்போது சிறு கருவிப்பட்டியைக் காண்பி
+	Show the ribbon	ரிப்பனைக் காட்டு
+	Show the Start screen when WordCraft starts	WordCraft தொடங்கும்போது தொடக்கத் திரையைக் காண்பி
+	Show the tips you asked not to see again.	மீண்டும் காட்ட வேண்டாம் என்று நீங்கள் கேட்ட உதவிக்குறிப்புகளைக் காண்பி.
+	Show/Hide ¶	காண்பி/மறை ¶
+	Show/Hide ¶ (Ctrl+Shift+8) shows the spaces, tabs and breaks hiding in your text.	காண்பி/மறை ¶ (Ctrl+Shift+8) உங்கள் உரையில் ஒளிந்திருக்கும் இடைவெளிகள், தாவல்கள், முறிவுகளைக் காட்டும்.
+	Show/Hide ¶ ({key}) shows the spaces, tabs and breaks hiding in your text.	காண்பி/மறை ¶ ({key}) உங்கள் உரையில் ஒளிந்திருக்கும் இடைவெளிகள், தாவல்கள், முறிவுகளைக் காட்டும்.
+	Show\nComments	கருத்துகளைக்\nகாட்டு
+	Showing the first {count} items.	முதல் {count} உருப்படிகள் காண்பிக்கப்படுகின்றன.
+	Shows a tree: each item below the item it belongs to.	ஒரு மர அமைப்பைக் காட்டும்: ஒவ்வொரு உருப்படியும் அது சேர்ந்த உருப்படிக்குக் கீழே இருக்கும்.
+	Shows items around a central idea: the first item is the centre.	ஒரு மையக் கருத்தைச் சுற்றி உருப்படிகளைக் காட்டும்: முதல் உருப்படியே மையம்.
+	Shows items of equal weight as blocks in rows.	சம முக்கியத்துவம் உள்ள உருப்படிகளை வரிசைகளில் தொகுதிகளாகக் காட்டும்.
+	Shows overlapping ideas as overlapping circles.	ஒன்றுடன் ஒன்று மேற்பொருந்தும் கருத்துகளை ஒன்றுடன் ஒன்று மேற்பொருந்தும் வட்டங்களாகக் காட்டும்.
+	Shows parts of a whole as quadrants.	ஒரு முழுமையின் பகுதிகளைக் கால்பகுதிகளாகக் காட்டும்.
+	Shows parts that build on each other, largest at the bottom.	ஒன்றன்மேல் ஒன்றாகக் கட்டமையும் பகுதிகளைக் காட்டும்; மிகப் பெரியது அடியில் இருக்கும்.
+	Shows steps in order, left to right, with arrows between them.	படிகளை வரிசைப்படி, இடமிருந்து வலமாக, இடையே அம்புகளுடன் காட்டும்.
+	Shows steps that repeat, around a circle.	மீண்டும் மீண்டும் நிகழும் படிகளை ஒரு வட்டத்தைச் சுற்றிக் காட்டும்.
+	Shrink Font 1 Point	எழுத்துருவை 1 புள்ளி சிறிதாக்கு
+	Shrink text	உரையைச் சுருக்கு
+	Side to Side	பக்கவாட்டு நகர்வு
+	Side\nto Side	பக்கவாட்டு\nநகர்வு
+	Sides of a right triangle	செங்கோண முக்கோணத்தின் பக்கங்கள்
+	Signature Line	கையொப்ப வரி
+	Simple Frame	எளிய சட்டகம்
+	Sine and cosine series of f(x)	f(x) இன் சைன் மற்றும் கொசைன் தொடர்
+	Sine Function	சைன் சார்பு
+	Sine theta	சைன் தீட்டா
+	Singapore	சிங்கப்பூர்
+	Single	ஒற்றை
+	Single Brackets	ஒற்றை அடைப்புக்குறிகள்
+	Single Closing Quote	ஒற்றை மூடும் மேற்கோள் குறி
+	Single label	ஒற்றைச் சீட்டு
+	Single Left Angle	ஒற்றை இடது கோண அடைப்புக்குறி
+	Single Left Bar	ஒற்றை இடது செங்குத்துக் கோடு
+	Single Left Brace	ஒற்றை இடது நெளி அடைப்புக்குறி
+	Single Left Bracket	ஒற்றை இடது சதுர அடைப்புக்குறி
+	Single Left Parenthesis	ஒற்றை இடது பிறை அடைப்புக்குறி
+	Single Opening Quote	ஒற்றைத் திறக்கும் மேற்கோள் குறி
+	Single Right Brace	ஒற்றை வலது நெளி அடைப்புக்குறி
+	Single Right Bracket	ஒற்றை வலது சதுர அடைப்புக்குறி
+	Single Right Parenthesis	ஒற்றை வலது பிறை அடைப்புக்குறி
+	Single Spacing	ஒற்றை வரி இடைவெளி
+#	SIST02	
+	Site name	தளப் பெயர்
+	Size (pt):	அளவு (pt):
+	Size and Crop…	அளவு மற்றும் வெட்டிச் சுருக்கல்…
+	Sketchbook	ஓவியக் குறிப்பேடு
+	Skewed Fraction	சாய்ந்த பின்னம்
+	Skip citations & bibliography	மூலக்குறிப்புகளையும் நூற்பட்டியலையும் தவிர்
+	Skip Citations and Bibliography	மூலக்குறிப்புகளையும் நூற்பட்டியலையும் தவிர்
+	Skip Record If	பதிவைத் தவிர்க்கும் நிபந்தனை
+	Skip Record If…	நிபந்தனை பொருந்தினால் பதிவைத் தவிர்…
+	Slant Down	கீழ்நோக்கிய சாய்வு
+	Slant Up	மேல்நோக்கிய சாய்வு
+	Slovak	ஸ்லோவாக்
+	Slovenian	ஸ்லோவேனியன்
+	Small caps	சிறிய பெரிய எழுத்துகள்
+	Small change	சிறு மாற்றம்
+	Smart quotes instead of straight quotes	நேர் மேற்கோள்குறிகளுக்குப் பதிலாக வளைந்த மேற்கோள்குறிகள்
+#	SmartArt	
+	SmartArt Design	SmartArt வடிவமைப்பு
+	SmartArt Styles	SmartArt பாணிகள்
+	Smooth scrolling and zooming, and menus and buttons that fade in. Off shows every change at once.	மென்மையான உருட்டலும் பெரிதாக்கலும், மெல்லத் தோன்றும் மெனுக்களும் பொத்தான்களும். முடக்கினால் ஒவ்வொரு மாற்றமும் உடனே காண்பிக்கப்படும்.
+	Soft Edge	மென் விளிம்பு
+	Soft Edges	மென் விளிம்புகள்
+	Soft Glow	மென்மையான ஒளிர்வு
+	Solid Accent	திட அழுத்த நிறம்
+	Solid fill	திட நிரப்பு
+	Sometimes	எப்போதாவது
+	Sort by:	இதன்படி வரிசைப்படுத்து:
+	Sort order:	வரிசைப்படுத்தும் முறை:
+	Sort Recipients	பெறுநர்களை வரிசைப்படுத்து
+	Source code: github.com/storytold/wordcraft	மூலக் குறியீடு: github.com/storytold/wordcraft
+	Source Manager	மூல மேலாளர்
+	Source type:	மூல வகை:
+	Sources in this document:	இந்த ஆவணத்திலுள்ள மூலங்கள்:
+	South	தெற்கு
+	South Africa	தென்னாப்பிரிக்கா
+	Space	இடைவெளி
+	Space after	பின் இடைவெளி
+	Space after: {pt} pt	பின் இடைவெளி: {pt} pt
+	Space before	முன் இடைவெளி
+	Space before/after:	முன்/பின் இடைவெளி:
+	Space before: {pt} pt	முன் இடைவெளி: {pt} pt
+	Spacing (pt):	இடைவெளி (pt):
+	Spain	ஸ்பெயின்
+	Spanish (Latin America)	ஸ்பானிஷ் (லத்தீன் அமெரிக்கா)
+	Spanish (Mexico)	ஸ்பானிஷ் (மெக்சிகோ)
+	Spanish (Spain)	ஸ்பானிஷ் (ஸ்பெயின்)
+	Spanish (Uruguay)	ஸ்பானிஷ் (உருகுவே)
+	Sparse Matrices	ஐதான அணிகள்
+	Special Characters	சிறப்பு எழுத்துகள்
+	Specify height:	உயரத்தைக் குறிப்பிடு:
+	Speech	பேச்சு
+	Spelling & Grammar	எழுத்துக்கூட்டல் & இலக்கணம்
+	Spelling &\nGrammar	எழுத்துக்கூட்டல் &\nஇலக்கணம்
+	Spelling and grammar are checked in English (United States).	எழுத்துக்கூட்டலும் இலக்கணமும் ஆங்கிலம் (ஐக்கிய அமெரிக்கா) மொழியில் சரிபார்க்கப்படுகின்றன.
+	Spelling and grammar are checked in {language}.	எழுத்துக்கூட்டலும் இலக்கணமும் {language} மொழியில் சரிபார்க்கப்படுகின்றன.
+	Spelling Suggestions	எழுத்துக்கூட்டல் பரிந்துரைகள்
+	Spike	காகிதக் குத்தி
+	Split Cells	கலங்களைப் பிரி
+	Split Table	அட்டவணையைப் பிரி
+	Spreadsheet Table	விரிதாள் அட்டவணை
+	Square Root	வர்க்கமூலம்
+	Square Root with Degree	படியுடன் வர்க்கமூலம்
+	Square Union	சதுரச் சேர்ப்பு
+	Stack Object	அடுக்குப் பொருள்
+	Stack Object (Three)	அடுக்குப் பொருள் (மூன்று)
+	Stacked Bar	அடுக்கப்பட்ட பட்டை
+	Stacked Column	அடுக்கப்பட்ட நெடுவரிசை
+	Stacked Fraction	அடுக்கிய பின்னம்
+	Stacked, no bar	அடுக்கியது, பின்னக்கோடு இல்லை
+	Standard Colors	நிலையான நிறங்கள்
+	Start Enforcing Protection	பாதுகாப்பைச் செயல்படுத்தத் தொடங்கு
+	Start Mail Merge	அஞ்சல் ஒன்றிணைப்பைத் தொடங்கு
+	Start Mail\nMerge	அஞ்சல் ஒன்றிணைப்பைத்\nதொடங்கு
+	Start-up	தொடக்கம்
+	State	மாநிலம்
+#	Statement   5.50" × 8.50"	
+	Still there? I can hear you thinking.	இன்னும் இருக்கிறீர்களா? நீங்கள் யோசிப்பது எனக்குக் கேட்கிறது.
+	Stop Protection	பாதுகாப்பை நிறுத்து
+	Stop Reading	வாசிப்பை நிறுத்து
+	Stop Recording	பதிவை நிறுத்து
+	Stopped	நிறுத்தப்பட்டது
+	Straight Arrow Connector	நேர் அம்புக்குறி இணைப்பான்
+	Straight Connector	நேர் இணைப்பான்
+	Stroke {n} of {total}	கோடு {n} / {total}
+	Strong	வலுவானது
+	Structure Actions	கட்டமைப்புச் செயல்கள்
+	Structures	கட்டமைப்புகள்
+	Studio cover	ஸ்டுடியோ அட்டை
+	Studio handbook (sample)	கலைக்கூடக் கையேடு (மாதிரி)
+	Style based on:	அடிப்படைப் பாணி:
+	Style Inspector	பாணி ஆய்வி
+	Style name:	பாணியின் பெயர்:
+	Style Set	பாணித் தொகுப்பு
+	Style: APA	பாணி: APA
+	Style: {style}	பாணி: {style}
+	Styles Pane	பாணிகள் பலகம்
+	Styles Pane Position	பாணிகள் பலகத்தின் நிலை
+	Styles:	பாணிகள்:
+	Subentry:	துணை உள்ளீடு:
+	Submit print job	அச்சுப் பணியைச் சமர்ப்பி
+	Submitting print job…	அச்சுப் பணி சமர்ப்பிக்கப்படுகிறது…
+	Subscript-Superscript	கீழெழுத்து-மேலெழுத்து
+	Subscripts and Superscripts	கீழெழுத்துகளும் மேலெழுத்துகளும்
+	Subset:	துணைத்தொகுப்பு:
+	Subtle Emphasis	மெல்லிய அழுத்தம்
+	Subtle Reference	மெல்லிய குறிப்பு
+	Suggested	பரிந்துரைக்கப்பட்டவை
+	Suggestions	பரிந்துரைகள்
+	Sum	மொத்தம்
+	Sum of cosines	கொசைன்களின் கூடுதல்
+	Sum or difference of sines	சைன்களின் கூடுதல் அல்லது வேறுபாடு
+	Summation	கூட்டுத்தொகை
+	Summation from 0 to n	0 முதல் n வரை கூட்டுத்தொகை
+	Summation over binomials	ஈருறுப்புக் கெழுக்களின் கூட்டுத்தொகை
+	Summation with Limits	எல்லைகளுடன் கூட்டுத்தொகை
+	Summation with Lower Limit	கீழ் எல்லையுடன் கூட்டுத்தொகை
+	Summation with Subscript Limit	கீழெழுத்து எல்லையுடன் கூட்டுத்தொகை
+	Summation with Subscript-Superscript Limits	கீழெழுத்து-மேலெழுத்து எல்லைகளுடன் கூட்டுத்தொகை
+	Summations	கூட்டுத்தொகைகள்
+	Suppress line numbers	வரி எண்களை மறை
+	Surface Integral	பரப்புத் தொகையீடு
+	Surface Integral with Limits	எல்லைகளுடன் பரப்புத் தொகையீடு
+	Surface Integral with Stacked Limits	அடுக்கிய எல்லைகளுடன் பரப்புத் தொகையீடு
+	Swahili	சுவாஹிலி
+	Swap footnotes and endnotes	அடிக்குறிப்புகளையும் இறுதிக்குறிப்புகளையும் இடமாற்று
+	Swedish	ஸ்வீடிஷ்
+	Switch Modes	பயன்முறைகளை மாற்று
+	Switch Windows	சாளரங்களுக்கு இடையே மாறு
+	Switch\nModes	பயன்முறைகளை\nமாற்று
+	Switch\nWindows	சாளரங்களுக்கு\nஇடையே மாறு
+	Switzerland	சுவிட்சர்லாந்து
+	Synonyms	ஒத்த சொற்கள்
+	Syria	சிரியா
+numerals	System	கணினி
+	System dictionary	கணினி அகராதி
+	Tab Character	தாவல் எழுத்து
+	Tab character	தாவல் எழுத்து
+	Tab characters	தாவல் எழுத்துகள்
+	Tab leader:	தாவல் குறிப்புக்கோடு:
+	Tab stop position:	தாவல் நிறுத்த நிலை:
+	Tab stops to be cleared:	அழிக்க வேண்டிய தாவல் நிறுத்தங்கள்:
+	Table Column Width	அட்டவணை நெடுவரிசை அகலம்
+	Table Design	அட்டவணை வடிவமைப்பு
+	Table direction:	அட்டவணைத் திசை:
+	Table Grid	அட்டவணைக் கட்டம்
+	Table Layout	அட்டவணை அமைப்பு
+	Table of Authorities	சட்ட ஆதார அட்டவணை
+	Table of Contents	உள்ளடக்க அட்டவணை
+	Table of Contents Options	உள்ளடக்க அட்டவணை விருப்பங்கள்
+	Table of Contents Styles	உள்ளடக்க அட்டவணைப் பாணிகள்
+	Table of Figures	படங்களின் அட்டவணை
+	Table of\nContents	உள்ளடக்க\nஅட்டவணை
+	Table Properties	அட்டவணைப் பண்புகள்
+	Table Properties…	அட்டவணைப் பண்புகள்…
+	Table Row Height	அட்டவணை வரிசை உயரம்
+	Table size	அட்டவணை அளவு
+	Table Style Options	அட்டவணைப் பாணி விருப்பங்கள்
+	Table Styles	அட்டவணைப் பாணிகள்
+#	Tabloid   11.00" × 17.00"	
+	Tabs…	தத்தல்கள்…
+	Tabular List	அட்டவணைப் பட்டியல்
+	Tag	குறிச்சொல்
+	Taiwan	தைவான்
+	Take the last match on the page	பக்கத்தில் உள்ள கடைசிப் பொருத்தத்தை எடு
+	Take your time. The page isn't going anywhere. Neither am I. Ever.	அவசரம் வேண்டாம். பக்கம் எங்கும் போகாது. நானும் போக மாட்டேன். ஒருபோதும்.
+	Tamil	தமிழ்
+	Tangent formula	டேன்ஜென்ட் சூத்திரம்
+	Tangent Function	டேன்ஜென்ட் சார்பு
+	TC entry fields	TC உள்ளீட்டுப் புலங்கள்
+	Teal	கரும் நீல-பச்சை
+	Technology	தொழில்நுட்பம்
+	Templates and Add-ins	வார்ப்புருக்கள் மற்றும் செருகுநிரல்கள்
+	Templates you save in your templates folder show up here.	உங்கள் வார்ப்புருக் கோப்புறையில் நீங்கள் சேமிக்கும் வார்ப்புருக்கள் இங்கே தோன்றும்.
+	Text Box	உரைப் பெட்டி
+	Text boxes	உரைப் பெட்டிகள்
+	text boxes can't go inside a text box	உரைப் பெட்டிக்குள் உரைப் பெட்டிகளை வைக்க முடியாது
+	Text Direction	உரைத் திசை
+	Text Effects	உரை விளைவுகள்
+	Text Effects and Typography	உரை விளைவுகள் மற்றும் அச்சுக்கலை
+	Text Fill	உரை நிரப்பு
+	Text from File	கோப்பிலிருந்து உரை
+	Text Highlight Color	உரை முன்னிலைப்படுத்தும் நிறம்
+	Text indent at:	உரை உள்தள்ளல் இடம்:
+	Text of the nearest paragraph with a given style (running headers)	குறிப்பிட்ட பாணியுடைய மிக அருகிலுள்ள பத்தியின் உரை (தொடர் தலைப்பகுதிகள்)
+	Text Outline	உரை வெளிக்கோடு
+	Text over Colon Equal	முக்கால்புள்ளி-சமக்குறியின் மேல் உரை
+	Text over Equal	சமக்குறியின் மேல் உரை
+	Text Pane	உரைப் பலகம்
+	Text properties only: Word's number, date and yes-no types aren't offered.	உரைப் பண்புகள் மட்டும்: Word-இன் எண், தேதி, ஆம்/இல்லை வகைகள் வழங்கப்படுவதில்லை.
+	Text Size	உரை அளவு
+	Text size	உரை அளவு
+	Text snaps to characters	உரை எழுத்துக் கட்டத்தில் பொருந்தும்
+	Text to display:	காட்ட வேண்டிய உரை:
+	Text watermark	உரை நீர்க்குறி
+	Text Wrapping	உரை சுற்றல்
+	Text\nBox	உரைப்\nபெட்டி
+	Text\nDirection	உரைத்\nதிசை
+	Thai	தாய்
+	That format doesn't keep everything, so the document is still open. Save it as a Word document (.docx) to go on.	அந்த வடிவம் அனைத்தையும் தக்கவைக்காது, எனவே ஆவணம் இன்னும் திறந்தே உள்ளது. தொடர, அதை Word ஆவணமாக (.docx) சேமிக்கவும்.
+	That password isn't right. Check it (passwords are case-sensitive) and try again.	அந்தக் கடவுச்சொல் சரியில்லை. அதைச் சரிபார்த்து (கடவுச்சொற்களில் பெரிய/சிறிய எழுத்து வேறுபாடு முக்கியம்) மீண்டும் முயலவும்.
+	The clipboard is empty.	கிளிப்போர்டு காலியாக உள்ளது.
+	the Clipboard pane is empty	கிளிப்போர்டு பலகம் காலியாக உள்ளது
+	the cursor isn't in a table	கர்சர் அட்டவணையில் இல்லை
+	The date it is today	இன்றைய தேதி
+	The document has no bookmarks yet.	இந்த ஆவணத்தில் இன்னும் புத்தகக்குறிகள் எதுவும் இல்லை.
+	the document is protected	ஆவணம் பாதுகாக்கப்பட்டுள்ளது
+	The document is read only, except for regions marked editable.	திருத்தக்கூடியவை எனக் குறிக்கப்பட்ட பகுதிகளைத் தவிர, இந்த ஆவணம் படிக்க மட்டுமே.
+	The document or selection changed. Check again to continue.	ஆவணம் அல்லது தேர்வு மாறிவிட்டது. தொடர மீண்டும் சரிபார்க்கவும்.
+	The document will be saved with a password. Save it to protect it.	ஆவணம் கடவுச்சொல்லுடன் சேமிக்கப்படும். அதைப் பாதுகாக்க, சேமிக்கவும்.
+	The document you are editing keeps the names and dates; only the saved file leaves them out.	நீங்கள் திருத்தும் ஆவணத்தில் பெயர்களும் தேதிகளும் அப்படியே இருக்கும்; சேமிக்கப்படும் கோப்பில் மட்டுமே அவை விடுபடும்.
+	The margins don't fit on a page this size; make the margins smaller first.	இந்த அளவுள்ள பக்கத்தில் ஓரங்கள் பொருந்தவில்லை; முதலில் ஓரங்களைச் சிறியதாக்கவும்.
+	The measurement must be between {min} and {max}.	அளவீடு {min} முதல் {max} வரை இருக்க வேண்டும்.
+	The new style takes the formatting of the current paragraph.	புதிய பாணி தற்போதைய பத்தியின் வடிவமைப்பைப் பெறும்.
+	The Normal template couldn't be read, so this document uses WordCraft's built-in formatting.	இயல்பான வார்ப்புருவைப் படிக்க முடியவில்லை, எனவே இந்த ஆவணம் WordCraft இன் உள்ளமைந்த வடிவமைப்பைப் பயன்படுத்துகிறது.
+	The number must be a divisor of {max}.	எண்ணானது {max} என்பதை மீதியின்றி வகுக்கக்கூடியதாக இருக்க வேண்டும்.
+	The number must be between 1 and {max}.	எண் 1 முதல் {max} வரை இருக்க வேண்டும்.
+	the paragraph is empty	பத்தி காலியாக உள்ளது
+	the paragraph starts with a space	பத்தி ஓர் இடைவெளியுடன் தொடங்குகிறது
+	The password is optional; without it anyone can stop the protection.	கடவுச்சொல் கட்டாயமில்லை; அது இல்லையென்றால் யார் வேண்டுமானாலும் பாதுகாப்பை நிறுத்தலாம்.
+	The password is removed. Save the document to keep the change.	கடவுச்சொல் அகற்றப்பட்டது. மாற்றத்தைத் தக்கவைக்க, ஆவணத்தைச் சேமிக்கவும்.
+	The printer, two-sided printing and pages per sheet are chosen in that dialog.	அச்சுப்பொறி, இருபக்க அச்சிடல், ஒரு தாளுக்குப் பக்கங்கள் ஆகியவை அந்த உரையாடல் பெட்டியில் தேர்ந்தெடுக்கப்படுகின்றன.
+	The recipient-list field that fills each part of an address block and greeting line.	முகவரித் தொகுதி, வாழ்த்து வரி ஆகியவற்றின் ஒவ்வொரு பகுதியையும் நிரப்பும் பெறுநர் பட்டியல் புலம்.
+	The spelling and grammar check is complete.	எழுத்துக்கூட்டல் மற்றும் இலக்கணச் சரிபார்ப்பு முடிந்தது.
+	The spelling and hyphenation data WordCraft uses, and their licences.	WordCraft பயன்படுத்தும் எழுத்துக்கூட்டல் மற்றும் சொற்பிரிப்புத் தரவும், அவற்றின் உரிமங்களும்.
+	The spelling dictionary for {language} couldn't be read, so it isn't checked. File: {file}. Reason: {reason}	{language} மொழிக்கான எழுத்துக்கூட்டல் அகராதியைப் படிக்க முடியவில்லை, எனவே அம்மொழி உரை சரிபார்க்கப்படவில்லை. கோப்பு: {file}. காரணம்: {reason}
+	the Spike is empty	காகிதக் குத்தி காலியாக உள்ளது
+	The system file dialog isn't available, so WordCraft shows its own. To get the system dialog, install a file chooser portal (such as xdg-desktop-portal-gtk) or zenity.	கணினியின் கோப்பு உரையாடல் பெட்டி கிடைக்கவில்லை, எனவே WordCraft தனது சொந்த உரையாடல் பெட்டியைக் காண்பிக்கிறது. கணினி உரையாடல் பெட்டியைப் பெற, ஒரு கோப்புத் தேர்வு போர்ட்டலையோ (xdg-desktop-portal-gtk போன்றவை) zenity-ஐயோ நிறுவவும்.
+	The text at the insertion point is marked Do not check spelling or grammar.	செருகும் புள்ளியில் உள்ள உரை "எழுத்துக்கூட்டல் அல்லது இலக்கணத்தைச் சரிபார்க்க வேண்டாம்" எனக் குறிக்கப்பட்டுள்ளது.
+	The time right now	தற்போதைய நேரம்
+	The {language} dictionary couldn't be downloaded: {error}	{language} அகராதியைப் பதிவிறக்க முடியவில்லை: {error}
+	The {language} dictionary is installed.	{language} அகராதி நிறுவப்பட்டது.
+	Theme Colors	தோற்ற நிறங்கள்
+	Theme Fonts	தோற்ற எழுத்துருக்கள்
+	Theme List	தோற்றப் பட்டியல்
+	Themes	தோற்றங்கள்
+	Then by	பின்னர் இதன்படி
+	Then insert:	அப்படியானால் செருகு:
+	There are no macros yet. Record one to add it here.	இன்னும் மேக்ரோக்கள் எதுவும் இல்லை. ஒன்றை இங்கே சேர்க்க, அதைப் பதிவுசெய்யவும்.
+	there is no ink to replay	மறுஇயக்கம் செய்ய மை எதுவும் இல்லை
+	there is nothing to undo	செயல்தவிர்க்க எதுவும் இல்லை
+	there's no citation after the caret	கர்சருக்குப் பின் மூலக்குறிப்பு எதுவும் இல்லை
+	Thesaurus	சொற்களஞ்சியம்
+	These marks show even when Show/Hide ¶ is off.	காண்பி/மறை ¶ முடக்கத்தில் இருந்தாலும் இந்தக் குறிகள் காண்பிக்கப்படும்.
+	These merge fields aren't in the recipient list:	இந்த ஒன்றிணைப்புப் புலங்கள் பெறுநர் பட்டியலில் இல்லை:
+	These settings will be used for new documents.	இந்த அமைப்புகள் புதிய ஆவணங்களுக்குப் பயன்படுத்தப்படும்.
+	Thick	தடித்த
+	Thick Frame	தடித்த சட்டகம்
+	Thin	மெல்லிய
+	This cannot be undone. Your original file stays unchanged.	இதைச் செயல்தவிர்க்க முடியாது. உங்கள் அசல் கோப்பு மாறாமல் இருக்கும்.
+	this chart was made in another program: WordCraft shows it but can't edit it	இந்த விளக்கப்படம் வேறொரு நிரலில் உருவாக்கப்பட்டது: WordCraft அதைக் காட்டும், ஆனால் திருத்த முடியாது
+	This document	இந்த ஆவணம்
+	This document has no custom properties.	இந்த ஆவணத்தில் தனிப்பயன் பண்புகள் எதுவும் இல்லை.
+	This document only?	இந்த ஆவணத்திற்கு மட்டுமா?
+	This field has no options.	இந்தப் புலத்துக்கு விருப்பங்கள் எதுவும் இல்லை.
+	This folder can't be read: {error}	இந்தக் கோப்புறையைப் படிக்க முடியவில்லை: {error}
+	This font has no characters to show.	இந்த எழுத்துருவில் காட்டுவதற்கு எழுத்துகள் எதுவும் இல்லை.
+	this item is already at the top level	இந்த உருப்படி ஏற்கனவே மிக உயர் மட்டத்தில் உள்ளது
+	This page	இந்தப் பக்கம்
+	This password type isn't supported.	இந்த வகைக் கடவுச்சொல் ஆதரிக்கப்படவில்லை.
+	This point forward	இந்த இடத்திலிருந்து முன்னோக்கி
+	This section	இந்தப் பிரிவு
+	this session has no Normal template (headless or without preferences)	இந்த அமர்வில் இயல்பான வார்ப்புரு இல்லை (இடைமுகமற்ற இயக்கம் அல்லது விருப்பத்தேர்வுகள் இல்லை)
+	this session has no Normal template (headless or without preferences): use "scope": "document"	இந்த அமர்வில் இயல்பான வார்ப்புரு இல்லை (இடைமுகமற்ற இயக்கம் அல்லது விருப்பத்தேர்வுகள் இல்லை): "scope": "document" ஐப் பயன்படுத்தவும்
+	this SmartArt was made in another program: WordCraft shows it but can't edit it	இந்த SmartArt வேறொரு நிரலில் உருவாக்கப்பட்டது: WordCraft இதைக் காட்டும், ஆனால் திருத்த முடியாது
+	this text box is already linked: break the link first	இந்த உரைப் பெட்டி ஏற்கெனவே இணைக்கப்பட்டுள்ளது: முதலில் இணைப்பைத் துண்டிக்கவும்
+	Three	மூன்று
+	Through	ஊடாக
+	Tight	இறுக்கமான
+	Tilde	அலைக்குறி
+	Tip	உதவிக்குறிப்பு
+	Tips ({n})	உதவிக்குறிப்புகள் ({n})
+preview	Title	தலைப்பு
+	Title Bar	தலைப்புப்பட்டி
+	Title from the document properties	ஆவணப் பண்புகளில் உள்ள தலைப்பு
+	Title:	தலைப்பு:
+	To open Word documents with WordCraft by default: select one in Finder, choose File › Get Info, pick WordCraft under Open with, then click Change All.	Word ஆவணங்களை இயல்பாக WordCraft-இல் திறக்க: Finder-இல் ஒன்றைத் தேர்ந்தெடுத்து, File › Get Info என்பதைத் தேர்வுசெய்து, Open with என்பதன் கீழ் WordCraft-ஐத் தேர்ந்தெடுத்து, பின்னர் Change All என்பதைக் கிளிக் செய்யவும்.
+	To:	வரை:
+	TOA Heading	சட்ட மேற்கோள் அட்டவணைத் தலைப்பு
+	TOC Heading	உள்ளடக்க அட்டவணைத் தலைப்பு
+	TOC {n}	உள்ளடக்க அட்டவணை {n}
+	Today	இன்று
+	tOGGLE cASE	பெரிய/சிறிய எழுத்துகளைத் தலைகீழாக்கு
+	Toggle Check Box	தேர்வுப்பெட்டியை நிலைமாற்று
+	Toggle Field Codes	புலக் குறியீடுகளைக் காட்டு/மறை
+	Toggle Unicode Character	Unicode எழுத்தை மாற்று
+	Top and Bottom	மேலும் கீழும்
+	Top Border	மேல் எல்லை
+	Top Left Cell	மேல் இடது கலம்
+	Top Margin	மேல் ஓரம்
+	Top of Page	பக்கத்தின் மேல்பகுதி
+	Top of the Document	ஆவணத்தின் தொடக்கம்
+	Top Right Cell	மேல் வலது கலம்
+	Total Row	மொத்த வரிசை
+	Track Changes	மாற்றங்களைக் கண்காணி
+	Track Changes Options	மாற்றங்களைக் கண்காணிப்பதற்கான விருப்பங்கள்
+	Track Changes: On	மாற்றங்களைக் கண்காணி: இயக்கத்தில்
+	Track formatting	வடிவமைப்பைக் கண்காணி
+	Track\nChanges	மாற்றங்களைக்\nகண்காணி
+	Track\nChanges ✓	மாற்றங்களைக்\nகண்காணி ✓
+	Tracked changes	கண்காணிக்கப்பட்ட மாற்றங்கள்
+	Trademark	வணிகக் குறி
+	Trademark Sign	வணிகக் குறியீடு
+	Transparency:	ஒளிஊடுருவல்:
+	Transport	போக்குவரத்து
+	Triangle Down	கீழ்நோக்கிய முக்கோணம்
+	Triangle Up	மேல்நோக்கிய முக்கோணம்
+	Trigonometric Functions	முக்கோணவியல் சார்புகள்
+	Triple	மூன்றடுக்கு
+	Triple Dot	மூன்று புள்ளிகள்
+	Triple Integral	மும்மடித் தொகையீடு
+	Triple Integral with Limits	எல்லைகளுடன் மும்மடித் தொகையீடு
+	Triple Integral with Stacked Limits	அடுக்கிய எல்லைகளுடன் மும்மடித் தொகையீடு
+	Trust Center	நம்பிக்கை மையம்
+	Tue	செவ்
+#	Turabian	
+	Turkish	துருக்கியம்
+	Turquoise	நீலப்பச்சை
+	Two	இரண்டு
+	Two-sided printing	இருபக்க அச்சிடல்
+	Two-sided: long edge	இருபக்கம்: நீண்ட விளிம்பு
+	Two-sided: short edge	இருபக்கம்: குறுகிய விளிம்பு
+	Type +2 or -1 to move from the page you are on.	நீங்கள் இருக்கும் பக்கத்திலிருந்து நகர, +2 அல்லது -1 எனத் தட்டச்சு செய்யவும்.
+	Type a command, e.g. "insert table"	ஒரு கட்டளையைத் தட்டச்சு செய்யவும், எ.கா. "அட்டவணையைச் செருகு"
+	Type a New List…	புதிய பட்டியலைத் தட்டச்சிடு…
+	Type a page number, or +2 / -1.	ஒரு பக்க எண்ணை அல்லது +2 / -1 எனத் தட்டச்சு செய்யவும்.
+	Type a size in any unit, such as 5 cm or 300 px. The other side follows, so the picture keeps its proportions.	5 cm அல்லது 300 px போன்று எந்த அலகிலும் அளவைத் தட்டச்சிடவும். மற்றப் பரிமாணமும் அதற்கேற்ப மாறும், எனவே படம் அதன் விகிதங்களைப் பேணும்.
+	Type at least one recipient.	குறைந்தது ஒரு பெறுநரையாவது தட்டச்சு செய்யவும்.
+	Type Character Code	எழுத்துக் குறியீட்டைத் தட்டச்சிடு
+	Type equations in LaTeX	சமன்பாடுகளை LaTeX-இல் தட்டச்சு செய்
+	Type equations in the linear format (UnicodeMath)	சமன்பாடுகளை நேரியல் வடிவத்தில் தட்டச்சு செய் (UnicodeMath)
+	Type in Equation	சமன்பாட்டில் தட்டச்சு செய்
+	Type normal (non-math) text in the equation	சமன்பாட்டில் சாதாரண (கணிதமல்லாத) உரையைத் தட்டச்சு செய்
+	Type Text	உரையைத் தட்டச்சிடு
+	Type the categories down the side and a column of values per series.	வகைகளைப் பக்கவாட்டில் மேலிருந்து கீழாகவும், ஒவ்வொரு தொடருக்கும் ஒரு நெடுவரிசை மதிப்புகளையும் தட்டச்சு செய்யவும்.
+	Type the field's name and its switches, for example PAGE \\* roman.	புலத்தின் பெயரையும் அதன் ஸ்விட்சுகளையும் தட்டச்சு செய்யவும், எடுத்துக்காட்டாக PAGE \\* roman.
+	Type the password to stop the protection.	பாதுகாப்பை நிறுத்த, கடவுச்சொல்லைத் தட்டச்சு செய்யவும்.
+	Type the recipients, or load them from a file.	பெறுநர்களைத் தட்டச்சு செய்யவும், அல்லது ஒரு கோப்பிலிருந்து ஏற்றவும்.
+	Typing replaces selected text	தட்டச்சிடும்போது தேர்ந்தெடுத்த உரை மாற்றப்படும்
+	U.A.E.	ஐக்கிய அரபு அமீரகம்
+	Ukraine	உக்ரைன்
+	Ukrainian	உக்ரைனியன்
+	Unchecked symbol	குறியிடாத நிலைக் குறியீடு
+	Underbar	கீழ் கோடு
+	Underbrace	கீழ் நெளி அடைப்புக்குறி
+	Underline Color	அடிக்கோட்டு நிறம்
+	Underline color	அடிக்கோட்டு நிறம்
+	Underline Words Only	சொற்களை மட்டும் அடிக்கோடிடு
+	Undo 1 Action	1 செயலைச் செயல்தவிர்
+	Undo Actions	செயல்களைச் செயல்தவிர்
+	Undo History	செயல்தவிர் வரலாறு
+	Undo {n} Actions	{n} செயல்களைச் செயல்தவிர்
+	Undo, undo, undo… we're time travelling now.	செயல்தவிர், செயல்தவிர், செயல்தவிர்… இப்போது நாம் காலப்பயணம் செய்கிறோம்.
+	Unformatted Text	வடிவமைக்கப்படாத உரை
+	Union of intersections	வெட்டுகளின் சேர்ப்பு
+	Union with Limits	எல்லைகளுடன் சேர்ப்பு
+	Union with Lower Limit	கீழ் எல்லையுடன் சேர்ப்பு
+	Union with Plus	கூட்டல் குறியுடன் சேர்ப்பு
+	Union with Subscript-Superscript Limits	கீழெழுத்து-மேலெழுத்து எல்லைகளுடன் சேர்ப்பு
+	Unions and Intersections	சேர்ப்புகளும் வெட்டுகளும்
+	United Kingdom	ஐக்கிய இராச்சியம்
+	United States	அமெரிக்க ஐக்கிய நாடுகள்
+	Unlink Fields	புலங்களின் இணைப்பை நீக்கு
+	Unlink\nCitations	மூலக்குறிப்புகளின்\nஇணைப்பை நீக்கு
+	Unlock Fields	புலங்களின் பூட்டைத் திற
+	Up Diagonal Dots	மேல்நோக்கு மூலைவிட்டப் புள்ளிகள்
+	Up one level	ஒரு நிலை மேலே
+	Update check is not supported in the web browser.	இணைய உலாவியில் புதுப்பிப்புச் சரிபார்ப்பு ஆதரிக்கப்படவில்லை.
+	Update Field	புலத்தைப் புதுப்பி
+	Update fields before printing	அச்சிடுவதற்கு முன் புலங்களைப் புதுப்பி
+	Update Index	பொருளடைவைப் புதுப்பி
+	Update Style to Match Selection	தேர்வுக்குப் பொருந்தும்படி பாணியைப் புதுப்பி
+	Update Styles from Template	வார்ப்புருவிலிருந்து பாணிகளைப் புதுப்பி
+	Update Table	அட்டவணையைப் புதுப்பி
+	Update Table of Figures	படங்களின் அட்டவணையைப் புதுப்பி
+	Update to Match	பொருந்தும்படி புதுப்பி
+	Update to Match Selection	தேர்வுக்குப் பொருந்தும்படி புதுப்பி
+	URGENT	அவசரம்
+#	URL	
+	Uruguay	உருகுவே
+	Use "a" before a consonant sound	மெய்யொலிக்கு முன் "a" ஐப் பயன்படுத்து
+	Use "an" before a vowel sound	உயிரொலிக்கு முன் "an" ஐப் பயன்படுத்து
+	Use an Existing List…	ஏற்கனவே உள்ள பட்டியலைப் பயன்படுத்து…
+	Use system setting	கணினி அமைப்பைப் பயன்படுத்து
+	Use the browser's full screen (F11)	உலாவியின் முழுத்திரையைப் பயன்படுத்தவும் (F11)
+	Use the current style set and theme for all new documents?	தற்போதைய பாணித் தொகுப்பையும் தோற்றத்தையும் அனைத்துப் புதிய ஆவணங்களுக்கும் பயன்படுத்தவா?
+	Use the Insert key to switch overtype on and off	மேலெழுதுதலை இயக்கவும் முடக்கவும் Insert விசையைப் பயன்படுத்து
+	Use this formatting as the default for:	இந்த வடிவமைப்பை எதற்கு இயல்புநிலையாகப் பயன்படுத்த வேண்டும்:
+	Use wildcards	பதிலிக்குறிகளைப் பயன்படுத்து
+	User Name	பயனர்பெயர்
+	User name:	பயனர் பெயர்:
+	User templates:	பயனர் வார்ப்புருக்கள்:
+	Vector A	திசையன் A
+	Vector AB	திசையன் AB
+	Venezuela	வெனிசுலா
+	Version History	பதிப்பு வரலாறு
+	Version {version} ({build})	பதிப்பு {version} ({build})
+	Vertical alignment:	செங்குத்துச் சீரமைப்பு:
+	Vertical Bars	செங்குத்துக் கோடுகள்
+	Vertical Dots	செங்குத்துப் புள்ளிகள்
+	Vietnamese	வியட்நாமீஸ்
+	View Alt Text…	மாற்று உரையைக் காண்…
+	View and edit the document's custom properties.	ஆவணத்தின் தனிப்பயன் பண்புகளைக் காணவும் திருத்தவும்.
+	View Gridlines	கட்டக்கோடுகளைக் காண்பி
+	View State	பார்வை நிலை
+	View › Focus hides everything but your words. I'll wait outside.	பார்வை › கவனம் உங்கள் சொற்களைத் தவிர மற்ற அனைத்தையும் மறைக்கும். நான் வெளியே காத்திருக்கிறேன்.
+	Viewing	பார்ப்பதற்கு
+	Viewing — view the file but make no changes	பார்ப்பதற்கு — கோப்பைப் பார்க்கலாம், ஆனால் மாற்றங்கள் எதுவும் செய்ய முடியாது
+	Views	காட்சிகள்
+	Visual effects	காட்சி விளைவுகள்
+	Vivid 200%	துடிப்பான 200%
+	Volume	தொகுதி
+	Volume Integral	கனஅளவுத் தொகையீடு
+	Volume Integral with Limits	எல்லைகளுடன் கனஅளவுத் தொகையீடு
+	Volume Integral with Stacked Limits	அடுக்கிய எல்லைகளுடன் கனஅளவுத் தொகையீடு
+	Wait for the print job to finish submitting before closing.	மூடுவதற்கு முன், அச்சுப் பணி அனுப்பப்பட்டு முடியும் வரை காத்திருக்கவும்.
+	Waiting for the save to finish…	சேமிப்பு முடியும் வரை காத்திருக்கிறது…
+	Waiting for Zotero…	Zotero-க்காகக் காத்திருக்கிறது…
+	Warm Gradient with Outline	வெதுவெதுப்பான நிறப் படித்திறன், வெளிக்கோட்டுடன்
+	Warnings ({n})	எச்சரிக்கைகள் ({n})
+	Washout	வெளிறல்
+	Weather	வானிலை
+	Web Layout	இணைய அமைப்பு
+	Web page (*.html)	இணையப் பக்கம் (*.html)
+	Web\nLayout	இணைய\nஅமைப்பு
+	Wed	புத
+	Welsh	வெல்ஷ்
+	West	மேற்கு
+	When this document was first created	இந்த ஆவணம் முதலில் உருவாக்கப்பட்ட நேரம்
+	When this document was most recently printed	இந்த ஆவணம் கடைசியாக அச்சிடப்பட்ட நேரம்
+	When this document was most recently saved	இந்த ஆவணம் கடைசியாகச் சேமிக்கப்பட்ட நேரம்
+	White Space	வெற்றிடம்
+	White space	வெற்றிடம்
+	Who the document properties name as author	ஆவணப் பண்புகளில் ஆசிரியராகக் குறிப்பிடப்பட்டவர்
+	Whole document	முழு ஆவணம்
+	Whole page	முழுப் பக்கம்
+	Whole Table	முழு அட்டவணை
+	Whole words	முழுச் சொற்கள்
+	Wide	அகலமான
+	Widow/Orphan Control	தனித்த வரிக் கட்டுப்பாடு
+	Widow/Orphan control	தனித்த வரிக் கட்டுப்பாடு
+	Width and spacing	அகலமும் இடைவெளியும்
+	Wildcards (regex)	பதிலிக்குறிகள் (regex)
+	With:	மாற்றாக:
+	Word 2003 XML Document (*.xml)	Word 2003 XML ஆவணம் (*.xml)
+	Word Count	சொல் எண்ணிக்கை
+	Word document	Word ஆவணம்
+	Word document (*.docx)	Word ஆவணம் (*.docx)
+	Word Left	சொல் இடப்புறம்
+	Word level	சொல் நிலை
+	Word Right	சொல் வலப்புறம்
+	Word sources	Word மூலங்கள்
+	Word XML Document (*.xml)	Word XML ஆவணம் (*.xml)
+#	WordArt	
+	WordArt Styles	WordArt பாணிகள்
+#	WordCraft	
+	WordCraft is now the default app for Word documents.	Word ஆவணங்களுக்கான இயல்புநிலைப் பயன்பாடு இப்போது WordCraft.
+	WordCraft {version} is currently the newest version available.	WordCraft {version} தான் தற்போது கிடைக்கும் மிகப் புதிய பதிப்பு.
+	Words only	சொற்கள் மட்டும்
+	Wrap Text	உரையைச் சுற்றவை
+	Wrap Text Sides	உரை சுற்றும் பக்கங்கள்
+	Wrap\nText	உரையைச்\nசுற்றவை
+	Write & Insert Fields	எழுது & புலங்களைச் செருகு
+	Write a reply	பதில் எழுதவும்
+	Writer's block? I find staring at the cursor helps. It's been blinking at me for years.	எழுத்துத் தடையா? கர்சரை உற்றுப் பார்ப்பது எனக்கு உதவுகிறது. அது பல ஆண்டுகளாக என்னைப் பார்த்துக் கண் சிமிட்டிக்கொண்டிருக்கிறது.
+	x bar	x மேல் கோடு
+	Year	ஆண்டு
+	Yields	தருகிறது
+	You haven't saved in a while, and AutoSave is off. Save now?	நீங்கள் சிறிது நேரமாகச் சேமிக்கவில்லை, தானியங்கிச் சேமிப்பும் முடக்கத்தில் உள்ளது. இப்போது சேமிக்கவா?
+	You started a list. Press Enter twice to end it, or Backspace at the start of an item to turn it back into text.	நீங்கள் ஒரு பட்டியலைத் தொடங்கியுள்ளீர்கள். அதை முடிக்க Enter விசையை இரு முறை அழுத்தவும், அல்லது ஓர் உருப்படியை மீண்டும் உரையாக மாற்ற அதன் தொடக்கத்தில் Backspace விசையை அழுத்தவும்.
+	Your document is now the most saved document in history.	உங்கள் ஆவணம் இப்போது வரலாற்றிலேயே அதிக முறை சேமிக்கப்பட்ட ஆவணம்.
+	Your languages	உங்கள் மொழிகள்
+	Your own dictionary	உங்கள் சொந்த அகராதி
+	Your system doesn't report an animation setting, so animation effects stay on.	உங்கள் கணினி அசைவூட்ட அமைப்பு எதையும் தெரிவிக்கவில்லை, எனவே அசைவூட்ட விளைவுகள் இயக்கத்திலேயே இருக்கும்.
+	Your system has animation effects turned off.	உங்கள் கணினியில் அசைவூட்ட விளைவுகள் முடக்கப்பட்டுள்ளன.
+	Your system has animation effects turned on.	உங்கள் கணினியில் அசைவூட்ட விளைவுகள் இயக்கப்பட்டுள்ளன.
+#	Zotero	
+	Zotero: cancelled	Zotero: ரத்துசெய்யப்பட்டது
+	Zotero: done	Zotero: முடிந்தது
+	{added}; {count} couldn't be read: {names}	{added}; {count} கோப்புகளைப் படிக்க முடியவில்லை: {names}
+	{added}; {n} skipped (limit {max})	{added}; {n} தவிர்க்கப்பட்டன (வரம்பு {max})
+	{cols}×{rows} Table	{cols}×{rows} அட்டவணை
+	{contributors} contributors · {commits} commits	{contributors} பங்களிப்பாளர்கள் · {commits} கமிட்கள்
+	{count} items highlighted	{count} உருப்படிகள் முன்னிலைப்படுத்தப்பட்டன
+	{count} of {total} pages will print	{total} பக்கங்களில் {count} அச்சிடப்படும்
+	{count} of {total} recipients will be merged.	{total} பெறுநர்களில் {count} ஒன்றிணைக்கப்படும்.
+	{field}, record {n}	{field}, பதிவு {n}
+	{group} settings	{group} அமைப்புகள்
+	{key} checks the spelling and grammar of the whole document.	{key} முழு ஆவணத்தின் எழுத்துக்கூட்டலையும் இலக்கணத்தையும் சரிபார்க்கும்.
+	{key} counts your words, characters and paragraphs.	{key} உங்கள் சொற்கள், எழுத்துகள், பத்திகளை எண்ணும்.
+	{key} finds and replaces text, formatting and special characters.	{key} உரை, வடிவமைப்பு, சிறப்பு எழுத்துகள் ஆகியவற்றைக் கண்டறிந்து மாற்றும்.
+	{key} repeats your last action. Formatting ten headings is suddenly one click and nine taps.	{key} உங்கள் கடைசிச் செயலை மீண்டும் செய்யும். பத்துத் தலைப்புகளை வடிவமைப்பது திடீரென்று ஒரு கிளிக்கும் ஒன்பது தட்டல்களுமாகிவிடுகிறது.
+	{key} starts a new line without starting a new paragraph.	{key} புதிய பத்தியைத் தொடங்காமல் புதிய வரியைத் தொடங்கும்.
+	{key} starts a new page. Much tidier than pressing Enter until it happens.	{key} புதிய பக்கத்தைத் தொடங்கும். பக்கம் தானாக மாறும் வரை Enter விசையை அழுத்திக்கொண்டே இருப்பதைவிட இது மிகவும் நேர்த்தியானது.
+	{key} turns the selected text into a link.	{key} தேர்ந்தெடுத்த உரையை இணைப்பாக மாற்றும்.
+	{key}+Click to follow link	இணைப்பைப் பின்தொடர {key}+சொடுக்கு
+#	{kind}, {columns} × {rows}, {size} ({paper})	
+	{language} (default)	{language} (இயல்புநிலை)
+	{language} (dictionary unreadable)	{language} (அகராதியைப் படிக்க இயலாது)
+	{language} (no dictionary)	{language} (அகராதி இல்லை)
+#	{language} ({region})	
+	{language} is now the document's default language.	{language} இப்போது ஆவணத்தின் இயல்புநிலை மொழியாக உள்ளது.
+	{language} proofing isn't installed.	{language} சரிபார்ப்பு நிறுவப்படவில்லை.
+	{language}: no dictionary found	{language}: அகராதி எதுவும் கிடைக்கவில்லை
+	{language}: WordCraft doesn't check spelling or grammar in this language yet.	{language}: WordCraft இந்த மொழியில் இன்னும் எழுத்துக்கூட்டலையோ இலக்கணத்தையோ சரிபார்ப்பதில்லை.
+#	{language}: {file}	
+	{language}: {file} (unreadable: {reason})	{language}: {file} (படிக்க முடியவில்லை: {reason})
+	{names} and {n} more	{names} மற்றும் மேலும் {n}
+#	{name}   {height} × {width} in	
+#	{name}   {height} × {width} mm	
+	{name} already exists. Choose Save again to replace it.	{name} ஏற்கனவே உள்ளது. அதை மேலெழுத மீண்டும் சேமி என்பதைத் தேர்ந்தெடுக்கவும்.
+	{name} is protected with a password.	{name} கடவுச்சொல்லால் பாதுகாக்கப்பட்டுள்ளது.
+	{name} options	{name} விருப்பங்கள்
+	{name} wasn't found.	{name} கண்டறியப்படவில்லை.
+	{n} entries marked.	{n} உள்ளீடுகள் குறிக்கப்பட்டன.
+#	{n} KB	
+	{n} lines	{n} வரிகள்
+#	{n} MB	
+#	{n} pt	
+#	{paper}   {width} × {height}	
+	{selected} of {words} words	{words} சொற்களில் {selected}
+#	{size} pt	
+#	{width} × {height} mm	
+	{width} × {height} pixels	{width} × {height} பிக்சல்கள்
+	{words} words	{words} சொற்கள்
+	{words} words and counting. Literally. I'm counting.	{words} சொற்கள், எண்ணிக்கை தொடர்கிறது. உண்மையாகவே. நான்தான் எண்ணிக்கொண்டிருக்கிறேன்.
+	{words} words! I'd throw confetti but I'd have to clean it up.	{words} சொற்கள்! வண்ணக் காகிதத் துண்டுகளைத் தூவியிருப்பேன், ஆனால் பிறகு நானே சுத்தம் செய்ய வேண்டியிருக்கும்.
+	{words} words. That's {words} more than I've written today.	{words} சொற்கள். இன்று நான் எழுதியதைவிட {words} அதிகம்.
+	“{text}” ({row}, {series}) isn't a number.	“{text}” ({row}, {series}) ஓர் எண் அல்ல.
+	✓ None	✓ எதுவுமில்லை
+	➕ New comment	➕ புதிய கருத்து
+	📂  Browse…	📂  உலாவு…
+	A, B, C, …	A, B, C, …
+	APA	APA
+	AutoSave	தானியங்கிச் சேமிப்பு
+	Chicago	Chicago
+	Craft	Craft
+	Decorative Text	அலங்கார உரை
+	Decorative Text Styles	அலங்கார உரைப் பாணிகள்
+	Diagram	வரைபடம்
+	Diagram Design	வரைபட வடிவமைப்பு
+	GB/T 7714	GB/T 7714
+	Harvard (Anglia)	Harvard (Anglia)
+	I, II, III, …	I, II, III, …
+	IEEE	IEEE
+	Insert Diagram	வரைபடத்தைச் செருகு
+	MLA	MLA
+	Markdown (*.md)	Markdown (*.md)
+	SIST02	SIST02
+	Shift+Tab	Shift+Tab
+	Turabian	Turabian
+	WordCraft	WordCraft
+@msg	a diagram holds at most {MAX_ITEMS} items	ஒரு வரைபடத்தில் அதிகபட்சம் {MAX_ITEMS} உருப்படிகள் இருக்கலாம்
+	a, b, c, …	a, b, c, …
+	cm	cm
+	getartcraft.com/apps/wordcraft	getartcraft.com/apps/wordcraft
+	i, ii, iii, …	i, ii, iii, …
+	mm	mm
+	pi	pi
+	pt	pt
+	select a diagram first	முதலில் ஒரு வரைபடத்தைத் தேர்ந்தெடுக்கவும்
+	select a shape or decorative text first	முதலில் ஒரு வடிவத்தை அல்லது அலங்கார உரையைத் தேர்ந்தெடுக்கவும்
+	this diagram can't be edited	இந்த வரைபடத்தைத் திருத்த முடியாது
+	this diagram was made in another program: WordCraft shows it but can't edit it	இந்த வரைபடம் வேறொரு நிரலில் உருவாக்கப்பட்டது: WordCraft அதைக் காட்டும், ஆனால் திருத்த முடியாது
+@msg	unknown decorative text style `{id}`	அறியப்படாத அலங்கார உரைப் பாணி `{id}`
+	{kind}, {columns} × {rows}, {size} ({paper})	{kind}, {columns} × {rows}, {size} ({paper})
+	{n} pt	{n} pt
+	{size} pt	{size} pt
