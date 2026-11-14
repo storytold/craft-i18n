@@ -10,6 +10,8 @@ use std::path::{Path, PathBuf};
 
 use serde::{Deserialize, Serialize};
 use sha2::{Digest, Sha256};
+#[cfg(test)]
+mod hu;
 
 /// The largest file an entry may name (`craft-proof` reads at most this much per dictionary file).
 pub const MAX_FILE: u64 = 64 << 20;
@@ -106,6 +108,7 @@ pub enum Kind {
     SpellingAff,
     SpellingDic,
     Hyphenation,
+    HyphenationNonstandard,
     Licence,
 }
 
@@ -137,6 +140,7 @@ impl Entry {
             Kind::SpellingAff => "spelling.aff".into(),
             Kind::SpellingDic => "spelling.dic".into(),
             Kind::Hyphenation => "hyphenation.pat".into(),
+            Kind::HyphenationNonstandard => "hyphenation.nonstandard".into(),
             Kind::Licence => format!("LICENCES/{}", self.file_name()),
         }
     }
@@ -485,6 +489,11 @@ pub fn check(
                 "{locale}: spelling needs both spelling-aff and spelling-dic"
             ));
         }
+        if has(Kind::HyphenationNonstandard) && !has(Kind::Hyphenation) {
+            errors.push(format!(
+                "{locale}: hyphenation-nonstandard needs the standard hyphenation fallback"
+            ));
+        }
         if !has(Kind::Licence) {
             errors.push(format!(
                 "{locale}: needs a licence entry (the upstream notice)"
@@ -819,6 +828,18 @@ pub fn build(
             }
             continue;
         }
+        // `build` is public: direct callers must satisfy the installer's fallback contract too.
+        if manifest
+            .entries(locale)
+            .any(|e| e.kind == Kind::HyphenationNonstandard)
+            && !manifest
+                .entries(locale)
+                .any(|e| e.kind == Kind::Hyphenation)
+        {
+            return Err(format!(
+                "{locale}: hyphenation-nonstandard needs the standard hyphenation fallback"
+            ));
+        }
         let mut files = Vec::new();
         for e in manifest.entries(locale) {
             files.push((e, fetch(e, &opts.cache, opts.download)?));
@@ -837,7 +858,9 @@ pub fn build(
             licence: manifest.licence(locale),
             class: manifest.class(locale).as_str().to_owned(),
             spelling: files.iter().any(|(e, _)| e.kind == Kind::SpellingDic),
-            hyphenation: files.iter().any(|(e, _)| e.kind == Kind::Hyphenation),
+            hyphenation: files
+                .iter()
+                .any(|(e, _)| matches!(e.kind, Kind::Hyphenation | Kind::HyphenationNonstandard)),
             source: manifest.source(locale),
         });
     }

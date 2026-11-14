@@ -117,6 +117,7 @@ dependencies = [
  "sha2",
  "spdx",
  "tar",
+ "tempfile",
  "toml",
  "unic-langid",
  "ureq",
@@ -126,7 +127,7 @@ dependencies = [
 [[package]]
 name = "craft-proof"
 version = "0.1.0"
-source = "git+https://github.com/storytold/craft-libs?rev=47c9f625#47c9f62530db72bc5c3831c86653b47b20c640be"
+source = "git+https://github.com/storytold/craft-libs?rev=c664fee740c5f0ec70e303f8c77d6beb17291b98#c664fee740c5f0ec70e303f8c77d6beb17291b98"
 dependencies = [
  "log",
  "miniz_oxide",
@@ -195,6 +196,12 @@ dependencies = [
  "libc",
  "windows-sys 0.61.2",
 ]
+
+[[package]]
+name = "fastrand"
+version = "2.5.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "da7c62ceae207dd37ea5b845da6a0696c799f85e97da1ab5b7910be3c1c80223"
 
 [[package]]
 name = "filetime"
@@ -881,6 +888,19 @@ dependencies = [
  "filetime",
  "libc",
  "xattr",
+]
+
+[[package]]
+name = "tempfile"
+version = "3.27.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "32497e9a4c7b38532efcdebeef879707aa9f794296a4f0244f6f69e9bc8574bd"
+dependencies = [
+ "fastrand",
+ "getrandom 0.4.3",
+ "once_cell",
+ "rustix",
+ "windows-sys 0.61.2",
 ]
 
 [[package]]
