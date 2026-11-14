@@ -255,6 +255,10 @@ Sonnet 5.5), AI-assisted: written by the model from the plain meaning of the Eng
 catalog's own words for watermark, picture and transparency, with no other product's localisation
 consulted. **No native speaker has reviewed these rows.**
 
+## PhotoCraft native import/report additions
+
+Migrated 1,010 previously missing rows for `ar`, `az`, `bs`, `cs`, `da`, `de`, `el`, `es`, `fi`, `fr`, `he`, `hi`, `hu`, `id`, `it`, `ja`, `ka`, `ko`, `nb`, `nl`, `pl`, `pt-br`, `ro`, `ru`, `sr-latn`, `sv`, `ta`, `th`, `tr`, `uk`, `ur`, `vi`, `zh-hans`, `zh-hant` from PhotoCraft's clean-room catalog additions between `photocraft@988044fe73dce2c97b680f5f707baf174b68ebb9` and `photocraft@0ec85da20bddb896f8832226c001cf30872882a7`. Existing shared/app translations were preserved. The migration was AI-assisted; individual translators and native-speaker review of these additions were not recorded in the source, and native-speaker review remains pending. The supported PhotoCraft locale alias `sr` to `sr-latn` was applied; its 29 added Serbian values were transliterated from Cyrillic to Latin using standard Serbian letter mappings (including Lj, Nj and Dž), preserving placeholders and punctuation.
+
 ## Language data
 
 Every file under `language-data/` ([ADR 0004](docs/adr/0004-third-party-language-data.md),
