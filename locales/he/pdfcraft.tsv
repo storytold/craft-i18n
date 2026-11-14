@@ -19,6 +19,8 @@
 	 on page {label}	 בעמוד {label}
 	 on page {p}	 בעמוד {p}
 	 · password-protected	 · מוגן בסיסמה
+	{app} {version} is available with the latest features and bug fixes.	גרסה {version} של {app} זמינה וכוללת את התכונות העדכניות ואת תיקוני הבאגים האחרונים.
+	{app} {version} is the newest version available.	גרסה {version} של {app} היא הגרסה העדכנית ביותר הזמינה.
 	+Bin	+קבצים בינאריים
 	+LOC	+שורות קוד
 	, Expires: 	, תוקף עד: 
@@ -195,6 +197,7 @@
 	All page content is tagged	כל תוכן העמוד מתויג
 	All pages in document	כל עמודי המסמך
 	All pages in range	כל העמודים בטווח
+	All releases are listed at {url}	רשימת כל הגרסאות מופיעה בכתובת {url}.
 	All tools	כל הכלים
 	Allow	אפשר
 	Allow Rich Text Formatting	אפשר עיצוב טקסט עשיר
@@ -392,6 +395,7 @@ certificate	Basic constraints	אילוצים בסיסיים
 	Checkbox	תיבת סימון
 	Checked	מסומן
 	Checking for a newer version…	בודק אם קיימת גרסה חדשה יותר…
+	Checking for updates…	בודק אם קיימים עדכונים…
 	Checking Options ({on} of 32 in all categories)	אפשרויות בדיקה ({on} מתוך 32 בכל הקטגוריות)
 	Checking pages…	בדיקת עמודים…
 	Checkmark	סימן וי
@@ -510,6 +514,7 @@ certificate	Basic constraints	אילוצים בסיסיים
 	Copy text	העתקת טקסט
 	Copy to clipboard	העתקה ללוח הגזירים
 	Correct recognized text	תיקון הטקסט שזוהה
+	Could not check for updates.	לא ניתן לבדוק אם קיימים עדכונים.
 	Could not save: {e}	השמירה נכשלה: {e}
 	Couldn't add {name}: {e}	לא ניתן להוסיף את {name}: {e}
 	Couldn't check for updates: {e}	לא ניתן לבדוק עדכונים: {e}
@@ -722,6 +727,7 @@ key	Delete	Delete
 	Download	הורדה
 	Downloaded {name}	הורד {name}
 @plural	Downloaded {n} PDF|Downloaded {n} PDFs	הורד {n} קובץ PDF|הורדו {n} קובצי PDF|הורדו {n} קובצי PDF
+	Downloading and installing update…	מוריד ומתקין את העדכון…
 	Downloading attachments on the web arrives with M3.10 ({n} bytes ready)	הורדת קבצים מצורפים בגרסת האינטרנט תגיע באבן הדרך M3.10 ({n} בתים מוכנים)
 	Downsample to	הפחתת רזולוציה עד
 	DPI sets the printed page size without resampling the image.	ערך ה־DPI קובע את גודל העמוד המודפס בלי לדגום מחדש את התמונה.
@@ -1127,6 +1133,7 @@ key	Home	Home
 	Inset	שקוע פנימה
 	Inspector	מפקח
 	Installed fonts…	גופנים מותקנים…
+	Installing update…	מתקין את העדכון…
 	Intended usage	שימוש מיועד
 certificate	Intended usage	שימוש מיועד
 	Interface size	גודל הממשק
@@ -1855,6 +1862,7 @@ certificate	Public key	מפתח ציבורי
 	Resize window to initial page	שינוי גודל החלון בהתאם לעמוד הראשוני
 	Resolution	רזולוציה
 	Resolution:	רזולוציה:
+	Restart to Update	הפעל מחדש ועדכן
 	Restore	שחזור
 	Restore the last view (page, zoom and page display) when a document is opened again	שחזור התצוגה האחרונה (עמוד, הגדלה ותצוגת עמוד) כאשר מסמך נפתח שוב
 	Restrictions	הגבלות
@@ -2359,6 +2367,10 @@ calendar weekday	Th	ה׳
 	The timestamp's byte range does not match the file.	טווח הבתים של חותמת הזמן אינו תואם לקובץ.
 	The title in the metadata and the document information differ	הכותרת במטא־נתונים שונה מהכותרת בפרטי המסמך
 	the title must not be empty	הכותרת אינה יכולה להיות ריקה
+	The update could not be installed: {reason}	לא ניתן להתקין את העדכון: {reason}
+	The update failed unexpectedly.	העדכון נכשל באופן בלתי צפוי.
+	The update is installed. Close {app} to finish; it restarts by itself.	העדכון הותקן. יש לסגור את {app} כדי להשלים את התהליך; הוא יופעל מחדש באופן אוטומטי.
+	The update stopped unexpectedly.	העדכון נעצר באופן בלתי צפוי.
 	The value is shown as typed.	הערך מוצג כפי שהוקלד.
 	The window should show a meaningful title rather than the file name. Set a title and Initial View > Show: Document Title.	בחלון צריכה להופיע כותרת משמעותית במקום שם הקובץ. יש להגדיר כותרת ואת „תצוגה ראשונית” > „הצגה: כותרת המסמך”.
 	The window shows the file name, not the title (Initial View > Show)	החלון מציג את שם הקובץ במקום את הכותרת (תצוגה ראשונית > הצגה)
@@ -2497,10 +2509,12 @@ signature pad	Type	הקלדה
 	Unspecified	לא צוין
 	Unsupported measurements	מדידות שאינן נתמכות
 	Update	עדכון
+	Update and Restart	עדכון והפעלה מחדש
 	Update background	עדכון רקע
 	Update background…	עדכון רקע…
 	Update header & footer	עדכון כותרת עליונה ותחתונה
 	Update header & footer…	עדכון כותרת עליונה ותחתונה…
+	Update ready. Close {app} to install it.	העדכון מוכן. יש לסגור את {app} כדי להתקין אותו.
 	Update watermark	עדכון סימן מים
 	Update watermark…	עדכון סימן מים…
 	URL to submit to	כתובת URL לשליחה
@@ -2527,6 +2541,7 @@ signature pad	Type	הקלדה
 	Used when opening PDFs. An explicit launch or control mode takes precedence for the session.	משמש בעת פתיחת קובצי PDF. מצב הפעלה או בקרה שהוגדר במפורש גובר עליו במהלך ההפעלה.
 	User Interface Options	אפשרויות ממשק המשתמש
 	User password	סיסמת משתמש
+	v{from} to {to}	מגרסה {from} לגרסה {to}
 	Valid	תקף
 	Valid for 5 years, for digital signatures. Self-signed IDs are usually not trusted by others.	תקף לחמש שנים עבור חתימות דיגיטליות. בדרך כלל אין אמון של אחרים במזהים שנחתמו בחתימה עצמית.
 	Valid from	תקף מתאריך
@@ -2569,6 +2584,7 @@ calendar weekday	We	ד׳
 	Welcome to PdfCraft	ברוכים הבאים ל־PdfCraft
 	What takes up the space in this file, by kind of content.	החלוקה של נפח הקובץ לפי סוג התוכן.
 	What word or phrase would you like to search for?	איזו מילה או איזו סדרת מילים לחפש?
+	What's new	מה חדש
 	White on black	לבן על שחור
 	Whole words only	מילים שלמות בלבד
 	Width	רוחב
