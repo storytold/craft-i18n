@@ -255,6 +255,19 @@ Sonnet 5.5), AI-assisted: written by the model from the plain meaning of the Eng
 catalog's own words for watermark, picture and transparency, with no other product's localisation
 consulted. **No native speaker has reviewed these rows.**
 
+## AniCraft: Hebrew catalog (artcraft-he batches 005–008)
+
+@nocturney added `locales/he/anicraft.tsv`: 565 rows (559 across batches 005–008, one reviewed Edit Multiple Frames command label, plus five reviewed compound plural rows) for AniCraft interface strings
+(`anicraft@fc79334` for batch 005, `anicraft@93cd5b0` for batches 006–007, `anicraft@4699c78` for batch 008; its `tr!`/`trc!`/`trn!`/`tr_noop!`
+calls) that no Hebrew catalog had, chosen from strings that are not shared rows in any locale's
+`common.tsv` (batch 005: bones and rigging, stage and camera, frames and keyframes, tweens, symbols and instances, stroke and fill properties, layers and sound, actions and events, filters, file types, autosave intervals; batch 006: dialogs and preferences: autosave and recovery, save-changes and confirmation dialogs, command palette, fonts and language, renderer and graphics card, shortcut editor and keymap phrases, licences; batch 007: actions panel, status messages and plural rows with Hebrew's three forms (one|two|other); batch 008: timeline, Library, onion skin, edit-multiple-frames and motion editing).
+AI-generated with Grok Bot, written from the English meaning and the AniCraft call sites, clean
+room; limited terminology and plural-form review assisted by ChatGPT and Claude Code,
+with 25 documented corrections and six batch-008 adjustments. No complete native-speaker
+review of the catalog or in-app Hebrew UI acceptance is claimed. AniCraft embeds every craft-i18n catalog but does
+not offer Hebrew yet (`i18n::READY` is left-to-right scripts only until egui lays out
+bidirectional text); until then the rows are carried as data only.
+
 ## Language data
 
 Every file under `language-data/` ([ADR 0004](docs/adr/0004-third-party-language-data.md),
