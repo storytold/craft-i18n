@@ -1,6 +1,6 @@
 # craft-i18n roadmap
 
-> **Last updated:** 2026-11-08 · **Change:** minor (3b: PhotoCraft cutover started)
+> **Last updated:** 2026-11-08 · **Change:** minor (KM42: ship the CLDR modification statement separately from review evidence; 3b: PhotoCraft cutover started); previously minor (KM35: ship only explicit upstream notices, reserve licence names case-insensitively, pin provenance and report audit errors cleanly; KM24: pin published Aksara notices and clarify the spelling-list MIT alternative; KM23: verify CLDR 28 and SEAlang notices, record inherited-source evidence; Khmer notice preservation and pending provenance review; file-size `unit` rows and a shared byte count for craft-libs#204)
 
 Shared translations for the storytold Crafting Apps: one catalog per locale for shared strings,
 one per app, checked in CI and embedded by each app at build time. Vocabulary is in
@@ -16,7 +16,7 @@ one per app, checked in CI and embedded by each app at build time. Vocabulary is
 | 3b | Migrate the other TSV apps: PhotoCraft, VectorCraft, FilmCraft, CADCraft, craft-launcher | apps | catalogs moved here (shared catalog grows additively, [ADR 0003](docs/adr/0003-shared-catalog-grows-additively.md)); CADCraft resynced at `cadcraft@c4d9e6a`; PhotoCraft synced at `photocraft@2772ac1` (cutover started, 2026-11-08); app wiring next for the rest |
 | 3c | Convert and migrate FigCraft (TOML), LightCraft (JSON), DesignCraft, GridCraft, EffectCraft (Rust tables) | apps | not started |
 | 3d | Add translation to DeckCraft and SoundCraft | apps | not started |
-| 4 | Language data: spelling dictionaries, hyphenation patterns and the suite word list; English embedded, other languages pinned and downloaded ([ADR 0004](docs/adr/0004-third-party-language-data.md), [ADR 0005](docs/adr/0005-language-data-lives-here.md)) | this repo, craft-libs, apps | licence table signed off 2026-11-01 (Martin Ball); phase 1 done; phase 2 (SCOWL 2026 en-US/en-GB/en-CA/en-AU dictionaries) added; phase 3 (pack manifest, checks, release workflow) done; phase 3 follow-up (75 of 80 locales publishable, 2 hidden, 3 Excluded); the last 14 need craft-proof at `47c9f625` (craft-libs #497 merged) |
+| 4 | Language data: spelling dictionaries, hyphenation patterns and the suite word list; English embedded, other languages pinned and downloaded ([ADR 0004](docs/adr/0004-third-party-language-data.md), [ADR 0005](docs/adr/0005-language-data-lives-here.md)) | this repo, craft-libs, apps | licence table signed off 2026-11-01 (Martin Ball); phase 1 done; phase 2 (SCOWL 2026 en-US/en-GB/en-CA/en-AU dictionaries) added; phase 3 (pack manifest, checks, release workflow) done; phase 3 follow-up (75 of 81 locales publishable, 3 hidden, 3 Excluded); the last 14 need craft-proof at `47c9f625` (craft-libs #497 merged) |
 
 Each app migration: confirm the app is MIT OR Apache-2.0, move its catalogs here (lowercase BCP 47
 names, origin recorded in `ATTRIBUTION.md`), add the `build.rs` recipe from
@@ -105,4 +105,21 @@ As surveyed on 2026-10-16 (VectorCraft recounted 2026-10-18). Locale counts excl
 | 2026-11-03 | patch | Checker takes each locale's plural form count from the runtime crate (`craft-i18n` at storytold/craft-libs `32b2fd8a`, a normal dependency; its own CLDR 48.2.1 data on `icu_plurals` since craft-libs#210), replacing `intl_pluralrules` 7.0.2 and its Hebrew workaround; `icu_plurals`' compiled data has no `ckb` rules (1 form), the crate's data has 2; `tests/runtime_agreement.rs` checks every locale's count and that the crate accepts every catalog's `@plural` rows; no existing locale's count changed |
 | 2026-11-03 | minor | File sizes (storytold/craft-libs#204): `@plural {n} byte\|{n} bytes` moved from 20 locales' `pdfcraft.tsv` to `common.tsv` (additive, ADR 0003); `unit` rows (`{n} KB`, `{n} MiB`, …) only where the symbol differs from English: `fr`, `ru`, `uk` |
 | 2026-11-05 | minor | CADCraft resync before its cutover (`cadcraft@b23d362` → `cadcraft@c4d9e6a`): its Greek, Hungarian, Turkish and Vietnamese catalogs (added in the app after the 3b migration) are new here; every other CADCraft catalog takes the app's added and corrected rows and drops the prompt texts the app reworded |
+| 2026-11-05 | minor | KM35: separate shipped upstream `notice` text from reviewer `note` evidence; protect archive names regardless of case; pin Khmer provenance and handle missing audit inputs cleanly. Maintainer classification/ADR approval remains pending. |
 | 2026-11-08 | minor | 3b: PhotoCraft cutover sync (`photocraft@8d2e615` → `photocraft@70c0911`, 12 new PhotoCraft locales: ar, az, da, fi, he, hi, nb, ro, sv, ta, th, ur; `az` is new to craft-i18n); Hebrew's 35 `@plural` rows repeat the `other` form for CLDR's third form; credits follow PhotoCraft's `LICENSE-translations.txt` |
+| 2026-11-08 | patch | KM42: put the required CLDR modification statement in the shipped `notice`; retain the separate upstream licence texts and reviewer evidence. Khmer stays hidden and Download-only pending maintainer classification/ADR approval. |
+
+Khmer provenance follow-up (2026-11-04): preserve all three MIT holders in pack output, including a
+pinned SIL notice and the supplied SEAlang notice. The six-file pack remains
+Download-only and hidden pending maintainer classification/sign-off
+and the model/config ADR decision. Staging rejects non-Embeddable packs. See [the per-file record](docs/khmer-provenance.md).
+
+Inherited-source audit (KM23, 2026-11-04): the original SIL places list exactly
+matches CLDR 28 values, including duplicates; its historical Unicode-DFS-2015
+licence text is retained, and the CLDR entry's `notice` ships the modification
+statement in `LICENCES/NOTICES.txt`. SEAlang's notice was retrieved
+directly. All nine SIL inputs have immutable hashes and source-history records.
+Wells confirmed the input and permissions; maintainer classification remains open. Data stays
+Download-only. See [the audit](docs/khmer-inherited-sources.md).
+
+Published-notice update (KM24, 2026-11-04): pin Aksara's public source-level notice, link tiptap's corresponding notice, and clarify the SBBIC checker word list's explicit MIT alternative and inherited origins. The six payload hashes and pending maintainer classification are unchanged.
