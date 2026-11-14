@@ -254,6 +254,28 @@ had "Washout" its wording is kept (11 locales). Contributor: Martin Ball with Cl
 Sonnet 5.5), AI-assisted: written by the model from the plain meaning of the English, reusing each
 catalog's own words for watermark, picture and transparency, with no other product's localisation
 consulted. **No native speaker has reviewed these rows.**
+## WordCraft: the #1934 middle-click paste option
+
+Mat Strange (@matstrange) contributed the row "Use the middle mouse button to paste instead of
+autoscroll" — the label of WordCraft's middle-click paste toggle (feature #1934, WordCraft PR
+#2079) — in `ar`, `bg`, `cs`, `da`, `de`, `es`, `et`, `fr`, `hr`, `hu`, `it`, `ja`, `ko`, `nl`,
+`pl`, `pt-br`, `ro`, `ru`, `sl`, `sr`, `sr-latn`, `sv`, `tr`, `uk`, `vi`, `zh-hans` and `zh-hant`:
+one row per locale, in `wordcraft.tsv`.
+
+The 26 rows that are not `ar` come from the contributor's WordCraft feature branch and were
+carried over from the app's own catalogs at `wordcraft@32d5de7e`, with this repository's own tool
+(`tools/sync_app.py`); six of them (`bg`, `hr`, `sr`, `sr-latn`, `hu` and `de`) were reworded in
+review to match the wording each catalog already uses for its neighbouring "Use …" option labels, so
+they are not the text at that commit any more. The Arabic row was written for this repository, in
+the terminology `locales/ar/wordcraft.tsv` already uses.
+
+AI-assisted: written from the plain meaning of the English, with no other product's localisation
+consulted (the 26 carried-over rows were drafted with an AI assistant, tool not recorded; the
+Arabic row was written with opencode). **No native-speaker review is recorded.**
+
+The rows belong to a WordCraft feature that is still in review (storytold/wordcraft#2079), so
+nothing reads them until that pull request lands; a missing translation never fails anything, and
+the label shows in English until then.
 
 ## Language data
 
