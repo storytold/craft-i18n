@@ -112,9 +112,7 @@ template, default and Reset). No native-speaker review is recorded.
 
 ## WordCraft: Swedish rows kept up to date
 
-Patrik Lermon (@kler) adds and updates WordCraft's `sv` rows as WordCraft gains strings, AI-assisted
-with Claude Code (craft-sv-translate) and written from the English meaning. Terms follow the
-existing Swedish rows. No native-speaker review is recorded.
+Patrik Lermon (@kler) adds and updates WordCraft's `sv` rows as WordCraft gains strings, written from the English meaning with craft-sv-translate. Terms follow the existing Swedish rows. AI-drafted with Claude Code from the English source. The author is a native Swedish speaker who spot-checks the Swedish but has not checked every string.
 
 ## WordCraft: Arabic rows for newer interface strings
 
