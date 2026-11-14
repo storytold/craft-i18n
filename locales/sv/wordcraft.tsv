@@ -43,6 +43,7 @@
 	3×3 Identity Matrix (sparse)	3×3-enhetsmatris (gles)
 	<< Less	<< Mindre
 	<< Remove	<< Ta bort
+@msg	a diagram holds at most {MAX_ITEMS} items	ett diagram kan innehålla högst {MAX_ITEMS} objekt
 	a drawing canvas can't be ungrouped	en rityta kan inte delas upp
 	a drawing canvas can't go inside a text box	en rityta kan inte placeras i en textruta
 	A file dialog is already open.	En fildialogruta är redan öppen.
@@ -612,6 +613,8 @@
 	Day	Dag
 	Decimal	Decimal
 	Decorative objects only add visual interest: screen readers skip them.	Dekorativa objekt är bara utsmyckning: skärmläsare hoppar över dem.
+	Decorative Text	Dekorativ text
+	Decorative Text Styles	Format för dekorativ text
 	Decrease Indent	Minska indraget
 	Deep	Djup
 	Default formatting	Standardformatering
@@ -654,6 +657,9 @@
 	Developer	Utvecklare
 	development build	utvecklingsversion
 	Diagonal Dots	Diagonala punkter
+	Diagram	Diagram
+	Diagram Design	Diagramdesign
+	Diagram Styles	Diagramformat
 	Dictate	Diktera
 	Dictionaries	Ordlistor
 	Dictionaries folder:	Mapp för ordlistor:
@@ -1118,6 +1124,7 @@
 	Insert Columns to the Left	Infoga kolumner till vänster
 	Insert Columns to the Right	Infoga kolumner till höger
 	Insert Date Field	Infoga datumfält
+	Insert Diagram	Infoga diagram
 	Insert Endnote	Infoga slutnot
 	Insert Footnote	Infoga fotnot
 	Insert Hyperlink	Infoga hyperlänk
@@ -2005,6 +2012,7 @@ spacing	Open	Öppen
 	See	Se
 	select a chart first	markera ett diagram först
 	select a connector first	markera en koppling först
+	select a diagram first	markera först ett diagram
 	select a drawing canvas first	markera en rityta först
 	select a floating picture or shape first	markera en flytande bild eller figur först
 	select a group first	markera en grupp först
@@ -2016,6 +2024,7 @@ spacing	Open	Öppen
 	Select a printer	Välj en skrivare
 	Select a property to change.	Välj en egenskap att ändra.
 	select a shape first	markera en figur först
+	select a shape or decorative text first	markera först en form eller dekorativ text
 	Select a shape, text box or drawing canvas to format its fill.	Markera en form, en textruta eller en ritarea för att formatera fyllningen.
 	select a SmartArt graphic first	markera en SmartArt-grafik först
 	select a text box first	markera en textruta först
@@ -2409,6 +2418,8 @@ spacing	Open	Öppen
 	Thin	Tunn
 	This cannot be undone. Your original file stays unchanged.	Det här går inte att ångra. Originalfilen förblir oförändrad.
 	this chart was made in another program: WordCraft shows it but can't edit it	detta diagram skapades i ett annat program: WordCraft visar det men kan inte redigera det
+	this diagram can't be edited	detta diagram kan inte redigeras
+	this diagram was made in another program: WordCraft shows it but can't edit it	detta diagram skapades i ett annat program: WordCraft visar det men kan inte redigera det
 	This document	Det här dokumentet
 	This document has no custom properties.	Det här dokumentet har inga anpassade egenskaper.
 	This document only?	Bara det här dokumentet?
@@ -2522,6 +2533,7 @@ preview	Title	Titel
 	Unions and Intersections	Unioner och snitt
 	United Kingdom	Storbritannien
 	United States	USA
+@msg	unknown decorative text style `{id}`	okänt format för dekorativ text `{id}`
 	Unlink Fields	Koppla bort fält
 	Unlink\nCitations	Koppla bort\nkällhänvisningar
 	Unlock Fields	Lås upp fält

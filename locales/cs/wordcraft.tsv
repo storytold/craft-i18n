@@ -42,6 +42,7 @@
 	3×3 Identity Matrix (sparse)	Jednotková matice 3×3 (řídká)
 	<< Less	<< Méně
 	<< Remove	<< Odebrat
+@msg	a diagram holds at most {MAX_ITEMS} items	diagram obsahuje nejvýše {MAX_ITEMS} položek
 	a drawing canvas can't be ungrouped	kreslicí plátno nelze oddělit
 	a drawing canvas can't go inside a text box	kreslicí plátno nelze vložit do textového pole
 	A file dialog is already open.	Dialogové okno souboru je již otevřené.
@@ -597,6 +598,8 @@
 	Day	Den
 	Decimal	Desetinné
 	Decorative objects only add visual interest: screen readers skip them.	Dekorativní objekty slouží pouze jako vizuální doplněk: čtečky obrazovky je přeskakují.
+	Decorative Text	Ozdobný text
+	Decorative Text Styles	Styly ozdobného textu
 	Decrease Indent	Zmenšit odsazení
 	Deep	Sytý
 	Default formatting	Výchozí formátování
@@ -641,6 +644,9 @@
 	Developer	Vývojář
 	development build	vývojové sestavení
 	Diagonal Dots	Diagonální tečky
+	Diagram	Diagram
+	Diagram Design	Návrh diagramu
+	Diagram Styles	Styly diagramu
 	Dictate	Diktovat
 	Dictionaries	Slovníky
 	Dictionaries folder:	Složka se slovníky:
@@ -1099,6 +1105,7 @@
 	Insert Columns to the Left	Vložit sloupce vlevo
 	Insert Columns to the Right	Vložit sloupce vpravo
 	Insert Date Field	Vložit pole data
+	Insert Diagram	Vložit diagram
 	Insert Endnote	Vložit vysvětlivku
 	Insert Footnote	Vložit poznámku pod čarou
 	Insert Hyperlink	Vložit hypertextový odkaz
@@ -1985,6 +1992,7 @@
 	Select	Vybrat
 	select a chart first	nejprve vyberte graf
 	select a connector first	nejprve vyberte spojnici
+	select a diagram first	nejprve vyberte diagram
 	select a drawing canvas first	nejprve vyberte kreslicí plátno
 	select a floating picture or shape first	nejprve vyberte plovoucí obrázek nebo tvar
 	select a group first	nejprve vyberte skupinu
@@ -1995,6 +2003,7 @@
 	Select a place in this document:	Vyberte místo v tomto dokumentu:
 	Select a printer	Vyberte tiskárnu
 	select a shape first	nejprve vyberte tvar
+	select a shape or decorative text first	nejprve vyberte obrazec nebo ozdobný text
 	Select a shape, text box or drawing canvas to format its fill.	Vyberte obrazec, textové pole nebo kreslicí plátno a naformátujte jeho výplň.
 	select a SmartArt graphic first	nejprve vyberte obrázek SmartArt
 	select a text box first	nejprve vyberte textové pole
@@ -2379,6 +2388,8 @@
 	Thin	Tenké
 	This cannot be undone. Your original file stays unchanged.	Tuto akci nelze vrátit zpět. Původní soubor zůstane beze změny.
 	this chart was made in another program: WordCraft shows it but can't edit it	tento graf byl vytvořen v jiném programu: WordCraft ho zobrazí, ale nemůže ho upravit
+	this diagram can't be edited	tento diagram nelze upravovat
+	this diagram was made in another program: WordCraft shows it but can't edit it	tento diagram byl vytvořen v jiném programu: WordCraft jej zobrazí, ale nemůže jej upravovat
 	This document	Tento dokument
 	This document only?	Pouze tento dokument?
 	This field has no options.	Toto pole nemá žádné možnosti.
@@ -2489,6 +2500,7 @@ preview	Title	Ukázka
 	Unions and Intersections	Sjednocení a průniky
 	United Kingdom	Spojené království
 	United States	Spojené státy
+@msg	unknown decorative text style `{id}`	neznámý styl ozdobného textu `{id}`
 	Unlink Fields	Zrušit propojení polí
 	Unlink\nCitations	Odpojit\ncitace
 	Unlock Fields	Odemknout pole

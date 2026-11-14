@@ -42,6 +42,7 @@
 	3×3 Identity Matrix (sparse)	Единичная матрица 3×3 (разреженная)
 	<< Less	<< Меньше
 	<< Remove	<< Удалить
+@msg	a diagram holds at most {MAX_ITEMS} items	схема может содержать не более {MAX_ITEMS} элементов
 	a drawing canvas can't be ungrouped	полотно для рисования нельзя разгруппировать
 	a drawing canvas can't go inside a text box	полотно для рисования нельзя поместить в текстовое поле
 	A file dialog is already open.	Окно выбора файла уже открыто.
@@ -583,6 +584,8 @@
 	Day	День
 	Decimal	По разделителю
 	Decorative objects only add visual interest: screen readers skip them.	Декоративные объекты лишь украшают документ: программы чтения с экрана их пропускают.
+	Decorative Text	Декоративный текст
+	Decorative Text Styles	Стили декоративного текста
 	Decrease Indent	Уменьшить отступ
 	Deep	Глубокий
 	Default formatting	Форматирование по умолчанию
@@ -628,6 +631,9 @@
 	development build	сборка для разработки
 	Diagonal	Диагональ
 	Diagonal Dots	Диагональное многоточие
+	Diagram	Схема
+	Diagram Design	Оформление схемы
+	Diagram Styles	Стили схемы
 	Dictate	Диктовка
 	Dictionaries	Словари
 	Dictionaries folder:	Папка словарей:
@@ -1082,6 +1088,7 @@
 	Insert Columns to the Left	Вставить столбцы слева
 	Insert Columns to the Right	Вставить столбцы справа
 	Insert Date Field	Вставить поле даты
+	Insert Diagram	Вставить схему
 	Insert Endnote	Вставить концевую сноску
 	Insert Footnote	Вставить сноску
 	Insert Hyperlink	Вставить гиперссылку
@@ -1945,6 +1952,7 @@
 	Select	Выделить
 	select a chart first	сначала выделите диаграмму
 	select a connector first	сначала выделите соединительную линию
+	select a diagram first	сначала выберите схему
 	select a drawing canvas first	сначала выделите полотно для рисования
 	select a floating picture or shape first	сначала выделите плавающий рисунок или фигуру
 	select a group first	сначала выделите группу
@@ -1955,6 +1963,7 @@
 	Select a place in this document:	Выберите место в документе:
 	Select a printer	Выберите принтер
 	select a shape first	сначала выделите фигуру
+	select a shape or decorative text first	сначала выберите фигуру или декоративный текст
 	Select a shape, text box or drawing canvas to format its fill.	Выберите фигуру, надпись или полотно, чтобы настроить заливку.
 	select a SmartArt graphic first	сначала выделите рисунок SmartArt
 	select a text box first	сначала выделите текстовое поле
@@ -2335,6 +2344,8 @@
 	These settings will be used for new documents.	Эти параметры будут использоваться для новых документов.
 	Thick	Толстый
 	this chart was made in another program: WordCraft shows it but can't edit it	эта диаграмма создана в другой программе: WordCraft показывает её, но не может изменить
+	this diagram can't be edited	эту схему нельзя редактировать
+	this diagram was made in another program: WordCraft shows it but can't edit it	эта схема создана в другой программе: WordCraft показывает её, но не может редактировать
 	This document	Этот документ
 	This document only?	Только этого документа?
 	This field has no options.	У этого поля нет параметров.
@@ -2446,6 +2457,7 @@ preview	Title	Пример
 	Unions and Intersections	Объединения и пересечения
 	United Kingdom	Великобритания
 	United States	Соединённые Штаты
+@msg	unknown decorative text style `{id}`	неизвестный стиль декоративного текста `{id}`
 	Unlink Fields	Разорвать связь с полями
 	Unlink\nCitations	Отвязать\nссылки
 	Unlock Fields	Разблокировать поля

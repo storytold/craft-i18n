@@ -45,6 +45,7 @@
 	3×3 Identity Matrix (sparse)	Matrice identitate 3×3 (rară)
 	<< Less	<< Mai puțin
 	<< Remove	<< Elimină
+@msg	a diagram holds at most {MAX_ITEMS} items	o diagramă poate conține cel mult {MAX_ITEMS} elemente
 	a drawing canvas can't be ungrouped	un panou de desen nu poate fi degrupat
 	a drawing canvas can't go inside a text box	un panou de desen nu poate intra într-o casetă de text
 	A file dialog is already open.	O casetă de dialog pentru fișiere este deja deschisă.
@@ -677,6 +678,8 @@
 	Day	Zi
 	Decimal	Zecimal
 	Decorative objects only add visual interest: screen readers skip them.	Obiectele decorative adaugă doar interes vizual: cititoarele de ecran le omit.
+	Decorative Text	Text decorativ
+	Decorative Text Styles	Stiluri de text decorativ
 	Decrease Font Size	Micșorare font
 	Decrease Indent	Micșorare indent
 	Deep	Adânc
@@ -729,6 +732,9 @@
 	development build	versiune de dezvoltare
 	Diagonal	Diagonală
 	Diagonal Dots	Puncte diagonale
+	Diagram	Diagramă
+	Diagram Design	Proiectare diagramă
+	Diagram Styles	Stiluri de diagramă
 	Diamond	Romb
 	Dictate	Dictare
 	Dictionaries	Dicționare
@@ -1266,6 +1272,7 @@
 	Insert Columns to the Left	Inserare coloane la stânga
 	Insert Columns to the Right	Inserare coloane la dreapta
 	Insert Date Field	Inserare câmp dată
+	Insert Diagram	Inserare diagramă
 	Insert Endnote	Inserare notă de final
 	Insert Footnote	Inserare notă de subsol
 	Insert Hyperlink	Inserare hyperlink
@@ -2279,6 +2286,7 @@ template	Letter	Scrisoare
 	Select	Selectare
 	select a chart first	selectați mai întâi o diagramă
 	select a connector first	selectați mai întâi un conector
+	select a diagram first	selectați mai întâi o diagramă
 	select a drawing canvas first	selectați mai întâi un panou de desen
 	select a floating picture or shape first	selectați mai întâi o imagine sau o formă flotantă
 	select a group first	selectați mai întâi un grup
@@ -2288,6 +2296,7 @@ template	Letter	Scrisoare
 	Select a picture, shape, chart or table to describe it.	Selectați o imagine, o formă, un grafic sau un tabel pentru a-l descrie.
 	Select a printer	Selectați o imprimantă
 	select a shape first	selectați mai întâi o formă
+	select a shape or decorative text first	selectați mai întâi o formă sau un text decorativ
 	Select a shape, text box or drawing canvas to format its fill.	Selectați o formă, o casetă de text sau un canvas de desen pentru a-i formata umplerea.
 	select a SmartArt graphic first	selectați mai întâi un grafic SmartArt
 	select a text box first	selectați mai întâi o casetă de text
@@ -2718,6 +2727,8 @@ template	Letter	Scrisoare
 	Thick	Groasă
 	Thickness	Grosime
 	this chart was made in another program: WordCraft shows it but can't edit it	această diagramă a fost creată în alt program: WordCraft o afișează, dar nu o poate edita
+	this diagram can't be edited	această diagramă nu poate fi editată
+	this diagram was made in another program: WordCraft shows it but can't edit it	această diagramă a fost creată în alt program: WordCraft o afișează, dar nu o poate edita
 	This document	Acest document
 	This document has no bookmarks.	Acest document nu are marcaje.
 	This document only?	Doar acest document?
@@ -2845,6 +2856,7 @@ preview	Title	Titlu
 	Unions and Intersections	Reuniuni și intersecții
 	United Kingdom	Regatul Unit
 	United States	Statele Unite
+@msg	unknown decorative text style `{id}`	stil de text decorativ necunoscut `{id}`
 	Unlink Fields	Deconectare câmpuri
 	Unlink\nCitations	Deconectare\ncitări
 	Unlock Fields	Deblocare câmpuri

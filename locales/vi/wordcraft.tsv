@@ -42,6 +42,7 @@
 	3×3 Identity Matrix (sparse)	Ma trận đơn vị 3×3 (thưa)
 	<< Less	<< Thu gọn
 	<< Remove	<< Gỡ
+@msg	a diagram holds at most {MAX_ITEMS} items	một sơ đồ chứa tối đa {MAX_ITEMS} mục
 	a drawing canvas can't be ungrouped	không thể bỏ nhóm khung vẽ
 	a drawing canvas can't go inside a text box	không thể đặt khung vẽ vào trong hộp văn bản
 	A file dialog is already open.	Đã có một hộp thoại tệp đang mở.
@@ -596,6 +597,8 @@
 	Day	Ngày
 	Decimal	Căn thập phân
 	Decorative objects only add visual interest: screen readers skip them.	Các đối tượng trang trí chỉ để tăng phần nhìn: trình đọc màn hình sẽ bỏ qua chúng.
+	Decorative Text	Chữ trang trí
+	Decorative Text Styles	Kiểu chữ trang trí
 	Decrease Indent	Giảm thụt lề
 	Deep	Sâu
 	Default formatting	Định dạng mặc định
@@ -641,6 +644,9 @@
 	development build	bản phát triển
 	Diagonal	Chéo
 	Diagonal Dots	Chấm chéo xuống
+	Diagram	Sơ đồ
+	Diagram Design	Thiết kế sơ đồ
+	Diagram Styles	Kiểu sơ đồ
 	Dictate	Soạn bằng giọng nói
 	Dictionaries	Từ điển
 	Dictionaries folder:	Thư mục từ điển:
@@ -1116,6 +1122,7 @@
 	Insert Columns to the Left	Chèn cột sang trái
 	Insert Columns to the Right	Chèn cột sang phải
 	Insert Date Field	Chèn trường ngày
+	Insert Diagram	Chèn sơ đồ
 	Insert Endnote	Chèn chú thích cuối tài liệu
 	Insert Footnote	Chèn chú thích chân trang
 	Insert Hyperlink	Chèn siêu liên kết
@@ -2006,6 +2013,7 @@ template	Letter	Thư
 	See	Xem
 	select a chart first	hãy chọn một biểu đồ trước
 	select a connector first	hãy chọn một đường nối trước
+	select a diagram first	hãy chọn một sơ đồ trước
 	select a drawing canvas first	hãy chọn một khung vẽ trước
 	select a floating picture or shape first	hãy chọn một ảnh hoặc hình nổi trước
 	select a group first	hãy chọn một nhóm trước
@@ -2015,6 +2023,7 @@ template	Letter	Thư
 	Select a picture, shape, chart or table to describe it.	Chọn ảnh, hình, biểu đồ hoặc bảng để mô tả.
 	Select a printer	Chọn máy in
 	select a shape first	hãy chọn một hình trước
+	select a shape or decorative text first	hãy chọn một hình hoặc chữ trang trí trước
 	Select a shape, text box or drawing canvas to format its fill.	Chọn một hình, hộp văn bản hoặc khung vẽ để định dạng phần tô.
 	select a SmartArt graphic first	hãy chọn một đồ họa SmartArt trước
 	select a text box first	hãy chọn một hộp văn bản trước
@@ -2403,6 +2412,8 @@ template	Letter	Thư
 	These settings will be used for new documents.	Các thiết đặt này sẽ được dùng cho tài liệu mới.
 	Thick	Dày
 	this chart was made in another program: WordCraft shows it but can't edit it	biểu đồ này được tạo trong chương trình khác: WordCraft hiển thị được nhưng không sửa được
+	this diagram can't be edited	không thể chỉnh sửa sơ đồ này
+	this diagram was made in another program: WordCraft shows it but can't edit it	sơ đồ này được tạo trong chương trình khác: WordCraft hiển thị được nhưng không thể chỉnh sửa
 	This document	Tài liệu này
 	This document only?	Chỉ tài liệu này?
 	This field has no options.	Trường này không có tùy chọn nào.
@@ -2514,6 +2525,7 @@ template	Letter	Thư
 	Unions and Intersections	Các phép hợp và giao
 	United Kingdom	Vương quốc Anh
 	United States	Hoa Kỳ
+@msg	unknown decorative text style `{id}`	kiểu chữ trang trí không xác định `{id}`
 	Unlink Fields	Gỡ liên kết trường
 	Unlink\nCitations	Gỡ liên kết\ntrích dẫn
 	Unlock Fields	Mở khóa trường

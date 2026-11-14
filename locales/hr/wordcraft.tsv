@@ -42,6 +42,7 @@
 	3×3 Identity Matrix (sparse)	Jedinična matrica 3×3 (rijetka)
 	<< Less	<< Manje
 	<< Remove	<< Ukloni
+@msg	a diagram holds at most {MAX_ITEMS} items	dijagram može sadržavati najviše {MAX_ITEMS} stavki
 	a drawing canvas can't be ungrouped	platno za crtanje ne može se razgrupirati
 	a drawing canvas can't go inside a text box	platno za crtanje ne može ići u tekstni okvir
 	A file dialog is already open.	Dijaloški okvir za datoteke već je otvoren.
@@ -579,6 +580,8 @@
 	Day	Dan
 	Decimal	Decimalno
 	Decorative objects only add visual interest: screen readers skip them.	Ukrasni objekti samo daju vizualni dojam: čitači zaslona ih preskaču.
+	Decorative Text	Ukrasni tekst
+	Decorative Text Styles	Stilovi ukrasnog teksta
 	Decrease Indent	Smanji uvlaku
 	Deep	Duboko
 	Default formatting	Zadano oblikovanje
@@ -623,6 +626,9 @@
 	Developer	Razvojni programer
 	development build	razvojna verzija
 	Diagonal Dots	Dijagonalne točke
+	Diagram	Dijagram
+	Diagram Design	Dizajn dijagrama
+	Diagram Styles	Stilovi dijagrama
 	Dictate	Diktiraj
 	Dictionaries	Rječnici
 	Dictionaries folder:	Mapa rječnika:
@@ -1076,6 +1082,7 @@
 	Insert Columns to the Left	Umetni stupce lijevo
 	Insert Columns to the Right	Umetni stupce desno
 	Insert Date Field	Umetni polje datuma
+	Insert Diagram	Umetni dijagram
 	Insert Endnote	Umetni bilješku na kraju
 	Insert Footnote	Umetni fusnotu
 	Insert Hyperlink	Umetni poveznicu
@@ -1932,6 +1939,7 @@ template	Letter	Pismo
 	See	Vidi
 	select a chart first	najprije odaberite grafikon
 	select a connector first	najprije odaberite poveznik
+	select a diagram first	najprije odaberite dijagram
 	select a drawing canvas first	najprije odaberite platno za crtanje
 	select a floating picture or shape first	najprije odaberite plutajuću sliku ili oblik
 	select a group first	najprije odaberite grupu
@@ -1941,6 +1949,7 @@ template	Letter	Pismo
 	Select a picture, shape, chart or table to describe it.	Odaberite sliku, oblik, grafikon ili tablicu da biste ih opisali.
 	Select a printer	Odaberite pisač
 	select a shape first	najprije odaberite oblik
+	select a shape or decorative text first	najprije odaberite oblik ili ukrasni tekst
 	Select a shape, text box or drawing canvas to format its fill.	Odaberite oblik, tekstni okvir ili crtaće platno da biste oblikovali ispunu.
 	select a SmartArt graphic first	najprije odaberite SmartArt grafiku
 	select a text box first	najprije odaberite tekstni okvir
@@ -2315,6 +2324,8 @@ template	Letter	Pismo
 	These settings will be used for new documents.	Ove će se postavke koristiti za nove dokumente.
 	Thick	Debelo
 	this chart was made in another program: WordCraft shows it but can't edit it	ovaj grafikon izrađen je u drugom programu: WordCraft ga prikazuje, ali ga ne može uređivati
+	this diagram can't be edited	ovaj se dijagram ne može uređivati
+	this diagram was made in another program: WordCraft shows it but can't edit it	ovaj je dijagram izrađen u drugom programu: WordCraft ga prikazuje, ali ga ne može uređivati
 	This document	Ovaj dokument
 	This document only?	Samo ovaj dokument?
 	This field has no options.	Ovo polje nema mogućnosti.
@@ -2423,6 +2434,7 @@ preview	Title	Naslov
 	Unions and Intersections	Unije i presjeci
 	United Kingdom	Ujedinjeno Kraljevstvo
 	United States	Sjedinjene Američke Države
+@msg	unknown decorative text style `{id}`	nepoznat stil ukrasnog teksta `{id}`
 	Unlink Fields	Prekini vezu polja
 	Unlink\nCitations	Prekini vezu\ncitata
 	Unlock Fields	Otključaj polja

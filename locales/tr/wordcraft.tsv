@@ -42,6 +42,7 @@
 	3×3 Identity Matrix (sparse)	3×3 Birim Matris (seyrek)
 	<< Less	<< Daha az
 	<< Remove	<< Kaldır
+@msg	a diagram holds at most {MAX_ITEMS} items	bir diyagram en fazla {MAX_ITEMS} öğe içerebilir
 	a drawing canvas can't be ungrouped	çizim tuvalinin grubu çözülemez
 	a drawing canvas can't go inside a text box	çizim tuvali bir metin kutusunun içine konamaz
 	A file dialog is already open.	Bir dosya iletişim kutusu zaten açık.
@@ -574,6 +575,8 @@
 	Day	Gün
 	Decimal	Ondalık
 	Decorative objects only add visual interest: screen readers skip them.	Dekoratif nesneler yalnızca görsel çekicilik katar: ekran okuyucular bunları atlar.
+	Decorative Text	Dekoratif Metin
+	Decorative Text Styles	Dekoratif Metin Stilleri
 	Decrease Indent	Girintiyi Azalt
 	Deep	Koyu
 	Default formatting	Varsayılan biçimlendirme
@@ -619,6 +622,9 @@
 	development build	geliştirme derlemesi
 	Diagonal	Çapraz
 	Diagonal Dots	Köşegen Üç Nokta
+	Diagram	Diyagram
+	Diagram Design	Diyagram Tasarımı
+	Diagram Styles	Diyagram Stilleri
 	Dictate	Dikte Et
 	Dictionaries	Sözlükler
 	Dictionaries folder:	Sözlük klasörü:
@@ -1065,6 +1071,7 @@
 	Insert Columns to the Left	Sola Sütun Ekle
 	Insert Columns to the Right	Sağa Sütun Ekle
 	Insert Date Field	Tarih Alanı Ekle
+	Insert Diagram	Diyagram Ekle
 	Insert Endnote	Sonnot Ekle
 	Insert Footnote	Dipnot Ekle
 	Insert Hyperlink	Bağlantı Ekle
@@ -1926,6 +1933,7 @@
 	See	Bkz.
 	select a chart first	önce bir grafik seçin
 	select a connector first	önce bir bağlayıcı seçin
+	select a diagram first	önce bir diyagram seçin
 	select a drawing canvas first	önce bir çizim tuvali seçin
 	select a floating picture or shape first	önce kayan bir resim veya şekil seçin
 	select a group first	önce bir grup seçin
@@ -1935,6 +1943,7 @@
 	Select a picture, shape, chart or table to describe it.	Açıklamak için bir resim, şekil, grafik veya tablo seçin.
 	Select a printer	Bir yazıcı seçin
 	select a shape first	önce bir şekil seçin
+	select a shape or decorative text first	önce bir şekil veya dekoratif metin seçin
 	Select a shape, text box or drawing canvas to format its fill.	Dolgusunu biçimlendirmek için bir şekil, metin kutusu veya çizim tuvali seçin.
 	select a SmartArt graphic first	önce bir SmartArt grafiği seçin
 	select a text box first	önce bir metin kutusu seçin
@@ -2306,6 +2315,8 @@
 	These settings will be used for new documents.	Bu ayarlar yeni belgeler için kullanılacak.
 	Thick	Kalın
 	this chart was made in another program: WordCraft shows it but can't edit it	bu grafik başka bir programda oluşturuldu: WordCraft onu gösterir ancak düzenleyemez
+	this diagram can't be edited	bu diyagram düzenlenemez
+	this diagram was made in another program: WordCraft shows it but can't edit it	bu diyagram başka bir programda oluşturuldu: WordCraft onu gösterir ancak düzenleyemez
 	This document	Bu belge
 	This document only?	Yalnızca bu belge mi?
 	This field has no options.	Bu alanın seçeneği yok.
@@ -2415,6 +2426,7 @@ preview	Title	Örnek
 	Unions and Intersections	Birleşimler ve Kesişimler
 	United Kingdom	Birleşik Krallık
 	United States	Amerika Birleşik Devletleri
+@msg	unknown decorative text style `{id}`	bilinmeyen dekoratif metin stili `{id}`
 	Unlink Fields	Alan Bağlantılarını Kaldır
 	Unlink\nCitations	Atıf Bağlarını\nKaldır
 	Unlock Fields	Alanların Kilidini Aç

@@ -42,6 +42,7 @@
 	3×3 Identity Matrix (sparse)	3×3-as egységmátrix (ritka)
 	<< Less	<< Kevesebb
 	<< Remove	<< Eltávolítás
+@msg	a diagram holds at most {MAX_ITEMS} items	egy diagram legfeljebb {MAX_ITEMS} elemet tartalmazhat
 	a drawing canvas can't be ungrouped	a rajzvászon csoportbontása nem lehetséges
 	a drawing canvas can't go inside a text box	rajzvászon nem kerülhet szövegdobozba
 	A file dialog is already open.	Már nyitva van egy fájlválasztó ablak.
@@ -587,6 +588,8 @@
 	Day	Nap
 	Decimal	Decimális
 	Decorative objects only add visual interest: screen readers skip them.	A díszítőelemek csak a látványt szolgálják, a képernyőolvasók kihagyják őket.
+	Decorative Text	Díszítő szöveg
+	Decorative Text Styles	Díszítő szöveg stílusai
 	Decrease Indent	Behúzás csökkentése
 	Deep	Mély
 	Default formatting	Alapértelmezett formázás
@@ -631,6 +634,9 @@
 	Developer	Fejlesztőeszközök
 	development build	fejlesztői kiadás
 	Diagonal Dots	Átlós pontok
+	Diagram	Diagram
+	Diagram Design	Diagramtervezés
+	Diagram Styles	Diagramstílusok
 	Dictate	Diktálás
 	Dictionaries	Szótárak
 	Dictionaries folder:	Szótárak mappája:
@@ -1086,6 +1092,7 @@
 	Insert Columns to the Left	Oszlopok beszúrása balra
 	Insert Columns to the Right	Oszlopok beszúrása jobbra
 	Insert Date Field	Dátummező beszúrása
+	Insert Diagram	Diagram beszúrása
 	Insert Endnote	Végjegyzet beszúrása
 	Insert Footnote	Lábjegyzet beszúrása
 	Insert Hyperlink	Link beszúrása
@@ -1951,6 +1958,7 @@
 	See	Lásd
 	select a chart first	előbb jelöljön ki egy diagramot
 	select a connector first	előbb jelöljön ki egy összekötőt
+	select a diagram first	először jelöljön ki egy diagramot
 	select a drawing canvas first	előbb jelöljön ki egy rajzvásznat
 	select a floating picture or shape first	előbb jelöljön ki egy lebegő képet vagy alakzatot
 	select a group first	előbb jelöljön ki egy csoportot
@@ -1960,6 +1968,7 @@
 	Select a picture, shape, chart or table to describe it.	Jelölj ki egy képet, alakzatot, diagramot vagy táblázatot a leírásához.
 	Select a printer	Válasszon nyomtatót
 	select a shape first	előbb jelöljön ki egy alakzatot
+	select a shape or decorative text first	először jelöljön ki egy alakzatot vagy díszítő szöveget
 	Select a shape, text box or drawing canvas to format its fill.	Jelöljön ki egy alakzatot, szövegdobozt vagy rajzvásznat a kitöltés formázásához.
 	select a SmartArt graphic first	előbb jelöljön ki egy SmartArt-ábrát
 	select a text box first	előbb jelöljön ki egy szövegdobozt
@@ -2333,6 +2342,8 @@
 	These settings will be used for new documents.	Ezek a beállítások az új dokumentumokra lesznek érvényesek.
 	Thick	Vastag
 	this chart was made in another program: WordCraft shows it but can't edit it	ez a diagram egy másik programban készült: a WordCraft megjeleníti, de nem tudja szerkeszteni
+	this diagram can't be edited	ez a diagram nem szerkeszthető
+	this diagram was made in another program: WordCraft shows it but can't edit it	ez a diagram másik programban készült: a WordCraft megjeleníti, de nem tudja szerkeszteni
 	This document	Ez a dokumentum
 	This document only?	Csak ebben a dokumentumban?
 	This field has no options.	Ennek a mezőnek nincsenek beállításai.
@@ -2441,6 +2452,7 @@
 	Unions and Intersections	Uniók és metszetek
 	United Kingdom	Egyesült Királyság
 	United States	Amerikai Egyesült Államok
+@msg	unknown decorative text style `{id}`	ismeretlen díszítő szövegstílus: `{id}`
 	Unlink Fields	Mezők leválasztása
 	Unlink\nCitations	Hivatkozások\nleválasztása
 	Unlock Fields	Mezők feloldása

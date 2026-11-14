@@ -45,6 +45,7 @@
 	3×3 Identity Matrix (sparse)	3×3 の単位行列（疎行列形式）
 	<< Less	<< 表示を減らす
 	<< Remove	<< 削除
+@msg	a diagram holds at most {MAX_ITEMS} items	図解には最大 {MAX_ITEMS} 個の項目を含められます
 	a drawing canvas can't be ungrouped	描画キャンバスはグループ解除できません
 	a drawing canvas can't go inside a text box	描画キャンバスはテキスト ボックス内に配置できません
 	A file dialog is already open.	ファイル ダイアログが既に開いています。
@@ -602,6 +603,8 @@
 	Day	日
 	Decimal	小数点揃え
 	Decorative objects only add visual interest: screen readers skip them.	装飾用のオブジェクトは見た目を整えるだけなので、スクリーン リーダーは読み上げません。
+	Decorative Text	装飾文字
+	Decorative Text Styles	装飾文字のスタイル
 	Decrease Font Size	フォント サイズの縮小
 	Decrease Indent	インデントを減らす
 	Deep	ディープ
@@ -649,6 +652,9 @@
 	development build	開発ビルド
 	Diagonal	対角線
 	Diagonal Dots	右下がりの斜め点列
+	Diagram	図解
+	Diagram Design	図解のデザイン
+	Diagram Styles	図解のスタイル
 	Dictate	ディクテーション
 	Dictionaries	辞書
 	Dictionaries folder:	辞書フォルダー:
@@ -1118,6 +1124,7 @@
 	Insert Columns to the Left	左に列を挿入
 	Insert Columns to the Right	右に列を挿入
 	Insert Date Field	日付フィールドの挿入
+	Insert Diagram	図解を挿入
 	Insert Endnote	文末脚注の挿入
 	Insert Footnote	脚注の挿入
 	Insert Hyperlink	ハイパーリンクの挿入
@@ -1995,6 +2002,7 @@
 	See	参照
 	select a chart first	先にグラフを選択してください
 	select a connector first	先にコネクタを選択してください
+	select a diagram first	先に図解を選択してください
 	select a drawing canvas first	先に描画キャンバスを選択してください
 	select a floating picture or shape first	先に浮動の画像または図形を選択してください
 	select a group first	先にグループを選択してください
@@ -2004,6 +2012,7 @@
 	Select a picture, shape, chart or table to describe it.	説明する画像、図形、グラフ、または表を選択してください。
 	Select a printer	プリンターを選択
 	select a shape first	先に図形を選択してください
+	select a shape or decorative text first	先に図形または装飾文字を選択してください
 	Select a shape, text box or drawing canvas to format its fill.	塗りつぶしを設定する図形、テキスト ボックス、または描画キャンバスを選択してください。
 	select a SmartArt graphic first	先に SmartArt グラフィックを選択してください
 	select a text box first	先にテキスト ボックスを選択してください
@@ -2390,6 +2399,8 @@
 	These settings will be used for new documents.	これらの設定は新しい文書に使用されます。
 	Thick	太線
 	this chart was made in another program: WordCraft shows it but can't edit it	このグラフは別のプログラムで作成されました: WordCraft で表示できますが編集はできません
+	this diagram can't be edited	この図解は編集できません
+	this diagram was made in another program: WordCraft shows it but can't edit it	この図解は別のプログラムで作成されました。WordCraft では表示できますが編集できません
 	This document	この文書
 	This document only?	この文書のみ?
 	This field has no options.	このフィールドにはオプションがありません。
@@ -2500,6 +2511,7 @@ preview	Title	表題
 	Unions and Intersections	和集合と共通部分
 	United Kingdom	英国
 	United States	米国
+@msg	unknown decorative text style `{id}`	不明な装飾文字のスタイル `{id}`
 	Unlink Fields	フィールドのリンク解除
 	Unlink\nCitations	引用文献の\nリンク解除
 	Unlock Fields	フィールドのロック解除

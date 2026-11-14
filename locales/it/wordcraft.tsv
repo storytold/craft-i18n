@@ -43,6 +43,7 @@
 	3×3 Identity Matrix (sparse)	Matrice identità 3×3 (sparsa)
 	<< Less	<< Meno
 	<< Remove	<< Rimuovi
+@msg	a diagram holds at most {MAX_ITEMS} items	un diagramma può contenere al massimo {MAX_ITEMS} elementi
 	a drawing canvas can't be ungrouped	un'area di disegno non può essere separata
 	a drawing canvas can't go inside a text box	un'area di disegno non può stare in una casella di testo
 	A file dialog is already open.	È già aperta una finestra di dialogo dei file.
@@ -604,6 +605,8 @@
 	Day	Giorno
 	Decimal	Decimale
 	Decorative objects only add visual interest: screen readers skip them.	Gli oggetti decorativi aggiungono solo interesse visivo: i lettori di schermo li saltano.
+	Decorative Text	Testo decorativo
+	Decorative Text Styles	Stili di testo decorativo
 	Decrease Font Size	Riduci dimensione carattere
 	Decrease Indent	Riduci rientro
 	Deep	Profondo
@@ -649,6 +652,9 @@
 	Developer	Sviluppo
 	development build	build di sviluppo
 	Diagonal Dots	Puntini diagonali
+	Diagram	Diagramma
+	Diagram Design	Progettazione diagramma
+	Diagram Styles	Stili diagramma
 	Dictate	Detta
 	Dictionaries	Dizionari
 	Dictionaries folder:	Cartella dei dizionari:
@@ -1127,6 +1133,7 @@
 	Insert Columns to the Left	Inserisci colonne a sinistra
 	Insert Columns to the Right	Inserisci colonne a destra
 	Insert Date Field	Inserisci campo data
+	Insert Diagram	Inserisci diagramma
 	Insert Endnote	Inserisci nota di chiusura
 	Insert Footnote	Inserisci nota a piè di pagina
 	Insert Hyperlink	Inserisci collegamento
@@ -2023,6 +2030,7 @@ template	Letter	Lettera
 	See	Vedi
 	select a chart first	seleziona prima un grafico
 	select a connector first	seleziona prima un connettore
+	select a diagram first	seleziona prima un diagramma
 	select a drawing canvas first	seleziona prima un'area di disegno
 	select a floating picture or shape first	seleziona prima un'immagine o una forma mobile
 	select a group first	seleziona prima un gruppo
@@ -2034,6 +2042,7 @@ template	Letter	Lettera
 	Select a printer	Seleziona una stampante
 	Select a property to change.	Seleziona una proprietà da modificare.
 	select a shape first	seleziona prima una forma
+	select a shape or decorative text first	seleziona prima una forma o del testo decorativo
 	Select a shape, text box or drawing canvas to format its fill.	Seleziona una forma, una casella di testo o un'area di disegno per formattarne il riempimento.
 	select a SmartArt graphic first	seleziona prima un elemento grafico SmartArt
 	select a text box first	seleziona prima una casella di testo
@@ -2426,6 +2435,8 @@ template	Letter	Lettera
 	Thin	Sottile
 	This cannot be undone. Your original file stays unchanged.	L'operazione non può essere annullata. Il file originale resta invariato.
 	this chart was made in another program: WordCraft shows it but can't edit it	questo grafico è stato creato in un altro programma: WordCraft lo mostra ma non può modificarlo
+	this diagram can't be edited	questo diagramma non può essere modificato
+	this diagram was made in another program: WordCraft shows it but can't edit it	questo diagramma è stato creato in un altro programma: WordCraft lo mostra ma non può modificarlo
 	This document	Questo documento
 	This document has no custom properties.	Questo documento non ha proprietà personalizzate.
 	This document only?	Solo questo documento?
@@ -2538,6 +2549,7 @@ preview	Title	Esempio
 	Unions and Intersections	Unioni e intersezioni
 	United Kingdom	Regno Unito
 	United States	Stati Uniti
+@msg	unknown decorative text style `{id}`	stile di testo decorativo sconosciuto `{id}`
 	Unlink Fields	Scollega campi
 	Unlink\nCitations	Scollega\ncitazioni
 	Unlock Fields	Sblocca campi
