@@ -307,6 +307,10 @@ in 22 catalogs, preserving the existing translations and their credits above.
 Synced from `photocraft@7c64653` to `photocraft@2772ac1` with
 `tools/sync_app.py`; no translations were newly authored in this top-up.
 
+## PhotoCraft and WordCraft: Italian rows for strings without a translation
+
+Fabio D'Alessandro (@fabiodalez-dev) wrote 155 new Italian (`it`) rows in `locales/it/photocraft.tsv` and 71 in `locales/it/wordcraft.tsv`, AI-assisted and reviewed row by row by the translator, a native speaker. They cover every interface literal that had no Italian row at PhotoCraft `74330157c` and WordCraft `07f9773`, apart from the PhotoCraft rows already proposed in storytold/craft-i18n#264. Every row was written from the plain meaning of the English, in the terms the catalogs already use (Oggetto avanzato, Tracciati, Scherma, Carattere, Riquadro di testo); no other product's localisation was consulted or copied.
+
 ## TextureCraft initial migration
 
 The `texturecraft.tsv` catalogs for ar, de, es, fr, it, ja, ko, pt-br and zh-hans were migrated from [TextureCraft `21856d778347e13857f65c8f1107170797bd070f`](https://github.com/storytold/texturecraft/tree/21856d778347e13857f65c8f1107170797bd070f/crates/ui-egui/src/i18n), MIT OR Apache-2.0. Original wording and contributor credits remain in the upstream history. Migration tooling was AI-assisted; no new translations were authored and no additional native-speaker review was performed. Every original row was checked against the resolved app and shared catalogs. Tracked in storytold/texturecraft#419.
