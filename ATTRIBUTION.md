@@ -307,6 +307,10 @@ in 22 catalogs, preserving the existing translations and their credits above.
 Synced from `photocraft@7c64653` to `photocraft@2772ac1` with
 `tools/sync_app.py`; no translations were newly authored in this top-up.
 
+## PhotoCraft: Italian rows from photocraft#9889 and #8928 (moved after the cutover)
+
+Fabio D'Alessandro (@fabiodalez-dev) wrote 31 new Italian (`it`) rows in `locales/it/photocraft.tsv` and corrected 3, AI-assisted and reviewed row by row by the translator, a native speaker. They come from storytold/photocraft#9889 (Histogram panel options and statistics, the CPU rendering status, the font picker's empty result, line arrowheads and the preset group prompt on import) and #8928 (Delete Hidden Layers and the Warming and Cooling filter presets), brought across with `tools/sync_app.py ../photocraft 5d9c57e` from those branches, without #9889's Update and Restart and Release Notes rows, which PhotoCraft main no longer uses. The corrections: Sharpening (Camera Raw's section) was "Contrasto" and is now "Nitidezza"; Preview size and Print preview image were still in English. Every row was written from the plain meaning of the English, in the terms the catalog already uses (Sostituisci, predefiniti, Istogramma); no other product's localisation was consulted or copied.
+
 ## TextureCraft initial migration
 
 The `texturecraft.tsv` catalogs for ar, de, es, fr, it, ja, ko, pt-br and zh-hans were migrated from [TextureCraft `21856d778347e13857f65c8f1107170797bd070f`](https://github.com/storytold/texturecraft/tree/21856d778347e13857f65c8f1107170797bd070f/crates/ui-egui/src/i18n), MIT OR Apache-2.0. Original wording and contributor credits remain in the upstream history. Migration tooling was AI-assisted; no new translations were authored and no additional native-speaker review was performed. Every original row was checked against the resolved app and shared catalogs. Tracked in storytold/texturecraft#419.
