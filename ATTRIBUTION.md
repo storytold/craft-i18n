@@ -307,6 +307,17 @@ in 22 catalogs, preserving the existing translations and their credits above.
 Synced from `photocraft@7c64653` to `photocraft@2772ac1` with
 `tools/sync_app.py`; no translations were newly authored in this top-up.
 
+## PhotoCraft: DDS import options
+
+@Blenux's eight DDS import rows from `photocraft@ff3028b288adddef600c653c5400e844ecc59a9e`
+(storytold/photocraft#9926, #8632) were migrated with `tools/sync_app.py` into
+`cs`, `de`, `el`, `es`, `fr`, `hi`, `hu`, `id`, `it`, `ja`, `ko`, `nl`, `pl`,
+`pt-br`, `ru`, `sr-latn`, `tr`, `uk`, `vi`, `zh-hans` and `zh-hant`.
+The original translations and this migration were AI-assisted with Devin, written
+from the English meaning; no native-speaker review is recorded. No translations
+were newly authored during migration. PhotoCraft's former `sr` catalog maps to
+`sr-latn`, following the existing migration rules.
+
 ## TextureCraft initial migration
 
 The `texturecraft.tsv` catalogs for ar, de, es, fr, it, ja, ko, pt-br and zh-hans were migrated from [TextureCraft `21856d778347e13857f65c8f1107170797bd070f`](https://github.com/storytold/texturecraft/tree/21856d778347e13857f65c8f1107170797bd070f/crates/ui-egui/src/i18n), MIT OR Apache-2.0. Original wording and contributor credits remain in the upstream history. Migration tooling was AI-assisted; no new translations were authored and no additional native-speaker review was performed. Every original row was checked against the resolved app and shared catalogs. Tracked in storytold/texturecraft#419.

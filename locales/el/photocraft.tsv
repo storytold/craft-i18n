@@ -830,6 +830,7 @@ cameraRaw	Darks	Σκοτεινοί τόνοι
 cameraData	Date Taken	Ημερομηνία λήψης
 	DateTime Original	Αρχική ημερομηνία και ώρα
 	Day For Night	Ημέρα σαν νύχτα
+	DDS Import	Εισαγωγή DDS
 	DDS Options	Επιλογές DDS
 	De-Interlace…	Αποδιαπλοκή…
 	Decontaminate	Απομάκρυνση επιμόλυνσης
@@ -1232,6 +1233,7 @@ cameraData	F-Stop	Διάφραγμα
 	Flatten Image	Ισοπέδωση εικόνας
 	Flip Canvas Horizontal	Οριζόντια αναστροφή καμβά
 	Flip Canvas Vertical	Κατακόρυφη αναστροφή καμβά
+	Flip vertically	Αναστροφή κάθετα
 	Flip X	Αναστροφή X
 	Flip X Jitter	Διακύμανση αναστροφής X
 	Flip Y	Αναστροφή Y
@@ -1729,6 +1731,7 @@ cameraRaw	Lights	Φωτεινοί τόνοι
 	Load settings from a Camera Raw .xmp file	Φόρτωση ρυθμίσεων από αρχείο Camera Raw .xmp
 	Load Settings…	Φόρτωση ρυθμίσεων…
 	Load the brush after each stroke	Φόρτωση του πινέλου μετά από κάθε πινελιά
+	Load transparency as alpha channel	Φόρτωση διαφάνειας ως κανάλι άλφα
 	Loaded contours from {file}	Φορτώθηκαν περιγράμματα από {file}
 	Loaded RAW Develop settings from {file}	Φορτώθηκαν ρυθμίσεις Επεξεργασία RAW από το {file}
 	Loaded RAW Develop settings from {file} ({n} not supported)	Φορτώθηκαν ρυθμίσεις Επεξεργασία RAW από το {file} ({n} δεν υποστηρίζονται)
@@ -1866,6 +1869,7 @@ fontWeight	Medium	Μεσαία
 	Minimum Diameter	Ελάχιστη διάμετρος
 	Minimum Roundness	Ελάχιστη στρογγυλότητα
 	Minimum…	Ελάχιστο…
+	Mipmaps as separate layers	Mipmap ως ξεχωριστά επίπεδα
 	Missing delete command	Λείπει η εντολή διαγραφής
 	Missing glyph protection	Προστασία από απόντες γλύφους
 	Missing Profiles: Ask When Opening	Απουσία προφίλ: ερώτηση κατά το άνοιγμα
@@ -2057,10 +2061,12 @@ cameraData	Model	Μοντέλο
 	Open As	Άνοιγμα ως
 	Open as smart object	Άνοιγμα ως έξυπνο αντικείμενο
 	Open As…	Άνοιγμα ως…
+	Open cancelled	Το άνοιγμα ακυρώθηκε
 	Open color-less EXR as ACEScg	Άνοιγμα EXR χωρίς χρωματική δήλωση ως ACEScg
 	Open documents as tabs	Άνοιγμα εγγράφων σε καρτέλες
 	Open Document…	Άνοιγμα…
 	Open EXR Parts…	Άνοιγμα τμημάτων EXR…
+	Open failed: {error}	Το άνοιγμα απέτυχε: {error}
 	Open File	Άνοιγμα αρχείου
 	Open Folder	Άνοιγμα φακέλου
 	Open Image	Άνοιγμα εικόνας
@@ -3290,6 +3296,7 @@ cameraRaw	Yellow	Κίτρινο
 	{message} ({note})	{message} ({note})
 	{mode} Color · {bits} bit	Χρώμα {mode} · {bits} bit
 	{name} (Photoshop)	{name} (Photoshop)
+	{name} ({width} × {height})	{name} ({width} × {height})
 	{name} can't keep everything in this document	Το {name} δεν μπορεί να κρατήσει όλο το περιεχόμενο αυτού του εγγράφου
 	{name} options	Επιλογές: {name}
 	{name} Properties	Ιδιότητες: {name}
@@ -3300,6 +3307,7 @@ cameraRaw	Yellow	Κίτρινο
 @plural	{n} file could not be loaded: {errors}|{n} files could not be loaded: {errors}	Δεν ήταν δυνατή η φόρτωση {n} αρχείου: {errors}|Δεν ήταν δυνατή η φόρτωση {n} αρχείων: {errors}
 @plural	{n} layer recorded by this comp was deleted. Update the comp, or clear the warning.|{n} layers recorded by this comp were deleted. Update the comp, or clear the warning.	Διαγράφηκε {n} επίπεδο που καταγράφει αυτή η σύνθεση. Ενημερώστε τη σύνθεση ή καταργήστε την προειδοποίηση.|Διαγράφηκαν {n} επίπεδα που καταγράφει αυτή η σύνθεση. Ενημερώστε τη σύνθεση ή καταργήστε την προειδοποίηση.
 @plural	{n} layer|{n} layers	{n} επίπεδο|{n} επίπεδα
+@plural	{n} mip level|{n} mip levels	{n} επίπεδο mip|{n} επίπεδα mip
 	{n} of {max} sample points	{n} από {max} σημεία δειγματοληψίας
 @plural	{n} plane|{n} planes	{n} επίπεδο προοπτικής|{n} επίπεδα προοπτικής
 @plural	{n} preset|{n} presets	{n} προεπιλογή|{n} προεπιλογές

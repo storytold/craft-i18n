@@ -869,6 +869,7 @@ cameraRaw	Darks	Koyu Tonlar
 cameraData	Date Taken	Çekim Tarihi
 	DateTime Original	Orijinal Tarih/Saat
 	Day For Night	Gündüz Gece
+	DDS Import	DDS İçe Aktar
 	DDS Options	DDS Seçenekleri
 	De-Interlace…	Taramasızlaştırma…
 	Decontaminate	Dekontaminasyon
@@ -1284,6 +1285,7 @@ cameraData	F-Stop	Diyafram
 	Flatten Image	Görüntüyü Düzleştir
 	Flip Canvas Horizontal	Tuvali Yatay Çevir
 	Flip Canvas Vertical	Tuvali Dikey Çevir
+	Flip vertically	Dikey çevir
 	Flip X	X'i Çevir
 	Flip X Jitter	X Çevirme Titreşimi
 	Flip Y	Y'yi Çevir
@@ -1818,6 +1820,7 @@ cameraRaw	Lights	Açık Tonlar
 	Load settings from a Camera Raw .xmp file	Ayarları bir Camera Raw .xmp dosyasından yükle
 	Load Settings…	Ayarları Yükle…
 	Load the brush after each stroke	Her vuruştan sonra fırçayı yükle
+	Load transparency as alpha channel	Saydamlığı alfa kanalı olarak yükle
 	Loaded contours from {file}	Konturlar {file} dosyasından yüklendi
 	Loaded RAW Develop settings from {file}	RAW Geliştirme ayarları {file} dosyasından yüklendi
 	Loaded RAW Develop settings from {file} ({n} not supported)	RAW Geliştirme ayarları {file} dosyasından yüklendi ({n} desteklenmiyor)
@@ -1964,6 +1967,7 @@ fontWeight	Medium	Orta
 	Minimum Diameter	Minimum Çap
 	Minimum Roundness	Minimum Yuvarlaklık
 	Minimum…	Minimum…
+	Mipmaps as separate layers	Mipmap'leri ayrı katmanlar olarak
 	Missing delete command	Silme komutu eksik
 	Missing glyph protection	Eksik glif koruması
 	Missing Profiles: Ask When Opening	Eksik Profiller: Açarken Sor
@@ -2164,10 +2168,12 @@ layerLabel	No Color	Renk Yok
 	Open As	Farklı Aç
 	Open as smart object	Akıllı nesne olarak aç
 	Open As…	Farklı Aç…
+	Open cancelled	Açma iptal edildi
 	Open color-less EXR as ACEScg	Renk bilgisi olmayan EXR'yi ACEScg olarak aç
 	Open documents as tabs	Belgeleri sekmeler halinde aç
 	Open Document…	Aç…
 	Open EXR Parts…	EXR Parçalarını Aç…
+	Open failed: {error}	Açma başarısız: {error}
 	Open File	Dosyayı Aç
 	Open Folder	Klasörü Aç
 	Open Image	Görüntüyü Aç
@@ -3461,6 +3467,7 @@ cameraRaw	Yellow	Sarı
 	{message} ({note})	{message} ({note})
 	{mode} Color · {bits} bit	{mode} Renk · {bits} bit
 	{name} (Photoshop)	{name} (Photoshop)
+	{name} ({width} × {height})	{name} ({width} × {height})
 	{name} can't keep everything in this document	{name} bu belgedeki her şeyi koruyamaz
 	{name} options	{name} seçenekleri
 	{name} Properties	{name} Özellikleri
@@ -3471,6 +3478,7 @@ cameraRaw	Yellow	Sarı
 @plural	{n} file could not be loaded: {errors}|{n} files could not be loaded: {errors}	{n} dosya yüklenemedi: {errors}|{n} dosya yüklenemedi: {errors}
 @plural	{n} layer recorded by this comp was deleted. Update the comp, or clear the warning.|{n} layers recorded by this comp were deleted. Update the comp, or clear the warning.	Bu kompozisyonun kaydettiği {n} katman silindi. Kompozisyonu güncelleyin veya uyarıyı temizleyin.|Bu kompozisyonun kaydettiği {n} katman silindi. Kompozisyonu güncelleyin veya uyarıyı temizleyin.
 @plural	{n} layer|{n} layers	{n} katman|{n} katman
+@plural	{n} mip level|{n} mip levels	{n} mip seviyesi|{n} mip seviyesi
 	{n} of {max} sample points	{n} / {max} örnek nokta
 @plural	{n} plane|{n} planes	{n} düzlem|{n} düzlem
 @plural	{n} preset|{n} presets	{n} ön ayar|{n} ön ayar

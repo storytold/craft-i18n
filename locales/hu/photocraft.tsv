@@ -905,6 +905,7 @@ cameraRaw	Darks	Sötét tónusok
 cameraData	Date Taken	Készítés ideje
 	DateTime Original	Eredeti dátum és idő
 	Day For Night	Nappali éjszaka
+	DDS Import	DDS importálása
 	DDS Options	DDS-beállítások
 	De-Interlace	Váltott soros megjelenítés megszüntetése
 	De-Interlace…	Váltott soros megjelenítés megszüntetése…
@@ -1331,6 +1332,7 @@ cameraData	F-Stop	Rekesz
 	Flatten Image	Kép egybesimítása
 	Flip Canvas Horizontal	Vászon vízszintes tükrözése
 	Flip Canvas Vertical	Vászon függőleges tükrözése
+	Flip vertically	Függőleges tükrözés
 	Flip X	X-tükrözés
 	Flip X Jitter	X-tükrözés ingadozása
 	Flip Y	Y-tükrözés
@@ -1864,6 +1866,7 @@ cameraRaw	Lights	Világos tónusok
 	Load settings from a Camera Raw .xmp file	Beállítások betöltése Camera Raw .xmp-fájlból
 	Load Settings…	Beállítások betöltése…
 	Load the brush after each stroke	Az ecset feltöltése minden ecsetvonás után
+	Load transparency as alpha channel	Átlátszóság betöltése alfacsatornaként
 	Loaded contours from {file}	Kontúrok betöltve: {file}
 	Loaded RAW Develop settings from {file}	RAW-előhívás-beállítások betöltve innen: {file}
 	Loaded RAW Develop settings from {file} ({n} not supported)	RAW-előhívás-beállítások betöltve innen: {file} ({n} nem támogatott)
@@ -2016,6 +2019,7 @@ fontWeight	Medium	Közepes
 	Minimum Diameter	Minimális átmérő
 	Minimum Roundness	Minimális kerekség
 	Minimum…	Minimum…
+	Mipmaps as separate layers	Mipmap-ek külön rétegekként
 	Mirror	Tükrözés
 	Missing delete command	Hiányzó törlési parancs
 	Missing glyph protection	Hiányzó glifák elleni védelem
@@ -2230,10 +2234,12 @@ layerLabel	No Color	Nincs szín
 	Open As	Megnyitás mint
 	Open as smart object	Megnyitás intelligens objektumként
 	Open As…	Megnyitás mint…
+	Open cancelled	Megnyitás megszakítva
 	Open color-less EXR as ACEScg	Színinformáció nélküli EXR megnyitása ACEScg-ként
 	Open documents as tabs	Dokumentumok megnyitása lapfülként
 	Open Document…	Megnyitás…
 	Open EXR Parts…	EXR-részek megnyitása…
+	Open failed: {error}	A megnyitás sikertelen: {error}
 	Open File	Fájl megnyitása
 	Open Folder	Mappa megnyitása
 	Open Image	Kép megnyitása
@@ -3584,6 +3590,7 @@ navigator	Zoom	Nagyítás mértéke
 	{message} ({note})	{message} ({note})
 	{mode} Color · {bits} bit	Színmód: {mode} · {bits} bit
 	{name} (Photoshop)	{name} (Photoshop)
+	{name} ({width} × {height})	{name} ({width} × {height})
 	{name} can't keep everything in this document	Nem őrizhető meg minden a dokumentumból ebben a formátumban: {name}
 	{name} options	{name}: beállítások
 	{name} Properties	Tulajdonságok: {name}
@@ -3594,6 +3601,7 @@ navigator	Zoom	Nagyítás mértéke
 @plural	{n} file could not be loaded: {errors}|{n} files could not be loaded: {errors}	{n} fájlt nem sikerült betölteni: {errors}|{n} fájlt nem sikerült betölteni: {errors}
 @plural	{n} layer recorded by this comp was deleted. Update the comp, or clear the warning.|{n} layers recorded by this comp were deleted. Update the comp, or clear the warning.	A rétegkompozícióban rögzített rétegek közül {n} törlődött. Frissítsd a rétegkompozíciót, vagy töröld a figyelmeztetést.|A rétegkompozícióban rögzített rétegek közül {n} törlődött. Frissítsd a rétegkompozíciót, vagy töröld a figyelmeztetést.
 @plural	{n} layer|{n} layers	{n} réteg|{n} réteg
+@plural	{n} mip level|{n} mip levels	{n} mip-szint|{n} mip-szint
 	{n} of {max} sample points	{n} / {max} mintavételi pont
 @plural	{n} plane|{n} planes	{n} sík|{n} sík
 @plural	{n} preset|{n} presets	{n} előbeállítás|{n} előbeállítás
