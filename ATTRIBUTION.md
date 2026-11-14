@@ -322,6 +322,29 @@ the translations were machine-drafted and invited native-speaker review. LZW and
 ZIP stay identity rows, as in the PSD catalogs. Locales that already had these
 keys (including he, ro and ur) were left unchanged.
 
+## WordCraft descriptive feature names (2026-11-08)
+
+The Diagram and Decorative Text labels and related messages were added in `ar`, `bg`,
+`cs`, `da`, `de`, `es`, `et`, `fr`, `hr`, `hu`, `it`, `ja`, `ko`, `nl`, `pl`, `pt-br`,
+`ro`, `ru`, `sl`, `sr`, `sr-latn`, `sv`, `tr`, `uk`, `vi`, `zh-hans` and `zh-hant`.
+Written by @FredApps, AI-assisted with a coding agent (the tool was not recorded when
+the rows were drafted), from the plain meaning of the English; no native-speaker review
+has been recorded. No other product's localisation was consulted. Existing translations
+and their credits remain unchanged. The new rows are additive so earlier app pins retain
+their labels. After review in craft-i18n#211, Diagram in `ar`, `bg`, `de`, `et` and `uk`
+was changed to a schema/scheme word so it no longer repeats the Chart label. In `sv` it
+equals Chart ("Diagram") by choice, confirmed by @FredApps, a native speaker, in
+craft-i18n#211. In `da` and `hu` it still equals Chart, pending a native speaker's choice.
+## PhotoCraft: Rotate View Left and Right from photocraft#4931
+
+Photocraft #4931, submitted by @FredApps, carried translations of "Rotate View Left" and
+"Rotate View Right" in 20 in-repo catalogs. Those files moved here before it merged, so the
+same rows are now in `locales/<code>/photocraft.tsv` for cs, de, el, es, fr, hu, id, it, ja,
+ko, nl, pl, pt-br, ru, sr-latn, tr, uk, vi, zh-hans and zh-hant (sr.tsv became sr-latn).
+They were written with a coding agent from the plain meaning of the English (the tool was
+not recorded); no native-speaker review has been recorded. Other locales have no rows for
+these keys yet.
+
 ## TextureCraft: Edit > Change mesh... (texturecraft #230)
 
 Adds "Change mesh..." and "Relative to the bounding box diagonal." to the `texturecraft.tsv` catalogs
