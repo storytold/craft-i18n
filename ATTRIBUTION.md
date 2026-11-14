@@ -344,3 +344,18 @@ ko, nl, pl, pt-br, ru, sr-latn, tr, uk, vi, zh-hans and zh-hant (sr.tsv became s
 They were written with a coding agent from the plain meaning of the English (the tool was
 not recorded); no native-speaker review has been recorded. Other locales have no rows for
 these keys yet.
+
+## WordCraft: French (Canada) proofing-language label
+
+The `French (Canada)` label in `locales/<locale>/wordcraft.tsv` was added by
+@totoz64 with OpenAI Codex (AI-assisted) for these 36 locales:
+
+`ar`, `bg`, `bn`, `bs`, `cs`, `da`, `de`, `es`, `et`, `fa`, `fr`, `he`,
+`hr`, `hu`, `id`, `it`, `ja`, `ka`, `ko`, `lv`, `nb`, `nl`, `pl`, `pt-br`,
+`ro`, `ru`, `sk`, `sl`, `sr`, `sr-latn`, `sv`, `tr`, `uk`, `vi`, `zh-hans`,
+and `zh-hant`.
+
+These additions were written from the plain meaning of the English label; no
+other product's localisation, string table or translated interface was consulted.
+Native-speaker review of these newly added labels is pending in all 36 locales.
+Related application change: storytold/wordcraft#3185.
