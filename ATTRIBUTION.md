@@ -344,3 +344,11 @@ ko, nl, pl, pt-br, ru, sr-latn, tr, uk, vi, zh-hans and zh-hant (sr.tsv became s
 They were written with a coding agent from the plain meaning of the English (the tool was
 not recorded); no native-speaker review has been recorded. Other locales have no rows for
 these keys yet.
+
+## TextureCraft: Edit > Change mesh... (texturecraft #230)
+
+Adds "Change mesh..." and "Relative to the bounding box diagonal." to the `texturecraft.tsv` catalogs
+of ar, de, es, fr, it, ja, ko, pt-br and zh-hans. The "Change mesh..." translations are new and
+AI-assisted, written from the plain meaning of the English and the wording these catalogs already use
+for "Reimport mesh"; no native speaker reviewed them. The "Relative to the bounding box diagonal."
+translations are the existing ones from TextureCraft's `ui-egui/src/i18n` tables.
