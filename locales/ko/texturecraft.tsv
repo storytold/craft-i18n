@@ -18,6 +18,7 @@
 	2D view only	2D 뷰만
 	32 bits (float)	32비트 (float)
 	3D mesh	3D 메시
+	3D MESH	3D 메시
 	3D meshes	3D 메시
 	3D texture painting: layers, masks, smart materials, mesh map baking and export.	3D 텍스처 페인팅: 레이어, 마스크, 스마트 머티리얼, 메시 맵 베이크 및 내보내기.
 	3D view only	3D 뷰만
@@ -130,6 +131,7 @@
 	Brushes	브러시 목록
 	BSphere	경계 구
 	Built-in (read-only): duplicate it to edit	기본 제공 (읽기 전용): 편집하려면 복제하세요
+	Built-in mesh	기본 제공 메시
 	Built-in templates are read-only: duplicate one to edit it	기본 제공 템플릿은 읽기 전용입니다. 편집하려면 복제하세요
 	Built-in: {mesh}	기본 제공: {mesh}
 	By Mesh Name	메시 이름으로
@@ -143,7 +145,7 @@
 	Cavities	오목한 부분
 	Cell size (texels at 2K)	셀 크기 (2K 기준 텍셀)
 	Cells	셀
-	Change mesh...	메시 변경...
+	Change them in Texture Set Settings	텍스처 세트 설정에서 변경하세요
 	Channel source: uniform value, procedural, image or anchor	채널 소스: 균일 값, 프로시저럴, 이미지 또는 앵커
 	Check All	모두 선택
 	Check for Updates...	업데이트 확인...
@@ -316,6 +318,7 @@
 	Field of view (deg)	시야각 (도)
 	File ID	파일 ID
 	File name without extension; variables insert names	확장자 없는 파일 이름입니다. 변수를 사용하면 이름이 삽입됩니다
+	File not found	파일을 찾을 수 없음
 	File type	파일 형식
 	Fill	채우기
 	Fill layer	채우기 레이어
@@ -416,6 +419,7 @@
 	Import material...	머티리얼 가져오기...
 	Import MaterialX material...	MaterialX 머티리얼 가져오기...
 	Import resources...	리소스 가져오기...
+	Import settings	가져오기 설정
 	Import...	가져오기...
 	Imported template "{name}"	템플릿 "{name}" 가져옴
 	Imported {name}	가져옴: {name}
@@ -536,6 +540,7 @@
 	No padding (passthrough)	패딩 없음 (통과)
 	No Parameters	매개변수 없음
 	No recent projects yet	아직 최근 프로젝트가 없습니다
+	No UV tiles	UV 타일 없음
 	Noise amount	노이즈 양
 	Noise scale	노이즈 스케일
 	none	없음
@@ -590,6 +595,7 @@
 	Paint Skew Correction	기울기 보정 페인트
 	Paint with the current tool	현재 도구로 페인팅
 	Painted layer pixels {pixels} MB, composited channels {composites} MB, compositing cache {cache} MB	페인트한 레이어 픽셀 {pixels} MB, 합성된 채널 {composites} MB, 합성 캐시 {cache} MB
+	Painted strokes follow the surface when the new mesh's UVs differ	새 메시의 UV가 다르면 칠한 스트로크가 표면을 따라갑니다
 	Painting is paused while a bake is shown. Cancel the bake or wait for it to finish.	베이크를 표시하는 동안에는 페인팅이 일시 중지됩니다. 베이크를 취소하거나 끝날 때까지 기다리세요.
 	Pan	이동
 	Parallax occlusion (height channel)	시차 오클루전 (높이 채널)
@@ -622,13 +628,16 @@
 	Pores	모공
 	Position gradient	위치 그레이디언트
 	Position jitter	위치 지터
+	Preserve stroke positions on mesh	메시에서 스트로크 위치 유지
 	Preset	프리셋
 	Press a key...	키를 누르세요...
 	Procedurals	프로시저럴
 	Project	프로젝트
+	Project configuration	프로젝트 구성
 	Project Configuration...	프로젝트 구성...
 	Project Mesh (LP)	투영 메시 (LP)
 	Project opened	프로젝트를 열었습니다
+	PROJECT SETTINGS	프로젝트 설정
 	Project template	프로젝트 템플릿
 	Projection	투영
 	Projects and meshes	프로젝트 및 메시
@@ -641,6 +650,7 @@
 	Radius (texels at 2K)	반경 (2K 기준 텍셀)
 	Raw curvature	원시 곡률
 	Re-cook	다시 계산
+	Read the mesh file again, keeping the layers and painted strokes	레이어와 칠한 스트로크를 유지한 채 메시 파일을 다시 읽습니다
 	Reads the curvature map as baked: changing the mode or a size turns detail sizes on.	곡률 맵을 베이크된 그대로 읽습니다. 모드나 크기를 바꾸면 디테일 크기가 켜집니다.
 	Rebind any menu item, tool or command	메뉴 항목, 도구 또는 명령의 단축키를 다시 지정합니다
 	Recent projects	최근 프로젝트
@@ -834,6 +844,7 @@
 	The next click in the 3D view moves the decal there	3D 뷰에서 다음에 클릭한 위치로 데칼이 이동합니다
 	The project changed while the dialog was open, so nothing was done	대화 상자가 열려 있는 동안 프로젝트가 변경되어 아무 작업도 수행하지 않았습니다
 	The resize worker stopped	크기 조정 작업이 중지되었습니다
+	There is no mesh file to read again. Select one.	다시 읽을 메시 파일이 없습니다. 파일을 선택하세요.
 	Thin areas	얇은 영역
 	Tile	타일
 	Tiles	타일
@@ -871,6 +882,7 @@
 	UV island fill	UV 아일랜드 채우기
 	UV projection	UV 투영
 	UV Seams	UV 심
+	UV Tile settings (UDIMs)	UV 타일 설정 (UDIM)
 	UV tile {tile} resolution	UV 타일 {tile} 해상도
 	UV tiles	UV 타일
 	UV tiles (UDIM)	UV 타일 (UDIM)

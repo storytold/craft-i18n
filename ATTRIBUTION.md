@@ -345,10 +345,13 @@ They were written with a coding agent from the plain meaning of the English (the
 not recorded); no native-speaker review has been recorded. Other locales have no rows for
 these keys yet.
 
-## TextureCraft: Edit > Change mesh... (texturecraft #230)
+## TextureCraft: Edit > Project Configuration... (texturecraft #525)
 
-Adds "Change mesh..." and "Relative to the bounding box diagonal." to the `texturecraft.tsv` catalogs
-of ar, de, es, fr, it, ja, ko, pt-br and zh-hans. The "Change mesh..." translations are new and
-AI-assisted, written from the plain meaning of the English and the wording these catalogs already use
-for "Reimport mesh"; no native speaker reviewed them. The "Relative to the bounding box diagonal."
-translations are the existing ones from TextureCraft's `ui-egui/src/i18n` tables.
+Adds the strings of the Project Configuration window (3D MESH, Import settings, PROJECT SETTINGS,
+UV Tile settings (UDIMs) and their hints, 13 strings, 12 in es, fr, it and pt-br which already
+have "File not found") and "Relative to the bounding box diagonal." to the `texturecraft.tsv`
+catalogs of ar, de, es, fr, it, ja, ko, pt-br and zh-hans. The Project Configuration translations
+are new and AI-assisted, written from the plain meaning of the English and the wording these
+catalogs already use for "Reimport mesh", "Texture Set Settings" and "Mesh maps"; no native speaker
+reviewed them. The "Relative to the bounding box diagonal." translations are the existing ones from
+TextureCraft's `ui-egui/src/i18n` tables.

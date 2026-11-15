@@ -18,6 +18,7 @@
 	2D view only	Solo vista 2D
 	32 bits (float)	32 bits (float)
 	3D mesh	Malla 3D
+	3D MESH	MALLA 3D
 	3D meshes	Mallas 3D
 	3D texture painting: layers, masks, smart materials, mesh map baking and export.	Pintura de texturas 3D: capas, máscaras, materiales inteligentes, horneado de mapas de malla y exportación.
 	3D view only	Solo vista 3D
@@ -129,6 +130,7 @@
 	Brushed lines	Líneas cepilladas
 	BSphere	Esfera delimitadora
 	Built-in (read-only): duplicate it to edit	Integrada (solo lectura): duplícala para editarla
+	Built-in mesh	Malla integrada
 	Built-in templates are read-only: duplicate one to edit it	Las plantillas integradas son de solo lectura: duplica una para editarla
 	Built-in: {mesh}	Integrada: {mesh}
 	By Mesh Name	Por nombre de malla
@@ -142,7 +144,7 @@
 	Cavities	Cavidades
 	Cell size (texels at 2K)	Tamaño de celda (téxeles a 2K)
 	Cells	Celdas
-	Change mesh...	Cambiar malla...
+	Change them in Texture Set Settings	Cámbialos en Ajustes del conjunto de texturas
 	Channel source: uniform value, procedural, image or anchor	Origen del canal: valor uniforme, procedural, imagen o anclaje
 	Check All	Marcar todo
 	Check for Updates...	Buscar actualizaciones...
@@ -413,6 +415,7 @@
 	Import material...	Importar material...
 	Import MaterialX material...	Importar material MaterialX...
 	Import resources...	Importar recursos...
+	Import settings	Ajustes de importación
 	Import...	Importar...
 	Imported template "{name}"	Plantilla "{name}" importada
 	Imported {name}	{name} importado
@@ -533,6 +536,7 @@
 	No padding (passthrough)	Sin margen (paso directo)
 	No Parameters	Sin parámetros
 	No recent projects yet	Aún no hay proyectos recientes
+	No UV tiles	Sin mosaicos UV
 	Noise amount	Cantidad de ruido
 	Noise scale	Escala del ruido
 	none	ninguno
@@ -586,6 +590,7 @@
 	Paint Skew Correction	Pintar corrección de inclinación
 	Paint with the current tool	Pintar con la herramienta actual
 	Painted layer pixels {pixels} MB, composited channels {composites} MB, compositing cache {cache} MB	Píxeles de capas pintadas {pixels} MB, canales compuestos {composites} MB, caché de composición {cache} MB
+	Painted strokes follow the surface when the new mesh's UVs differ	Los trazos pintados siguen la superficie cuando las UV de la nueva malla son distintas
 	Painting is paused while a bake is shown. Cancel the bake or wait for it to finish.	La pintura está en pausa mientras se muestra un horneado. Cancela el horneado o espera a que termine.
 	Pan	Desplazar
 	Parallax occlusion (height channel)	Oclusión de paralaje (canal de altura)
@@ -618,13 +623,16 @@
 	Pores	Poros
 	Position gradient	Degradado de posición
 	Position jitter	Variación de posición
+	Preserve stroke positions on mesh	Conservar la posición de los trazos en la malla
 	Preset	Preajuste
 	Press a key...	Pulsa una tecla...
 	Procedurals	Procedurales
 	Project	Proyecto
+	Project configuration	Configuración del proyecto
 	Project Configuration...	Configuración del proyecto...
 	Project Mesh (LP)	Malla de proyección (LP)
 	Project opened	Proyecto abierto
+	PROJECT SETTINGS	AJUSTES DEL PROYECTO
 	Project template	Plantilla de proyecto
 	Projection	Proyección
 	Projects and meshes	Proyectos y mallas
@@ -637,6 +645,7 @@
 	Range	Rango
 	Raw curvature	Curvatura sin procesar
 	Re-cook	Recalcular
+	Read the mesh file again, keeping the layers and painted strokes	Vuelve a leer el archivo de malla conservando las capas y los trazos pintados
 	Reads the curvature map as baked: changing the mode or a size turns detail sizes on.	Lee el mapa de curvatura tal como se horneó: cambiar el modo o un tamaño activa los tamaños de detalle.
 	Rebind any menu item, tool or command	Reasignar cualquier elemento de menú, herramienta o comando
 	Recent projects	Proyectos recientes
@@ -826,6 +835,7 @@
 	The next click in the 3D view moves the decal there	El próximo clic en la vista 3D mueve la calcomanía allí
 	The project changed while the dialog was open, so nothing was done	El proyecto cambió mientras el cuadro de diálogo estaba abierto, así que no se hizo nada
 	The resize worker stopped	El proceso de redimensionado se detuvo
+	There is no mesh file to read again. Select one.	No hay ningún archivo de malla que volver a leer. Selecciona uno.
 	Thin areas	Zonas finas
 	Tiles	Baldosas
 	Tint	Tinte
@@ -859,6 +869,7 @@
 	UV island fill	Relleno de islas UV
 	UV projection	Proyección UV
 	UV Seams	Costuras UV
+	UV Tile settings (UDIMs)	Ajustes de mosaicos UV (UDIM)
 	UV tile {tile} resolution	Resolución del mosaico UV {tile}
 	UV tiles	Mosaicos UV
 	UV tiles (UDIM)	Mosaicos UV (UDIM)

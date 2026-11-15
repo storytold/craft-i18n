@@ -18,6 +18,7 @@
 	2D view only	2Dビューのみ
 	32 bits (float)	32ビット (浮動小数点)
 	3D mesh	3Dメッシュ
+	3D MESH	3Dメッシュ
 	3D meshes	3Dメッシュ
 	3D texture painting: layers, masks, smart materials, mesh map baking and export.	3Dテクスチャペイント: レイヤー、マスク、スマートマテリアル、メッシュマップのベイク、エクスポート。
 	3D view only	3Dビューのみ
@@ -128,6 +129,7 @@
 	Brushes	ブラシ一覧
 	BSphere	バウンディングスフィア
 	Built-in (read-only): duplicate it to edit	組み込み (読み取り専用): 複製して編集
+	Built-in mesh	組み込みメッシュ
 	Built-in templates are read-only: duplicate one to edit it	組み込みテンプレートは読み取り専用です: 複製して編集
 	Built-in: {mesh}	組み込み: {mesh}
 	By Mesh Name	メッシュ名で
@@ -141,7 +143,7 @@
 	Cavities	くぼみ
 	Cell size (texels at 2K)	セルサイズ (2K時のテクセル)
 	Cells	セル
-	Change mesh...	メッシュを変更...
+	Change them in Texture Set Settings	変更はテクスチャセット設定で行います
 	Channel source: uniform value, procedural, image or anchor	チャンネルのソース: 均一値、プロシージャル、画像、アンカー
 	Check All	すべてチェック
 	Check for Updates...	アップデートを確認...
@@ -319,6 +321,7 @@
 	Field of view (deg)	視野角 (度)
 	File ID	ファイルID
 	File name without extension; variables insert names	拡張子なしのファイル名。変数で名前を挿入
+	File not found	ファイルが見つかりません
 	File type	ファイル形式
 	Fill	塗りつぶし
 	Fill layer	塗りつぶしレイヤー
@@ -418,6 +421,7 @@
 	Import material...	マテリアルを読み込む...
 	Import MaterialX material...	MaterialX マテリアルをインポート...
 	Import resources...	リソースをインポート...
+	Import settings	インポート設定
 	Import...	インポート...
 	Imported template "{name}"	テンプレート「{name}」をインポートしました
 	Imported {name}	{name} をインポートしました
@@ -541,6 +545,7 @@
 	No padding (passthrough)	パディングなし (パススルー)
 	No Parameters	パラメーターなし
 	No recent projects yet	最近のプロジェクトはまだありません
+	No UV tiles	UVタイルなし
 	Noise amount	ノイズ量
 	Noise scale	ノイズスケール
 	none	なし
@@ -595,6 +600,7 @@
 	Paint Skew Correction	スキュー補正をペイント
 	Paint with the current tool	現在のツールでペイント
 	Painted layer pixels {pixels} MB, composited channels {composites} MB, compositing cache {cache} MB	ペイントしたレイヤーのピクセル {pixels} MB、合成済みチャンネル {composites} MB、合成キャッシュ {cache} MB
+	Painted strokes follow the surface when the new mesh's UVs differ	新しいメッシュのUVが異なる場合、ペイントしたストロークはサーフェスに追従します
 	Painting is paused while a bake is shown. Cancel the bake or wait for it to finish.	ベイクの表示中はペイントを一時停止しています。ベイクをキャンセルするか、終わるまでお待ちください。
 	Pan	パン
 	Parallax occlusion (height channel)	視差オクルージョン (ハイトチャンネル)
@@ -628,12 +634,15 @@
 	Pores	毛穴
 	Position gradient	位置グラデーション
 	Position jitter	位置ジッター
+	Preserve stroke positions on mesh	メッシュ上のストロークの位置を保持
 	Press a key...	キーを押してください...
 	Procedurals	プロシージャル
 	Project	プロジェクト
+	Project configuration	プロジェクト構成
 	Project Configuration...	プロジェクト構成...
 	Project Mesh (LP)	投影メッシュ (LP)
 	Project opened	プロジェクトを開きました
+	PROJECT SETTINGS	プロジェクト設定
 	Project template	プロジェクトテンプレート
 	Projection	投影
 	Projects and meshes	プロジェクトとメッシュ
@@ -645,6 +654,7 @@
 	Radius (texels at 2K)	半径 (2K時のテクセル)
 	Raw curvature	生の曲率
 	Re-cook	再計算
+	Read the mesh file again, keeping the layers and painted strokes	レイヤーとペイントしたストロークを保ったまま、メッシュファイルを読み込み直します
 	Reads the curvature map as baked: changing the mode or a size turns detail sizes on.	曲率マップをベイクされたまま読み取ります。モードやサイズを変更するとディテールサイズが有効になります。
 	Rebind any menu item, tool or command	メニュー項目、ツール、コマンドのショートカットを再割り当て
 	Recent projects	最近使ったプロジェクト
@@ -838,6 +848,7 @@
 	The next click in the 3D view moves the decal there	3Dビューで次にクリックした位置にデカールを移動
 	The project changed while the dialog was open, so nothing was done	ダイアログを開いている間にプロジェクトが変更されたため、何も実行されませんでした
 	The resize worker stopped	サイズ変更の処理が停止しました
+	There is no mesh file to read again. Select one.	再読み込みするメッシュファイルがありません。ファイルを選択してください。
 	Thickness	厚み
 	Thin areas	薄い領域
 	Tile	タイル
@@ -875,6 +886,7 @@
 	UV island fill	UVアイランド塗りつぶし
 	UV projection	UV投影
 	UV Seams	UVシーム
+	UV Tile settings (UDIMs)	UVタイル設定 (UDIM)
 	UV tile {tile} resolution	UVタイル {tile} の解像度
 	UV tiles	UVタイル
 	UV tiles (UDIM)	UVタイル (UDIM)
