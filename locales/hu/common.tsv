@@ -1,17 +1,42 @@
 # Magyar (hu) interface catalog for every Crafting App.
-# Columns, separated by a TAB:  context <TAB> English source text <TAB> translation
-#   context  usually empty. `@plural`, `@id` and `@msg` mean something to the apps; any other
-#            word is a label that tells apart two meanings of the same English.
-#   escapes  \n  \t  \\  inside a column. `{name}` placeholders must appear in both columns (in any
-#            order), and a trailing "…" in one needs one in the other.
-#   @plural  English `one|other`; the translation lists this language's plural forms, `|`-separated.
-#   Lines starting with # and blank lines are ignored. A missing entry shows in English.
+# Columns, separated by a TAB: context <TAB> English source text <TAB> translation
 #
-# Clean room: every entry was written from the plain meaning of the English text in ordinary
-# computing vocabulary. No other product's localisation, string table or translated UI was
-# consulted or copied; add entries the same way.
+# Context column notes:
+#    (empty)       a plain UI string; source is the English text in the code.
+#    @id           a command id (e.g. file.saveAs): wins over the English text for that menu item,
+#                  so one id can read differently from its twin.
+#    @plural       source is one|other (English forms); the translation lists the language's plural
+#                  forms separated by | (voir `plural` in i18n/mod.rs). Plural rule: a count is
+#                  followed by the singular noun in Hungarian, so every @plural entry has a single form.
+#    @msg          has a specific application meaning.
+#    anything else a disambiguating context passed to `tr_ctx` / a label that tells apart two meanings
+#                  of the same English text.
+#
+# Formatting & Syntax rules:
+#    - Escapes: \n, \t, \\ inside a column.
+#    - Placeholders: {name} placeholders must appear in both columns (in any order).
+#    - Ellipsis: a trailing single-character ellipsis “…” in one needs one in the other.
+#    - File structure: lines starting with # and blank lines are ignored. A missing entry shows in English.
+#
+# Hungarian style & Translation guidelines:
+#    - Use formal address (magázás) in user-facing text.
+#    - Use the single-character ellipsis “…” and „” (Hungarian quotation marks) instead of straight quotes.
+#    - Terminology: follow the existing translations in the current document and established catalog choices 
+#      to keep terminology and phrasing coherent and consistent with itself across contexts.
+#    - Adapt phrasing naturally to each Crafting App string rather than translating word for word.
+#    - Omit standalone 'please', but retain natural conventional phrasing (e.g., 'Please wait…' →
+#      'Kis türelmet…', 'Please make sure…' → 'Győződjön meg arról, hogy…', 'Apply' → 'Alkalmaz…',
+#      'Applies' → 'Alkalmazása…', but 'Enter: applies' → 'Enter: Alkalmaz', 'Applies at next launch.' →
+#      'A következő indításkor kerül használatba').
+#    - Product and technology names (PhotoCraft, ArtCraft, OpenType, CMYK, Lab, etc.) stay in Latin letters.
+#
+# Clean-room policy:
+#    - Every entry was written from the plain meaning of the English text using ordinary computing and
+#      image-editing vocabulary (réteg, maszk, kijelölés, etc.).
+#    - No proprietary localisation resource, external glossary, string table, or other product's translated UI 
+#      was consulted or copied; add entries the same way.
 
-	% of all commits	Az összes commit %-a
+	% of all commits	Véglegesítések aránya (%)
 	(Custom)	(Egyéni)
 	(none)	(nincs)
 	1 file	1 fájl
@@ -87,8 +112,8 @@ theme	Appearance	Kinézet
 	Artboard	Rajztábla
 	Artboards	Rajztáblák
 	ArtCraft	ArtCraft
-	ArtCraft Website	Az ArtCraft webhelye
-	ArtCraft website	Az ArtCraft webhelye
+	ArtCraft Website	Az ArtCraft weboldala
+	ArtCraft website	Az ArtCraft weboldala
 	Artistic	Művészi
 	Ascending	Növekvő
 	Aspect Ratio	Méretarány
@@ -234,7 +259,7 @@ theme	Appearance	Kinézet
 	Commands:	Parancsok:
 	Comment	Megjegyzés
 	Comments	Megjegyzések
-	Commits	Commitok
+	Commits	Véglegesítések
 	Community	Közösség
 	Company	Cég
 	Compare	Összehasonlítás
@@ -274,7 +299,7 @@ theme	Appearance	Kinézet
 	Ctrl	Ctrl
 	Current	Jelenlegi
 	Current page	Aktuális oldal
-	Current Time	Aktuális idő
+	Current Time	Jelenlegi idő
 	Curvature	Görbület
 	Curve	Görbe
 	Curves	Görbék
@@ -382,7 +407,7 @@ theme	Appearance	Kinézet
 	Editing	Szerkesztés
 	Edit…	Szerkesztés…
 	Effect	Effektus
-	Effects	Effektusok
+	Effects	Hatások
 	Elevation	Magassági szög
 	Eliminate	Eltávolítás
 	Ellipse	Ellipszis
@@ -452,7 +477,7 @@ theme	Appearance	Kinézet
 	Fine Dots	Finom pontok
 	Finish	Befejezés
 	First	Első
-	First commit	Első commit
+	First commit	Első véglegesítés
 	Fit	Illesztés
 	Fit in View	Igazítás a nézethez
 	Fixed	Rögzített
@@ -596,9 +621,9 @@ theme	Appearance	Kinézet
 	Japanese	Japán
 	Join	Összekapcsolás
 	Join our Discord	Csatlakozz a Discordunkhoz
-	Join the ArtCraft Discord	Csatlakozás az ArtCraft Discordhoz
-	Join the ArtCraft Discord…	Csatlakozás az ArtCraft Discordhoz…
-	Join us on Discord	Csatlakozz hozzánk a Discordon
+	Join the ArtCraft Discord	Csatlakozás az ArtCraft Discord-szerveréhez
+	Join the ArtCraft Discord…	Csatlakozás az ArtCraft Discord-szerveréhez…
+	Join us on Discord	Beszélgessen velünk a Discordon
 	just now	épp most
 	Justification	Sorkizárás
 	Justify	Sorkizárás
@@ -621,7 +646,7 @@ theme	Appearance	Kinézet
 	Lasso	Lasszó
 	Lasso Tool	Lasszó
 	Last	Utolsó
-	Last commit	Utolsó commit
+	Last commit	Utolsó véglegesítés
 	Later	Később
 	Layer	Réteg
 	Layers	Rétegek
@@ -845,7 +870,7 @@ theme	Appearance	Kinézet
 	Paths	Útvonalak
 	Pattern	Mintázat
 	Pattern Type	Mintatípus
-	Pause	Szünet
+	Pause	Szüneteltetés
 	Pen	Toll
 	Pen Tool	Toll
 	Pencil	Ceruza
@@ -892,7 +917,7 @@ theme	Appearance	Kinézet
 	Preset:	Előbeállítás:
 	Presets	Előbeállítások
 	Presets:	Előbeállítások:
-	Press keys…	Nyomd le a billentyűket…
+	Press keys…	Nyomja le a billentyűket…
 	Pressure	Nyomás
 	Preview	Előnézet
 	Previous	Előző
@@ -963,14 +988,14 @@ theme	Appearance	Kinézet
 	Report	Jelentés
 	Report an Issue…	Hiba bejelentése…
 	Reselect	Újrakijelölés
-	Reset	Visszaállít
+	Reset	Visszaállítás
 	Reset Preferences	Beállítások visszaállítása
 	Reset…	Visszaállítás…
 	Resize panel window	Panelablak átméretezése
 	Resize panels	Panelek átméretezése
 	Resolution	Felbontás
 	Resolution:	Felbontás:
-	Restore	Előző méret
+	Restore	Helyreállítás
 	Result	Eredmény
 	Resume	Folytatás
 	Reveal in Finder	Megjelenítés a Finderben
