@@ -1,0 +1,870 @@
+# Tamil (ta) interface catalog for TextureCraft.
+# Columns, separated by a TAB:  context <TAB> English source text <TAB> translation
+#   context  usually empty. `@plural`, `@id` and `@msg` mean something to the apps; any other
+#            word is a label that tells apart two meanings of the same English.
+#   escapes  \n  \t  \\  inside a column. `{name}` placeholders must appear in both columns (in any
+#            order), and a trailing "…" in one needs one in the other.
+#   @plural  English `one|other`; the translation lists this language's plural forms, `|`-separated.
+#   Lines starting with # and blank lines are ignored. A missing entry shows in English.
+#
+# Clean room: every entry was written from the plain meaning of the English text in ordinary
+# computing vocabulary. No other product's localisation, string table or translated UI was
+# consulted or copied; add entries the same way.
+
+	"{layer}" can't be filled: select a paint layer or a layer's mask	"{layer}" ஐ நிரப்ப முடியாது: ஒரு வண்ண அடுக்கையோ அடுக்கின் மறைப்பையோ தேர்ந்தெடுக்கவும்
+	"{layer}" has no paint yet: the filter changes what you paint on it.	"{layer}" இல் இன்னும் வண்ணம் இல்லை: நீங்கள் அதில் தீட்டுவதை வடிகட்டி மாற்றும்.
+	0 turns autosave off. Copies go to {folder}	0 தானியங்கு சேமிப்பை முடக்கும். நகல்கள் {folder} இல் சேரும்
+	1 effect	1 விளைவு
+	2D view only	2D காட்சி மட்டும்
+	32 bits (float)	32 பிட்கள் (மிதவை)
+	3D mesh	3D வலைப்பின்னல்
+	3D meshes	3D வலைப்பின்னல்கள்
+	3D texture painting: layers, masks, smart materials, mesh map baking and export.	3D இழையமைப்பு ஓவியம்: அடுக்குகள், மறைப்புகள், ஸ்மார்ட் பொருள்கள், வலைப்பின்னல் வரைபடச் சுடுதல், ஏற்றுமதி.
+	3D view only	3D காட்சி மட்டும்
+	3D/2D views	3D/2D காட்சிகள்
+	A click fills what is under it; a dragged rectangle fills what it selects as it grows	சொடுக்கினால் அதன் கீழுள்ளது நிரம்பும்; இழுத்த செவ்வகம் வளரும்போது அது தேர்ந்தெடுப்பதை நிரப்பும்
+	A folder blends its children (pass-through). Set per-channel opacity in the layer rows.	கோப்புறை அதன் உள்ளுருப்படிகளைக் கலக்கும் (ஊடுசெல்). சேனல்வாரி ஒளிபுகாமையை அடுக்கு வரிசைகளில் அமைக்கவும்.
+	ACES filmic	ACES திரைப்படப் பாணி
+	AO intensity	AO தீவிரம்
+	About TextureCraft	TextureCraft பற்றி
+	About TextureCraft...	TextureCraft பற்றி...
+	Accent color	முதன்மை நிறம்
+	Add High-Poly Meshes	உயர் பலகோண வலைப்பின்னல்களைச் சேர்
+	Add an anchor point to a layer below to use its stack as a mask.	கீழுள்ள ஓர் அடுக்கில் நங்கூரப் புள்ளியைச் சேர்த்தால், அதன் குவியலை மறைப்பாகப் பயன்படுத்தலாம்.
+	Add anchor point	நங்கூரப் புள்ளியைச் சேர்
+	Add as decal (view center)	ஒட்டுப்படமாகச் சேர் (காட்சி மையம்)
+	Add black mask	கருப்பு மறைப்பைச் சேர்
+	Add channel	சேனலைச் சேர்
+	Add color	நிறத்தைச் சேர்
+	Add compare mask	ஒப்பீட்டு மறைப்பைச் சேர்
+	Add effect	விளைவைச் சேர்
+	Add fill	நிரப்பைச் சேர்
+	Add fill layer	நிரப்பு அடுக்கைச் சேர்
+	Add filter	வடிகட்டியைச் சேர்
+	Add folder	கோப்புறையைச் சேர்
+	Add generator	உருவாக்கியைச் சேர்
+	Add levels	மட்டங்களைச் சேர்
+	Add mask	மறைப்பைச் சேர்
+	Add mask with color selection	நிறத் தேர்வுடன் மறைப்பைச் சேர்
+	Add output	வெளியீட்டைச் சேர்
+	Add paint	வண்ணத்தைச் சேர்
+	Add paint layer	வண்ண அடுக்கைச் சேர்
+	Add smart material from the shelf	அலமாரியிலிருந்து ஸ்மார்ட் பொருளைச் சேர்
+	Add to the layer content	அடுக்கின் உள்ளடக்கத்தில் சேர்
+	Add to the mask	மறைப்பில் சேர்
+	Add white mask	வெள்ளை மறைப்பைச் சேர்
+	Add...	சேர்...
+	Advanced settings	மேம்பட்ட அமைப்புகள்
+	Aligned: the offset set by the first stroke is kept. V + click sets a new source.	சீரமைந்தது: முதல் தீற்று அமைத்த இடப்பெயர்ச்சி தொடரும். V + சொடுக்கு புதிய மூலத்தை அமைக்கும்.
+	Alignment and culling	சீரமைப்பும் நீக்கலும்
+	All layers	அனைத்து அடுக்குகளும்
+	Alphas	ஆல்பாக்கள்
+	Also bound to {item} ({menu})	{item} க்கும் இணைக்கப்பட்டுள்ளது ({menu})
+	Alt + LMB drag	Alt + LMB இழுப்பு
+	Amber	அம்பர்
+	Ambient	சுற்றுப்புறம்
+	Ambient Occlusion	சுற்றொளி மறைவு
+	Ambient occlusion	சுற்றொளி மறைவு
+	Anchor point	நங்கூரப் புள்ளி
+	Anchor: {name}	நங்கூரம்: {name}
+	Anchor: {name} ({channel})	நங்கூரம்: {name} ({channel})
+	Angle (degrees)	கோணம் (பாகைகள்)
+	Angle fade from	கோண மங்கல் தொடக்கம்
+	Angle fade to	கோண மங்கல் முடிவு
+	Angle jitter	கோண நடுக்கம்
+	Angle span	கோண வீச்சு
+	Anisotropy angle	திசைசார்புக் கோணம்
+	Anisotropy level	திசைசார்பு நிலை
+	Antialiasing	விளிம்பு மென்மையாக்கல்
+	Aperture	துளை
+	Apply Diffusion	பரவலைப் பயன்படுத்து
+	ArtCraft website...	ArtCraft இணையதளம்...
+	Assets	சொத்துகள்
+	Attenuation	தணிவு
+	Auto Tonemapping	தானியங்கு தொனிப் பொருத்தம்
+	Automatic (from the mesh UVs)	தானியங்கி (வலைப்பின்னலின் UV களிலிருந்து)
+	Autosave every	தானியங்கு சேமிப்பு இடைவெளி
+	Autosaves, smart materials, presets, templates and UI layouts go to the data folder. A new folder applies on restart; files already saved stay where they are.	தானியங்கு சேமிப்புகள், ஸ்மார்ட் பொருள்கள், முன்னமைவுகள், வார்ப்புருக்கள், இடைமுகத் தளவமைப்புகள் ஆகியவை தரவுக் கோப்புறையில் சேரும். புதிய கோப்புறை மறுதொடக்கத்தில் நடைமுறைக்கு வரும்; ஏற்கெனவே சேமித்த கோப்புகள் இருந்த இடத்திலேயே இருக்கும்.
+	Average Normals	சராசரி இயல்புகள்
+	Axis	அச்சு
+	Axis position	அச்சு நிலை
+	BBox	எல்லைப் பெட்டி
+	BSphere	எல்லைக் கோளம்
+	Back to painting	வண்ணம் தீட்டுதலுக்குத் திரும்பு
+	Backface culling	பின்முக நீக்கல்
+	Bake Mesh Maps	வலைப்பின்னல் வரைபடங்களைச் சுடு
+	Bake Selected Textures ({n})	தேர்ந்தெடுத்த இழையமைப்புகளைச் சுடு ({n})
+	Bake an ID map (F8) to pick colors from the mesh.	வலைப்பின்னலிலிருந்து நிறங்களை எடுக்க ஒரு ID வரைபடத்தைச் சுடவும் (F8).
+	Bake mesh maps	வலைப்பின்னல் வரைபடங்களைச் சுடு
+	Bake mesh maps (F8) for curvature, AO and thickness based generators.	வளைவுத்தன்மை, AO, தடிமன் அடிப்படையிலான உருவாக்கிகளுக்கு வலைப்பின்னல் வரைபடங்களைச் சுடவும் (F8).
+	Baked Lighting	சுடப்பட்ட ஒளியமைப்பு
+	Baked maps imported: {count}	இறக்குமதி செய்த சுடப்பட்ட வரைபடங்கள்: {count}
+	Baking	சுடுதல்
+	Baking Visualization	சுடுதல் காட்சிப்படுத்தல்
+	Baking {map} ({n}/{total})	{map} சுடப்படுகிறது ({n}/{total})
+	Baking {map} ({n}/{total}), texture set {set} of {sets}	{map} சுடப்படுகிறது ({n}/{total}), இழையமைப்புத் தொகுப்பு {sets} இல் {set}
+	Base color	அடிப்படை நிறம்
+	Base color is the diffuse color, Specular the F0 color and Glossiness 1 - roughness (add these channels in the texture set settings).	அடிப்படை நிறம் என்பது பரவு நிறம், எதிரொளிப்பு என்பது F0 நிறம், பளபளப்பு என்பது 1 - கரடுமுரடு (இந்தச் சேனல்களை இழையமைப்புத் தொகுப்பு அமைப்புகளில் சேர்க்கவும்).
+	Base color, Metallic, Roughness and Specular level.	அடிப்படை நிறம், உலோகம், கரடுமுரடு, எதிரொளிப்பு நிலை.
+	Based on each texture set's size	ஒவ்வொரு இழையமைப்புத் தொகுப்பின் அளவைப் பொறுத்து
+	Basic settings	அடிப்படை அமைப்புகள்
+	Bent Normals	வளைந்த இயல்புகள்
+	Bevel	சரிவு
+	Blending	கலத்தல்
+	Blending mode of the displayed channel	காட்டப்படும் சேனலின் கலப்பு முறை
+	Blur Directional	திசைசார் மங்கல்
+	Blur and sharpen	மங்கலாக்கலும் கூர்மையாக்கலும்
+	Bounces	தெறிப்புகள்
+	Bricks	செங்கற்கள்
+	Brush	தூரிகை
+	Brush name	தூரிகையின் பெயர்
+	Brush size	தூரிகை அளவு
+	Brush size down / up	தூரிகை அளவைக் குறை / கூட்டு
+	Brushed lines	தேய்த்த கோடுகள்
+	Built-in (read-only): duplicate it to edit	உள்ளமைந்தது (படிக்க மட்டும்): திருத்த இதை நகலெடுக்கவும்
+	Built-in templates are read-only: duplicate one to edit it	உள்ளமைந்த வார்ப்புருக்கள் படிக்க மட்டுமே: திருத்த ஒன்றை நகலெடுக்கவும்
+	Built-in: {mesh}	உள்ளமைந்தது: {mesh}
+	By Mesh Name	வலைப்பின்னல் பெயரின்படி
+	Cage	கூண்டு
+	Cage Scene	கூண்டுக் காட்சியமைப்பு
+	Cage Type	கூண்டு வகை
+	Cage: {name}	கூண்டு: {name}
+	Camera	கேமரா
+	Camera settings	கேமரா அமைப்புகள்
+	Cancel the stroke	தீற்றை ரத்துசெய்
+	Cavities	குழிவுகள்
+	Cell size (texels at 2K)	அறை அளவு (2K-இல் டெக்செல்கள்)
+	Cells	அறைகள்
+	Channel source: uniform value, procedural, image or anchor	சேனல் மூலம்: சீரான மதிப்பு, செயல்முறை வடிவம், படம் அல்லது நங்கூரம்
+	Check All	அனைத்தையும் தேர்வுசெய்
+	Check for Updates...	புதுப்பிப்புகளைச் சரிபார்...
+	Checker	சதுரங்கக் கட்டம்
+	Clamp	வரம்பிடு
+	Clear mask	மறைப்பை அழி
+	Clear recent projects	சமீபத்திய திட்டங்களை அழி
+	Click a mesh part to show or hide the selected layer on it.	தேர்ந்தெடுத்த அடுக்கை ஒரு வலைப்பின்னல் பகுதியில் காட்டவோ மறைக்கவோ அந்தப் பகுதியைச் சொடுக்கவும்.
+	Click the mesh to pick its material into the brush	வலைப்பின்னலின் பொருளைத் தூரிகையில் எடுக்க அதைச் சொடுக்கவும்
+	Click the mesh to place the decal	ஒட்டுப்படத்தை வைக்க வலைப்பின்னலைச் சொடுக்கவும்
+	Click, then press the new shortcut (Esc cancels)	சொடுக்கி, புதிய குறுக்குவழியை அழுத்தவும் (Esc ரத்துசெய்யும்)
+	Click: turn this channel on or off. Alt+click: this channel only	சொடுக்கு: இந்தச் சேனலை இயக்கு அல்லது முடக்கு. Alt+சொடுக்கு: இந்தச் சேனல் மட்டும்
+	Closed path	மூடிய பாதை
+	Cloud	மேகம்
+	Clouds	மேகங்கள்
+	Coat normal	மேற்பூச்சு இயல்பு
+	Coat roughness	மேற்பூச்சுக் கரடுமுரடு
+	Coat weight	மேற்பூச்சு எடை
+	Color Generator	நிற உருவாக்கி
+	Color Source	நிற மூலம்
+	Color burn	நிற எரிப்பு
+	Color dodge	நிறத் தவிர்ப்பு
+	Color of the light that travels under the surface (each channel goes as far as its value)	மேற்பரப்புக்கடியில் பயணிக்கும் ஒளியின் நிறம் (ஒவ்வொரு சேனலும் அதன் மதிப்பு அளவுக்குச் செல்லும்)
+	Color selection	நிறத் தேர்வு
+	Color space	நிற வெளி
+	Color to replace	மாற்ற வேண்டிய நிறம்
+	Colors near the first shift towards the second, keeping their shading.	முதல் நிறத்துக்கு அருகிலுள்ள நிறங்கள் அவற்றின் நிழலமைப்பை வைத்தபடியே இரண்டாம் நிறத்தை நோக்கி நகரும்.
+	Colors read as gray. Add a levels or blur effect above to shape the result.	நிறங்கள் சாம்பலாகப் படிக்கப்படும். முடிவை வடிவமைக்க மேலே மட்டங்கள் அல்லது மங்கல் விளைவைச் சேர்க்கவும்.
+	Combine with the layer's height	அடுக்கின் உயரத்துடன் இணை
+	Common Parameters	பொது அளவுருக்கள்
+	Common Settings	பொது அமைப்புகள்
+	Compare mask	ஒப்பீட்டு மறைப்பு
+	Compositing	தொகுத்தமைத்தல்
+	Constant	மாறிலி
+	Constants	மாறிலிகள்
+	Contained center: fill polygons whose center is in the rectangle	உள்ளடங்கிய மையம்: மையம் செவ்வகத்துக்குள் இருக்கும் பலகோணங்களை நிரப்பு
+	Content effects	உள்ளடக்க விளைவுகள்
+	Continue with the sample project	மாதிரித் திட்டத்துடன் தொடர்
+	Contrast/Luminosity	மாறுபாடு/ஒளிர்மை
+	Converted maps	மாற்றப்பட்ட வரைபடங்கள்
+	Cooked at {size} px	{size} px-இல் தயாரிக்கப்பட்டது
+	Copper	செம்பு
+	Copy RGB values	RGB மதிப்புகளை நகலெடு
+	Copy effect	விளைவை நகலெடு
+	Copy from	இதிலிருந்து நகலெடு
+	Copy layer(s)	அடுக்கு(களை) நகலெடு
+	Copy the selected layer alone (its empty parts copy nothing)	தேர்ந்தெடுத்த அடுக்கை மட்டும் நகலெடு (அதன் வெற்றுப் பகுதிகள் எதையும் நகலெடுக்காது)
+	Copy to all texture sets	அனைத்து இழையமைப்புத் தொகுப்புகளுக்கும் நகலெடு
+	Copy what the texture set shows	இழையமைப்புத் தொகுப்பு காட்டுவதை நகலெடு
+	Coral	பவளம்
+	Cores kept for the UI	இடைமுகத்துக்காக ஒதுக்கிய கோர்கள்
+	Cosine	கொசைன்
+	Couldn't encode the render	ரெண்டரைக் குறியாக்க முடியவில்லை
+	Couldn't export textures: {error}	இழையமைப்புகளை ஏற்றுமதி செய்ய முடியவில்லை: {error}
+	Couldn't export the mesh: {error}	வலைப்பின்னலை ஏற்றுமதி செய்ய முடியவில்லை: {error}
+	Couldn't export the template: {error}	வார்ப்புருவை ஏற்றுமதி செய்ய முடியவில்லை: {error}
+	Couldn't import {name}: {error}	{name} ஐ இறக்குமதி செய்ய முடியவில்லை: {error}
+	Couldn't open {name}: {error}	{name} ஐத் திறக்க முடியவில்லை: {error}
+	Couldn't read the render back from the GPU	GPU-விலிருந்து ரெண்டரைத் திரும்பப் படிக்க முடியவில்லை
+	Couldn't save the render: {error}	ரெண்டரைச் சேமிக்க முடியவில்லை: {error}
+	Couldn't save {name}: {error}	{name} ஐச் சேமிக்க முடியவில்லை: {error}
+	Count	எண்ணிக்கை
+	Count per stamp	ஒரு முத்திரைக்கான எண்ணிக்கை
+	Crate	மரப்பெட்டி
+	Create smart material	ஸ்மார்ட் பொருளை உருவாக்கு
+	Ctrl+right-drag in a view sets the size and hardness, Ctrl+left-drag the flow and angle.	காட்சியில் Ctrl+வலது இழுப்பு அளவையும் கடினத்தன்மையையும், Ctrl+இடது இழுப்பு ஓட்டத்தையும் கோணத்தையும் அமைக்கும்.
+	Cube	கனசதுரம்
+	Current layer	தற்போதைய அடுக்கு
+	Custom File	தனிப்பயன் கோப்பு
+	Cut effect	விளைவை வெட்டு
+	Cut layer(s)	அடுக்கு(களை) வெட்டு
+	Cyan / red	சியான் / சிவப்பு
+	Cylinder	உருளை
+	Cylindrical projection	உருளை வீழ்ப்பு
+	Dark to light: the content's luminance picks a color along these stops.	இருளிலிருந்து வெளிர் வரை: உள்ளடக்கத்தின் ஒளிர்மை இந்த நிறுத்தங்களில் ஒரு நிறத்தைத் தேர்ந்தெடுக்கும்.
+	Darken (Min)	இருளாக்கு (குறைமம்)
+	Data folder	தரவுக் கோப்புறை
+	Decal	ஒட்டுப்படம்
+	Decal projection	ஒட்டுப்பட வீழ்ப்பு
+	Default camera	இயல்புநிலைக் கேமரா
+	Delete the selected template	தேர்ந்தெடுத்த வார்ப்புருவை நீக்கு
+	Delete this camera	இந்தக் கேமராவை நீக்கு
+	Deleted template "{name}"	"{name}" வார்ப்புரு நீக்கப்பட்டது
+	Denoise	இரைச்சலைக் குறை
+	Depth of field	புல ஆழம்
+	Depth of field (viewport and Rendering mode)	புல ஆழம் (காட்சிப்புலமும் ரெண்டர் முறையும்)
+	Depth of the sharp plane along the view (0: the orbit center)	பார்வைத் திசையில் கூர்மையான தளத்தின் ஆழம் (0: சுழற்சி மையம்)
+	Detail sizes	விவர அளவுகள்
+	Dilation + default background color	விரிவாக்கம் + இயல்புநிலைப் பின்னணி நிறம்
+	Dilation + transparent	விரிவாக்கம் + வெளிப்படை
+	Dilation Width	விரிவாக்க அகலம்
+	Dilation infinite	எல்லையற்ற விரிவாக்கம்
+	DirectX normal map	DirectX இயல்பு வரைபடம்
+	Dirt	அழுக்கு
+	Disable	முடக்கு
+	Displacement (height channel)	இடப்பெயர்ச்சி (உயரச் சேனல்)
+	Display Settings	திரைக்காட்சி அமைப்புகள்
+	Display material	பொருளைக் காட்டு
+	Display next channel	அடுத்த சேனலைக் காட்டு
+	Display next mesh map	அடுத்த வலைப்பின்னல் வரைபடத்தைக் காட்டு
+	Display previous channel	முந்தைய சேனலைக் காட்டு
+	Display previous mesh map	முந்தைய வலைப்பின்னல் வரைபடத்தைக் காட்டு
+	Distance-Based	தூர அடிப்படையிலானது
+	Distribution	பகிர்வு
+	Document resolution	ஆவணத் தெளிவுத்திறன்
+	Documentation...	ஆவணங்கள்...
+	Don't save	சேமிக்க வேண்டாம்
+	Done on CPU: {n} / {max} samples, {s} s	CPU-வில் முடிந்தது: {n} / {max} மாதிரிகள், {s} வி
+	Done on GPU: {n} / {max} samples, {s} s	GPU-வில் முடிந்தது: {n} / {max} மாதிரிகள், {s} வி
+	Double-click or press Enter to edit	திருத்த இருமுறை சொடுக்கவும் அல்லது Enter அழுத்தவும்
+	Double-click to rename	பெயர் மாற்ற இருமுறை சொடுக்கு
+	Download as	இவ்வாறு பதிவிறக்கு
+	Downloaded {name}	{name} பதிவிறக்கப்பட்டது
+	Drag onto an output channel	ஒரு வெளியீட்டுச் சேனலின் மீது இழுத்து விடவும்
+	Drag the frame to move the decal, a corner to scale it, the round handle to turn it	ஒட்டுப்படத்தை நகர்த்தச் சட்டத்தையும், அளவு மாற்ற ஒரு மூலையையும், சுழற்ற வட்டக் கைப்பிடியையும் இழுக்கவும்
+	Drags the layer stack's values along the stroke into the selected layer.	தீற்றின் வழியே அடுக்குக் குவியலின் மதிப்புகளைத் தேர்ந்தெடுத்த அடுக்குக்குள் இழுக்கும்.
+	Draws {name} of texture set "{set}". Edits to the source show in every instance.	"{set}" இழையமைப்புத் தொகுப்பின் {name} ஐ வரையும். மூலத்தில் செய்யும் திருத்தங்கள் ஒவ்வொரு நிகழ்விலும் தெரியும்.
+	Drop an image from the Assets panel here to use it as this mesh map	இதை வலைப்பின்னல் வரைபடமாகப் பயன்படுத்த, சொத்துகள் பலகத்திலிருந்து ஒரு படத்தை இங்கே விடவும்
+	Dry streaks	உலர்ந்த தீற்றல்கள்
+	Duplicate effect	விளைவை நகலாக்கு
+	Duplicate layer(s)	அடுக்கு(களை) நகலாக்கு
+	Duplicate the selected template	தேர்ந்தெடுத்த வார்ப்புருவை நகலாக்கு
+	Edge Contrast	விளிம்பு மாறுபாடு
+	Edge Detect	விளிம்பு கண்டறிதல்
+	Edge Distance	விளிம்புத் தூரம்
+	Edge Protection	விளிம்புப் பாதுகாப்பு
+	Edges	விளிம்புகள்
+	Edges and cavities	விளிம்புகளும் குழிவுகளும்
+	Edit keyboard shortcuts...	விசைப்பலகை குறுக்குவழிகளைத் திருத்து...
+	Edit quick mask	விரைவு மறைப்பைத் திருத்து
+	Editing quick mask: paint where painting is allowed (U to finish)	விரைவு மறைப்பைத் திருத்துகிறது: வண்ணம் தீட்ட அனுமதிக்கும் இடங்களில் தீட்டவும் (முடிக்க U)
+	Editing the quick mask: fills paint where painting is allowed. Press U to finish.	விரைவு மறைப்பைத் திருத்துகிறது: வண்ணம் தீட்ட அனுமதிக்கும் இடங்களில் நிரப்புகள் தீட்டும். முடிக்க U அழுத்தவும்.
+	Editing the quick mask: strokes paint where painting is allowed. Press U to finish.	விரைவு மறைப்பைத் திருத்துகிறது: வண்ணம் தீட்ட அனுமதிக்கும் இடங்களில் தீற்றுகள் தீட்டும். முடிக்க U அழுத்தவும்.
+	Emissive	ஒளி உமிழ்வு
+	Enable Seams	தையல்களை இயக்கு
+	Enable or disable the effect	விளைவை இயக்கு அல்லது முடக்கு
+	Enable quick mask	விரைவு மறைப்பை இயக்கு
+	Enter a finite number	ஒரு முடிவுறு எண்ணை உள்ளிடவும்
+	Environment blur	சூழல் மங்கல்
+	Environment exposure (EV)	சூழல் ஒளிவெளிப்பாடு (EV)
+	Environment map	சூழல் வரைபடம்
+	Environment opacity	சூழல் ஒளிபுகாமை
+	Environment rotation	சூழல் சுழற்சி
+	Environment settings	சூழல் அமைப்புகள்
+	Environment: {name}	சூழல்: {name}
+	Environments	சூழல்கள்
+	Expand or collapse the folder	கோப்புறையை விரி அல்லது சுருக்கு
+	Export Mesh...	வலைப்பின்னலை ஏற்றுமதி செய்...
+	Export Textures...	இழையமைப்புகளை ஏற்றுமதி செய்...
+	Export mesh	வலைப்பின்னலை ஏற்றுமதி செய்
+	Export template	வார்ப்புருவை ஏற்றுமதி செய்
+	Export templates	வார்ப்புருக்களை ஏற்றுமதி செய்
+	Export textures	இழையமைப்புகளை ஏற்றுமதி செய்
+	Export the selected template (.json)	தேர்ந்தெடுத்த வார்ப்புருவை ஏற்றுமதி செய் (.json)
+	Exported mesh to {path}	வலைப்பின்னல் {path} க்கு ஏற்றுமதி செய்யப்பட்டது
+	Exported template "{name}" to {path}	"{name}" வார்ப்புரு {path} க்கு ஏற்றுமதி செய்யப்பட்டது
+	Exported {n} textures to {folder}	{n} இழையமைப்புகள் {folder} க்கு ஏற்றுமதி செய்யப்பட்டன
+	F0 from specular level	எதிரொளிப்பு நிலையிலிருந்து F0
+	Fabric weave	துணி நெசவு
+	Face Normals Based	முக இயல்புகள் அடிப்படையிலானது
+	Field of view (deg)	பார்வைப் புலம் (பாகை)
+	File ID	கோப்பு ID
+	File name without extension; variables insert names	நீட்டிப்பில்லாத கோப்புப் பெயர்; மாறிகள் பெயர்களைச் செருகும்
+	File type	கோப்பு வகை
+	Fill layer	நிரப்பு அடுக்கு
+	Fill mode	நிரப்பு முறை
+	Fill only polygons the camera sees (3D view)	கேமரா பார்க்கும் பலகோணங்களை மட்டும் நிரப்பு (3D காட்சி)
+	Fill the closed path (lasso)	மூடிய பாதையை நிரப்பு (லாசோ)
+	Fill the path (close it first)	பாதையை நிரப்பு (முதலில் அதை மூடவும்)
+	Filter the remaining noise while keeping edges and texture detail	விளிம்புகளையும் இழையமைப்பு விவரத்தையும் காத்தபடி மீதமுள்ள இரைச்சலை வடிகட்டு
+	Filters	வடிகட்டிகள்
+	Fine noise	நுண் இரைச்சல்
+	Fingerprints	கைரேகைகள்
+	Fit the input range to the histogram	உள்ளீட்டு வீச்சை ஹிஸ்டோகிராமுக்குப் பொருத்து
+	Flatten layer	அடுக்கைத் தட்டையாக்கு
+	Flips the image's green channel, for normal maps made with Y pointing down	படத்தின் பச்சைச் சேனலைப் புரட்டும்; Y கீழ்நோக்கிச் சுட்டும்படி உருவாக்கிய இயல்பு வரைபடங்களுக்கு
+	Flow	ஓட்டம்
+	Flow and opacity	ஓட்டமும் ஒளிபுகாமையும்
+	Flow jitter	ஓட்ட நடுக்கம்
+	Focus distance	குவியத் தூரம்
+	Focus: show only the active texture set	குவியம்: செயலிலுள்ள இழையமைப்புத் தொகுப்பை மட்டும் காட்டு
+	Fold or unfold these effects	இந்த விளைவுகளை மடி அல்லது விரி
+	Folders	கோப்புறைகள்
+	Follow Newest Map	புதிய வரைபடத்தைப் பின்தொடர்
+	Follow path	பாதையைப் பின்தொடர்
+	For the whole project: how normal map images set as mesh maps are read (set them again after a change), and the default for export	முழுத் திட்டத்துக்கும்: வலைப்பின்னல் வரைபடங்களாக அமைத்த இயல்பு வரைபடப் படங்கள் எப்படிப் படிக்கப்படுகின்றன (மாற்றிய பின் அவற்றை மீண்டும் அமைக்கவும்), ஏற்றுமதிக்கான இயல்புநிலையும்
+	Free and open source (MIT OR Apache-2.0), written in Rust.	கட்டற்ற, திறந்த மூல மென்பொருள் (MIT OR Apache-2.0), Rust-இல் எழுதப்பட்டது.
+	From template	வார்ப்புருவிலிருந்து
+	From template / project	வார்ப்புரு / திட்டத்திலிருந்து
+	Full Scene	முழுக் காட்சியமைப்பு
+	GGX specular with height-correlated Smith visibility, Lambert diffuse, split-sum image-based lighting with spherical-harmonics irradiance and horizon fading.	GGX எதிரொளிப்புடன் உயரம் தொடர்புடைய Smith தெரிவுநிலை, Lambert பரவல், கோள இசைவுக் கதிர்வீச்சுடனும் அடிவான மங்கலுடனும் பிளவுக் கூட்டுப் பட அடிப்படை ஒளியமைப்பு.
+	GPU error: {error}	GPU பிழை: {error}
+	General export parameters	பொது ஏற்றுமதி அளவுருக்கள்
+	General properties	பொதுப் பண்புகள்
+	Generate from Mesh	வலைப்பின்னலிலிருந்து உருவாக்கு
+	Generate from Normal Map	இயல்பு வரைபடத்திலிருந்து உருவாக்கு
+	Generator	உருவாக்கி
+	Geometry and UVs only	வடிவியலும் UV களும் மட்டும்
+	Geometry mask	வடிவியல் மறைப்பு
+	Glossiness	பளபளப்பு
+	Glossiness from roughness	கரடுமுரடிலிருந்து பளபளப்பு
+	Go to camera 1	கேமரா 1 க்குச் செல்
+	Go to camera 2	கேமரா 2 க்குச் செல்
+	Go to camera 3	கேமரா 3 க்குச் செல்
+	Go to camera 4	கேமரா 4 க்குச் செல்
+	Go to camera 5	கேமரா 5 க்குச் செல்
+	Go to camera 6	கேமரா 6 க்குச் செல்
+	Go to camera 7	கேமரா 7 க்குச் செல்
+	Go to camera 8	கேமரா 8 க்குச் செல்
+	Go to camera 9	கேமரா 9 க்குச் செல்
+	Gradient Map	நிறப் படித்திறன் வரைபடம்
+	Gravity	ஈர்ப்பு
+	Gray + A	சாம்பல் + A
+	Gray 50%	சாம்பல் 50%
+	Ground Plane	தரைத் தளம்
+	Ground Plane Offset	தரைத் தள இடப்பெயர்ச்சி
+	Group layer(s)	அடுக்கு(களைக்) குழுவாக்கு
+	Grunge	கிரஞ்ச்
+	HDR environments	HDR சூழல்கள்
+	HSL Perceptive	HSL புலனுணர்வு
+	Half	பாதி
+	Hammered	சுத்தியால் அடித்தது
+	Hard light	கடுமையான ஒளி
+	Hardness	கடினத்தன்மை
+	Height offset	உயர இடப்பெயர்ச்சி
+	Height to normal strength	உயரத்திலிருந்து இயல்பு வலிமை
+	Hide UI	இடைமுகத்தை மறை
+	Hide all	அனைத்தையும் மறை
+	Hide while painting	வண்ணம் தீட்டும்போது மறை
+	High Definition Mesh (HP)	உயர் வரையறை வலைப்பின்னல் (HP)
+	High Poly Mesh Suffix	உயர் பலகோண வலைப்பின்னல் பின்னொட்டு
+	High Poly Scene	உயர் பலகோணக் காட்சியமைப்பு
+	High poly: {name}	உயர் பலகோணம்: {name}
+	High-Poly Parameters	உயர் பலகோண அளவுருக்கள்
+	Histogram Range	ஹிஸ்டோகிராம் வீச்சு
+	Histogram Scan	ஹிஸ்டோகிராம் வருடல்
+	Histogram Shift	ஹிஸ்டோகிராம் நகர்வு
+	Hit-test	தேர்வுச் சோதனை
+	Hold S: left-drag rotates, right-drag scales, middle-drag moves the stencil.	S-ஐ அழுத்திப் பிடிக்கவும்: இடது இழுப்பு சுழற்றும், வலது இழுப்பு அளவு மாற்றும், நடு இழுப்பு துளைத்தகட்டை நகர்த்தும்.
+	Hold V and click the mesh to set the clone source	குளோன் மூலத்தை அமைக்க V-ஐ அழுத்திப் பிடித்து வலைப்பின்னலைச் சொடுக்கவும்
+	Hold V and click the mesh to set the source, then paint elsewhere to copy it.	மூலத்தை அமைக்க V-ஐ அழுத்திப் பிடித்து வலைப்பின்னலைச் சொடுக்கவும், பிறகு அதை நகலெடுக்க வேறு இடத்தில் தீட்டவும்.
+	How a rectangle selects polygons	செவ்வகம் பலகோணங்களை எப்படித் தேர்ந்தெடுக்கிறது
+	How far light travels under the surface, as a fraction of the mesh size (where the Scattering weight channel is painted)	மேற்பரப்புக்கடியில் ஒளி எவ்வளவு தூரம் பயணிக்கிறது, வலைப்பின்னல் அளவின் பின்னமாக (சிதறல் எடைச் சேனல் தீட்டப்பட்ட இடங்களில்)
+	How strongly transmissive surfaces bend light (where the Transmission channel is painted): water 1.33, glass 1.5, diamond 2.42	ஊடுகடத்தும் மேற்பரப்புகள் ஒளியை எவ்வளவு வளைக்கின்றன (ஊடுகடத்தல் சேனல் தீட்டப்பட்ட இடங்களில்): நீர் 1.33, கண்ணாடி 1.5, வைரம் 2.42
+	Hue shift (degrees)	சாயல் மாற்றம் (பாகைகள்)
+	ID	ID
+	Ignore Backface	பின்முகத்தைப் புறக்கணி
+	Ignore Backface Suffix	பின்முகப் புறக்கணிப்புப் பின்னொட்டு
+	Image: {name}	படம்: {name}
+	Import HDR...	HDR-ஐ இறக்குமதி செய்...
+	Import MaterialX material...	MaterialX பொருளை இறக்குமதி செய்...
+	Import a template (.json)	ஒரு வார்ப்புருவை இறக்குமதி செய் (.json)
+	Import an image (File > Import resources) to project it onto the mesh.	வலைப்பின்னலின் மீது வீழ்த்த ஒரு படத்தை இறக்குமதி செய்யவும் (கோப்பு > வளங்களை இறக்குமதி செய்).
+	Import baked maps	சுடப்பட்ட வரைபடங்களை இறக்குமதி செய்
+	Import material...	பொருளை இறக்குமதி செய்...
+	Import resources...	வளங்களை இறக்குமதி செய்...
+	Import...	இறக்குமதி செய்...
+	Imported template "{name}"	"{name}" வார்ப்புரு இறக்குமதி செய்யப்பட்டது
+	Imported {name}	{name} இறக்குமதி செய்யப்பட்டது
+	Include in Bake	சுடுதலில் சேர்
+	Index of refraction	ஒளிவிலகல் எண்
+	Input high	உள்ளீடு உயர்
+	Input low	உள்ளீடு தாழ்
+	Input maps	உள்ளீட்டு வரைபடங்கள்
+	Insert a variable	ஒரு மாறியைச் செருகு
+	Instance	நிகழ்வு
+	Instantiate across texture sets	இழையமைப்புத் தொகுப்புகள் முழுவதும் நிகழ்வாக்கு
+	Intensity (texels at 2K)	தீவிரம் (2K-இல் டெக்செல்கள்)
+	Interface scale	இடைமுக அளவு
+	Intersection: fill polygons the rectangle touches	குறுக்கீடு: செவ்வகம் தொடும் பலகோணங்களை நிரப்பு
+	Inverse Subtract	தலைகீழ்க் கழித்தல்
+	Inverse divide	தலைகீழ் வகுத்தல்
+	Invert mask	மறைப்பைத் தலைகீழாக்கு
+	Invert mask background	மறைப்புப் பின்னணியைத் தலைகீழாக்கு
+	Invert mask value	மறைப்பு மதிப்பைத் தலைகீழாக்கு
+	Invert quick mask	விரைவு மறைப்பைத் தலைகீழாக்கு
+	Invert show/hide	காட்டு/மறை தலைகீழாக்கு
+	Jitters	நடுக்கங்கள்
+	Join the ArtCraft community on Discord	Discord-இல் ArtCraft சமூகத்தில் இணையுங்கள்
+	Join the community (Discord)...	சமூகத்தில் இணையுங்கள் (Discord)...
+	Key light (shadow-casting light, direct only)	முதன்மை ஒளி (நிழல் விழச்செய்யும் ஒளி, நேரடி மட்டும்)
+	Keyboard	விசைப்பலகை
+	Keyboard shortcuts	விசைப்பலகை குறுக்குவழிகள்
+	LMB	LMB
+	Layer mask	அடுக்கு மறைப்பு
+	Layer memory: {mb} MB	அடுக்கு நினைவகம்: {mb} MB
+	Lazy mouse	சோம்பல் சுட்டி
+	Lazy mouse distance	சோம்பல் சுட்டித் தூரம்
+	Leather grain	தோல் இழைவரி
+	Lens size: how quickly things blur away from the focus distance	வில்லை அளவு: குவியத் தூரத்திலிருந்து விலகும் பொருள்கள் எவ்வளவு விரைவாக மங்குகின்றன
+	Lifetime (steps)	ஆயுள் (படிகள்)
+	Light / direction	ஒளி / திசை
+	Light azimuth (degrees)	ஒளித் திசைக்கோணம் (பாகைகள்)
+	Light elevation (degrees)	ஒளி உயரக்கோணம் (பாகைகள்)
+	Light intensity	ஒளித் தீவிரம்
+	Lighten (Max)	வெளிராக்கு (அதிகமம்)
+	Linear burn	நேரியல் எரிப்பு
+	Linear dodge (Add)	நேரியல் தவிர்ப்பு (கூட்டு)
+	Linear light	நேரியல் ஒளி
+	List of exports	ஏற்றுமதிகளின் பட்டியல்
+	Load Cage	கூண்டை ஏற்று
+	Load UI Layout	இடைமுகத் தளவமைப்பை ஏற்று
+	Loaded UI layout {path}	இடைமுகத் தளவமைப்பு {path} ஏற்றப்பட்டது
+	Lock Output Size	வெளியீட்டு அளவைப் பூட்டு
+	Log	பதிவேடு
+	Low Poly Mesh Suffix	குறை பலகோண வலைப்பின்னல் பின்னொட்டு
+	MMB drag / Alt + MMB	MMB இழுப்பு / Alt + MMB
+	Made by the ArtCraft team and community.	ArtCraft குழுவும் சமூகமும் உருவாக்கியது.
+	Magenta / green	மெஜந்தா / பச்சை
+	Main shader	முதன்மை ஷேடர்
+	Manipulator size	கையாளி அளவு
+	Manual	கைமுறை
+	Marble veins	பளிங்கு நரம்புகள்
+	Mask Editor: Edge wear	மறைப்புத் திருத்தி: விளிம்புத் தேய்மானம்
+	Mask effects	மறைப்பு விளைவுகள்
+	Mask value (gray)	மறைப்பு மதிப்பு (சாம்பல்)
+	Mask with height	உயரத்துடன் மறைப்பு
+	MatFinish Grind	பொருள் மேற்பரப்பு: அரைத்தது
+	MatFinish Hammered	பொருள் மேற்பரப்பு: சுத்தியால் அடித்தது
+	MatFinish Raw	பொருள் மேற்பரப்பு: பதப்படுத்தாதது
+	MatFinish Sanded	பொருள் மேற்பரப்பு: மணல் தேய்த்தது
+	Match	பொருத்தம்
+	Material	பொருள்
+	Material Color	பொருளின் நிறம்
+	Material ball	பொருள் பந்து
+	Material finish	பொருள் மேற்பரப்பு
+	MaterialCraft material	MaterialCraft பொருள்
+	MaterialX materials	MaterialX பொருள்கள்
+	Materials	பொருள்கள்
+	Max Frontal Distance	அதிகபட்ச முன்புறத் தூரம்
+	Max Occluder Distance	அதிகபட்ச மறைப்பான் தூரம்
+	Max RAM while saving	சேமிக்கும்போது அதிகபட்ச RAM
+	Max Rear Distance	அதிகபட்ச பின்புறத் தூரம்
+	Max project size on open	திறக்கும்போது அதிகபட்சத் திட்ட அளவு
+	Maximum decompressed project data. Increase this limit to open larger projects.	விரிவாக்கிய திட்டத் தரவின் அதிகபட்ச அளவு. பெரிய திட்டங்களைத் திறக்க இந்த வரம்பைக் கூட்டவும்.
+	Medium dark	நடுத்தர இருள்
+	Medium light	நடுத்தர வெளிர்
+	Mesh ID	வலைப்பின்னல் ID
+	Mesh Map Bakers	வலைப்பின்னல் வரைபடச் சுடுவான்கள்
+	Mesh Map Settings	வலைப்பின்னல் வரைபட அமைப்புகள்
+	Mesh Normals Based	வலைப்பின்னல் இயல்புகள் அடிப்படையிலானது
+	Mesh fill	வலைப்பின்னல் நிரப்பு
+	Mesh map: {map}	வலைப்பின்னல் வரைபடம்: {map}
+	Mesh maps	வலைப்பின்னல் வரைபடங்கள்
+	Mesh maps baked	வலைப்பின்னல் வரைபடங்கள் சுடப்பட்டன
+	Meshes	வலைப்பின்னல்கள்
+	Metallic	உலோகம்
+	Min Occluder Distance	குறைந்தபட்ச மறைப்பான் தூரம்
+	Minimum size (%)	குறைந்தபட்ச அளவு (%)
+	Mirror symmetry	ஆடிச் சமச்சீர்
+	Missing (bake to create)	இல்லை (உருவாக்கச் சுடவும்)
+	Mixed AO	கலப்பு AO
+	More in Assets > Alphas: click one, or drag it here	சொத்துகள் > ஆல்பாக்கள் இல் மேலும் உள்ளன: ஒன்றைச் சொடுக்கவும் அல்லது இங்கே இழுக்கவும்
+	Move down	கீழே நகர்த்து
+	Move up	மேலே நகர்த்து
+	Moves the surface by the height channel on a finer copy of the mesh, at the height to normal strength (viewport only: painting follows the base surface)	உயரச் சேனலைக் கொண்டு வலைப்பின்னலின் நுண்ணிய நகலில், உயரத்திலிருந்து இயல்பு வலிமைக்கேற்ப மேற்பரப்பை நகர்த்தும் (காட்சிப்புலத்தில் மட்டும்: வண்ணம் தீட்டுதல் அடிப்படை மேற்பரப்பைப் பின்பற்றும்)
+	My smart materials	என் ஸ்மார்ட் பொருள்கள்
+	Name each file after its texture set, like Body_normal.png	ஒவ்வொரு கோப்புக்கும் அதன் இழையமைப்புத் தொகுப்பின் பெயரை இடு, Body_normal.png போல
+	New project	புதிய திட்டம்
+	New project...	புதிய திட்டம்...
+	New template	புதிய வார்ப்புரு
+	No GPU renderer available	GPU ரெண்டரர் எதுவும் இல்லை
+	No High-Poly Meshes	உயர் பலகோண வலைப்பின்னல்கள் இல்லை
+	No Parameters	அளவுருக்கள் இல்லை
+	No font on this system can show this language	இந்த மொழியைக் காட்டக்கூடிய எழுத்துரு இந்தக் கணினியில் இல்லை
+	No outputs yet: add one above, then drag input maps onto its channels.	இன்னும் வெளியீடுகள் இல்லை: மேலே ஒன்றைச் சேர்த்து, பிறகு உள்ளீட்டு வரைபடங்களை அதன் சேனல்களுக்கு இழுக்கவும்.
+	No padding (passthrough)	திணிப்பு இல்லை (ஊடுசெல்)
+	No recent projects yet	இன்னும் சமீபத்திய திட்டங்கள் இல்லை
+	Noise amount	இரைச்சல் அளவு
+	Noise scale	இரைச்சல் அளவு விகிதம்
+	Normal DirectX	இயல்பு DirectX
+	Normal Invert	இயல்பு தலைகீழ்
+	Normal OpenGL	இயல்பு OpenGL
+	Normal from height	உயரத்திலிருந்து இயல்பு
+	Normal map combine	இயல்பு வரைபட இணைப்பு
+	Normal map detail	இயல்பு வரைபட விவரம்
+	Normal map format	இயல்பு வரைபட வடிவம்
+	Normal map inverse detail	இயல்பு வரைபடத் தலைகீழ் விவரம்
+	Normal: painting uses the flat normal	இயல்பு: வண்ணம் தீட்டுதல் தட்டையான இயல்பைப் பயன்படுத்தும்
+	Normalization	இயல்பாக்கம்
+	Normalization Scale	இயல்பாக்க அளவு விகிதம்
+	Normalization Type	இயல்பாக்க வகை
+	Not enough GPU memory to show texture set "{name}" fully: lower the viewport Texture resolution in Settings. Painting and export are not affected.	"{name}" இழையமைப்புத் தொகுப்பை முழுமையாகக் காட்டப் போதுமான GPU நினைவகம் இல்லை: அமைப்புகளில் காட்சிப்புல இழையமைப்புத் தெளிவுத்திறனைக் குறைக்கவும். வண்ணம் தீட்டுதலும் ஏற்றுமதியும் பாதிக்கப்படாது.
+	Not enough GPU memory to show {count} texture sets fully ({names}): lower the viewport Texture resolution in Settings. Painting and export are not affected.	{count} இழையமைப்புத் தொகுப்புகளை ({names}) முழுமையாகக் காட்டப் போதுமான GPU நினைவகம் இல்லை: அமைப்புகளில் காட்சிப்புல இழையமைப்புத் தெளிவுத்திறனைக் குறைக்கவும். வண்ணம் தீட்டுதலும் ஏற்றுமதியும் பாதிக்கப்படாது.
+	Not exported: no source in this texture set	ஏற்றுமதி செய்யப்படவில்லை: இந்த இழையமைப்புத் தொகுப்பில் மூலம் இல்லை
+	Not imported: {files}	இறக்குமதி செய்யப்படவில்லை: {files}
+	Not saved: {error}	சேமிக்கப்படவில்லை: {error}
+	Offset right	வலது ஈடுசெய்தல்
+	Offset up	மேலே இடப்பெயர்ச்சி
+	Offset {axis}	{axis} இடப்பெயர்ச்சி
+	Offsets the textures by the height channel, at the height to normal strength	உயரச் சேனலைக் கொண்டு, உயரத்திலிருந்து இயல்பு வலிமைக்கேற்ப இழையமைப்புகளை இடம்பெயர்க்கும்
+	Only Same Mesh Name	ஒரே வலைப்பின்னல் பெயர் மட்டும்
+	Open in MaterialCraft	MaterialCraft-இல் திற
+	Open sample project...	மாதிரித் திட்டத்தைத் திற...
+	Open...	திற...
+	Opened in MaterialCraft: use File > Send to TextureCraft there to bring your changes back	MaterialCraft-இல் திறக்கப்பட்டது: உங்கள் மாற்றங்களைத் திரும்பக் கொண்டுவர அங்கே கோப்பு > TextureCraft-க்கு அனுப்பு என்பதைப் பயன்படுத்தவும்
+	Opened {name}	{name} திறக்கப்பட்டது
+	Optional channels add a clear coat (Coat weight, Coat roughness, Coat normal), sheen (Sheen weight, color, roughness), anisotropy (Anisotropy level, angle), subsurface scattering (Scattering weight) and transmission (Transmission).	விருப்பச் சேனல்கள் சேர்ப்பவை: தெளிவான மேற்பூச்சு (மேற்பூச்சு எடை, மேற்பூச்சுக் கரடுமுரடு, மேற்பூச்சு இயல்பு), மினுமினுப்பு (மினுமினுப்பு எடை, நிறம், கரடுமுரடு), திசைசார்பு (திசைசார்பு நிலை, கோணம்), மேற்பரப்புக்கடியில் சிதறல் (சிதறல் எடை), ஊடுகடத்தல் (ஊடுகடத்தல்).
+	Orbit	சுழற்றிப் பார்
+	Orthographic	இணைவீழ்ப்பு
+	Output Size	வெளியீட்டு அளவு
+	Output directory	வெளியீட்டு அடைவு
+	Output high	வெளியீடு உயர்
+	Output low	வெளியீடு தாழ்
+	Output template	வெளியீட்டு வார்ப்புரு
+	Output templates	வெளியீட்டு வார்ப்புருக்கள்
+	Overlay opacity	மேலடுக்கு ஒளிபுகாமை
+	PNG image	PNG படம்
+	Padding	திணிப்பு
+	Paint	தீட்டு
+	Paint Cage	கூண்டைத் தீட்டு
+	Paint Skew Correction	சாய்வுத் திருத்தத்தைத் தீட்டு
+	Paint chips	உரிந்த வண்ணம்
+	Paint layer	வண்ண அடுக்கு
+	Paint on the mesh to edit the layer content.	அடுக்கின் உள்ளடக்கத்தைத் திருத்த வலைப்பின்னலின் மீது தீட்டவும்.
+	Paint on the mesh to edit this mask. Use the Material tab's mask value for gray.	இந்த மறைப்பைத் திருத்த வலைப்பின்னலின் மீது தீட்டவும். சாம்பலுக்குப் பொருள் தாவலின் மறைப்பு மதிப்பைப் பயன்படுத்தவும்.
+	Paint with the current tool	தற்போதைய கருவியால் தீட்டு
+	Painted layer pixels {pixels} MB, composited channels {composites} MB, compositing cache {cache} MB	தீட்டிய அடுக்குப் படப்புள்ளிகள் {pixels} MB, தொகுத்த சேனல்கள் {composites} MB, தொகுப்புத் தற்காலிக நினைவகம் {cache} MB
+	Painting is paused while a bake is shown. Cancel the bake or wait for it to finish.	சுடுதல் காட்டப்படும்போது வண்ணம் தீட்டுதல் இடைநிறுத்தப்படும். சுடுதலை ரத்துசெய்யவும் அல்லது அது முடியும்வரை காத்திருக்கவும்.
+	Pan	நகர்த்தல்
+	Parallax occlusion (height channel)	இடமாறு மறைவு (உயரச் சேனல்)
+	Parameters change in the desktop app, with MaterialCraft installed	MaterialCraft நிறுவியிருந்தால், அளவுருக்கள் டெஸ்க்டாப் செயலியில் மாறும்
+	Partial mask values follow the layer's height: high parts show first	பகுதி மறைப்பு மதிப்புகள் அடுக்கின் உயரத்தைப் பின்பற்றும்: உயர்ந்த பகுதிகள் முதலில் தெரியும்
+	Particle brush (slides down the surface)	துகள் தூரிகை (மேற்பரப்பில் கீழே சறுக்கும்)
+	Particle brush: particles slide down the surface	துகள் தூரிகை: துகள்கள் மேற்பரப்பில் கீழே சறுக்கும்
+	Particles	துகள்கள்
+	Passthrough	ஊடுசெல்
+	Paste as instance	நிகழ்வாக ஒட்டு
+	Paste effect	விளைவை ஒட்டு
+	Paste layer(s)	அடுக்கு(களை) ஒட்டு
+	Path trace on the processor instead of the graphics card (slower)	வரைகலை அட்டைக்குப் பதிலாகச் செயலகத்தில் பாதைத் தடமறிதல் செய் (மெதுவானது)
+	Path: click adds a point, click the curve inserts one, drag moves it, Enter applies, Esc cancels	பாதை: சொடுக்கினால் ஒரு புள்ளி சேரும், வளைவைச் சொடுக்கினால் ஒன்று செருகப்படும், இழுத்தால் அது நகரும், Enter பயன்படுத்தும், Esc ரத்துசெய்யும்
+	Paths stay editable: pick one to move its points or change its brush and material, and the sublayer repaints at once. Add paths with the Path tool.	பாதைகள் திருத்தக்கூடியவையாகவே இருக்கும்: ஒன்றைத் தேர்ந்தெடுத்து அதன் புள்ளிகளை நகர்த்தலாம் அல்லது அதன் தூரிகையையும் பொருளையும் மாற்றலாம்; துணை அடுக்கு உடனே மீண்டும் தீட்டப்படும். பாதைக் கருவியால் பாதைகளைச் சேர்க்கவும்.
+	Pattern scale	வடிவமாதிரி அளவு விகிதம்
+	Per Material	பொருள்வாரியாக
+	Perlin noise	பெர்லின் இரைச்சல்
+	Pick color	நிறத்தை எடு
+	Pick focus in the viewport	காட்சிப்புலத்தில் குவியத்தை எடு
+	Pin light	பின் ஒளி
+	Place as decal	ஒட்டுப்படமாக வை
+	Place on the surface	மேற்பரப்பில் வை
+	Place path points on the mesh	வலைப்பின்னலின் மீது பாதைப் புள்ளிகளை வை
+	Planar projection	தள வீழ்ப்பு
+	Plane	தளம்
+	Polygon fill	பலகோண நிரப்பு
+	Pores	நுண்துளைகள்
+	Position gradient	நிலை நிறச்சாய்வு
+	Position jitter	நிலை நடுக்கம்
+	Press a key...	ஒரு விசையை அழுத்தவும்...
+	Procedurals	செயல்முறை வடிவங்கள்
+	Project	திட்டம்
+	Project Configuration...	திட்ட அமைவு...
+	Project Mesh (LP)	திட்ட வலைப்பின்னல் (LP)
+	Project opened	திட்டம் திறக்கப்பட்டது
+	Project template	திட்ட வார்ப்புரு
+	Projection	வீழ்ப்பு
+	Projects and meshes	திட்டங்களும் வலைப்பின்னல்களும்
+	Quarter	கால்
+	Quick mask	விரைவு மறைப்பு
+	Quit	வெளியேறு
+	RENDERING	ரெண்டர்
+	Radial settings	ஆரச் சமச்சீர் அமைப்புகள்
+	Radial symmetry	ஆரச் சமச்சீர்
+	Radius (texels at 2K)	ஆரம் (2K-இல் டெக்செல்கள்)
+	Raw curvature	மூல வளைவுத்தன்மை
+	Re-cook	மீண்டும் தயாரி
+	Reads the curvature map as baked: changing the mode or a size turns detail sizes on.	வளைவுத்தன்மை வரைபடத்தைச் சுட்டபடியே படிக்கும்: முறையையோ ஓர் அளவையோ மாற்றினால் விவர அளவுகள் இயங்கும்.
+	Rebind any menu item, tool or command	எந்த மெனு உருப்படி, கருவி அல்லது கட்டளையையும் மீண்டும் இணை
+	Recent projects	சமீபத்திய திட்டங்கள்
+	Records the stack up to this layer. Fill effects in masks (and fill layers) above can read it as a source.	இந்த அடுக்குவரையிலான குவியலைப் பதிவுசெய்யும். மேலுள்ள மறைப்புகளிலும் (நிரப்பு அடுக்குகளிலும்) உள்ள நிரப்பு விளைவுகள் இதை மூலமாகப் படிக்கலாம்.
+	Rectangle fill	செவ்வக நிரப்பு
+	Reimport mesh	வலைப்பின்னலை மீண்டும் இறக்குமதி செய்
+	Relative to Bounding Box	எல்லைப் பெட்டியைப் பொறுத்து
+	Relative to Low Mesh	குறை வலைப்பின்னலைப் பொறுத்து
+	Relative to Min/Max	குறைமம்/அதிகமத்தைப் பொறுத்து
+	Relative to Ray Distances	கதிர்த் தூரங்களைப் பொறுத்து
+	Remove Cage	கூண்டை அகற்று
+	Remove Skew Correction	சாய்வுத் திருத்தத்தை அகற்று
+	Remove channel	சேனலை அகற்று
+	Remove effect	விளைவை அகற்று
+	Remove last	கடைசியை அகற்று
+	Remove layer	அடுக்கை அகற்று
+	Remove layer(s)	அடுக்கு(களை) அகற்று
+	Remove mask	மறைப்பை அகற்று
+	Remove point	புள்ளியை அகற்று
+	Remove resolution override	தெளிவுத்திறன் மேலெழுதலை அகற்று
+	Remove resource	வளத்தை அகற்று
+	Remove the shortcut	குறுக்குவழியை அகற்று
+	Remove this output	இந்த வெளியீட்டை அகற்று
+	Remove unused resources...	பயன்படுத்தாத வளங்களை அகற்று...
+	Rename the selected template	தேர்ந்தெடுத்த வார்ப்புருவின் பெயரை மாற்று
+	Render on the CPU	CPU-வில் ரெண்டர் செய்
+	Rendering	ரெண்டர் செய்கிறது
+	Rendering (path traced)	ரெண்டர் (பாதைத் தடமறிதல்)
+	Rendering on CPU: {n} / {max} samples, {s} s	CPU-வில் ரெண்டர் செய்கிறது: {n} / {max} மாதிரிகள், {s} வி
+	Rendering on GPU: {n} / {max} samples, {s} s	GPU-வில் ரெண்டர் செய்கிறது: {n} / {max} மாதிரிகள், {s} வி
+	Replace Color	நிறத்தை மாற்று
+	Replacement color	மாற்று நிறம்
+	Report a bug...	பிழையைப் புகாரளி...
+	Rescan the library folder	திரட்டுக் கோப்புறையை மீண்டும் வருடு
+	Reset Painted Cage	தீட்டிய கூண்டை மீட்டமை
+	Reset UI	இடைமுகத்தை மீட்டமை
+	Reset all	அனைத்தையும் மீட்டமை
+	Reset to defaults	இயல்புநிலைக்கு மீட்டமை
+	Reset to {shortcut}	{shortcut} க்கு மீட்டமை
+	Resizing	அளவு மாற்றுகிறது
+	Restore Defaults	இயல்புநிலைகளை மீட்டமை
+	Restore every default shortcut	ஒவ்வோர் இயல்புநிலைக் குறுக்குவழியையும் மீட்டமை
+	Return to Painting Mode	வண்ணம் தீட்டும் முறைக்குத் திரும்பு
+	Return to this step	இந்தப் படிக்குத் திரும்பு
+	Right-click a layer > Create smart material	ஓர் அடுக்கை வலது சொடுக்கு > ஸ்மார்ட் பொருளை உருவாக்கு
+	Rotation (degrees)	சுழற்சி (பாகைகள்)
+	Roughness	கரடுமுரடு
+	Roughness from glossiness	பளபளப்பிலிருந்து கரடுமுரடு
+	Round	வட்டம்
+	Rounded cube	உருண்ட கனசதுரம்
+	Samples	மாதிரிகள்
+	Sampling Radius	மாதிரி ஆரம்
+	Save UI Layout	இடைமுகத் தளவமைப்பைச் சேமி
+	Save a copy...	ஒரு நகலைச் சேமி...
+	Save as...	இவ்வாறு சேமி...
+	Save current brush	தற்போதைய தூரிகையைச் சேமி
+	Save current layout...	தற்போதைய தளவமைப்பைச் சேமி...
+	Save current project as template	தற்போதைய திட்டத்தை வார்ப்புருவாகச் சேமி
+	Save render...	ரெண்டரைச் சேமி...
+	Save the changes to {name} before closing?	மூடுவதற்கு முன் {name} இன் மாற்றங்களைச் சேமிக்கவா?
+	Save the changes to {name} first?	முதலில் {name} இன் மாற்றங்களைச் சேமிக்கவா?
+	Save view as camera	காட்சியைக் கேமராவாகச் சேமி
+	Saved UI layout {path}	இடைமுகத் தளவமைப்பு {path} சேமிக்கப்பட்டது
+	Saved {path}	{path} சேமிக்கப்பட்டது
+	Saving UI layouts to files is available in the desktop app	இடைமுகத் தளவமைப்புகளைக் கோப்புகளாகச் சேமிப்பது டெஸ்க்டாப் செயலியில் கிடைக்கும்
+	Saving uses the other cores and at most this share of the free RAM. At least one core always works.	சேமிப்பு மற்ற கோர்களையும், காலியான RAM-இல் அதிகபட்சம் இந்தப் பங்கையும் பயன்படுத்தும். குறைந்தது ஒரு கோர் எப்போதும் இயங்கும்.
+	Scale / tiling	அளவு விகிதம் / ஓடுகளாக்கல்
+	Scaling Divisor	அளவு வகுத்தி
+	Scatter color	சிதறல் நிறம்
+	Scatter radius	சிதறல் ஆரம்
+	Scattering weight	சிதறல் எடை
+	Scratches	கீறல்கள்
+	Screenshot of the viewport	காட்சிப்புலத்தின் திரைப்பிடிப்பு
+	Seams Intensity	தையல் தீவிரம்
+	Search commands or keys	கட்டளைகள் அல்லது விசைகளைத் தேடு
+	Secondary Rays	இரண்டாம்நிலைக் கதிர்கள்
+	Seed	விதை
+	Select a layer	ஓர் அடுக்கைத் தேர்ந்தெடுக்கவும்
+	Select a paint layer or a layer's mask to fill	நிரப்ப ஒரு வண்ண அடுக்கையோ அடுக்கின் மறைப்பையோ தேர்ந்தெடுக்கவும்
+	Select an output template	ஒரு வெளியீட்டு வார்ப்புருவைத் தேர்ந்தெடுக்கவும்
+	Select source	மூலத்தைத் தேர்ந்தெடு
+	Select the layer content	அடுக்கின் உள்ளடக்கத்தைத் தேர்ந்தெடு
+	Select the mask (Alt+click: show it in the viewport)	மறைப்பைத் தேர்ந்தெடு (Alt+சொடுக்கு: காட்சிப்புலத்தில் அதைக் காட்டு)
+	Select...	தேர்ந்தெடு...
+	Selection mode	தேர்வு முறை
+	Self Intersection	சுய வெட்டு
+	Self Occlusion	சுய மறைவு
+	Settings...	அமைப்புகள்...
+	Shader Settings	ஷேடர் அமைப்புகள்
+	Shader instance	ஷேடர் நிகழ்வு
+	Sheen color	மினுமினுப்பு நிறம்
+	Sheen color × weight	மினுமினுப்பு நிறம் × எடை
+	Sheen roughness	மினுமினுப்புக் கரடுமுரடு
+	Sheen weight	மினுமினுப்பு எடை
+	Shift + wheel	Shift + சக்கரம்
+	Shortcuts list...	குறுக்குவழிகளின் பட்டியல்...
+	Show UV wireframe in the 2D view	2D காட்சியில் UV கம்பிச்சட்டத்தைக் காட்டு
+	Show all	அனைத்தையும் காட்டு
+	Show at startup	தொடக்கத்தில் காட்டு
+	Show axis	அச்சைக் காட்டு
+	Show axis position manipulator	அச்சு நிலைக் கையாளியைக் காட்டு
+	Show cursor	சுட்டியைக் காட்டு
+	Show entire mesh	முழு வலைப்பின்னலைக் காட்டு
+	Show for Selected Texture Set Only	தேர்ந்தெடுத்த இழையமைப்புத் தொகுப்புக்கு மட்டும் காட்டு
+	Show intersection	வெட்டுப்பகுதியைக் காட்டு
+	Show log...	பதிவேட்டைக் காட்டு...
+	Show on all parts	எல்லாப் பகுதிகளிலும் காட்டு
+	Show or hide texture sets	இழையமைப்புத் தொகுப்புகளைக் காட்டு அல்லது மறை
+	Show or hide the layer	அடுக்கைக் காட்டு அல்லது மறை
+	Show or hide the texture set	இழையமைப்புத் தொகுப்பைக் காட்டு அல்லது மறை
+	Show plane	தளத்தைக் காட்டு
+	Show wireframe in the 3D view	3D காட்சியில் கம்பிச்சட்டத்தைக் காட்டு
+	Signed addition (AddSub)	குறியிட்ட கூட்டல் (AddSub)
+	Size in screen space	திரை வெளியில் அளவு
+	Size jitter	அளவு நடுக்கம்
+	Size of the textures the viewport shows: lower uses less GPU memory with large texture sets. Painting and export keep full resolution.	காட்சிப்புலம் காட்டும் இழையமைப்புகளின் அளவு: பெரிய இழையமைப்புத் தொகுப்புகளுடன், குறைந்த அளவு குறைவான GPU நினைவகத்தைப் பயன்படுத்தும். வண்ணம் தீட்டுதலும் ஏற்றுமதியும் முழுத் தெளிவுத்திறனிலேயே இருக்கும்.
+	Skew Correction	சாய்வுத் திருத்தம்
+	Skew Correction Method	சாய்வுத் திருத்த முறை
+	Slope Blur	சரிவு மங்கல்
+	Slope scale	சரிவு அளவு விகிதம்
+	Smart masks	ஸ்மார்ட் மறைப்புகள்
+	Smart material saved to {path}	ஸ்மார்ட் பொருள் {path} இல் சேமிக்கப்பட்டது
+	Smart materials	ஸ்மார்ட் பொருள்கள்
+	Smooth	மென்மையான
+	Smudge	தேய்ப்பு
+	Soft light	மென்மையான ஒளி
+	Source  U {u}  V {v}	மூலம்  U {u}  V {v}
+	Specular	எதிரொளிப்பு
+	Specular level	எதிரொளிப்பு நிலை
+	Sphere	கோளம்
+	Spherical projection	கோள வீழ்ப்பு
+	Spray	தெளிப்பு
+	Spread Angle	பரவல் கோணம்
+	Stamp depth	முத்திரை ஆழம்
+	Start window	தொடக்கச் சாளரம்
+	Starting render...	ரெண்டர் தொடங்குகிறது...
+	Stencil	துளைத்தகடு
+	Steps	படிகள்
+	Streaks	தீற்றல்கள்
+	Stripes	பட்டைகள்
+	Stroke opacity	தீற்று ஒளிபுகாமை
+	Submesh	துணை வலைப்பின்னல்
+	Subsampling 2x2	துணை மாதிரியெடுப்பு 2x2
+	Subsampling 4x4	துணை மாதிரியெடுப்பு 4x4
+	Subsampling 8x8	துணை மாதிரியெடுப்பு 8x8
+	Subsurface scattering	மேற்பரப்புக்கடியில் சிதறல்
+	Symmetry	சமச்சீர்
+	Symmetry color display	சமச்சீர் நிறக் காட்சி
+	Symmetry settings	சமச்சீர் அமைப்புகள்
+	System title bar (applies on restart)	கணினித் தலைப்புப்பட்டி (மறுதொடக்கத்தில் நடைமுறைக்கு வரும்)
+	Tangent | Wrap	தொடுகோடு | சுற்று
+	Template name	வார்ப்புருவின் பெயர்
+	Temporal anti-aliasing (refines the 3D view while it is still)	கால விளிம்பு மென்மையாக்கல் (3D காட்சி அசையாதிருக்கும்போது அதைச் செம்மையாக்கும்)
+	Texture Set Settings	இழையமைப்புத் தொகுப்பு அமைப்புகள்
+	Texture Sets	இழையமைப்புத் தொகுப்புகள்
+	Texture resolution	இழையமைப்புத் தெளிவுத்திறன்
+	Texture set channels	இழையமைப்புத் தொகுப்புச் சேனல்கள்
+	Texture set resolution	இழையமைப்புத் தொகுப்புத் தெளிவுத்திறன்
+	Texture sets	இழையமைப்புத் தொகுப்புகள்
+	TextureCraft PBR - Metallic Roughness	TextureCraft PBR - உலோகம் கரடுமுரடு
+	TextureCraft PBR - Specular Glossiness	TextureCraft PBR - எதிரொளிப்பு பளபளப்பு
+	TextureCraft project	TextureCraft திட்டம்
+	TextureCraft project or mesh	TextureCraft திட்டம் அல்லது வலைப்பின்னல்
+	Textures	இழையமைப்புகள்
+	Textures embedded; for game engines and most viewers	இழையமைப்புகள் உட்பொதிந்தவை; விளையாட்டு இயந்திரங்களுக்கும் பெரும்பாலான பார்வையாளர்களுக்கும்
+	Textures packaged; for USD tools and AR Quick Look	இழையமைப்புகள் பொதிக்கப்பட்டவை; USD கருவிகளுக்கும் AR Quick Look-க்கும்
+	The GPU couldn't render this scene: {error}	இந்தக் காட்சியமைப்பை GPU-வால் ரெண்டர் செய்ய முடியவில்லை: {error}
+	The bake worker stopped	சுடும் பின்னணிப் பணி நின்றுவிட்டது
+	The eraser removes paint from the enabled channels.	இயக்கியுள்ள சேனல்களிலிருந்து அழிப்பான் வண்ணத்தை அகற்றும்.
+	The file dialog couldn't be shown: {error}	கோப்பு உரையாடலைக் காட்ட முடியவில்லை: {error}
+	The first stroke sets the offset from the source.	முதல் தீற்று மூலத்திலிருந்து இடப்பெயர்ச்சியை அமைக்கும்.
+	The image's alpha cuts the decal's shape; faces turned away and surfaces beyond its depth stay clear.	படத்தின் ஆல்பா ஒட்டுப்படத்தின் வடிவத்தை வெட்டும்; திரும்பிய முகங்களும் அதன் ஆழத்துக்கு அப்பாலுள்ள மேற்பரப்புகளும் தொடப்படாது.
+	The next click in the 3D view moves the decal there	3D காட்சியில் அடுத்த சொடுக்கு ஒட்டுப்படத்தை அங்கே நகர்த்தும்
+	The project changed while the dialog was open, so nothing was done	உரையாடல் திறந்திருந்தபோது திட்டம் மாறியதால், எதுவும் செய்யப்படவில்லை
+	The resize worker stopped	அளவு மாற்றும் பின்னணிப் பணி நின்றுவிட்டது
+	Thin areas	மெல்லிய பகுதிகள்
+	Tiles	ஓடுகள்
+	Title bar	தலைப்புப்பட்டி
+	Toggle mask	மறைப்பை இயக்கு/முடக்கு
+	Tone mapping	தொனிப் பொருத்தம்
+	Torus	வட்டவளையம்
+	Transmission	ஊடுகடத்தல்
+	Tri-planar projection	முத்தள வீழ்ப்பு
+	Triangle fill	முக்கோண நிரப்பு
+	Triangle fills single triangles, Polygon whole quads and n-gons, Mesh the connected geometry, UV island the UV islands	முக்கோணம் தனி முக்கோணங்களை நிரப்பும், பலகோணம் முழு நாற்கோணங்களையும் n-கோணங்களையும், வலைப்பின்னல் இணைந்த வடிவியலை, UV தீவு UV தீவுகளை
+	Twill weave	சாய்வரி நெசவு
+	UDIM plane	UDIM தளம்
+	UI layout	இடைமுகத் தளவமைப்பு
+	UI layout: {error}	இடைமுகத் தளவமைப்பு: {error}
+	UI layouts	இடைமுகத் தளவமைப்புகள்
+	UI {ms} ms	இடைமுகம் {ms} மி.வி
+	USD binary, textures alongside	USD இருமம், இழையமைப்புகள் அருகில்
+	USD text, textures alongside	USD உரை, இழையமைப்புகள் அருகில்
+	USDZ with textures	இழையமைப்புகளுடன் USDZ
+	UV Seams	UV தையல்கள்
+	UV checker	UV சதுரங்கக் கட்டம்
+	UV island fill	UV தீவு நிரப்பு
+	UV projection	UV வீழ்ப்பு
+	UV tile {tile} resolution	UV ஓடு {tile} தெளிவுத்திறன்
+	UV tiles	UV ஓடுகள்
+	UV tiles (UDIM)	UV ஓடுகள் (UDIM)
+	UV transformations	UV உருமாற்றங்கள்
+	Uniform value	சீரான மதிப்பு
+	Use Low Poly Mesh as High Poly Mesh	குறை பலகோண வலைப்பின்னலை உயர் பலகோண வலைப்பின்னலாகப் பயன்படுத்து
+	Use an equirectangular .hdr or .exr image as the environment	சமச்செவ்வக .hdr அல்லது .exr படத்தைச் சூழலாகப் பயன்படுத்து
+	Use as brush alpha	தூரிகை ஆல்பாவாகப் பயன்படுத்து
+	Use the control channel or `texturecraft-cli render` for screenshots	திரைப்பிடிப்புகளுக்குக் கட்டுப்பாட்டுச் சேனலையோ `texturecraft-cli render` ஐயோ பயன்படுத்தவும்
+	Use the operating system's window frame and buttons instead of TextureCraft's own title bar	TextureCraft-இன் சொந்தத் தலைப்புப்பட்டிக்குப் பதிலாக இயக்க முறைமையின் சாளரச் சட்டத்தையும் பொத்தான்களையும் பயன்படுத்து
+	Value Bounds Max	மதிப்பு வரம்பு அதிகபட்சம்
+	Value Bounds Min	மதிப்பு வரம்பு குறைந்தபட்சம்
+	Version: {version} ({gpu})	பதிப்பு: {version} ({gpu})
+	Vertex Color	முனை நிறம்
+	View through this camera	இந்தக் கேமரா வழியாகப் பார்
+	Viewer settings	பார்வையாளர் அமைப்புகள்
+	Viewport	காட்சிப்புலம்
+	Viewport and brush (fixed)	காட்சிப்புலமும் தூரிகையும் (நிலையானது)
+	Views	காட்சிகள்
+	Visible polygons only	தெரியும் பலகோணங்கள் மட்டும்
+	Vivid light	துடிப்பான ஒளி
+	Voronoi	வோரோனாய்
+	Warp Directional	திசைசார் வளைத்திரிப்பு
+	Wavefront OBJ with MTL, textures alongside	MTL உடன் Wavefront OBJ, இழையமைப்புகள் அருகில்
+	WebGPU isn't available in this browser, so TextureCraft runs on WebGL2: Rendering mode path traces on the CPU (slower) and large texture sets show at reduced resolution. A current Chrome, Edge or Safari has WebGPU.	இந்த உலாவியில் WebGPU இல்லை, எனவே TextureCraft WebGL2-இல் இயங்குகிறது: ரெண்டர் முறை CPU-வில் பாதைத் தடமறிதல் செய்யும் (மெதுவானது), பெரிய இழையமைப்புத் தொகுப்புகள் குறைந்த தெளிவுத்திறனில் தெரியும். தற்போதைய Chrome, Edge அல்லது Safari-இல் WebGPU உள்ளது.
+	What the 3D view shows while the bake runs: the newest finished map, one finished map, or the material. Maps not baked yet show a neutral value.	சுடுதல் நடக்கும்போது 3D காட்சி காட்டுவது: புதிதாக முடிந்த வரைபடம், முடிந்த ஒரு வரைபடம், அல்லது பொருள். இன்னும் சுடப்படாத வரைபடங்கள் நடுநிலை மதிப்பைக் காட்டும்.
+	Wheel / Alt + RMB drag	சக்கரம் / Alt + RMB இழுப்பு
+	Width (texels at 2K)	அகலம் (2K-இல் டெக்செல்கள்)
+	Wood grain	மர இழைவரி
+	Works in texture space, like the blur: it does not cross UV seams.	மங்கலைப் போலவே இழையமைப்பு வெளியில் இயங்கும்: UV தையல்களைக் கடக்காது.
+	World Space Normal	உலக வெளி இயல்பு
+	Yellow / blue	மஞ்சள் / நீலம்
+	a missing layer	காணாத ஓர் அடுக்கு
+	aniso	திசைசார்
+	aniso angle	திசைசார் கோணம்
+	ao	AO
+	coat	பூச்சு
+	coat nrm	பூச்சு இயல்பு
+	coat rough	பூச்சு கரடு
+	color	நிறம்
+	emiss	உமிழ்வு
+	glTF binary with textures	இழையமைப்புகளுடன் glTF இருமம்
+	gloss	பளபளப்பு
+	height	உயரம்
+	metal	உலோகம்
+	min	நிமி
+	missing	காணவில்லை
+	missing source	மூலம் காணவில்லை
+	no GPU	GPU இல்லை
+	none	எதுவுமில்லை
+	nrm	இயல்பு
+	off	முடக்கம்
+	op	ஒளிபுகா
+	rough	கரடு
+	scatter	சிதறல்
+	sheen	மினுப்பு
+	sheen color	மினுப்பு நிறம்
+	sheen rough	மினுப்பு கரடு
+	spec	எதிரொளி
+	specular	எதிரொளிப்பு
+	transm	கடத்தல்
+	{action} (undone)	{action} (செயல்தவிர்க்கப்பட்டது)
+	{count} effects	{count} விளைவுகள்
+	{file}: add above the selected layer (or drag it into the layer stack or onto the viewport)	{file}: தேர்ந்தெடுத்த அடுக்குக்கு மேலே சேர் (அல்லது அடுக்குக் குவியலுக்குள் அல்லது காட்சிப்புலத்தின் மீது இழுக்கவும்)
+	{name} copy	{name} நகல்
+	{n} bits	{n} பிட்கள்
+	{n} control points. Click the mesh (or the 2D view) to add points and drag them to adjust; click the first point to close the path. Enter paints it with the brush (a closed, filled path fills its inside), Esc cancels.	{n} கட்டுப்பாட்டுப் புள்ளிகள். புள்ளிகளைச் சேர்க்க வலைப்பின்னலை (அல்லது 2D காட்சியை) சொடுக்கி, சரிசெய்ய அவற்றை இழுக்கவும்; பாதையை மூட முதல் புள்ளியைச் சொடுக்கவும். Enter அதைத் தூரிகையால் தீட்டும் (மூடிய, நிரப்பிய பாதை அதன் உள்ளே நிரப்பும்), Esc ரத்துசெய்யும்.
+	{n} items share a shortcut; the first one listed wins.	{n} உருப்படிகள் ஒரு குறுக்குவழியைப் பகிர்கின்றன; பட்டியலில் முதலில் உள்ளது வெல்லும்.
+	{pattern} (scale {scale}, seed {seed})	{pattern} (அளவு விகிதம் {scale}, விதை {seed})
