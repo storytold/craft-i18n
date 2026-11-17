@@ -352,3 +352,7 @@ ko, nl, pl, pt-br, ru, sr-latn, tr, uk, vi, zh-hans and zh-hant (sr.tsv became s
 They were written with a coding agent from the plain meaning of the English (the tool was
 not recorded); no native-speaker review has been recorded. Other locales have no rows for
 these keys yet.
+
+## PDFCraft: Swedish rows kept up to date
+
+Patrik Lermon (@kler) adds and updates PDFCraft's `sv` rows as PDFCraft gains strings, written from the English meaning with craft-sv-translate. Terms follow the existing Swedish rows. AI-drafted with Claude Code from the English source. The author is a native Swedish speaker who spot-checks the Swedish but has not checked every string.
