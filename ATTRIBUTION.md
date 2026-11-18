@@ -389,4 +389,4 @@ The two panel layout recovery messages were migrated from PhotoCraft commit `786
 
 ## PdfCraft: Hebrew rows for strings with none
 
-## PdfCraft: Hebrew rows for strings with none
+Yonatan Langer (@yonatan-langer83) added Hebrew (`he`) rows to `locales/he/pdfcraft.tsv` for every PdfCraft string that had no Hebrew row, AI-assisted with Claude and written from the plain meaning of the English, in the terminology the Hebrew catalogs already use. No other product's localisation was consulted. Not yet reviewed line by line by a native speaker. Strings whose Hebrew would read the same as the English (product and format names such as `CMYK`, `USB`, `PDF/X…`) are left out.
