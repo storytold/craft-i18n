@@ -1,0 +1,900 @@
+# Türkçe (tr) interface catalog for TextureCraft.
+# Columns, separated by a TAB:  context <TAB> English source text <TAB> translation
+#   context  usually empty. `@plural`, `@id` and `@msg` mean something to the apps; any other
+#            word is a label that tells apart two meanings of the same English.
+#   escapes  \n  \t  \\  inside a column. `{name}` placeholders must appear in both columns (in any
+#            order), and a trailing "…" in one needs one in the other.
+#   @plural  English `one|other`; the translation lists this language's plural forms, `|`-separated.
+#   Lines starting with # and blank lines are ignored. A missing entry shows in English.
+#
+# Clean room: every entry was written from the plain meaning of the English text in ordinary
+# computing vocabulary. No other product's localisation, string table or translated UI was
+# consulted or copied; add entries the same way.
+
+	"{layer}" can't be filled: select a paint layer or a layer's mask	"{layer}" doldurulamıyor: bir boya katmanı veya katman maskesi seçin
+	"{layer}" has no paint yet: the filter changes what you paint on it.	"{layer}" henüz boya içermiyor: filtre üzerine boyadıklarınızı değiştirir.
+	0 turns autosave off. Copies go to {folder}	0 otomatik kaydetmeyi kapatır. Kopyalar {folder} klasörüne gider
+	1 effect	1 efekt
+	2D view only	Yalnızca 2B görünüm
+	32 bits (float)	32 bit (kayan nokta)
+	3D MESH	3B AĞ
+	3D mesh	3B ağ
+	3D meshes	3B ağlar
+	3D texture painting: layers, masks, smart materials, mesh map baking and export.	3B doku boyama: katmanlar, maskeler, akıllı malzemeler, ağ haritası pişirme ve dışa aktarma.
+	3D view only	Yalnızca 3B görünüm
+	3D/2D views	3B/2B görünümler
+	A click fills what is under it; a dragged rectangle fills what it selects as it grows	Tıklama altındaki alanı doldurur; sürüklenen dikdörtgen büyüdükçe seçtiği alanı doldurur
+	A folder blends its children (pass-through). Set per-channel opacity in the layer rows.	Klasör alt öğelerini karıştırır (doğrudan geçiş). Kanal başına opaklığı katman satırlarından ayarlayın.
+	ACES filmic	ACES filmik
+	AO intensity	AO yoğunluğu
+	About TextureCraft	TextureCraft Hakkında
+	About TextureCraft...	TextureCraft Hakkında...
+	Accent color	Vurgu rengi
+	Add High-Poly Meshes	Yüksek Poligonlu Ağlar Ekle
+	Add an anchor point to a layer below to use its stack as a mask.	Yığınını maske olarak kullanmak için alttaki bir katmana bağlantı noktası ekleyin.
+	Add anchor point	Bağlantı noktası ekle
+	Add as decal (view center)	Çıkartma olarak ekle (görünüm merkezi)
+	Add black mask	Siyah maske ekle
+	Add channel	Kanal ekle
+	Add color	Renk ekle
+	Add compare mask	Karşılaştırma maskesi ekle
+	Add effect	Efekt ekle
+	Add fill	Dolgu ekle
+	Add fill layer	Dolgu katmanı ekle
+	Add filter	Filtre ekle
+	Add folder	Klasör ekle
+	Add generator	Üreteç ekle
+	Add levels	Düzeyler ekle
+	Add mask	Maske ekle
+	Add mask with color selection	Renk seçimiyle maske ekle
+	Add output	Çıktı ekle
+	Add paint	Boya ekle
+	Add paint layer	Boya katmanı ekle
+	Add smart material from the shelf	Raftan akıllı malzeme ekle
+	Add to the layer content	Katman içeriğine ekle
+	Add to the mask	Maskeye ekle
+	Add white mask	Beyaz maske ekle
+	Add...	Ekle...
+	Advanced settings	Gelişmiş ayarlar
+	Aligned: the offset set by the first stroke is kept. V + click sets a new source.	Hizalı: İlk fırça darbesiyle ayarlanan kaydırma korunur. V + tıklama yeni bir kaynak belirler.
+	Alignment and culling	Hizalama ve eleme
+	All layers	Tüm katmanlar
+	Alphas	Alfalar
+	Also bound to {item} ({menu})	Şuna da atanmış: {item} ({menu})
+	Alt + LMB drag	Alt + Sol tık sürükleme
+	Amber	Kehribar
+	Ambient	Ortam
+	Ambient Occlusion	Ortam Tıkanıklığı
+	Ambient occlusion	Ortam tıkanıklığı
+	Anchor point	Bağlantı noktası
+	Anchor: {name}	Bağlantı: {name}
+	Anchor: {name} ({channel})	Bağlantı: {name} ({channel})
+	Angle (degrees)	Açı (derece)
+	Angle fade from	Açı sönümleme başlangıcı
+	Angle fade to	Açı sönümleme bitişi
+	Angle jitter	Açı titreşimi
+	Angle span	Açı aralığı
+	Anisotropy angle	Anizotropi açısı
+	Anisotropy level	Anizotropi düzeyi
+	Antialiasing	Kenar yumuşatma
+	Aperture	Diyafram
+	Apply Diffusion	Difüzyon Uygula
+	ArtCraft website...	ArtCraft web sitesi...
+	Assets	Varlıklar
+	Attenuation	Zayıflama
+	Auto Tonemapping	Otomatik Ton Eşleme
+	Automatic (from the mesh UVs)	Otomatik (ağ UV'lerinden)
+	Autosave every	Otomatik kaydetme aralığı
+	Autosaves, smart materials, presets, templates and UI layouts go to the data folder. A new folder applies on restart; files already saved stay where they are.	Otomatik kayıtlar, akıllı malzemeler, önayarlar, şablonlar ve arayüz düzenleri veri klasörüne kaydedilir. Yeni klasör yeniden başlatmada geçerli olur; önceden kaydedilmiş dosyalar bulundukları yerde kalır.
+	Average Normals	Ortalama Normaller
+	Axis	Eksen
+	Axis position	Eksen konumu
+	BBox	Sınır Kutusu
+	BSphere	Sınır Küresi
+	Back to painting	Boyamaya dön
+	Backface culling	Arka yüz eleme
+	Bake Mesh Maps	Ağ Haritalarını Pişir
+	Bake Selected Textures ({n})	Seçili Dokuları Pişir ({n})
+	Bake an ID map (F8) to pick colors from the mesh.	Ağdan renk seçmek için bir kimlik (ID) haritası pişirin (F8).
+	Bake mesh maps	Ağ haritalarını pişir
+	Bake mesh maps (F8) for curvature, AO and thickness based generators.	Eğrilik, AO ve kalınlık tabanlı üreteçler için ağ haritalarını pişirin (F8).
+	Baked Lighting	Pişirilmiş Aydınlatma
+	Baked maps imported: {count}	İçe aktarılan pişirilmiş haritalar: {count}
+	Baking	Pişirme
+	Baking Visualization	Pişirme Görselleştirmesi
+	Baking {map} ({n}/{total})	{map} pişiriliyor ({n}/{total})
+	Baking {map} ({n}/{total}), texture set {set} of {sets}	{map} pişiriliyor ({n}/{total}), doku seti {set}/{sets}
+	Base color	Temel renk
+	Base color is the diffuse color, Specular the F0 color and Glossiness 1 - roughness (add these channels in the texture set settings).	Temel renk yaygın (diffuse) renktir, Yansıma (Specular) F0 rengidir ve Parlaklık (Glossiness) 1 - pürüzlülük değeridir (bu kanalları doku seti ayarlarından ekleyin).
+	Base color, Metallic, Roughness and Specular level.	Temel renk, Metaliklik, Pürüzlülük ve Yansıma düzeyi.
+	Based on each texture set's size	Her doku setinin boyutuna göre
+	Basic settings	Temel ayarlar
+	Bent Normals	Bükülmüş Normaller
+	Bevel	Pah
+	Blending	Karıştırma
+	Blending mode of the displayed channel	Görüntülenen kanalın karışım modu
+	Blur Directional	Yönlü Bulanıklaştırma
+	Blur and sharpen	Bulanıklaştır ve keskinleştir
+	Bounces	Sekmeler
+	Bricks	Tuğlalar
+	Brush	Fırça
+	Brush name	Fırça adı
+	Brush size	Fırça boyutu
+	Brush size down / up	Fırça boyutunu küçült / büyüt
+	Brushed lines	Fırçalanmış çizgiler
+	Built-in (read-only): duplicate it to edit	Yerleşik (salt okunur): düzenlemek için çoğaltın
+	Built-in mesh	Yerleşik ağ
+	Built-in templates are read-only: duplicate one to edit it	Yerleşik şablonlar salt okunurdur: düzenlemek için birini çoğaltın
+	Built-in: {mesh}	Yerleşik: {mesh}
+	By Mesh Name	Ağ Adına Göre
+	Cage	Kafes
+	Cage Scene	Kafes Sahnesi
+	Cage Type	Kafes Türü
+	Cage: {name}	Kafes: {name}
+	Camera	Kamera
+	Camera settings	Kamera ayarları
+	Cancel the stroke	Fırça darbesini iptal et
+	Cavities	Oyuklar
+	Cell size (texels at 2K)	Hücre boyutu (2K'da teksel)
+	Cells	Hücreler
+	Change them in Texture Set Settings	Bunları Doku Seti Ayarları'nda değiştirin
+	Channel source: uniform value, procedural, image or anchor	Kanal kaynağı: tekdüze değer, prosedürel, görsel veya çapa
+	Check All	Tümünü İşaretle
+	Check for Updates...	Güncellemeleri Denetle...
+	Checker	Dama
+	Choose another mesh file for the project. It is read when you press OK.	Proje için başka bir ağ dosyası seçin. Tamam'a bastığınızda okunur.
+	Choosing or reimporting a mesh recomputes all channels.	Bir ağ seçmek veya yeniden içe aktarmak tüm kanalları yeniden hesaplar.
+	Clamp	Sınırla
+	Clear mask	Maskeyi temizle
+	Clear recent projects	Son projeleri temizle
+	Click a mesh part to show or hide the selected layer on it.	Seçili katmanı üzerinde göstermek veya gizlemek için bir ağ parçasına tıklayın.
+	Click the mesh to pick its material into the brush	Malzemesini fırçaya almak için ağa tıklayın
+	Click the mesh to place the decal	Çıkartmayı yerleştirmek için ağa tıklayın
+	Click, then press the new shortcut (Esc cancels)	Tıklayın, ardından yeni kısayola basın (Esc iptal eder)
+	Click: turn this channel on or off. Alt+click: this channel only	Tıklama: bu kanalı açar veya kapatır. Alt+tıklama: yalnızca bu kanal
+	Closed path	Kapalı yol
+	Cloud	Bulut
+	Clouds	Bulutlar
+	Coat normal	Kaplama normali
+	Coat roughness	Kaplama pürüzlülüğü
+	Coat weight	Kaplama ağırlığı
+	Color Generator	Renk Oluşturucu
+	Color Source	Renk Kaynağı
+	Color burn	Renk yakma
+	Color dodge	Renk soldurma
+	Color of the light that travels under the surface (each channel goes as far as its value)	Yüzeyin altında ilerleyen ışığın rengi (her kanal kendi değerine kadar gider)
+	Color picker	Renk seçici
+	Color selection	Renk seçimi
+	Color space	Renk uzayı
+	Color to replace	Değiştirilecek renk
+	Colors near the first shift towards the second, keeping their shading.	İlkine yakın renkler gölgelendirmelerini koruyarak ikincisine doğru kayar.
+	Colors read as gray. Add a levels or blur effect above to shape the result.	Renkler gri olarak okunur. Sonucu şekillendirmek için yukarıya bir düzeyler veya bulanıklık efekti ekleyin.
+	Combine with the layer's height	Katmanın yüksekliğiyle birleştir
+	Common Parameters	Ortak Parametreler
+	Common Settings	Ortak Ayarlar
+	Compare mask	Maskeyi karşılaştır
+	Compositing	Bileşim
+	Constant	Sabit
+	Constants	Sabitler
+	Contained center: fill polygons whose center is in the rectangle	İçerilen merkez: merkezi dikdörtgenin içinde olan çokgenleri doldur
+	Content effects	İçerik efektleri
+	Continue with the sample project	Örnek projeyle devam et
+	Contrast/Luminosity	Kontrast/Parlaklık
+	Converted maps	Dönüştürülen haritalar
+	Cooked at {size} px	{size} px boyutunda işlendi
+	Copper	Bakır
+	Copy RGB values	RGB değerlerini kopyala
+	Copy effect	Efekti kopyala
+	Copy from	Şuradan kopyala
+	Copy layer(s)	Katman(lar)ı kopyala
+	Copy the selected layer alone (its empty parts copy nothing)	Yalnızca seçili katmanı kopyala (boş kısımları hiçbir şey kopyalamaz)
+	Copy to all texture sets	Tüm doku setlerine kopyala
+	Copy what the texture set shows	Doku setinin gösterdiğini kopyala
+	Coral	Mercan
+	Cores kept for the UI	Arayüz için ayrılan çekirdekler
+	Cosine	Kosinüs
+	Couldn't encode the render	İşleme kodlanamadı
+	Couldn't export textures: {error}	Dokular dışa aktarılamadı: {error}
+	Couldn't export the mesh: {error}	Ağ dışa aktarılamadı: {error}
+	Couldn't export the template: {error}	Şablon dışa aktarılamadı: {error}
+	Couldn't import {name}: {error}	{name} içe aktarılamadı: {error}
+	Couldn't open {name}: {error}	{name} açılamadı: {error}
+	Couldn't read the render back from the GPU	İşleme GPU'dan geri okunamadı
+	Couldn't save the render: {error}	İşleme kaydedilemedi: {error}
+	Couldn't save {name}: {error}	{name} kaydedilemedi: {error}
+	Count	Sayı
+	Count per stamp	Damga başına sayı
+	Crate	Sandık
+	Create smart material	Akıllı malzeme oluştur
+	Ctrl+right-drag in a view sets the size and hardness, Ctrl+left-drag the flow and angle.	Görünümde Ctrl+sağ sürükleme boyutu ve sertliği, Ctrl+sol sürükleme akışı ve açıyı ayarlar.
+	Cube	Küp
+	Current layer	Geçerli katman
+	Custom File	Özel Dosya
+	Cut effect	Efekti kes
+	Cut layer(s)	Katman(lar)ı kes
+	Cyan / red	Camgöbeği / kırmızı
+	Cylinder	Silindir
+	Cylindrical projection	Silindirik izdüşüm
+	Dark to light: the content's luminance picks a color along these stops.	Koyudan açığa: içeriğin parlaklığı bu duraklar boyunca bir renk seçer.
+	Darken (Min)	Koyulaştır (Min)
+	Data folder	Veri klasörü
+	Decal	Çıkartma
+	Decal projection	Çıkartma izdüşümü
+	Default camera	Varsayılan kamera
+	Delete the selected template	Seçili şablonu sil
+	Delete this camera	Bu kamerayı sil
+	Deleted template "{name}"	"{name}" şablonu silindi
+	Denoise	Gürültü gider
+	Depth of field	Alan derinliği
+	Depth of field (viewport and Rendering mode)	Alan derinliği (görünüm alanı ve İşleme modu)
+	Depth of the sharp plane along the view (0: the orbit center)	Görünüm boyunca keskin düzlemin derinliği (0: yörünge merkezi)
+	Detail sizes	Ayrıntı boyutları
+	Details saved to {file}	Ayrıntılar {file} dosyasına kaydedildi
+	Dilation + default background color	Genişletme + varsayılan arka plan rengi
+	Dilation + transparent	Genişletme + saydam
+	Dilation Width	Genişletme Genişliği
+	Dilation infinite	Sonsuz genişletme
+	DirectX normal map	DirectX normal haritası
+	Dirt	Kir
+	Disable	Devre dışı bırak
+	Displacement (height channel)	Yer değiştirme (yükseklik kanalı)
+	Display Settings	Görüntü Ayarları
+	Display material	Malzemeyi görüntüle
+	Display next channel	Sonraki kanalı görüntüle
+	Display next mesh map	Sonraki ağ haritasını görüntüle
+	Display previous channel	Önceki kanalı görüntüle
+	Display previous mesh map	Önceki ağ haritasını görüntüle
+	Distance-Based	Mesafe Tabanlı
+	Distribution	Dağılım
+	Document resolution	Belge çözünürlüğü
+	Documentation...	Belgeler...
+	Don't save	Kaydetme
+	Done on CPU: {n} / {max} samples, {s} s	CPU üzerinde tamamlandı: {n} / {max} örnek, {s} s
+	Done on GPU: {n} / {max} samples, {s} s	GPU üzerinde tamamlandı: {n} / {max} örnek, {s} s
+	Double-click or press Enter to edit	Düzenlemek için çift tıklayın veya Enter'a basın
+	Double-click to rename	Yeniden adlandırmak için çift tıklayın
+	Download as	Farklı indir
+	Downloaded {name}	{name} indirildi
+	Drag onto an output channel	Bir çıkış kanalına sürükleyin
+	Drag the frame to move the decal, a corner to scale it, the round handle to turn it	Çıkartmayı taşımak için çerçeveyi, ölçeklemek için bir köşeyi, döndürmek için yuvarlak tutamacı sürükleyin
+	Drags the layer stack's values along the stroke into the selected layer.	Katman yığınının değerlerini darbe boyunca seçili katmana sürükler.
+	Draws {name} of texture set "{set}". Edits to the source show in every instance.	"{set}" doku setinin {name} öğesini çizer. Kaynakta yapılan düzenlemeler her örnekte görünür.
+	Drop an image from the Assets panel here to use it as this mesh map	Bu ağ haritası olarak kullanmak için Varlıklar panelinden bir görseli buraya bırakın
+	Dry streaks	Kuru izler
+	Duplicate effect	Efekti çoğalt
+	Duplicate layer(s)	Katman(ları) çoğalt
+	Duplicate the selected template	Seçili şablonu çoğalt
+	Edge Contrast	Kenar Kontrastı
+	Edge Detect	Kenar Algılama
+	Edge Distance	Kenar Mesafesi
+	Edge Protection	Kenar Koruması
+	Edges	Kenarlar
+	Edges and cavities	Kenarlar ve oyuklar
+	Edit keyboard shortcuts...	Klavye kısayollarını düzenle...
+	Edit quick mask	Hızlı maskeyi düzenle
+	Editing quick mask: paint where painting is allowed (U to finish)	Hızlı maske düzenleniyor: boyamaya izin verilen yerleri boyayın (bitirmek için U)
+	Editing the quick mask: fills paint where painting is allowed. Press U to finish.	Hızlı maske düzenleniyor: dolgular boyamaya izin verilen yerleri boyar. Bitirmek için U'ya basın.
+	Editing the quick mask: strokes paint where painting is allowed. Press U to finish.	Hızlı maske düzenleniyor: darbeler boyamaya izin verilen yerleri boyar. Bitirmek için U'ya basın.
+	Emissive	Işıma
+	Enable Seams	Dikişleri Etkinleştir
+	Enable or disable the effect	Efekti etkinleştir veya devre dışı bırak
+	Enable quick mask	Hızlı maskeyi etkinleştir
+	Enter a finite number	Sonlu bir sayı girin
+	Environment blur	Ortam bulanıklığı
+	Environment exposure (EV)	Ortam pozlaması (EV)
+	Environment map	Ortam haritası
+	Environment opacity	Ortam opaklığı
+	Environment rotation	Ortam döndürme
+	Environment settings	Ortam ayarları
+	Environment: {name}	Ortam: {name}
+	Environments	Ortamlar
+	Expand or collapse the folder	Klasörü genişlet veya daralt
+	Export Mesh...	Ağı Dışa Aktar...
+	Export Textures...	Dokuları Dışa Aktar...
+	Export mesh	Ağı dışa aktar
+	Export template	Şablonu dışa aktar
+	Export templates	Şablonları dışa aktar
+	Export textures	Dokuları dışa aktar
+	Export the selected template (.json)	Seçili şablonu dışa aktar (.json)
+	Exported mesh to {path}	Ağ {path} konumuna dışa aktarıldı
+	Exported template "{name}" to {path}	"{name}" şablonu {path} konumuna dışa aktarıldı
+	Exported {n} textures to {folder}	{n} doku {folder} klasörüne dışa aktarıldı
+	F0 from specular level	Yansıma düzeyinden F0
+	Fabric weave	Kumaş dokuması
+	Face Normals Based	Yüzey Normallerine Dayalı
+	Field of view (deg)	Görüş alanı (derece)
+	File ID	Dosya Kimliği
+	File name without extension; variables insert names	Uzantısız dosya adı; değişkenler adları ekler
+	File not found	Dosya bulunamadı
+	File type	Dosya türü
+	Fill layer	Dolgu katmanı
+	Fill mode	Dolgu modu
+	Fill only polygons the camera sees (3D view)	Yalnızca kameranın gördüğü çokgenleri doldur (3B görünüm)
+	Fill the closed path (lasso)	Kapalı yolu doldur (kement)
+	Fill the path (close it first)	Yolu doldur (önce kapatın)
+	Filter the remaining noise while keeping edges and texture detail	Kenarları ve doku ayrıntısını koruyarak kalan gürültüyü filtrele
+	Filters	Filtreler
+	Fine noise	İnce gürültü
+	Fingerprints	Parmak izleri
+	Fit the input range to the histogram	Giriş aralığını histograma sığdır
+	Flatten layer	Katmanı düzleştir
+	Flips the image's green channel, for normal maps made with Y pointing down	Y ekseni aşağı bakacak şekilde oluşturulmuş normal haritaları için görselin yeşil kanalını ters çevirir
+	Flow	Akış
+	Flow and opacity	Akış ve opaklık
+	Flow jitter	Akış titreşimi
+	Focus distance	Odak uzaklığı
+	Focus: show only the active texture set	Odak: yalnızca etkin doku setini göster
+	Fold or unfold these effects	Bu efektleri daralt veya genişlet
+	Folders	Klasörler
+	Follow Newest Map	En Yeni Haritayı İzle
+	Follow path	Yolu izle
+	For the whole project: how normal map images set as mesh maps are read (set them again after a change), and the default for export	Tüm proje için: ağ haritası olarak ayarlanan normal haritası görsellerinin nasıl okunacağı (değişiklikten sonra yeniden ayarlayın) ve dışa aktarma varsayılanı
+	Free and open source (MIT OR Apache-2.0), written in Rust.	Rust ile yazılmış, ücretsiz ve açık kaynaklı (MIT veya Apache-2.0).
+	From template	Şablondan
+	From template / project	Şablondan / projeden
+	Full Scene	Tüm Sahne
+	GGX specular with height-correlated Smith visibility, Lambert diffuse, split-sum image-based lighting with spherical-harmonics irradiance and horizon fading.	Yükseklik ilintili Smith görünürlüklü GGX aynasal yansıma, Lambert dağınık yansıma, küresel harmonik ışınım ve ufuk sönümlemeli ayrık toplamlı görüntü tabanlı aydınlatma.
+	GPU error: {error}	GPU hatası: {error}
+	General export parameters	Genel dışa aktarma parametreleri
+	General properties	Genel özellikler
+	Generate from Mesh	Ağdan Oluştur
+	Generate from Normal Map	Normal Haritasından Oluştur
+	Generator	Üreteç
+	Geometry and UVs only	Yalnızca geometri ve UV'ler
+	Geometry mask	Geometri maskesi
+	Glossiness	Parlaklık
+	Glossiness from roughness	Pürüzlülükten parlaklık
+	Go to camera 1	Kamera 1'e git
+	Go to camera 2	Kamera 2'ye git
+	Go to camera 3	Kamera 3'e git
+	Go to camera 4	Kamera 4'e git
+	Go to camera 5	Kamera 5'e git
+	Go to camera 6	Kamera 6'ya git
+	Go to camera 7	Kamera 7'ye git
+	Go to camera 8	Kamera 8'e git
+	Go to camera 9	Kamera 9'a git
+	Gradient Map	Gradyan Haritası
+	Gravity	Yerçekimi
+	Gray + A	Gri + A
+	Gray 50%	%50 Gri
+	Green channel convention of normal maps: OpenGL (Y+) or DirectX (Y-). Imported and exported normal maps follow it.	Normal haritalarının yeşil kanal kuralı: OpenGL (Y+) veya DirectX (Y-). İçe ve dışa aktarılan normal haritaları buna uyar.
+	Ground Plane	Zemin Düzlemi
+	Ground Plane Offset	Zemin Düzlemi Ofseti
+	Group layer(s)	Katman(ları) grupla
+	Grunge	Kir ve aşınma
+	HDR environments	HDR ortamları
+	HSL Perceptive	Algısal HSL
+	Half	Yarım
+	Hammered	Çekiçlenmiş
+	Hard light	Sert ışık
+	Hardness	Sertlik
+	Height offset	Yükseklik ofseti
+	Height to normal strength	Yükseklikten normale gücü
+	Hide UI	Arayüzü gizle
+	Hide all	Tümünü gizle
+	Hide while painting	Boyarken gizle
+	High Definition Mesh (HP)	Yüksek Çözünürlüklü Ağ (HP)
+	High Poly Mesh Suffix	Yüksek Poligonlu Ağ Son Eki
+	High Poly Scene	Yüksek Poligonlu Sahne
+	High poly: {name}	Yüksek poligon: {name}
+	High-Poly Parameters	Yüksek Poligon Parametreleri
+	Histogram Range	Histogram Aralığı
+	Histogram Scan	Histogram Taraması
+	Histogram Shift	Histogram Kaydırma
+	Hit-test	İsabet testi
+	Hold S: left-drag rotates, right-drag scales, middle-drag moves the stencil.	S tuşunu basılı tutun: sol sürükleme döndürür, sağ sürükleme ölçekler, orta sürükleme şablonu taşır.
+	Hold V and click the mesh to set the clone source	Klon kaynağını belirlemek için V tuşunu basılı tutup ağa tıklayın
+	Hold V and click the mesh to set the source, then paint elsewhere to copy it.	Kaynağı belirlemek için V tuşunu basılı tutup ağa tıklayın, ardından kopyalamak için başka bir yere boyayın.
+	How a rectangle selects polygons	Dikdörtgenin poligonları nasıl seçeceği
+	How far light travels under the surface, as a fraction of the mesh size (where the Scattering weight channel is painted)	Işığın yüzey altında ağ boyutunun kesri olarak ne kadar uzağa yayılacağı (Saçılım ağırlığı kanalının boyandığı yerlerde)
+	How strongly transmissive surfaces bend light (where the Transmission channel is painted): water 1.33, glass 1.5, diamond 2.42	Işık geçirgen yüzeylerin ışığı ne kadar güçlü kırdığı (Geçirgenlik kanalının boyandığı yerlerde): su 1.33, cam 1.5, elmas 2.42
+	Hue shift (degrees)	Ton kaydırma (derece)
+	ID	ID
+	Ignore Backface	Arka Yüzü Yoksay
+	Ignore Backface Suffix	Arka Yüzü Yoksay Son Eki
+	Image: {name}	Görsel: {name}
+	Import HDR...	HDR içe aktar...
+	Import MaterialX material...	MaterialX malzemesi içe aktar...
+	Import a template (.json)	Şablon içe aktar (.json)
+	Import an image (File > Import resources) to project it onto the mesh.	Ağın üzerine yansıtmak için bir görsel içe aktarın (Dosya > Kaynakları içe aktar).
+	Import baked maps	Pişirilmiş haritaları içe aktar
+	Import images to use them in fills and masks	Dolgularda ve maskelerde kullanmak için görselleri içe aktarın
+	Import material...	Malzeme içe aktar...
+	Import resources...	Kaynakları içe aktar...
+	Import settings	İçe aktarma ayarları
+	Import...	İçe aktar...
+	Imported template "{name}"	"{name}" şablonu içe aktarıldı
+	Imported {name}	{name} içe aktarıldı
+	Include in Bake	Pişirmeye Dahil Et
+	Index of refraction	Kırılma indisi
+	Input high	Üst giriş
+	Input low	Alt giriş
+	Input maps	Giriş haritaları
+	Insert a variable	Değişken ekle
+	Instance	Örnek
+	Instantiate across texture sets	Doku setleri genelinde örnekle
+	Intensity (texels at 2K)	Yoğunluk (2K'da teksel)
+	Interface scale	Arayüz ölçeği
+	Intersection: fill polygons the rectangle touches	Kesişim: dikdörtgenin dokunduğu poligonları doldur
+	Inverse Subtract	Ters Çıkarma
+	Inverse divide	Ters bölme
+	Invert mask	Maskeyi ters çevir
+	Invert mask background	Maske arka planını ters çevir
+	Invert mask value	Maske değerini ters çevir
+	Invert quick mask	Hızlı maskeyi ters çevir
+	Invert show/hide	Göster/gizle durumunu ters çevir
+	Jitters	Titremeler
+	Join the ArtCraft community on Discord	Discord'daki ArtCraft topluluğuna katılın
+	Join the community (Discord)...	Topluluğa katıl (Discord)...
+	Key light (shadow-casting light, direct only)	Ana ışık (gölge oluşturan ışık, yalnızca doğrudan)
+	Keyboard	Klavye
+	Keyboard shortcuts	Klavye kısayolları
+	LMB	Sol Tuş
+	Layer mask	Katman maskesi
+	Layer memory: {mb} MB	Katman belleği: {mb} MB
+	Lazy mouse	Gecikmeli fare
+	Lazy mouse distance	Gecikmeli fare mesafesi
+	Leather grain	Deri dokusu
+	Lens size: how quickly things blur away from the focus distance	Lens boyutu: nesnelerin odak uzaklığından uzaklaştıkça ne kadar hızlı bulanıklaşacağı
+	Lifetime (steps)	Yaşam süresi (adım)
+	Light / direction	Işık / yön
+	Light azimuth (degrees)	Işık azimutu (derece)
+	Light elevation (degrees)	Işık yüksekliği (derece)
+	Light intensity	Işık yoğunluğu
+	Lighten (Max)	Aydınlat (Maks)
+	Linear burn	Doğrusal yakma
+	Linear dodge (Add)	Doğrusal soldurma (Ekle)
+	Linear light	Doğrusal ışık
+	List of exports	Dışa aktarım listesi
+	Load Cage	Kafes Yükle
+	Load UI Layout	Arayüz Düzenini Yükle
+	Loaded UI layout {path}	Arayüz düzeni yüklendi: {path}
+	Lock Output Size	Çıktı Boyutunu Kilitle
+	Log	Günlük
+	Low Poly Mesh Suffix	Düşük Poligonlu Ağ Son Eki
+	MMB drag / Alt + MMB	Orta Tuş sürükle / Alt + Orta Tuş
+	Made by the ArtCraft team and community.	ArtCraft ekibi ve topluluğu tarafından yapılmıştır.
+	Magenta / green	Macenta / yeşil
+	Main shader	Ana gölgelendirici
+	Manipulator size	Manipülatör boyutu
+	Manual	Manuel
+	Marble veins	Mermer damarları
+	Mask Editor: Edge wear	Maske Düzenleyici: Kenar aşınması
+	Mask effects	Maske efektleri
+	Mask value (gray)	Maske değeri (gri)
+	Mask with height	Yükseklikle maskele
+	MatFinish Grind	MatFinish Taşlanmış
+	MatFinish Hammered	MatFinish Dövülmüş
+	MatFinish Raw	MatFinish Ham
+	MatFinish Sanded	MatFinish Zımparalanmış
+	Match	Eşleştirme
+	Material	Malzeme
+	Material Color	Malzeme Rengi
+	Material ball	Malzeme küresi
+	Material finish	Malzeme bitişi
+	MaterialCraft material	MaterialCraft malzemesi
+	MaterialX materials	MaterialX malzemeleri
+	Materials	Malzemeler
+	Max Frontal Distance	Maks. Ön Mesafe
+	Max Occluder Distance	Maks. Tıkayıcı Mesafesi
+	Max RAM while saving	Kaydederken maks. RAM
+	Max Rear Distance	Maks. Arka Mesafe
+	Max project size on open	Açılışta maks. proje boyutu
+	Maximum decompressed project data. Increase this limit to open larger projects.	Açılmış proje verisinin maksimum boyutu. Daha büyük projeleri açmak için bu sınırı artırın.
+	Medium dark	Orta koyu
+	Medium light	Orta açık
+	Mesh ID	Ağ ID
+	Mesh Map Bakers	Ağ Haritası Pişiricileri
+	Mesh Map Settings	Ağ Haritası Ayarları
+	Mesh Normals Based	Ağ Normalleri Tabanlı
+	Mesh fill	Ağ dolgusu
+	Mesh map: {map}	Ağ haritası: {map}
+	Mesh maps	Ağ haritaları
+	Mesh maps baked	Ağ haritaları pişirildi
+	Meshes	Ağlar
+	Metallic	Metaliklik
+	Min Occluder Distance	Minimum Tıkayıcı Mesafesi
+	Minimum size (%)	Minimum boyut (%)
+	Mirror symmetry	Ayna simetrisi
+	Missing (bake to create)	Eksik (oluşturmak için pişirin)
+	Mixed AO	Karma AO
+	More in Assets > Alphas: click one, or drag it here	Daha fazlası Varlıklar > Alfalar altında: birine tıklayın veya buraya sürükleyin
+	Move down	Aşağı taşı
+	Move up	Yukarı taşı
+	Moves the surface by the height channel on a finer copy of the mesh, at the height to normal strength (viewport only: painting follows the base surface)	Yüzeyi, ağın daha ince bir kopyası üzerinde yükseklikten normale yoğunluğuyla yükseklik kanalına göre kaydırır (yalnızca görünüm alanı: boyama temel yüzeyi izler)
+	My brushes	Fırçalarım
+	My smart materials	Akıllı malzemelerim
+	Name each file after its texture set, like Body_normal.png	Her dosyayı Body_normal.png gibi kendi doku kümesine göre adlandırın
+	New project	Yeni proje
+	New project...	Yeni proje...
+	New template	Yeni şablon
+	No GPU renderer available	Kullanılabilir GPU işleyicisi yok
+	No High-Poly Meshes	Yüksek Poligonlu Ağ Yok
+	No Parameters	Parametre Yok
+	No UV tiles	UV karosu yok
+	No font on this system can show this language	Bu sistemdeki hiçbir yazı tipi bu dili gösteremiyor
+	No outputs yet: add one above, then drag input maps onto its channels.	Henüz çıktı yok: yukarıdan bir tane ekleyin, ardından girdi haritalarını kanallarına sürükleyin.
+	No padding (passthrough)	Dolgu yok (doğrudan geçiş)
+	No recent projects yet	Henüz son proje yok
+	Noise amount	Gürültü miktarı
+	Noise scale	Gürültü ölçeği
+	Normal DirectX	Normal DirectX
+	Normal Invert	Normali Ters Çevir
+	Normal OpenGL	Normal OpenGL
+	Normal from height	Yükseklikten normal
+	Normal map combine	Normal haritası birleştirme
+	Normal map detail	Normal haritası detayı
+	Normal map format	Normal haritası biçimi
+	Normal map inverse detail	Normal haritası ters detayı
+	Normal: painting uses the flat normal	Normal: boyama düz normali kullanır
+	Normalization	Normalleştirme
+	Normalization Scale	Normalleştirme Ölçeği
+	Normalization Type	Normalleştirme Türü
+	Not enough GPU memory to show texture set "{name}" fully: lower the viewport Texture resolution in Settings. Painting and export are not affected.	"{name}" doku kümesini tam olarak göstermek için yeterli GPU belleği yok: Ayarlar'dan görünüm alanı Doku çözünürlüğünü düşürün. Boyama ve dışa aktarma bundan etkilenmez.
+	Not enough GPU memory to show {count} texture sets fully ({names}): lower the viewport Texture resolution in Settings. Painting and export are not affected.	{count} doku kümesini ({names}) tam olarak göstermek için yeterli GPU belleği yok: Ayarlar'dan görünüm alanı Doku çözünürlüğünü düşürün. Boyama ve dışa aktarma bundan etkilenmez.
+	Not exported: no source in this texture set	Dışa aktarılmadı: bu doku kümesinde kaynak yok
+	Not imported: {files}	İçe aktarılmadı: {files}
+	Not saved: {error}	Kaydedilmedi: {error}
+	Offset right	Sağa kaydır
+	Offset up	Yukarı kaydır
+	Offset {axis}	{axis} kaydır
+	Offsets the textures by the height channel, at the height to normal strength	Dokuları, yükseklikten normale yoğunluğuyla yükseklik kanalına göre kaydırır
+	Only Same Mesh Name	Yalnızca Aynı Ağ Adı
+	Open in MaterialCraft	MaterialCraft'ta Aç
+	Open sample project...	Örnek proje aç...
+	Open...	Aç...
+	Opened in MaterialCraft: use File > Send to TextureCraft there to bring your changes back	MaterialCraft'ta açıldı: değişikliklerinizi geri getirmek için orada Dosya > TextureCraft'a Gönder'i kullanın
+	Opened {name}	{name} açıldı
+	Optional channels add a clear coat (Coat weight, Coat roughness, Coat normal), sheen (Sheen weight, color, roughness), anisotropy (Anisotropy level, angle), subsurface scattering (Scattering weight) and transmission (Transmission).	İsteğe bağlı kanallar şeffaf kaplama (Kaplama ağırlığı, Kaplama pürüzlülüğü, Kaplama normali), parlaklık (Parlaklık ağırlığı, rengi, pürüzlülüğü), anizotropi (Anizotropi düzeyi, açısı), yüzey altı saçılma (Saçılma ağırlığı) ve geçirgenlik (Geçirgenlik) ekler.
+	Orbit	Yörünge
+	Orthographic	Ortografik
+	Output Size	Çıktı Boyutu
+	Output directory	Çıktı dizini
+	Output high	Yüksek çıktı
+	Output low	Düşük çıktı
+	Output template	Çıktı şablonu
+	Output templates	Çıktı şablonları
+	Overlay opacity	Kaplama opaklığı
+	PBR - Metallic Roughness (TextureCraft)	PBR - Metaliklik Pürüzlülük (TextureCraft)
+	PNG image	PNG görüntüsü
+	PROJECT SETTINGS	PROJE AYARLARI
+	Padding	Dolgu
+	Paint	Boya
+	Paint Cage	Boya Kafesi
+	Paint Skew Correction	Eğrilik Düzeltmesi Boya
+	Paint chips	Boya dökülmeleri
+	Paint layer	Boya katmanı
+	Paint on the mesh to edit the layer content.	Katman içeriğini düzenlemek için ağın üzerine boyayın.
+	Paint on the mesh to edit this mask. Use the Material tab's mask value for gray.	Bu maskeyi düzenlemek için ağın üzerine boyayın. Gri için Malzeme sekmesindeki maske değerini kullanın.
+	Paint with the current tool	Geçerli araçla boya
+	Painted layer pixels {pixels} MB, composited channels {composites} MB, compositing cache {cache} MB	Boyalı katman pikselleri {pixels} MB, birleştirilmiş kanallar {composites} MB, birleştirme önbelleği {cache} MB
+	Painted strokes follow the surface when the new mesh's UVs differ	Yeni ağın UV'leri farklı olduğunda boyanan fırça darbeleri yüzeyi izler
+	Painting is paused while a bake is shown. Cancel the bake or wait for it to finish.	Doku pişirme gösterilirken boyama duraklatılır. Pişirmeyi iptal edin veya bitmesini bekleyin.
+	Pan	Kaydır
+	Parallax occlusion (height channel)	Paralaks tıkanıklığı (yükseklik kanalı)
+	Parameters change in the desktop app, with MaterialCraft installed	Parametreler, MaterialCraft kurulu olduğunda masaüstü uygulamasında değişir
+	Partial mask values follow the layer's height: high parts show first	Kısmi maske değerleri katmanın yüksekliğini izler: yüksek kısımlar önce görünür
+	Particle brush (slides down the surface)	Parçacık fırçası (yüzeyden aşağı kayar)
+	Particle brush: particles slide down the surface	Parçacık fırçası: parçacıklar yüzeyden aşağı kayar
+	Particles	Parçacıklar
+	Passthrough	Doğrudan geçiş
+	Paste as instance	Örnek olarak yapıştır
+	Paste effect	Efekti yapıştır
+	Paste layer(s)	Katman(lar)ı yapıştır
+	Path trace on the processor instead of the graphics card (slower)	Yol izlemeyi grafik kartı yerine işlemcide çalıştır (daha yavaş)
+	Path: click adds a point, click the curve inserts one, drag moves it, Enter applies, Esc cancels	Yol: tıklama nokta ekler, eğriye tıklama araya ekler, sürükleme taşır, Enter uygular, Esc iptal eder
+	Paths stay editable: pick one to move its points or change its brush and material, and the sublayer repaints at once. Add paths with the Path tool.	Yollar düzenlenebilir kalır: noktalarını taşımak veya fırçasını ve malzemesini değiştirmek için birini seçin, alt katman anında yeniden boyanır. Yol aracıyla yol ekleyin.
+	Pattern scale	Desen ölçeği
+	Per Material	Malzeme Başına
+	Perlin noise	Perlin gürültüsü
+	Pick color	Renk seç
+	Pick focus in the viewport	Görünüm alanında odak seç
+	Pin light	Sabit ışık
+	Place as decal	Çıkartma olarak yerleştir
+	Place on the surface	Yüzeye yerleştir
+	Place path points on the mesh	Yol noktalarını ağın üzerine yerleştir
+	Planar projection	Düzlemsel izdüşüm
+	Plane	Düzlem
+	Polygon fill	Çokgen dolgusu
+	Pores	Gözenekler
+	Position gradient	Konum gradyanı
+	Position jitter	Konum sapması
+	Preserve stroke positions on mesh	Ağ üzerindeki darbe konumlarını koru
+	Press a key...	Bir tuşa basın...
+	Procedurals	Prosedüreller
+	Project	Proje
+	Project Configuration...	Proje Yapılandırması...
+	Project Mesh (LP)	Proje Ağı (LP)
+	Project configuration	Proje yapılandırması
+	Project opened	Proje açıldı
+	Project template	Proje şablonu
+	Projection	İzdüşüm
+	Projects and meshes	Projeler ve ağlar
+	Quarter	Çeyrek
+	Quick mask	Hızlı maske
+	Quit	Çık
+	RENDERING	İŞLEME
+	Radial settings	Radyal ayarlar
+	Radial symmetry	Radyal simetri
+	Radius (texels at 2K)	Yarıçap (2K'da teksel)
+	Raw curvature	Ham eğrilik
+	Re-cook	Yeniden işle
+	Read the mesh file again, keeping the layers and painted strokes	Katmanları ve boyanan darbeleri koruyarak ağ dosyasını yeniden oku
+	Reads the curvature map as baked: changing the mode or a size turns detail sizes on.	Eğrilik haritasını pişirildiği gibi okur: modu veya bir boyutu değiştirmek ayrıntı boyutlarını açar.
+	Rebind any menu item, tool or command	Herhangi bir menü öğesini, aracı veya komutu yeniden ata
+	Recent projects	Son projeler
+	Records the stack up to this layer. Fill effects in masks (and fill layers) above can read it as a source.	Bu katmana kadar olan yığını kaydeder. Yukarıdaki maskelerdeki (ve dolgu katmanlarındaki) dolgu efektleri bunu kaynak olarak okuyabilir.
+	Rectangle fill	Dikdörtgen dolgu
+	Reimport mesh	Ağı yeniden içe aktar
+	Relative to Bounding Box	Sınırlayıcı Kutuya Göre
+	Relative to Low Mesh	Düşük Ağa Göre
+	Relative to Min/Max	Min/Maks Değerine Göre
+	Relative to Ray Distances	Işın Mesafelerine Göre
+	Relative to the bounding box diagonal.	Sınırlayıcı kutu köşegenine göre.
+	Remove Cage	Kafesi Kaldır
+	Remove Skew Correction	Eğiklik Düzeltmesini Kaldır
+	Remove channel	Kanalı kaldır
+	Remove effect	Efekti kaldır
+	Remove last	Sonuncuyu kaldır
+	Remove layer	Katmanı kaldır
+	Remove layer(s)	Katman(lar)ı kaldır
+	Remove mask	Maskeyi kaldır
+	Remove point	Noktayı kaldır
+	Remove resolution override	Çözünürlük geçersiz kılmasını kaldır
+	Remove resource	Kaynağı kaldır
+	Remove skew correction	Eğiklik düzeltmesini kaldır
+	Remove the shortcut	Kısayolu kaldır
+	Remove this output	Bu çıktıyı kaldır
+	Remove unused resources...	Kullanılmayan kaynakları kaldır...
+	Rename the selected template	Seçili şablonu yeniden adlandır
+	Render on the CPU	CPU'da işle
+	Rendering	İşleniyor
+	Rendering (path traced)	İşleniyor (yol izlemeli)
+	Rendering on CPU: {n} / {max} samples, {s} s	CPU'da işleniyor: {n} / {max} örnek, {s} sn
+	Rendering on GPU: {n} / {max} samples, {s} s	GPU'da işleniyor: {n} / {max} örnek, {s} sn
+	Rendering, path traced	İşleniyor, yol izlemeli
+	Replace Color	Rengi Değiştir
+	Replacement color	Değiştirme rengi
+	Report a bug...	Hata bildir...
+	Rescan the library folder	Kitaplık klasörünü yeniden tara
+	Reset Painted Cage	Boyanmış Kafesi Sıfırla
+	Reset UI	Arayüzü Sıfırla
+	Reset all	Tümünü sıfırla
+	Reset to defaults	Varsayılanlara sıfırla
+	Reset to {shortcut}	{shortcut} olarak sıfırla
+	Resizing	Yeniden boyutlandırma
+	Restore Defaults	Varsayılanları Geri Yükle
+	Restore every default shortcut	Tüm varsayılan kısayolları geri yükle
+	Return to Painting Mode	Boyama Moduna Dön
+	Return to this step	Bu adıma dön
+	Right-click a layer > Create smart material	Bir katmana sağ tıklayın > Akıllı malzeme oluştur
+	Rotation (degrees)	Döndürme (derece)
+	Roughness	Pürüzlülük
+	Roughness from glossiness	Parlaklıktan pürüzlülük
+	Round	Yuvarlak
+	Rounded cube	Yuvarlatılmış küp
+	Samples	Örnekler
+	Sampling Radius	Örnekleme Yarıçapı
+	Save UI Layout	Arayüz Düzenini Kaydet
+	Save a copy...	Kopyasını kaydet...
+	Save as...	Farklı kaydet...
+	Save current brush	Geçerli fırçayı kaydet
+	Save current layout...	Geçerli düzeni kaydet...
+	Save current project as template	Geçerli projeyi şablon olarak kaydet
+	Save render...	İşlemeyi kaydet...
+	Save the changes to {name} before closing?	{name} üzerindeki değişiklikler kapatılmadan önce kaydedilsin mi?
+	Save the changes to {name} first?	Önce {name} üzerindeki değişiklikler kaydedilsin mi?
+	Save view as camera	Görünümü kamera olarak kaydet
+	Saved UI layout {path}	Arayüz düzeni kaydedildi: {path}
+	Saved {path}	Kaydedildi: {path}
+	Saving UI layouts to files is available in the desktop app	Arayüz düzenlerini dosyalara kaydetme özelliği masaüstü uygulamasında kullanılabilir
+	Saving uses the other cores and at most this share of the free RAM. At least one core always works.	Kaydetme işlemi diğer çekirdekleri ve boş RAM'in en fazla bu kadarını kullanır. En az bir çekirdek her zaman çalışır.
+	Scale / tiling	Ölçek / döşeme
+	Scaling Divisor	Ölçekleme Böleni
+	Scatter color	Saçılma rengi
+	Scatter radius	Saçılma yarıçapı
+	Scattering weight	Saçılma ağırlığı
+	Scratches	Çizikler
+	Screenshot of the viewport	Görünüm alanının ekran görüntüsü
+	Seams Intensity	Dikiş Yoğunluğu
+	Search all assets	Tüm varlıklarda ara
+	Search commands or keys	Komut veya tuş ara
+	Secondary Rays	İkincil Işınlar
+	Seed	Tohum
+	Select a layer	Bir katman seçin
+	Select a paint layer or a layer's mask to fill	Doldurmak için bir boya katmanı veya bir katmanın maskesini seçin
+	Select an output template	Bir çıktı şablonu seçin
+	Select source	Kaynak seç
+	Select the layer content	Katman içeriğini seç
+	Select the mask (Alt+click: show it in the viewport)	Maskeyi seçin (Alt+tıklama: görünüm alanında göster)
+	Select...	Seç...
+	Selection mode	Seçim modu
+	Self Intersection	Kendisiyle Kesişim
+	Self Occlusion	Öz Tıkanıklık
+	Settings...	Ayarlar...
+	Shader Settings	Gölgelendirici Ayarları
+	Shader instance	Gölgelendirici örneği
+	Sheen color	Parıltı rengi
+	Sheen color × weight	Parıltı rengi × ağırlığı
+	Sheen roughness	Parıltı pürüzlülüğü
+	Sheen weight	Parıltı ağırlığı
+	Shift + wheel	Shift + tekerlek
+	Shortcuts list...	Kısayollar listesi...
+	Show UV wireframe in the 2D view	2B görünümde UV tel kafesini göster
+	Show all	Tümünü göster
+	Show at startup	Başlangıçta göster
+	Show axis	Ekseni göster
+	Show axis position manipulator	Eksen konumu tutamacını göster
+	Show cursor	İmleci göster
+	Show entire mesh	Tüm ağı göster
+	Show for Selected Texture Set Only	Yalnızca Seçili Doku Kümesi İçin Göster
+	Show intersection	Kesişimi göster
+	Show log...	Günlüğü göster...
+	Show on all parts	Tüm parçalarda göster
+	Show or hide texture sets	Doku setlerini göster veya gizle
+	Show or hide the layer	Katmanı göster veya gizle
+	Show or hide the texture set	Doku setini göster veya gizle
+	Show plane	Düzlemi göster
+	Show wireframe in the 3D view	3B görünümde tel kafesi göster
+	Signed addition (AddSub)	İşaretli toplama (AddSub)
+	Size in screen space	Ekran uzayında boyut
+	Size jitter	Boyut titremesi
+	Size of the textures the viewport shows: lower uses less GPU memory with large texture sets. Painting and export keep full resolution.	Görünüm alanının gösterdiği dokuların boyutu: Daha düşük değerler büyük doku setlerinde daha az GPU belleği kullanır. Boyama ve dışa aktarma tam çözünürlüğü korur.
+	Skew Correction	Çarpıklık Düzeltme
+	Skew Correction Method	Çarpıklık Düzeltme Yöntemi
+	Slope Blur	Eğim Bulanıklığı
+	Slope scale	Eğim ölçeği
+	Smart masks	Akıllı maskeler
+	Smart material saved to {path}	Akıllı malzeme {path} konumuna kaydedildi
+	Smart materials	Akıllı malzemeler
+	Smooth	Yumuşat
+	Smudge	Bulaştır
+	Soft light	Yumuşak ışık
+	Source  U {u}  V {v}	Kaynak  U {u}  V {v}
+	Specular	Aynasal
+	Specular level	Aynasal seviye
+	Sphere	Küre
+	Spherical projection	Küresel izdüşüm
+	Spray	Püskürtme
+	Spread Angle	Yayılma Açısı
+	Stamp depth	Damga derinliği
+	Start window	Başlangıç penceresi
+	Starting render...	İşleme başlatılıyor...
+	Stencil	Şablon
+	Steps	Adımlar
+	Streaks	Çizgiler
+	Stripes	Şeritler
+	Stroke opacity	Fırça darbesi opaklığı
+	Submesh	Alt ağ
+	Subsampling 2x2	Alt örnekleme 2x2
+	Subsampling 4x4	Alt örnekleme 4x4
+	Subsampling 8x8	Alt örnekleme 8x8
+	Subsurface scattering	Yüzey altı saçılımı
+	Symmetry	Simetri
+	Symmetry color display	Simetri renk gösterimi
+	Symmetry settings	Simetri ayarları
+	System title bar (applies on restart)	Sistem başlık çubuğu (yeniden başlatmada uygulanır)
+	Tangent | Wrap	Teğet | Sarma
+	Template name	Şablon adı
+	Temporal anti-aliasing (refines the 3D view while it is still)	Zamansal kenar yumuşatma (hareketsizken 3B görünümü iyileştirir)
+	Texture Set Settings	Doku Seti Ayarları
+	Texture Sets	Doku Setleri
+	Texture resolution	Doku çözünürlüğü
+	Texture set channels	Doku seti kanalları
+	Texture set resolution	Doku seti çözünürlüğü
+	Texture sets	Doku setleri
+	TextureCraft PBR - Metallic Roughness	TextureCraft PBR - Metaliklik Pürüzlülük
+	TextureCraft PBR - Specular Glossiness	TextureCraft PBR - Aynasal Parlaklık
+	TextureCraft had to close:	TextureCraft kapatılmak zorunda kaldı:
+	TextureCraft project	TextureCraft projesi
+	TextureCraft project or mesh	TextureCraft projesi veya 3B ağ
+	Textures	Dokular
+	Textures embedded; for game engines and most viewers	Dokular gömülü; oyun motorları ve çoğu görüntüleyici için
+	Textures packaged; for USD tools and AR Quick Look	Dokular paketlenmiş; USD araçları ve AR Quick Look için
+	The GPU couldn't render this scene: {error}	GPU bu sahneyi işleyemedi: {error}
+	The UV tiles (UDIMs) of each texture set, shown for reference. Change them in Texture Set Settings.	Her doku setinin referans olarak gösterilen UV karoları (UDIM'ler). Bunları Doku Seti Ayarları'ndan değiştirin.
+	The bake worker stopped	Doku pişirme çalışanı durdu
+	The eraser removes paint from the enabled channels.	Silgi, etkin kanallardaki boyayı kaldırır.
+	The file dialog couldn't be shown: {error}	Dosya iletişim kutusu gösterilemedi: {error}
+	The first stroke sets the offset from the source.	İlk fırça darbesi kaynaktan uzaklığı ayarlar.
+	The image's alpha cuts the decal's shape; faces turned away and surfaces beyond its depth stay clear.	Görüntünün alfa kanalı çıkartmanın şeklini keser; arkaya dönük yüzler ve derinliğinin ötesindeki yüzeyler temiz kalır.
+	The mesh file the project is built on. Hover the path to see it in full.	Projenin üzerine kurulduğu 3B ağ dosyası. Tamamını görmek için yolun üzerine gelin.
+	The next click in the 3D view moves the decal there	3B görünümdeki bir sonraki tıklama çıkartmayı oraya taşır
+	The project changed while the dialog was open, so nothing was done	İletişim kutusu açıkken proje değiştiği için hiçbir işlem yapılmadı
+	The resize worker stopped	Yeniden boyutlandırma çalışanı durdu
+	There is no mesh file to read again. Select one.	Yeniden okunacak bir 3B ağ dosyası yok. Bir tane seçin.
+	Thin areas	İnce alanlar
+	Tiles	Karolar
+	Title bar	Başlık çubuğu
+	Toggle mask	Maskeyi aç/kapat
+	Tone mapping	Ton eşleme
+	Torus	Torus
+	Transmission	Geçirgenlik
+	Tri-planar projection	Üç düzlemli izdüşüm
+	Triangle fill	Üçgen doldurma
+	Triangle fills single triangles, Polygon whole quads and n-gons, Mesh the connected geometry, UV island the UV islands	Üçgen tek üçgenleri, Çokgen tüm dörtgenleri ve n-genleri, Ağ bağlı geometriyi, UV adası ise UV adalarını doldurur
+	Twill weave	Dimi örgü
+	UDIM plane	UDIM düzlemi
+	UDIM tiles painted by this texture set, each at the set's size	Bu doku seti tarafından boyanan, her biri setin boyutunda olan UDIM karoları
+	UI layout	Arayüz düzeni
+	UI layout: {error}	Arayüz düzeni: {error}
+	UI layouts	Arayüz düzenleri
+	UI {ms} ms	Arayüz {ms} ms
+	USD binary, textures alongside	İkili USD, dokular yanında
+	USD text, textures alongside	Metin USD, dokular yanında
+	USDZ with textures	Dokularla birlikte USDZ
+	UV Seams	UV Dikişleri
+	UV Tile settings (UDIMs)	UV Karo ayarları (UDIM'ler)
+	UV checker	UV kontrol deseni
+	UV island fill	UV adası doldurma
+	UV projection	UV izdüşümü
+	UV tile {tile} resolution	UV karosu {tile} çözünürlüğü
+	UV tiles	UV karoları
+	UV tiles (UDIM)	UV karoları (UDIM)
+	UV transformations	UV dönüşümleri
+	Uniform value	Tekdüze değer
+	Use Low Poly Mesh as High Poly Mesh	Düşük Poligonlu Ağı Yüksek Poligonlu Ağ Olarak Kullan
+	Use an equirectangular .hdr or .exr image as the environment	Ortam olarak eşdikdörtgen bir .hdr veya .exr görüntüsü kullanın
+	Use as brush alpha	Fırça alfası olarak kullan
+	Use the control channel or `texturecraft-cli render` for screenshots	Ekran görüntüleri için denetim kanalını veya `texturecraft-cli render` komutunu kullanın
+	Use the operating system's window frame and buttons instead of TextureCraft's own title bar	TextureCraft'ın kendi başlık çubuğu yerine işletim sisteminin pencere çerçevesini ve düğmelerini kullan
+	Use this brush (keeps its size)	Bu fırçayı kullan (boyutunu korur)
+	Value Bounds Max	Değer Sınırları Maks
+	Value Bounds Min	Değer Sınırları Min
+	Version: {version} ({gpu})	Sürüm: {version} ({gpu})
+	Vertex Color	Köşe Rengi
+	View through this camera	Bu kameradan görüntüle
+	Viewer settings	Görüntüleyici ayarları
+	Viewport	Görünüm alanı
+	Viewport and brush (fixed)	Görünüm alanı ve fırça (sabit)
+	Views	Görünümler
+	Visible polygons only	Yalnızca görünür poligonlar
+	Vivid light	Canlı ışık
+	Voronoi	Voronoi
+	Warp Directional	Yönlü Çarpıtma
+	Wavefront OBJ with MTL, textures alongside	MTL ve yanında dokularla Wavefront OBJ
+	WebGPU isn't available in this browser, so TextureCraft runs on WebGL2: Rendering mode path traces on the CPU (slower) and large texture sets show at reduced resolution. A current Chrome, Edge or Safari has WebGPU.	Bu tarayıcıda WebGPU kullanılamıyor, bu nedenle TextureCraft, WebGL2 üzerinde çalışıyor: İşleme modu CPU üzerinde yol izleme yapar (daha yavaş) ve büyük doku kümeleri düşürülmüş çözünürlükte gösterilir. Güncel Chrome, Edge veya Safari WebGPU destekler.
+	What the 3D view shows while the bake runs: the newest finished map, one finished map, or the material. Maps not baked yet show a neutral value.	Doku pişirme sürerken 3B görünümün ne göstereceği: tamamlanan en yeni harita, tamamlanmış tek bir harita veya malzeme. Henüz pişirilmemiş haritalar nötr bir değer gösterir.
+	Wheel / Alt + RMB drag	Tekerlek / Alt + Sağ Tık sürükleme
+	Width (texels at 2K)	Genişlik (2K'da teksel)
+	Wood grain	Ahşap damarı
+	Works in texture space, like the blur: it does not cross UV seams.	Bulanıklaştırma gibi doku uzayında çalışır: UV dikişlerini geçmez.
+	World Space Normal	Dünya Uzayı Normali
+	Yellow / blue	Sarı / mavi
+	a missing layer	eksik bir katman
+	aniso	anizo
+	aniso angle	anizo açısı
+	ao	ortam tık.
+	coat	kaplama
+	coat nrm	kaplama nrm
+	coat rough	kaplama pürüz.
+	color	renk
+	emiss	ışıma
+	glTF binary with textures	Dokularla ikili glTF
+	gloss	parlaklık
+	height	yükseklik
+	metal	metal
+	min	min
+	missing	eksik
+	missing source	eksik kaynak
+	no GPU	GPU yok
+	none	yok
+	nrm	nrm
+	off	kapalı
+	op	opak.
+	rough	pürüz.
+	scatter	saçılım
+	sheen	parıltı
+	sheen color	parıltı rengi
+	sheen rough	parıltı pürüz.
+	spec	yans.
+	specular	yansıma
+	transm	geçirg.
+	{action} (undone)	{action} (geri alındı)
+	{count} effects	{count} efekt
+	{file}: add above the selected layer (or drag it into the layer stack or onto the viewport)	{file}: seçili katmanın üzerine ekle (veya katman yığınına ya da görünüm alanına sürükle)
+	{name} copy	{name} kopyası
+	{n} bits	{n} bit
+	{n} control points. Click the mesh (or the 2D view) to add points and drag them to adjust; click the first point to close the path. Enter paints it with the brush (a closed, filled path fills its inside), Esc cancels.	{n} kontrol noktası. Nokta eklemek için 3B ağa (veya 2B görünüme) tıklayın ve ayarlamak için sürükleyin; yolu kapatmak için ilk noktaya tıklayın. Enter fırçayla boyar (kapalı, dolgulu yol içini doldurur), Esc iptal eder.
+	{n} items share a shortcut; the first one listed wins.	{n} öğe aynı kısayolu paylaşıyor; listede ilk sırada olan geçerli olur.
+	{pattern} (scale {scale}, seed {seed})	{pattern} (ölçek {scale}, tohum {seed})

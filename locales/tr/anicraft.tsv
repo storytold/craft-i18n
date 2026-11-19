@@ -1,0 +1,1710 @@
+# Türkçe (tr) interface catalog for AniCraft.
+# Columns, separated by a TAB:  context <TAB> English source text <TAB> translation
+#   context  usually empty. `@plural`, `@id` and `@msg` mean something to the apps; any other
+#            word is a label that tells apart two meanings of the same English.
+#   escapes  \n  \t  \\  inside a column. `{name}` placeholders must appear in both columns (in any
+#            order), and a trailing "…" in one needs one in the other.
+#   @plural  English `one|other`; the translation lists this language's plural forms, `|`-separated.
+#   Lines starting with # and blank lines are ignored. A missing entry shows in English.
+#
+# Clean room: every entry was written from the plain meaning of the English text in ordinary
+# computing vocabulary. No other product's localisation, string table or translated UI was
+# consulted or copied; add entries the same way.
+
+	$1 puts back a group	$1 bir grubu geri getirir
+	+ Layer	+ Katman
+	// Type or paste a frame script	// Bir kare betiği yazın veya yapıştırın
+	1 minute	1 dakika
+	10 minutes	10 dakika
+	100 %: as wide as it is tall. Less flattens the tip, for calligraphic strokes	%100: yüksekliği kadar geniş. Daha düşük değerler kaligrafik konturlar için ucu yassılaştırır
+	2 minutes	2 dakika
+	30 seconds	30 saniye
+	32-bit float	32 bit kayan nokta
+	5 minutes	5 dakika
+	9-Slice Scaling	9 Dilimli Ölçekleme
+	A 1080 × 1080 post at 30 fps, 15 seconds long, with a safe margin and thirds on a guide layer	30 fps'de 15 saniye uzunluğunda, kılavuz katmanında güvenli kenar boşluğu ve üçler kuralı çizgileri bulunan 1080 × 1080 gönderi
+	A 300 × 250 web banner at 24 fps, 15 seconds long, with its safe area on a guide layer	24 fps'de 15 saniye uzunluğunda, kılavuz katmanında güvenli alanı bulunan 300 × 250 web afişi
+	A 728 × 90 web banner at 24 fps, 15 seconds long, with its safe area on a guide layer	24 fps'de 15 saniye uzunluğunda, kılavuz katmanında güvenli alanı bulunan 728 × 90 web afişi
+	A Lottie animation (JSON) for web and apps.	Web ve uygulamalar için bir Lottie animasyonu (JSON).
+	A Mouth graphic symbol with ten labelled mouth shapes to redraw, placed on a face guide	Yüz kılavuzu üzerine yerleştirilmiş, yeniden çizilebilecek on etiketli ağız şekline sahip bir Ağız grafik sembolü
+	A bone ends on another symbol instance: release over the instance it should move.	Bir kemik başka bir sembol örneğinin üzerinde sonlanıyor: hareket ettirmesi gereken örneğin üzerinde bırakın.
+	A frame script: it runs while the movie plays. Pick it for a keyframe in the Actions panel (F9)	Kare betiği: film oynatılırken çalışır. Eylemler panelinde (F9) bir anahtar kare için seçin
+	A list of actions, in order	Sıralı eylem listesi
+	A pattern such as h.llo or \\d+ (Rust regex syntax; runs in linear time)	h.llo veya \\d+ gibi bir desen (Rust düzenli ifade sözdizimi; doğrusal zamanda çalışır)
+	A pinned bone, and the bones it hangs from, stay put while you drag the bones below it	Sabitlenmiş bir kemik ve bağlı olduğu üst kemikler, altındaki kemikleri sürüklediğinizde yerinde kalır
+	A recovery copy of your unsaved work. If AniCraft closes unexpectedly, the next start offers it back.	Kaydedilmemiş çalışmanızın bir kurtarma kopyası. AniCraft beklenmedik şekilde kapanırsa, bir sonraki açılışta geri yüklemeniz için sunulur.
+	A round eraser	Yuvarlak silgi
+	A round or oval tip	Yuvarlak veya oval uç
+	A script runs only when all of it is in the ActionScript 3.0 subset AniCraft runs: timeline control (stop, play, go to a frame or label), mouse listeners, trace, and setting x, y, alpha, visible, rotation and scale on named instances. Until then it is kept as written and doesn't run.	Bir betik yalnızca tamamı AniCraft'ın çalıştırdığı ActionScript 3.0 alt kümesindeyse çalışır: zaman çizelgesi denetimi (stop, play, bir kareye veya etikete gitme), fare dinleyicileri, trace ve adlandırılmış örneklerde x, y, alpha, visible, rotation ile scale özelliklerini ayarlama. Aksi halde yazıldığı gibi saklanır ve çalıştırılmaz.
+	A short animation to look at and take apart	İnceleyip parçalara ayırabileceğiniz kısa bir animasyon
+	A sound keeps at least one point	Bir seste en az bir nokta korunur
+	A square eraser	Kare silgi
+	A square or flat tip	Kare veya düz uç
+	A template called “{name}” is in this category already: saving asks to replace it.	Bu kategoride zaten “{name}” adlı bir şablon var: kaydettiğinizde değiştirilip değiştirilmeyeceği sorulur.
+	ANICRAFT_STAGE_RENDERER is set, and it takes precedence over this choice.	ANICRAFT_STAGE_RENDERER ayarlanmış ve bu seçime göre önceliklidir.
+	About AniCraft	AniCraft Hakkında
+	ActionScript 1.0 & 2.0	ActionScript 1.0 ve 2.0
+	ActionScript 3.0	ActionScript 3.0
+	Actions Panel	Eylemler Paneli
+	Actions…	Eylemler…
+	Actual size (100%)	Gerçek boyut (%100)
+	Add Anchor Point	Bağlantı Noktası Ekle
+	Add Bone	Kemik Ekle
+	Add Camera	Kamera Ekle
+	Add Classic Motion Guide	Klasik Hareket Kılavuzu Ekle
+	Add Colour Effect	Renk Efekti Ekle
+	Add Envelope Point	Zarf Noktası Ekle
+	Add Motion Path Point	Hareket Yolu Noktası Ekle
+	Add Shape Hint	Şekil İpucu Ekle
+	Add a point where the object is on frame {frame}, pinned to it: nothing moves now, and the object passes the point then however the path is edited	Nesnenin {frame}. karedeki konumuna sabitlenmiş bir nokta ekler: şu anda hiçbir şey hareket etmez ve yol nasıl düzenlenirse düzenlensin nesne o noktadan geçer
+	Add a shortcut	Kısayol ekle
+	Add a shortcut for {action}	{action} için kısayol ekle
+	Add a {property} keyframe at frame {frame}	{frame}. kareye {property} anahtar karesi ekle
+	Add action	Eylem ekle
+	Add another shortcut	Başka bir kısayol ekle
+	Add another shortcut for {action}	{action} için başka bir kısayol ekle
+	Add camera	Kamera ekle
+	Add colour stop	Renk durağı ekle
+	Add event	Olay ekle
+	Add filter	Filtre ekle
+	Add to / remove from selection	Seçime ekle / seçimden çıkar
+	Add {what} to the Library	Kitaplığa {what} ekle
+	Add {what} to “{folder}”	“{folder}” klasörüne {what} ekle
+	Added a camera. Drag on the stage to pan it, turn it with the round handle, zoom with the wheel. {undo} to undo.	Kamera eklendi. Kaydırmak için sahnede sürükleyin, yuvarlak tutamaçla döndürün, tekerlekle yakınlaştırın. Geri almak için {undo}.
+	Added a point to the motion path. {undo} to undo.	Hareket yoluna bir nokta eklendi. Geri almak için {undo}.
+	Added a point. {undo} to undo.	Bir nokta eklendi. Geri almak için {undo}.
+	Added shape hint {letter}: drag it onto an edge here, then onto the matching edge on the tween's last keyframe.	{letter} şekil ipucu eklendi: burada bir kenara, ardından ara karenin son anahtar karesindeki eşleşen kenara sürükleyin.
+	Added the graphic symbol “{name}” to the Library. Drag it to the stage to place it.	“{name}” grafik sembolü Kitaplığa eklendi. Yerleştirmek için sahneye sürükleyin.
+	Adds it at the centre of the view, on the active layer (Enter, or drag it onto the stage)	Etkin katmanda, görünümün ortasına ekler (Enter veya sahneye sürükleyin)
+	Adjust Color	Rengi Ayarla
+	Adjust colour	Rengi ayarla
+	Advertising	Reklamcılık
+	After	Sonra
+	After colour	Sonraki renk
+	Agent / contributor guide	Aracı / katkıda bulunan kılavuzu
+	Align centre	Ortaya hizala
+	Align on Multiple Frames	Birden Çok Karede Hizala
+	Align to Stage On / Off	Sahneye Hizalamayı Aç / Kapat
+	Align to the stage instead of the selection's bounds (a single shape always aligns to the stage)	Seçimin sınırları yerine sahneye hizala (tek bir şekil her zaman sahneye hizalanır)
+	Align: to stage	Hizala: sahneye
+	Align: to the selection	Hizala: seçime
+	All scenes	Tüm sahneler
+	Allow Smoothing	Yumuşatmaya İzin Ver
+	Allow smoothing	Yumuşatmaya izin ver
+	Alpha multiplier	Alfa çarpanı
+	Alpha offset	Alfa sapması
+	Also morphs one shape into another	Ayrıca bir şekli diğerine dönüştürür
+	Always Show Markers	İşaretçileri Her Zaman Göster
+	Always render off the UI thread. The window never waits; the picture can trail by a frame.	Her zaman arayüz iş parçacığı dışında işle. Pencere hiç beklemez; görüntü bir kare geriden gelebilir.
+	An AniCraft document, or an Animate .fla or .xfl	Bir AniCraft belgesi veya bir Animate .fla ya da .xfl belgesi
+	An animated GIF, with exact frame timing.	Tam kare zamanlamasına sahip hareketli GIF.
+	An animated PNG: full colour and real transparency, for the web and chat apps.	Hareketli PNG: web ve sohbet uygulamaları için tam renk ve gerçek saydamlık.
+	An animated WebP, lossless: full colour and real transparency, smaller than PNG.	Kayıpsız hareketli WebP: tam renk ve gerçek saydamlık, PNG'den daha küçük.
+	An entry point of a frame-script plug-in (WebAssembly)	Bir kare betiği eklentisinin (WebAssembly) giriş noktası
+	Anchor Markers	Bağlantı İşaretçileri
+	AniCraft document	AniCraft belgesi
+	AniCraft is free software: MIT OR Apache-2.0, at your option.	AniCraft özgür yazılımdır: tercihinize göre MIT VEYA Apache-2.0 lisanslıdır.
+	AniCraft opens .anicraft, .fla and .xfl documents, and imports SVG drawings, PNG and JPEG images, and WAV, Ogg and MP3 sounds	AniCraft; .anicraft, .fla ve .xfl belgelerini açar ve SVG çizimlerini, PNG ve JPEG görsellerini, ayrıca WAV, Ogg ve MP3 seslerini içe aktarır
+	AniCraft opens one document at a time; drop the others on their own	AniCraft aynı anda tek bir belge açar; diğerlerini ayrı ayrı bırakın
+	AniCraft {version}	AniCraft {version}
+	AniCraft: Apache License 2.0	AniCraft: Apache Lisansı 2.0
+	AniCraft: MIT License	AniCraft: MIT Lisansı
+	Animate each property on its own curve	Her özelliği kendi eğrisi üzerinde canlandırın
+	Animate this span's object property by property	Bu aralıktaki nesneyi özellik bazında canlandırın
+	Animate this span's object property by property (edit the curves in the Motion Editor)	Bu aralıktaki nesneyi özellik bazında canlandırın (eğrileri Hareket Düzenleyicisi'nde düzenleyin)
+	Animated GIF	Hareketli GIF
+	Animated PNG	Hareketli PNG
+	Animated WebP	Hareketli WebP
+	Applied the preset “{name}” — {undo} to undo	“{name}” hazır ayarı uygulandı — geri almak için {undo}
+	Apply Style	Stili Uygula
+	Apply a preset	Hazır ayar uygula
+	Architecture philosophy	Mimari felsefe
+	Armature	İskelet
+	Armature layer	İskelet katmanı
+	Armatures	İskeletler
+	Arrow keys	Ok tuşları
+	ArtCraft Launcher manages this app's version. Change its version there.	Bu uygulamanın sürümünü ArtCraft Launcher yönetir. Sürümünü oradan değiştirin.
+	Artwork on Multiple Frames	Birden Çok Karede Çizim
+	Ascending: click for descending	Artan: azalan sıralama için tıklayın
+	At the centre of the view, on the active layer (Enter; or drag onto the stage)	Etkin katmanda, görünümün ortasında (Enter; veya sahneye sürükleyin)
+	Autosave	Otomatik kaydetme
+	Autosave Now	Şimdi Otomatik Kaydet
+	Autosave after this many changes	Bu kadar değişiklikten sonra otomatik kaydet
+	Autosave every	Şu sıklıkla otomatik kaydet
+	Autosave failed: {error}. Save your work to be safe; AniCraft will keep trying.	Otomatik kaydetme başarısız oldu: {error}. Güvende olmak için çalışmanızı kaydedin; AniCraft denemeye devam edecek.
+	Autosave is off on this system, so there is nothing to recover	Bu sistemde otomatik kaydetme kapalı olduğundan kurtarılacak bir şey yok
+	Autosave is off: this system has no settings folder	Otomatik kaydetme kapalı: bu sistemde ayarlar klasörü yok
+	Autosave is off: {error}	Otomatik kaydetme kapalı: {error}
+	Back to the default ({keys})	Varsayılana dön ({keys})
+	Back to the document	Belgeye dön
+	Back to the stage as it is: centred, 100 %, no turn, no tint	Sahneyi olduğu haline döndür: ortalanmış, %100, döndürmesiz, renk tonu olmadan
+	Back to the straight path the X and Y curves trace	X ve Y eğrilerinin izlediği düz yola dön
+	Back to the theme's colours	Temanın renklerine dön
+	Back to this symbol	Bu sembole dön
+	Before	Önce
+	Before colour	Önceki renk
+	Bend	Bük
+	Bend Segment	Segmenti Bük
+	Bevel	Eğim
+	Bevel highlight colour	Eğim vurgu rengi
+	Bevel offset	Eğim kaydırması
+	Bevel shadow colour	Eğim gölge rengi
+	Bit depth	Bit derinliği
+	Bitmap fill	Bit eşlem dolgusu
+	Bitmap · {width}×{height}	Bit eşlem · {width}×{height}
+	Blank	Boş
+	Blank Keyframe	Boş Anahtar Kare
+	Blending	Karıştırma
+	Blue keys are pinned motion path points: drag one to move its point	Mavi anahtarlar sabitlenmiş hareket yolu noktalarıdır: noktasını taşımak için birini sürükleyin
+	Blue multiplier	Mavi çarpanı
+	Blue offset	Mavi kaydırması
+	Bone	Kemik
+	Bone angle	Kemik açısı
+	Bone: {name}	Kemik: {name}
+	Bottom 9-slice guide	Alt 9 dilimli kılavuz
+	Break Apart	Parçala
+	Brush	Fırça
+	Brush Size Down	Fırça Boyutunu Küçült
+	Brush Size Up	Fırça Boyutunu Büyüt
+	Brush Stroke	Fırça Darbesi
+	Brush angle	Fırça açısı
+	Brush roundness	Fırça yuvarlaklığı
+	Brush size	Fırça boyutu
+	Brush size ({keys})	Fırça boyutu ({keys})
+	Brush size {size} px	Fırça boyutu {size} px
+	Brush smoothing	Fırça yumuşatma
+	Button	Düğme
+	Button (unnamed)	Düğme (adsız)
+	Button “{name}”	“{name}” düğmesi
+	Button: {name}	Düğme: {name}
+	Buttons, movie clips and graphics	Düğmeler, film klipleri ve grafikler
+	CPU (GPU unavailable)	CPU (GPU kullanılamıyor)
+	CPU (reference)	CPU (referans)
+	CPU for {reason}	{reason} nedeniyle CPU
+	Camera	Kamera
+	Camera Info	Kamera Bilgisi
+	Camera Tint	Kamera Renk Tonu
+	Camera X	Kamera X
+	Camera Y	Kamera Y
+	Camera layer	Kamera katmanı
+	Camera rotation	Kamera döndürme
+	Camera tint amount	Kamera renk tonu miktarı
+	Camera tint colour	Kamera tonlama rengi
+	Camera view	Kamera görünümü
+	Camera zoom	Kamera yakınlaştırma
+	Can't import {file}: {why}	{file} içe aktarılamıyor: {why}
+	Can't open {file}: {why}	{file} açılamıyor: {why}
+	Cancelled	İptal edildi
+	Cap	Uç
+	Centre	Orta
+	Changed the stroke's width. {undo} to undo.	Kontur genişliği değiştirildi. Geri almak için {undo}.
+	Change…	Değiştir…
+	Character turnaround	Karakter dönüş çizimi
+	Check Frame Script	Kare Betiğini Denetle
+	Check again	Tekrar denetle
+	Check for Updates…	Güncellemeleri Denetle…
+	Checking for updates…	Güncellemeler denetleniyor…
+	Choose a Library item.	Bir Kitaplık öğesi seçin.
+	Choose a font	Bir yazı tipi seçin
+	Choose a font the document's text uses.	Belgedeki metnin kullandığı bir yazı tipi seçin.
+	Choose a preset	Bir ön ayar seçin
+	Choose from the Library	Kitaplıktan seç
+	Class	Sınıf
+	Classic tween	Klasik ara kare
+	Classic {strength}	Klasik {strength}
+	Clear Actions	Eylemleri Temizle
+	Clear Frame Script	Kare Betiğini Temizle
+	Clear Keyframe	Anahtar Kareyi Temizle
+	Clear on Multiple Frames	Birden Çok Karede Temizle
+	Cleared keyframe — {undo} to undo	Anahtar kare temizlendi — geri almak için {undo}
+	Clears every visible, unlocked layer at this frame, as double-clicking the Eraser tool does. You can undo it	Silgi aracına çift tıklandığında olduğu gibi bu karedeki tüm görünür, kilitsiz katmanları temizler. Bu işlemi geri alabilirsiniz
+	Click	Tıkla
+	Click a fill or an enclosed area to pour it.	Doldurmak için bir dolguya veya kapalı bir alana tıklayın.
+	Click a fill to pick its colour, gradient or bitmap (then pour it with the Paint Bucket), or a line to pick its colour, width and profile (then apply it with the Ink Bottle). With shapes selected, the picked style goes onto them. Shift-click picks into the other swatch only.	Rengini, gradyanını veya bit eşlemini almak için bir dolguya (ardından Boya Kovası ile dökün) ya da rengini, genişliğini ve profilini almak için bir çizgiye (ardından Mürekkep Şişesi ile uygulayın) tıklayın. Şekiller seçiliyken alınan stil doğrudan onlara uygulanır. Shift+tıklama yalnızca diğer renk örneğine alır.
+	Click a key to change it or + to add one; right-click a key to remove it. Changes save as you go.	Değiştirmek için bir anahtara, eklemek için + simgesine tıklayın; kaldırmak için bir anahtara sağ tıklayın. Değişiklikler anında kaydedilir.
+	Click a shape to give it the current stroke colour and width.	Geçerli kontur rengini ve genişliğini vermek için bir şekle tıklayın.
+	Click a shape to give it this line.	Bu çizgiyi vermek için bir şekle tıklayın.
+	Click a shape to show its points; on a merged drawing, the points of everything connected to it. Drag points or handles to reshape (a shared point moves every shape that has it; a smooth point's handles stay in line, Alt moves one alone); drag a line or fill to move everything connected. Shift adds to the point selection, drag on empty space to marquee points, arrow keys nudge them. Double-click an edge to add a point, Delete removes points, and right-click makes a point smooth or a corner. A motion path's points edit the same way (its ends stay).	Noktalarını göstermek için bir şekle tıklayın; birleştirilmiş bir çizimde ona bağlı her şeyin noktaları gösterilir. Yeniden şekillendirmek için noktaları veya tutamaçları sürükleyin (paylaşılan bir nokta kendisine sahip her şekli taşır; yumuşak bir noktanın tutamaçları aynı hizada kalır, Alt yalnızca birini taşır); bağlı her şeyi taşımak için bir çizgiyi veya dolguyu sürükleyin. Shift nokta seçimine ekler, boş alana sürüklemek noktaları çerçeve içine alarak seçer, ok tuşları noktaları hafifçe kaydırır. Nokta eklemek için bir kenara çift tıklayın, Delete noktaları kaldırır, sağ tıklama bir noktayı yumuşak veya köşe yapar. Bir hareket yolunun noktaları da aynı şekilde düzenlenir (uçları yerinde kalır).
+	Click inside an outline to fill it (on the layer's lines), or on a fill to recolour it. The gap size closes small openings.	Doldurmak için bir dış çizginin içine (katmanın çizgileri üzerinde) veya yeniden renklendirmek için bir dolguya tıklayın. Boşluk boyutu küçük açıklıkları kapatır.
+	Click the movie to give it the keyboard	Klavye odağını vermek için filme tıklayın
+	Click to add a colour stop	Renk durağı eklemek için tıklayın
+	Click to change · right-click to remove	Değiştirmek için tıklayın · kaldırmak için sağ tıklayın
+	Click to place corner points, drag to pull smooth handles (Alt moves one handle). Click the first point to close; Enter, Esc or a click on the last point finishes. Backspace removes the last point. Alt-click a selected shape, a merged drawing's line or a motion path to add a point to it. Points snap to points and lines while Snap to Objects is on.	Köşe noktaları yerleştirmek için tıklayın, yumuşak tutamaçlar çekmek için sürükleyin (Alt tek bir tutamacı taşır). Kapatmak için ilk noktaya tıklayın; Enter, Esc veya son noktaya tıklama işlemi bitirir. Backspace son noktayı kaldırır. Nokta eklemek için seçili bir şekle, birleştirilmiş bir çizimin çizgisine veya bir hareket yoluna Alt+tıklayın. Nesnelere Yasla açıkken noktalar noktalara ve çizgilere yaslanır.
+	Click to select, drag to move, drag on empty space to marquee-select. Shift adds to the selection.	Seçmek için tıklayın, taşımak için sürükleyin, çerçeveyle seçmek için boş alana sürükleyin. Shift seçime ekler.
+	Click to type new text, or click text to edit it. Esc or a click elsewhere finishes. The options set the font, size and colour; double-click text with the Selection tool to edit it too.	Yeni metin yazmak için tıklayın veya düzenlemek için metne tıklayın. Esc veya başka bir yere tıklamak işlemi bitirir. Seçenekler yazı tipini, boyutu ve rengi ayarlar; metni Seçim aracıyla çift tıklayarak da düzenleyebilirsiniz.
+	Click to zoom in, Alt-click to zoom out. Ctrl+wheel zooms anywhere.	Yakınlaştırmak için tıklayın, uzaklaştırmak için Alt+tıklayın. Ctrl+tekerlek her yerde yakınlaştırıp uzaklaştırır.
+	Close folder	Klasörü kapat
+	Close large gaps	Büyük boşlukları kapat
+	Close medium gaps	Orta boşlukları kapat
+	Close small gaps	Küçük boşlukları kapat
+	Code in a scripting language (such as an Animate document's ActionScript), kept with the document. ActionScript 3.0 runs when it uses only timeline control, mouse listeners, trace and instance properties	Belgeyle birlikte saklanan bir betik dilindeki (örneğin bir Animate belgesinin ActionScript kodu gibi) kod. ActionScript 3.0 yalnızca zaman çizelgesi denetimi, fare dinleyicileri, trace ve örnek özelliklerini kullandığında çalışır
+	Collapse All Folders	Tüm Klasörleri Daralt
+	Colour Effect	Renk Efekti
+	Colour effect	Renk efekti
+	Colour effect style	Renk efekti stili
+	Colour of the frames after the playhead	Oynatma kafasından sonraki karelerin rengi
+	Colour of the frames before the playhead	Oynatma kafasından önceki karelerin rengi
+	Colour of {name}	{name} rengi
+	Colour stop	Renk durağı
+	Colour to find	Bulunacak renk
+	Colour to replace with	Yerine konacak renk
+	Colours	Renkler
+	Command Palette…	Komut Paleti…
+	Command palette	Komut paleti
+	Commands	Komutlar
+	Confirmations	Onaylar
+	Constrain rotation	Döndürmeyi kısıtla
+	Constrain shape / 45° line	Şekli / 45° çizgiyi kısıtla
+	Context actions	Bağlam eylemleri
+	Control	Kontrol
+	Convert Anchor Point	Bağlantı Noktasını Dönüştür
+	Convert Anchor Points	Bağlantı Noktalarını Dönüştür
+	Convert Motion Path Point	Hareket Yolu Noktasını Dönüştür
+	Convert to Symbol	Sembole Dönüştür
+	Convert to Symbol…	Sembole Dönüştür…
+	Copy Frames	Kareleri Kopyala
+	Copy on Multiple Frames	Birden Çok Karede Kopyala
+	Corner radius	Köşe yarıçapı
+	Corners sharper than this are bevelled: how far a point may reach, in stroke widths	Bundan daha keskin köşeler pahlanır: bir ucun kontur genişliği cinsinden ne kadar uzanabileceği
+	Could not make the archive: {e}	Arşiv oluşturulamadı: {e}
+	Could not open {name}: {e}	{name} açılamadı: {e}
+	Could not restore {name}: {error}	{name} geri yüklenemedi: {error}
+	Could not save preferences: {e}	Tercihler kaydedilemedi: {e}
+	Couldn't check for updates: {error}	Güncellemeler denetlenemedi: {error}
+	Create Classic Tween	Klasik Ara Kare Oluştur
+	Create Motion Tween	Hareket Ara Karesi Oluştur
+	Create Shape Tween	Şekil Ara Karesi Oluştur
+	Create new	Yeni oluştur
+	Create tween	Ara kare oluştur
+	Current document	Geçerli belge
+	Current frame	Geçerli kare
+	Custom height	Özel yükseklik
+	Custom size	Özel boyut
+	Custom width	Özel genişlik
+	Cut Frames	Kareleri Kes
+	Cut on Multiple Frames	Birden Çok Karede Kes
+	Dash	Tire
+	Dash length	Tire uzunluğu
+	Data font	Veri yazı tipi
+	Date added	Eklenme tarihi
+	Decision records (ADRs)	Karar kayıtları (ADR)
+	Default (bundled: {font})	Varsayılan (yerleşik: {font})
+	Default ({font})	Varsayılan ({font})
+	Delete Anchor Points	Bağlantı Noktalarını Sil
+	Delete Envelope Point	Zarf Noktasını Sil
+	Delete Motion Path Points	Hareket Yolu Noktalarını Sil
+	Delete Point	Noktayı Sil
+	Delete Points	Noktaları Sil
+	Delete Preset	Hazır Ayarı Sil
+	Delete Scene	Sahneyi Sil
+	Delete Sound	Sesi Sil
+	Delete Template	Şablonu Sil
+	Delete Unused Items	Kullanılmayan Öğeleri Sil
+	Delete Unused Items…	Kullanılmayan Öğeleri Sil…
+	Delete Width Point	Genişlik Noktasını Sil
+	Delete layer	Katmanı sil
+	Delete template {name}	{name} şablonunu sil
+	Delete the active layer	Etkin katmanı sil
+	Delete the preset “{name}” (asks once more)	“{name}” hazır ayarını sil (bir kez daha sorar)
+	Delete this autosaved copy	Bu otomatik kaydedilen kopyayı sil
+	Delete this keyframe's script	Bu anahtar karenin betiğini sil
+	Delete this template and its picture (asks first)	Bu şablonu ve resmini sil (önce sorar)
+	Delete whole fills and lines	Bütün dolguları ve çizgileri sil
+	Delete “{name}”	“{name}” öğesini sil
+	Deleted layer — {undo} to undo	Katman silindi — geri almak için {undo}
+	Deleted scene — {undo} to undo	Sahne silindi — geri almak için {undo}
+	Deleted sound — {undo} to undo	Ses silindi — geri almak için {undo}
+	Deleted the fill. {undo} to undo.	Dolgu silindi. Geri almak için {undo}.
+	Deleted the line. {undo} to undo.	Çizgi silindi. Geri almak için {undo}.
+	Deleted the preset “{name}”	“{name}” hazır ayarı silindi
+	Deletes the selected items and folders (Delete)	Seçili öğeleri ve klasörleri siler (Delete)
+	Deleting a preset can't be undone	Bir hazır ayarı silme işlemi geri alınamaz
+	Descending: click for ascending	Azalan: artan sıralama için tıklayın
+	Deselected {name}	{name} seçimi kaldırıldı
+	Desktop app (source)	Masaüstü uygulaması (kaynak)
+	Discard Autosaved Document	Otomatik Kaydedilen Belgeyi At
+	Discard {name}…	{name} Öğesini At…
+	Discarded the autosaved copy	Otomatik kaydedilen kopya atıldı
+	Discarding deletes this work for good. This cannot be undone.	Atma işlemi bu çalışmayı kalıcı olarak siler. Bu işlem geri alınamaz.
+	Discard…	At…
+	Distribute Horizontal Centers	Yatay Merkezleri Dağıt
+	Distribute Vertical Centers	Dikey Merkezleri Dağıt
+	Document Info	Belge Bilgisi
+	Document Settings	Belge Ayarları
+	Document class	Belge sınıfı
+	Documents you open or save show here, with a picture of their first frame.	Açtığınız veya kaydettiğiniz belgeler, ilk karelerinin resmiyle birlikte burada görünür.
+	Don't ask again this session	Bu oturumda bir daha sorma
+	Don't close gaps	Boşlukları kapatma
+	Dot spacing	Nokta aralığı
+	Down: the button while it is pressed	Basılı: düğmeye basıldığı sıradaki durum
+	Downloading and verifying the update…	Güncelleme indiriliyor ve doğrulanıyor…
+	Drag	Sürükle
+	Drag Bone	Kemiği Sürükle
+	Drag a corner or edge to scale (Shift keeps proportions, Alt scales from the centre), just outside a corner to rotate (Shift snaps 15°), inside to move.	Ölçeklemek için bir köşeyi veya kenarı sürükleyin (Shift oranları korur, Alt merkezden ölçekler), döndürmek için bir köşenin hemen dışını sürükleyin (Shift 15°'ye sabitler), taşımak için içini sürükleyin.
+	Drag a key up or down to change it, or a handle to shape the ease. Double-click to add a key.	Değiştirmek için bir anahtarı yukarı veya aşağı sürükleyin ya da yumuşatmayı şekillendirmek için bir tutamacı sürükleyin. Anahtar eklemek için çift tıklayın.
+	Drag bones or instances with the Selection tool to pose; a pose at another frame keys it, and poses tween.	Poz vermek için Seçim aracıyla kemikleri veya örnekleri sürükleyin; başka bir karedeki poz anahtar kare oluşturur ve pozlar arasında ara kare oluşturulur.
+	Drag from one symbol instance to another to join them with a bone (they move to an armature layer); start on a bone's end to continue the chain. Click a bone to select it. Pose the armature by dragging bones or instances with the Selection tool.	Bir sembol örneğinden diğerine sürükleyerek onları bir kemikle birleştirin (bir iskelet katmanına taşınırlar); zinciri sürdürmek için bir kemiğin ucundan başlayın. Seçmek için bir kemiğe tıklayın. Seçim aracıyla kemikleri veya örnekleri sürükleyerek iskelete poz verin.
+	Drag from the centre to draw a star.	Yıldız çizmek için merkezden sürükleyin.
+	Drag on the stage to pan the camera, drag the round handle to turn it, and use the wheel to zoom (each drag is one undo step). Picking the tool adds a camera if the scene has none.	Kamerayı kaydırmak için sahnede sürükleyin, döndürmek için yuvarlak tutamacı sürükleyin ve yakınlaştırmak için fare tekerleğini kullanın (her sürükleme tek bir geri alma adımıdır). Sahnede kamera yoksa bu aracı seçmek bir kamera ekler.
+	Drag to choose how many frames onion skin shows before and after the playhead	Soğan kabuğunun oynatma başlığından önce ve sonra kaç kare göstereceğini seçmek için sürükleyin
+	Drag to choose the frames onion skin shows (anchored: they stay when the playhead moves)	Soğan kabuğunun göstereceği kareleri seçmek için sürükleyin (sabitlenmiş: oynatma başlığı hareket ettiğinde yerinde kalırlar)
+	Drag to draw a line. Shift snaps to 45°.	Çizgi çizmek için sürükleyin. Shift 45°'ye sabitler.
+	Drag to draw a rectangle. Shift draws a square.	Dikdörtgen çizmek için sürükleyin. Shift kare çizer.
+	Drag to draw an oval. Shift draws a circle.	Oval çizmek için sürükleyin. Shift daire çizer.
+	Drag to draw freehand. The options bar sets Smooth, Straighten or Ink.	Serbest çizim yapmak için sürükleyin. Seçenekler çubuğu Yumuşat, Düzelt veya Mürekkep modunu ayarlar.
+	Drag to erase lines and fills drawn with Object Drawing off (drawing objects and symbols are kept). [ and ] change the size; the options set the shape and erase mode, and the Faucet deletes a whole fill or line with a click. Double-click the tool to erase everything on the stage.	Nesne Çizimi kapalıyken çizilen çizgileri ve dolguları silmek için sürükleyin (çizim nesneleri ve semboller korunur). [ ve ] boyutu değiştirir; seçenekler şekli ve silme modunu belirler, Musluk ise tek tıklamayla tüm dolguyu veya çizgiyi siler. Sahnedeki her şeyi silmek için araca çift tıklayın.
+	Drag to paint filled shapes in the fill colour (a click paints a dab). [ and ] change the size; the options set the shape, smoothing and paint mode.	Dolgulu şekilleri dolgu rengiyle boyamak için sürükleyin (tıklamak tek bir dokunuş boyar). [ ve ] boyutu değiştirir; seçenekler şekli, yumuşatmayı ve boyama modunu belirler.
+	Drag to pan the stage. Space works with any tool.	Sahneyi kaydırmak için sürükleyin. Boşluk tuşu herhangi bir araçla çalışır.
+	Dragged points and selections snap to points, lines and fill edges within 10 pixels (the magnet under the tools)	Sürüklenen noktalar ve seçimler 10 piksel içindeki noktalara, çizgilere ve dolgu kenarlarına yapışır (araçların altındaki mıknatıs)
+	Draw onion frames as outlines only	Soğan kabuğu karelerini yalnızca dış hat olarak çiz
+	Draw the layer's artwork as outlines in its colour, on the stage only (never in the movie or an export)	Katmanın çizimini yalnızca sahnede kendi renginde dış hat olarak çiz (filmde veya dışa aktarımda asla görünmez)
+	Draw where each button answers the pointer (its Hit frame) over the movie	Her düğmenin işaretçiye yanıt verdiği alanı (Vuruş karesini) film üzerinde çiz
+	Drawing	Çizim
+	Drawing on {adapter}, straight into the window.	{adapter} üzerinde doğrudan pencereye çiziliyor.
+	Drawing on {adapter}, then copied to the window (slower: the window's graphics device can't be shared).	{adapter} üzerinde çiziliyor, ardından pencereye kopyalanıyor (daha yavaş: pencerenin grafik aygıtı paylaşılamıyor).
+	Drawing, image or sound	Çizim, görüntü veya ses
+	Draws the stage on the graphics card, and on the CPU when there is no card that can. The picture is the same either way.	Sahneyi grafik kartında, uygun bir kart yoksa CPU üzerinde çizer. Görüntü her iki durumda da aynıdır.
+	Drop	Bırak
+	Drop at most {n} files at once	Aynı anda en fazla {n} dosya bırakın
+	Drop drawings, images and sounds on the stage or a layer's frame to place them, or on the Library to add them	Yerleştirmek için çizimleri, görüntüleri ve sesleri sahneye veya bir katmanın karesine ya da eklemek için Kitaplığa bırakın
+	Drop {what} on the stage or a layer's frame to place it, or on the Library to add it	Yerleştirmek için {what} öğesini sahneye veya bir katmanın karesine ya da eklemek için Kitaplığa bırakın
+	Duplicate Scene	Sahneyi Çoğalt
+	Duplicate Symbol	Sembolü Çoğalt
+	Ease	Yumuşatma
+	Ease in (cubic)	Yavaş giriş (kübik)
+	Ease in (quad)	Yavaş giriş (karesel)
+	Ease in-out (cubic)	Yavaş giriş-çıkış (kübik)
+	Ease in-out (quad)	Yavaş giriş-çıkış (karesel)
+	Ease out (cubic)	Yavaş çıkış (kübik)
+	Ease out (quad)	Yavaş çıkış (karesel)
+	Easing	Yumuşatma
+	Edit Document	Belgeyi Düzenle
+	Edit Envelope — {name}	Zarfı Düzenle — {name}
+	Edit Envelope: the volume of each channel over the sound's time	Zarfı Düzenle: ses süresi boyunca her kanalın ses düzeyi
+	Edit Motion Path	Hareket Yolunu Düzenle
+	Edit Multiple Frames	Birden Çok Kareyi Düzenle
+	Edit Multiple Frames moves, transforms, aligns, deletes, copies and pastes artwork on several keyframes; for this, turn it off and work frame by frame.	Birden Çok Kareyi Düzenle, birden fazla anahtar karedeki çizimleri taşır, dönüştürür, hizalar, siler, kopyalar ve yapıştırır; bunun için bu özelliği kapatıp kare kare çalışın.
+	Edit Multiple Frames: the keyframes between the onion markers show at full strength. Select and drag artwork to move it on all of them; drag the markers on the frame ruler to choose the frames.	Birden Çok Kareyi Düzenle: soğan kabuğu işaretçileri arasındaki anahtar kareler tam görünürlükte gösterilir. Çizimi seçip sürükleyerek hepsinde birden taşıyabilirsiniz; kareleri seçmek için kare cetvelindeki işaretçileri sürükleyin.
+	Edit Multiple Frames: {first}–{last}	Birden Çok Kareyi Düzenle: {first}–{last}
+	Edit Symbol	Sembolü Düzenle
+	Edit Symbols	Sembolleri Düzenle
+	Edit Text	Metni Düzenle
+	Edit actions	Eylemleri düzenle
+	Edit event	Olayı düzenle
+	Edit script	Betiği düzenle
+	Edit sound envelope	Ses zarfını düzenle
+	Edit the property curves	Özellik eğrilerini düzenle
+	Edit the property curves and eases	Özellik eğrilerini ve yumuşatmaları düzenle
+	Edit what it does on clicks and the pointer ({key})	Tıklamalarda ve işaretçiyle ne yapacağını düzenle ({key})
+	Edits show immediately; heavy scenes render in the background with an outline preview.	Düzenlemeler hemen görünür; yoğun sahneler ana hat önizlemesiyle arka planda işlenir.
+	Empty frame — press F7 for a blank keyframe	Boş kare — boş anahtar kare için F7 tuşuna basın
+	Empty text	Boş metin
+	Enable guides for 9-slice scaling	9 dilimli ölçekleme için kılavuzları etkinleştir
+	End the name in .webm (VP9) or .mp4 (H.264). AniCraft uses the ffmpeg on this computer.	Adı .webm (VP9) veya .mp4 (H.264) ile bitirin. AniCraft bu bilgisayardaki ffmpeg aracını kullanır.
+	Engine crates (source)	Motor paketleri (kaynak)
+	Enter applies · Esc cancels · one undo step	Enter uygular · Esc iptal eder · tek geri alma adımı
+	Enter confirms · Esc cancels	Enter onaylar · Esc iptal eder
+	Enter saves · Esc cancels	Enter kaydeder · Esc iptal eder
+	Entry	Girdi
+	Entry point	Giriş noktası
+	Envelope Point	Zarf Noktası
+	Erase Everything	Her Şeyi Sil
+	Erase Everything…	Her Şeyi Sil…
+	Erase Fills	Dolguları Sil
+	Erase Inside	İçeriden Sil
+	Erase Lines	Çizgileri Sil
+	Erase Normal	Normal Sil
+	Erase Selected Fills	Seçili Dolguları Sil
+	Erase mode	Silme modu
+	Erased. {undo} to undo.	Silindi. Geri almak için {undo}.
+	Eraser size	Silgi boyutu
+	Eraser size ({keys})	Silgi boyutu ({keys})
+	Eraser size {size} px	Silgi boyutu {size} px
+	Erases fills only, leaving lines alone.	Yalnızca dolguları siler, çizgilere dokunmaz.
+	Erases lines and fills on the layer.	Katmandaki çizgileri ve dolguları siler.
+	Erases lines only, leaving fills alone.	Yalnızca çizgileri siler, dolgulara dokunmaz.
+	Erases only inside the fill where the stroke starts.	Yalnızca darbenin başladığı dolgunun içini siler.
+	Erases only the selected fills.	Yalnızca seçili dolguları siler.
+	Esc cancels · click the red button to proceed	Esc iptal eder · devam etmek için kırmızı düğmeye tıklayın
+	Essentials	Temel
+	Event	Olay
+	Events	Olaylar
+	Every	Her
+	Every edit renders before the next frame. Lowest latency; can stutter on very heavy scenes.	Her düzenleme bir sonraki kareden önce işlenir. En düşük gecikme; çok yoğun sahnelerde takılabilir.
+	Every frame of every scene, in order	Her sahnenin her karesi, sırayla
+	Every frame of the timeline	Zaman çizelgesinin her karesi
+	Every scene, and every symbol in the Library	Her sahne ve Kitaplıktaki her sembol
+	Every shortcut is back to the defaults.	Tüm kısayollar varsayılanlara döndürüldü.
+	Every symbol in the Library, with what is inside it	Kitaplıktaki her sembol, içindekilerle birlikte
+	Expand All Folders	Tüm Klasörleri Genişlet
+	Export Animated GIF…	Animasyonlu GIF Olarak Dışa Aktar…
+	Export Animated PNG…	Animasyonlu PNG Olarak Dışa Aktar…
+	Export Animated WebP…	Animasyonlu WebP Olarak Dışa Aktar…
+	Export Audio…	Sesi Dışa Aktar…
+	Export Frame as PNG…	Kareyi PNG Olarak Dışa Aktar…
+	Export Frame as SVG…	Kareyi SVG Olarak Dışa Aktar…
+	Export HTML Canvas…	HTML Kanvas Olarak Dışa Aktar…
+	Export HTML canvas (one web page)	HTML kanvası dışa aktar (tek web sayfası)
+	Export Lottie Animation…	Lottie Animasyonu Olarak Dışa Aktar…
+	Export Lottie animation (JSON, for web and apps)	Lottie animasyonu dışa aktar (JSON, web ve uygulamalar için)
+	Export PNG Sequence…	PNG Dizisi Olarak Dışa Aktar…
+	Export PNG sequence to folder	PNG dizisini klasöre dışa aktar
+	Export Sprite Sheet…	Sprite Sayfası Olarak Dışa Aktar…
+	Export Video…	Videoyu Dışa Aktar…
+	Export animated GIF	Animasyonlu GIF dışa aktar
+	Export animated PNG (full colour, transparent)	Animasyonlu PNG dışa aktar (tam renkli, saydam)
+	Export animated WebP (lossless, transparent)	Animasyonlu WebP dışa aktar (kayıpsız, saydam)
+	Export audio (the movie's soundtrack as a WAV)	Sesi dışa aktar (filmin ses parçası WAV olarak)
+	Export frame as PNG	Kareyi PNG olarak dışa aktar
+	Export frame as SVG	Kareyi SVG olarak dışa aktar
+	Export sprite sheet (PNG + JSON frame map)	Sprite sayfası dışa aktar (PNG + JSON kare haritası)
+	Export video (.webm or .mp4, made with your ffmpeg)	Videoyu dışa aktar (.webm veya .mp4, ffmpeg aracınızla oluşturulur)
+	Exported {path} ({secs} s).	{path} dışa aktarıldı ({secs} sn).
+	Exported {path} ({secs} s). No sounds play in that range, so the file is silent.	{path} dışa aktarıldı ({secs} sn). Bu aralıkta çalan ses olmadığı için dosya sessiz.
+	Extra start gap	Ek başlangıç boşluğu
+	Fade by Distance	Mesafeye Göre Soldur
+	Fade in	Yavaşça aç
+	Fade left to right	Soldan sağa geçiş
+	Fade out	Yavaşça kıs
+	Fade right to left	Sağdan sola geçiş
+	Failed	Başarısız
+	Falls from full volume to silence while it plays	Çalarken tam ses düzeyinden sessizliğe doğru azalır
+	Faucet	Musluk
+	File dialogs	Dosya iletişim kutuları
+	File › Save as Template keeps the open document here, with a picture, to start from again.	Dosya › Şablon Olarak Kaydet, açık belgeyi yeniden başlatmak üzere bir resimle birlikte burada saklar.
+	File › Start Screen brings it back	Dosya › Başlangıç Ekranı bunu geri getirir
+	Files go beside the document, in {folder}	Dosyalar belgenin yanına, {folder} içine gider
+	Files go to your downloads (several as one ZIP).	Dosyalar indirilenlerinize gider (birden fazlaysa tek bir ZIP olarak).
+	Fill Colour	Dolgu Rengi
+	Fill colour	Dolgu rengi
+	Fill on/off	Dolgu açık/kapalı
+	Filled the area. {undo} to undo.	Alan dolduruldu. Geri almak için {undo}.
+	Fills	Dolgular
+	Filter blur	Filtre bulanıklığı
+	Filter by name or key…	Ada veya tuşa göre filtrele…
+	Filter colour	Filtre rengi
+	Filter fonts	Yazı tiplerini filtrele
+	Filter fonts…	Yazı tiplerini filtrele…
+	Filter offset	Filtre kaydırması
+	Filter options	Filtre seçenekleri
+	Filter quality	Filtre kalitesi
+	Filter shortcuts	Kısayolları filtrele
+	Filter strength	Filtre gücü
+	Filter type	Filtre türü
+	Filters	Filtreler
+	Find Previous	Öncekini Bul
+	First frame	İlk kare
+	Fit Stage in Window	Sahneyi Pencereye Sığdır
+	Fit in Window	Pencereye Sığdır
+	Fit in window	Pencereye sığdır
+	Fit stage in window	Sahneyi pencereye sığdır
+	Fits smooth curves to the stroke, keeping sharp corners.	Keskin köşeleri koruyarak kontura pürüzsüz eğriler oturtur.
+	Folders and guide layers don't run actions. Pick another layer in the timeline.	Klasörler ve kılavuz katmanlar eylem çalıştırmaz. Zaman çizelgesinde başka bir katman seçin.
+	Folders hold layers, not frames. Hiding or locking the folder hides or locks everything in it; move layers in under it with Up and Down.	Klasörler kareleri değil katmanları tutar. Klasörü gizlemek veya kilitlemek içindeki her şeyi gizler veya kilitler; katmanları Yukarı ve Aşağı ile klasörün altına taşıyın.
+	Follow system	Sistemi izle
+	Follows the hand closely with little smoothing.	Çok az yumuşatma ile eli yakından izler.
+	Font to find	Bulunacak yazı tipi
+	Font to replace with	Yerine konacak yazı tipi
+	Font “{name}” is not installed; using the bundled font	“{name}” yazı tipi yüklü değil; paketle gelen yazı tipi kullanılıyor
+	Font: Hack (MIT, Bitstream Vera)	Yazı tipi: Hack (MIT, Bitstream Vera)
+	Font: Noto Emoji (SIL OFL 1.1)	Yazı tipi: Noto Emoji (SIL OFL 1.1)
+	Font: Ubuntu Light (Ubuntu Font Licence 1.0)	Yazı tipi: Ubuntu Light (Ubuntu Font Licence 1.0)
+	Font: emoji-icon-font (MIT)	Yazı tipi: emoji-icon-font (MIT)
+	Formats	Biçimler
+	Frame Label	Kare Etiketi
+	Frame label	Kare etiketi
+	Frame labels	Kare etiketleri
+	Frame labels survive frames being added or moved	Kare etiketleri, kare eklendiğinde veya taşındığında korunur
+	Frame number	Kare numarası
+	Frame rate	Kare hızı
+	Frame rate, and the time the last picture took to draw	Kare hızı ve son resmin çizilme süresi
+	Frame script	Kare betiği
+	Frame script set — {undo} to undo	Kare betiği ayarlandı — geri almak için {undo}
+	Frame scripts and instance actions	Kare betikleri ve örnek eylemleri
+	Frame to publish	Yayımlanacak kare
+	Frame view	Kare görünümü
+	Frame view: frame width and row height	Kare görünümü: kare genişliği ve satır yüksekliği
+	Frame zoom	Kare yakınlaştırma
+	Frame zoom: frame width (Ctrl+wheel over the frames)	Kare yakınlaştırma: kare genişliği (karelerin üzerinde Ctrl+tekerlek)
+	Frame {a}	Kare {a}
+	Frame {frame}	Kare {frame}
+	Frame {frame} is empty on this layer. Add a blank keyframe ({key}) to give it actions.	Bu katmanda Kare {frame} boş. Eylem eklemek için boş bir anahtar kare ({key}) ekleyin.
+	Frame {frame} · point {anchor} of the motion path: drag to move the point	Kare {frame} · hareket yolunun {anchor} noktası: noktayı taşımak için sürükleyin
+	Frame {frame} · {layer} · {what}	Kare {frame} · {layer} · {what}
+	Frame {frame} · {seconds} s · X {x} Y {y} · {keys}	Kare {frame} · {seconds} s · X {x} Y {y} · {keys}
+	Frame {frame}: {label}	Kare {frame}: {label}
+	Frames	Kareler
+	Frames farther from the playhead are fainter	Oynatma kafasından uzak kareler daha soluk görünür
+	Frames here don't run (graphic and button timelines, guide layers); the script is kept with the document.	Buradaki kareler çalışmaz (grafik ve düğme zaman çizelgeleri, kılavuz katmanlar); betik belgeyle birlikte saklanır.
+	Frames in a grid on one PNG, with a JSON frame map beside it.	Tek bir PNG üzerinde ızgara düzeninde kareler ve yanında bir JSON kare haritası.
+	Frames of {name}	{name} kareleri
+	Frames that repeat the one before are stored once, shown longer.	Bir öncekini tekrarlayan kareler tek sefer saklanır, daha uzun gösterilir.
+	Frames {a}–{b}	Kare {a}–{b}
+	Front, three-quarter, side and back views side by side, on head-height guides eight heads tall	Sekiz baş yüksekliğinde kılavuzlar üzerinde ön, üç çeyrek, yan ve arka görünümler yan yana
+	Full HD video	Full HD video
+	Full volume on both channels	Her iki kanalda tam ses düzeyi
+	GPU starting	GPU başlatılıyor
+	Gap length	Boşluk uzunluğu
+	Gap size	Boşluk boyutu
+	Get Layer Properties	Katman Özelliklerini Al
+	Give every property's segment at this frame this ease	Bu karedeki her özelliğin segmentine bu yumuşatmayı uygula
+	Glow options	Işıma seçenekleri
+	Go to	Git
+	Go to First Frame	İlk Kareye Git
+	Go to Found Item	Bulunan Öğeye Git
+	Go to Frame	Kareye Git
+	Go to Last Frame	Son Kareye Git
+	Go to Scene	Sahneye Git
+	Go to and play	Git ve oynat
+	Go to and stop	Git ve dur
+	Go to the next result	Sonraki sonuca git
+	Go to the previous result	Önceki sonuca git
+	Gradient Bevel	Gradyan Eğim
+	Gradient Glow	Gradyan Işıma
+	Graphic: missing	Grafik: eksik
+	Graphic: {name}	Grafik: {name}
+	Graphics card (GPU)	Grafik kartı (GPU)
+	Graphite	Grafit
+	Green multiplier	Yeşil çarpanı
+	Green offset	Yeşil kaydırması
+	Guide	Kılavuz
+	Guide layer	Kılavuz katman
+	Guided	Kılavuzlu
+	Guides x	Kılavuzlar x
+	Guides y	Kılavuzlar y
+	HD video	HD video
+	HTML canvas	HTML kanvas
+	Heard for {time} ({why}). Presets are shaped over this time; editing one makes it Custom.	{time} boyunca duyulur ({why}). Ön ayarlar bu süreye göre şekillenir; birini düzenlemek onu Özel yapar.
+	Hide object	Nesneyi gizle
+	High contrast	Yüksek karşıtlık
+	High contrast while the system asks for more contrast (it does now), graphite otherwise.	Sistem daha fazla karşıtlık istediğinde yüksek karşıtlık (şu anda istiyor), aksi durumda grafit.
+	High contrast while the system asks for more contrast (it doesn't now), graphite otherwise.	Sistem daha fazla karşıtlık istediğinde yüksek karşıtlık (şu anda istemiyor), aksi durumda grafit.
+	High contrast while the system asks for more contrast, graphite otherwise. This system doesn't say, so it is graphite.	Sistem daha fazla karşıtlık istediğinde yüksek karşıtlık, aksi durumda grafit. Bu sistem bilgi vermediği için grafit kullanılıyor.
+	Highlight	Vurgu
+	Hit: the area that answers the pointer, never shown (drawn over the other states while you edit them)	Vuruş alanı: işaretçiye yanıt veren ve hiç gösterilmeyen alan (siz düzenlerken diğer durumların üzerine çizilir)
+	Horizontal Center	Yatay Merkez
+	Hover a stroke to see its width points. Drag a point's handle to widen or narrow the stroke there (Alt: one side only), drag its dot to slide it along, or drag anywhere on the stroke to add a point. Click a point and press Delete to remove it.	Genişlik noktalarını görmek için bir konturun üzerine gelin. Konturu orada genişletmek veya daraltmak için bir noktanın tutamacını sürükleyin (Alt: yalnızca bir taraf), boyunca kaydırmak için noktasını sürükleyin ya da nokta eklemek için konturun herhangi bir yerinden sürükleyin. Kaldırmak için bir noktaya tıklayıp Delete tuşuna basın.
+	How corners turn: sharp (Miter), rounded, or cut across (Bevel)	Köşelerin dönüş biçimi: keskin (Gönye), yuvarlatılmış veya kesik (Eğim)
+	How far behind the stage this layer is: when the camera pans, a deeper layer moves less (parallax). Negative is in front.	Bu katmanın sahnenin ne kadar gerisinde olduğu: kamera kaydırıldığında daha derindeki katman daha az hareket eder (paralaks). Negatif değerler öndedir.
+	How much the stroke is smoothed: 0 follows the hand closely	Konturun ne kadar yumuşatıldığı: 0 eli yakından izler
+	How open ends finish: flat at the end (None), rounded, or squared off past it	Açık uçların bitiş biçimi: uçta düz (Yok), yuvarlatılmış veya ucun ötesinde kare
+	How the stroke's width varies along it. Shape it by hand with the Width tool (U).	Kontur genişliğinin boyunca nasıl değiştiği. Genişlik aracıyla (U) elle şekillendirin.
+	Icons: Lucide (ISC)	Simgeler: Lucide (ISC)
+	If AniCraft closes unexpectedly, the next start offers to restore it. Copies stay in the settings folder, never over your files, and go away when you save.	AniCraft beklenmedik şekilde kapanırsa bir sonraki açılışta geri yükleme önerilir. Kopyalar ayarlar klasöründe saklanır, hiçbir zaman dosyalarınızın üzerine yazılmaz ve kaydettiğinizde silinir.
+	If you don't save, your changes since the last save will be lost.	Kaydetmezseniz son kaydetmeden bu yana yaptığınız değişiklikler kaybolacaktır.
+	Image added to the Library	Görüntü Kitaplığa eklendi
+	Immediate	Anında
+	Import Dropped Files	Bırakılan Dosyaları İçe Aktar
+	Import to Library…	Kitaplığa İçe Aktar…
+	Import to Stage…	Sahneye İçe Aktar…
+	Import to library (WAV, OGG or MP3 sound; PNG or JPEG image)	Kitaplığa içe aktar (WAV, OGG veya MP3 ses; PNG veya JPEG görüntü)
+	Import to stage (SVG, PNG or JPEG; WAV, OGG or MP3 onto a new layer)	Sahneye içe aktar (SVG, PNG veya JPEG; yeni bir katmana WAV, OGG veya MP3)
+	In {folder}	{folder} içinde
+	Include sound	Sesi dahil et
+	Include sounds	Sesleri dahil et
+	Ink	Mürekkep
+	Ink Bottle	Mürekkep Şişesi
+	Inner	İç
+	Insert blank keyframe (F7)	Boş anahtar kare ekle (F7)
+	Insert frame (F5)	Kare ekle (F5)
+	Insert keyframe (F6)	Anahtar kare ekle (F6)
+	Inside and outside the edge	Kenarın içi ve dışı
+	Inside the artwork's edge	Çizimin kenarının içinde
+	Inside the editor: a web page can't open a window of its own	Düzenleyici içinde: bir web sayfası kendi başına pencere açamaz
+	Inside the editor: this system can't open another window for it	Düzenleyicinin içinde: Bu sistem bunun için başka bir pencere açamıyor
+	Install plug-in (.wasm file)	Eklenti yükle (.wasm dosyası)
+	Installed {name} {version} — find it in Commands › Plug-ins	{name} {version} yüklendi — Komutlar › Eklentiler içinde bulabilirsiniz
+	Instance	Örnek
+	Instance Name	Örnek Adı
+	Instance name	Örnek adı
+	Instance names	Örnek adları
+	Inter + Hack (fallback)	Inter + Hack (yedek)
+	Inter + JetBrains Mono (craft-fonts, {size} KB)	Inter + JetBrains Mono (craft-fonts, {size} KB)
+	Interface font	Arayüz yazı tipi
+	Interface scale	Arayüz ölçeği
+	It is an independent project, not affiliated with or endorsed by Adobe. Bundled fonts and Rust crates keep their own permissive licences, listed below.	Adobe ile bağlantısı olmayan veya Adobe tarafından desteklenmeyen bağımsız bir projedir. Birlikte gelen yazı tipleri ve Rust crate'leri aşağıda listelenen kendi izin verici lisanslarını korur.
+	Item to find	Bulunacak öğe
+	Item to replace with	Yerine konulacak öğe
+	Its actions run on the timeline it is on: “this” is the main timeline.	Eylemleri bulunduğu zaman çizelgesinde çalışır: “this” ana zaman çizelgesidir.
+	Joint Limits	Eklem Sınırları
+	Joint maximum angle	Eklem maksimum açısı
+	Joint minimum angle	Eklem minimum açısı
+	Keep	Koru
+	Keep a recovery copy of unsaved work	Kaydedilmemiş çalışmanın bir kurtarma kopyasını sakla
+	Keep it at the top of the list	Listenin en üstünde tut
+	Keep the markers on their frames instead of moving them with the playhead	İşaretçileri oynatma başlığıyla taşımak yerine kendi karelerinde tut
+	Keep these settings as a preset you can apply to any document	Bu ayarları herhangi bir belgeye uygulayabileceğiniz bir ön ayar olarak sakla
+	Keeps step with the timeline it is on (looping options below)	Bulunduğu zaman çizelgesiyle eşzamanlı ilerler (döngü seçenekleri aşağıdadır)
+	Kept the autosaved work. File › Recover Autosaved Documents… brings it back.	Otomatik kaydedilen çalışma saklandı. Dosya › Otomatik Kaydedilen Belgeleri Kurtar… komutuyla geri getirilebilir.
+	Kept with the document as written. ActionScript 3.0 that controls the timeline runs in Test Movie and the HTML canvas export.	Belgeyle birlikte yazıldığı şekilde saklanır. Zaman çizelgesini denetleyen ActionScript 3.0 kodları Filmi Test Et bölümünde ve HTML kanvas dışa aktarımında çalışır.
+	Kept with the document, but outside the ActionScript 3.0 subset AniCraft runs (or on a timeline that doesn't run scripts). The first Output lines say why; the Actions panel shows each problem in place.	Belgeyle birlikte saklanır, ancak AniCraft'ın çalıştırdığı ActionScript 3.0 alt kümesinin dışındadır (veya betik çalıştırmayan bir zaman çizelgesindedir). Çıktı'nın ilk satırları nedenini belirtir; Eylemler paneli her sorunu yerinde gösterir.
+	Keyboard shortcuts (this editor)	Klavye kısayolları (bu düzenleyici)
+	Keyframe	Anahtar kare
+	Keyframe at {frame} · {frames} · {elements}	{frame} konumunda anahtar kare · {frames} · {elements}
+	Keyframes Only	Yalnızca Anahtar Kareler
+	Keys go to the movie	Tuşlar filme gider
+	Knockout	Oyma
+	Last frame	Son kare
+	Later keeps them: File › Recover Autosaved Documents… brings this back.	Sonra seçeneği bunları saklar: Dosya › Otomatik Kaydedilen Belgeleri Kurtar… bunu geri getirir.
+	Layer Colour	Katman Rengi
+	Layer Depth	Katman Derinliği
+	Layer Height	Katman Yüksekliği
+	Layer Properties	Katman Özellikleri
+	Layer Type	Katman Türü
+	Layer Volume	Katman Ses Düzeyi
+	Layer colour	Katman rengi
+	Layer colour as hex	Onaltılık (hex) olarak katman rengi
+	Layer colour {hex}	Katman rengi {hex}
+	Layer colour: its outlines and its bar on the timeline	Katman rengi: Dış hatları ve zaman çizelgesindeki çubuğu
+	Layer depth	Katman derinliği
+	Layer height	Katman yüksekliği
+	Layer name	Katman adı
+	Layer names	Katman adları
+	Layer names, menus and dialog text read like this.	Katman adları, menüler ve iletişim kutusu metinleri bu şekilde görünür.
+	Layer volume	Katman ses düzeyi
+	Layer {layer}	Katman {layer}
+	Layer {layer} · x {x}, y {y} · {w} × {h} px	Katman {layer} · x {x}, y {y} · {w} × {h} px
+	Layers and frames	Katmanlar ve kareler
+	Leaderboard banner	Leaderboard afişi
+	Left 9-slice guide	Sol 9 dilimli kılavuz
+	Left channel	Sol kanal
+	Left channel volume	Sol kanal ses düzeyi
+	Left out {files}: {why}	{files} hariç tutuldu: {why}
+	Legal compliance	Yasal uyumluluk
+	Length of each dash	Her çizginin uzunluğu
+	Length of each gap	Her boşluğun uzunluğu
+	Let it move down the list again	Listede yeniden aşağı inmesine izin ver
+	Letter spacing	Harf aralığı
+	Letters	Harfler
+	Library (top level)	Kitaplık (üst düzey)
+	Library folder	Kitaplık klasörü
+	Library name	Kitaplık adı
+	Library options	Kitaplık seçenekleri
+	Library: drop here for the top level	Kitaplık: Üst düzey için buraya bırakın
+	Licenses & Notices	Lisanslar ve Bildirimler
+	Like Event, but not if the sound is already playing	Olay (Event) gibidir, ancak ses zaten çalıyorsa tekrar çalmaz
+	Limit how far the joint turns, in every pose	Her pozda eklemin ne kadar dönebileceğini sınırla
+	Limits	Sınırlar
+	Line {line}, column {column}: {message}	Satır {line}, sütun {column}: {message}
+	Linear gradient	Doğrusal gradyan
+	Lines written	Yazılan satırlar
+	Linkage class	Bağlantı sınıfı
+	Linux / BSD	Linux / BSD
+	Lip-sync mouth chart	Dudak senkronizasyonu ağız tablosu
+	List Actions	Eylemleri Listele
+	List Frame Scripts	Kare Betiklerini Listele
+	List Library	Kitaplığı Listele
+	List Templates	Şablonları Listele
+	List a colour effect style's properties here; keying one adds it to the tween	Bir renk efekti stilinin özelliklerini burada listeleyin; birine anahtar kare eklemek onu ara kareye ekler
+	Lock {name}	{name} öğesini kilitle
+	Lock/Unlock Layer	Katmanı Kilitle/Kilidini Aç
+	Look in	Arama konumu
+	Loop	Döngü
+	Loop Playback	Döngüde Oynat
+	Loop forever	Süresiz döngü
+	Loop playback	Döngüde oynat
+	Looping	Döngüleme
+	Lottie	Lottie
+	Lottie animation	Lottie animasyonu
+	MP3	MP3
+	Main timeline frame	Ana zaman çizelgesi karesi
+	Make Corner	Köşe Yap
+	Make Smooth	Yumuşat
+	Manage Plug-ins…	Eklentileri Yönet…
+	Markers	İşaretçiler
+	Mask layer	Maske katmanı
+	Mask layer: its fills reveal the masked layers below. Lock it to hide its outline.	Maske katmanı: Dolguları alttaki maskelenmiş katmanları görünür kılar. Dış hattını gizlemek için kilitleyin.
+	Masked	Maskelenmiş
+	Match case	Büyük/küçük harf eşleştir
+	Menus, panels and dialogs. Your documents, layer names and the command line stay as they are.	Menüler, paneller ve iletişim kutuları. Belgeleriniz, katman adları ve komut satırı olduğu gibi kalır.
+	Merge Shapes	Şekilleri Birleştir
+	Merge on Multiple Frames	Birden Çok Karede Birleştir
+	Message	İleti
+	Middle-drag	Orta tuşla sürükle
+	Miter	Gönye
+	Miter limit	Gönye sınırı
+	More…	Daha fazla…
+	Morph this keyframe's shapes into the next keyframe's	Bu anahtar karedeki şekilleri bir sonraki anahtar karedekilere dönüştür
+	Morphs one shape into another	Bir şekli başka bir şekle dönüştürür
+	Motion Editor	Hareket Düzenleyici
+	Motion Tween	Hareket Ara Karesi
+	Motion path start X	Hareket yolu başlangıç X
+	Motion path start Y	Hareket yolu başlangıç Y
+	Motion tween	Hareket ara karesi
+	Move 9-Slice Guide	9 Dilimli Kılavuzu Taşı
+	Move Armature	Armatürü Taşı
+	Move Camera	Kamerayı Taşı
+	Move Envelope Point	Zarf Noktasını Taşı
+	Move Handle	Tutamacı Taşı
+	Move Keyframes	Anahtar Kareleri Taşı
+	Move Layer Down	Katmanı Aşağı Taşı
+	Move Layer Up	Katmanı Yukarı Taşı
+	Move Motion Path	Hareket Yolunu Taşı
+	Move Point	Noktayı Taşı
+	Move Points	Noktaları Taşı
+	Move Scene Earlier	Sahneyi Önceye Taşı
+	Move Scene Later	Sahneyi Sonraya Taşı
+	Move Shape Hint	Şekil İpucunu Taşı
+	Move colour stop	Renk durağını taşı
+	Move down	Aşağı taşı
+	Move layer down	Katmanı aşağı taşı
+	Move layer up	Katmanı yukarı taşı
+	Move on Multiple Frames	Birden Çok Karede Taşı
+	Move the playhead between frames {first} and {last}, where the object moves along the path	Oynatma başlığını nesnenin yol boyunca hareket ettiği {first} ile {last} kareleri arasında taşıyın
+	Move to	Şuraya taşı
+	Move to Folder	Klasöre Taşı
+	Move up	Yukarı taşı
+	Moves from the left channel to the right while it plays	Oynatılırken sol kanaldan sağ kanala geçer
+	Moves from the right channel to the left while it plays	Oynatılırken sağ kanaldan sol kanala geçer
+	Moves, scales, rotates and recolours	Taşır, ölçeklendirir, döndürür ve yeniden renklendirir
+	Movie Explorer	Film Gezgini
+	Movie clip	Film klibi
+	Movie clip (unnamed)	Film klibi (adsız)
+	Movie clip “{name}”	“{name}” film klibi
+	Movie clip: {name}	Film klibi: {name}
+	Moving the object on the stage inside the span adds keys here	Nesneyi aralık içinde sahnede taşımak buraya anahtar kareler ekler
+	Mute	Sessize Al
+	Mute layer	Katmanın sesini kapat
+	Mute this layer's sounds (in playback and every export)	Bu katmanın seslerini kapat (oynatmada ve tüm dışa aktarmalarda)
+	Mute {name}	{name} sesini kapat
+	Mute/Unmute Layer	Katmanın Sesini Kapat/Aç
+	My Templates	Şablonlarım
+	My templates	Şablonlarım
+	NOTICE	BİLDİRİM
+	Name it to address it from actions (letters, digits and _). Its events work without a name.	Eylemlerden erişebilmek için adlandırın (harfler, rakamlar ve _). Olayları ad olmadan da çalışır.
+	Never saved	Hiç kaydedilmedi
+	New Folder	Yeni Klasör
+	New Text	Yeni Metin
+	New document from the template “{name}”	“{name}” şablonundan yeni belge
+	New folder above the active layer (move layers in under it with Up and Down)	Etkin katmanın üstünde yeni klasör (Yukarı ve Aşağı ile katmanları altına taşıyın)
+	New from Sample	Örnekten Yeni
+	New from Template…	Şablondan Yeni…
+	New from template {name}	{name} şablonundan yeni
+	New layer	Yeni katman
+	New preset name	Yeni hazır ayar adı
+	New {name}, {size}	Yeni {name}, {size}
+	Next Frame	Sonraki Kare
+	Next Panel	Sonraki Panel
+	Next Scene	Sonraki Sahne
+	Next frame	Sonraki kare
+	Next scene	Sonraki sahne
+	No actions yet. Add one: Stop on a frame holds the movie there; a button's Click can then go on.	Henüz eylem yok. Bir tane ekleyin: Karede Durdur filmi orada bekletir; ardından bir düğmenin Tıklama eylemi devam ettirebilir.
+	No autosaved work to recover	Kurtarılacak otomatik kaydedilmiş çalışma yok
+	No fonts found on this computer	Bu bilgisayarda yazı tipi bulunamadı
+	No format is on in Publish Settings: turn one on first.	Yayınlama Ayarları'nda etkin bir biçim yok: önce birini açın.
+	No frame labels yet: name a keyframe in Properties › Label	Henüz kare etiketi yok: Özellikler › Etiket bölümünden bir anahtar kareyi adlandırın
+	No frame-script plug-ins are installed (Commands › Install Plug-in…)	Yüklü kare betiği eklentisi yok (Komutlar › Eklenti Yükle…)
+	No installer is available for this platform.	Bu platform için yükleyici mevcut değil.
+	No panel to move to yet	Henüz geçilecek panel yok
+	No plug-ins installed yet	Henüz yüklü eklenti yok
+	No plug-ins installed yet. Plug-ins are WebAssembly (.wasm) files that add commands, such as generators and selection effects.	Henüz yüklü eklenti yok. Eklentiler, oluşturucular ve seçim efektleri gibi komutlar ekleyen WebAssembly (.wasm) dosyalarıdır.
+	No property keyframes yet: move or change the object at a later frame to add some.	Henüz özellik anahtar karesi yok: eklemek için nesneyi sonraki bir karede taşıyın veya değiştirin.
+	No recent files yet. Documents you open or save show here.	Henüz son kullanılan dosya yok. Açtığınız veya kaydettiğiniz belgeler burada görünür.
+	No sound: {error}	Ses yok: {error}
+	No symbols, images or sounds yet. Select artwork and press {convert} to make a symbol, or import an image or a sound with {import}.	Henüz sembol, görsel veya ses yok. Sembol oluşturmak için çizimi seçip {convert} tuşuna basın veya {import} ile bir görsel ya da ses içe aktarın.
+	No text uses a font yet	Henüz hiçbir metin bir yazı tipi kullanmıyor
+	Nothing erased: {why}. The eraser works on lines and fills drawn with Object Drawing off; drawing objects and symbols are kept.	Hiçbir şey silinmedi: {why}. Silgi, Nesne Çizimi kapalıyken çizilen çizgi ve dolgularda çalışır; çizim nesneleri ve semboller korunur.
+	Nothing found	Hiçbir şey bulunamadı
+	Nothing matches the search.	Aramayla eşleşen hiçbir şey yok.
+	Nothing to erase: the visible, unlocked layers are empty at this frame.	Silinecek bir şey yok: görünür ve kilitsiz katmanlar bu karede boş.
+	Nothing to paint behind there: Paint Behind only paints empty areas.	Orada arkaya boyanacak bir şey yok: Arkaya Boya yalnızca boş alanları boyar.
+	Nothing to show: turn on more Show buttons.	Gösterilecek bir şey yok: daha fazla Göster düğmesini açın.
+	Nudge selection 1 px	Seçimi 1 px kaydır
+	Nudge selection 10 px	Seçimi 10 px kaydır
+	Object Drawing	Nesne Çizimi
+	Object drawing	Nesne çizimi
+	Off: it floats inside the editor. On Wayland the desktop places the window, so it can't open where it was last.	Kapalı: düzenleyici içinde serbest yüzer. Wayland'de pencereyi masaüstü yerleştirir, bu yüzden son kaldığı yerde açılamaz.
+	Off: it floats inside the editor. The window opens where it was last.	Kapalı: düzenleyici içinde serbest yüzer. Pencere son kaldığı yerde açılır.
+	Off: it plays once and stops on the last frame	Kapalı: bir kez oynatılır ve son karede durur
+	Off: it plays the number of times you set, then stops on the last frame	Kapalı: ayarladığınız sayı kadar oynatılır, ardından son karede durur
+	Off: the movie shows at its stage size	Kapalı: film kendi sahne boyutunda gösterilir
+	Off: transparent	Kapalı: saydam
+	Off: what is on them, straight under the scene	Kapalı: üzerindekiler, doğrudan sahnenin altında
+	Ogg Vorbis	Ogg Vorbis
+	On click	Tıklandığında
+	On pointer out	İşaretçi dışarı çıktığında
+	On pointer over	İşaretçi üzerine geldiğinde
+	On press	Basıldığında
+	On release	Bırakıldığında
+	On {event}: {actions}	{event} olayında: {actions}
+	On: a click deletes the whole fill or line under it. Off: drag to erase	Açık: tıklama altındaki tüm dolguyu veya çizgiyi siler. Kapalı: silmek için sürükleyin
+	On: each shape is an object of its own. Off: shapes cut and merge with the shapes they touch ({key})	Açık: her şekil kendi başına bir nesnedir. Kapalı: şekiller dokundukları şekilleri keser ve onlarla birleşir ({key})
+	One PNG per frame, in a folder.	Klasör içinde her kare için bir PNG.
+	One frame as a PNG image.	PNG görseli olarak tek kare.
+	One frame as an SVG drawing.	SVG çizimi olarak tek kare.
+	One web page that plays the movie, buttons and actions included.	Düğmeler ve eylemler dahil filmi oynatan tek bir web sayfası.
+	Onion All	Tümüne Soğan Kabuğu
+	Onion Skin	Soğan Kabuğu
+	Onion Skin Layer	Soğan Kabuğu Katmanı
+	Onion Skin On / Off	Soğan Kabuğu Açık / Kapalı
+	Onion Skin Options	Soğan Kabuğu Seçenekleri
+	Onion end marker	Soğan kabuğu bitiş işaretçisi
+	Onion skin	Soğan kabuğu
+	Onion skin is off: turn it on in the timeline header to see the frames around the playhead	Soğan kabuğu kapalı: oynatma başlığı çevresindeki kareleri görmek için zaman çizelgesi başlığından açın
+	Onion skin on every layer again	Soğan kabuğu yeniden tüm katmanlarda
+	Onion skin on {name} only (Alt-click it again for every layer)	Yalnızca {name} katmanında soğan kabuğu (tüm katmanlar için yeniden Alt-tıklayın)
+	Onion skin options	Soğan kabuğu seçenekleri
+	Onion skin options: markers, outlines, colours	Soğan kabuğu seçenekleri: işaretçiler, dış hatlar, renkler
+	Onion skin this layer	Bu katmana soğan kabuğu uygula
+	Onion skin this layer (Alt-click: this layer only, again: every layer)	Bu katmana soğan kabuğu uygula (Alt-tıklama: yalnızca bu katman, yeniden: tüm katmanlar)
+	Onion skin {name}	{name} için soğan kabuğu
+	Onion start marker	Soğan kabuğu başlangıç işaretçisi
+	Onion {n}	Soğan kabuğu {n}
+	Onion-skin only the frames where a keyframe starts	Yalnızca anahtar karenin başladığı karelere soğan kabuğu uygula
+	Only a layer right under a mask layer can be masked	Yalnızca bir maske katmanının hemen altındaki katman maskelenebilir
+	Only a layer right under a motion guide can be guided	Yalnızca bir hareket kılavuzunun hemen altındaki katman yönlendirilebilir
+	Open document	Belgeyi aç
+	Open folder	Klasörü aç
+	Open it as unsaved work	Kaydedilmemiş çalışma olarak aç
+	Open or create a document first, then drop drawings, images and sounds on its stage	Önce bir belge açın veya oluşturun, ardından çizimleri, görselleri ve sesleri sahnesine bırakın
+	Open {label}	{label} öğesini aç
+	Open {name}	{name} öğesini aç
+	Open {name} (you'll be asked about unsaved changes)	{name} öğesini aç (kaydedilmemiş değişiklikler sorulacaktır)
+	Open {name}, pinned	{name} öğesini aç, sabitlenmiş
+	Open-source 2D vector animation studio, written in Rust.	Rust ile yazılmış açık kaynaklı 2B vektör animasyon stüdyosu.
+	Opened	Açıldı
+	Opened document	Belge açıldı
+	Opened in your system's file viewer	Sisteminizin dosya görüntüleyicisinde açıldı
+	Opened the plug-ins folder	Eklenti klasörü açıldı
+	Or after	Veya sonrasında
+	Or drop a document anywhere on this window.	Veya bir belgeyi bu pencerenin herhangi bir yerine bırakın.
+	Orient to Path	Yola Yönlendir
+	Orient to path	Yola yönlendir
+	Other language	Diğer dil
+	Outer	Dış
+	Outline Layer	Katman Dış Hattı
+	Outline colour	Dış hat rengi
+	Outline {name}	{name} dış hattı
+	Outlines	Dış Hatlar
+	Outside the artwork's edge	Çizimin kenarının dışında
+	Over: the button with the pointer over it	Üzerinde: işaretçinin üzerinde olduğu düğme
+	PNG image	PNG görseli
+	PNG sequence	PNG dizisi
+	PNG sprite sheet	PNG sprite sayfası
+	Padding	İç boşluk
+	Page title	Sayfa başlığı
+	Paint Behind	Arkaya Boya
+	Paint Bucket	Boya Kovası
+	Paint Fills	Dolguları Boya
+	Paint Normal	Normal Boya
+	Paint mode	Boyama modu
+	Paints only empty areas, behind the lines and fills on the layer.	Yalnızca katmandaki çizgilerin ve dolguların arkasındaki boş alanları boyar.
+	Paints over fills and empty areas, leaving lines alone.	Çizgilere dokunmadan dolguların ve boş alanların üzerine boyar.
+	Paints over lines and fills on the layer.	Katmandaki çizgilerin ve dolguların üzerine boyar.
+	Pan with any tool	Herhangi bir araçla kaydır
+	Panels are docked: Tools, Stage, Timeline, Properties, Library and Movie Explorer	Paneller yerleştirildi: Araçlar, Sahne, Zaman Çizelgesi, Özellikler, Kütüphane ve Film Gezgini
+	Paste Frames	Kareleri Yapıştır
+	Paste in Center	Ortaya Yapıştır
+	Paste in Place	Yerine Yapıştır
+	Paste in Place on Multiple Frames	Birden Çok Kareye Yerine Yapıştır
+	Path start	Yol başlangıcı
+	Pen Path	Kalem Yolu
+	Pencil Stroke	Kurşun Kalem Konturu
+	Performance & budgets	Performans ve bütçeler
+	Pick a key that has another key after it	Sonrasında başka bir anahtar gelen bir anahtar seçin
+	Pick a size to start a new animation, or open one you made. Esc goes back to the document.	Yeni bir animasyon başlatmak için bir boyut seçin veya yaptığınız bir animasyonu açın. Esc ile belgeye dönülür.
+	Pick a template to start a new document from. Esc goes back to the document.	Yeni bir belge başlatmak için bir şablon seçin. Esc ile belgeye dönülür.
+	Pick any colour in Layer Properties	Katman Özellikleri'nde herhangi bir renk seçin
+	Picked the bitmap fill.	Bit eşlem dolgusu seçildi.
+	Picked the fill {color}.	{color} dolgusu seçildi.
+	Picked the line {color}, {width} px.	{color} çizgi ({width} px) seçildi.
+	Picked the linear gradient.	Doğrusal gradyan seçildi.
+	Picked the radial gradient.	Radyal gradyan seçildi.
+	Picked with the Eyedropper. It stays where it was on the stage (lock fill). Pick a colour to fill with a solid colour again.	Damlalık ile seçildi. Sahnede olduğu yerde kalır (dolguyu kilitle). Tekrar düz bir renkle doldurmak için bir renk seçin.
+	Picked {color} into the fill colour.	Dolgu rengi olarak {color} seçildi.
+	Picked {color} into the stroke colour.	Kontur rengi olarak {color} seçildi.
+	Pin	Sabitle
+	Pin Bone	Kemiği Sabitle
+	Pin Here	Buraya Sabitle
+	Pin Motion Path Point	Hareket Yolu Noktasını Sabitle
+	Pin the motion path at this frame	Hareket yolunu bu karede sabitle
+	Pin to Frame {frame}	{frame}. Kareye Sabitle
+	Pin to Recent Files	Son Dosyalara Sabitle
+	Pinch	Sıkıştır
+	Pinned	Sabitlendi
+	Pinned files stay	Sabitlenen dosyalar kalır
+	Pinned point {anchor} to frame {frame}: the object passes it then. {undo} to undo.	{anchor} noktası {frame}. kareye sabitlendi: nesne o anda buradan geçer. Geri almak için {undo}.
+	Pinned to Frame {frame}	{frame}. Kareye Sabitlendi
+	Place Sound	Ses Yerleştir
+	Place on Stage	Sahneye Yerleştir
+	Place on Timeline	Zaman Çizelgesine Yerleştir
+	Place on stage	Sahneye yerleştir
+	Place on timeline	Zaman çizelgesine yerleştir
+	Place on {layer}	{layer} katmanına yerleştir
+	Place {what} on {layer} at frame {frame}	{what} öğesini {layer} katmanında {frame}. kareye yerleştir
+	Play / Stop	Oynat / Durdur
+	Play Test Movie in a window of its own	Test Filmini kendi penceresinde oynat
+	Play once	Bir kez oynat
+	Play the sound	Sesi çal
+	Play the sound with this envelope	Sesi bu zarf ile çal
+	Playback	Oynatma
+	Playhead	Oynatma başlığı
+	Playhead (frame ruler)	Oynatma başlığı (kare cetveli)
+	Playing without sound: {e}	Ses olmadan oynatılıyor: {e}
+	Plays	Oynatır
+	Plays again and again: to the end of the movie (event) or of this span (stream)	Tekrar tekrar çalar: filmin sonuna (olay) veya bu aralığın sonuna (akış) kadar
+	Plays in full from this keyframe, independent of the timeline	Zaman çizelgesinden bağımsız olarak bu anahtar kareden itibaren tam olarak çalar
+	Plays its own timeline on a loop, from when it appears	Göründüğü andan itibaren kendi zaman çizelgesini döngü halinde oynatır
+	Plays on the left channel only	Yalnızca sol kanaldan çalar
+	Plays on the right channel only	Yalnızca sağ kanaldan çalar
+	Plays the sound on its own	Sesi tek başına çalar
+	Plug-in	Eklenti
+	Plug-in · {by}	Eklenti · {by}
+	Plug-ins are installed into a folder on your computer: use the desktop app	Eklentiler bilgisayarınızdaki bir klasöre yüklenir: masaüstü uygulamasını kullanın
+	Plug-ins run sandboxed: they can change the open document through AniCraft's commands, never your files.	Eklentiler korumalı alanda çalışır: açık belgeyi yalnızca AniCraft komutları aracılığıyla değiştirebilirler, dosyalarınızı asla değiştiremezler.
+	Plug-ins: {error}	Eklentiler: {error}
+	Point time	Nokta zamanı
+	Point {anchor} is pinned to frame {frame}: pins keep the path's order	{anchor} noktası {frame}. kareye sabitlenmiş: sabitlemeler yolun sırasını korur
+	Point {anchor} shapes the path only again; the X and Y keyframes of frame {frame} go	{anchor} noktası artık yalnızca yolu şekillendirir; {frame}. karenin X ve Y anahtar kareleri kaldırılır
+	Point {index} of {count}	Nokta {index} / {count}
+	Point {index} of {count}, {channel}: {level} % at {time}	Nokta {index} / {count}, {channel}: {time} konumunda %{level}
+	Pointer out	İşaretçi dışarıda
+	Pointer over	İşaretçi üzerinde
+	Points of the motion path pinned to frames: the object passes each one exactly then, and the X and Y keyframes there are its place. The ends are always pinned. Moving the object on the stage at a frame pins a point there; with the Subselection tool (A), right-click a point to pin or unpin it.	Karelere sabitlenmiş hareket yolu noktaları: nesne her birinden tam o anda geçer ve oradaki X ile Y anahtar kareleri nesnenin konumudur. Uçlar her zaman sabitlidir. Bir karede nesneyi sahne üzerinde hareket ettirmek oraya bir nokta sabitler; Alt Seçim aracı (A) ile bir noktaya sağ tıklayarak sabitleyebilir veya sabitlemesini kaldırabilirsiniz.
+	PolyStar	Çokgen/Yıldız
+	Pose Armature	İskeleti Pozla
+	Pose Bone	Kemiği Pozla
+	Position X	Konum X
+	Position Y	Konum Y
+	Press	Bas
+	Press the new keys for {action}. Esc cancels.	{action} için yeni tuşlara basın. Esc iptal eder.
+	Pressed and released on it	Üzerinde basılıp bırakıldı
+	Preview Through Camera	Kameradan Önizle
+	Preview on the stage	Sahnede önizle
+	Preview through camera	Kameradan önizle
+	Preview through camera is on; add a camera (the camera button on the timeline, or the Camera tool) to look through it.	Kameradan önizleme açık; içinden bakmak için bir kamera ekleyin (zaman çizelgesindeki kamera düğmesi veya Kamera aracı).
+	Previewing through the camera: artwork edits are paused. Turn off View › Preview Through Camera to edit.	Kameradan önizleniyor: çizim düzenlemeleri duraklatıldı. Düzenlemek için Görünüm › Kameradan Önizle seçeneğini kapatın.
+	Previous Frame	Önceki Kare
+	Previous Panel	Önceki Panel
+	Previous Scene	Önceki Sahne
+	Previous frame	Önceki kare
+	Previous scene	Önceki sahne
+	Project Files	Proje Dosyaları
+	Project Files & Docs	Proje Dosyaları ve Belgeler
+	Project Files & Docs…	Proje Dosyaları ve Belgeler…
+	Project folder	Proje klasörü
+	Properties…	Özellikler…
+	Property	Özellik
+	Property Ease	Özellik Yumuşatması
+	Property Keyframe	Özellik Anahtar Karesi
+	Property curves of the motion tween at the playhead (double-click a motion span)	Oynatma kafasındaki hareket ara karesinin özellik eğrileri (bir hareket aralığına çift tıklayın)
+	Property ease	Özellik yumuşatması
+	Property keyframe	Özellik anahtar karesi
+	Publish	Yayınla
+	Publish Settings	Yayınlama Ayarları
+	Publish Settings…	Yayınlama Ayarları…
+	Publish report	Yayınlama raporu
+	Publish {format}	{format} Yayınla
+	Published	Yayınlandı
+	Publishing	Yayınlanıyor
+	Publishing is already running	Yayınlama zaten çalışıyor
+	Publishing is running	Yayınlama çalışıyor
+	Put every shortcut back to the defaults	Tüm kısayolları varsayılanlara döndür
+	Put on {layer} at frame {frame}	{layer} katmanında {frame}. kareye yerleştir
+	Put {what} on {layer}'s keyframe at frame {frame}	{what} öğesini {layer} katmanının {frame}. karedeki anahtar karesine yerleştir
+	Puts it on the active layer's keyframe at the playhead (Enter, or drag it onto the stage)	Oynatma kafasındaki etkin katmanın anahtar karesine yerleştirir (Enter veya sahneye sürükleyin)
+	Quit	Çık
+	Quit AniCraft	AniCraft'tan Çık
+	Radial gradient	Dairesel gradyan
+	Raw Points	Ham Noktalar
+	Read times in frames	Süreleri kare cinsinden oku
+	Read times in seconds	Süreleri saniye cinsinden oku
+	Reading the sound…	Ses okunuyor…
+	Recoloured the fill. {undo} to undo.	Dolgu yeniden renklendirildi. Geri almak için {undo}.
+	Recover Autosaved Documents…	Otomatik Kaydedilen Belgeleri Kurtar…
+	Recover unsaved work	Kaydedilmemiş çalışmayı kurtar
+	Rectangle banner	Dikdörtgen afiş
+	Red multiplier	Kırmızı çarpanı
+	Red offset	Kırmızı ofseti
+	Redid {action}	{action} yinelendi
+	Regular expression	Düzenli ifade
+	Release	Bırakma
+	Releases	Bırakmalar
+	Reload Plug-ins	Eklentileri Yeniden Yükle
+	Remove All Hints	Tüm İpuçlarını Kaldır
+	Remove Bone	Kemiği Kaldır
+	Remove Camera	Kamerayı Kaldır
+	Remove Frame	Kareyi Kaldır
+	Remove Hint {letter}	{letter} İpucunu Kaldır
+	Remove Motion Path	Hareket Yolunu Kaldır
+	Remove Plug-in	Eklentiyi Kaldır
+	Remove Property Keyframe	Özellik Anahtar Karesini Kaldır
+	Remove Shape Hint	Şekil İpucunu Kaldır
+	Remove Sound	Sesi Kaldır
+	Remove Transform	Dönüşümü Kaldır
+	Remove Tween	Ara Kareyi Kaldır
+	Remove bone	Kemiği kaldır
+	Remove camera	Kamerayı kaldır
+	Remove colour stop	Renk durağını kaldır
+	Remove event	Olayı kaldır
+	Remove filter	Filtreyi kaldır
+	Remove from Recent Files	Son Dosyalardan Kaldır
+	Remove script	Betiği kaldır
+	Remove the {property} keyframe at frame {frame}	{frame}. karedeki {property} anahtar karesini kaldır
+	Remove this action	Bu eylemi kaldır
+	Remove this colour stop	Bu renk durağını kaldır
+	Remove this filter	Bu filtreyi kaldır
+	Remove tween	Ara kareyi kaldır
+	Remove {filter}	{filter} filtresini kaldır
+	Remove {filter} colour stop	{filter} renk durağını kaldır
+	Removed frame — {undo} to undo	Kare kaldırıldı — geri almak için {undo}
+	Removed shape hint {letter}. {undo} to undo.	{letter} şekil ipucu kaldırıldı. Geri almak için {undo}.
+	Removed the actions — {undo} to undo	Eylemler kaldırıldı — geri almak için {undo}
+	Removed the click event — {undo} to undo	Tıklama olayı kaldırıldı — geri almak için {undo}
+	Removed the plug-in	Eklenti kaldırıldı
+	Removed the plug-in frame script — {undo} to undo	Eklenti kare betiği kaldırıldı — geri almak için {undo}
+	Removed the pointer out event — {undo} to undo	İşaretçi çıkış olayı kaldırıldı — geri almak için {undo}
+	Removed the pointer over event — {undo} to undo	İşaretçi üzerine gelme olayı kaldırıldı — geri almak için {undo}
+	Removed the press event — {undo} to undo	Basma olayı kaldırıldı — geri almak için {undo}
+	Removed the release event — {undo} to undo	Bırakma olayı kaldırıldı — geri almak için {undo}
+	Removed the script — {undo} to undo	Betik kaldırıldı — geri almak için {undo}
+	Removed the width point. {undo} to undo.	Genişlik noktası kaldırıldı. Geri almak için {undo}.
+	Removed {name}	{name} kaldırıldı
+	Removes the bone and the bones below it; their instances stay where they are, on a layer of their own	Kemiği ve altındaki kemikleri kaldırır; örnekleri kendi katmanlarında oldukları yerde kalır
+	Remove…	Kaldır…
+	Rename Layer	Katmanı Yeniden Adlandır
+	Rename Scene	Sahneyi Yeniden Adlandır
+	Rename Sound	Sesi Yeniden Adlandır
+	Rename layer	Katmanı yeniden adlandır
+	Rename scene	Sahneyi yeniden adlandır
+	Renderer	İşleyici
+	Rendering	İşleniyor
+	Repeat or loop	Yinele veya döngüye al
+	Replace All	Tümünü Değiştir
+	Replace every result, as one step you can undo	Tüm sonuçları geri alınabilir tek bir adımda değiştirir
+	Replace the current result, then go to the next	Geçerli sonucu değiştirir, ardından sonrakine gider
+	Replace with	Şununla değiştir
+	Replacement text	Değiştirme metni
+	Requirements & technology	Gereksinimler ve teknoloji
+	Reset all	Tümünü sıfırla
+	Reset all…	Tümünü sıfırla…
+	Reset camera	Kamerayı sıfırla
+	Reset {action}	{action} sıfırla
+	Resize the right-hand panels	Sağdaki panelleri yeniden boyutlandır
+	Resize the timeline	Zaman çizelgesini yeniden boyutlandır
+	Restart from frame 1 with the document as it is now ({key})	Belgenin şu anki durumuyla 1. kareden yeniden başlat ({key})
+	Restore Autosaved Document	Otomatik Kaydedilen Belgeyi Geri Yükle
+	Restore {name}	{name} geri yükle
+	Restored “{name}” as a new document (the file on disk is newer). Save to keep it.	“{name}” yeni bir belge olarak geri yüklendi (diskteki dosya daha yeni). Saklamak için kaydedin.
+	Restored “{name}”. It isn't saved yet: Save to keep it.	“{name}” geri yüklendi. Henüz kaydedilmedi: Saklamak için kaydedin.
+	Result {n} of {total}	{n} / {total} sonuç
+	Right 9-slice guide	Sağ 9 dilim kılavuzu
+	Right channel	Sağ kanal
+	Right channel volume	Sağ kanal ses düzeyi
+	Right-click	Sağ tıklama
+	Rises from silence to full volume while it plays	Oynatılırken sessizlikten tam ses düzeyine yükselir
+	Roadmap	Yol Haritası
+	Rotate 90° CCW	Saat Yönünün Tersine 90° Döndür
+	Rotate 90° CW	Saat Yönünde 90° Döndür
+	Rotate Camera	Kamerayı Döndür
+	Round	Yuvarlak
+	Run	Çalıştır
+	Run Plug-in	Eklentiyi Çalıştır
+	Runs in Test Movie and the HTML canvas export	Filmi Test Et'te ve HTML kanvas dışa aktarımında çalışır
+	Run…	Çalıştır…
+	Rust crates: licence inventory	Rust paketleri: lisans envanteri
+	SVG image	SVG görseli
+	Safety	Güvenlik
+	Same for all	Tümü için aynı
+	Sample animation	Örnek animasyon
+	Sample rate	Örnekleme hızı
+	Save Preset	Ön Ayarı Kaydet
+	Save Template	Şablonu Kaydet
+	Save changes to “{name}” before closing?	Kapatmadan önce “{name}” üzerindeki değişiklikler kaydedilsin mi?
+	Save document as	Belgeyi farklı kaydet
+	Save it in this category	Bu kategoride kaydet
+	Save the document first: Publish writes its files beside it.	Önce belgeyi kaydedin: Yayınla dosyalarını belgenin yanına yazar.
+	Save the document first: files go beside it.	Önce belgeyi kaydedin: dosyalar yanına kaydedilir.
+	Save your work and stop running tasks before installing an update.	Bir güncellemeyi yüklemeden önce çalışmanızı kaydedin ve çalışan görevleri durdurun.
+	Saved documents and exports go where you type in the save box; a plain name lands in the folder AniCraft was started from.	Kaydedilen belgeler ve dışa aktarımlar kaydetme kutusuna yazdığınız konuma gider; yalnızca bir ad yazarsanız AniCraft'ın başlatıldığı klasöre kaydedilir.
+	Saved the preset “{name}”	“{name}” ön ayarı kaydedildi
+	Saved the template “{name}”. File › New from Template starts a document from it.	“{name}” şablonu kaydedildi. Dosya › Şablondan Yeni ile bu şablondan bir belge başlatabilirsiniz.
+	Saved {path}	{path} kaydedildi
+	Saved {path} to your downloads	{path} indirilenlerinize kaydedildi
+	Scale X	X Ölçeği
+	Scale Y	Y Ölçeği
+	Scale height	Yüksekliği ölçekle
+	Scale to the browser window	Tarayıcı penceresine ölçekle
+	Scale width	Genişliği ölçekle
+	Scaled instances keep the corners outside the guides unscaled, stretch the edges one way and the centre both ways (for buttons and panels). Edit the symbol to drag the guides	Ölçeklenen örnekler, kılavuzların dışındaki köşeleri ölçeklenmeden korur, kenarları tek yönde ve merkezi her iki yönde esnetir (düğmeler ve paneller için). Kılavuzları sürüklemek için sembolü düzenleyin
+	Scanning installed fonts…	Yüklü yazı tipleri taranıyor…
+	Scene	Sahne
+	Screenshots	Ekran Görüntüleri
+	Script	Betik
+	Script language	Betik dili
+	Scroll the timeline	Zaman çizelgesini kaydır
+	Scroll the timeline (or Shift+wheel anywhere over it)	Zaman çizelgesini kaydırın (veya üzerinde herhangi bir yerde Shift+tekerlek kullanın)
+	Search for	Şunu ara
+	Search the Library	Kütüphanede ara
+	Search the Movie Explorer	Film Gezgini'nde ara
+	Seconds	Saniye
+	Select All Frames	Tüm Kareleri Seç
+	Select Connected	Bağlı Olanları Seç
+	Select Elements	Öğeleri Seç
+	Select Layer	Katmanı Seç
+	Select Parts	Parçaları Seç
+	Select Unused Items	Kullanılmayan Öğeleri Seç
+	Select a keyframe with a sound to edit its envelope	Zarfını düzenlemek için ses içeren bir anahtar kare seçin
+	Select an item to preview it	Ön izlemek için bir öğe seçin
+	Select at Point	Noktadan Seç
+	Select one button or movie clip instance on the stage	Sahnede bir düğme veya film klibi örneği seçin
+	Select one button or movie clip instance on the stage to give it events (a graphic can't have them: set its symbol's Type in Properties).	Olay atamak için sahnede bir düğme veya film klibi örneği seçin (grafikte olay olamaz: Özellikler'den sembolünün Türünü ayarlayın).
+	Select some artwork first	Önce bir çizim seçin
+	Select the object to see its path on the stage. Drag the path to bend it and its ends to move them; {drag} the path or the object to move the whole path. With the Subselection tool (A), drag points and handles, double-click the path to add a point (or Alt-click it with the Pen), Delete removes points, and right-click makes them smooth or corners.	Sahnede yolunu görmek için nesneyi seçin. Yolu bükmek için yolu, uçlarını taşımak için uçları sürükleyin; tüm yolu taşımak için yolu veya nesneyi {drag} ile taşıyın. Alt Seçim aracı (A) ile noktaları ve tutamaçları sürükleyin, nokta eklemek için yola çift tıklayın (veya Kalem ile Alt-tıklayın); Delete noktaları kaldırır, sağ tıklama ise onları yumuşak veya köşeli yapar.
+	Selected {name}	{name} seçildi
+	Selection Tool Target	Seçim Aracı Hedefi
+	Set Actions	Eylemleri Ayarla
+	Set Frame Script	Kare Betiğini Ayarla
+	Set Script Class	Betik Sınıfını Ayarla
+	Set Tween Easing	Ara Kare Yumuşatmasını Ayarla
+	Set property	Özelliği ayarla
+	Shadow offset	Gölge kaydırması
+	Shadow options	Gölge seçenekleri
+	Shape Hints	Şekil İpuçları
+	Shape tween	Şekil ara karesi
+	Short	Kısa
+	Show Folder	Klasörü Göster
+	Show all again	Tümünü yeniden göster
+	Show another bitmap from the Library here, keeping its position and transform	Konumunu ve dönüşümünü koruyarak burada Kütüphaneden başka bir bit eşlem göster
+	Show another symbol here, keeping position, colour effect, filters and name	Konumu, renk efektini, filtreleri ve adı koruyarak burada başka bir sembol göster
+	Show hit areas	Vuruş alanlarını göster
+	Show in the Movie Explorer	Film Gezgini'nde göster
+	Show only the effect, not the artwork	Çizimi değil, yalnızca efekti göster
+	Show the keyframes between the markers at full strength, and select and move their artwork together	İşaretçiler arasındaki anahtar kareleri tam görünürlükte göster ve çizimlerini birlikte seçip taşı
+	Show the markers on the frame ruler even when onion skin is off	Soğan kabuğu kapalıyken bile kare cetvelindeki işaretçileri göster
+	Show the stage as the movie shows it (View › Preview Through Camera)	Sahneyi filmin gösterdiği gibi göster (Görünüm › Kamera Üzerinden Ön İzle)
+	Show the whole sound	Tüm sesi göster
+	Show this layer's frames around the playhead while onion skin is on	Soğan kabuğu açıkken oynatma kafası çevresinde bu katmanın karelerini göster
+	Show this line in the script	Bu satırı betikte göster
+	Show this screen when AniCraft starts	AniCraft başlatıldığında bu ekranı göster
+	Show {name}	{name} öğesini göster
+	Show/Hide Layer	Katmanı Göster/Gizle
+	Shown	Gösterilen
+	Shows its Up frame	Yukarı karesini gösterir
+	Silence this layer's sounds while you work and in every export	Çalışırken ve her dışa aktarımda bu katmanın seslerini sustur
+	Single frame	Tek kare
+	Six 2-second panels at 1920 × 1080, labelled Panel 1 to 6, with action- and title-safe areas	Eylem ve başlık güvenli alanlarına sahip, Panel 1 - 6 olarak etiketlenmiş, 1920 × 1080 boyutunda altı adet 2 saniyelik panel
+	Skipped	Atlandı
+	Smooth	Yumuşak
+	Smooth (bezier)	Yumuşak (Bezier)
+	Smooth when scaled or turned; off keeps hard pixel edges, for pixel art	Ölçeklendiğinde veya döndürüldüğünde yumuşat; kapalıyken piksel sanatı için keskin piksel kenarlarını korur
+	Smoothing	Yumuşatma
+	Snap Point	Yakalama Noktası
+	Snap to Objects	Nesnelere Yakala
+	Snap to objects	Nesnelere yakala
+	Snapping	Yakalama
+	Social	Sosyal
+	Social square	Sosyal medya karesi
+	Solid	Düz
+	Solid, dashed or dotted	Düz, kesik veya noktalı
+	Some plug-ins could not be loaded: {list}	Bazı eklentiler yüklenemedi: {list}
+	Sound	Ses
+	Sound Settings	Ses Ayarları
+	Sound effect	Ses efekti
+	Sound repeat	Ses tekrarı
+	Sound sync	Ses senkronizasyonu
+	Sound · {seconds} s	Ses · {seconds} s
+	Sound, image or drawing	Ses, görsel veya çizim
+	Sounds and bitmaps	Sesler ve bit eşlemler
+	Sounds on keyframes, and bitmaps	Anahtar karelerdeki sesler ve bit eşlemler
+	Space between the dots	Noktalar arasındaki boşluk
+	Sprite sheet	Sprite sayfası
+	Square post	Kare gönderi
+	Stage	Sahne
+	Stage Rendering	Sahne İşleme
+	Stage colour	Sahne rengi
+	Stage colour as background	Arka plan olarak sahne rengi
+	Stage height	Sahne yüksekliği
+	Stage size	Sahne boyutu
+	Stage width	Sahne genişliği
+	Stage · previewing through the camera · {tool} tool · frame {frame}	Sahne · kameradan önizleniyor · {tool} aracı · kare {frame}
+	Stage · {tool} tool · frame {frame}	Sahne · {tool} aracı · kare {frame}
+	Star points	Yıldız uçları
+	Start	Başlat
+	Start Screen	Başlangıç Ekranı
+	Start a bone on a symbol instance (convert artwork with F8), then drag to the instance it moves.	Bir sembol örneği üzerinde kemik başlatın (çizimi F8 ile dönüştürün), ardından hareket ettireceği örneğe sürükleyin.
+	Starting the graphics card…	Ekran kartı başlatılıyor…
+	Step one frame	Bir kare ilerle
+	Stereo	Stereo
+	Stop after the frame being made; formats not started don't run	Oluşturulmakta olan kareden sonra dur; henüz başlamamış biçimler çalıştırılmaz
+	Stop colour (this stop stays transparent)	Durak rengi (bu durak saydam kalır)
+	Stop the preview	Önizlemeyi durdur
+	Stopping…	Durduruluyor…
+	Stops this sound	Bu sesi durdurur
+	Storyboard	Hikâye Panosu
+	Storyboard 16:9	Hikâye Panosu 16:9
+	Straight	Düz
+	Straighten	Düzleştir
+	Straighten Path	Yolu Düzleştir
+	Straighten motion path	Hareket yolunu düzleştir
+	Stream	Akış
+	Stroke Style	Kontur Stili
+	Stroke cap	Kontur ucu
+	Stroke colour	Kontur rengi
+	Stroke join	Kontur birleşimi
+	Stroke on/off	Kontur açık/kapalı
+	Stroke style	Kontur stili
+	Stroke width	Kontur genişliği
+	Stroke width profile	Kontur genişliği profili
+	Strokes	Konturlar
+	Subselect	Alt Seçim
+	Subselect Rectangle	Alt Seçim Dikdörtgeni
+	Subselection	Alt Seçim
+	Swap Bitmap	Bit Eşlemi Değiştir
+	Swap Symbol	Sembolü Değiştir
+	Swap…	Değiştir…
+	Symbol Type	Sembol Türü
+	Symbol definitions	Sembol tanımları
+	Symbol instance	Sembol örneği
+	Symbol name	Sembol adı
+	Symbol type	Sembol türü
+	Symbol: {name}	Sembol: {name}
+	Sync	Eşitleme
+	System language ({name})	Sistem dili ({name})
+	Take it off the list	Listeden kaldır
+	Taper both ends	İki ucu da incelt
+	Taper end	Bitişi incelt
+	Taper start	Başlangıcı incelt
+	Template category	Şablon kategorisi
+	Template deleted	Şablon silindi
+	Template name	Şablon adı
+	Test Movie	Filmi Test Et
+	Test Movie — {name}	Filmi Test Et — {name}
+	Text alignment	Metin hizalama
+	Text colour	Metin rengi
+	Text field	Metin alanı
+	Text fields	Metin alanları
+	Text on the stage	Sahnedeki metin
+	Text to find	Aranacak metin
+	Text width	Metin genişliği
+	Text: {text}	Metin: {text}
+	That autosaved copy is gone	Otomatik kaydedilen bu kopya artık yok
+	That bone is pinned (or hangs from a pinned bone): unpin it in Properties to drag it.	Bu kemik sabitlenmiş (veya sabitlenmiş bir kemiğe bağlı): sürüklemek için Özellikler panelinden sabitlemeyi kaldırın.
+	The GPU stage drew a picture the window can't show.	GPU sahnesi, pencerenin gösteremediği bir görüntü oluşturdu.
+	The HTML page on, every other format off	HTML sayfası açık, diğer tüm biçimler kapalı
+	The Library folder the new symbol goes into (the next conversion offers it again)	Yeni sembolün yerleştirileceği Kitaplık klasörü (sonraki dönüştürmede yeniden önerilir)
+	The Library has none	Kitaplıkta hiç yok
+	The camera layer is hidden: the movie shows the stage as it is.	Kamera katmanı gizli: film, sahneyi olduğu gibi gösterir.
+	The class scripts create this symbol by (its linkage), extending {base}. Kept with the document; scripts don't run yet	Sınıf betikleri bu sembolü (bağlantısı üzerinden) {base} sınıfını genişleterek oluşturur. Belgeyle birlikte saklanır; betikler henüz çalıştırılmaz
+	The class scripts create this symbol by (its linkage). Kept with the document; scripts don't run yet	Sınıf betikleri bu sembolü (bağlantısı üzerinden) oluşturur. Belgeyle birlikte saklanır; betikler henüz çalıştırılmaz
+	The class scripts run the main timeline as (the document class). Kept with the document; scripts don't run yet	Sınıf betikleri ana zaman çizelgesini (belge sınıfı olarak) çalıştırır. Belgeyle birlikte saklanır; betikler henüz çalıştırılmaz
+	The colour of the layer's outlines and of its bar on the timeline	Katmanın dış hatlarının ve zaman çizelgesindeki çubuğunun rengi
+	The current scene and every symbol in it	Geçerli sahne ve içindeki tüm semboller
+	The data font shows numbers, timecode, rulers and shortcuts; only monospaced families are listed so digits stay aligned.	Veri yazı tipi sayıları, zaman kodunu, cetvelleri ve kısayolları gösterir; rakamların hizalı kalması için yalnızca eşit aralıklı aileler listelenir.
+	The direction the shadow falls (the light comes from the opposite side)	Gölgenin düştüğü yön (ışık karşı taraftan gelir)
+	The document that is open stays as it is	Açık olan belge olduğu gibi kalır
+	The ends of a motion path are always pinned, to the first and last position keys	Hareket yolunun uçları her zaman ilk ve son konum anahtarlarına sabitlenir
+	The ends of a motion path are where the motion starts and ends: drag them to move them	Hareket yolunun uçları hareketin başladığı ve bittiği yerlerdir: taşımak için onları sürükleyin
+	The file was saved after this copy, so it opens as a new document and Save asks for a name.	Dosya bu kopyadan sonra kaydedildiği için yeni bir belge olarak açılır ve Kaydet komutu bir ad ister.
+	The file's name	Dosyanın adı
+	The frame rate is for every new document made here. Change the size later in Modify › Document Settings.	Kare hızı burada oluşturulan her yeni belge için geçerlidir. Boyutu daha sonra Değiştir › Belge Ayarları bölümünden değiştirebilirsiniz.
+	The frame the playhead is on	Oynatma kafasının üzerinde bulunduğu kare
+	The graphics card can't draw the stage, so the CPU does: {why}	Ekran kartı sahneyi çizemiyor, bu yüzden CPU çiziyor: {why}
+	The joint's turn from where the bone was drawn, measured from the bone it hangs from	Eklemin, kemiğin çizildiği yerden, bağlı olduğu kemikten ölçülerek yaptığı dönüş
+	The movie has no sounds yet, so Publish skips the audio.	Filmde henüz ses yok, bu nedenle Yayınla komutu sesi atlar.
+	The movie shows what the frame on the stage shows. Layer depth (in Frame, per layer) moves far layers less.	Film, sahnedeki karenin gösterdiğini gösterir. Katman derinliği (Kare bölümünde, katman başına), uzak katmanları daha az hareket ettirir.
+	The movie's sounds play in the page	Filmin sesleri sayfada çalınır
+	The movie's sounds: Opus in WebM, AAC in MP4	Filmin sesleri: WebM'de Opus, MP4'te AAC
+	The movie's soundtrack as a WAV file.	Filmin ses kuşağı bir WAV dosyası olarak.
+	The movie: point, click and type to play it	Film: oynatmak için üzerine gelin, tıklayın ve yazın
+	The name actions use to address it (letters, digits and _)	Eylemlerin ona erişmek için kullandığı ad (harfler, rakamlar ve _)
+	The object doesn't move yet	Nesne henüz hareket etmiyor
+	The object passes this point exactly on frame {frame}	Nesne bu noktadan tam olarak {frame}. karede geçer
+	The object stays as it is on the span's first frame	Nesne, aralığın ilk karesindeki haliyle kalır
+	The object stays as it is on the span's first frame ({undo} to undo)	Nesne, aralığın ilk karesindeki haliyle kalır (geri almak için {undo})
+	The output is a folder; the frames in it are frame_00001.png and on.	Çıktı bir klasördür; içindeki kareler frame_00001.png ve devamı şeklindedir.
+	The playhead is on an empty frame of this layer.	Oynatma kafası bu katmanın boş bir karesi üzerinde.
+	The plug-in runs each time the playhead enters this keyframe, reads where the movie is, and sends actions back. It can't change the document.	Eklenti, oynatma kafası bu anahtar kareye her girdiğinde çalışır, filmin bulunduğu yeri okur ve eylemleri geri gönderir. Belgeyi değiştiremez.
+	The plug-in “{id}” is no longer installed	“{id}” eklentisi artık yüklü değil
+	The point shapes the path only; its frame's X and Y keyframes go	Nokta yalnızca yolu şekillendirir; karesindeki X ve Y anahtar kareleri kaldırılır
+	The pointer comes up over it	İşaretçi üzerinde serbest bırakılır
+	The pointer goes down on it	İşaretçi üzerine basılır
+	The pointer moves off it	İşaretçi üzerinden ayrılır
+	The pointer moves onto it	İşaretçi üzerine gelir
+	The reference renderer: slower on large stages. Exports always use it.	Referans işleyici: büyük sahnelerde daha yavaştır. Dışa aktarmalar her zaman bunu kullanır.
+	The selected elements differ here; it shows the first one's. A change applies to all of them	Seçili öğeler burada farklılık gösteriyor; ilk öğeninki gösteriliyor. Yapılan değişiklik tümüne uygulanır
+	The standard dark look: graphite panels, colour where it means something.	Standart koyu görünüm: grafit paneller, yalnızca anlam taşıdığı yerlerde renk.
+	The template keeps the document as it is now. The open document doesn't change.	Şablon, belgeyi şu anki haliyle saklar. Açık belge değişmez.
+	The timeline always leaves room before frame 1 for the playhead; this adds more. It stays the same at every zoom.	Zaman çizelgesi oynatma kafası için 1. kareden önce her zaman boşluk bırakır; bu ayar daha fazla boşluk ekler. Her yakınlaştırma düzeyinde aynı kalır.
+	The update failed: {error}	Güncelleme başarısız oldu: {error}
+	The update worker stopped unexpectedly. Try checking again.	Güncelleme işlemi beklenmedik şekilde durdu. Yeniden denetlemeyi deneyin.
+	The volume of this layer's sounds, and of the sounds in the symbols on it	Bu katmandaki seslerin ve üzerindeki sembollerde yer alan seslerin düzeyi
+	The whole document	Tüm belge
+	There is no settings folder to keep templates in on this system	Bu sistemde şablonların saklanabileceği bir ayarlar klasörü yok
+	These run when the playhead enters frame {keyframe} (the keyframe). For frame {frame}, add a keyframe there ({key}).	Bunlar oynatma başlığı {keyframe}. kareye (anahtar kare) girdiğinde çalışır. {frame}. kare için oraya bir anahtar kare ekleyin ({key}).
+	This build has the interface in English only. Builds with translations list their languages here.	Bu derlemede arayüz yalnızca İngilizcedir. Çeviri içeren derlemelerde diller burada listelenir.
+	This cannot be undone.	Bu işlem geri alınamaz.
+	This installation is managed externally. Update it with its package manager or open Releases.	Bu kurulum harici olarak yönetilmektedir. Paket yöneticisiyle güncelleyin veya Sürümler sayfasını açın.
+	This pattern has more dashes and gaps than these two; they stay as they are	Bu desende bu ikisinden daha fazla çizgi ve boşluk var; oldukları gibi kalırlar
+	This scene	Bu sahne
+	This span has no motion tween. Create one to animate its object property by property.	Bu aralıkta hareket ara karesi yok. Nesnesini özellik özellik canlandırmak için bir tane oluşturun.
+	This span is empty. Draw or place an object, then create a motion tween.	Bu aralık boş. Bir nesne çizin veya yerleştirin, ardından bir hareket ara karesi oluşturun.
+	Tied to the frames: plays over this span and follows the playhead (lip sync)	Karelere bağlı: Bu aralık boyunca oynatılır ve oynatma başlığını izler (dudak senkronizasyonu)
+	Time at the playhead	Oynatma başlığındaki süre
+	Times it plays	Oynatma sayısı
+	Times it plays in a row	Art arda oynatma sayısı
+	Tint amount	Renk tonu miktarı
+	Tint blue	Mavi renk tonu
+	Tint colour	Ton rengi
+	Tint frames before the playhead and after it in their colours; off, they keep their own colours	Oynatma başlığından önceki ve sonraki kareleri kendi renkleriyle tonlandırır; kapalıyken kendi renklerini korurlar
+	Tint green	Yeşil renk tonu
+	Tint red	Kırmızı renk tonu
+	Tiny	Çok küçük
+	Title card	Başlık kartı
+	To stage	Sahneye
+	Top 9-slice guide	Üst 9 dilimli kılavuz
+	Trace	İzleme
+	Trace actions, frame-script logs and anything that couldn't run appear here.	İzleme eylemleri, kare betiği günlükleri ve çalıştırılamayan her şey burada görünür.
+	Trace message	İzleme iletisi
+	Transform on Multiple Frames	Birden Çok Karede Dönüştür
+	Turn a format on first	Önce bir biçimi etkinleştirin
+	Turn off on Linux desktops without an XDG desktop portal; AniCraft then asks for a path instead.	XDG masaüstü portalı olmayan Linux masaüstlerinde kapatın; AniCraft bunun yerine bir yol ister.
+	Turn the object as its motion path turns	Hareket yolu döndükçe nesneyi döndür
+	Turn with the motion guide as it bends	Hareket kılavuzu büküldükçe onunla birlikte dön
+	Turns a flattened tip (clockwise)	Düzleştirilmiş ucu döndürür (saat yönünde)
+	Turns the stroke into straight segments.	Konturu düz parçalara dönüştürür.
+	Tween	Ara kare
+	Tween kind	Ara kare türü
+	Tween to the next keyframe	Sonraki anahtar kareye ara kare oluştur
+	Tween to the next keyframe instead	Bunun yerine sonraki anahtar kareye ara kare oluştur
+	Type a command, tool or setting…	Bir komut, araç veya ayar yazın…
+	Type on the stage (or double-click the text)	Sahneye yazın (veya metne çift tıklayın)
+	Type text	Metin yaz
+	Type what to find in Find and Replace	Bul ve Değiştir'de aranacak metni yazın
+	Type what to find: results show as you type.	Aranacak metni yazın: sonuçlar siz yazdıkça görünür.
+	Typefaces: {fonts}	Yazı tipleri: {fonts}
+	Ubuntu (fallback) + JetBrains Mono	Ubuntu (yedek) + JetBrains Mono
+	Ubuntu + Hack (built-in defaults; build with CRAFT_FONTS_DIR for Inter + JetBrains Mono)	Ubuntu + Hack (yerleşik varsayılanlar; Inter + JetBrains Mono için CRAFT_FONTS_DIR ile derleyin)
+	Undid {action}	Geri alındı: {action}
+	Unmute this layer's sounds	Bu katmanın seslerini aç
+	Unpin	Sabitlemeyi Kaldır
+	Unpin Motion Path Point	Hareket Yolu Noktasının Sabitlemesini Kaldır
+	Unpin from Frame {frame}	{frame}. Kareden Sabitlemeyi Kaldır
+	Unpin point {anchor} of the motion path from frame {frame}: its X and Y keyframes go	Hareket yolunun {anchor} noktasının {frame}. kareden sabitlemesini kaldırır: X ve Y anahtar kareleri silinir
+	Unpin the motion path point at this frame	Bu karedeki hareket yolu noktasının sabitlemesini kaldır
+	Unpinned point {anchor} from frame {frame}: it shapes the path only. {undo} to undo.	{anchor} noktasının {frame}. kareden sabitlemesi kaldırıldı: artık yalnızca yolu şekillendirir. Geri almak için: {undo}.
+	Up/Down choose · Enter run · Esc close	Yukarı/Aşağı seç · Enter çalıştır · Esc kapat
+	Up: the button as it first shows	Yukarı: düğmenin ilk göründüğü durum
+	Update and restart	Güncelle ve yeniden başlat
+	Update ready. Restarting…	Güncelleme hazır. Yeniden başlatılıyor…
+	Updated the preset “{name}”	“{name}” ön ayarı güncellendi
+	Updated to {version}.	{version} sürümüne güncellendi.
+	Updated {name} {version} — find it in Commands › Plug-ins	{name} {version} güncellendi — Komutlar › Eklentiler altında bulabilirsiniz
+	Use Releases or your package manager to update this installation.	Bu kurulumu güncellemek için Sürümler sayfasını veya paket yöneticinizi kullanın.
+	Use count	Kullanım sayısı
+	Use it for {action}	{action} için kullan
+	Use the format's usual name: {name}	Biçimin olağan adını kullan: {name}
+	Use the system's open and save dialogs	Sistemin açma ve kaydetme iletişim kutularını kullan
+	Uses	Kullanımlar
+	Version {version} · {stage}	Sürüm {version} · {stage}
+	Vertical Center	Dikey Ortala
+	Vertical story	Dikey hikâye
+	Video (WebM or MP4)	Video (WebM veya MP4)
+	Video export runs ffmpeg, which a web browser can't start: use the desktop app, or export an animated GIF or a PNG sequence	Video dışa aktarma, web tarayıcısının başlatamayacağı ffmpeg'i çalıştırır: masaüstü uygulamasını kullanın veya hareketli GIF ya da PNG dizisi olarak dışa aktarın
+	View action	Eylemi görüntüle
+	View as outlines in the layer's colour (on the stage only)	Katmanın renginde ana hatlar olarak görüntüle (yalnızca sahnede)
+	View layer as outlines	Katmanı ana hatlar olarak görüntüle
+	Visible	Görünür
+	Volume	Ses düzeyi
+	Volume points of your own, per channel (Edit Envelope)	Kanal başına kendi ses düzeyi noktalarınız (Zarfı Düzenle)
+	WAV	WAV
+	WAV sound	WAV sesi
+	Waiting	Bekleniyor
+	Walk cycle	Yürüme döngüsü
+	Web page	Web sayfası
+	WebAssembly plug-in	WebAssembly eklentisi
+	WebM or MP4 video, made with your ffmpeg (ffmpeg.org).	ffmpeg (ffmpeg.org) aracınızla oluşturulan WebM veya MP4 videosu.
+	Welcome to AniCraft. Press Enter to play the sample animation.	AniCraft'a hoş geldiniz. Örnek animasyonu oynatmak için Enter tuşuna basın.
+	Went to {row}	{row} öğesine gidildi
+	What runs when the playhead enters a keyframe	Oynatma başlığı bir anahtar kareye girdiğinde çalışacak eylem
+	What runs when the playhead enters this keyframe ({key})	Oynatma başlığı bu anahtar kareye girdiğinde çalışacak eylem ({key})
+	What the Movie Explorer shows	Film Gezgini'nin göstereceği öğeler
+	What the selected button or movie clip does on clicks and the pointer	Seçili düğmenin veya film klibinin tıklamalarda ve işaretçide yapacağı işlem
+	What to search for	Ne aranacak
+	Wheel	Tekerlek
+	Where AniCraft's documents and files are on this computer	AniCraft belgelerinin ve dosyalarının bu bilgisayardaki konumu
+	Where the motion starts. Changing it moves the whole path, and the object with it; the timing stays.	Hareketin başladığı yer. Değiştirildiğinde tüm yol ve onunla birlikte nesne taşınır; zamanlama aynı kalır.
+	Where to search	Nerede aranacak
+	Whichever comes first. 0 changes: by time only. Copies are written in the background, so drawing never waits.	Hangisi önce gelirse. 0 değişiklik: yalnızca süreye göre. Kopyalar arka planda yazılır, böylece çizim hiç beklemez.
+	White text on black, a yellow focus and selection colour, outlined controls.	Siyah üzerine beyaz metin, sarı odak ve seçim rengi, çerçeveli denetimler.
+	Whole word	Tam sözcük
+	Width Profile	Genişlik Profili
+	Width at Point	Noktadaki Genişlik
+	Working…	Çalışılıyor…
+	Wrap	Kaydır
+	Wrap lines at a fixed width; off, each paragraph stays on one line	Satırları sabit bir genişlikte kaydır; kapalıyken her paragraf tek satırda kalır
+	You have unsaved changes.	Kaydedilmemiş değişiklikleriniz var.
+	You have {n} presets, the most there can be: delete one first	En fazla izin verilen sayı olan {n} ön ayarınız var: önce birini silin
+	You're up to date.	Güncelsiniz.
+	Your own templates are kept in a folder on your computer: save them in the desktop app.	Kendi şablonlarınız bilgisayarınızdaki bir klasörde saklanır: bunları masaüstü uygulamasında kaydedin.
+	Your templates are kept in a folder on your computer: use the desktop app (the built-in templates work here)	Şablonlarınız bilgisayarınızdaki bir klasörde saklanır: masaüstü uygulamasını kullanın (yerleşik şablonlar burada çalışır)
+	Zoom Camera	Kamerayı Yakınlaştır
+	Zoom at the cursor	İmleç konumunda yakınlaştır
+	Zoom in / out	Yakınlaştır / uzaklaştır
+	Zoom to fit	Görünüme sığdır
+	actions	eylemler
+	autosaved {when}	otomatik kaydedildi: {when}
+	blank keyframe	boş anahtar kare
+	broken tween	bozuk ara kare
+	by {author} · {id} · {size} KB	geliştiren: {author} · {id} · {size} KB
+	cache {frames} fr · {size} MB · {hit}% hit	önbellek {frames} kr · {size} MB · %{hit} isabet
+	cancelling	iptal ediliyor
+	changes	değişiklikler
+	classic tween	klasik ara kare
+	could not open {path}: {e}	{path} açılamadı: {e}
+	could not start sound ({error})	ses başlatılamadı ({error})
+	dots are round	noktalar yuvarlak
+	early alpha	erken alfa
+	fixed	sabit
+	frame {number}	{number}. kare
+	gradient	gradyan
+	in	içinde
+	instance name	örnek adı
+	it is larger than {size} MB	{size} MB değerinden büyük
+	keyed	anahtarlanmış
+	keyframe	anahtar kare
+	label “{label}”	“{label}” etiketi
+	macOS	macOS
+	memory only	yalnızca bellek
+	missing bitmap	eksik bit eşlem
+	mixed	karışık
+	motion tween	hareket ara karesi
+	moving between fields	alanlar arasında gezinme
+	no frame	kare yok
+	no settings folder on this system	bu sistemde ayar klasörü yok
+	no sound output device	ses çıkış aygıtı yok
+	none	yok
+	not saved yet (File › Save)	henüz kaydedilmedi (Dosya › Kaydet)
+	not selected	seçili değil
+	not used	kullanılmıyor
+	nothing (not a key)	hiçbir şey (tuş değil)
+	nothing to erase there	orada silinecek bir şey yok
+	of {frames}	toplam {frames}
+	other	diğer
+	panning with any tool	herhangi bir araçla kaydırma
+	paused	duraklatıldı
+	play / stop	oynat / durdur
+	played once	bir kez oynatıldı
+	playing	oynatılıyor
+	quitting	çıkış
+	render {ms} ms · tiles {ready}/{needed}	işleme {ms} ms · döşeme {ready}/{needed}
+	render {ms} ms · {renderer} · tiles {ready}/{needed}	işleme {ms} ms · {renderer} · döşeme {ready}/{needed}
+	selected	seçili
+	shape tween	şekil ara karesi
+	sound	ses
+	stopped	durduruldu
+	the browser could not read it	tarayıcı bunu okuyamadı
+	the browser's storage for this site is full (documents with large images or sounds may not fit)	tarayıcının bu site için depolama alanı dolu (büyük görseller veya sesler içeren belgeler sığmayabilir)
+	the command palette	komut paleti
+	the shortcut editor	kısayol düzenleyici
+	the sound device has no usable format ({error})	ses aygıtında kullanılabilir bir biçim yok ({error})
+	the sound device wants {format} samples, which AniCraft doesn't write yet	ses aygıtı {format} örnekleri istiyor ancak AniCraft bunu henüz yazamıyor
+	the web version of AniCraft has no sound output yet	AniCraft'ın web sürümünde henüz ses çıkışı yok
+	these files	bu dosyalar
+	this action	bu eylem
+	this browser keeps no storage for the site (private browsing?)	bu tarayıcı site için depolama tutmuyor (gizli gezinme mi?)
+	this browser's storage for this site	tarayıcının bu site için depolama alanı
+	this build of AniCraft has no sound output	AniCraft'ın bu derlemesinde ses çıkışı yok
+	to	kadar
+	undo {steps} · {size} MB	geri alma {steps} · {size} MB
+	web browser	web tarayıcısı
+	written to Output	Çıktı'ya yazıldı
+	{action} shortcut {key}	{action} kısayolu {key}
+	{action}: back to the default	{action}: varsayılana dönüldü
+	{action}: key removed	{action}: tuş kaldırıldı
+	{action}: {key}	{action}: {key}
+	{action}: {key} (removed from {other})	{action}: {key} ({other} öğesinden kaldırıldı)
+	{bits}-bit	{bits} bit
+	{channel}: click to add a volume point	{channel}: ses düzeyi noktası eklemek için tıklayın
+	{command}\nSelect something to align	{command}\nHizalamak için bir şey seçin
+	{description} · {fps} fps	{description} · {fps} fps
+	{detail} · locked	{detail} · kilitli
+	{done}. Left out {file}: {why}	{done}. {file} atlandı: {why}
+	{filter} angle	{filter} açısı
+	{filter} blur X	{filter} bulanıklık X
+	{filter} blur Y	{filter} bulanıklık Y
+	{filter} colour	{filter} rengi
+	{filter} colour stop {stop} at {at}%	{filter} renk durağı {stop}, %{at} konumunda
+	{filter} colour stop {stop} at {at}% (fixed)	{filter} renk durağı {stop}, %{at} konumunda (sabit)
+	{filter} distance	{filter} uzaklığı
+	{filter} gradient: add a colour stop	{filter} gradyanı: renk durağı ekle
+	{filter} highlight colour	{filter} vurgu rengi
+	{filter} knockout	{filter} oyma
+	{filter} quality {quality}	{filter} kalitesi {quality}
+	{filter} shadow colour	{filter} gölge rengi
+	{filter} stop colour	{filter} durak rengi
+	{filter} stop position	{filter} durak konumu
+	{filter} strength	{filter} gücü
+	{filter} type {kind}	{filter} türü {kind}
+	{folder} already has “{name}”; the new symbol will be “{becomes}”.	{folder} içinde zaten “{name}” var; yeni sembol “{becomes}” olacak.
+	{format} output name	{format} çıktı adı
+	{fps} fps	{fps} fps
+	{frames}: {what}	{frames}: {what}
+	{instance} ({bitmap})	{instance} ({bitmap})
+	{instance} ({symbol})	{instance} ({symbol})
+	{key} could not be moved.	{key} taşınamadı.
+	{key} is already used by {action}.	{key} zaten {action} tarafından kullanılıyor.
+	{key} is kept for {purpose}; choose another key.	{key}, {purpose} için ayrılmıştır; başka bir tuş seçin.
+	{kind} · {frames}	{kind} · {frames}
+	{kind}: {row}	{kind}: {row}
+	{kind}: {row}, closed	{kind}: {row}, kapalı
+	{kind}: {row}, open	{kind}: {row}, açık
+	{kind}: {symbol}	{kind}: {symbol}
+	{layer} holds an armature: drop on another layer	{layer} bir iskelet içeriyor: başka bir katmana bırakın
+	{layer} is a folder: drop on one of its layers	{layer} bir klasör: içindeki katmanlardan birine bırakın
+	{layer} is locked: unlock it to drop onto it	{layer} kilitli: üzerine bırakmak için kilidini açın
+	{layer} is the camera layer: drop on a layer below it	{layer} kamera katmanı: altındaki bir katmana bırakın
+	{level} % at {time} · drag to move, right-click to delete	{time} anında %{level} · taşımak için sürükleyin, silmek için sağ tıklayın
+	{name} (button)	{name} (düğme)
+	{name} (graphic)	{name} (grafik)
+	{name} (main timeline)	{name} (ana zaman çizelgesi)
+	{name} (missing)	{name} (eksik)
+	{name} (movie clip)	{name} (film klibi)
+	{name} (scene {number} of {count})	{name} (sahne {number}/{count})
+	{name} ({kind})	{name} ({kind})
+	{name} ({secs} s) is in the Library. Select a keyframe and pick it under Sound in Properties.	{name} ({secs} s) Kitaplık'ta. Bir anahtar kare seçin ve Özellikler'de Ses altından seçin.
+	{name} ({secs} s) is on a new layer from frame {frame}. Set its sync in Properties. {undo} to undo.	{name} ({secs} s), {frame}. kareden itibaren yeni bir katmanda. Senkronizasyonunu Özellikler'de ayarlayın. Geri almak için {undo}.
+	{name} folder row	{name} klasör satırı
+	{name} · armature layer	{name} · iskelet katmanı
+	{name} · camera layer	{name} · kamera katmanı
+	{name} · folder	{name} · klasör
+	{name} · guide layer	{name} · kılavuz katmanı
+	{name} · layer	{name} · katman
+	{name} · mask layer	{name} · maske katmanı
+	{name} · masked layer	{name} · maskeli katman
+	{name} · {state} · Enter selects, Esc goes back to the stage	{name} · {state} · Enter seçer, Esc sahneye döner
+	{name} · {what}	{name} · {what}
+	{name} — {undo} to undo	{name} — geri almak için {undo}
+	{name}, missing	{name}, eksik
+	{name}: off\nDragged points and selections snap to points, lines and fill edges within 10 pixels.	{name}: kapalı\nSürüklenen noktalar ve seçimler 10 piksel içindeki noktalara, çizgilere ve dolgu kenarlarına yapışır.
+	{name}: on\nDragged points and selections snap to points, lines and fill edges within 10 pixels.	{name}: açık\nSürüklenen noktalar ve seçimler 10 piksel içindeki noktalara, çizgilere ve dolgu kenarlarına yapışır.
+	{name}: {message} — {undo} to undo	{name}: {message} — geri almak için {undo}
+	{os} · settings stored in {place}	{os} · ayarlar {place} konumunda saklanır
+	{panel} · {next} for the next panel	{panel} · sonraki panel için {next}
+	{path} is no longer there	{path} artık orada değil
+	{path} · button	{path} · düğme
+	{path} · movie clip	{path} · film klibi
+	{path}, beside the document once it is saved	{path}, belge kaydedildiğinde yanında
+	{place} › {layer}	{place} › {layer}
+	{place} › {layer}, frame {frame}	{place} › {layer}, kare {frame}
+	{plugin}: {reason}	{plugin}: {reason}
+	{property} curve	{property} eğrisi
+	{property} ease	{property} yumuşatması
+	{property} has no keyframes: it stays {value}. Click ◇ or drag its value to key it here.	{property} için anahtar kare yok: değeri {value} olarak kalır. Burada anahtar kare eklemek için ◇ simgesine tıklayın veya değerini sürükleyin.
+	{property} keyframe at frame {frame}	{frame}. karede {property} anahtar karesi
+	{property} · keyed	{property} · anahtar kareli
+	{report} Save to keep it as an AniCraft document.	{report} AniCraft belgesi olarak saklamak için kaydedin.
+	{row} · has selected artwork	{row} · seçili çizim içeriyor
+	{row}\nDouble-click to go there	{row}\nOraya gitmek için çift tıklayın
+	{seconds} s · {khz} kHz mono · {format}	{seconds} s · {khz} kHz mono · {format}
+	{seconds} s · {khz} kHz stereo · {format}	{seconds} s · {khz} kHz stereo · {format}
+	{shared}; and on a device of its own: {e}	{shared}; ayrı bir cihazda ise: {e}
+	{shown} of {total}	{shown} / {total}
+	{tool} tool	{tool} aracı
+	{undo} to undo.	Geri almak için {undo}.
+	{version} is available.	{version} sürümü mevcut.
+	{what}, {field}, {place}	{what}, {field}, {place}
+	“{id}” isn't installed here: Test Movie says so and plays on.	“{id}” burada yüklü değil: Filmi Test Et bunu bildirir ve oynatmaya devam eder.
+	… older steps freed (memory budget)	… eski adımlar serbest bırakıldı (bellek bütçesi)
+@plural	+{n} more|+{n} more	+{n} daha|+{n} daha
+@plural	Added {n} file to the Library|Added {n} files to the Library	Kitaplığa {n} dosya eklendi|Kitaplığa {n} dosya eklendi
+@plural	Added {n} file to “{folder}” in the Library|Added {n} files to “{folder}” in the Library	Kitaplıktaki “{folder}” klasörüne {n} dosya eklendi|Kitaplıktaki “{folder}” klasörüne {n} dosya eklendi
+@plural	An action can have up to {n} key.|An action can have up to {n} keys.	Bir eylemin en fazla {n} tuşu olabilir.|Bir eylemin en fazla {n} tuşu olabilir.
+@plural	AniCraft didn't close properly last time. This document had changes that weren't saved:|AniCraft didn't close properly last time. These documents had changes that weren't saved:	AniCraft son seferinde düzgün kapanmadı. Bu belgede kaydedilmemiş değişiklikler vardı:|AniCraft son seferinde düzgün kapanmadı. Bu belgelerde kaydedilmemiş değişiklikler vardı:
+@plural	Applied the picked bitmap fill to {n} shape. {undo} to undo.|Applied the picked bitmap fill to {n} shapes. {undo} to undo.	Seçilen bit eşlem dolgusu {n} şekle uygulandı. Geri almak için {undo}.|Seçilen bit eşlem dolgusu {n} şekle uygulandı. Geri almak için {undo}.
+@plural	Applied the picked fill {color} to {n} shape. {undo} to undo.|Applied the picked fill {color} to {n} shapes. {undo} to undo.	Seçilen {color} dolgusu {n} şekle uygulandı. Geri almak için {undo}.|Seçilen {color} dolgusu {n} şekle uygulandı. Geri almak için {undo}.
+@plural	Applied the picked line {color}, {width} px to {n} shape. {undo} to undo.|Applied the picked line {color}, {width} px to {n} shapes. {undo} to undo.	Seçilen {color}, {width} px çizgi {n} şekle uygulandı. Geri almak için {undo}.|Seçilen {color}, {width} px çizgi {n} şekle uygulandı. Geri almak için {undo}.
+@plural	Applied the picked linear gradient to {n} shape. {undo} to undo.|Applied the picked linear gradient to {n} shapes. {undo} to undo.	Seçilen doğrusal gradyan {n} şekle uygulandı. Geri almak için {undo}.|Seçilen doğrusal gradyan {n} şekle uygulandı. Geri almak için {undo}.
+@plural	Applied the picked radial gradient to {n} shape. {undo} to undo.|Applied the picked radial gradient to {n} shapes. {undo} to undo.	Seçilen ışınsal gradyan {n} şekle uygulandı. Geri almak için {undo}.|Seçilen ışınsal gradyan {n} şekle uygulandı. Geri almak için {undo}.
+@plural	Autosaved {when} · {n} frame · {scenes} scenes|Autosaved {when} · {n} frames · {scenes} scenes	{when} otomatik kaydedildi · {n} kare · {scenes} sahne|{when} otomatik kaydedildi · {n} kare · {scenes} sahne
+@plural	Autosaved {when} · {n} frame|Autosaved {when} · {n} frames	{when} otomatik kaydedildi · {n} kare|{when} otomatik kaydedildi · {n} kare
+@plural	Cleared {n} keyframe — {undo} to undo|Cleared {n} keyframes — {undo} to undo	{n} anahtar kare temizlendi — geri almak için {undo}|{n} anahtar kare temizlendi — geri almak için {undo}
+@plural	Cleared {n} recent file|Cleared {n} recent files	{n} son dosya temizlendi|{n} son dosya temizlendi
+@plural	Click a channel to add a point (up to {max}), drag a point to shape the volume, right-click it to delete it. {n} point.|Click a channel to add a point (up to {max}), drag a point to shape the volume, right-click it to delete it. {n} points.	Nokta eklemek için bir kanala tıklayın (en fazla {max}), ses düzeyini şekillendirmek için bir noktayı sürükleyin, silmek için sağ tıklayın. {n} nokta.|Nokta eklemek için bir kanala tıklayın (en fazla {max}), ses düzeyini şekillendirmek için bir noktayı sürükleyin, silmek için sağ tıklayın. {n} nokta.
+@plural	Copied {n} element. Paste in Place ({key}) puts it back on its keyframe.|Copied {n} elements. Paste in Place ({key}) puts each back on its keyframe.	{n} öğe kopyalandı. Yerine Yapıştır ({key}) öğeyi kendi anahtar karesine geri koyar.|{n} öğe kopyalandı. Yerine Yapıştır ({key}) her birini kendi anahtar karesine geri koyar.
+@plural	Copied {n} frame|Copied {n} frames	{n} kare kopyalandı|{n} kare kopyalandı
+@plural	Curved · {n} segment|Curved · {n} segments	Kavisli · {n} segment|Kavisli · {n} segment
+@plural	Custom ({n} point)|Custom ({n} points)	Özel ({n} nokta)|Özel ({n} nokta)
+@plural	Cut {n} element from the frames between the markers. {undo} to undo.|Cut {n} elements from the frames between the markers. {undo} to undo.	İşaretçiler arasındaki karelerden {n} öğe kesildi. Geri almak için {undo}.|İşaretçiler arasındaki karelerden {n} öğe kesildi. Geri almak için {undo}.
+@plural	Cut {n} frame — {undo} to undo|Cut {n} frames — {undo} to undo	{n} kare kesildi — geri almak için {undo}|{n} kare kesildi — geri almak için {undo}
+@plural	Delete Point|Delete Points	Noktayı Sil|Noktaları Sil
+@plural	Deleted {n} element on the frames between the markers. {undo} to undo.|Deleted {n} elements on the frames between the markers. {undo} to undo.	İşaretçiler arasındaki karelerdeki {n} öğe silindi. Geri almak için {undo}.|İşaretçiler arasındaki karelerdeki {n} öğe silindi. Geri almak için {undo}.
+@plural	Deleted {n} element — {undo} to undo|Deleted {n} elements — {undo} to undo	{n} öğe silindi — geri almak için {undo}|{n} öğe silindi — geri almak için {undo}
+@plural	Deleted {n} point from the motion path. {undo} to undo.|Deleted {n} points from the motion path. {undo} to undo.	Hareket yolundan {n} nokta silindi. Geri almak için {undo}.|Hareket yolundan {n} nokta silindi. Geri almak için {undo}.
+@plural	Deleted {n} point from the motion path; its ends stay, as they are where the motion starts and ends. {undo} to undo.|Deleted {n} points from the motion path; its ends stay, as they are where the motion starts and ends. {undo} to undo.	Hareket yolundan {n} nokta silindi; hareketin başladığı ve bittiği yer olduklarından uçları kalır. Geri almak için {undo}.|Hareket yolundan {n} nokta silindi; hareketin başladığı ve bittiği yer olduklarından uçları kalır. Geri almak için {undo}.
+@plural	Deleted {n} point. {undo} to undo.|Deleted {n} points. {undo} to undo.	{n} nokta silindi. Geri almak için {undo}.|{n} nokta silindi. Geri almak için {undo}.
+@plural	Deleted {n} point; kept {kept} where three or more lines meet. {undo} to undo.|Deleted {n} points; kept {kept} where three or more lines meet. {undo} to undo.	{n} nokta silindi; üç veya daha fazla çizginin kesiştiği {kept} nokta korundu. Geri almak için {undo}.|{n} nokta silindi; üç veya daha fazla çizginin kesiştiği {kept} nokta korundu. Geri almak için {undo}.
+@plural	Doesn't run: {n} problem|Doesn't run: {n} problems	Çalışmıyor: {n} sorun|Çalışmıyor: {n} sorun
+@plural	Erased everything at frame {frame} ({n} element). {undo} to undo.|Erased everything at frame {frame} ({n} elements). {undo} to undo.	{frame}. karedeki her şey silindi ({n} öğe). Geri almak için {undo}.|{frame}. karedeki her şey silindi ({n} öğe). Geri almak için {undo}.
+@plural	Exported {n} frame to {path} ({columns}×{rows} grid) and its frame map {map}|Exported {n} frames to {path} ({columns}×{rows} grid) and its frame map {map}	{n} kare {path} konumuna ({columns}×{rows} ızgara) ve kare haritası {map} dışa aktarıldı|{n} kare {path} konumuna ({columns}×{rows} ızgara) ve kare haritası {map} dışa aktarıldı
+@plural	Exported {path} ({n} frame, {kb} KB).|Exported {path} ({n} frames, {kb} KB).	{path} dışa aktarıldı ({n} kare, {kb} KB).|{path} dışa aktarıldı ({n} kare, {kb} KB).
+@plural	Exported {path} ({n} frame, {kb} KB): open it in a web browser.|Exported {path} ({n} frames, {kb} KB): open it in a web browser.	{path} dışa aktarıldı ({n} kare, {kb} KB): bir web tarayıcısında açın.|{path} dışa aktarıldı ({n} kare, {kb} KB): bir web tarayıcısında açın.
+@plural	Exported {path} ({n} frame, {layers} layers).|Exported {path} ({n} frames, {layers} layers).	{path} dışa aktarıldı ({n} kare, {layers} katman).|{path} dışa aktarıldı ({n} kare, {layers} katman).
+@plural	Folder · {n} item|Folder · {n} items	Klasör · {n} öğe|Klasör · {n} öğe
+@plural	Folder · {n} layer|Folder · {n} layers	Klasör · {n} katman|Klasör · {n} katman
+@plural	Moved {frames} {n} layer down — {undo} to undo|Moved {frames} {n} layers down — {undo} to undo	{frames} {n} katman aşağı taşındı — geri almak için {undo}|{frames} {n} katman aşağı taşındı — geri almak için {undo}
+@plural	Moved {frames} {n} layer up — {undo} to undo|Moved {frames} {n} layers up — {undo} to undo	{frames} {n} katman yukarı taşındı — geri almak için {undo}|{frames} {n} katman yukarı taşındı — geri almak için {undo}
+@plural	Moved {n} frame by {by} — {undo} to undo|Moved {n} frames by {by} — {undo} to undo	{n} kare {by} kadar taşındı — geri almak için {undo}|{n} kare {by} kadar taşındı — geri almak için {undo}
+@plural	Pasted in place onto {n} keyframe. {undo} to undo.|Pasted in place onto {n} keyframes. {undo} to undo.	{n} anahtar kareye yerine yapıştırıldı. Geri almak için {undo}.|{n} anahtar kareye yerine yapıştırıldı. Geri almak için {undo}.
+@plural	Pasted {n} frame — {undo} to undo|Pasted {n} frames — {undo} to undo	{n} kare yapıştırıldı — geri almak için {undo}|{n} kare yapıştırıldı — geri almak için {undo}
+@plural	Placed {n} file on {layer} at frame {frame} — {undo} to undo|Placed {n} files on {layer} at frame {frame} — {undo} to undo	{n} dosya {layer} katmanına, {frame}. kareye yerleştirildi — geri almak için {undo}|{n} dosya {layer} katmanına, {frame}. kareye yerleştirildi — geri almak için {undo}
+@plural	Placed {n} file on {layer} at frame {frame}, in a new keyframe — {undo} to undo|Placed {n} files on {layer} at frame {frame}, in a new keyframe — {undo} to undo	{n} dosya {layer} katmanına, {frame}. kareye, yeni bir anahtar kare içine yerleştirildi — geri almak için {undo}|{n} dosya {layer} katmanına, {frame}. kareye, yeni bir anahtar kare içine yerleştirildi — geri almak için {undo}
+@plural	Placed {n} file on {layer} at frame {frame}, in the middle of the view — {undo} to undo|Placed {n} files on {layer} at frame {frame}, in the middle of the view — {undo} to undo	{n} dosya {layer} katmanına, {frame}. kareye, görünümün ortasına yerleştirildi — geri almak için {undo}|{n} dosya {layer} katmanına, {frame}. kareye, görünümün ortasına yerleştirildi — geri almak için {undo}
+@plural	Plays its {n}-frame timeline on a loop from when it appears.|Plays its {n}-frame timeline on a loop from when it appears.	Göründüğü andan itibaren {n} karelik zaman çizelgesini döngüde oynatır.|Göründüğü andan itibaren {n} karelik zaman çizelgesini döngüde oynatır.
+@plural	Publish cancelled after {n} format|Publish cancelled after {n} formats	{n} biçimden sonra yayınlama iptal edildi|{n} biçimden sonra yayınlama iptal edildi
+@plural	Publish the {n} format that is on|Publish the {n} formats that are on	Açık olan {n} biçimi yayınla|Açık olan {n} biçimi yayınla
+@plural	Published {n} format ({files} files)|Published {n} formats ({files} files)	{n} biçim yayınlandı ({files} dosya)|{n} biçim yayınlandı ({files} dosya)
+@plural	Published {n} format; {failed} failed. The report says why.|Published {n} formats; {failed} failed. The report says why.	{n} biçim yayınlandı; {failed} başarısız oldu. Nedeni raporda yer alır.|{n} biçim yayınlandı; {failed} başarısız oldu. Nedeni raporda yer alır.
+@plural	Published {n} format; {skipped} skipped (see the report)|Published {n} formats; {skipped} skipped (see the report)	{n} biçim yayınlandı; {skipped} atlandı (rapora bakın)|{n} biçim yayınlandı; {skipped} atlandı (rapora bakın)
+@plural	Removed {n} frame — {undo} to undo|Removed {n} frames — {undo} to undo	{n} kare kaldırıldı — geri almak için {undo}|{n} kare kaldırıldı — geri almak için {undo}
+@plural	Replaced {n} place — {undo} to undo|Replaced {n} places — {undo} to undo	{n} yer değiştirildi — geri almak için {undo}|{n} yer değiştirildi — geri almak için {undo}
+@plural	Replaced {n} place, left {skipped} as it was — {undo} to undo|Replaced {n} places, left {skipped} as they were — {undo} to undo	{n} yer değiştirildi, {skipped} olduğu gibi bırakıldı — geri almak için {undo}|{n} yer değiştirildi, {skipped} olduğu gibi bırakıldı — geri almak için {undo}
+@plural	Reset {n} changed shortcut to the defaults?|Reset {n} changed shortcuts to the defaults?	Değiştirilen {n} kısayol varsayılanlara sıfırlansın mı?|Değiştirilen {n} kısayol varsayılanlara sıfırlansın mı?
+@plural	Selected {n} element on the frames between the markers|Selected {n} elements on the frames between the markers	İşaretçiler arasındaki karelerde {n} öğe seçildi|İşaretçiler arasındaki karelerde {n} öğe seçildi
+@plural	Stage · {tool} tool · frame {frame} · {n} element selected {on_layers}|Stage · {tool} tool · frame {frame} · {n} elements selected {on_layers}	Sahne · {tool} aracı · kare {frame} · {on_layers} {n} öğe seçili|Sahne · {tool} aracı · kare {frame} · {on_layers} {n} öğe seçili
+@plural	Stage · {tool} tool · frame {frame} · {n} element selected|Stage · {tool} tool · frame {frame} · {n} elements selected	Sahne · {tool} aracı · kare {frame} · {n} öğe seçili|Sahne · {tool} aracı · kare {frame} · {n} öğe seçili
+@plural	The first {n} result|The first {n} results	İlk {n} sonuç|İlk {n} sonuç
+@plural	The first {n} row|The first {n} rows	İlk {n} satır|İlk {n} satır
+@plural	a stream looping over its {n}-frame span|a stream looping over its {n}-frame span	{n} karelik aralığı boyunca döngü yapan bir akış|{n} karelik aralığı boyunca döngü yapan bir akış
+@plural	a stream, within its {n}-frame span|a stream, within its {n}-frame span	{n} karelik aralığı içinde bir akış|{n} karelik aralığı içinde bir akış
+@plural	looping to the end of the movie, {n} frame on|looping to the end of the movie, {n} frames on	filmin sonuna kadar döngüde, {n} kare açık|filmin sonuna kadar döngüde, {n} kare açık
+@plural	on {n} layer|on {n} layers	{n} katmanda|{n} katmanda
+@plural	played {n} time|played {n} times	{n} kez oynatıldı|{n} kez oynatıldı
+@plural	used {n} time|used {n} times	{n} kez kullanıldı|{n} kez kullanıldı
+@plural	{first}–{last} of {n} layer|{first}–{last} of {n} layers	{n} katmandan {first}–{last}|{n} katmandan {first}–{last}
+@plural	{name} and {n} more|{name} and {n} more	{name} ve {n} diğer|{name} ve {n} diğer
+@plural	{n} command is scriptable with anicraft-cli|{n} commands are scriptable with anicraft-cli	{n} komut anicraft-cli ile betiklenebilir|{n} komut anicraft-cli ile betiklenebilir
+@plural	{n} day ago|{n} days ago	{n} gün önce|{n} gün önce
+@plural	{n} element in a new folder of {layers} layers with a mask.|{n} elements in a new folder of {layers} layers with a mask.	Maskeli {layers} katmanlı yeni bir klasörde {n} öğe.|Maskeli {layers} katmanlı yeni bir klasörde {n} öğe.
+@plural	{n} element in a new folder of {layers} layers with {masks} masks.|{n} elements in a new folder of {layers} layers with {masks} masks.	{masks} maskeli {layers} katmanlı yeni bir klasörde {n} öğe.|{masks} maskeli {layers} katmanlı yeni bir klasörde {n} öğe.
+@plural	{n} element on a new layer.|{n} elements on a new layer.	Yeni bir katmanda {n} öğe.|Yeni bir katmanda {n} öğe.
+@plural	{n} element on frame {frame}|{n} elements on frame {frame}	{frame}. karede {n} öğe|{frame}. karede {n} öğe
+@plural	{n} element {on_layers}|{n} elements {on_layers}	{on_layers} {n} öğe|{on_layers} {n} öğe
+@plural	{n} element|{n} elements	{n} öğe|{n} öğe
+@plural	{n} engine command — all available headless via anicraft-cli.|{n} engine commands — all available headless via anicraft-cli.	{n} motor komutu — tümü anicraft-cli üzerinden arayüzsüz olarak kullanılabilir.|{n} motor komutu — tümü anicraft-cli üzerinden arayüzsüz olarak kullanılabilir.
+@plural	{n} file|{n} files	{n} dosya|{n} dosya
+@plural	{n} format on|{n} formats on	{n} biçim açık|{n} biçim açık
+@plural	{n} frame before and after the playhead|{n} frames before and after the playhead	Oynatma başlığının önünde ve arkasında {n} kare|Oynatma başlığının önünde ve arkasında {n} kare
+@plural	{n} frame script doesn't run|{n} frame scripts don't run	{n} kare betiği çalışmıyor|{n} kare betiği çalışmıyor
+@plural	{n} frame · {secs} s|{n} frames · {secs} s	{n} kare · {secs} s|{n} kare · {secs} s
+@plural	{n} frame|{n} frames	{n} kare|{n} kare
+@plural	{n} h ago|{n} h ago	{n} sa önce|{n} sa önce
+@plural	{n} keyframe span on {name}|{n} keyframe spans on {name}	{name} üzerinde {n} anahtar kare aralığı|{name} üzerinde {n} anahtar kare aralığı
+@plural	{n} line|{n} lines	{n} satır|{n} satır
+@plural	{n} min ago|{n} min ago	{n} dk önce|{n} dk önce
+@plural	{n} more element is not listed: pick it on the stage, or use Select All or Find|{n} more elements are not listed: pick them on the stage, or use Select All or Find	{n} öğe daha listelenmiyor: sahneden seçin veya Tümünü Seç ya da Bul'u kullanın|{n} öğe daha listelenmiyor: sahneden seçin veya Tümünü Seç ya da Bul'u kullanın
+@plural	{n} more span is not listed: go there with , and . or Home and End|{n} more spans are not listed: go there with , and . or Home and End	{n} aralık daha listelenmiyor: , ve . veya Home ve End ile oraya gidin|{n} aralık daha listelenmiyor: , ve . veya Home ve End ile oraya gidin
+@plural	{n} plug-in installed; {failed} could not be loaded|{n} plug-ins installed; {failed} could not be loaded	{n} eklenti kuruldu; {failed} yüklenemedi|{n} eklenti kuruldu; {failed} yüklenemedi
+@plural	{n} plug-in installed|{n} plug-ins installed	{n} eklenti kuruldu|{n} eklenti kuruldu
+@plural	{n} point|{n} points	{n} nokta|{n} nokta
+@plural	{n} result|{n} results	{n} sonuç|{n} sonuç
+@plural	{n} row|{n} rows	{n} satır|{n} satır
+@plural	{n} second|{n} seconds	{n} saniye|{n} saniye
+@plural	{n} silenced this session|{n} silenced this session	bu oturumda {n} susturuldu|bu oturumda {n} susturuldu
+@plural	{n} unused item selected|{n} unused items selected	{n} kullanılmayan öğe seçildi|{n} kullanılmayan öğe seçildi
+@plural	{properties} · {n} key frame|{properties} · {n} key frames	{properties} · {n} anahtar kare|{properties} · {n} anahtar kare
+@plural	{what} · {n} element selected|{what} · {n} elements selected	{what} · {n} öğe seçildi|{what} · {n} öğe seçildi
+button state	Hit	Tıklama Alanı
+button state	Over	Üzerinde
+left channel	L	Sol
+right channel	R	Sağ
