@@ -190,6 +190,7 @@
 	Arch Up	Bue op
 	Area	Område
 	Arrange	Arranger
+	Arrange All	Arranger alle
 	Arrange\nAll	Arranger\nalle
 	Arrows	Pile
 	Artistic Effects	Kunstneriske effekter
@@ -209,7 +210,6 @@
 	Attach…	Vedhæft…
 	Author	Forfatter
 	Auto ({percent}%)	Auto ({percent}%)
-	Auto orientation	Automatisk retning
 	AutoCorrect	AutoCorrect
 	AutoCorrect Options	Indstillinger for AutoCorrect
 	AutoFit	Tilpas automatisk
@@ -276,9 +276,6 @@
 	Book	Bog
 	Book Title	Bogtitel
 	Book title	Bogtitel
-	Booklet (left binding)	Hæfte (indbinding til venstre)
-	Booklet (right binding)	Hæfte (indbinding til højre)
-	Booklets: duplex on the short edge. Blank pages are added at the end.	Hæfter: dobbeltsidet udskrivning langs den korte kant. Blanke sider tilføjes til sidst.
 	Bookmark	Bogmærke
 	Bookmark name:	Bogmærkenavn:
 	Border lines	Kantlinjer
@@ -1399,7 +1396,6 @@
 	Next Section	Næste sektion
 	Next Sentence	Næste sætning
 	Next sentence	Næste sætning
-	Next sheet	Næste ark
 	Nib floats over the window with tips and the occasional remark.	Nib svæver over vinduet med tip og en bemærkning i ny og næ.
 	Nib, your assistant. Drag to move; right-click for options.	Nib, din assistent. Træk for at flytte; højreklik for indstillinger.
 	No	Nej
@@ -1419,11 +1415,11 @@
 	No limit	Ingen grænse
 	No Markup	Ingen markeringer
 	No model credits were built into this copy.	Denne kopi indeholder ingen oplysninger om modeller.
+	No other WordCraft windows are open.	Der er ingen andre WordCraft-vinduer åbne.
 	No Outline	Ingen kontur
 	No Paragraph Space	Ingen afstand mellem afsnit
 	No printers found. Configure a system printer or export a PDF.	Der blev ikke fundet nogen printere. Konfigurér en systemprinter, eller eksportér en PDF.
 	No Reflection	Ingen reflektion
-	No Scaling	Ingen skalering
 	No Shadow	Ingen skygge
 	No Soft Edges	Ingen bløde kanter
 	No sources yet.	Ingen kilder endnu.
@@ -1578,7 +1574,6 @@
 	Page\nNumber	Side\ntal
 	Pages like 1-3, 5	Sider som 1-3, 5
 	Pages of bookmark:	Sider i bogmærke:
-	Pages per sheet	Sider pr. ark
 	Paper	Papir
 	Paper size:	Papirstørrelse:
 	Paragraph Character	Afsnitssymbol
@@ -1658,7 +1653,6 @@
 	Previous Section	Forrige sektion
 	Previous Sentence	Forrige sætning
 	Previous sentence	Forrige sætning
-	Previous sheet	Forrige ark
 	Print Documents	Udskriv dokumenter
 	Print Documents…	Udskriv dokumenter…
 	Print failed: the printing worker stopped.	Udskrivning mislykkedes: udskriftsprocessen stoppede.
@@ -1870,7 +1864,6 @@
 	Sayings:	Replikker:
 	Scale	Skalering
 	Scale Drawing	Skaler tegning
-	Scale to paper size	Skaler til papirstørrelse
 	Scatter	Punktdiagram
 	Script	Indeks
 	Scripts	Skriftformer
@@ -1961,7 +1954,6 @@
 	Shape Styles	Figurstile
 	Shapes	Figurer
 	Share	Del
-	Sheet {page} of {pages}	Ark {page} af {pages}
 	Shift+Tab	Shift+Tab
 	Shipping labels	Forsendelsesetiketter
 	Shortcut key:	Genvejstast:
@@ -2169,7 +2161,10 @@
 	Swap footnotes and endnotes	Byt fodnoter og slutnoter
 	Swedish	Svensk
 	Switch Modes	Skift tilstand
+	Switch Windows	Skift vindue
 	Switch\nModes	Skift\ntilstand
+	Switch\nWindows	Skift\nvindue
+	Synchronous Scrolling	Synkron rulning
 	Synonyms	Synonymer
 	System	System
 	Tab Character	Tabulator
@@ -2419,6 +2414,7 @@ preview	Title	Titel
 	View	Visning
 	View Alt Text…	Vis alternativ tekst…
 	View Gridlines	Vis gitterlinjer
+	View Side by Side	Vis side om side
 	View State	Visningstilstand
 	View › Focus hides everything but your words. I'll wait outside.	Visning › Fokus skjuler alt undtagen dine ord. Jeg venter udenfor.
 	Views	Visninger
@@ -2656,3 +2652,27 @@ preview	Title	Titel
 	Uruguay	Uruguay
 	Venezuela	Venezuela
 	South Africa	Sydafrika
+
+# Descriptive feature names; legacy rows remain for earlier app pins.
+	Diagram	Diagram
+	Insert Diagram	Indsæt diagram
+	Diagram Design	Diagramdesign
+	Diagram Styles	Diagramtypografier
+	Decorative Text	Dekorativ tekst
+	Decorative Text Styles	Typografier for dekorativ tekst
+	select a diagram first	vælg først et diagram
+	this diagram was made in another program: WordCraft shows it but can't edit it	dette diagram blev oprettet i et andet program: WordCraft viser det, men kan ikke redigere det
+	this diagram can't be edited	dette diagram kan ikke redigeres
+@msg	a diagram holds at most {MAX_ITEMS} items	et diagram kan højst indeholde {MAX_ITEMS} elementer
+@msg	unknown decorative text style `{id}`	ukendt typografi for dekorativ tekst `{id}`
+	select a shape or decorative text first	vælg først en figur eller dekorativ tekst
+	Auto orientation	Automatisk retning
+	Booklet (left binding)	Hæfte (indbinding til venstre)
+	Booklet (right binding)	Hæfte (indbinding til højre)
+	Booklets: duplex on the short edge. Blank pages are added at the end.	Hæfter: dobbeltsidet udskrivning langs den korte kant. Blanke sider tilføjes til sidst.
+	Next sheet	Næste ark
+	No Scaling	Ingen skalering
+	Pages per sheet	Sider pr. ark
+	Previous sheet	Forrige ark
+	Scale to paper size	Skaler til papirstørrelse
+	Sheet {page} of {pages}	Ark {page} af {pages}

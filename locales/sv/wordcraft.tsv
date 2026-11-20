@@ -175,7 +175,6 @@
 	Anyone can open this document. Encrypt it with a password to keep it private.	Vem som helst kan öppna det här dokumentet. Kryptera det med ett lösenord för att hålla det privat.
 	Anyone who opens the document will need this password.	Alla som öppnar dokumentet behöver det här lösenordet.
 	APA	APA
-	Applies to new and opened documents. Saved document zoom takes priority unless you override it.	Gäller nya och öppnade dokument. Dokumentets sparade zoom har företräde om du inte åsidosätter den.
 	Apply as you type	Använd medan du skriver
 	Apply Asian line-breaking rules (kinsoku)	Använd asiatiska regler för radbrytning (kinsoku)
 	Apply formatting to:	Använd formatering på:
@@ -184,6 +183,7 @@
 	Arabic	Arabiska
 	Arch Down	Båge nedåt
 	Arch Up	Båge uppåt
+	Arrange All	Ordna alla
 	Arrange\nAll	Ordna\nalla
 	Article I.	Artikel I.
 	Artistic Effects	Konstnärliga effekter
@@ -272,9 +272,6 @@
 	Book	Bok
 	Book Title	Boktitel
 	Book title	Boktitel
-	Booklet (left binding)	Häfte (bindning till vänster)
-	Booklet (right binding)	Häfte (bindning till höger)
-	Booklets: duplex on the short edge. Blank pages are added at the end.	Häften: dubbelsidig utskrift längs kortsidan. Tomma sidor läggs till i slutet.
 	Bookmark	Bokmärke
 	Bookmark name:	Bokmärkesnamn:
 	Bookmark text	Bokmärkestext
@@ -548,33 +545,24 @@
 	Dark Blue	Mörkblå
 	Dark Red	Mörkröd
 	Dark Yellow	Mörkgul
-	Default document zoom:	Standardzoom för dokument:
 	East	Öster
-	File not found	Filen hittades inte
 	Gray-25%	Grå 25 %
 	Gray-50%	Grå 50 %
 	Macro name:	Makronamn:
 	More options	Fler alternativ
-	Next sheet	Nästa ark
 	Not in Dictionary	Finns inte i ordlistan
 spacing	Open	Öppen
-	Override zoom saved in documents	Åsidosätt zoom som sparats i dokument
 	Page number	Sidnummer
-	Pages per sheet	Sidor per ark
 	Picture border	Bildkantlinje
-	Previous sheet	Föregående ark
 	Record…	Spela in…
 	Run	Kör
-	Sheet {page} of {pages}	Ark {page} av {pages}
 	Soft Edge	Mjuk kant
 	Stop Recording	Stoppa inspelning
 	Suggestions	Förslag
 	Teal	Blågrön
-	Text Width	Textbredd
 	The document or selection changed. Check again to continue.	Dokumentet eller markeringen har ändrats. Kontrollera igen för att fortsätta.
 	There are no macros yet. Record one to add it here.	Det finns inga makron än. Spela in ett för att lägga till det här.
 	Turquoise	Turkos
-	Use document zoom	Använd dokumentets zoom
 	{field}, record {n}	{field}, post {n}
 	{key} starts a new page. Much tidier than pressing Enter until it happens.	{key} börjar en ny sida. Mycket snyggare än att trycka på Enter tills det händer.
 	{key} finds and replaces text, formatting and special characters.	{key} söker och ersätter text, formatering och specialtecken.
@@ -1463,6 +1451,7 @@ template	Letter	Brev
 	No matching commands	Inga matchande kommandon
 	No model credits were built into this copy.	Den här kopian innehåller inga uppgifter om medverkande AI-modeller.
 	No new sources in that file	Inga nya källor i den filen
+	No other WordCraft windows are open.	Inga andra WordCraft-fönster är öppna.
 	No Outline	Ingen kontur
 	No Paragraph Space	Inget styckeavstånd
 	No printers found. Configure a system printer or export a PDF.	Inga skrivare hittades. Lägg till en skrivare i systemet eller exportera en PDF.
@@ -1558,6 +1547,7 @@ template	Letter	Brev
 	Only label and number	Endast etikett och nummer
 	Only text properties can be changed.	Endast textegenskaper kan ändras.
 	Only the allowed styles can be applied.	Bara de tillåtna stilarna kan användas.
+	only the desktop app has several windows	bara skrivbordsappen har flera fönster
 	Only web (http, https) and email (mailto) links can be followed	Bara webblänkar (http, https) och e-postlänkar (mailto) kan följas
 	Open a document first	Öppna först ett dokument
 	Open a file with WordCraft's own browser when the system file dialog doesn't appear.	Öppna en fil med WordCrafts egen filbläddrare när systemets fildialogruta inte visas.
@@ -2217,6 +2207,7 @@ template	Letter	Brev
 	Switch Windows	Växla fönster
 	Switch\nModes	Byt\nläge
 	Switch\nWindows	Växla\nfönster
+	Synchronous Scrolling	Synkron rullning
 	Synonyms	Synonymer
 	Tab Character	Tabbtecken
 	Tab character	Tabbtecken
@@ -2390,6 +2381,7 @@ preview	Title	Titel
 	Tue	Tis
 	Turabian	Turabian
 	Turkish	Turkiska
+	turn on View Side by Side first	aktivera Visa sida vid sida först
 	Two	Två
 	Two-sided printing	Dubbelsidig utskrift
 	Two-sided: long edge	Dubbelsidig: vänd längs långsidan
@@ -2469,6 +2461,7 @@ preview	Title	Titel
 	View Alt Text…	Visa alternativtext…
 	View and edit the document's custom properties.	Visa och redigera dokumentets anpassade egenskaper.
 	View Gridlines	Visa stödlinjer
+	View Side by Side	Visa sida vid sida
 	View State	Visningstillstånd
 	View › Focus hides everything but your words. I'll wait outside.	Visa › Fokus döljer allt utom dina ord. Jag väntar utanför.
 	Views	Vyer
@@ -2697,3 +2690,30 @@ preview	Title	Titel
 	Uruguay	Uruguay
 	Venezuela	Venezuela
 	South Africa	Sydafrika
+
+# Descriptive feature names; legacy rows remain for earlier app pins.
+	Diagram	Diagram
+	Insert Diagram	Infoga diagram
+	Diagram Design	Diagramdesign
+	Diagram Styles	Diagramformat
+	Decorative Text	Dekorativ text
+	Decorative Text Styles	Format för dekorativ text
+	select a diagram first	markera först ett diagram
+	this diagram was made in another program: WordCraft shows it but can't edit it	detta diagram skapades i ett annat program: WordCraft visar det men kan inte redigera det
+	this diagram can't be edited	detta diagram kan inte redigeras
+@msg	a diagram holds at most {MAX_ITEMS} items	ett diagram kan innehålla högst {MAX_ITEMS} objekt
+@msg	unknown decorative text style `{id}`	okänt format för dekorativ text `{id}`
+	select a shape or decorative text first	markera först en form eller dekorativ text
+	Applies to new and opened documents. Saved document zoom takes priority unless you override it.	Gäller nya och öppnade dokument. Dokumentets sparade zoom har företräde om du inte åsidosätter den.
+	Booklet (left binding)	Häfte (bindning till vänster)
+	Booklet (right binding)	Häfte (bindning till höger)
+	Booklets: duplex on the short edge. Blank pages are added at the end.	Häften: dubbelsidig utskrift längs kortsidan. Tomma sidor läggs till i slutet.
+	Default document zoom:	Standardzoom för dokument:
+	File not found	Filen hittades inte
+	Next sheet	Nästa ark
+	Override zoom saved in documents	Åsidosätt zoom som sparats i dokument
+	Pages per sheet	Sidor per ark
+	Previous sheet	Föregående ark
+	Sheet {page} of {pages}	Ark {page} av {pages}
+	Text Width	Textbredd
+	Use document zoom	Använd dokumentets zoom

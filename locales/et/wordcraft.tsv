@@ -139,7 +139,6 @@
 	Any Letter	Suvaline täht
 	Anyone can open this document. Encrypt it with a password to keep it private.	Seda dokumenti saab avada igaüks. Privaatsena hoidmiseks krüpti see parooliga.
 	Anyone who opens the document will need this password.	Igaüks, kes dokumendi avab, vajab seda parooli.
-	Applies to new and opened documents. Saved document zoom takes priority unless you override it.	Kehtib uutele ja avatavatele dokumentidele. Dokumendis salvestatud suum on eelistatud, kui seda ei asendata.
 	Apply as you type	Rakenda tippimise ajal
 	Apply Asian line-breaking rules (kinsoku)	Rakenda Aasia reamurdmisreegleid (kinsoku)
 	Apply formatting to:	Rakenda vormindus:
@@ -148,6 +147,7 @@
 	Arabic	Araabia
 	Arch Down	Kaar alla
 	Arch Up	Kaar üles
+	Arrange All	Korralda kõik
 	Arrange\nAll	Paiguta\nkõik
 	Article I.	Artikkel I.
 	Artistic Effects	Kunstilised efektid
@@ -163,7 +163,6 @@
 	Atmosphere	Atmosfäär
 	Attach Template	Manusta mall
 	Attach…	Manusta…
-	Auto orientation	Automaatne suund
 	AutoCorrect	Automaatparandus
 	AutoCorrect Options	Automaatparanduse valikud
 	AutoFit	Automaatne sobitus
@@ -222,9 +221,6 @@
 	Book	Raamat
 	Book Title	Raamatu pealkiri
 	Book title	Raamatu pealkiri
-	Booklet (left binding)	Brošüür (köide vasakul)
-	Booklet (right binding)	Brošüür (köide paremal)
-	Booklets: duplex on the short edge. Blank pages are added at the end.	Brošüürid: kahepoolne printimine mööda lühikest serva. Tühjad leheküljed lisatakse lõppu.
 	Bookmark	Järjehoidja
 	Bookmark name:	Järjehoidja nimi:
 	Border lines	Äärisjooned
@@ -421,17 +417,6 @@
 	Croatian	Horvaadi
 	Cross-reference	Ristviide
 	Cross-reference:	Ristviide:
-	Default document zoom:	Dokumendi vaikesuum:
-	File not found	Faili ei leitud
-	Next sheet	Järgmine leht
-	No Scaling	Ilma mastaapimiseta
-	Override zoom saved in documents	Asenda dokumentides salvestatud suum
-	Pages per sheet	Lehekülgi lehel
-	Previous sheet	Eelmine leht
-	Scale to paper size	Sobita paberi suurusega
-	Sheet {page} of {pages}	Leht {page}/{pages}
-	Text Width	Teksti laius
-	Use document zoom	Kasuta dokumendi suumi
 	{key} starts a new page. Much tidier than pressing Enter until it happens.	{key} alustab uut lehekülge. Palju korralikum kui Enterit vajutada, kuni see juhtub.
 	{key} finds and replaces text, formatting and special characters.	{key} otsib ja asendab teksti, vormingut ja erimärke.
 	{key} turns the selected text into a link.	{key} muudab valitud teksti lingiks.
@@ -1156,6 +1141,7 @@
 	No icons match your search.	Otsingule vastavaid ikoone pole.
 	No Markup	Märgistuseta
 	No model credits were built into this copy.	Selles versioonis pole mudelite autoriteavet.
+	No other WordCraft windows are open.	Muid WordCrafti aknaid pole avatud.
 	No Outline	Kontuurita
 	No Paragraph Space	Lõiguvaheta
 	No printers found. Configure a system printer or export a PDF.	Printereid ei leitud. Seadista süsteemis printer või ekspordi PDF.
@@ -1793,7 +1779,10 @@
 	Swap footnotes and endnotes	Vaheta all- ja lõpumärkused
 	Swedish	Rootsi
 	Switch Modes	Vaheta režiimi
+	Switch Windows	Vaheta akent
 	Switch\nModes	Vaheta\nrežiimi
+	Switch\nWindows	Vaheta\nakent
+	Synchronous Scrolling	Sünkroonne kerimine
 	Synonyms	Sünonüümid
 	Tab Character	Tabeldusmärk
 	Tab character	Tabeldusmärk
@@ -1995,6 +1984,7 @@
 	Vertical alignment:	Püstjoondus:
 	View Alt Text…	Kuva asendustekst…
 	View Gridlines	Kuva ruudujooned
+	View Side by Side	Kuva kõrvuti
 	View State	Vaate olek
 	View › Focus hides everything but your words. I'll wait outside.	Vaade › Keskendu peidab kõik peale sinu sõnade. Ootan väljas.
 	Views	Vaated
@@ -2206,3 +2196,33 @@
 	Uruguay	Uruguay
 	Venezuela	Venezuela
 	South Africa	Lõuna-Aafrika Vabariik
+
+# Descriptive feature names; legacy rows remain for earlier app pins.
+	Diagram	Skeem
+	Insert Diagram	Lisa skeem
+	Diagram Design	Skeemi kujundus
+	Diagram Styles	Skeemi laadid
+	Decorative Text	Dekoratiivtekst
+	Decorative Text Styles	Dekoratiivteksti laadid
+	select a diagram first	vali kõigepealt skeem
+	this diagram was made in another program: WordCraft shows it but can't edit it	see skeem loodi teises programmis: WordCraft näitab seda, kuid ei saa seda muuta
+	this diagram can't be edited	seda skeemi ei saa muuta
+@msg	a diagram holds at most {MAX_ITEMS} items	skeem mahutab kuni {MAX_ITEMS} elementi
+@msg	unknown decorative text style `{id}`	tundmatu dekoratiivteksti laad `{id}`
+	select a shape or decorative text first	vali kõigepealt kujund või dekoratiivtekst
+	Applies to new and opened documents. Saved document zoom takes priority unless you override it.	Kehtib uutele ja avatavatele dokumentidele. Dokumendis salvestatud suum on eelistatud, kui seda ei asendata.
+	Auto orientation	Automaatne suund
+	Booklet (left binding)	Brošüür (köide vasakul)
+	Booklet (right binding)	Brošüür (köide paremal)
+	Booklets: duplex on the short edge. Blank pages are added at the end.	Brošüürid: kahepoolne printimine mööda lühikest serva. Tühjad leheküljed lisatakse lõppu.
+	Default document zoom:	Dokumendi vaikesuum:
+	File not found	Faili ei leitud
+	Next sheet	Järgmine leht
+	No Scaling	Ilma mastaapimiseta
+	Override zoom saved in documents	Asenda dokumentides salvestatud suum
+	Pages per sheet	Lehekülgi lehel
+	Previous sheet	Eelmine leht
+	Scale to paper size	Sobita paberi suurusega
+	Sheet {page} of {pages}	Leht {page}/{pages}
+	Text Width	Teksti laius
+	Use document zoom	Kasuta dokumendi suumi

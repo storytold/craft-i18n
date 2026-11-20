@@ -139,7 +139,6 @@
 	Any Letter	Било које слово
 	Anyone can open this document. Encrypt it with a password to keep it private.	Свако може да отвори овај документ. Шифрујте га лозинком да би остао приватан.
 	Anyone who opens the document will need this password.	Свакоме ко отвори документ биће потребна ова лозинка.
-	Applies to new and opened documents. Saved document zoom takes priority unless you override it.	Примењује се на нове и отворене документе. Сачувано увећање документа има предност осим ако га замените.
 	Apply as you type	Примени док куцаш
 	Apply Asian line-breaking rules (kinsoku)	Примени азијска правила прелома редова (кинсоку)
 	Apply formatting to:	Примени форматирање на:
@@ -148,6 +147,7 @@
 	Arabic	Арапски
 	Arch Down	Лук надоле
 	Arch Up	Лук нагоре
+	Arrange All	Распореди све
 	Arrange\nAll	Распореди\nсве
 	Article I.	Члан I.
 	Artistic Effects	Уметнички ефекти
@@ -163,7 +163,6 @@
 	Atmosphere	Атмосфера
 	Attach Template	Приложи шаблон
 	Attach…	Приложи…
-	Auto orientation	Аутоматска оријентација
 	AutoCorrect	Аутоматска исправка
 	AutoCorrect Options	Опције аутоматске исправке
 	AutoFit	Аутоматско уклапање
@@ -221,9 +220,6 @@
 	Bold choice. Ctrl+Z is right there if you need it.	Храбар избор. Ctrl+Z је ту ако затреба.
 	Book	Књига
 	Book title	Наслов књиге
-	Booklet (left binding)	Књижица (повез лево)
-	Booklet (right binding)	Књижица (повез десно)
-	Booklets: duplex on the short edge. Blank pages are added at the end.	Књижице: двострано штампање по краћој ивици. Празне странице се додају на крају.
 	Bookmark	Обележивач
 	Bookmark name:	Назив обележивача:
 	Border lines	Линије ивица
@@ -420,17 +416,6 @@
 	Croatian	Хрватски
 	Cross-reference	Унакрсна референца
 	Cross-reference:	Унакрсна референца:
-	Default document zoom:	Подразумевано увећање документа:
-	File not found	Датотека није пронађена
-	Next sheet	Следећи лист
-	No Scaling	Без скалирања
-	Override zoom saved in documents	Замени увећање сачувано у документима
-	Pages per sheet	Страница по листу
-	Previous sheet	Претходни лист
-	Scale to paper size	Прилагоди величини папира
-	Sheet {page} of {pages}	Лист {page} од {pages}
-	Text Width	Ширина текста
-	Use document zoom	Користи увећање из документа
 	{key} starts a new page. Much tidier than pressing Enter until it happens.	{key} почиње нову страницу. Много уредније него притискати Enter док се не деси.
 	{key} finds and replaces text, formatting and special characters.	{key} проналази и замењује текст, обликовање и специјалне знакове.
 	{key} turns the selected text into a link.	{key} претвара изабрани текст у везу.
@@ -1145,6 +1130,7 @@
 	No icons match your search.	Ниједна иконица не одговара претрази.
 	No Markup	Без измена
 	No model credits were built into this copy.	Ова верзија не садржи заслуге за AI моделе.
+	No other WordCraft windows are open.	Нема других отворених WordCraft прозора.
 	No Outline	Без контуре
 	No Paragraph Space	Без размака пасуса
 	No printers found. Configure a system printer or export a PDF.	Нису пронађени штампачи. Подесите системски штампач или извезите PDF.
@@ -1777,7 +1763,10 @@
 	Swap footnotes and endnotes	Замени фусноте и ендноте
 	Swedish	Шведски
 	Switch Modes	Промени режим
+	Switch Windows	Промени прозор
 	Switch\nModes	Промени\nрежим
+	Switch\nWindows	Промени\nпрозор
+	Synchronous Scrolling	Синхроно померање
 	Synonyms	Синоними
 	Tab Character	Знак табулатора
 	Tab character	Знак табулатора
@@ -1975,6 +1964,7 @@
 	Vertical alignment:	Вертикално поравнање:
 	View Alt Text…	Прикажи алтернативни текст…
 	View Gridlines	Прикажи линије мреже
+	View Side by Side	Прикажи упоредо
 	View State	Стање приказа
 	View › Focus hides everything but your words. I'll wait outside.	Приказ › Фокус скрива све осим ваших речи. Чекаћу напољу.
 	Views	Прикази
@@ -2186,3 +2176,33 @@
 	Uruguay	Уругвај
 	Venezuela	Венецуела
 	South Africa	Јужноафричка Република
+
+# Descriptive feature names; legacy rows remain for earlier app pins.
+	Diagram	Дијаграм
+	Insert Diagram	Уметни дијаграм
+	Diagram Design	Дизајн дијаграма
+	Diagram Styles	Стилови дијаграма
+	Decorative Text	Украсни текст
+	Decorative Text Styles	Стилови украсног текста
+	select a diagram first	прво изаберите дијаграм
+	this diagram was made in another program: WordCraft shows it but can't edit it	овај дијаграм је направљен у другом програму: WordCraft га приказује, али не може да га уређује
+	this diagram can't be edited	овај дијаграм не може да се уређује
+@msg	a diagram holds at most {MAX_ITEMS} items	дијаграм може да садржи највише {MAX_ITEMS} ставки
+@msg	unknown decorative text style `{id}`	непознат стил украсног текста `{id}`
+	select a shape or decorative text first	прво изаберите облик или украсни текст
+	Applies to new and opened documents. Saved document zoom takes priority unless you override it.	Примењује се на нове и отворене документе. Сачувано увећање документа има предност осим ако га замените.
+	Auto orientation	Аутоматска оријентација
+	Booklet (left binding)	Књижица (повез лево)
+	Booklet (right binding)	Књижица (повез десно)
+	Booklets: duplex on the short edge. Blank pages are added at the end.	Књижице: двострано штампање по краћој ивици. Празне странице се додају на крају.
+	Default document zoom:	Подразумевано увећање документа:
+	File not found	Датотека није пронађена
+	Next sheet	Следећи лист
+	No Scaling	Без скалирања
+	Override zoom saved in documents	Замени увећање сачувано у документима
+	Pages per sheet	Страница по листу
+	Previous sheet	Претходни лист
+	Scale to paper size	Прилагоди величини папира
+	Sheet {page} of {pages}	Лист {page} од {pages}
+	Text Width	Ширина текста
+	Use document zoom	Користи увећање из документа

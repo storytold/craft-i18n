@@ -4,6 +4,7 @@
 # categories whole numbers 0..=1000 reach (docs/catalog-format.md, Plurals). The test
 # `plural_forms_table_matches_the_runtime_crate` checks every row against craft-libs' runtime crate.
 ar	6	n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5
+az	2	n != 1
 bg	2	n != 1
 bn	2	n > 1
 bs	3	n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2

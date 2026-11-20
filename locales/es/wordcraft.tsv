@@ -168,7 +168,6 @@
 	Any Letter	Cualquier letra
 	Anyone can open this document. Encrypt it with a password to keep it private.	Cualquiera puede abrir este documento. Cífralo con una contraseña para mantenerlo privado.
 	Anyone who opens the document will need this password.	Quien abra el documento necesitará esta contraseña.
-	Applies to new and opened documents. Saved document zoom takes priority unless you override it.	Se aplica a documentos nuevos y abiertos. El zoom guardado en el documento tiene prioridad salvo que lo reemplace.
 	Apply as you type	Aplicar mientras escribe
 	Apply Asian line-breaking rules (kinsoku)	Aplicar las reglas asiáticas de división de líneas (kinsoku)
 	Apply formatting to:	Aplicar formato a:
@@ -177,6 +176,7 @@
 	Arabic	Árabe
 	Arch Down	Arco hacia abajo
 	Arch Up	Arco hacia arriba
+	Arrange All	Organizar todo
 	Arrange\nAll	Organizar\ntodo
 	Article I.	Artículo I.
 	Artistic Effects	Efectos artísticos
@@ -193,7 +193,6 @@
 	Atmosphere	Atmósfera
 	Attach Template	Adjuntar plantilla
 	Attach…	Adjuntar…
-	Auto orientation	Orientación automática
 	AutoCorrect	Autocorrección
 	AutoCorrect Options	Opciones de autocorrección
 	AutoFit	Ajustar automáticamente
@@ -260,9 +259,6 @@
 	Book	Libro
 	Book Title	Título de libro
 	Book title	Título del libro
-	Booklet (left binding)	Folleto (encuadernación izquierda)
-	Booklet (right binding)	Folleto (encuadernación derecha)
-	Booklets: duplex on the short edge. Blank pages are added at the end.	Folletos: impresión a doble cara por el borde corto. Se añaden páginas en blanco al final.
 	Bookmark	Marcador
 	Bookmark name:	Nombre del marcador:
 	Border lines	Líneas de borde
@@ -507,17 +503,6 @@
 	Croatian	Croata
 	Cross-reference	Referencia cruzada
 	Cross-reference:	Referencia cruzada:
-	Default document zoom:	Zoom predeterminado del documento:
-	File not found	Archivo no encontrado
-	Next sheet	Hoja siguiente
-	No Scaling	Sin escala
-	Override zoom saved in documents	Reemplazar el zoom guardado en los documentos
-	Pages per sheet	Páginas por hoja
-	Previous sheet	Hoja anterior
-	Scale to paper size	Ajustar al tamaño del papel
-	Sheet {page} of {pages}	Hoja {page} de {pages}
-	Text Width	Ancho del texto
-	Use document zoom	Usar el zoom del documento
 	{key} starts a new page. Much tidier than pressing Enter until it happens.	{key} empieza una página nueva. Mucho más limpio que pulsar Intro hasta que pase.
 	{key} finds and replaces text, formatting and special characters.	{key} busca y reemplaza texto, formato y caracteres especiales.
 	{key} turns the selected text into a link.	{key} convierte el texto seleccionado en un vínculo.
@@ -1359,6 +1344,7 @@
 	No icons match your search.	Ningún icono coincide con la búsqueda.
 	No Markup	Sin marcas
 	No model credits were built into this copy.	Esta copia no incluye créditos de modelos.
+	No other WordCraft windows are open.	No hay otras ventanas de WordCraft abiertas.
 	No Outline	Sin contorno
 	No Paragraph Space	Sin espacio entre párrafos
 	No printers found. Configure a system printer or export a PDF.	No se encontraron impresoras. Configura una impresora en el sistema o exporta un PDF.
@@ -2076,7 +2062,10 @@
 	Swap footnotes and endnotes	Intercambiar notas al pie y notas finales
 	Swedish	Sueco
 	Switch Modes	Cambiar de modo
+	Switch Windows	Cambiar ventanas
 	Switch\nModes	Cambiar\nde modo
+	Switch\nWindows	Cambiar\nventanas
+	Synchronous Scrolling	Desplazamiento sincrónico
 	Synonyms	Sinónimos
 	Tab	Tabulador
 	Tab Character	Carácter de tabulación
@@ -2312,6 +2301,7 @@ preview	Title	Título
 	Vertical Dots	Puntos verticales
 	View Alt Text…	Ver texto alternativo…
 	View Gridlines	Ver líneas de cuadrícula
+	View Side by Side	Ver en paralelo
 	View State	Estado de vista
 	View › Focus hides everything but your words. I'll wait outside.	Vista › Modo concentración oculta todo menos tus palabras. Te espero fuera.
 	Views	Vistas
@@ -2531,3 +2521,33 @@ preview	Title	Título
 	Uruguay	Uruguay
 	Venezuela	Venezuela
 	South Africa	Sudáfrica
+
+# Descriptive feature names; legacy rows remain for earlier app pins.
+	Diagram	Diagrama
+	Insert Diagram	Insertar diagrama
+	Diagram Design	Diseño de diagrama
+	Diagram Styles	Estilos de diagrama
+	Decorative Text	Texto decorativo
+	Decorative Text Styles	Estilos de texto decorativo
+	select a diagram first	selecciona primero un diagrama
+	this diagram was made in another program: WordCraft shows it but can't edit it	este diagrama se creó en otro programa: WordCraft lo muestra, pero no puede editarlo
+	this diagram can't be edited	este diagrama no se puede editar
+@msg	a diagram holds at most {MAX_ITEMS} items	un diagrama admite como máximo {MAX_ITEMS} elementos
+@msg	unknown decorative text style `{id}`	estilo de texto decorativo desconocido `{id}`
+	select a shape or decorative text first	selecciona primero una forma o texto decorativo
+	Applies to new and opened documents. Saved document zoom takes priority unless you override it.	Se aplica a documentos nuevos y abiertos. El zoom guardado en el documento tiene prioridad salvo que lo reemplace.
+	Auto orientation	Orientación automática
+	Booklet (left binding)	Folleto (encuadernación izquierda)
+	Booklet (right binding)	Folleto (encuadernación derecha)
+	Booklets: duplex on the short edge. Blank pages are added at the end.	Folletos: impresión a doble cara por el borde corto. Se añaden páginas en blanco al final.
+	Default document zoom:	Zoom predeterminado del documento:
+	File not found	Archivo no encontrado
+	Next sheet	Hoja siguiente
+	No Scaling	Sin escala
+	Override zoom saved in documents	Reemplazar el zoom guardado en los documentos
+	Pages per sheet	Páginas por hoja
+	Previous sheet	Hoja anterior
+	Scale to paper size	Ajustar al tamaño del papel
+	Sheet {page} of {pages}	Hoja {page} de {pages}
+	Text Width	Ancho del texto
+	Use document zoom	Usar el zoom del documento

@@ -203,6 +203,7 @@
 	Arch Up	Arc în sus
 	Area	Arie
 	Arrange	Aranjare
+	Arrange All	Aranjează toate
 	Arrange\nAll	Aranjare\ntot
 	Arrow	Săgeată
 	Arrows	Săgeți
@@ -226,7 +227,6 @@
 	Author	Autor
 	Auto	Automat
 	Auto ({percent}%)	Automat ({percent}%)
-	Auto orientation	Orientare automată
 	AutoCorrect	Corectare automată
 	AutoCorrect Options	Opțiuni de corectare automată
 	AutoFit	Potrivire automată
@@ -301,9 +301,6 @@
 	Book	Carte
 	Book Title	Titlul cărții
 	Book title	Titlul cărții
-	Booklet (left binding)	Broșură (legare la stânga)
-	Booklet (right binding)	Broșură (legare la dreapta)
-	Booklets: duplex on the short edge. Blank pages are added at the end.	Broșuri: imprimare față-verso pe marginea scurtă. Paginile goale sunt adăugate la sfârșit.
 	Bookmark	Marcaj
 	Bookmark name:	Nume marcaj:
 	Border lines	Linii de bordură
@@ -1613,7 +1610,6 @@ template	Letter	Scrisoare
 	Next Section	Secțiunea următoare
 	Next Sentence	Propoziția următoare
 	Next sentence	Propoziția următoare
-	Next sheet	Foaia următoare
 	Nib floats over the window with tips and the occasional remark.	Nib plutește deasupra ferestrei cu sfaturi și câte o remarcă din când în când.
 	Nib, your assistant. Drag to move; right-click for options.	Nib, asistentul dumneavoastră. Trageți pentru a muta; clic dreapta pentru opțiuni.
 	No	Nu
@@ -1636,11 +1632,11 @@ template	Letter	Scrisoare
 	No limit	Fără limită
 	No Markup	Fără marcaj
 	No model credits were built into this copy.	Această copie nu include mențiuni despre modele.
+	No other WordCraft windows are open.	Nu sunt deschise alte ferestre WordCraft.
 	No Outline	Fără contur
 	No Paragraph Space	Fără spațiu între paragrafe
 	No printers found. Configure a system printer or export a PDF.	Nu s-au găsit imprimante. Configurează o imprimantă de sistem sau exportă un PDF.
 	No Reflection	Fără reflexie
-	No Scaling	Fără scalare
 	No Shadow	Fără umbră
 	No Soft Edges	Fără margini estompate
 	No sources yet.	Nicio sursă încă.
@@ -1737,6 +1733,7 @@ template	Letter	Scrisoare
 	only in Outline view	doar în vizualizarea Schiță
 	Only in this document	Doar în acest document
 	Only the allowed styles can be applied.	Se pot aplica doar stilurile permise.
+	only the desktop app has several windows	doar aplicația desktop are mai multe ferestre
 	Only web (http, https) and email (mailto) links can be followed	Se pot urma doar linkurile web (http, https) și de e-mail (mailto)
 	Open	Deschidere
 	Open a document first	Deschideți mai întâi un document
@@ -1814,7 +1811,6 @@ template	Letter	Scrisoare
 	Pages	Pagini
 	Pages like 1-3, 5	Pagini precum 1-3, 5
 	Pages of bookmark:	Paginile marcajului:
-	Pages per sheet	Pagini pe foaie
 	Paper	Hârtie
 	Paper size:	Dimensiune hârtie:
 	Paragraph	Paragraf
@@ -1908,7 +1904,6 @@ template	Letter	Scrisoare
 	Previous Section	Secțiunea anterioară
 	Previous Sentence	Propoziția anterioară
 	Previous sentence	Propoziția anterioară
-	Previous sheet	Foaia anterioară
 	Print	Imprimare
 	Print Documents	Imprimare documente
 	Print Documents…	Imprimare documente…
@@ -2151,7 +2146,6 @@ template	Letter	Scrisoare
 	Sayings:	Replici:
 	Scale	Scară
 	Scale Drawing	Desen la scară
-	Scale to paper size	Ajustare la dimensiunea hârtiei
 	Scatter	Dispersie
 	Script	Script
 	Scripts	Scripturi
@@ -2253,7 +2247,6 @@ template	Letter	Scrisoare
 	Shape Styles	Stiluri de formă
 	Shapes	Forme
 	Share	Partajare
-	Sheet {page} of {pages}	Foaia {page} din {pages}
 	Shift+Tab	Shift+Tab
 	Shipping labels	Etichete de expediere
 	Shortcut key:	Tastă de scurtătură:
@@ -2481,9 +2474,12 @@ template	Letter	Scrisoare
 	Swap footnotes and endnotes	Schimbă între ele notele de subsol și notele de final
 	Swedish	Suedeză
 	Switch Modes	Schimbare mod
+	Switch Windows	Comută ferestrele
 	Switch\nModes	Schimbare\nmod
+	Switch\nWindows	Comută\nferestrele
 	Symbol	Simbol
 	Symbols	Simboluri
+	Synchronous Scrolling	Derulare sincronă
 	Synonyms	Sinonime
 	System	Sistem
 	Tab	Tab
@@ -2668,6 +2664,7 @@ preview	Title	Titlu
 	Tue	Mar
 	Turabian	Turabian
 	Turkish	Turcă
+	turn on View Side by Side first	activează mai întâi Vizualizare alăturată
 	Two	Doi
 	Two-sided printing	Imprimare față-verso
 	Two-sided: long edge	Față-verso: pe latura lungă
@@ -2761,6 +2758,7 @@ preview	Title	Titlu
 	View	Vizualizare
 	View Alt Text…	Vizualizare text alternativ…
 	View Gridlines	Vizualizare linii de grilă
+	View Side by Side	Vizualizare alăturată
 	View State	Vizualizare stare
 	View › Focus hides everything but your words. I'll wait outside.	Vizualizare › Focalizare ascunde totul în afară de cuvintele dumneavoastră. Vă aștept afară.
 	Views	Vizualizări
@@ -3016,3 +3014,27 @@ preview	Title	Titlu
 	Uruguay	Uruguay
 	Venezuela	Venezuela
 	South Africa	Africa de Sud
+
+# Descriptive feature names; legacy rows remain for earlier app pins.
+	Diagram	Diagramă
+	Insert Diagram	Inserare diagramă
+	Diagram Design	Proiectare diagramă
+	Diagram Styles	Stiluri de diagramă
+	Decorative Text	Text decorativ
+	Decorative Text Styles	Stiluri de text decorativ
+	select a diagram first	selectați mai întâi o diagramă
+	this diagram was made in another program: WordCraft shows it but can't edit it	această diagramă a fost creată în alt program: WordCraft o afișează, dar nu o poate edita
+	this diagram can't be edited	această diagramă nu poate fi editată
+@msg	a diagram holds at most {MAX_ITEMS} items	o diagramă poate conține cel mult {MAX_ITEMS} elemente
+@msg	unknown decorative text style `{id}`	stil de text decorativ necunoscut `{id}`
+	select a shape or decorative text first	selectați mai întâi o formă sau un text decorativ
+	Auto orientation	Orientare automată
+	Booklet (left binding)	Broșură (legare la stânga)
+	Booklet (right binding)	Broșură (legare la dreapta)
+	Booklets: duplex on the short edge. Blank pages are added at the end.	Broșuri: imprimare față-verso pe marginea scurtă. Paginile goale sunt adăugate la sfârșit.
+	Next sheet	Foaia următoare
+	No Scaling	Fără scalare
+	Pages per sheet	Pagini pe foaie
+	Previous sheet	Foaia anterioară
+	Scale to paper size	Ajustare la dimensiunea hârtiei
+	Sheet {page} of {pages}	Foaia {page} din {pages}

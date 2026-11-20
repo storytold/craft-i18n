@@ -144,7 +144,6 @@
 	Any Letter	任意字母
 	Anyone can open this document. Encrypt it with a password to keep it private.	任何人都可以打开此文档。用密码加密可保护其隐私。
 	Anyone who opens the document will need this password.	打开文档的任何人都需要此密码。
-	Applies to new and opened documents. Saved document zoom takes priority unless you override it.	适用于新建和打开的文档。除非启用覆盖，否则优先使用文档中保存的缩放比例。
 	Apply as you type	键入时应用
 	Apply Asian line-breaking rules (kinsoku)	应用亚洲文字的断行规则（禁则）
 	Apply formatting to:	将格式应用于：
@@ -154,6 +153,7 @@
 	Arch Down	下弯弧
 	Arch Up	上弯弧
 	Area	面积图
+	Arrange All	全部重排
 	Arrange\nAll	全部重排
 	Article I.	第 I 条
 	Artistic Effects	艺术效果
@@ -169,7 +169,6 @@
 	Atmosphere	大气
 	Attach Template	附加模板
 	Attach…	附加…
-	Auto orientation	自动方向
 	AutoCorrect	自动更正
 	AutoCorrect Options	自动更正选项
 	AutoFit	自动调整
@@ -229,9 +228,6 @@
 	Bold choice. Ctrl+Z is right there if you need it.	大胆的选择。需要的话，Ctrl+Z 就在旁边。
 	Book	书籍
 	Book title	书名
-	Booklet (left binding)	小册子（左侧装订）
-	Booklet (right binding)	小册子（右侧装订）
-	Booklets: duplex on the short edge. Blank pages are added at the end.	小册子：沿短边双面打印。空白页将添加到末尾。
 	Bookmark	书签
 	Bookmark name:	书签名：
 	Border lines	边框线
@@ -438,17 +434,6 @@
 	Croatian	克罗地亚语
 	Cross-reference	交叉引用
 	Cross-reference:	交叉引用：
-	Default document zoom:	默认文档缩放：
-	File not found	找不到文件
-	Next sheet	下一张
-	No Scaling	不缩放
-	Override zoom saved in documents	覆盖文档中保存的缩放比例
-	Pages per sheet	每张纸的页数
-	Previous sheet	上一张
-	Scale to paper size	缩放至纸张大小
-	Sheet {page} of {pages}	第 {page} 张，共 {pages} 张
-	Text Width	文字宽度
-	Use document zoom	使用文档的缩放比例
 	{key} starts a new page. Much tidier than pressing Enter until it happens.	{key} 可以开始新的一页。比一直按 Enter 直到换页整洁多了。
 	{key} finds and replaces text, formatting and special characters.	{key} 可以查找和替换文字、格式和特殊字符。
 	{key} turns the selected text into a link.	{key} 可以将所选文字变成链接。
@@ -1194,6 +1179,7 @@
 	No icons match your search.	没有与搜索匹配的图标。
 	No Markup	无标记
 	No model credits were built into this copy.	此版本未内置模型致谢信息。
+	No other WordCraft windows are open.	没有其他打开的 WordCraft 窗口。
 	No Outline	无轮廓
 	No Paragraph Space	无段落间距
 	No printers found. Configure a system printer or export a PDF.	未找到打印机。请在系统中配置打印机或导出 PDF。
@@ -1851,7 +1837,10 @@
 	Swap footnotes and endnotes	脚注和尾注互换
 	Swedish	瑞典语
 	Switch Modes	切换模式
+	Switch Windows	切换窗口
 	Switch\nModes	切换模式
+	Switch\nWindows	切换\n窗口
+	Synchronous Scrolling	同步滚动
 	Synonyms	同义词
 	Tab	制表符
 	Tab Character	制表符字符
@@ -2060,6 +2049,7 @@
 	Vertical alignment:	垂直对齐方式：
 	View Alt Text…	查看替代文字…
 	View Gridlines	查看网格线
+	View Side by Side	并排查看
 	View State	视图状态
 	View › Focus hides everything but your words. I'll wait outside.	视图 › 专注 会隐藏文字以外的一切。我去外面等你。
 	Views	视图
@@ -2278,3 +2268,33 @@
 	Uruguay	乌拉圭
 	Venezuela	委内瑞拉
 	South Africa	南非
+
+# Descriptive feature names; legacy rows remain for earlier app pins.
+	Diagram	图示
+	Insert Diagram	插入图示
+	Diagram Design	图示设计
+	Diagram Styles	图示样式
+	Decorative Text	装饰文字
+	Decorative Text Styles	装饰文字样式
+	select a diagram first	请先选择一个图示
+	this diagram was made in another program: WordCraft shows it but can't edit it	此图示由其他程序创建：WordCraft 可以显示，但无法编辑
+	this diagram can't be edited	无法编辑此图示
+@msg	a diagram holds at most {MAX_ITEMS} items	一个图示最多包含 {MAX_ITEMS} 个项目
+@msg	unknown decorative text style `{id}`	未知的装饰文字样式 `{id}`
+	select a shape or decorative text first	请先选择一个形状或装饰文字
+	Applies to new and opened documents. Saved document zoom takes priority unless you override it.	适用于新建和打开的文档。除非启用覆盖，否则优先使用文档中保存的缩放比例。
+	Auto orientation	自动方向
+	Booklet (left binding)	小册子（左侧装订）
+	Booklet (right binding)	小册子（右侧装订）
+	Booklets: duplex on the short edge. Blank pages are added at the end.	小册子：沿短边双面打印。空白页将添加到末尾。
+	Default document zoom:	默认文档缩放：
+	File not found	找不到文件
+	Next sheet	下一张
+	No Scaling	不缩放
+	Override zoom saved in documents	覆盖文档中保存的缩放比例
+	Pages per sheet	每张纸的页数
+	Previous sheet	上一张
+	Scale to paper size	缩放至纸张大小
+	Sheet {page} of {pages}	第 {page} 张，共 {pages} 张
+	Text Width	文字宽度
+	Use document zoom	使用文档的缩放比例
