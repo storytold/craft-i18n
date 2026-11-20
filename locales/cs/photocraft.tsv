@@ -842,6 +842,7 @@ cameraRaw	Darks	Tmavé tóny
 	Data Sets…	Datové sady…
 cameraData	Date Taken	Datum pořízení
 	Day For Night	Americká noc
+	DDS Import	Import DDS
 	DDS Options	Možnosti DDS
 	De-Interlace…	Odstranit prokládání…
 	Decontaminate	Dekontaminovat
@@ -1245,6 +1246,7 @@ layers	Fill:	Krytí výplně:
 	Flip	Převrátit
 	Flip Canvas Horizontal	Převrátit plátno vodorovně
 	Flip Canvas Vertical	Převrátit plátno svisle
+	Flip vertically	Převrátit svisle
 	Flip X	Převrátit X
 	Flip X Jitter	Kolísání převrácení X
 	Flip Y	Převrátit Y
@@ -1739,6 +1741,7 @@ cameraRaw	Lights	Světlé tóny
 	Load settings from a Camera Raw .xmp file	Načíst nastavení ze souboru Camera Raw .xmp
 	Load Settings…	Načíst nastavení…
 	Load the brush after each stroke	Naplnit štětec po každém tahu
+	Load transparency as alpha channel	Načíst průhlednost jako alfa kanál
 	Loaded contours from {file}	Obrysy načteny ze souboru {file}
 	Loaded RAW Develop settings from {file}	Nastavení Vyvolání RAW načteno ze souboru {file}
 	Loaded RAW Develop settings from {file} ({n} not supported)	Nastavení Vyvolání RAW načteno ze souboru {file} (nepodporováno: {n})
@@ -1879,6 +1882,7 @@ fontWeight	Medium	Střední
 	Minimum Diameter	Minimální průměr
 	Minimum Roundness	Minimální kulatost
 	Minimum…	Minimum…
+	Mipmaps as separate layers	Mipmapy jako samostatné vrstvy
 	Missing delete command	Chybí příkaz ke smazání
 	Missing glyph protection	Ochrana proti chybějícím glyfům
 	Miter	Ostrý
@@ -2071,10 +2075,12 @@ layerLabel	No Color	Žádná barva
 	Open As	Otevřít jako
 	Open as smart object	Otevřít jako chytrý objekt
 	Open As…	Otevřít jako…
+	Open cancelled	Otevření zrušeno
 	Open color-less EXR as ACEScg	Otevřít EXR bez údaje o barevném prostoru jako ACEScg
 	Open documents as tabs	Otevírat dokumenty jako záložky
 	Open Document…	Otevřít…
 	Open EXR Parts…	Otevřít části EXR…
+	Open failed: {error}	Otevření selhalo: {error}
 	Open File	Otevřít soubor
 	Open Folder	Otevřít složku
 	Open paths use centered strokes	Otevřené cesty používají vystředěné tahy
@@ -3372,6 +3378,7 @@ navigator	Zoom	Zvětšení
 	{message} ({note})	{message} ({note})
 	{mode} Color · {bits} bit	Barva {mode} · {bits} bitů
 	{name} (Photoshop)	{name} (Photoshop)
+	{name} ({width} × {height})	{name} ({width} × {height})
 	{name} can't keep everything in this document	{name} nedokáže uchovat vše z tohoto dokumentu
 	{name} options	Možnosti – {name}
 	{name} Properties	Vlastnosti – {name}
@@ -3382,6 +3389,7 @@ navigator	Zoom	Zvětšení
 @plural	{n} file could not be loaded: {errors}|{n} files could not be loaded: {errors}	{n} soubor nelze načíst: {errors}|{n} soubory nelze načíst: {errors}|{n} souborů nelze načíst: {errors}
 @plural	{n} layer recorded by this comp was deleted. Update the comp, or clear the warning.|{n} layers recorded by this comp were deleted. Update the comp, or clear the warning.	{n} vrstva zaznamenaná v této kompozici byla odstraněna. Aktualizujte kompozici nebo zrušte upozornění.|{n} vrstvy zaznamenané v této kompozici byly odstraněny. Aktualizujte kompozici nebo zrušte upozornění.|{n} vrstev zaznamenaných v této kompozici bylo odstraněno. Aktualizujte kompozici nebo zrušte upozornění.
 @plural	{n} layer|{n} layers	{n} vrstva|{n} vrstvy|{n} vrstev
+@plural	{n} mip level|{n} mip levels	{n} mip úroveň|{n} mip úrovně|{n} mip úrovní
 	{n} of {max} sample points	{n} z {max} bodů měření
 @plural	{n} plane|{n} planes	{n} rovina|{n} roviny|{n} rovin
 @plural	{n} preset|{n} presets	{n} přednastavení|{n} přednastavení|{n} přednastavení
