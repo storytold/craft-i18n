@@ -2700,3 +2700,13 @@ calendar weekday	We	বু
 	This document's script is asking	এই নথির স্ক্রিপ্ট জানতে চাইছে
 	Document: {name}	নথি: {name}
 	This request comes from the document, not PdfCraft. Only enter a password if you trust this document.	এই অনুরোধটি নথি থেকে এসেছে, PdfCraft থেকে নয়। এই নথিকে বিশ্বাস করলে তবেই পাসওয়ার্ড লিখুন।
+# Manual two-sided printing (pdfcraft#7084)
+	Manual two-sided	হাতে দুই পিঠে
+	Second side in reverse order	দ্বিতীয় পিঠ উল্টো ক্রমে
+	Usually needed when the printed sheets go back in printed side up without being turned over, as on most printers with a front tray. Leave it off if you turn the stack over.	সাধারণত দরকার হয় যখন মুদ্রিত শিটগুলো না উল্টিয়ে মুদ্রিত পিঠ উপরে রেখে আবার ঢোকানো হয়, যেমন সামনের ট্রে-যুক্ত বেশিরভাগ প্রিন্টারে। স্তূপটি উল্টালে এটি বন্ধ রাখুন।
+	Print the second side	দ্বিতীয় পিঠ মুদ্রণ করুন
+	When the first side has finished printing, take the printed sheets out without changing their order. Put them back in the paper tray so the printer prints on the blank side, with the top of the pages going in first. On most printers with a front tray, that means printed side up. Then choose Continue. If the backs land on the wrong sheets, change "Second side in reverse order" and print again.	প্রথম পিঠের মুদ্রণ শেষ হলে, মুদ্রিত শিটগুলোর ক্রম না বদলে সেগুলো বের করুন। সেগুলো কাগজের ট্রেতে আবার এমনভাবে রাখুন যাতে প্রিন্টার ফাঁকা পিঠে মুদ্রণ করে এবং পৃষ্ঠার উপরের দিক আগে ঢোকে। সামনের ট্রে-যুক্ত বেশিরভাগ প্রিন্টারে এর মানে মুদ্রিত পিঠ উপরে। তারপর “এগিয়ে যান” বেছে নিন। পেছনের পিঠ ভুল শিটে পড়লে, “দ্বিতীয় পিঠ উল্টো ক্রমে” বদলে আবার মুদ্রণ করুন।
+	Waiting for the first side to reach the printer…	প্রথম পিঠ প্রিন্টারে পৌঁছানোর অপেক্ষায়…
+	Wait until the second side of the last two-sided print has reached the printer, then print again.	শেষ দুই পিঠের মুদ্রণের দ্বিতীয় পিঠ প্রিন্টারে না পৌঁছানো পর্যন্ত অপেক্ষা করুন, তারপর আবার মুদ্রণ করুন।
+	The second side stopped partway: {error}. Part of it may have printed, so check the stack and print the rest again.	দ্বিতীয় পিঠ মাঝপথে থেমে গেছে: {error}। এর কিছু অংশ হয়তো মুদ্রিত হয়েছে, তাই স্তূপটি দেখে নিয়ে বাকিটা আবার মুদ্রণ করুন।
+	Cut and stack needs single-sided sheets. Turn off Manual two-sided.	কাটুন ও স্তূপ করুন-এর জন্য এক পিঠে মুদ্রিত শিট লাগে। “হাতে দুই পিঠে” বন্ধ করুন।

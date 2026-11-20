@@ -3683,3 +3683,13 @@ document scrollbar width	Wide	Широка
 	This document's script is asking	Скрипт цього документа запитує
 	Document: {name}	Документ: {name}
 	This request comes from the document, not PdfCraft. Only enter a password if you trust this document.	Цей запит надходить від документа, а не від PdfCraft. Вводьте пароль, лише якщо довіряєте цьому документу.
+# Manual two-sided printing (pdfcraft#7084)
+	Manual two-sided	Ручний двобічний друк
+	Second side in reverse order	Друга сторона у зворотному порядку
+	Usually needed when the printed sheets go back in printed side up without being turned over, as on most printers with a front tray. Leave it off if you turn the stack over.	Зазвичай потрібно, коли надруковані аркуші кладуть назад надрукованим боком догори, не перевертаючи, як у більшості принтерів із переднім лотком. Залиште вимкненим, якщо ви перевертаєте стос.
+	Print the second side	Друк другої сторони
+	When the first side has finished printing, take the printed sheets out without changing their order. Put them back in the paper tray so the printer prints on the blank side, with the top of the pages going in first. On most printers with a front tray, that means printed side up. Then choose Continue. If the backs land on the wrong sheets, change "Second side in reverse order" and print again.	Коли друк першої сторони завершиться, вийміть надруковані аркуші, не змінюючи їхнього порядку. Покладіть їх назад у лоток для паперу так, щоб принтер друкував на чистому боці, верхнім краєм сторінок уперед. У більшості принтерів із переднім лотком це означає надрукованим боком догори. Потім виберіть «Продовжити». Якщо звороти потрапляють не на ті аркуші, змініть «Друга сторона у зворотному порядку» і надрукуйте знову.
+	Waiting for the first side to reach the printer…	Очікування, доки перша сторона надійде на принтер…
+	Wait until the second side of the last two-sided print has reached the printer, then print again.	Зачекайте, доки друга сторона останнього двобічного друку надійде на принтер, потім надрукуйте знову.
+	The second side stopped partway: {error}. Part of it may have printed, so check the stack and print the rest again.	Друк другої сторони зупинився посередині: {error}. Частину могло бути надруковано, тож перевірте стос і надрукуйте решту знову.
+	Cut and stack needs single-sided sheets. Turn off Manual two-sided.	Для різання й укладання потрібні односторонні аркуші. Вимкніть ручний двобічний друк.

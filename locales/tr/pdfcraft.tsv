@@ -3926,3 +3926,13 @@ document scrollbar width	Wide	Geniş
 	This document's script is asking	Bu belgenin betiği soruyor
 	Document: {name}	Belge: {name}
 	This request comes from the document, not PdfCraft. Only enter a password if you trust this document.	Bu istek PdfCraft'tan değil, belgeden geliyor. Yalnızca bu belgeye güveniyorsanız parola girin.
+# Manual two-sided printing (pdfcraft#7084)
+	Manual two-sided	Elle çift taraflı
+	Second side in reverse order	İkinci taraf ters sırada
+	Usually needed when the printed sheets go back in printed side up without being turned over, as on most printers with a front tray. Leave it off if you turn the stack over.	Genellikle, basılı sayfalar ters çevrilmeden basılı yüzü yukarı bakacak şekilde geri konduğunda gerekir; önden tepsili çoğu yazıcıda olduğu gibi. Desteyi ters çeviriyorsanız kapalı bırakın.
+	Print the second side	İkinci tarafı yazdır
+	When the first side has finished printing, take the printed sheets out without changing their order. Put them back in the paper tray so the printer prints on the blank side, with the top of the pages going in first. On most printers with a front tray, that means printed side up. Then choose Continue. If the backs land on the wrong sheets, change "Second side in reverse order" and print again.	İlk tarafın yazdırılması bittiğinde basılı sayfaları sıralarını değiştirmeden çıkarın. Yazıcının boş tarafa yazdırması için bunları, sayfaların üst kenarı önce girecek şekilde kağıt tepsisine geri koyun. Önden tepsili çoğu yazıcıda bu, basılı yüz yukarı demektir. Ardından “Devam Et” seçeneğini seçin. Arka yüzler yanlış sayfalara denk gelirse “İkinci taraf ters sırada” ayarını değiştirip yeniden yazdırın.
+	Waiting for the first side to reach the printer…	İlk tarafın yazıcıya ulaşması bekleniyor…
+	Wait until the second side of the last two-sided print has reached the printer, then print again.	Son çift taraflı yazdırmanın ikinci tarafı yazıcıya ulaşana kadar bekleyin, ardından yeniden yazdırın.
+	The second side stopped partway: {error}. Part of it may have printed, so check the stack and print the rest again.	İkinci taraf yarıda kaldı: {error}. Bir kısmı yazdırılmış olabilir; desteyi kontrol edip kalanını yeniden yazdırın.
+	Cut and stack needs single-sided sheets. Turn off Manual two-sided.	Kes ve istifle tek taraflı sayfalar gerektirir. Elle çift taraflı seçeneğini kapatın.

@@ -3435,3 +3435,13 @@ calendar weekday	We	수
 	This document's script is asking	이 문서의 스크립트가 묻고 있습니다
 	Document: {name}	문서: {name}
 	This request comes from the document, not PdfCraft. Only enter a password if you trust this document.	이 요청은 PdfCraft가 아니라 문서에서 온 것입니다. 이 문서를 신뢰하는 경우에만 암호를 입력하세요.
+# Manual two-sided printing (pdfcraft#7084)
+	Manual two-sided	수동 양면 인쇄
+	Second side in reverse order	두 번째 면을 역순으로
+	Usually needed when the printed sheets go back in printed side up without being turned over, as on most printers with a front tray. Leave it off if you turn the stack over.	대부분의 전면 용지함 프린터처럼, 인쇄된 용지를 뒤집지 않고 인쇄면이 위를 향하게 다시 넣을 때 보통 필요합니다. 용지 묶음을 뒤집어 넣는다면 끄세요.
+	Print the second side	두 번째 면 인쇄
+	When the first side has finished printing, take the printed sheets out without changing their order. Put them back in the paper tray so the printer prints on the blank side, with the top of the pages going in first. On most printers with a front tray, that means printed side up. Then choose Continue. If the backs land on the wrong sheets, change "Second side in reverse order" and print again.	첫 번째 면 인쇄가 끝나면 인쇄된 용지를 순서를 바꾸지 말고 꺼내세요. 프린터가 빈 면에 인쇄하도록 용지함에 다시 넣되, 페이지 위쪽이 먼저 들어가게 하세요. 전면 용지함이 있는 대부분의 프린터에서는 인쇄면이 위를 향하게 넣으면 됩니다. 그런 다음 “계속”을 선택하세요. 뒷면이 다른 용지에 인쇄되면 “두 번째 면을 역순으로”를 변경한 후 다시 인쇄하세요.
+	Waiting for the first side to reach the printer…	첫 번째 면이 프린터에 전달되기를 기다리는 중…
+	Wait until the second side of the last two-sided print has reached the printer, then print again.	마지막 양면 인쇄의 두 번째 면이 프린터에 전달될 때까지 기다린 후 다시 인쇄하세요.
+	The second side stopped partway: {error}. Part of it may have printed, so check the stack and print the rest again.	두 번째 면 인쇄가 도중에 중단되었습니다: {error}. 일부가 인쇄되었을 수 있으니 용지 묶음을 확인하고 나머지를 다시 인쇄하세요.
+	Cut and stack needs single-sided sheets. Turn off Manual two-sided.	재단 및 쌓기에는 단면 용지가 필요합니다. “수동 양면 인쇄”를 끄세요.

@@ -3478,3 +3478,13 @@ document scrollbar width	Wide	వెడల్పు
 	This document's script is asking	ఈ పత్రం యొక్క స్క్రిప్ట్ అడుగుతోంది
 	Document: {name}	పత్రం: {name}
 	This request comes from the document, not PdfCraft. Only enter a password if you trust this document.	ఈ అభ్యర్థన PdfCraft నుండి కాదు, పత్రం నుండి వస్తోంది. ఈ పత్రాన్ని మీరు నమ్మితేనే పాస్‌వర్డ్ నమోదు చేయండి.
+# Manual two-sided printing (pdfcraft#7084)
+	Manual two-sided	మాన్యువల్ రెండు వైపులా ముద్రణ
+	Second side in reverse order	రెండో వైపు తిరగబడిన క్రమంలో
+	Usually needed when the printed sheets go back in printed side up without being turned over, as on most printers with a front tray. Leave it off if you turn the stack over.	ముద్రించిన షీట్లను తిప్పకుండా, ముద్రించిన వైపు పైకి ఉండేలా తిరిగి పెట్టినప్పుడు సాధారణంగా అవసరం, ముందు ట్రే ఉన్న చాలా ప్రింటర్లలో లాగా. మీరు కట్టను తిప్పి పెడితే దీన్ని ఆఫ్‌లోనే ఉంచండి.
+	Print the second side	రెండో వైపు ముద్రించు
+	When the first side has finished printing, take the printed sheets out without changing their order. Put them back in the paper tray so the printer prints on the blank side, with the top of the pages going in first. On most printers with a front tray, that means printed side up. Then choose Continue. If the backs land on the wrong sheets, change "Second side in reverse order" and print again.	మొదటి వైపు ముద్రణ పూర్తయ్యాక, ముద్రించిన షీట్లను వాటి క్రమం మార్చకుండా బయటకు తీయండి. ప్రింటర్ ఖాళీ వైపున ముద్రించేలా, పేజీల పై భాగం ముందుగా లోపలికి వెళ్లేలా వాటిని కాగితం ట్రేలో తిరిగి పెట్టండి. ముందు ట్రే ఉన్న చాలా ప్రింటర్లలో అంటే ముద్రించిన వైపు పైకి. తర్వాత కొనసాగించు ఎంచుకోండి. వెనుక వైపులు తప్పు షీట్లపై పడితే, “రెండో వైపు తిరగబడిన క్రమంలో” మార్చి మళ్లీ ముద్రించండి.
+	Waiting for the first side to reach the printer…	మొదటి వైపు ప్రింటర్‌ను చేరే వరకు వేచి ఉంది…
+	Wait until the second side of the last two-sided print has reached the printer, then print again.	చివరి రెండు వైపుల ముద్రణలోని రెండో వైపు ప్రింటర్‌ను చేరే వరకు వేచి ఉండి, తర్వాత మళ్లీ ముద్రించండి.
+	The second side stopped partway: {error}. Part of it may have printed, so check the stack and print the rest again.	రెండో వైపు మధ్యలో ఆగిపోయింది: {error}. దానిలో కొంత భాగం ముద్రించబడి ఉండవచ్చు, కాబట్టి కట్టను తనిఖీ చేసి మిగిలినది మళ్లీ ముద్రించండి.
+	Cut and stack needs single-sided sheets. Turn off Manual two-sided.	కత్తిరించి పేర్చడానికి ఒక వైపు షీట్లు అవసరం. మాన్యువల్ రెండు వైపులా ముద్రణను ఆఫ్ చేయండి.
