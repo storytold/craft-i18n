@@ -378,3 +378,9 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+## WordCraft: Hebrew dictionary and update/download notices (2026-11-21)
+
+9 original Hebrew WordCraft translations by @nocturney, with AI assistance (ChatGPT).
+Written independently from the English source text; placeholders and escaped newlines checked.
+No independent native-speaker or live RTL UI review is claimed.
