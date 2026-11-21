@@ -378,3 +378,10 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+## PhotoCraft: Japanese rasterize prompts
+
+@haranishi with OpenAI Codex added four Japanese translations for the rasterize prompts
+for type, shape, Smart Object and fill layers (storytold/photocraft#15695). The translations
+follow the plain meaning of PhotoCraft's English prompts and use the catalog's existing terms.
+No native-speaker review has been recorded.
