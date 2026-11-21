@@ -21,6 +21,7 @@
 	 · password-protected	 · protegit amb contrasenya
 	% of all commits	% de totes les contribucions
 	(none)	(cap)
+	+ Dictionary	+ Diccionari
 	+ Page {p}	+ Pàgina {p}
 	+Bin	+Bin
 	+LOC	+LOC
@@ -31,25 +32,30 @@
 	1 file needs attention	1 fitxer requereix atenció
 	1 instance	1 coincidència
 	1 issue	1 problema
+	1 line	1 línia
 	1 mark	1 marca
 	1 page	1 pàgina
 	1 page selected	1 pàgina seleccionada
 	1 page selected.	1 pàgina seleccionada.
-	1 page was scanned.	1 page was scanned.
+	1 page was scanned.	S'ha escanejat 1 pàgina.
 	180 degrees	180 graus
+	3D model	Model 3D
 	4 x 6 in label (101.6 x 152.4 mm)	Etiqueta de 4 x 6 polz. (101,6 x 152,4 mm)
 	9 digit, A letter, O letter or digit, X any character	9 dígit, A lletra, O lletra o dígit, X qualsevol caràcter
 	; 1 page already had text	; 1 pàgina ja tenia text
 	; 1 page skipped	; s'ha omès 1 pàgina
+	; cancelled — {n} files were not run	; cancel·lat — {n} fitxers no s'han processat
 	; corrected {n} pages	; s'han corregit {n} pàgines
 	; failed: {list}	; ha fallat: {list}
 	; skipped: {n}	; omesos: {n}
+	; {n} files already had text	; {n} fitxers ja tenien text
 	; {n} pages already had text	; {n} pàgines ja tenien text
 	; {n} pages skipped	; s'han omès {n} pàgines
 	? of {n}	? de {n}
 	@{login}: {prs} PRs, {commits} commits, +{added} / −{deleted} lines (Δ {delta}), +{bin_added} / −{bin_deleted} binary assets, {first} – {last}	@{login}: {prs} PR, {commits} contribucions, +{added} / −{deleted} línies (Δ {delta}), +{bin_added} / −{bin_deleted} recursos binaris, {first} – {last}
 	[Custom]	[Personalitzat]
 	`{command}` {when}	`{command}` {when}
+	A 3×3 median filter against scan speckle	Un filtre de mediana de 3×3 contra les taques de l'escaneig
 	A bitmap image is drawn at {} ppi	Una imatge de mapa de bits es dibuixa a {} ppp
 	a bookmark cannot be moved inside itself	un marcador no es pot moure dins d'ell mateix
 	A button	Un botó
@@ -62,12 +68,13 @@
 	a column is too narrow: make the area wider, give the column more of it, or use fewer columns or less column spacing	una columna és massa estreta: fes l'àrea més ampla, dona-li més part a la columna o fes servir menys columnes o menys espai entre columnes
 	A content stream can't be read, so its colour can't be converted	No es pot llegir un flux de contingut, de manera que no se'n pot convertir el color
 	A content stream is drawn with different resources in different places, so its colour can't be converted	Un flux de contingut es dibuixa amb recursos diferents en llocs diferents, de manera que no se'n pot convertir el color
-	A cover on the scanner is open.	A cover on the scanner is open.
+	A cover on the scanner is open.	Hi ha una tapa de l'escàner oberta.
 	A diagonal CONFIDENTIAL watermark on every page.	Una marca d'aigua diagonal CONFIDENCIAL a cada pàgina.
 	a document must keep at least one page	un document ha de conservar almenys una pàgina
 	A document needs at least one page: copy instead	Un document necessita almenys una pàgina: copia-la en lloc de retallar-la
 	A document timestamp covers the whole file and is no one's signature, so it can't be removed on its own.	Una marca de temps del document cobreix tot el fitxer i no és la signatura de ningú, de manera que no es pot eliminar tota sola.
 	a field named {name} already exists	ja existeix un camp anomenat {name}
+	A folder is asked for when a multiple-file run starts	Es demana una carpeta quan comença un procés amb diversos fitxers
 	A font isn't embedded	Un tipus de lletra no està incrustat
 	A form field has additional actions	Un camp de formulari té accions addicionals
 	A form XObject is a transparency group	Un XObject de formulari és un grup de transparència
@@ -82,10 +89,10 @@
 	A line has width 0, the thinnest the printer can draw	Una línia té amplada 0, la més fina que pot dibuixar la impressora
 	A line is {} pt wide	Una línia fa {} pt d'amplada
 	A link	Un enllaç
-	A link or special file, which isn't followed	A link or special file, which isn't followed
+	A link or special file, which isn't followed	Un enllaç o fitxer especial, que no se segueix
 	A logo or name at the left of the tabs, where a title bar would show one: PdfCraft's own, or your company's.	Un logotip o un nom a l'esquerra de les pestanyes, on una barra de títol en mostraria un: el de PdfCraft o el de la teva empresa.
 	A mesh shading's colours change too sharply between its corners to convert to CMYK exactly	Els colors d'un ombrejat de malla canvien massa bruscament entre els vèrtexs per convertir-los a CMYK amb exactitud
-	A page count stops the feeder after that many sheets. Cancel ends the transfer early; pages already received stay in the document.	A page count stops the feeder after that many sheets. Cancel ends the transfer early; pages already received stay in the document.
+	A page count stops the feeder after that many sheets. Cancel ends the transfer early; pages already received stay in the document.	Un nombre de pàgines atura l'alimentador després d'aquesta quantitat de fulls. Cancel·la acaba la transferència abans d'hora; les pàgines ja rebudes es queden al document.
 	A pattern over RGB or device-independent colour can't be converted to CMYK yet	Encara no es pot convertir a CMYK un patró sobre color RGB o independent del dispositiu
 	A picture covers page {pages} (a scan?), so the background won't show there.	Una imatge cobreix la pàgina {pages} (un escaneig?), així que el fons no s'hi veurà.
 	A picture with a colour-key mask can't be converted to CMYK yet	Encara no es pot convertir a CMYK una imatge amb una màscara de color clau
@@ -96,6 +103,7 @@
 	A PNG or SVG file. It is read from this place each time PdfCraft starts.	Un fitxer PNG o SVG. Es llegeix des d'aquesta ubicació cada vegada que s'inicia PdfCraft.
 	A PrinterMark annotation overlaps the TrimBox or ArtBox	Una anotació PrinterMark se superposa a la TrimBox o l'ArtBox
 	A script	Un script
+	A script edited here can be at most 256 KiB long; that change wasn't made.	Un script editat aquí pot tenir com a màxim 256 KiB; aquest canvi no s'ha fet.
 	a second {} in its table	un segon {} a la seva taula
 	A selected field has no widget on any page, so the fields can't be edited together.	Un camp seleccionat no té cap giny a cap pàgina, de manera que els camps no es poden editar junts.
 	A setting isn't valid	Una opció no és vàlida
@@ -124,6 +132,9 @@
 	About {app}	Quant al {app}
 	about {h} h {m} min left	queden unes {h} h {m} min
 	about {n} min left	queden uns {n} min
+	Accept	Accepta
+	Accept entire page	Accepta tota la pàgina
+	Accept or reject the OCR review of the other document before running OCR here	Accepta o rebutja la revisió de l'OCR de l'altre document abans d'executar l'OCR aquí
 	Accepted	Acceptat
 	Accepted by {printer}	Acceptada per {printer}
 	Accessibility	Accessibilitat
@@ -162,6 +173,7 @@
 	Add a paper size of your own to the list	Afegeix una mida de paper pròpia a la llista
 	Add a radio button	Afegeix un botó d'opció
 	Add a reply	Afegeix una resposta
+	Add a second engine's reading when the first is unsure	Afegeix la lectura d'un segon motor quan el primer no n'està segur
 	Add a stamp	Afegeix un segell
 	Add a sticky note	Afegeix una nota adhesiva
 	Add a sticky note here	Afegeix aquí una nota adhesiva
@@ -237,6 +249,7 @@
 	Add to dictionary	Afegeix al diccionari
 	Add to Trusted Certificates	Afegeix als certificats de confiança
 	Add to trusted certificates	Afegeix als certificats de confiança
+	Add Tools to Hotbar	Afegeix eines a la barra d'accés ràpid
 	Add underline	Afegeix un subratllat
 	Add watermark	Afegeix una marca d'aigua
 	Add watermark…	Afegeix una marca d'aigua…
@@ -255,7 +268,7 @@
 	Advanced options	Opcions avançades
 	Advanced Options {chevron}	Opcions avançades {chevron}
 	Advanced search…	Cerca avançada…
-	Advanced…	Advanced…
+	Advanced…	Avançat…
 	AI Assistant	Assistent d’IA
 	AI assistant	Assistent d'IA
 	Algorithm	Algorisme
@@ -264,7 +277,7 @@
 	Align left	Alinea a l'esquerra
 	Align objects	Alinea els objectes
 	Align right	Alinea a la dreta
-	Alignment	Alignment
+	Alignment	Alineació
 	Alignment:	Alineació:
 	All	Totes
 	All annotations are tagged	Totes les anotacions estan etiquetades
@@ -278,7 +291,7 @@
 	All open documents	Tots els documents oberts
 	All page content is tagged	Tot el contingut de la pàgina està etiquetat
 	All pages	Totes les pàgines
-	All pages asks the driver for the whole stack.	All pages asks the driver for the whole stack.
+	All pages asks the driver for the whole stack.	Totes les pàgines demana al controlador tota la pila.
 	All pages in document	Totes les pàgines del document
 	All pages in range	Totes les pàgines de l'interval
 	All permissions	Tots els permisos
@@ -302,7 +315,8 @@
 	Alternate text should not hide annotation	El text alternatiu no hauria d'amagar l'anotació
 	Alternate text that will never be read	Text alternatiu que mai es llegirà
 	Always	Sempre
-	Always use my default zoom and page layout	Always use my default zoom and page layout
+	Always read with both engines and merge the words	Llegeix sempre amb tots dos motors i combina les paraules
+	Always use my default zoom and page layout	Fes servir sempre el meu zoom i la meva disposició de pàgina per defecte
 	An action is already running	Ja hi ha una acció en execució
 	An action with this name already exists.	Ja existeix una acció amb aquest nom.
 	an Aruba account needs its domain (the "dominio" Aruba gives with the account): enter it	un compte d'Aruba necessita el seu domini (el "dominio" que Aruba dona amb el compte): introdueix-lo
@@ -386,9 +400,11 @@ calendar date	August	Agost
 	Auto ({percent}%)	Automàtica ({percent} %)
 	Auto follows the system's text size. Pages always render at the display's full resolution.	L'opció automàtica segueix la mida del text del sistema. Les pàgines sempre es renderitzen a la resolució completa de la pantalla.
 	Auto portrait/landscape	Vertical/horitzontal automàtic
-	Auto-deskew	Auto-deskew
+	Auto-deskew	Redreçament automàtic
+	Auto-rotate	Gir automàtic
 	Auto-rotate pages	Gira les pàgines automàticament
 	Auto-size text to fit redaction region	Ajusta automàticament la mida del text a la regió censurada
+	Automatic	Automàtic
 	Automatic (historical model)	Automàtic (model històric)
 	Automatic AcroForm scripts are disabled until safe execution isolation is available; saved field values were preserved. Explicit button and console scripts are still available.	Els scripts automàtics d'AcroForm estan desactivats fins que hi hagi un aïllament d'execució segur; els valors desats dels camps s'han conservat. Els scripts dels botons i de la consola segueixen disponibles.
 	Automatically	Automàticament
@@ -396,24 +412,27 @@ calendar date	August	Agost
 	Automatically tag PDF	Etiqueta el PDF automàticament
 	Available	Disponible
 	average	mitjana
+	AVG CONFIDENCE	CONFIANÇA MITJANA
 	Back	Enrere
 	Back side only	Només la cara posterior
 	Back to all tools	Torna a totes les eines
-	Back to Prepare a form	Back to Prepare a form
+	Back to Prepare a form	Torna a Prepara un formulari
 	Back to the default keys	Torna a les tecles per defecte
 	Back to the document	Torna al document
 	Background	Fons
 	background	fons
+	Background removal	Eliminació del fons
 	Basic constraints	Restriccions bàsiques
 certificate	Basic constraints	Restriccions bàsiques
 	Bates numbering	Numeració Bates
-	Bed	Bed
+	Bed	Vidre
 	Before each selected page (select pages in Organize)	Abans de cada pàgina seleccionada (selecciona pàgines a Organitza)
 	Before the number	Abans del número
 	Behind text and images	Darrere del text i les imatges
 	Between paragraphs: press Enter in the box to start one	Entre paràgrafs: prem Retorn dins del quadre per començar-ne un
 	Beveled	Bisellat
 	Bicubic downsampling to	Reducció bicúbica de resolució a
+	Binarize	Binaritza
 	Binary assets added	Recursos binaris afegits
 	Binary assets removed	Recursos binaris eliminats
 	Binding	Enquadernació
@@ -421,12 +440,14 @@ certificate	Basic constraints	Restriccions bàsiques
 	Bitmap images	Imatges de mapa de bits
 	Black	Negre
 	Black and white	Blanc i negre
+	Black and white (binarize)	Blanc i negre (binaritza)
 	Black on white	Negre sobre blanc
 	Blank page	Pàgina en blanc
 	Bleed	Sang
 	Bleed marks	Marques de sang
 	Blend with page content	Barreja amb el contingut de la pàgina
 	Blue	Blau
+	bold	negreta
 	Bold	Negreta
 	Booklet	Quadern
 	Booklet subset:	Subconjunt del quadern:
@@ -442,39 +463,44 @@ certificate	Basic constraints	Restriccions bàsiques
 	Border:	Vora:
 	Borders and Colors	Vores i colors
 	Both	Ambdues
+	Both engines, combined as the Strategy says	Tots dos motors, combinats segons indica Estratègia
 	Both sides	Les dues cares
 	Bottom	Inferior
 	Bottom left	A baix a l'esquerra
 	Bottom right	A baix a la dreta
 	Bottom:	Inferior:
 	Box	Quadre
-	Brightness	Brightness
+	Brightness	Brillantor
 	Bring All to Front	Porta-ho tot al davant
 	Bring forward	Avança un nivell
 	Bring to front	Porta al davant
 	Bring your own model (off by default)	Porta el teu propi model (desactivat per defecte)
 	Browser's print dialog	Diàleg d'impressió del navegador
 	Browse…	Navega…
-	Bulleted list	Bulleted list
+	Built-in	Integrat
+	Bulleted list	Llista de pics
 	Butt	Pla
 	Button	Botó
 	Button is checked by default	El botó està marcat per defecte
 	Button Properties	Propietats del botó
 	Button Style:	Estil del botó:
 	Buttons with the same name and value are selected in unison	Els botons amb el mateix nom i valor se seleccionen alhora
+	by	per
 	By the standard device formulas; profiles are not applied.	Segons les fórmules estàndard del dispositiu; no s'apliquen perfils.
 	Bytes	Bytes
 	Calculate	Calcula
-	Calculation order	Calculation order
+	Calculation order	Ordre de càlcul
 	Calibrate from two points	Calibra a partir de dos punts
 	Callout	Crida
 	Can't be read: {e}	No es pot llegir: {e}
 	Can't save as {level}; nothing was changed:	No es pot desar com a {level}; no s'ha canviat res:
 	Cancel	Cancel·la
 	Cancel drawing	Cancel·la el dibuix
-	Cancel reverse sides	Cancel reverse sides
+	Cancel re-read	Cancel·la la relectura
+	Cancel reverse sides	Cancel·la els reversos
 	Canceling…	Cancel·lant…
 	Cancelled	Cancel·lat
+	Cancelled — {n} words were read on {m} of {t} pages; the rest were not read	Cancel·lat — s'han llegit {n} paraules en {m} de {t} pàgines; la resta no s'ha llegit
 	Cancelling…	Cancel·lant…
 	Card driver (PKCS #11)	Controlador de la targeta (PKCS #11)
 	Card PIN	PIN de la targeta
@@ -543,16 +569,17 @@ certificate	Basic constraints	Restriccions bàsiques
 	Check for accessibility	Comprova l'accessibilitat
 	Check for accessibility…	Comprova l'accessibilitat…
 	Check for updates	Cerca actualitzacions
+	Check for updates when PdfCraft starts	Cerca actualitzacions en iniciar PdfCraft
 	Check for updates…	Cerca actualitzacions…
 	Check spelling	Revisa l'ortografia
 	Check spelling while typing	Comprova l’ortografia mentre escric
-	Check that the feeder has paper, or wait for the scanner to finish, then choose Continue.	Check that the feeder has paper, or wait for the scanner to finish, then choose Continue.
-	Check that the feeder has paper, or wait for the scanner to finish, then choose Try again.	Check that the feeder has paper, or wait for the scanner to finish, then choose Try again.
+	Check that the feeder has paper, or wait for the scanner to finish, then choose Continue.	Comprova que l'alimentador té paper, o espera que l'escàner acabi, i després tria Continua.
+	Check that the feeder has paper, or wait for the scanner to finish, then choose Try again.	Comprova que l'alimentador té paper, o espera que l'escàner acabi, i després tria Torna-ho a provar.
 	Check that the tags read in the order a sighted reader would. Use the Reading Order tool or the Tags panel to correct it.	Comprova que les etiquetes es llegeixin en l'ordre en què ho faria un lector amb visió. Utilitza l'eina d'ordre de lectura o el tauler d'etiquetes per corregir-lo.
 	Check the pages	Revisa les pàgines
 	Check the pages of {name}: {why}	Comprova les pàgines de {name}: {why}
-	Check the scanner is on and connected, then choose Continue.	Check the scanner is on and connected, then choose Continue.
-	Check the scanner is on and connected, then choose Try again.	Check the scanner is on and connected, then choose Try again.
+	Check the scanner is on and connected, then choose Continue.	Comprova que l'escàner està encès i connectat, i després tria Continua.
+	Check the scanner is on and connected, then choose Try again.	Comprova que l'escàner està encès i connectat, i després tria Torna-ho a provar.
 	CheckBox	Casella de selecció
 	Checkbox	Casella de selecció
 	Checked	Marcat
@@ -560,7 +587,7 @@ certificate	Basic constraints	Restriccions bàsiques
 	Checking for a newer version…	S'està cercant una versió més recent…
 	Checking Options ({on} of 32 in all categories)	Opcions de comprovació ({on} de 32 en totes les categories)
 	Checking pages…	S'estan comprovant les pàgines…
-	Checking the scanner…	Checking the scanner…
+	Checking the scanner…	S'està comprovant l'escàner…
 	Checking the structure… {n} objects so far	S'està comprovant l'estructura… {n} objectes fins ara
 	Checkmark	Marca de verificació
 	Checks a file for CMYK printing: fonts, colour, image resolution, hairlines, transparency, page boxes, encryption, JavaScript, annotations, Trapped and the PDF version	Comprova un fitxer per a la impressió CMYK: tipus de lletra, color, resolució de les imatges, línies fines, transparència, caixes de pàgina, xifratge, JavaScript, anotacions, Trapped i la versió de PDF
@@ -598,6 +625,8 @@ certificate	Basic constraints	Restriccions bàsiques
 	Clause	Clàusula
 	Clean Up	Neteja
 	Clean-up	Neteja
+@plural	Cleaned up the scan on {n} page.|Cleaned up the scans on {n} pages.	S'ha netejat l'escaneig d'{n} pàgina.|S'han netejat els escanejats de {n} pàgines.
+	Cleans up the scanned pictures in place: recognized text, comments and links on the pages stay as they are.	Neteja les imatges escanejades al seu lloc: el text reconegut, els comentaris i els enllaços de les pàgines es queden tal com estan.
 	Clear	Esborra
 	Clear All	Esborra-ho tot
 	Clear all	Esborra-ho tot
@@ -605,11 +634,12 @@ certificate	Basic constraints	Restriccions bàsiques
 	Clear personal dictionary	Buida el diccionari personal
 	Clear Recent Files	Esborra els fitxers recents
 	Clear redaction marks	Esborra les marques de censura
-	Clear region	Clear region
+	Clear region	Esborra la regió
 	Clear search	Neteja la cerca
 	Clear selection / close find	Esborra la selecció / tanca la cerca
-	Clear the jam and load the remaining sheets squarely, then choose Continue.	Clear the jam and load the remaining sheets squarely, then choose Continue.
-	Clear the jam and load the sheets squarely, then choose Try again.	Clear the jam and load the sheets squarely, then choose Try again.
+	Clear the jam and load the remaining sheets squarely, then choose Continue.	Treu el paper encallat i carrega els fulls restants ben alineats, i després tria Continua.
+	Clear the jam and load the sheets squarely, then choose Try again.	Treu el paper encallat i carrega els fulls ben alineats, i després tria Torna-ho a provar.
+	Click a word to inspect it; drag a rectangle to re-read part of the page	Fes clic en una paraula per inspeccionar-la; arrossega un rectangle per tornar a llegir una part de la pàgina
 	Click on the page to add a {tool}, or drag to set its size	Fes clic a la pàgina per afegir-hi un element {tool}, o arrossega per definir-ne la mida
 	Click on the page to add text; each click starts a new box, and ✓ finishes. Drag items to move them, drag a corner to resize, double-click text to edit it.	Fes clic a la pàgina per afegir text; cada clic comença un quadre nou i ✓ finalitza. Arrossega els elements per moure'ls, arrossega una cantonada per canviar-ne la mida i fes doble clic al text per editar-lo.
 	Click text or an image to edit it	Fes clic en un text o una imatge per editar-lo
@@ -624,10 +654,11 @@ certificate	Basic constraints	Restriccions bàsiques
 	Close all	Tanca-ho tot
 	Close comment pop-up	Tanca la finestra emergent del comentari
 	Close file	Tanca el fitxer
+	Close menu	Tanca el menú
 	Close panel	Tanca el tauler
 	Close Tab	Tanca la pestanya
-	Close the feeder cover and check the paper, then choose Continue.	Close the feeder cover and check the paper, then choose Continue.
-	Close the feeder cover and check the paper, then choose Try again.	Close the feeder cover and check the paper, then choose Try again.
+	Close the feeder cover and check the paper, then choose Continue.	Tanca la tapa de l'alimentador i comprova el paper, i després tria Continua.
+	Close the feeder cover and check the paper, then choose Try again.	Tanca la tapa de l'alimentador i comprova el paper, i després tria Torna-ho a provar.
 	Close Window	Tanca la finestra
 	Close window	Tanca la finestra
 	Closed arrow	Fletxa tancada
@@ -645,7 +676,7 @@ certificate	Basic constraints	Restriccions bàsiques
 	Collate	Intercala
 	Color	Color
 	Color contrast	Contrast de color
-	Color document	Color document
+	Color document	Document en color
 	Color Images	Imatges en color
 	Color Spaces	Espais de color
 	Color:	Color:
@@ -659,9 +690,11 @@ certificate	Basic constraints	Restriccions bàsiques
 	Column widths	Amplades de les columnes
 	Column {n}	Columna {n}
 	Columns	Columnes
+	Columns and rows must each be 1 to 99.	Les columnes i les files han de ser entre 1 i 99.
 	Comb of	Pentinat de
 	Comb of characters	Pinta de caràcters
 	Combine	Combina
+	Combine engines	Combina els motors
 	Combine files	Combina fitxers
 	Combine files in PdfCraft…	Combina fitxers a PdfCraft…
 	Combine files…	Combina fitxers…
@@ -706,13 +739,15 @@ certificate	Basic constraints	Restriccions bàsiques
 	Compress a PDF	Comprimeix un PDF
 	Compress document structure (object streams)	Comprimeix l'estructura del document (fluxos d'objectes)
 	Compression	Compressió
+	CONFIDENCE	CONFIANÇA
+	Confidence weighted	Ponderat per la confiança
 	Configure a Digital ID for Signing	Configura un identificador digital per signar
 	Configure New Digital ID	Configura un identificador digital nou
 	Confirm Password	Confirma la contrasenya
 	Conformance level:	Nivell de conformitat:
-	Connected by USB.	Connected by USB.
+	Connected by USB.	Connectat per USB.
 	Connected lines	Línies connectades
-	Connected over the network (Web Services). Options come from that driver, not the USB one.	Connected over the network (Web Services). Options come from that driver, not the USB one.
+	Connected over the network (Web Services). Options come from that driver, not the USB one.	Connectat per la xarxa (Web Services). Les opcions venen d'aquest controlador, no del d'USB.
 	Console	Consola
 	Content copying	Còpia del contingut
 	Content copying for accessibility	Còpia del contingut per a l'accessibilitat
@@ -722,9 +757,9 @@ certificate	Basic constraints	Restriccions bàsiques
 	Content uses {} colour	El contingut fa servir color {}
 	Content uses {} colour, which doesn't match the output intent's colour space	El contingut fa servir color {}, que no coincideix amb l'espai de color del propòsit de sortida
 	Continue	Continua
-	Continue scanning	Continue scanning
-	Continue scanning fronts	Continue scanning fronts
-	Continue scanning reverse sides	Continue scanning reverse sides
+	Continue scanning	Continua escanejant
+	Continue scanning fronts	Continua escanejant anversos
+	Continue scanning reverse sides	Continua escanejant reversos
 	Continuous scrolling	Desplaçament continu
 	Contrast	Contrast
 	Contributors	Contribuïdors
@@ -736,7 +771,7 @@ certificate	Basic constraints	Restriccions bàsiques
 	Convert to	Converteix a
 	Convert to PDF and email…	Converteix a PDF i envia per correu…
 	Convert to PDF with PdfCraft	Converteix a PDF amb PdfCraft
-	Converted from an EPUB book.	Converted from an EPUB book.
+	Converted from an EPUB book.	Convertit d'un llibre EPUB.
 	Converted from an EPUB book. Details lists how it was laid out and what was left out.	Convertit d'un llibre EPUB. Els detalls expliquen com s'ha disposat i què s'ha deixat fora.
 	Converted to {level} ({n} changes)	Convertit a {level} ({n} canvis)
 	Converted {c} colours and {i} pictures on {p} pages	S'han convertit {c} colors i {i} imatges en {p} pàgines
@@ -762,18 +797,23 @@ certificate	Basic constraints	Restriccions bàsiques
 	Copy the pages with a match as a list such as 1-3, 7	Copia les pàgines amb coincidències com una llista, per exemple 1-3, 7
 	Copy to clipboard	Copia al porta-retalls
 	Correct recognized text	Corregeix el text reconegut
+	Correct recognized text…	Corregeix el text reconegut…
 	Correct scans	Corregeix els escanejats
+	corrected	corregida
 	Corrected scan	Escaneig corregit
+	Corrected text (Enter commits)	Text corregit (Retorn el confirma)
 	Could not save: {e}	No s'ha pogut desar: {e}
 	Couldn't add {name}: {e}	No s'ha pogut afegir {name}: {e}
 	Couldn't attach the file	No s'ha pogut adjuntar el fitxer
-	Couldn't be read: {reason}	Couldn't be read: {reason}
+	Couldn't be read: {reason}	No s'ha pogut llegir: {reason}
 	Couldn't check for updates: {e}	No s'han pogut cercar actualitzacions: {e}
 	Couldn't combine files: {e}	No s'han pogut combinar els fitxers: {e}
 	Couldn't copy the image: {e}	No s'ha pogut copiar la imatge: {e}
 	Couldn't create a PDF: {e}	No s'ha pogut crear un PDF: {e}
+	Couldn't download the text recognition models: {e}	No s'han pogut baixar els models de reconeixement de text: {e}
 	Couldn't download {name}: {e}	No s'ha pogut baixar {name}: {e}
 	Couldn't encrypt: {e}	No s'ha pogut xifrar: {e}
+	Couldn't enhance the scanned pages	No s'han pogut millorar les pàgines escanejades
 	Couldn't extract pages: {e}	No s'han pogut extreure les pàgines: {e}
 	Couldn't fit the visible content: {e}	No s'ha pogut ajustar el contingut visible: {e}
 	Couldn't follow linked PDF: {reason}	No s'ha pogut seguir el PDF enllaçat: {reason}
@@ -837,13 +877,14 @@ certificate	Basic constraints	Restriccions bàsiques
 	Created a PDF from the first {n} files	S'ha creat un PDF a partir dels primers {n} fitxers
 	Created a PDF from {n} files	S'ha creat un PDF a partir de {n} fitxers
 	Created a PDF from {n} files; left out: {names}	S'ha creat un PDF a partir de {n} fitxers; exclosos: {names}
-	Created Scan.pdf	Created Scan.pdf
+	Created Scan.pdf	S'ha creat Scan.pdf
 	Created {n} links	S'han creat {n} enllaços
-	Created {n} scanned files	Created {n} scanned files
+	Created {n} scanned files	S'han creat {n} fitxers escanejats
 	Creates 1 file from {n} pages.	Crea 1 fitxer a partir de {n} pàgines.
 	Creates {f} files from {n} pages.	Crea {f} fitxers a partir de {n} pàgines.
 	Creator	Creador
 	Credit Cards	Targetes de crèdit
+	Creep:	Desplaçament del plec:
 	CRL Signing	Signatura de CRL
 	Crop	Escapça
 	Crop (% trimmed from each side)	Escapça (% escapçat de cada costat)
@@ -860,8 +901,10 @@ key	Ctrl	Ctrl
 	Current page only	Només la pàgina actual
 	Current page — type a page number or label (such as iv) and press Enter	Pàgina actual — escriu un número o una etiqueta de pàgina (com ara iv) i prem Retorn
 	Custom	Personalitzat
+	Custom calculation script:	Script de càlcul personalitzat:
 	Custom font	Tipus de lletra personalitzat
 	Custom page…	Pàgina personalitzada…
+	Custom scale	Escala personalitzada
 	Custom scale:	Escala personalitzada:
 	Custom selection	Selecció personalitzada
 	Custom size	Mida personalitzada
@@ -936,15 +979,20 @@ key	Delete	Supr
 	Delete {o}	Suprimeix {o}
 	Deleted	Suprimit
 	Deleted page	Pàgina eliminada
+	Denoise	Redueix el soroll
 	Describe the figure	Descriu la figura
 	Description	Descripció
 	Description:	Descripció:
+	Deskew	Redreça
 	Deskew pages	Redreça les pàgines
+	Despeckle	Elimina les taques
 	Detailed Report	Informe detallat
 	Details	Detalls
 	Detect form fields	Detecta camps de formulari
 	Detected 1 form field	S'ha detectat 1 camp de formulari
 	Detected {n} form fields	S'han detectat {n} camps de formulari
+	Detecting paper…	S'està detectant el paper…
+	Detecting…	S'està detectant…
 	Device colour is used, but there is no PDF/A output intent	S'utilitza color de dispositiu, però no hi ha cap intenció de sortida PDF/A
 	Device library (PKCS #11)	Biblioteca del dispositiu (PKCS #11)
 	Device-independent colour is used, so the output intent needs an embedded profile	Es fa servir color independent del dispositiu, de manera que el propòsit de sortida necessita un perfil incrustat
@@ -974,6 +1022,8 @@ key	Delete	Supr
 	Discard document tags	Descarta les etiquetes del document
 	Discard embedded page thumbnails	Descarta les miniatures de pàgina incrustades
 	Discard embedded print settings	Descarta la configuració d'impressió incrustada
+	Discard embedded search index	Descarta l'índex de cerca incrustat
+	Discard external cross-references	Descarta les referències creuades externes
 	Discard hidden layer content	Descarta el contingut de capes ocultes
 	Discard hidden text	Descarta el text ocult
 	Discard Objects	Descarta objectes
@@ -992,6 +1042,8 @@ key	Delete	Supr
 	Distribute fields	Distribueix els camps
 	Distribute objects	Distribueix els objectes
 	DN: 	DN: 
+	Dock navigation rail on Left	Acobla la barra de navegació a l'esquerra
+	Dock navigation rail on Right	Acobla la barra de navegació a la dreta
 	Document	Document
 	Document actions	Accions del document
 	Document and markups	Document i marques
@@ -1032,15 +1084,17 @@ key	Delete	Supr
 	Downloaded {name}	S'ha baixat {name}
 @plural	Downloaded {n} PDF|Downloaded {n} PDFs	S'ha baixat {n} PDF|S'han baixat {n} PDF
 	Downloading attachments on the web arrives with M3.10 ({n} bytes ready)	La baixada d'adjunts a la web arriba amb M3.10 ({n} bytes preparats)
+	Downloading the text recognition models…	S'estan baixant els models de reconeixement de text…
 	Downsample to	Redueix la resolució a
 	DPI sets the printed page size without resampling the image.	Els DPI defineixen la mida de la pàgina impresa sense remostrejar la imatge.
 	Draft	Esborrany
-	Drag a field to move it, or select it and press {up} or {down}.	Drag a field to move it, or select it and press {up} or {down}.
+	Drag a field to move it, or select it and press {up} or {down}.	Arrossega un camp per moure'l, o selecciona'l i prem {up} o {down}.
 	Drag a point to reshape the line. Delete removes it.	Arrossegueu un punt per canviar la forma de la línia. Supr l'elimina.
 	Drag a rectangle around the area to copy	Arrossega un rectangle al voltant de l'àrea que vols copiar
 	Drag a rectangle on a page to crop it; double-click a page for Set Page Boxes	Arrossega un rectangle sobre una pàgina per escapçar-la; fes doble clic en una pàgina per definir els quadres de pàgina
 	Drag a rectangle to create a link; double-click a link to edit it	Arrossega un rectangle per crear un enllaç; fes doble clic en un enllaç per editar-lo
-	Drag on the preview to choose a region. An empty selection scans the whole area.	Drag on the preview to choose a region. An empty selection scans the whole area.
+	Drag hotbar	Arrossega la barra d'accés ràpid
+	Drag on the preview to choose a region. An empty selection scans the whole area.	Arrossega sobre la previsualització per triar una regió. Una selecció buida escaneja tota l'àrea.
 	Drag the corners onto the document's edges, then choose Enhance page.	Arrossega les cantonades fins a les vores del document i tria Millora la pàgina.
 	Drag the selection to move it. Esc clears the selection.	Arrossega la selecció per moure-la. Esc esborra la selecció.
 	Drag to draw the area where the signature should appear.	Arrossega per dibuixar l'àrea on ha d'aparèixer la signatura.
@@ -1061,13 +1115,13 @@ key	Delete	Supr
 	Drawing	Dibuix
 	Drawing scale	Escala del dibuix
 	Drawing scale changes. Use Actual size for full-scale plans.	L'escala del dibuix canvia. Utilitza Mida real per a plànols a escala completa.
-	Driver default	Driver default
+	Driver default	Per defecte del controlador
 	Drop PDFs or folders here, or choose them.	Deixa anar aquí PDF o carpetes, o tria'ls.
 	Drop PDFs, images, text files or folders here, or choose them.	Deixa aquí PDF, imatges, fitxers de text o carpetes, o tria'ls.
 	Drop-down list	Llista desplegable
 	Dropdown Properties	Propietats de la llista desplegable
-	Duplex	Duplex
-	Duplex is not offered.	Duplex is not offered.
+	Duplex	Doble cara
+	Duplex is not offered.	No s'ofereix la doble cara.
 	Duplicate	Duplica
 	Duplicate "{name}" onto:	Duplica "{name}" a:
 	Duplicate Field	Duplica el camp
@@ -1091,9 +1145,10 @@ key	Delete	Supr
 	Each image once, named after the document and page. JPEG images are saved unchanged; others as PNG.	Cada imatge una sola vegada, amb el nom del document i la pàgina. Les imatges JPEG es desen sense canvis; les altres com a PNG.
 	Each page as it looks, its text kept searchable. For documents whose layout matters.	Cada pàgina tal com es veu, amb el text cercable. Per a documents on la disposició importa.
 	Each page on its own sheet, named Page 1, Page 2…	Cada pàgina en un full propi, amb el nom Pàgina 1, Pàgina 2…
-	Earlier in calculation order	Earlier in calculation order
+	Earlier in calculation order	Abans en l'ordre de càlcul
 	Earlier in tab order	Abans en l'ordre de tabulació
 	earlier saves are still waiting for the website	els desaments anteriors encara esperen el lloc web
+	Edge shadow removal	Eliminació de les ombres de les vores
 	Edit	Edita
 comment menu	Edit	Edita
 	Edit a PDF	Edita un PDF
@@ -1101,6 +1156,7 @@ comment menu	Edit	Edita
 	Edit comment	Edita el comentari
 	Edit Content	Edita el contingut
 	Edit content	Edita el contingut
+	Edit description	Edita la descripció
 	Edit document JavaScript	Edita el JavaScript del document
 	Edit fields	Edita els camps
 	Edit image	Edita la imatge
@@ -1110,7 +1166,8 @@ comment menu	Edit	Edita
 	Edit text & images	Edita text i imatges
 	Edit text…	Edita el text…
 	Edit this PDF	Edita aquest PDF
-	Edit {field}'s formula	Edit {field}'s formula
+	Edit {field}'s formula	Edita la fórmula de {field}
+	Editable text	Text editable
 	Editing	Edició
 	Edit…	Edita…
 	Email Address	Adreça electrònica
@@ -1134,10 +1191,17 @@ key	End	Fi
 	End entity	Entitat final
 	Endpoint	Extrem
 	Endpoints	Extrems
+	Engine	Motor
+	ENGINE · STRATEGY	MOTOR · ESTRATÈGIA
 	English	Anglès
+	Enhance	Millora
 	Enhance camera image	Millora la imatge de la càmera
 	Enhance page	Millora la pàgina
+	Enhance Scanned File	Millora el fitxer escanejat
 	Enhance scanned file	Millora el fitxer escanejat
+	Enhance scanned file…	Millora el fitxer escanejat…
+	Enhancing scans… image {d} of {t}	S'estan millorant els escanejats… imatge {d} de {t}
+	Enhancing the scanned pages was cancelled	S'ha cancel·lat la millora de les pàgines escanejades
 	Enter a name.	Escriu un nom.
 	Enter a page number	Introdueix un número de pàgina
 	Enter a scale such as 1:50.	Introduïu una escala com 1:50.
@@ -1159,8 +1223,10 @@ key	Esc	Esc
 	Even pages	Pàgines parelles
 	Even Pages Only	Només pàgines parelles
 	Even pages only	Només les pàgines parelles
-	Every field calculates after the fields it reads.	Every field calculates after the fields it reads.
-	Every field outside a loop calculates after the fields it reads.	Every field outside a loop calculates after the fields it reads.
+	Evens out the paper so a grey or yellowed background turns white, and darkens faint strokes. 0 is off.	Uniformitza el paper perquè un fons gris o esgrogueït es torni blanc, i enfosqueix els traços febles. 0 ho desactiva.
+	Every field calculates after the fields it reads.	Cada camp es calcula després dels camps que llegeix.
+	Every field outside a loop calculates after the fields it reads.	Cada camp fora d'un bucle es calcula després dels camps que llegeix.
+	Every line set in the style chosen for a level becomes a bookmark of that level, under a new first bookmark.	Cada línia composta amb l'estil triat per a un nivell es converteix en un marcador d'aquell nivell, sota un primer marcador nou.
 	Every PDF in the folder	Tots els PDF de la carpeta
 	Every PDF in the folder and the folders inside it	Tots els PDF de la carpeta i de les carpetes que conté
 	Every PDF, image and text file in the folder	Tots els PDF, imatges i fitxers de text de la carpeta
@@ -1216,6 +1282,7 @@ key	Esc	Esc
 	Export to Text	Exporta a text
 	Export to text…	Exporta a text…
 	Export to Word…	Exporta a Word…
+	Export value	Valor d'exportació
 	Export Value: {on}	Valor d'exportació: {on}
 	Exported 1 image	S'ha exportat 1 imatge
 	Exported the text of 1 page	S'ha exportat el text d'1 pàgina
@@ -1225,6 +1292,7 @@ key	Esc	Esc
 	Exported {n} images	S'han exportat {n} imatges
 	Exporting… {d} of {t}	Exportant… {d} de {t}
 	Export…	Exporta…
+	Extend the docked toolbar along the entire side. Choose a side above to enable.	Estén la barra d'eines acoblada al llarg de tot el costat. Tria un costat a dalt per activar-ho.
 	Extended Graphics States	Estats gràfics ampliats
 	Extract	Extreu
 	Extract pages	Extreu pàgines
@@ -1234,12 +1302,13 @@ key	Esc	Esc
 	Extract the selected pages…	Extreu les pàgines seleccionades…
 	Extracted 1 page	S'ha extret 1 pàgina
 	Extracted {n} pages	S'han extret {n} pàgines
+	F8: next word to review; Shift+F8 goes back	F8: paraula següent per revisar; Maj+F8 torna enrere
 	Failed	Fallida
 scroll speed	Fast	Ràpida
 	Fast Web View	Visualització ràpida a la web
 	February	febrer
 calendar date	February	Febrer
-	Feeder	Feeder
+	Feeder	Alimentador
 	Field	Camp
 	Field "{}" on page {p} has no description (tooltip)	El camp "{}" de la pàgina {p} no té descripció (suggeriment)
 	Field "{}" on page {p} has no description (TU), and its tag no alternate text	El camp "{}" de la pàgina {p} no té descripció (TU), i la seva etiqueta no té text alternatiu
@@ -1305,6 +1374,7 @@ calendar date	February	Febrer
 	Filling in form fields and signing existing signature fields	Emplenament de camps de formulari i signatura de camps de signatura existents
 	Filling of form fields	Emplenament de camps de formulari
 	Filter comments	Filtra els comentaris
+	Filters	Filtres
 	Find a command	Cerca una ordre
 	Find a tag	Cerca una etiqueta
 	Find certificates	Cerca certificats
@@ -1318,7 +1388,7 @@ calendar date	February	Febrer
 	Find untagged content	Cerca contingut sense etiquetar
 	Finding document fonts…	Cerca de tipus de lletra del document…
 	Find…	Cerca…
-	Finish	Finish
+	Finish	Finalitza
 	Finish or discard the text being edited before selecting several objects.	Acaba o descarta el text que s'està editant abans de seleccionar diversos objectes.
 	First	Primera
 	First / last page	Primera / última pàgina
@@ -1339,7 +1409,7 @@ calendar date	February	Febrer
 	Fix	Corregeix
 	Fix hairlines	Corregeix les línies fines
 	Fix hairlines…	Corregeix les línies de cabell…
-	Fix order	Fix order
+	Fix order	Corregeix l'ordre
 	Fix reading order	Corregeix l'ordre de lectura
 	Fixed layout	Disposició fixa
 	Fixed what could be fixed; 1 problem remains	S'ha corregit el que s'ha pogut; queda 1 problema
@@ -1360,6 +1430,7 @@ calendar date	February	Febrer
 	Flip on short edge	Gira pel costat curt
 	Flip Vertical	Capgira verticalment
 	Flip vertical	Capgira verticalment
+	Float	Flotant
 	Float panel	Fes flotant el tauler
 	Folder	Carpeta
 	Folders	Carpetes
@@ -1413,6 +1484,7 @@ calendar date	February	Febrer
 	Fonts not embedded	Tipus de lletra no incrustats
 	for images above	per a imatges de més de
 	For page sizes and margins.	Per a les mides de pàgina i els marges.
+	Force OCR (override skip options)	Força l'OCR (ignora les opcions d'omissió)
 	Form data and PDF forms	Dades de formulari i formularis PDF
 	Form field on page {p} isn't tagged	El camp de formulari de la pàgina {p} no està etiquetat
 	Form fields	Camps de formulari
@@ -1434,23 +1506,26 @@ calendar date	February	Febrer
 	Found {n} untagged content problems.	S'han trobat {n} problemes de contingut sense etiquetar.
 calendar weekday	Fr	dv.
 	Fraktur and Kurrent use an optional 13 MB add-on. After download, recognition works offline.	Fraktur i Kurrent fan servir un complement opcional de 13 MB. Després de baixar-lo, el reconeixement funciona sense connexió.
+	Freehand-Highlight	Ressaltat a mà alçada
 	From	Des de
 	From a PDF page or an image	Des d'una pàgina PDF o una imatge
 	From colour	Des del color
 	From Finder: select files, then right-click > Quick Actions > Combine files in PdfCraft. Not listed? Turn it on once under Quick Actions > Customize.	Des del Finder: selecciona els fitxers, fes clic amb el botó dret > Accions ràpides > Combine files in PdfCraft. No hi surt? Activa-ho una vegada a Accions ràpides > Personalitza.
-	From scanner…	From scanner…
+	From scanner…	Des de l'escàner…
 	From template	Des d’una plantilla
 	From {file}	Des de {file}
 	From:	De:
 	Front side only	Només la cara anterior
-	front(s)	front(s)
-	Fronts scanned: {n}. Flip the sheet on the bed, then choose Scan reverse sides.	Fronts scanned: {n}. Flip the sheet on the bed, then choose Scan reverse sides.
-	Fronts scanned: {n}. Flip the stack so the last sheet is on top, reload it, then choose Scan reverse sides.	Fronts scanned: {n}. Flip the stack so the last sheet is on top, reload it, then choose Scan reverse sides.
-	Full area	Full area
+	front(s)	anvers(os)
+	Fronts scanned: {n}. Flip the sheet on the bed, then choose Scan reverse sides.	Anversos escanejats: {n}. Gira el full sobre el vidre i després tria Escaneja els reversos.
+	Fronts scanned: {n}. Flip the stack so the last sheet is on top, reload it, then choose Scan reverse sides.	Anversos escanejats: {n}. Gira la pila perquè l'últim full quedi a dalt, torna-la a carregar i després tria Escaneja els reversos.
+	Full area	Àrea completa
 	Full Screen	Pantalla completa
 	Full screen mode	Mode de pantalla completa
+	Full-side strip	Franja de tot el costat
 	Future placements use this size. Existing signatures are unchanged.	Les col·locacions futures faran servir aquesta mida. Les signatures existents no canviaran.
 	General	General
+	General & Interface	General i interfície
 	Geospatial location	Ubicació geoespacial
 	Get help, share feedback and follow development on Discord.	Obtén ajuda, comparteix comentaris i segueix el desenvolupament a Discord.
 	Glass	Vidre
@@ -1485,6 +1560,7 @@ calendar weekday	Fr	dv.
 	Headers	Capçaleres
 	Heading levels shouldn't skip (an H1 followed by an H3). Retag the headings.	Els nivells d'encapçalament no s'haurien de saltar (un H1 seguit d'un H3). Torna a etiquetar els encapçalaments.
 	Headings	Encapçalaments
+	Hebrew	Hebreu
 	Height	Alçada
 	Height:	Alçada:
 	Held by the printer	Retinguda per la impressora
@@ -1509,6 +1585,7 @@ calendar weekday	Fr	dv.
 	Hide {app}	Amaga {app}
 	Hides annotation	Amaga l'anotació
 	High	Alta
+	HIGH (>= 90%)	ALTA (>= 90%)
 	High Resolution	Alta resolució
 	High resolution	Alta resolució
 	Highest version	Versió més alta
@@ -1530,6 +1607,9 @@ key	Home	Inici
 	Horizontal reversed	Horitzontal invertit
 	Horizontal scale	Escala horitzontal
 	Horizontally	Horitzontalment
+	Hotbar settings	Configuració de la barra d'accés ràpid
+	Hotbar settings / add tools	Configuració de la barra d'accés ràpid / afegeix eines
+	Hotbar tools	Eines de la barra d'accés ràpid
 	HTML web page	Pàgina web HTML
 	H{n} follows an H{d}; headings should not skip levels	H{n} va després d'un H{d}; els encapçalaments no haurien de saltar nivells
 	I confirm sending this document to this printer	Confirmo l'enviament d'aquest document a aquesta impressora
@@ -1553,6 +1633,7 @@ key	Home	Inici
 	Import {name}	Importa {name}
 	Importing data arrives on the web with file pickers for data files	La importació de dades arriba a la web amb selectors de fitxers per als fitxers de dades
 	In multiple files	En diversos fitxers
+	In multiple files: a file with any text is its own skipped bucket, and nothing is written for it	En diversos fitxers: un fitxer que tingui text es compta a part com a omès, i no se n'escriu res
 	In streams that use LZW encoding, use Flate instead	Als fluxos que utilitzen codificació LZW, utilitza Flate
 	In tab order	En l'ordre de les pestanyes
 	In this file	En aquest fitxer
@@ -1563,6 +1644,7 @@ key	Home	Inici
 	Indent	Sagna
 	Index	Índex
 	Information	Informació
+	Inherit Zoom	Hereta el zoom
 	Initial View	Visualització inicial
 	Initials	Inicials
 	initials	inicials
@@ -1584,12 +1666,12 @@ key	Home	Inici
 	Insert pages from {name}	Insereix pàgines de {name}
 	Insert pages from {name} — 1 field renamed	Insereix pàgines de {name} — 1 camp s'ha reanomenat
 	Insert pages from {name} — fields renamed	Insereix pàgines de {name} — camps reanomenats
-	Insert scanned pages	Insert scanned pages
+	Insert scanned pages	Insereix pàgines escanejades
 	Insert text	Insereix text
 	Insert the USB token or smart card, then refresh to list its digital IDs.	Inseriu el testimoni USB o la targeta intel·ligent i actualitzeu per mostrar-ne els identificadors digitals.
 	Inserted	Inserit
 	Inserted page	Pàgina inserida
-	Inserted scanned pages	Inserted scanned pages
+	Inserted scanned pages	S'han inserit pàgines escanejades
 	Inserted text	Text inserit
 	Inserting, deleting, and rotating pages	Inserció, supressió i gir de pàgines
 	Inset	Enfonsat
@@ -1597,7 +1679,7 @@ key	Home	Inici
 	Installed fonts…	Tipus de lletra instal·lats…
 	Intended usage	Ús previst
 certificate	Intended usage	Ús previst
-	Intent	Intent
+	Intent	Propòsit
 	Interface and appearance	Interfície i aparença
 	Interface font	Lletra de la interfície
 	Interface language	Idioma de la interfície
@@ -1607,7 +1689,8 @@ certificate	Intended usage	Ús previst
 	Invert	Inverteix
 	Invert colors	Inverteix els colors
 	Invert everything	Inverteix-ho tot
-	Invert tones	Invert tones
+	Invert middle-button drag	Inverteix l'arrossegament amb el botó central
+	Invert tones	Inverteix els tons
 	Inverted page background	Fons de la pàgina invertida
 	Inverted text	Text invertit
 	Invisible Rectangle	Rectangle invisible
@@ -1625,6 +1708,7 @@ certificate	Issuer	Emissor
 	It is certified: filling in forms and signing are allowed; other changes invalidate the certification.	Està certificat: es permet emplenar formularis i signar; altres canvis invaliden la certificació.
 	It is certified: filling in forms, signing and commenting are allowed; other changes invalidate the certification.	Està certificat: es permet emplenar formularis, signar i comentar; altres canvis invaliden la certificació.
 	it was still in the document afterwards, so the change was undone	encara era al document després, de manera que s'ha desfet el canvi
+	italic	cursiva
 	Italic	Cursiva
 	Item List	Llista d'elements
 	Item:	Element:
@@ -1633,7 +1717,7 @@ certificate	Issuer	Emissor
 	its alternate text, actual text or expansion has no language (Lang)	el seu text alternatiu, text real o expansió no té idioma (Lang)
 	its ID is another Note's too	el seu ID també és el d'una altra Note
 	its language (Lang) isn't a language tag	el seu idioma (Lang) no és una etiqueta d'idioma
-	Its script also reads fields whose names it builds as it runs, so those reads can't be checked.	Its script also reads fields whose names it builds as it runs, so those reads can't be checked.
+	Its script also reads fields whose names it builds as it runs, so those reads can't be checked.	El seu script també llegeix camps els noms dels quals construeix mentre s'executa, de manera que aquestes lectures no es poden comprovar.
 	Its security settings don't allow copying pages	La seva configuració de seguretat no permet copiar pàgines
 	January	gener
 calendar date	January	Gener
@@ -1656,6 +1740,7 @@ calendar date	July	Juliol
 calendar date	June	Juny
 	just now	ara mateix
 	Justify	Justifica
+	Keep	Conserva
 	Keep an empty signature field to sign again	Mantén un camp de signatura buit per tornar a signar
 	Keep editable	Mantén editable
 	Keep only how the signatures look, as page content (a name or date they show stays visible)	Conserva només l'aspecte de les signatures, com a contingut de la pàgina (el nom o la data que mostren continuen visibles)
@@ -1675,31 +1760,33 @@ certificate	Key usage	Ús de la clau
 	Label	Etiqueta
 	Labels	Etiquetes
 	Labels: {preview}. Later pages keep their labels.	Etiquetes: {preview}. Les pàgines posteriors mantenen les seves etiquetes.
-	Lamp	Lamp
-	Lamp on	Lamp on
+	Lamp	Làmpada
+	Lamp on	Làmpada encesa
 	Landscape	Horitzontal
 	Landscape and Portrait Pages	Pàgines horitzontals i verticals
 	Landscape Pages	Pàgines horitzontals
 	Landscape pages	Pàgines horitzontals
 	Language	Idioma
 	Language and spelling	Llengua i ortografia
-	Large scan	Large scan
+	Large scan	Escaneig gran
 	Larger pages	Pàgines més grans
-	Larger than 512 MiB	Larger than 512 MiB
-	Larger thumbnails	Larger thumbnails
+	Larger text	Text més gran
+	Larger than 512 MiB	Més gran de 512 MiB
+	Larger thumbnails	Miniatures més grans
 	Last	Última
 	Last commit	Última contribució
 	Last page	Última pàgina
 	Later	Més tard
-	Later in calculation order	Later in calculation order
+	Later in calculation order	Després en l'ordre de càlcul
 	Later in tab order	Després en l'ordre de tabulació
 	Latin (accented)	Llatí (amb accents)
-	Layer options	Layer options
+	Layer options	Opcions de la capa
 	Layers	Capes
 	Layers (optional content) need PDF 1.5, newer than {} allows	Les capes (contingut opcional) necessiten PDF 1.5, més recent del que permet {}
 	Layers panel	Tauler de capes
 	Layers Panel and Page	Tauler de capes i pàgina
 	Layout	Disposició
+	Layout & Sizing	Disposició i mides
 	Layout and Magnification	Disposició i ampliació
 	Lbl and LBody	Lbl i LBody
 	Lbl and LBody must be children of LI	Lbl i LBody han de ser fills de LI
@@ -1712,16 +1799,20 @@ certificate	Key usage	Ús de la clau
 	Left Header Text	Text de la capçalera esquerra
 	Left out: {names}	Exclosos: {names}
 	Left:	Esquerra:
-	Less	Less
+	Less	Menys
 	less than a minute left	queda menys d'un minut
+	Letter	Carta
+	Level {n}	Nivell {n}
 	LI must be a child of L	LI ha de ser fill de L
 	Light	Clar
 	Light blue	Blau clar
 	Light gray	Gris clar
 	Light ink	Tinta clara
 	Light theme	Tema clar
+	Lightens shadows along the edges of the scan, such as a book's gutter or a copier's dark border	Aclareix les ombres de les vores de l'escaneig, com ara el plec central d'un llibre o la vora fosca d'una fotocopiadora
 	Like macOS (fuller strokes, sub-pixel placement)	Com al macOS (traç més ple, posició subpíxel)
 	Limit of	Límit de
+	Limits	Límits
 	Line	Línia
 	Line colour	Color de la línia
 	Line delta	Diferència de línies
@@ -1746,7 +1837,7 @@ certificate	Key usage	Ús de la clau
 	Link Type:	Tipus d'enllaç:
 	Link URL	URL de l'enllaç
 	links	enllaços
-	Links on page	Links on page
+	Links on page	Enllaços de la pàgina
 	Links, actions and JavaScripts	Enllaços, accions i JavaScripts
 	List	Llista
 	List box	Quadre de llista
@@ -1755,15 +1846,15 @@ certificate	Key usage	Ús de la clau
 	List items belong in a list. Fix the list's tags.	Els elements de llista pertanyen a una llista. Corregeix les etiquetes de la llista.
 	List labels and bodies belong in a list item. Fix the list's tags.	Les etiquetes i els cossos de llista pertanyen a un element de llista. Corregeix les etiquetes de la llista.
 	List view	Visualització en llista
-	Listing scanners…	Listing scanners…
-	Listing the folder…	Listing the folder…
+	Listing scanners…	S'estan llistant els escàners…
+	Listing the folder…	S'està llistant la carpeta…
 	Lists	Llistes
 	Load document font	Carrega el tipus de lletra del document
 	Load font…	Carrega un tipus de lletra…
-	Load more sheets, then choose Continue; or choose Finish to keep what was scanned.	Load more sheets, then choose Continue; or choose Finish to keep what was scanned.
-	Load sheets in the feeder, then choose Try again.	Load sheets in the feeder, then choose Try again.
-	Load to edit	Load to edit
-	Loading {name}…	Loading {name}…
+	Load more sheets, then choose Continue; or choose Finish to keep what was scanned.	Carrega més fulls i després tria Continua; o tria Finalitza per conservar el que s'ha escanejat.
+	Load sheets in the feeder, then choose Try again.	Carrega fulls a l'alimentador i després tria Torna-ho a provar.
+	Load to edit	Carrega per editar
+	Loading {name}…	S'està carregant {name}…
 	Loading…	Carregant…
 	Local cross-PDF links require the desktop app	Els enllaços locals entre PDF requereixen l'aplicació d'escriptori
 	Location	Ubicació
@@ -1777,16 +1868,19 @@ certificate	Key usage	Ús de la clau
 	Logical Reading Order	Ordre de lectura lògic
 	Logo	Logotip
 	Logo and name	Logotip i nom
-	Look at the scanner for a message or an open door or cover, fix what it shows, then choose Continue.	Look at the scanner for a message or an open door or cover, fix what it shows, then choose Continue.
-	Look at the scanner for a message or an open door or cover, fix what it shows, then choose Try again.	Look at the scanner for a message or an open door or cover, fix what it shows, then choose Try again.
+	Look	Aspecte
+	Look at the scanner for a message or an open door or cover, fix what it shows, then choose Continue.	Mira si l'escàner mostra algun missatge o té alguna porta o tapa oberta, resol el que indiqui i després tria Continua.
+	Look at the scanner for a message or an open door or cover, fix what it shows, then choose Try again.	Mira si l'escàner mostra algun missatge o té alguna porta o tapa oberta, resol el que indiqui i després tria Torna-ho a provar.
 	Looking for certificates…	S'estan cercant certificats…
 	Looking for PDFs…	Cercant PDF…
 	Looking for printers…	Cercant impressores…
-	Loop	Loop
+	Loop	Bucle
 	Low	Baixa
+	LOW (< 70%)	BAIXA (< 70%)
 	Low resolution	Baixa resolució
 	Low Resolution (150 dpi)	Baixa resolució (150 dpi)
-	Lowering this forgets the oldest files. At 0 there is no list.	Lowering this forgets the oldest files. At 0 there is no list.
+	LOW-CONFIDENCE WORDS	PARAULES DE BAIXA CONFIANÇA
+	Lowering this forgets the oldest files. At 0 there is no list.	Si el redueixes, s'obliden els fitxers més antics. Amb 0 no hi ha llista.
 	Magnification	Ampliació
 	Make accessible	Fes-lo accessible
 	Make Current Properties Default	Estableix les propietats actuals com a per defecte
@@ -1795,7 +1889,7 @@ certificate	Key usage	Ús de la clau
 	Make scans searchable, then make them smaller.	Fes que els escanejats siguin cercables i després redueix-ne la mida.
 	Manage embedded index	Gestiona l'índex incrustat
 	Manage levels	Gestiona els nivells
-	Manual duplex needs one reverse side for each front.	Manual duplex needs one reverse side for each front.
+	Manual duplex needs one reverse side for each front.	La doble cara manual necessita un revers per a cada anvers.
 	March	març
 calendar date	March	Març
 	Margins	Marges
@@ -1811,6 +1905,7 @@ calendar date	March	Març
 	Mark for redaction	Marca per censurar
 	Mark Page Range	Marca l'interval de pàgines
 	Mark pages for redaction	Marca pàgines per censurar
+	Mark this page as reviewed (Ctrl+T)	Marca aquesta pàgina com a revisada (Ctrl+T)
 	Mark with checkmark	Marca amb una marca de verificació
 	Marked	Assenyalat
 	MarkInfo Suspects is true: the tags are marked as unreliable	MarkInfo Suspects és cert: les etiquetes estan marcades com a poc fiables
@@ -1821,7 +1916,7 @@ calendar date	March	Març
 	Mask:	Màscara:
 	Match field sizes	Iguala la mida dels camps
 	Match page at 100%	Ajusta la pàgina al 100 %
-	Matches: {matches}. Files with matches: {files}. PDFs read to the end: {searched} of {found}.	Matches: {matches}. Files with matches: {files}. PDFs read to the end: {searched} of {found}.
+	Matches: {matches}. Files with matches: {files}. PDFs read to the end: {searched} of {found}.	Coincidències: {matches}. Fitxers amb coincidències: {files}. PDF llegits fins al final: {searched} de {found}.
 	Maximize	Maximitza
 	Maximum	Màxima
 	maximum	màxim
@@ -1836,6 +1931,7 @@ calendar date	May	Maig
 	Measurement snapping	Ajust de mesura
 	Measuring tool	Eina de mesura
 	Medium	Mitjana
+	MEDIUM (70-89%)	MITJANA (70-89%)
 	Menu	Menú
 	Merge all windows	Combina totes les finestres
 	Merge data files into spreadsheet…	Combina fitxers de dades en un full de càlcul…
@@ -1853,10 +1949,10 @@ calendar date	May	Maig
 	Minimize	Minimitza
 	Minimum	Mínima
 	minimum	mínim
-	Mirror	Mirror
-	Mirror the page	Mirror the page
-	Missing field	Missing field
-	Missing from the calculation order saved in the PDF: other PDF viewers may not calculate it.	Missing from the calculation order saved in the PDF: other PDF viewers may not calculate it.
+	Mirror	Mirall
+	Mirror the page	Reflecteix la pàgina
+	Missing field	Camp inexistent
+	Missing from the calculation order saved in the PDF: other PDF viewers may not calculate it.	No és a l'ordre de càlcul desat al PDF: és possible que altres visors de PDF no el calculin.
 	Mixed	Barrejat
 calendar weekday	Mo	dl.
 	Mobile	Mòbil
@@ -1891,7 +1987,7 @@ calendar weekday	Mo	dl.
 	Move line point	Mou un punt de la línia
 	Move object	Mou l'objecte
 	Move objects	Mou els objectes
-	Move only what must move, so every field calculates after the fields it reads.	Move only what must move, so every field calculates after the fields it reads.
+	Move only what must move, so every field calculates after the fields it reads.	Mou només el que cal moure, perquè cada camp es calculi després dels camps que llegeix.
 	Move out of parent tag	Mou fora de l'etiqueta pare
 	Move page	Mou la pàgina
 	Move pages	Mou les pàgines
@@ -1905,7 +2001,8 @@ calendar weekday	Mo	dl.
 	Move to window	Mou a la finestra
 	Move up	Mou amunt
 	Moved page	Pàgina moguda
-	Moves only what must move	Moves only what must move
+	Moves each sheet's pages toward the fold by this much more than the sheet outside it, so the margins match once the booklet is folded and trimmed.	Desplaça les pàgines de cada full cap al plec aquesta distància més que el full que té a fora, perquè els marges coincideixin un cop el quadern estigui plegat i tallat.
+	Moves only what must move	Mou només el que cal moure
 	Multi-line	Diverses línies
 	Multiple	Múltiple
 	Multiple files	Diversos fitxers
@@ -1924,12 +2021,13 @@ calendar weekday	Mo	dl.
 	Navigation	Navegació
 	Navigation links	Enllaços de navegació
 	Navigation links are not repetitive	Els enllaços de navegació no són repetitius
+	Navigation rail side	Costat de la barra de navegació
 	Navigation tab	Pestanya de navegació
 	needs an AI provider (off by default)	requereix un proveïdor d'IA (desactivat per defecte)
 	Needs manual check	Cal comprovació manual
 	Negative number style:	Estil dels números negatius:
 	Nested alternate text	Text alternatiu imbricat
-	Network	Network
+	Network	Xarxa
 	Network printer (WS-Print)	Impressora de xarxa (WS-Print)
 	Never	Mai
 	New Action	Acció nova
@@ -1939,6 +2037,8 @@ calendar weekday	Mo	dl.
 	New bookmark ({key})	Marcador nou ({key})
 	New bookmark (⌘B)	Marcador nou (⌘B)
 	New bookmarks from structure	Marcadors nous a partir de l'estructura
+	New bookmarks from text styles	Marcadors nous a partir dels estils de text
+	New bookmarks from text styles…	Marcadors nous a partir dels estils de text…
 	New file only	Només el fitxer nou
 	New file:	Fitxer nou:
 	New file: {name}	Fitxer nou: {name}
@@ -1955,6 +2055,7 @@ calendar weekday	Mo	dl.
 	Next sheet	Full següent
 	Next tab	Pestanya següent
 	Next tab and Previous tab	Pestanya següent i pestanya anterior
+	Next uncertain	Dubtosa següent
 	Next view	Visualització següent
 	No	No
 	No actions	Cap acció
@@ -1976,8 +2077,8 @@ calendar weekday	Mo	dl.
 	No email app is set up on this computer.	No hi ha cap aplicació de correu configurada en aquest ordinador.
 	No errors in the rules that were evaluated.	No hi ha errors en les regles que s'han avaluat.
 	No errors: the structure follows the Arlington PDF Model.	Cap error: l'estructura segueix el model PDF Arlington.
-	No field in this form calculates its value yet. Give a field a calculation on the Calculate tab of its properties, and it shows here.	No field in this form calculates its value yet. Give a field a calculation on the Calculate tab of its properties, and it shows here.
-	No field reads it	No field reads it
+	No field in this form calculates its value yet. Give a field a calculation on the Calculate tab of its properties, and it shows here.	Cap camp d'aquest formulari calcula encara el seu valor. Dona un càlcul a un camp a la pestanya Calcula de les seves propietats i apareixerà aquí.
+	No field reads it	Cap camp el llegeix
 	No file chosen	Cap fitxer triat
 	No file dialog could open	No s'ha pogut obrir cap diàleg de fitxers
 	No fill	Sense farciment
@@ -1998,12 +2099,12 @@ calendar weekday	Mo	dl.
 	No matching tools	Cap eina coincident
 	No model credits were built into this copy.	En aquesta còpia no s'han inclòs crèdits de models.
 	No openly licensed document fonts found. Load a font file.	No s'ha trobat cap tipus de lletra de document amb llicència oberta. Carrega un fitxer de tipus de lletra.
-	No order can fix a loop. Change one of the formulas.	No order can fix a loop. Change one of the formulas.
+	No order can fix a loop. Change one of the formulas.	Cap ordre pot resoldre un bucle. Canvia una de les fórmules.
 	no output folder was chosen	no s'ha triat cap carpeta de sortida
 	No page has text: the document appears to be images of pages	Cap pàgina no té text: el document sembla ser imatges de pàgines
 	No pages match those choices	Cap pàgina coincideix amb aquestes opcions
 	No pages selected	Cap pàgina seleccionada
-	No pages were scanned.	No pages were scanned.
+	No pages were scanned.	No s'ha escanejat cap pàgina.
 	No PDF files were found.	No s'ha trobat cap fitxer PDF.
 	No PDFs found in {folder}	No s'ha trobat cap PDF a {folder}
 	No PDFs in this folder yet	Encara no hi ha cap PDF en aquesta carpeta
@@ -2016,7 +2117,8 @@ calendar weekday	Mo	dl.
 	No recent files	No hi ha fitxers recents
 	No recipients yet.	Encara no hi ha destinataris.
 	No results	Cap resultat
-	No scanner is connected.	No scanner is connected.
+	No scanned pages were cleaned up.	No s'ha netejat cap pàgina escanejada.
+	No scanner is connected.	No hi ha cap escàner connectat.
 	No security	Sense seguretat
 	No sheets	Cap full
 	No signature was found in the frame. Move the frame over the signature or raise the ink sensitivity.	No s'ha trobat cap signatura al marc. Mou el marc sobre la signatura o augmenta la sensibilitat de la tinta.
@@ -2061,11 +2163,11 @@ scroll speed	Normal	Normal
 	not in a Warichu	no és dins d'un Warichu
 	not in an L (list)	no és dins d'un L (llista)
 	not in an LI (list item)	no és dins d'un LI (element de llista)
-	Not in order	Not in order
+	Not in order	Fora de l'ordre
 	Not now	Ara no
 	Not present	No present
 	Not replaced: {why}	No substituït: {why}
-	Not searched: {n}	Not searched: {n}
+	Not searched: {n}	No cercats: {n}
 	not the first child of its list	no és el primer fill de la seva llista
 	not the first or last child of its table	no és el primer ni l'últim fill de la seva taula
 	Note	Nota
@@ -2084,7 +2186,9 @@ calendar date	November	Novembre
 	Number of pages	Nombre de pàgines
 	Number pages	Numera les pàgines
 	Number pages…	Numera les pàgines…
-	Numbered list	Numbered list
+	Numbered list	Llista numerada
+	OCR complete — no text recognized on this page.	OCR completat — no s'ha reconegut cap text en aquesta pàgina.
+	OCR results rejected.	S'han rebutjat els resultats de l'OCR.
 	October	octubre
 calendar date	October	Octubre
 	Odd pages	Pàgines senars
@@ -2124,6 +2228,7 @@ animation effects	On	Activats
 	Only the first {n} of each kind are listed.	Només es mostren els primers {n} de cada tipus.
 	Only the page content changes: links, comments, form fields and bookmarks on the original pages stay.	Només canvia el contingut de la pàgina: els enllaços, comentaris, camps de formulari i marcadors de les pàgines originals es mantenen.
 	Only the recipients can open the document, each with the private key of their own certificate.	Només els destinataris poden obrir el document, cadascun amb la clau privada del seu propi certificat.
+	Only web (http, https) and email addresses open, and PdfCraft asks first, as for other links.	Només s'obren adreces web (http, https) i de correu electrònic, i PdfCraft ho demana abans, com amb els altres enllaços.
 	Opacity	Opacitat
 	Opacity:	Opacitat:
 	Open	Obre
@@ -2148,14 +2253,15 @@ animation effects	On	Activats
 	Open next PDF in folder	Obre el PDF següent de la carpeta
 	Open previous PDF in folder	Obre el PDF anterior de la carpeta
 	Open Recent	Obre un recent
-	Open the cover, clear any jam or sheets fed together, load the remaining sheets squarely, then choose Continue.	Open the cover, clear any jam or sheets fed together, load the remaining sheets squarely, then choose Continue.
-	Open the cover, clear any jam or sheets fed together, load the sheets squarely, then choose Try again.	Open the cover, clear any jam or sheets fed together, load the sheets squarely, then choose Try again.
+	Open the cover, clear any jam or sheets fed together, load the remaining sheets squarely, then choose Continue.	Obre la tapa, treu el paper encallat o els fulls que hagin entrat junts, carrega els fulls restants ben alineats i després tria Continua.
+	Open the cover, clear any jam or sheets fed together, load the sheets squarely, then choose Try again.	Obre la tapa, treu el paper encallat o els fulls que hagin entrat junts, carrega els fulls ben alineats i després tria Torna-ho a provar.
 	Open the file as it was saved then	Obre el fitxer tal com es va desar aleshores
 	Open the older version first	Obre primer la versió més antiga
 	Open this local PDF?	Vols obrir aquest PDF local?
 	Open this web page?	Vols obrir aquesta pàgina web?
 	Open to page	Obre a la pàgina
 	open to see what it will include	obre per veure què inclourà
+	Open web and email addresses written in the page text	Obre les adreces web i de correu electrònic escrites al text de la pàgina
 	Opened with	S'ha obert amb
 	Opened, but its security settings don't allow combining. Enter the permissions password.	S'ha obert, però la seva configuració de seguretat no permet combinar. Introdueix la contrasenya de permisos.
 	Opening documents	Obertura de documents
@@ -2164,7 +2270,7 @@ animation effects	On	Activats
 	Opens the printer driver's preferences. They are saved for every print from this computer; the copies, two-sided, grayscale and paper chosen here still apply.	Obre les preferències del controlador de la impressora. Es desen per a totes les impressions d'aquest ordinador; les còpies, la impressió a doble cara, l'escala de grisos i el paper triats aquí continuen aplicant-se.
 	OpenType font programs need PDF 1.6, newer than {} allows	Els programes de tipus de lletra OpenType necessiten PDF 1.6, més recent del que permet {}
 	Open…	Obre…
-	Optical resolution {x} × {y} dpi.	Optical resolution {x} × {y} dpi.
+	Optical resolution {x} × {y} dpi.	Resolució òptica {x} × {y} ppp.
 	Optimization cancelled	Optimització cancel·lada
 	Optimization is already running	L'optimització ja s'està executant
 	Optimize	Optimitza
@@ -2176,6 +2282,8 @@ animation effects	On	Activats
 	Optimizing… image {d} of {t}	Optimitzant… imatge {d} de {t}
 	Optimizing… merging identical objects	Optimitzant… combinant objectes idèntics
 	Optimizing… merging image fragments	S'està optimitzant… fusionant fragments d'imatge
+	Optimizing… reading page {d} of {t}	S'està optimitzant… llegint la pàgina {d} de {t}
+	Optimizing… reading the pages	S'està optimitzant… llegint les pàgines
 	Optimizing… removing user data	Optimitzant… eliminant les dades d'usuari
 	Optimizing… writing the copy	Optimitzant… escrivint la còpia
 	Optional	Opcional
@@ -2185,12 +2293,12 @@ animation effects	On	Activats
 	Options for this reply	Opcions d'aquesta resposta
 	Options…	Opcions…
 	Orange	Taronja
-	Order · top calculates first	Order · top calculates first
+	Order · top calculates first	Ordre · el de dalt es calcula primer
 	Organization Name	Nom de l'organització
 	Organizational Unit	Unitat organitzativa
 	Organize	Organitza
 	Organize pages	Organitza pàgines
-	Orientation	Orientation
+	Orientation	Orientació
 	Orientation:	Orientació:
 	Original	Original
 	Original: replace pages	Original: substitueix les pàgines
@@ -2198,7 +2306,7 @@ animation effects	On	Activats
 	Other colour…	Un altre color…
 	Other elements alternate text	Text alternatiu d'altres elements
 	Other elements that require alternate text	Altres elements que requereixen text alternatiu
-	Other options	Other options
+	Other options	Altres opcions
 	Other provider (CSC API)	Un altre proveïdor (API CSC)
 	Other signatures remain, so the copy is saved as an update of the signed file: the removed signature stays in its earlier revision, where it can be recovered.	Queden altres signatures, de manera que la còpia es desa com a actualització del fitxer signat: la signatura eliminada es queda a la revisió anterior, d'on es pot recuperar.
 	Other signatures remain, so the removed one is still in the file's earlier revision; check the remaining signatures again.	Queden altres signatures, de manera que l'eliminada encara és a la revisió anterior del fitxer; torneu a comprovar les signatures que queden.
@@ -2216,6 +2324,7 @@ animation effects	On	Activats
 	Oval	Oval
 	Overlap:	Superposició:
 	Owner password (no restrictions apply)	Contrasenya del propietari (no s'aplica cap restricció)
+	PAGE	PÀGINA
 	Page	Pàgina
 	Page background	Fons de la pàgina
 	Page Content	Contingut de la pàgina
@@ -2233,15 +2342,21 @@ animation effects	On	Activats
 	Page Only	Només la pàgina
 	Page options	Opcions de pàgina
 	Page order:	Ordre de les pàgines:
+	Page Properties	Propietats de la pàgina
 	Page properties	Propietats de la pàgina
+	Page properties…	Propietats de la pàgina…
 	Page Range	Interval de pàgines
 	Page Range Options	Opcions de l'interval de pàgines
+	Page setup dialog is not available on this system.	El diàleg de configuració de la pàgina no està disponible en aquest sistema.
+	Page Setup…	Configuració de la pàgina…
 	Page size	Mida de la pàgina
 	Page Sizing & Handling	Mida i gestió de les pàgines
+	Page templates	Plantilles de pàgina
 	Page thumbnails	Miniatures de pàgina
 	Page thumbnails panel	Tauler de miniatures de pàgina
 	Page tools	Eines de pàgina
 	Page transitions	Transicions de pàgina
+	Page verified	Pàgina verificada
 	Page will not cause screen flicker	La pàgina no provocarà parpelleig de pantalla
 	Page {label}	Pàgina {label}
 	Page {n}	Pàgina {n}
@@ -2276,11 +2391,12 @@ animation effects	On	Activats
 	Pages per sheet:	Pàgines per full:
 	Pages selected	Pàgines seleccionades
 	Pages that are only pictures of text can't be read aloud or searched. Recognize text (OCR) to add a text layer.	Les pàgines que només són imatges de text no es poden llegir en veu alta ni cercar. Reconeix el text (OCR) per afegir-hi una capa de text.
-	Pages that couldn't be read: {n}	Pages that couldn't be read: {n}
+	Pages that couldn't be read: {n}	Pàgines que no s'han pogut llegir: {n}
 	Pages that use Type 3 fonts print as images, because Windows can close PdfCraft while printing them. The other pages print as usual.	Les pàgines que fan servir tipus de lletra Type 3 s'imprimeixen com a imatges, perquè Windows pot tancar PdfCraft mentre les imprimeix. Les altres pàgines s'imprimeixen com sempre.
 	Pages to Print	Pàgines per imprimir
 	Pages whose text couldn't be read: {n}. A match on them isn't listed.	Pàgines el text de les quals no s'ha pogut llegir: {n}. Les coincidències que hi hagi no es mostren.
 	Pages with links, comments or fields should tab in structure order. The fix sets each page's tab order to Use Document Structure.	Les pàgines amb enllaços, comentaris o camps haurien de tabular segons l'ordre de l'estructura. La correcció estableix l'ordre de tabulació de cada pàgina a Utilitza l'estructura del document.
+	Pages with renderable text are left alone and reported as skipped	Les pàgines amb text renderitzable es deixen com estan i s'indiquen com a omeses
 	Pages without a TrimBox	Pàgines sense TrimBox
 	Pages {pages} changed after the background was added, so their own white backdrops stay off. They look the same on white paper.	Les pàgines {pages} han canviat després d'afegir el fons, així que el seu propi farciment blanc continua desactivat. Es veuen igual sobre paper blanc.
 	Pages {pages} paint their own white backdrop, which would hide the background. Replace it	Les pàgines {pages} tenen el seu propi farciment blanc, que amagaria el fons. Substitueix-lo
@@ -2290,8 +2406,9 @@ animation effects	On	Activats
 	Panel layout could not be restored: {error}	No s'ha pogut restaurar la disposició dels taulers: {error}
 	Panel move was not applied: {error}	No s'ha aplicat el moviment del tauler: {error}
 	Panels	Taulers
+	Panning or auto-scrolling with the middle (wheel) button moves the page the other way.	En desplaçar la pàgina o fer desplaçament automàtic amb el botó central (la roda), la pàgina es mou en sentit contrari.
 	Paper:	Paper:
-	Paragraph spacing	Paragraph spacing
+	Paragraph spacing	Espaiat entre paràgrafs
 	Part of	Part de
 	Part of this page isn't shown: its content goes past the most PdfCraft draws for one page.	Part d'aquesta pàgina no es mostra: el seu contingut supera el màxim que PdfCraft dibuixa per a una pàgina.
 	Passed	Superada
@@ -2303,6 +2420,7 @@ animation effects	On	Activats
 	Password-protected	Protegit amb contrasenya
 	Paste	Enganxa
 	Paste after	Enganxa després
+	Paste bookmarks	Enganxa els marcadors
 	Paste comments	Enganxa els comentaris
 	Paste pages	Enganxa pàgines
 	Path	Traçat
@@ -2334,6 +2452,8 @@ animation effects	On	Activats
 	PdfCraft works offline. No telemetry, no account, and no cloud processing unless you add a provider.	PdfCraft funciona sense connexió. Sense telemetria, sense compte i sense processament al núvol tret que afegeixis un proveïdor.
 	PdfCraft {c} is up to date.	PdfCraft {c} està actualitzat.
 	PdfCraft {v} is available.	PdfCraft {v} està disponible.
+	PdfCraft's checks found no problems for {level}. This is not a validator result.	Les comprovacions de PdfCraft no han trobat cap problema per a {level}. Això no és el resultat d'un validador.
+	PdfCraft's checks now find no problems for {level}. This is not a validator result. Save to keep the changes.	Les comprovacions de PdfCraft ja no troben cap problema per a {level}. Això no és el resultat d'un validador. Desa per conservar els canvis.
 	PdfCraft's own	El de PdfCraft
 	People may need more time to respond. Check that nothing has a time limit.	És possible que les persones necessitin més temps per respondre. Comprova que res tingui un límit de temps.
 	Percentage	Percentatge
@@ -2343,7 +2463,7 @@ animation effects	On	Activats
 	Phone Number	Número de telèfon
 	Phone Numbers	Números de telèfon
 	Photo	Foto
-	Photometric	Photometric
+	Photometric	Fotomètric
 	Pick a tool in the quick bar, or type above.	Tria una eina a la barra ràpida o escriu a dalt.
 	Pictures cover pages {pages} (scans?), so the background won't show there.	Hi ha imatges que cobreixen les pàgines {pages} (escanejos?), així que el fons no s'hi veurà.
 	Pictures need alternate text that describes them, or must be marked decorative. Add alternate text to each figure.	Les imatges necessiten un text alternatiu que les descrigui, o s'han de marcar com a decoratives. Afegeix text alternatiu a cada figura.
@@ -2406,9 +2526,9 @@ animation effects	On	Activats
 	Press the new keys (Esc cancels)	Premeu les tecles noves (Esc cancel·la)
 	Prevent G-SYNC/FreeSync flicker (applies at next launch)	Evita el parpelleig de G-SYNC/FreeSync (en iniciar de nou)
 	Preview	Previsualitza
-	Preview is for the bed. Set a region in inches below, or leave it empty for the whole sheet.	Preview is for the bed. Set a region in inches below, or leave it empty for the whole sheet.
+	Preview is for the bed. Set a region in inches below, or leave it empty for the whole sheet.	La previsualització és per al vidre. Defineix a sota una regió en polzades, o deixa-la buida per a tot el full.
 	Preview unavailable: {e}	Previsualització no disponible: {e}
-	Preview uses the bed. Switch the source to Bed, or scan without a preview.	Preview uses the bed. Switch the source to Bed, or scan without a preview.
+	Preview uses the bed. Switch the source to Bed, or scan without a preview.	La previsualització fa servir el vidre. Canvia l'origen a Vidre, o escaneja sense previsualització.
 	Preview: page {p} of {n}	Previsualització: pàgina {p} de {n}
 	Previous	Anterior
 	Previous ({key})	Anterior ({key})
@@ -2419,8 +2539,10 @@ animation effects	On	Activats
 	Previous page	Pàgina anterior
 	Previous sheet	Full anterior
 	Previous tab	Pestanya anterior
+	Previous uncertain	Dubtosa anterior
 	Previous view	Visualització anterior
 	Primary language	Idioma principal
+	Primary only	Només el motor principal
 	Print	Imprimeix
 	Print ({key})	Imprimeix ({key})
 	Print (⌘P)	Imprimeix (⌘P)
@@ -2428,6 +2550,7 @@ animation effects	On	Activats
 	Print as image	Imprimeix com a imatge
 	Print in grayscale	Imprimeix en escala de grisos
 	Print page border	Imprimeix la vora de la pàgina
+	Print pages	Imprimeix les pàgines
 	Print production	Producció d'impressió
 	Print single-sided. Keep the sheets in order, cut at the marks, then stack the piles left to right, top to bottom.	Imprimeix a una cara. Mantén els fulls en ordre, talla per les marques i apila els munts d'esquerra a dreta i de dalt a baix.
 	Print, NextPage, PrevPage, FirstPage or LastPage	Print, NextPage, PrevPage, FirstPage o LastPage
@@ -2435,7 +2558,7 @@ animation effects	On	Activats
 	Printed with errors	Impresa amb errors
 	Printed with warnings	Impresa amb advertiments
 	Printer address:	Adreça de la impressora:
-	Printer default	Printer default
+	Printer default	Per defecte de la impressora
 	printer marks	marques d'impressora
 	Printer marks added	S'han afegit les marques d'impressora
 	Printer orientation:	Orientació de la impressora:
@@ -2477,18 +2600,26 @@ certificate	Public key	Clau pública
 	Radio	Botó d'opció
 	Radio button	Botó d'opció
 	Radio Button Properties	Propietats del botó d'opció
+	Rating	Valoració
 	re-encoded in the target space; JPEGs stay JPEG	es recodifiquen a l'espai de destinació; els JPEG continuen sent JPEG
+	Re-OCR entire page	Torna a fer l'OCR de tota la pàgina
+	Re-OCR this region	Torna a fer l'OCR d'aquesta regió
+	Re-reading the page…	S'està tornant a llegir la pàgina…
+	Re-reading the region…	S'està tornant a llegir la regió…
 	Re-type Password	Torna a escriure la contrasenya
 	Read	Llegeix
 	Read and comment	Llegir i comentar
 	Read mode	Mode de lectura
 	Read Only	Només lectura
+	Read {n} words on {m} of {t} pages	S'han llegit {n} paraules en {m} de {t} pàgines
 	Reading colours	Colors de lectura
-	Reading file {n} of {total}: {name}	Reading file {n} of {total}: {name}
-	Reading the printer's settings…	Reading the printer's settings…
-	Reads {names}, which read it back. No order can fix a loop: change one of the formulas.	Reads {names}, which read it back. No order can fix a loop: change one of the formulas.
-	Reads {name}, which calculates later, so it shows an old value.	Reads {name}, which calculates later, so it shows an old value.
-	Reads {name}, which the form doesn't have, so it gets no value there.	Reads {name}, which the form doesn't have, so it gets no value there.
+	Reading file {n} of {total}: {name}	S'està llegint el fitxer {n} de {total}: {name}
+	Reading the drawing for snapping…	S'està llegint el dibuix per a l'ajust…
+	Reading the printer's settings…	S'està llegint la configuració de la impressora…
+	Reads pages and files even where the skip options would leave them alone	Llegeix pàgines i fitxers fins i tot quan les opcions d'omissió els deixarien com estan
+	Reads {names}, which read it back. No order can fix a loop: change one of the formulas.	Llegeix {names}, que alhora el llegeixen. Cap ordre pot resoldre un bucle: canvia una de les fórmules.
+	Reads {name}, which calculates later, so it shows an old value.	Llegeix {name}, que es calcula més tard, de manera que mostra un valor antic.
+	Reads {name}, which the form doesn't have, so it gets no value there.	Llegeix {name}, que el formulari no té, de manera que no n'obté cap valor.
 	Ready	Llest
 	Real name	Nom real
 	Reason	Motiu
@@ -2497,7 +2628,7 @@ certificate	Public key	Clau pública
 	Reassign	Reassigna
 	Recent	Recents
 	Recent colours	Colors recents
-	Recent files to keep	Recent files to keep
+	Recent files to keep	Fitxers recents que es conserven
 	Recipients	Destinataris
 	Recognize scanned text automatically	Reconeix automàticament el text escanejat
 	Recognize Text	Reconeixement de text
@@ -2507,6 +2638,8 @@ certificate	Public key	Clau pública
 	Recognize Text…	Reconeix el text…
 	Recognize text…	Reconeix el text…
 	Recognized 1 word	S'ha reconegut 1 paraula
+	Recognized text	Text reconegut
+	Recognized text applied ({n} words, one undoable step)	S'ha aplicat el text reconegut ({n} paraules, un sol pas que es pot desfer)
 	Recognized {n} words	S'han reconegut {n} paraules
 	Recognized {w} words in 1 file	S'han reconegut {w} paraules en 1 fitxer
 	Recognized {w} words in {n} files	S'han reconegut {w} paraules en {n} fitxers
@@ -2537,12 +2670,14 @@ certificate	Public key	Clau pública
 	Reduce file size	Redueix la mida del fitxer
 	Reduce file size…	Redueix la mida del fitxer…
 	Reference point: {point} (Tab: next)	Punt de referència: {point} (Tab: següent)
-	Reflowable	Reflowable
+	Reflowable	Adaptable
 	Refresh	Actualitza
-	Refresh lists scanners. It does not feed paper.	Refresh lists scanners. It does not feed paper.
-	Region in inches. Leave the width or the height at zero to scan the whole area.	Region in inches. Leave the width or the height at zero to scan the whole area.
+	Refresh lists scanners. It does not feed paper.	Actualitza llista els escàners. No alimenta paper.
+	Region in inches. Leave the width or the height at zero to scan the whole area.	Regió en polzades. Deixa l'amplada o l'alçada a zero per escanejar tota l'àrea.
 	Registration marks	Marques de registre
 	Regularity	Regularitat
+	Reject	Rebutja
+	Reject entire page	Rebutja tota la pàgina
 	Rejected	Rebutjat
 	Reliable character encoding is provided	Es proporciona una codificació de caràcters fiable
 	Reload	Torna a carregar
@@ -2560,6 +2695,7 @@ certificate	Public key	Clau pública
 	Remove checkmark	Elimina la marca de verificació
 	Remove Crop	Elimina l’escapçat
 	Remove crop	Elimina el retall
+	Remove from hotbar	Treu de la barra d'accés ràpid
 	Remove from Recent	Elimina dels recents
 	Remove header & footer	Elimina la capçalera i el peu de pàgina
 	Remove hidden information	Elimina la informació oculta
@@ -2572,6 +2708,7 @@ certificate	Public key	Clau pública
 	Remove printer marks	Elimina les marques d'impressora
 	Remove redaction marks	Elimina les marques de censura
 	Remove saved {what}	Elimina {what} desats
+	Remove scan speckle	Elimina les taques de l'escaneig
 	Remove security	Elimina la seguretat
 	Remove security?	Voleu eliminar la seguretat?
 	Remove Signature	Elimina la signatura
@@ -2590,7 +2727,8 @@ certificate	Public key	Clau pública
 	Remove {name} from Recent	Elimina {name} dels recents
 	Remove {n} files	Elimina {n} fitxers
 	Remove {n} pages	Elimina {n} pàgines
-	Remove {standard} identification	Remove {standard} identification
+	Remove {standard} identification	Elimina la identificació de {standard}
+	removed	eliminada
 	Removed 1 hidden item. Save to remove them from the file.	S'ha eliminat 1 element ocult. Desa per eliminar-lo del fitxer.
 	Removed 1 link	S'ha eliminat 1 enllaç
 	Removed the signature {field} and kept its empty field	S'ha eliminat la signatura {field} i s'ha mantingut el camp buit
@@ -2598,6 +2736,7 @@ certificate	Public key	Clau pública
 	Removed the visual signature on page {p}	S'ha eliminat la signatura visual de la pàgina {p}
 	Removed {n} hidden items. Save to remove them from the file.	S'han eliminat {n} elements ocults. Desa per eliminar-los del fitxer.
 	Removed {n} links	S'han eliminat {n} enllaços
+	Removes isolated dark specks such as dust and scanner noise. The only filter black and white scans take.	Elimina taques fosques aïllades, com ara pols i soroll de l'escàner. És l'únic filtre que admeten els escanejats en blanc i negre.
 	Removing the background puts the page's own backdrop back.	En eliminar el fons, es restaura el farciment blanc propi de la pàgina.
 	Removing this signature changes the document and invalidates this signature in the version that results. It can affect the other signatures and certifications. The original file is kept as it is.	Eliminar aquesta signatura canvia el document i la invalida a la versió resultant. Pot afectar les altres signatures i certificacions. El fitxer original es manté tal com és.
 	Removing this signature changes the document and invalidates this signature in the version that results. The original file is kept as it is.	Eliminar aquesta signatura canvia el document i la invalida a la versió resultant. El fitxer original es manté tal com és.
@@ -2613,6 +2752,7 @@ certificate	Public key	Clau pública
 	Reopen the files that were open when PdfCraft last closed	Reobre els fitxers que eren oberts l'última vegada que es va tancar PdfCraft
 	Repair log	Registre de reparacions
 	Repairs	Reparacions
+	Repeat	Repeteix
 	Repeat on pages	Repeteix a les pàgines
 	Repeat overlay text	Repeteix el text superposat
 	Repeated navigation links should be skippable. Check links that appear on every page.	Els enllaços de navegació repetits haurien de poder-se ometre. Revisa els enllaços que apareixen a totes les pàgines.
@@ -2652,9 +2792,10 @@ review-suggestion	Replacement text	Text de substitució
 	Reset columns	Restableix les columnes
 	Reset page size	Restableix la mida de la pàgina
 	Reset panel layout	Restableix la disposició dels taulers
-	Reset to Initial Visibility	Reset to Initial Visibility
+	Reset side panels	Restableix els taulers laterals
+	Reset to Initial Visibility	Restableix la visibilitat inicial
 	Reset to printer defaults	Restableix els valors per defecte de la impressora
-	Reshape comment	Reshape comment
+	Reshape comment	Canvia la forma del comentari
 	Resize comment	Canvia la mida del comentari
 	Resize object	Canvia la mida de l'objecte
 	Resize panel window	Canvia la mida de la finestra del tauler
@@ -2679,9 +2820,9 @@ review-suggestion	Replacement text	Text de substitució
 	Reverse open arrow	Fletxa oberta inversa
 	Reverse pages	Inverteix les pàgines
 	Reverse portrait	Vertical invertit
-	reverse side(s)	reverse side(s)
-	Reverse sides	Reverse sides
-	Reverse sides interleaved.	Reverse sides interleaved.
+	reverse side(s)	revers(os)
+	Reverse sides	Reversos
+	Reverse sides interleaved.	Reversos intercalats.
 	Reverse the order	Inverteix l'ordre
 	Revert	Reverteix
 	Revert changes	Reverteix els canvis
@@ -2728,6 +2869,7 @@ review-suggestion	Replacement text	Text de substitució
 	Rotate:	Gira:
 	Rotation	Rotació
 	Rotation:	Rotació:
+	ROVER vote	Vot ROVER
 	Row spacing	Espai entre files
 	Rows	Files
 	rows both directly in it and in THead, TBody or TFoot	files tant directament dins seu com dins de THead, TBody o TFoot
@@ -2739,6 +2881,7 @@ review-suggestion	Replacement text	Text de substitució
 	Run a JavaScript	Executa un JavaScript
 	Run form script	Executa l'script del formulari
 	Run JavaScript	Executa JavaScript
+	Run OCR	Executa l'OCR
 	Running action… file {d} of {t}	Executant l'acció… fitxer {d} de {t}
 	Runs the Accessibility Checker's rules	Executa les regles del verificador d'accessibilitat
 calendar weekday	Sa	ds.
@@ -2753,6 +2896,7 @@ calendar weekday	Sa	ds.
 	Sanitize Documents	Neteja els documents
 	Sanitize document…	Neteja el document…
 	Sanitizing removes hidden information from the document: metadata, file attachments, comments, form fields (flattened), hidden text and layers, bookmarks, links, actions and scripts, and private application data.	La neteja elimina la informació oculta del document: metadades, fitxers adjunts, comentaris, camps de formulari (aplanats), text i capes ocults, marcadors, enllaços, accions i scripts, i dades privades d'aplicacions.
+	Sauvola binarization: ink to black, paper to white	Binarització de Sauvola: la tinta a negre, el paper a blanc
 	Save	Desa
 	Save & Close	Desa i tanca
 	Save (M4)	Desa (M4)
@@ -2816,27 +2960,28 @@ calendar weekday	Sa	ds.
 	Scan & OCR	Escaneig i OCR
 	Scan and text recognition	Escaneig i reconeixement de text
 	Scan correction	Correcció de l'escaneig
-	Scan interrupted	Scan interrupted
+	Scan interrupted	Escaneig interromput
 	Scan processing cancelled	S'ha cancel·lat el processament de l'escaneig
-	Scan reverse side now (1 front)	Scan reverse side now (1 front)
-	Scan reverse sides	Scan reverse sides
-	Scan reverse sides now ({n} fronts)	Scan reverse sides now ({n} fronts)
-	Scan the front, flip the sheet on the bed, then scan the reverse side.	Scan the front, flip the sheet on the bed, then scan the reverse side.
-	Scan the fronts before the reverse sides.	Scan the fronts before the reverse sides.
-	Scan the fronts, flip the stack (last sheet on top), then scan the reverse sides. Pages are interleaved front, back, …	Scan the fronts, flip the stack (last sheet on top), then scan the reverse sides. Pages are interleaved front, back, …
-	Scan the missing reverse sides, then choose Finish.	Scan the missing reverse sides, then choose Finish.
+	Scan reverse side now (1 front)	Escaneja el revers ara (1 anvers)
+	Scan reverse sides	Escaneja els reversos
+	Scan reverse sides now ({n} fronts)	Escaneja els reversos ara ({n} anversos)
+	Scan the front, flip the sheet on the bed, then scan the reverse side.	Escaneja l'anvers, gira el full sobre el vidre i després escaneja el revers.
+	Scan the fronts before the reverse sides.	Escaneja els anversos abans que els reversos.
+	Scan the fronts, flip the stack (last sheet on top), then scan the reverse sides. Pages are interleaved front, back, …	Escaneja els anversos, gira la pila (l'últim full a dalt) i després escaneja els reversos. Les pàgines s'intercalen anvers, revers, …
+	Scan the missing reverse sides, then choose Finish.	Escaneja els reversos que falten i després tria Finalitza.
+	Scanned pages are already being enhanced	Ja s'estan millorant les pàgines escanejades
 	scanned text	text escanejat
 	Scanned text detected	S'ha detectat text escanejat
-	Scanner	Scanner
-	Scanner settings	Scanner settings
-	Scanning front {n} of {t}…	Scanning front {n} of {t}…
-	Scanning front {n}…	Scanning front {n}…
-	Scanning needs Windows (WIA) in this version.	Scanning needs Windows (WIA) in this version.
-	Scanning page {n} of {t}…	Scanning page {n} of {t}…
-	Scanning page {n}…	Scanning page {n}…
-	Scanning reverse side {n} of {t}…	Scanning reverse side {n} of {t}…
-	Scanning reverse side {n}…	Scanning reverse side {n}…
-	Scanning…	Scanning…
+	Scanner	Escàner
+	Scanner settings	Configuració de l'escàner
+	Scanning front {n} of {t}…	S'està escanejant l'anvers {n} de {t}…
+	Scanning front {n}…	S'està escanejant l'anvers {n}…
+	Scanning needs Windows (WIA) in this version.	En aquesta versió, l'escaneig necessita Windows (WIA).
+	Scanning page {n} of {t}…	S'està escanejant la pàgina {n} de {t}…
+	Scanning page {n}…	S'està escanejant la pàgina {n}…
+	Scanning reverse side {n} of {t}…	S'està escanejant el revers {n} de {t}…
+	Scanning reverse side {n}…	S'està escanejant el revers {n}…
+	Scanning…	S'està escanejant…
 	Screen flicker	Parpelleig de pantalla
 	Screen readers choose their voice from the document's language. Set it in Document Properties > Advanced > Language.	Els lectors de pantalla trien la veu segons l'idioma del document. Defineix-lo a Propietats del document > Avançat > Idioma.
 	Script	Script
@@ -2852,21 +2997,23 @@ calendar weekday	Sa	ds.
 	Scroll tabs right	Desplaça les pestanyes cap a la dreta
 	Scroll the page	Desplaça la pàgina
 	Search	Cerca
-	Search a folder	Search a folder
-	Search a folder…	Search a folder…
+	Search a folder	Cerca en una carpeta
+	Search a folder…	Cerca en una carpeta…
+	Search all tools…	Cerca a totes les eines…
 	Search comments	Cerca comentaris
 	Search panel	Tauler de cerca
 	Search results	Resultats de la cerca
+	Search settings…	Cerca a la configuració…
 	Search tools and commands	Cerca eines i ordres
 	Search tools and commands…	Cerca eines i ordres…
 	Search tools…	Cerca eines…
 	Searchable Image	Imatge amb text cercable
 	Searchable Image (Exact)	Imatge amb text cercable (exacte)
-	Searching a folder needs the desktop app	Searching a folder needs the desktop app
+	Searching a folder needs the desktop app	Per cercar en una carpeta cal l'aplicació d'escriptori
 	Searching… {s} of {p} pages	Cercant… {s} de {p} pàgines
 	Searching… {s}/{p}	Cercant… {s}/{p}
 	Search…	Cerca…
-	Secured	Secured
+	Secured	Protegit
 	Security	Seguretat
 	Security handler	Gestor de seguretat
 	Security method	Mètode de seguretat
@@ -2883,6 +3030,7 @@ calendar weekday	Sa	ds.
 	Select a placed signature first	Selecciona primer una signatura col·locada
 	Select a text box or an image first	Selecciona primer un quadre de text o una imatge
 	Select a word	Selecciona una paraula
+	Select a word on the page to inspect it	Selecciona una paraula de la pàgina per inspeccionar-la
 	Select Action:	Selecciona l'acció:
 	Select All	Selecciona-ho tot
 	Select all	Selecciona-ho tot
@@ -2905,8 +3053,10 @@ calendar weekday	Sa	ds.
 	Selected image files: {count}	Fitxers d'imatge seleccionats: {count}
 	Selected pages	Pàgines seleccionades
 	Selection	Selecció
+	Selects paper size and orientation from the printer driver. For paper tray, print quality or other driver defaults, use Properties…	Selecciona la mida i l'orientació del paper des del controlador de la impressora. Per a la safata de paper, la qualitat d'impressió o altres valors per defecte del controlador, fes servir Propietats…
 	Self-signed	Autosignat
 certificate	Self-signed	Autosignat
+	Send	Envia
 	Send backward	Ressegueix un nivell
 	Send by email…	Envia per correu electrònic…
 	Send code	Envia el codi
@@ -2920,8 +3070,8 @@ certificate	Self-signed	Autosignat
 	Sent to {printer}: {msg}	Enviat a {printer}: {msg}
 	Sent. The printer can't say whether it printed.	Enviat. La impressora no pot dir si ha imprès.
 	Separate PDFs	PDF separats
-	Separate the sheets and load the remaining ones, then choose Continue.	Separate the sheets and load the remaining ones, then choose Continue.
-	Separate the sheets and load them again, then choose Try again.	Separate the sheets and load them again, then choose Try again.
+	Separate the sheets and load the remaining ones, then choose Continue.	Separa els fulls i carrega els restants, i després tria Continua.
+	Separate the sheets and load them again, then choose Try again.	Separa els fulls i torna'ls a carregar, i després tria Torna-ho a provar.
 	Separating page {n}…	S'està separant la pàgina {n}…
 	Separator style:	Estil del separador:
 	Sepia night	Sèpia nocturna
@@ -2935,7 +3085,7 @@ certificate	Serial number	Número de sèrie
 	Set Alternate Text	Defineix el text alternatiu
 	Set alternate text	Defineix el text alternatiu
 	Set bookmark destination	Defineix la destinació del marcador
-	Set calculation order	Set calculation order
+	Set calculation order	Defineix l'ordre de càlcul
 	Set document title	Defineix el títol del document
 	Set Fields to Same Size	Estableix els camps a la mateixa mida
 	Set layer visibility	Defineix la visibilitat de la capa
@@ -2960,7 +3110,8 @@ certificate	Serial number	Número de sèrie
 	Set Trapped to False	Estableix Trapped a False
 	Set Trapped to True	Estableix Trapped a True
 	Settings	Configuració
-	Settings this source offers. Leave a control alone to keep the driver’s value.	Settings this source offers. Leave a control alone to keep the driver’s value.
+	Settings this source offers. Leave a control alone to keep the driver’s value.	Opcions que ofereix aquest origen. No toquis un control per conservar el valor del controlador.
+	Several files have the same name, so their results would overwrite each other; nothing was written: {list}	Diversos fitxers tenen el mateix nom, de manera que els resultats se sobreescriurien entre si; no s'ha escrit res: {list}
 	SHA-1 digest	Resum SHA-1
 certificate	SHA-1 digest	Resum SHA-1
 	SHA-256 digest	Resum SHA-256
@@ -2973,6 +3124,7 @@ certificate	SHA-256 digest	Resum SHA-256
 	Sheets printed: {n}	Fulls impresos: {n}
 key	Shift	Maj
 	Shift constrains to 45 degrees. Backspace removes a vertex. Escape cancels.	Maj restringeix a 45 graus. Retrocés elimina un vèrtex. Esc cancel·la.
+	Shift+F8: the previous word to review	Maj+F8: la paraula anterior per revisar
 	Shift- or Ctrl/Command-click to select several fields.	Fes clic amb Maj o Ctrl/Ordre premuts per seleccionar diversos camps.
 	Shift-click to select several objects. Drag empty space to select an area.	Fes clic amb Maj per seleccionar diversos objectes. Arrossega per un espai buit per seleccionar una àrea.
 	ships in milestone {m}	arriba a la fita {m}
@@ -2992,13 +3144,17 @@ key	Shift	Maj
 	Show less	Mostra'n menys
 	Show line weights	Mostra els gruixos de línia
 	Show on other pages too	Mostra també a altres pàgines
-	Show on the page which fields each field reads	Show on the page which fields each field reads
+	Show on the page which fields each field reads	Mostra a la pàgina quins camps llegeix cada camp
+	Show or hide the side panel	Mostra o amaga el tauler lateral
+	Show or hide the Tools panel	Mostra o amaga el tauler d'eines
 	Show or hide toolbars and panels	Mostra o amaga les barres d'eines i els taulers
+	Show Page Edge Shadows	Mostra les ombres de les vores de la pàgina
 	Show password	Mostra la contrasenya
 	Show Report	Mostra l'informe
+	Show tab numbers	Mostra els números de pestanya
 	Show template {name}	Mostra la plantilla {name}
 	Show the accessibility report	Mostra l'informe d'accessibilitat
-	Show the current page number over the document	Show the current page number over the document
+	Show the current page number over the document	Mostra el número de la pàgina actual sobre el document
 	Show the Discord button in the title bar and the community card on Home	Mostra el botó de Discord a la barra de títol i la targeta de la comunitat a Inici
 	Show the menus in the macOS menu bar	Mostra els menús a la barra de menús del macOS
 	Show this dialog when the Checker starts	Mostra aquest diàleg quan s'iniciï el verificador
@@ -3007,7 +3163,7 @@ key	Shift	Maj
 	Show:	Mostra:
 	Shown while the pointer is over a mark.	Es mostra mentre el punter és sobre una marca.
 	Shrink oversized pages	Redueix les pàgines que no hi caben
-	Shrink the page content to make room for the header and footer	Shrink the page content to make room for the header and footer
+	Shrink the page content to make room for the header and footer	Redueix el contingut de la pàgina per fer lloc a la capçalera i el peu de pàgina
 	Side by side	Un al costat de l'altre
 	Side panels	Taulers laterals
 	Sign	Signa
@@ -3059,12 +3215,15 @@ key	Shift	Maj
 	Single Page Continuous	Pàgina única contínua
 	Single word or phrase	Una sola paraula o frase
 	Size	Mida
+	Skip files that already have text	Omet els fitxers que ja tenen text
+	Skip pages that already have text	Omet les pàgines que ja tenen text
 	Skip Rule	Omet la regla
+	skipped	omesa
 	Skipped	Omesa
 	Slash	Barra inclinada
 scroll speed	Slow	Lenta
 	Smaller pages	Pàgines més petites
-	Smaller thumbnails	Smaller thumbnails
+	Smaller thumbnails	Miniatures més petites
 	Smart card  ·  	Targeta intel·ligent  ·  
 	Snap targets	Objectius d'ajust
 	Snap to drawing	Ajusta al dibuix
@@ -3077,7 +3236,7 @@ scroll speed	Slow	Lenta
 	Solid	Contínua
 	Some bookmarks are not shown here: the panel lists a limited number, nested a limited depth.	Alguns marcadors no es mostren aquí: el tauler en llista un nombre limitat, imbricats fins a una profunditat limitada.
 	Some content could not be classified safely and was kept in the count.	Part del contingut no s'ha pogut classificar amb seguretat i s'ha mantingut al recompte.
-	Some names are built as it runs	Some names are built as it runs
+	Some names are built as it runs	Alguns noms es construeixen mentre s'executa
 	Some page content couldn't be read; snapping uses the rest.	Part del contingut de la pàgina no s'ha pogut llegir; l'ajust utilitza la resta.
 	Some pages contain no countable text. Scanned images need OCR first.	Algunes pàgines no tenen text comptable. Les imatges escanejades necessiten OCR abans.
 	Sort	Ordena
@@ -3087,6 +3246,7 @@ scroll speed	Slow	Lenta
 	sorted ascending	ordenat de manera ascendent
 	sorted descending	ordenat de manera descendent
 	Source	Origen
+	Source page	Pàgina d'origen
 key	Space	Espai
 	Space Audit	Auditoria d'espai
 	spans two paragraphs	abasta dos paràgrafs
@@ -3124,17 +3284,22 @@ action wizard	Start	Inicia
 	Start page number	Número de pàgina inicial
 	Status	Estat
 	Steps	Passos
+	Stick to a side:	Fixa a un costat:
 	Sticky note	Nota adhesiva
+	still checking whether the tesseract program can run; try again in a moment	encara s'està comprovant si el programa tesseract es pot executar; torna-ho a provar d'aquí a un moment
 	Still printing; the job continues on the printer	Encara s'imprimeix; la feina continua a la impressora
 	Still rendering — this page is unusually complex…	Encara es renderitza — aquesta pàgina és inusualment complexa…
 	Still waiting for your email app…	Encara s'espera l'aplicació de correu…
-	Stop	Stop
-	Stopped at {limit} matches.	Stopped at {limit} matches.
-	Stopped before the end.	Stopped before the end.
-	Stopped: too many files took too long to read.	Stopped: too many files took too long to read.
+	Stop	Atura
+	Stopped at {limit} matches.	S'ha aturat en arribar a {limit} coincidències.
+	Stopped before the end.	S'ha aturat abans del final.
+	Stopped: too many files took too long to read.	S'ha aturat: massa fitxers han trigat massa a llegir-se.
 	Store JPEG images as JPEG XL (smaller, can be undone; needs a reader that supports JPEG XL)	Desa les imatges JPEG com a JPEG XL (més petites, es pot desfer; cal un lector que admeti JPEG XL)
+	Straighten pages scanned sideways or upside down	Redreça les pàgines escanejades de costat o cap per avall
 	Straighten skewed scans	Redreça els escanejats inclinats
-	Straighten the page	Straighten the page
+	Straighten skewed text lines	Redreça les línies de text inclinades
+	Straighten the page	Redreça la pàgina
+	Straightens skewed text lines before reading	Redreça les línies de text inclinades abans de llegir
 	Strength: {s}	Fortalesa: {s}
 	Strikethrough	Ratllat
 	Strikethrough text	Ratlla el text
@@ -3147,26 +3312,29 @@ calendar weekday	Su	dg.
 	Subject	Assumpte
 certificate	Subject	Subjecte
 	Submit a form	Envia un formulari
-	Subscript	Subscript
+	Subscript	Subíndex
 	Subset	Subconjunt
 	Success	Èxit
 	Suggest edits	Suggereix canvis
+	Suggestions	Suggeriments
 	sum (+)	suma (+)
 	Summarize	Resumeix
 	Summarize comments	Resumeix els comentaris
 	Summarize Options	Opcions de resum
 	Summary	Resum
 	Summary: {errors} errors, {warnings} warnings, {info} information	Resum: {errors} errors, {warnings} avisos, {info} d'informació
-	Superscript	Superscript
+	Superscript	Superíndex
 	Swap width and height	Intercanvia l’amplada i l’alçada
 	Switch light / dark theme	Canvia el tema clar / fosc
-	Switch the scanner off and on again, wait until it is ready, then choose Continue.	Switch the scanner off and on again, wait until it is ready, then choose Continue.
-	Switch the scanner off and on again, wait until it is ready, then choose Try again.	Switch the scanner off and on again, wait until it is ready, then choose Try again.
+	Switch the scanner off and on again, wait until it is ready, then choose Continue.	Apaga l'escàner i torna'l a encendre, espera que estigui a punt i després tria Continua.
+	Switch the scanner off and on again, wait until it is ready, then choose Try again.	Apaga l'escàner i torna'l a encendre, espera que estigui a punt i després tria Torna-ho a provar.
 	Switch to List view to change the pages it takes.	Canvia a la visualització en llista per canviar les pàgines que utilitza.
 	Switch to two-page view first to show the cover page	Canvia primer a la visualització de dues pàgines per mostrar la portada
 	System	Sistema
+	System default	Per defecte del sistema
 	System font	Lletra del sistema
 	System print dialog…	Diàleg d'impressió del sistema…
+	Tab Order	Ordre de tabulació
 	Tab order	Ordre de tabulació
 	Tab order by columns	Ordre de tabulació per columnes
 	Tab order by rows	Ordre de tabulació per files
@@ -3234,15 +3402,17 @@ calendar weekday	Th	dj.
 	Thai and Arabic use regular fallback fonts when available.	El tailandès i l'àrab utilitzen tipus de lletra alternatius normals quan estan disponibles.
 	That didn't work: an internal error stopped it ({m}).	No ha funcionat: un error intern ho ha aturat ({m}).
 	That didn't work: an internal error stopped it ({m}). Your documents are unchanged.	Això no ha funcionat: un error intern l'ha aturat ({m}). Els teus documents no s'han modificat.
+	That is the source file; choose another destination	Aquest és el fitxer d'origen; tria una altra destinació
 	the area, the spacing and the column widths must be numbers, the spacing 0 or more and each width more than 0	l'àrea, l'espaiat i les amplades de les columnes han de ser nombres; l'espaiat, 0 o més, i cada amplada, més de 0
-	The bed scans one page at a time. Scan one front, flip it, then scan its reverse side.	The bed scans one page at a time. Scan one front, flip it, then scan its reverse side.
+	The bed scans one page at a time. Scan one front, flip it, then scan its reverse side.	El vidre escaneja una pàgina cada vegada. Escaneja un anvers, gira'l i després escaneja'n el revers.
 	The bleed is {} mm on its narrowest side	La sang fa {} mm al costat més estret
 	The bookmarks have no language: the document sets none (Lang)	Els marcadors no tenen idioma: el document no n'estableix cap (Lang)
-@plural	The calculation order has {n} entry that calculates nothing. Fix order removes it.|The calculation order has {n} entries that calculate nothing. Fix order removes them.	The calculation order has {n} entry that calculates nothing. Fix order removes it.|The calculation order has {n} entries that calculate nothing. Fix order removes them.
+	The built-in engine (pure Rust)	El motor integrat (Rust pur)
+@plural	The calculation order has {n} entry that calculates nothing. Fix order removes it.|The calculation order has {n} entries that calculate nothing. Fix order removes them.	L'ordre de càlcul té {n} entrada que no calcula res. Corregeix l'ordre l'elimina.|L'ordre de càlcul té {n} entrades que no calculen res. Corregeix l'ordre les elimina.
 	The catalog has no metadata stream (XMP)	El catàleg no té flux de metadades (XMP)
 	the certificate authorities	les autoritats de certificació
 	The certificate of {} does not allow this many CA certificates below it (path length), so it is not used to vouch for {}.	El certificat de {} no permet tants certificats de CA per sota seu (longitud de camí), de manera que no s'utilitza per avalar {}.
-	The certificate of {} has critical extensions PdfCraft does not recognize, so it is not used to vouch for {}.	The certificate of {} has critical extensions PdfCraft does not recognize, so it is not used to vouch for {}.
+	The certificate of {} has critical extensions PdfCraft does not recognize, so it is not used to vouch for {}.	El certificat de {} té extensions crítiques que PdfCraft no reconeix, de manera que no es fa servir per avalar {}.
 	The certificate of {} is not a CA certificate that may issue certificates, so it is not used to vouch for {}.	El certificat de {} no és un certificat de CA que pugui emetre certificats, de manera que no s'utilitza per avalar {}.
 	The certificate of {} was not valid at the time of signing, so it is not used to vouch for {}.	El certificat de {} no era vàlid en el moment de signar, de manera que no s'utilitza per avalar {}.
 	The check stopped unexpectedly.	La comprovació s'ha aturat de manera inesperada.
@@ -3255,6 +3425,7 @@ calendar weekday	Th	dj.
 	The clipboard holds no comments	El porta-retalls no conté comentaris
 	The copied comments are larger than this page; they were placed as they are	Els comentaris copiats són més grans que aquesta pàgina; s'han col·locat tal com són
 	The copy to attach couldn't be written: {e}	No s'ha pogut escriure la còpia per adjuntar: {e}
+	The creep moves the innermost sheet's pages too far for this many pages. Reduce Creep.	El desplaçament del plec mou massa les pàgines del full més interior per a aquest nombre de pàgines. Redueix Desplaçament del plec.
 	The default optional content configuration (D) has no Name	La configuració de contingut opcional per defecte (D) no té Name
 	The desktop portal's file chooser isn't running ({packages}). Check it with systemctl --user status {first}, or log out and back in.	El selector de fitxers del portal d'escriptori no s'està executant ({packages}). Comprova-ho amb systemctl --user status {first}, o tanca la sessió i torna a entrar.
 	The Dock shows it the next time PdfCraft opens.	El Dock la mostrarà la propera vegada que s'obri el PdfCraft.
@@ -3263,6 +3434,7 @@ calendar weekday	Th	dj.
 	The document changed while its margins were measured; nothing was cropped	El document ha canviat mentre se'n mesuraven els marges; no s'ha escapçat res
 	The document changed while you were choosing a file, so nothing was changed.	El document ha canviat mentre triaves un fitxer, de manera que no s'ha modificat res.
 	The document changed while you were editing field properties.	El document ha canviat mentre n'editaves les propietats dels camps.
+	The document changed. Reopen Document Properties to edit the current version.	El document ha canviat. Torna a obrir Propietats del document per editar la versió actual.
 	The document couldn't be prepared	No s'ha pogut preparar el document
 	The document doesn't say whether it is trapped (Trapped)	El document no indica si té reventats (Trapped)
 	The document has additional actions (/AA)	El document té accions addicionals (/AA)
@@ -3302,18 +3474,18 @@ calendar weekday	Th	dj.
 	The document's language (Lang) {} isn't a language tag	L'idioma del document (Lang) {} no és una etiqueta d'idioma
 	The document's security settings don't allow copying text and images	La configuració de seguretat del document no permet copiar text ni imatges
 	The document's security settings don't allow filling in form fields	La configuració de seguretat del document no permet omplir camps de formulari
-	The document's security settings don't allow printing	The document's security settings don't allow printing
+	The document's security settings don't allow printing	La configuració de seguretat del document no permet imprimir
 	The document's security settings don't allow this change	La configuració de seguretat del document no permet aquest canvi
-	The driver may accept a turn and leave the picture as it was.	The driver may accept a turn and leave the picture as it was.
-	The driver reports a paper jam.	The driver reports a paper jam.
-	The driver reports a sheet waiting. The bit can stay on after the tray is empty.	The driver reports a sheet waiting. The bit can stay on after the tray is empty.
+	The driver may accept a turn and leave the picture as it was.	El controlador pot acceptar un gir i deixar la imatge com estava.
+	The driver reports a paper jam.	El controlador indica un encallament de paper.
+	The driver reports a sheet waiting. The bit can stay on after the tray is empty.	El controlador indica que hi ha un full en espera. L'indicador pot quedar actiu després que la safata s'hagi buidat.
 	The ECDSA signature is not in canonical DER (trailing bytes, padding or a missing sign byte); it was read anyway.	La signatura ECDSA no està en DER canònic (bytes finals, farciment o byte de signe que falta); s'ha llegit igualment.
 	The ECDSA signature is the raw r and s values instead of a DER sequence; it was read anyway.	La signatura ECDSA són els valors r i s en brut en lloc d'una seqüència DER; s'ha llegit igualment.
 	The embedded timestamp token is valid and its authority is trusted; trusted time is {}.	El testimoni de marca de temps incrustat és vàlid i la seva autoritat és de confiança; l'hora de confiança és {}.
 	The existing action will be preserved.	Es conservarà l'acció existent.
 	The extracted pages aren't protected: the original's security settings don't carry over.	Les pàgines extretes no estan protegides: la configuració de seguretat de l'original no s'hi aplica.
-	The feeder ran out of paper.	The feeder ran out of paper.
-	The feeder took more than one sheet.	The feeder took more than one sheet.
+	The feeder ran out of paper.	L'alimentador s'ha quedat sense paper.
+	The feeder took more than one sheet.	L'alimentador ha agafat més d'un full.
 	The field properties could not be changed.	No s'han pogut canviar les propietats dels camps.
 	The field properties dialog is no longer open.	El diàleg de propietats dels camps ja no és obert.
 	The field {name} no longer exists.	El camp {name} ja no existeix.
@@ -3333,7 +3505,7 @@ calendar weekday	Th	dj.
 	The fonts PdfCraft writes with can't draw “{c}” ({code}), so it shows as ? in every PDF viewer. The text is saved.	Els tipus de lletra amb què escriu PdfCraft no poden dibuixar “{c}” ({code}), de manera que es mostra com a ? a tots els visors de PDF. El text es desa.
 	The form asks to be submitted to {u}; PdfCraft doesn't send form data. Save the document to keep your entries.	El formulari demana que s'enviï a {u}; PdfCraft no envia dades de formularis. Desa el document per conservar les dades introduïdes.
 	The form asks viewers to make appearances (NeedAppearances)	El formulari demana als visualitzadors que generin aparences (NeedAppearances)
-	The fronts already scanned are kept for the reverse-side pass.	The fronts already scanned are kept for the reverse-side pass.
+	The fronts already scanned are kept for the reverse-side pass.	Els anversos ja escanejats es conserven per a la passada dels reversos.
 	The historical model detects its supported scripts automatically; Japanese is not included.	El model històric detecta automàticament les escriptures que admet; el japonès no hi és inclòs.
 	The ICC profile {} isn't a CMYK profile, which PDF/X-1a needs	El perfil ICC {} no és un perfil CMYK, que és el que necessita PDF/X-1a
 	The ICC profile {} isn't a gray, RGB or CMYK profile	El perfil ICC {} no és un perfil de gris, RGB ni CMYK
@@ -3359,13 +3531,14 @@ calendar weekday	Th	dj.
 	The metadata has no title (dc:title)	Les metadades no tenen títol (dc:title)
 	The metadata has no {}	Les metadades no tenen {}
 	The metadata identifies the file as PDF/UA-{n}, not PDF/UA-{want}	Les metadades identifiquen el fitxer com a PDF/UA-{n}, no PDF/UA-{want}
-	the name is not a plain file name	the name is not a plain file name
+	the name is not a plain file name	el nom no és un nom de fitxer simple
 	The new file has no signature left and no earlier revision holding it.	El fitxer nou no té cap signatura ni cap revisió anterior que la contingui.
 	The newest {n} of {total} PDFs	Els {n} més recents de {total} PDF
 	The operation failed.	L'operació ha fallat.
-	The order saved in the PDF needs tidying	The order saved in the PDF needs tidying
+	The order saved in the PDF needs tidying	L'ordre desat al PDF s'ha d'endreçar
 	The originals are not changed. A file of the same name in the output folder is kept, and the new one gets a number.	Els originals no es modifiquen. Si la carpeta de sortida ja té un fitxer amb el mateix nom, es conserva i el nou rep un número.
 	The other signatures ({names}) will report that the document changed after they signed. Check them again: nothing says they stay valid.	Les altres signatures ({names}) indicaran que el document ha canviat després de signar-lo. Torneu-les a comprovar: res no garanteix que continuïn sent vàlides.
+	The output folder already holds files of these names; nothing was written: {list}	La carpeta de sortida ja conté fitxers amb aquests noms; no s'ha escrit res: {list}
 	The output folder can't be one of the folders being read, or contain one.	La carpeta de sortida no pot ser cap de les carpetes que es llegeixen ni contenir-ne cap.
 	The output intent's profile describes {} colour, but PDF/X-1a needs a CMYK printing condition	El perfil del propòsit de sortida descriu color {}, però PDF/X-1a necessita una condició d'impressió CMYK
 	The output intent's profile describes {} colour; it must be gray, RGB or CMYK	El perfil del propòsit de sortida descriu color {}; ha de ser gris, RGB o CMYK
@@ -3381,7 +3554,10 @@ calendar weekday	Th	dj.
 	The page has no BleedBox	La pàgina no té BleedBox
 	The page has no valid MediaBox	La pàgina no té cap MediaBox vàlida
 	The page is a transparency group	La pàgina és un grup de transparència
-	The pages already scanned were kept in the document.	The pages already scanned were kept in the document.
+	The page was read again; its words were replaced (undo in the panel)	S'ha tornat a llegir la pàgina; se n'han substituït les paraules (es pot desfer al tauler)
+	The page's words were applied as one undoable step ({n} words)	Les paraules de la pàgina s'han aplicat en un sol pas que es pot desfer ({n} paraules)
+	The page's words were cleared (undo in the panel)	S'han esborrat les paraules de la pàgina (es pot desfer al tauler)
+	The pages already scanned were kept in the document.	Les pàgines ja escanejades s'han conservat al document.
 	The pages use {} spot colours	Les pàgines fan servir {} colors plans
 	The pages were extracted but not deleted, because the document changed while you were choosing a folder.	Les pàgines s'han extret però no s'han suprimit, perquè el document ha canviat mentre triaves una carpeta.
 	the paragraph can't be rewritten	el paràgraf no es pot reescriure
@@ -3399,7 +3575,7 @@ calendar weekday	Th	dj.
 	The PDF/X output intent has no OutputConditionIdentifier	El propòsit de sortida PDF/X no té OutputConditionIdentifier
 	The PIN goes only to the card; PdfCraft doesn't keep it.	El PIN només va a la targeta; el PdfCraft no el desa.
 	The PIN is incorrect.	El PIN és incorrecte.
-	The preview could not be shown.	The preview could not be shown.
+	The preview could not be shown.	No s'ha pogut mostrar la previsualització.
 	The print job stopped unexpectedly	La feina d'impressió s'ha aturat de manera inesperada
 	The printer accepts none of the formats this document can be sent in	La impressora no accepta cap dels formats en què es pot enviar aquest document
 	The printer address was refused	S'ha rebutjat l'adreça de la impressora
@@ -3413,39 +3589,43 @@ calendar weekday	Th	dj.
 	The printer stopped the job	La impressora ha aturat la feina
 	The printer's reply couldn't be understood	No s'ha entès la resposta de la impressora
 	The provider's page didn't come back in time. Try again.	La pàgina del proveïdor no ha tornat a temps. Torneu-ho a provar.
+	The re-read was cancelled; the words are unchanged	S'ha cancel·lat la relectura; les paraules no han canviat
 	The redirect URI must be http://127.0.0.1 or http://localhost with a port.	L'URI de redirecció ha de ser http://127.0.0.1 o http://localhost amb un port.
+	The region was read again; its words were replaced (undo in the panel)	S'ha tornat a llegir la regió; se n'han substituït les paraules (es pot desfer al tauler)
 	The replacement file doesn't have that many pages.	El fitxer de substitució no té tantes pàgines.
 	the request stopped without an answer	la sol·licitud s'ha aturat sense resposta
 	The resolution of an image can't be measured	No es pot mesurar la resolució d'una imatge
-	The rest are left out of this list.	The rest are left out of this list.
+	The rest are left out of this list.	La resta queda fora d'aquesta llista.
 	The restrictions apply to recipients without “All permissions”. It's applied when you save.	Les restriccions s'apliquen als destinataris sense «Tots els permisos». S'apliquen en desar.
-	The reverse sides already scanned are kept.	The reverse sides already scanned are kept.
-	The reverse sides were cancelled: their document was closed.	The reverse sides were cancelled: their document was closed.
+	The reverse sides already scanned are kept.	Els reversos ja escanejats es conserven.
+	The reverse sides were cancelled: their document was closed.	S'han cancel·lat els reversos: se n'ha tancat el document.
 	The role map maps {} in a circle	El mapa de rols assigna {} en cercle
 	the rows are too short: make the area taller, or use fewer rows or less row spacing	les files són massa baixes: fes l'àrea més alta o fes servir menys files o menys espai entre files
 	The RSA signature value does not have the length of the key's modulus (leading zero bytes dropped or added); it was read anyway.	El valor de la signatura RSA no té la longitud del mòdul de la clau (s'han suprimit o afegit bytes zero inicials); s'ha llegit igualment.
 	The RSA signature's DigestInfo has no NULL parameter (older signers write it so); it was read anyway.	El DigestInfo de la signatura RSA no té el paràmetre NULL (els signants més antics l'escriuen així); s'ha llegit igualment.
 	The same password is tried on each file.	Es prova la mateixa contrasenya a cada fitxer.
-	The same printer is also available over the network.	The same printer is also available over the network.
-	The same printer is also available over USB.	The same printer is also available over USB.
-	The scan could not be started.	The scan could not be started.
-	The scan produced no pages.	The scan produced no pages.
-	The scan was cancelled at the scanner.	The scan was cancelled at the scanner.
-	The scan was interrupted.	The scan was interrupted.
-	The scan was stopped: its document was closed.	The scan was stopped: its document was closed.
-	The scanner has a paper jam.	The scanner has a paper jam.
-	The scanner is busy, or the feeder has no paper.	The scanner is busy, or the feeder has no paper.
-	The scanner is busy.	The scanner is busy.
-	The scanner is offline or needs attention.	The scanner is offline or needs attention.
-	The scanner list could not be refreshed.	The scanner list could not be refreshed.
-	The scanner needs attention.	The scanner needs attention.
-	The scanner reported a lamp or device error.	The scanner reported a lamp or device error.
-	The scanner reported a paper problem (a jam or several sheets fed together).	The scanner reported a paper problem (a jam or several sheets fed together).
-	The search stopped unexpectedly.	The search stopped unexpectedly.
+	The same printer is also available over the network.	La mateixa impressora també està disponible per la xarxa.
+	The same printer is also available over USB.	La mateixa impressora també està disponible per USB.
+	The scan could not be started.	No s'ha pogut iniciar l'escaneig.
+	The scan produced no pages.	L'escaneig no ha produït cap pàgina.
+	The scan was cancelled at the scanner.	L'escaneig s'ha cancel·lat des de l'escàner.
+	The scan was interrupted.	L'escaneig s'ha interromput.
+	The scan was stopped: its document was closed.	L'escaneig s'ha aturat: se n'ha tancat el document.
+	The scanner has a paper jam.	L'escàner té paper encallat.
+	The scanner is busy, or the feeder has no paper.	L'escàner està ocupat, o l'alimentador no té paper.
+	The scanner is busy.	L'escàner està ocupat.
+	The scanner is offline or needs attention.	L'escàner està desconnectat o necessita atenció.
+	The scanner list could not be refreshed.	No s'ha pogut actualitzar la llista d'escàners.
+	The scanner needs attention.	L'escàner necessita atenció.
+	The scanner reported a lamp or device error.	L'escàner ha indicat un error de la làmpada o del dispositiu.
+	The scanner reported a paper problem (a jam or several sheets fed together).	L'escàner ha indicat un problema amb el paper (un encallament o diversos fulls que han entrat junts).
+	The search stopped unexpectedly.	La cerca s'ha aturat inesperadament.
+	The searchable copies are written here under the source names	Les còpies amb text cercable s'escriuen aquí amb els noms d'origen
 	The security settings don't allow screen readers to read the text	La configuració de seguretat no permet que els lectors de pantalla llegeixin el text
 	The selected area has been copied ({w} × {h} pixels)	S'ha copiat l'àrea seleccionada ({w} × {h} píxels)
 	The selected area is no longer on a page of this document.	L'àrea seleccionada ja no és en cap pàgina d'aquest document.
 	The selected fields could not be found. Select them again.	No s'han trobat els camps seleccionats. Torna'ls a seleccionar.
+	The selected word is gone; choose another	La paraula seleccionada ja no hi és; tria'n una altra
 	The selection changed. Select the signature again.	La selecció ha canviat. Torna a seleccionar la signatura.
 	The session with {provider} has ended. Sign in again from Configure a Digital ID.	La sessió amb {provider} ha acabat. Torneu a iniciar la sessió des de Configura un identificador digital.
 	The signature algorithm and the SignerInfo's digest algorithm name different hashes; the signature was made with the SignerInfo's.	L'algorisme de signatura i l'algorisme de resum del SignerInfo indiquen resums diferents; la signatura es va fer amb el del SignerInfo.
@@ -3465,9 +3645,9 @@ calendar weekday	Th	dj.
 	The signature {names} locks this field.	La signatura {names} bloqueja aquest camp.
 	The signature's byte range does not exclude exactly its contents.	L'interval de bytes de la signatura no exclou exactament el seu contingut.
 	The signature's byte range does not match the file.	L'interval de bytes de la signatura no coincideix amb el fitxer.
-	The signature's signed attributes have no content type, which CMS requires; it was read anyway.	The signature's signed attributes have no content type, which CMS requires; it was read anyway.
-	The signature's signed attributes have no message digest, so the signature does not cover the document.	The signature's signed attributes have no message digest, so the signature does not cover the document.
-	The signature's signed attributes name a content type other than data, so it is not a signature of the document.	The signature's signed attributes name a content type other than data, so it is not a signature of the document.
+	The signature's signed attributes have no content type, which CMS requires; it was read anyway.	Els atributs signats de la signatura no tenen tipus de contingut, que CMS exigeix; s'ha llegit igualment.
+	The signature's signed attributes have no message digest, so the signature does not cover the document.	Els atributs signats de la signatura no tenen resum del missatge, de manera que la signatura no cobreix el document.
+	The signature's signed attributes name a content type other than data, so it is not a signature of the document.	Els atributs signats de la signatura indiquen un tipus de contingut que no és dades, de manera que no és una signatura del document.
 	The signature's timestamp token could not be verified ({}).	No s'ha pogut verificar el testimoni de marca de temps de la signatura ({}).
 	The signature's timestamp token does not cover the signature value.	El testimoni de marca de temps de la signatura no cobreix el valor de la signatura.
 	The signed content is a constructed (segmented) OCTET STRING, as BER allows; it was read anyway.	El contingut signat és un OCTET STRING construït (segmentat), com permet el BER; s'ha llegit igualment.
@@ -3495,10 +3675,13 @@ calendar weekday	Th	dj.
 	The standard fonts can't draw “{c}” ({code}). Only Western European characters can be added as text for now.	Els tipus de lletra estàndard no poden dibuixar “{c}” ({code}). De moment només es poden afegir com a text caràcters d'Europa occidental.
 	The standard structure type {} is mapped to a type that isn't standard	El tipus d'estructura estàndard {} s'assigna a un tipus que no és estàndard
 	The structure type {} isn't standard and isn't mapped to a standard type	El tipus d'estructura {} no és estàndard i no s'assigna a cap tipus estàndard
+	the tesseract engine is not available in the web build	el motor tesseract no està disponible a la versió web
+	the tesseract program was not found (install it, or add it to the PATH)	no s'ha trobat el programa tesseract (instal·la'l o afegeix-lo al PATH)
+	The tesseract program, run as an external process	El programa tesseract, executat com a procés extern
 	The text is the same	El text és el mateix
 	the text recognition models are not installed (reinstall PdfCraft, or set PDFCRAFT_MODELS to the folder that holds them)	els models de reconeixement de text no estan instal·lats (reinstal·la PdfCraft o defineix PDFCRAFT_MODELS amb la carpeta que els conté)
 	The text reflows to the reader's screen and font size, in chapters, with the bookmarks as the contents.	El text s'adapta a la pantalla i a la mida de lletra del lector, en capítols, amb els marcadors com a contingut.
-	The timestamp authority's certificate is not issued for time stamping.	The timestamp authority's certificate is not issued for time stamping.
+	The timestamp authority's certificate is not issued for time stamping.	El certificat de l'autoritat de marques de temps no s'ha emès per al segellat de temps.
 	The timestamp authority's certificate was not valid at the time of timestamping.	El certificat de l'autoritat de marca de temps no era vàlid en el moment de marcar el temps.
 	The timestamp contents are not hexadecimal.	El contingut de la marca de temps no és hexadecimal.
 	The timestamp has no valid byte range.	La marca de temps no té un interval de bytes vàlid.
@@ -3538,6 +3721,7 @@ calendar weekday	Th	dj.
 	There is no PDF/X output intent (GTS_PDFX)	No hi ha cap propòsit de sortida PDF/X (GTS_PDFX)
 	These files can't be read, so they won't be in the combined PDF:	Aquests fitxers no es poden llegir, de manera que no apareixeran al PDF combinat:
 	These objects could not be moved. Select them again and try a smaller move.	No s'han pogut moure aquests objectes. Torna'ls a seleccionar i prova amb un moviment més petit.
+	thick	gruixut
 	Thick	Gruixuda
 	Thickness	Gruix
 	Thin	Fina
@@ -3568,6 +3752,7 @@ calendar weekday	Th	dj.
 	This document has no signature that can be removed.	Aquest document no té cap signatura que es pugui eliminar.
 	This document has no signatures.	Aquest document no té signatures.
 	This document has no tagged figures.	Aquest document no té figures etiquetades.
+	This document has no text to make bookmarks from.	Aquest document no té text a partir del qual crear marcadors.
 	This document has no {kind} to change	Aquest document no té cap {kind} per canviar
 	This document has not been modified since this signature was applied.	Aquest document no s'ha modificat des que es va aplicar aquesta signatura.
 	This document has not been modified since this timestamp was applied.	Aquest document no s'ha modificat des que es va aplicar aquesta marca de temps.
@@ -3591,7 +3776,7 @@ calendar weekday	Th	dj.
 	This file is already as small as it can be made ({size}). No copy was saved.	Aquest fitxer ja és tan petit com es pot fer ({size}). No s'ha desat cap còpia.
 	this file isn't XFDF, FDF, XML or text form data	aquest fitxer no és de dades de formulari XFDF, FDF, XML ni de text
 	This file was damaged and has been repaired. Saving keeps the repaired version.	Aquest fitxer estava malmès i s'ha reparat. En desar, es conserva la versió reparada.
-	This folder is too large or too deep to search all of it.	This folder is too large or too deep to search all of it.
+	This folder is too large or too deep to search all of it.	Aquesta carpeta és massa gran o massa profunda per cercar-hi del tot.
 	This folder isn't available right now. It may have moved, or its drive or cloud sync is offline.	Aquesta carpeta no està disponible ara mateix. Pot haver-se mogut, o la seva unitat o la sincronització al núvol no té connexió.
 	This form also contains XFA data, which PdfCraft doesn't read yet. You can fill its fields, but Acrobat may show the XFA values instead.	Aquest formulari també conté dades XFA, que PdfCraft encara no llegeix. Pots emplenar-ne els camps, però Acrobat pot mostrar els valors XFA.
 	This form has too many fields, or a field name too long, for PdfCraft to read them all. Any signature among the rest is not listed, so the document is treated as signed.	Aquest formulari té massa camps, o un nom de camp massa llarg, perquè PdfCraft els pugui llegir tots. Cap signatura d'entre la resta no apareix a la llista, de manera que el document es tracta com a signat.
@@ -3602,7 +3787,7 @@ calendar weekday	Th	dj.
 	This is the last PDF in its folder	Aquest és l'últim PDF de la carpeta
 	This key is used for “{what}” and can't be changed.	Aquesta tecla s'utilitza per a «{what}» i no es pot canviar.
 	This key moves around the interface on its own. Add Ctrl to use it.	Aquesta tecla mou per la interfície tota sola. Afegiu-hi Ctrl per fer-la servir.
-	This large file is being read from disk to save memory, so it can't be edited, filled in or signed yet.	This large file is being read from disk to save memory, so it can't be edited, filled in or signed yet.
+	This large file is being read from disk to save memory, so it can't be edited, filled in or signed yet.	Aquest fitxer gran es llegeix del disc per estalviar memòria, de manera que encara no es pot editar, emplenar ni signar.
 	This measurement needs at least {n} points.	Aquesta mesura necessita almenys {n} punts.
 	This page contains objects that cannot be selected together.	Aquesta pàgina conté objectes que no es poden seleccionar junts.
 	This page couldn't be displayed.\n{e}	No s'ha pogut mostrar aquesta pàgina.\n{e}
@@ -3619,15 +3804,16 @@ calendar weekday	Th	dj.
 	This printer only prints in black and white.	Aquesta impressora només imprimeix en blanc i negre.
 	This printer only prints one-sided.	Aquesta impressora només imprimeix a una cara.
 	This printer's driver doesn't take two-sided settings from other programs, so its own setting applies. Change it in Properties…	El controlador d'aquesta impressora no accepta la configuració de doble cara d'altres programes, de manera que s'aplica la seva pròpia configuració. Canvia-la a Propietats…
+	This script is too long to edit here ({kib} KiB); its start is shown. It is kept as it is.	Aquest script és massa llarg per editar-lo aquí ({kib} KiB); se'n mostra el començament. Es conserva tal com està.
 	this signature can't be removed on its own	aquesta signatura no es pot eliminar tota sola
-	This signature uses an RSA key shorter than 2048 bits, which is no longer considered strong enough for signatures. It still validates, but it should not be relied on.	This signature uses an RSA key shorter than 2048 bits, which is no longer considered strong enough for signatures. It still validates, but it should not be relied on.
+	This signature uses an RSA key shorter than 2048 bits, which is no longer considered strong enough for signatures. It still validates, but it should not be relied on.	Aquesta signatura fa servir una clau RSA de menys de 2048 bits, que ja no es considera prou forta per a signatures. Encara es valida, però no s'hi hauria de confiar.
 	This signature uses RIPEMD-160, a legacy 160-bit hash algorithm that is no longer recommended for signatures. It still validates, but it should not be relied on.	Aquesta signatura utilitza RIPEMD-160, un algorisme de resum antic de 160 bits que ja no es recomana per a signatures. Encara es valida, però no s'hi ha de confiar.
 	This signature uses SHA-1, a weak hash algorithm: collisions in it have been demonstrated. It still validates because many documents signed years ago use it, but it should not be relied on.	Aquesta signatura utilitza SHA-1, un algorisme de resum feble: se n'han demostrat col·lisions. Encara se'n valida perquè molts documents signats fa anys l'utilitzen, però no s'hi ha de confiar.
 	this signing service can't be used: it needs OAuth sign-in in a browser, which PdfCraft doesn't support yet	aquest servei de signatura no es pot fer servir: necessita iniciar la sessió amb OAuth en un navegador, cosa que PdfCraft encara no admet
 	This web address mixes letters from different alphabets, a common way to imitate another site's name.	Aquesta adreça web barreja lletres de diferents alfabets, una manera habitual d'imitar el nom d'un altre lloc.
 	This web address uses letters from another alphabet, which can look like familiar ones.	Aquesta adreça web utilitza lletres d'un altre alfabet, que poden semblar-se a les habituals.
-	Threshold	Threshold
-	Thumbnail size	Thumbnail size
+	Threshold	Llindar
+	Thumbnail size	Mida de les miniatures
 	Thumbnails	Miniatures
 	Tile scale:	Escala de mosaic:
 	Time	Hora
@@ -3638,7 +3824,7 @@ calendar weekday	Th	dj.
 	Title	Títol
 	to	a
 	To change locked fields, also set Locked to No.	Per canviar camps bloquejats, defineix també Bloquejat com a No.
-	To print this large file, load all of it first with Load to edit.	To print this large file, load all of it first with Load to edit.
+	To print this large file, load all of it first with Load to edit.	Per imprimir aquest fitxer gran, carrega'l sencer primer amb Carrega per editar.
 	to {n}	a {n}
 	To:	A:
 	Today	Avui
@@ -3647,11 +3833,12 @@ calendar weekday	Th	dj.
 	Token  ·  	Testimoni  ·  
 	Token PIN	PIN del testimoni
 	Tokens and smart cards sign through a PKCS #11 module. Only add modules you trust: a module runs its own code.	Els testimonis i les targetes intel·ligents signen a través d'un mòdul PKCS #11. Afegiu només mòduls de confiança: un mòdul executa el seu propi codi.
-	Too early	Too early
+	Too early	Massa aviat
 	Too many spot inks to separate: {names}	Massa tintes planes per separar: {names}
 	Too many windows are open	Hi ha massa finestres obertes
-	Took too long to read	Took too long to read
+	Took too long to read	Ha trigat massa a llegir-se
 	Tool	Eina
+	Toolbar size	Mida de la barra d'eines
 	Tools	Eines
 	Tools panel side	Costat del tauler d'eines
 	Tools shown in All tools	Eines que es mostren a «Totes les eines»
@@ -3664,7 +3851,7 @@ calendar weekday	Th	dj.
 	Total	Total
 	Total area coverage	Cobertura total d'àrea
 	TR must be a child of Table, THead, TBody, or TFoot	TR ha de ser fill de Table, THead, TBody o TFoot
-	Transfer format: {format}.	Transfer format: {format}.
+	Transfer format: {format}.	Format de transferència: {format}.
 	Transform image	Transforma la imatge
 	Translate	Tradueix
 	Transparency	Transparència
@@ -3680,9 +3867,10 @@ calendar weekday	Tu	dt.
 	Turn off continuous scrolling	Desactivar el desplaçament continu
 	Turn on continuous scrolling	Activar el desplaçament continu
 	Turn upside down (180°)	Gira cap per avall (180°)
-	Turned left	Turned left
+	Turned left	Girada a l'esquerra
 	Turned off because your administrator's policy couldn't be read.	Desactivat perquè no s'ha pogut llegir la política de l'administrador.
 	Turned off by your administrator.	Desactivat per l'administrador.
+	Turns pages scanned sideways or upside down upright before reading	Posa dretes les pàgines escanejades de costat o cap per avall abans de llegir
 	two cells would both be named {name}	dues cel·les es dirien {name}
 	Two-page view	Visualització de dues pàgines
 	Two-sided:	A doble cara:
@@ -3701,13 +3889,14 @@ signature pad	Type	Escriu
 	Typewriter	Màquina d'escriure
 	Uncertain orientations are left unchanged. Deskew fits the full image inside the page.	Les orientacions incertes no es canvien. El redreçament encabeix tota la imatge dins la pàgina.
 	Unchecked	Desmarcat
-	Unchecked reads	Unchecked reads
+	Unchecked reads	Lectures sense comprovar
 	Underline	Subratlla
 	Underline text	Subratlla el text
 	Undid {label}	S'ha desfet {label}
 	Undo	Desfés
 	Undo ({key})	Desfés ({key})
 	Undo last point	Desfés l'últim punt
+	Undo the last review change (Ctrl+Z)	Desfés l'últim canvi de la revisió (Ctrl+Z)
 	Undo {action}	Desfés {action}
 	Ungroup	Desagrupa
 	Ungroup artwork	Desagrupa els gràfics
@@ -3729,10 +3918,12 @@ signature pad	Type	Escriu
 	Unpin {folder}	Deixa de fixar {folder}
 	Unpinned {tool} from Home	{tool} desfixat d’Inici
 	Unplaced	Sense col·locar
+	unreviewed	sense revisar
 	Unsaved changes	Canvis sense desar
 	Unsaved changes to this document are saved in the new file too.	Els canvis no desats d'aquest document també es desen al fitxer nou.
 	Unsigned signature field	Camp de signatura sense signar
 	Unsigned signature field: {name}	Camp de signatura sense signar: {name}
+	Unspecified	Sense especificar
 	Unsupported measurements	Mesures no compatibles
 	Untagged content	Contingut sense etiquetar
 	Up	Amunt
@@ -3743,8 +3934,9 @@ signature pad	Type	Escriu
 	Update header & footer…	Actualitza la capçalera i el peu de pàgina…
 	Update watermark	Actualitza la marca d'aigua
 	Update watermark…	Actualitza la marca d'aigua…
-	Upside down	Upside down
+	Upside down	Cap per avall
 	URL to submit to	URL on enviar
+	US Letter	Carta (EUA)
 	USB	USB
 	Use 72 DPI (one point per pixel)	Utilitza 72 DPI (un punt per píxel)
 	Use a certificate	Utilitza un certificat
@@ -3752,7 +3944,9 @@ signature pad	Type	Escriu
 	Use a Digital ID from a device (smart card, USB token or cloud certificate)	Utilitza un identificador digital d'un dispositiu (targeta intel·ligent, testimoni USB o certificat al núvol)
 	Use a Digital ID from a file	Utilitza un identificador digital d'un fitxer
 	Use a smart card or token	Utilitza una targeta intel·ligent o un testimoni
+	Use Column Order	Fes servir l'ordre de columnes
 	Use custom DPI	Utilitza uns DPI personalitzats
+	Use Document Structure	Fes servir l'estructura del document
 	Use each image's embedded DPI; use 72 DPI when it is absent.	Utilitza els DPI incrustats de cada imatge; si no n'hi ha, utilitza 72 DPI.
 	Use Flate to encode streams that are not encoded	Utilitza Flate per codificar els fluxos que no estan codificats
 	Use guided actions	Utilitza accions guiades
@@ -3762,8 +3956,10 @@ signature pad	Type	Escriu
 	Use now	Utilitza-ho ara
 	Use overlay text	Utilitza text superposat
 	Use print production	Utilitza la producció d'impressió
+	Use Row Order	Fes servir l'ordre de files
 	Use system setting	Usa la configuració del sistema
 	Use system title bar	Utilitza la barra de títol del sistema
+	Use the chosen engine's reading alone	Fes servir només la lectura del motor triat
 	Use the default	Utilitza la predeterminada
 	Use this size for saved initials	Fes servir aquesta mida per a les inicials desades
 	Use this size for saved signature	Fes servir aquesta mida per a la signatura desada
@@ -3795,6 +3991,9 @@ certificate	Validity starts	La validesa comença
 	Value is not calculated	El valor no es calcula
 	Value is the	El valor és
 	Value:	Valor:
+	verified	verificada
+	Verified	Verificada
+	VERIFIED %	% VERIFICAT
 	Verifies the file against the standard, without changing it	Verifica el fitxer respecte de l'estàndard, sense canviar-lo
 	Verify	Verifica
 	Verify PDF/UA	Verifica PDF/UA
@@ -3805,10 +4004,12 @@ certificate	Version	Versió
 	Version {v}	Versió {v}
 	Vertex	Vèrtex
 	Vertical	Vertical
-	Vertical resolution	Vertical resolution
+	Vertical layout	Disposició vertical
+	Vertical resolution	Resolució vertical
 	Vertical reversed	Vertical invertit
 	Vertical text cannot be moved with this selection.	El text vertical no es pot moure amb aquesta selecció.
 	Vertically	Verticalment
+	Vertices	Vèrtexs
 	Video, sound and rich media must be tagged to be announced. Tag the multimedia annotations.	El vídeo, el so i el contingut multimèdia enriquit han d'estar etiquetats per ser anunciats. Etiqueta les anotacions multimèdia.
 	View	Visualitza
 	View less	Mostra'n menys
@@ -3823,8 +4024,8 @@ certificate	Version	Versió
 	Visual initials (Fill & Sign, not digital)	Inicials visuals (Omple i signa, no digitals)
 	Visual signature (Fill & Sign, not digital)	Signatura visual (Omple i signa, no digital)
 	Wait for text recognition to finish before changing add-ons	Espereu que acabi el reconeixement de text abans de canviar els complements
-	Wait for the scanner to finish, or close any other program using it, then choose Continue.	Wait for the scanner to finish, or close any other program using it, then choose Continue.
-	Wait for the scanner to finish, or close any other program using it, then choose Try again.	Wait for the scanner to finish, or close any other program using it, then choose Try again.
+	Wait for the scanner to finish, or close any other program using it, then choose Continue.	Espera que l'escàner acabi, o tanca qualsevol altre programa que el faci servir, i després tria Continua.
+	Wait for the scanner to finish, or close any other program using it, then choose Try again.	Espera que l'escàner acabi, o tanca qualsevol altre programa que el faci servir, i després tria Torna-ho a provar.
 	Waiting for the system print dialog…	Esperant el diàleg d'impressió del sistema…
 	Waiting for your approval in the browser…	S'està esperant la vostra aprovació al navegador…
 	Waiting in the printer's queue	Esperant a la cua de la impressora
@@ -3839,14 +4040,16 @@ calendar weekday	We	dc.
 	What word or phrase would you like to search for?	Quina paraula o frase vols cercar?
 	White on black	Blanc sobre negre
 	Whole words only	Només paraules senceres
+document scrollbar width	Wide	Ampla
 	Widen the page to make room	Amplia la pàgina per fer-hi lloc
 	Width	Amplada
 	Width:	Amplada:
-	Will use the bed.	Will use the bed.
-	Will use the feeder.	Will use the feeder.
+	Will use the bed.	Es farà servir el vidre.
+	Will use the feeder.	Es farà servir l'alimentador.
 	Window	Finestra
 	Window Options	Opcions de finestra
 	Windows store  ·  	Magatzem de Windows  ·  
+	Word	Paraula
 	Word count	Recompte de paraules
 	Word counting stopped unexpectedly.	El recompte de paraules s'ha aturat de manera inesperada.
 	Word count…	Recompte de paraules…
@@ -3856,19 +4059,22 @@ calendar weekday	We	dc.
 	Work, Personal, a name…	Feina, Personal, un nom…
 	Workspace modes	Modes d'espai de treball
 	Write this email?	Vols escriure aquest correu?
+	Writes a new document of visible text; the scan is not changed	Escriu un document nou de text visible; l'escaneig no es modifica
 	Wrong password	Contrasenya incorrecta
 	Wrote 1 file to {dir}	S'ha escrit 1 fitxer a {dir}
+	Wrote {name}	S'ha escrit {name}
 	Wrote {n} files to {dir}	S'han escrit {n} fitxers a {dir}
 	X Object Forms	Formularis X Object
 	XFA form: its fields and its XFA data are kept in step, so other viewers show what you fill in.	Formulari XFA: els seus camps i les seves dades XFA es mantenen sincronitzats, de manera que altres visualitzadors mostren el que emplenes.
+	XMP metadata	Metadades XMP
 	Yellow	Groc
 	Yellow on black	Groc sobre negre
 	Yes	Sí
 	yesterday	ahir
 	You are about to apply 1 redaction mark. Text, images and drawings under the marks, and comments and form fields that overlap them, are removed permanently.	Estàs a punt d'aplicar 1 marca de censura. El text, les imatges i els dibuixos que hi ha sota les marques, i els comentaris i camps de formulari que se superposen, se suprimeixen de manera permanent.
 	You are about to apply {n} redaction marks. Text, images and drawings under the marks, and comments and form fields that overlap them, are removed permanently.	Estàs a punt d'aplicar {n} marques de censura. El text, les imatges i els dibuixos que hi ha sota les marques, i els comentaris i camps de formulari que se superposen, se suprimeixen de manera permanent.
-	You are viewing revision {rev} of “{from}”. It is a snapshot: changes here won't affect the original.	You are viewing revision {rev} of “{from}”. It is a snapshot: changes here won't affect the original.
-	You are viewing the signed version of “{from}” (revision {rev}). It is a snapshot: changes here won't affect the original.	You are viewing the signed version of “{from}” (revision {rev}). It is a snapshot: changes here won't affect the original.
+	You are viewing revision {rev} of “{from}”. It is a snapshot: changes here won't affect the original.	Estàs veient la revisió {rev} de “{from}”. És una instantània: els canvis que hi facis no afectaran l'original.
+	You are viewing the signed version of “{from}” (revision {rev}). It is a snapshot: changes here won't affect the original.	Estàs veient la versió signada de “{from}” (revisió {rev}). És una instantània: els canvis que hi facis no afectaran l'original.
 	You can keep up to {n} sets of initials. Remove one to add another.	Es poden desar fins a {n} conjunts d'inicials. Elimina'n un per afegir-ne un altre.
 	You can keep up to {n} signatures. Remove one to add another.	Es poden desar fins a {n} signatures. Elimina'n una per afegir-ne una altra.
 	You can pin up to {n} folders. Unpin one first.	Es poden fixar fins a {n} carpetes. Primer deixa'n de fixar una.
@@ -3897,7 +4103,7 @@ calendar weekday	We	dc.
 	Zoom out ({key})	Allunya ({key})
 	Zoom out (⌘−)	Redueix (⌘−)
 	Zoom to page level	Zoom a nivell de pàgina
-	Zoom — type a percentage and press Enter	Zoom — type a percentage and press Enter
+	Zoom — type a percentage and press Enter	Zoom — escriu un percentatge i prem Retorn
 	{0}: {1}	{0}: {1}
 	{batch} — 1 field renamed	{batch} — 1 camp s'ha reanomenat
 	{batch} — fields renamed	{batch} — camps reanomenats
@@ -3905,17 +4111,17 @@ calendar weekday	We	dc.
 	{chars} can't be written into the PDF yet: Fill & Sign text is Western European or Korean only. Pick a numeric format such as dd.mm.yyyy.	{chars} encara no es pot escriure al PDF: el text d'Omple i signa només admet l'europeu occidental i el coreà. Tria un format numèric com dd.mm.yyyy.
 	{c} of {n}{more}	{c} de {n}{more}
 	{dpi} pixels/inch	{dpi} píxels/polzada
-@plural	{fields} builds some field names as it runs, so those reads aren't checked.|{fields} build some field names as they run, so those reads aren't checked.	{fields} builds some field names as it runs, so those reads aren't checked.|{fields} build some field names as they run, so those reads aren't checked.
-@plural	{fields} is missing from the order saved in the PDF, so other PDF viewers may not calculate it.|{fields} are missing from the order saved in the PDF, so other PDF viewers may not calculate them.	{fields} is missing from the order saved in the PDF, so other PDF viewers may not calculate it.|{fields} are missing from the order saved in the PDF, so other PDF viewers may not calculate them.
-@plural	{fields} is missing|{fields} are missing	{fields} is missing|{fields} are missing
-	{fields} read each other	{fields} read each other
-@plural	{fields} reads it|{fields} read it	{fields} reads it|{fields} read it
-@plural	{field} calculates before {fields}, which it reads.|{field} calculates before {fields}, which it reads.	{field} calculates before {fields}, which it reads.|{field} calculates before {fields}, which it reads.
-	{field} reads fields named as it runs	{field} reads fields named as it runs
-	{field} reads its own value	{field} reads its own value
-	{field} reads no other field	{field} reads no other field
-	{field} reads {fields}	{field} reads {fields}
-@plural	{field} reads {fields}, which the form doesn't have.|{field} reads {fields}, which the form doesn't have.	{field} reads {fields}, which the form doesn't have.|{field} reads {fields}, which the form doesn't have.
+@plural	{fields} builds some field names as it runs, so those reads aren't checked.|{fields} build some field names as they run, so those reads aren't checked.	{fields} construeix alguns noms de camp mentre s'executa, de manera que aquestes lectures no es comproven.|{fields} construeixen alguns noms de camp mentre s'executen, de manera que aquestes lectures no es comproven.
+@plural	{fields} is missing from the order saved in the PDF, so other PDF viewers may not calculate it.|{fields} are missing from the order saved in the PDF, so other PDF viewers may not calculate them.	{fields} no és a l'ordre desat al PDF, de manera que és possible que altres visors de PDF no el calculin.|{fields} no són a l'ordre desat al PDF, de manera que és possible que altres visors de PDF no els calculin.
+@plural	{fields} is missing|{fields} are missing	{fields} no hi és|{fields} no hi són
+	{fields} read each other	{fields} es llegeixen entre si
+@plural	{fields} reads it|{fields} read it	{fields} el llegeix|{fields} el llegeixen
+@plural	{field} calculates before {fields}, which it reads.|{field} calculates before {fields}, which it reads.	{field} es calcula abans que {fields}, que llegeix.|{field} es calcula abans que {fields}, que llegeix.
+	{field} reads fields named as it runs	{field} llegeix camps que anomena mentre s'executa
+	{field} reads its own value	{field} llegeix el seu propi valor
+	{field} reads no other field	{field} no llegeix cap altre camp
+	{field} reads {fields}	{field} llegeix {fields}
+@plural	{field} reads {fields}, which the form doesn't have.|{field} reads {fields}, which the form doesn't have.	{field} llegeix {fields}, que el formulari no té.|{field} llegeix {fields}, que el formulari no té.
 	{field}: {e}	{field}: {e}
 	{file} is too large for a stamp (at most {n} MB)	{file} és massa gran per a un segell (com a màxim {n} MB)
 	{folder} is already pinned to Home	{folder} ja està fixada a l'inici
@@ -3946,7 +4152,7 @@ calendar weekday	We	dc.
 	{month} {day}, {y}	{day} de {month} de {y}
 	{month} {y}	{month} {y}
 	{msg} to {dir}	{msg} a {dir}
-	{names} and {last}	{names} and {last}
+	{names} and {last}	{names} i {last}
 	{names} certifies this document without allowing comments, and will report this change.	{names} certifica aquest document sense permetre comentaris i indicarà aquest canvi.
 	{names} certifies this document, and removing a signature is not a change its certification permits.	{names} certifica aquest document, i eliminar una signatura no és un canvi que la certificació permeti.
 	{name} (default)	{name} (per defecte)
@@ -3960,40 +4166,44 @@ calendar weekday	We	dc.
 	{name}, {date} and {time} become your name, the date and the time.	{name}, {date} i {time} es converteixen en el vostre nom, la data i l'hora.
 	{name}: choosing images arrives on the web with file pickers for images	{name}: la selecció d'imatges arribarà al web amb selectors de fitxers d'imatge
 	{name}: the {other} action isn't supported yet	{name}: l'acció {other} encara no és compatible
+	{name}: {n} low-confidence word(s) on pages {pages}	{name}: paraules de baixa confiança: {n} (pàgines {pages})
 	{name}_unsigned.pdf	{name}_sense_signatura.pdf
-@plural	{n} calculation now uses the new name.|{n} calculations now use the new name.	{n} calculation now uses the new name.|{n} calculations now use the new name.
+@plural	{n} calculation now uses the new name.|{n} calculations now use the new name.	{n} càlcul fa servir ara el nom nou.|{n} càlculs fan servir ara el nom nou.
 @plural	{n} comment|{n} comments	{n} comentari|{n} comentaris
 	{n} contributors · {c} commits	{n} contribuïdors · {c} contribucions
 	{n} days ago	fa {n} dies
 	{n} differences found	S'han trobat {n} diferències
 @plural	{n} field name collides with earlier files and will be renamed: {list}|{n} field names collide with earlier files and will be renamed: {list}	{n} camp té un nom que col·lideix amb fitxers anteriors i es reanomenarà: {list}|{n} camps tenen un nom que col·lideix amb fitxers anteriors i es reanomenaran: {list}
-@plural	{n} field shows an old value|{n} fields show old values	{n} field shows an old value|{n} fields show old values
+@plural	{n} field shows an old value|{n} fields show old values	{n} camp mostra un valor antic|{n} camps mostren valors antics
 	{n} fields selected	{n} camps seleccionats
 @plural	{n} field|{n} fields	{n} camp|{n} camps
 	{n} files	{n} fitxers
 	{n} files done	{n} fitxers fets
 	{n} files need attention	{n} fitxers requereixen atenció
 @plural	{n} file|{n} files	{n} fitxer|{n} fitxers
-@plural	{n} formula reads a field the form doesn't have|{n} formulas read fields the form doesn't have	{n} formula reads a field the form doesn't have|{n} formulas read fields the form doesn't have
+@plural	{n} formula reads a field the form doesn't have|{n} formulas read fields the form doesn't have	{n} fórmula llegeix un camp que el formulari no té|{n} fórmules llegeixen camps que el formulari no té
 	{n} h ago	fa {n} h
 @plural	{n} image optimized|{n} images optimized	{n} imatge optimitzada|{n} imatges optimitzades
+@plural	{n} image was left as it was (page {p}: {why}).|{n} images were left as they were (page {p}: {why}, …).	{n} imatge s'ha deixat com estava (pàgina {p}: {why}).|{n} imatges s'han deixat com estaven (pàgina {p}: {why}, …).
 	{n} instances	{n} coincidències
 	{n} issues	{n} problemes
 @plural	{n} item discarded|{n} items discarded	{n} element descartat|{n} elements descartats
+	{n} lines	{n} línies
 	{n} marks	{n} marques
 	{n} match(es) marked for redaction.	{n} coincidència(es) marcada(es) per censurar.
 	{n} measurements use an unsupported format and are left out.	{n} mesures utilitzen un format no compatible i s'han deixat fora.
 	{n} min ago	fa {n} min
-@plural	{n} more field calculates too early.|{n} more fields calculate too early.	{n} more field calculates too early.|{n} more fields calculate too early.
-@plural	{n} more formula reads a missing field.|{n} more formulas read missing fields.	{n} more formula reads a missing field.|{n} more formulas read missing fields.
+@plural	{n} more field calculates too early.|{n} more fields calculate too early.	{n} camp més es calcula massa aviat.|{n} camps més es calculen massa aviat.
+@plural	{n} more formula reads a missing field.|{n} more formulas read missing fields.	{n} fórmula més llegeix un camp inexistent.|{n} fórmules més llegeixen camps inexistents.
 @plural	{n} object selected|{n} objects selected	{n} objecte seleccionat|{n} objectes seleccionats
-	{n} of {m} pages were scanned.	{n} of {m} pages were scanned.
+	{n} of {m} pages were scanned.	S'han escanejat {n} de {m} pàgines.
+@plural	{n} page is not a scan.|{n} pages are not scans.	{n} pàgina no és un escaneig.|{n} pàgines no són escanejats.
 	{n} pages	{n} pàgines
 	{n} pages and no bookmarks	{n} pàgines i cap marcador
 	{n} pages hold more content than PdfCraft can read, page {page} first: parts of them aren't drawn, and only part of their text can be found or copied.	{n} pàgines contenen més contingut del que PdfCraft pot llegir, començant per la pàgina {page}: algunes parts no es dibuixen, i només una part del seu text es pot cercar o copiar.
 	{n} pages selected	{n} pàgines seleccionades
 	{n} pages selected.	{n} pàgines seleccionades.
-	{n} pages were scanned.	{n} pages were scanned.
+	{n} pages were scanned.	S'han escanejat {n} pàgines.
 @plural	{n} page|{n} pages	{n} pàgina|{n} pàgines
 @plural	{n} pixel|{n} pixels	{n} píxel|{n} píxels
 @plural	{n} reply|{n} replies	{n} resposta|{n} respostes
@@ -4001,6 +4211,7 @@ calendar weekday	We	dc.
 	{n} selected	{n} seleccionats
 	{n} tags	{n} etiquetes
 	{n} word(s) or phrase(s)	{n} paraula(es) o frase(s)
+	{n} word(s) to review	Paraules per revisar: {n}
 	{n} {kind}	{n} {kind}
 	{page} is not a page number or label	{page} no és un número ni una etiqueta de pàgina
 	{program} can't take a file from PdfCraft.	{program} no pot rebre un fitxer de PdfCraft.
@@ -4024,7 +4235,7 @@ calendar weekday	We	dc.
 	{who}, certificate issued by {issuer}.	{who}, certificat emès per {issuer}.
 	{why} ({n})	{why} ({n})
 	{words} on {pages}	{words} a {pages}
-	{w} × {h} in, {pxw} × {pxh} pixels, {size}	{w} × {h} in, {pxw} × {pxh} pixels, {size}
+	{w} × {h} in, {pxw} × {pxh} pixels, {size}	{w} × {h} polz., {pxw} × {pxh} píxels, {size}
 	{} annotation on page {p} has no description (Contents), and its tag no alternate text	L'anotació {} de la pàgina {p} no té descripció (Contents), i la seva etiqueta no té text alternatiu
 	{} annotation on page {p} is in a {ty} tag, not {want}	L'anotació {} de la pàgina {p} és en una etiqueta {ty}, no {want}
 	{} annotation on page {p} isn't tagged	L'anotació {} de la pàgina {p} no està etiquetada
