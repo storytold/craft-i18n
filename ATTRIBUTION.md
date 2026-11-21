@@ -62,6 +62,7 @@ catalog came from (`<app>@<sha>`). Translations are contributed under the reposi
 Rows added from open WordCraft pull requests (the PR branch commit the rows were read from):
 
 - storytold/Wordcraft#331 (`38253611d`, View > Window: Switch Windows, Arrange All, Side by Side, Synchronous Scrolling): written by vangel76 with Claude, AI-generated, not reviewed by a native speaker.
+- storytold/Wordcraft#2719 (`a3f6faa1c`, Chart Design Format Axis and Format Series): written by vangel76 with Claude, AI-generated, not reviewed by a native speaker.
 
 ## WordCraft egui 0.37 migration additions
 
