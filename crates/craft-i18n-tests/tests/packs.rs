@@ -80,6 +80,88 @@ fn spelling_problems(aff: &[u8], dic: &[u8], checks: &Checks) -> Result<Vec<Stri
     Ok(problems)
 }
 
+/// The manifest kind selects the parser even when a replacement file has no encoding header.
+fn hyphenation_patterns(kind: Kind, text: &str) -> Result<craft_proof::patterns::Patterns, String> {
+    let patterns = if kind == Kind::HyphenationNonstandard {
+        craft_proof::patterns::Patterns::from_huhyphn(text)
+    } else {
+        craft_proof::patterns::Patterns::parse_checked(text)
+    }?;
+    if kind == Kind::Hyphenation && patterns.is_empty() {
+        return Err("no standard hyphenation patterns".into());
+    }
+    Ok(patterns)
+}
+
+/// Published standard patterns cannot be a comment-only file, and parser errors stay errors.
+#[test]
+fn standard_hyphenation_rejects_empty_pattern_sets() {
+    for text in ["", "% comment only\n", "# comment only\n", "\\patterns{}\n"] {
+        assert!(
+            hyphenation_patterns(Kind::Hyphenation, text)
+                .unwrap_err()
+                .contains("no standard")
+        );
+    }
+    assert!(
+        !hyphenation_patterns(Kind::Hyphenation, "ba1na")
+            .unwrap()
+            .is_empty()
+    );
+    assert!(hyphenation_patterns(Kind::HyphenationNonstandard, "as5szon2y/sz=,2,1\n").is_ok());
+    assert!(
+        hyphenation_patterns(Kind::Hyphenation, "UTF-8\na1b\nNEXTLEVEL\nc1d")
+            .unwrap_err()
+            .contains("NEXTLEVEL")
+    );
+}
+
+#[test]
+fn nonstandard_kind_reads_headerless_replacements() {
+    let patterns =
+        hyphenation_patterns(Kind::HyphenationNonstandard, "as5szon2y/sz=,2,1\n").unwrap();
+    let points = patterns
+        .opportunities(&"asszony".chars().collect::<Vec<_>>())
+        .unwrap();
+    assert_eq!(points.len(), 1);
+    assert_eq!(points[0].at, 2);
+    assert_eq!(points[0].suffix.as_ref(), "z");
+}
+
+#[test]
+fn nonstandard_kind_rejects_a_file_with_only_malformed_records() {
+    assert!(
+        hyphenation_patterns(Kind::HyphenationNonstandard, "as5szony/not-a-replacement\n").is_err()
+    );
+}
+
+/// The exact hu sources load through the pinned shared reader, without fetching other packs.
+#[test]
+#[ignore = "requires CRAFT_I18N_CACHE containing the verified hu source files"]
+fn hungarian_sources_load_unmodified_from_verified_cache() {
+    let repo = packs::load_repo().unwrap();
+    let cache = std::path::PathBuf::from(std::env::var("CRAFT_I18N_CACHE").unwrap());
+    let get = |kind| {
+        let entry = repo
+            .manifest
+            .entries("hu")
+            .find(|e| e.kind == kind)
+            .unwrap();
+        packs::fetch(entry, &cache, false).unwrap()
+    };
+    let (aff, dic) = (get(Kind::SpellingAff), get(Kind::SpellingDic));
+    assert!(
+        spelling_problems(&aff, &dic, &repo.checks["hu"])
+            .unwrap()
+            .is_empty()
+    );
+    for kind in [Kind::Hyphenation, Kind::HyphenationNonstandard] {
+        let bytes = get(kind);
+        let patterns = hyphenation_patterns(kind, std::str::from_utf8(&bytes).unwrap()).unwrap();
+        assert!(!patterns.is_empty());
+    }
+}
+
 /// Network: every published pack's dictionary loads through craft-proof's affix engine and gets
 /// its check words right, and its hyphenation patterns compile. Hidden packs are tried too and
 /// reported (not failed), so the report says when one could be published.
@@ -113,11 +195,19 @@ fn packs_load_and_check() {
                 (Err(e), false) => eprintln!("{locale}: hidden; {e}"),
             }
         }
-        if published && let Some(pat) = file(&manifest, locale, Kind::Hyphenation) {
-            match String::from_utf8(pat) {
-                Ok(text) if !craft_proof::patterns::Patterns::parse(&text).is_empty() => {}
-                Ok(_) => errors.push(format!("{locale}: hyphenation has no patterns")),
-                Err(e) => errors.push(format!("{locale}: hyphenation is not UTF-8: {e}")),
+        if published {
+            for kind in [Kind::Hyphenation, Kind::HyphenationNonstandard] {
+                let Some(raw) = file(&manifest, locale, kind) else {
+                    continue;
+                };
+                match std::str::from_utf8(&raw) {
+                    Ok(text) => {
+                        if let Err(e) = hyphenation_patterns(kind, text) {
+                            errors.push(format!("{locale}: {kind:?}: {e}"));
+                        }
+                    }
+                    Err(e) => errors.push(format!("{locale}: {kind:?} is not UTF-8: {e}")),
+                }
             }
         }
     }
@@ -454,6 +544,109 @@ mod fixtures {
         assert_eq!(packs::verify(&e, b"hello"), Ok(()));
         assert!(packs::verify(&e, b"hellO").unwrap_err().contains("sha256"));
         assert!(packs::verify(&e, b"hello!").unwrap_err().contains("bytes"));
+    }
+
+    /// An optional replacement file must not turn a spelling-only pack into a broken hyphenation pack.
+    #[test]
+    fn nonstandard_patterns_require_standard_fallback() {
+        let mut m = Manifest { file: nl() };
+        m.file.push(entry(
+            "nl",
+            Kind::HyphenationNonstandard,
+            "x/hyph-nl.dic",
+            "BSD-3-Clause",
+            Class::Embeddable,
+        ));
+        assert!(
+            packs::check(&m, &words(), &texts())
+                .iter()
+                .any(|e| e.contains("hyphenation-nonstandard needs"))
+        );
+        m.file.push(entry(
+            "nl",
+            Kind::Hyphenation,
+            "x/hyph-nl.tex",
+            "BSD-3-Clause",
+            Class::Embeddable,
+        ));
+        assert!(packs::check(&m, &words(), &texts()).is_empty());
+    }
+
+    /// Direct builder calls reject a missing standard fallback, including spelling-only packs.
+    #[test]
+    fn direct_build_requires_standard_hyphenation_fallback() {
+        let root = tempfile::Builder::new()
+            .prefix("craft-i18n-build-fallback-")
+            .tempdir()
+            .unwrap();
+        let cache = root.path().join("cache");
+        std::fs::create_dir_all(&cache).unwrap();
+        let mut entries = Vec::new();
+        for (kind, path, bytes) in [
+            (
+                Kind::SpellingAff,
+                "nl_NL/nl_NL.aff",
+                b"SET UTF-8\n".as_slice(),
+            ),
+            (
+                Kind::SpellingDic,
+                "nl_NL/nl_NL.dic",
+                b"1\nhuis\n".as_slice(),
+            ),
+            (Kind::Licence, "nl_NL/LICENSE.txt", b"BSD\n".as_slice()),
+            (
+                Kind::HyphenationNonstandard,
+                "x/hyph-nl.dic",
+                b"UTF-8\na1b\n".as_slice(),
+            ),
+        ] {
+            let mut e = entry("nl", kind, path, "BSD-3-Clause", Class::Embeddable);
+            e.sha256 = packs::sha256_hex(bytes);
+            e.size = bytes.len() as u64;
+            std::fs::write(packs::cache_path(&cache, &e), bytes).unwrap();
+            entries.push(e);
+        }
+        for spelling in [false, true] {
+            let mut manifest = Manifest {
+                file: entries
+                    .iter()
+                    .filter(|e| {
+                        spelling || !matches!(e.kind, Kind::SpellingAff | Kind::SpellingDic)
+                    })
+                    .cloned()
+                    .collect(),
+            };
+            let opts = packs::BuildOptions {
+                cache: cache.clone(),
+                out: root
+                    .path()
+                    .join(if spelling { "spelling" } else { "hyphenation" }),
+                release: "test".into(),
+                version: "test".into(),
+                base_url: "https://example.invalid/".into(),
+                only: vec!["nl".into()],
+                download: false,
+            };
+            let error = packs::build(&manifest, &words(), &texts(), &opts).unwrap_err();
+            assert!(error.contains("standard hyphenation fallback"), "{error}");
+            assert!(!opts.out.join("nl.tar.zst").exists() && !opts.out.join("index.json").exists());
+            let bytes = b"ba1na\n";
+            let mut standard = entry(
+                "nl",
+                Kind::Hyphenation,
+                "x/hyph-nl.tex",
+                "BSD-3-Clause",
+                Class::Embeddable,
+            );
+            standard.sha256 = packs::sha256_hex(bytes);
+            standard.size = bytes.len() as u64;
+            std::fs::write(packs::cache_path(&cache, &standard), bytes).unwrap();
+            manifest.file.push(standard);
+            let index = packs::build(&manifest, &words(), &texts(), &opts).unwrap();
+            assert_eq!(index.packs.len(), 1);
+            assert!(index.packs[0].hyphenation);
+            assert_eq!(index.packs[0].spelling, spelling);
+        }
     }
 
     /// The archive holds the contract layout, is the same bytes every time, and `build` writes it
