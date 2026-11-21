@@ -326,6 +326,15 @@ from the English meaning; no native-speaker review is recorded. No translations
 were newly authored during migration. PhotoCraft's former `sr` catalog maps to
 `sr-latn`, following the existing migration rules.
 
+## PdfCraft: Hebrew prepress and print UI (2026-11-21)
+
+27 original Hebrew UI strings for PdfCraft's PDF/X, bleed, ICC printing profiles, colour separation and preflight.
+Contributed by @nocturney with AI assistance, written from the plain meaning
+of the exact English keys. Independent native-speaker proofreading and live
+GUI review have not been recorded. Keys were checked against the official
+French source catalog, current Hebrew common and app catalogs, and open
+Hebrew contribution #299, without modifying prior strings.
+
 ## TextureCraft initial migration
 
 The `texturecraft.tsv` catalogs for ar, de, es, fr, it, ja, ko, pt-br and zh-hans were migrated from [TextureCraft `21856d778347e13857f65c8f1107170797bd070f`](https://github.com/storytold/texturecraft/tree/21856d778347e13857f65c8f1107170797bd070f/crates/ui-egui/src/i18n), MIT OR Apache-2.0. Original wording and contributor credits remain in the upstream history. Migration tooling was AI-assisted; no new translations were authored and no additional native-speaker review was performed. Every original row was checked against the resolved app and shared catalogs. Tracked in storytold/texturecraft#419.
