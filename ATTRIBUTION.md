@@ -249,6 +249,20 @@ product's localisation consulted. **No native speaker has reviewed these rows.**
 neutral, standard short forms; "Hong Kong SAR" and "Macao SAR" use each locale's word for special
 administrative region.
 
+## WordCraft: Define New Number Format dialog strings (storytold/wordcraft#2869)
+
+Five rows in `wordcraft.tsv` of the 35 active WordCraft locales: "Define New Number Format…",
+"Number style:", "Number format:", "Text before the number", and "Text after the number", reusing
+each catalog's existing wording for "Define New Number Format", "Number format", "Number style for
+this level:", and "Text". The "Define New Number Format…", "Number style:" and "Number format:" rows
+for 24 locales (`bg`, `cs`, `de`, `es`, `et`, `fr`, `hr`, `hu`, `it`, `ja`, `ko`, `pl`, `pt-br`,
+`ro`, `ru`, `sl`, `sr-latn`, `sr`, `sv`, `tr`, `uk`, `vi`, `zh-hans`, `zh-hant`) come from
+`storytold/wordcraft#2869` (`29004a0d`, aligned in `ro` and `sl` with their existing `craft-i18n`
+terms); `"Text before the number"`, `"Text after the number"`, and the remaining 11 locales (`ar`,
+`bs`, `da`, `fa`, `he`, `id`, `ka`, `lv`, `nb`, `nl`, `sk`) were authored by @Nghiathan13 with AI
+assistance (Gemini / Antigravity) from the plain meaning of the English, with no other product's
+localisation consulted. **No native speaker has reviewed these rows.**
+
 ## WordCraft: the Watermark dialog strings (storytold/wordcraft#5735)
 
 Eight rows in `wordcraft.tsv` of every locale that has one (35): "No watermark", "Picture
