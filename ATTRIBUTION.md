@@ -378,3 +378,7 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+## PdfCraft: Hebrew rows for strings with none
+
+Yonatan Langer (@yonatan-langer83) added Hebrew (`he`) rows to `locales/he/pdfcraft.tsv` for every PdfCraft string that had no Hebrew row, AI-assisted with Claude and written from the plain meaning of the English, in the terminology the Hebrew catalogs already use. No other product's localisation was consulted. Not yet reviewed line by line by a native speaker. Strings whose Hebrew would read the same as the English (product and format names such as `CMYK`, `USB`, `PDF/X…`) are left out.
