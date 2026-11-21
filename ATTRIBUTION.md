@@ -263,6 +263,33 @@ consulted. **No native speaker has reviewed these rows.**
 
 Migrated 1,010 previously missing rows for `ar`, `az`, `bs`, `cs`, `da`, `de`, `el`, `es`, `fi`, `fr`, `he`, `hi`, `hu`, `id`, `it`, `ja`, `ka`, `ko`, `nb`, `nl`, `pl`, `pt-br`, `ro`, `ru`, `sr-latn`, `sv`, `ta`, `th`, `tr`, `uk`, `ur`, `vi`, `zh-hans`, `zh-hant` from PhotoCraft's clean-room catalog additions between `photocraft@988044fe73dce2c97b680f5f707baf174b68ebb9` and `photocraft@0ec85da20bddb896f8832226c001cf30872882a7`. Existing shared/app translations were preserved. The migration was AI-assisted; individual translators and native-speaker review of these additions were not recorded in the source, and native-speaker review remains pending. The supported PhotoCraft locale alias `sr` to `sr-latn` was applied; its 29 added Serbian values were transliterated from Cyrillic to Latin using standard Serbian letter mappings (including Lj, Nj and Dž), preserving placeholders and punctuation.
 
+## PdfCraft: Turkish OCR model profile controls
+
+Three new plain rows in `locales/tr/pdfcraft.tsv` cover "Model profile", "Turkish extended
+alphabet", and the "Experimental Turkish alphabet: review recognized words before applying
+them" warning. AI-translated by OpenAI Codex for the PdfCraft-TR project from the plain
+meaning of the English OCR interface strings; clean room, with no other product's
+localisation, string table or translated interface consulted or copied. These original
+translations are contributed under MIT OR Apache-2.0. No native-speaker review is recorded.
+
+## PdfCraft: Turkish OCR word suggestion review
+
+Seventeen new plain rows in `locales/tr/pdfcraft.tsv` cover word suggestion review states,
+the desktop recognizer requirement, the selected-word re-read action, the explicit Apply
+step, and suggestion confidence and crop padding. AI-assisted translations by OpenAI Codex
+for the PdfCraft-TR project, written from the plain meaning of the English strings in a
+clean room; no other product's localisation, string table or translated interface was
+consulted or copied. These original translations are contributed under MIT OR Apache-2.0.
+Native-speaker review is not recorded.
+
+## PdfCraft: Turkish OCR model preflight
+
+Seven rows in `locales/tr/pdfcraft.tsv` cover OCR model and engine requirements. Four rows
+use the exact engine wording and three message templates keep their named detail and model
+placeholders. AI-assisted translations from the meaning of the English strings, without
+consulting another product's localisation. These original translations are contributed under
+MIT OR Apache-2.0. No native-speaker review is recorded.
+
 ## Language data
 
 Every file under `language-data/` ([ADR 0004](docs/adr/0004-third-party-language-data.md),

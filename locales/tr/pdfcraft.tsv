@@ -3926,3 +3926,30 @@ document scrollbar width	Wide	Geniş
 	This document's script is asking	Bu belgenin betiği soruyor
 	Document: {name}	Belge: {name}
 	This request comes from the document, not PdfCraft. Only enter a password if you trust this document.	Bu istek PdfCraft'tan değil, belgeden geliyor. Yalnızca bu belgeye güveniyorsanız parola girin.
+	Experimental Turkish alphabet: review recognized words before applying them. Requires Tesseract and the profile's installed models.	Deneysel Türkçe alfabesi: tanınan sözcükleri uygulamadan önce gözden geçirin. Tesseract ve profilin gerektirdiği modeller yüklü olmalıdır.
+	Model profile	Model profili
+	Turkish extended alphabet	Genişletilmiş Türkçe alfabesi
+	the document is no longer open	belge artık açık değil
+	the recognition review is unavailable	tanıma incelemesi kullanılamıyor
+	select a word to inspect it	incelemek için bir sözcük seçin
+	the selected word is gone; choose another	seçilen sözcük artık yok; başka bir sözcük seçin
+	the original recognition settings are unavailable; run OCR again	özgün tanıma ayarları kullanılamıyor; OCR işlemini yeniden çalıştırın
+	the selected word no longer belongs to this review	seçilen sözcük artık bu incelemeye ait değil
+	Word suggestions require the desktop recognizer	Sözcük önerileri için masaüstü tanıma motoru gerekir
+	the document could not be read	belge okunamadı
+	the word suggestion worker could not be read; the words are unchanged	sözcük önerisi işleminin sonucu okunamadı; sözcükler değiştirilmedi
+	the word re-read found no suggestions; the words are unchanged	sözcük yeniden okundu ancak öneri bulunamadı; sözcükler değiştirilmedi
+	the word re-read returned invalid suggestions; the words are unchanged	sözcüğün yeniden okunması geçersiz öneriler döndürdü; sözcükler değiştirilmedi
+	the selected word changed; request suggestions again	seçilen sözcük değişti; yeniden öneri isteyin
+	A word re-read is still running	Bir sözcüğün yeniden okunması hâlâ sürüyor
+	Read only this word again. Suggestions do not change its text until you choose Apply.	Yalnızca bu sözcüğü yeniden okuyun. Uygula seçeneğini seçene kadar öneriler sözcüğün metnini değiştirmez.
+	Confidence for this suggestion	Bu önerinin güven puanı
+	{label} · {source} · {confidence}	{label} · {source} · {confidence}
+	Confidence for this word crop only; the original word confidence is unchanged. Border: {padding} px.	Güven puanı yalnızca bu sözcük kırpmasına aittir; özgün sözcüğün güven puanı değişmez. Kenar boşluğu: {padding} piksel.
+	the ocrs engine does not support Turkish; choose Tesseract or Automatic with Turkish (tur) language data installed	Yerleşik OCR motoru Türkçeyi desteklemiyor. Tesseract için Türkçe dil verisini (tur) yükleyin ve motoru Tesseract veya Otomatik olarak ayarlayın.
+	Turkish OCR requires the Turkish (tur) language data installed for tesseract	Tesseract için Türkçe dil verisi (tur) eksik. Devam etmek için bu veriyi yükleyin.
+	the turkish_extended model profile requires Tesseract; choose Tesseract or Automatic	Genişletilmiş Türkçe alfabesi profili Tesseract gerektirir. Motoru Tesseract veya Otomatik olarak ayarlayın.
+	text recognition failed: turkish_extended supports only Turkish; choose tr or tur and the Tesseract engine	Metin tanıma başlatılamadı. Genişletilmiş Türkçe alfabesi profili yalnızca Türkçe için kullanılabilir. Belge dili olarak Türkçeyi seçin (kabul edilen dil kodları: tr ve tur). Motoru Tesseract olarak ayarlayın.
+@msg	Turkish OCR requires Tesseract with Turkish (tur) language data: {why}	Türkçe OCR için Tesseract çalışabilmeli ve Türkçe dil verisi (tur) yüklü olmalıdır. Ayrıntı: {why}
+@msg	the turkish_extended model profile requires every Tesseract model: {models}; no Standard fallback is used	Genişletilmiş Türkçe alfabesi profili şu Tesseract modellerinin tümünü gerektirir: {models}. Eksik modelleri yükleyin. Standart profile otomatik geçiş yapılmaz.
+@msg	the turkish_extended model profile requires every Tesseract model: {models}; no Standard fallback is used: {why}	Genişletilmiş Türkçe alfabesi profili için Tesseract çalışabilmeli ve şu modellerin tümü yüklü olmalıdır: {models}. Standart profile otomatik geçiş yapılmaz. Ayrıntı: {why}
