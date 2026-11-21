@@ -1,0 +1,4534 @@
+# Српски (sr) interface catalog for PdfCraft.
+# Columns, separated by a TAB:  context <TAB> English source text <TAB> translation
+#   context  usually empty. `@plural`, `@id` and `@msg` mean something to the apps; any other
+#            word is a label that tells apart two meanings of the same English.
+#   escapes  \n  \t  \\  inside a column. `{name}` placeholders must appear in both columns (in any
+#            order), and a trailing "…" in one needs one in the other.
+#   @plural  English `one|other`; the translation lists this language's plural forms, `|`-separated.
+#   Lines starting with # and blank lines are ignored. A missing entry shows in English.
+#
+# Clean room: every entry was written from the plain meaning of the English text in ordinary
+# computing vocabulary. No other product's localisation, string table or translated UI was
+# consulted or copied; add entries the same way.
+
+	About {app}	О програму {app}
+	Accept	Прихвати
+	Accessibility Checker	Провера приступачности
+	Add folder	Додај фасциклу
+	Ask	Питај
+	Assistant	Асистент
+	Atelier	Атеље
+	Back	Назад
+	Bookmarks	Обележивачи
+	Box	Оквир
+	Character spacing	Размак између знакова
+	Check	Провери
+	Check Again	Провери поново
+	Close Window	Затвори прозор
+	Cloud	Облак
+	Column {n}	Колона {n}
+	Coming soon	Ускоро
+	Compact	Сажето
+	Copy path	Копирај путању
+	Create Link	Направи везу
+	Custom size	Прилагођена величина
+	Custom…	Прилагођено…
+	Decimal	Децимални
+	Degrees	Степени
+	Denoise	Уклони шум
+	Despeckle	Уклони мрље
+	Disabled	Онемогућено
+	Distribute horizontally	Расподели хоризонтално
+	Distribute vertically	Расподели вертикално
+	Don't save	Не чувај
+	Don't show again	Не приказуј поново
+	Downloaded {name}	Преузето: {name}
+	Enabled	Омогућено
+	Errors	Грешке
+	Failed	Неуспешно
+	Filename	Име датотеке
+	Filters	Филтери
+	Float	Плутајуће
+	Folders	Фасцикле
+	Fraction	Разломак
+	From template	Из шаблона
+	From:	Од:
+	Grab bag	Разно
+	Hebrew	Хебрејски
+	Hide {app}	Сакриј {app}
+	Highlight	Истицање
+	Indent	Увлачење
+	Information	Информација
+	Ink	Мастило
+	Intent	Начин конверзије
+	Interface size	Величина интерфејса
+	Keyboard shortcuts	Пречице на тастатури
+	Level {n}	Ниво {n}
+	Loading…	Учитавање…
+	Loop	Петља
+	More options	Више опција
+	Move down	Помери надоле
+	Move up	Помери нагоре
+	New Action…	Нова радња…
+	No contributor data was built into this copy.	Ова верзија не садржи податке о сарадницима.
+	No fill	Без попуне
+	No model credits were built into this copy.	Ова верзија не садржи заслуге за AI моделе.
+	none	ниједна
+	Not now	Не сада
+	Nothing	Ништа
+	Number format	Формат броја
+	Open a document first	Прво отворите документ
+	Opening {name}…	Отварање: {name}…
+	Page display	Приказ стране
+	Page number	Број странице
+	Paper size	Величина папира
+	Patterns	Шаре
+	Paused	Паузирано
+	Plugins	Додаци
+	Post	Објави
+	Printer default	Подразумевано штампача
+	Quit	Изађи
+	Quit {app}	Затвори {app}
+	Reject	Одбиј
+	Release notes	Белешке о издању
+	Remove from Recent	Уклони из недавних
+	Remove {name} from Recent	Уклони {name} из недавних
+	Rendering…	Рендеровање…
+	Replace Image…	Замени слику…
+	Replace…	Замени…
+	Retry	Покушај поново
+	Rounded	Заобљено
+	Run	Покрени
+	Saved {name}	Сачувано: {name}
+	Screen resolution	Резолуција екрана
+	Script	Индекс
+	Search settings…	Претражи подешавања…
+	Search…	Претрага…
+	Sepia	Сепија
+	Show all	Прикажи све
+	Show in Explorer	Прикажи у Explorer-у
+	Show in Finder	Прикажи у Finder-у
+	Show/Hide	Прикажи/сакриј
+	Snap	Приањање
+	Soft dark	Мека тамна
+	Solid	Пуна
+	Start	Почетак
+	Steps	Кораци
+	Strong	Јако наглашавање
+	Suggestions	Предлози
+	System default	Подразумевано у систему
+	Thick	Дебело
+	Thin	Танко
+	To:	До:
+	Today	Данас
+	Use system setting	Према подешавању система
+	Viewing	Прегледање
+	Viewport	Област приказа
+	ZIP	ZIP
+	{n} lines	Редова: {n}
+@plural	{n} pixel|{n} pixels	{n} пиксел|{n} пиксела|{n} пиксела
+
+# Untranslated source rows; remove # and supply a Serbian Cyrillic translation.
+#	  · not fixable here	
+#	 (page {p})	
+#	 (searching… {s} of {p} pages)	
+#	 ({n} at {dpi} dpi, the largest size they can be drawn at)	
+#	 ({n} left as they are)	
+#	 ({s} not exported: {first})	
+#	 ({s} warnings: {first})	
+#	 on page {label}	
+#	 on page {p}	
+#	 · password-protected	
+#	(page {p})	
+#	(searching… {s} of {p} pages)	
+#	({n} at {dpi} dpi, the largest size they can be drawn at)	
+#	({s} not exported: {first})	
+#	+ Dictionary	
+#	+ Page {p}	
+	+Bin	+Бинарно
+	+LOC	+Редови кода
+#	, Expires:	
+#	, Expires: 	
+#	1 difference found	
+#	1 file done	
+#	1 file needs attention	
+#	1 instance	
+#	1 issue	
+#	1 line	
+#	1 mark	
+#	1 page	
+#	1 page scanned	
+#	1 page selected	
+#	1 page selected.	
+#	1 page was scanned.	
+#	180 degrees	
+#	3D model	
+#	3D model canvas	
+#	3D models on this page	
+#	4 x 6 in label (101.6 x 152.4 mm)	
+#	9 digit, A letter, O letter or digit, X any character	
+#	; 1 image downsampled	
+#	; 1 page already had text	
+#	; 1 page skipped	
+#	; 1 signed file kept its images	
+#	; cancelled — {n} files were not run	
+#	; converted to {level}, but not everything complies yet ({first}); see Apply PDF standards ▸ Save as PDF/A	
+#	; corrected {n} pages	
+#	; failed: {list}	
+#	; not PDF/A yet: {list} (open them in Apply PDF standards ▸ Save as PDF/A)	
+#	; not saved as {level}: {why}	
+#	; saved as {level}	
+#	; skipped: {n}	
+#	; the document is signed, so its images were left as they are	
+#	; {n} files already had text	
+#	; {n} images downsampled	
+#	; {n} pages already had text	
+#	; {n} pages skipped	
+#	; {n} saved as PDF/A	
+#	; {n} signed files kept their images	
+#	? of {n}	
+#	@{login}: {prs} PRs, {commits} commits, +{added} / −{deleted} lines (Δ {delta}), +{bin_added} / −{bin_deleted} binary assets, {first} – {last}	
+	[Custom]	[Прилагођено]
+#	`{command}` {when}	
+#	A 3×3 median filter against scan speckle	
+#	A bitmap image is drawn at {} ppi	
+#	a bookmark cannot be moved inside itself	
+#	A button	
+#	A clean-room, open-source PDF application written in Rust. MIT OR Apache-2.0.	
+#	A colour image is drawn at {} ppi	
+#	A colour on this page couldn't be computed and is shown in a fallback colour.	
+#	A colour operator's operands don't match its colour space	
+#	A colour space is nested too deeply for the spaces under it to be checked	
+#	A colour space is nested too deeply to convert	
+#	A colour space's ICC profile can't be used to convert its colour	
+#	a column is too narrow: make the area wider, give the column more of it, or use fewer columns or less column spacing	
+#	A content stream can't be read, so its colour can't be converted	
+#	A content stream is drawn with different resources in different places, so its colour can't be converted	
+#	A cover on the scanner is open.	
+#	A diagonal CONFIDENTIAL watermark on every page.	
+#	a document must keep at least one page	
+#	A document needs at least one page: copy instead	
+#	A document timestamp covers the whole file and is no one's signature, so it can't be removed on its own.	
+#	a field named {name} already exists	
+#	A folder is asked for when a multiple-file run starts	
+#	A font isn't embedded	
+#	A form field has additional actions	
+#	A form XObject is a transparency group	
+#	A form XObject refers to a page of another file (reference XObject)	
+#	A form XObject with marked content (MCIDs) is drawn {n} times	
+#	A graphics state sets an opacity below 1	
+#	A graphics state uses a soft mask	
+#	A graphics state uses the {} blend mode	
+#	A gray image is drawn at {} ppi	
+#	a header cell with no Scope, in a table that doesn't use Headers	
+#	A JPEG picture in CMYK can't be converted yet	
+#	A line has width 0, the thinnest the printer can draw	
+#	A line is {} pt wide	
+#	A link	
+#	A link or special file, which isn't followed	
+#	A local model is not a frontier cloud model: it can be wrong, and a long answer takes its time on CPU. Check anything critical, and mind a model's size against this machine before downloading it.	
+#	A logo or name at the left of the tabs, where a title bar would show one: PdfCraft's own, or your company's.	
+#	A mesh shading's colours change too sharply between its corners to convert to CMYK exactly	
+#	A page count stops the feeder after that many sheets. Cancel ends the transfer early; pages already received stay in the document.	
+#	A password-protected file is only checked to reopen when saved; its bytes are not searched again for the removed text.	
+#	A pattern over RGB or device-independent colour can't be converted to CMYK yet	
+#	A picture covers page {pages} (a scan?), so the background won't show there.	
+#	A picture with a colour-key mask can't be converted to CMYK yet	
+#	A picture with a decode array or a colour-key mask can't be converted to CMYK yet	
+#	A picture with other than 8 bits per component can't be converted to CMYK yet	
+#	A picture's data can't be read, so it can't be converted to CMYK	
+#	A placed signature is a comment until it is locked: anyone with a PDF editor can move or remove it. Locking makes your Fill & Sign text, marks and signatures part of the page.	
+#	A PNG or SVG file. It is read from this place each time PdfCraft starts.	
+#	A PrinterMark annotation overlaps the TrimBox or ArtBox	
+#	A script	
+#	a second {} in its table	
+#	A selected field has no widget on any page, so the fields can't be edited together.	
+#	A setting isn't valid	
+#	A shading in RGB or device-independent colour can't be converted to CMYK yet	
+#	A shading uses {} colour	
+#	A shading's colour function can't be read or evaluated	
+#	A shading's colour function can't be resampled into CMYK exactly	
+#	A shading's data can't be read, so it can't be converted to CMYK	
+#	A signature is still waiting for its approval.	
+#	A signature that is part of a page's content, like a scanned page, is not a field or an annotation, so it can't be removed on its own, and PdfCraft doesn't erase parts of a page to hide it. To take it out, redact that area (Redact), or delete the picture with Edit PDF when the signature is an image of its own.	
+#	A stream refers to an external file	
+#	A stream uses JBIG2 compression	
+#	A stream uses LZW compression	
+#	A summary describes the table's purpose and layout. Add a Summary attribute to each table.	
+#	a table has 1 to {max} columns	
+#	a table has 1 to {max} rows	
+#	A table that runs across pages stays together; the pages follow one another down the sheet.	
+#	A {} action isn't allowed	
+#	A {} annotation has additional actions	
+#	A {} annotation has no appearance stream	
+#	A {} annotation isn't set to print, or is hidden	
+#	A {} annotation lies inside the trim	
+#	A {} annotation lies within the BleedBox	
+#	A {} colour space's parameters can't be read	
+#	About PdfCraft	
+#	about {h} h {m} min left	
+#	about {n} min left	
+#	Accent-sensitive	
+#	Accept entire page	
+#	Accepted	
+#	Accepted by {printer}	
+#	Accessibility Checker Options	
+#	Accessibility Checker rules	
+#	Accessibility panel	
+#	Accessibility permission flag	
+#	Accessibility permission flag is set	
+#	Accessibility Report	
+#	Acres	
+#	Acrobat 3.0 and later (40-bit RC4)	
+#	Acrobat 5.0 and later (128-bit RC4)	
+#	Acrobat 7.0 and later (128-bit AES)	
+#	Acrobat X and later (256-bit AES)	
+#	Action name:	
+#	Action Wizard	
+#	Action Wizard…	
+#	Actions list	
+#	Activate Read Out Loud	
+	Actual size	Стварна величина
+#	Actual text	
+#	Add a bookmark for each file	
+#	Add a button	
+#	Add a callout	
+#	Add a checkbox	
+#	Add a date field	
+#	Add a digital signature field	
+#	Add a drop-down list	
+#	Add a line filled in when the stamp is placed	
+#	Add a list box	
+#	Add a page from template {name}	
+#	Add a paper size of your own to the list	
+#	Add a radio button	
+#	Add a reply	
+#	Add a second engine's reading when the first is unsure	
+#	Add a stamp	
+#	Add a sticky note	
+#	Add a sticky note here	
+#	Add a text box	
+#	Add a text field	
+#	Add alternate text	
+#	Add alternate text…	
+#	Add an Action	
+#	Add an image field	
+#	Add arrow	
+#	Add at least one recipient.	
+#	Add at least two files	
+#	Add background	
+#	Add background…	
+#	Add Bates numbering…	
+#	Add bookmark	
+#	Add boundary point	
+#	Add callout	
+#	Add certificate file…	
+#	Add checkmark	
+#	Add circle	
+#	Add cloud	
+#	Add comment	
+#	Add comments	
+#	Add connected lines	
+	Add content	Додај садржај
+#	Add control point	
+#	Add cross	
+#	Add dot	
+#	Add drawing	
+	Add field	Додај поље
+#	Add fields	
+#	Add file attachment	
+#	Add files or folders to recognize.	
+#	Add files to combine	
+#	Add files…	
+#	Add folder and subfolders	
+#	Add folder and subfolders…	
+	Add folder…	Додај фасциклу…
+#	Add footer	
+#	Add form components	
+#	Add header	
+#	Add header & footer	
+#	Add header & footer…	
+#	Add highlight	
+#	Add image	
+#	Add image…	
+#	Add inserted text	
+#	Add line	
+#	Add link	
+#	Add open documents	
+#	Add or edit links	
+#	Add oval	
+#	Add Page Numbers	
+#	Add polygon	
+#	Add printer marks	
+#	Add printer marks…	
+#	Add rectangle	
+#	Add redaction mark	
+#	Add search index	
+#	Add searchable text	
+#	Add signature	
+#	Add smaller unit	
+#	Add squiggly underline	
+#	Add stamp	
+#	Add Step	
+#	Add sticky note	
+#	Add strikethrough	
+	Add text	Додај текст
+#	Add text box	
+#	Add text field table	
+#	Add the choices people pick from.	
+#	Add the files to combine	
+#	Add the PDFs to combine	
+#	Add the steps this action runs, in order.	
+	Add to dictionary	Додај у речник
+#	Add to Trusted Certificates	
+#	Add to trusted certificates	
+#	Add Tools to Hotbar	
+#	Add tools to hotbar	
+#	Add underline	
+#	Add watermark	
+#	Add watermark…	
+#	Add your digital ID	
+#	Add {what}	
+#	Added 1 comment	
+#	Added more than once	
+#	Added text	
+#	Added the first {n} files in {folder}	
+#	Added the first {n} PDFs in {folder}	
+#	Added {n} comments	
+#	Added {n} to your trusted certificates.	
+#	Adding images arrives on the web with file pickers for images	
+#	Additional Metadata	
+#	Adds invisible text over each word and reduces scan images above the Downsample to resolution to it, for a smaller file	
+#	Adds invisible text over each word; the page image is not changed	
+#	Adobe Acrobat Standard	
+#	Advanced optimization	
+	Advanced options	Напредне опције
+#	Advanced Options {chevron}	
+#	Advanced search…	
+#	Advanced unit formats	
+	Advanced…	Напредно…
+#	After Sign, enter the OTT code from the mSzafir app in CloudSigner's window and approve the signature in the app. With CloudSigner's persistent OTT code on, the code is asked for only once every few minutes.	
+#	AI Assistant	
+#	AI assistant	
+#	AI chat isn't available in the web build; use the desktop app or CLI.	
+#	Algorithm	
+	Align bottom	Поравнај дно
+#	Align fields	
+#	Align middle	
+	Align objects	Поравнај објекте
+	Align top	Поравнај врх
+#	All annotations are tagged	
+#	All document contents	
+#	All document contents except metadata	
+#	All form fields are tagged	
+#	All form fields have description	
+#	All marks	
+#	All multimedia objects are tagged	
+#	All open documents	
+#	All page content is tagged	
+#	All pages asks the driver for the whole stack.	
+#	All pages in document	
+#	All pages in range	
+#	All permissions	
+	All tools	Сви алати
+#	Allow	
+#	Allow Rich Text Formatting	
+#	Allow user to enter custom text	
+#	Allowed	
+#	already a PDF	
+#	Already trusted	
+#	Also	
+#	Also recognize pages that already have text	
+#	Alt combinations can't be shortcuts. Try Ctrl or Shift.	
+#	Alternate Text	
+#	Alternate text	
+#	alternate text hides an annotation inside it	
+#	Alternate text inside an element that already has alternate text is never read. Remove the inner alternate text.	
+#	Alternate text must be associated with some content	
+#	Alternate text on an element that contains a link or field hides that annotation from assistive technology. Move the alternate text.	
+#	alternate text on an element with no page content	
+#	Alternate text on an element without page content is never reached. Remove it or attach the element to content.	
+#	Alternate text should not hide annotation	
+#	Alternate text that will never be read	
+#	Always read with both engines and merge the words	
+#	Always use my default zoom and page layout	
+#	An action is already running	
+#	An action with this name already exists.	
+#	an Aruba account needs its domain (the "dominio" Aruba gives with the account): enter it	
+#	An embedded file has no AFRelationship	
+#	An image asks to be interpolated	
+#	An image has a soft mask	
+#	An image has alternates or OPI information	
+#	An image or form has OPI information	
+#	An image uses {} colour	
+#	An indexed colour space's table is too short to convert	
+#	An inline image uses {} colour	
+#	An object has additional actions (/AA)	
+#	An open-source PDF workbench — local, private, and scriptable.	
+#	An optional content configuration has an AS entry	
+#	and {n} more	
+#	Angular unit	
+#	Animation that flashes can cause seizures. Check scripts and media for flicker.	
+#	Annotation	
+#	Annotations inside the trim	
+#	Annotations, form fill-in, and digital signatures	
+#	Another file dialog is still open. Finish with it first.	
+#	Another link request is awaiting your permission. Respond to it, then try opening the document again.	
+	Any except extracting pages	Све осим издвајања страница
+#	Anyone opening the document will need this password. It's applied when you save.	
+#	API key:	
+#	App icon	
+#	Appear behind page	
+#	Appear on top of page	
+	Appearance mode	Режим изгледа
+	Appearance settings…	Подешавања изгледа…
+#	Applied 1 redaction mark. Save to remove the content from the file.	
+#	Applied immediately and saved for next time. Keep the font file in its current location.	
+#	Applied {n} redaction marks. Save to remove the content from the file.	
+#	Applies the next time PdfCraft starts. Choose OpenGL if the window flickers on a display with G-SYNC, FreeSync or another variable refresh rate.	
+#	Applies to 1 page	
+#	Applies to {n} pages	
+#	Apply PDF standards	
+#	Apply preflight fixups	
+#	Apply redactions	
+#	Apply redactions…	
+#	Apply scale	
+#	Applying a scale switches units to m / mm.	
+#	Applying also sanitizes the document: bookmarks, named destinations, attachments, document information, metadata and XFA form data are deleted, and hidden layers are locked hidden for good.	
+#	Appropriate nesting	
+#	Approve the signature on the device (for mSzafir: in CloudSigner's window and the mSzafir app)…	
+#	April	
+#calendar date	April	
+#	Arbitrary Mask	
+#	Archive documents	
+#	Area unit	
+#	Area units	
+	Area…	Површински…
+#	Arrange image	
+#	As declared in the PDF	
+#	Ask about this document	
+#	Ask Agent	
+#	Ask AI about this document	
+#	Ask AI to change the formatting	
+#	Ask anything	
+#	Ask before a document opens in Full Screen mode	
+#	Ask in any language	
+#	Ask to make PdfCraft the default PDF app	
+#	Ask to scan more pages	
+#	Ask whether to recognize the current page or all pages when editing a scan.	
+#	Asking the printer…	
+#	Asking {server}…	
+#	Asks GitHub for the latest release. Nothing is downloaded or installed automatically.	
+#	Associated with content	
+#	At least one signature has problems.	
+#	At least one signature is invalid.	
+#	At most	
+#	At the current {ppi} ppi this line should measure {length} {unit}.	
+#	Attach a file	
+#	Attach a file…	
+#	Attach file	
+#	Attach {name}	
+#	Attaching files is not available on the web yet	
+#	Attaching {name} to a new email message…	
+#	Attachment	
+#	Attachments	
+#	Attachments panel	
+#	Attachments Panel and Page	
+#	Audit space usage	
+#	Audit space usage…	
+#	August	
+#calendar date	August	
+#	Author title	
+#	Auto Detect	
+#	Auto follows the system's text size. Pages always render at the display's full resolution.	
+#	Auto portrait/landscape	
+#	Auto-deskew	
+#	Auto-detect	
+#	Auto-rotate	
+#	Auto-rotate pages	
+#	Auto-size text to fit redaction region	
+#	Automatic (historical model)	
+#	Automatic AcroForm scripts are disabled until safe execution isolation is available; saved field values were preserved. Explicit button and console scripts are still available.	
+#	Automatic text direction	
+#	Automatically rotate sideways and upside-down pages	
+#	Automatically tag PDF	
+#	Available version: {v}	
+#	average	
+#	AVG CONFIDENCE	
+#	Azimuth	
+#	Back side only	
+#	Back to all tools	
+#	Back to measurement	
+#	Back to Prepare a form	
+#	Back to the default keys	
+#	Back to the document	
+#	background	
+#	Background color & tint settings	
+#	Background image	
+	Background opacity:	Непрозирност позадине:
+#	Background removal	
+#	Balanced	
+#	Balanced and Compact reduce image quality to make a smaller file. Text and forms stay editable.	
+#	Basic constraints	
+#certificate	Basic constraints	
+#	Bates numbering	
+#	Bed	
+#	Before each selected page (select pages in Organize)	
+#	Before the number	
+#	Behind text and images	
+#	Best for: a step up in quality, still light	
+#	Best for: balanced everyday and technical work	
+#	Best for: everyday help on the lightest machines	
+#	Best for: near-flagship answers at MoE speed	
+#	Best for: the deepest reasoning this family has	
+#	Between paragraphs: press Enter in the box to start one	
+#	Beveled	
+#	Bicubic downsampling to	
+#	Binarize	
+#	Binding	
+#	Binding:	
+#	Bitmap images	
+#	Black & White Document	
+#	Black on white	
+	Blank page	Празна страна
+#	Bleed	
+#	Bleed marks	
+#	Blend with page content	
+	bold	Подебљано
+#	Booklet	
+#	Booklet subset:	
+#	Bookmark options	
+#	Bookmarks are present in large documents	
+#	Bookmarks panel	
+#	Bookmarks Panel and Page	
+	Border Color:	Боја оквира:
+#	Border colour	
+#	Border opacity	
+#	Border shape	
+#	Border:	
+#	Borders and Colors	
+#	Both engines, combined as the Strategy says	
+	Bottom left	Доле лево
+	Bottom right	Доле десно
+#	Bottom-left	
+#	Boundary coordinates run from 0 to 1 across the viewport.	
+#	Boundary point	
+	Bring All to Front	Постави све на врх
+	Bring forward	Помери напред
+	Bring to front	Постави испред свих
+#	Bring your own model (off by default)	
+#	Browser's print dialog	
+	Bulleted list	Листа са ознакама
+#	Butt	
+#	Button	
+#	Button is checked by default	
+#	Button Properties	
+#	Button Style:	
+#	Buttons with the same name and value are selected in unison	
+#	By the standard device formulas; profiles are not applied.	
+#	Bytes	
+#	CAdES signature (.p7m, .p7s)	
+#	CAdES signature envelope	
+#	Calculation order	
+#	Calibrate from two points	
+#	Calibrate screen	
+	Calibrate…	Калибриши…
+#	Callout	
+#	Can't be read: {e}	
+#	Can't save as {level}; nothing was changed:	
+#	Cancel caption placement	
+#	Cancel drawing	
+#	Cancel reverse sides	
+#	Canceling…	
+	Cancelled	Отказано
+#	Cancelled — {n} words were read on {m} of {t} pages; the rest were not read	
+#	Cancelling…	
+#	Card driver (PKCS #11)	
+#	Card PIN	
+#	Case-sensitive	
+#	CCITT Group 4	
+#	Center Footer Text	
+#	Center Header Text	
+	Center horizontally	Центрирај хоризонтално
+	Center vertically	Центрирај вертикално
+#	Center window on screen	
+#	Centimetres	
+#	Centre	
+#	Centre point	
+#	Centre points	
+#	Certificate	
+#	Certificate authority	
+#	Certificate encryption will be applied when you save	
+#	Certificate Signing	
+#	Certificate Viewer	
+#	Certificates	
+#	Certificates in {file}	
+#	Certification signature (level {p})	
+#	Certified by {by}	
+#	Certify	
+#	Certify (invisible signature)	
+#	Certify (visible signature)	
+#	Challenge: {challenge}	
+#	Change a signed document?	
+#	Change additional metadata	
+#	Change anyway	
+#	Change Author	
+#	Change colour	
+#	Change comment properties	
+#	Change document properties	
+#	Change drawing scale	
+#	Change field properties	
+#	Change initial view	
+#	Change initials	
+#	Change Keywords	
+#	Change link properties	
+#	Change reading options	
+#	Change reading options…	
+#	Change role map	
+#	Change settings…	
+#	Change signature	
+#	Change Subject	
+#	Change tag properties	
+#	Change the colour of line art as well as text	
+#	Change Title	
+#	Change {key}	
+#	Change {what}	
+	Changes allowed	Дозвољене промјене
+#	Changes here apply to all {n} selected comments	
+#	Changing the document	
+#	Character encoding	
+#	Character limit 0 means no limit. A comb of characters needs a limit.	
+#	Character limit:	
+	characters	Знакови
+#	Characters without spaces	
+	Check again	Провери поново
+#	Check box is checked by default	
+#	Check Box Properties	
+#	Check Box Style:	
+#	Check for accessibility	
+#	Check for accessibility…	
+#	Check for updates…	
+#	Check spelling	
+#	Check spelling while typing	
+#	Check that the feeder has paper, or wait for the scanner to finish, then choose Continue.	
+#	Check that the feeder has paper, or wait for the scanner to finish, then choose Try again.	
+#	Check that the tags read in the order a sighted reader would. Use the Reading Order tool or the Tags panel to correct it.	
+#	Check the pages	
+#	Check the pages of {name}: {why}	
+#	Check the scanner is on and connected, then choose Continue.	
+#	Check the scanner is on and connected, then choose Try again.	
+#	CheckBox	
+#	Checkbox	
+	Checked	Означено
+#	Checked when applied: 1 region found clear of the removed text. Text that exists only as pixels of an image is not searched.	
+#	Checked when applied: {n} regions found clear of the removed text. Text that exists only as pixels of an image is not searched.	
+#	Checked {objects} objects against the Arlington PDF Model for PDF {version}.	
+#	Checking for a newer version…	
+#	Checking form detection…	
+#	Checking Hungarian OCR installation…	
+#	Checking Options ({on} of 32 in all categories)	
+#	Checking pages…	
+#	Checking the scanner…	
+#	Checking the structure… {n} objects so far	
+#	Checkmark	
+#	Checks a file for CMYK printing: fonts, colour, image resolution, hairlines, transparency, page boxes, encryption, JavaScript, annotations, Trapped and the PDF version	
+#	Checks not run	
+#	Checks passed	
+#	Chinese (Simplified) and English	
+#	Choose a control point inside the viewport.	
+#	Choose a digital ID file	
+#	Choose a digital ID.	
+#	Choose a file…	
+#	Choose a folder for the exported files	
+#	Choose a folder for the extracted pages	
+#	Choose a folder for the results	
+#	Choose a folder for the searchable files	
+#	Choose a folder for the split files	
+#	Choose a folder on this computer to pin	
+	Choose a folder…	Изаберите фолдер…
+#	Choose a layout:	
+#	Choose a logo	
+#	Choose a PNG or JPEG image (up to 4 MiB). Transparency is preserved.	
+#	Choose a point, then the two endpoints of a reference line.	
+#	Choose a provider.	
+#	Choose a signature that can be removed.	
+#	Choose a stamp, then click on the page to place it.	
+#	Choose a tool to start measuring.	
+#	Choose a visible point on the model.	
+#	Choose advanced unit formats first.	
+#	Choose an endpoint, the angle vertex, then the other endpoint.	
+#	Choose an image	
+#	Choose another file: the original is kept as it is, and the version without the signature is saved next to it.	
+#	Choose background image…	
+#	Choose font…	
+#	Choose ICC profile…	
+#	Choose images	
+#	Choose image…	
+#	Choose individual tools	
+#	Choose new keys for {command}	
+#	Choose paper by PDF page size	
+#	Choose PdfCraft for .pdf files in Windows Settings.	
+#	Choose photo…	
+#	Choose raw file…	
+#	Choose reference…	
+#	Choose the digital ID that you want to use for signing:	
+#	Choose the module's library file.	
+#	Choose the signature to remove:	
+#	Choose the two endpoints.	
+#	Choose three points on the circle.	
+#	Choose where to save the signed file. The service signs it once you have.	
+#	Clause	
+	Clean Up	Очисти
+#	Clean-up	
+#@plural	Cleaned up the scan on {n} page.|Cleaned up the scans on {n} pages.	
+#	Cleans up the scanned pictures in place: recognized text, comments and links on the pages stay as they are.	
+	Clear all	Обриши све
+#	Clear form	
+	Clear guides	Уклони вођице
+#	Clear personal dictionary	
+#	Clear points	
+#	Clear redaction marks	
+#	Clear region	
+#	Clear search	
+#	Clear selection / close find	
+#	Clear the jam and load the remaining sheets squarely, then choose Continue.	
+#	Clear the jam and load the sheets squarely, then choose Try again.	
+#	Click a word to inspect it; drag a rectangle to re-read part of the page	
+#	Click Continue to enter token PIN and sign.	
+#	Click each vertex. Enter finishes the perimeter.	
+#	Click on the page to add a {tool}, or drag to set its size	
+#	Click on the page to add text; each click starts a new box, and ✓ finishes. Drag items to move them, drag a corner to resize, double-click text to edit it.	
+#	Click text or an image to edit it	
+#	Click the boundary. Enter or the first point closes the area.	
+#	Click the control point on the map.	
+#	Click the ends of a known reference length.	
+#	Click the first point to begin.	
+#	Click the preview to place the caption on its measurement plane.	
+#	Click to sort, drag to move the column. Drag its edge to resize it.	
+#	Click two points to measure a distance.	
+#	Click vertices. Enter or double-click finishes a perimeter or area. Click the first point to close an area.	
+#	Click where the copied comments go; Escape lets them go	
+#	Clockwise 90 degrees	
+	Close all	Затвори све
+#	Close comment pop-up	
+#	Close file	
+#	Close menu	
+#	Close Other Tabs	
+#	Close other tabs	
+	Close panel	Затвори панел
+#	Close Tab	
+#	Close Tabs to the Right	
+#	Close tabs to the right	
+#	Close the feeder cover and check the paper, then choose Continue.	
+#	Close the feeder cover and check the paper, then choose Try again.	
+	Close window	Затвори прозор
+#	Closed arrow	
+#	CloudSigner (mSzafir) is found by itself when it is installed: start it and log in before signing.	
+#	CMYK	
+#	CMYK colour needs a CMYK printing condition	
+#	Code sent	
+#	Collapse all	
+#	Collapse all bookmarks	
+#	Collapse all pages	
+#	Collapse all tools	
+#	Collapse tag	
+#	Collapse {folder}	
+#	Color contrast	
+#	Color Document	
+#	Color document	
+	Color Images	Слике у боји
+#	Color Photo	
+#	Color Spaces	
+#	Colour bars	
+#	Colour images	
+#	Colour the profile doesn't allow	
+#	Colours are remapped while rendering; the document itself never changes.	
+#	Column select	
+#	Column spacing	
+#	Column widths	
+#	Comb of	
+#	Comb of characters	
+#	Combine files	
+#	Combine files in PdfCraft…	
+#	Combine files…	
+#	Combine the rest	
+#	Combined {n} files	
+#	Combo	
+#	Coming in milestone	
+#	Coming in milestone {m}. Items marked Ready work today.	
+#	Comment and form data	
+#	Comment and review	
+#	Comment list	
+#	Commenting	
+#	Commenting, filling in form fields, and signing existing signature fields	
+#	comments	
+#	Comments & Forms	
+#	Comments & Markup	
+#	Comments and form fields	
+#	Comments and markups	
+#	Comments only	
+#	Comments panel	
+#	Comments to send	
+#	Comments, links and fields must be in the tag tree to be announced. Tag the annotations.	
+#	Comments: {n}	
+#	Commercial print (CMYK)	
+#	Commit selected value immediately	
+#	Common Properties	
+#	Common scales	
+#	Compact Home (tools and recent files only)	
+#	Compare Files	
+#	Compare files	
+#	Compare files…	
+#	Compare panel	
+#	Compare this file with an older version: Compare files… in All tools.	
+	Complete	Довршено
+#	Completed	
+#	Compress a PDF	
+#	Compress and export	
+#	Compress document structure (object streams)	
+#	Compressing combined PDF…	
+#	CONFIDENCE	
+#	Confidence weighted	
+#	Configure a Digital ID for Signing	
+#	Configure New Digital ID	
+	Confirm Password	Потврдите лозинку
+#	Conformance level:	
+#	Connected by USB.	
+#	Connected lines	
+#	Connected over the network (Web Services). Options come from that driver, not the USB one.	
+#	Console	
+#	Content copying	
+#	Content copying for accessibility	
+#	Content not read to the end on pages: {pages}	
+#	Content Streams	
+#	Content uses DeviceRGB colour: PDF/X-1a allows only CMYK, gray and spot colour	
+#	Content uses {} colour	
+#	Content uses {} colour, which doesn't match the output intent's colour space	
+#	Continue scanning	
+#	Continue scanning fronts	
+#	Continue scanning reverse sides	
+#	Continuous scrolling	
+#	Control point	
+#	Control points	
+#	Conversion factor	
+#	Convert colors	
+#	Convert colours	
+#	Convert colours…	
+#	Convert mode	
+#	Convert to	
+#	Convert to PDF and email…	
+#	Convert to PDF with PdfCraft	
+#	Converted from an EPUB book.	
+#	Converted from an EPUB book. Details lists how it was laid out and what was left out.	
+#	Converted to {level} ({n} changes)	
+#	Converted {c} colours and {i} pictures on {p} pages	
+#	Converted {name}. Approximated: {notes}	
+#	Converting colour to CMYK needs the printing condition's ICC profile: choose a profile file	
+#	Converting {name}…	
+#	Converts PDF user coordinates to easting, northing and elevation.	
+#	Converts the result to PDF/A-2b for archiving and says what still keeps it from complying	
+#	Copied to clipboard	
+#	Copied {what}	
+#	Copied!	
+#	Copies, two-sided printing and colour are chosen in the browser's print dialog.	
+#	Copies, two-sided printing, colour and the printer are chosen in the system print dialog, which opens when you print.	
+#	Copy a text box or an image first	
+#	Copy comment	
+#	Copy comments	
+#	Copy comments first	
+#	Copy example	
+#	Copy Image	
+#	Copy Image in Original Format	
+#	Copy or cut pages first	
+#	Copy page numbers	
+#	Copy pages	
+#	Copy selected text	
+#	Copy text	
+#	Copy the pages with a match as a list such as 1-3, 7	
+#	Copy to clipboard	
+#	Copyright info URL	
+#	Copyright notice	
+#	Copyright status	
+#	Correct recognized text	
+#	Correct recognized text…	
+#	Correct scans	
+#	corrected	
+#	Corrected scan	
+#	Corrected text (Enter commits)	
+#	Could not copy the selection because text could not be read on every page	
+#	Could not mark the selection because text could not be read on every page	
+#	Could not save: {e}	
+#	Couldn't add {name}: {e}	
+#	Couldn't attach the file	
+#	Couldn't be read: {reason}	
+#	Couldn't check for updates: {e}	
+#	Couldn't combine files: {e}	
+#	Couldn't copy the image: {e}	
+#	Couldn't create a PDF: {e}	
+#	Couldn't download the text recognition models: {e}	
+#	Couldn't download {name}: {e}	
+#	Couldn't encrypt: {e}	
+#	Couldn't enhance the scanned pages	
+#	Couldn't extract pages: {e}	
+#	Couldn't extract the original PDF: {e}	
+#	Couldn't fit the visible content: {e}	
+#	Couldn't follow linked PDF: {reason}	
+#	Couldn't import the certificates: {e}	
+#	Couldn't import the signature image: {e}	
+#	Couldn't insert from clipboard: {e}	
+#	Couldn't open revision {n}: {e}	
+#	Couldn't open the email draft: {e}	
+#	Couldn't open the printer's preferences: {e}	
+#	Couldn't open the result: {e}	
+#	Couldn't open the signed version: {e}	
+#	Couldn't open Windows default app settings: {error}	
+#	Couldn't optimize the file	
+#	Couldn't optimize the file: {e}	
+#	Couldn't prepare the email draft: {e}	
+#	Couldn't print from the browser ({e}); downloaded {name} to print instead	
+#	Couldn't reach the printer	
+#	Couldn't read the ICC profile {name}: {e}	
+	Couldn't read {name}: {e}	Није могуће прочитати {name}: {e}
+#	Couldn't recover {name}: {e}	
+#	Couldn't reload {name}: {e}	
+#	Couldn't rename {name}: {e}	
+#	Couldn't save the image: {e}	
+#	Couldn't save {name}: {e}	
+#	Couldn't save: {e}	
+#	Couldn't send the form: {error}	
+#	Couldn't show the file picker. Please try again.	
+#	Couldn't split: {e}	
+#	Couldn't start scanning	
+#	Couldn't summarize comments: {e}	
+#	Couldn't take the snapshot: {e}	
+#	Couldn't unlock {name}: {e}	
+#	Couldn't use the photo: {e}	
+#	Couldn't use {name}: {e}	
+#	Couldn't write {name}: {e}	
+#	Couldn't write {path}: {e}	
+#	Counterclockwise 90 degrees	
+#	Counting words… {n} pages read	
+#	Country/Region	
+#	Courier can't draw “{c}” ({code}) in other PDF viewers. Choose Helvetica or Times.	
+#	Craft AI runs a local Gemma model on this machine. Nothing you write here leaves it: no account, no cloud service, no telemetry — the panel talks to a model runtime on 127.0.0.1.	
+#	Craft AI runs in the native app — it needs a local model runtime.	
+#	Craft AI talks to a model runtime on this machine — Ollama, LM Studio or llama.cpp's server — and never to a cloud service. Start one, then Refresh.	
+#	Create & Edit	
+#	Create a new Digital ID (self-signed, saved to a password-protected file)	
+#	Create a PDF	
+#	Create accessibility report	
+#	Create Custom Stamp	
+#	Create custom stamp…	
+#	Create folder	
+	Create from	Креирај из
+	Create link	Направи везу
+#	Create links	
+#	Create links from URLs	
+	Create Link…	Направи везу…
+#	Create PDF	
+#	Create PDF Comment Summary	
+#	Create PDF comment summary…	
+#	Create PDF from clipboard	
+#	Create PDF from file…	
+#	Create PDF from images	
+#	Create PDF from images…	
+#	Create PDF from multiple files…	
+#	Create PDF from Scanner	
+#	Create PDF from scanner…	
+#	Create separate PDFs…	
+#	Create {what}	
+#	Created 1 link	
+#	Created a comment summary	
+#	Created a PDF from the first {n} files	
+#	Created a PDF from {n} files	
+#	Created a PDF from {n} files; left out: {names}	
+#	Created Scan.pdf	
+#	Created {n} links	
+#	Created {n} scanned files	
+#	Creates 1 file from {n} pages.	
+#	Creates {f} files from {n} pages.	
+	Creator	Креатор
+#	Credit Cards	
+#	CRL Signing	
+#	Crop (% trimmed from each side)	
+	Crop Image	Изрежи слику
+	Crop image	Изрежи слику
+#	Crop page	
+#	Crop pages	
+#	Crop scanner borders to the paper edge	
+key	Ctrl	Ctrl
+#	Currency symbol:	
+	Current document	Тренутни документ
+#	Current page ({n})	
+#	Current page only	
+#	Current page — type a page number or label (such as iv) and press Enter	
+#	Cursor Coordinates	
+#	Cursor coordinates	
+	Custom Color	Прилагођена боја
+#	Custom font	
+#	Custom page…	
+#	Custom role	
+	Custom scale	Прилагођена скала
+	Custom scale:	Прилагођена скала:
+#	Custom selection	
+#	Custom stamps arrive on the web with file pickers for images	
+#	Custom text:	
+#	Custom theme	
+#	Custom:	
+#	Customize & Automate	
+#	Cut and stack	
+#	Cut and stack needs Two-sided: Off. Print single-sided sheets.	
+#	Cut Image	
+#	Cut marks	
+#	Cut pages	
+#	Cut {what}	
+#	Cuts each page to its printed area, turns it upright and fits it to the sheet without stretching. One label per sheet.	
+#	Dark gray theme	
+#	Dark Grey	
+#	Dark ink	
+#	Dark page	
+#	Dark page colours	
+#	Dark PDF pages	
+	Dark theme	Тамна тема
+#	Data Encipherment	
+#	Date field	
+#	Date: 	
+#	Date: {date}	
+#	Datum accuracy	
+#	Deactivate Read Out Loud	
+#	December	
+#calendar date	December	
+#	Decimal places:	
+#	Decimal separator	
+#	Decimals	
+#	Decipher Only	
+#	Declared conformance: {shown}	
+#	Decorative border	
+#	Decorative figure	
+#	Default (p11-kit, then OpenSC)	
+#	Default page display	
+#	Default paper size	
+#	Default Value:	
+#	Default view	
+#	Default workspace mode	
+#	Default zoom	
+	Default:	Подразумевано:
+#key	Delete	
+#	Delete attachment	
+#	Delete attachment {key}	
+	Delete bookmark	Обриши обележивач
+#	Delete bookmarks	
+	Delete comment	Обриши коментар
+#	Delete comments	
+#	Delete content	
+#	Delete document JavaScript	
+#	Delete field	
+#	Delete file	
+#	Delete graphic	
+	Delete guide	Обриши вођицу
+#	Delete image	
+#	Delete line	
+#	Delete lines	
+#	Delete link	
+#	Delete measurement	
+#	Delete object	
+#	Delete objects	
+#	Delete page	
+#	Delete page {label}	
+#	Delete pages	
+#	Delete pages (Delete)	
+#	Delete pages after extracting	
+#	Delete selected fields	
+#	Delete selected pages (Organize)	
+#	Delete Settings	
+#	Delete stamp	
+#	Delete tag	
+#	Delete the selected pages	
+#	Delete the selection	
+#	Delete XMP metadata	
+#@plural	Delete {n} bookmark|Delete {n} bookmarks	
+#@plural	Delete {n} field|Delete {n} fields	
+#	Delete {o}	
+#	Deleted page	
+#	Denominator	
+#	Describe the figure	
+#	Description writer	
+#	Deskew	
+#	Deskew pages	
+#	Detached signature file	
+#	Detailed Report	
+	Details:	Детаљи:
+#	Detect form fields	
+#	Detected 1 form field	
+#	Detected {n} form fields	
+#	Device colour is used, but there is no PDF/A output intent	
+#	Device library (PKCS #11)	
+#	Device-independent colour is used, so the output intent needs an embedded profile	
+#	DeviceCMYK is used, but the PDF/A output intent isn't a CMYK profile	
+#	DeviceCMYK is used: it needs a CMYK output intent (not added automatically)	
+#	DeviceRGB is used, but the PDF/A output intent isn't an RGB profile	
+#	Diagnostic details	
+#	Digital ID	
+#	Digital ID password	
+#	Digital ID required	
+#	Digital Signature	
+#	Digital signature	
+#	Digital Signature Properties	
+#	Digitally sign	
+#	Digitally signed by	
+#	Discard all comments, forms and multimedia	
+#	Discard all form submission, import and reset actions	
+#	Discard all links, actions and JavaScript	
+#	Discard all object data (file attachments)	
+#	Discard alternate images	
+#	Discard bookmarks	
+#	Discard document information and metadata	
+#	Discard document tags	
+#	Discard embedded page thumbnails	
+#	Discard embedded print settings	
+#	Discard hidden layer content	
+#	Discard hidden text	
+#	Discard Objects	
+#	Discard private data of other applications	
+#	Discard this text (Esc)	
+#	Discard User Data	
+#	Disk {size}	
+#	Display theme	
+#	DisplayDocTitle isn't true: the window shows the file name	
+#	Distance unit	
+#	Distance units	
+#	Distinguished name	
+#	Distribute evenly	
+#	Distribute fields	
+	Distribute objects	Распореди објекте
+#	DN: 	
+#	Do not ask again	
+#	Dock navigation rail on Left	
+#	Dock navigation rail on Right	
+#	Document actions	
+#	Document and markups	
+#	Document and stamps	
+#	Document assembly	
+#	Document feeder	
+#	Document feeder (both sides)	
+#	Document has appropriate color contrast	
+#	Document is not image-only PDF	
+#	Document is tagged PDF	
+#	Document JavaScripts	
+#	Document JavaScripts…	
+#	Document language	
+#	Document Overhead	
+#	Document Properties	
+#	Document properties ({key})	
+#	Document properties (⌘D)	
+#	Document properties…	
+#	Document sanitized. Save to finish: saving rewrites the whole file.	
+#	Document scrollbar width	
+#	document security store	
+#	document structure	
+#	Document structure provides a logical reading order	
+#	Document timestamp	
+#	Document title is showing in title bar	
+#	Document: {name}	
+#	Documents and view	
+#	Documents of more than 20 pages need bookmarks for navigation. Add bookmarks for the main sections.	
+#	Does not match what was signed	
+#	Domain	
+#	Don't ask again	
+#	Done adding text	
+#	Double-click also finishes a perimeter or area.	
+#	Download 121 MB to find text fields, checkboxes and signature areas automatically.	
+#	Download and detect	
+#	Download historical OCR add-on (13 MB)	
+#	Download package…	
+#	Download size: {size}	
+#	Download with Ollama	
+#@plural	Downloaded {n} PDF|Downloaded {n} PDFs	
+#	Downloading attachments on the web arrives with M3.10 ({n} bytes ready)	
+#	Downloading form detection…	
+#	Downloading the text recognition models…	
+#	Downloading… {pct}% — {note}	
+#	Downloads open in your browser. Installation is manual; nothing is installed automatically.	
+#	Downsample images	
+#	Downsample to	
+#	DPI sets the printed page size without resampling the image.	
+#	Drag a field to move it, or select it and press {up} or {down}.	
+#	Drag a guide out of a ruler onto a page; hold Shift as you drop it to put it on every page. Drag it back onto a ruler to remove it, or right-click it for its colour, thickness and label. Guides and the grid are never saved in the PDF.	
+#	Drag a guide to move it. Drag it back onto a ruler, or off the page, to remove it.	
+#	Drag a point to reshape the line. Delete removes it.	
+#	Drag a rectangle around the area to copy	
+#	Drag a rectangle around the area to print	
+#	Drag a rectangle on a page to crop it; double-click a page for Set Page Boxes	
+#	Drag a rectangle to create a link; double-click a link to edit it	
+#	Drag from a ruler onto a page to place a guide: from the top ruler for a horizontal one, from the left ruler for a vertical one. Hold Shift as you drop it to put it on every page.	
+#	Drag hotbar	
+#	Drag on the preview to choose a region. An empty selection scans the whole area.	
+#	Drag the corners onto the document's edges, then choose Enhance page.	
+#	Drag the selection to move it. Esc clears the selection.	
+#	Drag to draw the area where the signature should appear.	
+	Drag to move	Превуците за помјерање
+#	Drag to move; double-click to put it back	
+#	Drag to orbit. Right or middle drag pans. Scroll zooms. Click the model to measure.	
+#	Drag to reorder	
+#	Drag to rotate · Shift: 15° steps · Tab while dragging: quarter turns	
+#	Drag to rotate. Hold Shift for 15° steps; Esc cancels.	
+#	Draw a cloud	
+#	Draw a line	
+#	Draw a polygon	
+#	Draw a rectangle	
+#	Draw a rectangle on the page or click content, then choose its tag.	
+#	Draw an arrow	
+#	Draw an oval	
+#	Draw connected lines	
+#	Draw freehand	
+#	Draw your {what} below.	
+#	Drawing	
+#	Drawing scale	
+#	Drawing scale changes. Use Actual size for full-scale plans.	
+#	Driver default	
+#	Drop PDFs or folders here, or choose them.	
+#	Drop PDFs, images, text files or folders here, or choose them.	
+#	Drop-down list	
+#	Dropdown Properties	
+#	Duplex	
+#	Duplex is not offered.	
+#	Duplicate "{name}" onto:	
+#	Duplicate Field	
+#	Duplicate field	
+#	Duplicate page	
+#	Duplicate pages	
+#	Duplicate pages with new field names	
+#	Duplicate pages — 1 field renamed	
+#	Duplicate pages — fields renamed	
+#	Duplicate Tab	
+#	Dynamic XFA form laid out from its template: {pages}, {fields}.	
+#	Dynamic zoom	
+#	E-Sign	
+#	e.g. 192.168.1.20	
+#	e.g. bigger headings, numbered pages	
+#	e.g. en-US	
+#	e.g. My stamps	
+#	Each field needs a tooltip that says what to enter. Add one in Field Properties > General > Tooltip.	
+#	Each file holds as many of the {n} pages as fit.	
+#	Each image is measured where pages draw it; an image is replaced only if the result is smaller.	
+#	Each image once, named after the document and page. JPEG images are saved unchanged; others as PNG.	
+#	Each page as it looks, its text kept searchable. For documents whose layout matters.	
+#	Each page on its own sheet, named Page 1, Page 2…	
+#	Each page prints on the standard sheet it matches (A4, US Letter, …); pages of another size print on the paper above. Only with Size.	
+#	Each set is a text file in	
+#	Each set is a text file in the guide-set folder (Preferences ▸ Units and guides ▸ Open folder). Edit it in any text editor, send it to others, or drop theirs into the folder, then click Reload. Distances are measured from the edge you name, so a set fits other page sizes.	
+#	Earlier in calculation order	
+#	Earlier in tab order	
+#	earlier saves are still waiting for the website	
+#	Easting	
+#	Edge shadow removal	
+#	Edge snapping	
+#comment menu	Edit	
+#	Edit a PDF	
+#	Edit Action	
+	Edit comment	Уреди коментар
+#	Edit Content	
+#	Edit content	
+#	Edit document JavaScript	
+#	Edit fields	
+#	Edit image	
+#	Edit in document	
+#	Edit measurement	
+#	Edit measurement viewport	
+#	Edit mode	
+#	Edit script of {name}	
+#	Edit text	
+#	Edit text & images	
+#	Edit text…	
+#	Edit this PDF	
+#	Edit {field}'s formula	
+#	Editable text	
+#	Editorial	
+	Email Address	Адреса е-поште
+#	Email Addresses	
+#	Email draft saved to {path}	
+#	Embedded file "{}": its file specification lacks F or UF	
+#	Embedded Files	
+#	Embedded files must be PDF/A files themselves (use PDF/A-3 for others)	
+#	Enable Acrobat JavaScript	
+#	Enable copying of text, images, and other content	
+#	Enable snapping	
+#	Enable text access for screen reader devices for the visually impaired	
+#	Encipher Only	
+#	Encrypt	
+#	Encrypt for recipient	
+#	Encrypt for recipients	
+#	Encrypt with Certificate	
+#	Encrypt with certificate	
+#	Encrypt with certificate…	
+#	Encryption	
+#key	End	
+#	End entity	
+#	Endpoints	
+#	ENGINE · STRATEGY	
+	English	Енглисх
+#	Enhance	
+#	Enhance camera image	
+#	Enhance page	
+#	Enhance Scanned File	
+#	Enhance scanned file	
+#	Enhance scanned file…	
+#	Enhancing scans… image {d} of {t}	
+#	Enhancing the scanned pages was cancelled	
+#	Enter a name.	
+#	Enter a page number	
+#	Enter a scale such as 1:50.	
+#	Enter a URL	
+#	Enter Full Screen	
+#	Enter known map coordinates for at least three page positions.	
+#	Enter page numbers or ranges, such as 1, 3-5. Leave blank for all pages.	
+#	Enter permissions password…	
+#	Enter the device's PIN.	
+#	Enter the field names	
+#	Enter the password that opens it	
+#	Enter the permissions password to allow combining	
+#	Enter token PIN	
+#	Entire page	
+#	Entire PDF document to send: {bytes} bytes	
+#	EPSG code	
+#	EPUB book (.epub)	
+#	Erase drawings	
+key	Esc	Есц
+#	Estimated size: about {size}	
+#	Estimating size…	
+#	Even and Odd Pages	
+#	Even pages	
+	Even Pages Only	Само парне странице
+#	Evens out the paper so a grey or yellowed background turns white, and darkens faint strokes. 0 is off.	
+#	Every field calculates after the fields it reads.	
+#	Every field outside a loop calculates after the fields it reads.	
+#	Every line set in the style chosen for a level becomes a bookmark of that level, under a new first bookmark.	
+#	Every PDF in the folder	
+#	Every PDF in the folder and the folders inside it	
+#	Every PDF, image and text file in the folder	
+#	Every PDF, image and text file in the folder and the folders inside it	
+#	Everything on a page must be tagged or marked as an artifact (decoration, headers, footers). Tag the untagged content.	
+#	Example set file	
+#	Exclude image/OCR text	
+#	Exclude images smaller than	
+#	Exclude tagged code blocks	
+#	Exclude tagged tables	
+#	Exclusions use PDF tags. Untagged tables and code remain included. Image exclusion also removes invisible text.	
+#	Execute a menu item	
+#	Executive	
+#	Expand all	
+#	Expand all bookmarks	
+#	Expand all pages	
+#	Expand all tools	
+#	Expand tag	
+#	Expand top-level bookmarks	
+#	Expand {folder}	
+#	Expires {date}	
+#	Explain	
+#	Explorer selection exceeds the {size} MiB memory limit.	
+#	Explorer selection is limited to {count} files.	
+#	Export & Convert	
+#	Export a PDF	
+#	Export all comments to data file…	
+#	Export All Images	
+#	Export all images	
+#	Export all images…	
+#	Export all to data file…	
+#	Export certificate	
+#	Export certificate…	
+#	Export comments	
+#	Export data	
+#	Export form data	
+#	Export form data…	
+#	Export measurements	
+#	Export measurements as CSV	
+#	Export stopped: {e}	
+#	Export this PDF	
+#	Export to EPUB	
+#	Export to EPUB…	
+#	Export to Excel	
+#	Export to Excel…	
+#	Export to HTML…	
+#	Export to Image	
+#	Export to image…	
+#	Export to Markdown…	
+#	Export to PostScript…	
+#	Export to PowerPoint…	
+#	Export to RTF…	
+#	Export to Text	
+#	Export to text…	
+#	Export to Word…	
+#	Export value	
+#	Export Value: {on}	
+#	Export XMP metadata	
+#	Exported 1 image	
+#	Exported the text of 1 page	
+#	Exported the text of {n} pages	
+#	Exported {name}	
+#	Exported {n} images	
+#	Exporting… {d} of {t}	
+#	Extend the docked toolbar along the entire side. Choose a side above to enable.	
+#	Extend to page margin	
+#	Extended Graphics States	
+#	Extension length (points)	
+#	Extract pages	
+#	Extract pages as separate files	
+#	Extract pages to a new document	
+#	Extract pages…	
+#	Extract the original PDF…	
+#	Extract the selected pages…	
+#	Extracted 1 page	
+#	Extracted {n} pages	
+#	Eye strain background: {mode} (click to cycle, right-click for tint settings)	
+#	F8: next word to review; Shift+F8 goes back	
+scroll speed	Fast	Брзо
+#	Fast Web View	
+#	February	
+#calendar date	February	
+#	Feeder	
+	Feet	Стопе
+#	Feet and inches	
+#	Feet and inches uses ft as the scale unit.	
+#	Field "{}" on page {p} has no description (tooltip)	
+#	Field "{}" on page {p} has no description (TU), and its tag no alternate text	
+#	Field "{}" on page {p}: its description has no language (Lang)	
+#	Field descriptions	
+#	Field is used for file selection	
+#	Field list	
+	Field names	Називи поља
+#	Field names (comma-separated)	
+#	field names can't contain a period: {name}	
+#	Field names with + - * / and parentheses; put \\ before spaces in names.	
+#	Field names with + - * / and parentheses; put \\\\ before spaces in names.	
+	Field properties…	Својства поља…
+#	Field value is in range:	
+#	Field value is not validated	
+#	Field: {field}	
+#	Field: {field} on page {p}	
+#	Fields to reset (comma-separated; empty: all)	
+#	Figure {i} of {n}{page}	
+#	Figures alternate text	
+#	Figures require alternate text	
+#	File (.p12, .pfx)	
+#	File attachment annotation on page {p}: its file specification lacks F or UF	
+#	File attachments	
+#	File name	
+	File size	Величина датотеке
+#@id	file.word_count	
+#	Files are combined from top to bottom. Leave Pages empty to take every page.	
+#	Files are combined in the order shown. Drag them to change it.	
+#	Files are combined in this order. Leave Pages empty to take every page.	
+#	Files for {name}	
+#	Files you open in PdfCraft appear here. Drop a PDF anywhere to open it.	
+#	Fill & Sign	
+#	Fill & Sign dates	
+#	Fill & sign mode	
+#	Fill & Sign signature	
+#	Fill & Sign: add another saved signature	
+#	Fill & Sign: add other saved initials	
+#	Fill & Sign: add text	
+#	Fill & Sign: change initials	
+#	Fill & Sign: change signature	
+#	Fill & Sign: checkmark	
+#	Fill & Sign: circle	
+#	Fill & Sign: cross	
+#	Fill & Sign: date	
+#	Fill & Sign: dot	
+#	Fill & Sign: initials	
+#	Fill & Sign: line	
+#	Fill & Sign: remove saved initials	
+#	Fill & Sign: remove saved signature	
+#	Fill & Sign: sign	
+#	Fill Color:	
+#	Fill colour	
+#	Fill colour:	
+#	Fill colour: none	
+#	Fill in {name}	
+	Fill opacity	Непрозирност попуне
+#	Filling in form fields and signing existing signature fields	
+#	Filling of form fields	
+#	Filter comments	
+#	Find a command	
+#	Find a tag	
+#	Find certificates	
+#	Find form fields	
+#	Find options	
+#	Find text	
+#	Find text and redact	
+#	Find text and redact…	
+#	Find text in the toolbar	
+#	Find text or tools	
+#	Find tools and commands	
+#	Find tools and commands…	
+#	Find untagged content	
+#	Finding document fonts…	
+#	Finding fields… page {d} of {t}	
+#	Finish composing text before applying this action.	
+#	Finish measurement	
+#	Finish or discard the text being edited before selecting several objects.	
+#	Finished measurements appear here and are saved in the PDF.	
+#	First / last page	
+	First page	Прва страница
+#	First row number	
+#	Fit Height	
+#	Fit model	
+#	Fit one full page	
+#	Fit Page	
+#	Fit text on one line	
+#	Fit to height	
+	Fit to page	Уклопи у страницу
+#	Fit to width	
+#	Fit to width scrolling	
+#	Fit Visible	
+#	Fit visible	
+#	Fit Width	
+#	Fits this machine	
+	Fix	Фиксирај
+#	Fix hairlines	
+#	Fix hairlines…	
+#	Fix order	
+#	Fix reading order	
+#	Fixed layout	
+#	Fixed what could be fixed; 1 problem remains	
+#	Fixed what could be fixed; {n} problems remain	
+#	Fixed {n} hairlines on {p} pages	
+#	Fixup: {fixup}	
+#	Flags	
+#	Flatbed	
+#	Flatpak manages this installation. Check for updates in your system software manager or with flatpak update.	
+#	Flatten comments	
+#	Flatten comments and form fields	
+#	Flatten curved page	
+#	Flatten Fill & Sign	
+#	Flatten Fill & Sign when saving	
+#	Flatten form fields	
+	Flip horizontal	Окрени хоризонтално
+#	Flip image	
+#	Flip on long edge	
+#	Flip on short edge	
+#	Flip text up	
+	Flip vertical	Окрени вертикално
+#	Float (drag anywhere)	
+	Float panel	Одвоји панел
+#	Font (unnamed) on page {p} doesn't map its characters to Unicode	
+#	Font (unnamed) on page {p} isn't embedded	
+#	Font colour:	
+#	Font file	
+#	Font size 0 uses automatic sizing.	
+#	Font size:	
+#	Font type	
+#	Font {} on page {p} doesn't map its characters to Unicode	
+#	Font {} on page {p} draws a glyph its font program lacks (code {code})	
+#	Font {} on page {p} draws the .notdef glyph (code {code})	
+#	Font {} on page {p} has Differences, but its program has no Unicode (3,1) cmap	
+#	Font {} on page {p} has no CIDToGIDMap	
+#	Font {} on page {p} has no CMap (Encoding)	
+#	Font {} on page {p} has no ToUnicode map, and no exception lets it go without one	
+#	Font {} on page {p} is a non-symbolic TrueType font with no Encoding	
+#	Font {} on page {p} is a symbolic TrueType font with an Encoding entry	
+#	Font {} on page {p} isn't embedded	
+#	Font {} on page {p}: code {code} in a formula can't be mapped to Unicode	
+#	Font {} on page {p}: code {code} is {w} wide in the font dictionary but {fw} in the font program	
+#	Font {} on page {p}: its CharSet leaves out glyph {glyph}, which the font program has	
+#	Font {} on page {p}: its CharSet lists glyph {glyph}, which the font program lacks	
+#	Font {} on page {p}: its CIDFont's Supplement is higher than its CMap's	
+#	Font {} on page {p}: its CIDSet leaves out CID {cid}, which the font program has	
+#	Font {} on page {p}: its CIDSet lists CID {cid}, which the font program lacks	
+#	Font {} on page {p}: its CIDToGIDMap is neither a stream nor Identity	
+#	Font {} on page {p}: its CMap and CIDFont name different orderings (CIDSystemInfo Ordering)	
+#	Font {} on page {p}: its CMap and CIDFont name different registries (CIDSystemInfo Registry)	
+#	Font {} on page {p}: its CMap uses an embedded CMap, not a predefined one	
+#	Font {} on page {p}: its CMap uses CMap {cmap}, which isn't predefined	
+#	Font {} on page {p}: its CMap {cmap} is neither predefined nor embedded	
+#	Font {} on page {p}: its CMap's WMode differs from the one in the CMap stream	
+#	Font {} on page {p}: its Differences name glyph {glyph}, which isn't in the Adobe Glyph List	
+#	Font {} on page {p}: its Encoding dictionary has no BaseEncoding	
+#	Font {} on page {p}: its encoding {enc} is neither MacRomanEncoding nor WinAnsiEncoding	
+#	Font {} on page {p}: its ToUnicode map maps code {code} to U+0000	
+#	Font {} on page {p}: its ToUnicode map maps code {code} to {u}	
+#	Font {} on page {p}: its TrueType program has no cmap	
+#	Font {} on page {p}: its TrueType program has no Unicode (3,1) or Mac Roman (1,0) cmap	
+#	Font {} on page {p}: its TrueType program has several cmaps but no Symbol (3,0) one	
+#	Font {} on page {p}: no Unicode or Mac Roman cmap of its program finds glyph {glyph} (code {code})	
+#	Font: Helvetica	
+#	Fonts must map their characters to Unicode so text can be read and copied. Fix the fonts or recreate the PDF.	
+#	Fonts not embedded	
+#	for images above	
+#	For page sizes and margins.	
+#	For scripts and AI agents	
+#	For the rulers, the grid, page sizes and margins. Clicking the corner between the rulers steps to the next unit.	
+#	Force OCR (override skip options)	
+#	Form data and PDF forms	
+#	Form field advice	
+#	Form field detection is already running	
+#	Form field on page {p} isn't tagged	
+#	Form fields	
+#	Form fields are flattened: their values stay visible. Saving rewrites the whole file.	
+#	Form fields must be in the tag tree (Form tags) to be announced. Tag the form fields.	
+#	Form fields only	
+#	Form fields panel	
+#	form fill	
+#	Form fill-in and digital signatures	
+#	Form sent to {url} (HTTP {status}).	
+#	Form submission is not available in the browser.	
+#	Form values to send: {count}	
+#	Format line	
+#	Format lines	
+#	Format Studio	
+#	Format Studio…	
+#	Format text	
+#	Forms	
+#	Forms & Signatures	
+#	Forms and signing	
+#	Formulas and similar non-text elements need alternate text. Add alternate text to them.	
+#	Found {n} untagged content problems.	
+#calendar weekday	Fr	
+#	Fraktur and Kurrent use an optional 13 MB add-on. After download, recognition works offline.	
+#	Freehand-Highlight	
+#	From a PDF page or an image	
+#	From colour	
+#	From Finder: select files, then right-click > Quick Actions > Combine files in PdfCraft. Not listed? Turn it on once under Quick Actions > Customize.	
+#	From scanner…	
+#	From {file}	
+#	Front side only	
+#	front(s)	
+#	Fronts scanned: {n}. Flip the sheet on the bed, then choose Scan reverse sides.	
+#	Fronts scanned: {n}. Flip the stack so the last sheet is on top, reload it, then choose Scan reverse sides.	
+#	Full area	
+	Full screen mode	Режим целог екрана
+#	Full screen mode ({key}); Esc leaves it	
+#	Full-side strip	
+#	Future placements use this size. Existing signatures are unchanged.	
+#	General & Interface	
+#	Generate styled PDF	
+#	Geographic	
+#	Geospatial location	
+#	Geospatial map	
+#	Get help, share feedback and follow development on Discord.	
+#	Go	
+#	Go to a page view	
+#	Go to page {p}	
+#	Go to page…	
+#	Go to the page	
+#	Go to this result	
+	Grads	Гради
+	Graphic:	Графика:
+#	Gray images	
+#	Grayscale Document	
+	Grayscale Images	Слике у нијансама сиве
+#	Green on black	
+	Grey	Сива
+#	Greyscale	
+#	Grid lines	
+#	Grid offset from left edge	
+#	Grid offset from top edge	
+#	Group select	
+#	Guide properties	
+#	Guide set “{name}” hidden	
+#	Guide set “{name}” shown	
+#	Guide sets	
+#	Guide sets can't be saved in the web version	
+	guides	Вођице
+#	Guides with a colour or thickness of their own (right-click a guide, or set it in a guide-set file) keep it.	
+#	H / Space (hold)	
+#	Hairlines	
+#	Hand (H)	
+	Hand tool	Алатка руке
+#	Handwriting requires upright horizontal lines in one text column. Columns, tables and marginal notes are not supported.	
+#	Has JavaScript actions (run in M6)	
+#	Header and footer	
+#	Header cells (TH) tell listeners what each column or row holds. Mark the header cells.	
+#	header or footer	
+#	Headers	
+#	Heading levels shouldn't skip (an H1 followed by an H3). Retag the headings.	
+#	Hebrew (ISO 8859-8)	
+#	Hebrew (Windows-1255)	
+#	Hectares	
+#	Height between lines	
+#	Held by the printer	
+	Help…	Помоћ…
+#	Heritage	
+	Hidden layers	Скривени слојеви
+#	Hidden tools stay available from the menus, the mode tabs and keyboard shortcuts.	
+#	Hide a field	
+#	Hide all comments	
+#	Hide community card	
+#	Hide controls	
+#	Hide field highlights	
+#	Hide gaps to join page edges. Margins inside the PDF remain unchanged.	
+#	Hide guide sets	
+#	Hide hover previews for highlights without comment text	
+#	Hide layer	
+#	Hide menu bar	
+#	Hide password	
+#	Hide PdfCraft	
+#	Hide template {name}	
+#	Hide toolbars	
+#	Hide window controls	
+#	Hides annotation	
+#	HIGH (>= 90%)	
+#	Higher image quality trades off against smaller file size. A copy is saved only if it is smaller.	
+#	Higher quality, usually larger files. JPEG photos above 450 ppi are reduced to 300 ppi, quality 85. Lossless graphics and masked images keep their pixels.	
+#	Highest version	
+#	Highlight content	
+#	Highlight coverage above	
+#	Highlight fields	
+#	Highlight Style:	
+#	Highlight text	
+#	Historical handwriting (Kurrent)	
+#	Historical OCR add-on installed	
+#	Historical OCR add-ons require the desktop app.	
+#	Historical print (Fraktur)	
+#	Historical spelling is preserved. Handwriting, abbreviations and complex layouts need checking.	
+key	Home	Почетак
+#	Home / End	
+#	Horizontal coordinates	
+#	Horizontal reversed	
+#	Hotbar settings	
+#	Hotbar settings / add tools	
+#	Hotbar tools	
+#	How Edit text reads old fonts that don't say which letters they draw. Auto-detect recognises Hebrew fonts laid out for ISO 8859-8 or Windows-1255.	
+#	HTML web page	
+#	Hungarian OCR requires the desktop app with Tesseract 5 and the hun language model. Restart PdfCraft after installation.	
+#	H{n} follows an H{d}; headings should not skip levels	
+#	I confirm sending this document to this printer	
+#	I understand that the redacted content is removed for good	
+#	ICC profile: {name}	
+#	ICP-Brasil Seal	
+#	Identity	
+#	Image (PNG)	
+#	Image field	
+#	Image pasted	
+#	Image resolution	
+#	Image-only PDF	
+#	Images and text	
+#	Images and text (converted to PDF)	
+#	Images on dark pages	
+#	Import Certificates	
+#	Import certificates…	
+#	Import comments…	
+	Import data	Увези податке
+#	Import form data…	
+#	Import list…	
+#	Import {name}	
+#	Importing data arrives on the web with file pickers for data files	
+#	In multiple files	
+#	In multiple files: a file with any text is its own skipped bucket, and nothing is written for it	
+#	In new window	
+#	In streams that use LZW encoding, use Flate instead	
+#	In tab order	
+#	In this file	
+#	Include revocation information when signing (LTV)	
+#	Include subfolders	
+#	Include the grid settings	
+#	Includes unsaved changes	
+#	Incompatible	
+#	Incorrect password. Try again.	
+#	Initial View	
+	Initials	Иницијали
+	initials	Иницијали
+#	Initials {n}	
+#	Ink sensitivity	
+#	Inks	
+#	Insert a blank page after the selection	
+#	Insert a file at the end	
+#	Insert a file before page {label}	
+#	Insert a Greek letter or symbol	
+#	Insert blank page	
+#	Insert Date	
+#	Insert from clipboard	
+#	Insert Page Number	
+#	Insert pages	
+#	Insert pages from a file after the selection…	
+#	Insert pages from a file…	
+#	Insert pages from clipboard	
+#	Insert pages from file…	
+#	Insert pages from the clipboard	
+#	Insert pages from {name}	
+#	Insert pages from {name} — 1 field renamed	
+#	Insert pages from {name} — fields renamed	
+#	Insert scanned pages	
+#	Insert text	
+#	Insert the USB token or smart card, then refresh to list its digital IDs.	
+#	Inserted	
+#	Inserted page	
+#	Inserted scanned pages	
+#	Inserted text	
+#	Inserting, deleting, and rotating pages	
+	Inset	Уметак
+#	Inspector	
+#	Install a plugin	
+#	Install a plugin…	
+#	Installation type is unknown or this is a development build. Choose a package on the official release page.	
+#	Installed fonts…	
+#	Installed version: {v}	
+#	Instruction	
+#	Integrity	
+#	Intended usage	
+#certificate	Intended usage	
+#	Interactive JavaScript menus require the desktop application	
+#	Interface and appearance	
+#	Interface font	
+#	Intersections	
+#	Invalid page range	
+	Invert colors	Обрни боје
+#	Invert everything	
+#	Invert middle-button drag	
+#	Invert tones	
+#	Inverted page background	
+#	Inverted text	
+#	Invisible Rectangle	
+#	Irregular tables confuse cell navigation. Give every row the same number of cells (counting spans).	
+#	is available	
+#	is not available yet	
+#	Issued by	
+#certificate	Issued by	
+#	Issued by {issuer}	
+#	Issued by:	
+#	Issued by: 	
+#	Issued to	
+#certificate	Issued to	
+#	Issuer	
+#certificate	Issuer	
+#	It is certified with no changes allowed: any change invalidates the certification.	
+#	It is certified: filling in forms and signing are allowed; other changes invalidate the certification.	
+#	It is certified: filling in forms, signing and commenting are allowed; other changes invalidate the certification.	
+#	it was still in the document afterwards, so the change was undone	
+	italic	Курзив
+#	Item List	
+#	Item:	
+#	Items marked Ready work today.	
+#	its alternate text is inside another element's and will never be read	
+#	its alternate text, actual text or expansion has no language (Lang)	
+#	its ID is another Note's too	
+#	its language (Lang) isn't a language tag	
+#	Its script also reads fields whose names it builds as it runs, so those reads can't be checked.	
+#	Its security settings don't allow copying pages	
+#	January	
+#calendar date	January	
+	JavaScript	JavaScript
+#	JavaScript and actions	
+#	JavaScript Console	
+#	JavaScript console…	
+#	JavaScript is turned off (Preferences → JavaScript).	
+#	JavaScript is turned off (Preferences ▸ JavaScript).	
+#	JavaScript is turned off by your administrator.	
+#	JavaScript, e.g. getField("total").value	
+#	JBIG2 (lossless)	
+#	Join the ArtCraft community	
+#	Joins line breaks and reduces the font size only if needed to fit the box.	
+#	JPEG 2000 pictures need PDF 1.5, newer than {} allows	
+#	July	
+#calendar date	July	
+#	June	
+#calendar date	June	
+	Keep	Задржи
+#	Keep all images	
+#	Keep an empty signature field to sign again	
+#	Keep editable	
+#	Keep only how the signatures look, as page content (a name or date they show stays visible)	
+#	Keep opaque images	
+#	Keep source fonts	
+#	Keep the Windows title bar above the tab strip. Turned off, the tab strip is the title bar, with the window buttons at its right; Snap Layouts on the maximize button need the Windows title bar.	
+#	Keep tool selected	
+#	Keep tool selected: on	
+#	Keep trailing zeros or denominator	
+#	Key Agreement	
+#	Key Algorithm	
+#	Key Encipherment	
+#	Key usage	
+#certificate	Key usage	
+#	Keychain  ·	
+#	Keychain  ·  	
+#	Keys of the document view	
+#	Kilometres	
+#	Labels: {preview}. Later pages keep their labels.	
+#	Lamp	
+#	Lamp on	
+#	Landscape and Portrait Pages	
+#	Landscape Pages	
+#	Landscape pages	
+#	Language and spelling	
+#	Large scan	
+#	Larger drawing tools. Use two fingers to move or zoom; use Hand to move with one finger.	
+#	Larger pages	
+#	Larger text	
+#	Larger than 512 MiB	
+#	Larger thumbnails	
+	Last page	Посљедња страница
+#	Later in calculation order	
+#	Later in tab order	
+#	Latin (accented)	
+#	Latitude	
+#	Layer options	
+#	Layers (optional content) need PDF 1.5, newer than {} allows	
+#	Layers panel	
+#	Layers Panel and Page	
+#	Layout & Sizing	
+#	Layout and Magnification	
+#	Lbl and LBody	
+#	Lbl and LBody must be children of LI	
+#	Least bleed	
+#	Least resolution	
+#	Leave out files that can't be read?	
+#	Left Edge	
+#	Left Footer Text	
+#	Left Header Text	
+#	Left image	
+#	Left out: {names}	
+#	Left to right (LTR)	
+#	Left-to-right text	
+#	Legacy text encoding	
+#	less than a minute left	
+#	LI must be a child of L	
+	Light blue	Светлоплава
+#	Light ink	
+	Light theme	Светла тема
+#	Lightens shadows along the edges of the scan, such as a book's gutter or a copier's dark border	
+#	Like macOS (fuller strokes, sub-pixel placement)	
+#	Limit of	
+#	Limits	
+#	Line colour	
+#	Line ending	
+#	Line opacity	
+#	Line Style:	
+	Line thickness	Дебљина линије
+	Line Thickness:	Дебљина линије:
+#	Line weight	
+#	Line weights	
+#	Line width	
+#	Lines drawn inside Type 3 glyphs and tiling patterns; off by default.	
+#	Link Action	
+#	Link annotation on page {p} has no description (Contents)	
+#	Link Appearance	
+#	Link Properties	
+#	Link Type:	
+#	Link URL	
+	links	Везе
+#	Links on page	
+#	Links, actions and JavaScripts	
+#	List box	
+#	List Box Properties	
+#	List items	
+#	List items belong in a list. Fix the list's tags.	
+#	List labels and bodies belong in a list item. Fix the list's tags.	
+#	List PKCS #11 token (smart card, HSM) signing identities	
+#	Listing scanners…	
+#	Listing the folder…	
+#	Lists	
+#	Load document font	
+#	Load font…	
+#	Load more sheets, then choose Continue; or choose Finish to keep what was scanned.	
+#	Load sheets in the feeder, then choose Try again.	
+#	Load to edit	
+#	Loading {name}…	
+#	Local and private	
+#	Local cross-PDF links require the desktop app	
+#	Location: 	
+#	Lock and save	
+#	Lock comment	
+#	Lock into the page when saving	
+#	Lock now	
+#	Lock your signature into the page?	
+#	Logical Reading Order	
+#	Logo	
+#	Logo and name	
+#	Longitude	
+	Look	Изглед
+#	Look at the scanner for a message or an open door or cover, fix what it shows, then choose Continue.	
+#	Look at the scanner for a message or an open door or cover, fix what it shows, then choose Try again.	
+#	Looking for a local model runtime…	
+#	Looking for certificates…	
+#	Looking for PDFs…	
+#	Looking for printers…	
+#	Loupe Tool	
+#	Loupe tool	
+#	LOW (< 70%)	
+	Low resolution	Ниска резолуција
+#	Low Resolution (150 dpi)	
+#	LOW-CONFIDENCE WORDS	
+#	Lowering this forgets the oldest files. At 0 there is no list.	
+#	Make accessible	
+#	Make Current Properties Default	
+#	Make default paper size	
+#	Make PdfCraft your default PDF app?	
+#	Make Properties Default	
+#	Make properties default	
+#	Make scans searchable, then make them smaller.	
+#	Make searchable (recognize text)	
+#	Manage embedded index	
+#	Manage levels	
+#	Manage plugins…	
+#	Manual duplex needs one reverse side for each front.	
+#	Map accuracy	
+#	Map boundary	
+#	Map coordinate system	
+#	Map coordinates	
+#	Map registration needs control points.	
+#	Maps to standard role	
+#	March	
+#calendar date	March	
+#	Margins (in)	
+	Mark all	Означи све
+#	Mark as artifact	
+#	Mark as comments	
+#	Mark as Confidential	
+#	Mark content as artifact	
+#	Mark differences	
+#	Mark everything in this tag as an artifact and remove the tag from reading order	
+#	Mark figure as decorative	
+#	Mark for redaction	
+#	Mark Page Range	
+#	Mark pages for redaction	
+#	Mark this page as reviewed (Ctrl+T)	
+#	Mark with checkmark	
+#	Marked	
+#	MarkInfo Suspects is true: the tags are marked as unreliable	
+	Marks	Ознаке
+#	Marks do not remove content. Select Redact all, then save.	
+#	Markup	
+#	Markup text	
+#	Marquee Zoom	
+#	Marquee zoom	
+	Mask:	Маска:
+#	Match field sizes	
+#	Match page at 100%	
+#	Matches what was signed	
+#	Matches: {matches}. Files with matches: {files}. PDFs read to the end: {searched} of {found}.	
+#	maximum	
+	May	мај
+calendar date	May	мај
+#	Measure 3D	
+#	Measure 3D model	
+#	Measure area	
+	Measure distance	Измери растојање
+#	Measure objects	
+#	Measure one of the lines below with a ruler, from one end mark to the other, and type its length beside it. The longest line you can measure is the most accurate; measuring several averages them.	
+#	Measure perimeter	
+#	Measured length	
+#	Measured on a sample of the pages at this resolution and format; the files may differ.	
+#	Measurement error	
+#	Measurement information	
+#	Measurement snapping	
+#	Measuring tool	
+#	MEDIUM (70-89%)	
+#	Menu	
+#	Merge all windows	
+#	Merge data files into spreadsheet…	
+#	Merge image fragments	
+#	Merged 1 file into {path}	
+#	Merged {n} files into {path}	
+#	Merging data files needs the desktop app	
+#	metadata	
+#	Metres	
+#	Microsoft Word (.docx)	
+#	Midpoints	
+	Miles	Миље
+#	Millimetres	
+#	minimum	
+#	Mirror the page	
+#	Missing field	
+#	Missing from the calculation order saved in the PDF: other PDF viewers may not calculate it.	
+#	Mixed	
+#calendar weekday	Mo	
+#	Model:	
+#	Modern print	
+#	Modify page	
+#	Module (.dylib, .so, .dll)	
+	Monochrome Images	Једнобојне слике
+	More options:	Више опција:
+#	more than one H heading in it	
+#	More ways to add files	
+#	Most recently used first	
+#	Most spot colours	
+#	Mouse Down	
+#	Mouse Enter	
+#	Mouse Exit	
+#	Mouse Up	
+#	Mouse wheel scroll speed	
+#	Move bookmark	
+#	Move comment	
+#	Move comment pop-up	
+#	Move comments	
+#	Move earlier	
+#	Move image	
+#	Move into previous tag	
+#	Move later	
+#	Move line point	
+#	Move object	
+#	Move objects	
+#	Move only what must move, so every field calculates after the fields it reads.	
+#	Move out of parent tag	
+#	Move page	
+#	Move pages	
+#	Move Tab Left	
+#	Move Tab Right	
+#	Move Tab to New Window	
+#	Move tab to new window	
+#	Move Tab to This Window	
+#	Move tag earlier	
+#	Move tag later	
+#	Move the format bar	
+	Move to group	Премјести у групу
+	Move to new window	Премести у нови прозор
+#	Move to window	
+#	Move unit down	
+#	Move unit up	
+#	Moved page	
+#	Moves only what must move	
+#	Multi-line	
+	Multiple	Више
+#	Multiple files	
+#	Multiple selection	
+#	Multiple words or phrases	
+#	Multiplies the background with the page: white areas show it and text stays dark.	
+#	N or {row} is the row number, {col} the column number, {seq} the cell number. With none of them, the row number goes last.	
+#	Name a text watermark to save it	
+#	Name on new comments	
+#	Named Destinations	
+#	Narrower than	
+#	Native tabs (as in Finder on macOS and File Explorer on Windows)	
+#	Nautical miles	
+#	Navigation links	
+#	Navigation links are not repetitive	
+#	Navigation rail side	
+#	Navigation tab	
+#	Needs a module such as OpenSC or p11-kit installed. The token's own PIN pad is used when it has one.	
+#	needs an AI provider (off by default)	
+#	Needs manual check	
+#	Needs {disk} GB of disk	
+#	Needs {ram} GB of RAM	
+#	Negative number style:	
+#	Nested alternate text	
+	Network	Мрежа
+#	Network address	
+#	Network printer (WS-Print)	
+	New Action	Нова радња
+#	New blank PDF	
+#	New bookmark	
+#	New bookmark ({key})	
+#	New bookmark (⌘B)	
+#	New bookmarks from structure	
+#	New bookmarks from text styles	
+#	New bookmarks from text styles…	
+#	New fields of this type will look like this one	
+#	New file only	
+	New file:	Нови фајл:
+#	New file: {name}	
+#	New tag	
+#	New viewport	
+#	New width	
+	New window	Нови прозор
+#	New {tool} comments will look like this one	
+#	Next ({key})	
+#	Next (⌘G)	
+#	Next / previous match	
+#	Next figure	
+#	Next month	
+#	Next sheet	
+#	Next tab	
+#	Next tab and Previous tab	
+#	Next uncertain	
+#	Next view	
+	Night	Ноћ
+#	No actions	
+#	no alternate text	
+#	No certificate was found with this provider.	
+#	No changes allowed	
+#	No changes to save	
+#	No check has run yet.	
+	No color	Без боје
+#	No colour	
+#	No commands available	
+#	No comments match.	
+#	No comments yet.	
+#	No compatible package is available for this installation.	
+#	No desktop portal offers a file chooser, and zenity isn't installed. Install xdg-desktop-portal with a backend such as xdg-desktop-portal-gtk, -kde or -gnome, or install zenity.	
+#	No differences in the text.	
+#	No digital IDs yet.	
+#	No document language is set	
+#	No documents are open	
+#	No email app is set up on this computer.	
+#	No errors in the rules that were evaluated.	
+#	No errors: the structure follows the Arlington PDF Model.	
+#	No field in this form calculates its value yet. Give a field a calculation on the Calculate tab of its properties, and it shows here.	
+#	No field reads it	
+#	No file chosen	
+#	No file dialog could open	
+#	No fonts are referenced by the pages.	
+#	No form fields were detected	
+#	No guide set has the shortcut {n}	
+#	No hairlines found on those pages	
+#	no header cells (TH)	
+#	no ID	
+#	No image on clipboard to paste	
+#	No inaccessible scripts	
+#	No issues found	
+#	no language (Lang) on it, above it or on the document	
+#	No links to remove	
+#	No local model runtime found.	
+	No matches	Нема подударања
+#	No matches to replace	
+#	No matching tools	
+#	No model installed yet — see the Models tab.	
+#	No openly licensed document fonts found. Load a font file.	
+#	No order can fix a loop. Change one of the formulas.	
+#	no output folder was chosen	
+#	No page has text: the document appears to be images of pages	
+#	No pages match those choices	
+#	No pages selected	
+#	No pages were scanned.	
+#	No PDF files were found.	
+#	No PDFs found in {folder}	
+#	No PDFs in this folder yet	
+#	No PDFs, images or text files found in {folder}	
+#	No photo chosen	
+#	No plugins installed	
+#	No plugins installed yet. Install a .wasm plug-in to extend PdfCraft.	
+#	No plugins installed. A plugin is a single .wasm file; install one above.	
+#	No preview	
+#	No printers were found. Check that the printer is installed and the print spooler is running, then open Print again.	
+#	No problems found	
+#	No problems found: the document conforms to {level}.	
+#	No raw file yet	
+#	No recipients yet.	
+#	No reference yet	
+#	No release notes were provided.	
+#	No saved measurements in this view.	
+#	No saved sets yet	
+#	No saved sets yet. Right-click a ruler ▸ Save guides as a set…, or put a set file in the folder.	
+#	No scanned pages were cleaned up.	
+#	No scanner found	
+#	No scanner is connected.	
+#	No scanners were found. Check that the scanner is on and connected, or enter its network address.	
+#	No security	
+#	No sheets	
+#	No signature was found in the frame. Move the frame over the signature or raise the ink sensitivity.	
+#	No signature was found. Adjust the ink sensitivity or keep the original image.	
+#	No signing certificate was found on a card. Is the card in the reader?	
+#	No signing certificate was found on this device. Is it connected?	
+#	No size estimate: {e}	
+#	No status has been set.	
+	no such document	нема таквог документа
+#	No suggestions	
+#	no summary	
+#	No tools are shown. Choose them in Preferences.	
+#	No tools match your search.	
+#	No unlinked web addresses were found in the text	
+#	No untagged content was found.	
+#	no unused output name	
+#	No usable CMYK output intent: RGB and CIE-based colours separate by the ISO 32000 device formulas.	
+#	Non-Repudiation	
+#	None (prefix only)	
+#	None found	
+#	None of the recipients is one of your digital IDs: you won't be able to open the saved document.	
+#	None of these signatures can be removed.	
+#	None of those files can be made into a PDF; use PDFs, images or .txt files	
+#	None of your digital IDs can open this document.	
+#	None — everything is allowed	
+#	None: sRGB for RGB and gray documents	
+scroll speed	Normal	Нормално
+#	Normal page	
+#	Northing	
+#	Not allowed	
+#	not allowed directly in a TOC	
+#	not allowed directly inside {in}	
+#	Not checked	
+#	Not confirmed by the printer	
+#	not editable text	
+#	Not evaluated: {list}	
+#	not in a Ruby	
+#	not in a Table	
+#	not in a Table, THead, TBody or TFoot	
+#	not in a TOC	
+#	not in a TR	
+#	not in a Warichu	
+#	not in an L (list)	
+#	not in an LI (list item)	
+#	Not in order	
+#	Not present	
+#	Not rated	
+#	Not replaced: {why}	
+#	Not searched: {n}	
+#	not the first child of its list	
+#	not the first or last child of its table	
+	Note	Напомена
+#	nothing in the file matches this document	
+#	Nothing on those pages needed converting	
+#	Nothing replaced	
+#	Nothing to redo	
+#	nothing to redo	
+#	Nothing to undo	
+#	nothing to undo	
+#	November	
+#calendar date	November	
+#	Number every page in the footer.	
+#	Number of pages	
+#	Number pages	
+#	Number pages…	
+	Numbered list	Нумерисана листа
+#	OCR complete — no text recognized on this page.	
+#	OCR results rejected.	
+#	October	
+#calendar date	October	
+#	Odd pages	
+	Odd Pages Only	Само непарне странице
+	of	од
+#	of the following fields:	
+#	of {name}	
+#	of {pages}	
+#	OFD (early alpha): converted to PDF. Compare it with the original.	
+#	OFD (early alpha): converted to PDF. Objects not shown: {n}.	
+#	OFD documents	
+#animation effects	Off	
+#	Off, a document's request to open in Full Screen mode is ignored. You can still enter it from the View menu.	
+#	Office documents	
+#	Offset from centre	
+#	Old file:	
+#	Old file: {name}	
+#animation effects	On	
+#	On Blur	
+#	On every page	
+#	On Focus	
+#	on page {label}	
+#	on page {p}	
+#	On the web, open or drop an image to convert it	
+#	On X11, the touchpad follows the mouse wheel speed.	
+#	One download serves every ArtCraft app: the model lands in a shared folder all of them read.	
+#	One sheet for the whole document	
+#	One sheet per page	
+#	One word or phrase per line	
+#	One {f} file per page, named after the document.	
+#	One-time code (OTP)	
+#	Only allow this if you trust the source document.	
+#	Only certificates with RSA keys can be recipients.	
+#	Only change the colour of black text or line art	
+#	Only checked properties will change. Mixed means the selected fields have different values.	
+#	Only clear paper edges are cropped. Indistinguishable white borders are kept.	
+#	Only continue if you trust this document. An address can carry information from the document, such as what you typed into its form.	
+#	Only IP addresses on this network are accepted (private, link-local or loopback), not host names.	
+#	Only send if you trust this document and destination. GET puts form values in the URL.	
+#	Only send if you trust this document and destination. The entire PDF leaves this computer.	
+#	Only send if you trust this document and destination. The form values leave this computer.	
+#	Only the document's owner can change its security (open it with the permissions password)	
+#	Only the first {n} of each kind are listed.	
+#	Only the page content changes: links, comments, form fields and bookmarks on the original pages stay.	
+#	Only the recipients can open the document, each with the private key of their own certificate.	
+#	Open a new message without it, and PdfCraft will show {name} in its folder so you can attach it yourself.	
+#	Open a PDF ({key})	
+#	Open a PDF (⌘O)	
+#	Open a PDF to measure it.	
+#	Open a web link	
+#	Open a web page	
+#	Open accessibility report	
+#	Open arrow	
+#	Open comment pop-up	
+#	Open default app settings	
+#	Open email app	
+	Open file	Отвори датотеку
+	Open folder	Отвори фасциклу
+#	Open from cloud	
+#	Open from cloud…	
+#	Open in a new tab	
+#	Open in Full Screen mode	
+#	Open in Full Screen mode?	
+#	Open local file…	
+#	Open message and show file	
+#	Open next PDF in folder	
+#	Open OFD (early alpha)…	
+#	Open previous PDF in folder	
+#	Open tabs and edits update the search automatically.	
+#	Open the cover, clear any jam or sheets fed together, load the remaining sheets squarely, then choose Continue.	
+#	Open the cover, clear any jam or sheets fed together, load the sheets squarely, then choose Try again.	
+#	Open the file as it was saved then	
+#	Open the older version first	
+#	Open this local PDF?	
+#	Open this web page?	
+#	Open to page	
+#	open to see what it will include	
+#	Open Units and guides	
+#	Opened from a CAdES signature envelope — read-only.	
+#	Opened from a detached CAdES signature — read-only.	
+#	Opened with	
+#	Opened, but its security settings don't allow combining. Enter the permissions password.	
+#	Opening documents	
+#	Opening local files from JavaScript is unavailable on the web	
+#	Opening the browser's print dialog…	
+#	Opens the printer driver's preferences. They are saved for every print from this computer; the copies, two-sided, grayscale and paper chosen here still apply.	
+#	OpenType font programs need PDF 1.6, newer than {} allows	
+#	Optical resolution {x} × {y} dpi.	
+#	Optimization cancelled	
+#	Optimization is already running	
+#	Optimize	
+#	Optimize PDF…	
+#	Optimize Scanned Documents	
+#	Optimize scanned documents	
+#	Optimize scanned documents…	
+#	Optimizing… cleaning up	
+#	Optimizing… image {d} of {t}	
+#	Optimizing… merging identical objects	
+#	Optimizing… merging image fragments	
+#	Optimizing… removing user data	
+#	Optimizing… writing the copy	
+#	Optional	
+#	Optional content configuration {n} has no Name	
+#	Optional: needs an AI provider you configure	
+#	Options for this reply	
+#	Order · top calculates first	
+#	Organization Name	
+#	Organizational Unit	
+#	Organize	
+#	Organize pages	
+#	Organize pages plan	
+#	Origin:	
+#	Original (lossless)	
+#	Original: replace pages	
+#	other changes	
+#	Other colour…	
+#	Other elements alternate text	
+#	Other elements that require alternate text	
+#	Other options	
+#	Other provider (CSC API)	
+#	Other signatures remain, so the copy is saved as an update of the signed file: the removed signature stays in its earlier revision, where it can be recovered.	
+#	Other signatures remain, so the removed one is still in the file's earlier revision; check the remaining signatures again.	
+#	Otherwise, ask on the first save after a signature is placed	
+#	Outdent	
+#	Outline colour:	
+#	Outline over page	
+	Outline view	Структурни приказ
+#	Output appears here.	
+#	Output folder	
+	Output intent profile:	Профил излазне намјене:
+#	Output intent: {list}	
+#	Output intents with profiles don't all share one profile	
+#	Output preview	
+#	Owner password (no restrictions apply)	
+#	Package: {name}	
+	PAGE	Страна
+	Page background	Позадина стране
+#	Page Background & Tint	
+#	Page background: {mode} (click to cycle, right-click for tint settings)	
+#	Page Content	
+#	page content	
+#	Page display: {layout}	
+#	Page does not require timed responses	
+#	Page grid	
+	Page information	Информације о страници
+#	Page labels	
+#	Page layout	
+#	Page maximum: {n}%	
+#	Page navigation	
+#	Page Only	
+#	Page options	
+#	Page order	
+#	Page order:	
+#	Page Properties	
+#	Page properties	
+#	Page properties…	
+#	Page Range	
+#	Page Range Options	
+#	Page size	
+#	Page Sizing & Handling	
+#	Page templates	
+#	Page thumbnails	
+#	Page thumbnails panel	
+#	Page tools	
+#	Page transitions	
+#	Page verified	
+#	Page will not cause screen flicker	
+#	Page X	
+#	Page Y	
+#	Page {label}	
+#	Page {n}	
+#	page {n} is out of range (1–{count})	
+#	Page {n} of {total}	
+#	Page {old} → Page {new}	
+#	Page {pages} changed after the background was added, so its own white backdrop stays off. It looks the same on white paper.	
+#	Page {pages} paints its own white backdrop, which would hide the background. Replace it	
+#	Page {page} holds more content than PdfCraft can read: part of it isn't drawn, and only part of its text can be found or copied.	
+#	Page {p}	
+#	Page {p} doesn't tab in structure order	
+#	Page {p} has a trap network annotation (TrapNet)	
+#	Page {p} has annotations and tabs in {} order, not structure order (S)	
+#	Page {p} has annotations but no tab order (Tabs)	
+#	Page {p} of {n}	
+#	Page {p}: {n} artifact inside tagged content	
+#	Page {p}: {n} artifacts inside tagged content	
+#	Page {p}: {n} tagged content item inside an artifact	
+#	Page {p}: {n} tagged content items inside an artifact	
+#	Page {p}: {n} untagged content item	
+#	Page {p}: {n} untagged content items	
+#	Page {} has additional actions	
+#	Page {}'s TrimBox, BleedBox and CropBox don't overlap	
+	pages	Стране
+#	pages added or removed	
+#	Pages counted	
+#	Pages from	
+#	Pages of {name} to combine, e.g. 1-3, 6	
+#	Pages Panel and Page	
+#	Pages per file	
+#	Pages per sheet:	
+#	Pages selected	
+#	Pages that are only pictures of text can't be read aloud or searched. Recognize text (OCR) to add a text layer.	
+#	Pages that couldn't be read: {n}	
+#	Pages that use Type 3 fonts print as images, because Windows can close PdfCraft while printing them. The other pages print as usual.	
+#	Pages to Print	
+#	Pages whose text couldn't be read: {n}. A match on them isn't listed.	
+#	Pages with links, comments or fields should tab in structure order. The fix sets each page's tab order to Use Document Structure.	
+#	Pages with renderable text are left alone and reported as skipped	
+#	Pages without a TrimBox	
+#	Pages {pages} changed after the background was added, so their own white backdrops stay off. They look the same on white paper.	
+#	Pages {pages} paint their own white backdrop, which would hide the background. Replace it	
+	Pages:	Стране:
+#	Pages: {k} of {n}	
+#	Pan & zoom	
+#	Panel layout could not be restored: {error}	
+#	Panel move was not applied: {error}	
+#	Panning or auto-scrolling with the middle (wheel) button moves the page the other way.	
+#	Paper & Ink	
+#	Paper:	
+	Paragraph spacing	Размак пасуса
+#	Part of	
+#	Part of this page isn't shown: its content goes past the most PdfCraft draws for one page.	
+#	Passed	
+#	Password & Security	
+#	Password protection will be applied when you save	
+#	Password required	
+#	Password security	
+#	Password-protected	
+#	Paste after	
+#	Paste an OpenRouter key	
+#	Paste comments	
+#	Paste field	
+#	Paste fields	
+#	Paste Image	
+#	Paste pages	
+#	Pattern strokes	
+#	Patterns (graphics objects)	
+#	Pause / resume reading	
+#	Pause reading	
+#	Paused (page {page})	
+#	PDF and text	
+#	PDF attachments	
+#	PDF Optimizer	
+#	PDF or image	
+#	PDF page: {size}	
+#	PDF producer	
+#	PDF scale: {scale}%	
+#	PDF version	
+#	PDF, images and text	
+#	PDF, images, text and Office documents	
+#	PDF/A and standards advice	
+#	PDF/A embeds the output intent's ICC profile: choose a profile file	
+#	PDF/A…	
+#	PDF/X-4 embeds the printing condition's ICC profile: choose a profile file	
+#	PDF/X…	
+#	PdfCraft can't check this signature yet: {}.	
+#	PdfCraft didn't shut down normally. These documents had changes that were autosaved:	
+#	PdfCraft is drawing without a graphics processor, so it may be slow. Updating the graphics driver may help.	
+#	PdfCraft is keeping what you were doing. Once the file chooser works, choose Try again.	
+#	PdfCraft looks for the libraries device vendors install. Choose one only if your device isn't found.	
+#	PdfCraft on GitHub	
+#	PdfCraft opens the provider's page, where you sign in with your CPF, PIN and one-time code.	
+#	PdfCraft web page	
+#	PdfCraft works offline. No telemetry, no account, and no cloud processing unless you add a provider.	
+#	PdfCraft {c} is up to date.	
+#	PdfCraft {v} is available.	
+#	PdfCraft's own	
+#	People may need more time to respond. Check that nothing has a time limit.	
+	Permissions password	Лозинка за дозволе
+#	Permitted actions after certifying	
+	Perpendicular	Нормално
+#	Phone Number	
+#	Phone Numbers	
+#	Photometric	
+#	Pick a tool in the quick bar, or type above.	
+#	Pick page position	
+#	Pictures cover pages {pages} (scans?), so the background won't show there.	
+#	Pictures need alternate text that describes them, or must be marked decorative. Add alternate text to each figure.	
+#	Pictures on those pages are recognized too; words already in the page's text are not added again	
+#	Pictures too	
+#	PIN	
+#	Pin	
+#	Pin a folder to Home	
+#	Pin a folder to list its newest PDFs here, such as where your scanner or a synced cloud drive saves them.	
+#	Pin a folder…	
+#	Pin a tool…	
+#	Pin folder to Home…	
+#	Pin to Home	
+#	Pin tools to Home	
+#	Pin your favorite tools here for quick access.	
+#	Pinned	
+#	Pinned folders need the desktop app	
+#	Pinned Tools	
+#	Pinned {folder} to Home	
+#	Pinned {tool} to Home	
+#	Pitch:	
+#	PKCS #11 device  ·  	
+#	PKCS #11 module	
+#	PKCS #11 modules	
+#	PKCS #11 token  ·  	
+#	Place caption	
+#	Place saved {what}	
+#	Placed size	
+#	Plain text in reading order; pages are separated by form feeds.	
+#	Planned	
+#	Planned for milestone	
+#	Planned for milestone {m} — open to see what it will include	
+#	Planned · {m}	
+#	Please enter the token PIN to sign.	
+#	Plugins are sandboxed WebAssembly packages. They survive PdfCraft updates as long as their API version is supported.	
+#	Point at the page to read its ink coverage.	
+#	Points from the page's bottom-left corner.	
+#	Portable mode is off: {folder} can't be written ({error}). Settings are kept in your user folder instead.	
+#	Portrait Pages	
+#	Portrait pages	
+#	PostScript / EPS	
+#	PostScript XObjects aren't allowed	
+#	Precision	
+#	Preflight	
+#	Preflight report	
+#	Prepare a form	
+#	Prepare email draft	
+#	Prepare for accessibility	
+#	Prepare for Distribution	
+#	Prepare for distribution	
+#	Prepare for distribution…	
+#	Preparing form detection…	
+#	Preparing OCR add-on…	
+#	Preparing read-aloud text…	
+#	Preparing sheet {done} of {total} for printing…	
+#	Preparing {n} sheets for printing…	
+#	Presentation (.pptx)	
+#	Preserve black	
+#	Preset Swatches	
+#	Press the new keys (Esc cancels)	
+#	Prevent G-SYNC/FreeSync flicker (applies at next launch)	
+#	Preview is for the bed. Set a region in inches below, or leave it empty for the whole sheet.	
+#	Preview unavailable: {e}	
+#	Preview uses the bed. Switch the source to Bed, or scan without a preview.	
+#	Preview: page {p} of {n}	
+#	Previous ({key})	
+#	Previous (⇧⌘G)	
+#	Previous / next page	
+#	Previous figure	
+#	Previous month	
+#	Previous sheet	
+#	Previous tab	
+#	Previous uncertain	
+#	Previous view	
+#	Primary language	
+#	Primary only	
+#	Print ({key})	
+#	Print (⌘P)	
+#	Print area…	
+#	Print as image	
+#	Print in grayscale	
+#	Print page border	
+#	Print pages	
+#	Print production	
+#	Print single-sided. Keep the sheets in order, cut at the marks, then stack the piles left to right, top to bottom.	
+#	Print, NextPage, PrevPage, FirstPage or LastPage	
+#	Printed through the system print dialog	
+#	Printed with errors	
+#	Printed with warnings	
+#	Printer address:	
+#	printer marks	
+#	Printer marks added	
+#	Printer orientation:	
+#	Printer paper and scaling may differ. Check driver settings.	
+#	Printer properties	
+#	Printer status: {state}	
+#	Printer's mark annotation on page {p} is in the structure tree	
+	Printing allowed	Дозвољено штампање
+#	Printing condition:	
+#	Prints only the area you dragged on the page, fitted to the sheet without stretching.	
+#	Privacy	
+#	Private data of other applications	
+#	Producer	
+#	product (x)	
+#	Profile: {profile}	
+#	Projected	
+#	Projected coordinate matrix	
+#	Properties…	
+#	Protect & Standardize	
+#	Protect a PDF	
+#	Protect Using Password	
+#	Protect using password…	
+#	Protect with password	
+#	Protected: the combined file won't keep its security settings	
+#	Provider	
+	Public domain	Јавно власништво
+#	Public key	
+#certificate	Public key	
+#	Pure Black	
+#	pure black stays 100% K or gray 0 instead of a mix	
+#	PushButton	
+#	Quality:	
+#	Quantity	
+#	Query printer	
+#	Query the printer first to see what it supports.	
+#	Quirks	
+#	Quit PdfCraft	
+#	Radio	
+#	Radio button	
+#	Radio Button Properties	
+#	Radius / diameter	
+#	RAM {gb} GB	
+	Rating	Оцјена
+#	Raw:	
+#	re-encoded in the target space; JPEGs stay JPEG	
+#	Re-OCR entire page	
+#	Re-OCR this region	
+#	Re-type Password	
+	Read	Читај
+#	Read and comment	
+	Read mode	Режим читања
+#	Read Only	
+#	Read Out Loud	
+#	Read out loud	
+#	Read Out Loud ({key})	
+#	Read Out Loud ready	
+#	Read out loud requires Windows, macOS or Linux.	
+#	Read this page only	
+#	Read to end of document	
+#	Read {n} words on {m} of {t} pages	
+#	Reading colours	
+#	Reading file {n} of {total}: {name}	
+#	Reading options…	
+#	Reading page {page}…	
+#	Reading Preferences	
+#	Reading preferences…	
+#	Reading the printer's settings…	
+#	Reading the raw document…	
+#	Reading theme	
+#	Reads pages and files even where the skip options would leave them alone	
+#	Reads {names}, which read it back. No order can fix a loop: change one of the formulas.	
+#	Reads {name}, which calculates later, so it shows an old value.	
+#	Reads {name}, which the form doesn't have, so it gets no value there.	
+#	Real length	
+#	Reason	
+#	Reason: 	
+#	Reasons: {reasons}	
+#	Reassign	
+#	Recent colours	
+#	Recent files to keep	
+#	Recipients	
+#	Recognize scanned text automatically	
+#	Recognize Text	
+#	Recognize text	
+#	Recognize text in multiple files…	
+#	Recognize text on this page or throughout the document?	
+#	Recognize Text…	
+#	Recognize text…	
+#	Recognize the text of scanned pages in the background (the file is not changed)	
+#	Recognized 1 word	
+#	Recognized text	
+#	Recognized text applied ({n} words, one undoable step)	
+#	Recognized {n} words	
+#	Recognized {w} words in 1 file	
+#	Recognized {w} words in {n} files	
+#	Recognizing text… file {d} of {t}	
+#	Recognizing text… page {d} of {t}	
+#	Recolour images	
+#	Recommended tools	
+#	Recover unsaved documents?	
+#	Redact	
+#	Redact a PDF	
+#	Redact all	
+#	Redact Image	
+#	Redact pages	
+#	Redact pages…	
+#	Redact text and images	
+#	Redacted area fill colour:	
+#	Redaction checklist	
+#	Redaction code:	
+#	Redaction mark appearance	
+#	Redaction properties…	
+#	Redaction Tool Properties	
+#	Redid {label}	
+#	Redo ({key})	
+#	Redo {action}	
+#	Reduce	
+#	Reduce & Optimize	
+#	Reduce file size	
+#	Reduce file size…	
+#	Reference captured. Enter its real length below.	
+#	Reference length (page points)	
+#	Reference length must be positive.	
+#	Reference point: {point} (Tab: next)	
+#	Reference preview	
+	Reference:	Референца:
+#	Reflowable	
+#	Refresh lists scanners. It does not feed paper.	
+#	Refresh plugins	
+#	Region in inches. Leave the width or the height at zero to scan the whole area.	
+#	Registration marks	
+#	Registration residual	
+#	Regularity	
+#	Reject entire page	
+#	Rejected	
+#	Reliable character encoding is provided	
+#	Reload documents when their files change on disk	
+#	Remember this paper for {printer}	
+#	Remind Me Later	
+#	Remote signature (OTP)	
+#	Remote signing isn't available in this build	
+#	Remove "{name}" from this list? The certificate stays with the signing service.	
+#	Remove "{name}" from this list? The file itself is not deleted.	
+#	Remove add-on	
+#	Remove all links	
+#	Remove and Save As…	
+	Remove background	Уклони позадину
+#	Remove boundary point	
+#	Remove checkmark	
+#	Remove control point	
+#	Remove Crop	
+#	Remove crop	
+#	Remove from hotbar	
+#	Remove header & footer	
+#	Remove hidden information	
+#	Remove hidden information and flatten comments and form fields, so recipients see only the pages.	
+#	Remove hidden information, metadata, scripts and embedded content, and rewrite the files.	
+#	Remove hidden information…	
+#	Remove invalid links and bookmarks	
+#	Remove JavaScript and actions	
+#	Remove measurement viewport	
+#	Remove page	
+#	Remove printer marks	
+#	Remove redaction marks	
+#	Remove saved {what}	
+#	Remove security	
+#	Remove security?	
+#	Remove Signature	
+#	Remove signature	
+#	Remove signature…	
+#	Remove tag, keep its contents	
+#	Remove the digital signatures: their fields, how they look on the page and their validation data	
+#	Remove the signature {name}	
+#	Remove this leaf tag from reading order and mark its direct content as an artifact	
+#	Remove unit	
+#	Remove unreferenced named destinations	
+#	Remove unused objects and merge identical ones	
+#	Remove viewport	
+	Remove watermark	Уклони водени жиг
+#	Remove white margins	
+#	Remove white margins is already running	
+#	Remove {name}	
+#	Remove {n} files	
+#	Remove {n} pages	
+#	Remove {standard} identification	
+#	removed	
+#	Removed 1 hidden item. Save to remove them from the file.	
+#	Removed 1 link	
+#	Removed the signature {field} and kept its empty field	
+#	Removed the signature {field} with its field	
+#	Removed the visual signature on page {p}	
+#	Removed {n} hidden items. Save to remove them from the file.	
+#	Removed {n} links	
+#	Removes isolated dark specks such as dust and scanner noise. The only filter black and white scans take.	
+#	Removing the background puts the page's own backdrop back.	
+#	Removing this signature changes the document and invalidates this signature in the version that results. It can affect the other signatures and certifications. The original file is kept as it is.	
+#	Removing this signature changes the document and invalidates this signature in the version that results. The original file is kept as it is.	
+#	Removing white margins… page {d} of {t}	
+#	Rename bookmark	
+#	Rename “{name}”	
+#	Renamed to {name}	
+#	Rendering: hayro (bootstrap) · UI: egui · Icons: Lucide (ISC) · Fonts: Inter, JetBrains Mono, Dancing Script (OFL)	
+#	Reopen Closed Tab	
+#	Reopen the files that were open when PdfCraft last closed	
+#	Repair log	
+#	Repairs	
+#	Repeat on pages	
+#	Repeat on pages…	
+#	Repeat overlay text	
+#	Repeated navigation links should be skippable. Check links that appear on every page.	
+#	Replace ({key})	
+	Replace all	Замени све
+#	Replace document colours	
+	Replace image	Замени слику
+#	Replace page	
+#	Replace Pages	
+#	Replace pages	
+#	Replace pages…	
+#	Replace text	
+#review-suggestion	Replace text	
+#	Replace this document's guides with the set's, to move and change them	
+	Replace with	Замени са
+#	Replace XMP metadata	
+#	Replaced	
+#	Replaced {n} on {pages}	
+	Replacement text	Реплацемент text
+review-suggestion	Replacement text	Реплацемент text
+#	Replacement: pages of {name}	
+#	Replaces the existing one on those pages.	
+#	Replacing images arrives on the web with image file pickers	
+#	Replacing images on page {p} arrives on the web with image pickers ({i})	
+#	Report created	
+#	Report Options	
+	Report…	Извештај…
+#	Required	
+#	Required, given by Aruba with the account	
+#	Requires user to enter a password for:	
+#	Reset a form	
+#	Reset all shortcuts	
+#	Reset caption	
+#	Reset columns	
+#	Reset page size	
+	Reset panel layout	Врати распоред панела на почетно
+#	Reset side panels	
+#	Reset to Initial Visibility	
+#	Reset to printer defaults	
+#	Reshape comment	
+#	Resize comment	
+#	Resize object	
+#	Resize window to initial page	
+	Restore defaults	Врати подразумевано
+#	Restore the last view (page, zoom and page display) when a document is opened again	
+#	Restrictions	
+#	Restrictions lifted	
+#	Restyle raw document	
+#	Restyle text	
+#	Results shown: {n} · Documents: {d}	
+#	Resume reading	
+#	Retain existing	
+#	Return to document	
+#	Rev. {rev}: Certified by an unknown signer	
+#	Rev. {rev}: Certified by {name}	
+#	Rev. {rev}: Signed by an unknown signer	
+#	Rev. {rev}: Signed by {name}	
+#	Reveal in File Explorer	
+#	Reverse closed arrow	
+#	Reverse landscape	
+#	Reverse open arrow	
+#	Reverse pages	
+#	Reverse portrait	
+#	reverse side(s)	
+#	Reverse sides	
+#	Reverse sides interleaved.	
+#	Revert changes	
+#	Revert to the previously saved version of “{name}”? Changes since then can't be undone afterwards.	
+#	Reverted to the last saved version	
+#	Review & Compare	
+#	Review History	
+#	Review the marks before applying redactions.	
+#	Revisions	
+#	Rich Text Format (.rtf)	
+#	Right Edge	
+#	Right Footer Text	
+#	Right Header Text	
+#	Right to left (RTL)	
+#	Right-click a guide for a colour, Properties… (colour, thickness, label, every page) and Delete. Double-click opens Properties too.	
+#	Right-click a ruler ▸ Save guides as a set… keeps the guides, the unit and, if you like, the grid under a name and a shortcut. {first} … {last} shows and hides a set over any document; Edit in document turns it back into guides you can move.	
+#	Right-to-left page order	
+#	Right-to-left page order in two-page view	
+#	Right-to-left text	
+#	Role map	
+#	Role map entry {} leads round in a circle	
+#	Room on each side	
+#	Rotate Clockwise	
+#	Rotate clockwise	
+#	Rotate comment	
+#	Rotate corner {n}	
+#	Rotate Counterclockwise	
+#	Rotate counterclockwise	
+#	Rotate image	
+#	Rotate object	
+#	Rotate page	
+#	Rotate page {label} clockwise	
+#	Rotate page {label} counterclockwise	
+#	Rotate Pages	
+#	Rotate pages	
+#	Rotate pages clockwise	
+#	Rotate pages counterclockwise	
+#	Rotate pages…	
+#	Rotate the selected pages clockwise	
+#	Rotate the selected pages counterclockwise	
+	Rotate view	Ротирај приказ
+#	Rotate view clockwise	
+#	Rotate view clockwise ({key})	
+#	Rotate view clockwise (⇧⌘+)	
+#	Rotate view counterclockwise	
+#	ROVER vote	
+#	Row spacing	
+#	rows both directly in it and in THead, TBody or TFoot	
+#	rows have between {min} and {max} columns	
+	Rule	Правило
+#	Rule Name	
+#	Rulers, guides and grid	
+#	Run a JavaScript	
+#	Run form script	
+#	Run JavaScript	
+#	Run OCR	
+#	Running action… file {d} of {t}	
+#	Runs the Accessibility Checker's rules	
+#	Runtime	
+#calendar weekday	Sa	
+#	Safety margin (pt)	
+#	Same as interface	
+#	Same as interface ({language})	
+#	Same as text	
+#	Sanitize	
+#	Sanitize document	
+#	Sanitize document and flatten signatures	
+#	Sanitize document and remove signatures	
+#	Sanitize Documents	
+#	Sanitize document…	
+#	Sanitizing removes hidden information from the document: metadata, file attachments, comments, form fields (flattened), hidden text and layers, bookmarks, links, actions and scripts, and private application data.	
+#	Sauvola binarization: ink to black, paper to white	
+#	Save & Close	
+#	Save (M4)	
+#	Save ({key})	
+#	Save a signature first	
+#	Save and Rename	
+	Save anyway	Ипак сачувај
+#	Save as image	
+#	Save as image…	
+#	Save As optimizes for Fast Web View	
+#	Save as PDF/A	
+#	Save as PDF/A-1b	
+#	Save as PDF/A-2b	
+#	Save as PDF/A-3b	
+#	Save as PDF/UA	
+#	Save as PDF/X	
+#	Save as template	
+#	Save as to cloud	
+#	Save as to cloud…	
+#	Save As writes a linearized file whose first page shows before the rest has downloaded. Save adds changes to the end of the file, which turns Fast Web View off.	
+#	Save as {level}	
+#	Save as…	
+#	Save attachment…	
+#	Save changes to “{name}” before closing?	
+#	Save changes?	
+#	Save email draft…	
+	Save file	Сачувај датотеку
+#	Save guides as a set	
+#	Save guides as a set…	
+	Save image	Сачувај слику
+#	Save Image As…	
+#	Save initials first	
+#	Save measurement	
+#	Save model file	
+#	Save or revert changes before selecting another tag.	
+#	Save over the changed file?	
+#	Save pages	
+	Save Settings	Сачувај подешавања
+#	Save tag properties	
+#	Save the accessibility report	
+#	Save the document afterwards: saving rewrites the whole file so no trace of the removed content stays in it.	
+#	Save the document afterwards; saving rewrites the whole file so nothing removed stays in it.	
+#	Save the result under a new name: saving rewrites the whole file so no trace of the removed content stays in it, and the original file stays as it is.	
+#	Save the spreadsheet	
+#	Save these pages as one PDF	
+#	Save this document to a folder first	
+#	Saved guide set to {path}	
+#	Saved in the shared folder	
+#	Saved measurements	
+#	Saved measurements keep their original scale.	
+#	Saved measurements.	
+#	Saved Settings	
+#	Saved the print-ready PDF to {path}	
+#	Saved {name} and verified it: it conforms to {level}.	
+#	Saved {name} without Fast Web View: {e}	
+#	Saved {name}, but verifying it found {n} problems.	
+#	Saved {name}, optimized for Fast Web View	
+#	Saved {name}. Fast Web View is off: Save adds the changes to the end of the file.	
+#	Saved {place}: {before} → {after} (not smaller){detail}	
+#	Saved {place}: {before} → {after} ({pct}% smaller){detail}	
+#	Saved, but reopening failed: {e}	
+#	Saves document	
+#	Saves the guides, the unit and, if ticked, the grid as one set: a text file in the guide-set folder that can be edited, copied and shared.	
+#	Saving	
+#	Saving… {pct}%	
+#	Scale corner {n}	
+#	Scale description	
+#	Scale object	
+#	Scale relative to target page	
+#	Scan	
+#	Scan & OCR	
+#	Scan and text recognition	
+#	Scan correction	
+#	Scan interrupted	
+#	Scan next page	
+#	Scan processing cancelled	
+#	Scan reverse side now (1 front)	
+#	Scan reverse sides	
+#	Scan reverse sides now ({n} fronts)	
+#	Scan the front, flip the sheet on the bed, then scan the reverse side.	
+#	Scan the fronts before the reverse sides.	
+#	Scan the fronts, flip the stack (last sheet on top), then scan the reverse sides. Pages are interleaved front, back, …	
+#	Scan the missing reverse sides, then choose Finish.	
+#	Scanned pages are already being enhanced	
+#	Scanned pages need OCR. Reading order follows extracted page text.	
+#	scanned text	
+#	Scanned text detected	
+#	Scanner	
+#	Scanner settings	
+#	Scanner's full area	
+#	Scanning front {n} of {t}…	
+#	Scanning front {n}…	
+#	Scanning isn't available in the web version	
+#	Scanning needs Windows (WIA) in this version.	
+#	Scanning page {n} of {t}…	
+#	Scanning page {n}…	
+#	Scanning reverse side {n} of {t}…	
+#	Scanning reverse side {n}…	
+#	Scanning was stopped	
+#	Scanning…	
+#	Screen / email	
+#	Screen flicker	
+#	Screen readers choose their voice from the document's language. Set it in Document Properties > Advanced > Language.	
+#	Script Name:	
+#	Script:	
+#	Scripted content must be usable with a keyboard and assistive technology. Check the document's scripts.	
+#	Scripted submission to {u} is not supported yet.	
+#	Scripts run in a sandbox without file or network access. A script that asks to open a web page needs your permission first. With JavaScript off, Acrobat's standard format, validate and calculate functions still work.	
+#	Scripts run in a sandbox without file or network access. With JavaScript off, Acrobat's standard format, validate and calculate functions still work.	
+#	Scroll long text	
+#	Scroll speed (mouse wheel and arrow keys)	
+#	Scroll speed (touchpad)	
+#	Scroll tabs left	
+#	Scroll tabs right	
+#	Scroll the page	
+#	Search a folder	
+#	Search a folder…	
+#	Search all tools…	
+#	Search comments	
+#	Search complete.	
+#	Search panel	
+#	Search results	
+#	Search tools and commands	
+#	Search tools and commands…	
+#	Search tools…	
+#	Searchable Image	
+#	Searchable Image (Exact)	
+#	Searching a folder needs the desktop app	
+	Searching…	Претрага…
+#	Searching… {s} of {p} pages	
+#	Searching… {s}/{p}	
+#	Secured	
+#	Security handler	
+#	Security method	
+#	Security properties	
+#	Security properties…	
+#	Security settings	
+#	Security settings must allow assistive technology to read the content ("Enable text access for screen reader devices"). Change the document's security to allow it.	
+#	Security will be removed when you save	
+#	Select (V)	
+#	Select a file first	
+#	Select a file for the stamp	
+#	Select a password-protected file first	
+#	Select a placed signature first	
+#	Select a text box or an image first	
+#	Select a word	
+#	Select a word on the page to inspect it	
+#	Select Action:	
+	Select all	Изабери све
+#	Select all pages (Organize)	
+#	Select at least one other page.	
+#	Select at most 1000 objects at a time.	
+#	Select data files to merge	
+#	Select files to compare	
+#	Select format category:	
+#	Select Icon	
+#	Select page {label}	
+#	Select pages	
+#	Select text on one page to use this action	
+#	Select text, a text box or an image first	
+#	Select the items to remove from this document.	
+#	Select the {n} pages with a match, for Extract, Print or Delete	
+	Select Tool	Алат за избор
+	Select tool	Алат за избор
+#	Select tools to display on your Home page for quick access.	
+#	Select Trigger:	
+#	Selected area	
+#	Selected area (page {page}, {size})	
+#	Selected image files: {count}	
+#	Selected points: {n}	
+#	Selected unit	
+#	Selecting a result applies this query to the destination’s Find.	
+#	Self-signed	
+#certificate	Self-signed	
+#	Send	
+	Send backward	Помери назад
+#	Send by email…	
+#	Send code	
+	Send to back	Постави иза свих
+#	Sending by email isn't available in the browser	
+#	Sending sheet {s} of {n} to {printer}…	
+#	Sending the code…	
+#	Sending to {printer}…	
+#	Sending…	
+#	Sensitivity (screen pixels)	
+#	Sent to {printer}: {msg}	
+#	Sent. The printer can't say whether it printed.	
+#	Separate display coordinate system	
+#	Separate PDFs	
+#	Separate the sheets and load the remaining ones, then choose Continue.	
+#	Separate the sheets and load them again, then choose Try again.	
+#	Separate vertical units	
+#	Separating page {n}…	
+#	Separator style:	
+#	Sepia night	
+#	September	
+#calendar date	September	
+#	Serial number	
+#certificate	Serial number	
+#	Service	
+#	Service address	
+#	Set Alternate Text	
+#	Set alternate text	
+#	Set bookmark destination	
+#	Set calculation order	
+#	Set document title	
+#	Set Fields to Same Size	
+#	Set layer visibility	
+#	Set measurement scale	
+#	Set missing TrimBoxes from the CropBox	
+#	Set Page Boxes	
+#	Set page boxes	
+#	Set page boxes…	
+#	Set page transitions	
+	Set properties	Постави својства
+#	Set role mapping	
+#	Set status	
+#	Set status Accepted	
+#	Set status Cancelled	
+#	Set status Completed	
+#	Set status None	
+#	Set status Rejected	
+#	Set status Unmarked	
+#	Set tab order	
+#	Set the image of {name}	
+#	Set to current page ({n})	
+#	Set to zero	
+#	Set Trapped to False	
+#	Set Trapped to True	
+#	Settings this source offers. Leave a control alone to keep the driver’s value.	
+#	Several files have the same name, so their results would overwrite each other; nothing was written: {list}	
+#	SHA-1 digest	
+#certificate	SHA-1 digest	
+#	SHA-256 digest	
+#certificate	SHA-256 digest	
+#	Shadings	
+#	Shared Field Properties	
+#	Sheet {s} of {n}	
+#	Sheets	
+#	Sheets printed: {done} of {total}	
+#	Sheets printed: {n}	
+#key	Shift	
+#	Shift constrains to 45 degrees. Backspace removes a vertex. Escape cancels.	
+#	Shift drags freely	
+#	Shift+F8: the previous word to review	
+#	Shift- or Ctrl/Command-click to select several fields.	
+#	Shift-click to select several objects. Drag empty space to select an area.	
+#	ships in milestone {m}	
+#	Show a basic title bar for the window buttons instead of the tab strip. GNOME doesn't draw title bars for apps, so this one doesn't follow its theme.	
+#	Show a field	
+#	Show a notice when a document is secured	
+#	Show all comments	
+#	Show art, trim and bleed boxes	
+#	Show certificate…	
+#	Show circle	
+#	Show controls	
+#	Show cover page in two-page view	
+#	Show form field reminder	
+#	Show gaps between pages	
+	Show grid	Прикажи мрежу
+	Show guides	Прикажи вођице
+	Show in folder	Прикажи у фасцикли
+#	Show in the tab strip	
+#	Show layer	
+#	Show less	
+#	Show line weights	
+#	Show on other pages too	
+#	Show on the page which fields each field reads	
+#	Show or hide the side panel	
+#	Show or hide the Tools panel	
+#	Show or hide toolbars and panels	
+#	Show Page Edge Shadows	
+#	Show password	
+#	Show Report	
+#	Show template {name}	
+#	Show the accessibility report	
+#	Show the current page number over the document	
+#	Show the Discord button in the title bar and the community card on Home	
+#	Show the formatting toolbar when editing text	
+#	Show the menus in the macOS menu bar	
+#	Show this dialog when the Checker starts	
+#	Show validation marks over signed signatures	
+#	Show when displaying on screen	
+#	Show when printing	
+#	Show {n} more	
+#	Showing the first 2,000 results — more matches may exist.	
+#	Shown while the pointer is over a mark.	
+#	Shrink oversized pages	
+#	Shrink the page content to make room for the header and footer	
+#	Side by side	
+#	Side panels	
+#	Sienna	
+#	Sign	
+#	Sign & Certify	
+#	Sign a sheet of white paper and take a photo of it in bright, even light (use the flash). Choose the photo or drop it here: PdfCraft finds the signature and removes the paper.	
+#	Sign Here	
+#	Sign this field…	
+#	Sign with a Digital ID	
+#	Sign yourself	
+#	Signature	
+#	signature	
+#	Signature added. Others can move it until it's locked.	
+#	Signature cleanup stopped unexpectedly.	
+#	Signature Details	
+#	Signature invalid	
+#	Signature is invalid	
+#	Signature is INVALID:	
+#	Signature is valid	
+#	Signature is valid:	
+#	Signature locked into the page.	
+#	Signature panel	
+#	Signature valid	
+#	Signature validity is unknown	
+#	Signature validity is UNKNOWN:	
+#	Signature {n}	
+#	Signatures	
+#	Signatures and seals are not carried over or checked.	
+#	Signatures made under a trusted certificate are shown as valid. Trust only certificates from a source you trust, and compare each fingerprint with the one its authority publishes.	
+#	Signatures panel	
+#	Signed after this signature, so what they signed includes it: {names}.	
+#	Signed and all signatures are valid.	
+#	Signed and saved to {path}	
+#	Signed and saved to {path}, without some revocation information: {problems}	
+#	Signed and saved to {path}. The document changed while the signature was being approved; those changes aren't in the signed file.	
+#	Signed by {signer} on {time}; the content does not match what was signed; the signer's trust was not checked.	
+#	Signed by {signer} on {time}; the content matches what was signed; the signer's trust was not checked.	
+#	Signed by {signer}; the content does not match what was signed; the signer's trust was not checked.	
+#	Signed by {signer}; the content matches what was signed; the signer's trust was not checked.	
+#	Signer	
+#	Signer's name	
+#	Signers	
+#	Signing	
+#	Signing service  ·  	
+#	Signing then goes online: the timestamp server receives a hash of the signature, and the certificate authorities are asked whether the certificates are revoked. With both, signatures are PAdES B-LTA.	
+#	Signing time	
+#	Signing time is from the clock on the signer's computer.	
+#	Signing was cancelled; nothing was saved.	
+#	Signing…	
+#	Signing… Confirm the signature on your other device.	
+	Silhouettes	Силуете
+#	Simplified field notation:	
+#	Simulate overprinting	
+#	Simulation: device formulas	
+#	Simulation: {profile}	
+#	Single checks	
+#	Single file	
+#	Single Page	
+#	Single page	
+#	Single Page Continuous	
+#	Single word or phrase	
+#	Skip files that already have text	
+#	Skip pages that already have text	
+#	Skip Rule	
+#	Skipped	
+#	skipped	
+	Slash	Коса црта
+scroll speed	Slow	Споро
+#	Smaller files for screens and email. Images above 225 ppi are reduced to 150 ppi, JPEG quality 60; line art may lose detail.	
+#	Smaller pages	
+#	Smaller text	
+#	Smaller thumbnails	
+#	Smart card  ·  	
+#	Snap targets	
+#	Snap to drawing	
+#	Snap to drawing: off	
+#	Snap to drawing: on	
+#	Snap to grid	
+#	Snap to points and lines (Alt skips it)	
+	Snapping	Хватање
+#	Social Security Number	
+#	Social Security Numbers	
+#	Soft dark gray	
+#	Soft night	
+#	Some bookmarks are not shown here: the panel lists a limited number, nested a limited depth.	
+#	Some content could not be classified safely and was kept in the count.	
+#	Some names are built as it runs	
+#	Some page content couldn't be read; snapping uses the rest.	
+#	Some pages contain no countable text. Scanned images need OCR first.	
+#	Some soft masks or pattern paints need a visibility check before snapping.	
+#	Sort comments by:	
+#	Sort items	
+#	sorted ascending	
+#	sorted descending	
+#	Source page	
+#key	Space	
+#	Space Audit	
+#	Spacing between copies	
+#	Spacing, offset, subdivisions, colour and thickness are in Preferences ▸ Units and guides.	
+#	spans two paragraphs	
+#	Speed:	
+#	Spelling checks stay on this device.	
+#	Spelling dictionary unavailable	
+#	Spelling language	
+#	Spelling marks do not change the document. Right-click an underlined word for suggestions.	
+	Spelling suggestions	Предлози правописа
+#	Split document	
+#	Split document…	
+#	Split down	
+#	Split into files…	
+#	Split right	
+#	Spot colour {}	
+#	Spot colours	
+#	Spreadsheet (.xlsx)	
+#	Square kilometres	
+#	Square metres	
+#	Square miles	
+#	Square US survey feet	
+#	Squiggly	
+#	Squiggly underline	
+#	Squiggly underline text	
+#	Stabilizer	
+#	Stagger rows	
+#	Stamp palette	
+#	Stamps	
+#document scrollbar width	Standard	
+#	Standard (96 ppi)	
+#	Standard (Inter)	
+#	Standard Business	
+#	Standard fonts; text outside Windows-1252 isn't supported yet.	
+#	Standard structure type {} is remapped to {to}	
+#	Standards	
+#action wizard	Start	
+#	Start Checking	
+#	Start page number	
+#	Stick to a side:	
+#	Sticky note	
+#	still checking whether the tesseract program can run; try again in a moment	
+#	Still printing; the job continues on the printer	
+#	Still rendering — this page is unusually complex…	
+#	Still waiting for your email app…	
+	Stop reading	Заустави читање
+#	Stopped at {limit} matches.	
+#	Stopped before the end.	
+#	Stopped: too many files took too long to read.	
+#	Store JPEG images as JPEG XL (smaller, can be undone; needs a reader that supports JPEG XL)	
+#	Straighten a page that is curved, folded or photographed at an angle, so its lines of text run straight	
+#	Straighten scanned page	
+#	Straighten skewed scans	
+#	Straighten the page	
+#	Straightens skewed text lines before reading	
+#	Strength: {s}	
+#	Strikethrough text	
+#	String length (0 turns it off)	
+#	Stroke colour	
+#	Structure Info	
+#	Structure type {} doesn't map to a standard type	
+#calendar weekday	Su	
+certificate	Subject	Тема
+#	Submit a form	
+#	Submit a form with GET	
+#	Submit FDF data	
+#	Submit PDF document	
+#	Submit XFDF data	
+#	Subtle background	
+#	Success	
+#	Suggest edits	
+#	sum (+)	
+	Summarize	Резиме
+#	Summarize comments	
+#	Summarize Options	
+#	Summarize with AI	
+#	Summary: {errors} errors, {warnings} warnings, {info} information	
+#	Surfaces	
+#	Swap width and height	
+#	Switch light / dark theme	
+#	Switch page theme	
+#	Switch the scanner off and on again, wait until it is ready, then choose Continue.	
+#	Switch the scanner off and on again, wait until it is ready, then choose Try again.	
+#	Switch to List view to change the pages it takes.	
+#	Switch to two-page view first to show the cover page	
+#	System font	
+#	System print dialog…	
+#	Tab Order	
+#	Tab order	
+#	Tab order by columns	
+#	Tab order by rows	
+#	Tab order is consistent with structure order	
+#	Tab order: by columns	
+#	Tab order: by document structure	
+#	Tab order: by rows	
+#	Tab order: move a field with its arrows.	
+#	Tab: the next target under the pointer	
+#	Table cells belong in a row. Fix the table's tags.	
+#	Table rows belong directly in a table or its head, body or foot. Fix the table's tags.	
+#	Tables become cells; numbers, amounts, percentages and dates become values Excel can compute with, shown as on the page.	
+#	Tables must contain the same number of columns in each row and rows in each column	
+#	Tables must have a summary	
+#	Tables should have headers	
+#	Tag annotation	
+#	Tag content as {type}	
+#	Tag form fields	
+#	Tag type	
+#	Tagged annotations	
+#	Tagged content	
+#	Tagged form fields	
+#	Tagged multimedia	
+#	Tagged PDF	
+#	Tags	
+#	Tags give the document a logical structure that assistive technology follows. Tag the document (Automatically tag PDF).	
+#	Tags panel	
+#	Take a snapshot	
+#	Take this paper size off the list	
+#	Task	
+#	Test voice	
+#	Text (plain)	
+#	Text alignment:	
+#	Text and added items can't be deleted with this selection.	
+#	Text box	
+	Text box width	Ширина оквира за текст
+#	Text box width in millimetres	
+	Text Color:	Боја текста:
+	Text direction	Смер текста
+#	Text editing line	
+#	Text extends outside the frame.	
+#	Text field	
+#	Text Field Properties	
+#	Text Field Table	
+#	Text field table	
+#	Text height (points)	
+#	Text in images isn't found; recognise text (OCR) first.	
+#	Text in the font {} uses the Private Use Area without ActualText	
+#	Text is compared word by word; the differences are shown on the new file.	
+#	Text language is specified	
+#	Text must contrast enough with its background for people with low vision. Check the colours by eye or with a contrast tool.	
+#	Text only, keep images	
+#	Text opacity	
+#	Text recognition cancelled. {summary}	
+#	Text recognition is already running	
+#	Text recognition isn't installed: its model files are missing. Reinstall PdfCraft, or set PDFCRAFT_MODELS to the folder that holds them.	
+#	Text recognition isn't installed: its models are missing (run `cargo xtask models`, or set PDFCRAFT_MODELS).	
+#	Text rendering	
+#	Text style	
+	Text to find	Text то финд
+#	Text to insert	
+#	Text to place	
+#	Text used as a clipping path cannot be moved with this selection.	
+#	Text, marks and signatures become part of the page. Other comments stay editable.	
+#calendar weekday	Th	
+#	TH and TD	
+#	TH and TD must be children of TR	
+#	Thai and Arabic use regular fallback fonts when available.	
+#	That didn't work: an internal error stopped it ({m}).	
+#	That didn't work: an internal error stopped it ({m}). Your documents are unchanged.	
+#	That is the source file; choose another destination	
+#	That isn't a scanner address	
+#	That length can't be right for this line: check the unit.	
+#	The answer proposes formatting changes.	
+#	The answer stopped unexpectedly.	
+#	The API key would be sent unencrypted to this address. Use https:// unless the server is on a network you trust.	
+#	the area, the spacing and the column widths must be numbers, the spacing 0 or more and each width more than 0	
+#	The bed scans one page at a time. Scan one front, flip it, then scan its reverse side.	
+#	The bleed is {} mm on its narrowest side	
+#	The bookmarks have no language: the document sets none (Lang)	
+#	The built-in engine (pure Rust)	
+#@plural	The calculation order has {n} entry that calculates nothing. Fix order removes it.|The calculation order has {n} entries that calculate nothing. Fix order removes them.	
+#	The catalog has no metadata stream (XMP)	
+#	the certificate authorities	
+#	the certificate expired on {date}	
+#	The certificate of {} does not allow this many CA certificates below it (path length), so it is not used to vouch for {}.	
+#	The certificate of {} has critical extensions PdfCraft does not recognize, so it is not used to vouch for {}.	
+#	The certificate of {} is not a CA certificate that may issue certificates, so it is not used to vouch for {}.	
+#	The certificate of {} was not valid at the time of signing, so it is not used to vouch for {}.	
+#	The check stopped unexpectedly.	
+#	The check was cancelled.	
+#	The checker found 1 problem which may prevent the document from being fully accessible.	
+#	The checker found no problems in this document.	
+#	The checker found problems which may prevent the document from being fully accessible.	
+#	The checker found {n} problems which may prevent the document from being fully accessible.	
+#	The clipboard has no image or text	
+#	The clipboard holds no comments	
+#	The comment being edited no longer exists, so its text was not saved.	
+#	The copied comments are larger than this page; they were placed as they are	
+#	The copy to attach couldn't be written: {e}	
+#	The default optional content configuration (D) has no Name	
+#	The desktop portal's file chooser isn't running ({packages}). Check it with systemctl --user status {first}, or log out and back in.	
+#	The device's digital ID isn't available any more; start signing again to list it.	
+#	The display datum transformation is approximate.	
+#	The Dock shows it the next time PdfCraft opens.	
+#	The document can't be converted: {}	
+#	The document changed while it was being signed, so the signature wasn't saved.	
+#	The document changed while its margins were measured; nothing was cropped	
+#	The document changed while its text was being recognized, so nothing was added. Run Recognize text again.	
+#	The document changed while you were choosing a file, so nothing was changed.	
+#	The document changed while you were editing field properties.	
+#	The document couldn't be prepared	
+#	The document doesn't say whether it is trapped (Trapped)	
+#	The document has additional actions (/AA)	
+#	The document has been altered or corrupted since the signature was applied.	
+#	The document has been altered or corrupted since the timestamp was applied.	
+#	The document has been altered since this signature was applied in ways it does not permit ({}).	
+#	The document has been altered since this timestamp was applied in ways it does not permit ({}).	
+#	The document has been modified since this signature was applied, but the changes are permitted ({}).	
+#	The document has been modified since this timestamp was applied, but the changes are permitted ({}).	
+#	The document has document-level JavaScript	
+#	The document has more objects than one check covers; the rest was not checked.	
+#	the document has no form fields	
+#	the document has no page tree	
+#	The document has no structure tree: it isn't tagged	
+#	the document has no tags	
+#	The document has no tags (structure tree)	
+#	The document has no title	
+#	The document has no XMP metadata	
+#	The document information and the metadata name different PDF/X versions	
+#	The document information doesn't identify the file as {}	
+#	The document is encrypted	
+#	The document is encrypted: open it with its permissions password to remove the security	
+#	The document is no longer open.	
+#	the document is protected by a password	
+#	The document isn't marked as tagged (MarkInfo /Marked true)	
+#	The document isn't marked as tagged (MarkInfo Marked)	
+#	The document isn't tagged, so none of its content is	
+#	The document now conforms to {level}; save it to keep the changes	
+#	The document opens without a password; this password is needed to change the restrictions. It's applied when you save.	
+#	The document sets no language (Lang), and neither do its tags	
+#	The document uses both H and numbered headings (H1–H6)	
+#	The document uses CMYK colour: choose the ICC profile of a CMYK printing condition for its output intent	
+#	The document was changed in another window. Check your text, then apply it again.	
+#	The document was closed before it could be saved.	
+#	The document wasn't signed: {e}	
+#	The document will no longer be certified.	
+#	The document's embedded revocation information shows that the signer's certificate has not been revoked.	
+#	The document's language (Lang) {} isn't a language tag	
+#	The document's security settings don't allow copying text and images	
+#	The document's security settings don't allow filling in form fields	
+#	The document's security settings don't allow printing	
+#	The document's security settings don't allow this change	
+#	The draft contains PDF attachments. Open it with a mail app that supports .eml drafts; in Outlook.com, create a message and attach the saved PDFs yourself.	
+#	The driver may accept a turn and leave the picture as it was.	
+#	The driver reports a paper jam.	
+#	The driver reports a sheet waiting. The bit can stay on after the tray is empty.	
+#	The ECDSA signature is not in canonical DER (trailing bytes, padding or a missing sign byte); it was read anyway.	
+#	The ECDSA signature is the raw r and s values instead of a DER sequence; it was read anyway.	
+#	The edited text is set in {font} instead of its own font.	
+#	The embedded timestamp token is valid and its authority is trusted; trusted time is {}.	
+#	The existing action will be preserved.	
+#	The extracted pages aren't protected: the original's security settings don't carry over.	
+#	The feeder ran out of paper.	
+#	The feeder took more than one sheet.	
+#	The field properties could not be changed.	
+#	The field properties dialog is no longer open.	
+#	The field {name} no longer exists.	
+#	The fields this signature locked ({names}) can be changed again.	
+#	The file has a reference XObject (Ref)	
+#	The file is encrypted but its encryption dictionary has no permissions (P)	
+#	The file is PDF {v}, not PDF 2.0	
+#	The file is PDF {}	
+#	The file is PDF {}, newer than the profile allows	
+#	The file trailer has no document ID	
+#	the first heading is an H{n}; headings should not skip levels	
+#	the first row number can be at most {max}	
+#	the font can't draw it	
+#	The font must include Latin letters and numbers for interface controls.	
+#	The font {} has characters with no Unicode value	
+#	The font {} isn't embedded	
+#	The font {} maps characters to U+0000, U+FEFF or U+FFFE	
+#	The fonts PdfCraft writes with can't draw “{c}” ({code}), so it shows as ? in every PDF viewer. The text is saved.	
+#	The form asks to be submitted to {u}; PdfCraft doesn't send form data. Save the document to keep your entries.	
+#	The form asks viewers to make appearances (NeedAppearances)	
+#	The form's purpose and its fields (names, types, tab order)	
+#	The fronts already scanned are kept for the reverse-side pass.	
+#	The height follows the text. Widen the box or use one line to reduce it.	
+#	The historical model detects its supported scripts automatically; Japanese is not included.	
+#	The ICC profile {} isn't a CMYK profile, which PDF/X-1a needs	
+#	The ICC profile {} isn't a gray, RGB or CMYK profile	
+#	The ICC profile {} isn't an output (printer) profile	
+#	The ICC profile {} isn't an output or display profile	
+#	The image couldn't be used as an icon: {e}	
+#	The image has been copied ({w} × {h} pixels)	
+#	The image has been copied as a {ext} file	
+#	the image is empty	
+#	The job was canceled	
+#	The key is in the macOS Keychain, which may ask to allow PdfCraft to use it.	
+#	The key is in the Windows certificate store, which may ask to allow PdfCraft to use it.	
+#	The key is on the device, which may ask for its PIN itself.	
+#	The key is on the device, which signs once it has its PIN.	
+#	The key is on {device}, which asks for approval itself (a PIN pad, or an app on your phone).	
+#	The Keychain's digital IDs couldn't be listed: {e}	
+#	The labels are in English: the signature's font can't draw them in this language.	
+#	The language {} isn't a valid language tag	
+#	The linked PDF opened, but its named destination was not applied.	
+#	The linked PDF opened, but its page destination was out of range.	
+#	The measurement list reached its safety limit.	
+#	The metadata doesn't identify the file as PDF/UA (pdfuaid:part)	
+#	The metadata doesn't identify the file as {}	
+#	The metadata has no language: the document sets none (Lang) and the metadata no xml:lang	
+#	The metadata has no PDF/UA revision year (pdfuaid:rev)	
+#	The metadata has no title (dc:title)	
+#	The metadata has no {}	
+#	The metadata identifies the file as PDF/UA-{n}, not PDF/UA-{want}	
+#	The model viewport is too narrow to display.	
+#	The module's tokens hold no digital ID PdfCraft can sign with.	
+#	the name is not a plain file name	
+#	The new file has no signature left and no earlier revision holding it.	
+#	The newest {n} of {total} PDFs	
+#	The objects are already aligned.	
+#	The operation failed.	
+#	The order saved in the PDF needs tidying	
+#	The originals are not changed. A file of the same name in the output folder is kept, and the new one gets a number.	
+#	The other signatures ({names}) will report that the document changed after they signed. Check them again: nothing says they stay valid.	
+#	The output folder already holds files of these names; nothing was written: {list}	
+#	The output folder can't be one of the folders being read, or contain one.	
+#	The output intent's profile describes {} colour, but PDF/X-1a needs a CMYK printing condition	
+#	The output intent's profile describes {} colour; it must be gray, RGB or CMYK	
+#	The output intent's profile has /N {}, which doesn't match its colour space	
+#	The output intent's profile has no device-to-PCS transform (AToB1 or grayTRC)	
+#	The output intent's profile isn't a valid ICC profile	
+#	The output intent's profile isn't an output (printer) profile	
+#	The output profile can't convert colour to CMYK ({})	
+#	The page could not be separated: {error}	
+#	the page flattening model is not installed (reinstall PdfCraft, or set PDFCRAFT_MODELS to the folder that holds it)	
+#	The page has both a TrimBox and an ArtBox	
+#	The page has changed; select the image again	
+#	The page has neither a TrimBox nor an ArtBox	
+#	The page has no BleedBox	
+#	The page has no valid MediaBox	
+#	The page is a transparency group	
+#	The page was read again; its words were replaced (undo in the panel)	
+#	The page's words were applied as one undoable step ({n} words)	
+#	The page's words were cleared (undo in the panel)	
+#	The pages already scanned were kept in the document.	
+#	The pages use {} spot colours	
+#	The pages were extracted but not deleted, because the document changed while you were choosing a folder.	
+#	the paragraph can't be rewritten	
+#	the password is incorrect	
+#	The password is incorrect.	
+#	The password is only used to read the file; it isn't saved.	
+#	The password must have at least 6 characters.	
+#	The password must have at least 8 characters.	
+#	The passwords and the restrictions are removed when you save.	
+#	The passwords do not match.	
+#	The PDF text fonts can't draw “{c}” ({code}). Choose supported text.	
+#	The PDF/X output intent has neither an embedded profile nor a characterization in the ICC registry	
+#	The PDF/X output intent has no embedded profile (DestOutputProfile)	
+#	The PDF/X output intent has no OutputConditionIdentifier	
+#	The PIN goes only to the card; PdfCraft doesn't keep it.	
+#	The PIN is incorrect.	
+#	The PKCS #11 tokens' digital IDs couldn't be listed: {e}	
+#	The preview could not be shown.	
+#	The print job stopped unexpectedly	
+#	The printer accepts none of the formats this document can be sent in	
+#	The printer address was refused	
+#	The printer doesn't support this setting	
+#	The printer driver's own settings for this print: paper tray, paper type, finishing and more.	
+#	The printer is printing it	
+#	The printer may have received the document. Check the printer before sending again.	
+#	The printer no longer lists the job; it most likely finished	
+#	The printer paused the job; it needs attention	
+#	The printer refused the request	
+#	The printer stopped the job	
+#	The printer's reply couldn't be understood	
+#	The provider's page didn't come back in time. Try again.	
+#	The raw text was truncated to what fits.	
+#	The re-read found no text; the existing words are unchanged	
+#	The redaction does not fit page {page}; no pages were marked.	
+#	The redirect URI must be http://127.0.0.1 or http://localhost with a port.	
+#	The region was read again; its words were replaced (undo in the panel)	
+#	The release has ambiguous packages. Choose a package on the official release page.	
+#	The release is not a published stable update. Try again later.	
+#	The replacement file doesn't have that many pages.	
+#	the request stopped without an answer	
+#	The resolution of an image can't be measured	
+#	The rest are left out of this list.	
+#	The restrictions apply to recipients without “All permissions”. It's applied when you save.	
+#	The reverse sides already scanned are kept.	
+#	The reverse sides were cancelled: their document was closed.	
+#	The role map maps {} in a circle	
+#	the rows are too short: make the area taller, or use fewer rows or less row spacing	
+#	The RSA signature value does not have the length of the key's modulus (leading zero bytes dropped or added); it was read anyway.	
+#	The RSA signature's DigestInfo has no NULL parameter (older signers write it so); it was read anyway.	
+#	The same password is tried on each file.	
+#	The same printer is also available over the network.	
+#	The same printer is also available over USB.	
+#	The scan could not be started.	
+#	The scan produced no pages.	
+#	The scan was cancelled at the scanner.	
+#	The scan was interrupted.	
+#	The scan was stopped: its document was closed.	
+#	The scanner has a paper jam.	
+#	The scanner is busy, or the feeder has no paper.	
+#	The scanner is busy.	
+#	The scanner is offline or needs attention.	
+#	The scanner list could not be refreshed.	
+#	The scanner needs attention.	
+#	The scanner reported a lamp or device error.	
+#	The scanner reported a paper problem (a jam or several sheets fed together).	
+#	The screen's own pixels per inch. Calibrate with a ruler so that Actual size (100%) shows pages at their real size.	
+#	The search stopped unexpectedly.	
+#	The searchable copies are written here under the source names	
+#	The security settings don't allow screen readers to read the text	
+#	The selected area has been copied ({w} × {h} pixels)	
+#	The selected area is no longer on a page of this document.	
+#	The selected fields could not be found. Select them again.	
+#	The selected redaction is unavailable or invalid.	
+#	The selected scale could not be read.	
+#	The selected word is gone; choose another	
+#	The selection changed. Select the signature again.	
+#	The session with {provider} has ended. Sign in again from Configure a Digital ID.	
+#	The shared folder:	
+#	The signature algorithm and the SignerInfo's digest algorithm name different hashes; the signature was made with the SignerInfo's.	
+#	The signature carries an unverified timestamp ({}): the timestamp authority is not in your list of trusted certificates, so the signing time claimed by the signer is used instead.	
+#	The signature contents are not hexadecimal.	
+#	The signature could not be checked ({}).	
+#	The signature could not be read ({}).	
+#	The signature could not be verified ({}).	
+#	The signature font can't draw “{c}” ({code}). Type it in Latin, Cyrillic or Greek letters, or use Draw or Image.	
+#	The signature has no valid byte range.	
+#	The signature includes an embedded timestamp.	
+#	The signature is BER-encoded (indefinite lengths) rather than DER; it was read leniently.	
+#	The signature uses the legacy adbe.x509.rsa_sha1 format.	
+#	The signature value does not match the signer's certificate: the signature is corrupt.	
+#	The signature was not removed: {e}	
+#	The signature will be invisible.	
+#	The signature {names} locks this field.	
+#	The signature's byte range does not exclude exactly its contents.	
+#	The signature's byte range does not match the file.	
+#	The signature's signed attributes have no content type, which CMS requires; it was read anyway.	
+#	The signature's signed attributes have no message digest, so the signature does not cover the document.	
+#	The signature's signed attributes name a content type other than data, so it is not a signature of the document.	
+#	The signature's timestamp token could not be verified ({}).	
+#	The signature's timestamp token does not cover the signature value.	
+#	The signed content is a constructed (segmented) OCTET STRING, as BER allows; it was read anyway.	
+#	the signed version could not be read	
+#	The signer's certificate does not allow digital signatures (its key usage has neither digital signature nor non-repudiation).	
+#	The signer's certificate has been revoked ({}).	
+#	The signer's certificate has critical extensions PdfCraft does not recognize ({}).	
+#	The signer's certificate is not in the signature.	
+#	The signer's certificate is not issued for signing documents (its extended key usage has no document-signing purpose).	
+#	The signer's certificate was not valid at the time of signing.	
+#	The signer's identity is unknown because it has not been included in your list of trusted certificates and none of its parent certificates are trusted certificates.	
+#	The signer's identity is valid.	
+#	the signing service is unreachable ({reason})	
+#	The signing service lists no certificate for this account.	
+#	the signing service refused to list the certificates	
+#	the signing service refused to send the OTP	
+#	the signing service refused to sign	
+#	the signing service rejected the OTP (it may have expired)	
+#	the signing service rejected the PIN	
+#	the signing service rejected the PIN or the OTP (the OTP may have expired)	
+#	the signing service rejected the user name or password	
+#	The smart card's digital IDs couldn't be listed: {e}	
+#	The split files aren't protected: the original's security settings don't carry over.	
+#	The spot colour {} has an alternate that can't be converted to CMYK yet	
+#	The standard fonts can't draw “{c}” ({code}). Only Western European characters can be added as text for now.	
+#	The standard it must meet and where the file goes	
+#	The standard structure type {} is mapped to a type that isn't standard	
+#	The structure type {} isn't standard and isn't mapped to a standard type	
+#	the tesseract engine is not available in the web build	
+#	the tesseract program was not found (install it, or add it to the PATH)	
+#	The tesseract program, run as an external process	
+#	The text is the same	
+#	the text recognition models are not installed (reinstall PdfCraft, or set PDFCRAFT_MODELS to the folder that holds them)	
+#	The text reflows to the reader's screen and font size, in chapters, with the bookmarks as the contents.	
+#	The text's own font can't show {chars}, so the edited text is set in {font}.	
+#	The timestamp authority's certificate is not issued for time stamping.	
+#	The timestamp authority's certificate was not valid at the time of timestamping.	
+#	The timestamp contents are not hexadecimal.	
+#	The timestamp has no valid byte range.	
+#	The timestamp token could not be read ({}).	
+#	The timestamp token is valid and its authority is trusted.	
+#	The timestamp token is valid, but the timestamp authority is not in your list of trusted certificates.	
+#	The timestamp's byte range does not exclude exactly its contents.	
+#	The timestamp's byte range does not match the file.	
+#	The tint transform of the spot colour {} can't be read or evaluated	
+#	The tint transform of the spot colour {} can't be resampled into CMYK exactly	
+#	The title in the metadata and the document information differ	
+#	the title must not be empty	
+#	The token has its own PIN pad or biometric reader; it will ask for the PIN itself.	
+#	The token PIN is incorrect.	
+#	The token PIN is locked. PUK is required.	
+#	The Trapped key and the metadata's pdf:Trapped disagree	
+#	The trim box is kept where it is, so the printed page cuts the same.	
+#	The value is shown as typed.	
+#	The value {value} of {key} in {type} is deprecated since PDF {since}	
+#	The value {value} of {key} in {type} is from PDF {since}, later than the file's PDF {version}	
+#	The viewer preferences have no DisplayDocTitle entry	
+#	the website did not confirm that it stored the file	
+#	The window should show a meaningful title rather than the file name. Set a title and Initial View > Show: Document Title.	
+#	The window shows the file name, not the title (Initial View > Show)	
+#	The Windows store's digital IDs couldn't be listed: {e}	
+#	The XFA form requires dynamic rendering (dynamicRender)	
+#	The {} colour space isn't allowed: PDF/X-1a allows only CMYK, gray and spot colour	
+#	The {} extends beyond the BleedBox	
+#	The {} extends beyond the CropBox	
+#	The {} extends beyond the MediaBox	
+#	their appearances as well as the page	
+#	There are no other pages in that range.	
+#	there are no pages to print	
+#	There are no redaction marks (mark text, areas or pages first)	
+#	There are no redaction marks to apply	
+#	there are no redaction marks to apply	
+#	There is more than one PDF/X output intent	
+#	There is no folder to save the digital ID in.	
+#	There is no PDF/X output intent (GTS_PDFX)	
+#	There is no selectable text on this page. If it is a scan or a picture of text, recognize its text to select it.	
+#	These files can't be read, so they won't be in the combined PDF:	
+#	These measurements differ by more than 2%: check them.	
+#	These objects could not be aligned.	
+#	These objects could not be moved. Select them again and try a smaller move.	
+	thick	Дебело
+#	Thinking… {s}s	
+#	Thinnest line	
+#	This area has too many overlapping paths; intersection snapping is limited.	
+#	This cannot be undone: applying redactions clears the undo history.	
+#	This certificate is in your list of trusted certificates.	
+#	This certificate is not trusted. Signatures made with it show an unknown identity.	
+#	This certificate is trusted through a certificate above it in the chain.	
+#	This check needs the Accessibility Checker, which isn't available here	
+#	This comment's appearance can't be changed yet.	
+#	This compatibility level supports only plain ASCII passwords.	
+#	This dialog shows the details of a certificate and its chain.	
+#	This document asks to open in Full Screen mode: the page fills the screen and nothing else shows. Press Esc at any time to leave it.	
+#	This document can't be changed: {names}	
+#	This document can't be checked: it couldn't be read for editing	
+#	This document contains {n} interactive form fields.	
+#	This document does not allow adding form fields	
+#	This document does not allow measurement edits.	
+#	This document has no attachments.	
+#	This document has no comments to flatten	
+#	This document has no document-level scripts.	
+#	This document has no editable structure tags.	
+#	This document has no form fields to flatten	
+#	This document has no form fields you can fill in	
+#	This document has no form fields.	
+#	This document has no guides to save	
+#	This document has no layers.	
+#	This document has no pages.	
+#	This document has no restrictions to lift	
+#	This document has no signature that can be removed.	
+#	This document has no signatures.	
+#	This document has no tagged figures.	
+#	This document has no text to make bookmarks from.	
+#	This document has no XMP metadata.	
+#	This document has no {kind} to change	
+#	This document has not been modified since this signature was applied.	
+#	This document has not been modified since this timestamp was applied.	
+#	This document has unsaved changes. They are saved first, then the file is renamed.	
+#	This document hasn't been checked yet.	
+#	This document hides the toolbars and panels. Press {key} to show them.	
+#	This document is digitally signed. Sanitizing rewrites the whole file, which invalidates the signatures, so it can only go ahead without them.	
+#	This document is not inside a CAdES envelope	
+#	This document is secured. Some changes are restricted by its security settings.	
+#	This document is signed. A change adds a new version: the signatures stay valid for the version they signed, and viewers will show that the document was changed after signing.	
+#	this document is signed: rewriting it would invalidate its signatures (save it incrementally instead)	
+#	This document is trying to open a local file:	
+#	This document isn't in a folder yet: save it first	
+#	This document isn't password-protected	
+#	This document's script is asking	
+#	This drawing exceeds the snapping limit; only the first paths are used.	
+#	This field is locked. Unlock it to change its properties.	
+#	This field's font can't draw “{c}” ({code}), so PdfCraft shows ? in its place. The value is saved, and other PDF viewers redraw the field from it.	
+#	This file can't be used as the logo: it's larger than {max} MB.	
+#	This file can't be used as the logo: its path isn't valid UTF-8, so it couldn't be saved with the settings.	
+#	This file changed on disk. Reload it to see the new version; your unsaved changes will be lost.	
+#	This file changed on disk. Reload shows the new version and drops your unsaved changes; Save replaces it with this version.	
+#	This file is already as small as it can be made ({size}). No copy was saved.	
+#	this file isn't XFDF, FDF, XML or text form data	
+#	This file was damaged and has been repaired. Saving keeps the repaired version.	
+#	This folder is too large or too deep to search all of it.	
+#	This folder isn't available right now. It may have moved, or its drive or cloud sync is offline.	
+#	This font file cannot be used. Choose a readable TTF, OTF or TTC file.	
+#	This form also contains XFA data, which PdfCraft doesn't read yet. You can fill its fields, but Acrobat may show the XFA values instead.	
+#	This form has too many fields, or a field name too long, for PdfCraft to read them all. Any signature among the rest is not listed, so the document is treated as signed.	
+#	This form's scripts are turned off because one ran too long. Reopen the document to run them again.	
+#	This form's submission format or field selection is not supported yet.	
+#	This installation is owned by a Debian package. Use your system software manager to update PdfCraft.	
+#	This installation is owned by an RPM package. Use your system software manager to update PdfCraft.	
+#	This is a dynamic XFA form, which PdfCraft can't display yet. What you see is the file's placeholder page.	
+#	This is a one-time download from GitHub. Afterward, form detection works offline. Your PDFs stay on this device.	
+#	This is a picture of a signature, not a digital signature: only the mark on the page goes. The original file is kept as it is.	
+#	This is the first PDF in its folder	
+#	This is the last PDF in its folder	
+#	This is the last try before the token's PIN locks. A wrong PIN here may lock it permanently.	
+#	This key is used for “{what}” and can't be changed.	
+#	This key moves around the interface on its own. Add Ctrl to use it.	
+#	This large file is being read from disk to save memory, so it can't be edited, filled in or signed yet.	
+#	This machine: {ram} GB RAM, {disk} GB free	
+#	This measurement needs at least {n} points.	
+#	This page contains objects that cannot be selected together.	
+#	This page couldn't be displayed.\\n{e}	
+#	This page couldn't be displayed.\n{e}	
+#	This page has an opaque background of its own, so the background is blended with its content.	
+#	This page has an opaque background of its own, which hides anything behind it. Choose Blend with page content.	
+#	This page has an opaque background of its own, which hides the image behind it.	
+#	This page has no 3D models.	
+#	This PDF uses the unsupported {s} action.	
+#	This point could not be moved. Try a smaller move.	
+#	This printer does not take a copies setting.	
+#	This printer does not take a quality setting.	
+#	This printer does not take a resolution setting.	
+#	This printer does not take an orientation setting.	
+#	This printer offers no settings of its own.	
+#	This printer only prints in black and white.	
+#	This printer only prints one-sided.	
+#	This printer's driver doesn't take two-sided settings from other programs, so its own setting applies. Change it in Properties…	
+#	This request comes from the document, not PdfCraft. Only enter a password if you trust this document.	
+#	this signature can't be removed on its own	
+#	This signature uses an RSA key shorter than 2048 bits, which is no longer considered strong enough for signatures. It still validates, but it should not be relied on.	
+#	This signature uses RIPEMD-160, a legacy 160-bit hash algorithm that is no longer recommended for signatures. It still validates, but it should not be relied on.	
+#	This signature uses SHA-1, a weak hash algorithm: collisions in it have been demonstrated. It still validates because many documents signed years ago use it, but it should not be relied on.	
+#	this signing service can't be used: it needs OAuth sign-in in a browser, which PdfCraft doesn't support yet	
+#	This tab is already first	
+#	This tab is already last	
+#	This token's PIN is locked. Signing will not work until it is unlocked.	
+#	This token's PIN is low on tries remaining.	
+#	This web address mixes letters from different alphabets, a common way to imitate another site's name.	
+#	This web address uses letters from another alphabet, which can look like familiar ones.	
+#	Thousands separator	
+	Thumbnail size	Величина сличице
+#	Tile scale:	
+#	Timed responses	
+#	Timestamp	
+#	Timestamp server	
+#	Timestamps and revocation information need the desktop app. Turn them off in Preferences ▸ Signatures to sign here.	
+#	Tint Strength	
+#	to	
+#	To change locked fields, also set Locked to No.	
+#	To print this large file, load all of it first with Load to edit.	
+#	to {n}	
+#	Today: {date}	
+#	Toggle fit page / fit width	
+#	Token  ·  	
+#	Token PIN	
+#	Tokens and smart cards sign through a PKCS #11 module. Only add modules you trust: a module runs its own code.	
+#	Too early	
+#	Too many copies: increase the spacing or the size.	
+#	Too many spot inks to separate: {names}	
+#	Too many windows are open	
+#	Too many windows for this document	
+#	Took too long to read	
+#	Toolbar size	
+#	Tools panel side	
+#	Tools shown in All tools	
+#	Tooltip	
+#	Tooltip:	
+#	Top left	
+#	Top right	
+#	Top-left	
+#	Top-level bookmarks ({n})	
+#	Total area coverage	
+#	Touch and pen	
+#	TR must be a child of Table, THead, TBody, or TFoot	
+#	Transfer format: {format}.	
+#	Transform image	
+#	Translate with AI	
+#	Translating…	
+#	Trapped is {}, but it must be /True or /False	
+#	Trapped key	
+	Trim marks	Ознаке за обрезивање
+#	Trim the picture with its handles; Enter or Done applies	
+	Truncated	скраћено
+#	Trust	
+#	Trust selected ({n})	
+#	Try again	
+#	Try the form as people filling it in will see it	
+#calendar weekday	Tu	
+#	Turn JPEG XL images back into the JPEGs they were made from	
+#	Turn off continuous scrolling	
+#	Turn on continuous scrolling	
+#	Turn upside down (180°)	
+#	Turned left	
+#	Turned off because your administrator's policy couldn't be read.	
+#	Turned off by your administrator.	
+#	Turns pages scanned sideways or upside down upright before reading	
+#	two cells would both be named {name}	
+#	Two-page view	
+#	Two-sided:	
+#	Two-Up (Cover Page)	
+#	Two-Up (Facing)	
+#	Two-Up Continuous (Cover Page)	
+#	Two-Up Continuous (Facing)	
+#signature pad	Type	
+#	Type 3 font glyphs	
+#	Type a password.	
+#	Type Password	
+	Type text	Унеси текст
+#	Type the web address.	
+#	Type your {what}.	
+#	Uncertain orientations are left unchanged. Deskew fits the full image inside the page.	
+#	Unchecked	
+#	Unchecked reads	
+#	Underline text	
+#	Undid {label}	
+#	Undo ({key})	
+#	Undo last point	
+#	Undo the last review change (Ctrl+Z)	
+#	Ungroup artwork	
+#	Unit	
+#	Unit before value	
+#	Unit display format	
+#	Unit prefix	
+#	Unit suffix	
+#	Unit:	
+#	Units and guides	
+#	Units per model unit	
+#	Units run from largest to smallest. Later factors convert the remainder.	
+#	Unknown author	
+#	unknown signer	
+#	Unlock comment	
+#	Unlock {name}	
+#	Unlock {n} files	
+#	Unlocked {n} of {m} files	
+#	Unlocked: the combined file won't be password-protected	
+	Unlock…	Откључај…
+#	Unpin	
+#	Unpin from Home	
+#	Unpin tool	
+#	Unpin {folder}	
+#	Unpinned {tool} from Home	
+#	Unplaced	
+#	unreviewed	
+#	Unsaved changes to this document are saved in the new file too.	
+#	Unsigned signature field	
+#	Unsigned signature field: {name}	
+#	Unspecified	
+#	Unsupported measurements	
+#	Untagged content	
+#	Update background	
+#	Update background…	
+#	Update header & footer	
+#	Update header & footer…	
+#	Update measurement	
+#	Update watermark	
+#	Update watermark…	
+#	Updating 3D view…	
+#	Upside down	
+#	URL to submit to	
+#	US Letter	
+	US survey feet	Америчке геодетске стопе
+#	USB	
+#	Use 72 DPI (one point per pixel)	
+#	Use a certificate	
+#	Use a cloud certificate (ICP-Brasil: BirdID, VIDaaS, NeoID, SafeID…)	
+#	Use a Digital ID from a device (smart card, USB token or cloud certificate)	
+#	Use a Digital ID from a file	
+#	Use a signature creation device (PKCS #11 module: smart card, token, CloudSigner for mSzafir)	
+#	Use a smart card or token	
+#	Use basic detection	
+#	Use Column Order	
+#	Use Current Properties as New Defaults	
+#	Use custom DPI	
+#	Use default font	
+#	Use Document Structure	
+#	Use each image's embedded DPI; use 72 DPI when it is absent.	
+#	Use Flate to encode streams that are not encoded	
+#	Use guided actions	
+#	Use image resolution	
+#	Use it when a printer skips text, shading or transparency. The print is no longer searchable text; with Print in grayscale, the pictures are grey.	
+#	Use JavaScript	
+#	Use now	
+#	Use overlay text	
+#	Use print production	
+#	Use projected coordinate matrix	
+#	Use Row Order	
+#	Use system title bar	
+#	Use the chosen engine's reading alone	
+#	Use the default	
+#	Use the default look	
+#	Use this size for saved initials	
+#	Use this size for saved signature	
+#	Use WKT definition	
+#	Use your system software manager to update PdfCraft.	
+#	Use {what}	
+#	Used when a PDF doesn't ask for a layout or zoom. Continuous scrolling never snaps between pages.	
+#	Used when opening PDFs. An explicit launch or control mode takes precedence for the session.	
+#	User Interface Options	
+#	User password	
+#	Valid	
+#	Valid for 5 years, for digital signatures. Self-signed IDs are usually not trusted by others.	
+#	Valid from	
+#certificate	Valid from	
+#	Valid from {from} to {to}	
+#	Valid to	
+#certificate	Valid to	
+#	Validate	
+#	Validate all	
+#	Validate all signatures	
+#	Validate structure	
+#	Validate structure…	
+#	validated: invalid	
+#	validated: valid	
+#	validated: validity unknown	
+#	Validity ends	
+#certificate	Validity ends	
+#	Validity starts	
+#certificate	Validity starts	
+#	Validity unknown	
+#	Value is not calculated	
+#	Value is the	
+#	Verified	
+#	verified	
+#	VERIFIED %	
+#	Verifies the file against the standard, without changing it	
+#	Verify	
+#	Verify PDF/UA	
+#	Verify PDF/X	
+#	Verify to see what the document needs.	
+#certificate	Version	
+#	Version {v}	
+#	Vertex	
+#	Vertex snapping	
+#	Vertical coordinates	
+#	Vertical layout	
+#	Vertical resolution	
+#	Vertical reversed	
+#	Vertical text cannot be moved with this selection.	
+#	Vertical to horizontal conversion	
+#	Vertices	
+#	Video, sound and rich media must be tagged to be announced. Tag the multimedia annotations.	
+#	View less	
+#	View more	
+#	View release page…	
+#	View revision {n}	
+#	View signed version	
+#	View ▸ Grid ({grid}) draws a grid over the pages; View ▸ Snap to grid ({snap}) makes a dragged guide snap to it.	
+#	View ▸ Guides ({guides}) hides and shows them; View ▸ Clear guides removes this document's guides. Guides are never saved in the PDF.	
+#	View ▸ Rulers ({rulers}) shows a ruler above and beside the pages. Click the corner between them to step to the next unit, or right-click a ruler to choose one.	
+#	Viewport rectangle in page points (x, y, width, height)	
+#	Viewport width and height must be positive.	
+#	Visible Rectangle	
+#	Visual	
+#	Visual initials (Fill & Sign, not digital)	
+#	Visual signature (Fill & Sign, not digital)	
+#	Voice and Speech	
+	Voice:	Глас:
+	Volume:	Том:
+#	Wait for text recognition to finish before changing add-ons	
+#	Wait for the scanner to finish, or close any other program using it, then choose Continue.	
+#	Wait for the scanner to finish, or close any other program using it, then choose Try again.	
+#	Waiting for the system print dialog…	
+#	Waiting for your approval in the browser…	
+#	Waiting in the printer's queue	
+#	Warm Sepia	
+	watermark	Водени жиг
+#calendar weekday	We	
+#	Weak	
+#	Welcome to PdfCraft	
+#	What must go, and what the document is	
+#	What takes up the space in this file, by kind of content.	
+#	What word or phrase would you like to search for?	
+#	What you want to end up with (order, extract, split, combine)	
+#	Where the file is going and what matters (size, quality, compatibility)	
+#	White on black	
+#	Whole words only	
+document scrollbar width	Wide	Широко
+#	Widen the page to make room	
+#	Width between lines	
+#	Will use the bed.	
+#	Will use the feeder.	
+#	Window Options	
+#	Windows store  ·	
+#	Windows store  ·  	
+#	With the control channel on, ui.state lists every guide (in the set format, and where it lies on screen) and the sets with their files and errors. ui.set document-guides <set as JSON or TOML> replaces the document's guides, guide-set <name>:on|off|toggle shows a set, guide-set-file <set> saves one, and guides, grid and snap-to-grid take on or off.	
+#	WKT definition	
+#	Word	
+	Word count	Број речи
+#	Word counting stopped unexpectedly.	
+	Word count…	Број речи…
+#	Word, PowerPoint and Excel (converted to PDF)	
+#	Words or phrases to redact	
+#	Work, Personal, a name…	
+#	Workspace modes	
+#	Write this email?	
+#	Writes a new document of visible text; the scan is not changed	
+#	Wrong password	
+#	Wrote 1 file to {dir}	
+#	Wrote {name}	
+#	Wrote {n} files to {dir}	
+#	X Object Forms	
+#	XFA form: its fields and its XFA data are kept in step, so other viewers show what you fill in.	
+#	XML source	
+#	XMP metadata	
+#	Yellow on black	
+#	You are about to apply 1 redaction mark. Text, images and drawings under the marks, and comments and form fields that overlap them, are removed permanently.	
+#	You are about to apply {n} redaction marks. Text, images and drawings under the marks, and comments and form fields that overlap them, are removed permanently.	
+#	You are viewing revision {rev} of “{from}”. It is a snapshot: changes here won't affect the original.	
+#	You are viewing the signed version of “{from}” (revision {rev}). It is a snapshot: changes here won't affect the original.	
+#	You can keep up to {n} sets of initials. Remove one to add another.	
+#	You can keep up to {n} signatures. Remove one to add another.	
+#	You can pin up to {n} folders. Unpin one first.	
+#	You choose where the new version is saved. Continue?	
+#	You have version {c}. All releases are listed at {page}.	
+#	You have version {c}. Download the new version from its release page.	
+#	Your default email app can't take a file from PdfCraft.	
+#	Your email app couldn't log on to your mailbox.	
+#	Your email app didn't open a message in time.	
+#	Your email app didn't open a message. It said: {why}.	
+#	Your name	
+#	yyyy or yy year · m or mm month · mmm or mmmm month name · d or dd day · ddd or dddd weekday. H, h, M, s and t are time letters and can't be used on their own: put {escape} before a letter to show it as is.	
+#	Zero-width lines always count as narrower.	
+#	Zip Code	
+#	Zip Code + 4	
+#	Zoom (Z)	
+#	Zoom in ({key})	
+#	Zoom in (⌘+)	
+#	Zoom in / out (also pinch or {key}-scroll)	
+#	Zoom in / out (also pinch or ⌘-scroll)	
+#	Zoom out ({key})	
+#	Zoom out (⌘−)	
+#	Zoom to page level	
+#	Zoom — type a percentage and press Enter	
+#	{0}: {1}	
+#	{batch} — 1 field renamed	
+#	{batch} — fields renamed	
+#	{chars} can't be written into the PDF yet: Fill & Sign text is Western European only. Pick a numeric format such as dd.mm.yyyy.	
+#	{chars} can't be written into the PDF yet: Fill & Sign text is Western European or Korean only. Pick a numeric format such as dd.mm.yyyy.	
+#	{c} of {n}{more}	
+#	{dpi} pixels/inch	
+#@plural	{fields} builds some field names as it runs, so those reads aren't checked.|{fields} build some field names as they run, so those reads aren't checked.	
+#@plural	{fields} is missing from the order saved in the PDF, so other PDF viewers may not calculate it.|{fields} are missing from the order saved in the PDF, so other PDF viewers may not calculate them.	
+#@plural	{fields} is missing|{fields} are missing	
+#	{fields} read each other	
+#@plural	{fields} reads it|{fields} read it	
+#@plural	{field} calculates before {fields}, which it reads.|{field} calculates before {fields}, which it reads.	
+#	{field} reads fields named as it runs	
+#	{field} reads its own value	
+#	{field} reads no other field	
+#	{field} reads {fields}	
+#@plural	{field} reads {fields}, which the form doesn't have.|{field} reads {fields}, which the form doesn't have.	
+#	{field}: {e}	
+#	{file} is too large for a stamp (at most {n} MB)	
+#	{file}: there is no such file.	
+#	{first} … {last} shows and hides the set with that shortcut. Set files can be edited in any text editor and shared with others; click Reload after changing them.	
+#	{folder} is already pinned to Home	
+#	{font}, {size} pt	
+#	{key} in {type} breaks the rule {rule}	
+#	{key} in {type} is a {found}, which is from PDF {since}, later than the file's PDF {version}	
+#	{key} in {type} is deprecated since PDF {since}	
+#	{key} in {type} is from PDF {since}, later than the file's PDF {version}	
+#	{key} in {type} is {found}, but must be {expected}	
+#	{key} in {type} is {value}, which breaks the rule {rule}	
+#	{key} in {type} is {value}, which is not one of {allowed}	
+#	{key} in {type} matches none of the types it may have ({candidates})	
+#	{key} in {type} must be a direct object, not a reference	
+#	{key} in {type} must be an indirect reference	
+#	{key} in {type} must be {expected} when {rule}	
+#	{key} in {type} refers to object {object}, which doesn't exist	
+#	{key} is already used by “{other}”.	
+#	{key} is not an entry of {type} in the model	
+#	{key} was taken from “{other}”, which now has no shortcut.	
+#	{kind} field	
+#	{kind} Properties	
+#	{kind} · page {p}	
+#	{kind} — click to show it on the page	
+#	{k} of {n}	
+#	{k} skipped: {why}	
+#	{label} (1 issue)	
+#	{label} ({n} issues)	
+#	{label} failed: {e}	
+#	{mib} MiB ({bytes} bytes)	
+#	{month} {day}, {y}	
+#	{month} {y}	
+#	{msg} to {dir}	
+#	{names} and {last}	
+#	{names} certifies this document without allowing comments, and will report this change.	
+#	{names} certifies this document, and removing a signature is not a change its certification permits.	
+#	{name} (default)	
+#	{name} (you)	
+#	{name} can't be combined: {why}	
+#	{name} has no action	
+#	{name} is read-only	
+#	{name} is too large for a word list (at most 1 MB).	
+#	{name} submits the form to {url}; PdfCraft doesn't send form data. Save the document to keep your entries.	
+#	{name} — unsaved changes	
+#	{name}, {date} and {time} become your name, the date and the time.	
+#	{name}: choosing images arrives on the web with file pickers for images	
+#	{name}: the {other} action isn't supported yet	
+#	{name}: {n} low-confidence word(s) on pages {pages}	
+#	{name}_unsigned.pdf	
+#@plural	{n} calculation now uses the new name.|{n} calculations now use the new name.	
+#@plural	{n} comment|{n} comments	
+#	{n} contributors · {c} commits	
+#	{n} days ago	
+#	{n} differences found	
+#@plural	{n} field name collides with earlier files and will be renamed: {list}|{n} field names collide with earlier files and will be renamed: {list}	
+#@plural	{n} field shows an old value|{n} fields show old values	
+#	{n} fields selected	
+#@plural	{n} field|{n} fields	
+#	{n} files done	
+#	{n} files need attention	
+#@plural	{n} file|{n} files	
+#@plural	{n} formula reads a field the form doesn't have|{n} formulas read fields the form doesn't have	
+#@plural	{n} image optimized|{n} images optimized	
+#@plural	{n} image was left as it was (page {p}: {why}).|{n} images were left as they were (page {p}: {why}, …).	
+#	{n} instances	
+#	{n} issues	
+#@plural	{n} item discarded|{n} items discarded	
+#	{n} marks	
+#	{n} match(es) marked for redaction.	
+#	{n} measurements use an unsupported format and are left out.	
+#@plural	{n} more field calculates too early.|{n} more fields calculate too early.	
+#@plural	{n} more formula reads a missing field.|{n} more formulas read missing fields.	
+#@plural	{n} object selected|{n} objects selected	
+#	{n} of {m} pages were scanned.	
+#@plural	{n} page is not a scan.|{n} pages are not scans.	
+#	{n} pages	
+#	{n} pages and no bookmarks	
+#	{n} pages could not be searched; results are incomplete.	
+#	{n} pages hold more content than PdfCraft can read, page {page} first: parts of them aren't drawn, and only part of their text can be found or copied.	
+#	{n} pages scanned	
+#	{n} pages selected	
+#	{n} pages selected.	
+#	{n} pages were scanned.	
+#@plural	{n} page|{n} pages	
+#@plural	{n} reply|{n} replies	
+#@plural	{n} result|{n} results	
+#	{n} selected	
+#	{n} tags	
+#	{n} word(s) or phrase(s)	
+#	{n} word(s) to review	
+#	{n} {kind}	
+#	{page} is not a page number or label	
+#	{program} can't take a file from PdfCraft.	
+#	{rule} - {status}	
+#	{signers} signers; details of the first are shown	
+#	{s} action	
+#	{s} actions run in the JavaScript engine (M6)	
+#	{type} has {count} elements, but they come in sets of {n}	
+#	{type} has {count} elements, more than the {max} it allows	
+#	{type} lacks the required entry {key}	
+#	{ty} element on page {p}: {what}	
+#	{ty} element: {what}	
+#	{verb} as "{name}"	
+#	{verb} Background	
+#	{verb} Header and Footer	
+#	{verb} Watermark	
+#	{what}. Saved {file}, checked to reopen with every page. {history}	
+#	{who} in this document tried to open an address PdfCraft won't open: {e}.	
+#	{who} in this document tried to open an address PdfCraft won't open: {e}. Only web (http, https) and email (mailto) links open from documents.	
+#	{who} in this document wants to open this address in your browser:	
+#	{who} in this document wants to open your email app with this address:	
+#	{who}, certificate issued by an unknown issuer.	
+#	{who}, certificate issued by {issuer}.	
+#	{why} ({n})	
+#	{words} on {pages}	
+#	{w} × {h} in, {pxw} × {pxh} pixels, {size}	
+#	{} annotation on page {p} has no description (Contents), and its tag no alternate text	
+#	{} annotation on page {p} is in a {ty} tag, not {want}	
+#	{} annotation on page {p} isn't tagged	
+#	{} annotation on page {p}: its description has no language (Lang)	
+#	{} annotations aren't allowed	
+#	{} colour can't be converted to CMYK yet	
+#	{} colour doesn't match the output intent's colour space	
+#	{} compliance	
+#	{} needs the printing condition's ICC profile embedded for RGB or device-independent colour: choose a profile file	
+#	· not fixable here	
+#	· password-protected	
+	ΔLOC	ΔLOC
+#	— (protection is applied when you save)	
+#	“{name}” changed on disk after it was opened or last saved. Saving now replaces that newer version with this one.	
+#	“{name}” has security restrictions. Enter its permissions password to lift them.	
+#	“{name}” is encrypted for specific people. Choose your digital ID and enter its password to open it.	
+#	“{name}” is protected. Enter a password to open it.	
+#	… and {n} more	
+#	… and {} more on this page	
+#	…or paste the raw text here; # headings, - bullets	
+#	− Page {p}	
+	−LOC	−LOC

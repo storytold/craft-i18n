@@ -1,0 +1,881 @@
+# Српски (sr) interface catalog for TextureCraft.
+# Columns, separated by a TAB:  context <TAB> English source text <TAB> translation
+#   context  usually empty. `@plural`, `@id` and `@msg` mean something to the apps; any other
+#            word is a label that tells apart two meanings of the same English.
+#   escapes  \n  \t  \\  inside a column. `{name}` placeholders must appear in both columns (in any
+#            order), and a trailing "…" in one needs one in the other.
+#   @plural  English `one|other`; the translation lists this language's plural forms, `|`-separated.
+#   Lines starting with # and blank lines are ignored. A missing entry shows in English.
+#
+# Clean room: every entry was written from the plain meaning of the English text in ordinary
+# computing vocabulary. No other product's localisation, string table or translated UI was
+# consulted or copied; add entries the same way.
+
+	"{layer}" can't be filled: select a paint layer or a layer's mask	Није могуће попунити „{layer}“: изаберите слој за сликање или маску слоја
+	"{layer}" has no paint yet: the filter changes what you paint on it.	На слоју „{layer}“ још нема боје: филтер мења оно што на њему насликате.
+	0 turns autosave off. Copies go to {folder}	0 искључује аутоматско чување. Копије се смештају у {folder}
+	1 effect	1 ефекат
+	2D view only	Само 2D приказ
+	32 bits (float)	32 бита (покретни зарез)
+	3D mesh	3D мрежа
+	3D meshes	3D мреже
+	3D texture painting: layers, masks, smart materials, mesh map baking and export.	Сликање 3D текстура: слојеви, маске, паметни материјали, израчунавање мапа мреже и извоз.
+	3D view only	Само 3D приказ
+	3D/2D views	3D/2D прикази
+	A click fills what is under it; a dragged rectangle fills what it selects as it grows	Клик попуњава оно што је испод њега; превучени правоугаоник попуњава оно што бира док расте
+	A folder blends its children (pass-through). Set per-channel opacity in the layer rows.	Фасцикла меша своје подслојеве (пропуштање). Непрозирност по каналу подесите у редовима слојева.
+	a missing layer	слој који недостаје
+	About TextureCraft	О програму TextureCraft
+	About TextureCraft...	О програму TextureCraft...
+	Accent color	Боја истицања
+	ACES filmic	Филмски ACES
+	Add an anchor point to a layer below to use its stack as a mask.	Додајте сидришну тачку слоју испод да користите његов низ слојева као маску.
+	Add anchor point	Додај сидришну тачку
+	Add as decal (view center)	Додај као налепницу (центар приказа)
+	Add black mask	Додај црну маску
+	Add channel	Додај канал
+	Add color	Додај боју
+	Add compare mask	Додај маску поређења
+	Add effect	Додај ефекат
+	Add fill	Додај испуну
+	Add fill layer	Додај слој испуне
+	Add filter	Додај филтер
+	Add folder	Додај фасциклу
+	Add generator	Додај генератор
+	Add High-Poly Meshes	Додај високополигонске мреже
+	Add levels	Додај нивое
+	Add mask	Додај маску
+	Add mask with color selection	Додај маску избором боје
+	Add output	Додај излаз
+	Add paint	Додај сликање
+	Add paint layer	Додај слој за сликање
+	Add smart material from the shelf	Додај паметни материјал са полице
+	Add to the layer content	Додај у садржај слоја
+	Add to the mask	Додај у маску
+	Add white mask	Додај белу маску
+	Add...	Додај...
+	Advanced settings	Напредна подешавања
+	Aligned: the offset set by the first stroke is kept. V + click sets a new source.	Поравнато: задржава се померај првог потеза. V + клик поставља нови извор.
+	Alignment and culling	Поравнање и изостављање невидљивих страна
+	All layers	Сви слојеви
+	Alphas	Алфа маске
+	Also bound to {item} ({menu})	Такође додељено ставци {item} ({menu})
+	Alt + LMB drag	Alt + превлачење левим тастером миша
+	Amber	Ћилибарска
+	Ambient	Амбијентално
+	Ambient Occlusion	Амбијентална оклузија
+	Ambient occlusion	Амбијентална оклузија
+	Anchor point	Сидришна тачка
+	Anchor: {name}	Сидриште: {name}
+	Anchor: {name} ({channel})	Сидриште: {name} ({channel})
+	Angle (degrees)	Угао (степени)
+	Angle fade from	Почетак слабљења по углу
+	Angle fade to	Крај слабљења по углу
+	Angle jitter	Колебање угла
+	Angle span	Распон угла
+	aniso	анизо
+	aniso angle	анизо угао
+	Anisotropy angle	Угао анизотропије
+	Anisotropy level	Ниво анизотропије
+	Antialiasing	Ублажавање назубљености
+	ao	АО
+	AO intensity	Интензитет АО
+	Aperture	Отвор бленде
+	Apply Diffusion	Примени дифузију
+	ArtCraft website...	Веб-сајт ArtCraft-а...
+	Assets	Ресурси
+	Attenuation	Слабљење
+	Auto Tonemapping	Аутоматско мапирање тонова
+	Automatic (from the mesh UVs)	Аутоматски (из UV координата мреже)
+	Autosave every	Аутоматско чување на сваких
+	Autosaves, smart materials, presets, templates and UI layouts go to the data folder. A new folder applies on restart; files already saved stay where they are.	Аутоматске копије, паметни материјали, подешавања, шаблони и распореди интерфејса смештају се у фасциклу података. Нова фасцикла важи после поновног покретања; сачуване датотеке остају где јесу.
+	Average Normals	Усредњи нормале
+	Axis	Оса
+	Axis position	Положај осе
+	Back to painting	Назад на сликање
+	Backface culling	Изостављање задњих страна
+	Bake an ID map (F8) to pick colors from the mesh.	Израчунајте ID мапу (F8) да бирате боје са мреже.
+	Bake Mesh Maps	Израчунај мапе мреже
+	Bake mesh maps	Израчунај мапе мреже
+	Bake mesh maps (F8) for curvature, AO and thickness based generators.	Израчунајте мапе мреже (F8) за генераторе засноване на закривљености, АО и дебљини.
+	Bake Selected Textures ({n})	Израчунај изабране текстуре ({n})
+	Baked Lighting	Израчунато осветљење
+	Baked maps imported: {count}	Увезено израчунатих мапа: {count}
+	Baking	Израчунавање мапа
+	Baking Visualization	Приказ израчунавања мапа
+	Baking {map} ({n}/{total})	Израчунавање мапе {map} ({n}/{total})
+	Baking {map} ({n}/{total}), texture set {set} of {sets}	Израчунавање мапе {map} ({n}/{total}), скуп текстура {set} од {sets}
+	Base color	Основна боја
+	Base color is the diffuse color, Specular the F0 color and Glossiness 1 - roughness (add these channels in the texture set settings).	Основна боја је дифузна боја, рефлексија је боја F0, а сјајност је 1 − храпавост (додајте ове канале у подешавањима скупа текстура).
+	Base color, Metallic, Roughness and Specular level.	Основна боја, металичност, храпавост и ниво рефлексије.
+	Based on each texture set's size	Према величини сваког скупа текстура
+	Basic settings	Основна подешавања
+	BBox	Гранични оквир
+	Bent Normals	Закривљене нормале
+	Bevel	Закошено
+	Blending	Стапање
+	Blending mode of the displayed channel	Режим мешања приказаног канала
+	Blur and sharpen	Замути и изоштри
+	Blur Directional	Усмерено замућење
+	Bounces	Одбијања
+	Bricks	Цигле
+	Brush	Четкица
+	Brush name	Име четкице
+	Brush size	Величина четкице
+	Brush size down / up	Смањи / повећај четкицу
+	Brushed lines	Четкане линије
+	BSphere	Гранична сфера
+	Built-in (read-only): duplicate it to edit	Уграђено (само за читање): удвостручите да бисте уређивали
+	Built-in templates are read-only: duplicate one to edit it	Уграђени шаблони су само за читање: удвостручите шаблон да га уредите
+	Built-in: {mesh}	Уграђено: {mesh}
+	By Mesh Name	Према називу мреже
+	Cage	Кавез
+	Cage Scene	Сцена кавеза
+	Cage Type	Врста кавеза
+	Cage: {name}	Кавез: {name}
+	Camera	Камера
+	Camera settings	Подешавања камере
+	Cancel the stroke	Откажи потез
+	Cavities	Удубљења
+	Cell size (texels at 2K)	Величина ћелије (тексели при 2K)
+	Cells	Ћелије
+	Channel source: uniform value, procedural, image or anchor	Извор канала: јединствена вредност, процедура, слика или сидриште
+	Check All	Означи све
+	Check for Updates...	Провери ажурирања...
+	Checker	Шаховски узорак
+	Clamp	Ограничи
+	Clear mask	Очисти маску
+	Clear recent projects	Очисти недавне пројекте
+	Click a mesh part to show or hide the selected layer on it.	Кликните на део мреже да прикажете или сакријете изабрани слој на њему.
+	Click the mesh to pick its material into the brush	Кликните на мрежу да преузмете њен материјал у четкицу
+	Click the mesh to place the decal	Кликните на мрежу да поставите налепницу
+	Click, then press the new shortcut (Esc cancels)	Кликните, па притисните нову пречицу (Esc отказује)
+	Click: turn this channel on or off. Alt+click: this channel only	Клик: укључи или искључи овај канал. Alt+клик: само овај канал
+	Closed path	Затворена путања
+	Cloud	Облак
+	Clouds	Облаци
+	coat	премаз
+	Coat normal	Нормала премаза
+	coat nrm	норм. премаза
+	coat rough	храп. премаза
+	Coat roughness	Храпавост премаза
+	Coat weight	Удео премаза
+	color	боја
+	Color burn	Затамњивање бојом
+	Color dodge	Посветљивање бојом
+	Color Generator	Генератор боје
+	Color of the light that travels under the surface (each channel goes as far as its value)	Боја светлости која путује испод површине (сваки канал досеже онолико колика му је вредност)
+	Color picker	Бирач боја
+	Color selection	Избор боје
+	Color Source	Извор боје
+	Color space	Простор боја
+	Color to replace	Боја за замену
+	Colors near the first shift towards the second, keeping their shading.	Боје блиске првој померају се ка другој, задржавајући сенчење.
+	Colors read as gray. Add a levels or blur effect above to shape the result.	Боје се читају као сиве. Додајте ефекат нивоа или замућења изнад да обликујете резултат.
+	Combine with the layer's height	Комбинуј са висином слоја
+	Common Parameters	Заједнички параметри
+	Common Settings	Заједничка подешавања
+	Compare mask	Маска поређења
+	Compositing	Компоновање
+	Constant	Константно
+	Constants	Константе
+	Contained center: fill polygons whose center is in the rectangle	Обухваћен центар: попуни полигоне чији је центар у правоугаонику
+	Content effects	Ефекти садржаја
+	Continue with the sample project	Настави са примером пројекта
+	Contrast/Luminosity	Контраст/луминозност
+	Converted maps	Претворене мапе
+	Cooked at {size} px	Обрађено при {size} px
+	Copper	Бакар
+	Copy effect	Копирај ефекат
+	Copy from	Копирај из
+	Copy layer(s)	Копирај слојеве
+	Copy RGB values	Копирај RGB вредности
+	Copy the selected layer alone (its empty parts copy nothing)	Копирај само изабрани слој (његови празни делови не копирају ништа)
+	Copy to all texture sets	Копирај у све скупове текстура
+	Copy what the texture set shows	Копирај приказани садржај скупа текстура
+	Coral	Корална
+	Cores kept for the UI	Језгра резервисана за интерфејс
+	Cosine	Косинус
+	Couldn't encode the render	Није могуће кодирати исцртану слику
+	Couldn't export textures: {error}	Није могуће извести текстуре: {error}
+	Couldn't export the mesh: {error}	Није могуће извести мрежу: {error}
+	Couldn't export the template: {error}	Није могуће извести шаблон: {error}
+	Couldn't import {name}: {error}	Није могуће увести {name}: {error}
+	Couldn't open {name}: {error}	Отварање {name} није успело: {error}
+	Couldn't read the render back from the GPU	Није могуће прочитати исцртану слику са графичког процесора
+	Couldn't save the render: {error}	Није могуће сачувати исцртану слику: {error}
+	Couldn't save {name}: {error}	Није могуће сачувати {name}: {error}
+	Count	Број
+	Count per stamp	Број по отиску
+	Crate	Сандук
+	Create smart material	Направи паметни материјал
+	Ctrl+right-drag in a view sets the size and hardness, Ctrl+left-drag the flow and angle.	Ctrl+десно превлачење у приказу подешава величину и тврдоћу, Ctrl+лево превлачење проток и угао.
+	Cube	Коцка
+	Current layer	Тренутни слој
+	Custom File	Прилагођена датотека
+	Cut effect	Исеци ефекат
+	Cut layer(s)	Исеци слојеве
+	Cyan / red	Цијан / црвена
+	Cylinder	Ваљак
+	Cylindrical projection	Цилиндрична пројекција
+	Dark to light: the content's luminance picks a color along these stops.	Од тамног ка светлом: луминанса садржаја бира боју дуж ових тачака прелива.
+	Darken (Min)	Затамни (мин.)
+	Data folder	Фасцикла података
+	Decal	Налепница
+	Decal projection	Пројекција налепнице
+	Default camera	Подразумевана камера
+	Delete the selected template	Обриши изабрани шаблон
+	Delete this camera	Обриши ову камеру
+	Deleted template "{name}"	Обрисан је шаблон „{name}“
+	Denoise	Уклони шум
+	Depth of field	Дубинска оштрина
+	Depth of field (viewport and Rendering mode)	Дубинска оштрина (приказ и режим исцртавања)
+	Depth of the sharp plane along the view (0: the orbit center)	Дубина равни оштрине дуж правца погледа (0: центар орбите)
+	Detail sizes	Величине детаља
+	Details saved to {file}	Детаљи су сачувани у {file}
+	Dilation + default background color	Проширење + подразумевана боја позадине
+	Dilation + transparent	Проширење + провидно
+	Dilation infinite	Неограничено проширење
+	Dilation Width	Ширина проширења
+	DirectX normal map	DirectX мапа нормала
+	Dirt	Прљавштина
+	Disable	Онемогући
+	Displacement (height channel)	Померање површине (канал висине)
+	Display material	Прикажи материјал
+	Display next channel	Прикажи следећи канал
+	Display next mesh map	Прикажи следећу мапу мреже
+	Display previous channel	Прикажи претходни канал
+	Display previous mesh map	Прикажи претходну мапу мреже
+	Display Settings	Подешавања приказа
+	Distance-Based	На основу удаљености
+	Distribution	Расподела
+	Document resolution	Резолуција документа
+	Documentation...	Документација...
+	Don't save	Не чувај
+	Done on CPU: {n} / {max} samples, {s} s	Завршено на процесору: {n} / {max} узорака, {s} с
+	Done on GPU: {n} / {max} samples, {s} s	Завршено на графичком процесору: {n} / {max} узорака, {s} с
+	Double-click or press Enter to edit	Двапут кликните или притисните Enter за уређивање
+	Double-click to rename	Двапут кликните за преименовање
+	Download as	Преузми као
+	Downloaded {name}	Преузето: {name}
+	Drag onto an output channel	Превуците на излазни канал
+	Drag the frame to move the decal, a corner to scale it, the round handle to turn it	Превуците оквир да померите налепницу, угао да јој промените величину, кружну ручицу да је ротирате
+	Drags the layer stack's values along the stroke into the selected layer.	Превлачи вредности низа слојева дуж потеза у изабрани слој.
+	Draws {name} of texture set "{set}". Edits to the source show in every instance.	Исцртава {name} скупа текстура „{set}“. Измене извора приказују се у свакој инстанци.
+	Drop an image from the Assets panel here to use it as this mesh map	Превуците овде слику из панела ресурса да је користите као ову мапу мреже
+	Dry streaks	Суве пруге
+	Duplicate effect	Удвостручи ефекат
+	Duplicate layer(s)	Удвостручи слојеве
+	Duplicate the selected template	Удвостручи изабрани шаблон
+	Edge Contrast	Контраст ивица
+	Edge Detect	Препознавање ивица
+	Edge Distance	Удаљеност од ивице
+	Edge Protection	Заштита ивица
+	Edges	Ивице
+	Edges and cavities	Ивице и удубљења
+	Edit keyboard shortcuts...	Уреди пречице на тастатури...
+	Edit quick mask	Уреди брзу маску
+	Editing quick mask: paint where painting is allowed (U to finish)	Уређивање брзе маске: сликајте где је сликање дозвољено (U за завршетак)
+	Editing the quick mask: fills paint where painting is allowed. Press U to finish.	Уређивање брзе маске: испуне сликају где је сликање дозвољено. Притисните U за завршетак.
+	Editing the quick mask: strokes paint where painting is allowed. Press U to finish.	Уређивање брзе маске: потези сликају где је сликање дозвољено. Притисните U за завршетак.
+	emiss	емисија
+	Emissive	Емисија светлости
+	Enable or disable the effect	Укључи или искључи ефекат
+	Enable quick mask	Укључи брзу маску
+	Enable Seams	Укључи шавове
+	Enter a finite number	Унесите коначан број
+	Environment blur	Замућење окружења
+	Environment exposure (EV)	Експозиција окружења (EV)
+	Environment map	Мапа окружења
+	Environment opacity	Непрозирност окружења
+	Environment rotation	Ротација окружења
+	Environment settings	Подешавања окружења
+	Environment: {name}	Окружење: {name}
+	Environments	Окружења
+	Expand or collapse the folder	Прошири или скупи фасциклу
+	Export mesh	Извези мрежу
+	Export Mesh...	Извези мрежу...
+	Export template	Извези шаблон
+	Export templates	Извези шаблоне
+	Export textures	Извези текстуре
+	Export Textures...	Извези текстуре...
+	Export the selected template (.json)	Извези изабрани шаблон (.json)
+	Exported mesh to {path}	Мрежа је извезена у {path}
+	Exported template "{name}" to {path}	Шаблон „{name}“ је извезен у {path}
+	Exported {n} textures to {folder}	Извезено текстура у {folder}: {n}
+	F0 from specular level	F0 из нивоа рефлексије
+	Fabric weave	Ткање тканине
+	Face Normals Based	На основу нормала страна
+	Field of view (deg)	Видно поље (степени)
+	File ID	ID датотеке
+	File name without extension; variables insert names	Назив датотеке без наставка; променљиве умећу називе
+	File type	Врста датотеке
+	Fill layer	Слој испуне
+	Fill mode	Режим испуне
+	Fill only polygons the camera sees (3D view)	Попуни само полигоне видљиве камери (3D приказ)
+	Fill the closed path (lasso)	Попуни затворену путању (ласо)
+	Fill the path (close it first)	Попуни путању (прво је затворите)
+	Filter the remaining noise while keeping edges and texture detail	Филтрирај преостали шум уз очување ивица и детаља текстуре
+	Filters	Филтери
+	Fine noise	Ситан шум
+	Fingerprints	Отисци прстију
+	Fit the input range to the histogram	Уклопи улазни опсег у хистограм
+	Flatten layer	Споји слој
+	Flips the image's green channel, for normal maps made with Y pointing down	Обрће зелени канал слике, за мапе нормала код којих Y показује надоле
+	Flow	Проток
+	Flow and opacity	Проток и непрозирност
+	Flow jitter	Колебање протока
+	Focus distance	Удаљеност фокуса
+	Focus: show only the active texture set	Фокус: прикажи само активни скуп текстура
+	Fold or unfold these effects	Скупи или прошири ове ефекте
+	Folders	Фасцикле
+	Follow Newest Map	Прати најновију мапу
+	Follow path	Прати путању
+	For the whole project: how normal map images set as mesh maps are read (set them again after a change), and the default for export	За цео пројекат: како се читају слике нормала постављене као мапе мреже (поставите их поново после измене), као и подразумевано подешавање извоза
+	Free and open source (MIT OR Apache-2.0), written in Rust.	Слободан софтвер отвореног кода (MIT OR Apache-2.0), написан у Rust-у.
+	From template	Из шаблона
+	From template / project	Из шаблона / пројекта
+	Full Scene	Цела сцена
+	General export parameters	Општи параметри извоза
+	General properties	Општа својства
+	Generate from Mesh	Генериши из мреже
+	Generate from Normal Map	Генериши из мапе нормала
+	Generator	Генератор
+	Geometry and UVs only	Само геометрија и UV координате
+	Geometry mask	Маска геометрије
+	GGX specular with height-correlated Smith visibility, Lambert diffuse, split-sum image-based lighting with spherical-harmonics irradiance and horizon fading.	GGX рефлексија са Смитовом видљивошћу корелисаном по висини, Ламбертово дифузно одбијање, осветљење засновано на слици методом раздвојеног збира са озраченошћу сферних хармоника и слабљењем ка хоризонту.
+	gloss	сјајност
+	Glossiness	Сјајност
+	Glossiness from roughness	Сјајност из храпавости
+	glTF binary with textures	Бинарни glTF са текстурама
+	Go to camera 1	Пређи на камеру 1
+	Go to camera 2	Пређи на камеру 2
+	Go to camera 3	Пређи на камеру 3
+	Go to camera 4	Пређи на камеру 4
+	Go to camera 5	Пређи на камеру 5
+	Go to camera 6	Пређи на камеру 6
+	Go to camera 7	Пређи на камеру 7
+	Go to camera 8	Пређи на камеру 8
+	Go to camera 9	Пређи на камеру 9
+	GPU error: {error}	Грешка графичког процесора: {error}
+	Gradient Map	Мапа градијента
+	Gravity	Гравитација
+	Gray + A	Сива + A
+	Gray 50%	Сива 50%
+	Ground Plane	Раван тла
+	Ground Plane Offset	Померај равни тла
+	Group layer(s)	Групиши слојеве
+	Grunge	Истрошеност
+	Half	Половина
+	Hammered	Ковано
+	Hard light	Јако светло
+	Hardness	Тврдоћа
+	HDR environments	HDR окружења
+	height	висина
+	Height offset	Померај висине
+	Height to normal strength	Јачина претварања висине у нормале
+	Hide all	Сакриј све
+	Hide UI	Сакриј интерфејс
+	Hide while painting	Сакриј током сликања
+	High Definition Mesh (HP)	Мрежа високе детаљности (HP)
+	High Poly Mesh Suffix	Суфикс високополигонске мреже
+	High Poly Scene	Високополигонска сцена
+	High poly: {name}	Високополигонска: {name}
+	High-Poly Parameters	Високополигонски параметри
+	Histogram Range	Опсег хистограма
+	Histogram Scan	Скенирање хистограма
+	Histogram Shift	Померај хистограма
+	Hit-test	Провера поготка
+	Hold S: left-drag rotates, right-drag scales, middle-drag moves the stencil.	Држите S: лево превлачење ротира, десно мења величину, средње помера шаблон.
+	Hold V and click the mesh to set the clone source	Држите V и кликните на мрежу да поставите извор клонирања
+	Hold V and click the mesh to set the source, then paint elsewhere to copy it.	Држите V и кликните на мрежу да поставите извор, па сликајте другде да га копирате.
+	How a rectangle selects polygons	Како правоугаоник бира полигоне
+	How far light travels under the surface, as a fraction of the mesh size (where the Scattering weight channel is painted)	Колико далеко светлост путује испод површине, као део величине мреже (где је насликан канал удела расејавања)
+	How strongly transmissive surfaces bend light (where the Transmission channel is painted): water 1.33, glass 1.5, diamond 2.42	Колико јако пропусне површине преламају светлост (где је насликан канал пропуштања): вода 1,33, стакло 1,5, дијамант 2,42
+	HSL Perceptive	Перцептивни HSL
+	Hue shift (degrees)	Померај нијансе (степени)
+	ID	ID
+	Ignore Backface	Занемари задње стране
+	Ignore Backface Suffix	Суфикс за занемаривање задњих страна
+	Image: {name}	Слика: {name}
+	Import a template (.json)	Увези шаблон (.json)
+	Import an image (File > Import resources) to project it onto the mesh.	Увезите слику (Датотека > Увези ресурсе) да је пројектујете на мрежу.
+	Import baked maps	Увези израчунате мапе
+	Import HDR...	Увези HDR...
+	Import images to use them in fills and masks	Увезите слике за употребу у испунама и маскама
+	Import material...	Увези материјал...
+	Import MaterialX material...	Увези MaterialX материјал...
+	Import resources...	Увези ресурсе...
+	Import...	Увези...
+	Imported template "{name}"	Увезен је шаблон „{name}“
+	Imported {name}	Увезено: {name}
+	Include in Bake	Укључи у израчунавање мапа
+	Index of refraction	Индекс преламања
+	Input high	Горња улазна граница
+	Input low	Доња улазна граница
+	Input maps	Улазне мапе
+	Insert a variable	Уметни променљиву
+	Instance	Инстанца
+	Instantiate across texture sets	Направи инстанце у скуповима текстура
+	Intensity (texels at 2K)	Интензитет (тексели при 2K)
+	Interface scale	Размера интерфејса
+	Intersection: fill polygons the rectangle touches	Пресек: попуни полигоне које правоугаоник додирује
+	Inverse divide	Обрнуто дељење
+	Inverse Subtract	Обрнуто одузимање
+	Invert mask	Обрни маску
+	Invert mask background	Обрни позадину маске
+	Invert mask value	Обрни вредност маске
+	Invert quick mask	Обрни брзу маску
+	Invert show/hide	Обрни приказивање/скривање
+	Jitters	Колебања
+	Join the ArtCraft community on Discord	Придружите се ArtCraft заједници на Discord-у
+	Join the community (Discord)...	Придружите се заједници (Discord)...
+	Key light (shadow-casting light, direct only)	Главно светло (баца сенку, само директно)
+	Keyboard	Тастатура
+	Keyboard shortcuts	Пречице на тастатури
+	Layer mask	Маска слоја
+	Layer memory: {mb} MB	Меморија слоја: {mb} MB
+	Lazy mouse	Успорени потез
+	Lazy mouse distance	Удаљеност успореног потеза
+	Leather grain	Текстура коже
+	Lens size: how quickly things blur away from the focus distance	Величина сочива: колико брзо се објекти замућују ван удаљености фокуса
+	Lifetime (steps)	Животни век (кораци)
+	Light / direction	Светло / смер
+	Light azimuth (degrees)	Азимут светла (степени)
+	Light elevation (degrees)	Висински угао светла (степени)
+	Light intensity	Интензитет светла
+	Lighten (Max)	Посветли (макс.)
+	Linear burn	Линеарно затамњивање
+	Linear dodge (Add)	Линеарно посветљивање (сабирање)
+	Linear light	Линеарно светло
+	List of exports	Списак извоза
+	LMB	Леви тастер миша
+	Load Cage	Учитај кавез
+	Load UI Layout	Учитај распоред интерфејса
+	Loaded UI layout {path}	Учитан је распоред интерфејса {path}
+	Lock Output Size	Закључај излазну величину
+	Log	Логаритам
+	Low Poly Mesh Suffix	Суфикс нискополигонске мреже
+	Made by the ArtCraft team and community.	Направили ArtCraft тим и заједница.
+	Magenta / green	Магента / зелена
+	Main shader	Главни шејдер
+	Manipulator size	Величина манипулатора
+	Manual	Ручно
+	Marble veins	Мермерне жиле
+	Mask Editor: Edge wear	Уређивач маске: хабање ивица
+	Mask effects	Ефекти маске
+	Mask value (gray)	Вредност маске (сива)
+	Mask with height	Маскирај висином
+	Match	Подударање
+	Material	Материјал
+	Material ball	Кугла материјала
+	Material Color	Боја материјала
+	Material finish	Завршна обрада материјала
+	MaterialCraft material	MaterialCraft материјал
+	Materials	Материјали
+	MaterialX materials	MaterialX материјали
+	MatFinish Grind	Завршна обрада: брушено
+	MatFinish Hammered	Завршна обрада: ковано
+	MatFinish Raw	Завршна обрада: сирово
+	MatFinish Sanded	Завршна обрада: шмирглано
+	Max Frontal Distance	Највећа предња удаљеност
+	Max Occluder Distance	Највећа удаљеност заклањања
+	Max project size on open	Највећа величина пројекта при отварању
+	Max RAM while saving	Највећа употреба RAM-а при чувању
+	Max Rear Distance	Највећа задња удаљеност
+	Maximum decompressed project data. Increase this limit to open larger projects.	Највећа величина распакованих података пројекта. Повећајте ово ограничење да отворите веће пројекте.
+	Medium dark	Средње тамно
+	Medium light	Средње светло
+	Mesh fill	Испуна мреже
+	Mesh ID	ID мреже
+	Mesh Map Bakers	Генератори мапа мреже
+	Mesh Map Settings	Подешавања мапа мреже
+	Mesh map: {map}	Мапа мреже: {map}
+	Mesh maps	Мапе мреже
+	Mesh maps baked	Мапе мреже су израчунате
+	Mesh Normals Based	На основу нормала мреже
+	Meshes	Мреже
+	metal	метал
+	Metallic	Металност
+	min	мин
+	Min Occluder Distance	Најмања удаљеност заклањања
+	Minimum size (%)	Најмања величина (%)
+	Mirror symmetry	Огледалска симетрија
+	missing	недостаје
+	Missing (bake to create)	Недостаје (израчунајте да направите)
+	missing source	извор недостаје
+	Mixed AO	Мешана АО
+	MMB drag / Alt + MMB	Превлачење средњим тастером / Alt + средњи тастер
+	More in Assets > Alphas: click one, or drag it here	Још у Ресурси > Алфа маске: кликните на маску или је превуците овде
+	Move down	Помери надоле
+	Move up	Помери нагоре
+	Moves the surface by the height channel on a finer copy of the mesh, at the height to normal strength (viewport only: painting follows the base surface)	Помера површину каналом висине на детаљнијој копији мреже, према јачини претварања висине у нормале (само у приказу: сликање прати основну површину)
+	My brushes	Моје четкице
+	My smart materials	Моји паметни материјали
+	Name each file after its texture set, like Body_normal.png	Назовите сваку датотеку по њеном скупу текстура, нпр. Body_normal.png
+	New project	Нови пројекат
+	New project...	Нови пројекат...
+	New template	Нови шаблон
+	No font on this system can show this language	Ниједан фонт на овом систему не може да прикаже овај језик
+	no GPU	нема графичког процесора
+	No GPU renderer available	Није доступно исцртавање графичким процесором
+	No High-Poly Meshes	Нема високополигонских мрежа
+	No outputs yet: add one above, then drag input maps onto its channels.	Још нема излаза: додајте га изнад, па превуците улазне мапе на његове канале.
+	No padding (passthrough)	Без проширења (пропуштање)
+	No Parameters	Нема параметара
+	No recent projects yet	Још нема недавних пројеката
+	Noise amount	Количина шума
+	Noise scale	Размера шума
+	none	ниједна
+	Normal DirectX	DirectX нормале
+	Normal from height	Нормале из висине
+	Normal Invert	Обрни нормале
+	Normal map combine	Комбиновање мапа нормала
+	Normal map detail	Детаљи мапе нормала
+	Normal map format	Формат мапе нормала
+	Normal map inverse detail	Обрнути детаљи мапе нормала
+	Normal OpenGL	OpenGL нормале
+	Normal: painting uses the flat normal	Нормално: сликање користи равну нормалу
+	Normalization	Нормализација
+	Normalization Scale	Размера нормализације
+	Normalization Type	Врста нормализације
+	Not enough GPU memory to show texture set "{name}" fully: lower the viewport Texture resolution in Settings. Painting and export are not affected.	Нема довољно графичке меморије за потпун приказ скупа текстура „{name}“: смањите резолуцију текстура приказа у подешавањима. То не утиче на сликање и извоз.
+	Not enough GPU memory to show {count} texture sets fully ({names}): lower the viewport Texture resolution in Settings. Painting and export are not affected.	Нема довољно графичке меморије за потпун приказ {count} скупова текстура ({names}): смањите резолуцију текстура приказа у подешавањима. То не утиче на сликање и извоз.
+	Not exported: no source in this texture set	Није извезено: нема извора у овом скупу текстура
+	Not imported: {files}	Није увезено: {files}
+	Not saved: {error}	Није сачувано: {error}
+	nrm	норм.
+	off	искључено
+	Offset right	Померај удесно
+	Offset up	Померај нагоре
+	Offset {axis}	Померај {axis}
+	Offsets the textures by the height channel, at the height to normal strength	Помера текстуре каналом висине, према јачини претварања висине у нормале
+	Only Same Mesh Name	Само исти назив мреже
+	op	непроз.
+	Open in MaterialCraft	Отвори у MaterialCraft-у
+	Open sample project...	Отвори пример пројекта...
+	Open...	Отвори...
+	Opened in MaterialCraft: use File > Send to TextureCraft there to bring your changes back	Отворено у MaterialCraft-у: тамо користите Датотека > Пошаљи у TextureCraft да вратите измене
+	Opened {name}	Отворено: {name}
+	Optional channels add a clear coat (Coat weight, Coat roughness, Coat normal), sheen (Sheen weight, color, roughness), anisotropy (Anisotropy level, angle), subsurface scattering (Scattering weight) and transmission (Transmission).	Необавезни канали додају провидни премаз (удео, храпавост и нормала премаза), свиленкасти сјај (удео, боја и храпавост), анизотропију (ниво и угао), потповршинско расејавање (удео расејавања) и пропуштање (пропуштање).
+	Orbit	Орбитирај
+	Orthographic	Ортографски
+	Output directory	Излазна фасцикла
+	Output high	Горња излазна граница
+	Output low	Доња излазна граница
+	Output Size	Излазна величина
+	Output template	Излазни шаблон
+	Output templates	Излазни шаблони
+	Overlay opacity	Непрозирност прекривача
+	Padding	Проширење ивица
+	Paint	Сликај
+	Paint Cage	Осликај кавез
+	Paint chips	Окрњена боја
+	Paint layer	Слој за сликање
+	Paint on the mesh to edit the layer content.	Сликајте по мрежи да уредите садржај слоја.
+	Paint on the mesh to edit this mask. Use the Material tab's mask value for gray.	Сликајте по мрежи да уредите ову маску. За сиву користите вредност маске на картици Материјал.
+	Paint Skew Correction	Сликај исправку искошења
+	Paint with the current tool	Сликај тренутном алатком
+	Painted layer pixels {pixels} MB, composited channels {composites} MB, compositing cache {cache} MB	Пиксели осликаних слојева {pixels} MB, компоновани канали {composites} MB, кеш компоновања {cache} MB
+	Painting is paused while a bake is shown. Cancel the bake or wait for it to finish.	Сликање је паузирано док се приказује израчунавање мапа. Откажите га или сачекајте да се заврши.
+	Pan	Померај приказ
+	Parallax occlusion (height channel)	Паралакса са заклањањем (канал висине)
+	Parameters change in the desktop app, with MaterialCraft installed	Параметри се мењају у десктоп апликацији, уз инсталиран MaterialCraft
+	Partial mask values follow the layer's height: high parts show first	Делимичне вредности маске прате висину слоја: високи делови се први приказују
+	Particle brush (slides down the surface)	Четкица честица (клизи низ површину)
+	Particle brush: particles slide down the surface	Четкица честица: честице клизе низ површину
+	Particles	Честице
+	Passthrough	Пропуштање
+	Paste as instance	Налепи као инстанцу
+	Paste effect	Налепи ефекат
+	Paste layer(s)	Налепи слојеве
+	Path trace on the processor instead of the graphics card (slower)	Праћење путања на процесору уместо на графичкој картици (спорије)
+	Path: click adds a point, click the curve inserts one, drag moves it, Enter applies, Esc cancels	Путања: клик додаје тачку, клик на криву умеће тачку, превлачење је помера, Enter примењује, Esc отказује
+	Paths stay editable: pick one to move its points or change its brush and material, and the sublayer repaints at once. Add paths with the Path tool.	Путање остају изменљиве: изаберите путању да померите тачке или промените четкицу и материјал, а подслој се одмах поново осликава. Додајте путање алатком Путања.
+	Pattern scale	Размера узорка
+	PBR - Metallic Roughness (TextureCraft)	PBR – металичност и храпавост (TextureCraft)
+	Per Material	По материјалу
+	Perlin noise	Перлинов шум
+	Pick color	Изабери боју
+	Pick focus in the viewport	Изабери фокус у приказу
+	Pin light	Тачкасто светло
+	Place as decal	Постави као налепницу
+	Place on the surface	Постави на површину
+	Place path points on the mesh	Постави тачке путање на мрежу
+	Planar projection	Раванска пројекција
+	Plane	Раван
+	PNG image	PNG слика
+	Polygon fill	Испуна полигона
+	Pores	Поре
+	Position gradient	Прелив положаја
+	Position jitter	Колебање положаја
+	Press a key...	Притисните тастер...
+	Procedurals	Процедурални ресурси
+	Project	Пројекат
+	Project Configuration...	Подешавања пројекта...
+	Project Mesh (LP)	Мрежа пројекта (LP)
+	Project opened	Пројекат је отворен
+	Project template	Шаблон пројекта
+	Projection	Пројекција
+	Projects and meshes	Пројекти и мреже
+	Quarter	Четвртина
+	Quick mask	Брза маска
+	Quit	Изађи
+	Radial settings	Радијална подешавања
+	Radial symmetry	Радијална симетрија
+	Radius (texels at 2K)	Полупречник (тексели при 2K)
+	Raw curvature	Сирова закривљеност
+	Re-cook	Поново обради
+	Reads the curvature map as baked: changing the mode or a size turns detail sizes on.	Чита мапу закривљености како је израчуната: промена режима или величине укључује величине детаља.
+	Rebind any menu item, tool or command	Промени пречицу било које ставке менија, алатке или команде
+	Recent projects	Недавни пројекти
+	Records the stack up to this layer. Fill effects in masks (and fill layers) above can read it as a source.	Бележи низ слојева до овог слоја. Ефекти испуне у маскама (и слојеви испуне) изнад могу га читати као извор.
+	Rectangle fill	Правоугаона испуна
+	Reimport mesh	Поново увези мрежу
+	Relative to Bounding Box	У односу на гранични оквир
+	Relative to Low Mesh	У односу на нискополигонску мрежу
+	Relative to Min/Max	У односу на минимум/максимум
+	Relative to Ray Distances	У односу на удаљености зрака
+	Remove Cage	Уклони кавез
+	Remove channel	Уклони канал
+	Remove effect	Уклони ефекат
+	Remove last	Уклони последње
+	Remove layer	Уклони слој
+	Remove layer(s)	Уклони слојеве
+	Remove mask	Уклони маску
+	Remove point	Уклони тачку
+	Remove resolution override	Уклони посебно подешавање резолуције
+	Remove resource	Уклони ресурс
+	Remove Skew Correction	Уклони исправку искошења
+	Remove skew correction	Уклони исправку искошења
+	Remove the shortcut	Уклони пречицу
+	Remove this output	Уклони овај излаз
+	Remove unused resources...	Уклони некоришћене ресурсе...
+	Rename the selected template	Преименуј изабрани шаблон
+	Render on the CPU	Исцртај на процесору
+	RENDERING	ИСЦРТАВАЊЕ
+	Rendering	Исцртавање
+	Rendering (path traced)	Исцртавање (праћење путања)
+	Rendering on CPU: {n} / {max} samples, {s} s	Исцртавање на процесору: {n} / {max} узорака, {s} с
+	Rendering on GPU: {n} / {max} samples, {s} s	Исцртавање на графичком процесору: {n} / {max} узорака, {s} с
+	Rendering, path traced	Исцртавање, праћење путања
+	Replace Color	Замени боју
+	Replacement color	Заменска боја
+	Report a bug...	Пријави грешку...
+	Rescan the library folder	Поново претражи фасциклу библиотеке
+	Reset all	Врати све
+	Reset Painted Cage	Врати осликани кавез
+	Reset to defaults	Врати на подразумевано
+	Reset to {shortcut}	Врати на {shortcut}
+	Reset UI	Врати интерфејс
+	Resizing	Промена величине
+	Restore Defaults	Врати подразумевано
+	Restore every default shortcut	Врати све подразумеване пречице
+	Return to Painting Mode	Врати се у режим сликања
+	Return to this step	Врати се на овај корак
+	Right-click a layer > Create smart material	Десни клик на слој > Направи паметни материјал
+	Rotation (degrees)	Ротација (степени)
+	rough	храпавост
+	Roughness	Храпавост
+	Roughness from glossiness	Храпавост из сјајности
+	Round	Заобљено
+	Rounded cube	Заобљена коцка
+	Samples	Узорци
+	Sampling Radius	Полупречник узорковања
+	Save a copy...	Сачувај копију...
+	Save as...	Сачувај као...
+	Save current brush	Сачувај тренутну четкицу
+	Save current layout...	Сачувај тренутни распоред...
+	Save current project as template	Сачувај тренутни пројекат као шаблон
+	Save render...	Сачувај исцртану слику...
+	Save the changes to {name} before closing?	Сачувати измене у {name} пре затварања?
+	Save the changes to {name} first?	Прво сачувати измене у {name}?
+	Save UI Layout	Сачувај распоред интерфејса
+	Save view as camera	Сачувај поглед као камеру
+	Saved UI layout {path}	Сачуван је распоред интерфејса {path}
+	Saved {path}	Сачувано: {path}
+	Saving UI layouts to files is available in the desktop app	Чување распореда интерфејса у датотеке доступно је у десктоп апликацији
+	Saving uses the other cores and at most this share of the free RAM. At least one core always works.	Чување користи остала језгра и највише овај удео слободног RAM-а. Бар једно језгро увек ради.
+	Scale / tiling	Размера / понављање
+	Scaling Divisor	Делилац скалирања
+	scatter	расејавање
+	Scatter color	Боја расејавања
+	Scatter radius	Полупречник расејавања
+	Scattering weight	Удео расејавања
+	Scratches	Огреботине
+	Screenshot of the viewport	Снимак приказа
+	Seams Intensity	Интензитет шавова
+	Search all assets	Претражи све ресурсе
+	Search commands or keys	Претражи команде или тастере
+	Secondary Rays	Секундарни зраци
+	Seed	Семе
+	Select a layer	Изаберите слој
+	Select a paint layer or a layer's mask to fill	Изаберите слој за сликање или маску слоја за попуњавање
+	Select an output template	Изаберите излазни шаблон
+	Select source	Изабери извор
+	Select the layer content	Изабери садржај слоја
+	Select the mask (Alt+click: show it in the viewport)	Изабери маску (Alt+клик: прикажи је у приказу)
+	Select...	Изабери...
+	Selection mode	Режим избора
+	Self Intersection	Самопресек
+	Self Occlusion	Самозаклањање
+	Settings...	Подешавања...
+	Shader instance	Инстанца шејдера
+	Shader Settings	Подешавања шејдера
+	sheen	свиленкасти сјај
+	Sheen color	Боја свиленкастог сјаја
+	sheen color	боја свиленкастог сјаја
+	Sheen color × weight	Боја свиленкастог сјаја × удео
+	sheen rough	храп. свиленкастог сјаја
+	Sheen roughness	Храпавост свиленкастог сјаја
+	Sheen weight	Удео свиленкастог сјаја
+	Shift + wheel	Shift + точкић
+	Shortcuts list...	Списак пречица...
+	Show all	Прикажи све
+	Show at startup	Прикажи при покретању
+	Show axis	Прикажи осу
+	Show axis position manipulator	Прикажи манипулатор положаја осе
+	Show cursor	Прикажи показивач
+	Show entire mesh	Прикажи целу мрежу
+	Show for Selected Texture Set Only	Прикажи само за изабрани скуп текстура
+	Show intersection	Прикажи пресек
+	Show log...	Прикажи дневник...
+	Show on all parts	Прикажи на свим деловима
+	Show or hide texture sets	Прикажи или сакриј скупове текстура
+	Show or hide the layer	Прикажи или сакриј слој
+	Show or hide the texture set	Прикажи или сакриј скуп текстура
+	Show plane	Прикажи раван
+	Show UV wireframe in the 2D view	Прикажи UV жичану мрежу у 2D приказу
+	Show wireframe in the 3D view	Прикажи жичану мрежу у 3D приказу
+	Signed addition (AddSub)	Сабирање са предзнаком (AddSub)
+	Size in screen space	Величина у простору екрана
+	Size jitter	Колебање величине
+	Size of the textures the viewport shows: lower uses less GPU memory with large texture sets. Painting and export keep full resolution.	Величина текстура у приказу: мања користи мање графичке меморије код великих скупова текстура. Сликање и извоз задржавају пуну резолуцију.
+	Skew Correction	Исправка искошења
+	Skew Correction Method	Метод исправке искошења
+	Slope Blur	Замућење по нагибу
+	Slope scale	Размера нагиба
+	Smart masks	Паметне маске
+	Smart material saved to {path}	Паметни материјал је сачуван у {path}
+	Smart materials	Паметни материјали
+	Smooth	Глатко
+	Smudge	Размазивање
+	Soft light	Мека светла
+	Source  U {u}  V {v}	Извор  U {u}  V {v}
+	spec	рефл.
+	Specular	Рефлексија
+	specular	рефлексија
+	Specular level	Ниво рефлексије
+	Sphere	Сфера
+	Spherical projection	Сферна пројекција
+	Spray	Спреј
+	Spread Angle	Угао ширења
+	Stamp depth	Дубина отиска
+	Start window	Почетни прозор
+	Starting render...	Покретање исцртавања...
+	Stencil	Шаблон за сликање
+	Steps	Кораци
+	Streaks	Пруге
+	Stripes	Траке
+	Stroke opacity	Непрозирност потеза
+	Submesh	Подмрежа
+	Subsampling 2x2	Подузорковање 2x2
+	Subsampling 4x4	Подузорковање 4x4
+	Subsampling 8x8	Подузорковање 8x8
+	Subsurface scattering	Потповршинско расејавање
+	Symmetry	Симетрија
+	Symmetry color display	Приказ боје симетрије
+	Symmetry settings	Подешавања симетрије
+	System title bar (applies on restart)	Системска насловна трака (важи после поновног покретања)
+	Tangent | Wrap	Тангента | Обавијање
+	Template name	Назив шаблона
+	Temporal anti-aliasing (refines the 3D view while it is still)	Временско ублажавање назубљености (побољшава 3D приказ док мирује)
+	Texture resolution	Резолуција текстуре
+	Texture set channels	Канали скупа текстура
+	Texture set resolution	Резолуција скупа текстура
+	Texture Set Settings	Подешавања скупа текстура
+	Texture Sets	Скупови текстура
+	Texture sets	Скупови текстура
+	TextureCraft had to close:	TextureCraft је морао да се затвори:
+	TextureCraft PBR - Metallic Roughness	TextureCraft PBR – металичност и храпавост
+	TextureCraft PBR - Specular Glossiness	TextureCraft PBR – рефлексија и сјајност
+	TextureCraft project	TextureCraft пројекат
+	TextureCraft project or mesh	TextureCraft пројекат или мрежа
+	Textures	Текстуре
+	Textures embedded; for game engines and most viewers	Уграђене текстуре; за покретаче игара и већину прегледача
+	Textures packaged; for USD tools and AR Quick Look	Упаковане текстуре; за USD алате и AR Quick Look
+	The bake worker stopped	Радни процес за израчунавање мапа је заустављен
+	The eraser removes paint from the enabled channels.	Гумица уклања боју из укључених канала.
+	The file dialog couldn't be shown: {error}	Није могуће приказати дијалог за датотеке: {error}
+	The first stroke sets the offset from the source.	Први потез поставља померај од извора.
+	The GPU couldn't render this scene: {error}	Графички процесор није могао да исцрта ову сцену: {error}
+	The image's alpha cuts the decal's shape; faces turned away and surfaces beyond its depth stay clear.	Алфа канал слике одређује облик налепнице; окренуте стране и површине ван њене дубине остају чисте.
+	The next click in the 3D view moves the decal there	Следећи клик у 3D приказу премешта налепницу на то место
+	The project changed while the dialog was open, so nothing was done	Пројекат је промењен док је дијалог био отворен, па ништа није урађено
+	The resize worker stopped	Радни процес за промену величине је заустављен
+	Thin areas	Танке области
+	Tiles	Плочице
+	Title bar	Насловна трака
+	Toggle mask	Укључи/искључи маску
+	Tone mapping	Мапирање тонова
+	Torus	Торус
+	transm	пропушт.
+	Transmission	Пропуштање
+	Tri-planar projection	Трораванска пројекција
+	Triangle fill	Испуна троугла
+	Triangle fills single triangles, Polygon whole quads and n-gons, Mesh the connected geometry, UV island the UV islands	Троугао попуњава појединачне троуглове, Полигон целе четвороуглове и n-углове, Мрежа повезану геометрију, UV острво UV острва
+	Twill weave	Кепер ткање
+	UDIM plane	UDIM раван
+	UDIM tiles painted by this texture set, each at the set's size	UDIM плочице које овај скуп текстура осликава, свака у величини скупа
+	UI layout	Распоред интерфејса
+	UI layout: {error}	Распоред интерфејса: {error}
+	UI layouts	Распореди интерфејса
+	UI {ms} ms	Интерфејс {ms} ms
+	Uniform value	Јединствена вредност
+	USD binary, textures alongside	Бинарни USD, текстуре поред
+	USD text, textures alongside	Текстуални USD, текстуре поред
+	USDZ with textures	USDZ са текстурама
+	Use an equirectangular .hdr or .exr image as the environment	Користи еквидистантну цилиндричну .hdr или .exr слику као окружење
+	Use as brush alpha	Користи као алфа маску четкице
+	Use Low Poly Mesh as High Poly Mesh	Користи нискополигонску мрежу као високополигонску
+	Use the control channel or `texturecraft-cli render` for screenshots	Користите управљачки канал или `texturecraft-cli render` за снимке екрана
+	Use the operating system's window frame and buttons instead of TextureCraft's own title bar	Користи оквир и дугмад прозора оперативног система уместо TextureCraft-ове насловне траке
+	Use this brush (keeps its size)	Користи ову четкицу (задржава величину)
+	UV checker	UV шаховски узорак
+	UV island fill	Испуна UV острва
+	UV projection	UV пројекција
+	UV Seams	UV шавови
+	UV tile {tile} resolution	Резолуција UV плочице {tile}
+	UV tiles	UV плочице
+	UV tiles (UDIM)	UV плочице (UDIM)
+	UV transformations	UV трансформације
+	Value Bounds Max	Горња граница вредности
+	Value Bounds Min	Доња граница вредности
+	Version: {version} ({gpu})	Верзија: {version} ({gpu})
+	Vertex Color	Боја темена
+	View through this camera	Поглед кроз ову камеру
+	Viewer settings	Подешавања прегледача
+	Viewport	Област приказа
+	Viewport and brush (fixed)	Област приказа и четкица (фиксно)
+	Views	Прикази
+	Visible polygons only	Само видљиви полигони
+	Vivid light	Живо светло
+	Voronoi	Вороној
+	Warp Directional	Усмерена деформација
+	Wavefront OBJ with MTL, textures alongside	Wavefront OBJ са MTL-ом, текстуре поред
+	WebGPU isn't available in this browser, so TextureCraft runs on WebGL2: Rendering mode path traces on the CPU (slower) and large texture sets show at reduced resolution. A current Chrome, Edge or Safari has WebGPU.	WebGPU није доступан у овом прегледачу, па TextureCraft ради на WebGL2: режим исцртавања прати путање на процесору (спорије), а велики скупови текстура приказују се у смањеној резолуцији. Актуелни Chrome, Edge или Safari подржава WebGPU.
+	What the 3D view shows while the bake runs: the newest finished map, one finished map, or the material. Maps not baked yet show a neutral value.	Шта 3D приказ показује током израчунавања: најновију завршену мапу, једну завршену мапу или материјал. Неизрачунате мапе приказују неутралну вредност.
+	Wheel / Alt + RMB drag	Точкић / Alt + превлачење десним тастером
+	Width (texels at 2K)	Ширина (тексели при 2K)
+	Wood grain	Шаре дрвета
+	Works in texture space, like the blur: it does not cross UV seams.	Ради у простору текстуре, као замућење: не прелази UV шавове.
+	World Space Normal	Нормала у светском простору
+	Yellow / blue	Жута / плава
+	{action} (undone)	{action} (опозвано)
+	{count} effects	Број ефеката: {count}
+	{file}: add above the selected layer (or drag it into the layer stack or onto the viewport)	{file}: додај изнад изабраног слоја (или превуци у низ слојева или у област приказа)
+	{name} copy	Копија: {name}
+	{n} bits	{n} бита
+	{n} control points. Click the mesh (or the 2D view) to add points and drag them to adjust; click the first point to close the path. Enter paints it with the brush (a closed, filled path fills its inside), Esc cancels.	Број контролних тачака: {n}. Кликните на мрежу (или 2D приказ) да додате тачке и превуците их да их подесите; кликните на прву тачку да затворите путању. Enter је исцртава четкицом (затворена попуњена путања попуњава унутрашњост), Esc отказује.
+	{n} items share a shortcut; the first one listed wins.	Број ставки са истом пречицом: {n}; предност има прва наведена.
+	{pattern} (scale {scale}, seed {seed})	{pattern} (размера {scale}, семе {seed})

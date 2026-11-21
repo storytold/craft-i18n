@@ -75,6 +75,7 @@ const GRIDCRAFT_SHARED_GLOSSARY: &[(&str, &str, &str)] = &[
     ("pt-br", "Diagrama", "Texto decorativo"),
     ("ro", "Diagramă", "Text decorativ"),
     ("ru", "Схема", "Декоративный текст"),
+    ("sr", "Дијаграм", "Украсни текст"),
     ("sr-latn", "Dijagram", "Ukrasni tekst"),
     ("tr", "Diyagram", "Dekoratif Metin"),
     ("uk", "Схема", "Декоративний текст"),
