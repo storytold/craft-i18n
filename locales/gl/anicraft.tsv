@@ -1,0 +1,1710 @@
+# Galego (gl) interface catalog for AniCraft.
+# Columns, separated by a TAB:  context <TAB> English source text <TAB> translation
+#   context  usually empty. `@plural`, `@id` and `@msg` mean something to the apps; any other
+#            word is a label that tells apart two meanings of the same English.
+#   escapes  \n  \t  \\  inside a column. `{name}` placeholders must appear in both columns (in any
+#            order), and a trailing "…" in one needs one in the other.
+#   @plural  English `one|other`; the translation lists this language's plural forms, `|`-separated.
+#   Lines starting with # and blank lines are ignored. A missing entry shows in English.
+#
+# Clean room: every entry was written from the plain meaning of the English text in ordinary
+# computing vocabulary. No other product's localisation, string table or translated UI was
+# consulted or copied; add entries the same way.
+
+	$1 puts back a group	$1 restaura un grupo
+	+ Layer	+ Capa
+@plural	+{n} more|+{n} more	+{n} máis|+{n} máis
+	// Type or paste a frame script	// Escriba ou pegue un script de fotograma
+	1 minute	1 minuto
+	10 minutes	10 minutos
+	100 %: as wide as it is tall. Less flattens the tip, for calligraphic strokes	100 %: tan ancho como alto. Menos achata a punta, para trazos caligráficos
+	2 minutes	2 minutos
+	30 seconds	30 segundos
+	32-bit float	Punto flotante de 32 bits
+	5 minutes	5 minutos
+	9-Slice Scaling	Escalado de 9 franxas
+	A 1080 × 1080 post at 30 fps, 15 seconds long, with a safe margin and thirds on a guide layer	Unha publicación de 1080 × 1080 a 30 fps, de 15 segundos de duración, cunha marxe de seguridade e terzos nunha capa guía
+	A 300 × 250 web banner at 24 fps, 15 seconds long, with its safe area on a guide layer	Un báner web de 300 × 250 a 24 fps, de 15 segundos de duración, coa súa área segura nunha capa guía
+	A 728 × 90 web banner at 24 fps, 15 seconds long, with its safe area on a guide layer	Un báner web de 728 × 90 a 24 fps, de 15 segundos de duración, coa súa área segura nunha capa guía
+	A bone ends on another symbol instance: release over the instance it should move.	Un oso remata noutra instancia de símbolo: solte sobre a instancia que debe mover.
+	A frame script: it runs while the movie plays. Pick it for a keyframe in the Actions panel (F9)	Un script de fotograma: execútase mentres se reproduce a película. Escóllao para un fotograma clave no panel de accións (F9)
+	A list of actions, in order	Unha lista de accións, en orde
+	A Lottie animation (JSON) for web and apps.	Unha animación Lottie (JSON) para a web e aplicacións.
+	A Mouth graphic symbol with ten labelled mouth shapes to redraw, placed on a face guide	Un símbolo gráfico de boca con dez formas de boca etiquetadas para redebuxar, situado nunha guía de cara
+	A pattern such as h.llo or \\d+ (Rust regex syntax; runs in linear time)	Un patrón como h.llo ou \\d+ (sintaxe regex de Rust; execútase en tempo linear)
+	A pinned bone, and the bones it hangs from, stay put while you drag the bones below it	Un oso fixado e os osos dos que colga permanecen no seu sitio mentres arrastra os osos debaixo del
+	A recovery copy of your unsaved work. If AniCraft closes unexpectedly, the next start offers it back.	Unha copia de recuperación do seu traballo non gardado. Se AniCraft pecha inesperadamente, o seguinte inicio ofrecerá restauralo.
+	A round eraser	Unha goma de borrar redonda
+	A round or oval tip	Unha punta redonda ou ovalada
+	A script runs only when all of it is in the ActionScript 3.0 subset AniCraft runs: timeline control (stop, play, go to a frame or label), mouse listeners, trace, and setting x, y, alpha, visible, rotation and scale on named instances. Until then it is kept as written and doesn't run.	Un script só se executa cando está totalmente no subconxunto de ActionScript 3.0 que AniCraft executa: control da liña de tempo (stop, play, ir a un fotograma ou etiqueta), escoitadores de rato, trace e definición de x, y, alfa, visible, rotación e escala en instancias nomeadas. Ata ese momento mantense como está escrito e non se executa.
+	A short animation to look at and take apart	Unha animación curta para ver e descompor
+	A sound keeps at least one point	Un son mantén polo menos un punto
+	A square eraser	Unha goma de borrar cadrada
+	A square or flat tip	Unha punta cadrada ou plana
+@plural	a stream looping over its {n}-frame span|a stream looping over its {n}-frame span	un fluxo en bucle ao longo do seu intervalo de {n} fotograma|un fluxo en bucle ao longo do seu intervalo de {n} fotogramas
+@plural	a stream, within its {n}-frame span|a stream, within its {n}-frame span	un fluxo, dentro do seu intervalo de {n} fotograma|un fluxo, dentro do seu intervalo de {n} fotogramas
+	A template called “{name}” is in this category already: saving asks to replace it.	Xa hai un modelo chamado “{name}” nesta categoría: ao gardar solicitarase substituílo.
+	About AniCraft	Sobre o AniCraft
+	actions	accións
+	Actions Panel	Panel de accións
+	ActionScript 1.0 & 2.0	ActionScript 1.0 e 2.0
+	ActionScript 3.0	ActionScript 3.0
+	Actions…	Accións…
+	Actual size (100%)	Tamaño real (100%)
+	Add a point where the object is on frame {frame}, pinned to it: nothing moves now, and the object passes the point then however the path is edited	Engada un punto onde está o obxecto no fotograma {frame}, fixado a el: agora nada se move, e o obxecto pasará polo punto como queira que se edite a traxectoria
+	Add a shortcut	Engadir un atallo
+	Add a shortcut for {action}	Engadir un atallo para {action}
+	Add a {property} keyframe at frame {frame}	Engadir un fotograma clave de {property} no fotograma {frame}
+	Add action	Engadir acción
+	Add Anchor Point	Engadir punto de ancoraxe
+	Add another shortcut	Engadir outro atallo
+	Add another shortcut for {action}	Engadir outro atallo para {action}
+	Add Bone	Engadir oso
+	Add Camera	Engadir cámara
+	Add camera	Engadir cámara
+	Add Classic Motion Guide	Engadir guía de movemento clásica
+	Add Colour Effect	Engadir efecto de cor
+	Add colour stop	Engadir parada de cor
+	Add Envelope Point	Engadir punto de envolvente
+	Add event	Engadir evento
+	Add filter	Engadir filtro
+	Add Motion Path Point	Engadir punto da traxectoria de movemento
+	Add Shape Hint	Engadir indicación de forma
+	Add to / remove from selection	Engadir á selección / retirar da selección
+	Add {what} to the Library	Engadir {what} á biblioteca
+	Add {what} to “{folder}”	Engadir {what} a “{folder}”
+	Added a camera. Drag on the stage to pan it, turn it with the round handle, zoom with the wheel. {undo} to undo.	Engadiuse unha cámara. Arraste no escenario para movela, xírea coa asa redonda e faga zoom coa roda. {undo} para desfacer.
+	Added a point to the motion path. {undo} to undo.	Engadiuse un punto á traxectoria de movemento. {undo} para desfacer.
+	Added a point. {undo} to undo.	Engadiuse un punto. {undo} para desfacer.
+	Added shape hint {letter}: drag it onto an edge here, then onto the matching edge on the tween's last keyframe.	Engadiuse a indicación de forma {letter}: arrástrea ata un bordo aquí e despois ata o bordo correspondente no último fotograma clave da interpolación.
+	Added the graphic symbol “{name}” to the Library. Drag it to the stage to place it.	Engadiuse o símbolo gráfico “{name}” á biblioteca. Arrástreo ao escenario para colocalo.
+@plural	Added {n} file to the Library|Added {n} files to the Library	Engadiuse {n} ficheiro á biblioteca|Engadíronse {n} ficheiros á biblioteca
+@plural	Added {n} file to “{folder}” in the Library|Added {n} files to “{folder}” in the Library	Engadiuse {n} ficheiro a “{folder}” na biblioteca|Engadíronse {n} ficheiros a “{folder}” na biblioteca
+	Adds it at the centre of the view, on the active layer (Enter, or drag it onto the stage)	Engádeo no centro da vista, na capa activa (Intro ou arrástreo ao escenario)
+	Adjust Color	Axustar cor
+	Adjust colour	Axustar cor
+	Advertising	Publicidade
+	After	Despois
+	After colour	Cor posterior
+	Agent / contributor guide	Guía de axentes / colaboradores
+	Align centre	Aliñar ao centro
+	Align on Multiple Frames	Aliñar en varios fotogramas
+	Align to Stage On / Off	Aliñar co escenario activado / desactivado
+	Align to the stage instead of the selection's bounds (a single shape always aligns to the stage)	Aliñar co escenario en vez de cos límites da selección (unha soa forma sempre se aliña co escenario)
+	Align: to stage	Aliñar: co escenario
+	Align: to the selection	Aliñar: coa selección
+	All scenes	Todas as escenas
+	Allow Smoothing	Permitir suavizado
+	Allow smoothing	Permitir suavizado
+	Alpha multiplier	Multiplicador alfa
+	Alpha offset	Desprazamento alfa
+	Also morphs one shape into another	Tamén transforma unha forma noutra
+	Always render off the UI thread. The window never waits; the picture can trail by a frame.	Renderizar sempre fóra do fío da interface. A ventá nunca agarda; a imaxe pode atrasarse un fotograma.
+	Always Show Markers	Mostrar sempre os marcadores
+@plural	An action can have up to {n} key.|An action can have up to {n} keys.	Unha acción pode ter ata {n} tecla.|Unha acción pode ter ata {n} teclas.
+	An AniCraft document, or an Animate .fla or .xfl	Un documento de AniCraft, ou .fla ou .xfl de Animate
+	An animated GIF, with exact frame timing.	Un GIF animado, con temporización exacta dos fotogramas.
+	An animated PNG: full colour and real transparency, for the web and chat apps.	Un PNG animado: cor total e transparencia real, para a web e aplicacións de chat.
+	An animated WebP, lossless: full colour and real transparency, smaller than PNG.	Un WebP animado sen perdas: cor total e transparencia real, máis pequeno que o PNG.
+	An entry point of a frame-script plug-in (WebAssembly)	Un punto de entrada dun engadido de script de fotograma (WebAssembly)
+	Anchor Markers	Marcadores de ancoraxe
+@plural	AniCraft didn't close properly last time. This document had changes that weren't saved:|AniCraft didn't close properly last time. These documents had changes that weren't saved:	AniCraft non pechou correctamente a última vez. Este documento tiña cambios que non se gardaron:|AniCraft non pechou correctamente a última vez. Estes documentos tiñan cambios que non se gardaron:
+	AniCraft document	Documento de AniCraft
+	AniCraft is free software: MIT OR Apache-2.0, at your option.	AniCraft é software libre: MIT OU Apache-2.0, á súa elección.
+	AniCraft opens .anicraft, .fla and .xfl documents, and imports SVG drawings, PNG and JPEG images, and WAV, Ogg and MP3 sounds	AniCraft abre documentos .anicraft, .fla e .xfl, e importa debuxos SVG, imaxes PNG e JPEG, e sons WAV, Ogg e MP3
+	AniCraft opens one document at a time; drop the others on their own	AniCraft abre un documento á vez; solte os outros por separado
+	AniCraft {version}	AniCraft {version}
+	AniCraft: Apache License 2.0	AniCraft: Licenza Apache 2.0
+	AniCraft: MIT License	AniCraft: Licenza MIT
+	ANICRAFT_STAGE_RENDERER is set, and it takes precedence over this choice.	ANICRAFT_STAGE_RENDERER está definido e ten prioridade sobre esta escolla.
+	Animate each property on its own curve	Animar cada propiedade na súa propia curva
+	Animate this span's object property by property	Animar o obxecto deste intervalo propiedade por propiedade
+	Animate this span's object property by property (edit the curves in the Motion Editor)	Animar o obxecto deste intervalo propiedade por propiedade (edite as curvas no editor de movemento)
+	Animated GIF	GIF animado
+	Animated PNG	PNG animado
+	Animated WebP	WebP animado
+@plural	Applied the picked bitmap fill to {n} shape. {undo} to undo.|Applied the picked bitmap fill to {n} shapes. {undo} to undo.	Aplicouse o recheo de mapa de bits escollido a {n} forma. {undo} para desfacer.|Aplicouse o recheo de mapa de bits escollido a {n} formas. {undo} para desfacer.
+@plural	Applied the picked fill {color} to {n} shape. {undo} to undo.|Applied the picked fill {color} to {n} shapes. {undo} to undo.	Aplicouse o recheo {color} escollido a {n} forma. {undo} para desfacer.|Aplicouse o recheo {color} escollido a {n} formas. {undo} para desfacer.
+@plural	Applied the picked line {color}, {width} px to {n} shape. {undo} to undo.|Applied the picked line {color}, {width} px to {n} shapes. {undo} to undo.	Aplicouse a liña {color}, {width} px escollida a {n} forma. {undo} para desfacer.|Aplicouse a liña {color}, {width} px escollida a {n} formas. {undo} para desfacer.
+@plural	Applied the picked linear gradient to {n} shape. {undo} to undo.|Applied the picked linear gradient to {n} shapes. {undo} to undo.	Aplicouse o degradado linear escollido a {n} forma. {undo} para desfacer.|Aplicouse o degradado linear escollido a {n} formas. {undo} para desfacer.
+@plural	Applied the picked radial gradient to {n} shape. {undo} to undo.|Applied the picked radial gradient to {n} shapes. {undo} to undo.	Aplicouse o degradado radial escollido a {n} forma. {undo} para desfacer.|Aplicouse o degradado radial escollido a {n} formas. {undo} para desfacer.
+	Applied the preset “{name}” — {undo} to undo	Aplicouse a predefinición “{name}” — {undo} para desfacer
+	Apply a preset	Aplicar unha predefinición
+	Apply Style	Aplicar estilo
+	Architecture philosophy	Filosofía da arquitectura
+	Armature	Armadura
+	Armature layer	Capa de armadura
+	Armatures	Armaduras
+	Arrow keys	Teclas de frecha
+	ArtCraft Launcher manages this app's version. Change its version there.	ArtCraft Launcher xestiona a versión desta aplicación. Cambie a versión alí.
+	Artwork on Multiple Frames	Ilustracións en varios fotogramas
+	Ascending: click for descending	Ascendente: faga clic para descendente
+	At the centre of the view, on the active layer (Enter; or drag onto the stage)	No centro da vista, na capa activa (Intro; ou arrastre ao escenario)
+	Autosave	Gardado automático
+	Autosave after this many changes	Gardar automaticamente despois deste número de cambios
+	Autosave every	Gardar automaticamente cada
+	Autosave failed: {error}. Save your work to be safe; AniCraft will keep trying.	Fallou o gardado automático: {error}. Garde o seu traballo por seguridade; AniCraft continuará intentándoo.
+	Autosave is off on this system, so there is nothing to recover	O gardado automático está desactivado neste sistema, polo que non hai nada que recuperar
+	Autosave is off: this system has no settings folder	O gardado automático está desactivado: este sistema non ten cartafol de axustes
+	Autosave is off: {error}	O gardado automático está desactivado: {error}
+	Autosave Now	Gardar automaticamente agora
+	autosaved {when}	gardado automaticamente {when}
+@plural	Autosaved {when} · {n} frame · {scenes} scenes|Autosaved {when} · {n} frames · {scenes} scenes	Gardado automaticamente {when} · {n} fotograma · {scenes} escenas|Gardado automaticamente {when} · {n} fotogramas · {scenes} escenas
+@plural	Autosaved {when} · {n} frame|Autosaved {when} · {n} frames	Gardado automaticamente {when} · {n} fotograma|Gardado automaticamente {when} · {n} fotogramas
+	Back to the default ({keys})	Volver ao valor predeterminado ({keys})
+	Back to the document	Volver ao documento
+	Back to the stage as it is: centred, 100 %, no turn, no tint	Volver ao escenario tal como está: centrado, 100 %, sen xiro, sen matiz
+	Back to the straight path the X and Y curves trace	Volver á traxectoria recta que trazan as curvas X e Y
+	Back to the theme's colours	Volver ás cores do tema
+	Back to this symbol	Volver a este símbolo
+	Before	Antes
+	Before colour	Cor anterior
+	Bend	Curvar
+	Bend Segment	Curvar segmento
+	Bevel	Bisel
+	Bevel highlight colour	Cor de realce do bisel
+	Bevel offset	Desprazamento do bisel
+	Bevel shadow colour	Cor de sombra do bisel
+	Bit depth	Profundidade de bits
+	Bitmap fill	Recheo de mapa de bits
+	Bitmap · {width}×{height}	Mapa de bits · {width}×{height}
+	Blank	Baleiro
+	Blank Keyframe	Fotograma clave baleiro
+	blank keyframe	fotograma clave baleiro
+	Blending	Mestura
+	Blue keys are pinned motion path points: drag one to move its point	As claves azuis son puntos fixados da traxectoria de movemento: arraste unha para mover o seu punto
+	Blue multiplier	Multiplicador de azul
+	Blue offset	Desprazamento de azul
+	Bone	Oso
+	Bone angle	Ángulo do oso
+	Bone: {name}	Oso: {name}
+	Bottom 9-slice guide	Guía inferior de 9 franxas
+	Break Apart	Separar
+	broken tween	interpolación rota
+	Brush	Pincel
+	Brush angle	Ángulo do pincel
+	Brush roundness	Redondez do pincel
+	Brush size	Tamaño do pincel
+	Brush size ({keys})	Tamaño do pincel ({keys})
+	Brush Size Down	Reducir o tamaño do pincel
+	Brush Size Up	Aumentar o tamaño do pincel
+	Brush size {size} px	Tamaño do pincel {size} px
+	Brush smoothing	Suavizado do pincel
+	Brush Stroke	Trazo de pincel
+	Button	Botón
+	Button (unnamed)	Botón (sen nome)
+	Button “{name}”	Botón “{name}”
+	Button: {name}	Botón: {name}
+	Buttons, movie clips and graphics	Botóns, clips de película e gráficos
+	by {author} · {id} · {size} KB	por {author} · {id} · {size} KB
+	cache {frames} fr · {size} MB · {hit}% hit	caché de {frames} fot. · {size} MB · {hit}% de acertos
+	Camera	Cámara
+	Camera Info	Información da cámara
+	Camera layer	Capa da cámara
+	Camera rotation	Rotación da cámara
+	Camera Tint	Tinte da cámara
+	Camera tint amount	Cantidade de tinte da cámara
+	Camera tint colour	Cor do tinte da cámara
+	Camera view	Vista da cámara
+	Camera X	Cámara X
+	Camera Y	Cámara Y
+	Camera zoom	Zoom da cámara
+	Can't import {file}: {why}	Non se puido importar {file}: {why}
+	Can't open {file}: {why}	Non se puido abrir {file}: {why}
+	Cancelled	Cancelado
+	cancelling	cancelando
+	Cap	Remate
+	Centre	Centro
+	Changed the stroke's width. {undo} to undo.	Cambiouse a largura do trazo. {undo} para desfazer.
+	changes	cambios
+	Change…	Cambiar…
+	Character turnaround	Xiro de personaxe
+	Check again	Comprobar de novo
+	Check for Updates…	Comprobar se hai actualizacións…
+	Check Frame Script	Comprobar script de fotograma
+	Checking for updates…	Comprobando se hai actualizacións…
+	Choose a font	Escolla un tipo de letra
+	Choose a font the document's text uses.	Escolla un tipo de letra que use o texto do documento.
+	Choose a Library item.	Escolla un elemento da biblioteca.
+	Choose a preset	Escolla unha predefinición
+	Choose from the Library	Escoller da biblioteca
+	Class	Clase
+	Classic tween	Interpolación clásica
+	classic tween	interpolación clásica
+	Classic {strength}	Clásico {strength}
+	Clear Actions	Limpar accións
+	Clear Frame Script	Limpar script de fotograma
+	Clear Keyframe	Limpar fotograma clave
+	Clear on Multiple Frames	Limpar en varios fotogramas
+	Cleared keyframe — {undo} to undo	Fotograma clave limpado — {undo} para desfazer
+@plural	Cleared {n} keyframe — {undo} to undo|Cleared {n} keyframes — {undo} to undo	{n} fotograma clave limpado — {undo} para desfazer|{n} fotogramas clave limpados — {undo} para desfazer
+@plural	Cleared {n} recent file|Cleared {n} recent files	{n} ficheiro recente limpado|{n} ficheiros recentes limpados
+	Clears every visible, unlocked layer at this frame, as double-clicking the Eraser tool does. You can undo it	Limpa todas as capas visíbeis e desbloqueadas neste fotograma, igual que facer dobre clic na ferramenta Goma de borrar. Pode desfacelo
+	Click	Clic
+@plural	Click a channel to add a point (up to {max}), drag a point to shape the volume, right-click it to delete it. {n} point.|Click a channel to add a point (up to {max}), drag a point to shape the volume, right-click it to delete it. {n} points.	Faga clic nunha canle para engadir un punto (ata {max}), arrastre un punto para dar forma ao volume, prema co botón dereito nel para eliminalo. {n} punto.|Faga clic nunha canle para engadir un punto (ata {max}), arrastre un punto para dar forma ao volume, prema co botón dereito nel para eliminalo. {n} puntos.
+	Click a fill or an enclosed area to pour it.	Faga clic nun recheo ou nunha área pechada para vertelo.
+	Click a fill to pick its colour, gradient or bitmap (then pour it with the Paint Bucket), or a line to pick its colour, width and profile (then apply it with the Ink Bottle). With shapes selected, the picked style goes onto them. Shift-click picks into the other swatch only.	Faga clic nun recheo para escoller a súa cor, degradado ou mapa de bits (despois vértao co Balde de pintura), ou nunha liña para escoller a súa cor, largura e perfil (despois aplíqueo co Bote de tinta). Con formas seleccionadas, o estilo escollido aplícase a elas. Maiús+clic só selecciona na outra amostra.
+	Click a key to change it or + to add one; right-click a key to remove it. Changes save as you go.	Faga clic nunha tecla para cambiala ou en + para engadir unha; prema co botón dereito nunha tecla para eliminala. Os cambios gárdanse sobre a marcha.
+	Click a shape to give it the current stroke colour and width.	Faga clic nunha forma para aplicarlle a cor e a largura actuais do trazo.
+	Click a shape to give it this line.	Faga clic nunha forma para aplicarlle esta liña.
+	Click a shape to show its points; on a merged drawing, the points of everything connected to it. Drag points or handles to reshape (a shared point moves every shape that has it; a smooth point's handles stay in line, Alt moves one alone); drag a line or fill to move everything connected. Shift adds to the point selection, drag on empty space to marquee points, arrow keys nudge them. Double-click an edge to add a point, Delete removes points, and right-click makes a point smooth or a corner. A motion path's points edit the same way (its ends stay).	Faga clic nunha forma para amosar os seus puntos; nun debuxo combinado, os puntos de todo o que estea conectado con ela. Arrastre puntos ou tiradores para remodelar (un punto compartido move todas as formas que o teñan; os tiradores dun punto suave fican aliñados, Alt move un só); arrastre unha liña ou recheo para mover todo o que estea conectado. Maiús engade á selección de puntos, arrastrar nun espazo baleiro fai unha selección rectangular de puntos e as teclas de frecha desprázanos lixeiramente. Faga dobre clic nun bordo para engadir un punto, a tecla Supr elimina puntos e o clic co botón dereito converte un punto en suave ou en esquina. Os puntos dunha traxectoria de movemento edítanse do mesmo xeito (os seus extremos permanecen).
+	Click inside an outline to fill it (on the layer's lines), or on a fill to recolour it. The gap size closes small openings.	Faga clic dentro dun contorno para enchelo (nas liñas da capa) ou nun recheo para cambiarlle a cor. O tamaño do oco pecha pequenas aberturas.
+	Click the movie to give it the keyboard	Faga clic na película para darlle o teclado
+	Click to add a colour stop	Faga clic para engadir unha parada de cor
+	Click to change · right-click to remove	Faga clic para cambiar · prema co botón dereito para eliminar
+	Click to place corner points, drag to pull smooth handles (Alt moves one handle). Click the first point to close; Enter, Esc or a click on the last point finishes. Backspace removes the last point. Alt-click a selected shape, a merged drawing's line or a motion path to add a point to it. Points snap to points and lines while Snap to Objects is on.	Faga clic para colocar puntos de esquina, arrastre para sacar tiradores suaves (Alt move un só tirador). Faga clic no primeiro punto para pechar; Intro, Esc ou un clic no último punto remata. Retroceso elimina o último punto. Faga Alt+clic nunha forma seleccionada, na liña dun debuxo combinado ou nunha traxectoria de movemento para engadirlle un punto. Os puntos axústanse a puntos e liñas mentres Axustar aos obxectos estea activado.
+	Click to select, drag to move, drag on empty space to marquee-select. Shift adds to the selection.	Faga clic para seleccionar, arrastre para mover, arrastre nun espazo baleiro para facer unha selección rectangular. Maiús engade á selección.
+	Click to type new text, or click text to edit it. Esc or a click elsewhere finishes. The options set the font, size and colour; double-click text with the Selection tool to edit it too.	Faga clic para escribir texto novo ou faga clic nun texto para editalo. Esc ou un clic fóra remata. As opcións establecen o tipo de letra, o tamaño e a cor; facer dobre clic no texto coa ferramenta Selección tamén permite editalo.
+	Click to zoom in, Alt-click to zoom out. Ctrl+wheel zooms anywhere.	Faga clic para ampliar, Alt+clic para reducir. Ctrl+roda do rato aplica zoom en calquera lugar.
+	Close folder	Pechar cartafol
+	Close large gaps	Pechar ocos grandes
+	Close medium gaps	Pechar ocos medianos
+	Close small gaps	Pechar ocos pequenos
+	Code in a scripting language (such as an Animate document's ActionScript), kept with the document. ActionScript 3.0 runs when it uses only timeline control, mouse listeners, trace and instance properties	Código nunha linguaxe de script (como o ActionScript dun documento de Animate), gardado co documento. ActionScript 3.0 execútase cando só usa control da liña de tempo, escoitadores do rato, trace e propiedades de instancias
+	Collapse All Folders	Contraer todos os cartafoles
+	Colour Effect	Efecto de cor
+	Colour effect	Efecto de cor
+	Colour effect style	Estilo do efecto de cor
+	Colour of the frames after the playhead	Cor dos fotogramas posteriores á cabeza de reprodución
+	Colour of the frames before the playhead	Cor dos fotogramas anteriores á cabeza de reprodución
+	Colour of {name}	Cor de {name}
+	Colour stop	Parada de cor
+	Colour to find	Cor que buscar
+	Colour to replace with	Cor pola que substituír
+	Colours	Cores
+	Command palette	Paleta de comandos
+	Command Palette…	Paleta de comandos…
+	Commands	Comandos
+	Confirmations	Confirmacións
+	Constrain rotation	Restrinxir rotación
+	Constrain shape / 45° line	Restrinxir forma / liña a 45°
+	Context actions	Accións de contexto
+	Control	Control
+	Convert Anchor Point	Converter punto de ancoraxe
+	Convert Anchor Points	Converter puntos de ancoraxe
+	Convert Motion Path Point	Converter punto da traxectoria de movemento
+	Convert to Symbol	Converter en símbolo
+	Convert to Symbol…	Converter en símbolo…
+@plural	Copied {n} element. Paste in Place ({key}) puts it back on its keyframe.|Copied {n} elements. Paste in Place ({key}) puts each back on its keyframe.	{n} elemento copiado. Pegar no mesmo sitio ({key}) colócao de volta no seu fotograma clave.|{n} elementos copiados. Pegar no mesmo sitio ({key}) coloca cada un de volta no seu fotograma clave.
+@plural	Copied {n} frame|Copied {n} frames	{n} fotograma copiado|{n} fotogramas copiados
+	Copy Frames	Copiar fotogramas
+	Copy on Multiple Frames	Copiar en varios fotogramas
+	Corner radius	Raio do canto
+	Corners sharper than this are bevelled: how far a point may reach, in stroke widths	Os cantos máis agudos ca este son chanfrados: ata onde pode chegar un punto, en larguras de trazo
+	Could not make the archive: {e}	Non se puido crear o arquivo: {e}
+	Could not open {name}: {e}	Non se puido abrir {name}: {e}
+	could not open {path}: {e}	non se puido abrir {path}: {e}
+	Could not restore {name}: {error}	Non se puido restaurar {name}: {error}
+	Could not save preferences: {e}	Non se puideron gardar as preferencias: {e}
+	could not start sound ({error})	non se puido iniciar o son ({error})
+	Couldn't check for updates: {error}	Non se puido comprobar se hai actualizacións: {error}
+	CPU (GPU unavailable)	CPU (GPU non dispoñible)
+	CPU (reference)	CPU (referencia)
+	CPU for {reason}	CPU por {reason}
+	Create Classic Tween	Crear interpolación clásica
+	Create Motion Tween	Crear interpolación de movemento
+	Create new	Crear novo
+	Create Shape Tween	Crear interpolación de forma
+	Create tween	Crear interpolación
+	Current document	Documento actual
+	Current frame	Fotograma actual
+@plural	Curved · {n} segment|Curved · {n} segments	Curvo · {n} segmento|Curvo · {n} segmentos
+@plural	Custom ({n} point)|Custom ({n} points)	Personalizado ({n} punto)|Personalizado ({n} puntos)
+	Custom height	Altura personalizada
+	Custom size	Tamaño personalizado
+	Custom width	Largura personalizada
+	Cut Frames	Cortar fotogramas
+	Cut on Multiple Frames	Cortar en varios fotogramas
+@plural	Cut {n} element from the frames between the markers. {undo} to undo.|Cut {n} elements from the frames between the markers. {undo} to undo.	{n} elemento cortado dos fotogramas entre os marcadores. {undo} para desfazer.|{n} elementos cortados dos fotogramas entre os marcadores. {undo} para desfazer.
+@plural	Cut {n} frame — {undo} to undo|Cut {n} frames — {undo} to undo	{n} fotograma cortado — {undo} para desfazer|{n} fotogramas cortados — {undo} para desfazer
+	Dash	Guión
+	Dash length	Lonxitude do guión
+	Data font	Tipo de letra de datos
+	Date added	Data de adición
+	Decision records (ADRs)	Rexistros de decisión (ADRs)
+	Default (bundled: {font})	Predeterminado (integrado: {font})
+	Default ({font})	Predeterminado ({font})
+	Delete Anchor Points	Eliminar puntos de ancoraxe
+	Delete Envelope Point	Eliminar punto de envolvente
+	Delete layer	Eliminar capa
+	Delete Motion Path Points	Eliminar puntos da traxectoria de movemento
+	Delete Point	Eliminar punto
+	Delete Points	Eliminar puntos
+@plural	Delete Point|Delete Points	Eliminar punto|Eliminar puntos
+	Delete Preset	Eliminar predefinición
+	Delete Scene	Eliminar escena
+	Delete Sound	Eliminar son
+	Delete Template	Eliminar modelo
+	Delete template {name}	Eliminar modelo {name}
+	Delete the active layer	Eliminar a capa activa
+	Delete the preset “{name}” (asks once more)	Eliminar a predefinición “{name}” (pide confirmación)
+	Delete this autosaved copy	Eliminar esta copia gardada automaticamente
+	Delete this keyframe's script	Eliminar o script deste fotograma clave
+	Delete this template and its picture (asks first)	Eliminar este modelo e a súa imaxe (pide confirmación antes)
+	Delete Unused Items	Eliminar elementos non usados
+	Delete Unused Items…	Eliminar elementos non usados…
+	Delete whole fills and lines	Eliminar recheos e liñas completos
+	Delete Width Point	Eliminar punto de largura
+	Delete “{name}”	Eliminar “{name}”
+	Deleted layer — {undo} to undo	Capa eliminada — {undo} para desfazer
+	Deleted scene — {undo} to undo	Escena eliminada — {undo} para desfazer
+	Deleted sound — {undo} to undo	Son eliminado — {undo} para desfazer
+	Deleted the fill. {undo} to undo.	Eliminouse o recheo. {undo} para desfazer.
+	Deleted the line. {undo} to undo.	Eliminouse a liña. {undo} para desfazer.
+	Deleted the preset “{name}”	Eliminouse a predefinición “{name}”
+@plural	Deleted {n} element on the frames between the markers. {undo} to undo.|Deleted {n} elements on the frames between the markers. {undo} to undo.	Eliminouse {n} elemento nos fotogramas entre os marcadores. {undo} para desfacer.|Elimináronse {n} elementos nos fotogramas entre os marcadores. {undo} para desfacer.
+@plural	Deleted {n} element — {undo} to undo|Deleted {n} elements — {undo} to undo	Eliminouse {n} elemento — {undo} para desfacer|Elimináronse {n} elementos — {undo} para desfacer
+@plural	Deleted {n} point from the motion path. {undo} to undo.|Deleted {n} points from the motion path. {undo} to undo.	Eliminouse {n} punto da traxectoria de movemento. {undo} para desfacer.|Elimináronse {n} puntos da traxectoria de movemento. {undo} para desfacer.
+@plural	Deleted {n} point from the motion path; its ends stay, as they are where the motion starts and ends. {undo} to undo.|Deleted {n} points from the motion path; its ends stay, as they are where the motion starts and ends. {undo} to undo.	Eliminouse {n} punto da traxectoria de movemento; os seus extremos mantéñense, xa que son onde o movemento comeza e remata. {undo} para desfacer.|Elimináronse {n} puntos da traxectoria de movemento; os seus extremos mantéñense, xa que son onde o movemento comeza e remata. {undo} para desfacer.
+@plural	Deleted {n} point. {undo} to undo.|Deleted {n} points. {undo} to undo.	Eliminouse {n} punto. {undo} para desfacer.|Elimináronse {n} puntos. {undo} para desfacer.
+@plural	Deleted {n} point; kept {kept} where three or more lines meet. {undo} to undo.|Deleted {n} points; kept {kept} where three or more lines meet. {undo} to undo.	Eliminouse {n} punto; mantívose {kept} onde se unen tres ou máis liñas. {undo} para desfacer.|Elimináronse {n} puntos; mantivéronse {kept} onde se unen tres ou máis liñas. {undo} para desfacer.
+	Deletes the selected items and folders (Delete)	Elimina os elementos e cartafoles seleccionados (Supr)
+	Deleting a preset can't be undone	Non é posíbel desfacer a eliminación dunha predefinición
+	Descending: click for ascending	Descendente: prema para ascendente
+	Deselected {name}	Deseleccionouse {name}
+	Desktop app (source)	Aplicación de escritorio (código fonte)
+	Discard Autosaved Document	Descartar o documento gardado automaticamente
+	Discard {name}…	Descartar {name}…
+	Discarded the autosaved copy	Descartouse a copia gardada automaticamente
+	Discarding deletes this work for good. This cannot be undone.	Ao descartar elimínase este traballo definitivamente. Isto non se pode desfacer.
+	Discard…	Descartar…
+	Distribute Horizontal Centers	Distribuír centros horizontais
+	Distribute Vertical Centers	Distribuír centros verticais
+	Document class	Clase do documento
+	Document Info	Información do documento
+	Document Settings	Axustes do documento
+	Documents you open or save show here, with a picture of their first frame.	Os documentos que abra ou garde móstranse aquí, cunha imaxe do seu primeiro fotograma.
+@plural	Doesn't run: {n} problem|Doesn't run: {n} problems	Non se executa: {n} problema|Non se executa: {n} problemas
+	Don't ask again this session	Non volver preguntar nesta sesión
+	Don't close gaps	Non pechar ocos
+	Dot spacing	Espazamento de puntos
+	dots are round	os puntos son redondos
+	Down: the button while it is pressed	Premido: o botón mentres estea premido
+	Downloading and verifying the update…	Descargando e verificando a actualización…
+	Drag	Arrastrar
+	Drag a corner or edge to scale (Shift keeps proportions, Alt scales from the centre), just outside a corner to rotate (Shift snaps 15°), inside to move.	Arraste unha esquina ou bordo para escalar (Maiús mantén as proporcións, Alt escala desde o centro), xusto fóra dunha esquina para rotar (Maiús axusta a 15°), dentro para mover.
+	Drag a key up or down to change it, or a handle to shape the ease. Double-click to add a key.	Arraste unha clave cara a arriba ou cara a abaixo para cambiala, ou un tirador para darlle forma ao suavizado. Faga dobre clic para engadir unha clave.
+	Drag Bone	Arrastrar oso
+	Drag bones or instances with the Selection tool to pose; a pose at another frame keys it, and poses tween.	Arraste osos ou instancias coa ferramenta de selección para definir a pose; unha pose noutro fotograma crea un fotograma clave, e as poses interpólanse.
+	Drag from one symbol instance to another to join them with a bone (they move to an armature layer); start on a bone's end to continue the chain. Click a bone to select it. Pose the armature by dragging bones or instances with the Selection tool.	Arraste desde unha instancia de símbolo ata outra para unilas cun oso (móvense a unha capa de armadura); comece no extremo dun oso para continuar a cadea. Faga clic nun oso para seleccionalo. Defina a pose da armadura arrastrando osos ou instancias coa ferramenta de selección.
+	Drag from the centre to draw a star.	Arraste desde o centro para debuxar unha estrela.
+	Drag on the stage to pan the camera, drag the round handle to turn it, and use the wheel to zoom (each drag is one undo step). Picking the tool adds a camera if the scene has none.	Arraste no escenario para desprazar a cámara, arraste o tirador redondo para xirala e use a roda para facer zoom (cada arrastre é un paso de desfacer). Ao escoller a ferramenta engádese unha cámara se a escena non ten ningunha.
+	Drag to choose how many frames onion skin shows before and after the playhead	Arraste para escoller cantos fotogramas mostra a pel de cebola antes e despois da cabeza de reprodución
+	Drag to choose the frames onion skin shows (anchored: they stay when the playhead moves)	Arraste para escoller os fotogramas que mostra a pel de cebola (ancorados: mantéñense cando a cabeza de reprodución se move)
+	Drag to draw a line. Shift snaps to 45°.	Arraste para debuxar unha liña. Maiús axusta a 45°.
+	Drag to draw a rectangle. Shift draws a square.	Arraste para debuxar un rectángulo. Maiús debuxa un cadrado.
+	Drag to draw an oval. Shift draws a circle.	Arraste para debuxar un óvalo. Maiús debuxa un círculo.
+	Drag to draw freehand. The options bar sets Smooth, Straighten or Ink.	Arraste para debuxar a man alzada. A barra de opcións estabelece Suave, Enderezar ou Tinta.
+	Drag to erase lines and fills drawn with Object Drawing off (drawing objects and symbols are kept). [ and ] change the size; the options set the shape and erase mode, and the Faucet deletes a whole fill or line with a click. Double-click the tool to erase everything on the stage.	Arraste para borrar liñas e recheos debuxados con Debuxo de obxecto desactivado (mantéñense os obxectos de debuxo e os símbolos). [ e ] cambian o tamaño; as opcións estabelecen a forma e o modo de borrado, e o Grifo elimina un recheo ou liña completos cun clic. Faga dobre clic na ferramenta para borrar todo no escenario.
+	Drag to paint filled shapes in the fill colour (a click paints a dab). [ and ] change the size; the options set the shape, smoothing and paint mode.	Arraste para pintar formas recheas na cor de recheo (un clic aplica unha pincelada). [ e ] cambian o tamaño; as opcións estabelecen a forma, o suavizado e o modo de pintura.
+	Drag to pan the stage. Space works with any tool.	Arraste para desprazar o escenario. Espazo funciona con calquera ferramenta.
+	Dragged points and selections snap to points, lines and fill edges within 10 pixels (the magnet under the tools)	Os puntos e seleccións arrastrados axústanse a puntos, liñas e bordos de recheo a menos de 10 píxeles (o imán baixo as ferramentas)
+	Draw onion frames as outlines only	Debuxar os fotogramas da pel de cebola só como contornos
+	Draw the layer's artwork as outlines in its colour, on the stage only (never in the movie or an export)	Debuxar a arte da capa como contornos na súa cor, só no escenario (nunca na película ou nunha exportación)
+	Draw where each button answers the pointer (its Hit frame) over the movie	Debuxar onde cada botón responde ao punteiro (o seu fotograma Área de clic) sobre a película
+	Drawing	Debuxo
+	Drawing on {adapter}, straight into the window.	Debuxando en {adapter}, directamente na ventá.
+	Drawing on {adapter}, then copied to the window (slower: the window's graphics device can't be shared).	Debuxando en {adapter}, despois copiado na ventá (máis lento: non é posíbel compartir o dispositivo gráfico da ventá).
+	Drawing, image or sound	Debuxo, imaxe ou son
+	Draws the stage on the graphics card, and on the CPU when there is no card that can. The picture is the same either way.	Debuxa o escenario na tarxeta gráfica, e na CPU cando non hai ningunha tarxeta capaz. A imaxe é a mesma de calquera xeito.
+	Drop	Soltar
+	Drop at most {n} files at once	Solte como máximo {n} ficheiros á vez
+	Drop drawings, images and sounds on the stage or a layer's frame to place them, or on the Library to add them	Solte debuxos, imaxes e sons no escenario ou no fotograma dunha capa para colocalos, ou na Biblioteca para engadilos
+	Drop {what} on the stage or a layer's frame to place it, or on the Library to add it	Solte {what} no escenario ou no fotograma dunha capa para colocalo, ou na Biblioteca para engadilo
+	Duplicate Scene	Duplicar escena
+	Duplicate Symbol	Duplicar símbolo
+	early alpha	alfa inicial
+	Ease	Suavizado
+	Ease in (cubic)	Suavizado de entrada (cúbico)
+	Ease in (quad)	Suavizado de entrada (cuadrático)
+	Ease in-out (cubic)	Suavizado de entrada-saída (cúbico)
+	Ease in-out (quad)	Suavizado de entrada-saída (cuadrático)
+	Ease out (cubic)	Suavizado de saída (cúbico)
+	Ease out (quad)	Suavizado de saída (cuadrático)
+	Easing	Suavizado
+	Edit actions	Editar accións
+	Edit Document	Editar documento
+	Edit Envelope — {name}	Editar envolvente — {name}
+	Edit Envelope: the volume of each channel over the sound's time	Editar envolvente: o volume de cada canle ao longo da duración do son
+	Edit event	Editar evento
+	Edit Motion Path	Editar traxectoria de movemento
+	Edit Multiple Frames	Editar varios fotogramas
+	Edit Multiple Frames moves, transforms, aligns, deletes, copies and pastes artwork on several keyframes; for this, turn it off and work frame by frame.	Editar varios fotogramas move, transforma, aliña, elimina, copia e pega a arte gráfica en varios fotogramas clave; para isto, desactíveo e traballe fotograma a fotograma.
+	Edit Multiple Frames: the keyframes between the onion markers show at full strength. Select and drag artwork to move it on all of them; drag the markers on the frame ruler to choose the frames.	Editar varios fotogramas: os fotogramas clave entre os marcadores de pel de cebola móstranse con opacidade total. Seleccione e arraste a arte gráfica para movela en todos eles; arraste os marcadores na regra de fotogramas para escoller os fotogramas.
+	Edit Multiple Frames: {first}–{last}	Editar varios fotogramas: {first}–{last}
+	Edit script	Editar script
+	Edit sound envelope	Editar a envolvente de son
+	Edit Symbol	Editar símbolo
+	Edit Symbols	Editar símbolos
+	Edit Text	Editar texto
+	Edit the property curves	Editar as curvas de propiedade
+	Edit the property curves and eases	Editar as curvas de propiedade e suavizados
+	Edit what it does on clicks and the pointer ({key})	Editar o que fai nos clics e co punteiro ({key})
+	Edits show immediately; heavy scenes render in the background with an outline preview.	As edicións móstranse inmediatamente; as escenas pesadas renderízanse en segundo plano cunha vista previa de contorno.
+	Empty frame — press F7 for a blank keyframe	Fotograma baleiro — prema F7 para un fotograma clave baleiro
+	Empty text	Texto baleiro
+	Enable guides for 9-slice scaling	Activar guías para o escalado de 9 franxas
+	End the name in .webm (VP9) or .mp4 (H.264). AniCraft uses the ffmpeg on this computer.	Remate o nome en .webm (VP9) ou .mp4 (H.264). AniCraft usa o ffmpeg deste computador.
+	Engine crates (source)	Crates do motor (código fonte)
+	Enter applies · Esc cancels · one undo step	Intro aplica · Esc cancela · un paso de desfacer
+	Enter confirms · Esc cancels	Intro confirma · Esc cancela
+	Enter saves · Esc cancels	Intro garda · Esc cancela
+	Entry	Entrada
+	Entry point	Punto de entrada
+	Envelope Point	Punto de envolvente
+	Erase Everything	Borrar todo
+	Erase Everything…	Borrar todo…
+	Erase Fills	Borrar recheos
+	Erase Inside	Borrar dentro
+	Erase Lines	Borrar liñas
+	Erase mode	Modo de borrado
+	Erase Normal	Borrar normal
+	Erase Selected Fills	Borrar recheos seleccionados
+@plural	Erased everything at frame {frame} ({n} element). {undo} to undo.|Erased everything at frame {frame} ({n} elements). {undo} to undo.	Borrouse todo no fotograma {frame} ({n} elemento). {undo} para desfacer.|Borrouse todo no fotograma {frame} ({n} elementos). {undo} para desfacer.
+	Erased. {undo} to undo.	Borrouse. {undo} para desfacer.
+	Eraser size	Tamaño da goma de borrar
+	Eraser size ({keys})	Tamaño da goma de borrar ({keys})
+	Eraser size {size} px	Tamaño da goma de borrar {size} px
+	Erases fills only, leaving lines alone.	Borra só os recheos, deixando as liñas intactas.
+	Erases lines and fills on the layer.	Borra liñas e recheos na capa.
+	Erases lines only, leaving fills alone.	Borra só as liñas, deixando os recheos intactos.
+	Erases only inside the fill where the stroke starts.	Borra só dentro do recheo onde comeza o trazo.
+	Erases only the selected fills.	Borra só os recheos seleccionados.
+	Esc cancels · click the red button to proceed	Esc cancela · faga clic no botón vermello para continuar
+	Essentials	Esenciais
+	Event	Evento
+	Events	Eventos
+	Every	Cada
+	Every edit renders before the next frame. Lowest latency; can stutter on very heavy scenes.	Cada edición renderízase antes do seguinte fotograma. Menor latencia; pode trabarse en escenas moi pesadas.
+	Every frame of every scene, in order	Cada fotograma de cada escena, en orde
+	Every frame of the timeline	Cada fotograma da liña de tempo
+	Every scene, and every symbol in the Library	Cada escena e cada símbolo na Biblioteca
+	Every shortcut is back to the defaults.	Todos os atallos volveron aos valores predeterminados.
+	Every symbol in the Library, with what is inside it	Cada símbolo na Biblioteca, co seu contido
+	Expand All Folders	Expandir todos os cartafoles
+	Export animated GIF	Exportar GIF animado
+	Export Animated GIF…	Exportar GIF animado…
+	Export animated PNG (full colour, transparent)	Exportar PNG animado (a toda cor, transparente)
+	Export Animated PNG…	Exportar PNG animado…
+	Export animated WebP (lossless, transparent)	Exportar WebP animado (sen perdas, transparente)
+	Export Animated WebP…	Exportar WebP animado…
+	Export audio (the movie's soundtrack as a WAV)	Exportar audio (a banda sonora da película como WAV)
+	Export Audio…	Exportar audio…
+	Export frame as PNG	Exportar fotograma como PNG
+	Export Frame as PNG…	Exportar fotograma como PNG…
+	Export frame as SVG	Exportar fotograma como SVG
+	Export Frame as SVG…	Exportar fotograma como SVG…
+	Export HTML canvas (one web page)	Exportar lenzo HTML (unha páxina web)
+	Export HTML Canvas…	Exportar lenzo HTML…
+	Export Lottie animation (JSON, for web and apps)	Exportar animación Lottie (JSON, para web e aplicacións)
+	Export Lottie Animation…	Exportar animación Lottie…
+	Export PNG sequence to folder	Exportar secuencia PNG a un cartafol
+	Export PNG Sequence…	Exportar secuencia PNG…
+	Export sprite sheet (PNG + JSON frame map)	Exportar folla de sprites (PNG + mapa de fotogramas JSON)
+	Export Sprite Sheet…	Exportar folla de sprites…
+	Export video (.webm or .mp4, made with your ffmpeg)	Exportar vídeo (.webm ou .mp4, xerado co seu ffmpeg)
+	Export Video…	Exportar vídeo…
+@plural	Exported {n} frame to {path} ({columns}×{rows} grid) and its frame map {map}|Exported {n} frames to {path} ({columns}×{rows} grid) and its frame map {map}	Exportouse {n} fotograma a {path} (grade de {columns}×{rows}) e o seu mapa de fotogramas {map}|Exportáronse {n} fotogramas a {path} (grade de {columns}×{rows}) e o seu mapa de fotogramas {map}
+@plural	Exported {path} ({n} frame, {kb} KB).|Exported {path} ({n} frames, {kb} KB).	Exportouse {path} ({n} fotograma, {kb} KB).|Exportouse {path} ({n} fotogramas, {kb} KB).
+@plural	Exported {path} ({n} frame, {kb} KB): open it in a web browser.|Exported {path} ({n} frames, {kb} KB): open it in a web browser.	Exportouse {path} ({n} fotograma, {kb} KB): ábrao nun navegador web.|Exportouse {path} ({n} fotogramas, {kb} KB): ábrao nun navegador web.
+@plural	Exported {path} ({n} frame, {layers} layers).|Exported {path} ({n} frames, {layers} layers).	Exportouse {path} ({n} fotograma, {layers} capas).|Exportouse {path} ({n} fotogramas, {layers} capas).
+	Exported {path} ({secs} s).	Exportouse {path} ({secs} s).
+	Exported {path} ({secs} s). No sounds play in that range, so the file is silent.	Exportouse {path} ({secs} s). Non se reproduce ningún son nese intervalo, polo que o ficheiro está en silencio.
+	Extra start gap	Espazo inicial adicional
+	Fade by Distance	Atenuar por distancia
+	Fade in	Aparecer gradualmente
+	Fade left to right	Transición de esquerda a dereita
+	Fade out	Desaparecer gradualmente
+	Fade right to left	Transición de dereita a esquerda
+	Failed	Fallou
+	Falls from full volume to silence while it plays	Baixa do volume total ao silencio mentres se reproduce
+	Faucet	Grifo
+	File dialogs	Cadros de diálogo de ficheiro
+	File › Save as Template keeps the open document here, with a picture, to start from again.	Ficheiro › Gardar como modelo mantén o documento aberto aquí, cunha imaxe, para comezar de novo a partir del.
+	File › Start Screen brings it back	Ficheiro › Pantalla de inicio tráeo de volta
+	Files go beside the document, in {folder}	Os ficheiros van a carón do documento, en {folder}
+	Files go to your downloads (several as one ZIP).	Os ficheiros van ás súas descargas (varios nun único ZIP).
+	Fill Colour	Cor de recheo
+	Fill colour	Cor de recheo
+	Fill on/off	Activar/desactivar recheo
+	Filled the area. {undo} to undo.	Encheuse a área. {undo} para desfacer.
+	Fills	Recheos
+	Filter blur	Desenfoque do filtro
+	Filter by name or key…	Filtrar por nome ou tecla…
+	Filter colour	Cor do filtro
+	Filter fonts	Filtrar tipos de letra
+	Filter fonts…	Filtrar tipos de letra…
+	Filter offset	Desprazamento do filtro
+	Filter options	Opcións de filtro
+	Filter quality	Calidade do filtro
+	Filter shortcuts	Filtrar atallos
+	Filter strength	Intensidade do filtro
+	Filter type	Tipo de filtro
+	Filters	Filtros
+	Find Previous	Buscar anterior
+	First frame	Primeiro fotograma
+	Fit in Window	Axustar á xanela
+	Fit in window	Axustar á xanela
+	Fit Stage in Window	Axustar o escenario á xanela
+	Fit stage in window	Axustar o escenario á xanela
+	Fits smooth curves to the stroke, keeping sharp corners.	Axusta curvas suaves ao trazo, mantendo os cantos agudos.
+	fixed	fixo
+@plural	Folder · {n} item|Folder · {n} items	Cartafol · {n} elemento|Cartafol · {n} elementos
+@plural	Folder · {n} layer|Folder · {n} layers	Cartafol · {n} capa|Cartafol · {n} capas
+	Folders and guide layers don't run actions. Pick another layer in the timeline.	Os cartafoles e as capas guía non executan accións. Escolla outra capa na liña de tempo.
+	Folders hold layers, not frames. Hiding or locking the folder hides or locks everything in it; move layers in under it with Up and Down.	Os cartafoles conteñen capas, non fotogramas. Ocultar ou bloquear o cartafol oculta ou bloquea todo o que hai nel; mova as capas para dentro del con Arriba e Abaixo.
+	Follow system	Seguir o sistema
+	Follows the hand closely with little smoothing.	Segue de preto o movemento da man con pouco suavizado.
+	Font to find	Tipo de letra a buscar
+	Font to replace with	Tipo de letra polo que substituír
+	Font “{name}” is not installed; using the bundled font	O tipo de letra “{name}” non está instalado; estase a usar o tipo de letra integrado
+	Font: emoji-icon-font (MIT)	Tipo de letra: emoji-icon-font (MIT)
+	Font: Hack (MIT, Bitstream Vera)	Tipo de letra: Hack (MIT, Bitstream Vera)
+	Font: Noto Emoji (SIL OFL 1.1)	Tipo de letra: Noto Emoji (SIL OFL 1.1)
+	Font: Ubuntu Light (Ubuntu Font Licence 1.0)	Tipo de letra: Ubuntu Light (Ubuntu Font Licence 1.0)
+	Formats	Formatos
+	Frame Label	Etiqueta de fotograma
+	Frame label	Etiqueta de fotograma
+	Frame labels	Etiquetas de fotograma
+	Frame labels survive frames being added or moved	As etiquetas de fotograma consérvanse aínda que se engadan ou movan fotogramas
+	Frame number	Número de fotograma
+	Frame rate	Velocidade de fotogramas
+	Frame rate, and the time the last picture took to draw	Velocidade de fotogramas e o tempo que levou debuxar a última imaxe
+	Frame script	Script de fotograma
+	Frame script set — {undo} to undo	Script de fotograma definido — {undo} para desfacer
+	Frame scripts and instance actions	Scripts de fotograma e accións de instancia
+	Frame to publish	Fotograma a publicar
+	Frame view	Vista de fotogramas
+	Frame view: frame width and row height	Vista de fotogramas: largura do fotograma e altura da fila
+	Frame zoom	Zoom de fotogramas
+	Frame zoom: frame width (Ctrl+wheel over the frames)	Zoom de fotogramas: largura do fotograma (Ctrl+roda sobre os fotogramas)
+	Frame {a}	Fotograma {a}
+	Frame {frame}	Fotograma {frame}
+	Frame {frame} is empty on this layer. Add a blank keyframe ({key}) to give it actions.	O fotograma {frame} está baleiro nesta capa. Engada un fotograma clave baleiro ({key}) para lle asignar accións.
+	Frame {frame} · point {anchor} of the motion path: drag to move the point	Fotograma {frame} · punto {anchor} da traxectoria de movemento: arrastre para mover o punto
+	Frame {frame} · {layer} · {what}	Fotograma {frame} · {layer} · {what}
+	Frame {frame} · {seconds} s · X {x} Y {y} · {keys}	Fotograma {frame} · {seconds} s · X {x} Y {y} · {keys}
+	Frame {frame}: {label}	Fotograma {frame}: {label}
+	frame {number}	fotograma {number}
+	Frames	Fotogramas
+	Frames farther from the playhead are fainter	Os fotogramas máis afastados da cabeza de reprodución son máis tenues
+	Frames here don't run (graphic and button timelines, guide layers); the script is kept with the document.	Os fotogramas aquí non se executan (liñas de tempo de gráficos e botóns, capas guía); o script mantense co documento.
+	Frames in a grid on one PNG, with a JSON frame map beside it.	Fotogramas nunha grella nun único PNG, cun mapa de fotogramas JSON ao seu carón.
+	Frames of {name}	Fotogramas de {name}
+	Frames that repeat the one before are stored once, shown longer.	Os fotogramas que repiten o anterior almacénanse unha soa vez e móstranse durante máis tempo.
+	Frames {a}–{b}	Fotogramas {a}–{b}
+	Front, three-quarter, side and back views side by side, on head-height guides eight heads tall	Vistas frontal, de tres cuartos, lateral e traseira lado a lado, en guías de altura de oito cabezas de alto
+	Full HD video	Vídeo Full HD
+	Full volume on both channels	Volume total en ambos os canais
+	Gap length	Lonxitude do oco
+	Gap size	Tamaño do oco
+	Get Layer Properties	Obter propiedades da capa
+	Give every property's segment at this frame this ease	Aplique este suavizado ao segmento de cada propiedade neste fotograma
+	Glow options	Opcións de resplandor
+	Go to	Ir para
+	Go to and play	Ir para e reproducir
+	Go to and stop	Ir para e deter
+	Go to First Frame	Ir para o primeiro fotograma
+	Go to Found Item	Ir para o elemento atopado
+	Go to Frame	Ir para o fotograma
+	Go to Last Frame	Ir para o último fotograma
+	Go to Scene	Ir para a escena
+	Go to the next result	Ir para o seguinte resultado
+	Go to the previous result	Ir para o resultado anterior
+	GPU starting	Iniciando a GPU
+	gradient	degradado
+	Gradient Bevel	Bisel de degradado
+	Gradient Glow	Resplandor de degradado
+	Graphic: missing	Gráfico: ausente
+	Graphic: {name}	Gráfico: {name}
+	Graphics card (GPU)	Tarxeta gráfica (GPU)
+	Graphite	Grafito
+	Green multiplier	Multiplicador de verde
+	Green offset	Desprazamento de verde
+	Guide	Guía
+	Guide layer	Capa guía
+	Guided	Guiada
+	Guides x	Guías x
+	Guides y	Guías y
+	HD video	Vídeo HD
+	Heard for {time} ({why}). Presets are shaped over this time; editing one makes it Custom.	Escóitase durante {time} ({why}). As predefinicións axústanse ao longo deste tempo; editar unha convértea en Personalizada.
+	Hide object	Ocultar obxecto
+	High contrast	Alto contraste
+	High contrast while the system asks for more contrast (it does now), graphite otherwise.	Alto contraste mentres o sistema solicite máis contraste (agora solicítao), grafito en caso contrario.
+	High contrast while the system asks for more contrast (it doesn't now), graphite otherwise.	Alto contraste mentres o sistema solicite máis contraste (agora non o solicita), grafito en caso contrario.
+	High contrast while the system asks for more contrast, graphite otherwise. This system doesn't say, so it is graphite.	Alto contraste mentres o sistema solicite máis contraste, grafito en caso contrario. Este sistema non o especifica, polo que é grafito.
+	Highlight	Destaque
+button state	Hit	Área de clic
+	Hit: the area that answers the pointer, never shown (drawn over the other states while you edit them)	Área de clic: a área que responde ao punteiro, nunca se amosa (debúxase sobre os outros estados mentres os edita)
+	Horizontal Center	Centro horizontal
+	Hover a stroke to see its width points. Drag a point's handle to widen or narrow the stroke there (Alt: one side only), drag its dot to slide it along, or drag anywhere on the stroke to add a point. Click a point and press Delete to remove it.	Pase o punteiro sobre un trazo para ver os seus puntos de largura. Arraste o tirador dun punto para alargar ou estreitar o trazo nese punto (Alt: só por un lado), arraste o seu punto para deslizalo ou arraste en calquera parte do trazo para engadir un punto. Prema nun punto e prema Delete para eliminalo.
+	How corners turn: sharp (Miter), rounded, or cut across (Bevel)	Como viran as esquinas: agudas (inglete), redondeadas ou cortadas (bisel)
+	How far behind the stage this layer is: when the camera pans, a deeper layer moves less (parallax). Negative is in front.	A que distancia detrás do escenario está esta capa: cando a cámara fai unha panorámica, unha capa máis profunda móvese menos (paralaxe). Un valor negativo sitúaa diante.
+	How much the stroke is smoothed: 0 follows the hand closely	Canto se suaviza o trazo: 0 segue de preto o movemento da man
+	How open ends finish: flat at the end (None), rounded, or squared off past it	Como rematan os extremos abertos: planos no final (Ningún), redondeados ou cadrados máis alá del
+	How the stroke's width varies along it. Shape it by hand with the Width tool (U).	Como varía a largura do trazo ao longo del. Déalle forma a man coa ferramenta de largura (U).
+	HTML canvas	Lenzo HTML
+	Icons: Lucide (ISC)	Iconas: Lucide (ISC)
+	If AniCraft closes unexpectedly, the next start offers to restore it. Copies stay in the settings folder, never over your files, and go away when you save.	Se o AniCraft pecha de forma inesperada, o seguinte inicio ofrecerá restauralo. As copias permanecen no cartafol de configuración, nunca sobre os seus ficheiros, e desaparecen cando garde.
+	If you don't save, your changes since the last save will be lost.	Se non garda, perderanse os cambios desde o último gardado.
+	Image added to the Library	Imaxe engadida á biblioteca
+	Immediate	Inmediato
+	Import Dropped Files	Importar ficheiros soltos
+	Import to library (WAV, OGG or MP3 sound; PNG or JPEG image)	Importar á biblioteca (son WAV, OGG ou MP3; imaxe PNG ou JPEG)
+	Import to Library…	Importar á biblioteca…
+	Import to stage (SVG, PNG or JPEG; WAV, OGG or MP3 onto a new layer)	Importar ao escenario (SVG, PNG ou JPEG; WAV, OGG ou MP3 nunha nova capa)
+	Import to Stage…	Importar ao escenario…
+	in	pol
+	In {folder}	En {folder}
+	Include sound	Incluír son
+	Include sounds	Incluír sons
+	Ink	Tinta
+	Ink Bottle	Bote de tinta
+	Inner	Interior
+	Insert blank keyframe (F7)	Inserir fotograma clave baleiro (F7)
+	Insert frame (F5)	Inserir fotograma (F5)
+	Insert keyframe (F6)	Inserir fotograma clave (F6)
+	Inside and outside the edge	Dentro e fóra do bordo
+	Inside the artwork's edge	Dentro do bordo da arte
+	Inside the editor: a web page can't open a window of its own	Dentro do editor: unha páxina web non pode abrir unha xanela propia
+	Inside the editor: this system can't open another window for it	Dentro do editor: este sistema non pode abrir outra xanela para iso
+	Install plug-in (.wasm file)	Instalar complemento (ficheiro .wasm)
+	Installed {name} {version} — find it in Commands › Plug-ins	Instalouse {name} {version} — atópeo en Comandos › Complementos
+	Instance	Instancia
+	Instance Name	Nome da instancia
+	Instance name	Nome da instancia
+	instance name	nome da instancia
+	Instance names	Nomes de instancia
+	Inter + Hack (fallback)	Inter + Hack (reserva)
+	Inter + JetBrains Mono (craft-fonts, {size} KB)	Inter + JetBrains Mono (craft-fonts, {size} KB)
+	Interface font	Tipo de letra da interface
+	Interface scale	Escala da interface
+	It is an independent project, not affiliated with or endorsed by Adobe. Bundled fonts and Rust crates keep their own permissive licences, listed below.	É un proxecto independente, non afiliado nin avalado por Adobe. Os tipos de letra integrados e os crates de Rust manteñen as súas propias licenzas permisivas, listadas embaixo.
+	it is larger than {size} MB	é maior que {size} MB
+	Item to find	Elemento a buscar
+	Item to replace with	Elemento polo que substituír
+	Its actions run on the timeline it is on: “this” is the main timeline.	As súas accións execútanse na liña de tempo na que se atopa: “this” é a liña de tempo principal.
+	Joint Limits	Límites da articulación
+	Joint maximum angle	Ángulo máximo da articulación
+	Joint minimum angle	Ángulo mínimo da articulación
+	Keep	Manter
+	Keep a recovery copy of unsaved work	Manter unha copia de recuperación do traballo non gardado
+	Keep it at the top of the list	Manter no alto da lista
+	Keep the markers on their frames instead of moving them with the playhead	Manter os marcadores nos seus fotogramas en vez de movelos coa cabeza de reprodución
+	Keep these settings as a preset you can apply to any document	Manter esta configuración como unha predefinición que pode aplicar a calquera documento
+	Keeps step with the timeline it is on (looping options below)	Segue o compás da liña de tempo na que está (opcións de bucle máis abaixo)
+	Kept the autosaved work. File › Recover Autosaved Documents… brings it back.	Mantívose o traballo gardado automaticamente. Ficheiro › Recuperar documentos gardados automaticamente… tráeo de volta.
+	Kept with the document as written. ActionScript 3.0 that controls the timeline runs in Test Movie and the HTML canvas export.	Consérvase co documento tal como está escrito. O ActionScript 3.0 que controla a liña de tempo execútase en Probar película e na exportación a lenzo HTML.
+	Kept with the document, but outside the ActionScript 3.0 subset AniCraft runs (or on a timeline that doesn't run scripts). The first Output lines say why; the Actions panel shows each problem in place.	Consérvase co documento, mais fóra do subconxunto de ActionScript 3.0 que executa AniCraft (ou nunha liña de tempo que non executa scripts). As primeiras liñas de Saída indican o motivo; o panel Accións amosa cada problema no seu lugar.
+	Keyboard shortcuts (this editor)	Atallos de teclado (este editor)
+	keyed	con clave
+	Keyframe	Fotograma clave
+	keyframe	fotograma clave
+	Keyframe at {frame} · {frames} · {elements}	Fotograma clave en {frame} · {frames} · {elements}
+	Keyframes Only	Só fotogramas clave
+	Keys go to the movie	As teclas van para a película
+	Knockout	Baleirado
+left channel	L	E
+	label “{label}”	etiqueta “{label}”
+	Last frame	Último fotograma
+	Later keeps them: File › Recover Autosaved Documents… brings this back.	Máis tarde consérvaos: Ficheiro › Recuperar documentos gardados automaticamente… tráeo de volta.
+	Layer Colour	Cor da capa
+	Layer colour	Cor da capa
+	Layer colour as hex	Cor da capa en hex
+	Layer colour {hex}	Cor da capa {hex}
+	Layer colour: its outlines and its bar on the timeline	Cor da capa: os seus contornos e a súa barra na liña de tempo
+	Layer Depth	Profundidade da capa
+	Layer depth	Profundidade da capa
+	Layer Height	Altura da capa
+	Layer height	Altura da capa
+	Layer name	Nome da capa
+	Layer names	Nomes de capa
+	Layer names, menus and dialog text read like this.	Os nomes de capa, os menús e o texto dos cadros de diálogo lense así.
+	Layer Properties	Propiedades da capa
+	Layer Type	Tipo de capa
+	Layer Volume	Volume da capa
+	Layer volume	Volume da capa
+	Layer {layer}	Capa {layer}
+	Layer {layer} · x {x}, y {y} · {w} × {h} px	Capa {layer} · x {x}, y {y} · {w} × {h} px
+	Layers and frames	Capas e fotogramas
+	Leaderboard banner	Báner leaderboard
+	Left 9-slice guide	Guía esquerda de 9 franxas
+	Left channel	Canle esquerda
+	Left channel volume	Volume da canle esquerda
+	Left out {files}: {why}	{files} deixados fóra: {why}
+	Legal compliance	Conformidade legal
+	Length of each dash	Lonxitude de cada trazo
+	Length of each gap	Lonxitude de cada espazo
+	Let it move down the list again	Permitir que se mova cara abaixo na lista de novo
+	Letter spacing	Espazamento entre letras
+	Letters	Letras
+	Library (top level)	Biblioteca (nivel superior)
+	Library folder	Cartafol da biblioteca
+	Library name	Nome na biblioteca
+	Library options	Opcións da biblioteca
+	Library: drop here for the top level	Biblioteca: solte aquí para o nivel superior
+	Licenses & Notices	Licenzas e avisos
+	Like Event, but not if the sound is already playing	Coma Evento, pero non se o son xa se está a reproducir
+	Limit how far the joint turns, in every pose	Limitar canto xira a articulación, en cada pose
+	Limits	Límites
+	Line {line}, column {column}: {message}	Liña {line}, columna {column}: {message}
+	Linear gradient	Gradiente lineal
+	Lines written	Liñas escritas
+	Linkage class	Clase de vinculación
+	Linux / BSD	Linux / BSD
+	Lip-sync mouth chart	Táboa de bocas para sincronía labial
+	List a colour effect style's properties here; keying one adds it to the tween	Liste aquí as propiedades dun estilo de efecto de cor; engadir un fotograma clave a unha delas engádea á interpolación
+	List Actions	Listar accións
+	List Frame Scripts	Listar scripts de fotograma
+	List Library	Listar biblioteca
+	List Templates	Listar modelos
+	Lock {name}	Bloquear {name}
+	Lock/Unlock Layer	Bloquear/desbloquear capa
+	Look in	Buscar en
+	Loop	Bucle
+	Loop forever	Repetir indefinidamente
+	Loop Playback	Reprodución en bucle
+	Loop playback	Reproducir en bucle
+	Looping	Bucle
+@plural	looping to the end of the movie, {n} frame on|looping to the end of the movie, {n} frames on	en bucle ata o final da película, {n} fotograma adiante|en bucle ata o final da película, {n} fotogramas adiante
+	Lottie	Lottie
+	Lottie animation	Animación Lottie
+	macOS	macOS
+	Main timeline frame	Fotograma da liña de tempo principal
+	Make Corner	Converter en esquina
+	Make Smooth	Converter en suave
+	Manage Plug-ins…	Xestionar os plug-ins…
+	Markers	Marcadores
+	Mask layer	Capa de máscara
+	Mask layer: its fills reveal the masked layers below. Lock it to hide its outline.	Capa de máscara: os seus recheos revelan as capas enmascaradas inferiores. Bloquéea para ocultar o seu contorno.
+	Masked	Enmascarada
+	Match case	Coincidir maiúsculas e minúsculas
+	memory only	só na memoria
+	Menus, panels and dialogs. Your documents, layer names and the command line stay as they are.	Menús, paneis e cadros de diálogo. Os seus documentos, os nomes de capa e a liña de ordes permanecen como están.
+	Merge on Multiple Frames	Combinar en varios fotogramas
+	Merge Shapes	Combinar formas
+	Message	Mensaxe
+	Middle-drag	Arrastre co botón central
+	missing bitmap	mapa de bits ausente
+	Miter	Inglete
+	Miter limit	Límite de inglete
+	mixed	mixto
+	More…	Máis…
+	Morph this keyframe's shapes into the next keyframe's	Transformar as formas deste fotograma clave nas do seguinte fotograma clave
+	Morphs one shape into another	Transforma unha forma noutra
+	Motion Editor	Editor de movemento
+	Motion path start X	X inicial da traxectoria de movemento
+	Motion path start Y	Y inicial da traxectoria de movemento
+	Motion Tween	Interpolación de movemento
+	Motion tween	Interpolación de movemento
+	motion tween	interpolación de movemento
+	Move 9-Slice Guide	Mover a guía de 9 franxas
+	Move Armature	Mover armadura
+	Move Camera	Mover cámara
+	Move colour stop	Mover o punto de parada de cor
+	Move down	Mover cara abaixo
+	Move Envelope Point	Mover punto de envolvente
+	Move Handle	Mover tirador
+	Move Keyframes	Mover fotogramas clave
+	Move Layer Down	Mover capa cara abaixo
+	Move layer down	Mover capa cara abaixo
+	Move Layer Up	Mover capa cara arriba
+	Move layer up	Mover capa cara arriba
+	Move Motion Path	Mover traxectoria de movemento
+	Move on Multiple Frames	Mover en varios fotogramas
+	Move Point	Mover punto
+	Move Points	Mover puntos
+	Move Scene Earlier	Mover escena para antes
+	Move Scene Later	Mover escena para despois
+	Move Shape Hint	Mover punto de control de forma
+	Move the playhead between frames {first} and {last}, where the object moves along the path	Mova a cabeza de reprodución entre os fotogramas {first} e {last}, onde o obxecto se move ao longo da traxectoria
+	Move to	Mover a
+	Move to Folder	Mover ao cartafol
+	Move up	Mover cara arriba
+@plural	Moved {frames} {n} layer down — {undo} to undo|Moved {frames} {n} layers down — {undo} to undo	{frames} movido {n} capa cara abaixo — {undo} para desfazer|{frames} movido {n} capas cara abaixo — {undo} para desfazer
+@plural	Moved {frames} {n} layer up — {undo} to undo|Moved {frames} {n} layers up — {undo} to undo	{frames} movido {n} capa cara arriba — {undo} para desfazer|{frames} movido {n} capas cara arriba — {undo} para desfazer
+@plural	Moved {n} frame by {by} — {undo} to undo|Moved {n} frames by {by} — {undo} to undo	{n} fotograma movido en {by} — {undo} para desfazer|{n} fotogramas movidos en {by} — {undo} para desfazer
+	Moves from the left channel to the right while it plays	Móvese da canle esquerda para a dereita durante a reprodución
+	Moves from the right channel to the left while it plays	Móvese da canle dereita para a esquerda durante a reprodución
+	Moves, scales, rotates and recolours	Move, escala, xira e recolorea
+	Movie clip	Clip de película
+	Movie clip (unnamed)	Clip de película (sen nome)
+	Movie clip “{name}”	Clip de película “{name}”
+	Movie clip: {name}	Clip de película: {name}
+	Movie Explorer	Explorador da película
+	moving between fields	movéndose entre campos
+	Moving the object on the stage inside the span adds keys here	Mover o obxecto no escenario dentro do intervalo engade fotogramas clave aquí
+	MP3	MP3
+	Mute	Silenciar
+	Mute layer	Silenciar a capa
+	Mute this layer's sounds (in playback and every export)	Silenciar os sons desta capa (na reprodución e en todas as exportacións)
+	Mute {name}	Silenciar {name}
+	Mute/Unmute Layer	Silenciar/activar o son da capa
+	My Templates	Os meus modelos
+	My templates	Os meus modelos
+	Name it to address it from actions (letters, digits and _). Its events work without a name.	Asígnelle un nome para referencialo desde as accións (letras, díxitos e _). Os seus eventos funcionan sen un nome.
+	Never saved	Nunca gardado
+	New document from the template “{name}”	Novo documento a partir do modelo “{name}”
+	New Folder	Novo cartafol
+	New folder above the active layer (move layers in under it with Up and Down)	Novo cartafol por riba da capa activa (mova capas para dentro del con Arriba e Abaixo)
+	New from Sample	Novo a partir de mostra
+	New from template {name}	Novo a partir do modelo {name}
+	New from Template…	Novo a partir de modelo…
+	New layer	Nova capa
+	New preset name	Novo nome de predefinición
+	New Text	Novo texto
+	New {name}, {size}	Novo {name}, {size}
+	Next Frame	Seguinte fotograma
+	Next frame	Seguinte fotograma
+	Next Panel	Seguinte panel
+	Next Scene	Seguinte escena
+	Next scene	Seguinte escena
+	No actions yet. Add one: Stop on a frame holds the movie there; a button's Click can then go on.	Aínda non hai accións. Engada unha: Deter nun fotograma mantén a película aí; o clic dun botón pode logo continuar.
+	No autosaved work to recover	Non hai traballo gardado automaticamente para recuperar
+	No fonts found on this computer	Non se atoparon tipos de letra neste computador
+	No format is on in Publish Settings: turn one on first.	Non hai ningún formato activado na Configuración de publicación: active un primeiro.
+	no frame	ningún fotograma
+	No frame labels yet: name a keyframe in Properties › Label	Aínda non hai etiquetas de fotograma: asigne un nome a un fotograma clave en Propiedades › Etiqueta
+	No frame-script plug-ins are installed (Commands › Install Plug-in…)	Non hai ningún plug-in de script de fotograma instalado (Comandos › Instalar plug-in…)
+	No installer is available for this platform.	Non hai ningún instalador dispoñible para esta plataforma.
+	No panel to move to yet	Aínda non hai ningún panel ao que mover
+	No plug-ins installed yet	Aínda non hai ningún plug-in instalado
+	No plug-ins installed yet. Plug-ins are WebAssembly (.wasm) files that add commands, such as generators and selection effects.	Aínda non hai ningún plug-in instalado. Os plug-ins son ficheiros WebAssembly (.wasm) que engaden comandos, como xeradores e efectos de selección.
+	No property keyframes yet: move or change the object at a later frame to add some.	Aínda non hai fotogramas clave de propiedade: mova ou cambie o obxecto nun fotograma posterior para engadir algún.
+	No recent files yet. Documents you open or save show here.	Aínda non hai ficheiros recentes. Os documentos que abra ou garde aparecen aquí.
+	no settings folder on this system	ningún cartafol de configuración neste sistema
+	no sound output device	ningún dispositivo de saída de son
+	No sound: {error}	Sen son: {error}
+	No symbols, images or sounds yet. Select artwork and press {convert} to make a symbol, or import an image or a sound with {import}.	Aínda non hai símbolos, imaxes nin sons. Seleccione a arte e prema {convert} para crear un símbolo, ou importe unha imaxe ou un son con {import}.
+	No text uses a font yet	Ningún texto usa un tipo de letra aínda
+	none	ningún
+	not saved yet (File › Save)	aínda non gardado (Ficheiro › Gardar)
+	not selected	non seleccionado
+	not used	non usado
+	nothing (not a key)	nada (non é unha clave)
+	Nothing erased: {why}. The eraser works on lines and fills drawn with Object Drawing off; drawing objects and symbols are kept.	Nada borrado: {why}. O borrador funciona en liñas e recheos debuxados con Debuxo de obxecto desactivado; consérvanse os obxectos de debuxo e os símbolos.
+	Nothing found	Non se atopou nada
+	Nothing matches the search.	Nada coincide coa busca.
+	nothing to erase there	nada que borrar alí
+	Nothing to erase: the visible, unlocked layers are empty at this frame.	Nada que borrar: as capas visibles e desbloqueadas están baleiras neste fotograma.
+	Nothing to paint behind there: Paint Behind only paints empty areas.	Nada que pintar detrás alí: Pintar detrás só pinta áreas baleiras.
+	Nothing to show: turn on more Show buttons.	Nada que mostrar: active máis botóns Mostrar.
+	NOTICE	AVISO
+	Nudge selection 1 px	Desprazar a selección 1 px
+	Nudge selection 10 px	Desprazar a selección 10 px
+	Object Drawing	Debuxo de obxecto
+	Object drawing	Debuxo de obxecto
+	of {frames}	de {frames}
+	Off: it floats inside the editor. On Wayland the desktop places the window, so it can't open where it was last.	Desactivado: flota dentro do editor. En Wayland o escritorio posiciona a ventá, polo que non pode abrir onde estaba a última vez.
+	Off: it floats inside the editor. The window opens where it was last.	Desactivado: flota dentro do editor. A ventá abre onde estaba a última vez.
+	Off: it plays once and stops on the last frame	Desactivado: reproduce unha vez e para no último fotograma
+	Off: it plays the number of times you set, then stops on the last frame	Desactivado: reproduce o número de veces que estabeleza e logo para no último fotograma
+	Off: the movie shows at its stage size	Desactivado: o filme móstrase co tamaño do seu escenario
+	Off: transparent	Desactivado: transparente
+	Off: what is on them, straight under the scene	Desactivado: o que hai nelas, directamente baixo a escena
+	Ogg Vorbis	Ogg Vorbis
+	On click	Ao facer clic
+	On pointer out	Ao retirar o punteiro
+	On pointer over	Ao pasar o punteiro por riba
+	On press	Ao premer
+	On release	Ao soltar
+	On {event}: {actions}	En {event}: {actions}
+@plural	on {n} layer|on {n} layers	en {n} capa|en {n} capas
+	On: a click deletes the whole fill or line under it. Off: drag to erase	Activado: un clic elimina todo o recheo ou liña que estea debaixo. Desactivado: arrastre para borrar
+	On: each shape is an object of its own. Off: shapes cut and merge with the shapes they touch ({key})	Activado: cada forma é un obxecto de seu. Desactivado: as formas córtanse e fusiónanse coas formas que tocan ({key})
+	One frame as a PNG image.	Un fotograma como imaxe PNG.
+	One frame as an SVG drawing.	Un fotograma como debuxo SVG.
+	One PNG per frame, in a folder.	Un PNG por fotograma, nun cartafol.
+	One web page that plays the movie, buttons and actions included.	Unha páxina web que reproduce o filme, con botóns e accións incluídos.
+	Onion All	Pel de cebola en todo
+	Onion end marker	Marcador final de pel de cebola
+	Onion Skin	Pel de cebola
+	Onion skin	Pel de cebola
+	Onion skin is off: turn it on in the timeline header to see the frames around the playhead	A pel de cebola está desactivada: actívea na cabeceira da liña de tempo para ver os fotogramas ao redor da cabeza de reprodución
+	Onion Skin Layer	Capa de pel de cebola
+	Onion Skin On / Off	Activar / desactivar a pel de cebola
+	Onion skin on every layer again	Pel de cebola en todas as capas novamente
+	Onion skin on {name} only (Alt-click it again for every layer)	Pel de cebola só en {name} (faga Alt-clic de novo para todas as capas)
+	Onion Skin Options	Opcións de pel de cebola
+	Onion skin options	Opcións de pel de cebola
+	Onion skin options: markers, outlines, colours	Opcións de pel de cebola: marcadores, contornos, cores
+	Onion skin this layer	Pel de cebola nesta capa
+	Onion skin this layer (Alt-click: this layer only, again: every layer)	Pel de cebola nesta capa (Alt-clic: só esta capa, de novo: todas as capas)
+	Onion skin {name}	Pel de cebola en {name}
+	Onion start marker	Marcador inicial de pel de cebola
+	Onion {n}	Pel de cebola {n}
+	Onion-skin only the frames where a keyframe starts	Pel de cebola só nos fotogramas onde comeza un fotograma clave
+	Only a layer right under a mask layer can be masked	Só unha capa xusto debaixo dunha capa de máscara pode ser enmascarada
+	Only a layer right under a motion guide can be guided	Só unha capa xusto debaixo dunha guía de movemento pode ser guiada
+	Open document	Abrir documento
+	Open folder	Abrir cartafol
+	Open it as unsaved work	Abrir como traballo non gardado
+	Open or create a document first, then drop drawings, images and sounds on its stage	Abra ou cree un documento primeiro e despois solte debuxos, imaxes e sons no seu escenario
+	Open {label}	Abrir {label}
+	Open {name}	Abrir {name}
+	Open {name} (you'll be asked about unsaved changes)	Abrir {name} (preguntaráselle sobre os cambios non gardados)
+	Open {name}, pinned	Abrir {name}, fixado
+	Open-source 2D vector animation studio, written in Rust.	Estudo de animación vectorial 2D de código aberto, escrito en Rust.
+	Opened	Aberto
+	Opened document	Documento aberto
+	Opened in your system's file viewer	Aberto no visualizador de ficheiros do seu sistema
+	Opened the plug-ins folder	Abriuse o cartafol de plug-ins
+	Or after	Ou despois
+	Or drop a document anywhere on this window.	Ou solte un documento en calquera lugar desta ventá.
+	Orient to Path	Orientar pola traxectoria
+	Orient to path	Orientar pola traxectoria
+	other	outro
+	Other language	Outro idioma
+	Outer	Externo
+	Outline colour	Cor do contorno
+	Outline Layer	Capa en contorno
+	Outline {name}	Contorno de {name}
+	Outlines	Contornos
+	Outside the artwork's edge	Fóra do bordo da arte
+button state	Over	Sobre
+	Over: the button with the pointer over it	Sobre: o botón co punteiro sobre el
+	Padding	Recheo interno
+	Page title	Título da páxina
+	Paint Behind	Pintar detrás
+	Paint Bucket	Bote de pintura
+	Paint Fills	Pintar recheos
+	Paint mode	Modo de pintura
+	Paint Normal	Pintar normal
+	Paints only empty areas, behind the lines and fills on the layer.	Pinta só áreas baleiras, detrás das liñas e recheos da capa.
+	Paints over fills and empty areas, leaving lines alone.	Pinta sobre recheos e áreas baleiras, deixando as liñas intactas.
+	Paints over lines and fills on the layer.	Pinta sobre liñas e recheos na capa.
+	Pan with any tool	Desprazar con calquera ferramenta
+	Panels are docked: Tools, Stage, Timeline, Properties, Library and Movie Explorer	Os paneis están ancorados: Ferramentas, Escenario, Liña de tempo, Propiedades, Biblioteca e Explorador de películas
+	panning with any tool	desprazando con calquera ferramenta
+	Paste Frames	Pegar fotogramas
+	Paste in Center	Pegar no centro
+	Paste in Place	Pegar no mesmo lugar
+	Paste in Place on Multiple Frames	Pegar no mesmo lugar en varios fotogramas
+@plural	Pasted in place onto {n} keyframe. {undo} to undo.|Pasted in place onto {n} keyframes. {undo} to undo.	Pegado no mesmo lugar en {n} fotograma clave. {undo} para desfazer.|Pegado no mesmo lugar en {n} fotogramas clave. {undo} para desfazer.
+@plural	Pasted {n} frame — {undo} to undo|Pasted {n} frames — {undo} to undo	{n} fotograma pegado — {undo} para desfazer|{n} fotogramas pegados — {undo} para desfazer
+	Path start	Inicio da traxectoria
+	paused	en pausa
+	Pen Path	Trazado de pluma
+	Pencil Stroke	Trazo de lapis
+	Performance & budgets	Rendemento e orzamentos
+	Pick a key that has another key after it	Escolla unha clave que teña outra clave despois dela
+	Pick a size to start a new animation, or open one you made. Esc goes back to the document.	Escolla un tamaño para iniciar unha nova animación ou abra unha que fixese. Esc volve ao documento.
+	Pick a template to start a new document from. Esc goes back to the document.	Escolla un modelo para comezar un novo documento. Esc volve ao documento.
+	Pick any colour in Layer Properties	Escolla calquera cor nas Propiedades da capa
+	Picked the bitmap fill.	Recheo de mapa de bits seleccionado.
+	Picked the fill {color}.	Recheo {color} seleccionado.
+	Picked the line {color}, {width} px.	Liña {color}, {width} px seleccionada.
+	Picked the linear gradient.	Gradiente linear seleccionado.
+	Picked the radial gradient.	Gradiente radial seleccionado.
+	Picked with the Eyedropper. It stays where it was on the stage (lock fill). Pick a colour to fill with a solid colour again.	Seleccionado co contagotas. Permanece onde estaba no escenario (bloquear o recheo). Escolla unha cor para encher cunha cor sólida de novo.
+	Picked {color} into the fill colour.	{color} seleccionada como cor de recheo.
+	Picked {color} into the stroke colour.	{color} seleccionada como cor do trazo.
+	Pin	Fixar
+	Pin Bone	Fixar oso
+	Pin Here	Fixar aquí
+	Pin Motion Path Point	Fixar punto da traxectoria de movemento
+	Pin the motion path at this frame	Fixar a traxectoria de movemento neste fotograma
+	Pin to Frame {frame}	Fixar no fotograma {frame}
+	Pin to Recent Files	Fixar nos ficheiros recentes
+	Pinch	Pinzar
+	Pinned	Fixado
+	Pinned files stay	Os ficheiros fixados permanecen
+	Pinned point {anchor} to frame {frame}: the object passes it then. {undo} to undo.	Punto {anchor} fixado no fotograma {frame}: o obxecto pasa por el nese intre. {undo} para desfazer.
+	Pinned to Frame {frame}	Fixado no fotograma {frame}
+	Place on Stage	Colocar no escenario
+	Place on stage	Colocar no escenario
+	Place on Timeline	Colocar na liña de tempo
+	Place on timeline	Colocar na liña de tempo
+	Place on {layer}	Colocar en {layer}
+	Place Sound	Colocar son
+	Place {what} on {layer} at frame {frame}	Colocar {what} en {layer} no fotograma {frame}
+@plural	Placed {n} file on {layer} at frame {frame} — {undo} to undo|Placed {n} files on {layer} at frame {frame} — {undo} to undo	{n} ficheiro colocado en {layer} no fotograma {frame} — {undo} para desfazer|{n} ficheiros colocados en {layer} no fotograma {frame} — {undo} para desfazer
+@plural	Placed {n} file on {layer} at frame {frame}, in a new keyframe — {undo} to undo|Placed {n} files on {layer} at frame {frame}, in a new keyframe — {undo} to undo	{n} ficheiro colocado en {layer} no fotograma {frame}, nun novo fotograma clave — {undo} para desfazer|{n} ficheiros colocados en {layer} no fotograma {frame}, nun novo fotograma clave — {undo} para desfazer
+@plural	Placed {n} file on {layer} at frame {frame}, in the middle of the view — {undo} to undo|Placed {n} files on {layer} at frame {frame}, in the middle of the view — {undo} to undo	{n} ficheiro colocado en {layer} no fotograma {frame}, no medio da vista — {undo} para desfazer|{n} ficheiros colocados en {layer} no fotograma {frame}, no medio da vista — {undo} para desfazer
+	Play / Stop	Reproducir / Parar
+	play / stop	reproducir / parar
+	Play once	Reproducir unha vez
+	Play Test Movie in a window of its own	Executar Probar película nunha ventá propia
+	Play the sound	Reproducir o son
+	Play the sound with this envelope	Reproducir o son con esta envolvente
+	Playback	Reprodución
+	played once	reproducido unha vez
+@plural	played {n} time|played {n} times	reproducido {n} vez|reproducido {n} veces
+	Playhead	Cabeza de reprodución
+	Playhead (frame ruler)	Cabeza de reprodución (regra de fotogramas)
+	playing	reproducindo
+	Playing without sound: {e}	Reproducindo sen son: {e}
+	Plays	Reproduce
+	Plays again and again: to the end of the movie (event) or of this span (stream)	Reproduce repetidamente: ata o final da película (evento) ou deste intervalo (fluxo)
+	Plays in full from this keyframe, independent of the timeline	Reproduce por completo a partir deste fotograma clave, independentemente da liña de tempo
+	Plays its own timeline on a loop, from when it appears	Reproduce a súa propia liña de tempo en bucle, desde que aparece
+@plural	Plays its {n}-frame timeline on a loop from when it appears.|Plays its {n}-frame timeline on a loop from when it appears.	Reproduce a súa liña de tempo de {n} fotograma en bucle desde que aparece|Reproduce a súa liña de tempo de {n} fotogramas en bucle desde que aparece
+	Plays on the left channel only	Reproduce só na canle esquerda
+	Plays on the right channel only	Reproduce só na canle dereita
+	Plays the sound on its own	Reproduce o son de xeito illado
+	Plug-in	Complemento
+	Plug-in · {by}	Complemento · {by}
+	Plug-ins are installed into a folder on your computer: use the desktop app	Os complementos instálanse nun cartafol do seu computador: use o aplicativo de escritorio
+	Plug-ins run sandboxed: they can change the open document through AniCraft's commands, never your files.	Os complementos execútanse nun espazo illado: poden modificar o documento aberto a través dos comandos de AniCraft, nunca os seus ficheiros.
+	Plug-ins: {error}	Complementos: {error}
+	PNG image	Imaxe PNG
+	PNG sequence	Secuencia PNG
+	PNG sprite sheet	Folla de sprites PNG
+	Point time	Tempo do punto
+	Point {anchor} is pinned to frame {frame}: pins keep the path's order	O punto {anchor} está fixado no fotograma {frame}: as fixacións manteñen a orde da traxectoria
+	Point {anchor} shapes the path only again; the X and Y keyframes of frame {frame} go	O punto {anchor} só volve dar forma á traxectoria; elimínanse os fotogramas clave X e Y do fotograma {frame}
+	Point {index} of {count}	Punto {index} de {count}
+	Point {index} of {count}, {channel}: {level} % at {time}	Punto {index} de {count}, {channel}: {level} % en {time}
+	Pointer out	Punteiro fóra
+	Pointer over	Punteiro sobre
+	Points of the motion path pinned to frames: the object passes each one exactly then, and the X and Y keyframes there are its place. The ends are always pinned. Moving the object on the stage at a frame pins a point there; with the Subselection tool (A), right-click a point to pin or unpin it.	Puntos da traxectoria de movemento fixados aos fotogramas: o obxecto pasa por cada un exactamente nese intre, e os fotogramas clave X e Y alí son a súa posición. Os extremos sempre están fixados. Ao mover o obxecto no escenario nun fotograma, fíxase un punto alí; coa ferramenta de subselección (A), faga clic co botón dereito nun punto para fixalo ou desfixalo.
+	PolyStar	Poliestrela
+	Pose Armature	Definir pose da armadura
+	Pose Bone	Definir pose do oso
+	Position X	Posición X
+	Position Y	Posición Y
+	Press	Premer
+	Press the new keys for {action}. Esc cancels.	Prema as novas teclas para {action}. Esc cancela.
+	Pressed and released on it	Premido e soltado sobre el
+	Preview on the stage	Previsualizar no escenario
+	Preview Through Camera	Previsualizar a través da cámara
+	Preview through camera	Previsualizar a través da cámara
+	Preview through camera is on; add a camera (the camera button on the timeline, or the Camera tool) to look through it.	A previsualización a través da cámara está activada; engada unha cámara (o botón da cámara na liña de tempo ou a ferramenta Cámara) para mirar a través dela.
+	Previewing through the camera: artwork edits are paused. Turn off View › Preview Through Camera to edit.	Previsualizando a través da cámara: a edición das ilustracións está pausada. Desactive Ver › Previsualizar a través da cámara para editar.
+	Previous Frame	Fotograma anterior
+	Previous frame	Fotograma anterior
+	Previous Panel	Panel anterior
+	Previous Scene	Escena anterior
+	Previous scene	Escena anterior
+	Project Files	Ficheiros do proxecto
+	Project Files & Docs	Ficheiros e docs do proxecto
+	Project Files & Docs…	Ficheiros e docs do proxecto…
+	Project folder	Cartafol do proxecto
+	Properties…	Propiedades…
+	Property	Propiedade
+	Property curves of the motion tween at the playhead (double-click a motion span)	Curvas de propiedade da interpolación de movemento na cabeza de reprodución (faga dobre clic nun intervalo de movemento)
+	Property Ease	Suavizado de propiedade
+	Property ease	Suavizado de propiedade
+	Property Keyframe	Fotograma clave de propiedade
+	Property keyframe	Fotograma clave de propiedade
+	Publish	Publicar
+@plural	Publish cancelled after {n} format|Publish cancelled after {n} formats	Publicación cancelada despois de {n} formato|Publicación cancelada despois de {n} formatos
+	Publish report	Informe de publicación
+	Publish Settings	Configuración de publicación
+	Publish Settings…	Configuración de publicación…
+@plural	Publish the {n} format that is on|Publish the {n} formats that are on	Publicar o {n} formato que está activado|Publicar os {n} formatos que están activados
+	Publish {format}	Publicar {format}
+	Published	Publicado
+@plural	Published {n} format ({files} files)|Published {n} formats ({files} files)	Publicouse {n} formato ({files} ficheiros)|Publicáronse {n} formatos ({files} ficheiros)
+@plural	Published {n} format; {failed} failed. The report says why.|Published {n} formats; {failed} failed. The report says why.	Publicouse {n} formato; {failed} fallou. O informe indica o motivo.|Publicáronse {n} formatos; {failed} fallaron. O informe indica o motivo.
+@plural	Published {n} format; {skipped} skipped (see the report)|Published {n} formats; {skipped} skipped (see the report)	Publicouse {n} formato; {skipped} omitido (vexa o informe)|Publicáronse {n} formatos; {skipped} omitidos (vexa o informe)
+	Publishing	Publicando
+	Publishing is already running	A publicación xa se está a executar
+	Publishing is running	A publicación estase a executar
+	Put every shortcut back to the defaults	Restablecer todos os atallos aos predeterminados
+	Put on {layer} at frame {frame}	Colocar en {layer} no fotograma {frame}
+	Put {what} on {layer}'s keyframe at frame {frame}	Colocar {what} no fotograma clave de {layer} no fotograma {frame}
+	Puts it on the active layer's keyframe at the playhead (Enter, or drag it onto the stage)	Colócao no fotograma clave da capa activa na cabeza de reprodución (Intro ou arrástreo cara ao escenario)
+	Quit	Saír
+	Quit AniCraft	Saír de AniCraft
+	quitting	saíndo
+right channel	R	D
+	Radial gradient	Degradado radial
+	Raw Points	Puntos en bruto
+	Read times in frames	Ler os tempos en fotogramas
+	Read times in seconds	Ler os tempos en segundos
+	Reading the sound…	Lendo o son…
+	Recoloured the fill. {undo} to undo.	Cambiouse a cor do recheo. {undo} para desfacer.
+	Recover Autosaved Documents…	Recuperar documentos gardados automaticamente…
+	Recover unsaved work	Recuperar o traballo sen gardar
+	Rectangle banner	Báner rectangular
+	Red multiplier	Multiplicador de vermello
+	Red offset	Desprazamento de vermello
+	Redid {action}	Refíxose {action}
+	Regular expression	Expresión regular
+	Release	Soltar
+	Releases	Versións
+	Reload Plug-ins	Recargar complementos
+	Remove All Hints	Eliminar todas as indicacións
+	Remove Bone	Eliminar oso
+	Remove bone	Eliminar oso
+	Remove Camera	Eliminar cámara
+	Remove camera	Eliminar cámara
+	Remove colour stop	Eliminar punto de cor
+	Remove event	Eliminar evento
+	Remove filter	Eliminar filtro
+	Remove Frame	Eliminar fotograma
+	Remove from Recent Files	Eliminar dos ficheiros recentes
+	Remove Hint {letter}	Eliminar indicación {letter}
+	Remove Motion Path	Eliminar traxectoria de movemento
+	Remove Plug-in	Eliminar complemento
+	Remove Property Keyframe	Eliminar fotograma clave de propiedade
+	Remove script	Eliminar script
+	Remove Shape Hint	Eliminar indicación de forma
+	Remove Sound	Eliminar son
+	Remove the {property} keyframe at frame {frame}	Eliminar o fotograma clave de {property} no fotograma {frame}
+	Remove this action	Eliminar esta acción
+	Remove this colour stop	Eliminar este punto de cor
+	Remove this filter	Eliminar este filtro
+	Remove Transform	Eliminar transformación
+	Remove Tween	Eliminar interpolación
+	Remove tween	Eliminar interpolación
+	Remove {filter}	Eliminar {filter}
+	Remove {filter} colour stop	Eliminar o punto de cor de {filter}
+	Removed frame — {undo} to undo	Eliminouse o fotograma — {undo} para desfacer
+	Removed shape hint {letter}. {undo} to undo.	Eliminouse a indicación de forma {letter}. {undo} para desfacer.
+	Removed the actions — {undo} to undo	Elimináronse as accións — {undo} para desfacer
+	Removed the click event — {undo} to undo	Eliminouse o evento de clic — {undo} para desfacer
+	Removed the plug-in	Eliminouse o complemento
+	Removed the plug-in frame script — {undo} to undo	Eliminouse o script de fotograma do complemento — {undo} para desfacer
+	Removed the pointer out event — {undo} to undo	Eliminouse o evento de punteiro fóra — {undo} para desfacer
+	Removed the pointer over event — {undo} to undo	Eliminouse o evento de punteiro sobre — {undo} para desfacer
+	Removed the press event — {undo} to undo	Eliminouse o evento de premer — {undo} para desfacer
+	Removed the release event — {undo} to undo	Eliminouse o evento de soltar — {undo} para desfacer
+	Removed the script — {undo} to undo	Eliminouse o script — {undo} para desfacer
+	Removed the width point. {undo} to undo.	Eliminouse o punto de largura. {undo} para desfacer.
+	Removed {name}	Eliminouse {name}
+@plural	Removed {n} frame — {undo} to undo|Removed {n} frames — {undo} to undo	Eliminouse {n} fotograma — {undo} para desfacer|Elimináronse {n} fotogramas — {undo} para desfacer
+	Removes the bone and the bones below it; their instances stay where they are, on a layer of their own	Elimina o oso e os osos situados debaixo del; as súas instancias permanecen onde están, nunha capa propia
+	Remove…	Eliminar…
+	Rename Layer	Renomear capa
+	Rename layer	Renomear capa
+	Rename Scene	Renomear escena
+	Rename scene	Renomear escena
+	Rename Sound	Renomear son
+	render {ms} ms · tiles {ready}/{needed}	renderización {ms} ms · mosaicos {ready}/{needed}
+	render {ms} ms · {renderer} · tiles {ready}/{needed}	renderización {ms} ms · {renderer} · mosaicos {ready}/{needed}
+	Renderer	Renderizador
+	Rendering	Renderización
+	Repeat or loop	Repetir ou bucle
+	Replace All	Substituír todo
+	Replace every result, as one step you can undo	Substituír todos os resultados, nun único paso que pode desfacer
+	Replace the current result, then go to the next	Substituír o resultado actual e ir ao seguinte
+	Replace with	Substituír por
+@plural	Replaced {n} place — {undo} to undo|Replaced {n} places — {undo} to undo	Substituíuse {n} lugar — {undo} para desfacer|Substituíronse {n} lugares — {undo} para desfacer
+@plural	Replaced {n} place, left {skipped} as it was — {undo} to undo|Replaced {n} places, left {skipped} as they were — {undo} to undo	Substituíuse {n} lugar, deixouse {skipped} como estaba — {undo} para desfacer|Substituíronse {n} lugares, deixáronse {skipped} como estaban — {undo} para desfacer
+	Replacement text	Texto de substitución
+	Requirements & technology	Requisitos e tecnoloxía
+	Reset all	Restablecer todo
+	Reset all…	Restablecer todo…
+	Reset camera	Restablecer cámara
+	Reset {action}	Restablecer {action}
+@plural	Reset {n} changed shortcut to the defaults?|Reset {n} changed shortcuts to the defaults?	Restablecer {n} atallo modificado aos valores predeterminados?|Restablecer {n} atallos modificados aos valores predeterminados?
+	Resize the right-hand panels	Redimensionar os paneis da dereita
+	Resize the timeline	Redimensionar a liña de tempo
+	Restart from frame 1 with the document as it is now ({key})	Reiniciar desde o fotograma 1 co documento como está agora ({key})
+	Restore Autosaved Document	Restaurar documento gardado automaticamente
+	Restore {name}	Restaurar {name}
+	Restored “{name}” as a new document (the file on disk is newer). Save to keep it.	Restaurouse “{name}” como un novo documento (o ficheiro no disco é máis recente). Gárdeo para mantelo.
+	Restored “{name}”. It isn't saved yet: Save to keep it.	Restaurouse “{name}”. Aínda non está gardado: gárdeo para mantelo.
+	Result {n} of {total}	Resultado {n} de {total}
+	Right 9-slice guide	Guía dereita de 9 franxas
+	Right channel	Canle dereita
+	Right channel volume	Volume da canle dereita
+	Right-click	Clic co botón dereito
+	Rises from silence to full volume while it plays	Aumenta desde o silencio ata o volume total mentres se reproduce
+	Roadmap	Folla de ruta
+	Rotate 90° CCW	Xirar 90° no sentido antihorario
+	Rotate 90° CW	Rotar 90° no sentido horario
+	Rotate Camera	Rotar a cámara
+	Round	Redondeado
+	Run	Executar
+	Run Plug-in	Executar engadido
+	Runs in Test Movie and the HTML canvas export	Execútase en Probar película e na exportación a lenzo HTML
+	Run…	Executar…
+	Rust crates: licence inventory	Crates de Rust: inventario de licenzas
+	Safety	Seguranza
+	Same for all	Igual para todos
+	Sample animation	Animación de mostra
+	Sample rate	Taxa de mostraxe
+	Save changes to “{name}” before closing?	Desexa gardar os cambios en “{name}” antes de pechar?
+	Save document as	Gardar documento como
+	Save it in this category	Gardalo nesta categoría
+	Save Preset	Gardar predefinición
+	Save Template	Gardar modelo
+	Save the document first: files go beside it.	Garde o documento primeiro: os ficheiros van ao seu carón.
+	Save the document first: Publish writes its files beside it.	Garde o documento primeiro: Publicar escribe os seus ficheiros ao seu carón.
+	Save your work and stop running tasks before installing an update.	Garde o seu traballo e deteña as tarefas en execución antes de instalar unha actualización.
+	Saved documents and exports go where you type in the save box; a plain name lands in the folder AniCraft was started from.	Os documentos gardados e as exportacións van onde escriba na caixa de gardar; un nome simple irá ao cartafol desde o que se iniciou AniCraft.
+	Saved the preset “{name}”	Gardouse a predefinición “{name}”
+	Saved the template “{name}”. File › New from Template starts a document from it.	Gardouse o modelo “{name}”. Ficheiro › Novo desde modelo inicia un documento a partir del.
+	Saved {path}	Gardouse {path}
+	Saved {path} to your downloads	Gardouse {path} nas súas descargas
+	Scale height	Escalar altura
+	Scale to the browser window	Escalar á xanela do navegador
+	Scale width	Escalar largura
+	Scale X	Escala X
+	Scale Y	Escala Y
+	Scaled instances keep the corners outside the guides unscaled, stretch the edges one way and the centre both ways (for buttons and panels). Edit the symbol to drag the guides	As instancias escaladas manteñen as esquinas fóra das guías sen escalar, estiran os bordos nunha dirección e o centro en ambas as dúas direccións (para botóns e paneis). Edite o símbolo para arrastrar as guías
+	Scanning installed fonts…	Examinando as fontes instaladas…
+	Scene	Escena
+	Screenshots	Capturas de pantalla
+	Script	Script
+	Script language	Linguaxe do script
+	Scroll the timeline	Desprazar a liña de tempo
+	Scroll the timeline (or Shift+wheel anywhere over it)	Desprazar a liña de tempo (ou Maiús+roda en calquera lugar sobre ela)
+	Search for	Buscar por
+	Search the Library	Buscar na Biblioteca
+	Search the Movie Explorer	Buscar no Explorador de películas
+	Seconds	Segundos
+	Select a keyframe with a sound to edit its envelope	Seleccione un fotograma clave cun son para editar a súa envolvente
+	Select All Frames	Seleccionar todos os fotogramas
+	Select an item to preview it	Seleccione un elemento para previsualizalo
+	Select at Point	Seleccionar no punto
+	Select Connected	Seleccionar conectados
+	Select Elements	Seleccionar elementos
+	Select Layer	Seleccionar capa
+	Select one button or movie clip instance on the stage	Seleccione unha instancia de botón ou de clip de película no escenario
+	Select one button or movie clip instance on the stage to give it events (a graphic can't have them: set its symbol's Type in Properties).	Seleccione unha instancia de botón ou de clip de película no escenario para lle asignar eventos (un gráfico non pode telos: estabeleza o Tipo do seu símbolo en Propiedades).
+	Select Parts	Seleccionar partes
+	Select some artwork first	Seleccione algunha arte primeiro
+	Select the object to see its path on the stage. Drag the path to bend it and its ends to move them; {drag} the path or the object to move the whole path. With the Subselection tool (A), drag points and handles, double-click the path to add a point (or Alt-click it with the Pen), Delete removes points, and right-click makes them smooth or corners.	Seleccione o obxecto para ver a súa traxectoria no escenario. Arrastre a traxectoria para curvala e os seus extremos para movelos; {drag} a traxectoria ou o obxecto para mover toda a traxectoria. Coa ferramenta de subselección (A), arrastre puntos e tiradores, faga dobre clic na traxectoria para engadir un punto (ou prema Alt+clic coa Pluma), Delete elimina puntos e o clic co botón dereito convérteos en suaves ou esquinas.
+	Select Unused Items	Seleccionar elementos non usados
+	selected	seleccionado
+	Selected {name}	{name} seleccionado
+@plural	Selected {n} element on the frames between the markers|Selected {n} elements on the frames between the markers	{n} elemento seleccionado nos fotogramas entre os marcadores|{n} elementos seleccionados nos fotogramas entre os marcadores
+	Selection Tool Target	Destino da ferramenta de selección
+	Set Actions	Definir accións
+	Set Frame Script	Definir script de fotograma
+	Set property	Definir propiedade
+	Set Script Class	Definir clase de script
+	Set Tween Easing	Definir suavizado de interpolación
+	Shadow offset	Desprazamento da sombra
+	Shadow options	Opcións de sombra
+	Shape Hints	Indicadores de forma
+	Shape tween	Interpolación de forma
+	shape tween	interpolación de forma
+	Short	Curto
+	Show all again	Mostrar todo de novo
+	Show another bitmap from the Library here, keeping its position and transform	Mostrar outro bitmap da Biblioteca aquí, mantendo a súa posición e transformación
+	Show another symbol here, keeping position, colour effect, filters and name	Mostrar outro símbolo aquí, mantendo a posición, o efecto de cor, os filtros e o nome
+	Show Folder	Mostrar cartafol
+	Show hit areas	Mostrar áreas activas
+	Show in the Movie Explorer	Mostrar no Explorador de películas
+	Show only the effect, not the artwork	Mostrar só o efecto, non a arte
+	Show the keyframes between the markers at full strength, and select and move their artwork together	Mostrar os fotogramas clave entre os marcadores con opacidade total, e seleccionar e mover a súa arte en conxunto
+	Show the markers on the frame ruler even when onion skin is off	Mostrar os marcadores na regra de fotogramas mesmo cando a pel de cebola estea desactivada
+	Show the stage as the movie shows it (View › Preview Through Camera)	Mostrar o escenario como o mostra a película (Ver › Previsualizar a través da cámara)
+	Show the whole sound	Mostrar todo o son
+	Show this layer's frames around the playhead while onion skin is on	Mostrar os fotogramas desta capa arredor da cabeza de reprodución mentres a pel de cebola estea activada
+	Show this line in the script	Mostrar esta liña no script
+	Show this screen when AniCraft starts	Mostrar esta pantalla cando se inicie AniCraft
+	Show {name}	Mostrar {name}
+	Show/Hide Layer	Mostrar/ocultar capa
+	Shown	Mostrado
+	Shows its Up frame	Mostra o seu fotograma de repouso
+	Silence this layer's sounds while you work and in every export	Silenciar os sons desta capa mentres traballa e en todas as exportacións
+	Single frame	Fotograma único
+	Six 2-second panels at 1920 × 1080, labelled Panel 1 to 6, with action- and title-safe areas	Seis paneis de 2 segundos a 1920 × 1080, etiquetados do Panel 1 ao 6, con áreas seguras para accións e títulos
+	Skipped	Omitido
+	Smooth	Suave
+	Smooth (bezier)	Suave (Bézier)
+	Smooth when scaled or turned; off keeps hard pixel edges, for pixel art	Suavizar ao escalar ou xirar; desactivado mantén os bordos de píxel nítidos, para pixel art
+	Smoothing	Suavizado
+	Snap Point	Punto de axuste
+	Snap to Objects	Axustar aos obxectos
+	Snap to objects	Axustar aos obxectos
+	Snapping	Axuste
+	Social	Redes sociais
+	Social square	Cadrado para redes sociais
+	Solid	Sólido
+	Solid, dashed or dotted	Sólido, tracexado ou punteado
+	Some plug-ins could not be loaded: {list}	Non se puideron cargar algúns engadidos: {list}
+	Sound	Son
+	sound	son
+	Sound effect	Efecto de son
+	Sound repeat	Repetición de son
+	Sound Settings	Configuracións de son
+	Sound sync	Sincronización de son
+	Sound · {seconds} s	Son · {seconds} s
+	Sound, image or drawing	Son, imaxe ou debuxo
+	Sounds and bitmaps	Sons e bitmaps
+	Sounds on keyframes, and bitmaps	Sons en fotogramas clave e bitmaps
+	Space between the dots	Espazo entre os puntos
+	Sprite sheet	Folla de sprites
+	Square post	Publicación cadrada
+	Stage	Escenario
+	Stage colour	Cor do escenario
+	Stage colour as background	Cor do escenario como fondo
+	Stage height	Altura do escenario
+	Stage Rendering	Renderización do escenario
+	Stage size	Tamaño do escenario
+	Stage width	Largura do escenario
+	Stage · previewing through the camera · {tool} tool · frame {frame}	Escenario · previsualizando a través da cámara · ferramenta {tool} · fotograma {frame}
+	Stage · {tool} tool · frame {frame}	Escenario · ferramenta {tool} · fotograma {frame}
+@plural	Stage · {tool} tool · frame {frame} · {n} element selected {on_layers}|Stage · {tool} tool · frame {frame} · {n} elements selected {on_layers}	Escenario · ferramenta {tool} · fotograma {frame} · {n} elemento seleccionado {on_layers}|Escenario · ferramenta {tool} · fotograma {frame} · {n} elementos seleccionados {on_layers}
+@plural	Stage · {tool} tool · frame {frame} · {n} element selected|Stage · {tool} tool · frame {frame} · {n} elements selected	Escenario · ferramenta {tool} · fotograma {frame} · {n} elemento seleccionado|Escenario · ferramenta {tool} · fotograma {frame} · {n} elementos seleccionados
+	Star points	Puntas da estrela
+	Start	Iniciar
+	Start a bone on a symbol instance (convert artwork with F8), then drag to the instance it moves.	Inicie un oso nunha instancia de símbolo (converta a arte con F8), despois arrastre ata a instancia que move.
+	Start Screen	Pantalla de inicio
+	Starting the graphics card…	Iniciando a tarxeta gráfica…
+	Step one frame	Avanzar un fotograma
+	Stereo	Estéreo
+	Stop after the frame being made; formats not started don't run	Parar despois do fotograma que se está a xerar; os formatos non iniciados non se executan
+	Stop colour (this stop stays transparent)	Cor do punto de parada (este punto permanece transparente)
+	Stop the preview	Deter a previsualización
+	stopped	detido
+	Stopping…	Detendo…
+	Stops this sound	Interrompe este son
+	Storyboard	Storyboard
+	Storyboard 16:9	Storyboard 16:9
+	Straight	Recto
+	Straighten	Endereitar
+	Straighten motion path	Endereitar a traxectoria de movemento
+	Straighten Path	Endereitar traxectoria
+	Stream	Fluxo
+	Stroke cap	Extremo do trazo
+	Stroke colour	Cor do trazo
+	Stroke join	Unión do trazo
+	Stroke on/off	Activar/desactivar trazo
+	Stroke Style	Estilo do trazo
+	Stroke style	Estilo do trazo
+	Stroke width	Largura do trazo
+	Stroke width profile	Perfil de largura do trazo
+	Strokes	Trazos
+	Subselect	Subseleccionar
+	Subselect Rectangle	Rectángulo de subselección
+	Subselection	Subselección
+	SVG image	Imaxe SVG
+	Swap Bitmap	Substituír bitmap
+	Swap Symbol	Substituír símbolo
+	Swap…	Substituír…
+	Symbol definitions	Definicións de símbolo
+	Symbol instance	Instancia de símbolo
+	Symbol name	Nome do símbolo
+	Symbol Type	Tipo de símbolo
+	Symbol type	Tipo de símbolo
+	Symbol: {name}	Símbolo: {name}
+	Sync	Sincronización
+	System language ({name})	Idioma do sistema ({name})
+	Take it off the list	Retirar da lista
+	Taper both ends	Afusar ambos os extremos
+	Taper end	Afusar o extremo final
+	Taper start	Afusar o extremo inicial
+	Template category	Categoría de modelo
+	Template deleted	Modelo eliminado
+	Template name	Nome do modelo
+	Test Movie	Probar película
+	Test Movie — {name}	Probar película — {name}
+	Text alignment	Aliñamento do texto
+	Text colour	Cor do texto
+	Text field	Campo de texto
+	Text fields	Campos de texto
+	Text on the stage	Texto no escenario
+	Text to find	Texto que buscar
+	Text width	Largura do texto
+	Text: {text}	Texto: {text}
+	That autosaved copy is gone	Esa copia gardada automaticamente xa non existe
+	That bone is pinned (or hangs from a pinned bone): unpin it in Properties to drag it.	Ese oso está fixado (ou depende dun oso fixado): desafíxeo en Propiedades para arrastralo.
+	the browser could not read it	o navegador non puido lelo
+	the browser's storage for this site is full (documents with large images or sounds may not fit)	o almacenamento do navegador para este sitio está cheo (os documentos con imaxes ou sons grandes poderían non coller)
+	The camera layer is hidden: the movie shows the stage as it is.	A capa da cámara está oculta: a película mostra o escenario tal como é.
+	The class scripts create this symbol by (its linkage), extending {base}. Kept with the document; scripts don't run yet	Os scripts de clase crean este símbolo por (a súa vinculación), estendendo {base}. Mantense co documento; os scripts aínda non se executan
+	The class scripts create this symbol by (its linkage). Kept with the document; scripts don't run yet	Os scripts de clase crean este símbolo por (a súa vinculación). Mantense co documento; os scripts aínda non se executan
+	The class scripts run the main timeline as (the document class). Kept with the document; scripts don't run yet	Os scripts de clase executan a liña de tempo principal como (a clase do documento). Mantense co documento; os scripts aínda non se executan
+	The colour of the layer's outlines and of its bar on the timeline	A cor dos contornos da capa e da súa barra na liña de tempo
+	the command palette	a paleta de comandos
+	The current scene and every symbol in it	A escena actual e cada símbolo nela
+	The data font shows numbers, timecode, rulers and shortcuts; only monospaced families are listed so digits stay aligned.	O tipo de letra de datos mostra números, código de tempo, regras e atallos; só se listan familias monoespazadas para que os díxitos queden aliñados.
+	The direction the shadow falls (the light comes from the opposite side)	A dirección na que cae a sombra (a luz vén do lado oposto)
+	The document that is open stays as it is	O documento que está aberto permanece tal como está
+	The ends of a motion path are always pinned, to the first and last position keys	Os extremos dunha traxectoria de movemento están sempre fixados, ás primeiras e últimas chaves de posición
+	The ends of a motion path are where the motion starts and ends: drag them to move them	Os extremos dunha traxectoria de movemento son onde o movemento comeza e remata: arrástreos para movelos
+	The file was saved after this copy, so it opens as a new document and Save asks for a name.	O ficheiro gardouse despois desta copia, polo que abre como un novo documento e Gardar pide un nome.
+	The file's name	O nome do ficheiro
+@plural	The first {n} result|The first {n} results	O primeiro {n} resultado|Os primeiros {n} resultados
+@plural	The first {n} row|The first {n} rows	A primeira {n} fila|As primeiras {n} filas
+	The frame rate is for every new document made here. Change the size later in Modify › Document Settings.	A taxa de fotogramas é para cada novo documento creado aquí. Cambie o tamaño máis adiante en Modificar › Configuracións do documento.
+	The frame the playhead is on	O fotograma no que está a cabeza de reprodución
+	The GPU stage drew a picture the window can't show.	O escenario da GPU debuxou unha imaxe que a xanela non pode mostrar.
+	The graphics card can't draw the stage, so the CPU does: {why}	A tarxeta gráfica non pode debuxar o escenario, polo que o fai a CPU: {why}
+	The HTML page on, every other format off	A páxina HTML activada, calquera outro formato desactivado
+	The joint's turn from where the bone was drawn, measured from the bone it hangs from	A rotación da articulación respecto a onde se debuxou o oso, medida a partir do oso do que depende
+	The Library folder the new symbol goes into (the next conversion offers it again)	O cartafol da Biblioteca no que se colocará o novo símbolo (a seguinte conversión volverá ofrecelo)
+	The Library has none	A Biblioteca non ten ningún
+	The movie has no sounds yet, so Publish skips the audio.	A película aínda non ten sons, polo que a Publicación omite o audio.
+	The movie shows what the frame on the stage shows. Layer depth (in Frame, per layer) moves far layers less.	A película mostra o que mostra o fotograma no escenario. A profundidade da capa (en Fotograma, por capa) move menos as capas afastadas.
+	The movie's sounds play in the page	Os sons da película reprodúcense na páxina
+	The movie's sounds: Opus in WebM, AAC in MP4	Os sons da película: Opus en WebM, AAC en MP4
+	The movie's soundtrack as a WAV file.	A banda sonora da película como ficheiro WAV.
+	The movie: point, click and type to play it	A película: apunte, faga clic e escriba para reproducila
+	The name actions use to address it (letters, digits and _)	O nome que usan as accións para referirse a el (letras, díxitos e _)
+	The object doesn't move yet	O obxecto aínda non se move
+	The object passes this point exactly on frame {frame}	O obxecto pasa por este punto exactamente no fotograma {frame}
+	The object stays as it is on the span's first frame	O obxecto permanece tal como está no primeiro fotograma do intervalo
+	The object stays as it is on the span's first frame ({undo} to undo)	O obxecto permanece tal como está no primeiro fotograma do intervalo ({undo} para desfacer)
+	The output is a folder; the frames in it are frame_00001.png and on.	A saída é un cartafol; os fotogramas que contén son frame_00001.png en diante.
+	The playhead is on an empty frame of this layer.	A cabeza de reprodución está nun fotograma baleiro desta capa.
+	The plug-in runs each time the playhead enters this keyframe, reads where the movie is, and sends actions back. It can't change the document.	O plug-in execútase cada vez que a cabeza de reprodución entra neste fotograma clave, le onde está a película e envía accións de volta. Non pode cambiar o documento.
+	The plug-in “{id}” is no longer installed	O plug-in “{id}” xa non está instalado
+	The point shapes the path only; its frame's X and Y keyframes go	O punto só dá forma á traxectoria; os fotogramas clave X e Y do seu fotograma elimínanse
+	The pointer comes up over it	O punteiro levántase sobre el
+	The pointer goes down on it	O punteiro baixa sobre el
+	The pointer moves off it	O punteiro sae de enriba del
+	The pointer moves onto it	O punteiro móvese sobre el
+	The reference renderer: slower on large stages. Exports always use it.	O renderizador de referencia: máis lento en escenarios grandes. As exportacións úsano sempre.
+	The selected elements differ here; it shows the first one's. A change applies to all of them	Os elementos seleccionados difiren aquí; móstrase o do primeiro. Calquera cambio aplícase a todos eles
+	the shortcut editor	o editor de atallos
+	the sound device has no usable format ({error})	o dispositivo de son non ten ningún formato utilizable ({error})
+	the sound device wants {format} samples, which AniCraft doesn't write yet	o dispositivo de son require mostras en {format}, que AniCraft aínda non pode escribir
+	The standard dark look: graphite panels, colour where it means something.	O aspecto escuro estándar: paneis de grafito, cor onde ten significado.
+	The template keeps the document as it is now. The open document doesn't change.	O modelo mantén o documento tal como está agora. O documento aberto non cambia.
+	The timeline always leaves room before frame 1 for the playhead; this adds more. It stays the same at every zoom.	A liña de tempo sempre deixa espazo antes do fotograma 1 para a cabeza de reprodución; isto engade máis. Permanece igual en calquera zoom.
+	The update failed: {error}	A actualización fallou: {error}
+	The update worker stopped unexpectedly. Try checking again.	O proceso de actualización detívose inesperadamente. Probe a comprobar de novo.
+	The volume of this layer's sounds, and of the sounds in the symbols on it	O volume dos sons desta capa e dos sons nos símbolos nela
+	the web version of AniCraft has no sound output yet	a versión web de AniCraft aínda non ten saída de son
+	The whole document	Todo o documento
+	There is no settings folder to keep templates in on this system	Non hai ningún cartafol de configuración para gardar os modelos neste sistema
+	these files	estes ficheiros
+	These run when the playhead enters frame {keyframe} (the keyframe). For frame {frame}, add a keyframe there ({key}).	Estes execútanse cando a cabeza de reprodución entra no fotograma {keyframe} (o fotograma clave). Para o fotograma {frame}, engada alí un fotograma clave ({key}).
+	this action	esta acción
+	this browser keeps no storage for the site (private browsing?)	este navegador non conserva almacenamento para o sitio (navegación privada?)
+	this browser's storage for this site	o almacenamento deste navegador para este sitio
+	This build has the interface in English only. Builds with translations list their languages here.	Esta compilación só ten a interface en inglés. As compilacións con traducións listan aquí os seus idiomas.
+	this build of AniCraft has no sound output	esta compilación de AniCraft non ten saída de son
+	This cannot be undone.	Isto non se pode desfacer.
+	This installation is managed externally. Update it with its package manager or open Releases.	Esta instalación xestiónase externamente. Actualícea co seu xestor de paquetes ou abra Versións.
+	This pattern has more dashes and gaps than these two; they stay as they are	Este patrón ten máis trazos e ocos ca estes dous; permanecen tal como están
+	This scene	Esta escena
+	This span has no motion tween. Create one to animate its object property by property.	Este intervalo non ten ningunha interpolación de movemento. Cree unha para animar o seu obxecto propiedade por propiedade.
+	This span is empty. Draw or place an object, then create a motion tween.	Este intervalo está baleiro. Debuxe ou coloque un obxecto e logo cree unha interpolación de movemento.
+	Tied to the frames: plays over this span and follows the playhead (lip sync)	Vinculado aos fotogramas: reprodúcese ao longo deste intervalo e segue a cabeza de reprodución (sincronización labial)
+	Time at the playhead	Tempo na cabeza de reprodución
+	Times it plays	Veces que se reproduce
+	Times it plays in a row	Veces que se reproduce seguidas
+	Tint amount	Cantidade de tinguidura
+	Tint blue	Tinguidura azul
+	Tint colour	Cor da tinguidura
+	Tint frames before the playhead and after it in their colours; off, they keep their own colours	Tingue os fotogramas antes e despois da cabeza de reprodución coas súas cores; desactivado, manteñen as súas propias cores
+	Tint green	Tinguidura verde
+	Tint red	Tinguidura vermella
+	Tiny	Minúsculo
+	Title card	Tarxeta de título
+	to	a
+	To stage	Para o escenario
+	Top 9-slice guide	Guía superior de 9 franxas
+	Trace	Rastrexar
+	Trace actions, frame-script logs and anything that couldn't run appear here.	As accións de rastrexo, os rexistros de scripts de fotograma e todo o que non puido executarse aparecen aquí.
+	Trace message	Mensaxe de rastrexo
+	Transform on Multiple Frames	Transformar en varios fotogramas
+	Turn a format on first	Active primeiro un formato
+	Turn off on Linux desktops without an XDG desktop portal; AniCraft then asks for a path instead.	Desactíveo en escritorios Linux sen un portal de escritorio XDG; AniCraft pedirá unha ruta no seu lugar.
+	Turn the object as its motion path turns	Xirar o obxecto segundo curva a súa traxectoria de movemento
+	Turn with the motion guide as it bends	Xirar coa guía de movemento segundo curva
+	Turns a flattened tip (clockwise)	Xira unha punta aplanada (no sentido horario)
+	Turns the stroke into straight segments.	Converte o trazo en segmentos rectos.
+	Tween	Interpolación
+	Tween kind	Tipo de interpolación
+	Tween to the next keyframe	Interpolar ata o seguinte fotograma clave
+	Tween to the next keyframe instead	Interpolar ata o seguinte fotograma clave no seu lugar
+	Type a command, tool or setting…	Escriba un comando, ferramenta ou axuste…
+	Type on the stage (or double-click the text)	Escriba no escenario (ou faga dobre clic no texto)
+	Type text	Escribir texto
+	Type what to find in Find and Replace	Escriba o que buscar en Buscar e substituír
+	Type what to find: results show as you type.	Escriba o que quere buscar: os resultados móstranse a medida que escribe.
+	Typefaces: {fonts}	Tipografías: {fonts}
+	Ubuntu (fallback) + JetBrains Mono	Ubuntu (reserva) + JetBrains Mono
+	Ubuntu + Hack (built-in defaults; build with CRAFT_FONTS_DIR for Inter + JetBrains Mono)	Ubuntu + Hack (valores predeterminados integrados; compile con CRAFT_FONTS_DIR para Inter + JetBrains Mono)
+	Undid {action}	Desfíxose {action}
+	undo {steps} · {size} MB	desfacer {steps} · {size} MB
+	Unmute this layer's sounds	Activar os sons desta capa
+	Unpin	Desafixar
+	Unpin from Frame {frame}	Desafixar do fotograma {frame}
+	Unpin Motion Path Point	Desafixar o punto da traxectoria de movemento
+	Unpin point {anchor} of the motion path from frame {frame}: its X and Y keyframes go	Desafixar o punto {anchor} da traxectoria de movemento do fotograma {frame}: os seus fotogramas clave X e Y elimínanse
+	Unpin the motion path point at this frame	Desafixar o punto da traxectoria de movemento neste fotograma
+	Unpinned point {anchor} from frame {frame}: it shapes the path only. {undo} to undo.	Desafixouse o punto {anchor} do fotograma {frame}: agora só dá forma á traxectoria. {undo} para desfacer.
+	Up/Down choose · Enter run · Esc close	Arriba/Abaixo escolle · Enter executa · Esc pecha
+	Up: the button as it first shows	Repouso: o botón tal como se mostra inicialmente
+	Update and restart	Actualizar e reiniciar
+	Update ready. Restarting…	Actualización lista. Reiniciando…
+	Updated the preset “{name}”	Actualizouse a predefinición “{name}”
+	Updated to {version}.	Actualizado a {version}.
+	Updated {name} {version} — find it in Commands › Plug-ins	Actualizouse {name} {version} — atópeo en Comandos › Plug-ins
+	Use count	Contaxe de uso
+	Use it for {action}	Usalo para {action}
+	Use Releases or your package manager to update this installation.	Empregue Versións ou o seu xestor de paquetes para actualizar esta instalación.
+	Use the format's usual name: {name}	Usar o nome habitual do formato: {name}
+	Use the system's open and save dialogs	Usar as caixas de diálogo de abrir e gardar do sistema
+@plural	used {n} time|used {n} times	usado {n} vez|usado {n} veces
+	Uses	Usos
+	Version {version} · {stage}	Versión {version} · {stage}
+	Vertical Center	Centro vertical
+	Vertical story	Historia vertical
+	Video (WebM or MP4)	Vídeo (WebM ou MP4)
+	Video export runs ffmpeg, which a web browser can't start: use the desktop app, or export an animated GIF or a PNG sequence	A exportación de vídeo executa ffmpeg, que un navegador web non pode iniciar: use o aplicativo de escritorio ou exporte un GIF animado ou unha secuencia PNG
+	View action	Ver acción
+	View as outlines in the layer's colour (on the stage only)	Ver como contornos na cor da capa (só no escenario)
+	View layer as outlines	Ver a capa como contornos
+	Visible	Visible
+	Volume	Volume
+	Volume points of your own, per channel (Edit Envelope)	Puntos de volume propios, por canle (Editar envolvente)
+	Waiting	Agardando
+	Walk cycle	Ciclo de camiñada
+	WAV	WAV
+	WAV sound	Son WAV
+	web browser	navegador web
+	Web page	Páxina web
+	WebAssembly plug-in	Engadido de WebAssembly
+	WebM or MP4 video, made with your ffmpeg (ffmpeg.org).	Vídeo WebM ou MP4, feito co seu ffmpeg (ffmpeg.org).
+	Welcome to AniCraft. Press Enter to play the sample animation.	Dámoslle a benvida a AniCraft. Prema Intro para reproducir a animación de mostra.
+	Went to {row}	Foi a {row}
+	What runs when the playhead enters a keyframe	O que se executa cando a cabeza de reprodución entra nun fotograma clave
+	What runs when the playhead enters this keyframe ({key})	O que se executa cando a cabeza de reprodución entra neste fotograma clave ({key})
+	What the Movie Explorer shows	O que amosa o Explorador de películas
+	What the selected button or movie clip does on clicks and the pointer	O que fai o botón ou clip de película seleccionado nos clics e co punteiro
+	What to search for	Que buscar
+	Wheel	Roda
+	Where AniCraft's documents and files are on this computer	Onde están os documentos e ficheiros de AniCraft neste computador
+	Where the motion starts. Changing it moves the whole path, and the object with it; the timing stays.	Onde comeza o movemento. Ao cambialo móvese toda a traxectoria e o obxecto con ela; a temporización mantense.
+	Where to search	Onde buscar
+	Whichever comes first. 0 changes: by time only. Copies are written in the background, so drawing never waits.	O que ocorra primeiro. 0 cambios: só por tempo. As copias escríbense en segundo plano, polo que o debuxo nunca espera.
+	White text on black, a yellow focus and selection colour, outlined controls.	Texto branco sobre negro, unha cor amarela para foco e selección, controis con contorno.
+	Whole word	Palabra completa
+	Width at Point	Largura no punto
+	Width Profile	Perfil de largura
+	Working…	Traballando…
+	Wrap	Axuste de liña
+	Wrap lines at a fixed width; off, each paragraph stays on one line	Axustar as liñas a unha largura fixa; desactivado, cada parágrafo permanece nunha soa liña
+	written to Output	escrito na Saída
+	You have unsaved changes.	Ten cambios sen gardar.
+	You have {n} presets, the most there can be: delete one first	Ten {n} predefinicións, o máximo permitido: elimine unha primeiro
+	You're up to date.	Está ao día.
+	Your own templates are kept in a folder on your computer: save them in the desktop app.	Os seus propios modelos gárdanse nun cartafol do seu computador: gárdeos no aplicativo de escritorio.
+	Your templates are kept in a folder on your computer: use the desktop app (the built-in templates work here)	Os seus modelos gárdanse nun cartafol do seu computador: use o aplicativo de escritorio (os modelos integrados funcionan aquí)
+	Zoom at the cursor	Zoom no cursor
+	Zoom Camera	Zoom da cámara
+	Zoom in / out	Aumentar / reducir o zoom
+	Zoom to fit	Zoom para axustar
+	{action} shortcut {key}	Atallo de {action}: {key}
+	{action}: back to the default	{action}: volta ao predeterminado
+	{action}: key removed	{action}: tecla eliminada
+	{action}: {key}	{action}: {key}
+	{action}: {key} (removed from {other})	{action}: {key} (retirada de {other})
+	{bits}-bit	{bits} bits
+	{channel}: click to add a volume point	{channel}: faga clic para engadir un punto de volume
+	{command}\nSelect something to align	{command}\nSeleccione algo para aliñar
+	{description} · {fps} fps	{description} · {fps} fps
+	{detail} · locked	{detail} · bloqueado
+	{done}. Left out {file}: {why}	{done}. Omitiuse {file}: {why}
+	{filter} angle	Ángulo de {filter}
+	{filter} blur X	Desenfoque X de {filter}
+	{filter} blur Y	Desenfoque Y de {filter}
+	{filter} colour	Cor de {filter}
+	{filter} colour stop {stop} at {at}%	Punto de parada de cor {stop} de {filter} en {at}%
+	{filter} colour stop {stop} at {at}% (fixed)	Punto de parada de cor {stop} de {filter} en {at}% (fixo)
+	{filter} distance	Distancia de {filter}
+	{filter} gradient: add a colour stop	Degradado de {filter}: engadir un punto de parada de cor
+	{filter} highlight colour	Cor de realce de {filter}
+	{filter} knockout	Baleirado de {filter}
+	{filter} quality {quality}	Calidade {quality} de {filter}
+	{filter} shadow colour	Cor da sombra de {filter}
+	{filter} stop colour	Cor do punto de parada de {filter}
+	{filter} stop position	Posición do punto de parada de {filter}
+	{filter} strength	Intensidade de {filter}
+	{filter} type {kind}	Tipo {kind} de {filter}
+@plural	{first}–{last} of {n} layer|{first}–{last} of {n} layers	{first}–{last} de {n} capa|{first}–{last} de {n} capas
+	{folder} already has “{name}”; the new symbol will be “{becomes}”.	{folder} xa ten “{name}”; o novo símbolo será “{becomes}”.
+	{format} output name	Nome de saída en {format}
+	{fps} fps	{fps} fps
+	{frames}: {what}	{frames}: {what}
+	{instance} ({bitmap})	{instance} ({bitmap})
+	{instance} ({symbol})	{instance} ({symbol})
+	{key} could not be moved.	Non foi posíbel mover {key}.
+	{key} is already used by {action}.	{key} xa está a ser usada por {action}.
+	{key} is kept for {purpose}; choose another key.	{key} resérvase para {purpose}; escolla outra tecla.
+	{kind} · {frames}	{kind} · {frames}
+	{kind}: {row}	{kind}: {row}
+	{kind}: {row}, closed	{kind}: {row}, pechado
+	{kind}: {row}, open	{kind}: {row}, aberto
+	{kind}: {symbol}	{kind}: {symbol}
+	{layer} holds an armature: drop on another layer	{layer} contén unha armadura: solte noutra capa
+	{layer} is a folder: drop on one of its layers	{layer} é un cartafol: solte nunha das súas capas
+	{layer} is locked: unlock it to drop onto it	{layer} está bloqueada: desbloquéea para soltar sobre ela
+	{layer} is the camera layer: drop on a layer below it	{layer} é a capa da cámara: solte nunha capa debaixo dela
+	{level} % at {time} · drag to move, right-click to delete	{level} % en {time} · arrastre para mover, faga clic co botón dereito para eliminar
+	{name} (button)	{name} (botón)
+	{name} (graphic)	{name} (gráfico)
+	{name} (main timeline)	{name} (liña de tempo principal)
+	{name} (missing)	{name} (ausente)
+	{name} (movie clip)	{name} (clip de película)
+	{name} (scene {number} of {count})	{name} (escena {number} de {count})
+	{name} ({kind})	{name} ({kind})
+	{name} ({secs} s) is in the Library. Select a keyframe and pick it under Sound in Properties.	{name} ({secs} s) está na Biblioteca. Seleccione un fotograma clave e escóllao baixo Son en Propiedades.
+	{name} ({secs} s) is on a new layer from frame {frame}. Set its sync in Properties. {undo} to undo.	{name} ({secs} s) está nunha nova capa a partir do fotograma {frame}. Defina a súa sincronización en Propiedades. {undo} para desfazer.
+@plural	{name} and {n} more|{name} and {n} more	{name} e {n} máis|{name} e {n} máis
+	{name} folder row	Fila do cartafol {name}
+	{name} · armature layer	{name} · capa de armadura
+	{name} · camera layer	{name} · capa de cámara
+	{name} · folder	{name} · cartafol
+	{name} · guide layer	{name} · capa guía
+	{name} · layer	{name} · capa
+	{name} · mask layer	{name} · capa de máscara
+	{name} · masked layer	{name} · capa enmascarada
+	{name} · {state} · Enter selects, Esc goes back to the stage	{name} · {state} · Intro selecciona, Esc volve ao escenario
+	{name} · {what}	{name} · {what}
+	{name} — {undo} to undo	{name} — {undo} para desfazer
+	{name}, missing	{name}, ausente
+	{name}: off\nDragged points and selections snap to points, lines and fill edges within 10 pixels.	{name}: desactivado\nOs puntos e as seleccións arrastrados axústanse a puntos, liñas e bordos de recheo en até 10 píxeles.
+	{name}: on\nDragged points and selections snap to points, lines and fill edges within 10 pixels.	{name}: activado\nOs puntos e as seleccións arrastrados axústanse a puntos, liñas e bordos de recheo en até 10 píxeles.
+	{name}: {message} — {undo} to undo	{name}: {message} — {undo} para desfazer
+@plural	{n} command is scriptable with anicraft-cli|{n} commands are scriptable with anicraft-cli	{n} comando pode controlarse por script con anicraft-cli|{n} comandos poden controlarse por script con anicraft-cli
+@plural	{n} day ago|{n} days ago	hai {n} día|hai {n} días
+@plural	{n} element in a new folder of {layers} layers with a mask.|{n} elements in a new folder of {layers} layers with a mask.	{n} elemento nun novo cartafol de {layers} capas cunha máscara.|{n} elementos nun novo cartafol de {layers} capas cunha máscara.
+@plural	{n} element in a new folder of {layers} layers with {masks} masks.|{n} elements in a new folder of {layers} layers with {masks} masks.	{n} elemento nun novo cartafol de {layers} capas con {masks} máscaras.|{n} elementos nun novo cartafol de {layers} capas con {masks} máscaras.
+@plural	{n} element on a new layer.|{n} elements on a new layer.	{n} elemento nunha nova capa.|{n} elementos nunha nova capa.
+@plural	{n} element on frame {frame}|{n} elements on frame {frame}	{n} elemento no fotograma {frame}|{n} elementos no fotograma {frame}
+@plural	{n} element {on_layers}|{n} elements {on_layers}	{n} elemento {on_layers}|{n} elementos {on_layers}
+@plural	{n} element|{n} elements	{n} elemento|{n} elementos
+@plural	{n} engine command — all available headless via anicraft-cli.|{n} engine commands — all available headless via anicraft-cli.	{n} comando do motor — dispoñible en modo headless mediante anicraft-cli.|{n} comandos do motor — todos dispoñibles en modo headless mediante anicraft-cli.
+@plural	{n} file|{n} files	{n} ficheiro|{n} ficheiros
+@plural	{n} format on|{n} formats on	{n} formato activado|{n} formatos activados
+@plural	{n} frame before and after the playhead|{n} frames before and after the playhead	{n} fotograma antes e despois da cabeza de reprodución|{n} fotogramas antes e despois da cabeza de reprodución
+@plural	{n} frame script doesn't run|{n} frame scripts don't run	{n} script de fotograma non se executa|{n} scripts de fotograma non se executan
+@plural	{n} frame · {secs} s|{n} frames · {secs} s	{n} fotograma · {secs} s|{n} fotogramas · {secs} s
+@plural	{n} frame|{n} frames	{n} fotograma|{n} fotogramas
+@plural	{n} h ago|{n} h ago	hai {n} h|hai {n} h
+@plural	{n} keyframe span on {name}|{n} keyframe spans on {name}	intervalo de {n} fotograma clave en {name}|intervalo de {n} fotogramas clave en {name}
+@plural	{n} line|{n} lines	{n} liña|{n} liñas
+@plural	{n} min ago|{n} min ago	hai {n} min|hai {n} min
+@plural	{n} more element is not listed: pick it on the stage, or use Select All or Find|{n} more elements are not listed: pick them on the stage, or use Select All or Find	{n} elemento máis non está listado: escóllao no escenario ou use Seleccionar todo ou Buscar|{n} elementos máis non están listados: escóllaos no escenario ou use Seleccionar todo ou Buscar
+@plural	{n} more span is not listed: go there with , and . or Home and End|{n} more spans are not listed: go there with , and . or Home and End	{n} intervalo máis non está listado: vaia alí con , e . ou Inicio e Fin|{n} intervalos máis non están listados: vaia alí con , e . ou Inicio e Fin
+@plural	{n} plug-in installed; {failed} could not be loaded|{n} plug-ins installed; {failed} could not be loaded	{n} engadido instalado; non foi posíbel cargar {failed}|{n} engadidos instalados; non foi posíbel cargar {failed}
+@plural	{n} plug-in installed|{n} plug-ins installed	{n} engadido instalado|{n} engadidos instalados
+@plural	{n} point|{n} points	{n} punto|{n} puntos
+@plural	{n} result|{n} results	{n} resultado|{n} resultados
+@plural	{n} row|{n} rows	{n} fila|{n} filas
+@plural	{n} second|{n} seconds	{n} segundo|{n} segundos
+@plural	{n} silenced this session|{n} silenced this session	{n} silenciado nesta sesión|{n} silenciados nesta sesión
+@plural	{n} unused item selected|{n} unused items selected	{n} elemento non usado seleccionado|{n} elementos non usados seleccionados
+	{os} · settings stored in {place}	{os} · axustes gardados en {place}
+	{panel} · {next} for the next panel	{panel} · {next} para o seguinte panel
+	{path} is no longer there	{path} xa non está alí
+	{path} · button	{path} · botón
+	{path} · movie clip	{path} · clip de película
+	{path}, beside the document once it is saved	{path}, a carón do documento unha vez gardado
+	{place} › {layer}	{place} › {layer}
+	{place} › {layer}, frame {frame}	{place} › {layer}, fotograma {frame}
+	{plugin}: {reason}	{plugin}: {reason}
+@plural	{properties} · {n} key frame|{properties} · {n} key frames	{properties} · {n} fotograma clave|{properties} · {n} fotogramas clave
+	{property} curve	Curva de {property}
+	{property} ease	Suavizado de {property}
+	{property} has no keyframes: it stays {value}. Click ◇ or drag its value to key it here.	{property} non ten fotogramas clave: mantense en {value}. Faga clic en ◇ ou arrastre o seu valor para crear un fotograma clave aquí.
+	{property} keyframe at frame {frame}	Fotograma clave de {property} no fotograma {frame}
+	{property} · keyed	{property} · con clave
+	{report} Save to keep it as an AniCraft document.	{report} Garde para mantelo como un documento de AniCraft.
+	{row} · has selected artwork	{row} · contén arte seleccionada
+	{row}\nDouble-click to go there	{row}\nFaga dobre clic para ir alí
+	{seconds} s · {khz} kHz mono · {format}	{seconds} s · {khz} kHz mono · {format}
+	{seconds} s · {khz} kHz stereo · {format}	{seconds} s · {khz} kHz estéreo · {format}
+	{shared}; and on a device of its own: {e}	{shared}; e nun dispositivo propio: {e}
+	{shown} of {total}	{shown} de {total}
+	{tool} tool	Ferramenta {tool}
+	{undo} to undo.	{undo} para desfazer.
+	{version} is available.	{version} está dispoñible.
+@plural	{what} · {n} element selected|{what} · {n} elements selected	{what} · {n} elemento seleccionado|{what} · {n} elementos seleccionados
+	{what}, {field}, {place}	{what}, {field}, {place}
+	“{id}” isn't installed here: Test Movie says so and plays on.	“{id}” non está instalado aquí: Probar película infórmao e segue reproducindo.
+	… older steps freed (memory budget)	… pasos máis antigos liberados (orzamento de memoria)
