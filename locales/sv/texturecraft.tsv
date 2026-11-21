@@ -1,0 +1,881 @@
+# Svenska (sv) interface catalog for TextureCraft.
+# Columns, separated by a TAB:  context <TAB> English source text <TAB> translation
+#   context  usually empty. `@plural`, `@id` and `@msg` mean something to the apps; any other
+#            word is a label that tells apart two meanings of the same English.
+#   escapes  \n  \t  \\  inside a column. `{name}` placeholders must appear in both columns (in any
+#            order), and a trailing "…" in one needs one in the other.
+#   @plural  English `one|other`; the translation lists this language's plural forms, `|`-separated.
+#   Lines starting with # and blank lines are ignored. A missing entry shows in English.
+#
+# Clean room: every entry was written from the plain meaning of the English text in ordinary
+# computing vocabulary. No other product's localisation, string table or translated UI was
+# consulted or copied; add entries the same way.
+
+	"{layer}" can't be filled: select a paint layer or a layer's mask	"{layer}" kan inte fyllas: markera ett målningslager eller ett lagers mask
+	"{layer}" has no paint yet: the filter changes what you paint on it.	"{layer}" har ingen färg än: filtret ändrar det du målar på det.
+	0 turns autosave off. Copies go to {folder}	0 stänger av autosparande. Kopior sparas i {folder}
+	1 effect	1 effekt
+	2D view only	Endast 2D-vy
+	32 bits (float)	32 bitar (flyttal)
+	3D mesh	3D-mesh
+	3D meshes	3D-meshar
+	3D texture painting: layers, masks, smart materials, mesh map baking and export.	3D-texturmålning: lager, masker, smarta material, bakning av meshkartor och export.
+	3D view only	Endast 3D-vy
+	3D/2D views	3D-/2D-vyer
+	A click fills what is under it; a dragged rectangle fills what it selects as it grows	Ett klick fyller det som ligger under pekaren; en dragen rektangel fyller det den markerar medan den växer
+	A folder blends its children (pass-through). Set per-channel opacity in the layer rows.	En mapp blandar sina underliggande lager (genomsläpp). Ange opacitet per kanal på lagerraderna.
+	a missing layer	ett saknat lager
+	About TextureCraft	Om TextureCraft
+	About TextureCraft...	Om TextureCraft...
+	Accent color	Accentfärg
+	ACES filmic	ACES filmisk
+	Add an anchor point to a layer below to use its stack as a mask.	Lägg till en ankarpunkt på ett lager nedanför för att använda dess lagerstapel som mask.
+	Add anchor point	Lägg till ankarpunkt
+	Add as decal (view center)	Lägg till som dekal (vyns mitt)
+	Add black mask	Lägg till svart mask
+	Add channel	Lägg till kanal
+	Add color	Lägg till färg
+	Add compare mask	Lägg till jämförelsemask
+	Add effect	Lägg till effekt
+	Add fill	Lägg till fyllning
+	Add fill layer	Lägg till fyllningslager
+	Add filter	Lägg till filter
+	Add folder	Lägg till mapp
+	Add generator	Lägg till generator
+	Add High-Poly Meshes	Lägg till högupplösta meshar
+	Add levels	Lägg till nivåer
+	Add mask	Lägg till mask
+	Add mask with color selection	Lägg till mask med färgmarkering
+	Add output	Lägg till utdata
+	Add paint	Lägg till målning
+	Add paint layer	Lägg till målningslager
+	Add smart material from the shelf	Lägg till smart material från hyllan
+	Add to the layer content	Lägg till i lagerinnehållet
+	Add to the mask	Lägg till i masken
+	Add white mask	Lägg till vit mask
+	Add...	Lägg till...
+	Advanced settings	Avancerade inställningar
+	Aligned: the offset set by the first stroke is kept. V + click sets a new source.	Justerad: förskjutningen från första penseldraget behålls. V + klick anger en ny källa.
+	Alignment and culling	Justering och gallring
+	All layers	Alla lager
+	Alphas	Alfabilder
+	Also bound to {item} ({menu})	Även kopplad till {item} ({menu})
+	Alt + LMB drag	Alt + dra med vänster musknapp
+	Amber	Bärnsten
+	Ambient	Omgivande
+	Ambient Occlusion	Omgivande ocklusion (AO)
+	Ambient occlusion	Omgivande ocklusion
+	Anchor point	Ankarpunkt
+	Anchor: {name}	Ankare: {name}
+	Anchor: {name} ({channel})	Ankare: {name} ({channel})
+	Angle (degrees)	Vinkel (grader)
+	Angle fade from	Vinkeltoning från
+	Angle fade to	Vinkeltoning till
+	Angle jitter	Vinkelvariation
+	Angle span	Vinkelomfång
+	aniso	aniso
+	aniso angle	anisovinkel
+	Anisotropy angle	Anisotropivinkel
+	Anisotropy level	Anisotropinivå
+	Antialiasing	Kantutjämning
+	ao	ao
+	AO intensity	AO-intensitet
+	Aperture	Bländare
+	Apply Diffusion	Tillämpa diffusion
+	ArtCraft website...	ArtCrafts webbplats...
+	Assets	Tillgångar
+	Attenuation	Dämpning
+	Auto Tonemapping	Automatisk tonmappning
+	Automatic (from the mesh UVs)	Automatisk (från meshens UV-koordinater)
+	Autosave every	Autospara var
+	Autosaves, smart materials, presets, templates and UI layouts go to the data folder. A new folder applies on restart; files already saved stay where they are.	Autosparade filer, smarta material, förinställningar, mallar och gränssnittslayouter sparas i datamappen. En ny mapp börjar gälla vid omstart; redan sparade filer ligger kvar där de är.
+	Average Normals	Genomsnittliga normaler
+	Axis	Axel
+	Axis position	Axelposition
+	Back to painting	Tillbaka till målning
+	Backface culling	Baksidesgallring
+	Bake an ID map (F8) to pick colors from the mesh.	Baka en ID-karta (F8) för att hämta färger från meshen.
+	Bake Mesh Maps	Baka meshkartor
+	Bake mesh maps	Baka meshkartor
+	Bake mesh maps (F8) for curvature, AO and thickness based generators.	Baka meshkartor (F8) för kröknings-, AO- och tjockleksbaserade generatorer.
+	Bake Selected Textures ({n})	Baka markerade texturer ({n})
+	Baked Lighting	Bakad belysning
+	Baked maps imported: {count}	Bakade kartor importerade: {count}
+	Baking	Bakning
+	Baking Visualization	Bakningsvisualisering
+	Baking {map} ({n}/{total})	Bakar {map} ({n}/{total})
+	Baking {map} ({n}/{total}), texture set {set} of {sets}	Bakar {map} ({n}/{total}), texturuppsättning {set} av {sets}
+	Base color	Basfärg
+	Base color is the diffuse color, Specular the F0 color and Glossiness 1 - roughness (add these channels in the texture set settings).	Basfärg är den diffusa färgen, Spekulär är F0-färgen och Glansighet är 1 − ojämnhet (lägg till dessa kanaler i inställningarna för texturuppsättningen).
+	Base color, Metallic, Roughness and Specular level.	Basfärg, Metallisk, Ojämnhet och Spekulär nivå.
+	Based on each texture set's size	Baserat på varje texturuppsättnings storlek
+	Basic settings	Grundinställningar
+	BBox	Avgränsningsram
+	Bent Normals	Böjda normaler
+	Bevel	Fasat
+	Blending	Blandning
+	Blending mode of the displayed channel	Blandningsläge för den visade kanalen
+	Blur and sharpen	Oskärpa och skärpa
+	Blur Directional	Riktningsoskärpa
+	Bounces	Studsar
+	Bricks	Tegelstenar
+	Brush	Pensel
+	Brush name	Penselnamn
+	Brush size	Penselstorlek
+	Brush size down / up	Minska/öka penselstorlek
+	Brushed lines	Borstade linjer
+	BSphere	Avgränsningssfär
+	Built-in (read-only): duplicate it to edit	Inbyggd (skrivskyddad): duplicera den för att redigera
+	Built-in templates are read-only: duplicate one to edit it	Inbyggda mallar är skrivskyddade: duplicera en mall för att redigera den
+	Built-in: {mesh}	Inbyggd: {mesh}
+	By Mesh Name	Efter meshnamn
+	Cage	Bur
+	Cage Scene	Burscen
+	Cage Type	Burtyp
+	Cage: {name}	Bur: {name}
+	Camera	Kamera
+	Camera settings	Kamerainställningar
+	Cancel the stroke	Avbryt penseldraget
+	Cavities	Håligheter
+	Cell size (texels at 2K)	Cellstorlek (texlar vid 2K)
+	Cells	Celler
+	Channel source: uniform value, procedural, image or anchor	Kanalkälla: enhetligt värde, procedurell, bild eller ankare
+	Check All	Markera alla
+	Check for Updates...	Sök efter uppdateringar...
+	Checker	Schackrutor
+	Clamp	Begränsa
+	Clear mask	Rensa mask
+	Clear recent projects	Rensa senaste projekt
+	Click a mesh part to show or hide the selected layer on it.	Klicka på en meshdel för att visa eller dölja det markerade lagret på den.
+	Click the mesh to pick its material into the brush	Klicka på meshen för att hämta dess material till penseln
+	Click the mesh to place the decal	Klicka på meshen för att placera dekalen
+	Click, then press the new shortcut (Esc cancels)	Klicka och tryck sedan på det nya kortkommandot (Esc avbryter)
+	Click: turn this channel on or off. Alt+click: this channel only	Klick: slå på eller av den här kanalen. Alt+klick: endast den här kanalen
+	Closed path	Sluten bana
+	Cloud	Moln
+	Clouds	Moln
+	coat	lack
+	Coat normal	Lacknormal
+	coat nrm	lack nrm
+	coat rough	lack ojämnh.
+	Coat roughness	Lackojämnhet
+	Coat weight	Lackvikt
+	color	färg
+	Color burn	Färgförbränning
+	Color dodge	Färgskuggning
+	Color Generator	Färggenerator
+	Color of the light that travels under the surface (each channel goes as far as its value)	Färgen på ljuset som färdas under ytan (varje kanal når så långt som sitt värde)
+	Color picker	Färgväljare
+	Color selection	Färgmarkering
+	Color Source	Färgkälla
+	Color space	Färgrymd
+	Color to replace	Färg att ersätta
+	Colors near the first shift towards the second, keeping their shading.	Färger nära den första skiftar mot den andra med bibehållen skuggning.
+	Colors read as gray. Add a levels or blur effect above to shape the result.	Färger tolkas som gråskala. Lägg till en nivå- eller oskärpeeffekt ovanför för att forma resultatet.
+	Combine with the layer's height	Kombinera med lagrets höjd
+	Common Parameters	Gemensamma parametrar
+	Common Settings	Gemensamma inställningar
+	Compare mask	Jämförelsemask
+	Compositing	Sammansättning
+	Constant	Konstant
+	Constants	Konstanter
+	Contained center: fill polygons whose center is in the rectangle	Innesluten mittpunkt: fyll polygoner vars mittpunkt ligger i rektangeln
+	Content effects	Innehållseffekter
+	Continue with the sample project	Fortsätt med exempelprojektet
+	Contrast/Luminosity	Kontrast/ljusstyrka
+	Converted maps	Konverterade kartor
+	Cooked at {size} px	Genererad vid {size} px
+	Copper	Koppar
+	Copy effect	Kopiera effekt
+	Copy from	Kopiera från
+	Copy layer(s)	Kopiera lager
+	Copy RGB values	Kopiera RGB-värden
+	Copy the selected layer alone (its empty parts copy nothing)	Kopiera enbart det markerade lagret (tomma delar kopierar ingenting)
+	Copy to all texture sets	Kopiera till alla texturuppsättningar
+	Copy what the texture set shows	Kopiera det som texturuppsättningen visar
+	Coral	Korall
+	Cores kept for the UI	Kärnor reserverade för gränssnittet
+	Cosine	Cosinus
+	Couldn't encode the render	Kunde inte koda renderingen
+	Couldn't export textures: {error}	Kunde inte exportera texturer: {error}
+	Couldn't export the mesh: {error}	Kunde inte exportera meshen: {error}
+	Couldn't export the template: {error}	Kunde inte exportera mallen: {error}
+	Couldn't import {name}: {error}	Kunde inte importera {name}: {error}
+	Couldn't open {name}: {error}	Det gick inte att öppna {name}: {error}
+	Couldn't read the render back from the GPU	Kunde inte läsa tillbaka renderingen från GPU:n
+	Couldn't save the render: {error}	Kunde inte spara renderingen: {error}
+	Couldn't save {name}: {error}	Kunde inte spara {name}: {error}
+	Count	Antal
+	Count per stamp	Antal per stämpel
+	Crate	Låda
+	Create smart material	Skapa smart material
+	Ctrl+right-drag in a view sets the size and hardness, Ctrl+left-drag the flow and angle.	Ctrl+högerdra i en vy anger storlek och hårdhet, Ctrl+vänsterdra anger flöde och vinkel.
+	Cube	Kub
+	Current layer	Aktuellt lager
+	Custom File	Anpassad fil
+	Cut effect	Klipp ut effekt
+	Cut layer(s)	Klipp ut lager
+	Cyan / red	Cyan / rött
+	Cylinder	Cylinder
+	Cylindrical projection	Cylindrisk projektion
+	Dark to light: the content's luminance picks a color along these stops.	Mörkt till ljust: innehållets luminans väljer en färg längs dessa stopp.
+	Darken (Min)	Gör mörkare (Min)
+	Data folder	Datamapp
+	Decal	Dekal
+	Decal projection	Dekalprojektion
+	Default camera	Standardkamera
+	Delete the selected template	Ta bort den markerade mallen
+	Delete this camera	Ta bort den här kameran
+	Deleted template "{name}"	Tog bort mallen "{name}"
+	Denoise	Brusreducering
+	Depth of field	Skärpedjup
+	Depth of field (viewport and Rendering mode)	Skärpedjup (visningsvy och renderingsläge)
+	Depth of the sharp plane along the view (0: the orbit center)	Djupet för skärpeplanet längs vyn (0: rotationscentrum)
+	Detail sizes	Detaljstorlekar
+	Details saved to {file}	Detaljer sparade i {file}
+	Dilation + default background color	Utvidgning + standardbakgrundsfärg
+	Dilation + transparent	Utvidgning + genomskinlig
+	Dilation infinite	Oändlig utvidgning
+	Dilation Width	Utvidgningsbredd
+	DirectX normal map	DirectX-normalkarta
+	Dirt	Smuts
+	Disable	Inaktivera
+	Displacement (height channel)	Förskjutning (höjdkanal)
+	Display material	Visa material
+	Display next channel	Visa nästa kanal
+	Display next mesh map	Visa nästa meshkarta
+	Display previous channel	Visa föregående kanal
+	Display previous mesh map	Visa föregående meshkarta
+	Display Settings	Visningsinställningar
+	Distance-Based	Avståndsbaserad
+	Distribution	Fördelning
+	Document resolution	Dokumentupplösning
+	Documentation...	Dokumentation...
+	Don't save	Spara inte
+	Done on CPU: {n} / {max} samples, {s} s	Klart på CPU: {n} / {max} samplingar, {s} s
+	Done on GPU: {n} / {max} samples, {s} s	Klart på GPU: {n} / {max} samplingar, {s} s
+	Double-click or press Enter to edit	Dubbelklicka eller tryck på Retur för att redigera
+	Double-click to rename	Dubbelklicka för att byta namn
+	Download as	Hämta som
+	Downloaded {name}	Laddade ned {name}
+	Drag onto an output channel	Dra till en utdatakanal
+	Drag the frame to move the decal, a corner to scale it, the round handle to turn it	Dra ramen för att flytta dekalen, ett hörn för att skala den, det runda handtaget för att rotera den
+	Drags the layer stack's values along the stroke into the selected layer.	Drar lagerstapelns värden längs penseldraget in i det markerade lagret.
+	Draws {name} of texture set "{set}". Edits to the source show in every instance.	Ritar {name} från texturuppsättningen "{set}". Ändringar i källan visas i alla instanser.
+	Drop an image from the Assets panel here to use it as this mesh map	Släpp en bild från resurspanelen här för att använda den som den här meshkartan
+	Dry streaks	Torra ränder
+	Duplicate effect	Duplicera effekt
+	Duplicate layer(s)	Duplicera lager
+	Duplicate the selected template	Duplicera den markerade mallen
+	Edge Contrast	Kantkontrast
+	Edge Detect	Kantdetektering
+	Edge Distance	Kantavstånd
+	Edge Protection	Kantskydd
+	Edges	Kanter
+	Edges and cavities	Kanter och håligheter
+	Edit keyboard shortcuts...	Redigera kortkommandon...
+	Edit quick mask	Redigera snabbmask
+	Editing quick mask: paint where painting is allowed (U to finish)	Redigerar snabbmask: måla där målning är tillåten (U för att avsluta)
+	Editing the quick mask: fills paint where painting is allowed. Press U to finish.	Redigerar snabbmasken: fyllningar målar där målning är tillåten. Tryck på U för att avsluta.
+	Editing the quick mask: strokes paint where painting is allowed. Press U to finish.	Redigerar snabbmasken: penseldrag målar där målning är tillåten. Tryck på U för att avsluta.
+	emiss	emiss
+	Emissive	Självlysande
+	Enable or disable the effect	Aktivera eller inaktivera effekten
+	Enable quick mask	Aktivera snabbmask
+	Enable Seams	Aktivera sömmar
+	Enter a finite number	Ange ett ändligt tal
+	Environment blur	Miljöoskärpa
+	Environment exposure (EV)	Miljöexponering (EV)
+	Environment map	Miljökarta
+	Environment opacity	Miljöopacitet
+	Environment rotation	Miljörotation
+	Environment settings	Miljöinställningar
+	Environment: {name}	Miljö: {name}
+	Environments	Miljöer
+	Expand or collapse the folder	Expandera eller fäll ihop mappen
+	Export mesh	Exportera mesh
+	Export Mesh...	Exportera mesh...
+	Export template	Exportera mall
+	Export templates	Exportera mallar
+	Export textures	Exportera texturer
+	Export Textures...	Exportera texturer...
+	Export the selected template (.json)	Exportera den markerade mallen (.json)
+	Exported mesh to {path}	Exporterade mesh till {path}
+	Exported template "{name}" to {path}	Exporterade mallen "{name}" till {path}
+	Exported {n} textures to {folder}	Exporterade {n} texturer till {folder}
+	F0 from specular level	F0 från spekulär nivå
+	Fabric weave	Tygväv
+	Face Normals Based	Baserad på ytnormaler
+	Field of view (deg)	Synfält (grader)
+	File ID	Fil-ID
+	File name without extension; variables insert names	Filnamn utan filändelse; variabler infogar namn
+	File type	Filtyp
+	Fill layer	Fyllningslager
+	Fill mode	Fyllningsläge
+	Fill only polygons the camera sees (3D view)	Fyll bara polygoner som kameran ser (3D-vy)
+	Fill the closed path (lasso)	Fyll den slutna banan (lasso)
+	Fill the path (close it first)	Fyll banan (slut den först)
+	Filter the remaining noise while keeping edges and texture detail	Filtrera bort kvarvarande brus och behåll kanter och texturdetaljer
+	Filters	Filter
+	Fine noise	Fint brus
+	Fingerprints	Fingeravtryck
+	Fit the input range to the histogram	Anpassa indataintervallet till histogrammet
+	Flatten layer	Slå samman lager
+	Flips the image's green channel, for normal maps made with Y pointing down	Vänder bildens gröna kanal, för normalkartor skapade med Y riktat nedåt
+	Flow	Flöde
+	Flow and opacity	Flöde och opacitet
+	Flow jitter	Flödesvariation
+	Focus distance	Fokusavstånd
+	Focus: show only the active texture set	Fokus: visa endast den aktiva texturuppsättningen
+	Fold or unfold these effects	Fäll ihop eller expandera dessa effekter
+	Folders	Mappar
+	Follow Newest Map	Följ nyaste kartan
+	Follow path	Följ bana
+	For the whole project: how normal map images set as mesh maps are read (set them again after a change), and the default for export	För hela projektet: hur normalkartsbilder som används som meshkartor läses (ange dem igen efter en ändring), samt standardval vid export
+	Free and open source (MIT OR Apache-2.0), written in Rust.	Fri och öppen källkod (MIT ELLER Apache-2.0), skriven i Rust.
+	From template	Från mall
+	From template / project	Från mall/projekt
+	Full Scene	Hela scenen
+	General export parameters	Allmänna exportparametrar
+	General properties	Allmänna egenskaper
+	Generate from Mesh	Generera från mesh
+	Generate from Normal Map	Generera från normalkarta
+	Generator	Generator
+	Geometry and UVs only	Endast geometri och UV-koordinater
+	Geometry mask	Geometrimask
+	GGX specular with height-correlated Smith visibility, Lambert diffuse, split-sum image-based lighting with spherical-harmonics irradiance and horizon fading.	GGX-spekulär med höjdkorrelerad Smith-synlighet, diffus Lambert, delad bildbaserad belysning med sfärisk harmonisk irradians och horisonttoning.
+	gloss	glans
+	Glossiness	Glansighet
+	Glossiness from roughness	Glansighet från ojämnhet
+	glTF binary with textures	glTF-binär med texturer
+	Go to camera 1	Gå till kamera 1
+	Go to camera 2	Gå till kamera 2
+	Go to camera 3	Gå till kamera 3
+	Go to camera 4	Gå till kamera 4
+	Go to camera 5	Gå till kamera 5
+	Go to camera 6	Gå till kamera 6
+	Go to camera 7	Gå till kamera 7
+	Go to camera 8	Gå till kamera 8
+	Go to camera 9	Gå till kamera 9
+	GPU error: {error}	GPU-fel: {error}
+	Gradient Map	Gradientkarta
+	Gravity	Gravitation
+	Gray + A	Grå + A
+	Gray 50%	Grå 50 %
+	Ground Plane	Markplan
+	Ground Plane Offset	Markplansförskjutning
+	Group layer(s)	Gruppera lager
+	Grunge	Grunge
+	Half	Halv
+	Hammered	Hamrad
+	Hard light	Hårt ljus
+	Hardness	Hårdhet
+	HDR environments	HDR-miljöer
+	height	höjd
+	Height offset	Höjdförskjutning
+	Height to normal strength	Styrka för höjd till normal
+	Hide all	Dölj alla
+	Hide UI	Dölj gränssnitt
+	Hide while painting	Dölj under målning
+	High Definition Mesh (HP)	Högupplöst mesh (HP)
+	High Poly Mesh Suffix	Suffix för högupplöst mesh
+	High Poly Scene	Högupplöst scen
+	High poly: {name}	Högupplöst: {name}
+	High-Poly Parameters	Parametrar för högupplöst mesh
+	Histogram Range	Histogramintervall
+	Histogram Scan	Histogramavsökning
+	Histogram Shift	Histogramförskjutning
+	Hit-test	Träfftest
+	Hold S: left-drag rotates, right-drag scales, middle-drag moves the stencil.	Håll ned S: vänsterdra roterar, högerdra skalar, mittdra flyttar schablonen.
+	Hold V and click the mesh to set the clone source	Håll ned V och klicka på meshen för att ange klonkälla
+	Hold V and click the mesh to set the source, then paint elsewhere to copy it.	Håll ned V och klicka på meshen för att ange källa, måla sedan på en annan plats för att kopiera den.
+	How a rectangle selects polygons	Hur en rektangel markerar polygoner
+	How far light travels under the surface, as a fraction of the mesh size (where the Scattering weight channel is painted)	Hur långt ljuset färdas under ytan, som en andel av meshens storlek (där kanalen Spridningsvikt är målad)
+	How strongly transmissive surfaces bend light (where the Transmission channel is painted): water 1.33, glass 1.5, diamond 2.42	Hur kraftigt genomsläppliga ytor bryter ljuset (där kanalen Transmission är målad): vatten 1,33, glas 1,5, diamant 2,42
+	HSL Perceptive	HSL perceptuell
+	Hue shift (degrees)	Nyansförskjutning (grader)
+	ID	ID
+	Ignore Backface	Ignorera baksida
+	Ignore Backface Suffix	Suffix för Ignorera baksida
+	Image: {name}	Bild: {name}
+	Import a template (.json)	Importera en mall (.json)
+	Import an image (File > Import resources) to project it onto the mesh.	Importera en bild (Arkiv > Importera resurser) för att projicera den på meshen.
+	Import baked maps	Importera bakade kartor
+	Import HDR...	Importera HDR...
+	Import images to use them in fills and masks	Importera bilder för att använda dem i fyllningar och masker
+	Import material...	Importera material...
+	Import MaterialX material...	Importera MaterialX-material...
+	Import resources...	Importera resurser...
+	Import...	Importera...
+	Imported template "{name}"	Importerade mallen "{name}"
+	Imported {name}	Importerade {name}
+	Include in Bake	Inkludera i bakning
+	Index of refraction	Brytningsindex
+	Input high	Indata hög
+	Input low	Indata låg
+	Input maps	Indatakartor
+	Insert a variable	Infoga en variabel
+	Instance	Instans
+	Instantiate across texture sets	Instansiera över texturuppsättningar
+	Intensity (texels at 2K)	Intensitet (texlar vid 2K)
+	Interface scale	Gränssnittsskala
+	Intersection: fill polygons the rectangle touches	Skärning: fyll polygoner som rektangeln vidrör
+	Inverse divide	Invers division
+	Inverse Subtract	Invers subtraktion
+	Invert mask	Invertera mask
+	Invert mask background	Invertera maskbakgrund
+	Invert mask value	Invertera maskvärde
+	Invert quick mask	Invertera snabbmask
+	Invert show/hide	Invertera visa/dölj
+	Jitters	Variationer
+	Join the ArtCraft community on Discord	Gå med i ArtCrafts community på Discord
+	Join the community (Discord)...	Gå med i gemenskapen (Discord)...
+	Key light (shadow-casting light, direct only)	Huvudljus (skuggkastande ljus, endast direkt)
+	Keyboard	Tangentbord
+	Keyboard shortcuts	Tangentbordsgenvägar
+	Layer mask	Lagermask
+	Layer memory: {mb} MB	Lagerminne: {mb} MB
+	Lazy mouse	Följsam mus
+	Lazy mouse distance	Avstånd för följsam mus
+	Leather grain	Lädernarv
+	Lens size: how quickly things blur away from the focus distance	Linsstorlek: hur snabbt motiv blir oskarpa bortom fokusavståndet
+	Lifetime (steps)	Livslängd (steg)
+	Light / direction	Ljus / riktning
+	Light azimuth (degrees)	Ljusets azimut (grader)
+	Light elevation (degrees)	Ljusets elevation (grader)
+	Light intensity	Ljusintensitet
+	Lighten (Max)	Gör ljusare (Max)
+	Linear burn	Linjär förbränning
+	Linear dodge (Add)	Linjär skuggning (Addera)
+	Linear light	Linjärt ljus
+	List of exports	Lista över exporter
+	LMB	Vänster musknapp
+	Load Cage	Läs in bur
+	Load UI Layout	Läs in gränssnittslayout
+	Loaded UI layout {path}	Läste in gränssnittslayouten {path}
+	Lock Output Size	Lås utdatastorlek
+	Log	log
+	Low Poly Mesh Suffix	Suffix för lågupplöst mesh
+	Made by the ArtCraft team and community.	Skapat av ArtCraft-teamet och gemenskapen.
+	Magenta / green	Magenta / grönt
+	Main shader	Huvudshader
+	Manipulator size	Manipulatorstorlek
+	Manual	Manuell
+	Marble veins	Marmorådror
+	Mask Editor: Edge wear	Maskredigerare: Kantslitage
+	Mask effects	Maskeffekter
+	Mask value (gray)	Maskvärde (grå)
+	Mask with height	Maska med höjd
+	Match	Matcha
+	Material	Material
+	Material ball	Materialboll
+	Material Color	Materialfärg
+	Material finish	Materialfinish
+	MaterialCraft material	MaterialCraft-material
+	Materials	Material
+	MaterialX materials	MaterialX-material
+	MatFinish Grind	Slipning
+	MatFinish Hammered	Hamrad
+	MatFinish Raw	Rå
+	MatFinish Sanded	Sandslipad
+	Max Frontal Distance	Max frontavstånd
+	Max Occluder Distance	Max skymmande avstånd
+	Max project size on open	Max projektstorlek vid öppning
+	Max RAM while saving	Max RAM vid sparning
+	Max Rear Distance	Max bakre avstånd
+	Maximum decompressed project data. Increase this limit to open larger projects.	Maximal okomprimerad projektdata. Höj den här gränsen för att öppna större projekt.
+	Medium dark	Mellanmörk
+	Medium light	Mellanljus
+	Mesh fill	Meshfyllning
+	Mesh ID	Mesh-ID
+	Mesh Map Bakers	Meshkartebakare
+	Mesh Map Settings	Inställningar för meshkartor
+	Mesh map: {map}	Meshkarta: {map}
+	Mesh maps	Meshkartor
+	Mesh maps baked	Meshkartor bakade
+	Mesh Normals Based	Baserad på meshnormaler
+	Meshes	Meshar
+	metal	metall
+	Metallic	Metallisk
+	min	min
+	Min Occluder Distance	Min skymmande avstånd
+	Minimum size (%)	Minsta storlek (%)
+	Mirror symmetry	Spegelsymmetri
+	missing	saknas
+	Missing (bake to create)	Saknas (baka för att skapa)
+	missing source	saknad källa
+	Mixed AO	Blandad AO
+	MMB drag / Alt + MMB	Dra med mittknappen / Alt + mittknapp
+	More in Assets > Alphas: click one, or drag it here	Mer i Resurser > Alfabilder: klicka på en eller dra den hit
+	Move down	Flytta ned
+	Move up	Flytta upp
+	Moves the surface by the height channel on a finer copy of the mesh, at the height to normal strength (viewport only: painting follows the base surface)	Förskjuter ytan efter höjdkanalen på en finare kopia av meshen med styrkan för höjd till normal (endast visningsvy: målning följer grundytan)
+	My brushes	Mina penslar
+	My smart materials	Mina smarta material
+	Name each file after its texture set, like Body_normal.png	Namnge varje fil efter sin texturuppsättning, som Body_normal.png
+	New project	Nytt projekt
+	New project...	Nytt projekt...
+	New template	Ny mall
+	No font on this system can show this language	Inget teckensnitt på det här systemet kan visa det här språket
+	no GPU	ingen GPU
+	No GPU renderer available	Ingen GPU-renderare tillgänglig
+	No High-Poly Meshes	Inga högupplösta meshar
+	No outputs yet: add one above, then drag input maps onto its channels.	Inga utdata än: lägg till en ovan och dra sedan indatakartor till dess kanaler.
+	No padding (passthrough)	Ingen utfyllnad (genomsläpp)
+	No Parameters	Inga parametrar
+	No recent projects yet	Inga senaste projekt än
+	Noise amount	Brusmängd
+	Noise scale	Brusskala
+	none	ingen
+	Normal DirectX	Normal DirectX
+	Normal from height	Normal från höjd
+	Normal Invert	Invertera normal
+	Normal map combine	Kombinera normalkarta
+	Normal map detail	Normalkartsdetalj
+	Normal map format	Normalkartsformat
+	Normal map inverse detail	Invers normalkartsdetalj
+	Normal OpenGL	Normal OpenGL
+	Normal: painting uses the flat normal	Normal: målning använder den plana normalen
+	Normalization	Normalisering
+	Normalization Scale	Normaliseringsskala
+	Normalization Type	Normaliseringstyp
+	Not enough GPU memory to show texture set "{name}" fully: lower the viewport Texture resolution in Settings. Painting and export are not affected.	Otillräckligt GPU-minne för att visa texturuppsättningen "{name}" i full upplösning: sänk visningsvyns texturupplösning i Inställningar. Målning och export påverkas inte.
+	Not enough GPU memory to show {count} texture sets fully ({names}): lower the viewport Texture resolution in Settings. Painting and export are not affected.	Otillräckligt GPU-minne för att visa {count} texturuppsättningar i full upplösning ({names}): sänk visningsvyns texturupplösning i Inställningar. Målning och export påverkas inte.
+	Not exported: no source in this texture set	Inte exporterad: ingen källa i den här texturuppsättningen
+	Not imported: {files}	Inte importerad: {files}
+	Not saved: {error}	Inte sparad: {error}
+	nrm	nrm
+	off	av
+	Offset right	Förskjutning åt höger
+	Offset up	Förskjutning uppåt
+	Offset {axis}	Förskjutning {axis}
+	Offsets the textures by the height channel, at the height to normal strength	Förskjuter texturerna efter höjdkanalen med styrkan för höjd till normal
+	Only Same Mesh Name	Endast samma meshnamn
+	op	op
+	Open in MaterialCraft	Öppna i MaterialCraft
+	Open sample project...	Öppna exempelprojekt...
+	Open...	Öppna...
+	Opened in MaterialCraft: use File > Send to TextureCraft there to bring your changes back	Öppnad i MaterialCraft: använd Arkiv > Skicka till TextureCraft där för att föra tillbaka dina ändringar
+	Opened {name}	Öppnade {name}
+	Optional channels add a clear coat (Coat weight, Coat roughness, Coat normal), sheen (Sheen weight, color, roughness), anisotropy (Anisotropy level, angle), subsurface scattering (Scattering weight) and transmission (Transmission).	Valfria kanaler lägger till klarlack (Lackvikt, Lackojämnhet, Lacknormal), lyster (Lystervikt, färg, ojämnhet), anisotropi (Anisotropinivå, vinkel), ytspridning (Spridningsvikt) och transmission (Transmission).
+	Orbit	Kretsa
+	Orthographic	Ortografisk
+	Output directory	Utdatamapp
+	Output high	Utdata hög
+	Output low	Utdata låg
+	Output Size	Utdatastorlek
+	Output template	Utdatamall
+	Output templates	Utdatamallar
+	Overlay opacity	Överläggsopacitet
+	Padding	Utfyllnad
+	Paint	Måla
+	Paint Cage	Måla bur
+	Paint chips	Färgflagor
+	Paint layer	Målningslager
+	Paint on the mesh to edit the layer content.	Måla på meshen för att redigera lagerinnehållet.
+	Paint on the mesh to edit this mask. Use the Material tab's mask value for gray.	Måla på meshen för att redigera den här masken. Använd materialflikens maskvärde för grått.
+	Paint Skew Correction	Måla skevhetskorrigering
+	Paint with the current tool	Måla med aktuellt verktyg
+	Painted layer pixels {pixels} MB, composited channels {composites} MB, compositing cache {cache} MB	Målade lagerpixlar {pixels} MB, sammansatta kanaler {composites} MB, sammansättningscache {cache} MB
+	Painting is paused while a bake is shown. Cancel the bake or wait for it to finish.	Målning är pausad medan en bakning visas. Avbryt bakningen eller vänta tills den är klar.
+	Pan	Panorera
+	Parallax occlusion (height channel)	Parallaxocklusion (höjdkanal)
+	Parameters change in the desktop app, with MaterialCraft installed	Parametrar ändras i skrivbordsappen med MaterialCraft installerat
+	Partial mask values follow the layer's height: high parts show first	Partiella maskvärden följer lagrets höjd: höga delar visas först
+	Particle brush (slides down the surface)	Partikelpensel (glider nedför ytan)
+	Particle brush: particles slide down the surface	Partikelpensel: partiklar glider nedför ytan
+	Particles	Partiklar
+	Passthrough	Genomsläpp
+	Paste as instance	Klistra in som instans
+	Paste effect	Klistra in effekt
+	Paste layer(s)	Klistra in lager
+	Path trace on the processor instead of the graphics card (slower)	Strålspåra på processorn i stället för grafikkortet (långsammare)
+	Path: click adds a point, click the curve inserts one, drag moves it, Enter applies, Esc cancels	Bana: klick lägger till en punkt, klick på kurvan infogar en, dra flyttar den, Retur tillämpar, Esc avbryter
+	Paths stay editable: pick one to move its points or change its brush and material, and the sublayer repaints at once. Add paths with the Path tool.	Banor förblir redigerbara: välj en bana för att flytta dess punkter eller ändra pensel och material, så målas underlagret om direkt. Lägg till banor med banverktyget.
+	Pattern scale	Mönsterskala
+	PBR - Metallic Roughness (TextureCraft)	PBR – Metallisk ojämnhet (TextureCraft)
+	Per Material	Per material
+	Perlin noise	Perlin-brus
+	Pick color	Hämta färg
+	Pick focus in the viewport	Välj fokus i visningsvyn
+	Pin light	Punktljus
+	Place as decal	Placera som dekal
+	Place on the surface	Placera på ytan
+	Place path points on the mesh	Placera banpunkter på meshen
+	Planar projection	Plan projektion
+	Plane	Plan
+	PNG image	PNG-bild
+	Polygon fill	Polygonfyllning
+	Pores	Porer
+	Position gradient	Positionsgradient
+	Position jitter	Positionsvariation
+	Press a key...	Tryck på en tangent...
+	Procedurals	Procedurella
+	Project	Projekt
+	Project Configuration...	Projektkonfiguration...
+	Project Mesh (LP)	Projektmesh (LP)
+	Project opened	Projektet öppnades
+	Project template	Projektmall
+	Projection	Projektion
+	Projects and meshes	Projekt och meshar
+	Quarter	Fjärdedel
+	Quick mask	Snabbmask
+	Quit	Avsluta
+	Radial settings	Radiella inställningar
+	Radial symmetry	Radiell symmetri
+	Radius (texels at 2K)	Radie (texlar vid 2K)
+	Raw curvature	Rå krökning
+	Re-cook	Generera om
+	Reads the curvature map as baked: changing the mode or a size turns detail sizes on.	Läser krökningskartan som bakad: att ändra läge eller storlek aktiverar detaljstorlekar.
+	Rebind any menu item, tool or command	Ändra genväg för valfritt menyalternativ, verktyg eller kommando
+	Recent projects	Senaste projekt
+	Records the stack up to this layer. Fill effects in masks (and fill layers) above can read it as a source.	Spelar in lagerstapeln upp till det här lagret. Fyllningseffekter i masker (och fyllningslager) ovanför kan läsa den som källa.
+	Rectangle fill	Rektangelfyllning
+	Reimport mesh	Importera om mesh
+	Relative to Bounding Box	Relativt till avgränsningsramen
+	Relative to Low Mesh	Relativt till lågupplöst mesh
+	Relative to Min/Max	Relativt till min/max
+	Relative to Ray Distances	Relativt till strålavstånd
+	Remove Cage	Ta bort bur
+	Remove channel	Ta bort kanal
+	Remove effect	Ta bort effekt
+	Remove last	Ta bort senaste
+	Remove layer	Ta bort lager
+	Remove layer(s)	Ta bort lager
+	Remove mask	Ta bort mask
+	Remove point	Ta bort punkt
+	Remove resolution override	Ta bort upplösningsåsidosättande
+	Remove resource	Ta bort resurs
+	Remove Skew Correction	Ta bort skevhetskorrigering
+	Remove skew correction	Ta bort skevhetskorrigering
+	Remove the shortcut	Ta bort kortkommandot
+	Remove this output	Ta bort den här utdatan
+	Remove unused resources...	Ta bort oanvända resurser...
+	Rename the selected template	Byt namn på den markerade mallen
+	Render on the CPU	Rendera på CPU
+	RENDERING	RENDERAR
+	Rendering	Rendering
+	Rendering (path traced)	Rendering (strålspårad)
+	Rendering on CPU: {n} / {max} samples, {s} s	Renderar på CPU: {n} / {max} samplingar, {s} s
+	Rendering on GPU: {n} / {max} samples, {s} s	Renderar på GPU: {n} / {max} samplingar, {s} s
+	Rendering, path traced	Rendering, strålspårad
+	Replace Color	Ersätt färg
+	Replacement color	Ersättningsfärg
+	Report a bug...	Rapportera ett fel...
+	Rescan the library folder	Sök igenom biblioteksmappen igen
+	Reset all	Återställ alla
+	Reset Painted Cage	Återställ målad bur
+	Reset to defaults	Återställ till standardvärden
+	Reset to {shortcut}	Återställ till {shortcut}
+	Reset UI	Återställ gränssnitt
+	Resizing	Ändrar storlek
+	Restore Defaults	Återställ standardvärden
+	Restore every default shortcut	Återställ alla standardkortkommandon
+	Return to Painting Mode	Återgå till målningsläge
+	Return to this step	Återgå till det här steget
+	Right-click a layer > Create smart material	Högerklicka på ett lager > Skapa smart material
+	Rotation (degrees)	Rotation (grader)
+	rough	ojämnh.
+	Roughness	Grovhet
+	Roughness from glossiness	Ojämnhet från glansighet
+	Round	Rund
+	Rounded cube	Rundad kub
+	Samples	Samplingar
+	Sampling Radius	Samplingsradie
+	Save a copy...	Spara en kopia...
+	Save as...	Spara som...
+	Save current brush	Spara aktuell pensel
+	Save current layout...	Spara aktuell layout...
+	Save current project as template	Spara aktuellt projekt som mall
+	Save render...	Spara rendering...
+	Save the changes to {name} before closing?	Vill du spara ändringarna i {name} innan du stänger?
+	Save the changes to {name} first?	Vill du spara ändringarna i {name} först?
+	Save UI Layout	Spara gränssnittslayout
+	Save view as camera	Spara vy som kamera
+	Saved UI layout {path}	Sparade gränssnittslayouten {path}
+	Saved {path}	Sparade {path}
+	Saving UI layouts to files is available in the desktop app	Att spara gränssnittslayouter till filer är tillgängligt i skrivbordsappen
+	Saving uses the other cores and at most this share of the free RAM. At least one core always works.	Sparande använder övriga kärnor och högst den här andelen av ledigt RAM. Minst en kärna arbetar alltid.
+	Scale / tiling	Skala / sida vid sida
+	Scaling Divisor	Skalningsdivisor
+	scatter	spridning
+	Scatter color	Spridningsfärg
+	Scatter radius	Spridningsradie
+	Scattering weight	Spridningsvikt
+	Scratches	Repor
+	Screenshot of the viewport	Skärmbild av visningsvyn
+	Seams Intensity	Sömintensitet
+	Search all assets	Sök bland alla resurser
+	Search commands or keys	Sök kommandon eller tangenter
+	Secondary Rays	Sekundära strålar
+	Seed	Startvärde
+	Select a layer	Markera ett lager
+	Select a paint layer or a layer's mask to fill	Markera ett målningslager eller ett lagers mask att fylla
+	Select an output template	Välj en utdatamall
+	Select source	Välj källa
+	Select the layer content	Markera lagerinnehållet
+	Select the mask (Alt+click: show it in the viewport)	Markera masken (Alt+klick: visa den i visningsvyn)
+	Select...	Markera...
+	Selection mode	Markeringsläge
+	Self Intersection	Självskärning
+	Self Occlusion	Självocklusion
+	Settings...	Inställningar...
+	Shader instance	Shaderinstans
+	Shader Settings	Shaderinställningar
+	sheen	lyster
+	Sheen color	Lysterfärg
+	sheen color	lysterfärg
+	Sheen color × weight	Lysterfärg × vikt
+	sheen rough	lyster ojämnh.
+	Sheen roughness	Lysterojämnhet
+	Sheen weight	Lystervikt
+	Shift + wheel	Skift + rullhjul
+	Shortcuts list...	Lista över kortkommandon...
+	Show all	Visa alla
+	Show at startup	Visa vid start
+	Show axis	Visa axel
+	Show axis position manipulator	Visa manipulator för axelposition
+	Show cursor	Visa markör
+	Show entire mesh	Visa hela meshen
+	Show for Selected Texture Set Only	Visa endast för markerad texturuppsättning
+	Show intersection	Visa skärning
+	Show log...	Visa logg...
+	Show on all parts	Visa på alla delar
+	Show or hide texture sets	Visa eller dölj texturuppsättningar
+	Show or hide the layer	Visa eller dölj lagret
+	Show or hide the texture set	Visa eller dölj texturuppsättningen
+	Show plane	Visa plan
+	Show UV wireframe in the 2D view	Visa UV-trådram i 2D-vyn
+	Show wireframe in the 3D view	Visa trådram i 3D-vyn
+	Signed addition (AddSub)	Addition med tecken (AddSub)
+	Size in screen space	Storlek i skärmrymd
+	Size jitter	Storleksvariation
+	Size of the textures the viewport shows: lower uses less GPU memory with large texture sets. Painting and export keep full resolution.	Storlek på texturerna som visningsvyn visar: lägre värde använder mindre GPU-minne vid stora texturuppsättningar. Målning och export behåller full upplösning.
+	Skew Correction	Skevhetskorrigering
+	Skew Correction Method	Metod för skevhetskorrigering
+	Slope Blur	Lutningsoskärpa
+	Slope scale	Lutningsskala
+	Smart masks	Smarta masker
+	Smart material saved to {path}	Smart material sparat i {path}
+	Smart materials	Smarta material
+	Smooth	Mjuk
+	Smudge	Smeta ut
+	Soft light	Mjukt ljust
+	Source  U {u}  V {v}	Källa  U {u}  V {v}
+	spec	spek
+	Specular	Spekulär
+	specular	spekulär
+	Specular level	Spekulär nivå
+	Sphere	Sfär
+	Spherical projection	Sfärisk projektion
+	Spray	Sprej
+	Spread Angle	Spridningsvinkel
+	Stamp depth	Stämpeldjup
+	Start window	Startfönster
+	Starting render...	Startar rendering...
+	Stencil	Schablon
+	Steps	Steg
+	Streaks	Strimmor
+	Stripes	Ränder
+	Stroke opacity	Penseldragsopacitet
+	Submesh	Undermesh
+	Subsampling 2x2	Undersampling 2x2
+	Subsampling 4x4	Undersampling 4x4
+	Subsampling 8x8	Undersampling 8x8
+	Subsurface scattering	Ytspridning
+	Symmetry	Symmetri
+	Symmetry color display	Färgvisning för symmetri
+	Symmetry settings	Symmetriinställningar
+	System title bar (applies on restart)	Systemets namnlist (börjar gälla vid omstart)
+	Tangent | Wrap	Tangent | Omslut
+	Template name	Mallnamn
+	Temporal anti-aliasing (refines the 3D view while it is still)	Temporal kantutjämning (förfinar 3D-vyn medan den är stilla)
+	Texture resolution	Texturupplösning
+	Texture set channels	Texturuppsättningens kanaler
+	Texture set resolution	Texturuppsättningens upplösning
+	Texture Set Settings	Inställningar för texturuppsättning
+	Texture Sets	Texturuppsättningar
+	Texture sets	Texturuppsättningar
+	TextureCraft had to close:	TextureCraft var tvunget att stängas:
+	TextureCraft PBR - Metallic Roughness	TextureCraft PBR – Metallisk ojämnhet
+	TextureCraft PBR - Specular Glossiness	TextureCraft PBR – Spekulär glansighet
+	TextureCraft project	TextureCraft-projekt
+	TextureCraft project or mesh	TextureCraft-projekt eller mesh
+	Textures	Texturer
+	Textures embedded; for game engines and most viewers	Texturer inbäddade; för spelmotorer och de flesta visningsprogram
+	Textures packaged; for USD tools and AR Quick Look	Texturer paketerade; för USD-verktyg och AR Quick Look
+	The bake worker stopped	Bakningsprocessen stoppades
+	The eraser removes paint from the enabled channels.	Suddgummit tar bort färg från de aktiverade kanalerna.
+	The file dialog couldn't be shown: {error}	Fildialogrutan kunde inte visas: {error}
+	The first stroke sets the offset from the source.	Det första penseldraget anger förskjutningen från källan.
+	The GPU couldn't render this scene: {error}	GPU:n kunde inte rendera den här scenen: {error}
+	The image's alpha cuts the decal's shape; faces turned away and surfaces beyond its depth stay clear.	Bildens alfakanal skär ut dekalens form; ytor som är vända bort och ytor bortom dess djup lämnas orörda.
+	The next click in the 3D view moves the decal there	Nästa klick i 3D-vyn flyttar dekalen dit
+	The project changed while the dialog was open, so nothing was done	Projektet ändrades medan dialogrutan var öppen, så ingenting gjordes
+	The resize worker stopped	Storleksändringsprocessen stoppades
+	Thin areas	Tunna områden
+	Tiles	Rutor
+	Title bar	Namnlist
+	Toggle mask	Växla mask
+	Tone mapping	Tonmappning
+	Torus	Torus
+	transm	transm
+	Transmission	Transmission
+	Tri-planar projection	Triplanär projektion
+	Triangle fill	Triangelfyllning
+	Triangle fills single triangles, Polygon whole quads and n-gons, Mesh the connected geometry, UV island the UV islands	Triangel fyller enskilda trianglar, Polygon hela fyrhörningar och n-hörningar, Mesh sammanhängande geometri, UV-ö fyller UV-öarna
+	Twill weave	Kypertväv
+	UDIM plane	UDIM-plan
+	UDIM tiles painted by this texture set, each at the set's size	UDIM-rutor som målas av den här texturuppsättningen, var och en i uppsättningens storlek
+	UI layout	Gränssnittslayout
+	UI layout: {error}	Gränssnittslayout: {error}
+	UI layouts	Gränssnittslayouter
+	UI {ms} ms	Gränssnitt {ms} ms
+	Uniform value	Enhetligt värde
+	USD binary, textures alongside	USD-binär, texturer bredvid
+	USD text, textures alongside	USD-text, texturer bredvid
+	USDZ with textures	USDZ med texturer
+	Use an equirectangular .hdr or .exr image as the environment	Använd en ekvirektangulär .hdr- eller .exr-bild som miljö
+	Use as brush alpha	Använd som penselalfa
+	Use Low Poly Mesh as High Poly Mesh	Använd lågupplöst mesh som högupplöst mesh
+	Use the control channel or `texturecraft-cli render` for screenshots	Använd kontrollkanalen eller `texturecraft-cli render` för skärmbilder
+	Use the operating system's window frame and buttons instead of TextureCraft's own title bar	Använd operativsystemets fönsterram och knappar i stället för TextureCrafts egen namnlist
+	Use this brush (keeps its size)	Använd den här penseln (behåller storleken)
+	UV checker	UV-rutnät
+	UV island fill	UV-ö-fyllning
+	UV projection	UV-projektion
+	UV Seams	UV-sömmar
+	UV tile {tile} resolution	Upplösning för UV-ruta {tile}
+	UV tiles	UV-rutor
+	UV tiles (UDIM)	UV-rutor (UDIM)
+	UV transformations	UV-transformeringar
+	Value Bounds Max	Övre värdegräns
+	Value Bounds Min	Undre värdegräns
+	Version: {version} ({gpu})	Version: {version} ({gpu})
+	Vertex Color	Hörnfärg
+	View through this camera	Visa genom den här kameran
+	Viewer settings	Visningsinställningar
+	Viewport	Visningsområde
+	Viewport and brush (fixed)	Visningsvy och pensel (fast)
+	Views	Vyer
+	Visible polygons only	Endast synliga polygoner
+	Vivid light	Intensivt ljus
+	Voronoi	Voronoi
+	Warp Directional	Riktningsförvrängning
+	Wavefront OBJ with MTL, textures alongside	Wavefront OBJ med MTL, texturer bredvid
+	WebGPU isn't available in this browser, so TextureCraft runs on WebGL2: Rendering mode path traces on the CPU (slower) and large texture sets show at reduced resolution. A current Chrome, Edge or Safari has WebGPU.	WebGPU är inte tillgängligt i den här webbläsaren, så TextureCraft körs på WebGL2: renderingsläget strålspårar på CPU:n (långsammare) och stora texturuppsättningar visas i reducerad upplösning. En aktuell version av Chrome, Edge eller Safari har WebGPU.
+	What the 3D view shows while the bake runs: the newest finished map, one finished map, or the material. Maps not baked yet show a neutral value.	Vad 3D-vyn visar medan bakningen körs: den senast färdiga kartan, en färdig karta eller materialet. Kartor som inte är bakade än visar ett neutralt värde.
+	Wheel / Alt + RMB drag	Rullhjul / Alt + dra med höger musknapp
+	Width (texels at 2K)	Bredd (texlar vid 2K)
+	Wood grain	Träådring
+	Works in texture space, like the blur: it does not cross UV seams.	Arbetar i texturrymden, precis som oskärpan: korsar inte UV-sömmar.
+	World Space Normal	Världsrymdsnormal
+	Yellow / blue	Gult / blått
+	{action} (undone)	{action} (ångrad)
+	{count} effects	{count} effekter
+	{file}: add above the selected layer (or drag it into the layer stack or onto the viewport)	{file}: lägg till ovanför det markerade lagret (eller dra den till lagerstapeln eller visningsvyn)
+	{name} copy	{name} kopia
+	{n} bits	{n} bitar
+	{n} control points. Click the mesh (or the 2D view) to add points and drag them to adjust; click the first point to close the path. Enter paints it with the brush (a closed, filled path fills its inside), Esc cancels.	{n} kontrollpunkter. Klicka på meshen (eller 2D-vyn) för att lägga till punkter och dra dem för att justera; klicka på den första punkten för att sluta banan. Retur målar den med penseln (en sluten, fylld bana fyller sin insida), Esc avbryter.
+	{n} items share a shortcut; the first one listed wins.	{n} objekt delar kortkommando; det första i listan gäller.
+	{pattern} (scale {scale}, seed {seed})	{pattern} (skala {scale}, frö {seed})
