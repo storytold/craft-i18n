@@ -378,3 +378,10 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+## PdfCraft: Hebrew scanned-page cleanup and page processing (2026-11-21)
+
+14 original Hebrew PdfCraft translations by @nocturney, with AI assistance (ChatGPT).
+Written independently from English source meanings; keys checked against the
+shared catalog. Independent native-speaker review and live right-to-left GUI
+review have not been recorded.
