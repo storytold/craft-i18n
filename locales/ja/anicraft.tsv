@@ -1,0 +1,395 @@
+# 日本語 (ja) interface catalog for AniCraft.
+# Columns, separated by a TAB:  context <TAB> English source text <TAB> translation
+#   context  usually empty. `@plural`, `@id` and `@msg` mean something to the apps; any other
+#            word is a label that tells apart two meanings of the same English.
+#   escapes  \n  \t  \\  inside a column. `{name}` placeholders must appear in both columns (in any
+#            order), and a trailing "…" in one needs one in the other.
+#   @plural  English `one|other`; the translation lists this language's plural forms, `|`-separated.
+#   Lines starting with # and blank lines are ignored. A missing entry shows in English.
+#
+# Clean room: every entry was written from the plain meaning of the English text in ordinary
+# computing vocabulary. No other product's localisation, string table or translated UI was
+# consulted or copied; add entries the same way.
+
+	+ Layer	+ レイヤー
+	1 minute	1分
+	10 minutes	10分
+	2 minutes	2分
+	30 seconds	30秒
+	5 minutes	5分
+	A recovery copy of your unsaved work. If AniCraft closes unexpectedly, the next start offers it back.	未保存の作業のバックアップコピーです。AniCraftが予期せず終了した場合、次回の起動時に復元するかどうかを確認します。
+	About AniCraft	AniCraftについて
+	Actual size (100%)	実際のサイズ（100%）
+	Add a shortcut	ショートカットを追加
+	Add Anchor Point	アンカーポイントを追加
+	Add another shortcut	別のショートカットを追加
+	Add Classic Motion Guide	クラシックモーションガイドを追加
+	Add to / remove from selection	選択範囲に追加 / 選択範囲から削除
+	Adds it at the stage centre (or double-click an item)	ステージの中央に追加します（または項目をダブルクリック）
+	Agent / contributor guide	エージェント / コントリビューターガイド
+	Align centre	中央揃え
+	Align to Stage On / Off	ステージに整列 オン / オフ
+	Align to the stage instead of the selection's bounds (a single shape always aligns to the stage)	選択範囲の境界ではなくステージを基準に整列します（シェイプが1つだけの場合は常にステージが基準になります）
+	Align: to stage	整列：ステージ
+	Align: to the selection	整列：選択範囲
+	Also morphs one shape into another	シェイプを別のシェイプに変形することもできます
+	Always render off the UI thread. The window never waits; the picture can trail by a frame.	常にUIスレッド外でレンダリングします。ウィンドウが待たされることはありませんが、表示が1フレーム遅れる場合があります。
+	AniCraft document	AniCraftドキュメント
+	AniCraft is free software: MIT OR Apache-2.0, at your option.	AniCraftはフリーソフトウェアです：MIT または Apache-2.0（お好みで選択）
+	Animated GIF	アニメーションGIF
+	Architecture philosophy	アーキテクチャの哲学
+	Autosave	自動保存
+	Autosave is off on this system, so there is nothing to recover	このシステムでは自動保存がオフのため、復元できるものはありません
+	Autosave is off: this system has no settings folder	自動保存はオフです：このシステムには設定フォルダーがありません
+	Autosave Now	今すぐ自動保存
+	autosaved {when}	{when}に自動保存
+	Back to the default ({keys})	既定に戻す（{keys}）
+	Background	バックグラウンド
+	Blank	空白
+	Blank Keyframe	空白キーフレーム
+	Blending	ブレンド
+	Break Apart	分解
+	Button	ボタン
+	Cancelled	キャンセル済み
+	cancelling	キャンセル中
+	Centre	中央
+	changes	回の変更後
+	Change…	変更…
+	Classic tween	クラシックトゥイーン
+	Classic {strength}	クラシック {strength}
+	Clear Keyframe	キーフレームをクリア
+	Click a key to change it or + to add one; right-click a key to remove it. Changes save as you go.	キーをクリックすると変更、+をクリックすると追加できます。キーを右クリックすると削除できます。変更はその都度保存されます。
+	Click a shape to give it the current stroke colour and width.	シェイプをクリックすると、現在の線カラーと幅を適用します。
+	Click inside an outline to fill it (on the layer's lines), or on a fill to recolour it. The gap size closes small openings.	輪郭の内側をクリックすると塗りつぶします（レイヤーの線の上）。塗りの上をクリックすると色を変更します。すき間のサイズで小さな開口部を閉じられます。
+	Click to change · right-click to remove	クリックで変更 · 右クリックで削除
+	Click to select, drag to move, drag on empty space to marquee-select. Shift adds to the selection.	クリックで選択、ドラッグで移動、空白部分のドラッグで範囲選択します。Shiftで選択範囲に追加します。
+	Click to type new text, or click text to edit it. Esc or a click elsewhere finishes. The options set the font, size and colour; double-click text with the Selection tool to edit it too.	クリックして新しいテキストを入力するか、テキストをクリックして編集します。Escまたは別の場所のクリックで終了します。オプションでフォント、サイズ、色を設定できます。選択ツールでテキストをダブルクリックしても編集できます。
+	Click to zoom in, Alt-click to zoom out. Ctrl+wheel zooms anywhere.	クリックで拡大、Alt+クリックで縮小します。Ctrl+ホイールでどこでもズームできます。
+	Close folder	フォルダーを閉じる
+	Close large gaps	大きなすき間を閉じる
+	Close medium gaps	中くらいのすき間を閉じる
+	Close small gaps	小さなすき間を閉じる
+	Command palette	コマンドパレット
+	Command Palette…	コマンドパレット…
+	Commands	コマンド
+	Confirmations	確認
+	Constrain shape / 45° line	シェイプの縦横比を固定 / 45°の線
+	Context actions	コンテキストアクション
+	Control	制御
+	Convert Anchor Point	アンカーポイントを変換
+	Convert to Symbol	シンボルに変換
+	Convert to symbol — name	シンボルに変換 — 名前
+	Convert to Symbol…	シンボルに変換…
+	Copy Frames	フレームをコピー
+	Create Classic Tween	クラシックトゥイーンを作成
+	Create Shape Tween	シェイプトゥイーンを作成
+	Current document	現在のドキュメント
+	Current frame	現在のフレーム
+	Cut Frames	フレームを切り取り
+	Data font	データ用フォント
+	Decision records (ADRs)	意思決定記録（ADR）
+	Default (bundled: {font})	既定（同梱：{font}）
+	Default ({font})	既定（{font}）
+	Delete Anchor Points	アンカーポイントを削除
+	Delete Point	ポイントを削除
+	Delete Scene	シーンを削除
+	Delete the active layer	アクティブなレイヤーを削除
+	Delete this autosaved copy	この自動保存コピーを削除
+	Desktop app (source)	デスクトップアプリ（ソース）
+	Discard Autosaved Document	自動保存ドキュメントを破棄
+	Discarded the autosaved copy	自動保存コピーを破棄しました
+	Discarding deletes this work for good. This cannot be undone.	破棄するとこの作業は完全に削除されます。この操作は元に戻せません。
+	Discard…	破棄…
+	Distribute Horizontal Centers	水平方向に中央を分布
+	Distribute Vertical Centers	垂直方向に中央を分布
+	Document Info	ドキュメント情報
+	Document Settings	ドキュメント設定
+	Don't ask again this session	このセッションでは再確認しない
+	Don't close gaps	すき間を閉じない
+	Drag a corner or edge to scale (Shift keeps proportions, Alt scales from the centre), just outside a corner to rotate (Shift snaps 15°), inside to move.	角またはエッジをドラッグして拡大縮小（Shiftで縦横比を維持、Altで中心から拡大縮小）、角のすぐ外側で回転（Shiftで15°刻み）、内側で移動します。
+	Drag from the centre to draw a star.	中心からドラッグして星を描きます。
+	Drag to draw a line. Shift snaps to 45°.	ドラッグして線を描きます。Shiftで45°刻みになります。
+	Drag to draw a rectangle. Shift draws a square.	ドラッグして長方形を描きます。Shiftで正方形になります。
+	Drag to draw an oval. Shift draws a circle.	ドラッグして楕円を描きます。Shiftで円になります。
+	Drag to draw freehand. The options bar sets Smooth, Straighten or Ink.	ドラッグしてフリーハンドで描きます。オプションバーでスムーズ、直線、インクを設定できます。
+	Drag to pan the stage. Space works with any tool.	ドラッグしてステージをパンします。スペースキーはどのツールでも使えます。
+	Duplicate Scene	シーンを複製
+	early alpha	アーリーアルファ
+	Ease	イーズ
+	Ease in (cubic)	イーズイン（3次）
+	Ease in (quad)	イーズイン（2次）
+	Ease in-out (cubic)	イーズインアウト（3次）
+	Ease in-out (quad)	イーズインアウト（2次）
+	Ease out (cubic)	イーズアウト（3次）
+	Ease out (quad)	イーズアウト（2次）
+	Edit Text	テキストを編集
+	Edits show immediately; heavy scenes render in the background with an outline preview.	編集はすぐに表示されます。重いシーンはバックグラウンドでレンダリングされ、アウトラインプレビューが表示されます。
+	Empty frame — press F7 for a blank keyframe	空のフレーム — F7で空白キーフレームを作成
+	Engine crates (source)	エンジンクレート（ソース）
+	Enter confirms · Esc cancels	Enterで確定 · Escでキャンセル
+	Enter saves · Esc cancels	Enterで保存 · Escでキャンセル
+	Esc cancels · click the red button to proceed	Escでキャンセル · 続行するには赤いボタンをクリック
+	Essentials	エッセンシャル
+	Every	間隔
+	Every edit renders before the next frame. Lowest latency; can stutter on very heavy scenes.	編集のたびに次のフレームの前にレンダリングします。遅延は最小ですが、非常に重いシーンではカクつくことがあります。
+	Every shortcut is back to the defaults.	すべてのショートカットが既定に戻りました。
+	Export animated GIF	アニメーションGIFを書き出す
+	Export Animated GIF…	アニメーションGIFを書き出す…
+	Export frame as PNG	フレームをPNGで書き出す
+	Export Frame as PNG…	フレームをPNGで書き出す…
+	Export frame as SVG	フレームをSVGで書き出す
+	Export Frame as SVG…	フレームをSVGで書き出す…
+	Export Lottie animation (JSON, for web and apps)	Lottieアニメーションを書き出す（JSON、Webおよびアプリ用）
+	Export Lottie Animation…	Lottieアニメーションを書き出す…
+	Export PNG sequence to folder	PNGシーケンスをフォルダーに書き出す
+	Export PNG Sequence…	PNGシーケンスを書き出す…
+	Export sprite sheet (PNG + JSON frame map)	スプライトシートを書き出す（PNG + JSONフレームマップ）
+	Export Sprite Sheet…	スプライトシートを書き出す…
+	Export video (.webm or .mp4, made with your ffmpeg)	ビデオを書き出す（.webmまたは.mp4、お使いのffmpegを使用）
+	Export Video…	ビデオを書き出す…
+	Extra start gap	開始位置の追加余白
+	File dialogs	ファイルダイアログ
+	Fill Colour	塗りカラー
+	Fill colour	塗りカラー
+	Fill on/off	塗り オン/オフ
+	Filter by name or key…	名前またはキーで絞り込む…
+	Filter fonts…	フォントを絞り込む…
+	Filters	フィルター
+	First frame	最初のフレーム
+	Fit in Window	ウィンドウに合わせる
+	Fit in window	ウィンドウに合わせる
+	Fit Stage in Window	ステージをウィンドウに合わせる
+	Fit stage in window	ステージをウィンドウに合わせる
+	Fits smooth curves to the stroke, keeping sharp corners.	ストロークに滑らかな曲線を当てはめ、鋭い角は維持します。
+	fixed	固定
+	Folders hold layers, not frames. Hiding or locking the folder hides or locks everything in it; move layers in under it with Up and Down.	フォルダーはフレームではなくレイヤーを格納します。フォルダーを非表示またはロックすると、中のすべてが非表示またはロックされます。UpとDownでレイヤーをフォルダー内に移動できます。
+	Follows the hand closely with little smoothing.	手の動きにほとんど補正をかけず、忠実に追従します。
+	Font “{name}” is not installed; using the bundled font	フォント「{name}」がインストールされていないため、同梱のフォントを使用します
+	Frame Label	フレームラベル
+	Frame label	フレームラベル
+	Frame rate	フレームレート
+	Gap size	すき間のサイズ
+	Go to First Frame	最初のフレームへ移動
+	Go to Frame	フレームへ移動
+	Go to Last Frame	最後のフレームへ移動
+	Go to Scene	シーンへ移動
+	gradient	グラデーション
+	Graphic: {name}	グラフィック：{name}
+	Guide	ガイド
+	Guided	ガイド付き
+	Horizontal Center	水平方向の中央
+	If AniCraft closes unexpectedly, the next start offers to restore it. Copies stay in the settings folder, never over your files, and go away when you save.	AniCraftが予期せず終了した場合、次回の起動時に復元するかどうかを確認します。コピーは設定フォルダーに保存され、ファイルを上書きすることはありません。保存すると削除されます。
+	If you don't save, your changes since the last save will be lost.	保存しない場合、最後に保存してからの変更は失われます。
+	Immediate	即時
+	Import to Stage…	ステージに読み込む…
+	Ink	インク
+	Ink Bottle	インクボトル
+	Insert blank keyframe (F7)	空白キーフレームを挿入（F7）
+	Insert frame (F5)	フレームを挿入（F5）
+	Insert keyframe (F6)	キーフレームを挿入（F6）
+	Instance Name	インスタンス名
+	Inter + Hack (fallback)	Inter + Hack（フォールバック）
+	Interface font	インターフェースフォント
+	Interface scale	インターフェースの拡大率
+	It is an independent project, not affiliated with or endorsed by Adobe. Bundled fonts and Rust crates keep their own permissive licences, listed below.	これは独立したプロジェクトであり、Adobeとは提携せず、承認も受けていません。同梱のフォントとRustクレートはそれぞれの寛容なライセンスに従います（以下に記載）。
+	Keep	保持
+	Keep a recovery copy of unsaved work	未保存の作業のバックアップコピーを保持
+	Keeps step with the timeline it is on (looping options below)	配置先のタイムラインに同期します（ループオプションは以下）
+	Kept the autosaved work. File › Recover Autosaved Documents… brings it back.	自動保存された作業を保持しました。ファイル › 自動保存ドキュメントを復元… で復元できます。
+	Keyboard shortcuts (this editor)	キーボードショートカット（このエディター）
+	Keyframe	キーフレーム
+	Later keeps them: File › Recover Autosaved Documents… brings this back.	「後で」を選ぶと保持されます。ファイル › 自動保存ドキュメントを復元… で復元できます。
+	Layer names, menus and dialog text read like this.	レイヤー名、メニュー、ダイアログのテキストはこのように表示されます。
+	Layer Type	レイヤータイプ
+	Legal compliance	法務コンプライアンス
+	Letter spacing	文字間隔
+	Licenses & Notices	ライセンスと通知
+	Lock/Unlock Layer	レイヤーをロック/ロック解除
+	Loop	ループ
+	Loop Playback	ループ再生
+	Loop playback	ループ再生
+	Looping	ループ
+	Lottie animation	Lottieアニメーション
+	Make Corner	コーナーにする
+	Make Smooth	スムーズにする
+	Mask layer: its fills reveal the masked layers below. Lock it to hide its outline.	マスクレイヤー：その塗りが下のマスクされたレイヤーを表示します。ロックすると輪郭が非表示になります。
+	Masked	マスク済み
+	memory only	メモリのみ
+	missing bitmap	ビットマップが見つかりません
+	Morph this keyframe's shapes into the next keyframe's	このキーフレームのシェイプを次のキーフレームのシェイプに変形します
+	Morphs one shape into another	シェイプを別のシェイプに変形します
+	Motion Editor	モーションエディター
+	Move Keyframes	キーフレームを移動
+	Move Layer Down	レイヤーを下へ移動
+	Move layer down	レイヤーを下へ移動
+	Move Layer Up	レイヤーを上へ移動
+	Move layer up	レイヤーを上へ移動
+	Move Points	ポイントを移動
+	Move Scene Earlier	シーンを前に移動
+	Move Scene Later	シーンを後に移動
+	Moves, scales, rotates and recolours	移動、拡大縮小、回転、色変更を行います
+	Movie clip	ムービークリップ
+	moving between fields	フィールド間の移動
+	Never saved	保存されていません
+	New Folder	新規フォルダー
+	New folder above the active layer (move layers in under it with Up and Down)	アクティブなレイヤーの上に新規フォルダーを作成（UpとDownでレイヤーをフォルダー内に移動）
+	New from Sample	サンプルから新規作成
+	New layer	新規レイヤー
+	New Text	新規テキスト
+	Next Frame	次のフレーム
+	Next Scene	次のシーン
+	No autosaved work to recover	復元できる自動保存の作業はありません
+	No fonts found on this computer	このコンピューターにフォントが見つかりません
+	none	なし
+	not saved yet (File › Save)	まだ保存されていません（ファイル › 保存）
+	nothing (not a key)	なし（キーではありません）
+	Nudge selection 1 px	選択範囲を1ピクセル移動
+	Nudge selection 10 px	選択範囲を10ピクセル移動
+	of {frames}	/ {frames}
+	Onion Skin	オニオンスキン
+	Onion skin	オニオンスキン
+	Onion Skin On / Off	オニオンスキン オン / オフ
+	Open document	ドキュメントを開く
+	Open folder	フォルダーを開く
+	Open it as unsaved work	未保存の作業として開く
+	Open-source 2D vector animation studio, written in Rust.	Rustで書かれたオープンソースの2Dベクターアニメーションスタジオ。
+	Opened	開きました
+	Opened document	開いたドキュメント
+	Opened in your system's file viewer	システムのファイルビューアーで開きました
+	Or after	または
+	Orient to Path	パスに沿って回転
+	Orient to path	パスに沿って回転
+	Outline Layer	アウトライン表示
+	Paint Bucket	塗りつぶし
+	Pan with any tool	どのツールでもパン
+	Panels are docked: Tools, Stage, Timeline, Properties, Library	パネルはドッキングされています：ツール、ステージ、タイムライン、プロパティ、ライブラリ
+	panning with any tool	どのツールでもパン
+	Paste Frames	フレームをペースト
+	Paste in Center	中央にペースト
+	Paste in Place	同じ位置にペースト
+	Pen Path	ペンパス
+	Performance & budgets	パフォーマンスとリソース上限
+	Place Instance	インスタンスを配置
+	Place on stage	ステージに配置
+	Play / Stop	再生 / 停止
+	play / stop	再生 / 停止
+	Play once	1回再生
+	Plays its own timeline on a loop, from when it appears	表示された時点から、独自のタイムラインをループ再生します
+	PNG image	PNG画像
+	PNG sprite sheet	PNGスプライトシート
+	PolyStar	ポリスター
+	Press the new keys for {action}. Esc cancels.	{action}の新しいキーを押してください。Escでキャンセルします。
+	Previous Frame	前のフレーム
+	Previous Scene	前のシーン
+	Project Files	プロジェクトファイル
+	Project Files & Docs	プロジェクトファイルとドキュメント
+	Project Files & Docs…	プロジェクトファイルとドキュメント…
+	Project folder	プロジェクトフォルダー
+	Put every shortcut back to the defaults	すべてのショートカットを既定に戻します
+	Quit	終了
+	Quit AniCraft	AniCraftを終了
+	quitting	終了中
+	Recover Autosaved Documents…	自動保存ドキュメントを復元…
+	Recover unsaved work	未保存の作業を復元
+	Redid {action}	{action}をやり直しました
+	Remove Frame	フレームを削除
+	Remove Transform	変形を削除
+	Remove Tween	トゥイーンを削除
+	Remove tween	トゥイーンを削除
+	Rename Layer	レイヤー名を変更
+	Rename layer	レイヤー名を変更
+	Rename Scene	シーン名を変更
+	Rename scene	シーン名を変更
+	Rendering	レンダリング
+	Requirements & technology	要件と技術
+	Reset all	すべてリセット
+	Reset all…	すべてリセット…
+	Restore Autosaved Document	自動保存ドキュメントを復元
+	Restored “{name}” as a new document (the file on disk is newer). Save to keep it.	「{name}」を新しいドキュメントとして復元しました（ディスク上のファイルの方が新しい）。保持するには保存してください。
+	Restored “{name}”. It isn't saved yet: Save to keep it.	「{name}」を復元しました。まだ保存されていません：保持するには保存してください。
+	Roadmap	ロードマップ
+	Rotate 90° CCW	90°反時計回りに回転
+	Rotate 90° CW	90°時計回りに回転
+	Safety	安全性
+	Save As…	名前を付けて保存…
+	Save changes to “{name}” before closing?	閉じる前に「{name}」への変更を保存しますか？
+	Save document as	ドキュメントに名前を付けて保存
+	Saved documents and exports go where you type in the save box; a plain name lands in the folder AniCraft was started from.	保存したドキュメントと書き出しは、保存ボックスの入力先に保存されます。名前だけを入力した場合は、AniCraftの起動元フォルダーに保存されます。
+	Saved {path}	{path}を保存しました
+	Scanning installed fonts…	インストール済みのフォントをスキャン中…
+	Scene	シーン
+	Screenshots	スクリーンショット
+	Scroll the timeline (or Shift+wheel anywhere over it)	タイムラインをスクロール（またはタイムライン上でShift+ホイール）
+	Select All Frames	すべてのフレームを選択
+	Select at Point	ポイントで選択
+	Select Elements	要素を選択
+	Select Layer	レイヤーを選択
+	Set Tween Easing	トゥイーンのイージングを設定
+	Shape tween	シェイプトゥイーン
+	Show all again	すべて再表示
+	Show/Hide Layer	レイヤーの表示/非表示
+	Shows its Up frame	アップフレームを表示します
+	Single frame	単一フレーム
+	Smooth	スムーズ
+	Smooth (bezier)	スムーズ（ベジェ）
+	Stage	ステージ
+	Stage colour	ステージカラー
+	Stage Rendering	ステージのレンダリング
+	Stage size	ステージサイズ
+	Straighten	直線化
+	Stroke colour	線カラー
+	Stroke width	線幅
+	Subselection	サブ選択
+	SVG image	SVG画像
+	Symbol Type	シンボルタイプ
+	Text alignment	テキストの整列
+	Text colour	テキストカラー
+	Text width	テキスト幅
+	Text: {text}	テキスト：{text}
+	the command palette	コマンドパレット
+	The data font shows numbers, timecode, rulers and shortcuts; only monospaced families are listed so digits stay aligned.	データ用フォントは数値、タイムコード、ルーラー、ショートカットを表示します。数字の桁を揃えるため、等幅ファミリーのみが一覧に表示されます。
+	The file was saved after this copy, so it opens as a new document and Save asks for a name.	このコピーより後にファイルが保存されているため、新しいドキュメントとして開き、保存時に名前を求めます。
+	the shortcut editor	ショートカットエディター
+	The timeline always leaves room before frame 1 for the playhead; this adds more. It stays the same at every zoom.	タイムラインは再生ヘッドのためにフレーム1の前に常に余白を確保します。この設定でさらに広げられます。ズームしても同じ大きさです。
+	this action	このアクション
+	This cannot be undone.	この操作は元に戻せません。
+	Time at the playhead	再生ヘッドの時間
+	To stage	ステージへ
+	Turn off on Linux desktops without an XDG desktop portal; AniCraft then asks for a path instead.	XDGデスクトップポータルのないLinuxデスクトップではオフにしてください。その場合AniCraftはパスの入力を求めます。
+	Turn with the motion guide as it bends	モーションガイドの曲がりに合わせて回転します
+	Turns the stroke into straight segments.	ストロークを直線のセグメントに変換します。
+	Tween	トゥイーン
+	Type a command, tool or setting…	コマンド、ツール、設定を入力…
+	Type on the stage (or double-click the text)	ステージ上で入力（またはテキストをダブルクリック）
+	Type text	テキストを入力
+	Typefaces: {fonts}	書体：{fonts}
+	Ubuntu (fallback) + JetBrains Mono	Ubuntu（フォールバック）+ JetBrains Mono
+	Ubuntu + Hack (built-in defaults; build with CRAFT_FONTS_DIR for Inter + JetBrains Mono)	Ubuntu + Hack（組み込みの既定。Inter + JetBrains Monoを使うにはCRAFT_FONTS_DIRを指定してビルド）
+	Undid {action}	{action}を元に戻しました
+	Up/Down choose · Enter run · Esc close	Up/Downで選択 · Enterで実行 · Escで閉じる
+	Use it for {action}	{action}に使用する
+	Use the system's open and save dialogs	システムの開く/保存ダイアログを使用
+	Version {version} · {stage}	バージョン {version} · {stage}
+	Vertical Center	垂直方向の中央
+	Video (WebM or MP4)	ビデオ（WebMまたはMP4）
+	View action	アクションを表示
+	Welcome to AniCraft. Press Enter to play the sample animation.	AniCraftへようこそ。Enterを押すとサンプルアニメーションを再生します。
+	Where AniCraft's documents and files are on this computer	このコンピューター上のAniCraftのドキュメントとファイルの場所
+	Whichever comes first. 0 changes: by time only. Copies are written in the background, so drawing never waits.	どちらか早い方で実行します。変更0回の場合は時間のみで実行します。コピーはバックグラウンドで書き込まれるため、描画が待たされることはありません。
+	Wrap	折り返し
+	Wrap lines at a fixed width; off, each paragraph stays on one line	固定幅で行を折り返します。オフの場合、各段落は1行のままです
+	Zoom at the cursor	カーソル位置を中心にズーム
+	Zoom in / out	拡大 / 縮小
+	{action}: back to the default	{action}：既定に戻す
+	{action}: key removed	{action}：キーを削除しました
+	{key} could not be moved.	{key}を移動できませんでした。
+	{os} · settings stored in {place}	{os} · 設定は{place}に保存
+	{report} Save to keep it as an AniCraft document.	{report} AniCraftドキュメントとして保持するには保存してください。
+	{tool} tool	{tool}ツール
+	… older steps freed (memory budget)	… 古いステップを解放しました（メモリ上限）
+@plural	Reset {n} changed shortcut to the defaults?|Reset {n} changed shortcuts to the defaults?	変更した{n}個のショートカットを既定に戻しますか？
+@plural	{n} day ago|{n} days ago	{n}日前
+@plural	{n} element|{n} elements	{n}個の要素
+@plural	{n} frame|{n} frames	{n}フレーム
+@plural	{n} h ago|{n} h ago	{n}時間前
+@plural	{n} min ago|{n} min ago	{n}分前
