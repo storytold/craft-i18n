@@ -176,6 +176,10 @@ def git(checkout, *args):
 
 def locale_name(app, code):
     code = code.lower().replace("_", "-")
+    # Older OS locale tables still use iw for Hebrew. Reuse he catalogs,
+    # including for regional tags like iw-IL, rather than writing locales/iw.
+    if code == "iw" or code.startswith("iw-"):
+        code = "he" + code[2:]
     return APP_RENAMES.get((app, code), RENAMES.get(code, code))
 
 

@@ -137,6 +137,28 @@ class Sync(unittest.TestCase):
         self.assertEqual(self.rows("de"), {})
         self.assertIn("Speichern", (self.root / "locales/de/common.tsv").read_text(encoding="utf-8"))
 
+    def test_legacy_hebrew_iw_and_region_sync_into_he_catalogs(self):
+        # Old OSes and some existing apps use iw as Hebrew's language code.
+        # Regional iw-IL must inherit the canonical he common-language rows.
+        self.locale("he", "עברית", common=[("", "Save", "שמירה")])
+        self.write_app({
+            "iw.tsv": tsv(("", "Crop", "חיתוך")),
+            "iw_IL.tsv": tsv(("", "Blur", "טשטוש")),
+            "mod.rs": 'LangInfo { code: "iw", name: "עברית" },\n'
+                      'LangInfo { code: "iw-IL", name: "עברית (ישראל)" },\n',
+        })
+        self.commit()
+        code, out = self.run_sync()
+        self.assertEqual(code, 0, out)
+        self.assertEqual(sync_app.locale_name("demo", "IW"), "he")
+        self.assertEqual(sync_app.locale_name("demo", "iw_IL"), "he-il")
+        self.assertEqual(sync_app.locale_name("demo", "iw-Latn-IL"), "he-latn-il")
+        self.assertEqual(self.rows("he"), {("", "Crop"): "חיתוך"})
+        self.assertEqual(self.rows("he-il"), {("", "Blur"): "טשטוש"})
+        self.assertFalse((self.root / "locales/iw").exists())
+        self.assertFalse((self.root / "locales/iw-il").exists())
+        self.assertEqual(self.run_sync("--check")[0], 0)
+
     def test_new_locale_is_lowercase_bcp47_with_its_language_name(self):
         self.write_app({"pt_BR.tsv": tsv(("", "Crop", "Cortar")), "zh-TW.tsv": tsv(("", "Crop", "裁切")),
                         "ka.tsv": tsv(("", "Crop", "ამოჭრა"))})
