@@ -1,0 +1,100 @@
+# ไทย (th) interface catalog for craft-launcher.
+# Columns, separated by a TAB:  context <TAB> English source text <TAB> translation
+#   context  usually empty. `@plural`, `@id` and `@msg` mean something to the apps; any other
+#            word is a label that tells apart two meanings of the same English.
+#   escapes  \n  \t  \\  inside a column. `{name}` placeholders must appear in both columns (in any
+#            order), and a trailing "…" in one needs one in the other.
+#   @plural  English `one|other`; the translation lists this language's plural forms, `|`-separated.
+#   Lines starting with # and blank lines are ignored. A missing entry shows in English.
+#
+# Clean room: every entry was written from the plain meaning of the English text in ordinary
+# computing vocabulary. No other product's localisation, string table or translated UI was
+# consulted or copied; add entries the same way.
+
+	All releases	ทุกเวอร์ชัน
+	App details	รายละเอียดแอป
+@id	app.github	ที่เก็บ GitHub
+@id	app.install	ติดตั้ง
+@id	app.notes	บันทึกประจำรุ่น
+@id	app.open	เปิด
+@id	app.releases	ทุกเวอร์ชัน
+@id	app.reveal	แสดงใน File Explorer
+@id	app.uninstall	ถอนการติดตั้ง…
+@id	app.website	เว็บไซต์
+	Apps on this computer	แอปในเครื่องนี้
+	Apps you can install	แอปที่ติดตั้งได้
+	ArtCraft on GitHub	ArtCraft บน GitHub
+	Available to install	ติดตั้งได้
+	Cancel update	ยกเลิกการอัปเดต
+	Checking for updates…	กำลังตรวจหาการอัปเดต…
+	Coming soon	เร็ว ๆ นี้
+cadcraft	Computer-aided design and drafting	การออกแบบและเขียนแบบด้วยคอมพิวเตอร์
+	Craft App Suite	ชุดแอป Craft
+	Default install folder	โฟลเดอร์ติดตั้งเริ่มต้น
+	Download again	ดาวน์โหลดอีกครั้ง
+	Download for {os}	ดาวน์โหลดสำหรับ {os}
+	Downloading {done} of {total}	กำลังดาวน์โหลด {done} จาก {total}
+	Downloading…	กำลังดาวน์โหลด…
+@id	filter.all	ทั้งหมด
+@id	filter.installed	ติดตั้งแล้ว
+@id	filter.notinstalled	ยังไม่ได้ติดตั้ง
+@id	filter.updates	อัปเดต
+@id	help.discord	Discord
+@id	help.github	GitHub
+@id	help.website	เว็บไซต์
+photocraft	Image editing	การแก้ไขภาพ
+	Inspired by	ได้แรงบันดาลใจจาก
+	Install	ติดตั้ง
+	Installed	ติดตั้งแล้ว
+	Installed version	เวอร์ชันที่ติดตั้ง
+	Installing…	กำลังติดตั้ง…
+figcraft	Interface design and prototyping	ออกแบบส่วนติดต่อและต้นแบบ
+	Latest	ล่าสุด
+	Latest version	เวอร์ชันล่าสุด
+@id	launcher.dismiss	ปิด
+@id	launcher.download	ดาวน์โหลด
+@id	launcher.notes	ข่าวสาร
+@id	launcher.update	อัปเดตและเริ่มใหม่
+	Learn more	ดูเพิ่มเติม
+effectcraft	Motion graphics and visual effects	โมชันกราฟิกและเอฟเฟกต์ภาพ
+	No apps match	ไม่มีแอปที่ตรงกัน
+	No release published yet	ยังไม่มีการเผยแพร่เวอร์ชัน
+	Not installed	ยังไม่ได้ติดตั้ง
+designcraft	Page layout and publishing	จัดหน้าและสิ่งพิมพ์
+lightcraft	Photo library and raw development	คลังภาพและการล้างฟิล์ม RAW
+deckcraft	Presentations and slide shows	งานนำเสนอและสไลด์โชว์
+pdfcraft	Reading, organizing and protecting PDFs	อ่าน จัดระเบียบ และป้องกันไฟล์ PDF
+soundcraft	Recording, editing and mixing audio	บันทึก แก้ไข และผสมเสียง
+	Reinstall	ติดตั้งใหม่
+	Release notes	บันทึกประจำรุ่น
+	Releases	เวอร์ชัน
+	Search apps	ค้นหาแอป
+@id	settings.open	การตั้งค่า
+	Show apps as a table	แสดงแอปเป็นตาราง
+	Show apps as cards	แสดงแอปเป็นการ์ด
+	Show in Explorer	แสดงใน File Explorer
+	Show in Finder	แสดงใน Finder
+@id	sort.installed	เวอร์ชันที่ติดตั้ง
+@id	sort.latest	เวอร์ชันล่าสุด
+@id	sort.name	ชื่อ
+@id	sort.status	สถานะ
+gridcraft	Spreadsheets and data	สเปรดชีตและข้อมูล
+	Uninstall	ถอนการติดตั้ง
+	Update and restart	อัปเดตและเริ่มใหม่
+	Update available	มีอัปเดต
+@id	update.check	ตรวจหาการอัปเดต
+@id	update.check_auto	ตรวจหาการอัปเดตโดยอัตโนมัติ
+@id	update.notify	แจ้งเตือนเมื่อมีอัปเดตสำหรับแอปที่ติดตั้งไว้
+vectorcraft	Vector illustration	ภาพประกอบเวกเตอร์
+	Version {latest}	เวอร์ชัน {latest}
+filmcraft	Video editing, color and sound	ตัดต่อวิดีโอ สี และเสียง
+@id	view.grid	ตารางกริด
+@id	view.table	ตาราง
+	Visit getartcraft.com	เยี่ยมชม getartcraft.com
+	What's new	มีอะไรใหม่
+wordcraft	Writing and document design	การเขียนและการออกแบบเอกสาร
+	{name} {version}	{name} {version}
+@plural	{n} app|{n} apps	{n} แอป
+@plural	{n} day ago|{n} days ago	{n} วันที่แล้ว
+@plural	{n} h ago|{n} h ago	{n} ชั่วโมงที่แล้ว
+@plural	{n} min ago|{n} min ago	{n} นาทีที่แล้ว
