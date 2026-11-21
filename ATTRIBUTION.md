@@ -378,3 +378,7 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+## Hebrew: WordCraft language packs and PhotoCraft document/pixel counts (2026-11-21)
+
+4 original Hebrew strings (WordCraft: 2; PhotoCraft: 2 plurals) by @nocturney with AI assistance (ChatGPT). Clean-room from source English meaning, checked against shared catalogs and pending Hebrew PRs. For the PhotoCraft plural rows, all three Hebrew plural categories and placeholders were validated. Independent native-speaker and live RTL UI review pending.
