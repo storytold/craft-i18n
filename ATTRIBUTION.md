@@ -378,3 +378,7 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+## PhotoCraft: startup splash screen labels
+
+@sbjwin added the startup splash screen rows (`v{version}  ·  Open Source Native Image Editor`, `Initializing graphics & engine…`, `Loading workspace & font assets…`, `Click anywhere to skip`, and `Ready` in `hi`) to `locales/<code>/photocraft.tsv` across all 35 PhotoCraft catalogs. Clean-room translations written from the plain meaning of the English text and existing catalog terminology, AI-assisted; Korean (`ko`) reviewed by @sbjwin, a native speaker, and the remaining locales not yet reviewed by a native speaker.
