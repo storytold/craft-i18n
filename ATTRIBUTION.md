@@ -378,3 +378,7 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+## PhotoCraft workspace recovery
+
+The two panel layout recovery messages were migrated from PhotoCraft commit `786d033ec` for `ar`, `cs`, `da`, `de`, `el`, `es`, `fi`, `fr`, `hi`, `hu`, `id`, `it`, `ja`, `ko`, `nb`, `nl`, `pl`, `pt-br`, `ru`, `sv`, `tr`, `uk`, `vi`, `zh-hans`, `zh-hant`. The sentence break and the Russian wording were edited with Codex assistance. No native-speaker review is recorded.
