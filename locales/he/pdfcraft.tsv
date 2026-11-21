@@ -2721,3 +2721,25 @@ calendar weekday	We	ד׳
 	This document's script is asking	הסקריפט של מסמך זה שואל
 	Document: {name}	מסמך: {name}
 	This request comes from the document, not PdfCraft. Only enter a password if you trust this document.	בקשה זו מגיעה מהמסמך, לא מ-PdfCraft. הזינו סיסמה רק אם אתם סומכים על מסמך זה.
+
+# Hebrew: PDF color conversion and preflight diagnostics
+	A colour operator's operands don't match its colour space	האופרנדים של אופרטור הצבע אינם תואמים למרחב הצבעים שלו
+	A colour space is nested too deeply to convert	מרחב הצבעים מקונן בעומק רב מדי להמרה
+	A colour space's ICC profile can't be used to convert its colour	לא ניתן להשתמש בפרופיל ICC של מרחב הצבעים להמרת הצבע
+	A content stream can't be read, so its colour can't be converted	לא ניתן לקרוא את זרם התוכן ולכן אי אפשר להמיר את צבעיו
+	A content stream is drawn with different resources in different places, so its colour can't be converted	זרם התוכן מצויר באמצעות משאבים שונים במיקומים שונים, ולכן אי אפשר להמיר את צבעיו
+	A mesh shading's colours change too sharply between its corners to convert to CMYK exactly	הצבעים בהצללת הרשת משתנים בחדות רבה מדי בין הפינות להמרה מדויקת ל־CMYK
+	A pattern over RGB or device-independent colour can't be converted to CMYK yet	עדיין אי אפשר להמיר ל־CMYK תבנית המבוססת על RGB או על צבע שאינו תלוי התקן
+	A picture with a colour-key mask can't be converted to CMYK yet	עדיין אי אפשר להמיר ל־CMYK תמונה עם מסכת מפתח צבע
+	A picture with a decode array or a colour-key mask can't be converted to CMYK yet	עדיין אי אפשר להמיר ל־CMYK תמונה עם מערך פענוח או מסכת מפתח צבע
+	A picture with other than 8 bits per component can't be converted to CMYK yet	עדיין אי אפשר להמיר ל־CMYK תמונה שעומק הרכיבים שלה אינו 8 סיביות
+	A picture's data can't be read, so it can't be converted to CMYK	לא ניתן לקרוא את נתוני התמונה, ולכן אי אפשר להמיר אותה ל־CMYK
+	A shading in RGB or device-independent colour can't be converted to CMYK yet	עדיין אי אפשר להמיר ל־CMYK הצללה במרחב RGB או בצבע שאינו תלוי התקן
+	A shading's data can't be read, so it can't be converted to CMYK	לא ניתן לקרוא את נתוני ההצללה, ולכן אי אפשר להמיר אותה ל־CMYK
+	An indexed colour space's table is too short to convert	הטבלה של מרחב צבעים מאונדקס קצרה מדי להמרה
+	Content uses {} colour, which doesn't match the output intent's colour space	התוכן משתמש בצבע מסוג {}, שאינו תואם למרחב הצבעים של כוונת הפלט
+	The output intent's profile has /N {}, which doesn't match its colour space	בפרופיל כוונת הפלט, הערך ‎/N הוא {}, והוא אינו תואם למרחב הצבעים
+	The output intent's profile has no device-to-PCS transform (AToB1 or grayTRC)	בפרופיל כוונת הפלט חסרה המרה מההתקן למרחב החיבור PCS ‏(AToB1 או grayTRC)
+	The tint transform of the spot colour {} can't be read or evaluated	לא ניתן לקרוא או לחשב את המרת הגוון של צבע הספוט {}
+	The tint transform of the spot colour {} can't be resampled into CMYK exactly	לא ניתן לדגום מחדש במדויק ל־CMYK את המרת הגוון של צבע הספוט {}
+	{} colour doesn't match the output intent's colour space	הצבע {} אינו תואם למרחב הצבעים של כוונת הפלט
