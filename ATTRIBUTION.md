@@ -354,6 +354,15 @@ their labels. After review in craft-i18n#211, Diagram in `ar`, `bg`, `de`, `et` 
 was changed to a schema/scheme word so it no longer repeats the Chart label. In `sv` it
 equals Chart ("Diagram") by choice, confirmed by @FredApps, a native speaker, in
 craft-i18n#211. In `da` and `hu` it still equals Chart, pending a native speaker's choice.
+## WordCraft: Hebrew language packs and AutoCorrect strings (2026-11-21)
+
+23 original Hebrew translations for WordCraft's language-pack installation,
+window status, changed-selection feedback and AutoCorrect controls.
+Contributed by @nocturney with AI assistance; independent native-speaker
+proofreading and live UI review have not been recorded. English source/context
+keys were checked against this repository's French catalog and do not overlap
+the extant Hebrew catalog or the open additions in #219, #300 and #317.
+
 ## PhotoCraft: Rotate View Left and Right from photocraft#4931
 
 Photocraft #4931, submitted by @FredApps, carried translations of "Rotate View Left" and
