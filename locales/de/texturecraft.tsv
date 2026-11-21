@@ -25,6 +25,7 @@
 	3D/2D views	3D-/2D-Ansicht
 	A click fills what is under it; a dragged rectangle fills what it selects as it grows	Ein Klick füllt, was darunter liegt; ein aufgezogenes Rechteck füllt, was es beim Aufziehen erfasst
 	A folder blends its children (pass-through). Set per-channel opacity in the layer rows.	Ein Ordner überblendet seine Unterelemente (Hindurchwirken). Die Deckkraft pro Kanal wird in den Ebenenzeilen festgelegt.
+	A layout named {name} already exists. Replace it?	Eine Anordnung namens {name} gibt es bereits. Ersetzen?
 	a missing layer	eine fehlende Ebene
 	About TextureCraft	Über TextureCraft
 	About TextureCraft...	Über TextureCraft...
@@ -57,12 +58,14 @@
 	Add...	Hinzufügen...
 	Adjustments	Korrekturen
 	Advanced settings	Erweiterte Einstellungen
+	Aligned	Ausgerichtet
 	Aligned: the offset set by the first stroke is kept. V + click sets a new source.	Ausgerichtet: Der beim ersten Strich festgelegte Versatz bleibt erhalten. V + Klick legt eine neue Quelle fest.
 	Alignment and culling	Ausrichtung und Culling
 	All layers	Alle Ebenen
 	Alphas	Alphas
 	Also bound to {item} ({menu})	Auch belegt für {item} ({menu})
 	Alt + LMB drag	Alt + LMT ziehen
+	Alt+click: show only this layer. Alt+Shift+click: without its mask.	Alt+Klick: nur diese Ebene anzeigen. Alt+Shift+Klick: ohne ihre Maske.
 	Amber	Bernstein
 	Ambient	Umgebung
 	Ambient Occlusion	Ambient Occlusion
@@ -84,6 +87,7 @@
 	AO intensity	AO-Intensität
 	Aperture	Blende
 	Apply Diffusion	Diffusion anwenden
+	Apply smart mask {name}	Smart-Maske {name} anwenden
 	ArtCraft website...	ArtCraft-Website...
 	Assets	Assets
 	Attenuation	Abschwächung
@@ -96,6 +100,7 @@
 	Axis	Achse
 	Axis position	Achsenposition
 	Back to painting	Zurück zum Malen
+	Back view	Rückansicht
 	Backface culling	Rückseiten-Culling
 	Bake an ID map (F8) to pick colors from the mesh.	Backe eine ID-Map (F8), um Farben vom Mesh aufzunehmen.
 	Bake Mesh Maps	Mesh-Maps backen
@@ -120,11 +125,16 @@
 	Blending mode of the displayed channel	Füllmethode des angezeigten Kanals
 	Blur and sharpen	Weichzeichnen und Scharfzeichnen
 	Blur Directional	Richtungsweichzeichnung
+	Bottom view	Ansicht von unten
 	Bounces	Lichtsprünge
 	Bricks	Ziegel
 	Brush	Pinsel
+	Brush flow (left/right) and angle (up/down)	Pinselfluss (links/rechts) und Winkel (oben/unten)
 	Brush name	Pinselname
 	Brush size	Pinselgröße
+	Brush size (left/right) and hardness (up/down)	Pinselgröße (links/rechts) und Härte (oben/unten)
+	Brush size (wheel up smaller, down larger)	Pinselgröße (Rad nach oben kleiner, nach unten größer)
+	Brush size and hardness in fine steps	Pinselgröße und Härte in feinen Schritten
 	Brush size down / up	Pinselgröße verkleinern / vergrößern
 	Brushed lines	Gebürstete Linien
 	BSphere	Begrenzungskugel
@@ -145,6 +155,7 @@
 	Cells	Zellen
 	Change them in Texture Set Settings	Ändern unter Texturset-Einstellungen
 	Channel source: uniform value, procedural, image or anchor	Kanalquelle: einheitlicher Wert, prozedural, Bild oder Anker
+	Channels dragged	Mitgezogene Kanäle
 	Check All	Alle auswählen
 	Check for Updates...	Nach Updates suchen...
 	Checker	Schachbrett
@@ -153,12 +164,17 @@
 	Clamp	Begrenzen
 	Clear mask	Maske leeren
 	Clear recent projects	Letzte Projekte leeren
+	Click (Path tool)	Klick (Pfad-Werkzeug)
 	Click a mesh part to show or hide the selected layer on it.	Klicken Sie auf einen Teil des Meshs, um die ausgewählte Ebene dort ein- oder auszublenden.
+	Click the first point (Path tool)	Ersten Punkt anklicken (Pfad-Werkzeug)
 	Click the mesh to pick its material into the brush	Auf das Mesh klicken, um sein Material in den Pinsel aufzunehmen
 	Click the mesh to place the decal	Auf das Mesh klicken, um das Decal zu platzieren
+	Click the model to place the symmetry plane there (Esc cancels)	Klicke auf das Modell, um die Symmetrieebene dort zu platzieren (Esc bricht ab)
 	Click, then press the new shortcut (Esc cancels)	Klicken, dann das neue Tastenkürzel drücken (Esc bricht ab)
 	Click: turn this channel on or off. Alt+click: this channel only	Klick: diesen Kanal ein- oder ausschalten. Alt+Klick: nur diesen Kanal
 	Clone	Klonen
+	Clone on {layer}	Klonen auf {layer}
+	Clone: pick the point to copy from	Klonen: Punkt wählen, von dem kopiert wird
 	Closed path	Geschlossener Pfad
 	Cloud	Wolke
 	Clouds	Wolken
@@ -180,6 +196,7 @@
 	Color to replace	Zu ersetzende Farbe
 	Colors near the first shift towards the second, keeping their shading.	Farben nahe der ersten verschieben sich zur zweiten und behalten ihre Schattierung.
 	Colors read as gray. Add a levels or blur effect above to shape the result.	Farben werden als Grau gelesen. Darüber eine Tonwertkorrektur oder einen Weichzeichnen-Effekt hinzufügen, um das Ergebnis zu formen.
+	Colors the procedural or anchor from dark to light through color stops	Färbt das Prozedurale oder den Ankerpunkt von Dunkel nach Hell über Farbstopps ein
 	Combine with the layer's height	Mit der Höhe der Ebene kombinieren
 	Common Parameters	Gemeinsame Parameter
 	Common Settings	Allgemeine Einstellungen
@@ -197,6 +214,7 @@
 	Copy effect	Effekt kopieren
 	Copy from	Kopieren aus
 	Copy layer(s)	Ebene(n) kopieren
+	Copy mask to clipboard	Maske in die Zwischenablage kopieren
 	Copy RGB values	RGB-Werte kopieren
 	Copy the selected layer alone (its empty parts copy nothing)	Nur die ausgewählte Ebene kopieren (ihre leeren Bereiche kopieren nichts)
 	Copy to all texture sets	In alle Textursets kopieren
@@ -216,8 +234,15 @@
 	Count	Anzahl
 	Count per stamp	Anzahl pro Abdruck
 	Crate	Kiste
+	Create smart mask	Smart-Maske erstellen
 	Create smart material	Smart-Material erstellen
+	Ctrl + LMB drag	Ctrl + LMT ziehen
+	Ctrl + RMB drag	Ctrl + RMT ziehen
+	Ctrl + Shift + LMB	Ctrl + Shift + LMT
+	Ctrl + Shift + RMB drag	Ctrl + Shift + RMT ziehen
+	Ctrl + wheel	Ctrl + Mausrad
 	Ctrl+right-drag in a view sets the size and hardness, Ctrl+left-drag the flow and angle.	Strg+Ziehen mit RMT in einer Ansicht stellt Größe und Härte ein, Strg+Ziehen mit LMT Fluss und Winkel.
+	Ctrl+Shift+right-drag: size and hardness in fine steps.	Ctrl+Shift+Rechtsziehen: Größe und Härte in feinen Schritten.
 	Cube	Würfel
 	Current layer	Aktuelle Ebene
 	Curvature	Krümmung
@@ -233,7 +258,10 @@
 	Decal	Decal
 	Decal projection	Decal-Projektion
 	Default camera	Standardkamera
+	Delete template	Vorlage löschen
+	Delete the layout {name}?	Anordnung {name} löschen?
 	Delete the selected template	Ausgewählte Vorlage löschen
+	Delete the template "{name}"? Its file is removed and this cannot be undone.	Vorlage „{name}“ löschen? Ihre Datei wird entfernt, das lässt sich nicht rückgängig machen.
 	Delete this camera	Diese Kamera löschen
 	Deleted template "{name}"	Vorlage „{name}“ gelöscht
 	Denoise	Entrauschen
@@ -249,6 +277,7 @@
 	DirectX normal map	DirectX-Normal-Map
 	Dirt	Schmutz
 	Disable	Deaktivieren
+	Discard changes	Änderungen verwerfen
 	Dismiss	Schließen
 	Displacement (height channel)	Verschiebung (Höhenkanal)
 	Display material	Material anzeigen
@@ -273,7 +302,9 @@
 	Drag onto an output channel	Auf einen Ausgabekanal ziehen
 	Drag the frame to move the decal, a corner to scale it, the round handle to turn it	Rahmen ziehen, um das Decal zu verschieben, eine Ecke zum Skalieren, den runden Griff zum Drehen
 	Drags the layer stack's values along the stroke into the selected layer.	Zieht die Werte des Ebenenstapels entlang des Strichs in die ausgewählte Ebene.
+	Draw snapped straight lines	Gerade Linien mit Einrasten zeichnen
 	Draws {name} of texture set "{set}". Edits to the source show in every instance.	Zeichnet {name} aus Texturset „{set}“. Änderungen an der Quelle erscheinen in jeder Instanz.
+	Drop an image from the Assets panel here to use it as the stencil	Ziehe ein Bild aus dem Assets-Bedienfeld hierher, um es als Schablone zu verwenden
 	Drop an image from the Assets panel here to use it as this mesh map	Ein Bild aus dem Assets-Panel hier ablegen, um es als diese Mesh-Map zu verwenden
 	Dry streaks	Trockene Schlieren
 	Duplicate effect	Effekt duplizieren
@@ -286,6 +317,7 @@
 	Edges	Kanten
 	Edges and cavities	Kanten und Vertiefungen
 	Edit keyboard shortcuts...	Tastenkürzel bearbeiten...
+	Edit path {n}	Pfad {n} bearbeiten
 	Edit quick mask	Schnellmaske bearbeiten
 	Editing quick mask: paint where painting is allowed (U to finish)	Schnellmaske bearbeiten: Bereiche malen, in denen Malen erlaubt ist (U zum Beenden)
 	Editing the quick mask: fills paint where painting is allowed. Press U to finish.	Schnellmaske wird bearbeitet: Füllungen markieren, wo Malen erlaubt ist. Zum Beenden U drücken.
@@ -304,7 +336,11 @@
 	Environment settings	Umgebungseinstellungen
 	Environment: {name}	Umgebung: {name}
 	Environments	Umgebungen
+	Erase mask of {layer}	Maske von {layer} radieren
+	Erase on {layer}	Radieren auf {layer}
+	Esc (Path tool)	Esc (Pfad-Werkzeug)
 	Expand or collapse the folder	Ordner auf- oder zuklappen
+	Export mask to file...	Maske in Datei exportieren...
 	Export mesh	Mesh exportieren
 	Export Mesh...	Mesh exportieren...
 	Export template	Vorlage exportieren
@@ -332,8 +368,11 @@
 	Filters	Filter
 	Fine noise	Feines Rauschen
 	Fingerprints	Fingerabdrücke
+	Finish or cancel the path first; it is in the 2D view	Schließe den Pfad zuerst ab oder brich ihn ab; er befindet sich in der 2D-Ansicht
+	Finish or cancel the path first; it is in the 3D view	Schließe den Pfad zuerst ab oder brich ihn ab; er befindet sich in der 3D-Ansicht
 	Fit the input range to the histogram	Eingabebereich an das Histogramm anpassen
 	Flatten layer	Ebene reduzieren
+	Flip the copy's image	Bild der Kopie spiegeln
 	Flips the image's green channel, for normal maps made with Y pointing down	Kehrt den Grünkanal des Bildes um, für Normal-Maps mit nach unten zeigendem Y
 	Flow	Fluss
 	Flow and opacity	Fluss und Deckkraft
@@ -346,9 +385,11 @@
 	Follow path	Pfad folgen
 	Font	Schrift
 	For the whole project: how normal map images set as mesh maps are read (set them again after a change), and the default for export	Für das ganze Projekt: wie Normal-Map-Bilder als Mesh-Maps gelesen werden (nach einer Änderung neu zuweisen), und die Vorgabe für den Export
+	Frame texture set	Texturset einpassen
 	Free and open source (MIT OR Apache-2.0), written in Rust.	Frei und quelloffen (MIT OR Apache-2.0), geschrieben in Rust.
 	From template	Aus Vorlage
 	From template / project	Aus Vorlage / Projekt
+	Front view	Vorderansicht
 	Full Scene	Gesamte Szene
 	General export parameters	Allgemeine Exportparameter
 	General properties	Allgemeine Eigenschaften
@@ -449,14 +490,17 @@
 	Jitters	Streuung
 	Join the ArtCraft community on Discord	Der ArtCraft-Community auf Discord beitreten
 	Join the community (Discord)...	Der Community beitreten (Discord)...
+	Keep editing	Weiter bearbeiten
 	Key light (shadow-casting light, direct only)	Führungslicht (schattenwerfendes Licht, nur direkt)
 	Keyboard	Tastatur
 	Keyboard shortcuts	Tastenkürzel
 	Layer mask	Ebenenmaske
 	Layer memory: {mb} MB	Ebenenspeicher: {mb} MB
+	Layouts	Anordnungen
 	Lazy mouse	Lazy Mouse
 	Lazy mouse distance	Lazy-Mouse-Distanz
 	Leather grain	Ledernarbung
+	Left view	Ansicht von links
 	Lens size: how quickly things blur away from the focus distance	Linsengröße: wie schnell Objekte außerhalb der Fokusdistanz unscharf werden
 	Levels	Tonwertkorrektur
 	Lifetime (steps)	Lebensdauer (Schritte)
@@ -470,6 +514,7 @@
 	Linear light	Lineares Licht
 	List of exports	Exportliste
 	LMB	LMT
+	LMB drag on a point (Path tool)	LMT auf einem Punkt ziehen (Pfad-Werkzeug)
 	Load Cage	Käfig laden
 	Load UI Layout	UI-Layout laden
 	Loaded UI layout {path}	UI-Layout {path} geladen
@@ -479,13 +524,17 @@
 	Made by the ArtCraft team and community.	Entwickelt vom ArtCraft-Team und der Community.
 	Magenta / green	Magenta / Grün
 	Main shader	Haupt-Shader
+	Manage layouts	Anordnungen verwalten
+	Manage layouts...	Anordnungen verwalten...
 	Manipulator size	Manipulatorgröße
 	Manual	Manuell
 	Marble veins	Marmoradern
+	Mask copied to the clipboard	Maske in die Zwischenablage kopiert
 	Mask Editor: Edge wear	Masken-Editor: Kantenabnutzung
 	Mask effects	Maskeneffekte
 	Mask value (gray)	Maskenwert (Grau)
 	Mask with height	Mit Höhe maskieren
+	MASK: {layer}	MASKE: {layer}
 	Match	Zuordnung
 	Material	Material
 	Material ball	Materialkugel
@@ -521,6 +570,7 @@
 	min	Min.
 	Min Occluder Distance	Minimaler Verdeckungsabstand
 	Minimum size (%)	Mindestgröße (%)
+	Mirror across	Spiegeln an
 	Mirror symmetry	Spiegelsymmetrie
 	missing	fehlt
 	Missing (bake to create)	Fehlt (zum Erstellen backen)
@@ -533,8 +583,11 @@
 	Move up	Nach oben
 	Moves the surface by the height channel on a finer copy of the mesh, at the height to normal strength (viewport only: painting follows the base surface)	Verschiebt die Oberfläche anhand des Höhenkanals auf einer feineren Kopie des Meshs, mit der Stärke von Höhe zu Normale (nur im Viewport: Malen folgt der Grundoberfläche)
 	My brushes	Meine Pinsel
+	My smart masks	Meine Smart-Masken
 	My smart materials	Meine Smart-Materialien
 	Name each file after its texture set, like Body_normal.png	Benennen Sie jede Datei nach ihrem Texturset, z. B. Body_normal.png
+	Name of the layout	Name der Anordnung
+	Navigation buttons	Navigationsschaltflächen
 	New project	Neues Projekt
 	New project...	Neues Projekt...
 	New template	Neue Vorlage
@@ -546,6 +599,7 @@
 	No padding (passthrough)	Kein Padding (unverändert)
 	No Parameters	Keine Parameter
 	No recent projects yet	Noch keine zuletzt geöffneten Projekte
+	No saved layouts	Keine gespeicherten Anordnungen
 	No UV tiles	Keine UV-Kacheln
 	Noise amount	Rauschstärke
 	Noise scale	Rauschskalierung
@@ -563,6 +617,7 @@
 	Normalization	Normalisierung
 	Normalization Scale	Normalisierungsskala
 	Normalization Type	Normalisierungstyp
+	Not aligned: every stroke starts at the source. V + click sets a new source.	Nicht ausgerichtet: Jeder Strich beginnt an der Quelle. V + Klick legt eine neue Quelle fest.
 	Not enough GPU memory to show texture set "{name}" fully: lower the viewport Texture resolution in Settings. Painting and export are not affected.	Nicht genug GPU-Speicher, um das Texturset "{name}" vollständig anzuzeigen: Verringere in den Einstellungen die Texturauflösung des Ansichtsfensters. Malen und Export sind nicht betroffen.
 	Not enough GPU memory to show {count} texture sets fully ({names}): lower the viewport Texture resolution in Settings. Painting and export are not affected.	Nicht genug GPU-Speicher, um {count} Texturesets vollständig anzuzeigen ({names}): Verringere in den Einstellungen die Texturauflösung des Ansichtsfensters. Malen und Export sind nicht betroffen.
 	Not exported: no source in this texture set	Nicht exportiert: keine Quelle in diesem Texturset
@@ -574,6 +629,7 @@
 	Offset up	Versatz oben
 	Offset {axis}	Versatz {axis}
 	Offsets the textures by the height channel, at the height to normal strength	Verschiebt die Texturen anhand des Höhenkanals, mit der Stärke Höhe zu Normale
+	On: the offset from the first stroke is kept. Off: every stroke starts at the source point.	An: Der Versatz zum ersten Strich bleibt erhalten. Aus: Jeder Strich beginnt am Quellpunkt.
 	Only Same Mesh Name	Nur gleicher Mesh-Name
 	op	deck
 	Open in MaterialCraft	In MaterialCraft öffnen
@@ -583,6 +639,8 @@
 	Opened {name}	{name} geöffnet
 	Optional channels add a clear coat (Coat weight, Coat roughness, Coat normal), sheen (Sheen weight, color, roughness), anisotropy (Anisotropy level, angle), subsurface scattering (Scattering weight) and transmission (Transmission).	Optionale Kanäle ergänzen Klarlack (Klarlack-Gewichtung, Klarlack-Rauheit, Klarlack-Normale), Schimmer (Schimmer-Gewichtung, -Farbe, -Rauheit), Anisotropie (Anisotropiestärke, -winkel), Subsurface Scattering (Streuungsgewichtung) und Transmission (Transmission).
 	Orbit	Orbit
+	Orbit (3D view)	Orbit (3D-Ansicht)
+	Orbit: press and drag to turn the view around the model	Orbit: Drücken und ziehen, um die Ansicht um das Modell zu drehen
 	Orthographic	Orthografisch
 	Output directory	Ausgabeverzeichnis
 	Output high	Ausgabe hoch
@@ -593,17 +651,21 @@
 	Overlay opacity	Überlagerungsdeckkraft
 	Padding	Padding
 	Paint	Malen
+	Paint a straight line from where the last stroke ended	Gerade Linie von dort malen, wo der letzte Strich endete
 	Paint Cage	Käfig malen
 	Paint chips	Lackabplatzer
 	Paint layer	Malebene
+	Paint mask of {layer}	Maske von {layer} malen
 	Paint on the mesh to edit the layer content.	Auf das Mesh malen, um den Ebeneninhalt zu bearbeiten.
 	Paint on the mesh to edit this mask. Use the Material tab's mask value for gray.	Auf das Mesh malen, um diese Maske zu bearbeiten. Für Grau den Maskenwert im Tab Material verwenden.
+	Paint on {layer}	Malen auf {layer}
 	Paint Skew Correction	Verzerrungskorrektur malen
 	Paint with the current tool	Mit dem aktuellen Werkzeug malen
 	Painted layer pixels {pixels} MB, composited channels {composites} MB, compositing cache {cache} MB	Gemalte Ebenenpixel {pixels} MB, zusammengesetzte Kanäle {composites} MB, Compositing-Cache {cache} MB
 	Painted strokes follow the surface when the new mesh's UVs differ	Gemalte Striche folgen der Oberfläche, wenn sich die UVs des neuen Meshs unterscheiden
 	Painting is paused while a bake is shown. Cancel the bake or wait for it to finish.	Das Malen ist pausiert, solange ein Bake angezeigt wird. Brich den Bake ab oder warte, bis er fertig ist.
 	Pan	Schwenken
+	Pan: press and drag to move the view	Schwenken: Drücken und ziehen, um die Ansicht zu verschieben
 	Parallax occlusion (height channel)	Parallax Occlusion (Höhenkanal)
 	Parameters change in the desktop app, with MaterialCraft installed	Parameter lassen sich in der Desktop-App mit installiertem MaterialCraft ändern
 	Partial mask values follow the layer's height: high parts show first	Teilweise Maskenwerte folgen der Höhe der Ebene: Hohe Bereiche erscheinen zuerst
@@ -615,7 +677,13 @@
 	Paste effect	Effekt einfügen
 	Paste layer(s)	Ebene(n) einfügen
 	Path trace on the processor instead of the graphics card (slower)	Path Tracing auf dem Prozessor statt auf der Grafikkarte (langsamer)
+	Path: add a point; on the curve it inserts one	Pfad: Punkt hinzufügen; auf der Kurve wird einer eingefügt
+	Path: apply it with the brush	Pfad: mit dem Pinsel anwenden
+	Path: cancel it	Pfad: abbrechen
 	Path: click adds a point, click the curve inserts one, drag moves it, Enter applies, Esc cancels	Pfad: Klicken fügt einen Punkt hinzu, Klicken auf die Kurve fügt einen ein, Ziehen verschiebt ihn, Eingabe wendet an, Esc bricht ab
+	Path: close it (needs 3 points)	Pfad: schließen (braucht 3 Punkte)
+	Path: move the point	Pfad: Punkt verschieben
+	Path: remove the selected or last point	Pfad: ausgewählten oder letzten Punkt entfernen
 	Paths stay editable: pick one to move its points or change its brush and material, and the sublayer repaints at once. Add paths with the Path tool.	Pfade bleiben bearbeitbar: Wähle einen, um seine Punkte zu verschieben oder Pinsel und Material zu ändern, und die Unterebene wird sofort neu gemalt. Füge Pfade mit dem Pfad-Werkzeug hinzu.
 	Pattern scale	Musterskalierung
 	PBR - Metallic Roughness (TextureCraft)	PBR - Metallisch/Rauheit (TextureCraft)
@@ -624,6 +692,7 @@
 	Perspective	Perspektivisch
 	Pick color	Farbe aufnehmen
 	Pick focus in the viewport	Fokus im Ansichtsfenster wählen
+	Pick point	Punkt wählen
 	Pin light	Lichtpunkt
 	Place as decal	Als Decal platzieren
 	Place on the surface	Auf der Oberfläche platzieren
@@ -635,6 +704,8 @@
 	Pores	Poren
 	Position gradient	Positionsverlauf
 	Position jitter	Positionsstreuung
+	Position X	Position X
+	Position Y	Position Y
 	Posterize	Tontrennung
 	Preserve stroke positions on mesh	Strichpositionen auf dem Mesh beibehalten
 	Press a key...	Taste drücken...
@@ -647,9 +718,17 @@
 	PROJECT SETTINGS	PROJEKTEINSTELLUNGEN
 	Project template	Projektvorlage
 	Projection	Projektion
+	Projection mask of {layer}	Maskenprojektion von {layer}
+	Projection on {layer}	Projektion auf {layer}
+	Projection paints in the 3D view	Die Projektion malt in der 3D-Ansicht
+	Projection: move the stencil	Projektion: Schablone verschieben
+	Projection: rotate the stencil	Projektion: Schablone drehen
+	Projection: scale the stencil	Projektion: Schablone skalieren
 	Projects and meshes	Projekte und Meshes
+	Put the stencil back in the middle of the view at its starting size and rotation	Setzt die Schablone mit Ausgangsgröße und -drehung zurück in die Mitte der Ansicht
 	Quarter	Viertel
 	Quick mask	Schnellmaske
+	Quick mask stroke	Schnellmasken-Strich
 	Quit	Beenden
 	Radial settings	Radial-Einstellungen
 	Radial symmetry	Radialsymmetrie
@@ -693,11 +772,15 @@
 	Rendering on GPU: {n} / {max} samples, {s} s	Rendern auf GPU: {n} / {max} Samples, {s} s
 	Rendering, path traced	Rendering, Path Tracing
 	Replace Color	Farbe ersetzen
+	Replace layout	Anordnung ersetzen
 	Replacement color	Ersatzfarbe
 	Report a bug...	Fehler melden...
 	Rescan the library folder	Bibliotheksordner neu einlesen
 	Reset all	Alle zurücksetzen
 	Reset Painted Cage	Gemalten Käfig Zurücksetzen
+	Reset panel layout	Bedienfeldanordnung zurücksetzen
+	Reset stencil	Schablone zurücksetzen
+	Reset the panels, view layout, zoom and every other view setting to their defaults? Settings and shortcuts stay. To reset only the panels, use Reset panel layout.	Bedienfelder, Ansichtslayout, Zoom und alle anderen Ansichtseinstellungen auf die Standardwerte zurücksetzen? Einstellungen und Tastenkürzel bleiben erhalten. Um nur die Bedienfelder zurückzusetzen, verwende Bedienfeldanordnung zurücksetzen.
 	Reset to defaults	Auf Standardwerte zurücksetzen
 	Reset to {shortcut}	Auf {shortcut} zurücksetzen
 	Reset UI	UI zurücksetzen
@@ -706,25 +789,32 @@
 	Restore every default shortcut	Alle Standard-Tastenkürzel wiederherstellen
 	Return to Painting Mode	Zurück zum Malmodus
 	Return to this step	Zu diesem Schritt zurückkehren
+	Right view	Ansicht von rechts
+	Right-click a layer > Create smart mask	Rechtsklick auf eine Ebene > Smart-Maske erstellen
 	Right-click a layer > Create smart material	Rechtsklick auf eine Ebene > Smart-Material erstellen
+	RMB drag	RMT ziehen
 	Rotation (degrees)	Drehung (Grad)
 	rough	rau
 	Roughness	Rauheit
 	Roughness from glossiness	Rauheit aus Glanz
 	Round	Rund
 	Rounded cube	Abgerundeter Würfel
+	S + left-drag rotates (with Shift in 15° steps), S + right-drag scales, S + middle-drag moves; or use Position X / Y.	S + Linksziehen dreht (mit Shift in 15°-Schritten), S + Rechtsziehen skaliert, S + Mittelziehen verschiebt; oder Position X / Y verwenden.
 	Samples	Samples
 	Sampling Radius	Abtastradius
 	Save a copy...	Kopie speichern...
 	Save as...	Speichern unter...
 	Save current brush	Aktuellen Pinsel speichern
+	Save current layout as...	Aktuelle Anordnung speichern unter...
 	Save current layout...	Aktuelles Layout speichern...
 	Save current project as template	Aktuelles Projekt als Vorlage speichern
+	Save layout	Anordnung speichern
 	Save render...	Rendering speichern...
 	Save the changes to {name} before closing?	Änderungen an {name} vor dem Schließen speichern?
 	Save the changes to {name} first?	Änderungen an {name} zuerst speichern?
 	Save UI Layout	UI-Layout speichern
 	Save view as camera	Ansicht als Kamera speichern
+	Saved layout {name}	Anordnung {name} gespeichert
 	Saved UI layout {path}	UI-Layout {path} gespeichert
 	Saved {path}	{path} gespeichert
 	Saving UI layouts to files is available in the desktop app	Das Speichern von UI-Layouts in Dateien ist in der Desktop-App verfügbar
@@ -763,6 +853,8 @@
 	sheen rough	schim rau
 	Sheen roughness	Schimmer-Rauheit
 	Sheen weight	Schimmer-Gewichtung
+	Shift + LMB	Shift + LMT
+	Shift + RMB drag	Shift + RMT ziehen
 	Shift + wheel	Umschalt + Mausrad
 	Shortcuts list...	Liste der Tastenkürzel...
 	Show all	Alle einblenden
@@ -789,12 +881,18 @@
 	Skew Correction Method	Methode der Verzerrungskorrektur
 	Slope Blur	Neigungsweichzeichnung
 	Slope scale	Neigungsskalierung
+	Smart mask saved to {path}	Smart-Maske in {path} gespeichert
 	Smart masks	Smart-Masken
 	Smart material saved to {path}	Smart-Material in {path} gespeichert
 	Smart materials	Smart-Materialien
 	Smooth	Glatt
 	Smudge	Verwischen
+	Smudge on {layer}	Verwischen auf {layer}
 	Soft light	Weiches Licht
+	Solo layer	Ebene solo
+	Solo layer without its mask	Ebene solo ohne ihre Maske
+	Solo: {layer}	Solo: {layer}
+	Solo: {layer} (mask ignored)	Solo: {layer} (Maske ignoriert)
 	Source  U {u}  V {v}	Quelle  U {u}  V {v}
 	spec	spec
 	Specular	Specular
@@ -826,6 +924,7 @@
 	Template name	Vorlagenname
 	Temporal anti-aliasing (refines the 3D view while it is still)	Temporale Kantenglättung (verfeinert die 3D-Ansicht im Stillstand)
 	Texture resolution	Texturauflösung
+	Texture set '{name}' is not active for painting. Select it in the Texture Sets list.	Das Texturset '{name}' ist zum Malen nicht aktiv. Wähle es in der Liste Textursets aus.
 	Texture set channels	Texturset-Kanäle
 	Texture set resolution	Auflösung des Textursets
 	Texture Set Settings	Texturset-Einstellungen
@@ -839,18 +938,21 @@
 	Textures	Texturen
 	Textures embedded; for game engines and most viewers	Texturen eingebettet; für Game-Engines und die meisten Viewer
 	Textures packaged; for USD tools and AR Quick Look	Texturen gepackt; für USD-Tools und AR Quick Look
+	That name is taken	Dieser Name ist schon vergeben
 	The bake worker stopped	Der Back-Prozess wurde beendet
 	The eraser removes paint from the enabled channels.	Der Radierer entfernt Farbe aus den aktivierten Kanälen.
 	The file dialog couldn't be shown: {error}	Der Dateidialog konnte nicht angezeigt werden: {error}
 	The first stroke sets the offset from the source.	Der erste Strich legt den Versatz zur Quelle fest.
 	The GPU couldn't render this scene: {error}	Die GPU konnte diese Szene nicht rendern: {error}
 	The image's alpha cuts the decal's shape; faces turned away and surfaces beyond its depth stay clear.	Der Alphakanal des Bildes schneidet die Form des Decals aus; abgewandte Flächen und Oberflächen jenseits seiner Tiefe bleiben frei.
+	The last edit of the template "{name}" is not saved: {error}. Switching away drops it.	Die letzte Änderung der Vorlage „{name}“ ist nicht gespeichert: {error}. Beim Wechsel geht sie verloren.
 	The mesh file the project is built on. Hover the path to see it in full.	Die Mesh-Datei, auf der das Projekt aufbaut. Zeigen Sie auf den Pfad, um ihn vollständig zu sehen.
 	The next click in the 3D view moves the decal there	Der nächste Klick in der 3D-Ansicht verschiebt das Decal dorthin
 	The project changed while the dialog was open, so nothing was done	Das Projekt hat sich geändert, während der Dialog geöffnet war, daher wurde nichts ausgeführt
 	The resize worker stopped	Der Skalierungsprozess wurde beendet
 	The UV tiles (UDIMs) of each texture set, shown for reference. Change them in Texture Set Settings.	Die UV-Kacheln (UDIMs) jedes Textursets, nur zur Ansicht. Ändern unter Texturset-Einstellungen.
 	There is no mesh file to read again. Select one.	Es ist keine Mesh-Datei zum erneuten Einlesen vorhanden. Bitte eine Datei auswählen.
+	These are the brush's material channels, the same ones Paint writes and the Material tab shows. A channel the selected layer does not have is skipped.	Das sind die Materialkanäle des Pinsels, dieselben, die Malen schreibt und die der Material-Tab zeigt. Ein Kanal, den die gewählte Ebene nicht hat, wird übersprungen.
 	Thickness	Dicke
 	Thin areas	Dünne Bereiche
 	Tile	Kacheln
@@ -859,12 +961,14 @@
 	Title bar	Titelleiste
 	Toggle mask	Maske umschalten
 	Tone mapping	Tone Mapping
+	Top view	Ansicht von oben
 	Torus	Torus
 	transm	transm
 	Transmission	Transmission
 	Tri-planar projection	Triplanare Projektion
 	Triangle fill	Dreiecksfüllung
 	Triangle fills single triangles, Polygon whole quads and n-gons, Mesh the connected geometry, UV island the UV islands	Dreieck füllt einzelne Dreiecke, Polygon ganze Vierecke und N-Ecke, Mesh die zusammenhängende Geometrie, UV-Insel die UV-Inseln
+	Turn the environment light (3D view)	Umgebungslicht drehen (3D-Ansicht)
 	Twill weave	Köperbindung
 	UDIM plane	UDIM-Fläche
 	UDIM tiles painted by this texture set, each at the set's size	Von diesem Texturset bemalte UDIM-Kacheln, jeweils in der Größe des Sets
@@ -872,6 +976,7 @@
 	UI layout: {error}	UI-Layout: {error}
 	UI layouts	UI-Layouts
 	UI {ms} ms	UI {ms} ms
+	Unfinished template edit	Nicht abgeschlossene Vorlagenbearbeitung
 	Uniform value	Einheitlicher Wert
 	USD binary, textures alongside	USD binär, Texturen daneben
 	USD text, textures alongside	USD-Text, Texturen daneben
@@ -913,11 +1018,19 @@
 	Wood grain	Holzmaserung
 	Works in texture space, like the blur: it does not cross UV seams.	Arbeitet im Texturraum wie das Weichzeichnen: UV-Nähte werden nicht überschritten.
 	World Space Normal	Normale (Weltkoordinaten)
+	Write 1 minus the value in this channel	In diesen Kanal 1 minus den Wert schreiben
 	Yellow / blue	Gelb / Blau
 	Zoom	Zoomen
+	Zoom: press and drag up to move closer, down to move away	Zoomen: Drücken und nach oben ziehen, um näher heranzugehen, nach unten, um sich zu entfernen
+	Zoom: press and drag up to zoom in, down to zoom out	Zoomen: Drücken und nach oben ziehen zum Vergrößern, nach unten zum Verkleinern
 	{action} (undone)	{action} (rückgängig gemacht)
 	{count} effects	{count} Effekte
 	{file}: add above the selected layer (or drag it into the layer stack or onto the viewport)	{file}: über der ausgewählten Ebene hinzufügen (oder in den Ebenenstapel bzw. in das Ansichtsfenster ziehen)
+	{file}: replace the selected layer's mask (or drag it onto a layer in the stack)	{file}: Maske der ausgewählten Ebene ersetzen (oder auf eine Ebene im Stapel ziehen)
+	{key} + LMB	{key} + LMT
+	{key} + LMB drag	{key} + LMT ziehen
+	{key} + MMB drag	{key} + MMT ziehen
+	{key} + RMB drag	{key} + RMT ziehen
 	{name} copy	{name} Kopie
 	{n} bits	{n} Bit
 	{n} control points. Click the mesh (or the 2D view) to add points and drag them to adjust; click the first point to close the path. Enter paints it with the brush (a closed, filled path fills its inside), Esc cancels.	{n} Kontrollpunkte. Klicken Sie auf das Mesh (oder die 2D-Ansicht), um Punkte hinzuzufügen, und ziehen Sie sie zum Anpassen; ein Klick auf den ersten Punkt schließt den Pfad. Eingabe malt ihn mit dem Pinsel (ein geschlossener, gefüllter Pfad füllt sein Inneres), Esc bricht ab.

@@ -330,6 +330,10 @@ were newly authored during migration. PhotoCraft's former `sr` catalog maps to
 
 The `texturecraft.tsv` catalogs for ar, de, es, fr, it, ja, ko, pt-br and zh-hans were migrated from [TextureCraft `21856d778347e13857f65c8f1107170797bd070f`](https://github.com/storytold/texturecraft/tree/21856d778347e13857f65c8f1107170797bd070f/crates/ui-egui/src/i18n), MIT OR Apache-2.0. Original wording and contributor credits remain in the upstream history. Migration tooling was AI-assisted; no new translations were authored and no additional native-speaker review was performed. Every original row was checked against the resolved app and shared catalogs. Tracked in storytold/texturecraft#419.
 
+## TextureCraft: layer, mask, brush, view and export controls (2026-11-17)
+
+113 new TextureCraft strings in `locales/<code>/texturecraft.tsv` for ar, de, es, fr, it, ja, ko, pt-br and zh-hans: view buttons, mask export and copy, brush shortcut hints, smart masks, solo layer, navigation buttons, decal mirroring, History panel step names, path tool messages, panel layout reset, template deletion, clone aligned mode, symmetry plane picking, the Projection stencil controls, the brush channel chips, named panel layouts, the straight-line and invert options, the mask badge, the inactive texture set hint and the shortcut window gesture rows. Source: texturecraft#535, #539, #565, #566, #568, #569, #570, #573, #576, #580, #582, #586, #588, #590, #591, #593, #594, #595, #605, #607, #609, #611 and #614. Written by vangel76 with Claude, AI-assisted, from the plain meaning of the English and the words these catalogs already use for layer, mask, stencil, texture set and symmetry; no other product's localisation was consulted. No native speaker has reviewed these rows.
+
 ## PhotoCraft: TIFF Options labels from photocraft#11094
 
 Photocraft #11094, submitted by @FredApps, added translations of "Image Compression", "Save Image Pyramid",
