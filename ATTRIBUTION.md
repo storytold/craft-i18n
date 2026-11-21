@@ -315,6 +315,15 @@ in 22 catalogs, preserving the existing translations and their credits above.
 Synced from `photocraft@7c64653` to `photocraft@2772ac1` with
 `tools/sync_app.py`; no translations were newly authored in this top-up.
 
+## PdfCraft: Hebrew scans interface strings (2026-11-21)
+
+12 original Hebrew translations for PdfCraft scans UI messages,
+written by @nocturney with AI assistance from the English source text.
+The exact keys were verified in the official French catalog and checked against
+upstream Hebrew common and app catalogs and the open Hebrew PdfCraft PRs to
+avoid overlap. Independent native-speaker review and live UI testing remain
+pending. No other product's text, code or assets were copied.
+
 ## PhotoCraft: DDS import options
 
 @Blenux's eight DDS import rows from `photocraft@ff3028b288adddef600c653c5400e844ecc59a9e`
