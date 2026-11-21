@@ -378,3 +378,7 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+## AniCraft: Swedish rows kept up to date
+
+Patrik Lermon (@kler) adds and updates AniCraft's `sv` rows as AniCraft gains strings, written from the English meaning with craft-sv-translate. Terms follow the existing Swedish rows. AI-drafted with Claude Code from the English source. The author is a native Swedish speaker who spot-checks the Swedish but has not checked every string.
