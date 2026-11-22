@@ -18,6 +18,7 @@
 	2D view only	2D காட்சி மட்டும்
 	32 bits (float)	32 பிட்கள் (மிதவை)
 	3D mesh	3D வலைப்பின்னல்
+	3D MESH	3D வலைப்பின்னல்
 	3D meshes	3D வலைப்பின்னல்கள்
 	3D texture painting: layers, masks, smart materials, mesh map baking and export.	3D இழையமைப்பு ஓவியம்: அடுக்குகள், மறைப்புகள், ஸ்மார்ட் பொருள்கள், வலைப்பின்னல் வரைபடச் சுடுதல், ஏற்றுமதி.
 	3D view only	3D காட்சி மட்டும்
@@ -122,6 +123,7 @@
 	Brush size down / up	தூரிகை அளவைக் குறை / கூட்டு
 	Brushed lines	தேய்த்த கோடுகள்
 	Built-in (read-only): duplicate it to edit	உள்ளமைந்தது (படிக்க மட்டும்): திருத்த இதை நகலெடுக்கவும்
+	Built-in mesh	உள்ளமைந்த வலைப்பின்னல்
 	Built-in templates are read-only: duplicate one to edit it	உள்ளமைந்த வார்ப்புருக்கள் படிக்க மட்டுமே: திருத்த ஒன்றை நகலெடுக்கவும்
 	Built-in: {mesh}	உள்ளமைந்தது: {mesh}
 	By Mesh Name	வலைப்பின்னல் பெயரின்படி
@@ -135,10 +137,13 @@
 	Cavities	குழிவுகள்
 	Cell size (texels at 2K)	அறை அளவு (2K-இல் டெக்செல்கள்)
 	Cells	அறைகள்
+	Change them in Texture Set Settings	அவற்றை இழையமைப்புத் தொகுப்பு அமைப்புகளில் மாற்றவும்
 	Channel source: uniform value, procedural, image or anchor	சேனல் மூலம்: சீரான மதிப்பு, செயல்முறை வடிவம், படம் அல்லது நங்கூரம்
 	Check All	அனைத்தையும் தேர்வுசெய்
 	Check for Updates...	புதுப்பிப்புகளைச் சரிபார்...
 	Checker	சதுரங்கக் கட்டம்
+	Choose another mesh file for the project. It is read when you press OK.	திட்டத்துக்கு வேறொரு வலைப்பின்னல் கோப்பைத் தேர்ந்தெடுக்கவும். சரி என்பதை அழுத்தும்போது அது படிக்கப்படும்.
+	Choosing or reimporting a mesh recomputes all channels.	வலைப்பின்னலைத் தேர்ந்தெடுத்தாலோ மீண்டும் இறக்குமதி செய்தாலோ எல்லாச் சேனல்களும் மீண்டும் கணக்கிடப்படும்.
 	Clamp	வரம்பிடு
 	Clear mask	மறைப்பை அழி
 	Clear recent projects	சமீபத்திய திட்டங்களை அழி
@@ -158,6 +163,7 @@
 	Color burn	நிற எரிப்பு
 	Color dodge	நிறத் தவிர்ப்பு
 	Color of the light that travels under the surface (each channel goes as far as its value)	மேற்பரப்புக்கடியில் பயணிக்கும் ஒளியின் நிறம் (ஒவ்வொரு சேனலும் அதன் மதிப்பு அளவுக்குச் செல்லும்)
+	Color picker	நிறத் தேர்வி
 	Color selection	நிறத் தேர்வு
 	Color space	நிற வெளி
 	Color to replace	மாற்ற வேண்டிய நிறம்
@@ -223,6 +229,7 @@
 	Depth of field (viewport and Rendering mode)	புல ஆழம் (காட்சிப்புலமும் ரெண்டர் முறையும்)
 	Depth of the sharp plane along the view (0: the orbit center)	பார்வைத் திசையில் கூர்மையான தளத்தின் ஆழம் (0: சுழற்சி மையம்)
 	Detail sizes	விவர அளவுகள்
+	Details saved to {file}	விவரங்கள் {file} இல் சேமிக்கப்பட்டன
 	Dilation + default background color	விரிவாக்கம் + இயல்புநிலைப் பின்னணி நிறம்
 	Dilation + transparent	விரிவாக்கம் + வெளிப்படை
 	Dilation Width	விரிவாக்க அகலம்
@@ -349,6 +356,7 @@
 	Gravity	ஈர்ப்பு
 	Gray + A	சாம்பல் + A
 	Gray 50%	சாம்பல் 50%
+	Green channel convention of normal maps: OpenGL (Y+) or DirectX (Y-). Imported and exported normal maps follow it.	இயல்பு வரைபடங்களின் பச்சைச் சேனல் மரபு: OpenGL (Y+) அல்லது DirectX (Y-). இறக்குமதி, ஏற்றுமதி செய்யப்படும் இயல்பு வரைபடங்கள் இதைப் பின்பற்றும்.
 	Ground Plane	தரைத் தளம்
 	Ground Plane Offset	தரைத் தள இடப்பெயர்ச்சி
 	Group layer(s)	அடுக்கு(களைக்) குழுவாக்கு
@@ -385,12 +393,14 @@
 	Ignore Backface Suffix	பின்முகப் புறக்கணிப்புப் பின்னொட்டு
 	Image: {name}	படம்: {name}
 	Import HDR...	HDR-ஐ இறக்குமதி செய்...
+	Import images to use them in fills and masks	நிரப்புகளிலும் மறைப்புகளிலும் பயன்படுத்தப் படங்களை இறக்குமதி செய்யவும்
 	Import MaterialX material...	MaterialX பொருளை இறக்குமதி செய்...
 	Import a template (.json)	ஒரு வார்ப்புருவை இறக்குமதி செய் (.json)
 	Import an image (File > Import resources) to project it onto the mesh.	வலைப்பின்னலின் மீது வீழ்த்த ஒரு படத்தை இறக்குமதி செய்யவும் (கோப்பு > வளங்களை இறக்குமதி செய்).
 	Import baked maps	சுடப்பட்ட வரைபடங்களை இறக்குமதி செய்
 	Import material...	பொருளை இறக்குமதி செய்...
 	Import resources...	வளங்களை இறக்குமதி செய்...
+	Import settings	இறக்குமதி அமைப்புகள்
 	Import...	இறக்குமதி செய்...
 	Imported template "{name}"	"{name}" வார்ப்புரு இறக்குமதி செய்யப்பட்டது
 	Imported {name}	{name} இறக்குமதி செய்யப்பட்டது
@@ -491,6 +501,7 @@
 	Move down	கீழே நகர்த்து
 	Move up	மேலே நகர்த்து
 	Moves the surface by the height channel on a finer copy of the mesh, at the height to normal strength (viewport only: painting follows the base surface)	உயரச் சேனலைக் கொண்டு வலைப்பின்னலின் நுண்ணிய நகலில், உயரத்திலிருந்து இயல்பு வலிமைக்கேற்ப மேற்பரப்பை நகர்த்தும் (காட்சிப்புலத்தில் மட்டும்: வண்ணம் தீட்டுதல் அடிப்படை மேற்பரப்பைப் பின்பற்றும்)
+	My brushes	எனது தூரிகைகள்
 	My smart materials	என் ஸ்மார்ட் பொருள்கள்
 	Name each file after its texture set, like Body_normal.png	ஒவ்வொரு கோப்புக்கும் அதன் இழையமைப்புத் தொகுப்பின் பெயரை இடு, Body_normal.png போல
 	New project	புதிய திட்டம்
@@ -503,6 +514,7 @@
 	No outputs yet: add one above, then drag input maps onto its channels.	இன்னும் வெளியீடுகள் இல்லை: மேலே ஒன்றைச் சேர்த்து, பிறகு உள்ளீட்டு வரைபடங்களை அதன் சேனல்களுக்கு இழுக்கவும்.
 	No padding (passthrough)	திணிப்பு இல்லை (ஊடுசெல்)
 	No recent projects yet	இன்னும் சமீபத்திய திட்டங்கள் இல்லை
+	No UV tiles	UV ஓடுகள் இல்லை
 	Noise amount	இரைச்சல் அளவு
 	Noise scale	இரைச்சல் அளவு விகிதம்
 	Normal DirectX	இயல்பு DirectX
@@ -553,6 +565,7 @@
 	Paint on the mesh to edit this mask. Use the Material tab's mask value for gray.	இந்த மறைப்பைத் திருத்த வலைப்பின்னலின் மீது தீட்டவும். சாம்பலுக்குப் பொருள் தாவலின் மறைப்பு மதிப்பைப் பயன்படுத்தவும்.
 	Paint with the current tool	தற்போதைய கருவியால் தீட்டு
 	Painted layer pixels {pixels} MB, composited channels {composites} MB, compositing cache {cache} MB	தீட்டிய அடுக்குப் படப்புள்ளிகள் {pixels} MB, தொகுத்த சேனல்கள் {composites} MB, தொகுப்புத் தற்காலிக நினைவகம் {cache} MB
+	Painted strokes follow the surface when the new mesh's UVs differ	புதிய வலைப்பின்னலின் UV கள் வேறுபட்டால், தீட்டிய தீற்றுகள் மேற்பரப்பைப் பின்பற்றும்
 	Painting is paused while a bake is shown. Cancel the bake or wait for it to finish.	சுடுதல் காட்டப்படும்போது வண்ணம் தீட்டுதல் இடைநிறுத்தப்படும். சுடுதலை ரத்துசெய்யவும் அல்லது அது முடியும்வரை காத்திருக்கவும்.
 	Pan	நகர்த்தல்
 	Parallax occlusion (height channel)	இடமாறு மறைவு (உயரச் சேனல்)
@@ -569,6 +582,7 @@
 	Path: click adds a point, click the curve inserts one, drag moves it, Enter applies, Esc cancels	பாதை: சொடுக்கினால் ஒரு புள்ளி சேரும், வளைவைச் சொடுக்கினால் ஒன்று செருகப்படும், இழுத்தால் அது நகரும், Enter பயன்படுத்தும், Esc ரத்துசெய்யும்
 	Paths stay editable: pick one to move its points or change its brush and material, and the sublayer repaints at once. Add paths with the Path tool.	பாதைகள் திருத்தக்கூடியவையாகவே இருக்கும்: ஒன்றைத் தேர்ந்தெடுத்து அதன் புள்ளிகளை நகர்த்தலாம் அல்லது அதன் தூரிகையையும் பொருளையும் மாற்றலாம்; துணை அடுக்கு உடனே மீண்டும் தீட்டப்படும். பாதைக் கருவியால் பாதைகளைச் சேர்க்கவும்.
 	Pattern scale	வடிவமாதிரி அளவு விகிதம்
+	PBR - Metallic Roughness (TextureCraft)	PBR - உலோகம் கரடுமுரடு (TextureCraft)
 	Per Material	பொருள்வாரியாக
 	Perlin noise	பெர்லின் இரைச்சல்
 	Pick color	நிறத்தை எடு
@@ -583,12 +597,15 @@
 	Pores	நுண்துளைகள்
 	Position gradient	நிலை நிறச்சாய்வு
 	Position jitter	நிலை நடுக்கம்
+	Preserve stroke positions on mesh	வலைப்பின்னலில் தீற்று நிலைகளைத் தக்கவை
 	Press a key...	ஒரு விசையை அழுத்தவும்...
 	Procedurals	செயல்முறை வடிவங்கள்
 	Project	திட்டம்
+	Project configuration	திட்ட அமைவு
 	Project Configuration...	திட்ட அமைவு...
 	Project Mesh (LP)	திட்ட வலைப்பின்னல் (LP)
 	Project opened	திட்டம் திறக்கப்பட்டது
+	PROJECT SETTINGS	திட்ட அமைப்புகள்
 	Project template	திட்ட வார்ப்புரு
 	Projection	வீழ்ப்பு
 	Projects and meshes	திட்டங்களும் வலைப்பின்னல்களும்
@@ -601,6 +618,7 @@
 	Radius (texels at 2K)	ஆரம் (2K-இல் டெக்செல்கள்)
 	Raw curvature	மூல வளைவுத்தன்மை
 	Re-cook	மீண்டும் தயாரி
+	Read the mesh file again, keeping the layers and painted strokes	அடுக்குகளையும் தீட்டிய தீற்றுகளையும் வைத்துக்கொண்டு, வலைப்பின்னல் கோப்பை மீண்டும் படி
 	Reads the curvature map as baked: changing the mode or a size turns detail sizes on.	வளைவுத்தன்மை வரைபடத்தைச் சுட்டபடியே படிக்கும்: முறையையோ ஓர் அளவையோ மாற்றினால் விவர அளவுகள் இயங்கும்.
 	Rebind any menu item, tool or command	எந்த மெனு உருப்படி, கருவி அல்லது கட்டளையையும் மீண்டும் இணை
 	Recent projects	சமீபத்திய திட்டங்கள்
@@ -611,8 +629,10 @@
 	Relative to Low Mesh	குறை வலைப்பின்னலைப் பொறுத்து
 	Relative to Min/Max	குறைமம்/அதிகமத்தைப் பொறுத்து
 	Relative to Ray Distances	கதிர்த் தூரங்களைப் பொறுத்து
+	Relative to the bounding box diagonal.	எல்லைப்பெட்டியின் மூலைவிட்டத்தைச் சார்ந்து.
 	Remove Cage	கூண்டை அகற்று
 	Remove Skew Correction	சாய்வுத் திருத்தத்தை அகற்று
+	Remove skew correction	சாய்வுத் திருத்தத்தை அகற்று
 	Remove channel	சேனலை அகற்று
 	Remove effect	விளைவை அகற்று
 	Remove last	கடைசியை அகற்று
@@ -631,6 +651,7 @@
 	Rendering (path traced)	ரெண்டர் (பாதைத் தடமறிதல்)
 	Rendering on CPU: {n} / {max} samples, {s} s	CPU-வில் ரெண்டர் செய்கிறது: {n} / {max} மாதிரிகள், {s} வி
 	Rendering on GPU: {n} / {max} samples, {s} s	GPU-வில் ரெண்டர் செய்கிறது: {n} / {max} மாதிரிகள், {s} வி
+	Rendering, path traced	ரெண்டர், பாதைத் தடமறிதல்
 	Replace Color	நிறத்தை மாற்று
 	Replacement color	மாற்று நிறம்
 	Report a bug...	பிழையைப் புகாரளி...
@@ -675,6 +696,7 @@
 	Scratches	கீறல்கள்
 	Screenshot of the viewport	காட்சிப்புலத்தின் திரைப்பிடிப்பு
 	Seams Intensity	தையல் தீவிரம்
+	Search all assets	எல்லாச் சொத்துகளிலும் தேடு
 	Search commands or keys	கட்டளைகள் அல்லது விசைகளைத் தேடு
 	Secondary Rays	இரண்டாம்நிலைக் கதிர்கள்
 	Seed	விதை
@@ -760,6 +782,7 @@
 	Texture set channels	இழையமைப்புத் தொகுப்புச் சேனல்கள்
 	Texture set resolution	இழையமைப்புத் தொகுப்புத் தெளிவுத்திறன்
 	Texture sets	இழையமைப்புத் தொகுப்புகள்
+	TextureCraft had to close:	TextureCraft மூட வேண்டியதாயிற்று:
 	TextureCraft PBR - Metallic Roughness	TextureCraft PBR - உலோகம் கரடுமுரடு
 	TextureCraft PBR - Specular Glossiness	TextureCraft PBR - எதிரொளிப்பு பளபளப்பு
 	TextureCraft project	TextureCraft திட்டம்
@@ -773,9 +796,12 @@
 	The file dialog couldn't be shown: {error}	கோப்பு உரையாடலைக் காட்ட முடியவில்லை: {error}
 	The first stroke sets the offset from the source.	முதல் தீற்று மூலத்திலிருந்து இடப்பெயர்ச்சியை அமைக்கும்.
 	The image's alpha cuts the decal's shape; faces turned away and surfaces beyond its depth stay clear.	படத்தின் ஆல்பா ஒட்டுப்படத்தின் வடிவத்தை வெட்டும்; திரும்பிய முகங்களும் அதன் ஆழத்துக்கு அப்பாலுள்ள மேற்பரப்புகளும் தொடப்படாது.
+	The mesh file the project is built on. Hover the path to see it in full.	திட்டம் அமைந்துள்ள வலைப்பின்னல் கோப்பு. முழுப் பாதையைப் பார்க்க அதன் மேல் சுட்டியை வைக்கவும்.
 	The next click in the 3D view moves the decal there	3D காட்சியில் அடுத்த சொடுக்கு ஒட்டுப்படத்தை அங்கே நகர்த்தும்
 	The project changed while the dialog was open, so nothing was done	உரையாடல் திறந்திருந்தபோது திட்டம் மாறியதால், எதுவும் செய்யப்படவில்லை
 	The resize worker stopped	அளவு மாற்றும் பின்னணிப் பணி நின்றுவிட்டது
+	The UV tiles (UDIMs) of each texture set, shown for reference. Change them in Texture Set Settings.	ஒவ்வோர் இழையமைப்புத் தொகுப்பின் UV ஓடுகள் (UDIM கள்), குறிப்புக்காகக் காட்டப்படுகின்றன. அவற்றை இழையமைப்புத் தொகுப்பு அமைப்புகளில் மாற்றவும்.
+	There is no mesh file to read again. Select one.	மீண்டும் படிக்க வலைப்பின்னல் கோப்பு இல்லை. ஒன்றைத் தேர்ந்தெடுக்கவும்.
 	Thin areas	மெல்லிய பகுதிகள்
 	Tiles	ஓடுகள்
 	Title bar	தலைப்புப்பட்டி
@@ -788,6 +814,7 @@
 	Triangle fills single triangles, Polygon whole quads and n-gons, Mesh the connected geometry, UV island the UV islands	முக்கோணம் தனி முக்கோணங்களை நிரப்பும், பலகோணம் முழு நாற்கோணங்களையும் n-கோணங்களையும், வலைப்பின்னல் இணைந்த வடிவியலை, UV தீவு UV தீவுகளை
 	Twill weave	சாய்வரி நெசவு
 	UDIM plane	UDIM தளம்
+	UDIM tiles painted by this texture set, each at the set's size	இந்த இழையமைப்புத் தொகுப்பு தீட்டும் UDIM ஓடுகள், ஒவ்வொன்றும் தொகுப்பின் அளவில்
 	UI layout	இடைமுகத் தளவமைப்பு
 	UI layout: {error}	இடைமுகத் தளவமைப்பு: {error}
 	UI layouts	இடைமுகத் தளவமைப்புகள்
@@ -796,6 +823,7 @@
 	USD text, textures alongside	USD உரை, இழையமைப்புகள் அருகில்
 	USDZ with textures	இழையமைப்புகளுடன் USDZ
 	UV Seams	UV தையல்கள்
+	UV Tile settings (UDIMs)	UV ஓடு அமைப்புகள் (UDIM கள்)
 	UV checker	UV சதுரங்கக் கட்டம்
 	UV island fill	UV தீவு நிரப்பு
 	UV projection	UV வீழ்ப்பு
@@ -809,6 +837,7 @@
 	Use as brush alpha	தூரிகை ஆல்பாவாகப் பயன்படுத்து
 	Use the control channel or `texturecraft-cli render` for screenshots	திரைப்பிடிப்புகளுக்குக் கட்டுப்பாட்டுச் சேனலையோ `texturecraft-cli render` ஐயோ பயன்படுத்தவும்
 	Use the operating system's window frame and buttons instead of TextureCraft's own title bar	TextureCraft-இன் சொந்தத் தலைப்புப்பட்டிக்குப் பதிலாக இயக்க முறைமையின் சாளரச் சட்டத்தையும் பொத்தான்களையும் பயன்படுத்து
+	Use this brush (keeps its size)	இந்தத் தூரிகையைப் பயன்படுத்து (அதன் அளவு மாறாது)
 	Value Bounds Max	மதிப்பு வரம்பு அதிகபட்சம்
 	Value Bounds Min	மதிப்பு வரம்பு குறைந்தபட்சம்
 	Version: {version} ({gpu})	பதிப்பு: {version} ({gpu})
