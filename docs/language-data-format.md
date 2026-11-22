@@ -75,8 +75,9 @@ gap in the pinned `craft-proof`: an unsupported feature (`craft-proof doesn't su
 (<AFF flag>)`), missing word segmentation, or suggestions too slow to use. It is a statement of fact
 about the pinned `craft-proof`, so refresh it when the pin moves.
 As of 2026-11-02 (craft-proof at storytold/craft-libs rev `47c9f625`, the merge of #497, flag-based
-compounding): 80 locales, 3 Excluded (eu, ug, uk), 2 hidden (mn, whose suggestions take 200–580 ms over
-its 12,066 affix rules; th, which needs word segmentation), 75 published.
+compounding): 80 locales, 2 Excluded (eu, uk), 2 hidden (mn, whose suggestions take 200–580 ms over
+its 12,066 affix rules; th, which needs word segmentation), 76 published (ug since its pack from
+Gheyret Kenji's word list replaced the broken one).
 
 ## Checks
 
