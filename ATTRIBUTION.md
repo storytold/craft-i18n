@@ -384,3 +384,4 @@ catalogs, with the same AI-assisted origin and no native-speaker review.
 Two Spanish menu labels, “Rotar derecha” and “Rotar izquierda”, supplied and reviewed
 by @kinower for “Rotate right” and “Rotate left”. Catalog editing was assisted by Codex;
 the Spanish wording is the contributor's requested text, not a machine translation.
+Native-speaker review status: not recorded; no independent native-speaker review is claimed.
