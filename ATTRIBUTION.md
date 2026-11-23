@@ -378,3 +378,7 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+## WordCraft: Italian rows for strings added since storytold/craft-i18n#267
+
+Fabio D'Alessandro (@fabiodalez-dev) wrote 114 new Italian (`it`) rows in `locales/it/wordcraft.tsv`, AI-assisted and reviewed row by row by the translator, a native speaker. They cover the interface strings that had no Italian row at WordCraft `8a047c33` and are not already proposed in storytold/craft-i18n#267. Every row was written from the plain meaning of the English, in the terms the catalogs already use (Revisioni, Stampa unione, Tabella Design, Record); no other product's localisation was consulted or copied.
