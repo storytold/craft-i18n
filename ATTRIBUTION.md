@@ -378,3 +378,7 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+## PhotoCraft: Hebrew frame animation Timeline (16 strings, issue #315)
+
+@nocturney contributed 16 original Hebrew (`he`) UI labels for PhotoCraft's frame animation Timeline: creating frames from layers, duplication/deletion, loop count, frame delay, Onion Skin before/after and Tween insertion. The English source strings and UI contexts are documented in [craft-i18n #315](https://github.com/storytold/craft-i18n/issues/315), from the ongoing official PhotoCraft frame animation work. Translations were written clean-room from the English meanings and existing Hebrew terms in this catalog, with ChatGPT assistance; no native-speaker independent review has been performed. Placeholders `{count}`, `{seconds}`, and `{n}` are preserved. No other product localization was consulted.
