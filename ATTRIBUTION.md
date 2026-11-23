@@ -378,3 +378,9 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+## PdfCraft: Scan and OCR German labels from pdfcraft#7864
+
+Adds five German labels to `locales/de/pdfcraft.tsv`. The translations were drafted with AI
+assistance from the plain meaning of the English and approved by the issue contributor; no
+native-speaker review is recorded.
