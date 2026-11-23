@@ -378,3 +378,15 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+## Hebrew PdfCraft: right-rail presence markers (2026-11-22)
+
+Five original, AI-assisted Hebrew translations for the right panel's status markers:
+Has attachments, Has bookmarks, Has comments, Has form fields and Has layers.
+English keys verified against `storytold/pdfcraft`'s
+`crates/ui-egui/src/chrome.rs` right-rail `marker_label(tl!(marker))` calls
+and were absent from both official `he/pdfcraft.tsv` and `he/common.tsv`
+at main `fd44ae8cbb5b076dc77a12ea6c7ddd7cf8b1c360`.
+Written clean-room from the English meaning; no other product's translations used.
+Static TSV and source-key verification only; independent Hebrew-speaker review
+and native PdfCraft GUI/RTL/accessibility QA have not been performed.
