@@ -3721,3 +3721,13 @@ document scrollbar width	Wide	寬
 	This document's script is asking	此文件的指令碼正在詢問
 	Document: {name}	文件：{name}
 	This request comes from the document, not PdfCraft. Only enter a password if you trust this document.	此要求來自文件，而非 PdfCraft。只有在您信任此文件時才輸入密碼。
+# Manual two-sided printing (pdfcraft#7084)
+	Manual two-sided	手動雙面
+	Second side in reverse order	第二面依相反順序
+	Usually needed when the printed sheets go back in printed side up without being turned over, as on most printers with a front tray. Leave it off if you turn the stack over.	列印好的紙張不翻面、以列印面朝上放回時通常需要啟用，大多數前置紙匣的印表機都是如此。如果您會將整疊紙翻面，請保持關閉。
+	Print the second side	列印第二面
+	When the first side has finished printing, take the printed sheets out without changing their order. Put them back in the paper tray so the printer prints on the blank side, with the top of the pages going in first. On most printers with a front tray, that means printed side up. Then choose Continue. If the backs land on the wrong sheets, change "Second side in reverse order" and print again.	第一面列印完成後，取出已列印的紙張，不要改變其順序。將它們放回紙匣，讓印表機在空白面上列印，並讓頁面頂端先進入。在大多數前置紙匣的印表機上，這表示列印面朝上。然後選擇「繼續」。如果背面印到錯誤的紙張上，請變更「第二面依相反順序」並重新列印。
+	Waiting for the first side to reach the printer…	正在等待第一面送達印表機…
+	Wait until the second side of the last two-sided print has reached the printer, then print again.	請等待上一次雙面列印的第二面送達印表機，然後再重新列印。
+	The second side stopped partway: {error}. Part of it may have printed, so check the stack and print the rest again.	第二面中途停止：{error}。其中一部分可能已列印，請檢查紙疊並重新列印剩餘部分。
+	Cut and stack needs single-sided sheets. Turn off Manual two-sided.	裁切後疊放需要單面紙張。請關閉手動雙面。

@@ -3681,3 +3681,13 @@ document scrollbar width	Wide	Széles
 	This document's script is asking	A dokumentum szkriptje kérdez
 	Document: {name}	Dokumentum: {name}
 	This request comes from the document, not PdfCraft. Only enter a password if you trust this document.	Ez a kérés a dokumentumtól származik, nem a PdfCrafttól. Csak akkor adjon meg jelszót, ha megbízik ebben a dokumentumban.
+# Manual two-sided printing (pdfcraft#7084)
+	Manual two-sided	Kézi kétoldalas
+	Second side in reverse order	Második oldal fordított sorrendben
+	Usually needed when the printed sheets go back in printed side up without being turned over, as on most printers with a front tray. Leave it off if you turn the stack over.	Általában akkor kell, ha a nyomtatott lapok megfordítás nélkül, nyomtatott oldallal felfelé kerülnek vissza, mint a legtöbb elülső tálcás nyomtatón. Hagyja kikapcsolva, ha megfordítja a köteget.
+	Print the second side	A második oldal nyomtatása
+	When the first side has finished printing, take the printed sheets out without changing their order. Put them back in the paper tray so the printer prints on the blank side, with the top of the pages going in first. On most printers with a front tray, that means printed side up. Then choose Continue. If the backs land on the wrong sheets, change "Second side in reverse order" and print again.	Amikor az első oldal nyomtatása befejeződött, vegye ki a nyomtatott lapokat a sorrendjük megváltoztatása nélkül. Tegye vissza őket a papírtálcába úgy, hogy a nyomtató az üres oldalra nyomtasson, és a lapok teteje menjen be először. A legtöbb elülső tálcás nyomtatón ez azt jelenti, hogy a nyomtatott oldal felfelé néz. Ezután válassza a(z) „Tovább” lehetőséget. Ha a hátoldalak rossz lapokra kerülnek, módosítsa a(z) „Második oldal fordított sorrendben” beállítást, és nyomtasson újra.
+	Waiting for the first side to reach the printer…	Várakozás, amíg az első oldal eléri a nyomtatót…
+	Wait until the second side of the last two-sided print has reached the printer, then print again.	Várja meg, amíg az utolsó kétoldalas nyomtatás második oldala eléri a nyomtatót, majd nyomtasson újra.
+	The second side stopped partway: {error}. Part of it may have printed, so check the stack and print the rest again.	A második oldal félúton leállt: {error}. Egy része kinyomtatódhatott, ezért ellenőrizze a köteget, és nyomtassa ki újra a többit.
+	Cut and stack needs single-sided sheets. Turn off Manual two-sided.	A Vágás és halmozás egyoldalas lapokat igényel. Kapcsolja ki a Kézi kétoldalas beállítást.

@@ -3651,3 +3651,13 @@ document scrollbar width	Wide	Кең
 	This document's script is asking	Осы құжаттың скрипті сұрап тұр
 	Document: {name}	Құжат: {name}
 	This request comes from the document, not PdfCraft. Only enter a password if you trust this document.	Бұл сұрау PdfCraft-тан емес, құжаттан келді. Құпиясөзді осы құжатқа сенсеңіз ғана енгізіңіз.
+# Manual two-sided printing (pdfcraft#7084)
+	Manual two-sided	Қолмен екі жақты басып шығару
+	Second side in reverse order	Екінші жақ кері ретпен
+	Usually needed when the printed sheets go back in printed side up without being turned over, as on most printers with a front tray. Leave it off if you turn the stack over.	Әдетте басылған парақтар аударылмай, басылған жағы жоғары қаратылып қайта салынғанда қажет, алдыңғы науасы бар принтерлердің көбіндегідей. Буманы аударсаңыз, өшірулі қалдырыңыз.
+	Print the second side	Екінші жағын басып шығару
+	When the first side has finished printing, take the printed sheets out without changing their order. Put them back in the paper tray so the printer prints on the blank side, with the top of the pages going in first. On most printers with a front tray, that means printed side up. Then choose Continue. If the backs land on the wrong sheets, change "Second side in reverse order" and print again.	Бірінші жағы басылып болғанда, басылған парақтарды ретін өзгертпей алыңыз. Принтер бос жағына басатындай етіп, оларды қағаз науасына беттердің жоғарғы жиегін алға қаратып қайта салыңыз. Алдыңғы науасы бар принтерлердің көбінде бұл басылған жағы жоғары дегенді білдіреді. Содан кейін «Жалғастыру» таңдаңыз. Егер артқы жақтары басқа парақтарға түссе, «Екінші жақ кері ретпен» параметрін өзгертіп, қайта басып шығарыңыз.
+	Waiting for the first side to reach the printer…	Бірінші жақтың принтерге жетуі күтілуде…
+	Wait until the second side of the last two-sided print has reached the printer, then print again.	Соңғы екі жақты басып шығарудың екінші жағы принтерге жеткенше күтіңіз, содан кейін қайта басып шығарыңыз.
+	The second side stopped partway: {error}. Part of it may have printed, so check the stack and print the rest again.	Екінші жақ жартылай тоқтады: {error}. Оның бір бөлігі басылған болуы мүмкін, сондықтан буманы тексеріп, қалғанын қайта басып шығарыңыз.
+	Cut and stack needs single-sided sheets. Turn off Manual two-sided.	«Кесу және үю» бір жақты парақтарды қажет етеді. «Қолмен екі жақты басып шығару» параметрін өшіріңіз.

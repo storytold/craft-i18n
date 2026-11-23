@@ -3986,3 +3986,13 @@ document scrollbar width	Wide	Breit
 	This document's script is asking	Das Skript dieses Dokuments fragt
 	Document: {name}	Dokument: {name}
 	This request comes from the document, not PdfCraft. Only enter a password if you trust this document.	Diese Anfrage stammt vom Dokument, nicht von PdfCraft. Geben Sie ein Passwort nur ein, wenn Sie diesem Dokument vertrauen.
+# Manual two-sided printing (pdfcraft#7084)
+	Manual two-sided	Manuell beidseitig
+	Second side in reverse order	Rückseiten in umgekehrter Reihenfolge
+	Usually needed when the printed sheets go back in printed side up without being turned over, as on most printers with a front tray. Leave it off if you turn the stack over.	Meist nötig, wenn die bedruckten Blätter mit der bedruckten Seite nach oben wieder eingelegt werden, ohne sie umzudrehen, wie bei den meisten Druckern mit vorderem Papierfach. Lassen Sie es aus, wenn Sie den Stapel umdrehen.
+	Print the second side	Rückseiten drucken
+	When the first side has finished printing, take the printed sheets out without changing their order. Put them back in the paper tray so the printer prints on the blank side, with the top of the pages going in first. On most printers with a front tray, that means printed side up. Then choose Continue. If the backs land on the wrong sheets, change "Second side in reverse order" and print again.	Wenn die Vorderseiten fertig gedruckt sind, nehmen Sie die bedruckten Blätter heraus, ohne ihre Reihenfolge zu ändern. Legen Sie sie so wieder in das Papierfach ein, dass der Drucker auf die leere Seite druckt und die Oberkante der Seiten zuerst eingezogen wird. Bei den meisten Druckern mit vorderem Papierfach heißt das: bedruckte Seite nach oben. Wählen Sie dann „Weiter“. Landen die Rückseiten auf den falschen Blättern, ändern Sie „Rückseiten in umgekehrter Reihenfolge“ und drucken Sie erneut.
+	Waiting for the first side to reach the printer…	Warten, bis die Vorderseiten beim Drucker ankommen…
+	Wait until the second side of the last two-sided print has reached the printer, then print again.	Warten Sie, bis die Rückseiten des letzten beidseitigen Drucks beim Drucker angekommen sind, und drucken Sie dann erneut.
+	The second side stopped partway: {error}. Part of it may have printed, so check the stack and print the rest again.	Der Druck der Rückseiten wurde mittendrin angehalten: {error}. Ein Teil wurde möglicherweise gedruckt. Prüfen Sie daher den Stapel und drucken Sie den Rest erneut.
+	Cut and stack needs single-sided sheets. Turn off Manual two-sided.	Schneiden und stapeln braucht einseitig bedruckte Blätter. Schalten Sie „Manuell beidseitig“ aus.

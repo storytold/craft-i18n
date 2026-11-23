@@ -3868,3 +3868,13 @@ document scrollbar width	Wide	عريض
 	This document's script is asking	نص هذا المستند البرمجي يطلب
 	Document: {name}	المستند: {name}
 	This request comes from the document, not PdfCraft. Only enter a password if you trust this document.	هذا الطلب صادر عن المستند، لا عن PdfCraft. لا تُدخل كلمة مرور إلا إذا كنت تثق بهذا المستند.
+# Manual two-sided printing (pdfcraft#7084)
+	Manual two-sided	طباعة يدوية على الوجهين
+	Second side in reverse order	الوجه الثاني بترتيب عكسي
+	Usually needed when the printed sheets go back in printed side up without being turned over, as on most printers with a front tray. Leave it off if you turn the stack over.	يلزم عادةً عندما تُعاد الأوراق المطبوعة والوجه المطبوع لأعلى دون قلبها، كما في معظم الطابعات ذات الدرج الأمامي. اتركه معطّلاً إذا كنت تقلب الرزمة.
+	Print the second side	طباعة الوجه الثاني
+	When the first side has finished printing, take the printed sheets out without changing their order. Put them back in the paper tray so the printer prints on the blank side, with the top of the pages going in first. On most printers with a front tray, that means printed side up. Then choose Continue. If the backs land on the wrong sheets, change "Second side in reverse order" and print again.	عند انتهاء طباعة الوجه الأول، أخرج الأوراق المطبوعة دون تغيير ترتيبها. أعِدها إلى درج الورق بحيث تطبع الطابعة على الوجه الفارغ، مع إدخال أعلى الصفحات أولاً. في معظم الطابعات ذات الدرج الأمامي، يعني ذلك أن يكون الوجه المطبوع لأعلى. ثم اختر «متابعة». إذا طُبعت الوجوه الخلفية على الأوراق الخطأ، فغيّر «الوجه الثاني بترتيب عكسي» واطبع مرة أخرى.
+	Waiting for the first side to reach the printer…	في انتظار وصول الوجه الأول إلى الطابعة…
+	Wait until the second side of the last two-sided print has reached the printer, then print again.	انتظر حتى يصل الوجه الثاني من آخر طباعة على الوجهين إلى الطابعة، ثم اطبع مرة أخرى.
+	The second side stopped partway: {error}. Part of it may have printed, so check the stack and print the rest again.	توقف الوجه الثاني في منتصفه: {error}. ربما طُبع جزء منه، لذا تحقق من الرزمة واطبع الباقي مرة أخرى.
+	Cut and stack needs single-sided sheets. Turn off Manual two-sided.	يتطلب «قص وتكديس» أوراقاً مطبوعة على وجه واحد. أوقف «طباعة يدوية على الوجهين».

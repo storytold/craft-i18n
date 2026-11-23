@@ -4570,3 +4570,13 @@ review-suggestion	Replacement text	Texte de remplacement
 	on page {p}	à la page {p}
 	This document's script is asking	Le script de ce document demande
 	This request comes from the document, not PdfCraft. Only enter a password if you trust this document.	Cette demande provient du document, pas de PdfCraft. Ne saisissez un mot de passe que si vous faites confiance à ce document.
+# Manual two-sided printing (pdfcraft#7084)
+	Manual two-sided	Recto verso manuel
+	Second side in reverse order	Seconde face dans l'ordre inverse
+	Usually needed when the printed sheets go back in printed side up without being turned over, as on most printers with a front tray. Leave it off if you turn the stack over.	Généralement nécessaire lorsque les feuilles imprimées sont remises face imprimée vers le haut sans être retournées, comme sur la plupart des imprimantes à bac avant. Laissez cette option désactivée si vous retournez la pile.
+	Print the second side	Imprimer la seconde face
+	When the first side has finished printing, take the printed sheets out without changing their order. Put them back in the paper tray so the printer prints on the blank side, with the top of the pages going in first. On most printers with a front tray, that means printed side up. Then choose Continue. If the backs land on the wrong sheets, change "Second side in reverse order" and print again.	Une fois la première face imprimée, retirez les feuilles imprimées sans changer leur ordre. Remettez-les dans le bac à papier pour que l'imprimante imprime sur la face vierge, le haut des pages entrant en premier. Sur la plupart des imprimantes à bac avant, cela signifie face imprimée vers le haut. Choisissez ensuite « Continuer ». Si les versos se retrouvent sur les mauvaises feuilles, modifiez « Seconde face dans l'ordre inverse » et relancez l'impression.
+	Waiting for the first side to reach the printer…	En attente de l'arrivée de la première face à l'imprimante…
+	Wait until the second side of the last two-sided print has reached the printer, then print again.	Attendez que la seconde face de la dernière impression recto verso soit arrivée à l'imprimante, puis relancez l'impression.
+	The second side stopped partway: {error}. Part of it may have printed, so check the stack and print the rest again.	La seconde face s'est arrêtée en cours de route : {error}. Une partie a peut-être été imprimée ; vérifiez la pile et réimprimez le reste.
+	Cut and stack needs single-sided sheets. Turn off Manual two-sided.	Couper et empiler exige des feuilles en recto seul. Désactivez Recto verso manuel.

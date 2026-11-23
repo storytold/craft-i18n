@@ -4531,3 +4531,13 @@ document scrollbar width	Wide	Plats
 	−LOC	−LOC
 	This document's script is asking	Šī dokumenta skripts jautā
 	This request comes from the document, not PdfCraft. Only enter a password if you trust this document.	Šis pieprasījums nāk no dokumenta, nevis no PdfCraft. Ievadiet paroli tikai tad, ja uzticaties šim dokumentam.
+# Manual two-sided printing (pdfcraft#7084)
+	Manual two-sided	Manuāla abpusējā druka
+	Second side in reverse order	Otro pusi apgrieztā secībā
+	Usually needed when the printed sheets go back in printed side up without being turned over, as on most printers with a front tray. Leave it off if you turn the stack over.	Parasti nepieciešams, ja apdrukātās loksnes tiek ieliktas atpakaļ ar apdrukāto pusi uz augšu, tās neapvēršot, kā lielākajā daļā printeru ar priekšējo paplāti. Atstājiet izslēgtu, ja apvēršat kaudzi.
+	Print the second side	Drukāt otro pusi
+	When the first side has finished printing, take the printed sheets out without changing their order. Put them back in the paper tray so the printer prints on the blank side, with the top of the pages going in first. On most printers with a front tray, that means printed side up. Then choose Continue. If the backs land on the wrong sheets, change "Second side in reverse order" and print again.	Kad pirmā puse ir izdrukāta, izņemiet apdrukātās loksnes, nemainot to secību. Ielieciet tās atpakaļ papīra paplātē tā, lai printeris drukātu uz tukšās puses un lapu augšmala ietu printerī pirmā. Lielākajā daļā printeru ar priekšējo paplāti tas nozīmē ar apdrukāto pusi uz augšu. Pēc tam izvēlieties Turpināt. Ja aizmugures nonāk uz nepareizajām loksnēm, mainiet "Otro pusi apgrieztā secībā" un drukājiet vēlreiz.
+	Waiting for the first side to reach the printer…	Gaida, kamēr pirmā puse nonāk printerī…
+	Wait until the second side of the last two-sided print has reached the printer, then print again.	Uzgaidiet, līdz pēdējās abpusējās drukas otrā puse ir nonākusi printerī, un tad drukājiet vēlreiz.
+	The second side stopped partway: {error}. Part of it may have printed, so check the stack and print the rest again.	Otrās puses druka apstājās pusceļā: {error}. Daļa, iespējams, ir izdrukāta, tāpēc pārbaudiet kaudzi un izdrukājiet atlikušo vēlreiz.
+	Cut and stack needs single-sided sheets. Turn off Manual two-sided.	Griešanai un sakraušanai vajadzīgas vienpusējas loksnes. Izslēdziet "Manuāla abpusējā druka".

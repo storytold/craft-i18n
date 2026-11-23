@@ -3312,3 +3312,13 @@ calendar weekday	We	چوارشەممە
 	This document's script is asking	سکریپتی ئەم بەڵگەنامەیە دەپرسێت
 	Document: {name}	بەڵگەنامە: {name}
 	This request comes from the document, not PdfCraft. Only enter a password if you trust this document.	ئەم داواکارییە لە بەڵگەنامەکەوە هاتووە، نەک لە PdfCraft. تەنها ئەگەر متمانەت بەم بەڵگەنامەیە هەیە وشەی نهێنی بنووسە.
+# Manual two-sided printing (pdfcraft#7084)
+	Manual two-sided	دوولایەی دەستی
+	Second side in reverse order	لای دووەم بە ڕیزبەندیی پێچەوانە
+	Usually needed when the printed sheets go back in printed side up without being turned over, as on most printers with a front tray. Leave it off if you turn the stack over.	زۆرجار پێویستە کاتێک کاغەزە چاپکراوەکان بێ هەڵگێڕانەوە، بە لای چاپکراو بەرەو سەرەوە دەگەڕێنرێنەوە، وەک لە زۆربەی ئەو چاپکەرانەی سینیی پێشەوەیان هەیە. ئەگەر کەڵەکەکە هەڵدەگێڕیتەوە، ناچالاکی بهێڵەوە.
+	Print the second side	چاپکردنی لای دووەم
+	When the first side has finished printing, take the printed sheets out without changing their order. Put them back in the paper tray so the printer prints on the blank side, with the top of the pages going in first. On most printers with a front tray, that means printed side up. Then choose Continue. If the backs land on the wrong sheets, change "Second side in reverse order" and print again.	کاتێک چاپکردنی لای یەکەم تەواو بوو، کاغەزە چاپکراوەکان دەربهێنە بێ ئەوەی ڕیزبەندییان بگۆڕیت. بیانگەڕێنەوە ناو سینیی کاغەز بە شێوەیەک کە چاپکەر لەسەر لای بەتاڵ چاپ بکات و سەرەوەی پەڕەکان یەکەم جار بچێتە ژوورەوە. لە زۆربەی ئەو چاپکەرانەی سینیی پێشەوەیان هەیە، ئەمە واتە لای چاپکراو بەرەو سەرەوە. پاشان «بەردەوامبوون» هەڵبژێرە. ئەگەر پشتەکان لەسەر کاغەزی هەڵە چاپ بوون، «لای دووەم بە ڕیزبەندیی پێچەوانە» بگۆڕە و دووبارە چاپ بکە.
+	Waiting for the first side to reach the printer…	چاوەڕوانی گەیشتنی لای یەکەم بە چاپکەر…
+	Wait until the second side of the last two-sided print has reached the printer, then print again.	چاوەڕێ بکە تا لای دووەمی دوایین چاپی دوولایە دەگاتە چاپکەر، پاشان دووبارە چاپ بکە.
+	The second side stopped partway: {error}. Part of it may have printed, so check the stack and print the rest again.	لای دووەم لە نیوەی ڕێگادا وەستا: {error}. لەوانەیە بەشێکی چاپ کرابێت، بۆیە کەڵەکەکە بپشکنە و ئەوەی ماوە دووبارە چاپ بکە.
+	Cut and stack needs single-sided sheets. Turn off Manual two-sided.	«بڕین و کەڵەکەکردن» پێویستی بە کاغەزی یەکلایە هەیە. «دوولایەی دەستی» ناچالاک بکە.

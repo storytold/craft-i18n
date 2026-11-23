@@ -3648,3 +3648,13 @@ document scrollbar width	Wide	Široka
 	This document's script is asking	Skript tega dokumenta sprašuje
 	Document: {name}	Dokument: {name}
 	This request comes from the document, not PdfCraft. Only enter a password if you trust this document.	Ta zahteva prihaja iz dokumenta, ne iz programa PdfCraft. Geslo vnesite le, če temu dokumentu zaupate.
+# Manual two-sided printing (pdfcraft#7084)
+	Manual two-sided	Ročno obojestransko tiskanje
+	Second side in reverse order	Druga stran v obratnem vrstnem redu
+	Usually needed when the printed sheets go back in printed side up without being turned over, as on most printers with a front tray. Leave it off if you turn the stack over.	Običajno potrebno, ko natisnjene liste vstavite nazaj z natisnjeno stranjo navzgor, ne da bi jih obrnili, kot pri večini tiskalnikov s sprednjim pladnjem. Pustite izklopljeno, če sveženj obrnete.
+	Print the second side	Natisni drugo stran
+	When the first side has finished printing, take the printed sheets out without changing their order. Put them back in the paper tray so the printer prints on the blank side, with the top of the pages going in first. On most printers with a front tray, that means printed side up. Then choose Continue. If the backs land on the wrong sheets, change "Second side in reverse order" and print again.	Ko je prva stran natisnjena, vzemite natisnjene liste ven, ne da bi spremenili njihov vrstni red. Vstavite jih nazaj v pladenj za papir tako, da tiskalnik tiska na prazno stran, z vrhom strani naprej. Pri večini tiskalnikov s sprednjim pladnjem to pomeni z natisnjeno stranjo navzgor. Nato izberite »Nadaljuj«. Če hrbtne strani pristanejo na napačnih listih, spremenite »Druga stran v obratnem vrstnem redu« in natisnite znova.
+	Waiting for the first side to reach the printer…	Čakanje, da prva stran doseže tiskalnik…
+	Wait until the second side of the last two-sided print has reached the printer, then print again.	Počakajte, da druga stran zadnjega obojestranskega tiskanja doseže tiskalnik, nato natisnite znova.
+	The second side stopped partway: {error}. Part of it may have printed, so check the stack and print the rest again.	Druga stran se je ustavila na pol poti: {error}. Del je morda že natisnjen, zato preverite sveženj in preostanek natisnite znova.
+	Cut and stack needs single-sided sheets. Turn off Manual two-sided.	Razreži in zloži zahteva enostranske liste. Izklopite »Ročno obojestransko tiskanje«.

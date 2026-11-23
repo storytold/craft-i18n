@@ -3027,3 +3027,13 @@ document scrollbar width	Wide	ფართო
 	This document's script is asking	ამ დოკუმენტის სკრიპტი გეკითხებათ
 	Document: {name}	დოკუმენტი: {name}
 	This request comes from the document, not PdfCraft. Only enter a password if you trust this document.	ეს მოთხოვნა დოკუმენტიდან მოდის და არა PdfCraft-იდან. პაროლი შეიყვანეთ მხოლოდ იმ შემთხვევაში, თუ ამ დოკუმენტს ენდობით.
+# Manual two-sided printing (pdfcraft#7084)
+	Manual two-sided	ხელით ორმხრივი
+	Second side in reverse order	მეორე მხარე შებრუნებული რიგით
+	Usually needed when the printed sheets go back in printed side up without being turned over, as on most printers with a front tray. Leave it off if you turn the stack over.	ჩვეულებრივ საჭიროა, როცა დაბეჭდილი ფურცლები უკან იდება დაბეჭდილი მხარით ზემოთ, გადაბრუნების გარეშე, როგორც წინა უჯრის მქონე პრინტერების უმეტესობაში. დატოვეთ გამორთული, თუ დასტას აბრუნებთ.
+	Print the second side	მეორე მხარის დაბეჭდვა
+	When the first side has finished printing, take the printed sheets out without changing their order. Put them back in the paper tray so the printer prints on the blank side, with the top of the pages going in first. On most printers with a front tray, that means printed side up. Then choose Continue. If the backs land on the wrong sheets, change "Second side in reverse order" and print again.	როცა პირველი მხარის ბეჭდვა დასრულდება, ამოიღეთ დაბეჭდილი ფურცლები მათი რიგის შეუცვლელად. ჩადეთ ისინი ქაღალდის უჯრაში ისე, რომ პრინტერმა ცარიელ მხარეზე დაბეჭდოს და გვერდების ზედა ნაწილი პირველი შევიდეს. წინა უჯრის მქონე პრინტერების უმეტესობაში ეს ნიშნავს დაბეჭდილი მხარით ზემოთ. შემდეგ აირჩიეთ „გაგრძელება“. თუ უკანა მხარეები არასწორ ფურცლებზე დაიბეჭდება, შეცვალეთ „მეორე მხარე შებრუნებული რიგით“ და ხელახლა დაბეჭდეთ.
+	Waiting for the first side to reach the printer…	მოლოდინი, სანამ პირველი მხარე პრინტერს მიაღწევს…
+	Wait until the second side of the last two-sided print has reached the printer, then print again.	დაელოდეთ, სანამ ბოლო ორმხრივი ბეჭდვის მეორე მხარე პრინტერს მიაღწევს, შემდეგ ხელახლა დაბეჭდეთ.
+	The second side stopped partway: {error}. Part of it may have printed, so check the stack and print the rest again.	მეორე მხარე შუა გზაზე შეჩერდა: {error}. შესაძლოა ნაწილი დაიბეჭდა, ამიტომ შეამოწმეთ დასტა და დარჩენილი ხელახლა დაბეჭდეთ.
+	Cut and stack needs single-sided sheets. Turn off Manual two-sided.	ამოჭრასა და დაწყობას ცალმხრივი ფურცლები სჭირდება. გამორთეთ ხელით ორმხრივი.

@@ -3831,3 +3831,13 @@ document scrollbar width	Wide	Larga
 	This document's script is asking	Lo script di questo documento chiede
 	Document: {name}	Documento: {name}
 	This request comes from the document, not PdfCraft. Only enter a password if you trust this document.	Questa richiesta proviene dal documento, non da PdfCraft. Inserisci una password solo se ti fidi di questo documento.
+# Manual two-sided printing (pdfcraft#7084)
+	Manual two-sided	Fronte-retro manuale
+	Second side in reverse order	Secondo lato in ordine inverso
+	Usually needed when the printed sheets go back in printed side up without being turned over, as on most printers with a front tray. Leave it off if you turn the stack over.	Di solito serve quando i fogli stampati vengono reinseriti con il lato stampato verso l’alto senza capovolgerli, come sulla maggior parte delle stampanti con vassoio frontale. Lascialo disattivato se capovolgi la pila.
+	Print the second side	Stampa il secondo lato
+	When the first side has finished printing, take the printed sheets out without changing their order. Put them back in the paper tray so the printer prints on the blank side, with the top of the pages going in first. On most printers with a front tray, that means printed side up. Then choose Continue. If the backs land on the wrong sheets, change "Second side in reverse order" and print again.	Quando la stampa del primo lato è terminata, togli i fogli stampati senza cambiarne l’ordine. Rimettili nel vassoio della carta in modo che la stampante stampi sul lato bianco, con il bordo superiore delle pagine che entra per primo. Sulla maggior parte delle stampanti con vassoio frontale, significa con il lato stampato verso l’alto. Poi scegli “Continua”. Se i retro finiscono sui fogli sbagliati, modifica “Secondo lato in ordine inverso” e stampa di nuovo.
+	Waiting for the first side to reach the printer…	In attesa che il primo lato raggiunga la stampante…
+	Wait until the second side of the last two-sided print has reached the printer, then print again.	Attendi che il secondo lato dell’ultima stampa fronte-retro abbia raggiunto la stampante, poi stampa di nuovo.
+	The second side stopped partway: {error}. Part of it may have printed, so check the stack and print the rest again.	Il secondo lato si è interrotto a metà: {error}. Una parte potrebbe essere stata stampata, quindi controlla la pila e ristampa il resto.
+	Cut and stack needs single-sided sheets. Turn off Manual two-sided.	Taglia e impila richiede fogli solo fronte. Disattiva Fronte-retro manuale.

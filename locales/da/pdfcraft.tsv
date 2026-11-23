@@ -2488,3 +2488,13 @@ calendar weekday	We	on
 	This document's script is asking	Dette dokuments script spørger
 	Document: {name}	Dokument: {name}
 	This request comes from the document, not PdfCraft. Only enter a password if you trust this document.	Denne anmodning kommer fra dokumentet, ikke fra PdfCraft. Indtast kun en adgangskode, hvis du har tillid til dette dokument.
+# Manual two-sided printing (pdfcraft#7084)
+	Manual two-sided	Manuel dobbeltsidet
+	Second side in reverse order	Anden side i omvendt rækkefølge
+	Usually needed when the printed sheets go back in printed side up without being turned over, as on most printers with a front tray. Leave it off if you turn the stack over.	Normalt nødvendigt, når de udskrevne ark lægges tilbage med den trykte side opad uden at blive vendt, som på de fleste printere med en bakke foran. Lad det være slået fra, hvis du vender stakken.
+	Print the second side	Udskriv anden side
+	When the first side has finished printing, take the printed sheets out without changing their order. Put them back in the paper tray so the printer prints on the blank side, with the top of the pages going in first. On most printers with a front tray, that means printed side up. Then choose Continue. If the backs land on the wrong sheets, change "Second side in reverse order" and print again.	Når den første side er færdig med at blive udskrevet, skal du tage de udskrevne ark ud uden at ændre deres rækkefølge. Læg dem tilbage i papirbakken, så printeren udskriver på den tomme side, og så toppen af siderne går ind først. På de fleste printere med en bakke foran betyder det med den trykte side opad. Vælg derefter “Fortsæt”. Hvis bagsiderne havner på de forkerte ark, skal du ændre “Anden side i omvendt rækkefølge” og udskrive igen.
+	Waiting for the first side to reach the printer…	Venter på, at den første side når frem til printeren…
+	Wait until the second side of the last two-sided print has reached the printer, then print again.	Vent, til den anden side af den seneste dobbeltsidede udskrift er nået frem til printeren, og udskriv så igen.
+	The second side stopped partway: {error}. Part of it may have printed, so check the stack and print the rest again.	Den anden side stoppede halvvejs: {error}. En del af den er måske blevet udskrevet, så tjek stakken, og udskriv resten igen.
+	Cut and stack needs single-sided sheets. Turn off Manual two-sided.	Klip og stak kræver ensidede ark. Slå “Manuel dobbeltsidet” fra.
