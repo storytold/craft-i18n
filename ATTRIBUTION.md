@@ -378,3 +378,17 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+## Hebrew PdfCraft: hotbar layout and text-border labels (2026-11-22)
+
+Four original, AI-assisted clean-room Hebrew translations for actual PdfCraft
+hotbar widgets: Border:, Border shape, Float, and Layout & Sizing.
+Source use verified in `storytold/pdfcraft` at
+`crates/ui-egui/src/hotbar.rs`; absent from official
+`locales/he/pdfcraft.tsv` and `locales/he/common.tsv` at base
+`fd44ae8cbb5b076dc77a12ea6c7ddd7cf8b1c360`.
+Existing pending Hebrew upstream PR #358 already contains the separate
+`Add Tools to Hotbar` key; it is intentionally excluded here.
+Translations are written independently from the English meaning, not copied
+from another product's localization. Targeted source-key and TSV checks only;
+full Rust CI, native PdfCraft UI/RTL tests and Hebrew-speaker review remain pending.
