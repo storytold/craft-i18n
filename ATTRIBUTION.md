@@ -378,3 +378,11 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+## WordCraft Hebrew paragraph spacing preset: Open (2026-11-22)
+
+One original Hebrew `spacing / Open` catalog row distinguishes the Paragraph Spacing
+preset from File > Open. Its meaning is taken from WordCraft's current
+`crates/ui-egui/src/ribbon/design.rs` contextual lookup, not another product's
+translation. Drafted with AI assistance from the English meaning; independent
+native-speaker review and a live WordCraft screenshot have not been performed.
