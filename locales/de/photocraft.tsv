@@ -729,7 +729,6 @@ smartSvg	Choose the application used to edit this SVG:	Wählen Sie die Anwendung
 	Data Sets…	Datensätze…
 cameraData	Date Taken	Aufnahmedatum
 	Day For Night	Tag für Nacht
-	DDS Import	DDS-Import
 	DDS Options	DDS-Optionen
 	De-Interlace…	De-Interlace…
 	Decontaminate	Dekontaminieren
@@ -1068,7 +1067,6 @@ cameraData	F-Stop	Blende
 	Flatten Image	Bild auf eine Ebene reduzieren
 	Flip Canvas Horizontal	Zeichenfläche horizontal spiegeln
 	Flip Canvas Vertical	Zeichenfläche vertikal spiegeln
-	Flip vertically	Vertikal spiegeln
 	Flip X	X spiegeln
 	Flip X Jitter	X-Spiegel-Schwankung
 	Flip Y	Y spiegeln
@@ -1484,7 +1482,6 @@ fontWeight	Light	Leicht
 	Load settings from a Camera Raw .xmp file	Einstellungen aus einer Camera-Raw-.xmp-Datei laden
 	Load Settings…	Einstellungen laden…
 	Load the brush after each stroke	Pinsel nach jedem Strich laden
-	Load transparency as alpha channel	Transparenz als Alphakanal laden
 	Loaded contours from {file}	Konturen aus {file} geladen
 	Loaded RAW Develop settings from {file}	RAW-Entwicklung-Einstellungen aus {file} geladen
 	Loaded RAW Develop settings from {file} ({n} not supported)	RAW-Entwicklung-Einstellungen aus {file} geladen ({n} nicht unterstützt)
@@ -1606,7 +1603,6 @@ fontWeight	Medium	Medium
 	Minimum Diameter	Minimaler Durchmesser
 	Minimum Roundness	Minimale Rundung
 	Minimum…	Minimum…
-	Mipmaps as separate layers	Mipmaps als eigene Ebenen
 	Missing delete command	Löschbefehl fehlt
 	Missing glyph protection	Schutz vor fehlenden Glyphen
 	Miter	Gehrung
@@ -1769,12 +1765,10 @@ layerLabel	No Color	Keine Farbe
 	Open a document to use the timeline.	Öffne ein Dokument, um die Zeitleiste zu nutzen.
 	Open as smart object	Als Smart-Objekt öffnen
 	Open As…	Öffnen als…
-	Open cancelled	Öffnen abgebrochen
 	Open color-less EXR as ACEScg	Farbangabenloses EXR als ACEScg öffnen
 	Open documents as tabs	Dokumente als Registerkarten öffnen
 	Open Document…	Öffnen…
 	Open EXR Parts…	EXR-Teile öffnen…
-	Open failed: {error}	Öffnen fehlgeschlagen: {error}
 	Open paths use centered strokes	Offene Pfade verwenden zentrierte Konturen
 	open source	Open Source
 	Open the release page to choose an installer for your system.	Öffnen Sie die Versionsseite und wählen Sie ein Installationspaket für Ihr System.
@@ -2853,7 +2847,6 @@ smartSvg	Updates wait while another document or an editing dialog is active.	Akt
 	{message} ({note})	{message} ({note})
 	{mode} Color · {bits} bit	{mode}-Farbe · {bits} Bit
 	{name} (Photoshop)	{name} (Photoshop)
-	{name} ({width} × {height})	{name} ({width} × {height})
 	{name} can't keep everything in this document	{name} kann nicht alles in diesem Dokument erhalten
 	{name} options	{name} Optionen
 	{name} Properties	{name}-Eigenschaften
@@ -2864,7 +2857,6 @@ smartSvg	Updates wait while another document or an editing dialog is active.	Akt
 @plural	{n} file could not be loaded: {errors}|{n} files could not be loaded: {errors}	{n} Datei konnte nicht geladen werden: {errors}|{n} Dateien konnten nicht geladen werden: {errors}
 @plural	{n} layer recorded by this comp was deleted. Update the comp, or clear the warning.|{n} layers recorded by this comp were deleted. Update the comp, or clear the warning.	{n} von dieser Komposition erfasste Ebene wurde gelöscht. Aktualisiere die Komposition oder lösche die Warnung.|{n} von dieser Komposition erfasste Ebenen wurden gelöscht. Aktualisiere die Komposition oder lösche die Warnung.
 @plural	{n} layer|{n} layers	{n} Ebene|{n} Ebenen
-@plural	{n} mip level|{n} mip levels	{n} Mip-Level|{n} Mip-Levels
 	{n} of {max} sample points	{n} von {max} Messpunkten
 @plural	{n} plane|{n} planes	{n} Fläche|{n} Flächen
 @plural	{n} preset|{n} presets	{n} Vorgabe|{n} Vorgaben
@@ -2886,34 +2878,301 @@ smartSvg	Updates wait while another document or an editing dialog is active.	Akt
 	“{name}” already exists. Replace it?	„{name}“ ist bereits vorhanden. Ersetzen?
 	…and {n} more	…und {n} weitere
 	↑↓ navigate   {key} run   esc close	↑↓ Navigieren   {key} Ausführen   Esc Schließen
-
-# PhotoCraft native import/report additions (photocraft@0ec85da).
-	Import Conversion Report	Import-Konvertierungsbericht
-	Import-time outcomes. Editing uses native PhotoCraft rules.	Ergebnisse zum Importzeitpunkt. Die Bearbeitung folgt den nativen Regeln von PhotoCraft.
-	A newer report format is retained. Its details cannot be displayed.	Ein Bericht in einem neueren Format wurde aufbewahrt. Seine Details können nicht angezeigt werden.
-	No conversion report was recorded.	Es wurde kein Konvertierungsbericht aufgezeichnet.
-	No entries on this page.	Keine Einträge auf dieser Seite.
-	Layer mask	Ebenenmaske
-	Source item	Quellelement
-	{first}–{last} of {total}	{first}–{last} von {total}
-	Native equivalent	Natives Äquivalent
-	Native approximation	Native Annäherung
-	Retained, not applied	Aufbewahrt, nicht angewendet
-	Nonessential data skipped	Nicht notwendige Daten übersprungen
-	Unknown outcome	Unbekanntes Ergebnis
-	Native rules	Native Regeln
-	Native capability limit	Grenze der nativen Funktionen
-	Conversion not implemented	Konvertierung nicht implementiert
-	Resource unavailable	Ressource nicht verfügbar
-	Invalid optional data	Ungültige optionale Daten
-	Retention limit	Aufbewahrungsgrenze
-	Precision conversion	Präzisionskonvertierung
-	Unknown reason	Unbekannter Grund
-	Native layer {id} (removed; historical reference)	Native Ebene {id} (entfernt; historischer Verweis)
-	Native layer: {name}	Native Ebene: {name}
-	Alpha Percentile	Alpha-Perzentil
-	Alpha Weighted	Alpha-gewichtet
-	Color Percentile	Farbperzentil
-	Connectivity	Nachbarschaft
-	Disc	Kreisförmige Nachbarschaft
-	Each	Jeder Kanal
+	0 picks a free port; AI apps find it by themselves	0 wählt einen freien Port; KI-Apps finden ihn selbst
+	A command was canceled or stopped during batch processing. Continue with the next file or stop?	Ein Befehl wurde bei der Stapelverarbeitung abgebrochen oder gestoppt. Mit der nächsten Datei fortfahren oder anhalten?
+	A file is still being placed; try again when it has finished.	Eine Datei wird noch platziert; nach Abschluss erneut versuchen.
+	A grey mix that spreads the image's tones	Eine Graumischung, die die Tonwerte des Bildes verteilt
+	Add Anchor Point	Ankerpunkt hinzufügen
+	Add a size	Größe hinzufügen
+	Agents can connect on 127.0.0.1:{port}.	Agenten können sich über 127.0.0.1:{port} verbinden.
+	Align Edges	Kanten ausrichten
+	Align To:	Ausrichten an:
+	Align:	Ausrichten:
+	All open documents	Alle geöffneten Dokumente
+	Allow Tool Recording	Werkzeugaufzeichnung erlauben
+	Allows rotation and scaling of selection	Erlaubt das Drehen und Skalieren der Auswahl
+	Always use Pressure for Opacity. When off, Brush Preset controls pressure	Immer Druck für die Deckkraft verwenden. Ist die Option aus, steuert die Pinselvorgabe den Druck
+	Always use Pressure for Size. When off, Brush Preset controls pressure	Immer Druck für die Größe verwenden. Ist die Option aus, steuert die Pinselvorgabe den Druck
+	Answer the open import question first, then import this file again.	Zuerst die offene Importfrage beantworten, dann diese Datei erneut importieren.
+	Anti-alias brush application	Kantenglättung beim Pinselauftrag
+	Append	Anhängen
+	Apply to All	Auf alle anwenden
+	Are you sure you want to delete all notes?	Sollen wirklich alle Notizen gelöscht werden?
+	Arrowhead options	Pfeilspitzen-Optionen
+	Arrowheads	Pfeilspitzen
+	Artboard from Group	Zeichenbereich aus Gruppe
+	Attribute	Attribut
+	Batch preview	Stapelvorschau
+	Bottom align text	Text unten ausrichten
+	By name	Nach Name
+	CPU Rendering	CPU-Rendering
+	Calculating…	Berechnen…
+	Cancelled placing {name}	Platzieren von {name} abgebrochen
+	Choose Import as New Group or Replace.	„Als neue Gruppe importieren“ oder „Ersetzen“ wählen.
+	Choose a menu command. Playback asks for its settings when needed.	Einen Menübefehl wählen. Bei der Wiedergabe werden bei Bedarf seine Einstellungen abgefragt.
+	Choose a remix mode	Remix-Modus wählen
+	Choose one Actions file.	Eine Aktionsdatei wählen.
+	Clear All Actions	Alle Aktionen löschen
+	Clear all actions?	Alle Aktionen löschen?
+	Click and move left or right to scale using the Zoom Tool (OpenGL only)	Klicken und nach links oder rechts ziehen, um mit dem Zoom-Werkzeug zu skalieren (nur OpenGL)
+	Click to open the Brush Preset picker	Klicken, um die Auswahl der Pinselvorgaben zu öffnen
+	Click to refresh histogram with uncached data	Klicken, um das Histogramm mit nicht zwischengespeicherten Daten zu aktualisieren
+	Clone Source X Offset	X-Versatz der Kopierquelle
+	Clone Source Y Offset	Y-Versatz der Kopierquelle
+	Closed document	Geschlossenes Dokument
+	Concavity	Konkavität
+	Confirm or cancel the pending Actions library change first.	Zuerst die ausstehende Änderung der Aktionsbibliothek bestätigen oder abbrechen.
+	Confirm or cancel the pending Record Again editor first.	Zuerst den ausstehenden Editor „Erneut aufzeichnen“ bestätigen oder abbrechen.
+	Confirm or cancel the pending menu item first.	Zuerst den ausstehenden Menüeintrag bestätigen oder abbrechen.
+	Convert Profile to sRGB	Profil in sRGB konvertieren
+	Copy CSS	CSS kopieren
+	Could not set the clone source because it does not work with Indexed Color images (convert image to RGB Color mode to edit).	Die Kopierquelle konnte nicht festgelegt werden, weil sie mit Bildern im Modus „Indizierte Farben“ nicht funktioniert (zum Bearbeiten das Bild in den Modus „RGB-Farbe“ umwandeln).
+	Could not use the clone stamp tool because the area to clone has not been defined (Alt-click to define a source point).	Kopierstempel-Werkzeug nicht möglich, weil der zu kopierende Bereich nicht festgelegt ist (mit Alt-Klick einen Quellpunkt festlegen).
+	Could not use the clone stamp tool because the area to clone has not been defined (Option-click to define a source point).	Kopierstempel-Werkzeug nicht möglich, weil der zu kopierende Bereich nicht festgelegt ist (mit Option-Klick einen Quellpunkt festlegen).
+	Could not use the magic eraser because it does not work with Bitmap images (convert image to Grayscale mode to edit).	Magischer-Radiergummi-Werkzeug nicht möglich, weil es mit Bildern im Modus „Bitmap“ nicht funktioniert (zum Bearbeiten das Bild in den Modus „Graustufen“ umwandeln).
+	Could not use the magic eraser because it does not work with Indexed Color images (convert image to RGB Color mode to edit).	Magischer-Radiergummi-Werkzeug nicht möglich, weil es mit Bildern im Modus „Indizierte Farben“ nicht funktioniert (zum Bearbeiten das Bild in den Modus „RGB-Farbe“ umwandeln).
+	Could not use the type tool because the layer is locked.	Text-Werkzeug nicht möglich, weil die Ebene gesperrt ist.
+	Could not use the {tool} because the target layer is a group.	{tool} nicht möglich, weil die Zielebene eine Gruppe ist.
+	Count Color	Zählfarbe
+	Count Group	Zählgruppe
+	Count Group Name:	Name der Zählgruppe:
+	Count group color	Farbe der Zählgruppe
+	Count:	Anzahl:
+	Create new layer	Neue Ebene erstellen
+	Create new layer with results	Neue Ebene mit den Ergebnissen erstellen
+	Create new set	Neuen Satz erstellen
+	Current document	Aktuelles Dokument
+	DVCPRO HD 1080 (1.5)	DVCPRO HD 1080 (1.5)
+	Data Sets as Files is unavailable on the web	„Datensätze als Dateien“ ist im Web nicht verfügbar
+	Delete Anchor Point	Ankerpunkt löschen
+	Delete Note	Notiz löschen
+	Delete the currently selected count group	Die aktuell ausgewählte Zählgruppe löschen
+	Delete this note?	Diese Notiz löschen?
+	Determines the spread of replaced color	Legt die Streuung der ersetzten Farbe fest
+	Distribute Spacing:	Abstand verteilen:
+	Distribute:	Verteilen:
+	Do not erase the foreground swatch color	Die Vordergrundfarbe nicht radieren
+	Dont enlarge	Nicht vergrößern
+	Drag to move the selected path	Ziehen, um den ausgewählten Pfad zu verschieben
+	Drawn on the CPU: {reason}. Click for System Info.	Auf der CPU gezeichnet: {reason}. Klicken für Systeminformationen.
+	Draws background color over foreground colors	Zeichnet die Hintergrundfarbe über Vordergrundfarben
+	Dropped files weren't placed: their document was closed.	Abgelegte Dateien wurden nicht platziert, weil das zugehörige Dokument geschlossen wurde.
+	Dropped files weren't placed: too many are waiting for their document.	Abgelegte Dateien wurden nicht platziert: Zu viele warten auf ihr Dokument.
+	Empty	Leer
+	Enable to remix all layers	Aktivieren, um alle Ebenen zu remixen
+	End	Ende
+	Erase range of similar colors	Bereich ähnlicher Farben radieren
+	Erase to History	Auf Protokollzustand radieren
+	Estimated file size	Geschätzte Dateigröße
+	Feather Radius:	Radius der weichen Kante:
+	File Type	Dateityp
+	Filter for embedded smart objects	Nach eingebetteten Smart-Objekten filtern
+	Filter for linked smart objects that are missing	Nach verknüpften Smart-Objekten filtern, die fehlen
+	Filter for smart objects linked locally	Nach lokal verknüpften Smart-Objekten filtern
+	Fixed Size H:	Feste Größe H:
+	Fixed Size W:	Feste Größe B:
+	Flow:	Fluss:
+	Free Transform Points	Punkte der freien Transformation
+	Group Images by Folder	Bilder nach Ordner gruppieren
+	H:	H:
+	Hard Edge	Harte Kante
+	High Memory Photoshop Document	Photoshop-Dokument mit hohem Speicherbedarf
+	How far to let the erasing spread	Wie weit sich das Radieren ausbreiten soll
+	Images in subfolders will start on a new Contact Sheet	Bilder in Unterordnern beginnen auf einem neuen Kontaktabzug
+	Import as New Group	Als neue Gruppe importieren
+	Import as New Group keeps “{group}” and adds the file as a new group beside it.	„Als neue Gruppe importieren“ behält „{group}“ bei und fügt die Datei als neue Gruppe daneben hinzu.
+	Include Subfolders	Unterordner einbeziehen
+	Insert Menu Item…	Menüeintrag einfügen…
+	Insert Path	Pfad einfügen
+	LZW Compression	LZW-Komprimierung
+	Layer Effects	Ebeneneffekte
+	Level:	Stufe:
+	Lining	Versalziffern
+	Linked	Verknüpft
+	Little memory would be left after opening this file. Close other apps first, or PhotoCraft may run out of memory.	Nach dem Öffnen dieser Datei bliebe nur wenig Speicher übrig. Zuerst andere Apps schließen, sonst kann PhotoCraft der Speicher ausgehen.
+	Load Solid Colors Only	Nur Volltonfarben laden
+	Make:	Erstellen:
+	Managed by the launch options (--control).	Wird über die Startoptionen (--control) verwaltet.
+	Maximize Compatibility	Kompatibilität maximieren
+	Merged	Zusammengeführt
+	Minimizes clipping in shadows and highlights, and keeps colors from shifting hue	Minimiert das Abschneiden in Tiefen und Lichtern und verhindert, dass sich der Farbton von Farben verschiebt
+	No Actions library change belongs to this dialog.	Zu diesem Dialog gehört keine Änderung der Aktionsbibliothek.
+	No Adv. Blending	Kein erw. Mischen
+	No Layer Effects	Keine Ebeneneffekte
+	No Layer Mask	Keine Ebenenmaske
+	No Vector Mask	Keine Vektormaske
+	No anchor to delete	Kein Ankerpunkt zum Löschen
+	No document.	Kein Dokument.
+	No import is waiting. Import the file again.	Es wartet kein Import. Die Datei erneut importieren.
+	No matching fonts	Keine passenden Schriftarten
+	No menu item belongs to this chooser.	Zu dieser Auswahl gehört kein Menüeintrag.
+	No menu item is waiting.	Es wartet kein Menüeintrag.
+	No note to delete	Keine Notiz zum Löschen
+	No options for the Add Anchor Point Tool.	Keine Optionen für das Ankerpunkt-hinzufügen-Werkzeug.
+	No options for the Delete Anchor Point Tool.	Keine Optionen für das Ankerpunkt-löschen-Werkzeug.
+	No path to make a mask from: draw one with the Pen tool or select one in the Paths panel.	Kein Pfad, aus dem sich eine Maske erstellen ließe: Mit dem Stift-Werkzeug einen zeichnen oder im Bedienfeld „Pfade“ einen auswählen.
+	No path to make a shape from: draw one with the Pen tool or select one in the Paths panel.	Kein Pfad, aus dem sich eine Form erstellen ließe: Mit dem Stift-Werkzeug einen zeichnen oder im Bedienfeld „Pfade“ einen auswählen.
+	No pixels are selected.	Es sind keine Pixel ausgewählt.
+	No recorded step belongs to this editor.	Zu diesem Editor gehört kein aufgezeichneter Schritt.
+	No slices are selected. Click a slice in the preview to select it.	Es sind keine Slices ausgewählt. Auf einen Slice in der Vorschau klicken, um ihn auszuwählen.
+	No step is waiting.	Es wartet kein Schritt.
+	Not Clipped	Nicht beschnitten
+	Not Empty	Nicht leer
+	Not Linked	Nicht verknüpft
+	Not Locked	Nicht gesperrt
+	Not Visible	Nicht sichtbar
+	Note deleted, but the preference could not be saved: {error}	Notiz gelöscht, aber die Einstellung konnte nicht gespeichert werden: {error}
+	Nudge	Feinverschiebung
+	Numerals	Ziffern
+	Occurrence	Vorkommen
+	Off: turn on AI agents in ArtCraft Launcher › Settings › AI agents.	Aus: KI-Agenten im ArtCraft Launcher unter Einstellungen › KI-Agenten einschalten.
+	Open anyway	Trotzdem öffnen
+	Open as Smart Object…	Als Smart-Objekt öffnen…
+	Opening this document uses more memory and may slow down your computer or other running applications.	Das Öffnen dieses Dokuments benötigt mehr Speicher und kann den Computer oder andere laufende Anwendungen verlangsamen.
+	Opening “{name}” requires an estimated {est} GiB of memory ({avail} GiB available).	Zum Öffnen von „{name}“ werden schätzungsweise {est} GiB Speicher benötigt ({avail} GiB verfügbar).
+	Opening “{name}” requires an estimated {est} GiB of memory. The available memory could not be measured.	Zum Öffnen von „{name}“ werden schätzungsweise {est} GiB Speicher benötigt. Der verfügbare Speicher konnte nicht ermittelt werden.
+	Operation	Vorgang
+	Painting Mode	Malmodus
+	Path alignment	Pfadausrichtung
+	Path arrangement	Pfadanordnung
+	Percentile:	Perzentil:
+	Pick Color From Image	Farbe aus Bild aufnehmen
+	Preparing Free Transform	Freie Transformation wird vorbereitet
+	Proportional	Proportional
+	Proportional H:	Proportional H:
+	Proportional Lining	Proportionale Versalziffern
+	Proportional Oldstyle	Proportionale Mediävalziffern
+	Proportional W:	Proportional B:
+	Rasterize Vector Mask	Vektormaske rasterisieren
+	Record Again	Erneut aufzeichnen
+	Remove area after a single stroke	Bereich nach einem einzelnen Strich entfernen
+	Remove size {n}	Größe {n} entfernen
+	Rendering	Rendering
+	Replace Actions…	Aktionen ersetzen…
+	Replace all actions with {count} actions from {file}?	Alle Aktionen durch {count} Aktionen aus {file} ersetzen?
+	Replace deletes everything in “{group}” first, including presets you edited or moved there. This can't be undone.	„Ersetzen“ löscht zuerst alles in „{group}“, auch dort bearbeitete oder hineinverschobene Vorgaben. Das lässt sich nicht rückgängig machen.
+	Replace the current actions?	Die aktuellen Aktionen ersetzen?
+	Reset Actions…	Aktionen zurücksetzen…
+	Reset the warp	Verkrümmung zurücksetzen
+	Resize to Fit	Größe anpassen
+	Resize windows when zooming using the Zoom Tool	Fenstergröße beim Zoomen mit dem Zoom-Werkzeug anpassen
+	Rubber Band	Gummiband
+	Run	Ausführen
+	SAVE DOCUMENT PRESET	DOKUMENTVORGABE SPEICHERN
+	Sample all layers	Alle Ebenen aufnehmen
+	Sample content from all visible layers	Inhalt aller sichtbaren Ebenen aufnehmen
+	Save Preset	Vorgabe speichern
+	Save as JPEG	Als JPEG speichern
+	Save as PSD	Als PSD speichern
+	Save as TIFF	Als TIFF speichern
+	Scale All	Alles skalieren
+	Scroll all open document windows when using the hand tool	Beim Hand-Werkzeug alle geöffneten Dokumentfenster scrollen
+	Search and select fonts	Schriftarten suchen und auswählen
+	Select Pixels	Pixel auswählen
+	Select an action first.	Zuerst eine Aktion auswählen.
+	Select an action step first.	Zuerst einen Aktionsschritt auswählen.
+	Selected Slices	Ausgewählte Slices
+	Selection…	Auswahl…
+	Set 	Satz 
+	Set 1	Satz 1
+	Set 10	Satz 10
+	Set 11	Satz 11
+	Set 12	Satz 12
+	Set 13	Satz 13
+	Set 14	Satz 14
+	Set 15	Satz 15
+	Set 16	Satz 16
+	Set 17	Satz 17
+	Set 18	Satz 18
+	Set 19	Satz 19
+	Set 2	Satz 2
+	Set 20	Satz 20
+	Set 3	Satz 3
+	Set 4	Satz 4
+	Set 5	Satz 5
+	Set 6	Satz 6
+	Set 7	Satz 7
+	Set 8	Satz 8
+	Set 9	Satz 9
+	Set additional pen and path options	Zusätzliche Stift- und Pfadoptionen festlegen
+	Set additional shape and path options	Zusätzliche Form- und Pfadoptionen festlegen
+	Set as default	Als Standard festlegen
+	Set exposure for stroke	Belichtung für den Strich festlegen
+	Set flow rate for stroke	Flussrate für den Strich festlegen
+	Set font size	Schriftgröße festlegen
+	Set font style	Schriftstil festlegen
+	Set opacity for stroke	Deckkraft für den Strich festlegen
+	Set smoothing for stroke\nUse higher values to reduce the shakiness of brush strokes	Glättung für den Strich festlegen\nHöhere Werte verringern das Zittern der Pinselstriche
+	Set symmetry options for Painting	Symmetrieoptionen für das Malen festlegen
+	Set text color	Textfarbe festlegen
+	Set the brush angle	Pinselwinkel festlegen
+	Show Channels in Color	Kanäle in Farbe anzeigen
+	Show Statistics	Statistik anzeigen
+	Size {n}	Größe {n}
+	Smoothing Options	Glättungsoptionen
+	Smoothness {s}% · {method}	Glätte {s} % · {method}
+	Source Layer	Quellebene
+	Source:	Quelle:
+	Source: document closed	Quelle: Dokument geschlossen
+	Square Pixels	Quadratische Pixel
+	Start	Start
+	Stop recording or playback before changing the Actions library.	Aufzeichnung oder Wiedergabe stoppen, bevor die Aktionsbibliothek geändert wird.
+	Stylistic Sets	Stilistische Sets
+	Suffix	Suffix
+	Suffix {n}	Suffix {n}
+	Tabular	Tabellarisch
+	Tabular Lining	Tabellarische Versalziffern
+	Tabular Oldstyle	Tabellarische Mediävalziffern
+	The Actions file is too large.	Die Aktionsdatei ist zu groß.
+	The Actions library changed. Open the confirmation again.	Die Aktionsbibliothek wurde geändert. Die Bestätigung erneut öffnen.
+	The Record Again command changed.	Der Befehl „Erneut aufzeichnen“ wurde geändert.
+	The action or insertion command changed. Request Insert Menu Item again.	Die Aktion oder der Einfügebefehl wurde geändert. „Menüeintrag einfügen“ erneut anfordern.
+	The actions changed. Request Record Again again.	Die Aktionen wurden geändert. „Erneut aufzeichnen“ erneut anfordern.
+	The actions changed. Request Replace Actions again.	Die Aktionen wurden geändert. „Aktionen ersetzen“ erneut anfordern.
+	The adjustment target is missing or unavailable.	Das Ziel der Einstellung fehlt oder ist nicht verfügbar.
+	The command permissions changed. Request Insert Menu Item again.	Die Befehlsberechtigungen wurden geändert. „Menüeintrag einfügen“ erneut anfordern.
+	The command permissions changed. Request Record Again again.	Die Befehlsberechtigungen wurden geändert. „Erneut aufzeichnen“ erneut anfordern.
+	The current scratch directory ({path}) doesn't report its free space, so PhotoCraft can't stop before it fills up, and large files get no extra room from it without a Scratch Size Limit. This warning applies to the current configuration; changes above take effect on Apply or OK. Set a limit or use a local disk.	Das aktuelle Auslagerungsverzeichnis ({path}) meldet seinen freien Speicherplatz nicht. PhotoCraft kann daher nicht rechtzeitig anhalten, bevor es voll ist, und große Dateien erhalten ohne Größenlimit für die Auslagerung keinen zusätzlichen Platz daraus. Diese Warnung gilt für die aktuelle Konfiguration; Änderungen oben werden mit „Anwenden“ oder „OK“ wirksam. Ein Limit festlegen oder einen lokalen Datenträger verwenden.
+	The document changed. Please choose Clear All again.	Das Dokument wurde geändert. Bitte „Alle löschen“ erneut wählen.
+	The document changed. Request Record Again again.	Das Dokument wurde geändert. „Erneut aufzeichnen“ erneut anfordern.
+	The document or active layer changed. Open Fill again.	Das Dokument oder die aktive Ebene wurde geändert. Den Dialog „Füllung“ erneut öffnen.
+	The document or active layer changed. Open Stroke again.	Das Dokument oder die aktive Ebene wurde geändert. Den Dialog „Kontur“ erneut öffnen.
+	The document or its notes changed. Please delete the note again.	Das Dokument oder seine Notizen wurden geändert. Bitte die Notiz erneut löschen.
+	The preference could not be saved: {error}	Die Einstellung konnte nicht gespeichert werden: {error}
+	The step editor could not be opened.	Der Schritteditor konnte nicht geöffnet werden.
+	The step has no command editor.	Der Schritt hat keinen Befehlseditor.
+	This Reset Actions choice is unavailable.	Diese Auswahl für „Aktionen zurücksetzen“ ist nicht verfügbar.
+	This custom shape can't be added to a shape layer with a path operation: choose New Layer	Diese benutzerdefinierte Form lässt sich nicht mit einer Pfadoperation zu einer Formebene hinzufügen: „Neue Ebene“ wählen
+	This operation will turn a live shape into a regular path. Continue?	Dieser Vorgang wandelt eine Live-Form in einen normalen Pfad um. Fortfahren?
+	Toggle Character and Paragraph panels	Bedienfelder „Zeichen“ und „Absatz“ ein-/ausblenden
+	Toggle visibility of count group	Sichtbarkeit der Zählgruppe umschalten
+	Tolerance for choosing related colors	Toleranz für die Auswahl verwandter Farben
+	Top align text	Text oben ausrichten
+	Uncached Refresh	Aktualisierung ohne Zwischenspeicher
+	Unconstrained	Uneingeschränkt
+	Use relative positioning for reference point	Relative Positionierung für den Referenzpunkt verwenden
+	Use these settings for new arrows	Diese Einstellungen für neue Pfeile verwenden
+	Useful mixer brush combinations	Nützliche Mischer-Pinsel-Kombinationen
+	Wait for the Actions library to load.	Warten, bis die Aktionsbibliothek geladen ist.
+	Zoom current window to 1:1	Aktuelles Fenster auf 1:1 zoomen
+	Zoom current window to fill the screen	Aktuelles Fenster auf Bildschirmfüllung zoomen
+	Zoom current window to screen size	Aktuelles Fenster auf Bildschirmgröße zoomen
+	blur tool	Weichzeichner-Werkzeug
+	brush tool	Pinsel-Werkzeug
+	burn tool	Nachbelichter-Werkzeug
+	dodge tool	Abwedler-Werkzeug
+	gradient tool	Verlaufs-Werkzeug
+	it is a folder, not a file; drop the files inside it instead	das ist ein Ordner und keine Datei; stattdessen die Dateien darin ablegen
+	pixels	Pixel
+	px	px
+	sharpen tool	Scharfzeichner-Werkzeug
+	smudge tool	Wischfinger-Werkzeug
+	sponge tool	Schwamm-Werkzeug
+	{message} into “{group}”	{message} in „{group}“
+	{ok} written to {dir}	{ok} nach {dir} geschrieben
+	{set} Copy	{set} Kopie
+@plural	The brush group “{group}” already has {n} brush of yours.|The brush group “{group}” already has {n} brushes of yours.	Die Pinselgruppe „{group}“ enthält bereits {n} selbst erstellten Pinsel.|Die Pinselgruppe „{group}“ enthält bereits {n} selbst erstellte Pinsel.
+@plural	The gradient group “{group}” already exists ({n} gradient).|The gradient group “{group}” already exists ({n} gradients).	Die Verlaufsgruppe „{group}“ existiert bereits ({n} Verlauf).|Die Verlaufsgruppe „{group}“ existiert bereits ({n} Verläufe).
+@plural	{n} byte|{n} bytes	{n} Byte|{n} Byte
+@plural	{what}: {n} Image Assets output failed|{what}: {n} Image Assets outputs failed	{what}: {n} Bild-Assets-Ausgabe fehlgeschlagen|{what}: {n} Bild-Assets-Ausgaben fehlgeschlagen
+@plural	{what}: {n} file failed|{what}: {n} files failed	{what}: {n} Datei fehlgeschlagen|{what}: {n} Dateien fehlgeschlagen
