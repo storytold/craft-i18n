@@ -378,3 +378,11 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+## PhotoCraft Info panel labels (2026-11-17)
+
+The missing `Proof Color`, `HSL Color` and `Info Panel Options` rows in az, bs, he,
+ka, ro, ta, th and ur, and `Mode:` in hi, were prepared for @chrisringrose with
+OpenAI Codex, AI-assisted from the plain meaning of the English and this
+repository's existing catalog terminology. No other product's localisation was
+consulted. These 25 new translations have not been reviewed by native speakers.
