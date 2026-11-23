@@ -378,3 +378,15 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+## WordCraft Hebrew: missing-font installation and licensing messages (2026-11-22)
+
+Four new Hebrew strings in `locales/he/wordcraft.tsv` for existing UI messages in
+`storytold/wordcraft/crates/ui-egui/src/font_download.rs`: Windows and Linux
+font installation instructions, the lack of free downloads for some missing fonts,
+and a restricted-licence warning. Original translations were drafted with AI
+assistance (OpenAI ChatGPT) from the meaning of the source English text; no
+other product's translated interface was consulted. Independent native-speaker
+review and installed WordCraft UI/RTL acceptance are not yet recorded.
+Existing proposed translations on craft-i18n #317 (including the macOS install
+message and other font-download controls) were intentionally not duplicated.
