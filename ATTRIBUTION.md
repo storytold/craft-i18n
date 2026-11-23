@@ -378,3 +378,16 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+## WordCraft Hebrew status bar character counts (2026-11-22)
+
+Four Hebrew `locales/he/wordcraft.tsv` strings for the WordCraft status bar's
+character counts, with and without spaces and with or without selected text,
+are original AI-assisted clean-room translations of the English source meaning
+in `storytold/wordcraft` `crates/ui-egui/src/chrome.rs` (`status_count_text`).
+All `{chars}` and `{selected}` placeholders are preserved. The existing catalog
+was not translated from any other product's localization. These strings were
+checked against the existing `he` app and shared catalogs and corresponding
+open Hebrew WordCraft PR patches for exact-key overlap. Independent native-
+speaker review, hosted catalog CI, and installed WordCraft RTL/visual testing
+are not yet completed.
