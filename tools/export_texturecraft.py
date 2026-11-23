@@ -29,17 +29,18 @@ def output(*args, cwd=None):
     return subprocess.check_output(args, cwd=cwd, text=True, encoding='utf-8')
 
 
-def original_tables(checkout, revision):
-    """Compile the nine tables at a fixed Git revision and return escaped TSV rows."""
+def original_tables(checkout, revision, languages=None):
+    """Compile the configured tables at a fixed Git revision and return escaped TSV rows."""
+    languages = LANGUAGES if languages is None else languages
     with tempfile.TemporaryDirectory() as directory:
         temp = Path(directory)
         code = [r'fn esc(s: &str) -> String { s.replace("\\", "\\\\").replace("\t", "\\t").replace("\n", "\\n") }']
-        for module in LANGUAGES:
+        for module in languages:
             source = output('git', 'show', f'{revision}:crates/ui-egui/src/i18n/{module}.rs', cwd=checkout)
             (temp / f'{module}.rs').write_text(source, encoding='utf-8')
             code.append(f'mod {module};')
         code.append('fn main() {')
-        for module in LANGUAGES:
+        for module in languages:
             code.append(f'for (source, value) in {module}::TABLE {{ println!("{module}\\t{{}}\\t{{}}", esc(source), esc(value)); }}')
         code.append('}')
         source = temp / 'export.rs'
@@ -68,40 +69,41 @@ def read(path):
     return rows
 
 
-def resolved(root, locale):
+def resolved(root, locale, app="texturecraft"):
     """App overrides shared rows; a regional locale can inherit its parent."""
     rows = {}
     parts = locale.split('-')
     if len(parts) > 1 and (len(parts[-1]) == 2 or parts[-1].isdigit()):
-        rows.update(resolved(root, '-'.join(parts[:-1])))
+        rows.update(resolved(root, '-'.join(parts[:-1]), app))
     rows.update(read(root / 'locales' / locale / 'common.tsv'))
-    rows.update(read(root / 'locales' / locale / 'texturecraft.tsv'))
+    rows.update(read(root / 'locales' / locale / f'{app}.tsv'))
     return rows
 
 
-def migrate(checkout, revision, root, check=False):
+def migrate(checkout, revision, root, check=False, *, languages=None, app="texturecraft", name="TextureCraft"):
     """Export an initial catalog snapshot or verify it without writes when check is true."""
+    languages = LANGUAGES if languages is None else languages
     sha = output('git', 'rev-parse', '--verify', revision + '^{commit}', cwd=checkout).strip()
-    tables = original_tables(checkout, sha)
+    tables = original_tables(checkout, sha, languages)
     for locale, original in tables.items():
-        path = root / 'locales' / locale / 'texturecraft.tsv'
+        path = root / 'locales' / locale / f'{app}.tsv'
         if not check:
             # Exclude only rows already supplied by shared/parent catalogs. A regional
             # app row differing from its own shared catalog must remain an override.
             inherited = {}
             parts = locale.split('-')
             if len(parts) > 1 and (len(parts[-1]) == 2 or parts[-1].isdigit()):
-                inherited.update(resolved(root, '-'.join(parts[:-1])))
+                inherited.update(resolved(root, '-'.join(parts[:-1]), app))
             inherited.update(read(path.with_name('common.tsv')))
             own = {key: value for key, value in original.items() if inherited.get(key) != value}
-            name = LANGUAGES[locale.replace('-', '_')]
-            path.write_text(render(name, locale, 'TextureCraft', own), encoding='utf-8', newline='\n')
-        actual = resolved(root, locale)
+            language_name = languages[locale.replace('-', '_')]
+            path.write_text(render(language_name, locale, name, own), encoding='utf-8', newline='\n')
+        actual = resolved(root, locale, app)
         differences = [source for key, value in original.items() if actual.get(key) != value for source in [key[1]]]
         if differences:
             raise ValueError(f'{locale}: translations changed: {differences}')
         print(f'{locale}: {len(original)} original rows resolve identically')
-    print(f'Source: texturecraft@{sha}')
+    print(f'Source: {app}@{sha}')
 
 
 def main():
