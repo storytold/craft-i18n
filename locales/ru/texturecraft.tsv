@@ -1,0 +1,901 @@
+# Русский (ru) interface catalog for TextureCraft.
+# Russian translation © 2026 SuperSfera LLC, MIT OR Apache-2.0
+# Columns, separated by a TAB:  context <TAB> English source text <TAB> translation
+#   context  usually empty. `@plural`, `@id` and `@msg` mean something to the apps; any other
+#            word is a label that tells apart two meanings of the same English.
+#   escapes  \n  \t  \\  inside a column. `{name}` placeholders must appear in both columns (in any
+#            order), and a trailing "…" in one needs one in the other.
+#   @plural  English `one|other`; the translation lists this language's plural forms, `|`-separated.
+#   Lines starting with # and blank lines are ignored. A missing entry shows in English.
+#
+# Clean room: every entry was written from the plain meaning of the English text in ordinary
+# computing vocabulary. No other product's localisation, string table or translated UI was
+# consulted or copied; add entries the same way.
+
+	"{layer}" can't be filled: select a paint layer or a layer's mask	«{layer}» нельзя залить: выберите слой рисования или маску слоя
+	"{layer}" has no paint yet: the filter changes what you paint on it.	На «{layer}» ещё нет краски: фильтр меняет то, что вы на нём рисуете.
+	0 turns autosave off. Copies go to {folder}	0 выключает автосохранение. Копии сохраняются в {folder}
+	1 effect	1 эффект
+	2D view only	Только 2D-вид
+	32 bits (float)	32 бита (float)
+	3D MESH	3D-СЕТКА
+	3D mesh	3D-сетка
+	3D meshes	3D-сетки
+	3D texture painting: layers, masks, smart materials, mesh map baking and export.	Рисование 3D-текстур: слои, маски, умные материалы, запекание карт сетки и экспорт.
+	3D view only	Только 3D-вид
+	3D/2D views	Виды 3D/2D
+	A click fills what is under it; a dragged rectangle fills what it selects as it grows	Щелчок заливает то, что под ним; перетаскиваемый прямоугольник заливает то, что выделяет по мере роста
+	A folder blends its children (pass-through). Set per-channel opacity in the layer rows.	Папка смешивает дочерние элементы (сквозной режим). Непрозрачность по каналам задаётся в строках слоёв.
+	a missing layer	отсутствующий слой
+	About TextureCraft	О программе TextureCraft
+	About TextureCraft...	О программе TextureCraft...
+	Accent color	Цвет акцента
+	ACES filmic	ACES filmic
+	Add an anchor point to a layer below to use its stack as a mask.	Добавьте опорную точку на слой ниже, чтобы использовать его стек как маску.
+	Add anchor point	Добавить опорную точку
+	Add as decal (view center)	Добавить как декаль (центр вида)
+	Add black mask	Добавить чёрную маску
+	Add channel	Добавить канал
+	Add color	Добавить цвет
+	Add compare mask	Добавить маску сравнения
+	Add effect	Добавить эффект
+	Add fill	Добавить заливку
+	Add fill layer	Добавить слой заливки
+	Add filter	Добавить фильтр
+	Add folder	Добавить папку
+	Add generator	Добавить генератор
+	Add High-Poly Meshes	Добавить высокополигональные сетки
+	Add levels	Добавить уровни
+	Add mask	Добавить маску
+	Add mask with color selection	Добавить маску с выбором цвета
+	Add output	Добавить вывод
+	Add paint	Добавить рисование
+	Add paint layer	Добавить слой рисования
+	Add smart material from the shelf	Добавить умный материал с полки
+	Add to the layer content	Добавить к содержимому слоя
+	Add to the mask	Добавить к маске
+	Add white mask	Добавить белую маску
+	Add...	Добавить...
+	Advanced settings	Дополнительные параметры
+	Aligned: the offset set by the first stroke is kept. V + click sets a new source.	Выровнено: смещение, заданное первым штрихом, сохраняется. V + щелчок задаёт новый источник.
+	Alignment and culling	Выравнивание и отсечение
+	All layers	Все слои
+	Alphas	Альфы
+	Also bound to {item} ({menu})	Также привязано к «{item}» ({menu})
+	Alt + LMB drag	Alt + перетаскивание ЛКМ
+	Amber	Янтарный
+	Ambient	Окружающий
+	Ambient Occlusion	Окклюзия окружения
+	Ambient occlusion	Окклюзия окружения
+	Anchor point	Опорная точка
+	Anchor: {name}	Опора: {name}
+	Anchor: {name} ({channel})	Опора: {name} ({channel})
+	Angle (degrees)	Угол (градусы)
+	Angle fade from	Затухание угла от
+	Angle fade to	Затухание угла до
+	Angle jitter	Разброс угла
+	Angle span	Диапазон угла
+	aniso	aniso
+	aniso angle	угол aniso
+	Anisotropy angle	Угол анизотропии
+	Anisotropy level	Уровень анизотропии
+	Antialiasing	Сглаживание
+	ao	ao
+	AO intensity	Интенсивность AO
+	Aperture	Диафрагма
+	Apply Diffusion	Применить диффузию
+	ArtCraft website...	Сайт ArtCraft...
+	Assets	Ресурсы
+	Attenuation	Затухание
+	Auto Tonemapping	Автотонирование
+	Automatic (from the mesh UVs)	Автоматически (по UV сетки)
+	Autosave every	Автосохранение каждые
+	Autosaves, smart materials, presets, templates and UI layouts go to the data folder. A new folder applies on restart; files already saved stay where they are.	Автосохранения, умные материалы, наборы, шаблоны и компоновки интерфейса сохраняются в папку данных. Новая папка применяется после перезапуска; уже сохранённые файлы остаются на месте.
+	Average Normals	Усреднить нормали
+	Axis	Ось
+	Axis position	Положение оси
+	Back to painting	Вернуться к рисованию
+	Backface culling	Отсечение невидимых граней
+	Bake an ID map (F8) to pick colors from the mesh.	Запеките карту идентификаторов (F8), чтобы брать цвета с сетки.
+	Bake Mesh Maps	Запечь карты сетки
+	Bake mesh maps	Запечь карты сетки
+	Bake mesh maps (F8) for curvature, AO and thickness based generators.	Запеките карты сетки (F8) для генераторов на основе кривизны, AO и толщины.
+	Bake Selected Textures ({n})	Запечь выбранные текстуры ({n})
+	Baked Lighting	Запечённое освещение
+	Baked maps imported: {count}	Импортировано запечённых карт: {count}
+	Baking	Запекание
+	Baking Visualization	Визуализация запекания
+	Baking {map} ({n}/{total})	Запекание {map} ({n}/{total})
+	Baking {map} ({n}/{total}), texture set {set} of {sets}	Запекание {map} ({n}/{total}), набор текстур {set} из {sets}
+	Base color	Базовый цвет
+	Base color is the diffuse color, Specular the F0 color and Glossiness 1 - roughness (add these channels in the texture set settings).	Базовый цвет — это диффузный цвет, Specular — цвет F0, а Glossiness — 1 минус roughness (добавьте эти каналы в параметрах набора текстур).
+	Base color, Metallic, Roughness and Specular level.	Базовый цвет, Metallic, Roughness и уровень Specular.
+	Based on each texture set's size	По размеру каждого набора текстур
+	Basic settings	Основные параметры
+	BBox	BBox
+	Bent Normals	Изогнутые нормали
+	Bevel	Скос
+	Blending	Наложение
+	Blending mode of the displayed channel	Режим наложения отображаемого канала
+	Blur and sharpen	Размытие и резкость
+	Blur Directional	Направленное размытие
+	Bounces	Отражения
+	Bricks	Кирпичи
+	Brush	Кисть
+	Brush name	Имя кисти
+	Brush size	Размер кисти
+	Brush size down / up	Уменьшить / увеличить размер кисти
+	Brushed lines	Штриховые линии
+	BSphere	BSphere
+	Built-in (read-only): duplicate it to edit	Встроенный (только чтение): дублируйте, чтобы править
+	Built-in mesh	Встроенная сетка
+	Built-in templates are read-only: duplicate one to edit it	Встроенные шаблоны только для чтения: дублируйте, чтобы править
+	Built-in: {mesh}	Встроенная: {mesh}
+	By Mesh Name	По имени сетки
+	Cage	Клетка
+	Cage Scene	Сцена клетки
+	Cage Type	Тип клетки
+	Cage: {name}	Клетка: {name}
+	Camera	Камера
+	Camera settings	Параметры камеры
+	Cancel the stroke	Отменить штрих
+	Cavities	Впадины
+	Cell size (texels at 2K)	Размер ячейки (тексели при 2K)
+	Cells	Ячейки
+	Change them in Texture Set Settings	Измените их в параметрах набора текстур
+	Channel source: uniform value, procedural, image or anchor	Источник канала: равномерное значение, процедурное, изображение или опора
+	Check All	Отметить все
+	Check for Updates...	Проверить обновления...
+	Checker	Шахматка
+	Choose another mesh file for the project. It is read when you press OK.	Выберите другой файл сетки для проекта. Он будет прочитан, когда вы нажмёте ОК.
+	Choosing or reimporting a mesh recomputes all channels.	Выбор или повторный импорт сетки пересчитывает все каналы.
+	Clamp	Ограничить
+	Clear mask	Очистить маску
+	Clear recent projects	Очистить недавние проекты
+	Click a mesh part to show or hide the selected layer on it.	Щёлкните по части сетки, чтобы показать или скрыть на ней выделенный слой.
+	Click the mesh to pick its material into the brush	Щёлкните по сетке, чтобы взять её материал в кисть
+	Click the mesh to place the decal	Щёлкните по сетке, чтобы разместить декаль
+	Click, then press the new shortcut (Esc cancels)	Щёлкните, затем нажмите новое сочетание (Esc отменяет)
+	Click: turn this channel on or off. Alt+click: this channel only	Щелчок: включить или выключить этот канал. Alt+щелчок: только этот канал
+	Closed path	Замкнутый контур
+	Cloud	Облако
+	Clouds	Облака
+	coat	coat
+	Coat normal	Нормаль покрытия
+	coat nrm	coat nrm
+	coat rough	coat rough
+	Coat roughness	Шероховатость покрытия
+	Coat weight	Вес покрытия
+	color	цвет
+	Color burn	Цветовое затемнение
+	Color dodge	Цветовое осветление
+	Color Generator	Генератор цвета
+	Color of the light that travels under the surface (each channel goes as far as its value)	Цвет света, который проходит под поверхностью (каждый канал проходит настолько далеко, насколько велико его значение)
+	Color picker	Выбор цвета
+	Color selection	Выбор цвета
+	Color Source	Источник цвета
+	Color space	Цветовое пространство
+	Color to replace	Заменяемый цвет
+	Colors near the first shift towards the second, keeping their shading.	Цвета рядом с первым сдвигаются ко второму, сохраняя светотень.
+	Colors read as gray. Add a levels or blur effect above to shape the result.	Цвета считываются как серые. Добавьте сверху эффект уровней или размытия, чтобы сформировать результат.
+	Combine with the layer's height	Объединить с высотой слоя
+	Common Parameters	Общие параметры
+	Common Settings	Общие настройки
+	Compare mask	Маска сравнения
+	Compositing	Композиция
+	Constant	Константа
+	Constants	Константы
+	Contained center: fill polygons whose center is in the rectangle	Центр внутри: заливать многоугольники, центр которых в прямоугольнике
+	Content effects	Эффекты содержимого
+	Continue with the sample project	Продолжить с учебным проектом
+	Contrast/Luminosity	Контраст/светлота
+	Converted maps	Преобразованные карты
+	Cooked at {size} px	Подготовлено при {size} пкс
+	Copper	Медный
+	Copy effect	Копировать эффект
+	Copy from	Копировать из
+	Copy layer(s)	Копировать слои
+	Copy RGB values	Копировать значения RGB
+	Copy the selected layer alone (its empty parts copy nothing)	Копировать только выделенный слой (пустые части ничего не копируют)
+	Copy to all texture sets	Копировать во все наборы текстур
+	Copy what the texture set shows	Копировать то, что показывает набор текстур
+	Coral	Коралловый
+	Cores kept for the UI	Ядра, оставленные для интерфейса
+	Cosine	Косинус
+	Couldn't encode the render	Не удалось закодировать визуализацию
+	Couldn't export textures: {error}	Не удалось экспортировать текстуры: {error}
+	Couldn't export the mesh: {error}	Не удалось экспортировать сетку: {error}
+	Couldn't export the template: {error}	Не удалось экспортировать шаблон: {error}
+	Couldn't import {name}: {error}	Не удалось импортировать {name}: {error}
+	Couldn't open {name}: {error}	Не удалось открыть {name}: {error}
+	Couldn't read the render back from the GPU	Не удалось считать визуализацию обратно с ГП
+	Couldn't save the render: {error}	Не удалось сохранить визуализацию: {error}
+	Couldn't save {name}: {error}	Не удалось сохранить {name}: {error}
+	Count	Количество
+	Count per stamp	Число на оттиск
+	Crate	Ящик
+	Create smart material	Создать умный материал
+	Ctrl+right-drag in a view sets the size and hardness, Ctrl+left-drag the flow and angle.	Ctrl+перетаскивание правой кнопкой в виде задаёт размер и жёсткость, Ctrl+левой — поток и угол.
+	Cube	Куб
+	Current layer	Текущий слой
+	Custom File	Свой файл
+	Cut effect	Вырезать эффект
+	Cut layer(s)	Вырезать слои
+	Cyan / red	Голубой / красный
+	Cylinder	Цилиндр
+	Cylindrical projection	Цилиндрическая проекция
+	Dark to light: the content's luminance picks a color along these stops.	От тёмного к светлому: светлота содержимого выбирает цвет вдоль этих точек.
+	Darken (Min)	Затемнение (мин.)
+	Data folder	Папка данных
+	Decal	Декаль
+	Decal projection	Проекция декали
+	Default camera	Камера по умолчанию
+	Delete the selected template	Удалить выбранный шаблон
+	Delete this camera	Удалить эту камеру
+	Deleted template "{name}"	Шаблон «{name}» удалён
+	Denoise	Убрать шум
+	Depth of field	Глубина резкости
+	Depth of field (viewport and Rendering mode)	Глубина резкости (окно просмотра и режим визуализации)
+	Depth of the sharp plane along the view (0: the orbit center)	Глубина резкой плоскости вдоль вида (0: центр орбиты)
+	Detail sizes	Размеры деталей
+	Details saved to {file}	Сведения сохранены в {file}
+	Dilation + default background color	Расширение + цвет фона по умолчанию
+	Dilation + transparent	Расширение + прозрачность
+	Dilation infinite	Бесконечное расширение
+	Dilation Width	Ширина расширения
+	DirectX normal map	Карта нормалей DirectX
+	Dirt	Грязь
+	Disable	Отключить
+	Displacement (height channel)	Смещение (канал высоты)
+	Display material	Показать материал
+	Display next channel	Показать следующий канал
+	Display next mesh map	Показать следующую карту сетки
+	Display previous channel	Показать предыдущий канал
+	Display previous mesh map	Показать предыдущую карту сетки
+	Display Settings	Параметры отображения
+	Distance-Based	По расстоянию
+	Distribution	Распределение
+	Document resolution	Разрешение документа
+	Documentation...	Документация...
+	Don't save	Не сохранять
+	Done on CPU: {n} / {max} samples, {s} s	Готово на ЦП: {n} / {max} выборок, {s} с
+	Done on GPU: {n} / {max} samples, {s} s	Готово на ГП: {n} / {max} выборок, {s} с
+	Double-click or press Enter to edit	Двойной щелчок или Enter — править
+	Double-click to rename	Двойной щелчок — переименовать
+	Download as	Скачать как
+	Downloaded {name}	Скачано: {name}
+	Drag onto an output channel	Перетащите на выходной канал
+	Drag the frame to move the decal, a corner to scale it, the round handle to turn it	Перетащите рамку, чтобы переместить декаль, угол — чтобы масштабировать, круглый манипулятор — чтобы повернуть
+	Drags the layer stack's values along the stroke into the selected layer.	Переносит значения стека слоёв вдоль штриха на выделенный слой.
+	Draws {name} of texture set "{set}". Edits to the source show in every instance.	Рисует {name} набора текстур «{set}». Правки источника видны во всех экземплярах.
+	Drop an image from the Assets panel here to use it as this mesh map	Перетащите сюда изображение с панели ресурсов, чтобы использовать его как эту карту сетки
+	Dry streaks	Сухие потёки
+	Duplicate effect	Дублировать эффект
+	Duplicate layer(s)	Дублировать слои
+	Duplicate the selected template	Дублировать выбранный шаблон
+	Edge Contrast	Контраст краёв
+	Edge Detect	Выделение краёв
+	Edge Distance	Расстояние до края
+	Edge Protection	Защита краёв
+	Edges	Края
+	Edges and cavities	Края и впадины
+	Edit keyboard shortcuts...	Изменить сочетания клавиш...
+	Edit quick mask	Править быструю маску
+	Editing quick mask: paint where painting is allowed (U to finish)	Правка быстрой маски: рисуйте, где рисование разрешено (U — закончить)
+	Editing the quick mask: fills paint where painting is allowed. Press U to finish.	Правка быстрой маски: заливки наносятся там, где рисование разрешено. Нажмите U, чтобы закончить.
+	Editing the quick mask: strokes paint where painting is allowed. Press U to finish.	Правка быстрой маски: штрихи наносятся там, где рисование разрешено. Нажмите U, чтобы закончить.
+	emiss	emiss
+	Emissive	Излучение
+	Enable or disable the effect	Включить или выключить эффект
+	Enable quick mask	Включить быструю маску
+	Enable Seams	Включить швы
+	Enter a finite number	Введите конечное число
+	Environment blur	Размытие окружения
+	Environment exposure (EV)	Экспозиция окружения (EV)
+	Environment map	Карта окружения
+	Environment opacity	Непрозрачность окружения
+	Environment rotation	Поворот окружения
+	Environment settings	Параметры окружения
+	Environment: {name}	Окружение: {name}
+	Environments	Окружения
+	Expand or collapse the folder	Развернуть или свернуть папку
+	Export mesh	Экспортировать сетку
+	Export Mesh...	Экспортировать сетку...
+	Export template	Экспортировать шаблон
+	Export templates	Экспортировать шаблоны
+	Export textures	Экспортировать текстуры
+	Export Textures...	Экспортировать текстуры...
+	Export the selected template (.json)	Экспортировать выбранный шаблон (.json)
+	Exported mesh to {path}	Сетка экспортирована в {path}
+	Exported template "{name}" to {path}	Шаблон «{name}» экспортирован в {path}
+	Exported {n} textures to {folder}	Экспортировано текстур: {n}, в {folder}
+	F0 from specular level	F0 из уровня specular
+	Fabric weave	Переплетение ткани
+	Face Normals Based	По нормалям граней
+	Field of view (deg)	Поле зрения (градусы)
+	File ID	Идентификатор файла
+	File name without extension; variables insert names	Имя файла без расширения; переменные подставляют имена
+	File not found	Файл не найден
+	File type	Тип файла
+	Fill layer	Слой заливки
+	Fill mode	Режим заливки
+	Fill only polygons the camera sees (3D view)	Заливать только многоугольники, которые видит камера (3D-вид)
+	Fill the closed path (lasso)	Залить замкнутый контур (лассо)
+	Fill the path (close it first)	Залить контур (сначала замкните его)
+	Filter the remaining noise while keeping edges and texture detail	Отфильтровать оставшийся шум, сохранив края и детали текстуры
+	Filters	Фильтры
+	Fine noise	Мелкий шум
+	Fingerprints	Отпечатки пальцев
+	Fit the input range to the histogram	Подгнать входной диапазон под гистограмму
+	Flatten layer	Объединить слой
+	Flips the image's green channel, for normal maps made with Y pointing down	Переворачивает зелёный канал изображения — для карт нормалей, где Y направлен вниз
+	Flow	Поток
+	Flow and opacity	Поток и непрозрачность
+	Flow jitter	Разброс потока
+	Focus distance	Расстояние фокуса
+	Focus: show only the active texture set	Фокус: показывать только активный набор текстур
+	Fold or unfold these effects	Свернуть или развернуть эти эффекты
+	Folders	Папки
+	Follow Newest Map	Следить за новейшей картой
+	Follow path	Следовать контуру
+	For the whole project: how normal map images set as mesh maps are read (set them again after a change), and the default for export	Для всего проекта: как считываются изображения карт нормалей, заданные как карты сетки (после изменения задайте их снова), и значение по умолчанию для экспорта
+	Free and open source (MIT OR Apache-2.0), written in Rust.	Свободное ПО с открытым исходным кодом (MIT или Apache-2.0), написано на Rust.
+	From template	Из шаблона
+	From template / project	Из шаблона / проекта
+	Full Scene	Вся сцена
+	General export parameters	Общие параметры экспорта
+	General properties	Общие свойства
+	Generate from Mesh	Создать по сетке
+	Generate from Normal Map	Создать по карте нормалей
+	Generator	Генератор
+	Geometry and UVs only	Только геометрия и UV
+	Geometry mask	Маска геометрии
+	GGX specular with height-correlated Smith visibility, Lambert diffuse, split-sum image-based lighting with spherical-harmonics irradiance and horizon fading.	Зеркальность GGX с коррелированной по высоте видимостью Смита, диффузия Ламберта, image-based освещение split-sum со сферическими гармониками облучённости и затуханием у горизонта.
+	gloss	gloss
+	Glossiness	Глянцевитость
+	Glossiness from roughness	Глянцевитость из шероховатости
+	glTF binary with textures	Двоичный glTF с текстурами
+	Go to camera 1	Перейти к камере 1
+	Go to camera 2	Перейти к камере 2
+	Go to camera 3	Перейти к камере 3
+	Go to camera 4	Перейти к камере 4
+	Go to camera 5	Перейти к камере 5
+	Go to camera 6	Перейти к камере 6
+	Go to camera 7	Перейти к камере 7
+	Go to camera 8	Перейти к камере 8
+	Go to camera 9	Перейти к камере 9
+	GPU error: {error}	Ошибка ГП: {error}
+	Gradient Map	Карта градиента
+	Gravity	Гравитация
+	Gray + A	Серый + A
+	Gray 50%	Серый 50%
+	Green channel convention of normal maps: OpenGL (Y+) or DirectX (Y-). Imported and exported normal maps follow it.	Соглашение зелёного канала карт нормалей: OpenGL (Y+) или DirectX (Y-). Импортируемые и экспортируемые карты нормалей следуют ему.
+	Ground Plane	Плоскость земли
+	Ground Plane Offset	Смещение плоскости земли
+	Group layer(s)	Сгруппировать слои
+	Grunge	Гранж
+	Half	Половина
+	Hammered	Чеканный
+	Hard light	Жёсткий свет
+	Hardness	Жёсткость
+	HDR environments	HDR-окружения
+	height	высота
+	Height offset	Смещение высоты
+	Height to normal strength	Сила высоты в нормали
+	Hide all	Скрыть все
+	Hide UI	Скрыть интерфейс
+	Hide while painting	Скрывать во время рисования
+	High Definition Mesh (HP)	Сетка высокого разрешения (HP)
+	High Poly Mesh Suffix	Суффикс высокополигональной сетки
+	High Poly Scene	Высокополигональная сцена
+	High poly: {name}	Высокополигональная: {name}
+	High-Poly Parameters	Параметры высокополигональной сетки
+	Histogram Range	Диапазон гистограммы
+	Histogram Scan	Сканирование гистограммы
+	Histogram Shift	Сдвиг гистограммы
+	Hit-test	Проверка попадания
+	Hold S: left-drag rotates, right-drag scales, middle-drag moves the stencil.	Удерживайте S: перетаскивание левой кнопкой поворачивает трафарет, правой — масштабирует, средней — перемещает.
+	Hold V and click the mesh to set the clone source	Удерживайте V и щёлкните по сетке, чтобы задать источник клонирования
+	Hold V and click the mesh to set the source, then paint elsewhere to copy it.	Удерживайте V и щёлкните по сетке, чтобы задать источник, затем рисуйте в другом месте, чтобы скопировать его.
+	How a rectangle selects polygons	Как прямоугольник выделяет многоугольники
+	How far light travels under the surface, as a fraction of the mesh size (where the Scattering weight channel is painted)	Как далеко свет проходит под поверхностью, в долях размера сетки (там, где нарисован канал веса рассеяния)
+	How strongly transmissive surfaces bend light (where the Transmission channel is painted): water 1.33, glass 1.5, diamond 2.42	Насколько сильно пропускающие поверхности преломляют свет (там, где нарисован канал пропускания): вода 1.33, стекло 1.5, алмаз 2.42
+	HSL Perceptive	HSL перцептивный
+	Hue shift (degrees)	Сдвиг оттенка (градусы)
+	ID	ID
+	Ignore Backface	Игнорировать обратные грани
+	Ignore Backface Suffix	Суффикс игнорирования обратных граней
+	Image: {name}	Изображение: {name}
+	Import a template (.json)	Импортировать шаблон (.json)
+	Import an image (File > Import resources) to project it onto the mesh.	Импортируйте изображение («Файл > Импортировать ресурсы»), чтобы спроецировать его на сетку.
+	Import baked maps	Импортировать запечённые карты
+	Import HDR...	Импортировать HDR...
+	Import images to use them in fills and masks	Импортировать изображения для заливок и масок
+	Import material...	Импортировать материал...
+	Import MaterialX material...	Импортировать материал MaterialX...
+	Import resources...	Импортировать ресурсы...
+	Import settings	Параметры импорта
+	Import...	Импортировать...
+	Imported template "{name}"	Импортирован шаблон «{name}»
+	Imported {name}	Импортировано: {name}
+	Include in Bake	Включить в запекание
+	Index of refraction	Показатель преломления
+	Input high	Вход верхний
+	Input low	Вход нижний
+	Input maps	Входные карты
+	Insert a variable	Вставить переменную
+	Instance	Экземпляр
+	Instantiate across texture sets	Создать экземпляры во всех наборах текстур
+	Intensity (texels at 2K)	Интенсивность (тексели при 2K)
+	Interface scale	Масштаб интерфейса
+	Intersection: fill polygons the rectangle touches	Пересечение: заливать многоугольники, которых касается прямоугольник
+	Inverse divide	Обратное деление
+	Inverse Subtract	Обратное вычитание
+	Invert mask	Инвертировать маску
+	Invert mask background	Инвертировать фон маски
+	Invert mask value	Инвертировать значение маски
+	Invert quick mask	Инвертировать быструю маску
+	Invert show/hide	Инвертировать показ/скрытие
+	Jitters	Разбросы
+	Join the ArtCraft community on Discord	Присоединиться к сообществу ArtCraft в Discord
+	Join the community (Discord)...	Присоединиться к сообществу (Discord)...
+	Key light (shadow-casting light, direct only)	Ключевой свет (отбрасывает тени, только прямой)
+	Keyboard	Клавиатура
+	Keyboard shortcuts	Сочетания клавиш
+	Layer mask	Маска слоя
+	Layer memory: {mb} MB	Память слоёв: {mb} МБ
+	Lazy mouse	Ленивая мышь
+	Lazy mouse distance	Расстояние ленивой мыши
+	Leather grain	Фактура кожи
+	Lens size: how quickly things blur away from the focus distance	Размер линзы: как быстро объекты размываются вдали от расстояния фокуса
+	Lifetime (steps)	Время жизни (шаги)
+	Light / direction	Свет / направление
+	Light azimuth (degrees)	Азимут света (градусы)
+	Light elevation (degrees)	Высота света (градусы)
+	Light intensity	Интенсивность света
+	Lighten (Max)	Осветление (макс.)
+	Linear burn	Линейное затемнение
+	Linear dodge (Add)	Линейное осветление (сложение)
+	Linear light	Линейный свет
+	List of exports	Список экспорта
+	LMB	ЛКМ
+	Load Cage	Загрузить клетку
+	Load UI Layout	Загрузить компоновку интерфейса
+	Loaded UI layout {path}	Загружена компоновка интерфейса {path}
+	Lock Output Size	Зафиксировать размер вывода
+	Log	Журнал
+	Low Poly Mesh Suffix	Суффикс низкополигональной сетки
+	Made by the ArtCraft team and community.	Сделано командой и сообществом ArtCraft.
+	Magenta / green	Пурпурный / зелёный
+	Main shader	Основной шейдер
+	Manipulator size	Размер манипулятора
+	Manual	Вручную
+	Marble veins	Жилы мрамора
+	Mask Editor: Edge wear	Редактор маски: износ краёв
+	Mask effects	Эффекты маски
+	Mask value (gray)	Значение маски (серое)
+	Mask with height	Маска по высоте
+	Match	Совпадение
+	Material	Материал
+	Material ball	Шар материала
+	Material Color	Цвет материала
+	Material finish	Отделка материала
+	MaterialCraft material	Материал MaterialCraft
+	Materials	Материалы
+	MaterialX materials	Материалы MaterialX
+	MatFinish Grind	Отделка: шлифовка
+	MatFinish Hammered	Отделка: чеканка
+	MatFinish Raw	Отделка: сырая
+	MatFinish Sanded	Отделка: шлифованная
+	Max Frontal Distance	Макс. расстояние вперёд
+	Max Occluder Distance	Макс. расстояние до окклюдера
+	Max project size on open	Макс. размер проекта при открытии
+	Max RAM while saving	Макс. ОЗУ при сохранении
+	Max Rear Distance	Макс. расстояние назад
+	Maximum decompressed project data. Increase this limit to open larger projects.	Максимальный объём распакованных данных проекта. Увеличьте этот предел, чтобы открывать более крупные проекты.
+	Medium dark	Средне-тёмный
+	Medium light	Средне-светлый
+	Mesh fill	Заливка сетки
+	Mesh ID	Идентификатор сетки
+	Mesh Map Bakers	Печи карт сетки
+	Mesh Map Settings	Параметры карт сетки
+	Mesh map: {map}	Карта сетки: {map}
+	Mesh maps	Карты сетки
+	Mesh maps baked	Карты сетки запечены
+	Mesh Normals Based	По нормалям сетки
+	Meshes	Сетки
+	metal	metal
+	Metallic	Металличность
+	min	мин.
+	Min Occluder Distance	Мин. расстояние до окклюдера
+	Minimum size (%)	Минимальный размер (%)
+	Mirror symmetry	Зеркальная симметрия
+	missing	отсутствует
+	Missing (bake to create)	Нет (запеките, чтобы создать)
+	missing source	нет источника
+	Mixed AO	Смешанная AO
+	MMB drag / Alt + MMB	Перетаскивание СКМ / Alt + СКМ
+	More in Assets > Alphas: click one, or drag it here	Ещё в «Ресурсы > Альфы»: щёлкните или перетащите сюда
+	Move down	Переместить вниз
+	Move up	Переместить вверх
+	Moves the surface by the height channel on a finer copy of the mesh, at the height to normal strength (viewport only: painting follows the base surface)	Смещает поверхность по каналу высоты на более детальной копии сетки, с силой высоты в нормали (только в окне просмотра: рисование следует базовой поверхности)
+	My brushes	Мои кисти
+	My smart materials	Мои умные материалы
+	Name each file after its texture set, like Body_normal.png	Называйте каждый файл по набору текстур, например Body_normal.png
+	New project	Новый проект
+	New project...	Новый проект...
+	New template	Новый шаблон
+	No font on this system can show this language	Ни один шрифт на этой системе не может показать этот язык
+	no GPU	нет ГП
+	No GPU renderer available	Нет доступного средства отрисовки на ГП
+	No High-Poly Meshes	Нет высокополигональных сеток
+	No outputs yet: add one above, then drag input maps onto its channels.	Выводов пока нет: добавьте выше, затем перетащите входные карты на его каналы.
+	No padding (passthrough)	Без полей (сквозной)
+	No Parameters	Нет параметров
+	No recent projects yet	Недавних проектов пока нет
+	No UV tiles	Нет тайлов UV
+	Noise amount	Количество шума
+	Noise scale	Масштаб шума
+	none	нет
+	Normal DirectX	Нормали DirectX
+	Normal from height	Нормали из высоты
+	Normal Invert	Инверсия нормалей
+	Normal map combine	Объединение карт нормалей
+	Normal map detail	Детализация карты нормалей
+	Normal map format	Формат карты нормалей
+	Normal map inverse detail	Обратная детализация карты нормалей
+	Normal OpenGL	Нормали OpenGL
+	Normal: painting uses the flat normal	Нормаль: рисование использует плоскую нормаль
+	Normalization	Нормализация
+	Normalization Scale	Масштаб нормализации
+	Normalization Type	Тип нормализации
+	Not enough GPU memory to show texture set "{name}" fully: lower the viewport Texture resolution in Settings. Painting and export are not affected.	Недостаточно памяти ГП, чтобы полностью показать набор текстур «{name}»: снизьте разрешение текстур окна просмотра в параметрах. Рисование и экспорт не затрагиваются.
+	Not enough GPU memory to show {count} texture sets fully ({names}): lower the viewport Texture resolution in Settings. Painting and export are not affected.	Недостаточно памяти ГП, чтобы полностью показать наборы текстур ({count}): {names}. Снизьте разрешение текстур окна просмотра в параметрах. Рисование и экспорт не затрагиваются.
+	Not exported: no source in this texture set	Не экспортировано: в этом наборе текстур нет источника
+	Not imported: {files}	Не импортировано: {files}
+	Not saved: {error}	Не сохранено: {error}
+	nrm	nrm
+	off	выкл.
+	Offset right	Смещение вправо
+	Offset up	Смещение вверх
+	Offset {axis}	Смещение {axis}
+	Offsets the textures by the height channel, at the height to normal strength	Смещает текстуры по каналу высоты, с силой высоты в нормали
+	Only Same Mesh Name	Только то же имя сетки
+	op	op
+	Open in MaterialCraft	Открыть в MaterialCraft
+	Open sample project...	Открыть учебный проект...
+	Open...	Открыть...
+	Opened in MaterialCraft: use File > Send to TextureCraft there to bring your changes back	Открыто в MaterialCraft: командой «Файл > Отправить в TextureCraft» верните изменения обратно
+	Opened {name}	Открыто: {name}
+	Optional channels add a clear coat (Coat weight, Coat roughness, Coat normal), sheen (Sheen weight, color, roughness), anisotropy (Anisotropy level, angle), subsurface scattering (Scattering weight) and transmission (Transmission).	Необязательные каналы добавляют покрытие (вес, шероховатость и нормаль покрытия), шелковистость (вес, цвет, шероховатость), анизотропию (уровень, угол), подповерхностное рассеяние (вес рассеяния) и пропускание (Transmission).
+	Orbit	Орбита
+	Orthographic	Ортогональная
+	Output directory	Папка вывода
+	Output high	Выход верхний
+	Output low	Выход нижний
+	Output Size	Размер вывода
+	Output template	Шаблон вывода
+	Output templates	Шаблоны вывода
+	Overlay opacity	Непрозрачность наложения
+	Padding	Поля
+	Paint	Рисовать
+	Paint Cage	Рисовать клетку
+	Paint chips	Сколы краски
+	Paint layer	Слой рисования
+	Paint on the mesh to edit the layer content.	Рисуйте на сетке, чтобы править содержимое слоя.
+	Paint on the mesh to edit this mask. Use the Material tab's mask value for gray.	Рисуйте на сетке, чтобы править эту маску. Для серого используйте значение маски на вкладке «Материал».
+	Paint Skew Correction	Коррекция перекоса рисования
+	Paint with the current tool	Рисовать текущим инструментом
+	Painted layer pixels {pixels} MB, composited channels {composites} MB, compositing cache {cache} MB	Пиксели нарисованных слоёв {pixels} МБ, составные каналы {composites} МБ, кэш композиции {cache} МБ
+	Painted strokes follow the surface when the new mesh's UVs differ	Нарисованные штрихи следуют поверхности, если UV новой сетки отличаются
+	Painting is paused while a bake is shown. Cancel the bake or wait for it to finish.	Рисование приостановлено, пока показано запекание. Отмените запекание или дождитесь его окончания.
+	Pan	Панорама
+	Parallax occlusion (height channel)	Параллакс-окклюзия (канал высоты)
+	Parameters change in the desktop app, with MaterialCraft installed	Параметры меняются в приложении для компьютера при установленном MaterialCraft
+	Partial mask values follow the layer's height: high parts show first	Промежуточные значения маски следуют высоте слоя: высокие части проявляются первыми
+	Particle brush (slides down the surface)	Кисть частиц (скользит вниз по поверхности)
+	Particle brush: particles slide down the surface	Кисть частиц: частицы скользят вниз по поверхности
+	Particles	Частицы
+	Passthrough	Сквозной
+	Paste as instance	Вставить как экземпляр
+	Paste effect	Вставить эффект
+	Paste layer(s)	Вставить слои
+	Path trace on the processor instead of the graphics card (slower)	Трассировать путь на процессоре, а не на графической карте (медленнее)
+	Path: click adds a point, click the curve inserts one, drag moves it, Enter applies, Esc cancels	Контур: щелчок добавляет точку, щелчок по кривой вставляет, перетаскивание перемещает, Enter применяет, Esc отменяет
+	Paths stay editable: pick one to move its points or change its brush and material, and the sublayer repaints at once. Add paths with the Path tool.	Контуры остаются редактируемыми: выберите контур, чтобы двигать точки или менять кисть и материал, и подслой сразу перерисовывается. Добавляйте контуры инструментом «Контур».
+	Pattern scale	Масштаб узора
+	PBR - Metallic Roughness (TextureCraft)	PBR — Metallic Roughness (TextureCraft)
+	Per Material	По материалу
+	Perlin noise	Шум Перлина
+	Pick color	Взять цвет
+	Pick focus in the viewport	Указать фокус в окне просмотра
+	Pin light	Точечный свет
+	Place as decal	Поместить как декаль
+	Place on the surface	Поместить на поверхность
+	Place path points on the mesh	Ставить точки контура на сетке
+	Planar projection	Плоская проекция
+	Plane	Плоскость
+	PNG image	Изображение PNG
+	Polygon fill	Заливка многоугольника
+	Pores	Поры
+	Position gradient	Позиционный градиент
+	Position jitter	Разброс положения
+	Preserve stroke positions on mesh	Сохранять положения штрихов на сетке
+	Press a key...	Нажмите клавишу...
+	Procedurals	Процедурные
+	Project	Проект
+	Project configuration	Конфигурация проекта
+	Project Configuration...	Конфигурация проекта...
+	Project Mesh (LP)	Сетка проекта (LP)
+	Project opened	Проект открыт
+	PROJECT SETTINGS	ПАРАМЕТРЫ ПРОЕКТА
+	Project template	Шаблон проекта
+	Projection	Проекция
+	Projects and meshes	Проекты и сетки
+	Quarter	Четверть
+	Quick mask	Быстрая маска
+	Quit	Выйти
+	Radial settings	Параметры радиальной симметрии
+	Radial symmetry	Радиальная симметрия
+	Radius (texels at 2K)	Радиус (тексели при 2K)
+	Raw curvature	Исходная кривизна
+	Re-cook	Пересчитать
+	Read the mesh file again, keeping the layers and painted strokes	Прочитать файл сетки снова, сохранив слои и нарисованные штрихи
+	Reads the curvature map as baked: changing the mode or a size turns detail sizes on.	Считывает карту кривизны как запечённую: смена режима или размера включает размеры деталей.
+	Rebind any menu item, tool or command	Переназначить любой пункт меню, инструмент или команду
+	Recent projects	Недавние проекты
+	Records the stack up to this layer. Fill effects in masks (and fill layers) above can read it as a source.	Записывает стек вплоть до этого слоя. Эффекты заливки в масках (и слои заливки) выше могут читать его как источник.
+	Rectangle fill	Заливка прямоугольником
+	Reimport mesh	Повторно импортировать сетку
+	Relative to Bounding Box	Относительно ограничивающего параллелепипеда
+	Relative to Low Mesh	Относительно низкополигональной сетки
+	Relative to Min/Max	Относительно мин./макс.
+	Relative to Ray Distances	Относительно расстояний лучей
+	Relative to the bounding box diagonal.	Относительно диагонали ограничивающего параллелепипеда.
+	Remove Cage	Удалить клетку
+	Remove channel	Удалить канал
+	Remove effect	Удалить эффект
+	Remove last	Удалить последний
+	Remove layer	Удалить слой
+	Remove layer(s)	Удалить слои
+	Remove mask	Удалить маску
+	Remove point	Удалить точку
+	Remove resolution override	Удалить переопределение разрешения
+	Remove resource	Удалить ресурс
+	Remove Skew Correction	Удалить коррекцию перекоса
+	Remove skew correction	Удалить коррекцию перекоса
+	Remove the shortcut	Удалить сочетание клавиш
+	Remove this output	Удалить этот вывод
+	Remove unused resources...	Удалить неиспользуемые ресурсы...
+	Rename the selected template	Переименовать выбранный шаблон
+	Render on the CPU	Визуализировать на ЦП
+	RENDERING	ВИЗУАЛИЗАЦИЯ
+	Rendering	Визуализация
+	Rendering (path traced)	Визуализация (трассировка пути)
+	Rendering on CPU: {n} / {max} samples, {s} s	Визуализация на ЦП: {n} / {max} выборок, {s} с
+	Rendering on GPU: {n} / {max} samples, {s} s	Визуализация на ГП: {n} / {max} выборок, {s} с
+	Rendering, path traced	Визуализация, трассировка пути
+	Replace Color	Заменить цвет
+	Replacement color	Цвет замены
+	Report a bug...	Сообщить об ошибке...
+	Rescan the library folder	Повторно просканировать папку библиотеки
+	Reset all	Сбросить всё
+	Reset Painted Cage	Сбросить нарисованную клетку
+	Reset to defaults	Сбросить к значениям по умолчанию
+	Reset to {shortcut}	Сбросить к {shortcut}
+	Reset UI	Сбросить интерфейс
+	Resizing	Изменение размера
+	Restore Defaults	Восстановить значения по умолчанию
+	Restore every default shortcut	Восстановить все сочетания по умолчанию
+	Return to Painting Mode	Вернуться в режим рисования
+	Return to this step	Вернуться к этому шагу
+	Right-click a layer > Create smart material	Правый щелчок по слою > «Создать умный материал»
+	Rotation (degrees)	Поворот (градусы)
+	rough	rough
+	Roughness	Шероховатость
+	Roughness from glossiness	Шероховатость из глянцевитости
+	Round	Круглый
+	Rounded cube	Скруглённый куб
+	Samples	Выборки
+	Sampling Radius	Радиус выборки
+	Save a copy...	Сохранить копию...
+	Save as...	Сохранить как...
+	Save current brush	Сохранить текущую кисть
+	Save current layout...	Сохранить текущую компоновку...
+	Save current project as template	Сохранить текущий проект как шаблон
+	Save render...	Сохранить визуализацию...
+	Save the changes to {name} before closing?	Сохранить изменения в {name} перед закрытием?
+	Save the changes to {name} first?	Сначала сохранить изменения в {name}?
+	Save UI Layout	Сохранить компоновку интерфейса
+	Save view as camera	Сохранить вид как камеру
+	Saved UI layout {path}	Компоновка интерфейса сохранена: {path}
+	Saved {path}	Сохранено: {path}
+	Saving UI layouts to files is available in the desktop app	Сохранение компоновок интерфейса в файлы доступно в приложении для компьютера
+	Saving uses the other cores and at most this share of the free RAM. At least one core always works.	Сохранение использует остальные ядра и не больше этой доли свободной ОЗУ. Хотя бы одно ядро всегда работает.
+	Scale / tiling	Масштаб / повтор
+	Scaling Divisor	Делитель масштаба
+	scatter	scatter
+	Scatter color	Цвет рассеяния
+	Scatter radius	Радиус рассеяния
+	Scattering weight	Вес рассеяния
+	Scratches	Царапины
+	Screenshot of the viewport	Снимок окна просмотра
+	Seams Intensity	Интенсивность швов
+	Search all assets	Искать во всех ресурсах
+	Search commands or keys	Искать команды или клавиши
+	Secondary Rays	Вторичные лучи
+	Seed	Зерно
+	Select a layer	Выберите слой
+	Select a paint layer or a layer's mask to fill	Выберите слой рисования или маску слоя для заливки
+	Select an output template	Выберите шаблон вывода
+	Select source	Выбрать источник
+	Select the layer content	Выделить содержимое слоя
+	Select the mask (Alt+click: show it in the viewport)	Выделить маску (Alt+щелчок: показать в окне просмотра)
+	Select...	Выбрать...
+	Selection mode	Режим выделения
+	Self Intersection	Самопересечение
+	Self Occlusion	Самозатенение
+	Settings...	Параметры...
+	Shader instance	Экземпляр шейдера
+	Shader Settings	Параметры шейдера
+	sheen	sheen
+	Sheen color	Цвет шелковистости
+	sheen color	цвет шелковистости
+	Sheen color × weight	Цвет шелковистости × вес
+	sheen rough	sheen rough
+	Sheen roughness	Шероховатость шелковистости
+	Sheen weight	Вес шелковистости
+	Shift + wheel	Shift + колесо
+	Shortcuts list...	Список сочетаний...
+	Show all	Показать все
+	Show at startup	Показывать при запуске
+	Show axis	Показать ось
+	Show axis position manipulator	Показать манипулятор положения оси
+	Show cursor	Показать курсор
+	Show entire mesh	Показать всю сетку
+	Show for Selected Texture Set Only	Показывать только для выбранного набора текстур
+	Show intersection	Показать пересечение
+	Show log...	Показать журнал...
+	Show on all parts	Показать на всех частях
+	Show or hide texture sets	Показать или скрыть наборы текстур
+	Show or hide the layer	Показать или скрыть слой
+	Show or hide the texture set	Показать или скрыть набор текстур
+	Show plane	Показать плоскость
+	Show UV wireframe in the 2D view	Показывать UV-каркас в 2D-виде
+	Show wireframe in the 3D view	Показывать каркас в 3D-виде
+	Signed addition (AddSub)	Знаковое сложение (AddSub)
+	Size in screen space	Размер в экранном пространстве
+	Size jitter	Разброс размера
+	Size of the textures the viewport shows: lower uses less GPU memory with large texture sets. Painting and export keep full resolution.	Размер текстур, которые показывает окно просмотра: меньше — меньше памяти ГП при крупных наборах текстур. Рисование и экспорт остаются в полном разрешении.
+	Skew Correction	Коррекция перекоса
+	Skew Correction Method	Метод коррекции перекоса
+	Slope Blur	Размытие по уклону
+	Slope scale	Масштаб уклона
+	Smart masks	Умные маски
+	Smart material saved to {path}	Умный материал сохранён в {path}
+	Smart materials	Умные материалы
+	Smooth	Сгладить
+	Smudge	Размазать
+	Soft light	Мягкий свет
+	Source  U {u}  V {v}	Источник  U {u}  V {v}
+	spec	spec
+	Specular	Зеркальность
+	specular	зеркальность
+	Specular level	Уровень зеркальности
+	Sphere	Сфера
+	Spherical projection	Сферическая проекция
+	Spray	Распыление
+	Spread Angle	Угол разброса
+	Stamp depth	Глубина оттиска
+	Start window	Начальное окно
+	Starting render...	Запуск визуализации...
+	Stencil	Трафарет
+	Steps	Шаги
+	Streaks	Полосы
+	Stripes	Полоски
+	Stroke opacity	Непрозрачность штриха
+	Submesh	Подсетка
+	Subsampling 2x2	Субсэмплирование 2×2
+	Subsampling 4x4	Субсэмплирование 4×4
+	Subsampling 8x8	Субсэмплирование 8×8
+	Subsurface scattering	Подповерхностное рассеяние
+	Symmetry	Симметрия
+	Symmetry color display	Отображение цвета симметрии
+	Symmetry settings	Параметры симметрии
+	System title bar (applies on restart)	Системный заголовок окна (применяется после перезапуска)
+	Tangent | Wrap	Касательная | Повтор
+	Template name	Имя шаблона
+	Temporal anti-aliasing (refines the 3D view while it is still)	Временное сглаживание (уточняет 3D-вид, пока он неподвижен)
+	Texture resolution	Разрешение текстур
+	Texture set channels	Каналы набора текстур
+	Texture set resolution	Разрешение набора текстур
+	Texture Set Settings	Параметры набора текстур
+	Texture Sets	Наборы текстур
+	Texture sets	Наборы текстур
+	TextureCraft had to close:	TextureCraft пришлось закрыться:
+	TextureCraft PBR - Metallic Roughness	TextureCraft PBR — Metallic Roughness
+	TextureCraft PBR - Specular Glossiness	TextureCraft PBR — Specular Glossiness
+	TextureCraft project	Проект TextureCraft
+	TextureCraft project or mesh	Проект TextureCraft или сетка
+	Textures	Текстуры
+	Textures embedded; for game engines and most viewers	Текстуры встроены; для игровых движков и большинства просмотрщиков
+	Textures packaged; for USD tools and AR Quick Look	Текстуры упакованы; для инструментов USD и AR Quick Look
+	The bake worker stopped	Процесс запекания остановился
+	The eraser removes paint from the enabled channels.	Ластик снимает краску с включённых каналов.
+	The file dialog couldn't be shown: {error}	Не удалось показать диалог файлов: {error}
+	The first stroke sets the offset from the source.	Первый штрих задаёт смещение относительно источника.
+	The GPU couldn't render this scene: {error}	ГП не смог визуализировать эту сцену: {error}
+	The image's alpha cuts the decal's shape; faces turned away and surfaces beyond its depth stay clear.	Альфа изображения вырезает форму декали; отвёрнутые грани и поверхности за её глубиной остаются чистыми.
+	The mesh file the project is built on. Hover the path to see it in full.	Файл сетки, на котором построен проект. Наведите на путь, чтобы увидеть его целиком.
+	The next click in the 3D view moves the decal there	Следующий щелчок в 3D-виде перемещает декаль туда
+	The project changed while the dialog was open, so nothing was done	Пока диалог был открыт, проект изменился, поэтому ничего не сделано
+	The resize worker stopped	Процесс изменения размера остановился
+	The UV tiles (UDIMs) of each texture set, shown for reference. Change them in Texture Set Settings.	Тайлы UV (UDIM) каждого набора текстур, показаны для справки. Измените их в параметрах набора текстур.
+	There is no mesh file to read again. Select one.	Нет файла сетки, который можно прочитать снова. Выберите файл.
+	Thin areas	Тонкие области
+	Tiles	Тайлы
+	Title bar	Заголовок окна
+	Toggle mask	Переключить маску
+	Tone mapping	Тонирование
+	Torus	Тор
+	transm	transm
+	Transmission	Пропускание
+	Tri-planar projection	Трипланарная проекция
+	Triangle fill	Заливка треугольника
+	Triangle fills single triangles, Polygon whole quads and n-gons, Mesh the connected geometry, UV island the UV islands	«Треугольник» заливает отдельные треугольники, «Многоугольник» — целые квады и n-угольники, «Сетка» — связанную геометрию, «Остров UV» — острова UV
+	Twill weave	Саржевое переплетение
+	UDIM plane	Плоскость UDIM
+	UDIM tiles painted by this texture set, each at the set's size	Тайлы UDIM, которые рисует этот набор текстур, каждый размером набора
+	UI layout	Компоновка интерфейса
+	UI layout: {error}	Компоновка интерфейса: {error}
+	UI layouts	Компоновки интерфейса
+	UI {ms} ms	ИНТ {ms} мс
+	Uniform value	Равномерное значение
+	USD binary, textures alongside	Двоичный USD, текстуры рядом
+	USD text, textures alongside	Текстовый USD, текстуры рядом
+	USDZ with textures	USDZ с текстурами
+	Use an equirectangular .hdr or .exr image as the environment	Использовать равноугольное изображение .hdr или .exr как окружение
+	Use as brush alpha	Использовать как альфу кисти
+	Use Low Poly Mesh as High Poly Mesh	Использовать низкополигональную сетку как высокополигональную
+	Use the control channel or `texturecraft-cli render` for screenshots	Для снимков экрана используйте канал управления или `texturecraft-cli render`
+	Use the operating system's window frame and buttons instead of TextureCraft's own title bar	Использовать рамку и кнопки окна операционной системы вместо собственного заголовка TextureCraft
+	Use this brush (keeps its size)	Использовать эту кисть (сохраняет её размер)
+	UV checker	UV-шахматка
+	UV island fill	Заливка острова UV
+	UV projection	UV-проекция
+	UV Seams	Швы UV
+	UV Tile settings (UDIMs)	Параметры тайлов UV (UDIM)
+	UV tile {tile} resolution	Разрешение тайла UV {tile}
+	UV tiles	Тайлы UV
+	UV tiles (UDIM)	Тайлы UV (UDIM)
+	UV transformations	Преобразования UV
+	Value Bounds Max	Верхняя граница значения
+	Value Bounds Min	Нижняя граница значения
+	Version: {version} ({gpu})	Версия: {version} ({gpu})
+	Vertex Color	Цвет вершин
+	View through this camera	Смотреть через эту камеру
+	Viewer settings	Параметры просмотра
+	Viewport	Окно просмотра
+	Viewport and brush (fixed)	Окно просмотра и кисть (фиксировано)
+	Views	Виды
+	Visible polygons only	Только видимые многоугольники
+	Vivid light	Яркий свет
+	Voronoi	Вороной
+	Warp Directional	Направленное искажение
+	Wavefront OBJ with MTL, textures alongside	Wavefront OBJ с MTL, текстуры рядом
+	WebGPU isn't available in this browser, so TextureCraft runs on WebGL2: Rendering mode path traces on the CPU (slower) and large texture sets show at reduced resolution. A current Chrome, Edge or Safari has WebGPU.	WebGPU в этом браузере недоступен, поэтому TextureCraft работает на WebGL2: в режиме визуализации трассировка пути идёт на ЦП (медленнее), а крупные наборы текстур показываются с пониженным разрешением. В актуальных Chrome, Edge и Safari есть WebGPU.
+	What the 3D view shows while the bake runs: the newest finished map, one finished map, or the material. Maps not baked yet show a neutral value.	Что показывает 3D-вид во время запекания: новейшую готовую карту, одну готовую карту или материал. Ещё не запечённые карты показываются нейтральным значением.
+	Wheel / Alt + RMB drag	Колесо / перетаскивание ПКМ с Alt
+	Width (texels at 2K)	Ширина (тексели при 2K)
+	Wood grain	Текстура дерева
+	Works in texture space, like the blur: it does not cross UV seams.	Работает в пространстве текстуры, как размытие: не пересекает швы UV.
+	World Space Normal	Нормаль в мировом пространстве
+	Yellow / blue	Жёлтый / синий
+	{action} (undone)	{action} (отменено)
+	{count} effects	{count} эффектов
+	{file}: add above the selected layer (or drag it into the layer stack or onto the viewport)	{file}: добавить над выделенным слоем (или перетащите в стек слоёв либо в окно просмотра)
+	{name} copy	Копия «{name}»
+	{n} bits	{n} бит
+	{n} control points. Click the mesh (or the 2D view) to add points and drag them to adjust; click the first point to close the path. Enter paints it with the brush (a closed, filled path fills its inside), Esc cancels.	{n} опорных точек. Щёлкните по сетке (или в 2D-виде), чтобы добавить точки, и перетащите их для правки; щелчок по первой точке замыкает контур. Enter рисует его кистью (замкнутый залитый контур заливает внутренность), Esc отменяет.
+	{n} items share a shortcut; the first one listed wins.	{n} элементов используют одно сочетание; срабатывает первый в списке.
+	{pattern} (scale {scale}, seed {seed})	{pattern} (масштаб {scale}, зерно {seed})
