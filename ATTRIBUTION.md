@@ -330,6 +330,15 @@ were newly authored during migration. PhotoCraft's former `sr` catalog maps to
 
 The `texturecraft.tsv` catalogs for ar, de, es, fr, it, ja, ko, pt-br and zh-hans were migrated from [TextureCraft `21856d778347e13857f65c8f1107170797bd070f`](https://github.com/storytold/texturecraft/tree/21856d778347e13857f65c8f1107170797bd070f/crates/ui-egui/src/i18n), MIT OR Apache-2.0. Original wording and contributor credits remain in the upstream history. Migration tooling was AI-assisted; no new translations were authored and no additional native-speaker review was performed. Every original row was checked against the resolved app and shared catalogs. Tracked in storytold/texturecraft#419.
 
+## PdfCraft: Hebrew email draft and attachment UI (2026-11-21)
+
+19 original Hebrew UI strings for PdfCraft's email drafting, attachments, mail app and send errors.
+Contributed by @nocturney with AI assistance, written from the plain meaning
+of the exact English keys. Independent native-speaker proofreading and live
+GUI review have not been recorded. Keys were checked against the official
+French source catalog, current Hebrew common and app catalogs, and open
+Hebrew contribution #299, without modifying prior strings.
+
 ## PhotoCraft: TIFF Options labels from photocraft#11094
 
 Photocraft #11094, submitted by @FredApps, added translations of "Image Compression", "Save Image Pyramid",
