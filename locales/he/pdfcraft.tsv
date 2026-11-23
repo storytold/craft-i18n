@@ -2721,3 +2721,13 @@ calendar weekday	We	ד׳
 	This document's script is asking	הסקריפט של מסמך זה שואל
 	Document: {name}	מסמך: {name}
 	This request comes from the document, not PdfCraft. Only enter a password if you trust this document.	בקשה זו מגיעה מהמסמך, לא מ-PdfCraft. הזינו סיסמה רק אם אתם סומכים על מסמך זה.
+
+# Hebrew: PDF/X printing condition and profile validation
+	Checks a file for CMYK printing: fonts, colour, image resolution, hairlines, transparency, page boxes, encryption, JavaScript, annotations, Trapped and the PDF version	בודק את התאמת הקובץ להדפסה ב־CMYK: גופנים, צבעים, רזולוציית תמונות, קווים דקיקים, שקיפות, תיבות עמוד, הצפנה, JavaScript, הערות, מצב Trapped וגרסת PDF
+	The document information and the metadata name different PDF/X versions	פרטי המסמך והמטא־נתונים מציינים גרסאות שונות של PDF/X
+	The document information doesn't identify the file as {}	פרטי המסמך אינם מזהים את הקובץ בתור {}
+	The document uses CMYK colour: choose the ICC profile of a CMYK printing condition for its output intent	המסמך משתמש בצבעי CMYK: יש לבחור פרופיל ICC של תנאי הדפסה ב־CMYK עבור כוונת הפלט שלו
+	The ICC profile {} isn't an output (printer) profile	פרופיל ICC מסוג {} אינו פרופיל פלט (מדפסת)
+	The output intent's profile describes {} colour, but PDF/X-1a needs a CMYK printing condition	פרופיל כוונת הפלט מתאר צבע מסוג {}, אך PDF/X-1a דורש תנאי הדפסה ב־CMYK
+	The output intent's profile isn't an output (printer) profile	הפרופיל של כוונת הפלט אינו פרופיל פלט (מדפסת)
+	{} needs the printing condition's ICC profile embedded for RGB or device-independent colour: choose a profile file	עבור {} יש להטמיע את פרופיל ICC של תנאי ההדפסה כדי להשתמש בצבעי RGB או בצבעים שאינם תלויי התקן: בחרו קובץ פרופיל
