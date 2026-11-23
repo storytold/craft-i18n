@@ -378,3 +378,7 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+## WordCraft: Hebrew outline close and navigation tabs (2026-11-22)
+
+2 original Hebrew translations by @nocturney, AI-assisted with ChatGPT, written clean-room from WordCraft's English source: the View > Outline "Close\\nOutline View" ribbon button and the Navigation pane's tab-strip accessibility name "Navigation views". Checked their exact source keys, current Hebrew WordCraft/common catalogs, and inspected existing open Hebrew WordCraft contributions for duplication. No proprietary localization text was copied; independent Hebrew-speaker review and a running WordCraft RTL/accessibility test remain pending.
