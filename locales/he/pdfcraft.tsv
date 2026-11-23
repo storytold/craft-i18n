@@ -2721,3 +2721,21 @@ calendar weekday	We	ד׳
 	This document's script is asking	הסקריפט של מסמך זה שואל
 	Document: {name}	מסמך: {name}
 	This request comes from the document, not PdfCraft. Only enter a password if you trust this document.	בקשה זו מגיעה מהמסמך, לא מ-PdfCraft. הזינו סיסמה רק אם אתם סומכים על מסמך זה.
+
+# Hebrew: PDF font CMap and Unicode diagnostics
+	Font {} on page {p}: its CIDFont's Supplement is higher than its CMap's	בגופן {} בעמוד {p}, ערך Supplement של CIDFont גבוה מזה של CMap
+	Font {} on page {p}: its CMap and CIDFont name different orderings (CIDSystemInfo Ordering)	בגופן {} בעמוד {p}, ערכי Ordering של CMap ושל CIDFont שונים (CIDSystemInfo Ordering)
+	Font {} on page {p}: its CMap and CIDFont name different registries (CIDSystemInfo Registry)	בגופן {} בעמוד {p}, ערכי Registry של CMap ושל CIDFont שונים (CIDSystemInfo Registry)
+	Font {} on page {p}: its CMap uses an embedded CMap, not a predefined one	בגופן {} בעמוד {p}, מפת CMap מוטמעת במקום מפה מוגדרת מראש
+	Font {} on page {p}: its CMap uses CMap {cmap}, which isn't predefined	בגופן {} בעמוד {p}, מפת CMap משתמשת ב־{cmap}, שאינה מוגדרת מראש
+	Font {} on page {p}: its CMap {cmap} is neither predefined nor embedded	בגופן {} בעמוד {p}, מפת CMap בשם {cmap} אינה מוגדרת מראש וגם אינה מוטמעת
+	Font {} on page {p}: its CMap's WMode differs from the one in the CMap stream	בגופן {} בעמוד {p}, ערך WMode של CMap שונה מערכו בזרם CMap
+	Font {} on page {p}: its Differences name glyph {glyph}, which isn't in the Adobe Glyph List	בגופן {} בעמוד {p}, טבלת Differences מפנה לגליף {glyph}, שאינו ברשימת הגליפים של Adobe
+	Font {} on page {p}: its Encoding dictionary has no BaseEncoding	בגופן {} בעמוד {p}, מילון Encoding אינו כולל BaseEncoding
+	Font {} on page {p}: its encoding {enc} is neither MacRomanEncoding nor WinAnsiEncoding	בגופן {} בעמוד {p}, הקידוד {enc} אינו MacRomanEncoding ואינו WinAnsiEncoding
+	Font {} on page {p}: its ToUnicode map maps code {code} to U+0000	בגופן {} בעמוד {p}, מפת ToUnicode ממפה את הקוד {code} לערך U+0000
+	Font {} on page {p}: its ToUnicode map maps code {code} to {u}	בגופן {} בעמוד {p}, מפת ToUnicode ממפה את הקוד {code} לערך {u}
+	Font {} on page {p}: its TrueType program has no cmap	בגופן {} בעמוד {p}, תוכנית TrueType אינה כוללת cmap
+	Font {} on page {p}: its TrueType program has no Unicode (3,1) or Mac Roman (1,0) cmap	בגופן {} בעמוד {p}, תוכנית TrueType אינה כוללת cmap מסוג Unicode (3,1) או Mac Roman (1,0)
+	Font {} on page {p}: its TrueType program has several cmaps but no Symbol (3,0) one	בגופן {} בעמוד {p}, תוכנית TrueType כוללת כמה מפות cmap, אך לא מפה מסוג Symbol (3,0)
+	Font {} on page {p}: no Unicode or Mac Roman cmap of its program finds glyph {glyph} (code {code})	בגופן {} בעמוד {p}, אף מפת cmap מסוג Unicode או Mac Roman בתוכנית הגופן אינה מאתרת את הגליף {glyph} (קוד {code})
