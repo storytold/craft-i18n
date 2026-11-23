@@ -378,3 +378,10 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+
+### 2026-11-22 — PdfCraft scan enhancement controls (Hebrew)
+- Application source: `storytold/pdfcraft` at `crates/ui-egui/src/workflows/scan_clean_ui.rs` (source blob `81d6764af9df5e89235758a2308df56cb22a8386`).
+- Five exact `tl!(...)` source strings in the scan enhancement dialog: `Enhance Scanned File`, `Background removal`, `Edge shadow removal`, `Despeckle`, `Enhance`.
+- AI-assisted clean-room Hebrew translation, reviewed against existing Hebrew PdfCraft and common catalogs and currently open related PRs #220, #299, #349, #364, #372; no original upstream assets copied.
+- Native Hebrew-speaking review and installed PdfCraft RTL/GUI acceptance not yet performed.
