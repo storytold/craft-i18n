@@ -378,3 +378,10 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+
+### 2026-11-22 — PdfCraft optimize progress and discard options (Hebrew)
+- Application source: `storytold/pdfcraft` `crates/ui-egui/src/workflows/optimize_ui.rs` (verified source blob `3df48f777e0d9c9dbe0d577ad34a76809616c9af`).
+- Five exact active `tl!(...)` strings: page-reading progress (including `{d}`/`{t}`), embedded search index removal, form action removal, and external cross-reference removal.
+- AI-assisted clean-room Hebrew translated from source meaning, with wording aligned to existing Hebrew PdfCraft optimization controls. Checked absent in existing Hebrew PdfCraft/common catalogs and relevant open PR patches #220, #299, #356, #389, #394.
+- Independent native-speaker review, installed PdfCraft Hebrew UI/RTL visual acceptance, upstream maintainer CI/review and merge have NOT been performed.
