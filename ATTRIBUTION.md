@@ -378,3 +378,7 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+## WordCraft: Hebrew damaged-save warnings and SmartArt grip (craft-i18n #441 companion)
+
+@nocturney added six original Hebrew (`he`) translations to `locales/he/wordcraft.tsv` for the damaged-document save confirmation and the SmartArt item drag grip. The English source strings and `@plural` one/other forms follow `storytold/craft-i18n` PR #441, which covers German, French and Japanese (requested for WordCraft #3825 and #4901). The translations were written from the English meanings and the existing Hebrew catalog vocabulary, with ChatGPT (OpenAI) assistance; no third-party proprietary localization was copied. The `{n}` placeholder is preserved in both plural variants. Independent native-speaker/RTL UI review and upstream merge have not yet taken place.
