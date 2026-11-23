@@ -378,3 +378,18 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+## PdfCraft Hebrew: full-screen and link-opening preferences (2026-11-22)
+
+Adds five source-backed labels and explanatory text rows from
+`storytold/pdfcraft` `crates/ui-egui/src/dialogs/preferences.rs`:
+full-screen single-page view, continuous-view option, Escape exit,
+kiosk-style shortcut exit and the safe web/email address opening note.
+The English keys are exact `tl!` strings and were not present in Hebrew
+PdfCraft or shared catalogs. Checked for duplicates against pending
+Hebrew PdfCraft PRs #220, #299 and #358; excluded overlapping older labels.
+
+The Hebrew wording was AI-assisted and drafted clean-room from the English
+source and ordinary Hebrew computing vocabulary. No other product's
+localisation or licensed translation table was consulted; no independent
+native-speaker review or actual PdfCraft UI/RTL validation is claimed.
