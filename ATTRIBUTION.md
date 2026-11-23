@@ -378,3 +378,14 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+## Hebrew PdfCraft: Fix hairlines dialog controls (2026-11-22)
+
+Seven additive Hebrew UI translations in `locales/he/pdfcraft.tsv` for the active
+`storytold/pdfcraft/crates/ui-egui/src/dialogs/hairlines_ui.rs` dialog, source
+blob `6b5c093c760042191cbda7f032802610a47f91c0`: width threshold, replacement width, zero-width
+behavior, Type 3 glyphs, pattern strokes and the optional-content explanation.
+Original clean-room Hebrew from the plain meaning of the English UI strings,
+AI-assisted using OpenAI ChatGPT, no other product's translations copied.
+No independent native-speaker review or running app / visual RTL confirmation is
+claimed. Existing translations and contributor credits are unchanged.
