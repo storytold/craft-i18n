@@ -378,3 +378,9 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+## PdfCraft (he): printer discovery, paper setup and booklet imposition
+
+- Contributor: @nocturney. Nine original Hebrew strings were drafted with ChatGPT (OpenAI) assistance from active English `tl!` UI literals in official `storytold/pdfcraft` `crates/ui-egui/src/workflows/print_ui/body.rs` (source 9b3e6d6f38de906c758d93e8ece45cbf105fd515).
+- Includes printer search/status and driver paper-size explanations plus booklet Creep/creep-limit text. This changes language resources only; no printer driver, physical printing or device operation.
+- Absent from official Hebrew PdfCraft/common catalogs and 39 checked current related open PR patches, including #220/#299/#305. No proprietary table copied. Independent native-speaker/installed Hebrew RTL review is pending.
