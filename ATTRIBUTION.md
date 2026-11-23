@@ -378,3 +378,9 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+## PdfCraft (he): OCR verification and re-read controls
+
+- Contributor: @nocturney; six original Hebrew UI translations drafted with ChatGPT (OpenAI) assistance from the active English `tl!` strings in official `storytold/pdfcraft` `crates/ui-egui/src/workflows/ocr_verify.rs` (source 9b3e6d6f38de906c758d93e8ece45cbf105fd515).
+- Covers region/page re-reading progress, cancellation and unchanged-words notice, cross-document review refusal, and the inspector Word label.
+- These strings were absent from official Hebrew PdfCraft/common catalogs and 38 checked current related open PR patches. No proprietary translation tables were copied. Independent native-speaker and installed RTL UI review remain pending.
