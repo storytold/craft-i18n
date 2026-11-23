@@ -2721,3 +2721,21 @@ calendar weekday	We	ד׳
 	This document's script is asking	הסקריפט של מסמך זה שואל
 	Document: {name}	מסמך: {name}
 	This request comes from the document, not PdfCraft. Only enter a password if you trust this document.	בקשה זו מגיעה מהמסמך, לא מ-PdfCraft. הזינו סיסמה רק אם אתם סומכים על מסמך זה.
+
+# Hebrew: PDF font encoding and glyph diagnostics
+	Font (unnamed) on page {p} isn't embedded	הגופן (ללא שם) בעמוד {p} אינו מוטמע
+	Font {} on page {p} draws a glyph its font program lacks (code {code})	הגופן {} בעמוד {p} מצייר גליף שחסר בתוכנית הגופן (קוד {code})
+	Font {} on page {p} draws the .notdef glyph (code {code})	הגופן {} בעמוד {p} מצייר את גליף .notdef (קוד {code})
+	Font {} on page {p} has Differences, but its program has no Unicode (3,1) cmap	לגופן {} בעמוד {p} קיימת טבלת Differences, אך בתוכנית הגופן חסרה מפת תווים Unicode (3,1)
+	Font {} on page {p} has no CIDToGIDMap	לגופן {} בעמוד {p} חסרה טבלת CIDToGIDMap
+	Font {} on page {p} has no CMap (Encoding)	לגופן {} בעמוד {p} חסרה מפת CMap (Encoding)
+	Font {} on page {p} has no ToUnicode map, and no exception lets it go without one	לגופן {} בעמוד {p} חסרה מפת ToUnicode, ואין חריג המתיר להשמיט אותה
+	Font {} on page {p} is a non-symbolic TrueType font with no Encoding	הגופן {} בעמוד {p} הוא גופן TrueType שאינו סמלי, אך חסר לו Encoding
+	Font {} on page {p} is a symbolic TrueType font with an Encoding entry	הגופן {} בעמוד {p} הוא גופן TrueType סמלי הכולל ערך Encoding
+	Font {} on page {p} isn't embedded	הגופן {} בעמוד {p} אינו מוטמע
+	Font {} on page {p}: code {code} is {w} wide in the font dictionary but {fw} in the font program	בגופן {} בעמוד {p}, רוחב הקוד {code} הוא {w} במילון הגופן, אך {fw} בתוכנית הגופן
+	Font {} on page {p}: its CharSet leaves out glyph {glyph}, which the font program has	ברשימת CharSet של הגופן {} בעמוד {p} חסר הגליף {glyph}, אף שהוא קיים בתוכנית הגופן
+	Font {} on page {p}: its CharSet lists glyph {glyph}, which the font program lacks	רשימת CharSet של הגופן {} בעמוד {p} כוללת את הגליף {glyph}, אך הוא חסר בתוכנית הגופן
+	Font {} on page {p}: its CIDSet leaves out CID {cid}, which the font program has	ברשימת CIDSet של הגופן {} בעמוד {p} חסר CID {cid}, אף שהוא קיים בתוכנית הגופן
+	Font {} on page {p}: its CIDSet lists CID {cid}, which the font program lacks	רשימת CIDSet של הגופן {} בעמוד {p} כוללת CID {cid}, אך הוא חסר בתוכנית הגופן
+	Font {} on page {p}: its CIDToGIDMap is neither a stream nor Identity	בגופן {} בעמוד {p}, ערך CIDToGIDMap אינו זרם ואינו Identity
