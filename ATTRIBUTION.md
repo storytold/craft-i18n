@@ -378,3 +378,13 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+
+## PdfCraft Hebrew: Convert colours dialog (2026-11-22)
+
+Nine new Hebrew labels and explanation strings for the active Convert colours dialog
+(storytold/pdfcraft, crates/ui-egui/src/dialogs/convert_colours_ui.rs).
+Translations were written from the English source and established general Hebrew
+graphics terminology with AI assistance; no third-party translation tables were used.
+Existing Hebrew catalog rows were preserved. Independent native-speaker review and
+an installed PdfCraft RTL/visual check have not yet been performed.
