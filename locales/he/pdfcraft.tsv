@@ -54,6 +54,7 @@
 	A form field has additional actions	לשדה טופס יש פעולות נוספות
 	A link	קישור
 	A picture covers page {pages} (a scan?), so the background won't show there.	תמונה מכסה את עמוד {pages} (סריקה?), ולכן הרקע לא יוצג בו.
+	A placed signature is a comment until it is locked: anyone with a PDF editor can move or remove it. Locking makes your Fill & Sign text, marks and signatures part of the page.	חתימה שהוצבה במסמך נשארת כהערה עד לקיבועה: כל מי שיש לו עורך PDF יכול להזיז או להסיר אותה. הקיבוע הופך את הטקסט, הסימונים והחתימות שהוספת באמצעות ״מילוי וחתימה״ לחלק מהעמוד.
 	A script	סקריפט
 	A selected field has no widget on any page, so the fields can't be edited together.	לאחד השדות שנבחרו אין רכיב תצוגה באף עמוד, ולכן אי אפשר לערוך את השדות יחד.
 	A stream refers to an external file	זרם מפנה לקובץ חיצוני
@@ -714,6 +715,7 @@ key	Delete	Delete
 	Document title is showing in title bar	כותרת המסמך מוצגת בשורת הכותרת
 	Documents and view	מסמכים ותצוגה
 	Documents of more than 20 pages need bookmarks for navigation. Add bookmarks for the main sections.	מסמכים שכוללים יותר מ־20 עמודים זקוקים לסימניות לניווט. יש להוסיף סימניות לחלקים העיקריים.
+	Don't ask again	לא לשאול שוב
 	Don't save	לא לשמור
 	Don't show again	לא להציג שוב
 	Done	סיום
@@ -772,6 +774,7 @@ key	Delete	Delete
 comment menu	Edit	עריכה
 	Edit a PDF	עריכת PDF
 	Edit Action	עריכת פעולה
+	Edit attachment description	עריכת תיאור הקובץ המצורף
 	Edit comment	עריכת הערה
 	Edit content	עריכת תוכן
 	Edit document JavaScript	עריכת JavaScript במסמך
@@ -1151,6 +1154,8 @@ certificate	Issuer	מנפיק
 	its alternate text is inside another element's and will never be read	הטקסט החלופי שלו נמצא בתוך הטקסט החלופי של רכיב אחר ולעולם לא ייקרא
 	Its script also reads fields whose names it builds as it runs, so those reads can't be checked.	הסקריפט שלו קורא גם שדות ששמותיהם נוצרים במהלך ההרצה, ולכן אי אפשר לבדוק את הקריאות האלה.
 	Its security settings don't allow copying pages	הגדרות האבטחה שלו אינן מאפשרות להעתיק עמודים
+	Its {standard} identification couldn't be kept, so the file no longer says it conforms to {standard}.	לא ניתן היה לשמר את הזיהוי של הקובץ כ־{standard}, ולכן הקובץ כבר אינו מצהיר על תאימות ל־{standard}.
+	Its {standard} identification was written back on its own.	הזיהוי של הקובץ כ־{standard} נכתב מחדש באופן אוטומטי.
 	January	ינואר
 calendar date	January	ינואר
 	JavaScript	JavaScript
@@ -1167,6 +1172,7 @@ calendar date	July	יולי
 	June	יוני
 calendar date	June	יוני
 	just now	הרגע
+	Keep editable	להשאיר אפשרות עריכה
 	Keep source fonts	שמירת גופני המקור
 	Keep tool selected	השארת הכלי נבחר
 	Keep tool selected: on	השארת הכלי נבחרת: מופעל
@@ -1229,7 +1235,9 @@ certificate	Key usage	שימוש במפתח
 	Loading…	טוען…
 	Local cross-PDF links require the desktop app	קישורים מקומיים בין קובצי PDF דורשים את יישום שולחן העבודה
 	Location: 	מיקום: 
+	Lock and save	קיבוע ושמירה
 	Lock comment	נעילת הערה
+	Lock your signature into the page?	לקבע את החתימה בעמוד?
 	Locked	נעול
 	Logical Reading Order	סדר קריאה לוגי
 	Looking for PDFs…	מחפש קובצי PDF…
@@ -1620,6 +1628,7 @@ animation effects	On	מופעל
 	PDF scale: {scale}%	קנה מידה של PDF: ‏{scale}%
 	PDF version	גרסת PDF
 	PDF, images and text	PDF, תמונות וטקסט
+	PDF/A and PDF/UA	PDF/A ו־PDF/UA
 	PDF/A…	PDF/A…
 	PdfCraft can't check this signature yet: {}.	PdfCraft עדיין אינו יכול לבדוק חתימה זו: {}.
 	PdfCraft didn't shut down normally. These documents had changes that were autosaved:	PdfCraft לא נסגר כראוי. השינויים במסמכים הבאים נשמרו אוטומטית:
@@ -2270,6 +2279,7 @@ calendar weekday	Th	ה׳
 	The document's security settings don't allow filling in form fields	הגדרות האבטחה של המסמך אינן מאפשרות למלא שדות טופס
 	The document's security settings don't allow printing	הגדרות האבטחה של המסמך אינן מאפשרות הדפסה
 	The document's security settings don't allow this change	הגדרות האבטחה של המסמך אינן מאפשרות שינוי זה
+	The document's XMP metadata held the redacted text and was removed.	נתוני המטא־דאטה מסוג XMP של המסמך הכילו את הטקסט שהוסר בהשחרה, ולכן הוסרו.
 	The ECDSA signature is not in canonical DER (trailing bytes, padding or a missing sign byte); it was read anyway.	חתימת ECDSA אינה בתבנית DER קנונית (בתי סיום, ריפוד או בית סימן חסר); היא נקראה בכל זאת.
 	The ECDSA signature is the raw r and s values instead of a DER sequence; it was read anyway.	חתימת ECDSA מכילה ערכי r ו־s גולמיים במקום רצף DER; היא נקראה בכל זאת.
 	The embedded timestamp token is valid and its authority is trusted; trusted time is {}.	אסימון חותמת הזמן המוטמע תקף והגורם שהנפיק אותו מהימן; הזמן המהימן הוא {}.
@@ -2638,6 +2648,7 @@ calendar weekday	We	ד׳
 	{label} (1 issue)	{label} (בעיה אחת)
 	{label} ({n} issues)	{label} ({n} בעיות)
 	{label} failed: {e}	{label} נכשל: {e}
+	{list} and {last}	{list} ו־{last}
 	{month} {day}, {y}	{day} ב{month} {y}
 	{month} {y}	{month} {y}
 	{msg} to {dir}	{msg} אל {dir}

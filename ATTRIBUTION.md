@@ -378,3 +378,14 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+## PdfCraft Hebrew: Fill & Sign locking, document conformance and redaction notices (2026-11-23)
+
+Eleven new `locales/he/pdfcraft.tsv` strings from the official `storytold/pdfcraft`
+`crates/ui-egui/src/dialogs.rs` source (blob `53aa66a47d7f9e3d67506275dee78053e99f0774`) cover
+Fill & Sign signature locking versus editable comments, attachment-description editing,
+PDF/A and PDF/UA identification notices, XMP redaction disclosure, and one list joiner.
+These are original Hebrew translations drafted from the English interface meaning with
+ChatGPT assistance and existing Hebrew catalog terminology, not copied from another
+product's locale. Independent native-speaker review and installed in-app RTL/visual QA
+have not yet been performed; maintainers should review the wording before release.
