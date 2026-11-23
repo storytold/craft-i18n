@@ -378,3 +378,15 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+## WordCraft Hebrew: paragraph spacing fields and citation provider controls (2026-11-22)
+
+Four additional WordCraft ribbon UI strings from the current English sources in
+`crates/ui-egui/src/ribbon/layout.rs` (Before, After) and
+`crates/ui-egui/src/ribbon/references.rs` (Provider, Citation Provider).
+Original clean-room Hebrew wording was drafted with ChatGPT (OpenAI) using the
+English meanings and inspected in their actual UI contexts. No other product's
+translation assets were copied. Exact-key presence, uniqueness and placeholders
+were checked against the existing Hebrew WordCraft and common catalogs.
+Independent native-speaker review, hosted Rust CI and live WordCraft RTL UI
+verification have not been completed. This is a translation source proposal only.
