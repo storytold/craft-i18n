@@ -378,3 +378,12 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+## FilmCraft Script window
+
+The Spanish, Japanese, Brazilian Portuguese and Simplified Chinese Script window
+translations came from [FilmCraft #2726](https://github.com/storytold/filmcraft/pull/2726)
+at [657ada39](https://github.com/storytold/filmcraft/tree/657ada3937b2d7ffd634e4c58392e0e24831f3a1/crates/ui-egui/src/i18n),
+under MIT OR Apache-2.0. The existing wording is AI-assisted and based on the English
+keys. No native-speaker review is recorded. FilmCraft's `zh-cn` rows are in
+`zh-hans/filmcraft.tsv`; five identical translations resolve through the shared catalogs.
