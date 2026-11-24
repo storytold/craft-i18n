@@ -378,3 +378,19 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+## DesignCraft: Adjust Layout (designcraft#2811)
+
+Adds `locales/<code>/designcraft.tsv` for DesignCraft's 15 non-English interface locales
+(`ar`, `cs`, `de`, `es`, `fr`, `hu`, `it`, `ja`, `ka`, `pl`, `pt-br`, `ru`, `sv`, `uk` and
+`zh-hans`) covering the Adjust Layout dialog and menu strings (`Adjust Layout`, `Adjust Layout…`,
+`Auto-adjust margins to page size changes`, `Adjust font size`, `Set font size limits`, `Max:`
+and `Adjust locked content`).
+
+The six new Adjust Layout rows across all 15 locales and the Spanish `Adjust Layout` row were
+drafted by @AlPaka1234 with AI assistance from the plain meaning of the English (matching each
+locale's existing `Adjust Layout` and `Min:` conventions); no native-speaker review has been
+recorded. No other product's localisation was consulted. The existing `Adjust Layout` rows in the
+other 14 locales are carried over unchanged from [DesignCraft `39651f6603ee2aec709c676e4a7b76e350ea1dcc`](https://github.com/storytold/designcraft/tree/39651f6603ee2aec709c676e4a7b76e350ea1dcc/crates/ui-egui/src/i18n),
+MIT OR Apache-2.0; their AI-assistance and native-speaker review status is not recorded here, and
+original wording and contributor credits remain in the upstream DesignCraft history.

@@ -1,0 +1,20 @@
+# 简体中文 (zh-hans) interface catalog for DesignCraft.
+# Columns, separated by a TAB:  context <TAB> English source text <TAB> translation
+#   context  usually empty. `@plural`, `@id` and `@msg` mean something to the apps; any other
+#            word is a label that tells apart two meanings of the same English.
+#   escapes  \n  \t  \\  inside a column. `{name}` placeholders must appear in both columns (in any
+#            order), and a trailing "…" in one needs one in the other.
+#   @plural  English `one|other`; the translation lists this language's plural forms, `|`-separated.
+#   Lines starting with # and blank lines are ignored. A missing entry shows in English.
+#
+# Clean room: every entry was written from the plain meaning of the English text in ordinary
+# computing vocabulary. No other product's localisation, string table or translated UI was
+# consulted or copied; add entries the same way.
+
+	Adjust Layout	调整版面
+	Adjust Layout…	调整版面…
+	Adjust font size	调整字体大小
+	Adjust locked content	调整锁定内容
+	Auto-adjust margins to page size changes	根据页面大小更改自动调整边距
+	Max:	最大：
+	Set font size limits	设置字体大小限制
