@@ -1,0 +1,121 @@
+# 日本語 (ja) interface catalog for encoderCraft.
+# Columns, separated by a TAB:  context <TAB> English source text <TAB> translation
+#   context  usually empty. `@plural`, `@id` and `@msg` mean something to the apps; any other
+#            word is a label that tells apart two meanings of the same English.
+#   escapes  \n  \t  \\  inside a column. `{name}` placeholders must appear in both columns (in any
+#            order), and a trailing "…" in one needs one in the other.
+#   @plural  English `one|other`; the translation lists this language's plural forms, `|`-separated.
+#   Lines starting with # and blank lines are ignored. A missing entry shows in English.
+#
+# Clean room: every entry was written from the plain meaning of the English text in ordinary
+# computing vocabulary. No other product's localisation, string table or translated UI was
+# consulted or copied; add entries the same way.
+
+	5.1 Surround (6 Channels)	5.1 サラウンド（6 チャンネル）
+	About encoderCraft	encoderCraft について
+	Activate Workspace	ワークスペースを切り替え
+	Add Folder to Queue…	フォルダーをキューに追加…
+	Add Media Files…	メディアファイルを追加…
+	Add Media to Queue	メディアをキューに追加
+	Add Output Target	出力ターゲットを追加
+	Add Preset as Output	プリセットを出力として追加
+	Add Stitched Sequence…	クリップをつないで追加…
+	Add Watch Folder…	監視するフォルダーを追加…
+	Appearance & Theme	外観とテーマ
+	Apply Preset to Selected Jobs	選択したジョブにプリセットを適用
+	Audio Master Clock & Channels	オーディオのマスタークロックとチャンネル
+	Auto-start queue when media is added	メディアを追加したらキューを自動的に開始
+	Automatically encode watch folders	監視フォルダーのファイルを自動的にエンコード
+	Check for Updates…	更新を確認…
+	Clear Finished Jobs	終了したジョブをクリア
+	Codec Providers	コーデックプロバイダー
+	Copy Output Path	出力のパスをコピー
+	Copy Source Path	ソースのパスをコピー
+	Create Encoding Preset…	エンコードプリセットを作成…
+	Default Channels:	既定のチャンネル:
+	Default Output Directory:	既定の出力フォルダー:
+	Default Sample Rate:	既定のサンプルレート:
+	Delete Preset	プリセットを削除
+	Detected Device: {device}	検出したデバイス: {device}
+	Disable	無効にする
+	Drop compatible provider bundles into ~/.config/encodercraft/providers/ to install.	対応するプロバイダーのバンドルを ~/.config/encodercraft/providers/ に置くとインストールされます。
+	Duplicate Selected	選択した項目を複製
+	Enabled Providers ({count}):	有効なプロバイダー（{count}）:
+	encoderCraft Preferences	encoderCraft の環境設定
+	Encoding	エンコード
+	Export Presets	プリセットを書き出し
+	Export Settings…	書き出し設定…
+	External out-of-process codec engines. Providers run in isolated processes with explicit user enablement (ADR 0002).	別プロセスで動く外部のコーデックエンジンです。プロバイダーは分離されたプロセスで動き、ユーザーが明示的に有効にしたときだけ使われます（ADR 0002）。
+	Focus Next Panel	次のパネルにフォーカス
+	Focus Previous Panel	前のパネルにフォーカス
+	General Options	一般オプション
+	GPU Memory / VRAM Budget:	GPU メモリー / VRAM の割り当て:
+	High Contrast	ハイコントラスト
+	Import Presets	プリセットを読み込み
+	Increment output file names if file exists	同名のファイルがある場合は連番を付ける
+	Inspect Export Settings	書き出し設定を確認
+	Interface Theme:	表示テーマ:
+	Keyboard shortcuts restored to defaults.	キーボードショートカットを既定に戻しました。
+	Match System	システムに合わせる
+	Match System ({language})	システムに合わせる（{language}）
+	Media & Storage	メディアとストレージ
+	Media Browser	メディアブラウザー
+	Memory & Performance	メモリーとパフォーマンス
+	minutes	分
+	Mono (1 Channel)	モノラル（1 チャンネル）
+	Move Selected Down	選択した項目を下へ移動
+	Move Selected Up	選択した項目を上へ移動
+	No external codec providers currently enabled.	有効になっている外部コーデックプロバイダーはありません。
+	Not assigned	未割り当て
+	Open Folder	フォルダーを開く
+	Parallel render concurrency:	並列レンダリングの数:
+	Pause Queue	キューを一時停止
+	Play chime when finished encoding	エンコード完了時に音で知らせる
+	Preset Browser	プリセットブラウザー
+	Press a key…	キーを押してください…
+	Prevent overwriting by appending incremental suffix	番号を付け足して上書きを防ぐ
+	Preview Monitor	プレビューモニター
+	Provider Directories	プロバイダーのフォルダー
+	Queue	キュー
+	Quit encoderCraft	encoderCraft を終了
+	Remove completed items from queue on exit	終了時に完了した項目をキューから削除
+	Remove Selected	選択した項目を削除
+	Rename Workspace	ワークスペースの名前を変更
+	Rename Workspace…	ワークスペースの名前を変更…
+	Renderer Backend:	レンダラーのバックエンド:
+	Rendering & Hardware Acceleration	レンダリングとハードウェアアクセラレーション
+	Reset Keyboard Shortcuts	キーボードショートカットをリセット
+	Reset Selected	選択した項目をリセット
+	Reset to Defaults	既定値に戻す
+	Reset Workspace	ワークスペースをリセット
+	Reveal Output in File Manager	出力をファイルマネージャーで表示
+	Reveal Source in File Manager	ソースをファイルマネージャーで表示
+	Same as source directory	ソースと同じフォルダー
+	Save Workspace As	ワークスペースに名前を付けて保存
+	Save Workspace As…	ワークスペースに名前を付けて保存…
+	Select All Jobs	すべてのジョブを選択
+	Select Change, then press the shortcut you want.	「変更」を押してから、割り当てたいキーを押してください。
+	Set Destination Directory…	出力先フォルダーを設定…
+	Set Panel Visibility	パネルの表示を設定
+	Shortcut recording cancelled.	ショートカットの記録を取り消しました。
+	Show Encoding Log…	エンコードログを表示…
+	Shut down the computer when the queue finishes	キューが終わったらコンピューターをシャットダウン
+	Source Properties…	ソースのプロパティ…
+	Start Queue	キューを開始
+	Start queue automatically when idle for	一定時間操作がなければキューを自動的に開始
+	Stereo (2 Channels)	ステレオ（2 チャンネル）
+	Stitch Selected Clips…	選択したクリップを連結…
+	Stop Queue	キューを停止
+	That key cannot be used as a shortcut.	そのキーはショートカットに使えません。
+	Theme: Dark	テーマ: ダーク
+	Theme: High Contrast	テーマ: ハイコントラスト
+	Theme: Light	テーマ: ライト
+	Theme: Match System	テーマ: システムに合わせる
+	This build includes English only.	このビルドには英語のみが含まれています。
+	Toggle Favorite	お気に入りを切り替え
+	Toggle Focused Panel	フォーカス中のパネルの表示を切り替え
+	Use the system title bar (applies after restart)	OS 標準のタイトルバーを使う（再起動後に反映）
+	User-Installable Codec Providers	追加できるコーデックプロバイダー
+	Watch Folders	監視フォルダー
+	workers	ワーカー
+	{label} set to {shortcut}.	{label} を {shortcut} に設定しました。
