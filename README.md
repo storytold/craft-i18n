@@ -17,7 +17,7 @@ app picks it up. An app can still override a shared string, or add its own, in i
 | `language-data/<locale>/` | Spelling word lists and hyphenation patterns (Language data); see [`language-data/README.md`](language-data/README.md). |
 | `docs/catalog-format.md` | The catalog format, the rules CI checks, and the header every catalog starts with. |
 | `docs/integration.md` | How an app embeds the catalogs as a fully optional build input. |
-| `docs/adr/` | Decisions: TSV keyed by English, lookup code in craft-libs, the shared catalog, Language data and its licences. |
+| `docs/adr/` | Decisions: TSV keyed by English, lookup code in craft-libs, the shared catalog, Language data and its licences, selectors and nouns. |
 | `GLOSSARY.md` | The words this project uses: source text, context, catalog, override… |
 | `ROADMAP.md` | Milestones and which apps have moved here. |
 | `ATTRIBUTION.md` | Translators, where migrated catalogs came from, and the source and licence of every Language data file. |
@@ -47,7 +47,7 @@ cut over.
 **Clean room:** write every entry from the plain meaning of the English text. Don't consult or copy
 any other product's localisation, string table or translated interface.
 
-The full rules (contexts, placeholders, plurals) are in
+The full rules (contexts, placeholders, plurals, ordinals, selector messages, nouns) are in
 [`docs/catalog-format.md`](docs/catalog-format.md); CI explains any row it rejects, by file and
 line.
 
