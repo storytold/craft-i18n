@@ -21,7 +21,7 @@ never reverted by Weblate's stale copy. `--root` (default: this checkout) is the
 - pr-body: the `weblate/sync` pull request's description; `common.tsv` rows under Corrections
   (ADR 0003).
 
-Offered: `common` and the apps in COMPONENTS (after their cutover), minus `@id` rows and, in an app
+Offered: `common` and the apps in COMPONENTS (after their cutover), minus `@id`, `@grammar`, `@noun` and `@ordinal` rows and, in an app
 component, every shared string (overrides stay out, spec 11). PO text is the TSV column with `"`
 escaped; both use `\\n`, `\\t` and `\\\\`. A `@plural` row is a PO plural with `msgctxt "@plural"`;
 any other context is the `msgctxt`.
@@ -40,6 +40,9 @@ ROOT = Path(__file__).resolve().parent.parent
 COMPONENTS = {"common": "every Crafting App", "wordcraft": "WordCraft", "pdfcraft": "PdfCraft"}
 PLURAL = "@plural"
 ID = "@id"
+# Rows Weblate is not offered: command ids, and the declarations, nouns and ordinals the bridge
+# does not know how to show a translator (docs/catalog-format.md).
+NOT_OFFERED = (ID, "@grammar", "@noun", "@ordinal")
 MSG_NOTE = "{name} placeholders are filled in when the app runs: keep each one, in any order."
 
 
@@ -76,7 +79,7 @@ def locales(root):
 def offered_keys(cats, component):
     """The template: every (context, source) any locale has in this catalog, sorted."""
     shared = {k for (_, c), rows in cats.items() if c == "common" for k in rows}
-    keys = {k for (_, c), rows in cats.items() if c == component for k in rows if k[0] != ID}
+    keys = {k for (_, c), rows in cats.items() if c == component for k in rows if k[0] not in NOT_OFFERED}
     if component != "common":
         keys -= shared
     return sorted(keys, key=sort_key)
@@ -364,7 +367,7 @@ def import_(po_dir, base_dir, root):
         current = cats.get((locale, component), {})
         updates = {}
         for key, (was, value) in rows.items():
-            if key[0] == ID or (component != "common" and key in shared) or current.get(key) == value:
+            if key[0] in NOT_OFFERED or (component != "common" and key in shared) or current.get(key) == value:
                 continue
             change = {"component": component, "locale": locale, "context": key[0], "source": key[1],
                       "old": current.get(key), "new": value}

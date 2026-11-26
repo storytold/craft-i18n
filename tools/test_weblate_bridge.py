@@ -57,6 +57,18 @@ class Bridge(unittest.TestCase):
         self.assertEqual(text.count(old), 1, old)
         path.write_text(text.replace(old, new), encoding="utf-8")
 
+    def test_declarations_nouns_and_ordinals_are_not_offered(self):
+        self.write("de", "common", ("@id", "language.name", "Deutsch"), ("", "Open", "Öffnen"),
+                   ("@grammar", "genders", "masculine feminine neuter"),
+                   ("@noun", "page", "feminine: Seite"),
+                   ("@ordinal", "{n}st|{n}nd|{n}rd|{n}th", "{n}."))
+        self.export()
+        common = self.po_file("common", "de")
+        self.assertIn('msgid "Open"\nmsgstr "Öffnen"\n', common)
+        for hidden in ("@grammar", "@noun", "@ordinal", "genders", "Seite"):
+            self.assertNotIn(hidden, common)
+            self.assertNotIn(hidden, (self.po / "common" / "common.pot").read_text(encoding="utf-8"))
+
     def test_export_offers_the_right_rows(self):
         self.export()
         common = self.po_file("common", "de")

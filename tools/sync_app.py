@@ -23,11 +23,17 @@ ROOT = Path(__file__).resolve().parent.parent
 
 HEADER = r"""# {name} ({locale}) interface catalog for {app}.
 # Columns, separated by a TAB:  context <TAB> English source text <TAB> translation
-#   context  usually empty. `@plural`, `@id` and `@msg` mean something to the apps; any other
-#            word is a label that tells apart two meanings of the same English.
+#   context  usually empty. `@plural`, `@ordinal`, `@id`, `@msg`, `@noun` and `@grammar` mean
+#            something to the apps; any other word is a label that tells apart two meanings of
+#            the same English.
 #   escapes  \n  \t  \\  inside a column. `{{name}}` placeholders must appear in both columns (in any
-#            order), and a trailing "…" in one needs one in the other.
+#            order), and a trailing "…" in one needs one in the other. The English may type a
+#            placeholder, `{{n :number}}`; the translation writes `{{n}}`.
 #   @plural  English `one|other`; the translation lists this language's plural forms, `|`-separated.
+#   @ordinal English `one|two|few|other`; the translation lists this language's ordinal forms.
+#   .match   a translation that must choose its words by a count, a position or a noun's gender may
+#            be a selector message (docs/catalog-format.md). @grammar and @noun rows declare the
+#            genders and case forms a language has, and the nouns that take them.
 #   Lines starting with # and blank lines are ignored. A missing entry shows in English.
 #
 # Clean room: every entry was written from the plain meaning of the English text in ordinary
@@ -36,7 +42,11 @@ HEADER = r"""# {name} ({locale}) interface catalog for {app}.
 """
 
 CATALOG = re.compile(r"(?:^|/)i18n/[^/]+\.tsv$")
-RESERVED = ("@plural", "@id", "@msg")
+RESERVED = ("@plural", "@ordinal", "@id", "@msg", "@noun", "@grammar")
+# Rows the migration copies as they are: the checker holds them to their own rules.
+PASS_THROUGH = ("@id", "@ordinal", "@noun", "@grammar")
+# A translation that begins with one of these is a selector message (docs/catalog-format.md).
+SELECTOR_STARTS = (".input", ".local", ".match")
 NAME = ("@id", "language.name")
 PLURAL = "@plural"
 # The migration's locale renames (3b's B4); Taiwan's Traditional Chinese is plain `zh-hant`.
@@ -79,7 +89,9 @@ def escape(col):
 
 
 def placeholders(text):
-    return sorted(re.findall(r"\{([^{}]*)\}", text))
+    """The names of the `{name}` placeholders, sorted. The English may type one, `{n :integer}`:
+    the type is not part of the name."""
+    return sorted(re.sub(r" :[a-z]+$", "", name) for name in re.findall(r"\{([^{}]*)\}", text))
 
 
 def template_problem(source):
@@ -133,6 +145,8 @@ def plural_problem(source, value, forms):
 
 def text_problem(context, source, value):
     """Why a plain or `@msg` row doesn't translate its source faithfully, or None."""
+    if value.startswith(SELECTOR_STARTS):
+        return None  # a selector message: the checker's rules, not a name comparison
     if placeholders(source) != placeholders(value):
         return "placeholders differ"
     if source.endswith("…") != value.endswith("…"):
@@ -153,7 +167,7 @@ def fix(key, value, forms):
     if context == PLURAL:
         if problem := plural_problem(source, value, forms):
             return None, problem
-    elif context != "@id" and (problem := text_problem(context, source, value)):
+    elif context not in PASS_THROUGH and (problem := text_problem(context, source, value)):
         return None, problem
     return (context, source), value
 
@@ -379,7 +393,7 @@ def keep_english(tree, new, keys):
     """Where the app translates a shared string differently in most locales both have, the locales
     it leaves the string untranslated in keep English, not another app's meaning (3b)."""
     for key in sorted(keys):
-        if key[0] in (PLURAL, "@id"):
+        if key[0] == PLURAL or key[0] in PASS_THROUGH:
             continue
         both = [l for l, rows in new.items() if key in rows and key in tree.rows(l, "common")]
         if sum(new[l][key] != tree.rows(l, "common")[key] for l in both) * 2 <= len(both):
