@@ -11,6 +11,7 @@
 # computing vocabulary. No other product's localisation, string table or translated UI was
 # consulted or copied; add entries the same way.
 
+	A new version is available. Download it to replace this version?	Hai unha nova versión dispoñíbel. Quere descargala para substituír a versión actual?
 	A new version is available. Would you like to relaunch with the updated version?	Hai unha nova versión dispoñíbel. Quere reiniciar coa versión actualizada?
 	All releases	Todas as versións
 	App	Aplicación
@@ -35,6 +36,7 @@ column	App	Aplicación
 month	Apr	Abr
 	Arch package (.pkg.tar.zst)	Paquete de Arch (.pkg.tar.zst)
 	ArtCraft Launcher	ArtCraft Launcher
+	ArtCraft Launcher is still running	ArtCraft Launcher aínda se está a executar
 	ArtCraft Launcher {version}	ArtCraft Launcher {version}
 	ArtCraft Launcher {version} is available.	ArtCraft Launcher {version} está dispoñíbel.
 @plural	ArtCraft Launcher · {n} update available|ArtCraft Launcher · {n} updates available	ArtCraft Launcher · {n} actualización dispoñíbel|ArtCraft Launcher · {n} actualizacións dispoñíbeis
@@ -86,6 +88,7 @@ month	Feb	Feb
 @id	filter.notinstalled	Non instaladas
 @id	filter.updates	Actualizacións
 	Flatpak bundle	Paquete Flatpak
+	Frequently used	Máis usadas
 	Full changelog	Rexistro de cambios completo
 	GitHub limit hit; back in {min} min	Alcanzouse o límite de GitHub; volva en {min} min
 	GitHub repository	Repositorio en GitHub
@@ -118,12 +121,14 @@ filter	Installed	Instaladas
 	Installing, then restarting…	Instalando e despois reiniciando…
 	Installing…	Instalando…
 figcraft	Interface design and prototyping	Deseño de interfaces e prototipado
+	It's in the tray: open it or quit it from the tray icon, or turn this off in the settings.	Está na área de notificación: ábrao ou saia dende a icona da área, ou desactive isto nas preferencias.
 month	Jan	Xan
 	Join the ArtCraft community on Discord	Únase á comunidade de ArtCraft en Discord
 	Join the Discord	Únase ao Discord
 month	Jul	Xul
 month	Jun	Xuñ
 	Keep running in the tray when the window is closed	Manter en execución na área de notificación cando se peche a xanela
+	Last updated: {date}	Última actualización: {date}
 	Latest	Última
 column	Latest	Última
 	Latest release	Última versión
@@ -142,11 +147,14 @@ column	Latest	Última
 month	Mar	Mar
 	Match system	Coincidir co sistema
 month	May	Mai
+	More actions for {name}	Máis accións para {name}
 effectcraft	Motion graphics and visual effects	Grafismo animado e efectos visuais
+	Name (Z–A)	Nome (Z–A)
 	NEW	NOVO
 	New apps	Novas aplicacións
 	New installs use this folder. Updates stay in their current location.	As novas instalacións usan este cartafol. As actualizacións mantéñense na súa localización actual.
 	Newest release	Versión máis recente
+	Next app	Seguinte aplicación
 	Next picture (→)	Seguinte imaxe (→)
 	No apps match	Non coincide ningunha aplicación
 	No downloads for this system	Non hai descargas para este sistema
@@ -158,6 +166,7 @@ effectcraft	Motion graphics and visual effects	Grafismo animado e efectos visuai
 	Notify me when an installed app has an update	Notificarme cando unha aplicación instalada teña unha actualización
 month	Nov	Nov
 month	Oct	Out
+	On Linux, custom folders use AppImage format.	En Linux, os cartafoles personalizados usan o formato AppImage.
 	Only when I ask	Só cando o solicite
 	Open ArtCraft Launcher to update.	Abra ArtCraft Launcher para actualizar.
 	Open on GitHub	Abrir en GitHub
@@ -169,10 +178,12 @@ lightcraft	Photo library and raw development	Fototeca e revelado de raw
 	Platforms	Plataformas
 	Portable (.zip)	Portábel (.zip)
 deckcraft	Presentations and slide shows	Presentacións e pases de diapositivas
+	Previous app	Aplicación anterior
 	Previous picture (←)	Imaxe anterior (←)
 	Questions, ideas and news from the ArtCraft team	Preguntas, ideas e novas do equipo de ArtCraft
 	Quit ArtCraft Launcher	Saír de ArtCraft Launcher
 pdfcraft	Reading, organizing and protecting PDFs	Lectura, organización e protección de PDF
+	Recently updated	Actualizadas recentemente
 	Reconnecting…	Reconectando…
 soundcraft	Recording, editing and mixing audio	Gravación, edición e mestura de son
 	Reinstall	Reinstalar
@@ -199,6 +210,7 @@ month	Sep	Set
 	Show in Files	Amosar en Ficheiros
 	Show in Finder	Amosar no Finder
 	Show the window on the current desktop	Amosar a xanela no escritorio actual
+	Show {n} more changes	Amosar {n} cambios máis
 @id	sort.inspired	Inspirado en
 @id	sort.installed	Instalado
 @id	sort.latest	Último
@@ -244,6 +256,7 @@ gridcraft	Spreadsheets and data	Follas de cálculo e datos
 vectorcraft	Vector illustration	Ilustración vectorial
 	Verifying checksum…	Verificando a suma de comprobación…
 	Verifying…	Verificando…
+column	Version	Versión
 	Version {latest}	Versión {latest}
 	Version {version} installed	Versión {version} instalada
 filmcraft	Video editing, color and sound	Edición de vídeo, cor e son
@@ -272,6 +285,10 @@ wordcraft	Writing and document design	Redacción e deseño de documentos
 @msg	{name} is running. Quit it, then try again.	{name} está a executarse. Pécheo e ténteo de novo.
 @msg	{name} updated to {version}	{name} actualizado a {version}
 @msg	{name} updated to {version} (this release publishes no checksum, so only its size was checked)	{name} actualizado a {version} (esta versión non publica suma de comprobación, polo que só se comprobou o seu tamaño)
+@msg	{name} was installed from the AUR ({pkg}). Update it with your AUR helper (for example: yay -S {pkg})	{name} instalouse dende o AUR ({pkg}). Actualíceo co seu axudante de AUR (por exemplo: yay -S {pkg})
+@msg	{name} was installed from the AUR ({pkg}). Update it with {cmd}	{name} instalouse dende o AUR ({pkg}). Actualíceo con {cmd}
+@msg	{name} was installed from the {repo} repository or the AUR ({pkg}). Update it with your AUR helper (for example: yay -S {pkg}) or sudo pacman -Syu	{name} instalouse dende o repositorio {repo} ou do AUR ({pkg}). Actualíceo co seu axudante de AUR (por exemplo: yay -S {pkg}) ou con sudo pacman -Syu
+@msg	{name} was installed from the {repo} repository or the AUR ({pkg}). Update it with {cmd} or sudo pacman -Syu	{name} instalouse dende o repositorio {repo} ou do AUR ({pkg}). Actualíceo con {cmd} ou con sudo pacman -Syu
 @msg	{name} was removed	Retirouse {name}
 	{name} {version}	{name} {version}
 	{name} {v} is available	{name} {v} está dispoñíbel
