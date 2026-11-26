@@ -12,6 +12,13 @@ publish = false
 # The runtime crate, at craft-libs main after #210: the checker takes each locale's plural form
 # count from it (locale::plural_forms), so the two can't disagree.
 craft-i18n = { git = "https://github.com/storytold/craft-libs", rev = "32b2fd8a" }
+# The CLDR plural rules the selector checks read, cardinal, ordinal and plural ranges, from the one
+# ICU4X minor the runtime crate pins (`~2.3`), so a build holds one copy and one release of the
+# data. The runtime has no call for the ordinal and range rules, and the checker's cardinal
+# categories are compared with its form counts (`tests/runtime_agreement.rs`). Plural ranges are
+# ICU4X's `unstable` API, which the `~2.3` pin keeps from moving under the checker.
+icu_locale_core = "~2.3"
+icu_plurals = { version = "~2.3", features = ["unstable"] }
 serde = { version = "1.0.229", features = ["derive"] }
 serde_json = "1.0.154"
 sha2 = "0.11.1"
@@ -26,5 +33,6 @@ zstd = "0.14.3"
 workspace = true
 
 [dev-dependencies]
+proptest = "1"
 # craft-libs main at the merge of #497 (flag-based compounding), which also has #496.
 craft-proof = { git = "https://github.com/storytold/craft-libs", rev = "47c9f625" }

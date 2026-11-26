@@ -21,12 +21,12 @@ pub fn check_locale_name(name: &str) -> Result<(), String> {
 }
 
 /// The most plural forms a CLDR locale has (Arabic: zero, one, two, few, many, other).
-const MAX_FORMS: usize = 6;
+const MAX_PLURAL_FORMS: usize = 6;
 
 /// How many plural forms `locale`'s `@plural` rows list, taken from craft-libs' `craft-i18n` runtime
 /// crate itself, so the checker passes exactly the rows the apps accept: the CLDR cardinal
 /// categories whole numbers 0..=1000 reach, from the crate's own CLDR data. The crate has no call
-/// that returns the count, so this embeds one `@plural` row of each count from 1 to [`MAX_FORMS`]
+/// that returns the count, so this embeds one `@plural` row of each count from 1 to [`MAX_PLURAL_FORMS`]
 /// and returns the one it doesn't reject.
 ///
 /// # Errors
@@ -34,7 +34,7 @@ const MAX_FORMS: usize = 6;
 /// Returns an error when the crate has no plural rules for `locale` (not a BCP 47 tag, or a
 /// language CLDR has no rules for) or accepts no single count.
 pub fn plural_forms(locale: &str) -> Result<usize, String> {
-    let catalog: String = (1..=MAX_FORMS)
+    let catalog: String = (1..=MAX_PLURAL_FORMS)
         .map(|k| {
             let forms = vec!["{n} x"; k].join("|");
             format!("@plural\t{{n}} a{k}|{{n}} b{k}\t{forms}\n")
@@ -50,7 +50,7 @@ pub fn plural_forms(locale: &str) -> Result<usize, String> {
         return Err(format!("{locale:?}: {}", problems.join("; ")));
     }
     let rejected = i18n.check_all();
-    let accepted: Vec<usize> = (1..=MAX_FORMS)
+    let accepted: Vec<usize> = (1..=MAX_PLURAL_FORMS)
         .filter(|k| {
             !rejected
                 .iter()
