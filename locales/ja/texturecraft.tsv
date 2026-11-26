@@ -25,6 +25,7 @@
 	3D/2D views	3D/2Dビュー
 	A click fills what is under it; a dragged rectangle fills what it selects as it grows	クリックでその下を塗りつぶし、ドラッグした矩形は広げるにつれて選択した範囲を塗りつぶします
 	A folder blends its children (pass-through). Set per-channel opacity in the layer rows.	フォルダーは子レイヤーをそのまま合成します (通過)。チャンネルごとの不透明度はレイヤー行で設定します。
+	A layout named {name} already exists. Replace it?	{name} という名前の配置は既に存在します。置き換えますか?
 	a missing layer	見つからないレイヤー
 	About TextureCraft	TextureCraftについて
 	About TextureCraft...	TextureCraftについて...
@@ -56,6 +57,7 @@
 	Add white mask	白マスクを追加
 	Add...	追加...
 	Advanced settings	詳細設定
+	Aligned	位置合わせあり
 	Aligned: the offset set by the first stroke is kept. V + click sets a new source.	整列: 最初のストロークで決まったオフセットを維持します。V + クリックで新しいソースを設定します。
 	Alignment	アライメント
 	Alignment and culling	アライメントとカリング
@@ -63,6 +65,7 @@
 	Alphas	アルファ
 	Also bound to {item} ({menu})	{item} ({menu}) にも割り当て済み
 	Alt + LMB drag	Alt + 左ドラッグ
+	Alt+click: show only this layer. Alt+Shift+click: without its mask.	Alt+クリック: このレイヤーだけを表示。Alt+Shift+クリック: マスクなしで表示。
 	Amber	アンバー
 	Ambient	アンビエント
 	Ambient Occlusion	アンビエントオクルージョン
@@ -84,6 +87,7 @@
 	AO intensity	AO強度
 	Aperture	絞り
 	Apply Diffusion	拡散を適用
+	Apply smart mask {name}	スマートマスク {name} を適用
 	ArtCraft website...	ArtCraft ウェブサイト...
 	Assets	アセット
 	Attenuation	減衰
@@ -95,6 +99,7 @@
 	Axis	軸
 	Axis position	軸の位置
 	Back to painting	ペイントに戻る
+	Back view	背面ビュー
 	Backface culling	背面カリング
 	Bake an ID map (F8) to pick colors from the mesh.	メッシュから色を拾うには ID マップをベイクしてください (F8)。
 	Bake Mesh Maps	メッシュマップのベイク
@@ -119,11 +124,16 @@
 	Blending mode of the displayed channel	表示中のチャンネルのブレンドモード
 	Blur and sharpen	ぼかしとシャープ
 	Blur Directional	方向ぼかし
+	Bottom view	下面ビュー
 	Bounces	バウンス数
 	Bricks	レンガ
 	Brush	ブラシ
+	Brush flow (left/right) and angle (up/down)	ブラシのフロー (左右) と角度 (上下)
 	Brush name	ブラシ名
 	Brush size	ブラシサイズ
+	Brush size (left/right) and hardness (up/down)	ブラシサイズ (左右) と硬さ (上下)
+	Brush size (wheel up smaller, down larger)	ブラシサイズ (ホイール上で縮小、下で拡大)
+	Brush size and hardness in fine steps	ブラシサイズと硬さを細かい刻みで
 	Brush size down / up	ブラシサイズ 縮小 / 拡大
 	Brushed lines	ヘアライン
 	Brushes	ブラシ一覧
@@ -145,6 +155,7 @@
 	Cells	セル
 	Change them in Texture Set Settings	変更はテクスチャセット設定で行います
 	Channel source: uniform value, procedural, image or anchor	チャンネルのソース: 均一値、プロシージャル、画像、アンカー
+	Channels dragged	ドラッグされるチャンネル
 	Check All	すべてチェック
 	Check for Updates...	アップデートを確認...
 	Checker	チェッカー
@@ -153,11 +164,16 @@
 	Clamp	クランプ
 	Clear mask	マスクをクリア
 	Clear recent projects	最近使ったプロジェクトをクリア
+	Click (Path tool)	クリック (パスツール)
 	Click a mesh part to show or hide the selected layer on it.	メッシュのパーツをクリックすると、選択したレイヤーをそのパーツで表示または非表示にします。
+	Click the first point (Path tool)	最初のポイントをクリック (パスツール)
 	Click the mesh to pick its material into the brush	メッシュをクリックしてマテリアルをブラシに取得
 	Click the mesh to place the decal	メッシュをクリックしてデカールを配置
+	Click the model to place the symmetry plane there (Esc cancels)	モデルをクリックして対称面をその位置に置きます (Esc でキャンセル)
 	Click, then press the new shortcut (Esc cancels)	クリックして新しいショートカットを押す (Escでキャンセル)
 	Click: turn this channel on or off. Alt+click: this channel only	クリック: このチャンネルのオン/オフ。Alt+クリック: このチャンネルのみ
+	Clone on {layer}	{layer} でクローン
+	Clone: pick the point to copy from	クローン: コピー元のポイントを選ぶ
 	Closed path	閉じたパス
 	Cloud	雲
 	Clouds	雲
@@ -180,6 +196,7 @@
 	Color to replace	置き換える色
 	Colors near the first shift towards the second, keeping their shading.	最初の色に近い色が、陰影を保ったまま2番目の色へ移ります。
 	Colors read as gray. Add a levels or blur effect above to shape the result.	カラーはグレーとして読み取られます。結果を調整するには、上にレベル補正またはぼかしエフェクトを追加します。
+	Colors the procedural or anchor from dark to light through color stops	プロシージャルまたはアンカーを、カラーストップに沿って暗い色から明るい色へ着色します
 	Combine with the layer's height	レイヤーのハイトと合成
 	Common Parameters	共通パラメーター
 	Common Settings	共通設定
@@ -197,6 +214,7 @@
 	Copy effect	エフェクトをコピー
 	Copy from	コピー元
 	Copy layer(s)	レイヤーをコピー
+	Copy mask to clipboard	マスクをクリップボードにコピー
 	Copy RGB values	RGB 値をコピー
 	Copy the selected layer alone (its empty parts copy nothing)	選択中のレイヤーのみをコピー (空の部分は何もコピーしない)
 	Copy to all texture sets	すべてのテクスチャセットにコピー
@@ -216,8 +234,15 @@
 	Count	数
 	Count per stamp	スタンプあたりの数
 	Crate	木箱
+	Create smart mask	スマートマスクを作成
 	Create smart material	スマートマテリアルを作成
+	Ctrl + LMB drag	Ctrl + 左ドラッグ
+	Ctrl + RMB drag	Ctrl + 右ドラッグ
+	Ctrl + Shift + LMB	Ctrl + Shift + 左クリック
+	Ctrl + Shift + RMB drag	Ctrl + Shift + 右ドラッグ
+	Ctrl + wheel	Ctrl + ホイール
 	Ctrl+right-drag in a view sets the size and hardness, Ctrl+left-drag the flow and angle.	ビューでCtrl+右ドラッグでサイズと硬さ、Ctrl+左ドラッグでフローと角度を設定します。
+	Ctrl+Shift+right-drag: size and hardness in fine steps.	Ctrl+Shift+右ドラッグ: サイズと硬さを細かい刻みで調整します。
 	Cube	立方体
 	Current layer	現在のレイヤー
 	Curvature	曲率
@@ -234,7 +259,10 @@
 	Decal projection	デカール投影
 	Default	デフォルト
 	Default camera	デフォルトカメラ
+	Delete template	テンプレートを削除
+	Delete the layout {name}?	配置 {name} を削除しますか?
 	Delete the selected template	選択中のテンプレートを削除
+	Delete the template "{name}"? Its file is removed and this cannot be undone.	テンプレート「{name}」を削除しますか? ファイルも削除され、元に戻せません。
 	Delete this camera	このカメラを削除
 	Deleted template "{name}"	テンプレート「{name}」を削除しました
 	Denoise	ノイズ除去
@@ -252,6 +280,7 @@
 	DirectX normal map	DirectX ノーマルマップ
 	Dirt	汚れ
 	Disable	無効
+	Discard changes	変更を破棄
 	Displacement (height channel)	ディスプレイスメント（ハイトチャンネル）
 	Display material	マテリアルを表示
 	Display next channel	次のチャンネルを表示
@@ -274,7 +303,9 @@
 	Drag onto an output channel	出力チャンネルにドラッグ
 	Drag the frame to move the decal, a corner to scale it, the round handle to turn it	枠をドラッグでデカールを移動、角で拡大縮小、丸いハンドルで回転
 	Drags the layer stack's values along the stroke into the selected layer.	レイヤースタックの値をストロークに沿って選択中のレイヤーへ引き伸ばします。
+	Draw snapped straight lines	スナップした直線を描く
 	Draws {name} of texture set "{set}". Edits to the source show in every instance.	テクスチャセット「{set}」の {name} を描画します。ソースへの編集はすべてのインスタンスに反映されます。
+	Drop an image from the Assets panel here to use it as the stencil	アセットパネルの画像をここにドロップすると、ステンシルとして使います
 	Drop an image from the Assets panel here to use it as this mesh map	アセットパネルから画像をここにドロップすると、このメッシュマップとして使用します
 	Dry streaks	かすれ
 	Duplicate effect	エフェクトを複製
@@ -287,6 +318,7 @@
 	Edges	エッジ
 	Edges and cavities	エッジとくぼみ
 	Edit keyboard shortcuts...	キーボードショートカットを編集...
+	Edit path {n}	パス {n} を編集
 	Edit quick mask	クイックマスクを編集
 	Editing quick mask: paint where painting is allowed (U to finish)	クイックマスク編集中: ペイントを許可する範囲を塗る (Uで終了)
 	Editing the quick mask: fills paint where painting is allowed. Press U to finish.	クイックマスク編集中: 塗りつぶしでペイントを許可する範囲を塗ります。Uキーで終了します。
@@ -305,8 +337,12 @@
 	Environment settings	環境の設定
 	Environment: {name}	環境: {name}
 	Environments	環境
+	Erase mask of {layer}	{layer} のマスクを消去
+	Erase on {layer}	{layer} で消去
+	Esc (Path tool)	Esc (パスツール)
 	Expand or collapse the folder	フォルダーを展開/折りたたみ
 	Export	エクスポート
+	Export mask to file...	マスクをファイルにエクスポート...
 	Export mesh	メッシュのエクスポート
 	Export Mesh...	メッシュをエクスポート...
 	Export template	出力テンプレート
@@ -335,8 +371,11 @@
 	Filters	フィルター
 	Fine noise	細かいノイズ
 	Fingerprints	指紋
+	Finish or cancel the path first; it is in the 2D view	先にパスを確定するかキャンセルしてください。パスは2Dビューにあります
+	Finish or cancel the path first; it is in the 3D view	先にパスを確定するかキャンセルしてください。パスは3Dビューにあります
 	Fit the input range to the histogram	入力範囲をヒストグラムに合わせる
 	Flatten layer	レイヤーを統合
+	Flip the copy's image	コピーの画像を反転
 	Flips the image's green channel, for normal maps made with Y pointing down	画像の緑チャンネルを反転します (Y が下向きで作られたノーマルマップ用)
 	Flow	フロー
 	Flow and opacity	フローと不透明度
@@ -348,9 +387,11 @@
 	Follow Newest Map	最新のマップを追う
 	Follow path	パスに沿う
 	For the whole project: how normal map images set as mesh maps are read (set them again after a change), and the default for export	プロジェクト全体: メッシュマップとして設定したノーマルマップ画像の読み取り方 (変更後は設定し直してください) と、書き出しの既定値
+	Frame texture set	テクスチャセットをフレームに収める
 	Free and open source (MIT OR Apache-2.0), written in Rust.	無料のオープンソース (MIT OR Apache-2.0)、Rustで開発。
 	From template	テンプレートから
 	From template / project	テンプレート / プロジェクトから
+	Front view	前面ビュー
 	Full Scene	シーン全体
 	General export parameters	一般エクスポートパラメーター
 	General properties	一般プロパティ
@@ -449,14 +490,17 @@
 	Jitters	ジッター
 	Join the ArtCraft community on Discord	DiscordでArtCraftコミュニティに参加
 	Join the community (Discord)...	コミュニティに参加 (Discord)...
+	Keep editing	編集を続ける
 	Key light (shadow-casting light, direct only)	キーライト (影を落とすライト、直接光のみ)
 	Keyboard	キーボード
 	Keyboard shortcuts	キーボードショートカット
 	Layer mask	レイヤーマスク
 	Layer memory: {mb} MB	レイヤーメモリ: {mb} MB
+	Layouts	配置
 	Lazy mouse	レイジーマウス
 	Lazy mouse distance	レイジーマウスの距離
 	Leather grain	革のシボ
+	Left view	左側面ビュー
 	Lens size: how quickly things blur away from the focus distance	レンズサイズ: フォーカス距離から離れるにつれてぼける速さ
 	Levels	レベル補正
 	Lifetime (steps)	寿命 (ステップ)
@@ -471,6 +515,7 @@
 	Linear light	リニアライト
 	List of exports	エクスポート一覧
 	LMB	左ドラッグ
+	LMB drag on a point (Path tool)	ポイントを左ドラッグ (パスツール)
 	Load Cage	ケージを読み込む
 	Load UI Layout	UIレイアウトを読み込み
 	Loaded UI layout {path}	UIレイアウト {path} を読み込みました
@@ -480,13 +525,17 @@
 	Made by the ArtCraft team and community.	ArtCraftチームとコミュニティによって制作。
 	Magenta / green	マゼンタ / グリーン
 	Main shader	メインシェーダー
+	Manage layouts	配置を管理
+	Manage layouts...	配置を管理...
 	Manipulator size	マニピュレーターのサイズ
 	Manual	手動
 	Marble veins	大理石の筋
+	Mask copied to the clipboard	マスクをクリップボードにコピーしました
 	Mask Editor: Edge wear	マスクエディター: エッジの摩耗
 	Mask effects	マスクのエフェクト
 	Mask value (gray)	マスク値 (グレー)
 	Mask with height	ハイトでマスク
+	MASK: {layer}	マスク: {layer}
 	Match	マッチング
 	Material	マテリアル
 	Material ball	マテリアルボール
@@ -524,6 +573,7 @@
 	Min Occluder Distance	最小遮蔽距離
 	Minimum	最小
 	Minimum size (%)	最小サイズ (%)
+	Mirror across	ミラーの軸
 	Mirror symmetry	ミラー対称
 	missing	不明
 	Missing (bake to create)	なし (ベイクで作成)
@@ -535,8 +585,11 @@
 	Move up	上へ移動
 	Moves the surface by the height channel on a finer copy of the mesh, at the height to normal strength (viewport only: painting follows the base surface)	メッシュの細分化コピー上で、ハイトからノーマルへの強度でハイトチャンネルに沿って表面を動かします（ビューポートのみ：ペイントは元の表面に従います）
 	My brushes	マイブラシ
+	My smart masks	マイスマートマスク
 	My smart materials	マイ スマートマテリアル
 	Name each file after its texture set, like Body_normal.png	各ファイル名をテクスチャセット名で始めてください（例: Body_normal.png）
+	Name of the layout	配置の名前
+	Navigation buttons	ナビゲーションボタン
 	New project	新規プロジェクト
 	New project...	新規プロジェクト...
 	New template	新規テンプレート
@@ -548,6 +601,7 @@
 	No padding (passthrough)	パディングなし (パススルー)
 	No Parameters	パラメーターなし
 	No recent projects yet	最近のプロジェクトはまだありません
+	No saved layouts	保存された配置はありません
 	No UV tiles	UVタイルなし
 	Noise amount	ノイズ量
 	Noise scale	ノイズスケール
@@ -565,6 +619,7 @@
 	Normalization	正規化
 	Normalization Scale	正規化スケール
 	Normalization Type	正規化の種類
+	Not aligned: every stroke starts at the source. V + click sets a new source.	位置合わせなし: 各ストロークはソースから始まります。V + クリックで新しいソースを設定します。
 	Not enough GPU memory to show texture set "{name}" fully: lower the viewport Texture resolution in Settings. Painting and export are not affected.	GPU メモリが不足しているため、テクスチャセット「{name}」を完全には表示できません：設定でビューポートのテクスチャ解像度を下げてください。ペイントと書き出しには影響しません。
 	Not enough GPU memory to show {count} texture sets fully ({names}): lower the viewport Texture resolution in Settings. Painting and export are not affected.	GPU メモリが不足しているため、{count} 個のテクスチャセット（{names}）を完全には表示できません：設定でビューポートのテクスチャ解像度を下げてください。ペイントと書き出しには影響しません。
 	Not exported: no source in this texture set	エクスポートされません: このテクスチャセットにソースがありません
@@ -576,6 +631,7 @@
 	Offset up	上オフセット
 	Offset {axis}	オフセット {axis}
 	Offsets the textures by the height channel, at the height to normal strength	ハイトチャンネルに応じてテクスチャをオフセットします (強度はハイト→ノーマル強度)
+	On: the offset from the first stroke is kept. Off: every stroke starts at the source point.	オン: 最初のストロークからのオフセットを保ちます。オフ: 各ストロークはソース点から始まります。
 	Only Same Mesh Name	同じメッシュ名のみ
 	op	不透明
 	Open in MaterialCraft	MaterialCraft で開く
@@ -585,6 +641,8 @@
 	Opened {name}	{name} を開きました
 	Optional channels add a clear coat (Coat weight, Coat roughness, Coat normal), sheen (Sheen weight, color, roughness), anisotropy (Anisotropy level, angle), subsurface scattering (Scattering weight) and transmission (Transmission).	オプションのチャンネルで、クリアコート (コートウェイト、コートラフネス、コートノーマル)、シーン (シーンウェイト、カラー、ラフネス)、異方性 (異方性レベル、角度)、サブサーフェススキャタリング (スキャタリングウェイト)、トランスミッション (トランスミッション) を追加できます。
 	Orbit	オービット
+	Orbit (3D view)	オービット (3Dビュー)
+	Orbit: press and drag to turn the view around the model	オービット: 押したままドラッグすると、モデルの周りで視点を回転します
 	Orthographic	平行投影
 	Output directory	出力先フォルダー
 	Output high	出力の上限
@@ -595,17 +653,21 @@
 	Overlay opacity	オーバーレイの不透明度
 	Padding	パディング
 	Paint	ペイント
+	Paint a straight line from where the last stroke ended	前のストロークの終点から直線をペイント
 	Paint Cage	ケージをペイント
 	Paint chips	塗装の剥がれ
 	Paint layer	ペイントレイヤー
+	Paint mask of {layer}	{layer} のマスクにペイント
 	Paint on the mesh to edit the layer content.	メッシュにペイントしてレイヤーのコンテンツを編集します。
 	Paint on the mesh to edit this mask. Use the Material tab's mask value for gray.	メッシュにペイントしてこのマスクを編集します。グレーには「マテリアル」タブのマスク値を使用します。
+	Paint on {layer}	{layer} にペイント
 	Paint Skew Correction	スキュー補正をペイント
 	Paint with the current tool	現在のツールでペイント
 	Painted layer pixels {pixels} MB, composited channels {composites} MB, compositing cache {cache} MB	ペイントしたレイヤーのピクセル {pixels} MB、合成済みチャンネル {composites} MB、合成キャッシュ {cache} MB
 	Painted strokes follow the surface when the new mesh's UVs differ	新しいメッシュのUVが異なる場合、ペイントしたストロークはサーフェスに追従します
 	Painting is paused while a bake is shown. Cancel the bake or wait for it to finish.	ベイクの表示中はペイントを一時停止しています。ベイクをキャンセルするか、終わるまでお待ちください。
 	Pan	パン
+	Pan: press and drag to move the view	パン: 押したままドラッグすると、ビューを移動します
 	Parallax occlusion (height channel)	視差オクルージョン (ハイトチャンネル)
 	Parameters change in the desktop app, with MaterialCraft installed	パラメーターは MaterialCraft をインストールしたデスクトップ版で変更できます
 	Partial mask values follow the layer's height: high parts show first	中間のマスク値はレイヤーのハイトに従い、高い部分から表示されます
@@ -617,7 +679,13 @@
 	Paste effect	エフェクトを貼り付け
 	Paste layer(s)	レイヤーを貼り付け
 	Path trace on the processor instead of the graphics card (slower)	グラフィックカードではなくプロセッサーでパストレース (低速)
+	Path: add a point; on the curve it inserts one	パス: ポイントを追加。曲線上では挿入します
+	Path: apply it with the brush	パス: ブラシで適用
+	Path: cancel it	パス: キャンセル
 	Path: click adds a point, click the curve inserts one, drag moves it, Enter applies, Esc cancels	パス: クリックでポイントを追加、カーブをクリックで挿入、ドラッグで移動、Enterで適用、Escでキャンセル
+	Path: close it (needs 3 points)	パス: 閉じる (3点必要)
+	Path: move the point	パス: ポイントを移動
+	Path: remove the selected or last point	パス: 選択中または最後のポイントを削除
 	Paths stay editable: pick one to move its points or change its brush and material, and the sublayer repaints at once. Add paths with the Path tool.	パスは編集可能なままです。パスを選んで点を移動したりブラシやマテリアルを変えたりすると、サブレイヤーがすぐに描き直されます。パスはパスツールで追加します。
 	Pattern scale	パターンのスケール
 	PBR - Metallic Roughness (TextureCraft)	PBR - メタリック/ラフネス (TextureCraft)
@@ -626,6 +694,7 @@
 	Perspective	透視投影
 	Pick color	色を拾う
 	Pick focus in the viewport	ビューポートでフォーカスを指定
+	Pick point	点を指定
 	Pin light	ピンライト
 	Place as decal	デカールとして配置
 	Place on the surface	表面に配置
@@ -637,6 +706,8 @@
 	Pores	毛穴
 	Position gradient	位置グラデーション
 	Position jitter	位置ジッター
+	Position X	位置 X
+	Position Y	位置 Y
 	Preserve stroke positions on mesh	メッシュ上のストロークの位置を保持
 	Press a key...	キーを押してください...
 	Procedurals	プロシージャル
@@ -648,9 +719,17 @@
 	PROJECT SETTINGS	プロジェクト設定
 	Project template	プロジェクトテンプレート
 	Projection	投影
+	Projection mask of {layer}	{layer} のマスクに投影
+	Projection on {layer}	{layer} に投影
+	Projection paints in the 3D view	投影は3Dビューでペイントします
+	Projection: move the stencil	投影: ステンシルを移動
+	Projection: rotate the stencil	投影: ステンシルを回転
+	Projection: scale the stencil	投影: ステンシルを拡大縮小
 	Projects and meshes	プロジェクトとメッシュ
+	Put the stencil back in the middle of the view at its starting size and rotation	ステンシルを、最初のサイズと回転でビューの中央に戻します
 	Quarter	1/4
 	Quick mask	クイックマスク
+	Quick mask stroke	クイックマスクのストローク
 	Quit	終了
 	Radial settings	放射の設定
 	Radial symmetry	放射対称
@@ -693,11 +772,15 @@
 	Rendering on GPU: {n} / {max} samples, {s} s	GPUでレンダリング中: {n} / {max} サンプル、{s} 秒
 	Rendering, path traced	パストレースによるレンダリング
 	Replace Color	色の置き換え
+	Replace layout	配置を置換
 	Replacement color	置き換え後の色
 	Report a bug...	バグを報告...
 	Rescan the library folder	ライブラリフォルダーを再スキャン
 	Reset all	すべてリセット
 	Reset Painted Cage	ペイントしたケージをリセット
+	Reset panel layout	パネル配置をリセット
+	Reset stencil	ステンシルをリセット
+	Reset the panels, view layout, zoom and every other view setting to their defaults? Settings and shortcuts stay. To reset only the panels, use Reset panel layout.	パネル、ビューのレイアウト、ズーム、その他すべての表示設定を初期状態に戻しますか? 設定とショートカットはそのままです。パネルだけをリセットするには「パネル配置をリセット」を使います。
 	Reset to defaults	デフォルトに戻す
 	Reset to {shortcut}	{shortcut} にリセット
 	Reset UI	UIをリセット
@@ -707,25 +790,32 @@
 	Restore every default shortcut	すべてのショートカットをデフォルトに戻す
 	Return to Painting Mode	ペイントモードに戻る
 	Return to this step	このステップに戻る
+	Right view	右側面ビュー
+	Right-click a layer > Create smart mask	レイヤーを右クリック > スマートマスクを作成
 	Right-click a layer > Create smart material	レイヤーを右クリック > スマートマテリアルを作成
+	RMB drag	右ドラッグ
 	Rotation (degrees)	回転 (度)
 	rough	ラフ
 	Roughness	ラフネス
 	Roughness from glossiness	グロッシネスからラフネス
 	Round	円形
 	Rounded cube	角丸立方体
+	S + left-drag rotates (with Shift in 15° steps), S + right-drag scales, S + middle-drag moves; or use Position X / Y.	S + 左ドラッグで回転 (Shift併用で15°刻み)、S + 右ドラッグで拡大縮小、S + 中ドラッグで移動します。または位置 X / Y を使います。
 	Samples	サンプル数
 	Sampling Radius	サンプリング半径
 	Save a copy...	コピーを保存...
 	Save as...	名前を付けて保存...
 	Save current brush	現在のブラシを保存
+	Save current layout as...	現在の配置に名前を付けて保存...
 	Save current layout...	現在のレイアウトを保存...
 	Save current project as template	現在のプロジェクトをテンプレートとして保存
+	Save layout	配置を保存
 	Save render...	レンダリング結果を保存...
 	Save the changes to {name} before closing?	閉じる前に {name} の変更を保存しますか？
 	Save the changes to {name} first?	先に {name} の変更を保存しますか？
 	Save UI Layout	UIレイアウトを保存
 	Save view as camera	ビューをカメラとして保存
+	Saved layout {name}	配置 {name} を保存しました
 	Saved UI layout {path}	UIレイアウト {path} を保存しました
 	Saved {path}	{path} を保存しました
 	Saving UI layouts to files is available in the desktop app	UIレイアウトのファイル保存はデスクトップアプリで利用できます
@@ -764,6 +854,8 @@
 	sheen rough	シーンラフ
 	Sheen roughness	シーンラフネス
 	Sheen weight	シーンウェイト
+	Shift + LMB	Shift + 左クリック
+	Shift + RMB drag	Shift + 右ドラッグ
 	Shift + wheel	Shift + ホイール
 	Shortcuts list...	ショートカット一覧...
 	Show all	すべて表示
@@ -790,12 +882,18 @@
 	Skew Correction Method	スキュー補正方法
 	Slope Blur	スロープぼかし
 	Slope scale	スロープスケール
+	Smart mask saved to {path}	スマートマスクを {path} に保存しました
 	Smart masks	スマートマスク
 	Smart material saved to {path}	スマートマテリアルを {path} に保存しました
 	Smart materials	スマートマテリアル
 	Smooth	スムーズ
 	Smudge	スマッジ
+	Smudge on {layer}	{layer} でスマッジ
 	Soft light	ソフトライト
+	Solo layer	レイヤーをソロ表示
+	Solo layer without its mask	マスクなしでレイヤーをソロ表示
+	Solo: {layer}	ソロ表示: {layer}
+	Solo: {layer} (mask ignored)	ソロ表示: {layer} (マスクなし)
 	Source  U {u}  V {v}	ソース  U {u}  V {v}
 	spec	スペLv
 	Specular	スペキュラー
@@ -829,6 +927,7 @@
 	Template name	テンプレート名
 	Temporal anti-aliasing (refines the 3D view while it is still)	テンポラルアンチエイリアス (静止中に3Dビューを精細化)
 	Texture resolution	テクスチャ解像度
+	Texture set '{name}' is not active for painting. Select it in the Texture Sets list.	テクスチャセット '{name}' はペイントに対して有効ではありません。テクスチャセットのリストで選択してください。
 	Texture set channels	テクスチャセットのチャンネル
 	Texture set resolution	テクスチャセットの解像度
 	Texture Set Settings	テクスチャセット設定
@@ -842,18 +941,21 @@
 	Textures	テクスチャ
 	Textures embedded; for game engines and most viewers	テクスチャ埋め込み。ゲームエンジンや多くのビューアー向け
 	Textures packaged; for USD tools and AR Quick Look	テクスチャをパッケージ化。USDツールやAR Quick Look向け
+	That name is taken	その名前は既に使われています
 	The bake worker stopped	ベイク処理が停止しました
 	The eraser removes paint from the enabled channels.	消しゴムは有効なチャンネルからペイントを消去します。
 	The file dialog couldn't be shown: {error}	ファイルダイアログを表示できませんでした: {error}
 	The first stroke sets the offset from the source.	最初のストロークでソースからのオフセットが決まります。
 	The GPU couldn't render this scene: {error}	GPUでこのシーンをレンダリングできませんでした: {error}
 	The image's alpha cuts the decal's shape; faces turned away and surfaces beyond its depth stay clear.	画像のアルファでデカールの形状を切り抜きます。裏向きの面と奥行きを超えた面には投影されません。
+	The last edit of the template "{name}" is not saved: {error}. Switching away drops it.	テンプレート「{name}」の最後の編集は保存されていません: {error}。切り替えると破棄されます。
 	The mesh file the project is built on. Hover the path to see it in full.	プロジェクトの元になっているメッシュファイルです。パスにカーソルを合わせると全体が表示されます。
 	The next click in the 3D view moves the decal there	3Dビューで次にクリックした位置にデカールを移動
 	The project changed while the dialog was open, so nothing was done	ダイアログを開いている間にプロジェクトが変更されたため、何も実行されませんでした
 	The resize worker stopped	サイズ変更の処理が停止しました
 	The UV tiles (UDIMs) of each texture set, shown for reference. Change them in Texture Set Settings.	各テクスチャセットのUVタイル (UDIM) です。参照用の表示です。変更はテクスチャセット設定で行います。
 	There is no mesh file to read again. Select one.	再読み込みするメッシュファイルがありません。ファイルを選択してください。
+	These are the brush's material channels, the same ones Paint writes and the Material tab shows. A channel the selected layer does not have is skipped.	これはブラシのマテリアルチャンネルで、ペイントが書き込むものやマテリアルタブに表示されるものと同じです。選択中のレイヤーにないチャンネルはスキップされます。
 	Thickness	厚み
 	Thin areas	薄い領域
 	Tile	タイル
@@ -862,12 +964,14 @@
 	Title bar	タイトルバー
 	Toggle mask	マスクの切り替え
 	Tone mapping	トーンマッピング
+	Top view	上面ビュー
 	Torus	トーラス
 	transm	透過
 	Transmission	トランスミッション
 	Tri-planar projection	トライプラナー投影
 	Triangle fill	三角形塗りつぶし
 	Triangle fills single triangles, Polygon whole quads and n-gons, Mesh the connected geometry, UV island the UV islands	三角形は個々の三角形、ポリゴンは四角形やNゴン全体、メッシュはつながったジオメトリ、UVアイランドはUVアイランドを塗りつぶします
+	Turn the environment light (3D view)	環境ライトを回転 (3Dビュー)
 	Twill weave	綾織り
 	UDIM plane	UDIM平面
 	UDIM tiles painted by this texture set, each at the set's size	このテクスチャセットがペイントするUDIMタイル (各タイルはセットのサイズ)
@@ -876,6 +980,7 @@
 	UI layouts	UIレイアウト
 	UI {ms} ms	UI {ms} ms
 	Undo	元に戻す
+	Unfinished template edit	未完了のテンプレート編集
 	Uniform	均一
 	Uniform value	均一値
 	USD binary, textures alongside	USDバイナリ、テクスチャは別ファイル
@@ -917,10 +1022,18 @@
 	Wood grain	木目
 	Works in texture space, like the blur: it does not cross UV seams.	ぼかしと同様にテクスチャ空間で処理するため、UVシームをまたぎません。
 	World Space Normal	ワールド空間ノーマル
+	Write 1 minus the value in this channel	このチャンネルに 1 から値を引いた値を書き込む
 	Yellow / blue	イエロー / ブルー
+	Zoom: press and drag up to move closer, down to move away	ズーム: 押したまま上にドラッグすると近づき、下にドラッグすると離れます
+	Zoom: press and drag up to zoom in, down to zoom out	ズーム: 押したまま上にドラッグすると拡大、下にドラッグすると縮小します
 	{action} (undone)	{action} (取り消し済み)
 	{count} effects	エフェクト {count} 件
 	{file}: add above the selected layer (or drag it into the layer stack or onto the viewport)	{file}: 選択中のレイヤーの上に追加 (レイヤースタックやビューポートへのドラッグも可)
+	{file}: replace the selected layer's mask (or drag it onto a layer in the stack)	{file}: 選択中のレイヤーのマスクを置き換えます (またはスタック内のレイヤーにドラッグ)
+	{key} + LMB	{key} + 左クリック
+	{key} + LMB drag	{key} + 左ドラッグ
+	{key} + MMB drag	{key} + 中ドラッグ
+	{key} + RMB drag	{key} + 右ドラッグ
 	{name} copy	{name} のコピー
 	{n} bits	{n} ビット
 	{n} control points. Click the mesh (or the 2D view) to add points and drag them to adjust; click the first point to close the path. Enter paints it with the brush (a closed, filled path fills its inside), Esc cancels.	コントロールポイント {n} 個。メッシュ (または 2D ビュー) をクリックしてポイントを追加し、ドラッグして調整します。最初のポイントをクリックするとパスが閉じます。Enter でブラシを使ってペイントし (閉じて塗りつぶすパスは内側を塗りつぶします)、Esc でキャンセルします。
