@@ -11,10 +11,8 @@
 # computing vocabulary. No other product's localisation, string table or translated UI was
 # consulted or copied; add entries the same way.
 
-	% of all commits	% svih komitova
 	(coming soon)	(uskoro)
 	(No neutral color exists for {mode} mode.)	(Za režim {mode} ne postoji neutralna boja.)
-	(none)	(nijedan)
 	(print to the printer)	(štampaj na štampaču)
 	+ Add variable	+ Dodaj promenljivu
 	0 turns this threshold off; SVG groups nested deeper than 100 levels are always rasterized.	0 isključuje ovaj prag; SVG grupe ugnežđene dublje od 100 nivoa uvek se rasterizuju.
@@ -75,11 +73,14 @@
 	95%	95%
 	@{login}: {prs} PRs, {commits} commits, +{added} / −{deleted} lines (Δ {delta}), +{binAdded} / −{binDeleted} binary assets, {first} – {last}	@{login}: PR-ova: {prs}, komitova: {commits}, linija: +{added} / −{deleted} (Δ {delta}), binarnih resursa: +{binAdded} / −{binDeleted}, {first} – {last}
 	A brush preset with this name already exists	Šablon četkice sa ovim imenom već postoji
-	A frame supports affine transforms; select its image for perspective transforms	Оквир подржава афине трансформације; за перспективне трансформације изаберите његову слику
-	A frame supports affine transforms; select its image to warp it	Оквир подржава афине трансформације; за изобличавање изаберите његову слику
+	A command was cancelled or stopped during batch processing. Continue with the next file or stop?	Komanda je otkazana ili zaustavljena tokom grupne obrade. Nastaviti sa sledećom datotekom ili zaustaviti?
+	A file is still being placed; try again when it has finished.	Postavljanje datoteke je još u toku; pokušajte ponovo kada se završi.
+	A frame supports affine transforms; select its image for perspective transforms	Okvir podržava afine transformacije; za perspektivne transformacije izaberite njegovu sliku
+	A frame supports affine transforms; select its image to warp it	Okvir podržava afine transformacije; za izobličavanje izaberite njegovu sliku
 	A picked document is no longer a grayscale document of the same size.	Jedan izabrani dokument više nije dokument u nijansama sive iste veličine.
 	A picked document is no longer open.	Jedan izabrani dokument više nije otvoren.
 	A save to {name} is still running; try again when it finishes	Čuvanje u {name} je još u toku; pokušajte ponovo kada se završi
+	A:	A:
 	About PhotoCraft	O programu PhotoCraft
 	About {app}	O programu {app}
 	Accelerated	Ubrzano
@@ -98,7 +99,7 @@
 	Add a mask  (from the selection; ⌥ inverts)	Dodaj masku  (iz selekcije; ⌥ invertuje)
 	Add an adjustment	Dodaj korekciju
 	Add Anchor Point Tool	Alatka za dodavanje sidrišne tačke
-	Add beauty precomp from the AOVs	Dodaj „beauty“ predkompoziciju iz AOV prolaza
+	Add beauty precomp from the AOVs	Dodaj predkompoziciju završnog izgleda iz AOV prolaza
 	Add disk	Dodaj disk
 	Add Layer Above to Selection	Dodaj sloj iznad u izbor
 	Add Layer Below to Selection	Dodaj sloj ispod u izbor
@@ -110,13 +111,14 @@
 	Add Noise…	Dodaj šum…
 	Add Open Files	Dodaj otvorene datoteke
 	Add pair	Dodaj par
+	Add Path to Selection	Dodaj putanju u izbor
 	Add Pins	Dodaj čiode
 	Add Shortcut	Dodaj prečicu
 	Add space after paragraph	Dodaj razmak posle pasusa
 	Add space before paragraph	Dodaj razmak pre pasusa
 	Add Stop	Dodaj tačku
 	Add to	Dodaj u
-	Add to Favorites	Додај у омиљене
+	Add to Favorites	Dodaj u omiljene
 	Add to Sample	Dodaj u uzorak
 	Add to selection  ({key})	Dodaj u selekciju  ({key})
 	Add to selection  (⇧)	Dodaj u selekciju  (⇧)
@@ -155,10 +157,9 @@
 	AHD (adaptive homogeneity)	AHD (adaptivna homogenost)
 	AI Integrations	AI integracije
 	AI Integrations…	AI integracije…
-smartSvg	AI/PDF/EPS contents will be edited as SVG. Saving replaces the embedded source; format-specific features may change.	AI/PDF/EPS садржај ће се уређивати као SVG. Чување замењује уграђени извор; својства специфична за формат могу се променити.
+smartSvg	AI/PDF/EPS contents will be edited as SVG. Saving replaces the embedded source; format-specific features may change.	AI/PDF/EPS sadržaj će se uređivati kao SVG. Čuvanje zamenjuje ugrađeni izvor; svojstva specifična za format mogu se promeniti.
 	Airbrush: keeps depositing paint while the pointer rests.	Vazdušna četkica: nastavlja da nanosi boju dok pokazivač miruje.
 	Airbrush: keeps painting while the pointer rests.	Vazdušna četkica: nastavlja da slika dok pokazivač miruje.
-	Align	Poravnaj
 	Align and Distribute	Poravnanje i raspodela
 	Align and distribute	Poravnanje i raspodela
 	Align bottom edges	Poravnaj donje ivice
@@ -170,8 +171,7 @@ smartSvg	AI/PDF/EPS contents will be edited as SVG. Saving replaces the embedded
 	Align with layer	Poravnaj sa slojem
 	Align {what}	Poravnaj: {what}
 	Aligned	Poravnato
-	All	Sve
-	All Classes	Све класе
+	All Classes	Sve klase
 	All Layers No Adjustments	Svi slojevi bez korekcija
 	All shortcuts reset to PhotoCraft defaults.	Sve prečice su vraćene na podrazumevane vrednosti PhotoCraft-a.
 	All User Slices	Svi korisnički isečci
@@ -204,6 +204,7 @@ cameraRaw	Amount	Količina
 	Animated zoom	Animirano zumiranje
 	Animation Options	Opcije animacije
 	Anisotropic	Anizotropno
+	Answer the open import question first, then import this file again.	Prvo odgovorite na otvoreno pitanje o uvozu, pa ponovo uvezite ovu datoteku.
 	Answer the unsaved-changes prompt first	Prvo odgovorite na upit o nesačuvanim izmenama
 	Anti-aliased	Uglađeno
 	Anti-aliasing method	Metod uglađivanja ivica
@@ -242,7 +243,10 @@ cameraRaw	Aqua	Akva
 	Are you sure you want to quit?	Da li zaista želite da izađete?
 	Are you sure?	Da li ste sigurni?
 	Around Center	Oko centra
+	Arrange Panels	Rasporedi panele
 	Arrangement	Raspored
+	Arrowhead options	Opcije vrhova strelica
+	Arrowheads	Vrhovi strelica
 	Art & Illustration	Umetnost i ilustracija
 	Art History Brush	Umetnička četkica istorije
 	Art History Brush Tool	Alatka umetnička četkica istorije
@@ -270,6 +274,8 @@ cameraRaw	Aqua	Akva
 	Assign working space	Dodeli radni prostor boja
 	At	Na
 	Attempt to Automatically Align Source Images	Pokušaj automatski poravnati izvorne slike
+	Attribute	Atribut
+	Author Title	Zvanje autora
 	auto	automatski
 	Auto Add/Delete	Automatsko dodavanje/brisanje
 	Auto Adjust Opacity	Automatski podesi neprozirnost
@@ -322,14 +328,18 @@ cameraRaw	Balance	Balans
 	Bamboo	Bambus
 	Bas Relief	Bareljef
 	Base Tree Type	Osnovna vrsta drveta
+	Based On	Zasnovano na
 	Baseline ("Standard")	Osnovno („standardno“)
 	Baseline Optimized	Osnovno optimizovano
 	Baseline shift	Pomak osnovne linije
+	Batch preview	Pregled grupne obrade
 	Beep when done	Zvučni signal po završetku
 	Before	Pre
 	Before (Y)	Pre (Y)
+cameraRaw	Before (Y)	Pre (Y)
 	Begin recording	Započni snimanje
 	Behind	Iza
+	Bend	Savijanje
 	Berries	Bobice
 	Best	Najbolje
 	Bevel	Zakošeno
@@ -353,7 +363,7 @@ fontWeight	Black	Crno
 	Black Matte	Crna podloga
 	Black Point Compensation	Kompenzacija crne tačke
 	Black, White	Crna, bela
-	Blackletter	Готица
+	Blackletter	Gotica
 cameraRaw	Blacks	Crne
 	Blade Curvature	Zakrivljenost lamela
 	BLANK DOCUMENT PRESETS ({n})	ŠABLONI PRAZNIH DOKUMENATA ({n})
@@ -405,8 +415,8 @@ fontWeight	Bold	Podebljano
 	Brightness/Contrast…	Osvetljenost/kontrast…
 	Bring the selected pin forward	Pomeri izabranu čiodu napred
 	Bristle Detail	Detalji čekinja
+	browser preset storage timed out	isteklo je vreme čuvanja podešavanja u pregledaču
 	Browser storage is unavailable; brushes are session-only. Keep this tab open to retain them.	Skladište pregledača nije dostupno; četkice važe samo za ovu sesiju. Držite ovu karticu otvorenom da biste ih zadržali.
-	Browse…	Pregledaj…
 	Brush	Četkica
 	Brush Detail	Detalji četkice
 	Brush Name	Ime četkice
@@ -441,6 +451,7 @@ fontWeight	Bold	Podebljano
 	Cache Level:	Nivo keša:
 	Cache levels	Nivoi keša
 	Cache tile size	Veličina pločice keša
+	Calculating…	Izračunavanje…
 	Calculations	Proračuni
 	Calculations…	Proračuni…
 	Calibration	Kalibracija
@@ -448,6 +459,7 @@ fontWeight	Bold	Podebljano
 	Camera Data	Podaci fotoaparata
 	Camera Make	Proizvođač fotoaparata
 	Camera Model	Model fotoaparata
+cameraRaw	Cancel	Otkaži
 	Cancel (Esc)	Otkaži (Esc)
 	Cancel any current edits (Esc)	Otkaži sve tekuće izmene (Esc)
 	Cancel current crop operation  (Esc)	Otkaži tekuće opsecanje  (Esc)
@@ -456,7 +468,14 @@ fontWeight	Bold	Podebljano
 	Cancel transform (Esc)	Otkaži transformaciju (Esc)
 	Cancel warp (Esc)	Otkaži krivljenje (Esc)
 	Canceled opening {name}	Otkazano otvaranje: {name}
+cameraRaw	Canceled opening {name}	Otvaranje datoteke {name} je otkazano
 	Canceled {label}	Otkazano: {label}
+cameraRaw	Canceled {label}	Otkazano: {label}
+	Cancelled opening {name}	Otvaranje datoteke {name} je otkazano
+cameraRaw	Cancelled opening {name}	Otvaranje datoteke {name} je otkazano
+	Cancelled placing {name}	Postavljanje datoteke {name} je otkazano
+	Cancelled {label}	Otkazano: {label}
+cameraRaw	Cancelled {label}	Otkazano: {label}
 	Candle Light	Svetlost sveće
 	Canvas border	Ivica platna
 	Canvas color	Boja platna
@@ -473,12 +492,15 @@ fontWeight	Bold	Podebljano
 	Capture Comp	Zabeleži kompoziciju
 	Capture the visibility, position and style of every layer with + below, then switch between versions.	Zabeležite vidljivost, položaj i stil svakog sloja dugmetom + ispod, a zatim se prebacujte između verzija.
 	Catch-up on Stroke End	Sustizanje na kraju poteza
+	Ccw	Suprotno smeru kazaljke
 	Center Columns	Centriraj kolone
 	Center Crop Marks	Središnje oznake za sečenje
 	Center text	Centriraj tekst
 	Center the gradient (offset 0, 0)	Centriraj gradijent (pomak 0, 0)
+	Centre the gradient (offset 0, 0)	Centriraj preliv (pomeraj 0, 0)
 	Chalk & Charcoal	Kreda i ugalj
 	Chalk Area	Oblast krede
+	Change Find	Promeni pretragu
 	Change Panel Group	Promeni grupu panela
 	Change Screen Mode  (F)	Promeni režim ekrana  (F)
 	Change To:	Promeni u:
@@ -500,9 +522,11 @@ fontWeight	Bold	Podebljano
 	Charcoal	Ugalj
 	Charcoal Area	Oblast uglja
 	Charcoal Thickness	Debljina uglja
+	Check Again	Proveri ponovo
 	Check All Layers	Proveri sve slojeve
 	Check for Updates…	Proveri ažuriranja…
 	Check Spelling	Provera pravopisa
+	Checking for updates…	Provera ažuriranja…
 	Chisel Hard	Tvrdo klesanje
 	Chisel Soft	Meko klesanje
 	Choke	Sužavanje
@@ -552,10 +576,14 @@ cameraRaw	Clarity	Jasnoća
 	Click to apply, ⌥-click to clear overrides, double-click for Style Options	Kliknite da primenite, ⌥-klik da uklonite nadjačavanja, dvoklik za opcije stila
 	Click to edit the gradient	Kliknite da uredite gradijent
 	Click to fill similar colors	Kliknite da popunite slične boje
+	Click to fill similar colours	Kliknite da popunite slične boje
 	Click to pick · Esc to cancel	Kliknite da uzmete boju · Esc za otkazivanje
 	Click to place · Alt-click or drag off-canvas to remove	Kliknite da postavite · Alt-klik ili prevlačenje van platna da uklonite
+	Click to refresh histogram with uncached data	Kliknite da osvežite histogram nekeširanim podacima
 	Click to restore the current color	Kliknite da vratite tekuću boju
+	Click to restore the current colour	Kliknite da vratite trenutnu boju
 	Click to sample the foreground color  ·  {key}-click for background	Kliknite da uzorkujete boju prednjeg plana  ·  {key}-klik za pozadinu
+	Click to sample the foreground colour  ·  {key}-click for background	Kliknite da uzorkujete prednju boju  ·  {key}-klik za pozadinsku
 	Click to zoom in  ·  {key}-click to zoom out  ·  drag right/left to zoom in/out	Kliknite da uvećate  ·  {key}-klik da umanjite  ·  prevucite udesno/ulevo da uvećate/umanjite
 	Click to zoom in  ·  ⌥-click to zoom out	Kliknite da uvećate  ·  ⌥-klik da umanjite
 	Click with the Note tool to add a note.	Kliknite alatkom za beleške da dodate belešku.
@@ -577,12 +605,14 @@ cameraRaw	Clarity	Jasnoća
 	Clone source {n} ({key}-click with Clone Stamp to set)	Izvor kloniranja {n} ({key}-klik pečatom za kloniranje da postavite)
 	Clone Stamp	Pečat za kloniranje
 	Clone Stamp Tool	Alatka pečat za kloniranje
+	Close Other Panels in Group	Zatvori ostale panele u grupi
 	Close Others	Zatvori ostale
 	Close Style Options	Zatvori opcije stila
 	Close Tab Group	Zatvori grupu kartica
 	Close Window	Zatvori prozor
 	Clouds	Oblaci
 	Clumped	Zgrudvano
+	Cmyk	CMYK
 	CMYK Sliders	CMYK klizači
 	CMYK Spectrum	CMYK spektar
 	Coated CMYK	Premazani CMYK
@@ -599,6 +629,8 @@ cameraRaw	Color	Boja
 	Color Balance…	Balans boja…
 	Color Blindness - Deuteranopia-type	Daltonizam - tip deuteranopije
 	Color Blindness - Protanopia-type	Daltonizam - tip protanopije
+	Color Blindness — Deuteranopia-type	Daltonizam — deuteranopija
+	Color Blindness — Protanopia-type	Daltonizam — protanopija
 	Color Burn (Paint.NET)	Zatamnjivanje boje (Paint.NET)
 	Color Decontaminate	Dekontaminacija boja
 	Color Decontaminate…	Dekontaminacija boja…
@@ -637,12 +669,14 @@ cameraRaw	Color Mixer	Mešač boja
 	Color Picker (Text Color)	Birač boja (boja teksta)
 	Color Picker ({name})	Birač boja ({name})
 	Color Priority	Prioritet boje
+cameraRaw	Color Priority	Prednost boje
 	Color Profile	Profil boja
 	Color Range	Opseg boja
 	Color Range preview	Pregled opsega boja
 	Color Range…	Opseg boja…
 	Color Replacement	Zamena boje
 	Color Replacement Tool	Alatka za zamenu boje
+	Color Sampler Tool	Alatka za uzorkovanje boje
 	Color space	Prostor boja
 	Color Table…	Tabela boja…
 	Color to Alpha…	Boja u alfu…
@@ -666,10 +700,8 @@ cameraRaw	Color Mixer	Mešač boja
 	Commit transform (↩)	Potvrdi transformaciju (↩)
 	Commit warp ({key})	Potvrdi krivljenje ({key})
 	Commit warp (↩)	Potvrdi krivljenje (↩)
-	Commits	Komitovi
-	Company	Kompanija
-	Compare	Uporedi
 	Compose	Slaganje
+	Concavity	Udubljenost
 	Concise	Sažeto
 	Condensed	Suženo
 	Conditional Mode Change	Uslovna promena režima
@@ -714,7 +746,7 @@ cameraRaw	Contrast	Kontrast
 	Convert Point Tool	Alatka za pretvaranje tačke
 	Convert to Alpha Channel	Pretvori u alfa kanal
 	Convert to Embedded	Pretvori u ugrađeni
-	Convert to Frame…	Претвори у оквир…
+	Convert to Frame…	Pretvori u okvir…
 	Convert to Grayscale	Pretvori u nijanse sive
 	Convert to Layers	Pretvori u slojeve
 	Convert to Linked	Pretvori u povezani
@@ -723,10 +755,14 @@ cameraRaw	Contrast	Kontrast
 	Convert to Point Text	Pretvori u tačkasti tekst
 	Convert to Profile	Pretvori u profil
 	Convert to Profile…	Pretvori u profil…
+	Convert to Shape…	Pretvori u oblik…
 	Convert to Smart Object	Pretvori u pametni objekat
 	Convert to srgb	Pretvori u sRGB
 	Convert to the working space ({profile})	Pretvori u radni prostor ({profile})
 	Cool	Hladno
+	Cooling Filter (80)	Filter za hlađenje (80)
+	Cooling Filter (82)	Filter za hlađenje (82)
+	Cooling Filter (LBB)	Filter za hlađenje (LBB)
 	Cooling L B B	Hlađenje (LBB)
 	Cooling80	Hlađenje (80)
 	Cooling82	Hlađenje (82)
@@ -742,11 +778,13 @@ cameraRaw	Contrast	Kontrast
 	Copyright Info URL	URL informacija o autorskim pravima
 	Copyright Notice	Obaveštenje o autorskim pravima
 	Copyright Status	Status autorskih prava
+	Copyright Url	URL autorskih prava
 	Corner Crop Marks	Ugaone oznake za sečenje
 	Corner radius	Poluprečnik ugla
 	Correct C A	Ispravi hromatsku aberaciju
 	Correct Distortion	Ispravi izobličenje
 	Correct Vignette	Ispravi vinjetiranje
+	Could not check for updates.	Nije moguće proveriti ažuriranja.
 	Could not complete the Free Transform command because the layer is locked.	Komanda Slobodna transformacija ne može da se izvrši jer je sloj zaključan.
 	Could not open	Otvaranje nije uspelo
 	Could not rename the action: {error}	Preimenovanje radnje nije uspelo: {error}
@@ -763,22 +801,24 @@ cameraRaw	Contrast	Kontrast
 	Count	Broj
 	Count Jitter	Kolebanje broja
 	Count Tool	Alatka za brojanje
+	Count:	Broj:
 	Count: {n}	Broj: {n}
 	Cove - Deep	Udubljenje - duboko
 	Cove - Shallow	Udubljenje - plitko
 	CPU (no GPU acceleration)	CPU (bez GPU ubrzanja)
 	CPU / Compatibility	CPU / kompatibilnost
+	CPU Rendering	Iscrtavanje na procesoru
 	Craquelure	Krakelir
 	Create a new count group	Napravi novu grupu brojanja
-	Create a new custom frame	Направи нови прилагођени оквир
+	Create a new custom frame	Napravi novi prilagođeni okvir
 	Create a new document or open an existing file.	Napravite novi dokument ili otvorite postojeću datoteku.
 	Create a new elliptical frame	Napravi novi eliptični okvir
 	Create a new group	Napravi novu grupu
 	Create a new layer	Napravi novi sloj
 	Create a new layer  (⇧⌘N)	Napravi novi sloj  (⇧⌘N)
-	Create a new polygonal frame	Направи нови многоугаони оквир
+	Create a new polygonal frame	Napravi novi mnogougaoni okvir
 	Create a new rectangular frame	Napravi novi pravougaoni okvir
-	Create a new triangular frame	Направи нови троугаони оквир
+	Create a new triangular frame	Napravi novi trougaoni okvir
 	Create a single history state	Napravi jedno stanje istorije
 	Create By	Napravi pomoću
 	Create Date	Datum kreiranja
@@ -864,6 +904,7 @@ cameraRaw	Curve	Kriva
 	Custom Shapes	Prilagođeni oblici
 	Custom…	Prilagođeno…
 	Cutout	Isečak od papira
+	Cw	U smeru kazaljke
 	Cyan  ·  Red	Cijan  ·  crvena
 	Cyans	Cijan
 	Cycle Orientation	Smenjuj orijentaciju
@@ -888,11 +929,11 @@ cameraRaw	Darks	Tamni tonovi
 	Dash	Crtica
 	Dash / gap lengths × stroke width	Dužine crtica / razmaka × širina obruba
 	Dash offset	Pomak crtica
-	Dashed	Isprekidana
 	Dashed line	Isprekidana linija
 	Dashed lines	Isprekidane linije
 	Data Set: {name}  ({index}/{total})	Skup podataka: {name}  ({index}/{total})
 	Data Sets as Files	Skupovi podataka kao datoteke
+	Data Sets as Files is unavailable on the web	Skupovi podataka kao datoteke nisu dostupni na vebu
 	Data Sets as Files…	Skupovi podataka kao datoteke…
 	Data Sets…	Skupovi podataka…
 cameraData	Date Taken	Datum snimanja
@@ -903,14 +944,17 @@ cameraData	Date Taken	Datum snimanja
 	De-Interlace…	Uklanjanje preplitanja…
 	Decontaminate	Očisti boje
 	Decontaminate Colors	Dekontaminiraj boje
-	Decorative	Декоративни
+	Decorative	Dekorativni
 	Decrease Brush Hardness	Smanji tvrdoću četkice
 	Decrease Brush Size	Smanji veličinu četkice
+	Decrease Type Size	Smanji veličinu teksta
+	Decrease Type Size by 10	Smanji veličinu teksta za 10
 	Deep	Duboko
 	Deep Blue	Tamnoplava
 	Deep Emerald	Tamni smaragd
 	Deep Red	Tamnocrvena
 	Deep Yellow	Tamnožuta
+	Default colours (D)	Podrazumevane boje (D)
 	Default Features	Podrazumevane funkcije
 	Default Foreground and Background Colors	Podrazumevane boje prednjeg plana i pozadine
 	Default Foreground and Background Colors (D)	Podrazumevane boje prednjeg plana i pozadine (D)
@@ -950,6 +994,7 @@ cameraRaw	Dehaze	Uklanjanje izmaglice
 	Delete effect layer	Obriši sloj efekta
 	Delete Filter Mask	Obriši masku filtera
 	Delete Frame	Obriši kadar
+	Delete Hidden Layers	Obriši skrivene slojeve
 	Delete layer	Obriši sloj
 	Delete layer comp	Obriši kompoziciju slojeva
 	Delete Layer Mask	Obriši masku sloja
@@ -991,8 +1036,8 @@ cameraRaw	Detail	Detalji
 	Detect Faces	Prepoznaj lica
 	Determines if pixel data outside the crop box is retained or deleted	Određuje da li se pikseli izvan okvira za isecanje zadržavaju ili brišu
 	Developing {name}	Razvijanje: {name}
+cameraRaw	Developing {name}	Obrada snimka {name}
 	Diagonal (Descending)	Dijagonala (opadajuća)
-	Diamond	Romb
 	Diamond Gradient	Romboidni gradijent
 	Difference Clouds	Oblaci razlike
 	Diffuse	Rasipanje
@@ -1015,7 +1060,6 @@ cameraRaw	Detail	Detalji
 	Disks	Diskovi
 	Displace	Premeštanje
 	Displace…	Premeštanje…
-	Display name	Prikazno ime
 	Display P3	Display P3
 	Display p3	Display P3
 	Display profile not used	Profil ekrana se ne koristi
@@ -1032,7 +1076,7 @@ cameraRaw	Detail	Detalji
 	Distribution	Raspodela
 	Dither	Diterovanje
 	Divide…	Podeli…
-	Do not append "copy" to filename when saving a copy	Ne dodaji „copy“ u ime fajla pri čuvanju kopije
+	Do not append "copy" to filename when saving a copy	Ne dodaj „copy“ u naziv datoteke pri čuvanju kopije
 	Do you want to save the changes you made to “{name}” before closing?	Želite li da sačuvate izmene u „{name}“ pre zatvaranja?
 	Do you want to save the changes you made to “{name}” before quitting?	Želite li da sačuvate izmene u „{name}“ pre izlaska?
 	Do you want to save you made to “{name}” before quitting?	Želite li da sačuvate izmene u „{name}“ pre izlaska?
@@ -1052,15 +1096,19 @@ cameraRaw	Detail	Detalji
 	Don't also tick Mirror Image in Print Settings…: the two flips cancel out.	Nemojte uključiti i ogledalsku sliku u podešavanjima štampanja: dva preslikavanja se poništavaju.
 	Don't Import	Nemoj uvesti
 	Don't show again	Ne prikazuj ponovo
+	Dont Enlarge	Ne uvećavaj
 	Double click layer mask launches select and mask	Dvoklik na masku sloja otvara Izaberi i maskiraj
 	Double Line	Dvostruka linija
 	Drag (lasso) or click points (polygonal) · {add} add · {sub} subtract	Prevucite (laso) ili kliknite tačke (mnogougao) · {add} dodaje · {sub} oduzima
 	Drag a box or click four corners · drag the corners onto the edges of a skewed shape · {commit} commits · Esc cancels	Prevucite okvir ili kliknite četiri ugla · prevucite uglove na ivice iskošenog oblika · {commit} potvrđuje · Esc otkazuje
 	Drag a crop box · drag inside to move · edges resize ({ratio} ratio, {centre} center) · Space moves while drawing · arrows nudge · X swaps orientation · {commit} commits · Esc cancels	Prevucite okvir za opsecanje · prevlačenje unutra pomera · ivice menjaju veličinu ({ratio} odnos, {centre} centar) · razmaknica pomera tokom crtanja · strelice pomeraju malo · X menja orijentaciju · {commit} potvrđuje · Esc otkazuje
+	Drag a crop box · drag inside to move · edges resize ({ratio} ratio, {centre} centre) · Space moves while drawing · arrows nudge · X swaps orientation · {commit} commits · Esc cancels	Nacrtajte okvir za isecanje · prevucite unutra za pomeranje · ivice menjaju veličinu ({ratio} odnos, {centre} centar) · Space pomera tokom crtanja · strelice pomeraju malo · X menja orijentaciju · {commit} potvrđuje · Esc otkazuje
 	Drag a crop box · drag inside to move · edges resize ({ratio} ratio, {centre} centre) · Space moves while drawing · {commit} commits · Esc cancels	Prevucite okvir za opsecanje · prevlačenje unutra pomera · ivice menjaju veličinu ({ratio} odnos, {centre} centar) · razmaknica pomera tokom crtanja · {commit} potvrđuje · Esc otkazuje
 	Drag a rectangle around the object	Prevucite pravougaonik oko objekta
 	Drag around the center to rotate the view  ·  Shift constrains to 15°	Prevlačite oko centra da rotirate prikaz  ·  Shift ograničava na korake od 15°
+	Drag around the centre to rotate the view  ·  Shift constrains to 15°	Prevucite oko centra da rotirate prikaz  ·  Shift ograničava korak na 15°
 	Drag on the image to add a constraint; Shift for horizontal/vertical; right-click a constraint to change or delete it.	Prevucite po slici da dodate ograničenje; Shift za horizontalno/vertikalno; desni klik na ograničenje za izmenu ili brisanje.
+	Drag on the image to add a constraint; Shift for horizontal/vertical; right-click to delete.	Prevucite po slici da dodate ograničenje; Shift za horizontalno/vertikalno; desni klik za brisanje.
 	Drag or click polygon points · hold Alt during lasso for straight segments · {add} add · {sub} before drawing subtracts	Prevucite ili kliknite tačke mnogougla · držite Alt tokom crtanja lasom za prave segmente · {add} dodaje · {sub} pre crtanja oduzima
 	Drag the arrow to set the angle, the dots to set the roundness	Prevucite strelicu da podesite ugao, a tačke da podesite zaobljenost
 	Drag the handles on the outline to resize and turn it, the square to round its corners, and the dots inside to set where the blur starts.	Prevucite ručke na obrisu da promenite veličinu i rotirate ga, kvadrat da zaoblite uglove, a tačke unutra da odredite gde zamućenje počinje.
@@ -1078,9 +1126,12 @@ cameraRaw	Detail	Detalji
 	Drag: draw freehand · {alt}-click: straight segment · Release on the start point: close	Prevlačenje: crtanje slobodnom rukom · {alt}-klik: pravi segment · Otpuštanje na početnoj tački: zatvori
 	Draw to modify the curve	Crtajte da izmenite krivu
 	Draw with the Pen tool (P) or make a work path from a selection.	Crtajte alatkom pero (P) ili napravite radnu putanju od selekcije.
+	Drawn on the CPU: {reason}. Click for System Info.	Iscrtano na procesoru: {reason}. Kliknite za informacije o sistemu.
 	Driver: {driver}	Upravljački program: {driver}
 	Drop an image or PSD anywhere to open it.	Prevucite sliku ili PSD bilo gde da biste je otvorili.
 	Drop shadow	Bačena senka
+	Dropped files weren't placed: their document was closed.	Prevučene datoteke nisu postavljene: njihov dokument je zatvoren.
+	Dropped files weren't placed: too many are waiting for their document.	Prevučene datoteke nisu postavljene: previše njih čeka svoj dokument.
 	Dry Brush	Suva četkica
 	Dual Axis	Dvostruka osa
 	Dual Brush	Dvostruka četkica
@@ -1127,7 +1178,6 @@ smartSvg	Edit SVG Smart Object	Uredi SVG pametni objekat
 cameraRaw	Effects	Efekti
 	Efficiency	Efikasnost
 	Efficiency: 100%	Efikasnost: 100%
-	Ellipse	Elipsa
 	Elliptical Marquee Tool	Alatka za eliptičnu selekciju
 	Email	E-pošta
 	Embed All Linked	Ugradi sve povezane
@@ -1136,8 +1186,10 @@ cameraRaw	Effects	Efekti
 	Embed profiles	Ugradi profile
 	Embedded Profile Mismatch	Neslaganje ugrađenog profila
 	Emboss…	Reljef…
+	Empty	Prazno
 	Emulsion Down	Emulzija nadole
 	Enable airbrush-style build-up effects	Omogući postepeno nagomilavanje kao kod vazdušne četkice
+	Enable animations	Uključi animacije
 	Enable Crop Shield	Omogući zaštitni sloj opsecanja
 	Enable flick panning	Omogući pomeranje prikaza zamahom
 	Enable floating document window docking	Omogući usidravanje plutajućih prozora dokumenata
@@ -1150,6 +1202,7 @@ cameraRaw	Effects	Efekti
 	Enable Vector Mask	Omogući vektorsku masku
 	Enable {name}	Omogući {name}
 	Enabled	Omogućeno
+	End	Kraj
 	End X	Kraj X
 	End Y	Kraj Y
 	Enhance Edge	Poboljšaj ivicu
@@ -1163,6 +1216,7 @@ cameraRaw	Effects	Efekti
 	Equalize	Izjednači
 	Equalize Entire Image Based On Selected Area	Izjednači celu sliku prema selekciji
 	Equalize Selected Area Only	Izjednači samo selekciju
+	Erase with Brush or Pencil (hold)	Briši četkicom ili olovkom (drži)
 	Error File	Datoteka grešaka
 	Errors	Greške
 	Esc to cancel	Esc za otkazivanje
@@ -1181,6 +1235,8 @@ cameraRaw	Effects	Efekti
 	Expand Panel Group	Proširi grupu panela
 	Expand…	Proširi…
 	Expansion:	Proširenje:
+	Export As: {name}	Izvezi kao: {name}
+	Export As: {n} layers	Izvezi kao: broj slojeva {n}
 	Export clipboard	Izvezi ostavu
 	Export Contents	Izvezi sadržaj
 	Export Contents…	Izvezi sadržaj…
@@ -1198,6 +1254,7 @@ cameraRaw	Effects	Efekti
 	Export/Import Presets…	Izvoz/uvoz šablona…
 	Exported contents to {path}	Sadržaj je izvezen u {path}
 	Exported presets to {path}	Šabloni su izvezeni u {path}
+	Exported {n} files	Izvezeno datoteka: {n}
 @plural	Exported {n} style to {file}|Exported {n} styles to {file}	Izvezen je {n} stil u {file}|Izvezena su {n} stila u {file}|Izvezeno je {n} stilova u {file}
 @plural	Exported {n} swatch to {file}|Exported {n} swatches to {file}	Izvezen je {n} uzorak boje u {file}|Izvezena su {n} uzorka boja u {file}|Izvezeno je {n} uzoraka boja u {file}
 	Exported {path} ({size})	Izvezeno: {path} ({size})
@@ -1238,7 +1295,7 @@ cameraData	F-Stop	F-broj
 	Fallback: {reason}	Rezervno rešenje: {reason}
 	Faux Bold	Lažno podebljano
 	Faux Italic	Lažni kurziv
-	Favorite fonts	Омиљени фонтови
+	Favorite fonts	Omiljeni fontovi
 cameraRaw	Feather	Omekšavanje
 	Feather Radius	Poluprečnik omekšavanja
 	Feather…	Omekšaj ivice…
@@ -1248,7 +1305,6 @@ cameraRaw	Feather	Omekšavanje
 	Fibers…	Vlakna…
 	Field Blur	Zamućenje polja
 	Field Blur…	Zamućenje polja…
-	File	Datoteka
 	File Handling…	Rukovanje datotekama…
 	File Info	Informacije o datoteci
 	File Naming	Imenovanje datoteka
@@ -1260,6 +1316,7 @@ layers	Fill	Popuna
 	Fill Color	Boja popune
 	Fill color	Boja popune
 	Fill Content	Sadržaj popune
+	Fill from History	Popuni iz istorije
 	Fill Layer	Sloj popune
 	Fill Light	Svetlo popune
 	Fill new type layers with placeholder	Popuni nove tekstualne slojeve probnim tekstom
@@ -1271,6 +1328,10 @@ layers	Fill	Popuna
 	Fill Screen	Popuni ekran
 	Fill Settings	Podešavanja popune
 	Fill the expanded area with your background color or transparent pixels	Popunite proširenu oblast bojom pozadine ili providnim pikselima
+	Fill with Background Color	Popuni pozadinskom bojom
+	Fill with Background Color, Preserve Transparency	Popuni pozadinskom bojom, zadrži providnost
+	Fill with Foreground Color	Popuni prednjom bojom
+	Fill with Foreground Color, Preserve Transparency	Popuni prednjom bojom, zadrži providnost
 	Fill with {mode}-neutral color (50% gray)	Popuni neutralnom bojom za {mode} (50% siva)
 	Fill with {mode}-neutral color (black)	Popuni neutralnom bojom za {mode} (crna)
 	Fill with {mode}-neutral color (white)	Popuni neutralnom bojom za {mode} (bela)
@@ -1279,9 +1340,12 @@ layers	Fill:	Popuna:
 	Film & Video	Film i video
 	Film Grain	Filmsko zrno
 	Filter for adjustment layers	Filtriraj korekcione slojeve
+	Filter for embedded smart objects	Filtriraj ugrađene pametne objekte
+	Filter for linked smart objects that are missing	Filtriraj povezane pametne objekte koji nedostaju
 	Filter for pixel layers	Filtriraj piksel slojeve
 	Filter for shape layers	Filtriraj slojeve oblika
 	Filter for smart objects	Filtriraj pametne objekte
+	Filter for smart objects linked locally	Filtriraj lokalno povezane pametne objekte
 	Filter for type layers	Filtriraj tekstualne slojeve
 	Filter Gallery	Galerija filtera
 	Filter Gallery…	Galerija filtera…
@@ -1296,15 +1360,15 @@ layers	Fill:	Popuna:
 	Finger Painting	Slikanje prstom
 	First Brush	Prva četkica
 	First Color Readout	Prvo očitavanje boje
-	First commit	Prvi komit
 	First Line Indent	Uvlačenje prvog reda
 	Fish	Riba
 	Fisheye	Riblje oko
 	Fit Artboard on Screen	Uklopi radnu tablu u ekran
-	Fit Content to Frame	Прилагоди садржај оквиру
-	Fit Frame to Content	Прилагоди оквир садржају
+	Fit Content to Frame	Prilagodi sadržaj okviru
+	Fit Frame to Content	Prilagodi okvir sadržaju
 	Fit Image	Uklopi sliku
 	Fit Image…	Uklopi sliku…
+	Fit Layer on Screen	Uklopi sloj na ekran
 	Fit Layer(s) on Screen	Uklopi sloj(eve) u ekran
 	Fit on Screen	Uklopi u ekran
 	Fit Screen	Uklopi u ekran
@@ -1340,6 +1404,7 @@ layers	Fill:	Popuna:
 	Floating point	Pokretni zarez
 	Flow	Protok
 	Flow Jitter	Kolebanje protoka
+	Flow:	Protok:
 	Flower Color	Boja cveta
 	Focal Distance	Žižna udaljenost
 	Focal Length	Žižna daljina
@@ -1351,7 +1416,7 @@ cameraData	Focal Length (35 mm)	Žižna daljina (35 mm)
 	Follows only edges this close to the pointer ([ and ] change it)	Prati samo ivice na ovoj udaljenosti od pokazivača ([ i ] je menjaju)
 	Font preview	Pregled fonta
 	Font Preview Size	Veličina pregleda fonta
-	Font preview:	Преглед фонта:
+	Font preview:	Pregled fonta:
 	Font size presets	Unapred podešene veličine fonta
 	Foreground	Prednji plan
 	Foreground Color	Boja prednjeg plana
@@ -1359,9 +1424,10 @@ cameraData	Focal Length (35 mm)	Žižna daljina (35 mm)
 	Foreground to Background	Od prednjeg plana do pozadine
 	Foreground/Background Jitter	Kolebanje prednjeg plana/pozadine
 	Format Options	Opcije formata
+	Forward	Napred
 	Forward Warp	Guranje napred
 	Fragment	Fragmentacija
-	Frame coordinates must be finite and within 600000 pixels	Координате оквира морају бити коначне и унутар 600000 пиксела
+	Frame coordinates must be finite and within 600000 pixels	Koordinate okvira moraju biti konačne i unutar 600000 piksela
 	Frame Duration	Trajanje kadra
 	Frame from Layers	Okvir od slojeva
 	Frame from Layers…	Okvir od slojeva…
@@ -1389,6 +1455,7 @@ cameraData	Focal Length (35 mm)	Žižna daljina (35 mm)
 	Full size tip	Vrh pune veličine
 	Full Spherical	Potpuno sferno
 	Full-resolution preview unavailable	Pregled u punoj rezoluciji nije dostupan
+cameraRaw	Full-resolution preview unavailable	Pregled u punoj rezoluciji nije dostupan
 	Fullscreen	Ceo ekran
 	Fuzziness	Rasplinutost
 	Fuzziness:	Rasplinutost:
@@ -1452,8 +1519,10 @@ cameraRaw	Global	Globalno
 	Gradient Preset Options	Opcije šablona gradijenta
 	Gradient stops	Tačke gradijenta
 	Gradient-corrected interpolation: sharp and fast, with some color fringing on fine detail.	Interpolacija sa korekcijom gradijenta: oštra i brza, sa malo obojenih rubova na finim detaljima.
+	Gradient-corrected interpolation: sharp and fast, with some colour fringing on fine detail.	Interpolacija sa korekcijom gradijenta: oštra i brza, uz nešto obojenih rubova na sitnim detaljima.
 	gradients	gradijenti
 	Gradient…	Gradijent…
+cameraRaw	Grain	Zrno
 	Grain Amount	Količina zrna
 	Grain Roughness	Hrapavost zrna
 	Grain Size	Veličina zrna
@@ -1502,7 +1571,8 @@ cameraRaw	Green	Zelena
 	H	V
 	Half Round	Polukrug
 	Halftone Screen	Polutonski raster
-	Handwritten	Рукописни
+	Hand Tool (hold)	Alatka ruke (drži)
+	Handwritten	Rukopisni
 	Hanging Punctuation	Viseća interpunkcija
 	Hardness	Tvrdoća
 	Hardness:	Tvrdoća:
@@ -1524,32 +1594,36 @@ cameraRaw	Green	Zelena
 	Hide All Effects	Sakrij sve efekte
 	Hide Auto Slices	Sakrij automatske isečke
 	Hide bar	Sakrij traku
-	Hide Font Classes	Сакриј класе фонтова
+	Hide Font Classes	Sakrij klase fontova
 	Hide Layers	Sakrij slojeve
 	Hide Properties	Sakrij svojstva
 	Hide Selection	Sakrij selekciju
-	Hide Styles	Сакриј стилове
+	Hide Styles	Sakrij stilove
 	Hide the layer's effects  ({key}-click: all layers)	Sakrij efekte sloja  ({key}-klik: svi slojevi)
 	Hide the layer's effects  (⌥-click: all layers)	Sakrij efekte sloja  (⌥-klik: svi slojevi)
 	Hide the layer's effects and Smart Filters  ({key}-click: all layers)	Sakrij efekte i pametne filtere sloja  ({key}-klik: svi slojevi)
 	Hide {app}	Sakrij {app}
+	High Memory Photoshop Document	Photoshop dokument sa velikim zahtevima za memorijom
 	High Pass…	Visokopropusni filter…
 	High Quality Preview	Pregled visokog kvaliteta
 	Higher values follow only edges that contrast sharply with their surroundings	Veće vrednosti prate samo ivice koje su u oštrom kontrastu sa okolinom
 	Highlight	Svetlo
 	Highlight Amount	Količina svetla
 	Highlight Clipping Warning (O)	Upozorenje o odsecanju svetla (O)
-	Highlight Color	Боја осветљења
+cameraRaw	Highlight Clipping Warning (O)	Upozorenje o odsecanju svetlih tonova (O)
+	Highlight Color	Boja osvetljenja
 	Highlight Compression	Kompresija svetlih tonova
-	Highlight Mode	Режим осветљења
-	Highlight Opacity	Непрозирност осветљења
+	Highlight Mode	Režim osvetljenja
+	Highlight Opacity	Neprozirnost osvetljenja
 	Highlight Priority	Prioritet svetlih tonova
+cameraRaw	Highlight Priority	Prednost svetlih tonova
 	Highlight Radius	Poluprečnik svetla
 	Highlight Strength	Jačina svetla
 	Highlight Tone	Ton svetla
 cameraRaw	Highlights	Svetla
 	Highlights from:	Svetla od:
-	Hirakawa–Parks: the cleanest edges and the least color fringing, the slowest.	Hirakawa–Parks: najčistije ivice i najmanje obojenih rubova, najsporiji.
+	Hirakawa–Parks: the cleanest edges and the least color fringing, the slowest.	Hirakava–Parks: najčistije ivice i najmanje obojenih rubova, najsporije.
+	Hirakawa–Parks: the cleanest edges and the least colour fringing, the slowest.	Hirakava–Parks: najčistije ivice i najmanje obojenih rubova, najsporije.
 	Histories	Istorije
 	History Brush	Četkica istorije
 	History Brush Tool	Alatka četkica istorije
@@ -1558,8 +1632,8 @@ cameraRaw	Highlights	Svetla
 	History Options…	Opcije istorije…
 	History states	Stanja istorije
 	Hold Alt while drawing for straight segments	Držite Alt tokom crtanja za prave segmente
-	Home	Početna
 	Horizontal Centers	Horizontalni centri
+	Horizontal Distortion	Horizontalno izobličenje
 	Horizontal Only	Samo horizontalno
 	Horizontal type	Horizontalni tekst
 	Horizontal Type Mask Tool	Alatka za horizontalnu masku teksta
@@ -1568,6 +1642,7 @@ cameraRaw	Highlights	Svetla
 	How expanded crop area gets filled	Kako se popunjava proširena oblast isecanja
 	How often fastening points are placed by themselves	Koliko se često tačke pričvršćivanja postavljaju same
 	How the camera's color filter mosaic is filled in. It is applied when the file opens; the preview shows the method it was opened with.	Kako se popunjava mozaik filtera boja kamere. Primenjuje se pri otvaranju datoteke; pregled prikazuje metod kojim je datoteka otvorena.
+	How the camera's colour filter mosaic is filled in. It is applied when the file opens; the preview shows the method it was opened with.	Kako se popunjava mozaik filtera boja kamere. Primenjuje se pri otvaranju datoteke; pregled prikazuje metod kojim je otvorena.
 	Hsb	HSB
 	HSB Color	HSB boja
 	HSB Sliders	HSB klizači
@@ -1601,12 +1676,16 @@ cameraRaw	Hue	Nijansa
 	Image Size:	Veličina slike:
 	Image Size…	Veličina slike…
 	Import .GRD	Uvezi .GRD
+	Import as New Group	Uvezi kao novu grupu
+	Import as New Group keeps “{group}” and adds the file as a new group beside it.	Uvoz kao nova grupa zadržava „{group}“ i dodaje datoteku kao novu grupu pored nje.
+	Import Brush from Image…	Uvezi četkicu iz slike…
 	Import Brushes	Uvezi četkice
 	Import brushes (.abr)	Uvezi četkice (.abr)
 	Import Brushes…	Uvezi četkice…
+	Import Brushes… (.abr or image)	Uvezi četkice… (.abr ili slika)
 	Import Brushes… (.abr)	Uvezi četkice… (.abr)
 	Import Image	Uvezi sliku
-	Import Image…	Увези слику…
+	Import Image…	Uvezi sliku…
 	Import keyboard shortcuts?	Uvesti prečice na tastaturi?
 	Import Options	Opcije uvoza
 	Import Photoshop brushes (.abr)	Uvezi Photoshop četkice (.abr)
@@ -1619,6 +1698,7 @@ cameraRaw	Hue	Nijansa
 @plural	Imported {n} brush from {file}|Imported {n} brushes from {file}	Uvezena je {n} četkica iz {file}|Uvezene su {n} četkice iz {file}|Uvezeno je {n} četkica iz {file}
 @plural	Imported {n} brush from {group}|Imported {n} brushes from {group}	Uvezena je {n} četkica iz {group}|Uvezene su {n} četkice iz {group}|Uvezeno je {n} četkica iz {group}
 @plural	Imported {n} gradient from {file}|Imported {n} gradients from {file}	Uvezen je {n} gradijent iz {file}|Uvezena su {n} gradijenta iz {file}|Uvezeno je {n} gradijenata iz {file}
+@plural	Imported {n} pattern from {file}|Imported {n} patterns from {file}	Uvezen {n} uzorak iz {file}|Uvezena {n} uzorka iz {file}|Uvezeno {n} uzoraka iz {file}
 	Imported {n} shortcuts from {file}. Click OK to keep them.	Uvezeno {n} prečica iz {file}. Kliknite U redu da ih zadržite.
 @plural	Imported {n} style from {file}|Imported {n} styles from {file}	Uvezen je {n} stil iz {file}|Uvezena su {n} stila iz {file}|Uvezeno je {n} stilova iz {file}
 @plural	Imported {n} swatch from {file}|Imported {n} swatches from {file}	Uvezen je {n} uzorak boje iz {file}|Uvezena su {n} uzorka boja iz {file}|Uvezeno je {n} uzoraka boja iz {file}
@@ -1637,6 +1717,8 @@ cameraRaw	Hue	Nijansa
 	Including layers will increase file size.	Uključivanje slojeva povećaće veličinu datoteke.
 	Increase Brush Hardness	Povećaj tvrdoću četkice
 	Increase Brush Size	Povećaj veličinu četkice
+	Increase Type Size	Povećaj veličinu teksta
+	Increase Type Size by 10	Povećaj veličinu teksta za 10
 	Indent First	Uvlačenje prvog reda
 	Indent first line	Uvuci prvi red
 	Indent Left	Levo uvlačenje
@@ -1666,12 +1748,14 @@ cameraRaw	Hue	Nijansa
 	Insert Blank Frame	Umetni prazan kadar
 	Insert Stop…	Umetni zaustavljanje…
 	Installed RAM: {ram} MB; this limit: {percent}%	Instalisan RAM: {ram} MB; ovaj limit: {percent}%
+	Installed version: {version}	Instalirana verzija: {version}
 	Integer	Celobrojno
 	Integrated Density	Integrisana gustina
 	Integrations	Integracije
 	Integrations…	Integracije…
 	Intent	Način konverzije
 	Interface…	Interfejs…
+	Internet Standard RGB	Internet standardni RGB
 	Internet Standard RGB (sRGB)	Internet standard RGB (sRGB)
 	Interpolation:	Interpolacija:
 	Interpret Footage	Tumači snimak
@@ -1683,13 +1767,14 @@ cameraRaw	Hue	Nijansa
 	Intersect with selection  (⇧⌥)	Presek sa selekcijom  (⇧⌥)
 	Interval	Interval
 	Invalid delete command	Neispravna komanda za brisanje
-	Invalid frame transform	Неважећа трансформација оквира
+	Invalid frame transform	Nevažeća transformacija okvira
 	Invalid guide layout	Neispravan raspored vodilja
-	Invalid nested file drop	Неважеће угнежђено испуштање датотеке
+	Invalid nested file drop	Nevažeće ugnežđeno ispuštanje datoteke
 	Invalid numeric entry. An integer between {min}% and {max}% is required. Previous value was inserted.	Neispravan numerički unos. Potreban je ceo broj između {min}% i {max}%. Umetnuta je prethodna vrednost.
 	Invalid panel layout; restored the default dock	Neispravan raspored panela; vraćen je podrazumevani raspored
 	Invalid {mode} profile	Neispravan {mode} profil
 	Inverse	Inverzno
+	Inverse Selection	Obrni izbor
 colorRange	Invert	Invertuj
 	Invert All	Invertuj sve
 	Invert has no settings.	Invertovanje nema podešavanja.
@@ -1709,7 +1794,6 @@ fontWeight	Italic	Kurziv
 	JPEG Options	JPEG opcije
 	Jpeg quality	JPEG kvalitet
 	Jpg	JPG
-	Justify	Poravnaj obostrano
 	Justify all	Obostrano poravnaj sve redove
 	Justify last centered	Obostrano, poslednji red centriran
 	Justify last left	Obostrano, poslednji red levo
@@ -1731,7 +1815,6 @@ fontWeight	Italic	Kurziv
 	Lab Color	Lab boje
 	Lab Sliders	Lab klizači
 	Label Size	Veličina oznake
-	Labels	Oznake
 	Lanczos (sharp)	Lanczos (oštro)
 	Landscape, 10 x 8	Položeno, 10 x 8
 	Landscape, 6 x 4	Položeno, 6 x 4
@@ -1740,9 +1823,7 @@ fontWeight	Italic	Kurziv
 	Large tabs	Velike kartice
 	Large Thumbnails	Velike sličice
 	Lasso around an area, then drag the selection	Zaokružite oblast lasom, a zatim prevucite selekciju
-	Last	Poslednji
 	Last Brush	Poslednja četkica
-	Last commit	Poslednji komit
 	Last Document State	Poslednje stanje dokumenta
 	Last Filter	Poslednji filter
 	Last Modified	Poslednja izmena
@@ -1759,6 +1840,7 @@ fontWeight	Italic	Kurziv
 	Layer Count	Broj slojeva
 	Layer deleted, but confirmation preference could not be saved: {error}	Sloj je obrisan, ali podešavanje potvrde nije moglo da se sačuva: {error}
 	Layer Edges	Ivice sloja
+	Layer Effects	Efekti sloja
 	Layer From Background	Sloj od pozadine
 	Layer from Background	Sloj od pozadine
 	Layer From Background…	Sloj od pozadine…
@@ -1793,6 +1875,7 @@ fontWeight	Italic	Kurziv
 	Left-to-right paragraph direction	Smer pasusa sleva nadesno
 	Legacy	Staro
 	Legacy compositing	Staro komponovanje
+	Legacy Macintosh RGB	Stari Macintosh RGB
 	Legacy Macintosh RGB (Gamma 1.8)	Stari Macintosh RGB (Gamma 1.8)
 	Lens	Objektiv
 cameraData	Lens	Objektiv
@@ -1805,8 +1888,8 @@ cameraData	Lens	Objektiv
 	Lens Info	Podaci o objektivu
 	Letter Spacing	Razmak između slova
 	Level Based	Prema nivoima
+	Level:	Nivo:
 	Ligature	Ligatura
-	Light	Svetlo
 cameraRaw	Light	Svetlo
 fontWeight	Light	Lagano
 	Light Dark Balance	Balans svetlog i tamnog
@@ -1830,12 +1913,9 @@ cameraRaw	Lights	Svetli tonovi
 	Linear Dodge (Add)	Linearno posvetljivanje (sabiranje)
 	Linear Height	Linearna visina
 	Linear-srgb	Linearni sRGB
-	Lines +/−	Linije +/−
-	Lines added	Dodate linije
-	Lines deleted	Obrisane linije
 	Lines/Centimeter	Linija/centimetar
 	Lines/Inch	Linija/inč
-	Link	Poveži
+	Lining	Cifre jednake visine
 	Link Layer Mask	Poveži masku sloja
 	Link Layers	Poveži slojeve
 	Link layers	Poveži slojeve
@@ -1844,11 +1924,11 @@ cameraRaw	Lights	Svetli tonovi
 	Link Vector Mask	Poveži vektorsku masku
 	Link width and height	Poveži širinu i visinu
 	Link with Layer	Poveži sa slojem
+	Linked	Povezano
 	Linux display server	Linux server prikaza
 	Liquify	Tečno izobličavanje
 	Liquify is not open	Tečno izobličavanje nije otvoreno
 	Liquify…	Tečno izobličavanje…
-	List	Spisak
 	Live Preview	Pregled uživo
 	Load	Učitaj
 	Load 3D LUT	Učitaj 3D LUT
@@ -1861,15 +1941,19 @@ cameraRaw	Lights	Svetli tonovi
 	Load Default Type Styles	Učitaj podrazumevane stilove teksta
 	Load Files into Stack	Učitaj datoteke u stek
 	Load Files into Stack…	Učitaj datoteke u stek…
+	Load Luminosity	Učitaj luminoznost
 	Load path as a selection	Učitaj putanju kao selekciju
 	Load Selection	Učitaj selekciju
 	Load Selection…	Učitaj selekciju…
 	Load settings from a Camera Raw .xmp file	Učitaj podešavanja iz Camera Raw .xmp datoteke
+cameraRaw	Load settings from a Camera Raw .xmp file	Učitaj podešavanja iz Camera Raw .xmp datoteke
 	Load Settings…	Učitaj podešavanja…
+cameraRaw	Load Settings…	Učitaj podešavanja…
 	Load the brush after each stroke	Napuni četkicu posle svakog poteza
 	Load transparency as alpha channel	Učitaj providnost kao alfa kanal
 	Loaded contours from {file}	Konture učitane iz {file}
 	Loaded RAW Develop settings from {file}	RAW obrada podešavanja su učitana iz {file}
+cameraRaw	Loaded RAW Develop settings from {file}	Učitana su podešavanja obrade sirovih snimaka iz {file}
 	Loaded RAW Develop settings from {file} ({n} not supported)	RAW obrada podešavanja su učitana iz {file} (nije podržano: {n})
 @plural	Loaded {n} action from {file}|Loaded {n} actions from {file}	Učitana je {n} radnja iz {file}|Učitane su {n} radnje iz {file}|Učitano je {n} radnji iz {file}
 	Loading fonts…	Učitavanje fontova…
@@ -1901,7 +1985,7 @@ cameraRaw	Lights	Svetli tonovi
 	Lorem Ipsum	Lorem Ipsum
 	Lossless	Bez gubitaka
 	Low resolution previews	Pregledi niske rezolucije
-	Low-Latency Drawing (vsync off, applies at next launch)	Crtanje sa malim kašnjenjem (bez vsync-a, primenjuje se pri sledećem pokretanju)
+	Low-Latency Drawing (vsync off, applies at next launch)	Crtanje sa malim kašnjenjem (vsync isključen, važi od sledećeg pokretanja)
 	Lower	Donje
 	Lowercase extension	Ekstenzija malim slovima
 	Lum	Svet.
@@ -1934,6 +2018,7 @@ cameraData	Make	Proizvođač
 	Make Portrait	Postavi uspravno
 	Make Ramp Web Safe	Učini skalu bezbednom za veb
 	Make Selection	Napravi selekciju
+	Make Selection from Path	Napravi izbor od putanje
 	Make Selection…	Napravi selekciju…
 	Make Shape	Napravi oblik
 	Make Symmetry Path	Napravi putanju simetrije
@@ -1953,6 +2038,7 @@ cameraData	Make	Proizvođač
 	Marquee	Okvirna selekcija
 	Mask All	Maskiraj sve
 	Mask All Objects	Maskiraj sve objekte
+	Mask Channel	Kanal maske
 	Mask Incomplete Blocks	Maskiraj nepotpune blokove
 	Mask None	Bez maske
 	Mask Options	Opcije maske
@@ -1988,7 +2074,7 @@ fontWeight	Medium	Srednje
 	Medium Thumbnails	Srednje sličice
 	Memory Usage	Upotreba memorije
 	Memory usage mb	Korišćenje memorije (MB)
-	Memory usage percent	Проценат употребе меморије
+	Memory usage percent	Procenat upotrebe memorije
 	Menus	Meniji
 	Menus…	Meniji…
 	Merge Channels…	Spoji kanale…
@@ -2015,6 +2101,7 @@ cameraRaw	Midtones	Srednji tonovi
 	Midtones to:	Srednji tonovi do:
 	Migrate Presets	Prenesi šablone
 	Minimalistic	Minimalistički
+	Minimize Panel	Umanji panel
 	Minimum Depth	Minimalna dubina
 	Minimum Diameter	Minimalni prečnik
 	Minimum Roundness	Minimalna zaobljenost
@@ -2041,7 +2128,7 @@ cameraData	Model	Model
 	Monitor profile: {profile}	Profil monitora: {profile}
 	Mono Contrast	Jednobojni kontrast
 	Monochromatic	Jednobojno
-	Monospace	Фиксне ширине
+	Monospace	Fiksne širine
 	More documents	Više dokumenata
 	More options	Više opcija
 	More panels	Više panela
@@ -2073,11 +2160,10 @@ cameraData	Model	Model
 	Multiple Flames Various Length	Više plamenova različite dužine
 	My Brushes	Moje četkice
 	name	ime
-	Name (A–Z)	Ime (A–Z)
-	Name:	Ime:
 	Native file drag-and-drop is not supported on Wayland yet. Use File › Open, or copy the image in your file manager and paste it with {paste}.	Izvorno prevlačenje i otpuštanje datoteka još nije podržano na Wayland-u. Koristite Datoteka › Otvori ili kopirajte sliku u menadžeru datoteka i nalepite je pomoću {paste}.
 	Native file drag-and-drop is not supported on Wayland yet. Use File › Open, or run PhotoCraft under XWayland with `WAYLAND_DISPLAY= photocraft`.	Izvorno prevlačenje i otpuštanje datoteka još nije podržano na Wayland-u. Koristite Datoteka › Otvori ili pokrenite PhotoCraft pod XWayland-om pomoću `WAYLAND_DISPLAY= photocraft`.
 	Native file drag-and-drop is unavailable	Izvorno prevlačenje i otpuštanje datoteka nije dostupno
+	Nearest	Najbliže
 	Nearest Neighbor	Najbliži sused
 	Nearest neighbor	Najbliži sused
 	Nearest Neighbor (hard edges)	Najbliži sused (oštre ivice)
@@ -2105,7 +2191,7 @@ cameraData	Model	Model
 	New effect layer	Novi sloj efekta
 	New file	Novi fajl
 	New Fill Layer	Novi sloj popune
-	New Frame	Нови оквир
+	New Frame	Novi okvir
 	New from Clipboard	Novo iz ostave
 	New Group from Layers…	Nova grupa od slojeva…
 	New Group…	Nova grupa…
@@ -2134,12 +2220,14 @@ cameraData	Model	Model
 	New Video Layer	Novi video sloj
 	New Video Layer from File	Novi video sloj iz datoteke
 	New Video Layer from File…	Novi video sloj iz datoteke…
+	New Window for Document	Novi prozor za dokument
 	Newspaper	Novinski papir
 	Next Brush	Sledeća četkica
 	Next Document	Sledeći dokument
 	Next frame	Sledeći kadar
 	Next note	Sledeća beleška
 	Next Theme	Sledeća tema
+	No Adv. Blending	Bez naprednog mešanja
 	No author	Nema autora
 	No brush presets	Nema šablona četkica
 	No character style	Bez stila znakova
@@ -2147,12 +2235,16 @@ layerLabel	No Color	Bez boje
 	No Color Management	Bez upravljanja bojama
 	No contributor data was built into this copy.	U ovu kopiju nisu ugrađeni podaci o saradnicima.
 	No custom shape "{name}": pick one in the options bar or Window › Shapes	Nema prilagođenog oblika „{name}“: izaberite jedan na traci opcija ili u Prozor › Oblici
-	No favorite fonts yet: click the star beside a font to add it.	Још нема омиљених фонтова: кликните на звездицу поред фонта да бисте га додали.
-	No fonts match these filters.	Ниједан фонт не одговара овим филтерима.
+	No favorite fonts yet: click the star beside a font to add it.	Još nema omiljenih fontova: kliknite na zvezdicu pored fonta da biste ga dodali.
+	No fonts match these filters.	Nijedan font ne odgovara ovim filterima.
 	No Image	Nema slike
+	No import is waiting. Import the file again.	Nijedan uvoz ne čeka. Ponovo uvezite datoteku.
 	No Layer Comps	Nema kompozicija slojeva
+	No Layer Effects	Bez efekata sloja
+	No Layer Mask	Bez maske sloja
 	No Layers	Nema slojeva
 	No layers	Nema slojeva
+	No matching fonts	Nema odgovarajućih fontova
 	No matching settings	Nema odgovarajućih podešavanja
 	No model credits were built into this copy.	U ovu kopiju nisu ugrađene zasluge modela.
 	No object found there — drag a rectangle around it	Tu nije pronađen nijedan objekat — prevucite pravougaonik oko njega
@@ -2165,26 +2257,33 @@ layerLabel	No Color	Bez boje
 	No Results	Nema rezultata
 	No Results Found	Nije pronađen nijedan rezultat
 	No saved presets yet.	Još nema sačuvanih šablona.
-	No settings saved: these raws can't keep a sidecar here	Ništa nije sačuvano: ovi raw snimci ovde ne mogu imati prateću datoteku
-	No similar fonts: the current font doesn't say what it looks like.	Нема сличних фонтова: тренутни фонт не описује свој изглед.
+	No settings saved: these raws can't keep a sidecar here	Ništa nije sačuvano: ovi sirovi snimci ovde ne mogu imati prateću datoteku
+	No similar fonts: the current font doesn't say what it looks like.	Nema sličnih fontova: trenutni font ne opisuje svoj izgled.
 	No Spelling Suggestions	Nema predloga za pravopis
 	No subject found — try a rectangle around the object	Subjekat nije pronađen — probajte pravougaonik oko objekta
 	No subject found — try Object Selection or the Lasso	Subjekat nije pronađen — probajte selekciju objekta ili laso
 	No Thumbnails	Bez sličica
 	No tool presets.	Nema šablona alatki.
+	No Vector Mask	Bez vektorske maske
 	Noise Color	Šum boje
 	Noise Color Detail	Detalji šuma boje
 	Noise Luminance	Šum luminanse
 	Noise Luminance Detail	Detalji šuma luminanse
 	Noise Reduction	Smanjenje šuma
-	None	Ništa
+cameraRaw	Noise Reduction	Smanjenje šuma
 	none	nijedna
 	Nonlinear History	Nelinearna istorija
 	Normal tip	Normalan vrh
 	Not a web color: click for the nearest web color	Nije veb boja: kliknite za najbližu veb boju
+	Not a web colour: click for the nearest web colour	Nije veb-boja: kliknite za najbližu veb-boju
+	Not Clipped	Bez odsecanja
+	Not Empty	Nije prazno
 	Not enough grayscale documents for this mode.	Nema dovoljno dokumenata u nijansama sive za ovaj režim.
 	Not in Dictionary:	Nije u rečniku:
-	Not rendered: this adjustment ({key}) is kept as imported.	Није приказано: ово прилагођавање ({key}) је задржано онако како је увезено.
+	Not Linked	Nije povezano
+	Not Locked	Nije zaključano
+	Not rendered: this adjustment ({key}) is kept as imported.	Nije prikazano: ovo prilagođavanje ({key}) je zadržano onako kako je uvezeno.
+	Not Visible	Nije vidljivo
 	Note Paper	Papir za beleške
 	Note Tool	Alatka za beleške
 	Note tool	Alatka za beleške
@@ -2193,7 +2292,7 @@ layerLabel	No Color	Bez boje
 	Nothing to paste: PhotoCraft can't read the system clipboard here	Nema šta da se nalepi: PhotoCraft ovde ne može da čita sistemsku ostavu
 	Nothing to paste: the clipboard holds no image	Nema šta da se nalepi: u ostavi nema slike
 	Nothing to Redo	Nema šta da se ponovi
-	Nothing to save: these raws are at their default settings	Nema šta da se sačuva: ovi raw snimci imaju podrazumevana podešavanja
+	Nothing to save: these raws are at their default settings	Nema šta da se sačuva: ovi sirovi snimci imaju podrazumevana podešavanja
 	Nothing to Undo	Nema šta da se opozove
 	Notification Duration (seconds)	Trajanje obaveštenja (sekunde)
 	Now drag the selection onto another area	Sada prevucite selekciju na drugu oblast
@@ -2201,6 +2300,7 @@ layerLabel	No Color	Bez boje
 	Nudge Bundle Pause (ms)	Pauza za objedinjavanje pomeranja (ms)
 	Number Of Levels	Broj nivoa
 	Numbers	Brojevi
+	Numerals	Brojevi
 	Object Aware	Prema objektu
 	Object Aware needs a segmentation model, which isn't available yet	Režim Prema objektu zahteva model segmentacije, koji još nije dostupan
 	Object Finder	Pronalazač objekata
@@ -2213,21 +2313,25 @@ layerLabel	No Color	Bez boje
 	Offset…	Pomak…
 	Oil Paint	Uljana boja
 	Oil Paint…	Uljana boja…
+cameraRaw	OK	U redu
 	Oldstyle	Starinske cifre
 	on	uključeno
 	On Black	Na crnoj
 	On Layers	Na slojevima
 	On White	Na beloj
-	On your computer	На вашем рачунару
+	On your computer	Na vašem računaru
 	One Flame Along Path	Jedan plamen duž putanje
 	Onion Skin	Prozirni prikaz
 	Opacity Jitter	Kolebanje neprozirnosti
 	Opacity Mask	Maska neprozirnosti
 	Opacity must be between 0% and 100%.	Neprozirnost mora biti između 0% i 100%.
 	Opacity Threshold	Prag neprozirnosti
+cameraRaw	Open	Otvori
 	Open a document to define variables.	Otvorite dokument da biste definisali promenljive.
 	Open a document to select a color range.	Otvorite dokument da biste izabrali opseg boja.
+	Open a document to select a colour range.	Otvorite dokument da izaberete opseg boja.
 	Open a document to use the timeline.	Otvorite dokument da biste koristili vremensku liniju.
+	Open anyway	Ipak otvori
 	Open As	Otvori kao
 	Open as smart object	Otvori kao pametni objekat
 	Open As…	Otvori kao…
@@ -2235,23 +2339,29 @@ layerLabel	No Color	Bez boje
 	Open color-less EXR as ACEScg	Otvori EXR bez podatka o bojama kao ACEScg
 	Open documents as tabs	Otvaraj dokumente kao kartice
 	Open Document…	Otvori…
+	Open Download Page	Otvori stranicu za preuzimanje
 	Open EXR Parts…	Otvori EXR delove…
 	Open failed: {error}	Otvaranje nije uspelo: {error}
 	Open File	Otvori datoteku
 	Open Folder	Otvori fasciklu
 	Open Image	Otvori sliku
+	Open Panel in Own Window	Otvori panel u zasebnom prozoru
 	Open paths use centered strokes	Otvorene putanje koriste centrirani obrub
 	Open Recent is unavailable on the web	Otvori nedavno nije dostupno na vebu
 	open source	otvoreni kod
 	Open the release page to choose an installer for your system.	Otvorite stranicu izdanja da biste izabrali instalacioni program za svoj sistem.
 	Opened {name}	Otvoreno: {name}
+cameraRaw	Opened {name}	Otvoreno: {name}
 	Opened {url}	Otvoreno: {url}
 	OpenGL	OpenGL
 	Opening	Otvaranje
+	Opening this document uses more memory and may slow down your computer or other running applications.	Otvaranje ovog dokumenta koristi više memorije i može usporiti računar ili druge pokrenute aplikacije.
 	Opening {name}	Otvaranje: {name}
 	Opening {name}…	Otvaranje: {name}…
+	Opening “{name}” requires an estimated {est} GiB of memory ({avail} GiB available).	Za otvaranje dokumenta „{name}“ potrebno je približno {est} GiB memorije (dostupno {avail} GiB).
+	Opening “{name}” requires an estimated {est} GiB of memory. The available memory could not be measured.	Za otvaranje dokumenta „{name}“ potrebno je približno {est} GiB memorije. Dostupna memorija nije mogla da se izmeri.
 	Opening…	Otvaranje…
-	OpenType font	OpenType фонт
+	OpenType font	OpenType font
 	Open…     ⌘O	Otvori…     ⌘O
 	Operation	Operacija
 	Operation canceled	Operacija je otkazana
@@ -2273,6 +2383,7 @@ smartSvg	Other application	Druga aplikacija
 	Out From Center	Od centra ka spolja
 	Out Of Gamut	Van gamuta
 	Out of gamut for printing: click for the nearest printable color	Van gamuta za štampu: kliknite za najbližu boju koja može da se odštampa
+	Out of gamut for printing: click for the nearest printable colour	Izvan opsega boja za štampu: kliknite za najbližu boju koja se može odštampati
 	Out of memory	Nema dovoljno memorije
 	Out White	Izlazna bela
 	Outer Bevel	Spoljašnja kosina
@@ -2282,7 +2393,6 @@ smartSvg	Other application	Druga aplikacija
 	Output Levels:	Izlazni nivoi:
 	Output Settings	Podešavanja izlaza
 	Output To	Izlaz u
-	Oval	Oval
 	Overlay Color	Boja preklopa
 	Overlay Edge	Ivica preklopa
 	Overlay Opacity	Neprozirnost preklopa
@@ -2301,6 +2411,7 @@ smartSvg	Other application	Druga aplikacija
 	Paint Daubs	Mrlje boje
 	Paint over hair or fur on the image; Alt paints the other mode	Slikajte preko kose ili krzna na slici; Alt slika u drugom režimu
 	Paint Overlay	Preklop za slikanje
+cameraRaw	Paint Overlay	Prekrivač pri slikanju
 	Paints from the document's opening state	Slika iz stanja dokumenta pri otvaranju
 	Paints from the History panel's source state	Slika iz izvornog stanja panela Istorija
 	PAL/SECAM	PAL/SECAM
@@ -2332,6 +2443,7 @@ smartSvg	Other application	Druga aplikacija
 	Paths to Illustrator	Putanje u Illustrator
 	Paths to Illustrator…	Putanje u Illustrator…
 	Pattern Dither	Dither šarom
+	Pattern Fill…	Ispuna uzorkom…
 	Pattern Overlay	Prekrivanje šarom
 	Pattern Overlay…	Prekrivanje šarom…
 	Pattern Preview	Pregled šare
@@ -2347,6 +2459,7 @@ smartSvg	Other application	Druga aplikacija
 	Pen Tilt	Nagib olovke
 	Pencil Width	Širina olovke
 	Per-document RAM limit (MB)	RAM limit po dokumentu (MB)
+	Percentile:	Percentil:
 	Perceptual	Perceptivno
 	Performance…	Performanse…
 	Permission denied	Pristup je odbijen
@@ -2364,15 +2477,18 @@ smartSvg	Other application	Druga aplikacija
 	Photo Filter…	Foto-filter…
 	PhotoCraft	PhotoCraft
 smartSvg	PhotoCraft (internal editor)	PhotoCraft (interni uređivač)
-	PhotoCraft can't reach the system clipboard in this session. On Wayland, a Flatpak sandbox hides the protocol that images from other apps are read through.	PhotoCraft u ovoj sesiji ne može da pristupi sistemskoj ostavi. Na Wayland-u, Flatpak sandbox skriva protokol preko kog se čitaju slike iz drugih aplikacija.
+	PhotoCraft can't reach the system clipboard in this session. On Wayland, a Flatpak sandbox hides the protocol that images from other apps are read through.	PhotoCraft u ovoj sesiji ne može da pristupi sistemskoj ostavi. Na Wayland-u, Flatpak okruženje skriva protokol preko kog se čitaju slike iz drugih aplikacija.
 	PhotoCraft Defaults	Podrazumevano za PhotoCraft
 	PhotoCraft found your keyboard shortcut set {set} from another image editor on this computer: {n} of its shortcuts differ from PhotoCraft's. Import it?	PhotoCraft je na ovom računaru pronašao vaš skup prečica {set} iz drugog uređivača slika: {n} prečica se razlikuje od PhotoCraft-ovih. Uvesti ga?
+	PhotoCraft is up to date.	PhotoCraft je ažuran.
 	PhotoCraft is using the CPU image compositor. The window may still use your graphics adapter.	PhotoCraft koristi CPU kompozitor slike. Prozor i dalje može da koristi vaš grafički adapter.
 	PhotoCraft keeps retrying; until a save succeeds, preference changes are lost when it closes.	PhotoCraft nastavlja da pokušava; dok čuvanje ne uspe, izmene podešavanja se gube pri zatvaranju.
 	PhotoCraft Manages Colors	PhotoCraft upravlja bojama
 	PhotoCraft on GitHub	PhotoCraft na GitHub-u
+	PhotoCraft Updates	Ažuriranja PhotoCraft-a
 	PhotoCraft Website	Veb-sajt PhotoCraft-a
 	PhotoCraft website	Veb-sajt PhotoCraft-a
+	PhotoCraft {version} is available.	Dostupan je PhotoCraft {version}.
 	PhotoCraft — an open-source, native image editor written in Rust.	PhotoCraft — izvorni uređivač slika otvorenog koda, napisan u Rust-u.
 	PhotoCraft — Screen Color Picker	PhotoCraft — birač boja sa ekrana
 	Photography	Fotografija
@@ -2464,7 +2580,7 @@ smartSvg	PhotoCraft (internal editor)	PhotoCraft (interni uređivač)
 	Prevent auto-nesting in and out of Artboards and Frames	Spreči automatsko ugnežđavanje u radne table i okvire i izvlačenje iz njih
 	Preview Image	Pregled slike
 	Preview on canvas when reordering layers	Pregled na platnu pri promeni redosleda slojeva
-	Preview size	Preview size
+	Preview size	Veličina pregleda
 	Previous Brush	Prethodna četkica
 	Previous Document	Prethodni dokument
 	Previous frame	Prethodni kadar
@@ -2473,7 +2589,7 @@ smartSvg	PhotoCraft (internal editor)	PhotoCraft (interni uređivač)
 	Prime105	Fiksni objektiv 105
 	Prime35	Fiksni objektiv 35
 	Print One Copy	Štampaj jedan primerak
-	Print preview image	Print preview image
+	Print preview image	Slika pregleda štampe
 	Print resolution	Rezolucija štampe
 	Print Resolution:	Rezolucija štampe:
 	Print Settings…	Podešavanja štampanja…
@@ -2503,9 +2619,13 @@ smartSvg	PhotoCraft (internal editor)	PhotoCraft (interni uređivač)
 	Profile Mismatches: Ask When Opening	Neslaganje profila: pitaj pri otvaranju
 	Promote	Unapredi
 	Proof Colors	Probne boje
+	Proof Setup…	Podešavanje probnog prikaza…
 	ProPhoto	ProPhoto
 	ProPhoto RGB	ProPhoto RGB
 	Prophoto-compat	ProPhoto RGB (kompatibilno)
+	Proportional	Proporcionalno
+	Proportional Lining	Proporcionalne cifre jednake visine
+	Proportional Oldstyle	Proporcionalne starinske cifre
 	Protect Detail	Zaštiti detalje
 	Protect Foreground Color	Zaštiti boju prednjeg plana
 	Protect skin tones	Zaštiti tonove kože
@@ -2526,6 +2646,7 @@ cameraRaw	Purple	Ljubičasta
 	Push Left	Guranje ulevo
 	Put this command's shortcuts back as they were	Vrati prečice ove komande kakve su bile
 	Pyramids	Piramide
+	Quick Export As PNG	Brzi izvoz u PNG
 	Quick Export as PNG	Brzi izvoz u PNG
 	Quick export format	Format brzog izvoza
 	Quick export location	Lokacija brzog izvoza
@@ -2537,6 +2658,8 @@ cameraRaw	Purple	Ljubičasta
 	Quit	Izađi
 	Quit PhotoCraft	Izađi iz PhotoCraft-a
 	Quit {app}	Zatvori {app}
+	R G B	R G B
+	R g b	R g b
 cameraRaw	Radius	Poluprečnik
 	Radius X	Poluprečnik X
 	Radius Y	Poluprečnik Y
@@ -2553,17 +2676,21 @@ cameraRaw	Radius	Poluprečnik
 	Rasterize Type	Rasterizuj tekst
 	Rasterize Type Layer	Rasterizuj tekstualni sloj
 	Rate	Brzina
+liquify	Rate	Brzina
 	Raw Data	Neobrađeni podaci
 	RAW Defaults	Podrazumevana RAW podešavanja
-	Raw Defaults	Podrazumevana Raw podešavanja
+	Raw Defaults	Podrazumevana podešavanja sirovih snimaka
 	RAW Defaults…	Podrazumevana RAW podešavanja…
-	Raw Defaults…	Podrazumevana Raw podešavanja…
+	Raw Defaults…	Podrazumevana podešavanja sirovih snimaka…
 	RAW Develop	RAW obrada
 	RAW Develop ({name})	RAW obrada ({name})
+cameraRaw	RAW Develop ({name})	Obrada sirovog snimka ({name})
 	RAW Develop Filter	RAW obrada filter
 	RAW Develop Filter ({layer})	RAW obrada filter ({layer})
+cameraRaw	RAW Develop Filter ({layer})	Filter za obradu sirovih snimaka ({layer})
 	RAW Develop Filter…	RAW obrada filter…
 	RAW Develop isn't open	RAW obrada nije otvoren
+cameraRaw	RAW Develop isn't open	Obrada sirovih snimaka nije otvorena
 	Reading	Čitanje
 	Reading…	Čitanje…
 	Real-Time Refinement	Doterivanje u realnom vremenu
@@ -2600,6 +2727,7 @@ layerLabel	Red	Crvena
 	Refine Edge	Doteraj ivicu
 	Refine Edge Brush (R)	Četkica za doterivanje ivice (R)
 	Refine Edge Brush Tool	Alatka četkica za doterivanje ivice
+	Refine Edge…	Doteraj ivicu…
 	Refine Hair	Doteraj kosu
 	Refine Hair needs hair detection, which isn't available yet	Doterivanje kose zahteva detekciju kose, koja još nije dostupna
 	Refine Mode	Režim doterivanja
@@ -2609,6 +2737,7 @@ layerLabel	Red	Crvena
 	Registration Marks	Oznake registracije
 fontWeight	Regular	Obično
 	Release Clipping Mask	Otpusti masku isecanja
+	Release Notes	Beleške o izdanju
 	Relight…	Ponovno osvetljavanje…
 	Relink to File	Ponovo poveži sa datotekom
 	Relink to File…	Ponovo poveži sa datotekom…
@@ -2616,12 +2745,13 @@ fontWeight	Regular	Obično
 	Remember Settings	Zapamti podešavanja
 	Remember this choice for future images	Zapamti ovaj izbor za buduće slike
 	Remember to turn off the printer's own color management in Print Settings…	Ne zaboravite da isključite upravljanje bojama samog štampača u podešavanjima štampanja…
+	Remember to turn off the printer's own colour management in Print Settings…	Ne zaboravite da isključite upravljanje bojama samog štampača u podešavanjima štampe…
 	Remember workspace changes	Zapamti izmene radnog prostora
 	Remove after each stroke	Ukloni posle svakog poteza
 	Remove All	Ukloni sve
 	Remove All Pins	Ukloni sve čiode
 	Remove Black Matte	Ukloni crni oreol
-	Remove from Favorites	Уклони из омиљених
+	Remove from Favorites	Ukloni iz omiljenih
 	Remove from Recent	Ukloni iz nedavnih
 	Remove Jpeg Artifact	Ukloni JPEG artefakte
 	Remove pair	Ukloni par
@@ -2655,9 +2785,10 @@ fontWeight	Regular	Obično
 	Replace Contents	Zameni sadržaj
 	Replace Contents…	Zameni sadržaj…
 	Replace Contours…	Zameni konture…
+	Replace deletes everything in “{group}” first, including presets you edited or moved there. This can't be undone.	Zamena prvo briše sve u grupi „{group}“, uključujući podešavanja koja ste tamo izmenili ili premestili. Ovo se ne može opozvati.
 	Replace Footage	Zameni snimak
 	Replace Footage…	Zameni snimak…
-	Replace Image…	Замени слику…
+	Replace Image…	Zameni sliku…
 	Replace it with this document, or cancel and use File › Save As to keep both.	Zameni je ovim dokumentom ili otkaži i koristi Datoteka › Sačuvaj kao da zadržiš obe.
 	Replace Swatches…	Zameni uzorke boja…
 	Report a Bug	Prijavi grešku
@@ -2670,6 +2801,7 @@ fontWeight	Regular	Obično
 	Reset All Tools	Resetuj sve alatke
 	Reset all tools to their default settings?	Vratiti sve alatke na podrazumevana podešavanja?
 	Reset bar position	Vrati položaj trake
+	Reset Essentials	Vrati osnovni radni prostor
 	Reset GPU Backend	Resetuj GPU pozadinski sistem
 	Reset Section	Resetuj odeljak
 	Reset Swatches	Resetuj uzorke boja
@@ -2704,7 +2836,7 @@ fontWeight	Regular	Obično
 	Retry GPU tries the graphics processor again now.	Ponovo pokušaj sa GPU-om odmah ponovo isprobava grafički procesor.
 	Retry saving presets	Ponovo pokušaj čuvanje šablona
 	Reveal All	Otkrij sve
-	Reveal in Explorer	Prikaži u Exploreru
+	Reveal in Explorer	Prikaži u Explorer-u
 	Reveal Selection	Otkrij selekciju
 	Revert “{name}” to the last saved version? Your changes will be lost.	Vratiti „{name}“ na poslednju sačuvanu verziju? Vaše izmene će biti izgubljene.
 	Rgb	RGB
@@ -2728,7 +2860,6 @@ fontWeight	Regular	Obično
 	Roman Hanging Punctuation	Viseća interpunkcija za latinicu
 	Rope	Konopac
 	Roses	Ruže
-	Rotate	Rotacija
 	Rotate 180°	Rotiraj za 180°
 	Rotate 90° Clockwise	Rotiraj za 90° udesno
 	Rotate 90° Counter Clockwise	Rotiraj za 90° ulevo
@@ -2744,6 +2875,7 @@ fontWeight	Regular	Obično
 	Roughness	Hrapavost
 cameraRaw	Roughness	Hrapavost
 	Round	Zaobljeno
+	Rounded Rectangle Tool	Alatka za zaobljeni pravougaonik
 	Rounded Steps	Zaobljeni stepenici
 cameraRaw	Roundness	Zaobljenost
 	Roundness Jitter	Kolebanje zaobljenosti
@@ -2759,6 +2891,7 @@ cameraRaw	Roundness	Zaobljenost
 	Sample Size:	Veličina uzorka:
 	Sample:	Uzorak:
 	Sample: foreground color	Uzorak: boja prednjeg plana
+	Sample: foreground colour	Uzorak: prednja boja
 	Sampled Colors	Uzorkovane boje
 	Sampler	Uzorkivač
 	Sampling Area	Oblast uzorkovanja
@@ -2768,7 +2901,7 @@ cameraRaw	Roundness	Zaobljenost
 	Sampling: Background Swatch	Uzorkovanje: uzorak pozadine
 	Sampling: Continuous	Uzorkovanje: neprekidno
 	Sampling: Once	Uzorkovanje: jednom
-	Sans Serif	Без серифа
+	Sans Serif	Bez serifa
 	Sat	Zas.
 	Satin	Saten
 	Satin…	Saten…
@@ -2780,6 +2913,7 @@ cameraRaw	Saturation	Zasićenost
 	Save As Preset	Sačuvaj kao šablon
 	Save before closing?	Sačuvati pre zatvaranja?
 	Save canceled	Čuvanje je otkazano
+	Save cancelled	Čuvanje je otkazano
 	Save Changes	Sačuvaj izmene
 	Save Contours…	Sačuvaj konture…
 	Save Default Type Styles	Sačuvaj podrazumevane stilove teksta
@@ -2796,10 +2930,12 @@ cameraRaw	Saturation	Zasićenost
 	Save Pixel Aspect Ratio	Sačuvaj odnos stranica piksela
 	Save selection as channel	Sačuvaj selekciju kao kanal
 	Save Settings…	Sačuvaj podešavanja…
+cameraRaw	Save Settings…	Sačuvaj podešavanja…
 	Save Set…	Sačuvaj skup…
 	Save the changes to this set	Sačuvaj izmene u ovom skupu
-	Save the settings to each raw's sidecar without opening it	Sačuvaj podešavanja u prateću datoteku svakog raw snimka bez otvaranja
+	Save the settings to each raw's sidecar without opening it	Sačuvaj podešavanja u prateću datoteku svakog sirovog snimka bez otvaranja
 	Save these settings as a Camera Raw .xmp file	Sačuvaj ova podešavanja kao Camera Raw .xmp datoteku
+cameraRaw	Save these settings as a Camera Raw .xmp file	Sačuvaj ova podešavanja kao Camera Raw .xmp datoteku
 	Save these shortcuts as a .kys file	Sačuvaj ove prečice kao .kys datoteku
 	Save these shortcuts as a new set	Sačuvaj ove prečice kao novi skup
 smartSvg	Save to the opened SVG file. Each saved change becomes one undo step in PhotoCraft.	Sačuvajte u otvorenu SVG datoteku. Svaka sačuvana izmena postaje jedan korak opoziva u PhotoCraft-u.
@@ -2809,10 +2945,10 @@ smartSvg	Save to the opened SVG file. Each saved change becomes one undo step in
 	Saved contours to {file}	Konture sačuvane u {file}
 @plural	Saved for Web: {n} file|Saved for Web: {n} files	Sačuvano za veb: {n} datoteka|Sačuvano za veb: {n} datoteke|Sačuvano za veb: {n} datoteka
 	Saved Multichannel	Sačuvano višekanalno
-	Saved RAW Develop settings to {file}	Подешавања RAW obrada сачувана у {file}
+	Saved RAW Develop settings to {file}	Podešavanja RAW obrada sačuvana u {file}
 	Saved {name}	Sačuvano: {name}
 @plural	Saved {n} action to {file}|Saved {n} actions to {file}	Sačuvana je {n} radnja u {file}|Sačuvane su {n} radnje u {file}|Sačuvano je {n} radnji u {file}
-@plural	Saved {n} color to {file}|Saved {n} colors to {file}	Сачувана је {n} боја у {file}|Сачуване су {n} боје у {file}|Сачувано је {n} боја у {file}
+@plural	Saved {n} color to {file}|Saved {n} colors to {file}	Sačuvana je {n} boja u {file}|Sačuvane su {n} boje u {file}|Sačuvano je {n} boja u {file}
 	Saved {path}; image assets: {n} in {dir}	Sačuvano: {path}; slikovni resursi: {n} u {dir}
 	Saving brush presets… Keep this tab open until saving finishes.	Čuvanje šablona četkica… Držite ovu karticu otvorenom dok se čuvanje ne završi.
 	Saving {name}	Čuvanje: {name}
@@ -2836,7 +2972,7 @@ smartSvg	Save to the opened SVG file. Each saved change becomes one undo step in
 	Scratch Sizes	Veličine radnog diska
 	Scratch: {size}	Radni disk: {size}
 	Screen resolution	Rezolucija ekrana
-	Script	Скрипт
+	Script	Skript
 	Script Events Manager	Upravljač događajima skripti
 	Script Events Manager…	Upravljač događajima skripti…
 	Scroll All Windows	Pomeraj sve prozore
@@ -2890,7 +3026,6 @@ smartSvg	Save to the opened SVG file. Each saved change becomes one undo step in
 	Selected Areas	Izabrane oblasti
 	Selected Artboards	Izabrane radne table
 	Selected at launch: {backend}	Izabrano pri pokretanju: {backend}
-	Selection	Selekcija
 	Selection Edges	Ivice selekcije
 	Selection Preview:	Pregled selekcije:
 	Selections	Selekcije
@@ -2902,10 +3037,32 @@ fontWeight	SemiBold	Polupodebljano
 	Send the selected pin backward	Pomeri izabranu čiodu nazad
 	Sent to the printer ({spooler})	Poslato na štampač ({spooler})
 	Sepia	Sepija
-	Serif	Са серифима
+	Serif	Sa serifima
 	Sessions only	Samo sesije
+	Set 	Skup 
+	Set 1	Skup 1
+	Set 10	Skup 10
+	Set 11	Skup 11
+	Set 12	Skup 12
+	Set 13	Skup 13
+	Set 14	Skup 14
+	Set 15	Skup 15
+	Set 16	Skup 16
+	Set 17	Skup 17
+	Set 18	Skup 18
+	Set 19	Skup 19
+	Set 2	Skup 2
+	Set 20	Skup 20
+	Set 3	Skup 3
+	Set 4	Skup 4
+	Set 5	Skup 5
+	Set 6	Skup 6
+	Set 7	Skup 7
+	Set 8	Skup 8
+	Set 9	Skup 9
 	Set additional Crop options	Podesi dodatne opcije opsecanja
 	Set additional smoothing options	Podesi dodatne opcije izglađivanja
+	Set as default	Postavi kao podrazumevano
 	Set background color	Postavi boju pozadine
 	Set Black Point	Postavi crnu tačku
 	Set Colors	Postavi boje
@@ -2937,10 +3094,11 @@ fontWeight	SemiBold	Polupodebljano
 	Sgray	sGray
 	Shadow Amount	Količina senki
 	Shadow Clipping Warning (U)	Upozorenje o odsecanju senki (U)
-	Shadow Color	Боја сенке
+cameraRaw	Shadow Clipping Warning (U)	Upozorenje o odsecanju tamnih tonova (U)
+	Shadow Color	Boja senke
 	Shadow Intensity	Intenzitet senki
-	Shadow Mode	Режим сенке
-	Shadow Opacity	Непрозирност сенке
+	Shadow Mode	Režim senke
+	Shadow Opacity	Neprozirnost senke
 	Shadow Radius	Poluprečnik senki
 	Shadow Tint	Nijansa senki
 	Shadow Tone	Ton senki
@@ -2965,6 +3123,7 @@ cameraRaw	Shadows	Senke
 	Sharpen Radius	Poluprečnik izoštravanja
 	Sharpen Tool	Alatka za izoštravanje
 	Sharpening	Izoštravanje
+cameraRaw	Sharpening	Izoštravanje
 	Shear	Smicanje
 	Shear…	Smicanje…
 	Shell Lower	Školjka dole
@@ -2973,12 +3132,13 @@ cameraRaw	Shadows	Senke
 	Shine	Sjaj
 	shortcut	prečica
 	Shortcut removed.	Prečica je uklonjena.
-	Show All Fonts	Прикажи све фонтове
+	Show All Fonts	Prikaži sve fontove
 	Show All Menu Items	Prikaži sve stavke menija
 	Show Altered Video	Prikaži izmenjeni video
 	Show Backdrop	Prikaži podlogu
 	Show bounding box when dragging layer	Prikaži granični okvir pri prevlačenju sloja
 	Show canvas dots	Prikaži tačke na platnu
+	Show Channels in Color	Prikaži kanale u boji
 	Show channels in color	Prikaži kanale u boji
 	Show Cropped Area	Prikaži isečenu oblast
 	Show crosshair in brush tip	Prikaži krstić u vrhu četkice
@@ -2987,16 +3147,17 @@ cameraRaw	Shadows	Senke
 	Show extension panels	Prikaži panele proširenja
 	Show Extras Options	Opcije prikaza dodatnih elemenata
 	Show Extras Options…	Opcije prikaza dodatnih elemenata…
-	Show Favorite Fonts	Прикажи омиљене фонтове
+	Show Favorite Fonts	Prikaži omiljene fontove
 	Show file name in title	Prikaži naziv datoteke u naslovu
-	Show Font Classes	Прикажи класе фонтова
+	Show Font Classes	Prikaži klase fontova
 	Show font names in english	Prikaži imena fontova na engleskom
 	Show Guides  (⌘;)	Prikaži vodilje  (⌘;)
 	Show highlight on rollover	Istakni pri prelasku pokazivačem
 	Show home recent files	Prikaži nedavne datoteke na početnom ekranu
 	Show hover bounds from Layers	Prikaži granice pri prelasku iz panela Slojevi
-	Show in Explorer	Prikaži u Exploreru
+	Show in Explorer	Prikaži u Explorer-u
 	Show Lab Color Readouts	Prikaži Lab očitavanja boja
+cameraRaw	Show Lab Color Readouts	Prikaži Lab vrednosti boja
 	Show layer bounds on hover	Prikaži granice sloja pri prelasku miša
 	Show layer mask badges	Prikaži oznake maske sloja
 	Show Layers	Prikaži slojeve
@@ -3007,13 +3168,17 @@ cameraRaw	Shadows	Senke
 	Show Original	Prikaži original
 	Show Overlay	Prikaži preklop
 	Show Red at 3 o'clock	Prikaži crvenu na poziciji 3 sata
+cameraRaw	Show Red at 3 o'clock	Prikaži crvenu na položaju 3 sata
 	Show Sampling Area	Prikaži oblast uzorkovanja
 	Show Sampling Ring	Prikaži prsten uzorkovanja
 	Show Selected Region	Prikaži izabranu oblast
-	Show Similar Fonts	Прикажи сличне фонтове
+cameraRaw	Show Selected Region	Prikaži izabranu oblast
+	Show Similar Fonts	Prikaži slične fontove
 	Show Skin Tone Indicator	Prikaži indikator tona kože
+cameraRaw	Show Skin Tone Indicator	Prikaži pokazatelj tona kože
 	Show slice numbers	Prikaži brojeve isečaka
-	Show Styles	Прикажи стилове
+	Show Statistics	Prikaži statistiku
+	Show Styles	Prikaži stilove
 	Show the layer mask as an overlay	Prikaži masku sloja kao preklop
 	Show the layer's effects  ({key}-click: all layers)	Prikaži efekte sloja  ({key}-klik: svi slojevi)
 	Show the layer's effects  (⌥-click: all layers)	Prikaži efekte sloja  (⌥-klik: svi slojevi)
@@ -3021,8 +3186,9 @@ cameraRaw	Shadows	Senke
 	Show tooltips	Prikaži opise alatki
 	Show Transform Controls	Prikaži kontrole transformacije
 	Show transformation values	Prikaži vrednosti transformacije
-	Show Variable Fonts	Прикажи варијабилне фонтове
+	Show Variable Fonts	Prikaži varijabilne fontove
 	Show Vectorscope	Prikaži vektorskop
+cameraRaw	Show Vectorscope	Prikaži vektorskop
 	Show/Hide All Panels	Prikaži/sakrij sve panele
 	Show/Hide Panels	Prikaži/sakrij panele
 	Shrinkwrap Canvas on Save	Smanji platno na sadržaj pri čuvanju
@@ -3030,19 +3196,19 @@ cameraRaw	Shadows	Senke
 	Sides	Stranice
 	Similar	Slično
 	Simple	Jednostavno
+	Simulate Paper	Simuliraj papir
 	Simulate Pressure	Simuliraj pritisak
 	Sine	Sinusoida
 	Single Column Marquee Tool	Alatka za selekciju jedne kolone
 	Single Row Marquee Tool	Alatka za selekciju jednog reda
 	Single Word Justification	Obostrano poravnanje jedne reči
-	Size	Veličina
 cameraRaw	Size	Veličina
 	Size Jitter	Kolebanje veličine
 	Skewness	Asimetrija
 	Skip	Preskoči
 	Skip transform when placing	Preskoči transformaciju pri postavljanju
 	Sky	Nebo
-	Slab Serif	Плочасти серифи
+	Slab Serif	Pločasti serifi
 	Slant	Iskošenost
 	Slice color	Boja isečka
 	Slice Select Tool	Alatka za izbor isečka
@@ -3091,13 +3257,21 @@ curves	Smooth	Izgladi
 	Solidity:	Punoća:
 	Some brush presets could not be loaded	Neki šabloni četkica nisu mogli da se učitaju
 	Some layers, pixels or masks could not be read. Do you want to continue opening it?	Neki slojevi, pikseli ili maske nisu mogli da se pročitaju. Želite li da nastavite sa otvaranjem?
-	Some settings could not be saved; the raws stay open	Neka podešavanja nije moguće sačuvati; raw snimci ostaju otvoreni
+	Some settings could not be saved; the raws stay open	Neka podešavanja nije moguće sačuvati; sirovi snimci ostaju otvoreni
 	Sort By Name	Poređaj po imenu
+	Source Channel	Izvorni kanal
 	Source Files	Izvorne datoteke
+	Source Invert	Obrni izvor
 	Source Layer	Izvorni sloj
+	Source1 Channel	Kanal izvora 1
+	Source1 Invert	Obrni izvor 1
+	Source2 Channel	Kanal izvora 2
+	Source2 Invert	Obrni izvor 2
+	Source:	Izvor:
 	Source: not set ({key}-click with Clone Stamp)	Izvor: nije postavljen ({key}-klik pečatom za kloniranje)
 	Source: set	Izvor: postavljen
 	Source: {name}	Izvor: {name}
+	Space	Razmak
 	Space After	Razmak posle
 	Space Before	Razmak pre
 	Sparkle	Iskrenje
@@ -3125,7 +3299,6 @@ curves	Smooth	Izgladi
 	Sprayed Strokes	Raspršeni potezi
 	Spread	Raširenost
 	Sprinkles	Mrvice
-	Square	Kvadrat
 	Square, 12 x 12	Kvadrat, 12 x 12
 	Square, 5 x 5	Kvadrat, 5 x 5
 	Squareness	Četvrtastost
@@ -3136,15 +3309,16 @@ curves	Smooth	Izgladi
 	Stagger	Smaknuto
 	Stamp Down	Utisni nadole
 	Stamp Visible	Utisni vidljive
-	Standard	Standardno
 	Standard Deviation	Standardna devijacija
 	Standard Screen Mode	Standardni režim ekrana
 	Star ratio	Odnos zvezde
 	Star Ratio:	Odnos zvezde:
 	Stars	Zvezde
+	Start	Početak
 	Start Recording	Započni snimanje
 	Start X	Početak X
 	Start Y	Početak Y
+	Starting serial	Početni serijski broj
 	Statistics…	Statistika…
 	Status Information	Statusne informacije
 	Std Dev:	Std. devijacija:
@@ -3189,6 +3363,7 @@ smartSvg	Stop syncing this Smart Object	Zaustavi sinhronizaciju ovog pametnog ob
 	Style {name} saved	Stil {name} je sačuvan
 	Style: Normal	Stil: normalno
 	Stylistic Alternates	Stilske alternative
+	Stylistic Sets	Stilski skupovi
 	Stylization	Stilizacija
 	Stylized dabs from a history state	Stilizovane mrlje iz stanja istorije
 	Stylus Wheel	Točkić olovke
@@ -3199,6 +3374,7 @@ smartSvg	Stop syncing this Smart Object	Zaustavi sinhronizaciju ovog pametnog ob
 	Subtract from selection  (⌥)	Oduzmi od selekcije  (⌥)
 	Subtract Front Shape	Oduzmi prednji oblik
 	Subtract Mask from Selection	Oduzmi masku od selekcije
+	Subtract Path from Selection	Oduzmi putanju od izbora
 	Subtract Shapes at Overlap	Oduzmi oblike na preklapanju
 	Suggestions:	Predlozi:
 	Summarize…	Rezime…
@@ -3207,6 +3383,7 @@ smartSvg	Stop syncing this Smart Object	Zaustavi sinhronizaciju ovog pametnog ob
 	Surface Blur	Površinsko zamućenje
 	Surface Blur…	Površinsko zamućenje…
 smartSvg	SVG editor opened. Save the SVG to update this Smart Object.	SVG uređivač je otvoren. Sačuvajte SVG da biste ažurirali ovaj pametni objekat.
+	Swap colours (X)	Zameni boje (X)
 	Swaps height and width	Zamenjuje visinu i širinu
 	Swash	Kićeni oblici
 	Switch between free transform and warp modes	Prebaci između režima slobodne transformacije i krivljenja
@@ -3219,8 +3396,20 @@ smartSvg	SVG editor opened. Save the SVG to update this Smart Object.	SVG uređi
 	System Info…	Informacije o sistemu…
 	System title bar	Sistemska naslovna traka
 	Tablet	Tablet
+	Tabular	Tabelarno
+	Tabular Lining	Tabelarne cifre jednake visine
+	Tabular Oldstyle	Tabelarne starinske cifre
 	Take the shortcut from the other command and select it	Uzmi prečicu drugoj komandi i izaberi je
 	Targa Options	Targa opcije
+	Target Channel 3	Ciljni kanal 3
+	Target Channel 4	Ciljni kanal 4
+	Target Channel 5	Ciljni kanal 5
+	Target Channel 6	Ciljni kanal 6
+	Target Channel 7	Ciljni kanal 7
+	Target Channel 8	Ciljni kanal 8
+	Target Channel 9	Ciljni kanal 9
+	Target Composite Channel	Ciljni složeni kanal
+	Target Layer Mask	Ciljna maska sloja
 	Target Path	Ciljna putanja
 	Target X	Cilj X
 	Target Y	Cilj Y
@@ -3242,6 +3431,7 @@ cameraRaw	Texture	Tekstura
 	Texturizer	Teksturizer
 	Thaw Mask	Odmrzni masku
 	The active layer has no pixels here — turn on Sample All Layers or select a layer with pixels	Aktivni sloj ovde nema piksela — uključite Uzorkuj sve slojeve ili izaberite sloj sa pikselima
+@plural	The brush group “{group}” already has {n} brush of yours.|The brush group “{group}” already has {n} brushes of yours.	Grupa četkica „{group}“ već ima {n} vašu četkicu.|Grupa četkica „{group}“ već ima {n} vaše četkice.|Grupa četkica „{group}“ već ima {n} vaših četkica.
 	The canvas is shown as sRGB. Choose a monitor profile in Edit › Color Settings.	Platno se prikazuje kao sRGB. Izaberite profil monitora u Uređivanje › Podešavanja boja.
 	The canvas on {display} is shown as sRGB. Choose a monitor profile in Edit › Color Settings.	Platno na {display} se prikazuje kao sRGB. Izaberite profil monitora u Uređivanje › Podešavanja boja.
 	The current gradient (pick one in Window › Gradients)	Tekući gradijent (izaberite ga u Prozor › Gradijenti)
@@ -3254,13 +3444,15 @@ cameraRaw	Texture	Tekstura
 	The document “{name}” has an embedded color profile that does not match the current {mode} working space.	Dokument „{name}“ ima ugrađeni profil boja koji se ne slaže sa trenutnim {mode} radnim prostorom.
 	The document “{name}” may be damaged.	Dokument „{name}“ je možda oštećen.
 	The fastest and the softest, with color fringing on fine detail.	Najbrži i najmekši, sa obojenim rubovima na finim detaljima.
+	The fastest and the softest, with colour fringing on fine detail.	Najbrže i najmekše, sa obojenim rubovima na sitnim detaljima.
 	The file could not be opened.	Datoteka nije mogla da se otvori.
 	The file could not be saved.	Datoteka nije mogla da se sačuva.
 	The fill for this layer must be rasterized before proceeding. It will no longer be editable as a fill. Rasterize the fill?	Ovaj sloj popune mora da se rasterizuje pre nastavka. Njegov sadržaj popune više neće moći da se uređuje. Rasterizovati sloj?
-	The frame is locked	Оквир је закључан
-	The frame is unavailable	Оквир није доступан
-	The GPU compositor is still being prepared	The GPU compositor is still being prepared
+	The frame is locked	Okvir je zaključan
+	The frame is unavailable	Okvir nije dostupan
+	The GPU compositor is still being prepared	Komponovanje na grafičkom procesoru se još priprema
 	The GPU compositor wasn't used: {reason}	GPU kompozitor nije korišćen: {reason}
+@plural	The gradient group “{group}” already exists ({n} gradient).|The gradient group “{group}” already exists ({n} gradients).	Grupa preliva „{group}“ već postoji ({n} preliv).|Grupa preliva „{group}“ već postoji ({n} preliva).|Grupa preliva „{group}“ već postoji ({n} preliva).
 	The gradient the Gradient tool paints with	Gradijent kojim slika alatka gradijent
 	The History Brush source was deleted: set a new source in the History panel	Izvor četkice istorije je izbrisan: postavite novi izvor u panelu Istorija
 	The keyboard shortcut set was not imported: {error}	Skup prečica nije uvezen: {error}
@@ -3271,7 +3463,7 @@ cameraRaw	Texture	Tekstura
 	The path was kept as the Work Path	Putanja je sačuvana kao radna putanja
 	The transform couldn't be applied.	Transformacija nije mogla da se primeni.
 	There are too many sets: delete one first.	Previše skupova: prvo obrišite jedan.
-	There is no color table to save.	Нема табеле боја за чување.
+	There is no color table to save.	Nema tabele boja za čuvanje.
 	There is no crop size or ratio to save	Nema veličine ili odnosa opsecanja za čuvanje
 	These settings aren't available in PhotoCraft yet.	Ova podešavanja još nisu dostupna u PhotoCraft-u.
 	Thin	Tanko
@@ -3298,6 +3490,8 @@ fontWeight	Thin	Tanko
 	Tight Short	Usko kratko
 	Tile All Horizontally	Popločaj sve horizontalno
 	Tile All Vertically	Popločaj sve vertikalno
+	Tile Horizontally	Popločaj horizontalno
+	Tile Vertically	Popločaj vertikalno
 	Tiles	Pločice
 	Tiles…	Pločice…
 	Tilt Scale	Razmera nagiba
@@ -3309,13 +3503,13 @@ fontWeight	Thin	Tanko
 cameraRaw	Tint	Preliv
 	Tiny	Sićušno
 	Tiny Lens	Sićušni objektiv
-	Title	Title
 	Titling Alternates	Naslovne alternative
 	To Center	Ka centru
 	To drop files, start PhotoCraft under XWayland: `{command}`	Da biste otpuštali datoteke, pokrenite PhotoCraft pod XWayland-om: `{command}`
 	To paste from other apps, start PhotoCraft under XWayland: `{command}`	Da biste lepili iz drugih aplikacija, pokrenite PhotoCraft pod XWayland-om: `{command}`
 	Toggle count group visibility	Uključi/isključi vidljivost grupe brojanja
 	Toggle Last State	Prebaci na poslednje stanje
+	Toggle Layer Mask Overlay	Uključi/isključi prekrivač maske sloja
 	Toggle reference point	Uključi/isključi referentnu tačku
 	Toggle text orientation	Promeni orijentaciju teksta
 	Toggle the Brush Settings panel	Prikaži/sakrij panel Podešavanja četkice
@@ -3323,13 +3517,13 @@ cameraRaw	Tint	Preliv
 	Toggle visibility	Uključi/isključi vidljivost
 	Tone Curve	Tonska kriva
 	Tone Histogram	Tonski histogram
+cameraRaw	Tone Histogram	Histogram tonova
 	Tone:	Ton:
 	Too many clone strokes: apply Vanishing Point first	Previše poteza kloniranja: prvo primenite tačku nestajanja
 	Tool Options	Opcije alatke
 	Tool Presets	Šabloni alatki
 	Toolbar	Traka alatki
 	Toolbar…	Traka alatki…
-	Tools	Alatke
 	Tools…	Alatke…
 	Top Edges	Gornje ivice
 	Torn Edges	Pocepane ivice
@@ -3360,12 +3554,11 @@ cameraRaw	Tint	Preliv
 	Trilinear	Trilinearno
 	Trim	Odseci ivice
 	Trim…	Odseci ivice…
-	TrueType font	TrueType фонт
+	TrueType font	TrueType font
 	Turn the prompt back on with Ask On Mismatch in Edit › Color Settings.	Pitanje ponovo uključite opcijom Ask On Mismatch u Uređivanje › Podešavanja boja.
 	Twirl Clockwise	Uvrtanje udesno
 	Twirl Counterclockwise	Uvrtanje ulevo
 	Twirl…	Uvrtanje…
-	Type	Tekst
 	Type Layer	Tekstualni sloj
 	Type Options	Opcije teksta
 	Type Styles	Stilovi teksta
@@ -3376,6 +3569,7 @@ cameraRaw	Tint	Preliv
 	Ultra Light	Ultra lagano
 	Unaltered	Neizmenjeno
 	Unavailable in this color mode	Nedostupno u ovom režimu boja
+	Uncached Refresh	Osveži bez keša
 	Uncoated CMYK	Nepremazani CMYK
 	Undefined Areas	Nedefinisane oblasti
 	Underlying Layer:	Sloj ispod:
@@ -3402,14 +3596,15 @@ cameraRaw	Tint	Preliv
 	Unsupported format	Nepodržan format
 	Untagged {mode}	{mode} bez oznake profila
 	Untitled-1	Bez naslova-1
-	Up	Nagore
 	Update All Modified Content	Ažuriraj sav izmenjeni sadržaj
 	Update All Text Layers	Ažuriraj sve tekstualne slojeve
+	Update and Restart	Ažuriraj i ponovo pokreni
 	Update Layer Comp	Ažuriraj kompoziciju slojeva
 	Update layer comp (visibility, position and appearance)	Ažuriraj kompoziciju slojeva (vidljivost, položaj i izgled)
 	Update Modified Content	Ažuriraj izmenjeni sadržaj
 	Update the current brush with these settings	Ažuriraj tekuću četkicu ovim podešavanjima
 @plural	Updated {n} linked smart object changed on disk|Updated {n} linked smart objects changed on disk	Ažuriran je {n} povezani pametni objekat izmenjen na disku|Ažurirana su {n} povezana pametna objekta izmenjena na disku|Ažurirano je {n} povezanih pametnih objekata izmenjenih na disku
+	Updates have not been checked yet.	Ažuriranja još nisu proverena.
 smartSvg	Updates wait while another document or an editing dialog is active.	Ažuriranja čekaju dok je aktivan drugi dokument ili dijalog za uređivanje.
 	Upper	Gornje
 	Urgency	Hitnost
@@ -3435,15 +3630,17 @@ smartSvg	Updates wait while another document or an editing dialog is active.	Až
 	Use tablet pressure	Koristi pritisak na tabletu
 	Use tablet pressure to change pen width	Koristi pritisak na tabletu za promenu širine pera
 	Use the embedded profile ({profile})	Koristi ugrađeni profil ({profile})
+	Use these settings for new arrows	Koristi ova podešavanja za nove strelice
 	Use:	Koristi:
 	Uses the foreground and background colors.	Koristi boje prednjeg plana i pozadine.
+	Uses the foreground and background colours.	Koristi prednju i pozadinsku boju.
 	Vanishing Point	Tačka nestajanja
 	Vanishing Point is not active	Tačka nestajanja nije aktivna
 	Vanishing Point: click four corners to create a plane	Tačka nestajanja: kliknite četiri ugla da napravite ravan
 	Vanishing Point…	Tačka nestajanja…
 	Variable Data Sets	Promenljivi skupovi podataka
 	Variable Data Sets…	Promenljivi skupovi podataka…
-	Variable font	Варијабилни фонт
+	Variable font	Varijabilni font
 	Variables bind a layer's visibility, text or pixels to a named data slot.	Promenljive vezuju vidljivost, tekst ili piksele sloja za imenovano polje podataka.
 	Variance	Varijansa
 	Vary round brush hardness on hud	Menjaj tvrdoću okrugle četkice na HUD-u
@@ -3451,8 +3648,8 @@ smartSvg	Updates wait while another document or an editing dialog is active.	Až
 	vector mask	vektorsku masku
 	Vector Mask from Current Path	Vektorska maska od tekuće putanje
 	Vector Mask Hides Effects	Vektorska maska skriva efekte
-	Vertical	Vertikalno
 	Vertical Centers	Vertikalni centri
+	Vertical Distortion	Vertikalno izobličenje
 	Vertical Only	Samo vertikalno
 	Vertical scale	Vertikalna razmera
 	Vertical type	Vertikalni tekst
@@ -3473,6 +3670,7 @@ cameraRaw	Vibrance	Živost
 	Vignette Roundness	Zaobljenost vinjete
 	Vignette Style	Stil vinjete
 	Vignetting	Vinjetiranje
+cameraRaw	Vignetting	Vinjetiranje
 	Vine Color	Boja loze
 	Vine With Flowers	Loza sa cvećem
 	Vine With Leaves	Loza sa lišćem
@@ -3486,6 +3684,9 @@ cameraRaw	Vibrance	Živost
 	Wait for the current job to finish.	Sačekajte da se trenutni posao završi.
 	Wand	Štapić
 	Warm	Toplo
+	Warming Filter (81)	Filter za zagrevanje (81)
+	Warming Filter (85)	Filter za zagrevanje (85)
+	Warming Filter (LBA)	Filter za zagrevanje (LBA)
 	Warming L B A	Zagrevanje (LBA)
 	Warming81	Zagrevanje (81)
 	Warming85	Zagrevanje (85)
@@ -3513,9 +3714,11 @@ cameraRaw	Vibrance	Živost
 	Wetness	Vlažnost
 	Wetness Jitter	Kolebanje vlažnosti
 	White Balance: As Shot	Balans bele: kao pri snimanju
+cameraRaw	White Balance: As Shot	Balans bele: kao pri snimanju
 	White Clip	Odsecanje bele
 	White Matte	Bela podloga
 cameraRaw	Whites	Bele
+	Whole Word	Cela reč
 	WIA Support	WIA podrška
 	WIA Support…	WIA podrška…
 	Wide Blurry	Široko zamućeno
@@ -3530,6 +3733,7 @@ cameraRaw	Whites	Bele
 	Work Path	Radna putanja
 	Working	Obrada
 	Working Black Plate	Radna crna ploča
+	Working CMY Plate	Radna CMY ploča
 	Working CMY Plates	Radne CMY ploče
 	Working Cmyk	Radni CMYK
 	Working Cyan Plate	Radna cijan ploča
@@ -3540,6 +3744,7 @@ cameraRaw	Whites	Bele
 	Working Space	Radni prostor boja
 	Working Spaces	Radni prostori
 	Working Yellow Plate	Radna žuta ploča
+	Working-cmyk	Radni CMYK
 	Working: {working}	Radni prostor: {working}
 	Working…	Obrada…
 	Workspace…	Radni prostor…
@@ -3557,9 +3762,10 @@ cameraRaw	Yellow	Žuta
 	Zigzag	Cik-cak
 	ZigZag…	Cik-cak…
 	ZIP	ZIP
-	Zoom	Zum
 navigator	Zoom	Uvećanje
 	Zoom clicked point to center	Zumiraj tako da kliknuta tačka bude u centru
+	Zoom In (hold, drag to scrub)	Uvećaj (drži i prevuci za kontinualno zumiranje)
+	Zoom Out (hold)	Umanji (drži)
 	Zoom resizes windows	Zumiranje menja veličinu prozora
 	Zoom with scroll wheel	Zumiraj točkićem miša
 	Zoom with trackpad pinch	Zumiraj štipanjem na dodirnoj tabli
@@ -3570,8 +3776,10 @@ navigator	Zoom	Uvećanje
 	{key}-click to set the source	{key}-klik da postavite izvor
 	{label} is not available: {reason}	{label} nije dostupno: {reason}
 	{label} is writing the file and can no longer be canceled	{label}: datoteka se upisuje i više ne može da se otkaže
+	{label} is writing the file and can no longer be cancelled	{label} upisuje datoteku i više se ne može otkazati
 	{message} (notes: {n}; {warning})	{message} (beleške: {n}; {warning})
 	{message} ({note})	{message} ({note})
+	{message} into “{group}”	{message} u „{group}“
 	{mode} Color · {bits} bit	{mode} boje · {bits} bita
 	{name} (Photoshop)	{name} (Photoshop)
 	{name} ({width} × {height})	{name} ({width} × {height})
@@ -3582,18 +3790,21 @@ navigator	Zoom	Uvećanje
 @plural	{n} action file loaded|{n} action files loaded	Učitana je {n} datoteka radnji|Učitane su {n} datoteke radnji|Učitano je {n} datoteka radnji
 @plural	{n} action|{n} actions	{n} radnja|{n} radnje|{n} radnji
 	{n} commands are not in PhotoCraft.	{n} komandi ne postoji u PhotoCraft-u.
+@plural	{n} document|{n} documents	{n} dokument|{n} dokumenta|{n} dokumenata
 @plural	{n} file could not be loaded: {errors}|{n} files could not be loaded: {errors}	Nije moguće učitati {n} datoteku: {errors}|Nije moguće učitati {n} datoteke: {errors}|Nije moguće učitati {n} datoteka: {errors}
 @plural	{n} layer recorded by this comp was deleted. Update the comp, or clear the warning.|{n} layers recorded by this comp were deleted. Update the comp, or clear the warning.	{n} sloj zabeležen u ovoj kompoziciji je obrisan. Ažurirajte kompoziciju ili uklonite upozorenje.|{n} sloja zabeležena u ovoj kompoziciji su obrisana. Ažurirajte kompoziciju ili uklonite upozorenje.|{n} slojeva zabeleženih u ovoj kompoziciji je obrisano. Ažurirajte kompoziciju ili uklonite upozorenje.
 @plural	{n} layer|{n} layers	{n} sloj|{n} sloja|{n} slojeva
 @plural	{n} mip level|{n} mip levels	{n} mip nivo|{n} mip nivoa|{n} mip nivoa
 	{n} of {max} sample points	{n} od {max} tačaka uzorkovanja
+@plural	{n} pixel|{n} pixels	{n} piksel|{n} piksela|{n} piksela
 @plural	{n} plane|{n} planes	{n} ravan|{n} ravni|{n} ravni
 @plural	{n} preset|{n} presets	{n} šablon|{n} šablona|{n} šablona
 @plural	{n} sample point removed|{n} sample points removed	Uklonjena je {n} tačka uzorkovanja|Uklonjene su {n} tačke uzorkovanja|Uklonjeno je {n} tačaka uzorkovanja
 @plural	{n} sample|{n} samples	{n} uzorak|{n} uzorka|{n} uzoraka
 @plural	{n} slice|{n} slices	{n} isečak|{n} isečka|{n} isečaka
-@plural	{n} step has no PhotoCraft equivalent yet|{n} steps have no PhotoCraft equivalent yet	{n} korak još nema ekvivalent u PhotoCraftu|{n} koraka još nemaju ekvivalent u PhotoCraftu|{n} koraka još nema ekvivalent u PhotoCraftu
-@plural	{n} step with no Photoshop equivalent left out|{n} steps with no Photoshop equivalent left out	Izostavljen je {n} korak bez ekvivalenta u Photoshopu|Izostavljena su {n} koraka bez ekvivalenta u Photoshopu|Izostavljeno je {n} koraka bez ekvivalenta u Photoshopu
+@plural	{n} step has no PhotoCraft equivalent yet|{n} steps have no PhotoCraft equivalent yet	{n} korak još nema ekvivalent u PhotoCraft-u|{n} koraka još nemaju ekvivalent u PhotoCraft-u|{n} koraka još nema ekvivalent u PhotoCraft-u
+@plural	{n} step with no Photoshop equivalent left out|{n} steps with no Photoshop equivalent left out	Izostavljen je {n} korak bez ekvivalenta u Photoshop-u|Izostavljena su {n} koraka bez ekvivalenta u Photoshop-u|Izostavljeno je {n} koraka bez ekvivalenta u Photoshop-u
+	{ok} written to {dir}	{ok} upisano u {dir}
 	{path}: the path is not valid Unicode; rename the file and open it again.	{path}: putanja nije ispravan Unicode; preimenujte datoteku i ponovo je otvorite.
 	{path}: the path is not valid Unicode; save under another name.	{path}: putanja nije ispravan Unicode; sačuvajte pod drugim imenom.
 	{set} (modified)	{set} (izmenjen)
@@ -3605,6 +3816,7 @@ navigator	Zoom	Uvećanje
 	{verb} {mask} {layer}	{verb} {mask} ({layer})
 @plural	{warning} (+{n} more brush preset warning)|{warning} (+{n} more brush preset warnings)	{warning} (+ još {n} upozorenje za šablone četkica)|{warning} (+ još {n} upozorenja za šablone četkica)|{warning} (+ još {n} upozorenja za šablone četkica)
 @plural	{what} with {n} warning|{what} with {n} warnings	{what} sa {n} upozorenjem|{what} sa {n} upozorenja|{what} sa {n} upozorenja
+@plural	{what}: {n} Image Assets output failed|{what}: {n} Image Assets outputs failed	{what}: {n} izlaz slikovnih resursa nije uspeo|{what}: {n} izlaza slikovnih resursa nisu uspela|{what}: {n} izlaza slikovnih resursa nije uspelo
 	{w} px x {h} px ({ppi} ppi)	{w} px x {h} px ({ppi} ppi)
 	{w} {unit} x {h} {unit} ({ppi} ppi)	{w} {unit} x {h} {unit} ({ppi} ppi)
 	{zoom}%	{zoom}%

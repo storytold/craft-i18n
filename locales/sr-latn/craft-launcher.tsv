@@ -1,0 +1,304 @@
+# Srpski (latinica) (sr-latn) interface catalog for ArtCraft Launcher.
+# Columns, separated by a TAB:  context <TAB> English source text <TAB> translation
+#   context  usually empty. `@plural`, `@id` and `@msg` mean something to the apps; any other
+#            word is a label that tells apart two meanings of the same English.
+#   escapes  \n  \t  \\  inside a column. `{name}` placeholders must appear in both columns (in any
+#            order), and a trailing "…" in one needs one in the other.
+#   @plural  English `one|other`; the translation lists this language's plural forms, `|`-separated.
+#   Lines starting with # and blank lines are ignored. A missing entry shows in English.
+#
+# Clean room: every entry was written from the plain meaning of the English text in ordinary
+# computing vocabulary. No other product's localisation, string table or translated UI was
+# consulted or copied; add entries the same way.
+
+	A new version is available. Download it to replace this version?	Dostupna je nova verzija. Preuzeti je i zameniti ovu verziju?
+	A new version is available. Would you like to relaunch with the updated version?	Dostupna je nova verzija. Želite li da ponovo pokrenete program sa ažuriranom verzijom?
+	All releases	Sva izdanja
+	App	Aplikacija
+column	App	Aplikacija
+	App details	Detalji aplikacije
+@id	app.download	Preuzmi za {os}
+@id	app.github	GitHub repozitorijum
+@id	app.install	Instaliraj
+@id	app.notes	Beleške o izdanju
+@id	app.open	Otvori
+@id	app.reinstall	Ponovo instaliraj
+@id	app.releases	Sva izdanja
+@id	app.reveal	Prikaži u Finder-u
+@id	app.uninstall	Deinstaliraj…
+@id	app.update	Ažuriraj na {v}
+@id	app.website	Veb-sajt
+@id	appearance.theme	Izgled
+	Apps are placed inside this folder.	Aplikacije se smeštaju u ovu fasciklu.
+	Apps on this computer	Aplikacije na ovom računaru
+	Apps you can install	Aplikacije koje možete da instalirate
+	Apps you hid	Aplikacije koje ste sakrili
+month	Apr	apr.
+	Arch package (.pkg.tar.zst)	Arch paket (.pkg.tar.zst)
+	ArtCraft Launcher	ArtCraft Launcher
+	ArtCraft Launcher is still running	ArtCraft Launcher je i dalje pokrenut
+	ArtCraft Launcher {version}	ArtCraft Launcher {version}
+	ArtCraft Launcher {version} is available.	Dostupan je ArtCraft Launcher {version}.
+@plural	ArtCraft Launcher · {n} update available|ArtCraft Launcher · {n} updates available	ArtCraft Launcher · {n} dostupno ažuriranje|ArtCraft Launcher · {n} dostupna ažuriranja|ArtCraft Launcher · {n} dostupnih ažuriranja
+	ArtCraft on GitHub	ArtCraft na GitHub-u
+	ArtCraft on {name}	ArtCraft na {name}
+month	Aug	avg.
+	Automatically download and install updates	Automatski preuzimaj i instaliraj ažuriranja
+	Available to install	Dostupno za instalaciju
+	Cancel download	Otkaži preuzimanje
+	Cancel update	Otkaži ažuriranje
+	Checked {ago}	Provereno {ago}
+	Checked {ago} · using {sources}	Provereno {ago} · izvori: {sources}
+	Checking for updates…	Provera ažuriranja…
+	Checking…	Provera…
+	Classic apps	Klasične aplikacije
+	Click to enlarge	Kliknite za uvećanje
+	Click to reverse the order	Kliknite za obrtanje redosleda
+	Click to sort by this column	Kliknite za sortiranje po ovoj koloni
+	Coming soon	Uskoro
+cadcraft	Computer-aided design and drafting	Projektovanje i tehničko crtanje pomoću računara
+	Couldn't change the login item: {e}	Nije moguće promeniti stavku za pokretanje pri prijavljivanju: {e}
+	Couldn't check for updates: {f}	Nije moguće proveriti ažuriranja: {f}
+@msg	couldn't move {path} to Trash ({reason}). Remove it in Finder instead.	nije moguće premestiti {path} u korpu ({reason}). Uklonite je u Finder-u.
+@msg	couldn't use install folder {path}: {reason}	nije moguće koristiti fasciklu za instalaciju {path}: {reason}
+	Craft App Suite	Paket aplikacija Craft
+	Custom folders use AppImage on Linux.	Prilagođene fascikle koriste AppImage na Linux-u.
+@msg	custom install folders aren't supported on this system	prilagođene fascikle za instalaciju nisu podržane na ovom sistemu
+	Debian package (.deb)	Debian paket (.deb)
+month	Dec	dec.
+	Default install folder	Podrazumevana fascikla za instalaciju
+	Discard download	Odbaci preuzimanje
+	Disk image (.dmg)	Slika diska (.dmg)
+	Download again	Preuzmi ponovo
+	Download cancelled	Preuzimanje je otkazano
+@msg	Download cancelled	Preuzimanje je otkazano
+	Download for {os}	Preuzmi za {os}
+	Download paused	Preuzimanje je pauzirano
+	Downloading	Preuzimanje
+	Downloading {done} of {total}	Preuzimanje: {done} od {total}
+	Downloading…	Preuzimanje…
+	Downloads for {platform}	Preuzimanja za {platform}
+	Downloads the new version, replaces this one and opens it again	Preuzima novu verziju, zamenjuje ovu i ponovo je otvara
+	Enlarge picture	Uvećaj sliku
+	Every Craft app	Sve Craft aplikacije
+	Features	Mogućnosti
+month	Feb	feb.
+@id	filter.all	Sve
+@id	filter.installed	Instalirane
+@id	filter.notinstalled	Neinstalirane
+@id	filter.updates	Ažuriranja
+	Flatpak bundle	Flatpak paket
+	Frequently used	Često korišćeno
+	Full changelog	Ceo dnevnik izmena
+	GitHub limit hit; back in {min} min	Dostignuto je GitHub ograničenje; ponovo dostupno za {min} min
+	GitHub repository	GitHub repozitorijum
+	GitHub's hourly limit was reached; full details return in {min} min	Dostignuto je GitHub ograničenje po satu; svi detalji biće dostupni za {min} min
+@id	help.discord	Discord
+@id	help.github	GitHub
+@id	help.website	Veb-sajt
+	Hidden Apps	Skrivene aplikacije
+	Hide App	Sakrij aplikaciju
+photocraft	Image editing	Uređivanje slika
+	Include pre-releases (betas and release candidates)	Uključi probna izdanja (beta verzije i kandidate za izdanje)
+	Inspired by	Inspirisano programom
+	Install	Instaliraj
+	Install cancelled	Instalacija je otkazana
+	Install cancelled. The download is kept for the next try.	Instalacija je otkazana. Preuzeta datoteka je sačuvana za sledeći pokušaj.
+	Install folder	Fascikla za instalaciju
+	Install new apps as	Instaliraj nove aplikacije kao
+	Installed	Instalirano
+column	Installed	Instalirano
+filter	Installed	Instalirane
+	installed	instalirano
+	Installed apps with a newer version	Instalirane aplikacije sa novijom verzijom
+	Installed version	Instalirana verzija
+	Installed · latest {latest}	Instalirano · najnovije {latest}
+	Installed · up to date	Instalirano · ažurno
+	Installer (.msi)	Instalacioni program (.msi)
+	Installing for {platform}	Instalacija za {platform}
+	Installing on Linux	Instalacija na Linux-u
+	Installing on Windows	Instalacija na Windows-u
+	Installing, then restarting…	Instalacija, pa ponovno pokretanje…
+	Installing…	Instalacija…
+figcraft	Interface design and prototyping	Dizajn interfejsa i izrada prototipova
+	It's in the tray: open it or quit it from the tray icon, or turn this off in the settings.	Program je u sistemskoj kaseti: otvorite ga ili zatvorite pomoću ikone u kaseti, ili isključite ovu opciju u podešavanjima.
+month	Jan	jan.
+	Join the ArtCraft community on Discord	Pridružite se ArtCraft zajednici na Discord-u
+	Join the Discord	Pridružite se Discord-u
+month	Jul	jul
+month	Jun	jun
+	Keep running in the tray when the window is closed	Nastavi rad u sistemskoj kaseti kada se prozor zatvori
+	Last updated: {date}	Poslednje ažuriranje: {date}
+	Latest	Najnovije
+column	Latest	Najnovije
+	Latest release	Najnovije izdanje
+	Latest version	Najnovija verzija
+	Launcher	Pokretač
+@id	launcher.dismiss	Zatvori
+@id	launcher.download	Preuzmi
+@id	launcher.notes	Beleške o izdanju
+@id	launcher.update	Ažuriraj i ponovo pokreni
+	Learn more	Saznajte više
+	Like {name}	Kao {name}
+	link	veza
+@id	linux.preferred_kind	Vrsta paketa za Linux
+	Loading ArtCraft Launcher…	Učitavanje ArtCraft Launcher-a…
+	Loading pictures…	Učitavanje slika…
+month	Mar	mart
+	Match system	Prati sistem
+month	May	maj
+	More actions for {name}	Još radnji za {name}
+effectcraft	Motion graphics and visual effects	Pokretna grafika i vizuelni efekti
+	Name (Z–A)	Naziv (Š–A)
+	NEW	NOVO
+	New apps	Nove aplikacije
+	New installs use this folder. Updates stay in their current location.	Nove instalacije koriste ovu fasciklu. Ažuriranja ostaju na trenutnoj lokaciji.
+	Newest release	Najnovije izdanje
+	Next app	Sledeća aplikacija
+	Next picture (→)	Sledeća slika (→)
+	No apps match	Nema odgovarajućih aplikacija
+	No downloads for this system	Nema preuzimanja za ovaj sistem
+	No notes were published with this release.	Uz ovo izdanje nisu objavljene beleške.
+	No release published yet	Još nije objavljeno nijedno izdanje
+	Not available here	Ovde nije dostupno
+	Not checked yet	Još nije provereno
+	Not installed	Nije instalirano
+	Notify me when an installed app has an update	Obavesti me kada je dostupno ažuriranje instalirane aplikacije
+month	Nov	nov.
+month	Oct	okt.
+	On Linux, custom folders use AppImage format.	Na Linux-u prilagođene fascikle koriste format AppImage.
+	Only when I ask	Samo kada zatražim
+	Open ArtCraft Launcher to update.	Otvorite ArtCraft Launcher da biste ažurirali.
+	Open on GitHub	Otvori na GitHub-u
+	Open Source Tools for Creatives, Makers, and Builders	Alati otvorenog koda za kreativce, stvaraoce i graditelje
+designcraft	Page layout and publishing	Prelom stranica i izdavaštvo
+	Pause download	Pauziraj preuzimanje
+lightcraft	Photo library and raw development	Biblioteka fotografija i obrada sirovih snimaka
+	Pictures couldn't be loaded. Reopen this page to try again.	Nije moguće učitati slike. Ponovo otvorite ovu stranicu da biste pokušali ponovo.
+	Platforms	Platforme
+	Portable (.zip)	Prenosivo (.zip)
+deckcraft	Presentations and slide shows	Prezentacije i projekcije slajdova
+	Previous app	Prethodna aplikacija
+	Previous picture (←)	Prethodna slika (←)
+	Questions, ideas and news from the ArtCraft team	Pitanja, ideje i novosti ArtCraft tima
+	Quit ArtCraft Launcher	Zatvori ArtCraft Launcher
+pdfcraft	Reading, organizing and protecting PDFs	Čitanje, organizovanje i zaštita PDF dokumenata
+	Recently updated	Nedavno ažurirano
+	Reconnecting…	Ponovno povezivanje…
+soundcraft	Recording, editing and mixing audio	Snimanje, uređivanje i mešanje zvuka
+	Reinstall	Ponovo instaliraj
+	Release notes	Beleške o izdanju
+	Released	Objavljeno
+column	Released	Objavljeno
+	Released {date}	Objavljeno {date}
+	Releases	Izdanja
+	Removing…	Uklanjanje…
+	Replace what's there?	Zameniti postojeći sadržaj?
+	Resume download	Nastavi preuzimanje
+	Retry install	Pokušaj ponovo instalaciju
+	Retry update to {version}	Pokušaj ponovo ažuriranje na {version}
+	RPM package (.rpm)	RPM paket (.rpm)
+	Running in the background	Radi u pozadini
+	Search apps	Pretraži aplikacije
+month	Sep	sept.
+@id	settings.open	Podešavanja…
+@id	settings.quit	Izađi
+	Show apps as a table	Prikaži aplikacije u tabeli
+	Show apps as cards	Prikaži aplikacije na karticama
+	Show ArtCraft Launcher	Prikaži ArtCraft Launcher
+	Show in Explorer	Prikaži u Explorer-u
+	Show in Files	Prikaži u Datotekama
+	Show in Finder	Prikaži u Finder-u
+	Show the window on the current desktop	Prikaži prozor na trenutnoj radnoj površini
+	Show {n} more changes	Prikaži još izmena: {n}
+@id	sort.inspired	Po uzoru na
+@id	sort.installed	Instalirano
+@id	sort.latest	Najnovije
+@id	sort.name	Naziv
+@id	sort.released	Objavljeno
+@id	sort.status	Status
+@id	sort.suite	Redosled u paketu
+gridcraft	Spreadsheets and data	Tabelarni proračuni i podaci
+	Start ArtCraft Launcher when I log in	Pokreni ArtCraft Launcher pri prijavljivanju
+	Stop waiting; the update can be started again later	Prekini čekanje; ažuriranje se može ponovo pokrenuti kasnije
+	Suite order	Redosled u paketu
+	System default	Podrazumevano u sistemu
+	System package (recommended)	Sistemski paket (preporučeno)
+	Tarball (.tar.gz)	Tar arhiva (.tar.gz)
+	The app will be moved to the Trash. Your documents and settings stay.	Aplikacija će biti premeštena u korpu. Vaši dokumenti i podešavanja ostaju.
+	The app will be removed. Your documents and settings stay.	Aplikacija će biti uklonjena. Vaši dokumenti i podešavanja ostaju.
+	The download is still here. It's checked again, then installed.	Preuzeta datoteka je i dalje ovde. Ponovo se proverava, pa instalira.
+	The system manages install locations here.	Ovde sistem upravlja lokacijama za instalaciju.
+	These notes weren't fetched (GitHub's request limit was reached). They're on the release page.	Ove beleške nisu preuzete (dostignuto je GitHub ograničenje zahteva). Dostupne su na stranici izdanja.
+@msg	this release has no AppImage for a custom install folder	ovo izdanje nema AppImage za prilagođenu fasciklu za instalaciju
+@id	tray.close_to_tray	Nastavi rad u sistemskoj kaseti kada se prozor zatvori
+@id	tray.login_item	Pokreni pri prijavljivanju
+@id	tray.show_on_current_desktop	Prikaži prozor na trenutnoj radnoj površini
+	Unhide App	Ponovo prikaži aplikaciju
+	Uninstall	Deinstaliraj
+	Uninstall cancelled	Deinstalacija je otkazana
+	Uninstall {name}?	Deinstalirati {name}?
+	Uninstall…	Deinstaliraj…
+	Update 1 app	Ažuriraj 1 aplikaciju
+	Update all ({count})	Ažuriraj sve ({count})
+	Update and restart	Ažuriraj i ponovo pokreni
+	Update available	Ažuriranje je dostupno
+	Update cancelled	Ažuriranje je otkazano
+	Update paused	Ažuriranje je pauzirano
+	Update to {v}	Ažuriraj na {v}
+@id	update.check	Proveri ažuriranja
+@id	update.check_auto	Automatski preuzimaj i instaliraj ažuriranja
+@id	update.notify	Obavesti me o ažuriranjima
+@id	update.prereleases	Uključi probna izdanja
+	Updates always use the format an app was installed with.	Ažuriranja uvek koriste format u kom je aplikacija instalirana.
+	Updating…	Ažuriranje…
+	Use default	Koristi podrazumevano
+vectorcraft	Vector illustration	Vektorska ilustracija
+	Verifying checksum…	Provera kontrolne sume…
+	Verifying…	Provera…
+column	Version	Verzija
+	Version {latest}	Verzija {latest}
+	Version {version} installed	Instalirana verzija {version}
+filmcraft	Video editing, color and sound	Uređivanje videa, boje i zvuka
+@id	view.grid	Kartice
+@id	view.table	Tabela
+	Visit getartcraft.com	Posetite getartcraft.com
+	Waiting for another app…	Čekanje druge aplikacije…
+	Waiting for other installs…	Čekanje drugih instalacija…
+	Website (coming soon)	Veb-sajt (uskoro)
+	What's new	Šta je novo
+	When on, opening the launcher from the menu bar brings its window to the desktop you're on. When off, macOS switches you to the desktop the window was on.	Kada je uključeno, otvaranje pokretača sa trake menija dovodi njegov prozor na trenutnu radnu površinu. Kada je isključeno, macOS prelazi na radnu površinu na kojoj je prozor bio.
+	Windows will remove it like any installed program. Your documents and settings stay.	Windows će ga ukloniti kao svaki instalirani program. Vaši dokumenti i podešavanja ostaju.
+wordcraft	Writing and document design	Pisanje i dizajn dokumenata
+	Your system's package manager will remove it, and may ask for your password. Your documents and settings stay.	Sistemski upravnik paketima će ga ukloniti i može zatražiti lozinku. Vaši dokumenti i podešavanja ostaju.
+	{a} and {b}	{a} i {b}
+	{count} updates are available	Dostupna ažuriranja: {count}
+	{done} downloaded	Preuzeto: {done}
+	{done} of {total}	{done} od {total}
+	{done} of {total} downloaded	Preuzeto {done} od {total}
+	{installed} installed · latest {latest}	Instalirano {installed} · najnovije {latest}
+	{month} {day}, {year}	{day}. {month} {year}.
+	{name} details	Detalji za {name}
+	{name} icon	Ikona za {name}
+@msg	{name} installed: {version}	{name} je instaliran: {version}
+@msg	{name} installed: {version} (this release publishes no checksum, so only its size was checked)	{name} je instaliran: {version} (ovo izdanje nema objavljenu kontrolnu sumu, pa je proverena samo veličina)
+@msg	{name} is running. Quit it, then try again.	{name} je pokrenut. Zatvorite ga, pa pokušajte ponovo.
+@msg	{name} updated to {version}	{name} je ažuriran na {version}
+@msg	{name} updated to {version} (this release publishes no checksum, so only its size was checked)	{name} je ažuriran na {version} (ovo izdanje nema objavljenu kontrolnu sumu, pa je proverena samo veličina)
+@msg	{name} was installed from the AUR ({pkg}). Update it with your AUR helper (for example: yay -S {pkg})	{name} je instaliran iz AUR-a ({pkg}). Ažurirajte ga pomoćnikom za AUR (na primer: yay -S {pkg})
+@msg	{name} was installed from the AUR ({pkg}). Update it with {cmd}	{name} je instaliran iz AUR-a ({pkg}). Ažurirajte ga pomoću {cmd}
+@msg	{name} was installed from the {repo} repository or the AUR ({pkg}). Update it with your AUR helper (for example: yay -S {pkg}) or sudo pacman -Syu	{name} je instaliran iz repozitorijuma {repo} ili AUR-a ({pkg}). Ažurirajte ga pomoćnikom za AUR (na primer: yay -S {pkg}) ili komandom sudo pacman -Syu
+@msg	{name} was installed from the {repo} repository or the AUR ({pkg}). Update it with {cmd} or sudo pacman -Syu	{name} je instaliran iz repozitorijuma {repo} ili AUR-a ({pkg}). Ažurirajte ga pomoću {cmd} ili komandom sudo pacman -Syu
+@msg	{name} was removed	{name} je uklonjen
+	{name} {version}	{name} {version}
+	{name} {v} is available	Dostupan je {name} {v}
+@plural	{n} app|{n} apps	{n} aplikacija|{n} aplikacije|{n} aplikacija
+@plural	{n} day ago|{n} days ago	pre {n} dana|pre {n} dana|pre {n} dana
+@plural	{n} h ago|{n} h ago	pre {n} č|pre {n} č|pre {n} č
+@plural	{n} min ago|{n} min ago	pre {n} min|pre {n} min|pre {n} min
+@msg	{path} already exists and wasn't installed by ArtCraft Launcher	{path} već postoji i nije instaliran pomoću ArtCraft Launcher-a
+	{path} already exists. Installing {name} will overwrite it.	{path} već postoji. Instalacija aplikacije {name} će ga zameniti.
+	{version} installed → {latest} released	Instalirano {version} → objavljeno {latest}
+	⊞  Grid	⊞  Kartice
+	☰  Table	☰  Tabela
+	🔍  Search apps	🔍  Pretraži aplikacije
