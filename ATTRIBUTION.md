@@ -378,3 +378,12 @@ TextureCraft's `ui-egui/src/i18n` tables.
 Also adds five info-icon tooltip and note strings of the same window (the mesh path, Select..., Normal map
 format and UV tile hints, and the note that choosing or reimporting a mesh recomputes all channels) to the same nine
 catalogs, with the same AI-assisted origin and no native-speaker review.
+
+## ArtCraft Launcher: Arabic (`ar`) interface catalog
+
+@hasan-noor reviewed and approved the Arabic (`ar`) interface catalog for ArtCraft Launcher
+(`locales/ar/craft-launcher.tsv`, 442 rows) and 15 shared rows added to `locales/ar/common.tsv`.
+Translations were drafted with AI assistance (Antigravity / Gemini) from the plain meaning of the
+English source strings (clean room; no other product's localisation was consulted) and aligned with
+existing `locales/ar/` terminology, then reviewed and approved by @hasan-noor, a native Arabic
+speaker.
