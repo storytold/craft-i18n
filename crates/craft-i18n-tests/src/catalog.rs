@@ -624,6 +624,21 @@ mod tests {
     }
 
     #[test]
+    fn a_typed_count_takes_plain_forms() {
+        let typed = "@plural\t{n :integer} page|{n :integer} pages\t{n} page|{n} pages\n";
+        assert_eq!(read_catalog(typed, &fr()).1, Vec::<String>::new());
+        let ordinal = "@ordinal\t{n :integer}st|{n}nd|{n}rd|{n}th\t{n}re|{n}e\n";
+        assert_eq!(read_catalog(ordinal, &fr()).1, Vec::<String>::new());
+        // Two forms that type one count two ways, and a type in a translation, are refused.
+        for bad in [
+            "@plural\t{n :integer} page|{n :number} pages\t{n} page|{n} pages\n",
+            "@plural\t{n} page|{n} pages\t{n :integer} page|{n} pages\n",
+        ] {
+            assert_eq!(read_catalog(bad, &fr()).1.len(), 1, "{bad}");
+        }
+    }
+
+    #[test]
     fn the_marks_follow_the_locale() {
         let arabic = LocaleSpec::for_locale("ar").unwrap();
         assert!(read_catalog("\tSave\tحفظ\u{200F}\n", &arabic).1.is_empty());

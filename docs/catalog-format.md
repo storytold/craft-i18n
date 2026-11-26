@@ -61,8 +61,8 @@ region writes them.
 | `noun` | a noun the app names, with its forms (below) | its base form, or the one `form=` names | its gender |
 
 A typed placeholder's name is letters, digits and `_`, starting with a letter or `_` (an untyped
-one may be any text, as before). `@id` and `@msg` rows take no typed placeholder: in an `@msg`
-row a placeholder is text that matched, not a value. The values the app inserts are **isolated**
+one may be any text, as before). An `@msg` row takes no typed placeholder: in it a placeholder
+is text that matched, not a value. The values the app inserts are **isolated**
 for bidirectional text by the app (see Bidirectional text), never by the catalog.
 
 ```tsv locale=de
@@ -202,9 +202,11 @@ Each rule names the row by file and line.
 1. The message parses under the grammar above, within the limits below.
 2. Every variable is a placeholder of the source text, or a `.local` of the message. A variable
    a `.match` chooses by is declared with a function that fits the source: `:number` or
-   `:integer` for a `number`, `integer` or `measure` placeholder and for `{n}` of an `@plural`
-   or `@ordinal` row; `:measure` for a `measure`; `:range` for a `range`; `:noun` for a `noun`.
-   A date, and text with no type, cannot be chosen by.
+   `:integer` for a `number` or `integer` placeholder and for `{n}` of an `@plural` or
+   `@ordinal` row; `:measure` for a `measure`; `:range` for a `range`; `:noun` for a `noun`
+   (`:date` for a `date`, which cannot be chosen by). Text with no type fits no function. The
+   option `select` belongs to `:number` and `:integer` only, and `form` to `:noun`; in an
+   `@plural` row `{n}` is chosen by count, in an `@ordinal` row by `select=ordinal`.
 3. Keys: for a number or measure, the locale's cardinal categories (`select=ordinal`: its
    ordinal ones) or exact whole numbers; for a range, the categories a range of the locale can
    have; for a noun, the genders the locale declares (below). **Every category the locale
