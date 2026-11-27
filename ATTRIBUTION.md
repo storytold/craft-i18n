@@ -386,3 +386,14 @@ catalogs, with the same AI-assisted origin and no native-speaker review.
 ## PhotoCraft workspace recovery
 
 The two panel layout recovery messages were migrated from PhotoCraft commit `786d033ec` for `ar`, `cs`, `da`, `de`, `el`, `es`, `fi`, `fr`, `hi`, `hu`, `id`, `it`, `ja`, `ko`, `nb`, `nl`, `pl`, `pt-br`, `ru`, `sv`, `tr`, `uk`, `vi`, `zh-hans`, `zh-hant`. The sentence break and the Russian wording were edited with Codex assistance. No native-speaker review is recorded.
+
+## Shared catalog (`common.tsv`): Arabic (`ar`) completion
+
+@hasan-noor reviewed and approved the completion of `locales/ar/common.tsv` (bringing it to full
+1,291-row coverage across all shared Craft Apps strings) and the deduplication of identical rows
+from `cadcraft.tsv`, `pdfcraft.tsv`, `photocraft.tsv`, `texturecraft.tsv`, and `wordcraft.tsv`.
+New shared rows (174 previously untranslated entries) and 52 cross-app terminology unifications
+were drafted with AI assistance (Antigravity / Gemini) from the plain meaning of the English
+source strings (clean room; no other product's localisation was consulted) and audited against
+existing `locales/ar/` catalogs, then reviewed and approved by @hasan-noor, a native Arabic
+speaker.
