@@ -73,6 +73,10 @@ besides English, so those locales never need a download.
 hyphenation patterns and their licences), installed and removed together.
 _Avoid_: dictionary download, language download
 
+**Language data cutover**: the change after which a Crafting App takes its Language data only from
+its pin and Language packs and keeps no word lists or patterns of its own. Separate from the app's
+Cutover; neither waits for the other, and it needs no Freeze.
+
 **Licence class**: how an upstream file's licence lets the suite ship it: **Embeddable** (may be
 built into a release), **Download-only** (only as a separate, unmodified file in a Language pack)
 or **Excluded** (never shipped).
@@ -85,6 +89,10 @@ _Avoid_: submission, proposal
 
 **Reviewer**: a trusted speaker of one locale who accepts or declines that locale's Suggestions. A
 Reviewer is per locale, never global.
+
+**Draft**: a Translation the app already shows but no Reviewer has accepted yet, such as a row of
+an AI-assisted first catalog. A Reviewer's acceptance makes it an ordinary Translation.
+_Avoid_: fuzzy, machine translation
 
 **Diagram**: an editable arrangement of labeled shapes, such as a process, hierarchy,
 cycle or relationship. Distinct from a numeric-data chart, so a locale's Diagram must not be
