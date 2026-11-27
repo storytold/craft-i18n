@@ -264,6 +264,39 @@ class Sync(unittest.TestCase):
         self.assertEqual(self.rows("de")[("", "Open")], "Open")
         self.assertNotIn(("", "Open"), self.rows("pt"))  # shared already English
 
+    def test_new_contexts_typed_placeholders_and_selector_messages_are_carried(self):
+        rows = (
+            ("", "Page {n :integer} of {total :integer}", "Page {n} sur {total}"),
+            ("@ordinal", "{n}st|{n}nd|{n}rd|{n}th", "{n}e"),
+            ("@grammar", "genders", "masculine feminine"),
+            ("@noun", "page", "feminine: page"),
+            ("", "Delete this {item :noun}?",
+             ".input {$item :noun} .match $item feminine {{Supprimer cette {$item} ?}} * {{Supprimer ce {$item} ?}}"),
+        )
+        self.write_app({"fr.tsv": tsv(("", "Save", "Enregistrer"), ("", "Crop", "Rogner"), *rows)})
+        self.commit()
+        code, out = self.run_sync()
+        self.assertEqual(code, 0, out)
+        self.assertNotIn("unknown context", out)
+        carried = self.rows("fr")
+        for context, source, value in rows:
+            self.assertEqual(carried.get((context, source)), value, (context, source))
+        self.assertEqual(self.run_sync("--check")[0], 0)
+
+    def test_placeholders_ignore_the_type_of_the_english(self):
+        self.assertEqual(sync_app.placeholders("{n :integer} of {total :integer} in {file}"),
+                         ["file", "n", "total"])
+        self.assertEqual(sync_app.placeholders("{n} of {total}"), ["n", "total"])
+        # Only a trailing ` :word` is a type.
+        self.assertEqual(sync_app.placeholders("{a:b} {c :D}"), ["a:b", "c :D"])
+        self.assertIsNone(sync_app.text_problem("", "Page {n :integer}", "Page {n}"))
+        self.assertEqual(sync_app.text_problem("", "Page {n :integer}", "Page {m}"), "placeholders differ")
+
+    def test_the_new_contexts_are_reserved(self):
+        for context in ("@plural", "@ordinal", "@id", "@msg", "@noun", "@grammar"):
+            self.assertIsNone(sync_app.unusable_row(context, "a", "b"), context)
+        self.assertEqual(sync_app.unusable_row("@nope", "a", "b"), "unknown context @nope")
+
     def test_refuses_a_ref_without_catalogs(self):
         self.write_app({"fr.tsv": None, "es.tsv": None})
         self.commit()

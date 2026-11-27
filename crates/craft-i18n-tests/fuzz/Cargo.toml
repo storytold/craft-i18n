@@ -1,0 +1,30 @@
+[package]
+name = "craft-i18n-tests-fuzz"
+version = "0.0.0"
+publish = false
+edition = "2024"
+
+[package.metadata]
+cargo-fuzz = true
+
+[dependencies]
+libfuzzer-sys = "0.4"
+craft-i18n-tests = { path = ".." }
+
+# Its own workspace: cargo-fuzz needs nightly and sanitizer flags, so this crate stays out of the
+# craft-i18n workspace and its lockfile.
+[workspace]
+
+[[bin]]
+name = "selector_message"
+path = "fuzz_targets/selector_message.rs"
+test = false
+doc = false
+bench = false
+
+[[bin]]
+name = "catalog"
+path = "fuzz_targets/catalog.rs"
+test = false
+doc = false
+bench = false
