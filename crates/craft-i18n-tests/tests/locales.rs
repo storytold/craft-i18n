@@ -63,6 +63,32 @@ fn clean_tree_passes() {
 }
 
 #[test]
+fn draft_list_entry_needs_its_catalog_row() {
+    let common = format!("{H}{NAME}\tSave\tEnregistrer\n");
+    let app = format!("{H}\tSave\tSauvegarder\n\tPlay\tJouer\n");
+    assert_problems(
+        "drafts",
+        &[
+            ("locales/fr/common.tsv", &common),
+            ("locales/fr/anicraft.tsv", &app),
+            (
+                "drafts/fr/common.tsv",
+                "# Drafts\n\tSave\n\tOpen\n\tSave\n@id\tlanguage.name\n",
+            ),
+            ("drafts/fr/anicraft.tsv", "\tPlay\n\tSave\n"),
+            ("drafts/fr/cadcraft.tsv", "\tPlay\n"),
+        ],
+        &[
+            "drafts/fr/anicraft.tsv: line 2: an override",
+            "drafts/fr/cadcraft.tsv: line 1: no such row",
+            "drafts/fr/common.tsv: line 3: no such row",
+            "drafts/fr/common.tsv: line 4: listed twice",
+            "drafts/fr/common.tsv: line 5: an @id row",
+        ],
+    );
+}
+
+#[test]
 fn bad_row_names_file_and_line() {
     let common = format!("{H}{NAME}\tSave\n");
     assert_problems(

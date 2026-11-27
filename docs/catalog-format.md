@@ -70,6 +70,26 @@ Russian, 6 for Arabic.
 - Partial catalogs are welcome. `cargo test coverage_report -- --nocapture` prints each catalog's
   row count against the largest catalog of the same name.
 
+## Draft lists
+
+A Draft is a row the app already shows that no Reviewer has accepted yet, such as a row of an
+AI-assisted first catalog ([ADR 0007](adr/0007-drafts-listed-beside-the-catalogs.md)). Drafts are
+listed outside `locales/`, so no app reads the list:
+
+```
+drafts/<locale>/<catalog>.tsv      e.g. drafts/fr/anicraft.tsv for locales/fr/anicraft.tsv
+context <TAB> English source text  one row per Draft, written exactly as in the catalog
+```
+
+- `#` lines and empty lines are ignored. Two columns, escaped as in the catalog.
+- CI fails a row that names no row of its catalog, or that is listed twice.
+- Weblate shows a listed row as "Needs editing". When a Reviewer accepts it, the next sync PR
+  takes it off the list (and changes its wording if the Reviewer did). If the row changed on
+  `main` after the export, it stays listed, and Weblate shows the new wording as "Needs editing".
+- A list names no `@id` row, and an app list no override of a shared string: Weblate offers
+  neither, so they can't be accepted there.
+- Rows added before ADR 0007 are not listed.
+
 ## What an app shows
 
 For `pt-br`, an app looks up: `pt-br/<app>.tsv` → `pt-br/common.tsv` → `pt/<app>.tsv` →

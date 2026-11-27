@@ -25,6 +25,10 @@ Offered: `common` and the apps in COMPONENTS (after their cutover), minus `@id` 
 component, every shared string (overrides stay out, spec 11). PO text is the TSV column with `"`
 escaped; both use `\\n`, `\\t` and `\\\\`. A `@plural` row is a PO plural with `msgctxt "@plural"`;
 any other context is the `msgctxt`.
+
+Drafts (ADR 0007): a row listed in `drafts/<locale>/<component>.tsv` (`context<TAB>source`, columns
+as in the catalog) is exported fuzzy ("Needs editing"). A Reviewer who accepts it in Weblate makes
+it non-fuzzy; import then takes it off the list, with any change to its wording.
 """
 
 import argparse
@@ -66,6 +70,19 @@ def catalogs(root):
             path = d / f"{component}.tsv"
             if path.exists():
                 out[(d.name, component)] = parse(path.read_text(encoding="utf-8"))[0]
+    return out
+
+
+def drafts(root):
+    """{(locale, component): {key}}: the rows each Draft list names, columns as written."""
+    out = {}
+    for path in sorted((root / "drafts").glob("*/*.tsv")):
+        keys = set()
+        for line in path.read_text(encoding="utf-8").lstrip("\ufeff").split("\n"):
+            cols = line.rstrip("\r").split("\t")
+            if line.strip() and not line.startswith("#") and len(cols) == 2:
+                keys.add((cols[0], cols[1]))
+        out[(path.parent.name, path.stem)] = keys
     return out
 
 
@@ -184,13 +201,14 @@ def entry_key(e, problems, where):
     return (tsv_column(e["ctx"] or "", problems, where), tsv_column(e["id"], problems, where))
 
 
-def po_values(path, nplurals, problems):
-    """{key: translation as a TSV column} for a PO file's complete, non-fuzzy entries."""
+def po_values(path, nplurals, problems, fuzzy=None):
+    """{key: translation as a TSV column} for a PO file's complete, non-fuzzy entries. With a
+    `fuzzy` set, fuzzy entries are included too and their keys added to it."""
     if not path.exists():
         return {}
     out = {}
     for e in parse_po(path.read_text(encoding="utf-8")):
-        if e["id"] == "" and e["ctx"] is None or "fuzzy" in e["flags"]:
+        if e["id"] == "" and e["ctx"] is None or "fuzzy" in e["flags"] and fuzzy is None:
             continue
         where = f"{path.parent.name}/{path.name}: {e['ctx']!r} {e['id']!r}"
         key = entry_key(e, problems, where)
@@ -205,24 +223,31 @@ def po_values(path, nplurals, problems):
                 problems.append(f"{where}: a plural form contains |")
                 continue
         out[key] = "|".join(forms)
+        if fuzzy is not None and "fuzzy" in e["flags"]:
+            fuzzy.add(key)
     return out
 
 
 def weblate_changes(po_dir, base_dir, root, problems):
-    """{(component, locale): {key: (translation at the last export or None, Weblate's)}} for every
-    translation Weblate changed since the last export."""
+    """({(component, locale): {key: (translation at the last export or None, Weblate's)}} for every
+    translation Weblate changed since the last export, {(component, locale): {key: Weblate's}} for
+    every entry exported fuzzy that Weblate now has non-fuzzy: an accepted Draft, with the wording
+    the Reviewer accepted)."""
     table = plural_table(root)
-    out = {}
+    out, accepted = {}, {}
     for component in COMPONENTS:
         for path in sorted((po_dir / component).glob("*.po")):
             locale = path.stem
             n = table.get(locale, (0, ""))[0]
             now = po_values(path, n, problems)
-            base = po_values(base_dir / component / path.name, n, problems)
+            was_fuzzy = set()
+            base = po_values(base_dir / component / path.name, n, problems, was_fuzzy)
             changed = {k: (base.get(k), v) for k, v in now.items() if base.get(k) != v}
             if changed:
                 out[(component, locale)] = changed
-    return out
+            if was_fuzzy & now.keys():
+                accepted[(component, locale)] = {k: now[k] for k in was_fuzzy & now.keys()}
+    return out, accepted
 
 
 # --- export ---
@@ -267,10 +292,10 @@ def semantic(text):
 
 def export(po_dir, base_dir, root):
     problems = []
-    changes = weblate_changes(po_dir, base_dir, root, problems)
+    changes, accepted = weblate_changes(po_dir, base_dir, root, problems)
     if problems:
         return problems
-    cats, table = catalogs(root), plural_table(root)
+    cats, table, listed = catalogs(root), plural_table(root), drafts(root)
     for component in COMPONENTS:
         keys = offered_keys(cats, component)
         d = po_dir / component
@@ -294,10 +319,15 @@ def export(po_dir, base_dir, root):
                                                                 for i in sorted(e["strs"])))
                    for e in existing if e["id"] != ""}
             body = ""
+            draft = listed.get((locale, component), set())
+            ok = accepted.get((component, locale), {})
             for k in keys:
                 value = values.get(k, "")
                 was = old.get(k)
                 flags = was[0] if was and was[1] == value else set()
+                # Fuzzy until a Reviewer accepted this very wording (main may have changed it since).
+                if k in draft and ok.get(k) != value:
+                    flags = flags | {"fuzzy"}
                 body += "\n" + render_entry(k, value, n, flags)
             write_if_changed(path, header(component, locale, table) + body)
     return []
@@ -349,14 +379,22 @@ def edit_catalog(path, updates, name, locale, app):
     path.write_text("\n".join(lines), encoding="utf-8", newline="\n")
 
 
+def edit_drafts(path, keys):
+    """Take `keys` off a Draft list, changing only those lines."""
+    lines = path.read_text(encoding="utf-8").split("\n")
+    kept = [l for l in lines if tuple(l.lstrip("\ufeff").rstrip("\r").split("\t")) not in keys]
+    path.write_text("\n".join(kept), encoding="utf-8", newline="\n")
+
+
 def import_(po_dir, base_dir, root):
     problems = []
-    changes = weblate_changes(po_dir, base_dir, root, problems)
+    changes, accepted = weblate_changes(po_dir, base_dir, root, problems)
     if problems:
         return problems, []
+
     cats = catalogs(root)
     shared = {k for (_, c), rows in cats.items() if c == "common" for k in rows}
-    listed = []
+    listed, applied = [], {}
     for (component, locale), rows in sorted(changes.items()):
         if not (root / "locales" / locale).is_dir():
             problems.append(f"{component}/{locale}.po: no such locale in locales/")
@@ -374,9 +412,21 @@ def import_(po_dir, base_dir, root):
                 continue
             updates[key] = value
             listed.append(change)
+        applied[(component, locale)] = updates
         if updates:
             path = root / "locales" / locale / f"{component}.tsv"
             edit_catalog(path, updates, language_name(root, locale), locale, COMPONENTS[component])
+    # An accepted Draft leaves its list only if the catalog now holds the wording the Reviewer
+    # accepted: not if main changed the row since the export.
+    listed_drafts = drafts(root)
+    for (component, locale), ok in sorted(accepted.items()):
+        final = cats.get((locale, component), {}) | applied.get((component, locale), {})
+        keys = {k for k, v in ok.items() if k in listed_drafts.get((locale, component), set())
+                and final.get(k) == v}
+        if keys:
+            edit_drafts(root / "drafts" / locale / f"{component}.tsv", keys)
+            listed += [{"component": component, "locale": locale, "context": k[0], "source": k[1],
+                        "draft_accepted": True} for k in sorted(keys, key=sort_key)]
     return problems, listed
 
 
@@ -388,7 +438,8 @@ def pr_body(changes):
         return "No translation changes.\n"
     out = ["Translations accepted in Weblate (ADR 0006). A maintainer approves and merges once CI passes.\n"]
     conflicts = [c for c in changes if c.get("conflict")]
-    changes = [c for c in changes if not c.get("conflict")]
+    accepted = [c for c in changes if c.get("draft_accepted")]
+    changes = [c for c in changes if not c.get("conflict") and not c.get("draft_accepted")]
     if conflicts:
         out.append("\n## Not imported: changed on `main` since the export\n\n"
                    "`main` keeps its text; the next export puts it back in Weblate. A Reviewer can "
@@ -403,6 +454,11 @@ def pr_body(changes):
     for locale in sorted({c["locale"] for c in rest}):
         out.append(f"\n## `{locale}`\n\n")
         out += [_line(c) for c in rest if c["locale"] == locale]
+    if accepted:
+        out.append("\n## Drafts accepted (ADR 0007)\n\nTaken off their Draft lists.\n\n")
+        for c in accepted:
+            ctx = f" ({c['context']})" if c["context"] else ""
+            out.append(f"- `{c['locale']}/{c['component']}.tsv`: `{c['source']}`{ctx}\n")
     return "".join(out)
 
 
@@ -446,7 +502,8 @@ def main(argv=None):
             if c.get("conflict"):  # an Actions annotation, seen even when nothing else changed
                 print(f"::warning::{c['locale']}/{c['component']}: {c['source']!r} changed on main "
                       "and in Weblate; not imported")
-        print(f"{sum(not c.get('conflict') for c in listed)} translations changed", file=sys.stderr)
+        print(f"{sum(not c.get('conflict') and not c.get('draft_accepted') for c in listed)} "
+              "translations changed", file=sys.stderr)
     return 0
 
 

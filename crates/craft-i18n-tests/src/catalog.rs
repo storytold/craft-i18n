@@ -142,7 +142,7 @@ fn check_plural(source: &str, translation: &str, forms: usize) -> Result<(), Str
     Ok(())
 }
 
-fn unescape(text: &str) -> Result<String, String> {
+pub(crate) fn unescape(text: &str) -> Result<String, String> {
     let mut out = String::with_capacity(text.len());
     let mut chars = text.chars();
     while let Some(c) = chars.next() {

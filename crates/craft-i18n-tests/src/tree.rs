@@ -4,7 +4,7 @@
 use std::collections::{BTreeMap, HashMap, HashSet};
 use std::path::Path;
 
-use crate::catalog::{Row, read_catalog};
+use crate::catalog::{Row, read_catalog, unescape};
 use crate::locale::{check_locale_name, plural_forms};
 
 /// The shared catalog's file name.
@@ -99,7 +99,88 @@ pub fn check_tree(root: &Path) -> Vec<String> {
         }
     }
     problems.extend(redundant_regional_rows(&catalogs));
+    problems.extend(draft_problems(root, &catalogs));
     problems
+}
+
+/// Every Draft list under `root/drafts` (ADR 0007): `drafts/<locale>/<catalog>.tsv`, one
+/// `context<TAB>source text` row per Draft, escaped as in a catalog. An entry whose catalog row
+/// is missing fails, so a list never names a row the app doesn't show; so does an app entry for a
+/// shared string's override, which Weblate never offers and so can't accept.
+fn draft_problems(root: &Path, catalogs: &BTreeMap<String, Locale>) -> Vec<String> {
+    let mut problems = Vec::new();
+    let shared: HashSet<&(String, String)> =
+        catalogs.values().flat_map(|l| l.common.keys()).collect();
+    let dir = root.join("drafts");
+    let locales = match entries(&dir) {
+        Ok(locales) => locales,
+        Err(e) => return vec![format!("drafts: {e}")],
+    };
+    for locale in locales {
+        let files = match entries(&dir.join(&locale)) {
+            Ok(files) => files,
+            Err(e) => {
+                problems.push(format!("drafts/{locale}: {e}"));
+                continue;
+            }
+        };
+        for file in files {
+            let path = format!("drafts/{locale}/{file}");
+            let text = match std::fs::read_to_string(dir.join(&locale).join(&file)) {
+                Ok(text) => text,
+                Err(e) => {
+                    problems.push(format!("{path}: {e}"));
+                    continue;
+                }
+            };
+            let rows = catalogs.get(&locale).and_then(|l| {
+                if file == COMMON {
+                    Some(&l.common)
+                } else {
+                    file.strip_suffix(".tsv").and_then(|app| l.apps.get(app))
+                }
+            });
+            let mut seen = HashSet::new();
+            let text = text.strip_prefix('\u{feff}').unwrap_or(&text);
+            for (i, line) in text.split('\n').enumerate() {
+                let line = line.strip_suffix('\r').unwrap_or(line);
+                if line.is_empty() || line.starts_with('#') {
+                    continue;
+                }
+                let problem = match draft_entry(line) {
+                    Err(e) => Some(e),
+                    Ok(key) if !seen.insert(key.clone()) => Some("listed twice".into()),
+                    Ok(key) if !rows.is_some_and(|rows| rows.contains_key(&key)) => {
+                        Some(format!("no such row in locales/{locale}/{file}"))
+                    }
+                    Ok(key) if key.0 == "@id" => Some(
+                        "an @id row; Weblate doesn't offer it, so it can't be accepted there".into(),
+                    ),
+                    Ok(key) if file != COMMON && shared.contains(&key) => Some(
+                        "an override of a shared string; Weblate doesn't offer it, so it can't be accepted there"
+                            .into(),
+                    ),
+                    Ok(_) => None,
+                };
+                if let Some(problem) = problem {
+                    problems.push(format!("{path}: line {}: {problem}", i + 1));
+                }
+            }
+        }
+    }
+    problems
+}
+
+/// One Draft list row: (context, source text), unescaped.
+fn draft_entry(line: &str) -> Result<(String, String), String> {
+    let columns: Vec<&str> = line.split('\t').collect();
+    let [context, source] = columns.as_slice() else {
+        return Err(format!(
+            "{} columns; expected 2 (context, source text)",
+            columns.len()
+        ));
+    };
+    Ok((unescape(context)?, unescape(source)?))
 }
 
 /// The row the apps' language pickers read: `@id language.name`.

@@ -156,6 +156,59 @@ class Bridge(unittest.TestCase):
         self.export()  # after the sync PR merges, nothing is pending
         self.assertEqual(wb.import_(self.po, self.base, self.root), ([], []))
 
+    def drafts(self, text):
+        path = self.root / "drafts" / "de" / "wordcraft.tsv"
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(text, encoding="utf-8")
+        return path
+
+    def test_a_draft_is_fuzzy_until_accepted(self):
+        path = self.drafts("# Drafts\n\tBold\n")
+        before = self.tsv("de", "wordcraft")
+        self.export()
+        self.export()  # stays fuzzy across exports
+        self.assertIn('#, fuzzy\nmsgid "Bold"\nmsgstr "Fett"\n', self.po_file("wordcraft", "de"))
+        self.set_po("wordcraft", "de", '#, fuzzy\nmsgid "Bold"', 'msgid "Bold"')
+        self.assertEqual(wb.export(self.po, self.base, self.root), [])  # an unmerged acceptance survives
+        self.assertNotIn("fuzzy", self.po_file("wordcraft", "de"))
+        problems, listed = wb.import_(self.po, self.base, self.root)
+        self.assertEqual(problems, [])
+        self.assertEqual(listed, [{"component": "wordcraft", "locale": "de", "context": "", "source": "Bold",
+                                   "draft_accepted": True}])
+        self.assertEqual(path.read_text(encoding="utf-8"), "# Drafts\n")
+        self.assertEqual(self.tsv("de", "wordcraft"), before)
+        self.assertIn("## Drafts accepted", wb.pr_body(listed))
+        self.export()  # after the sync PR merges, nothing is pending
+        self.assertEqual(wb.import_(self.po, self.base, self.root), ([], []))
+
+    def test_an_accepted_draft_keeps_the_reviewers_wording(self):
+        path = self.drafts("\tBold\n")
+        self.export()
+        self.set_po("wordcraft", "de", '#, fuzzy\nmsgid "Bold"\nmsgstr "Fett"', 'msgid "Bold"\nmsgstr "Fettdruck"')
+        problems, listed = wb.import_(self.po, self.base, self.root)
+        self.assertEqual(problems, [])
+        self.assertEqual([c.get("new") for c in listed], ["Fettdruck", None])
+        self.assertIn("\tBold\tFettdruck\n", self.tsv("de", "wordcraft"))
+        self.assertEqual(path.read_text(encoding="utf-8"), "")
+
+    def test_a_draft_main_rewords_after_acceptance_stays_listed(self):
+        path = self.drafts("\ufeff\tBold\n")
+        self.export()
+        self.set_po("wordcraft", "de", '#, fuzzy\nmsgid "Bold"', 'msgid "Bold"')
+        self.write("de", "wordcraft", ("", "Open", "Aufmachen"), ("", "Bold", "Halbfett"),
+                   ("@msg", "Couldn't open {name}: {e}", "{name} ließ sich nicht öffnen: {e}"))
+        self.assertEqual(wb.export(self.po, self.base, self.root), [])
+        self.assertIn('#, fuzzy\nmsgid "Bold"\nmsgstr "Halbfett"\n', self.po_file("wordcraft", "de"))
+        self.assertEqual(wb.import_(self.po, self.base, self.root)[0], [])
+        self.assertEqual(path.read_text(encoding="utf-8"), "\ufeff\tBold\n")
+
+    def test_an_accepted_draft_after_a_bom_leaves_the_list(self):
+        path = self.drafts("\ufeff\tBold\n")
+        self.export()
+        self.set_po("wordcraft", "de", '#, fuzzy\nmsgid "Bold"', 'msgid "Bold"')
+        self.assertEqual(wb.import_(self.po, self.base, self.root)[0], [])
+        self.assertEqual(path.read_text(encoding="utf-8"), "")
+
     def test_fuzzy_and_bad_plurals(self):
         self.export()
         self.set_po("common", "de", 'msgid "Open"\nmsgstr "Öffnen"', '#, fuzzy\nmsgid "Open"\nmsgstr "Auf"')
