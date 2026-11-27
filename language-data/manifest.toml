@@ -3733,36 +3733,47 @@ class = "Embeddable"
 [[file]]
 locale = "ug"
 kind = "spelling-aff"
-url = "https://raw.githubusercontent.com/neouyghur/hunspell-ug/9748df3abb8a563dc16721cb69bef0c609404415/ug.aff"
-commit = "9748df3abb8a563dc16721cb69bef0c609404415"
-sha256 = "8578f136c34c171349d74eac65f9b064c98908b79ae5cd6180600072df514088"
-size = 1568222
-licence = "GPL-2.0-only"
-class = "Excluded"
+url = "https://raw.githubusercontent.com/forgotten1432/uyghur-hunspell/71d3073864f3a072586be693478c51107567c120/ug.aff"
+commit = "71d3073864f3a072586be693478c51107567c120"
+sha256 = "3229f97b59f67ebc2597b28b2a3015474f26d93dcf811081dd8e6c63fa21c3b0"
+size = 580
+licence = "MIT"
+class = "Download-only"
 name = "ئۇيغۇرچە"
-note = "The only Hunspell dictionary is broken (ug.dic is byte-identical to ug.aff) and its source word list has no licence. Excluded."
+note = "Generated (word list to .dic, no affix rules) by build_ug.py in forgotten1432/uyghur-hunspell from uyghur_imla.txt in gheyret/UyghurEditPP at c1e96f1e (sha256 f6ac84cd…), whose repository LICENSE is MIT ('Copyright (c) 2021 Uyghur'). The UyghurEditPP README (0.8 release notes) says the stems were taken from the printed 'Hazirqi Zaman Uyghur Edebiy Tilining Imla Lughiti' (2009, 1st edition) by OCR and hand correction, then inflected, and: 'Bu sözlüklerni xalighanche ishletsenglar bolidu' (use these words freely), asking for the credit 'UyghurEdit++ ning Imla Ambiri Paydilinildi'. The 2009 dictionary's own publisher states no licence. Download-only until the provenance of the stems is confirmed; MIT would otherwise make it Embeddable."
 
 [[file]]
 locale = "ug"
 kind = "spelling-dic"
-url = "https://raw.githubusercontent.com/neouyghur/hunspell-ug/9748df3abb8a563dc16721cb69bef0c609404415/ug.dic"
-commit = "9748df3abb8a563dc16721cb69bef0c609404415"
-sha256 = "8578f136c34c171349d74eac65f9b064c98908b79ae5cd6180600072df514088"
-size = 1568222
-licence = "GPL-2.0-only"
-class = "Excluded"
-note = "The only Hunspell dictionary is broken (ug.dic is byte-identical to ug.aff) and its source word list has no licence. Excluded."
+url = "https://raw.githubusercontent.com/forgotten1432/uyghur-hunspell/71d3073864f3a072586be693478c51107567c120/ug.dic"
+commit = "71d3073864f3a072586be693478c51107567c120"
+sha256 = "72e258359b790ad29c7eb2ddd6b560384de80150c94b2cd1e0205291ebc51d38"
+size = 9855801
+licence = "MIT"
+class = "Download-only"
+note = "Generated (word list to .dic, no affix rules) by build_ug.py in forgotten1432/uyghur-hunspell from uyghur_imla.txt in gheyret/UyghurEditPP at c1e96f1e (sha256 f6ac84cd…), whose repository LICENSE is MIT ('Copyright (c) 2021 Uyghur'). The UyghurEditPP README (0.8 release notes) says the stems were taken from the printed 'Hazirqi Zaman Uyghur Edebiy Tilining Imla Lughiti' (2009, 1st edition) by OCR and hand correction, then inflected, and: 'Bu sözlüklerni xalighanche ishletsenglar bolidu' (use these words freely), asking for the credit 'UyghurEdit++ ning Imla Ambiri Paydilinildi'. The 2009 dictionary's own publisher states no licence. Download-only until the provenance of the stems is confirmed; MIT would otherwise make it Embeddable."
 
 [[file]]
 locale = "ug"
 kind = "licence"
-url = "https://raw.githubusercontent.com/neouyghur/hunspell-ug/9748df3abb8a563dc16721cb69bef0c609404415/LICENSE"
-commit = "9748df3abb8a563dc16721cb69bef0c609404415"
-sha256 = "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
-size = 18092
-licence = "GPL-2.0-only"
-class = "Excluded"
-note = "The only Hunspell dictionary is broken (ug.dic is byte-identical to ug.aff) and its source word list has no licence. Excluded."
+url = "https://raw.githubusercontent.com/gheyret/UyghurEditPP/c1e96f1e97db573bfee38ced1953d4c31943b411/LICENSE"
+commit = "c1e96f1e97db573bfee38ced1953d4c31943b411"
+sha256 = "df251b5ad922c732d9dd43840383d8eca66ff202b9631d35791199817ba2f569"
+size = 1063
+licence = "MIT"
+class = "Download-only"
+note = "The licence of uyghur_imla.txt (Gheyret Kenji, UyghurEdit++), the word list ug.dic is generated from."
+
+[[file]]
+locale = "ug"
+kind = "licence"
+url = "https://raw.githubusercontent.com/forgotten1432/uyghur-hunspell/71d3073864f3a072586be693478c51107567c120/NOTICE.md"
+commit = "71d3073864f3a072586be693478c51107567c120"
+sha256 = "c0a0bf4c4ff01431f3629c8393daec73c96d11ac3b1d3ce9a05e933a4fcac64e"
+size = 1325
+licence = "MIT"
+class = "Download-only"
+note = "Credits Gheyret Kenji and carries the attribution the UyghurEditPP README asks for ('UyghurEdit++ ning Imla Ambiri Paydilinildi'), the source pin and how the pair is generated."
 
 
 # uk
