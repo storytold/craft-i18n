@@ -386,3 +386,13 @@ catalogs, with the same AI-assisted origin and no native-speaker review.
 ## PhotoCraft workspace recovery
 
 The two panel layout recovery messages were migrated from PhotoCraft commit `786d033ec` for `ar`, `cs`, `da`, `de`, `el`, `es`, `fi`, `fr`, `hi`, `hu`, `id`, `it`, `ja`, `ko`, `nb`, `nl`, `pl`, `pt-br`, `ru`, `sv`, `tr`, `uk`, `vi`, `zh-hans`, `zh-hant`. The sentence break and the Russian wording were edited with Codex assistance. No native-speaker review is recorded.
+
+## DeckCraft: Arabic (`ar`) interface catalog
+
+@hasan-noor reviewed and approved the Arabic (`ar`) interface catalog for DeckCraft
+(`locales/ar/deckcraft.tsv`, 1,098 rows, covering all 1,100 DeckCraft strings alongside
+`locales/ar/common.tsv`). Translations were drafted with AI assistance (Antigravity / Gemini)
+from the plain meaning of the English source strings (clean room; no other product's
+localisation was consulted) and audited against existing `locales/ar/` catalogs (primarily
+WordCraft, PdfCraft, PhotoCraft, and `common.tsv`), then reviewed and approved by @hasan-noor,
+a native Arabic speaker.
