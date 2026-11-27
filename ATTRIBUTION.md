@@ -386,3 +386,11 @@ catalogs, with the same AI-assisted origin and no native-speaker review.
 ## PhotoCraft workspace recovery
 
 The two panel layout recovery messages were migrated from PhotoCraft commit `786d033ec` for `ar`, `cs`, `da`, `de`, `el`, `es`, `fi`, `fr`, `hi`, `hu`, `id`, `it`, `ja`, `ko`, `nb`, `nl`, `pl`, `pt-br`, `ru`, `sv`, `tr`, `uk`, `vi`, `zh-hans`, `zh-hant`. The sentence break and the Russian wording were edited with Codex assistance. No native-speaker review is recorded.
+
+## MaterialCraft: partial Hebrew catalog migration
+
+211 app rows migrate existing original Hebrew translations by @nocturney with ChatGPT (OpenAI) assistance from [MaterialCraft PR #197](https://github.com/storytold/materialcraft/pull/197) (head `36fef34f20618cd16021a6da0d11b8fd18b700a2`). Every English key occurs in the official Arabic migration snapshot `b73facdc7b8b5ce102cd9e14d964058a15182dc0` and current app base `827ba9259a89a9d62401f32f255c6b8d86ef0d94`. 42 identical shared rows reused; 18 identical pending shared rows deferred to #170. Original wording retained. No runtime migration or additional native-speaker review; installed RTL pending. Related: storytold/materialcraft#210 and #256.
+
+Additional 133 existing Hebrew rows from the same PR #197 were migrated verbatim after verifying exact production `tr()` calls in current MaterialCraft source `e7ec9cb6bd9789514ac5889f07f9e70df7bd35c5`, the current Arabic key table, and deduplicating against current and pending common catalogs (#42, #170, #219, #484). AI-assisted original translations, no new native-speaker review or runtime integration.
+
+Two existing Hebrew labels were refined with ChatGPT assistance against MaterialCraft source e7ec9cb6: Format selects an image file extension (export/mod.rs:172-177), and Output format selects graph channel data representation (property/graph.rs:39-44). The app-specific override is intentional; the shared formatting command remains unchanged. No native-speaker or runtime review.
