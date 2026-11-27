@@ -386,3 +386,17 @@ catalogs, with the same AI-assisted origin and no native-speaker review.
 ## PhotoCraft workspace recovery
 
 The two panel layout recovery messages were migrated from PhotoCraft commit `786d033ec` for `ar`, `cs`, `da`, `de`, `el`, `es`, `fi`, `fr`, `hi`, `hu`, `id`, `it`, `ja`, `ko`, `nb`, `nl`, `pl`, `pt-br`, `ru`, `sv`, `tr`, `uk`, `vi`, `zh-hans`, `zh-hant`. The sentence break and the Russian wording were edited with Codex assistance. No native-speaker review is recorded.
+
+## DesignCraft: Hebrew Adjust Layout (designcraft#2811)
+
+Adds seven Hebrew rows in `locales/he/designcraft.tsv` for the Adjust Layout
+feature in [DesignCraft #2811](https://github.com/storytold/designcraft/pull/2811),
+source head `d25de4fbaadbdd3a49861f23634a942129d94d40`, alongside the other
+locales in [craft-i18n #489](https://github.com/storytold/craft-i18n/pull/489).
+Drafted by @nocturney with ChatGPT assistance from the English source text;
+no other product localization was consulted or copied. Independent native-speaker
+review and live RTL verification have not been recorded.
+
+## DesignCraft: Hebrew document, page, table and style controls (existing catalog migration)
+
+Migrates 155 previously authored Hebrew rows from [DesignCraft #2670](https://github.com/storytold/designcraft/pull/2670) (head `8176a860ac0dd0fd5dfca40c6242fbccc8f0489f`, @nocturney, AI-assisted), retaining only exact key/value agreements with [DesignCraft #3006](https://github.com/storytold/designcraft/pull/3006) (head `b35df080d747d0f33fa76547063555478d36ae7c`, @hrb9). English keys corroborated in current German and Arabic source tables at `37fac22e965b72896f4c29f47a102c6c20dd2d45`. Shared catalog and pending shared proposals excluded. This is a migration, not new translations; independent native-speaker and live RTL review remain pending.
