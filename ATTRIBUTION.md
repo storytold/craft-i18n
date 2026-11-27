@@ -386,3 +386,18 @@ catalogs, with the same AI-assisted origin and no native-speaker review.
 ## PhotoCraft workspace recovery
 
 The two panel layout recovery messages were migrated from PhotoCraft commit `786d033ec` for `ar`, `cs`, `da`, `de`, `el`, `es`, `fi`, `fr`, `hi`, `hu`, `id`, `it`, `ja`, `ko`, `nb`, `nl`, `pl`, `pt-br`, `ru`, `sv`, `tr`, `uk`, `vi`, `zh-hans`, `zh-hant`. The sentence break and the Russian wording were edited with Codex assistance. No native-speaker review is recorded.
+
+## Hebrew EffectCraft: timeline, typography and marker catalog
+
+Migrates 30 existing original Hebrew translations from storytold/effectcraft#3438
+(contributor source `effectcraft@87be9355c74d01056752092987874c8bc59d15ae`,
+`crates/ui-egui/src/i18n/ui.rs`) into the shared catalog under rule 16.
+The English keys are present at `effectcraft@86af5cba7f6976fe2b4561df4e8021ba807591f5`
+and in the corresponding catalog migration storytold/craft-i18n#485.
+Contributor: @nocturney, AI-assisted with ChatGPT. A small number of existing
+Hebrew values were rephrased for neutral instructions and consistent menu labels.
+No independent native-speaker or live RTL review has been recorded for this catalog.
+
+Additional migration: 19 existing Hebrew Home, Learn, composition and import/export dialog strings from the same contributor source, verified against live call-site literals in effectcraft@ff41f29c6a6e60e7c09ba4298527b9c540c62c87 and the Arabic source-key inventory in #485. Existing wording retained; no new translation count. AI-assisted original translation; independent native-speaker and in-app RTL review remain pending.
+
+Five new AI-assisted Hebrew camera tool labels by @nocturney (ChatGPT), written from English source meaning, verified against `effectcraft@01a61a9462f58f25142ab54c98d23cb26917b2e1` (`crates/ui-egui/src/state.rs` tool labels and `header.rs` translated tool chooser). Distinct from the 49 migrated rows; deduplicated against the current Hebrew common catalog, pending shared catalog contributions and app PRs #3438/#3945. Draft linguistic and installed RTL review remain pending. This is catalog preparation only and does not change runtime wiring or cutover order.
