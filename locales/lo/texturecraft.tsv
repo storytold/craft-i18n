@@ -1,0 +1,916 @@
+# ພາສາລາວ (lo) interface catalog for TextureCraft.
+# Columns, separated by a TAB:  context <TAB> English source text <TAB> translation
+#   context  usually empty. `@plural`, `@id` and `@msg` mean something to the apps; any other
+#            word is a label that tells apart two meanings of the same English.
+#   escapes  \n  \t  \\  inside a column. `{name}` placeholders must appear in both columns (in any
+#            order), and a trailing "…" in one needs one in the other.
+#   @plural  English `one|other`; the translation lists this language's plural forms, `|`-separated.
+#   Lines starting with # and blank lines are ignored. A missing entry shows in English.
+#
+# Clean room: every entry was written from the plain meaning of the English text in ordinary
+# computing vocabulary. No other product's localisation, string table or translated UI was
+# consulted or copied; add entries the same way.
+
+	"{layer}" can't be filled: select a paint layer or a layer's mask	ບໍ່ສາມາດຕື່ມ "{layer}" ໄດ້: ໃຫ້ເລືອກຊັ້ນລະບາຍສີ ຫຼື ໜ້າກາກຂອງຊັ້ນ
+	"{layer}" has no paint yet: the filter changes what you paint on it.	"{layer}" ຍັງບໍ່ມີການລະບາຍສີເທື່ອ: ຕົວກອງຈະປ່ຽນແປງສິ່ງທີ່ທ່ານລະບາຍລົງໄປ.
+	0 turns autosave off. Copies go to {folder}	0 ແມ່ນປິດການບັນທຶກອັດຕະໂນມັດ. ສຳເນົາຈະຖືກເກັບໄວ້ໃນ {folder}
+	1 effect	1 ເອັບເຟັກ
+	2D view only	ມຸມມອງ 2D ເທົ່ານັ້ນ
+	32 bits (float)	32 ບິດ (float)
+	3D mesh	ໂຄງຕາໜ່າງ 3D
+	3D MESH	ໂຄງຕາໜ່າງ 3D
+	3D meshes	ໂຄງຕາໜ່າງ 3D
+	3D texture painting: layers, masks, smart materials, mesh map baking and export.	ການລະບາຍສີເທັກເຈີ 3D: ຊັ້ນ, ໜ້າກາກ, ວັດສະດຸອັດສະລິຍະ, ການຄຳນວນແຜນທີ່ໂຄງຕາໜ່າງ ແລະ ການສົ່ງອອກ.
+	3D view only	ມຸມມອງ 3D ເທົ່ານັ້ນ
+	3D/2D views	ມຸມມອງ 3D/2D
+	A click fills what is under it; a dragged rectangle fills what it selects as it grows	ການຄລິກຈະຕື່ມສິ່ງທີ່ຢູ່ກ້ອງມັນ; ການລາກເປັນຮູບສີ່ຫຼ່ຽມຈະຕື່ມສິ່ງທີ່ມັນເລືອກຕາມຂະໜາດທີ່ຂະຫຍາຍ
+	A folder blends its children (pass-through). Set per-channel opacity in the layer rows.	ແຟ້ມຈະປະສົມຊັ້ນຍ່ອຍພາຍໃນ (ສົ່ງຜ່ານ). ຕັ້ງຄ່າຄວາມທຶບແສງແຕ່ລະຊ່ອງໄດ້ໃນແຖວຂອງຊັ້ນ.
+	a missing layer	ຊັ້ນທີ່ຫາຍໄປ
+	About TextureCraft	ກ່ຽວກັບ TextureCraft
+	About TextureCraft...	ກ່ຽວກັບ TextureCraft...
+	Accent color	ສີເນັ້ນ
+	ACES filmic	ACES ແບບຟີມ
+	Add an anchor point to a layer below to use its stack as a mask.	ເພີ່ມຈຸດຍຶດໃສ່ຊັ້ນດ້ານລຸ່ມ ເພື່ອໃຊ້ກອງຊັ້ນຂອງມັນເປັນໜ້າກາກ.
+	Add anchor point	ເພີ່ມຈຸດຍຶດ
+	Add as decal (view center)	ເພີ່ມເປັນດີຄອລ (ກາງມຸມມອງ)
+	Add black mask	ເພີ່ມໜ້າກາກສີດຳ
+	Add channel	ເພີ່ມຊ່ອງ
+	Add color	ເພີ່ມສີ
+	Add compare mask	ເພີ່ມໜ້າກາກປຽບທຽບ
+	Add effect	ເພີ່ມເອັບເຟັກ
+	Add fill	ເພີ່ມການຕື່ມ
+	Add fill layer	ເພີ່ມຊັ້ນຕື່ມ
+	Add filter	ເພີ່ມຕົວກອງ
+	Add folder	ເພີ່ມແຟ້ມ
+	Add generator	ເພີ່ມຕົວສ້າງ
+	Add High-Poly Meshes	ເພີ່ມໂຄງຕາໜ່າງຄວາມລະອຽດສູງ
+	Add levels	ເພີ່ມລະດັບສີ (Levels)
+	Add mask	ເພີ່ມໜ້າກາກ
+	Add mask with color selection	ເພີ່ມໜ້າກາກດ້ວຍການເລືອກສີ
+	Add output	ເພີ່ມຜົນອອກ
+	Add paint	ເພີ່ມການລະບາຍສີ
+	Add paint layer	ເພີ່ມຊັ້ນລະບາຍສີ
+	Add smart material from the shelf	ເພີ່ມວັດສະດຸອັດສະລິຍະຈາກຄັງ
+	Add to the layer content	ເພີ່ມໃສ່ເນື້ອຫາຂອງຊັ້ນ
+	Add to the mask	ເພີ່ມໃສ່ໜ້າກາກ
+	Add white mask	ເພີ່ມໜ້າກາກສີຂາວ
+	Add...	ເພີ່ມ...
+	Advanced settings	ການຕັ້ງຄ່າຂັ້ນສູງ
+	Aligned: the offset set by the first stroke is kept. V + click sets a new source.	ຈັດແນວ: ໄລຍະເລື່ອນທີ່ກຳນົດໂດຍຮອຍແປງທຳອິດຈະຖືກຮັກສາໄວ້. V + ຄລິກ ເພື່ອກຳນົດແຫຼ່ງໃໝ່.
+	Alignment and culling	ການຈັດແນວ ແລະ ການຕັດດ້ານຫຼັງ
+	All	ທັງໝົດ
+	All layers	ທຸກຊັ້ນ
+	Alphas	ອັນຟາ (Alphas)
+	Also bound to {item} ({menu})	ຍັງຜູກມັດກັບ {item} ({menu}) ນຳອີກ
+	Alt + LMB drag	Alt + ລາກຄລິກຊ້າຍ
+	Amber	ສີອຳພັນ
+	Ambient	ແສງຮອບຂ້າງ
+	Ambient Occlusion	ການບັງແສງຮອບຂ້າງ
+	Ambient occlusion	ການບັງແສງຮອບຂ້າງ
+	Anchor point	ຈຸດຍຶດ
+	Anchor: {name}	ຈຸດຍຶດ: {name}
+	Anchor: {name} ({channel})	ຈຸດຍຶດ: {name} ({channel})
+	Angle (degrees)	ມຸມ (ອົງສາ)
+	Angle fade from	ຈາງຕາມມຸມຈາກ
+	Angle fade to	ຈາງຕາມມຸມເຖິງ
+	Angle jitter	ການສຸ່ມປ່ຽນມຸມ
+	Angle span	ຊ່ວງມຸມ
+	aniso	ອະນິໂຊ
+	aniso angle	ມຸມອະນິໂຊ
+	Anisotropy angle	ມຸມອະນິໂຊໂທຣປີ
+	Anisotropy level	ລະດັບອະນິໂຊໂທຣປີ
+	Antialiasing	ການລົບຮອຍຫຍັກ
+	ao	ao
+	AO intensity	ຄວາມເຂັ້ມ AO
+	Aperture	ຮູຮັບແສງ
+	Apply Diffusion	ນຳໃຊ້ການກະຈາຍ
+	ArtCraft website...	ເວັບໄຊ ArtCraft...
+	Assets	ຊັບພະຍາກອນ
+	Attenuation	ການຫຼຸດຄວາມເຂັ້ມ
+	Auto	ອັດຕະໂນມັດ
+	Auto Tonemapping	ການປັບໂທນສີອັດຕະໂນມັດ
+	Automatic (from the mesh UVs)	ອັດຕະໂນມັດ (ຈາກ UV ຂອງໂຄງຕາໜ່າງ)
+	Autosave every	ບັນທຶກອັດຕະໂນມັດທຸກໆ
+	Autosaves, smart materials, presets, templates and UI layouts go to the data folder. A new folder applies on restart; files already saved stay where they are.	ໄຟລ໌ບັນທຶກອັດຕະໂນມັດ, ວັດສະດຸອັດສະລິຍະ, ຄ່າຕັ້ງຕົ້ນ, ແມ່ແບບ ແລະ ການຈັດວາງ UI ຈະໄປຢູ່ໃນແຟ້ມຂໍ້ມູນ. ແຟ້ມໃໝ່ຈະມີຜົນເມື່ອເປີດໂປຣແກຣມໃໝ່; ໄຟລ໌ທີ່ບັນທຶກໄວ້ແລ້ວຈະຍັງຢູ່ບ່ອນເກົ່າ.
+	Average Normals	ຄ່າສະເລ່ຍນໍມອລ
+	Axis	ແກນ
+	Axis position	ຕຳແໜ່ງແກນ
+	Back to painting	ກັບຄືນໄປລະບາຍສີ
+	Backface culling	ການຕັດດ້ານຫຼັງອອກ
+	Bake an ID map (F8) to pick colors from the mesh.	ຄຳນວນແຜນທີ່ ID (F8) ເພື່ອດູດສີຈາກໂຄງຕາໜ່າງ.
+	Bake Mesh Maps	ຄຳນວນແຜນທີ່ໂຄງຕາໜ່າງ
+	Bake mesh maps	ຄຳນວນແຜນທີ່ໂຄງຕາໜ່າງ
+	Bake mesh maps (F8) for curvature, AO and thickness based generators.	ຄຳນວນແຜນທີ່ໂຄງຕາໜ່າງ (F8) ສຳລັບຕົວສ້າງທີ່ອີງຕາມຄວາມໂຄ້ງ, AO ແລະ ຄວາມໜາ.
+	Bake Selected Textures ({n})	ຄຳນວນເທັກເຈີທີ່ເລືອກ ({n})
+	Baked Lighting	ແສງທີ່ຄຳນວນລ່ວງໜ້າ
+	Baked maps imported: {count}	ນຳເຂົ້າແຜນທີ່ທີ່ຄຳນວນແລ້ວ: {count}
+	Baking	ການຄຳນວນລ່ວງໜ້າ
+	Baking Visualization	ການສະແດງຜົນການຄຳນວນ
+	Baking {map} ({n}/{total})	ກຳລັງຄຳນວນ {map} ({n}/{total})
+	Baking {map} ({n}/{total}), texture set {set} of {sets}	ກຳລັງຄຳນວນ {map} ({n}/{total}), ຊຸດເທັກເຈີ {set} ຈາກ {sets}
+	Base color	ສີພື້ນຖານ
+	Base color is the diffuse color, Specular the F0 color and Glossiness 1 - roughness (add these channels in the texture set settings).	ສີພື້ນຖານ ແມ່ນສີ diffuse, ແສງສະທ້ອນ ແມ່ນສີ F0 ແລະ ຄວາມເງົາ ແມ່ນ 1 - ຄວາມຫຍາບ (ເພີ່ມຊ່ອງເຫຼົ່ານີ້ໃນການຕັ້ງຄ່າຊຸດເທັກເຈີ).
+	Base color, Metallic, Roughness and Specular level.	ສີພື້ນຖານ, ຄວາມເປັນໂລຫະ, ຄວາມຫຍາບ ແລະ ລະດັບແສງສະທ້ອນ.
+	Based on each texture set's size	ອີງຕາມຂະໜາດຂອງແຕ່ລະຊຸດເທັກເຈີ
+	Basic settings	ການຕັ້ງຄ່າພື້ນຖານ
+	BBox	ກ່ອງຂອບເຂດ
+	Bent Normals	ນໍມອລບິດງໍ
+	Bevel	ຂອບມົນ
+	Blending	ການປະສົມ
+	Blending mode of the displayed channel	ໂໝດປະສົມຂອງຊ່ອງທີ່ສະແດງຢູ່
+	Blur and sharpen	ຄວາມມົວ ແລະ ຄວາມຄົມຊັດ
+	Blur Directional	ຄວາມມົວຕາມທິດທາງ
+	Bounces	ການສະທ້ອນກັບ
+	Bricks	ດິນຈີ່
+	Brush	ແປງ
+	Brush name	ຊື່ແປງ
+	Brush size	ຂະໜາດແປງ
+	Brush size down / up	ຫຼຸດ / ເພີ່ມຂະໜາດແປງ
+	Brushed lines	ເສັ້ນຂັດລາຍແປງ
+	Brushes	ແປງຕ່າງໆ
+	BSphere	ໜ່ວຍມົນຂອບເຂດ
+	Built-in (read-only): duplicate it to edit	ທີ່ມີໃນຕົວ (ອ່ານເທົ່ານັ້ນ): ສ້າງຊ້ຳເພື່ອແກ້ໄຂ
+	Built-in mesh	ໂຄງຕາໜ່າງໃນຕົວ
+	Built-in templates are read-only: duplicate one to edit it	ແມ່ແບບໃນຕົວແມ່ນອ່ານເທົ່ານັ້ນ: ສ້າງຊ້ຳອັນໜຶ່ງເພື່ອແກ້ໄຂ
+	Built-in: {mesh}	ໃນຕົວ: {mesh}
+	By Mesh Name	ຕາມຊື່ໂຄງຕາໜ່າງ
+	Cage	ເຄຈ
+	Cage Scene	ສາກເຄຈ
+	Cage Type	ປະເພດເຄຈ
+	Cage: {name}	ເຄຈ: {name}
+	Camera	ກ້ອງ
+	Camera settings	ການຕັ້ງຄ່າກ້ອງ
+	Cancel the stroke	ຍົກເລີກຮອຍແປງ
+	Cavities	ຮ່ອງເລິກ
+	Cell size (texels at 2K)	ຂະໜາດເຊວ (texels ທີ່ 2K)
+	Cells	ເຊວ
+	Change them in Texture Set Settings	ປ່ຽນພວກມັນໃນການຕັ້ງຄ່າຊຸດເທັກເຈີ
+	Channel source: uniform value, procedural, image or anchor	ແຫຼ່ງຂໍ້ມູນຊ່ອງ: ຄ່າສະໝ່ຳສະເໝີ, ໂປຣຊີດູຣອລ, ຮູບພາບ ຫຼື ຈຸດຍຶດ
+	Check All	ເລືອກທັງໝົດ
+	Check for Updates...	ກວດສອບການອັບເດດ...
+	Checker	ລາຍໝາກຮຸກ
+	Choose another mesh file for the project. It is read when you press OK.	ເລືອກໄຟລ໌ໂຄງຕາໜ່າງອື່ນສຳລັບໂຄງການ. ມັນຈະຖືກອ່ານເມື່ອທ່ານກົດ OK.
+	Choosing or reimporting a mesh recomputes all channels.	ການເລືອກ ຫຼື ນຳເຂົ້າໂຄງຕາໜ່າງຄືນໃໝ່ ຈະຄຳນວນທຸກຊ່ອງຄືນໃໝ່.
+	Clamp	ຈຳກັດຂອບເຂດ
+	Clear mask	ລ້າງໜ້າກາກ
+	Clear recent projects	ລ້າງໂຄງການຫຼ້າສຸດ
+	Click a mesh part to show or hide the selected layer on it.	ຄລິກໃສ່ສ່ວນຂອງໂຄງຕາໜ່າງ ເພື່ອສະແດງ ຫຼື ເຊື່ອງຊັ້ນທີ່ເລືອກຢູ່ເທິງສ່ວນນັ້ນ.
+	Click the mesh to pick its material into the brush	ຄລິກໃສ່ໂຄງຕາໜ່າງ ເພື່ອດູດເອົາວັດສະດຸຂອງມັນໃສ່ແປງ
+	Click the mesh to place the decal	ຄລິກໃສ່ໂຄງຕາໜ່າງ ເພື່ອວາງດີຄອລ
+	Click, then press the new shortcut (Esc cancels)	ຄລິກ, ແລ້ວກົດປຸ່ມລັດໃໝ່ (Esc ເພື່ອຍົກເລີກ)
+	Click: turn this channel on or off. Alt+click: this channel only	ຄລິກ: ເປີດ ຫຼື ປິດຊ່ອງນີ້. Alt+ຄລິກ: ສະເພາະຊ່ອງນີ້
+	Clone	ໂຄລນ
+	Closed path	ເສັ້ນທາງປິດ
+	Cloud	ກ້ອນເມກ
+	Clouds	ກ້ອນເມກ
+	coat	ຊັ້ນເຄືອບ
+	Coat normal	ນໍມອລຊັ້ນເຄືອບ
+	coat nrm	ນໍມອລເຄືອບ
+	coat rough	ຫຍາບເຄືອບ
+	Coat roughness	ຄວາມຫຍາບຊັ້ນເຄືອບ
+	Coat weight	ນ້ຳໜັກຊັ້ນເຄືອບ
+	color	ສີ
+	Color burn	ເພີ່ມຄວາມເຂັ້ມສີ (Color burn)
+	Color dodge	ເພີ່ມຄວາມສະຫວ່າງສີ (Color dodge)
+	Color Generator	ຕົວສ້າງສີ
+	Color of the light that travels under the surface (each channel goes as far as its value)	ສີຂອງແສງທີ່ເດີນທາງຢູ່ກ້ອງພື້ນຜິວ (ແຕ່ລະຊ່ອງໄປໄດ້ໄກຕາມຄ່າຂອງມັນ)
+	Color picker	ຕົວດູດສີ
+	Color selection	ການເລືອກສີ
+	Color Source	ແຫຼ່ງສີ
+	Color space	ພື້ນທີ່ສີ
+	Color to replace	ສີທີ່ຈະແທນທີ່
+	Colors near the first shift towards the second, keeping their shading.	ສີທີ່ໃກ້ຄຽງກັບສີທຳອິດຈະປ່ຽນໄປຫາສີທີສອງ ໂດຍຮັກສາເງົາຂອງມັນໄວ້.
+	Colors read as gray. Add a levels or blur effect above to shape the result.	ສີຖືກອ່ານເປັນສີເທົາ. ເພີ່ມເອັບເຟັກລະດັບສີ ຫຼື ຄວາມມົວໄວ້ດ້ານເທິງເພື່ອປັບຮູບແບບຜົນລັບ.
+	Combine with the layer's height	ລວມກັບຄວາມສູງຂອງຊັ້ນ
+	Common Parameters	ພາຣາມິເຕີທົ່ວໄປ
+	Common Settings	ການຕັ້ງຄ່າທົ່ວໄປ
+	Compare mask	ໜ້າກາກປຽບທຽບ
+	Compositing	ການປະກອບພາບ
+	Constant	ຄ່າຄົງທີ່
+	Constants	ຄ່າຄົງທີ່
+	Contained center: fill polygons whose center is in the rectangle	ຈຸດກາງຢູ່ໃນຂອບ: ຕື່ມຮູບຫຼາຍຫຼ່ຽມທີ່ມີຈຸດກາງຢູ່ໃນຮູບສີ່ຫຼ່ຽມ
+	Content effects	ເອັບເຟັກຂອງເນື້ອຫາ
+	Continue with the sample project	ສືບຕໍ່ດ້ວຍໂຄງການຕົວຢ່າງ
+	Contrast/Luminosity	ຄວາມຕ່າງສີ/ຄວາມສະຫວ່າງ
+	Converted maps	ແຜນທີ່ທີ່ແປງແລ້ວ
+	Cooked at {size} px	ຄຳນວນທີ່ {size} px
+	Copper	ທອງແດງ
+	Copy effect	ສຳເນົາເອັບເຟັກ
+	Copy from	ສຳເນົາຈາກ
+	Copy layer(s)	ສຳເນົາຊັ້ນ
+	Copy RGB values	ສຳເນົາຄ່າ RGB
+	Copy the selected layer alone (its empty parts copy nothing)	ສຳເນົາສະເພາະຊັ້ນທີ່ເລືອກ (ສ່ວນທີ່ວ່າງເປົ່າຈະບໍ່ຖືກສຳເນົາ)
+	Copy to all texture sets	ສຳເນົາໄປຍັງທຸກຊຸດເທັກເຈີ
+	Copy what the texture set shows	ສຳເນົາສິ່ງທີ່ຊຸດເທັກເຈີສະແດງ
+	Coral	ສີປະກາລັງ
+	Cores kept for the UI	ແກນປະມວນຜົນທີ່ຈອງໄວ້ໃຫ້ UI
+	Cosine	ໂຄຊາຍ
+	Couldn't encode the render	ບໍ່ສາມາດເຂົ້າລະຫັດພາບເຣນເດີໄດ້
+	Couldn't export textures: {error}	ບໍ່ສາມາດສົ່ງອອກເທັກເຈີໄດ້: {error}
+	Couldn't export the mesh: {error}	ບໍ່ສາມາດສົ່ງອອກໂຄງຕາໜ່າງໄດ້: {error}
+	Couldn't export the template: {error}	ບໍ່ສາມາດສົ່ງອອກແມ່ແບບໄດ້: {error}
+	Couldn't import {name}: {error}	ບໍ່ສາມາດນຳເຂົ້າ {name} ໄດ້: {error}
+	Couldn't open {name}: {error}	ບໍ່ສາມາດເປີດ {name} ໄດ້: {error}
+	Couldn't read the render back from the GPU	ບໍ່ສາມາດອ່ານພາບເຣນເດີກັບຄືນຈາກ GPU ໄດ້
+	Couldn't save the render: {error}	ບໍ່ສາມາດບັນທຶກພາບເຣນເດີໄດ້: {error}
+	Couldn't save {name}: {error}	ບໍ່ສາມາດບັນທຶກ {name} ໄດ້: {error}
+	Count	ຈຳນວນ
+	Count per stamp	ຈຳນວນຕໍ່ຮອຍປ້ຳ
+	Crate	ລັງໄມ້
+	Create smart material	ສ້າງວັດສະດຸອັດສະລິຍະ
+	Ctrl+right-drag in a view sets the size and hardness, Ctrl+left-drag the flow and angle.	Ctrl+ລາກຄລິກຂວາ ໃນມຸມມອງເພື່ອຕັ້ງຂະໜາດ ແລະ ຄວາມແຂງ, Ctrl+ລາກຄລິກຊ້າຍ ເພື່ອຕັ້ງການໄຫຼ ແລະ ມຸມ.
+	Cube	ກ້ອນສີ່ຫຼ່ຽມ
+	Current layer	ຊັ້ນປັດຈຸບັນ
+	Custom File	ໄຟລ໌ທີ່ກຳນົດເອງ
+	Cut effect	ຕັດເອັບເຟັກ
+	Cut layer(s)	ຕັດຊັ້ນ
+	Cyan / red	ຟ້າອ່ອນ / ແດງ
+	Cylinder	ທໍ່ກົມ
+	Cylindrical projection	ການສາຍແບບທໍ່ກົມ
+	Dark to light: the content's luminance picks a color along these stops.	ຈາກມືດຫາສະຫວ່າງ: ຄວາມສະຫວ່າງຂອງເນື້ອຫາຈະເລືອກສີຕາມຈຸດຢຸດເຫຼົ່ານີ້.
+	Darken (Min)	ເຮັດໃຫ້ມືດ (Min)
+	Data folder	ແຟ້ມຂໍ້ມູນ
+	Decal	ດີຄອລ
+	Decal projection	ການສາຍດີຄອລ
+	Default camera	ກ້ອງເລີ່ມຕົ້ນ
+	Delete the selected template	ລຶບແມ່ແບບທີ່ເລືອກ
+	Delete this camera	ລຶບກ້ອງນີ້
+	Deleted template "{name}"	ລຶບແມ່ແບບ "{name}" ແລ້ວ
+	Denoise	ລົບນ້ອຍສ໌
+	Depth of field	ໄລຍະຊັດເລິກ
+	Depth of field (viewport and Rendering mode)	ໄລຍະຊັດເລິກ (ໜ້າຈໍສະແດງຜົນ ແລະ ໂໝດເຣນເດີ)
+	Depth of the sharp plane along the view (0: the orbit center)	ຄວາມເລິກຂອງລະນາບທີ່ຊັດເຈນຕາມມຸມມອງ (0: ຈຸດສູນກາງການໝຸນ)
+	Detail sizes	ຂະໜາດລາຍລະອຽດ
+	Details saved to {file}	ບັນທຶກລາຍລະອຽດໄປຍັງ {file} ແລ້ວ
+	Dilation + default background color	ການຂະຫຍາຍຂອບ + ສີພື້ນຫຼັງເລີ່ມຕົ້ນ
+	Dilation + transparent	ການຂະຫຍາຍຂອບ + ໂປ່ງໃສ
+	Dilation infinite	ການຂະຫຍາຍຂອບບໍ່ສິ້ນສຸດ
+	Dilation Width	ຄວາມກວ້າງການຂະຫຍາຍຂອບ
+	DirectX normal map	ແຜນທີ່ນໍມອລ DirectX
+	Dirt	ຄາບເປື້ອນ
+	Disable	ປິດການໃຊ້ງານ
+	Displacement (height channel)	ການດັນພື້ນຜິວ (ຊ່ອງຄວາມສູງ)
+	Display material	ສະແດງວັດສະດຸ
+	Display next channel	ສະແດງຊ່ອງຕໍ່ໄປ
+	Display next mesh map	ສະແດງແຜນທີ່ໂຄງຕາໜ່າງຕໍ່ໄປ
+	Display previous channel	ສະແດງຊ່ອງກ່ອນໜ້າ
+	Display previous mesh map	ສະແດງແຜນທີ່ໂຄງຕາໜ່າງກ່ອນໜ້າ
+	Display Settings	ການຕັ້ງຄ່າການສະແດງຜົນ
+	Distance-Based	ອີງຕາມໄລຍະທາງ
+	Distribution	ການກະຈາຍຕົວ
+	Document resolution	ຄວາມລະອຽດເອກະສານ
+	Documentation...	ເອກະສານຄູ່ມື...
+	Don't save	ບໍ່ບັນທຶກ
+	Done on CPU: {n} / {max} samples, {s} s	ສຳເລັດເທິງ CPU: {n} / {max} ຕົວຢ່າງ, {s} ວິນາທີ
+	Done on GPU: {n} / {max} samples, {s} s	ສຳເລັດເທິງ GPU: {n} / {max} ຕົວຢ່າງ, {s} ວິນາທີ
+	Double-click or press Enter to edit	ຄລິກສອງເທື່ອ ຫຼື ກົດ Enter ເພື່ອແກ້ໄຂ
+	Double-click to rename	ຄລິກສອງເທື່ອເພື່ອປ່ຽນຊື່
+	Download as	ດາວໂຫຼດເປັນ
+	Downloaded {name}	ດາວໂຫຼດ {name} ແລ້ວ
+	Drag onto an output channel	ລາກໃສ່ຊ່ອງຜົນອອກ
+	Drag the frame to move the decal, a corner to scale it, the round handle to turn it	ລາກກອບເພື່ອຍ້າຍດີຄອລ, ລາກມຸມເພື່ອປັບຂະໜາດ, ລາກມືຈັບມົນເພື່ອໝຸນ
+	Drags the layer stack's values along the stroke into the selected layer.	ດຶງຄ່າຂອງກອງຊັ້ນໄປຕາມຮອຍແປງເຂົ້າໃນຊັ້ນທີ່ເລືອກ.
+	Draws {name} of texture set "{set}". Edits to the source show in every instance.	ແຕ້ມ {name} ຂອງຊຸດເທັກເຈີ "{set}". ການແກ້ໄຂທີ່ຕົ້ນສະບັບຈະສະແດງໃນທຸກຕົວສຳເນົາອ້າງອີງ.
+	Drop an image from the Assets panel here to use it as this mesh map	ວາງຮູບພາບຈາກແຜງຊັບພະຍາກອນໃສ່ບ່ອນນີ້ ເພື່ອໃຊ້ເປັນແຜນທີ່ໂຄງຕາໜ່າງນີ້
+	Dry streaks	ຮອຍແຫ້ງເປັນເສັ້ນ
+	Duplicate effect	ສ້າງຊ້ຳເອັບເຟັກ
+	Duplicate layer(s)	ສ້າງຊ້ຳຊັ້ນ
+	Duplicate the selected template	ສ້າງຊ້ຳແມ່ແບບທີ່ເລືອກ
+	Edge Contrast	ຄວາມຕ່າງຂອບ
+	Edge Detect	ກວດຈັບຂອບ
+	Edge Distance	ໄລຍະຂອບ
+	Edge Protection	ການປ້ອງກັນຂອບ
+	Edges	ຂອບ
+	Edges and cavities	ຂອບ ແລະ ຮ່ອງເລິກ
+	Edit keyboard shortcuts...	ແກ້ໄຂປຸ່ມລັດແປ້ນພິມ...
+	Edit quick mask	ແກ້ໄຂໜ້າກາກດ່ວນ
+	Editing quick mask: paint where painting is allowed (U to finish)	ກຳລັງແກ້ໄຂໜ້າກາກດ່ວນ: ລະບາຍໃສ່ບ່ອນທີ່ອະນຸຍາດໃຫ້ລະບາຍສີ (ກົດ U ເພື່ອສຳເລັດ)
+	Editing the quick mask: fills paint where painting is allowed. Press U to finish.	ກຳລັງແກ້ໄຂໜ້າກາກດ່ວນ: ການຕື່ມຈະລະບາຍໃສ່ບ່ອນທີ່ອະນຸຍາດໃຫ້ລະບາຍສີ. ກົດ U ເພື່ອສຳເລັດ.
+	Editing the quick mask: strokes paint where painting is allowed. Press U to finish.	ກຳລັງແກ້ໄຂໜ້າກາກດ່ວນ: ຮອຍແປງຈະລະບາຍໃສ່ບ່ອນທີ່ອະນຸຍາດໃຫ້ລະບາຍສີ. ກົດ U ເພື່ອສຳເລັດ.
+	emiss	ເປັ່ງແສງ
+	Emissive	ການເປັ່ງແສງ
+	Enable or disable the effect	ເປີດ ຫຼື ປິດເອັບເຟັກ
+	Enable quick mask	ເປີດໃຊ້ໜ້າກາກດ່ວນ
+	Enable Seams	ເປີດໃຊ້ຮອຍຕໍ່
+	Enter a finite number	ປ້ອນຕົວເລກທີ່ມີຂອບເຂດ
+	Environment blur	ຄວາມມົວຂອງສະພາບແວດລ້ອມ
+	Environment exposure (EV)	ການຮັບແສງສະພາບແວດລ້ອມ (EV)
+	Environment map	ແຜນທີ່ສະພາບແວດລ້ອມ
+	Environment opacity	ຄວາມທຶບແສງສະພາບແວດລ້ອມ
+	Environment rotation	ການໝຸນສະພາບແວດລ້ອມ
+	Environment settings	ການຕັ້ງຄ່າສະພາບແວດລ້ອມ
+	Environment: {name}	ສະພາບແວດລ້ອມ: {name}
+	Environments	ສະພາບແວດລ້ອມ
+	Expand or collapse the folder	ຂະຫຍາຍ ຫຼື ຫຍໍ້ແຟ້ມ
+	Export mesh	ສົ່ງອອກໂຄງຕາໜ່າງ
+	Export Mesh...	ສົ່ງອອກໂຄງຕາໜ່າງ...
+	Export template	ແມ່ແບບການສົ່ງອອກ
+	Export templates	ແມ່ແບບການສົ່ງອອກ
+	Export textures	ສົ່ງອອກເທັກເຈີ
+	Export Textures...	ສົ່ງອອກເທັກເຈີ...
+	Export the selected template (.json)	ສົ່ງອອກແມ່ແບບທີ່ເລືອກ (.json)
+	Exported mesh to {path}	ສົ່ງອອກໂຄງຕາໜ່າງໄປຍັງ {path} ແລ້ວ
+	Exported template "{name}" to {path}	ສົ່ງອອກແມ່ແບບ "{name}" ໄປຍັງ {path} ແລ້ວ
+	Exported {n} textures to {folder}	ສົ່ງອອກ {n} ເທັກເຈີໄປຍັງ {folder} ແລ້ວ
+	F0 from specular level	F0 ຈາກລະດັບແສງສະທ້ອນ
+	Fabric weave	ລາຍຕ່ຳຜ້າ
+	Face Normals Based	ອີງຕາມນໍມອລຂອງໜ້າ
+	Field of view (deg)	ມຸມມອງພາບ (ອົງສາ)
+	File ID	ID ຂອງໄຟລ໌
+	File name without extension; variables insert names	ຊື່ໄຟລ໌ໂດຍບໍ່ມີນາມສະກຸນ; ຕົວປ່ຽນຈະແຊກຊື່ໃຫ້
+	File type	ປະເພດໄຟລ໌
+	Fill layer	ຊັ້ນຕື່ມ
+	Fill mode	ໂໝດຕື່ມ
+	Fill only polygons the camera sees (3D view)	ຕື່ມສະເພາະຮູບຫຼາຍຫຼ່ຽມທີ່ກ້ອງເຫັນ (ມຸມມອງ 3D)
+	Fill the closed path (lasso)	ຕື່ມເສັ້ນທາງປິດ (ວົງລ້ອມ)
+	Fill the path (close it first)	ຕື່ມເສັ້ນທາງ (ປິດມັນກ່ອນ)
+	Filter the remaining noise while keeping edges and texture detail	ກອງນ້ອຍສ໌ທີ່ເຫຼືອອອກ ໂດຍຍັງຮັກສາຂອບ ແລະ ລາຍລະອຽດເທັກເຈີໄວ້
+	Filters	ຕົວກອງ
+	Fine noise	ນ້ອຍສ໌ລະອຽດ
+	Fingerprints	ຮອຍນິ້ວມື
+	Fit the input range to the histogram	ປັບຊ່ວງຂາເຂົ້າໃຫ້ພໍດີກັບຮິສໂຕແກຣມ
+	Flatten layer	ລວມຊັ້ນໃຫ້ຮາບພຽງ
+	Flips the image's green channel, for normal maps made with Y pointing down	ປີ້ນຊ່ອງສີຂຽວຂອງຮູບພາບ ສຳລັບແຜນທີ່ນໍມອລທີ່ສ້າງໃຫ້ Y ຊີ້ລົງ
+	Flow	ການໄຫຼ
+	Flow and opacity	ການໄຫຼ ແລະ ຄວາມທຶບແສງ
+	Flow jitter	ການສຸ່ມປ່ຽນການໄຫຼ
+	Focus distance	ໄລຍະໂຟກັສ
+	Focus: show only the active texture set	ໂຟກັສ: ສະແດງສະເພາະຊຸດເທັກເຈີທີ່ໃຊ້ງານຢູ່
+	Fold or unfold these effects	ພັບ ຫຼື ກາງເອັບເຟັກເຫຼົ່ານີ້
+	Folders	ແຟ້ມຕ່າງໆ
+	Follow Newest Map	ຕິດຕາມແຜນທີ່ໃໝ່ຫຼ້າສຸດ
+	Follow path	ຕາມເສັ້ນທາງ
+	For the whole project: how normal map images set as mesh maps are read (set them again after a change), and the default for export	ສຳລັບທັງໂຄງການ: ວິທີອ່ານຮູບແຜນທີ່ນໍມອລທີ່ຕັ້ງເປັນແຜນທີ່ໂຄງຕາໜ່າງ (ກຳນົດໃໝ່ຫຼັງຈາກປ່ຽນແປງ) ແລະ ຄ່າເລີ່ມຕົ້ນສຳລັບການສົ່ງອອກ
+	Free and open source (MIT OR Apache-2.0), written in Rust.	ຟຣີ ແລະ ໂອເພັນຊອດ (MIT OR Apache-2.0), ຂຽນດ້ວຍ Rust.
+	From template	ຈາກແມ່ແບບ
+	From template / project	ຈາກແມ່ແບບ / ໂຄງການ
+	Full	ເຕັມ
+	Full Scene	ທັງສາກ
+	General export parameters	ພາຣາມິເຕີການສົ່ງອອກທົ່ວໄປ
+	General properties	ຄຸນສົມບັດທົ່ວໄປ
+	Generate from Mesh	ສ້າງຈາກໂຄງຕາໜ່າງ
+	Generate from Normal Map	ສ້າງຈາກແຜນທີ່ນໍມອລ
+	Generator	ຕົວສ້າງ
+	Geometry and UVs only	ສະເພາະຮູບຊົງ ແລະ UV
+	Geometry mask	ໜ້າກາກຮູບຊົງ
+	GGX specular with height-correlated Smith visibility, Lambert diffuse, split-sum image-based lighting with spherical-harmonics irradiance and horizon fading.	ແສງສະທ້ອນ GGX ພ້ອມການເບິ່ງເຫັນ Smith ທີ່ສຳພັນກັບຄວາມສູງ, ການກະຈາຍ Lambert, ແສງຈາກຮູບພາບແບບ split-sum ພ້ອມຄວາມເຂັ້ມແສງ spherical-harmonics ແລະ ການຈາງທີ່ຂອບຟ້າ.
+	gloss	ຄວາມເງົາ
+	Glossiness	ຄວາມເງົາ
+	Glossiness from roughness	ຄວາມເງົາຈາກຄວາມຫຍາບ
+	glTF binary with textures	glTF ໄບນາຣີ ພ້ອມເທັກເຈີ
+	Go to camera 1	ໄປຍັງກ້ອງ 1
+	Go to camera 2	ໄປຍັງກ້ອງ 2
+	Go to camera 3	ໄປຍັງກ້ອງ 3
+	Go to camera 4	ໄປຍັງກ້ອງ 4
+	Go to camera 5	ໄປຍັງກ້ອງ 5
+	Go to camera 6	ໄປຍັງກ້ອງ 6
+	Go to camera 7	ໄປຍັງກ້ອງ 7
+	Go to camera 8	ໄປຍັງກ້ອງ 8
+	Go to camera 9	ໄປຍັງກ້ອງ 9
+	GPU error: {error}	ຂໍ້ຜິດພາດ GPU: {error}
+	Gradient Map	ແຜນທີ່ໄລ່ສີ
+	Gravity	ແຮງໂນ້ມຖ່ວງ
+	Gray + A	ສີເທົາ + A
+	Gray 50%	ສີເທົາ 50%
+	Green channel convention of normal maps: OpenGL (Y+) or DirectX (Y-). Imported and exported normal maps follow it.	ມາດຕະຖານຊ່ອງສີຂຽວຂອງແຜນທີ່ນໍມອລ: OpenGL (Y+) ຫຼື DirectX (Y-). ແຜນທີ່ນໍມອລທີ່ນຳເຂົ້າ ແລະ ສົ່ງອອກຈະປະຕິບັດຕາມນີ້.
+	Ground Plane	ແຜ່ນຮາບພື້ນ
+	Ground Plane Offset	ໄລຍະເລື່ອນແຜ່ນຮາບພື້ນ
+	Group layer(s)	ຈັດກຸ່ມຊັ້ນ
+	Grunge	ຮອຍເປື້ອນເກົ່າ
+	Half	ເຄິ່ງໜຶ່ງ
+	Hammered	ຕີດ້ວຍຄ້ອນ
+	Hard light	ແສງຈ້າ
+	Hardness	ຄວາມແຂງ
+	HDR environments	ສະພາບແວດລ້ອມ HDR
+	height	ຄວາມສູງ
+	Height offset	ໄລຍະເລື່ອນຄວາມສູງ
+	Height to normal strength	ຄວາມແຮງຈາກຄວາມສູງເປັນນໍມອລ
+	Hide all	ເຊື່ອງທັງໝົດ
+	Hide UI	ເຊື່ອງ UI
+	Hide while painting	ເຊື່ອງລະຫວ່າງລະບາຍສີ
+	High	ສູງ
+	High Definition Mesh (HP)	ໂຄງຕາໜ່າງຄວາມລະອຽດສູງ (HP)
+	High Poly Mesh Suffix	ຄຳລົງທ້າຍໂຄງຕາໜ່າງ High Poly
+	High Poly Scene	ສາກ High Poly
+	High poly: {name}	High poly: {name}
+	High-Poly Parameters	ພາຣາມິເຕີ High-Poly
+	Histogram Range	ຊ່ວງຮິສໂຕແກຣມ
+	Histogram Scan	ການສະແກນຮິສໂຕແກຣມ
+	Histogram Shift	ການເລື່ອນຮິສໂຕແກຣມ
+	Hit-test	ການທົດສອບການຕຳ
+	Hold S: left-drag rotates, right-drag scales, middle-drag moves the stencil.	ກົດ S ຄ້າງໄວ້: ລາກຊ້າຍເພື່ອໝຸນ, ລາກຂວາເພື່ອປັບຂະໜາດ, ລາກກາງເພື່ອຍ້າຍແມ່ພິມເຈາະ.
+	Hold V and click the mesh to set the clone source	ກົດ V ຄ້າງໄວ້ ແລະ ຄລິກໃສ່ໂຄງຕາໜ່າງເພື່ອກຳນົດແຫຼ່ງໂຄລນ
+	Hold V and click the mesh to set the source, then paint elsewhere to copy it.	ກົດ V ຄ້າງໄວ້ ແລະ ຄລິກໃສ່ໂຄງຕາໜ່າງເພື່ອກຳນົດແຫຼ່ງ, ຈາກນັ້ນລະບາຍໃສ່ບ່ອນອື່ນເພື່ອສຳເນົາມັນ.
+	How a rectangle selects polygons	ວິທີທີ່ຮູບສີ່ຫຼ່ຽມເລືອກຮູບຫຼາຍຫຼ່ຽມ
+	How far light travels under the surface, as a fraction of the mesh size (where the Scattering weight channel is painted)	ໄລຍະທາງທີ່ແສງເດີນທາງຢູ່ກ້ອງພື້ນຜິວ ເປັນອັດຕາສ່ວນຂອງຂະໜາດໂຄງຕາໜ່າງ (ຢູ່ບ່ອນທີ່ຊ່ອງນ້ຳໜັກການກະຈາຍແສງຖືກລະບາຍ)
+	How strongly transmissive surfaces bend light (where the Transmission channel is painted): water 1.33, glass 1.5, diamond 2.42	ລະດັບທີ່ພື້ນຜິວສ່ອງຜ່ານແສງຫັກເຫແສງ (ຢູ່ບ່ອນທີ່ຊ່ອງການສ່ອງຜ່ານແສງຖືກລະບາຍ): ນ້ຳ 1.33, ແກ້ວ 1.5, ເພັດ 2.42
+	HSL Perceptive	HSL ຕາມການຮັບຮູ້
+	Hue shift (degrees)	ການເລື່ອນສີ (ອົງສາ)
+	ID	ID
+	Ignore Backface	ບໍ່ສົນໃຈດ້ານຫຼັງ
+	Ignore Backface Suffix	ຄຳລົງທ້າຍສຳລັບບໍ່ສົນໃຈດ້ານຫຼັງ
+	Image: {name}	ຮູບພາບ: {name}
+	Import a template (.json)	ນຳເຂົ້າແມ່ແບບ (.json)
+	Import an image (File > Import resources) to project it onto the mesh.	ນຳເຂົ້າຮູບພາບ (ໄຟລ໌ > ນຳເຂົ້າຊັບພະຍາກອນ) ເພື່ອສາຍລົງເທິງໂຄງຕາໜ່າງ.
+	Import baked maps	ນຳເຂົ້າແຜນທີ່ທີ່ຄຳນວນແລ້ວ
+	Import HDR...	ນຳເຂົ້າ HDR...
+	Import images to use them in fills and masks	ນຳເຂົ້າຮູບພາບເພື່ອໃຊ້ໃນການຕື່ມ ແລະ ໜ້າກາກ
+	Import material...	ນຳເຂົ້າວັດສະດຸ...
+	Import MaterialX material...	ນຳເຂົ້າວັດສະດຸ MaterialX...
+	Import resources...	ນຳເຂົ້າຊັບພະຍາກອນ...
+	Import settings	ການຕັ້ງຄ່າການນຳເຂົ້າ
+	Import...	ນຳເຂົ້າ...
+	Imported template "{name}"	ນຳເຂົ້າແມ່ແບບ "{name}" ແລ້ວ
+	Imported {name}	ນຳເຂົ້າ {name} ແລ້ວ
+	Include in Bake	ລວມຢູ່ໃນການຄຳນວນລ່ວງໜ້າ
+	Index of refraction	ດັດຊະນີຫັກເຫແສງ
+	Input high	ຂາເຂົ້າສູງ
+	Input low	ຂາເຂົ້າຕ່ຳ
+	Input maps	ແຜນທີ່ຂາເຂົ້າ
+	Insert a variable	ແຊກຕົວປ່ຽນ
+	Instance	ຕົວສຳເນົາອ້າງອີງ
+	Instantiate across texture sets	ສ້າງຕົວສຳເນົາອ້າງອີງຂ້າມຊຸດເທັກເຈີ
+	Intensity (texels at 2K)	ຄວາມເຂັ້ມ (texels ທີ່ 2K)
+	Interface scale	ອັດຕາສ່ວນສ່ວນຕິດຕໍ່ຜູ້ໃຊ້
+	Intersection: fill polygons the rectangle touches	ຈຸດຕັດກັນ: ຕື່ມຮູບຫຼາຍຫຼ່ຽມທີ່ຮູບສີ່ຫຼ່ຽມແຕະຖືກ
+	Inverse divide	ຫານປີ້ນກັບ
+	Inverse Subtract	ລົບປີ້ນກັບ
+	Invert mask	ປີ້ນໜ້າກາກ
+	Invert mask background	ປີ້ນສີພື້ນຫຼັງໜ້າກາກ
+	Invert mask value	ປີ້ນຄ່າໜ້າກາກ
+	Invert quick mask	ປີ້ນໜ້າກາກດ່ວນ
+	Invert show/hide	ປີ້ນການສະແດງ/ເຊື່ອງ
+	Jitters	ການສຸ່ມປ່ຽນຄ່າ
+	Join the ArtCraft community on Discord	ເຂົ້າຮ່ວມຊຸມຊົນ ArtCraft ໃນ Discord
+	Join the community (Discord)...	ເຂົ້າຮ່ວມຊຸມຊົນ (Discord)...
+	Key light (shadow-casting light, direct only)	ແສງຫຼັກ (ແສງທີ່ສ້າງເງົາ, ສະເພາະແສງໂດຍກົງ)
+	Keyboard	ແປ້ນພິມ
+	Keyboard shortcuts	ປຸ່ມລັດແປ້ນພິມ
+	Layer mask	ໜ້າກາກຊັ້ນ
+	Layer memory: {mb} MB	ໜ່ວຍຄວາມຈຳຊັ້ນ: {mb} MB
+	Lazy mouse	ຕົວຊ່ວຍລາກເສັ້ນ (Lazy mouse)
+	Lazy mouse distance	ໄລຍະຕົວຊ່ວຍລາກເສັ້ນ
+	Leather grain	ລາຍຜິວໜັງ
+	Lens size: how quickly things blur away from the focus distance	ຂະໜາດເລນ: ຄວາມໄວທີ່ວັດຖຸມົວລົງເມື່ອຫ່າງອອກຈາກໄລຍະໂຟກັສ
+	Lifetime (steps)	ອາຍຸການໃຊ້ງານ (ຂັ້ນ)
+	Light / direction	ແສງ / ທິດທາງ
+	Light azimuth (degrees)	ມຸມອາຊີມຸດແສງ (ອົງສາ)
+	Light elevation (degrees)	ມຸມຍົກແສງ (ອົງສາ)
+	Light intensity	ຄວາມເຂັ້ມແສງ
+	Lighten (Max)	ເຮັດໃຫ້ສະຫວ່າງ (Max)
+	Lightness	ຄວາມສະຫວ່າງ
+	Linear burn	ເພີ່ມຄວາມມືດເຊີງເສັ້ນ
+	Linear dodge (Add)	ເພີ່ມຄວາມສະຫວ່າງເຊີງເສັ້ນ (ບວກ)
+	Linear light	ແສງເຊີງເສັ້ນ
+	List of exports	ລາຍການສົ່ງອອກ
+	LMB	ຄລິກຊ້າຍ
+	Load Cage	ໂຫຼດເຄຈ
+	Load UI Layout	ໂຫຼດການຈັດວາງ UI
+	Loaded UI layout {path}	ໂຫຼດການຈັດວາງ UI ແລ້ວ: {path}
+	Lock Output Size	ລັອກຂະໜາດຜົນອອກ
+	Log	ບັນທຶກລະບົບ
+	Low	ຕ່ຳ
+	Low Poly Mesh Suffix	ຄຳລົງທ້າຍໂຄງຕາໜ່າງ Low Poly
+	Made by the ArtCraft team and community.	ສ້າງໂດຍທີມງານ ArtCraft ແລະ ຊຸມຊົນ.
+	Magenta / green	ສີບານເຢັນ / ຂຽວ
+	Main shader	ເຊດເດີຫຼັກ
+	Manipulator size	ຂະໜາດຕົວຄວບຄຸມ
+	Manual	ກຳນົດເອງ
+	Marble veins	ເສັ້ນລາຍຫີນອ່ອນ
+	Mask Editor: Edge wear	ຕົວແກ້ໄຂໜ້າກາກ: ຮອຍສຶກຕາມຂອບ
+	Mask effects	ເອັບເຟັກໜ້າກາກ
+	Mask value (gray)	ຄ່າໜ້າກາກ (ສີເທົາ)
+	Mask with height	ສ້າງໜ້າກາກດ້ວຍຄວາມສູງ
+	Match	ການຈັບຄູ່
+	Material	ວັດສະດຸ
+	Material ball	ໜ່ວຍມົນວັດສະດຸ
+	Material Color	ສີວັດສະດຸ
+	Material finish	ຜິວສຳເລັດວັດສະດຸ
+	MaterialCraft material	ວັດສະດຸ MaterialCraft
+	Materials	ວັດສະດຸຕ່າງໆ
+	MaterialX materials	ວັດສະດຸ MaterialX
+	MatFinish Grind	MatFinish ຂັດຫຍາບ
+	MatFinish Hammered	MatFinish ຕີດ້ວຍຄ້ອນ
+	MatFinish Raw	MatFinish ດິບ
+	MatFinish Sanded	MatFinish ຂັດກະດາດຊາຍ
+	Max Frontal Distance	ໄລຍະດ້ານໜ້າສູງສຸດ
+	Max Occluder Distance	ໄລຍະຕົວບັງແສງສູງສຸດ
+	Max project size on open	ຂະໜາດໂຄງການສູງສຸດຕອນເປີດ
+	Max RAM while saving	RAM ສູງສຸດຂະນະບັນທຶກ
+	Max Rear Distance	ໄລຍະດ້ານຫຼັງສູງສຸດ
+	Maximum decompressed project data. Increase this limit to open larger projects.	ຂໍ້ມູນໂຄງການທີ່ແຕກໄຟລ໌ແລ້ວສູງສຸດ. ເພີ່ມຂີດຈຳກັດນີ້ເພື່ອເປີດໂຄງການທີ່ໃຫຍ່ຂຶ້ນ.
+	Medium dark	ມືດປານກາງ
+	Medium light	ສະຫວ່າງປານກາງ
+	Mesh fill	ຕື່ມຕາມໂຄງຕາໜ່າງ
+	Mesh ID	ID ໂຄງຕາໜ່າງ
+	Mesh Map Bakers	ຕົວຄຳນວນແຜນທີ່ໂຄງຕາໜ່າງ
+	Mesh Map Settings	ການຕັ້ງຄ່າແຜນທີ່ໂຄງຕາໜ່າງ
+	Mesh map: {map}	ແຜນທີ່ໂຄງຕາໜ່າງ: {map}
+	Mesh maps	ແຜນທີ່ໂຄງຕາໜ່າງ
+	Mesh maps baked	ຄຳນວນແຜນທີ່ໂຄງຕາໜ່າງແລ້ວ
+	Mesh Normals Based	ອີງຕາມນໍມອລຂອງໂຄງຕາໜ່າງ
+	Meshes	ໂຄງຕາໜ່າງ
+	metal	ໂລຫະ
+	Metallic	ຄວາມເປັນໂລຫະ
+	min	ນາທີ
+	Min Occluder Distance	ໄລຍະຕົວບັງແສງຕ່ຳສຸດ
+	Minimum size (%)	ຂະໜາດຕ່ຳສຸດ (%)
+	Mirror symmetry	ຄວາມສົມມາດແບບແວ່ນ
+	missing	ຫາຍໄປ
+	Missing (bake to create)	ຫາຍໄປ (ຄຳນວນເພື່ອສ້າງ)
+	missing source	ຂາດແຫຼ່ງຂໍ້ມູນ
+	Mixed AO	AO ແບບປະສົມ
+	MMB drag / Alt + MMB	ລາກຄລິກກາງ / Alt + ຄລິກກາງ
+	More in Assets > Alphas: click one, or drag it here	ເພີ່ມເຕີມໃນ ຊັບພະຍາກອນ > ອັນຟາ: ຄລິກເລືອກ ຫຼື ລາກມາໃສ່ບ່ອນນີ້
+	Move down	ເລື່ອນລົງ
+	Move up	ເລື່ອນຂຶ້ນ
+	Moves the surface by the height channel on a finer copy of the mesh, at the height to normal strength (viewport only: painting follows the base surface)	ເລື່ອນພື້ນຜິວຕາມຊ່ອງຄວາມສູງເທິງສຳເນົາໂຄງຕາໜ່າງທີ່ລະອຽດຂຶ້ນ ຕາມຄວາມແຮງຈາກຄວາມສູງເປັນນໍມອລ (ສະເພາະໜ້າຈໍສະແດງຜົນ: ການລະບາຍສີຈະຕາມພື້ນຜິວຫຼັກ)
+	My brushes	ແປງຂອງຂ້ອຍ
+	My smart materials	ວັດສະດຸອັດສະລິຍະຂອງຂ້ອຍ
+	Name each file after its texture set, like Body_normal.png	ຕັ້ງຊື່ແຕ່ລະໄຟລ໌ຕາມຊຸດເທັກເຈີຂອງມັນ ເຊັ່ນ Body_normal.png
+	New project	ໂຄງການໃໝ່
+	New project...	ໂຄງການໃໝ່...
+	New template	ແມ່ແບບໃໝ່
+	No font on this system can show this language	ບໍ່ມີຕົວອັກສອນໃນລະບົບນີ້ທີ່ສາມາດສະແດງພາສານີ້ໄດ້
+	no GPU	ບໍ່ມີ GPU
+	No GPU renderer available	ບໍ່ມີຕົວເຣນເດີ GPU ທີ່ໃຊ້ໄດ້
+	No High-Poly Meshes	ບໍ່ມີໂຄງຕາໜ່າງຄວາມລະອຽດສູງ
+	No outputs yet: add one above, then drag input maps onto its channels.	ຍັງບໍ່ມີຜົນອອກເທື່ອ: ເພີ່ມອັນໜຶ່ງຢູ່ດ້ານເທິງ ແລ້ວລາກແຜນທີ່ຂາເຂົ້າໃສ່ຊ່ອງຂອງມັນ.
+	No padding (passthrough)	ບໍ່ມີຂອບເຜື່ອ (ສົ່ງຜ່ານໂດຍກົງ)
+	No Parameters	ບໍ່ມີພາຣາມິເຕີ
+	No recent projects yet	ຍັງບໍ່ມີໂຄງການຫຼ້າສຸດເທື່ອ
+	No UV tiles	ບໍ່ມີແຜ່ນ UV
+	Noise amount	ປະລິມານນ້ອຍສ໌
+	Noise scale	ຂະໜາດນ້ອຍສ໌
+	none	ບໍ່ມີ
+	Normal DirectX	ນໍມອລ DirectX
+	Normal from height	ນໍມອລຈາກຄວາມສູງ
+	Normal Invert	ປີ້ນນໍມອລ
+	Normal map combine	ລວມແຜນທີ່ນໍມອລ
+	Normal map detail	ລາຍລະອຽດແຜນທີ່ນໍມອລ
+	Normal map format	ຮູບແບບແຜນທີ່ນໍມອລ
+	Normal map inverse detail	ລາຍລະອຽດປີ້ນກັບແຜນທີ່ນໍມອລ
+	Normal OpenGL	ນໍມອລ OpenGL
+	Normal: painting uses the flat normal	ປົກກະຕິ: ການລະບາຍສີໃຊ້ນໍມອລແບບຮາບ
+	Normalization	ການປັບໃຫ້ເປັນມາດຕະຖານ
+	Normalization Scale	ອັດຕາສ່ວນການປັບມາດຕະຖານ
+	Normalization Type	ປະເພດການປັບມາດຕະຖານ
+	Not enough GPU memory to show texture set "{name}" fully: lower the viewport Texture resolution in Settings. Painting and export are not affected.	ໜ່ວຍຄວາມຈຳ GPU ບໍ່ພຽງພໍທີ່ຈະສະແດງຊຸດເທັກເຈີ "{name}" ໃຫ້ຄົບຖ້ວນ: ຫຼຸດຄວາມລະອຽດເທັກເຈີຂອງໜ້າຈໍສະແດງຜົນໃນການຕັ້ງຄ່າ. ການລະບາຍສີ ແລະ ການສົ່ງອອກຈະບໍ່ໄດ້ຮັບຜົນກະທົບ.
+	Not enough GPU memory to show {count} texture sets fully ({names}): lower the viewport Texture resolution in Settings. Painting and export are not affected.	ໜ່ວຍຄວາມຈຳ GPU ບໍ່ພຽງພໍທີ່ຈະສະແດງ {count} ຊຸດເທັກເຈີໃຫ້ຄົບຖ້ວນ ({names}): ຫຼຸດຄວາມລະອຽດເທັກເຈີຂອງໜ້າຈໍສະແດງຜົນໃນການຕັ້ງຄ່າ. ການລະບາຍສີ ແລະ ການສົ່ງອອກຈະບໍ່ໄດ້ຮັບຜົນກະທົບ.
+	Not exported: no source in this texture set	ບໍ່ໄດ້ສົ່ງອອກ: ບໍ່ມີແຫຼ່ງຂໍ້ມູນໃນຊຸດເທັກເຈີນີ້
+	Not imported: {files}	ບໍ່ໄດ້ນຳເຂົ້າ: {files}
+	Not saved: {error}	ບໍ່ໄດ້ບັນທຶກ: {error}
+	nrm	ນໍມອລ
+	off	ປິດ
+	Offset right	ເລື່ອນໄປຂວາ
+	Offset up	ເລື່ອນຂຶ້ນເທິງ
+	Offset {axis}	ເລື່ອນ {axis}
+	Offsets the textures by the height channel, at the height to normal strength	ເລື່ອນເທັກເຈີຕາມຊ່ອງຄວາມສູງ ດ້ວຍຄວາມແຮງຈາກຄວາມສູງເປັນນໍມອລ
+	On	ເປີດ
+	Only Same Mesh Name	ສະເພາະຊື່ໂຄງຕາໜ່າງດຽວກັນ
+	op	ທຶບແສງ
+	Open in MaterialCraft	ເປີດໃນ MaterialCraft
+	Open sample project...	ເປີດໂຄງການຕົວຢ່າງ...
+	Open...	ເປີດ...
+	Opened in MaterialCraft: use File > Send to TextureCraft there to bring your changes back	ເປີດໃນ MaterialCraft ແລ້ວ: ໃຊ້ File > Send to TextureCraft ຢູ່ບ່ອນນັ້ນເພື່ອນຳການປ່ຽນແປງຂອງທ່ານກັບມາ
+	Opened {name}	ເປີດ {name} ແລ້ວ
+	Optional channels add a clear coat (Coat weight, Coat roughness, Coat normal), sheen (Sheen weight, color, roughness), anisotropy (Anisotropy level, angle), subsurface scattering (Scattering weight) and transmission (Transmission).	ຊ່ອງເສີມຈະເພີ່ມຊັ້ນເຄືອບໃສ (ນ້ຳໜັກຊັ້ນເຄືອບ, ຄວາມຫຍາບຊັ້ນເຄືອບ, ນໍມອລຊັ້ນເຄືອບ), ຄວາມເຫຼື້ອມ (ນ້ຳໜັກຄວາມເຫຼື້ອມ, ສີ, ຄວາມຫຍາບ), ອະນິໂຊໂທຣປີ (ລະດັບອະນິໂຊໂທຣປີ, ມຸມ), ການກະຈາຍແສງໃຕ້ຜິວ (ນ້ຳໜັກການກະຈາຍແສງ) ແລະ ການສ່ອງຜ່ານແສງ (ການສ່ອງຜ່ານແສງ).
+	Orbit	ໝຸນອ້ອມ
+	Orthographic	ແບບຕັ້ງສາກ (Orthographic)
+	Output directory	ແຟ້ມປາຍທາງ
+	Output high	ຂາອອກສູງ
+	Output low	ຂາອອກຕ່ຳ
+	Output Size	ຂະໜາດຜົນອອກ
+	Output template	ແມ່ແບບຜົນອອກ
+	Output templates	ແມ່ແບບຜົນອອກ
+	Overlay opacity	ຄວາມທຶບແສງຊັ້ນທັບ
+	Padding	ຂອບເຜື່ອ
+	Paint	ລະບາຍສີ
+	Paint Cage	ລະບາຍເຄຈ
+	Paint chips	ຮອຍສີກະເທາະ
+	Paint layer	ຊັ້ນລະບາຍສີ
+	Paint on the mesh to edit the layer content.	ລະບາຍສີເທິງໂຄງຕາໜ່າງເພື່ອແກ້ໄຂເນື້ອຫາຂອງຊັ້ນ.
+	Paint on the mesh to edit this mask. Use the Material tab's mask value for gray.	ລະບາຍສີເທິງໂຄງຕາໜ່າງເພື່ອແກ້ໄຂໜ້າກາກນີ້. ໃຊ້ຄ່າໜ້າກາກໃນແຖບວັດສະດຸສຳລັບສີເທົາ.
+	Paint Skew Correction	ລະບາຍການແກ້ໄຂຄວາມບິດເບືອນ
+	Paint with the current tool	ລະບາຍສີດ້ວຍເຄື່ອງມືປັດຈຸບັນ
+	Painted layer pixels {pixels} MB, composited channels {composites} MB, compositing cache {cache} MB	ພິກເຊວຊັ້ນທີ່ລະບາຍແລ້ວ {pixels} MB, ຊ່ອງທີ່ປະກອບແລ້ວ {composites} MB, ແຄສການປະກອບພາບ {cache} MB
+	Painted strokes follow the surface when the new mesh's UVs differ	ຮອຍແປງທີ່ລະບາຍໄວ້ຈະຕາມພື້ນຜິວ ເມື່ອ UV ຂອງໂຄງຕາໜ່າງໃໝ່ແຕກຕ່າງກັນ
+	Painting is paused while a bake is shown. Cancel the bake or wait for it to finish.	ການລະບາຍສີຖືກຢຸດຊົ່ວຄາວໃນຂະນະທີ່ສະແດງການຄຳນວນລ່ວງໜ້າ. ຍົກເລີກການຄຳນວນ ຫຼື ລໍຖ້າໃຫ້ສຳເລັດ.
+	Pan	ເລື່ອນພາບ
+	Parallax occlusion (height channel)	ພາຣາແລັກອັອກຄລູຊັນ (ຊ່ອງຄວາມສູງ)
+	Parameters change in the desktop app, with MaterialCraft installed	ພາຣາມິເຕີຈະປ່ຽນແປງໃນແອັບເດັສທັອບ ເມື່ອຕິດຕັ້ງ MaterialCraft ແລ້ວ
+	Partial mask values follow the layer's height: high parts show first	ຄ່າໜ້າກາກບາງສ່ວນຈະຕາມຄວາມສູງຂອງຊັ້ນ: ສ່ວນທີ່ສູງຈະສະແດງຂຶ້ນກ່ອນ
+	Particle brush (slides down the surface)	ແປງອະນຸພາກ (ໄຫຼລົງຕາມພື້ນຜິວ)
+	Particle brush: particles slide down the surface	ແປງອະນຸພາກ: ອະນຸພາກຈະໄຫຼລົງຕາມພື້ນຜິວ
+	Particles	ອະນຸພາກ
+	Passthrough	ສົ່ງຜ່ານ
+	Paste as instance	ວາງເປັນຕົວສຳເນົາອ້າງອີງ
+	Paste effect	ວາງເອັບເຟັກ
+	Paste layer(s)	ວາງຊັ້ນ
+	Path trace on the processor instead of the graphics card (slower)	ຕິດຕາມເສັ້ນທາງແສງເທິງໂປຣເຊສເຊີແທນກາດຈໍ (ຊ້າກວ່າ)
+	Path: click adds a point, click the curve inserts one, drag moves it, Enter applies, Esc cancels	ເສັ້ນທາງ: ຄລິກເພື່ອເພີ່ມຈຸດ, ຄລິກເທິງເສັ້ນໂຄ້ງເພື່ອແຊກຈຸດ, ລາກເພື່ອຍ້າຍ, Enter ເພື່ອນຳໃຊ້, Esc ເພື່ອຍົກເລີກ
+	Paths stay editable: pick one to move its points or change its brush and material, and the sublayer repaints at once. Add paths with the Path tool.	ເສັ້ນທາງຍັງຄົງແກ້ໄຂໄດ້: ເລືອກອັນໜຶ່ງເພື່ອຍ້າຍຈຸດ ຫຼື ປ່ຽນແປງ ແລະ ວັດສະດຸ ແລ້ວຊັ້ນຍ່ອຍຈະລະບາຍໃໝ່ທັນທີ. ເພີ່ມເສັ້ນທາງດ້ວຍເຄື່ອງມືເສັ້ນທາງ.
+	Pattern scale	ຂະໜາດລວດລາຍ
+	PBR - Metallic Roughness (TextureCraft)	PBR - ຄວາມເປັນໂລຫະ ຄວາມຫຍາບ (TextureCraft)
+	Per Material	ຕາມວັດສະດຸ
+	Perlin noise	ນ້ອຍສ໌ Perlin
+	Pick color	ດູດສີ
+	Pick focus in the viewport	ເລືອກຈຸດໂຟກັສໃນໜ້າຈໍສະແດງຜົນ
+	Pin light	ແສງຈຸດ (Pin light)
+	Place as decal	ວາງເປັນດີຄອລ
+	Place on the surface	ວາງເທິງພື້ນຜິວ
+	Place path points on the mesh	ວາງຈຸດເສັ້ນທາງເທິງໂຄງຕາໜ່າງ
+	Planar projection	ການສາຍແບບແຜ່ນຮາບ
+	Plane	ແຜ່ນຮາບ
+	PNG image	ຮູບພາບ PNG
+	Polygon fill	ຕື່ມຮູບຫຼາຍຫຼ່ຽມ
+	Pores	ຮູຂຸມຂົນ
+	Position gradient	ການໄລ່ລະດັບຕຳແໜ່ງ
+	Position jitter	ການສຸ່ມປ່ຽນຕຳແໜ່ງ
+	Posterize	ຫຼຸດຈຳນວນລະດັບສີ (Posterize)
+	Preserve stroke positions on mesh	ຮັກສາຕຳແໜ່ງຮອຍແປງເທິງໂຄງຕາໜ່າງ
+	Press a key...	ກົດປຸ່ມໃດໜຶ່ງ...
+	Procedurals	ໂປຣຊີດູຣອລ
+	Project	ໂຄງການ
+	Project configuration	ການຕັ້ງຄ່າໂຄງການ
+	Project Configuration...	ການຕັ້ງຄ່າໂຄງການ...
+	Project Mesh (LP)	ໂຄງຕາໜ່າງໂຄງການ (LP)
+	Project opened	ເປີດໂຄງການແລ້ວ
+	PROJECT SETTINGS	ການຕັ້ງຄ່າໂຄງການ
+	Project template	ແມ່ແບບໂຄງການ
+	Projection	ການສາຍພາບ
+	Projects and meshes	ໂຄງການ ແລະ ໂຄງຕາໜ່າງ
+	Quarter	ໜຶ່ງສ່ວນສີ່
+	Quick mask	ໜ້າກາກດ່ວນ
+	Quit	ອອກ
+	Radial settings	ການຕັ້ງຄ່າແບບລັດສະໝີ
+	Radial symmetry	ຄວາມສົມມາດແບບລັດສະໝີ
+	Radius (texels at 2K)	ລັດສະໝີ (texels ທີ່ 2K)
+	Raw curvature	ຄວາມໂຄ້ງດິບ
+	Re-cook	ຄຳນວນຄືນໃໝ່
+	Read the mesh file again, keeping the layers and painted strokes	ອ່ານໄຟລ໌ໂຄງຕາໜ່າງອີກຄັ້ງ ໂດຍຮັກສາຊັ້ນ ແລະ ຮອຍແປງທີ່ລະບາຍໄວ້
+	Reads the curvature map as baked: changing the mode or a size turns detail sizes on.	ອ່ານແຜນທີ່ຄວາມໂຄ້ງຕາມທີ່ຄຳນວນໄວ້: ການປ່ຽນໂໝດ ຫຼື ຂະໜາດຈະເປີດໃຊ້ຂະໜາດລາຍລະອຽດ.
+	Rebind any menu item, tool or command	ກຳນົດປຸ່ມໃໝ່ໃຫ້ກັບລາຍການເມນູ, ເຄື່ອງມື ຫຼື ຄຳສັ່ງໃດກໍໄດ້
+	Recent projects	ໂຄງການຫຼ້າສຸດ
+	Records the stack up to this layer. Fill effects in masks (and fill layers) above can read it as a source.	ບັນທຶກກອງຊັ້ນຈົນເຖິງຊັ້ນນີ້. ເອັບເຟັກການຕື່ມໃນໜ້າກາກ (ແລະ ຊັ້ນຕື່ມ) ທີ່ຢູ່ດ້ານເທິງສາມາດອ່ານມັນເປັນແຫຼ່ງຂໍ້ມູນໄດ້.
+	Rectangle fill	ຕື່ມຮູບສີ່ຫຼ່ຽມ
+	Reimport mesh	ນຳເຂົ້າໂຄງຕາໜ່າງຄືນໃໝ່
+	Relative to Bounding Box	ສຳພັດກັບກ່ອງຂອບເຂດ
+	Relative to Low Mesh	ສຳພັດກັບໂຄງຕາໜ່າງຄວາມລະອຽດຕ່ຳ
+	Relative to Min/Max	ສຳພັດກັບຄ່າຕ່ຳສຸດ/ສູງສຸດ
+	Relative to Ray Distances	ສຳພັດກັບໄລຍະທາງລັງສີ
+	Relative to the bounding box diagonal.	ສຳພັດກັບເສັ້ນທະແຍງມຸມຂອງກ່ອງຂອບເຂດ.
+	Remove	ລຶບອອກ
+	Remove Cage	ລຶບເຄຈ
+	Remove channel	ລຶບຊ່ອງ
+	Remove effect	ລຶບເອັບເຟັກ
+	Remove last	ລຶບອັນສຸດທ້າຍ
+	Remove layer	ລຶບຊັ້ນ
+	Remove layer(s)	ລຶບຊັ້ນ
+	Remove mask	ລຶບໜ້າກາກ
+	Remove point	ລຶບຈຸດ
+	Remove resolution override	ລຶບການກຳນົດຄວາມລະອຽດທັບ
+	Remove resource	ລຶບຊັບພະຍາກອນ
+	Remove Skew Correction	ລຶບການແກ້ໄຂຄວາມບິດເບືອນ
+	Remove skew correction	ລຶບການແກ້ໄຂຄວາມບິດເບືອນ
+	Remove the shortcut	ລຶບປຸ່ມລັດ
+	Remove this output	ລຶບຜົນອອກນີ້
+	Remove unused resources...	ລຶບຊັບພະຍາກອນທີ່ບໍ່ໄດ້ໃຊ້...
+	Rename the selected template	ປ່ຽນຊື່ແມ່ແບບທີ່ເລືອກ
+	Render on the CPU	ເຣນເດີເທິງ CPU
+	RENDERING	ການເຣນເດີ
+	Rendering	ການເຣນເດີ
+	Rendering (path traced)	ການເຣນເດີ (ຕິດຕາມເສັ້ນທາງແສງ)
+	Rendering on CPU: {n} / {max} samples, {s} s	ກຳລັງເຣນເດີເທິງ CPU: {n} / {max} ຕົວຢ່າງ, {s} ວິນາທີ
+	Rendering on GPU: {n} / {max} samples, {s} s	ກຳລັງເຣນເດີເທິງ GPU: {n} / {max} ຕົວຢ່າງ, {s} ວິນາທີ
+	Rendering, path traced	ການເຣນເດີ, ຕິດຕາມເສັ້ນທາງແສງ
+	Replace Color	ແທນທີ່ສີ
+	Replacement color	ສີທີ່ນຳມາແທນ
+	Report a bug...	ລາຍງານຂໍ້ບົກພ່ອງ...
+	Rescan the library folder	ສະແກນແຟ້ມຄັງຂໍ້ມູນຄືນໃໝ່
+	Reset all	ຕັ້ງຄ່າທັງໝົດໃໝ່
+	Reset Painted Cage	ຕັ້ງຄ່າເຄຈທີ່ລະບາຍແລ້ວຄືນໃໝ່
+	Reset to defaults	ກັບຄືນສູ່ຄ່າເລີ່ມຕົ້ນ
+	Reset to {shortcut}	ຕັ້ງຄືນເປັນ {shortcut}
+	Reset UI	ຕັ້ງຄ່າ UI ໃໝ່
+	Resizing	ການປັບຂະໜາດ
+	Restore Defaults	ກູ້ຄືນຄ່າເລີ່ມຕົ້ນ
+	Restore every default shortcut	ກູ້ຄືນປຸ່ມລັດເລີ່ມຕົ້ນທັງໝົດ
+	Return to Painting Mode	ກັບຄືນສູ່ໂໝດລະບາຍສີ
+	Return to this step	ກັບຄືນສູ່ຂັ້ນຕອນນີ້
+	Right-click a layer > Create smart material	ຄລິກຂວາໃສ່ຊັ້ນ > ສ້າງວັດສະດຸອັດສະລິຍະ
+	Rotation (degrees)	ການໝຸນ (ອົງສາ)
+	rough	ຫຍາບ
+	Roughness	ຄວາມຫຍາບ
+	Roughness from glossiness	ຄວາມຫຍາບຈາກຄວາມເງົາ
+	Round	ມົນ
+	Rounded cube	ກ້ອນສີ່ຫຼ່ຽມມຸມມົນ
+	Samples	ຕົວຢ່າງ
+	Sampling Radius	ລັດສະໝີການເກັບຕົວຢ່າງ
+	Save a copy...	ບັນທຶກສຳເນົາ...
+	Save as...	ບັນທຶກເປັນ...
+	Save current brush	ບັນທຶກແປງປັດຈຸບັນ
+	Save current layout...	ບັນທຶກການຈັດວາງປັດຈຸບັນ...
+	Save current project as template	ບັນທຶກໂຄງການປັດຈຸບັນເປັນແມ່ແບບ
+	Save render...	ບັນທຶກພາບເຣນເດີ...
+	Save the changes to {name} before closing?	ບັນທຶກການປ່ຽນແປງຂອງ {name} ກ່ອນປິດບໍ່?
+	Save the changes to {name} first?	ບັນທຶກການປ່ຽນແປງຂອງ {name} ກ່ອນບໍ່?
+	Save UI Layout	ບັນທຶກການຈັດວາງ UI
+	Save view as camera	ບັນທຶກມຸມມອງເປັນກ້ອງ
+	Saved UI layout {path}	ບັນທຶກການຈັດວາງ UI ແລ້ວ: {path}
+	Saved {path}	ບັນທຶກແລ້ວ: {path}
+	Saving UI layouts to files is available in the desktop app	ການບັນທຶກການຈັດວາງ UI ເປັນໄຟລ໌ແມ່ນມີໃຫ້ໃຊ້ໃນແອັບເດັສທັອບ
+	Saving uses the other cores and at most this share of the free RAM. At least one core always works.	ການບັນທຶກຈະໃຊ້ແກນປະມວນຜົນອື່ນໆ ແລະ ໃຊ້ສັດສ່ວນຂອງ RAM ທີ່ວ່າງສູງສຸດຕາມນີ້. ຢ່າງໜ້ອຍໜຶ່ງແກນຈະເຮັດວຽກສະເໝີ.
+	Scale / tiling	ຂະໜາດ / ການຊ້ຳລາຍ
+	Scaling Divisor	ຕົວຫານຂະໜາດ
+	scatter	ກະຈາຍ
+	Scatter color	ສີການກະຈາຍແສງ
+	Scatter radius	ລັດສະໝີການກະຈາຍແສງ
+	Scattering weight	ນ້ຳໜັກການກະຈາຍແສງ
+	Scratches	ຮອຍຂູດ
+	Screen	ສະກຣີນ (Screen)
+	Screenshot of the viewport	ພາບຖ່າຍໜ້າຈໍຂອງໜ້າຈໍສະແດງຜົນ
+	Seams Intensity	ຄວາມເຂັ້ມຮອຍຕໍ່
+	Search all assets	ຄົ້ນຫາໃນຊັບພະຍາກອນທັງໝົດ
+	Search commands or keys	ຄົ້ນຫາຄຳສັ່ງ ຫຼື ປຸ່ມກົດ
+	Secondary Rays	ລັງສີຮອງ
+	Seed	ຄ່າເລີ່ມສຸ່ມ (Seed)
+	Select a layer	ເລືອກຊັ້ນ
+	Select a paint layer or a layer's mask to fill	ເລືອກຊັ້ນລະບາຍສີ ຫຼື ໜ້າກາກຂອງຊັ້ນເພື່ອຕື່ມ
+	Select an output template	ເລືອກແມ່ແບບຜົນອອກ
+	Select source	ເລືອກແຫຼ່ງຂໍ້ມູນ
+	Select the layer content	ເລືອກເນື້ອຫາຂອງຊັ້ນ
+	Select the mask (Alt+click: show it in the viewport)	ເລືອກໜ້າກາກ (Alt+ຄລິກ: ສະແດງໃນໜ້າຈໍສະແດງຜົນ)
+	Select...	ເລືອກ...
+	Selection mode	ໂໝດການເລືອກ
+	Self Intersection	ການຕັດກັນເອງ
+	Self Occlusion	ການບັງແສງຕົວເອງ
+	Settings	ການຕັ້ງຄ່າ
+	Settings...	ການຕັ້ງຄ່າ...
+	Shader instance	ຕົວສຳເນົາອ້າງອີງເຊດເດີ
+	Shader Settings	ການຕັ້ງຄ່າເຊດເດີ
+	sheen	ເຫຼື້ອມ
+	Sheen color	ສີຄວາມເຫຼື້ອມ
+	sheen color	ສີເຫຼື້ອມ
+	Sheen color × weight	ສີຄວາມເຫຼື້ອມ × ນ້ຳໜັກ
+	sheen rough	ຫຍາບເຫຼື້ອມ
+	Sheen roughness	ຄວາມຫຍາບຄວາມເຫຼື້ອມ
+	Sheen weight	ນ້ຳໜັກຄວາມເຫຼື້ອມ
+	Shift + wheel	Shift + ລູກກິ້ງເມົ້າສ໌
+	Shortcuts list...	ລາຍການປຸ່ມລັດ...
+	Show all	ສະແດງທັງໝົດ
+	Show at startup	ສະແດງຕອນເລີ່ມຕົ້ນ
+	Show axis	ສະແດງແກນ
+	Show axis position manipulator	ສະແດງຕົວຄວບຄຸມຕຳແໜ່ງແກນ
+	Show cursor	ສະແດງຕົວຊີ້
+	Show entire mesh	ສະແດງໂຄງຕາໜ່າງທັງໝົດ
+	Show for Selected Texture Set Only	ສະແດງສະເພາະຊຸດເທັກເຈີທີ່ເລືອກເທົ່ານັ້ນ
+	Show intersection	ສະແດງຈຸດຕັດກັນ
+	Show log...	ສະແດງບັນທຶກລະບົບ...
+	Show on all parts	ສະແດງເທິງທຸກສ່ວນ
+	Show or hide texture sets	ສະແດງ ຫຼື ເຊື່ອງຊຸດເທັກເຈີ
+	Show or hide the layer	ສະແດງ ຫຼື ເຊື່ອງຊັ້ນ
+	Show or hide the texture set	ສະແດງ ຫຼື ເຊື່ອງຊຸດເທັກເຈີ
+	Show plane	ສະແດງແຜ່ນຮາບ
+	Show UV wireframe in the 2D view	ສະແດງໂຄງເສັ້ນ UV ໃນມຸມມອງ 2D
+	Show wireframe in the 3D view	ສະແດງໂຄງເສັ້ນໃນມຸມມອງ 3D
+	Signed addition (AddSub)	ການບວກແບບມີເຄື່ອງໝາຍ (AddSub)
+	Size in screen space	ຂະໜາດໃນພື້ນທີ່ໜ້າຈໍ
+	Size jitter	ການສຸ່ມປ່ຽນຂະໜາດ
+	Size of the textures the viewport shows: lower uses less GPU memory with large texture sets. Painting and export keep full resolution.	ຂະໜາດຂອງເທັກເຈີທີ່ໜ້າຈໍສະແດງຜົນສະແດງ: ຄ່າຕ່ຳລົງຈະໃຊ້ໜ່ວຍຄວາມຈຳ GPU ໜ້ອຍລົງກັບຊຸດເທັກເຈີຂະໜາດໃຫຍ່. ການລະບາຍສີ ແລະ ການສົ່ງອອກຍັງຄົງຄວາມລະອຽດເຕັມ.
+	Skew Correction	ການແກ້ໄຂຄວາມບິດເບືອນ
+	Skew Correction Method	ວິທີການແກ້ໄຂຄວາມບິດເບືອນ
+	Slope Blur	ຄວາມມົວຕາມຄວາມຊັນ
+	Slope scale	ຂະໜາດຄວາມຊັນ
+	Smart masks	ໜ້າກາກອັດສະລິຍະ
+	Smart material saved to {path}	ບັນທຶກວັດສະດຸອັດສະລິຍະໄປຍັງ {path} ແລ້ວ
+	Smart materials	ວັດສະດຸອັດສະລິຍະ
+	Smooth	ລຽບນຽນ
+	Smudge	ເກ່ຍສີ
+	Soft light	ແສງນຸ່ມ
+	Source  U {u}  V {v}	ແຫຼ່ງ  U {u}  V {v}
+	spec	ສະທ້ອນ
+	Specular	ແສງສະທ້ອນ
+	specular	ແສງສະທ້ອນ
+	Specular level	ລະດັບແສງສະທ້ອນ
+	Sphere	ໜ່ວຍມົນ
+	Spherical projection	ການສາຍແບບໜ່ວຍມົນ
+	Spray	ສະເປ
+	Spread Angle	ມຸມການກະຈາຍ
+	Stamp depth	ຄວາມເລິກຮອຍປ້ຳ
+	Start window	ປ່ອງຢ້ຽມເລີ່ມຕົ້ນ
+	Starting render...	ກຳລັງເລີ່ມເຣນເດີ...
+	Stencil	ແມ່ພິມເຈາະ
+	Steps	ຂັ້ນ
+	Streaks	ເສັ້ນລາຍຍາວ
+	Stripes	ລາຍທາງ
+	Stroke opacity	ຄວາມທຶບແສງຮອຍແປງ
+	Submesh	ໂຄງຕາໜ່າງຍ່ອຍ
+	Subsampling 2x2	ການເກັບຕົວຢ່າງຍ່ອຍ 2x2
+	Subsampling 4x4	ການເກັບຕົວຢ່າງຍ່ອຍ 4x4
+	Subsampling 8x8	ການເກັບຕົວຢ່າງຍ່ອຍ 8x8
+	Subsurface scattering	ການກະຈາຍແສງໃຕ້ຜິວ
+	Subtract	ລົບ
+	Symmetry	ຄວາມສົມມາດ
+	Symmetry color display	ການສະແດງສີຄວາມສົມມາດ
+	Symmetry settings	ການຕັ້ງຄ່າຄວາມສົມມາດ
+	System title bar (applies on restart)	ແຖບຊື່ຂອງລະບົບ (ມີຜົນເມື່ອເປີດໃໝ່)
+	Tangent | Wrap	ແທນເຈັນ | ຫໍ່ຫຸ້ມ
+	Template name	ຊື່ແມ່ແບບ
+	Temporal anti-aliasing (refines the 3D view while it is still)	ການລົບຮອຍຫຍັກຕາມເວລາ (ປັບມຸມມອງ 3D ໃຫ້ຄົມຊັດຂຶ້ນໃນຂະນະທີ່ຢຸດນິ້ງ)
+	Texture resolution	ຄວາມລະອຽດເທັກເຈີ
+	Texture set channels	ຊ່ອງຂອງຊຸດເທັກເຈີ
+	Texture set resolution	ຄວາມລະອຽດຊຸດເທັກເຈີ
+	Texture Set Settings	ການຕັ້ງຄ່າຊຸດເທັກເຈີ
+	Texture Sets	ຊຸດເທັກເຈີ
+	Texture sets	ຊຸດເທັກເຈີ
+	TextureCraft had to close:	TextureCraft ຈຳເປັນຕ້ອງປິດລົງ:
+	TextureCraft PBR - Metallic Roughness	TextureCraft PBR - ຄວາມເປັນໂລຫະ ຄວາມຫຍາບ
+	TextureCraft PBR - Specular Glossiness	TextureCraft PBR - ແສງສະທ້ອນ ຄວາມເງົາ
+	TextureCraft project	ໂຄງການ TextureCraft
+	TextureCraft project or mesh	ໂຄງການ TextureCraft ຫຼື ໂຄງຕາໜ່າງ
+	Textures	ເທັກເຈີ
+	Textures embedded; for game engines and most viewers	ຝັງເທັກເຈີໄວ້ໃນຕົວ; ສຳລັບເອັນຈິນເກມ ແລະ ຕົວເປີດເບິ່ງສ່ວນໃຫຍ່
+	Textures packaged; for USD tools and AR Quick Look	ຫຸ້ມຫໍ່ເທັກເຈີໄວ້; ສຳລັບເຄື່ອງມື USD ແລະ AR Quick Look
+	The bake worker stopped	ຕົວປະມວນຜົນການຄຳນວນລ່ວງໜ້າໄດ້ຢຸດລົງ
+	The eraser removes paint from the enabled channels.	ຢາງລຶບຈະລຶບສີທີ່ລະບາຍອອກຈາກຊ່ອງທີ່ເປີດໃຊ້ງານຢູ່.
+	The file dialog couldn't be shown: {error}	ບໍ່ສາມາດສະແດງກ່ອງໂຕ້ຕອບເລືອກໄຟລ໌ໄດ້: {error}
+	The first stroke sets the offset from the source.	ຮອຍແປງທຳອິດຈະກຳນົດໄລຍະເລື່ອນຈາກແຫຼ່ງຂໍ້ມູນ.
+	The GPU couldn't render this scene: {error}	GPU ບໍ່ສາມາດເຣນເດີສາກນີ້ໄດ້: {error}
+	The image's alpha cuts the decal's shape; faces turned away and surfaces beyond its depth stay clear.	ຊ່ອງອັນຟາຂອງຮູບພາບຈະຕັດຮູບຮ່າງຂອງດີຄອລ; ໜ້າທີ່ຫັນອອກໄປ ແລະ ພື້ນຜິວທີ່ເກີນຄວາມເລິກຂອງມັນຈະຍັງຄົງສະອາດ.
+	The mesh file the project is built on. Hover the path to see it in full.	ໄຟລ໌ໂຄງຕາໜ່າງທີ່ໂຄງການນີ້ສ້າງຂຶ້ນ. ເລື່ອນຕົວຊີ້ໄປເທິງເສັ້ນທາງເພື່ອເບິ່ງແບບເຕັມ.
+	The next click in the 3D view moves the decal there	ການຄລິກຄັ້ງຕໍ່ໄປໃນມຸມມອງ 3D ຈະຍ້າຍດີຄອລໄປບ່ອນນັ້ນ
+	The project changed while the dialog was open, so nothing was done	ໂຄງການໄດ້ປ່ຽນແປງໃນຂະນະທີ່ກ່ອງໂຕ້ຕອບເປີດຢູ່ ຈຶ່ງບໍ່ມີການດຳເນີນການໃດໆ
+	The resize worker stopped	ຕົວປະມວນຜົນການປັບຂະໜາດໄດ້ຢຸດລົງ
+	The UV tiles (UDIMs) of each texture set, shown for reference. Change them in Texture Set Settings.	ແຜ່ນ UV (UDIM) ຂອງແຕ່ລະຊຸດເທັກເຈີ ສະແດງໄວ້ເພື່ອອ້າງອີງ. ປ່ຽນແປງພວກມັນໄດ້ໃນການຕັ້ງຄ່າຊຸດເທັກເຈີ.
+	There is no mesh file to read again. Select one.	ບໍ່ມີໄຟລ໌ໂຄງຕາໜ່າງໃຫ້ອ່ານອີກຄັ້ງ. ກະລຸນາເລືອກອັນໜຶ່ງ.
+	Thin areas	ບໍລິເວນບາງ
+	Tile	ປູຊ້ຳລາຍ
+	Tiles	ກະໂລ້
+	Tint	ຍ້ອມສີ
+	Title bar	ແຖບຊື່
+	Toggle mask	ເປີດ/ປິດໜ້າກາກ
+	Tone mapping	ການປັບໂທນສີ
+	Torus	ວົງແຫວນ (Torus)
+	transm	ສ່ອງຜ່ານ
+	Transmission	ການສ່ອງຜ່ານແສງ
+	Tri-planar projection	ການສາຍແບບສາມລະນາບ
+	Triangle fill	ຕື່ມຮູບສາມຫຼ່ຽມ
+	Triangle fills single triangles, Polygon whole quads and n-gons, Mesh the connected geometry, UV island the UV islands	ຮູບສາມຫຼ່ຽມ ຈະຕື່ມສາມຫຼ່ຽມດ່ຽວ, ຮູບຫຼາຍຫຼ່ຽມ ຈະຕື່ມຮູບສີ່ແຈ ແລະ n-gon ທັງໝົດ, ໂຄງຕາໜ່າງ ຈະຕື່ມຮູບຊົງທີ່ເຊື່ອມຕໍ່ກັນ, ເກາະ UV ຈະຕື່ມເກາະ UV
+	Twill weave	ລາຍຕ່ຳຜ້າທະແຍງ
+	UDIM plane	ແຜ່ນຮາບ UDIM
+	UDIM tiles painted by this texture set, each at the set's size	ແຜ່ນ UDIM ທີ່ລະບາຍໂດຍຊຸດເທັກເຈີນີ້ ແຕ່ລະແຜ່ນມີຂະໜາດຕາມຊຸດ
+	UI layout	ການຈັດວາງ UI
+	UI layout: {error}	ການຈັດວາງ UI: {error}
+	UI layouts	ການຈັດວາງ UI
+	UI {ms} ms	UI {ms} ms
+	Uniform value	ຄ່າສະໝ່ຳສະເໝີ
+	USD binary, textures alongside	USD ໄບນາຣີ, ເທັກເຈີຢູ່ຄຽງຂ້າງ
+	USD text, textures alongside	USD ຂໍ້ຄວາມ, ເທັກເຈີຢູ່ຄຽງຂ້າງ
+	USDZ with textures	USDZ ພ້ອມເທັກເຈີ
+	Use an equirectangular .hdr or .exr image as the environment	ໃຊ້ຮູບພາບ .hdr ຫຼື .exr ແບບ equirectangular ເປັນສະພາບແວດລ້ອມ
+	Use as brush alpha	ໃຊ້ເປັນອັນຟາຂອງແປງ
+	Use Low Poly Mesh as High Poly Mesh	ໃຊ້ໂຄງຕາໜ່າງ Low Poly ເປັນໂຄງຕາໜ່າງ High Poly
+	Use the control channel or `texturecraft-cli render` for screenshots	ໃຊ້ຊ່ອງຄວບຄຸມ ຫຼື `texturecraft-cli render` ສຳລັບພາບຖ່າຍໜ້າຈໍ
+	Use the operating system's window frame and buttons instead of TextureCraft's own title bar	ໃຊ້ຂອບປ່ອງຢ້ຽມ ແລະ ປຸ່ມຂອງລະບົບປະຕິບັດການ ແທນແຖບຊື່ຂອງ TextureCraft ເອງ
+	Use this brush (keeps its size)	ໃຊ້ແປງນີ້ (ຮັກສາຂະໜາດຂອງມັນ)
+	UV checker	ລາຍໝາກຮຸກ UV
+	UV island fill	ຕື່ມເກາະ UV
+	UV projection	ການສາຍ UV
+	UV Seams	ຮອຍຕໍ່ UV
+	UV Tile settings (UDIMs)	ການຕັ້ງຄ່າແຜ່ນ UV (UDIM)
+	UV tile {tile} resolution	ຄວາມລະອຽດແຜ່ນ UV {tile}
+	UV tiles	ແຜ່ນ UV
+	UV tiles (UDIM)	ແຜ່ນ UV (UDIM)
+	UV transformations	ການແປງຮູບ UV
+	Value Bounds Max	ຂອບເຂດຄ່າສູງສຸດ
+	Value Bounds Min	ຂອບເຂດຄ່າຕ່ຳສຸດ
+	Version: {version} ({gpu})	ເວີຊັນ: {version} ({gpu})
+	Vertex Color	ສີຈຸດຍອດ
+	View through this camera	ເບິ່ງຜ່ານກ້ອງນີ້
+	Viewer settings	ການຕັ້ງຄ່າຕົວສະແດງຜົນ
+	Viewport	ໜ້າຈໍສະແດງຜົນ
+	Viewport and brush (fixed)	ໜ້າຈໍສະແດງຜົນ ແລະ ແປງ (ຄົງທີ່)
+	Views	ມຸມມອງ
+	Visible polygons only	ສະເພາະຮູບຫຼາຍຫຼ່ຽມທີ່ເບິ່ງເຫັນເທົ່ານັ້ນ
+	Vivid light	ແສງສົດໃສ
+	Voronoi	ໂວໂຣນອຍ
+	Warp	ບິດເບືອນ
+	Warp Directional	ບິດເບືອນຕາມທິດທາງ
+	Wavefront OBJ with MTL, textures alongside	Wavefront OBJ ພ້ອມ MTL, ເທັກເຈີຢູ່ຄຽງຂ້າງ
+	WebGPU isn't available in this browser, so TextureCraft runs on WebGL2: Rendering mode path traces on the CPU (slower) and large texture sets show at reduced resolution. A current Chrome, Edge or Safari has WebGPU.	WebGPU ບໍ່ສາມາດໃຊ້ໄດ້ໃນບຣາວເຊີນີ້, ດັ່ງນັ້ນ TextureCraft ຈຶ່ງເຮັດວຽກເທິງ WebGL2: ໂໝດເຣນເດີຈະຕິດຕາມເສັ້ນທາງແສງເທິງ CPU (ຊ້າກວ່າ) ແລະ ຊຸດເທັກເຈີຂະໜາດໃຫຍ່ຈະສະແດງໃນຄວາມລະອຽດທີ່ຫຼຸດລົງ. Chrome, Edge ຫຼື Safari ເວີຊັນປັດຈຸບັນມີ WebGPU.
+	What the 3D view shows while the bake runs: the newest finished map, one finished map, or the material. Maps not baked yet show a neutral value.	ສິ່ງທີ່ມຸມມອງ 3D ສະແດງໃນຂະນະທີ່ການຄຳນວນລ່ວງໜ້າກຳລັງເຮັດວຽກ: ແຜນທີ່ທີ່ສຳເລັດໃໝ່ຫຼ້າສຸດ, ແຜນທີ່ທີ່ສຳເລັດແລ້ວອັນໜຶ່ງ ຫຼື ວັດສະດຸ. ແຜນທີ່ທີ່ຍັງບໍ່ໄດ້ຄຳນວນຈະສະແດງຄ່າກາງ.
+	Wheel / Alt + RMB drag	ລູກກິ້ງເມົ້າສ໌ / Alt + ລາກຄລິກຂວາ
+	Width (texels at 2K)	ຄວາມກວ້າງ (texels ທີ່ 2K)
+	Wood grain	ລາຍໄມ້
+	Works in texture space, like the blur: it does not cross UV seams.	ເຮັດວຽກໃນພື້ນທີ່ເທັກເຈີ ຄືກັບຄວາມມົວ: ມັນບໍ່ຂ້າມຮອຍຕໍ່ UV.
+	World Space Normal	ນໍມອລໃນພື້ນທີ່ໂລກ
+	Yellow / blue	ເຫຼືອງ / ຟ້າ
+	{action} (undone)	{action} (ຍົກເລີກແລ້ວ)
+	{count} effects	{count} ເອັບເຟັກ
+	{file}: add above the selected layer (or drag it into the layer stack or onto the viewport)	{file}: ເພີ່ມຢູ່ເທິງຊັ້ນທີ່ເລືອກ (ຫຼື ລາກເຂົ້າໄປໃນກອງຊັ້ນ ຫຼື ລົງເທິງໜ້າຈໍສະແດງຜົນ)
+	{name} copy	ສຳເນົາຂອງ {name}
+	{n} bits	{n} ບິດ
+	{n} control points. Click the mesh (or the 2D view) to add points and drag them to adjust; click the first point to close the path. Enter paints it with the brush (a closed, filled path fills its inside), Esc cancels.	{n} ຈຸດຄວບຄຸມ. ຄລິກໃສ່ໂຄງຕາໜ່າງ (ຫຼື ມຸມມອງ 2D) ເພື່ອເພີ່ມຈຸດ ແລະ ລາກເພື່ອປັບ; ຄລິກຈຸດທຳອິດເພື່ອປິດເສັ້ນທາງ. Enter ເພື່ອລະບາຍດ້ວຍແປງ (ເສັ້ນທາງປິດທີ່ຕື່ມຈະຕື່ມດ້ານໃນຂອງມັນ), Esc ເພື່ອຍົກເລີກ.
+	{n} items share a shortcut; the first one listed wins.	{n} ລາຍການໃຊ້ປຸ່ມລັດຮ່ວມກັນ; ລາຍການທຳອິດໃນລາຍຊື່ຈະມີຜົນ.
+	{pattern} (scale {scale}, seed {seed})	{pattern} (ຂະໜາດ {scale}, ຄ່າເລີ່ມສຸ່ມ {seed})

@@ -1,0 +1,3039 @@
+# ລາວ (lo) interface catalog for FilmCraft.
+# Columns, separated by a TAB:  context <TAB> English source text <TAB> translation
+#   context  usually empty. `@plural`, `@id` and `@msg` mean something to the apps; any other
+#            word is a label that tells apart two meanings of the same English.
+#   escapes  \n  \t  \\  inside a column. `{name}` placeholders must appear in both columns (in any
+#            order), and a trailing "…" in one needs one in the other.
+#   @plural  English `one|other`; the translation lists this language's plural forms, `|`-separated.
+#   Lines starting with # and blank lines are ignored. A missing entry shows in English.
+#
+# Clean room: every entry was written from the plain meaning of the English text in ordinary
+# computing vocabulary. No other product's localisation, string table or translated UI was
+# consulted or copied; add entries the same way.
+
+	   Angle	   ມຸມ
+	   Blur	   ຄວາມມົວ
+	   Corner Radius	   ລັດສະໝີມຸມ
+	   Distance	   ໄລຍະຫ່າງ
+	   Opacity	   ຄວາມທຶບແສງ
+	   Size	   ຂະໜາດ
+	   Template: {name}	   ແມ່ແບບ: {name}
+	  (none)	  (ບໍ່ມີ)
+	 (removed from {list})	 (ຖືກລຶບອອກຈາກ {list})
+	 (unavailable)	 (ບໍ່ສາມາດໃຊ້ງານໄດ້)
+	 ({ch} output channels)	 ({ch} ຊ່ອງສັນຍານອອກ)
+	 and 	 ແລະ 
+	 frames	 ເຟຣມ
+	 seconds	 ວິນາທີ
+	 · {time} left	 · ເຫຼືອອີກ {time}
+	(Default)	(ຄ່າເລີ່ມຕົ້ນ)
+	(empty)	(ຫວ່າງເປົ່າ)
+	(gap)	(ຊ່ອງຫວ່າງ)
+	(no audio)	(ບໍ່ມີສຽງ)
+	(no clip selected)	(ບໍ່ມີຄລິບທີ່ເລືອກ)
+	(no clips)	(ບໍ່ມີຄລິບ)
+	(no sequence)	(ບໍ່ມີລຳດັບ)
+	(no sequences)	(ບໍ່ມີລຳດັບ)
+	(RGB) Gamma	(RGB) ແກມມາ
+	(RGB) Input Black Level	(RGB) ລະດັບສີດຳຂາເຂົ້າ
+	(RGB) Input White Level	(RGB) ລະດັບສີຂາວຂາເຂົ້າ
+	(RGB) Output Black Level	(RGB) ລະດັບສີດຳຂາອອກ
+	(RGB) Output White Level	(RGB) ລະດັບສີຂາວຂາອອກ
+	+ Cmd	+ Cmd
+	+ Opt	+ Opt
+	10 Bit Black Point	ຈຸດສີດຳ 10 ບິດ
+	10 Bit White Point	ຈຸດສີຂາວ 10 ບິດ
+	105mm Prime	ເລນຄົງທີ່ 105 ມມ
+	29.97 fps Drop-Frame	29.97 fps ແບບຂ້າມເຟຣມ
+	29.97 fps Non Drop-Frame	29.97 fps ແບບບໍ່ຂ້າມເຟຣມ
+	32 bit float	32 ບິດ ຈຸດລອຍ
+	35mm Prime	ເລນຄົງທີ່ 35 ມມ
+	3D Roll	ການກິ້ງ 3 ມິຕິ
+	3D Rotate	ການໝຸນ 3 ມິຕິ
+	3D Spin	ການປິ່ນ 3 ມິຕິ
+	3D Spinback	ການປິ່ນກັບ 3 ມິຕິ
+	4-Color Gradient	ໄລ່ສີ 4 ສີ
+	5.1 Media	ສື່ 5.1
+	5.1 Mixdown Type	ປະເພດການປະສົມສຽງ 5.1
+	5.1 panner (drag the puck; double-click: front centre)	ຕົວປັບທິດທາງສຽງ 5.1 (ລາກຈຸດ; ກົດສອງເທື່ອ: ກາງໜ້າ)
+	50-300mm Zoom	ຊູມ 50-300 ມມ
+	59.94 fps Drop-Frame	59.94 fps ແບບຂ້າມເຟຣມ
+	59.94 fps Non Drop-Frame	59.94 fps ແບບບໍ່ຂ້າມເຟຣມ
+	A boxed label with a round pointer; move the label and the pointer follows.	ປ້າຍຂໍ້ຄວາມມີຂອບພ້ອມຕົວຊີ້ມົນ; ຍ້າຍປ້າຍແລ້ວຕົວຊີ້ຈະຕິດຕາມໄປ.
+	A clean-room, pure-Rust non-linear video editor. Part of the ArtCraft family.	ໂປຣແກຣມຕັດຕໍ່ວິດີໂອແບບບໍ່ເປັນເສັ້ນຊື່ ທີ່ຂຽນດ້ວຍພາສາ Rust ລ້ວນໆ ຢ່າງເປັນອິດສະຫຼະ. ສ່ວນໜຶ່ງຂອງຕະກູນ ArtCraft.
+	A cut sequence with transitions, effects and music	ລຳດັບການຕັດຕໍ່ທີ່ມີການປ່ຽນສາກ, ເອັບເຟັກ ແລະ ສຽງດົນຕີ
+	A news-style line that crawls in from the right and leaves at the left.	ແຖວຂໍ້ຄວາມແບບຂ່າວໂທລະພາບ ທີ່ແລ່ນເຂົ້າມາຈາກຂວາ ແລະ ອອກໄປທາງຊ້າຍ.
+	A rounded tag that fits its text, with a status dot.	ປ້າຍຂອບມົນທີ່ພໍດີກັບຂໍ້ຄວາມ ພ້ອມຈຸດສະແດງສະຖານະ.
+	A title on a rounded card with a soft shadow.	ຫົວຂໍ້ເທິງບັດຂອບມົນທີ່ມີເງົາອ່ອນໆ.
+	AAC Audio	ສຽງ AAC
+	AAC Audio 48 kHz 320 kbps	ສຽງ AAC 48 kHz 320 kbps
+	AAF Export Settings	ການຕັ້ງຄ່າການສົ່ງອອກ AAF
+	AAF…	AAF…
+	About FilmCraft	ກ່ຽວກັບ FilmCraft
+	Accent Color	ສີເນັ້ນ
+	Accessible color contrast	ຄວາມຄົມຕ່າງຂອງສີທີ່ເຂົ້າເຖິງໄດ້ງ່າຍ
+	Action and Title Safe Areas	ຂອບເຂດຄວາມປອດໄພຂອງພາບ ແລະ ຫົວຂໍ້
+	Action Safe Area	ຂອບເຂດຄວາມປອດໄພຂອງພາບ
+	Action-Safe Margin	ຂອບປອດໄພຂອງພາບ
+	Action:	ການກະທຳ:
+	Active Monitor	ຈໍພາບທີ່ໃຊ້ງານຢູ່
+	Adaptive	ປັບຕົວຕາມສະພາບ
+	Adaptive ({bpp} bits per pixel)	ປັບຕົວຕາມສະພາບ ({bpp} ບິດຕໍ່ພິກເຊວ)
+	Add a timecode row	ເພີ່ມແຖວລະຫັດເວລາ
+	Add another shortcut	ເພີ່ມປຸ່ມລັດອື່ນ
+	Add Audio Submix Track	ເພີ່ມແທຣັກປະສົມສຽງຍ່ອຍ
+	Add audio submix tracks	ເພີ່ມແທຣັກປະສົມສຽງຍ່ອຍ
+	Add audio tracks	ເພີ່ມແທຣັກສຽງ
+	Add Caption at Playhead	ເພີ່ມຄຳບັນຍາຍທີ່ຫົວອ່ານ
+	Add caption at playhead	ເພີ່ມຄຳບັນຍາຍທີ່ຫົວອ່ານ
+	Add captions	ເພີ່ມຄຳບັນຍາຍ
+	Add Chapter Marker…	ເພີ່ມເຄື່ອງໝາຍບົດ…
+	Add Edit	ເພີ່ມຈຸດຕັດຕໍ່
+	Add Edit to All Tracks	ເພີ່ມຈຸດຕັດຕໍ່ໃສ່ທຸກແທຣັກ
+	Add Flash Cue Marker…	ເພີ່ມເຄື່ອງໝາຍຈຸດອ້າງອີງ Flash…
+	Add Frame Hold	ເພີ່ມພາບຄ້າງ
+	Add Guide…	ເພີ່ມເສັ້ນແນວທາງ…
+	Add keyframe	ເພີ່ມເຟຣມຫຼັກ
+	Add Lumetri Color to clip	ເພີ່ມສີ Lumetri ໃສ່ຄລິບ
+	Add Marker	ເພີ່ມເຄື່ອງໝາຍ
+	Add Marker (M)	ເພີ່ມເຄື່ອງໝາຍ (M)
+	Add media to your project. Drop files anywhere in the window, or choose a source below.	ເພີ່ມສື່ໃສ່ໂຄງການຂອງທ່ານ. ລາກໄຟລ໌ມາວາງບ່ອນໃດກໍໄດ້ໃນປ່ອງຢ້ຽມ ຫຼື ເລືອກແຫຼ່ງຂໍ້ມູນດ້ານລຸ່ມ.
+	Add New Caption Track…	ເພີ່ມແທຣັກຄຳບັນຍາຍໃໝ່…
+	Add Property…	ເພີ່ມຄຸນສົມບັດ…
+	Add Range Marker	ເພີ່ມເຄື່ອງໝາຍຊ່ວງ
+	Add Range Marker to In and Out	ເພີ່ມເຄື່ອງໝາຍຊ່ວງແຕ່ຈຸດເຂົ້າຫາຈຸດອອກ
+	Add to Favorites	ເພີ່ມເຂົ້າລາຍການທີ່ມັກ
+	Add Tracks	ເພີ່ມແທຣັກ
+	Add tracks automatically when editing source clips onto the Timeline	ເພີ່ມແທຣັກໂດຍອັດຕະໂນມັດເມື່ອຕັດຕໍ່ຄລິບຕົ້ນສະບັບລົງໃນໄທມ໌ໄລນ໌
+	Add Tracks…	ເພີ່ມແທຣັກ…
+	Add video tracks	ເພີ່ມແທຣັກວິດີໂອ
+	Add/Remove Keyframe	ເພີ່ມ/ລຶບເຟຣມຫຼັກ
+	Added to the export queue	ເພີ່ມເຂົ້າຄິວສົ່ງອອກແລ້ວ
+	Additional Scale	ຂະໜາດເພີ່ມເຕີມ
+	Additive Dissolve	ຈາງຊ້ອນແບບບວກ
+	Additive Dissolve (Legacy)	ຈາງຊ້ອນແບບບວກ (ແບບເກົ່າ)
+	Adjust Gain by:	ປັບເກນສຽງໂດຍ:
+	Adjustment Layer…	ຊັ້ນປັບແຕ່ງ…
+	After {name}	ຫຼັງ {name}
+	Aggressive	ຮຸນແຮງ
+	AIFF	AIFF
+	AIFF 48 kHz 16-bit	AIFF 48 kHz 16 ບິດ
+	AIFF, stereo 48 kHz 16-bit PCM	AIFF, ສະເຕຣິໂອ 48 kHz 16 ບິດ PCM
+	Align and Transform	ຈັດແຖວ ແລະ ປ່ຽນຮູບຊົງ
+	Align Bottom	ຈັດຊິດລຸ່ມ
+	Align Center Horizontally	ຈັດກາງຕາມລວງນອນ
+	Align Center Vertically	ຈັດກາງຕາມລວງຕັ້ງ
+	Align Timecode	ຈັດໃຫ້ກົງກັບລະຫັດເວລາ
+	Align to Grid	ຈັດໃຫ້ກົງກັບຕາຂ່າຍ
+	Align to Video Frame	ຈັດໃຫ້ກົງກັບເຟຣມວິດີໂອ
+	Align to Video Frame as Group	ຈັດໃຫ້ກົງກັບເຟຣມວິດີໂອເປັນກຸ່ມ
+	Align Top	ຈັດຊິດເທິງ
+	All	ທັງໝົດ
+	All Cameras	ທຸກກ້ອງ
+	All Empty Tracks	ທຸກແທຣັກທີ່ຫວ່າງ
+	All Events	ທຸກເຫດການ
+	All lines	ທຸກແຖວ
+	All markers are hidden by the colour filter.	ເຄື່ອງໝາຍທັງໝົດຖືກເຊື່ອງໄວ້ໂດຍຕົວກອງສີ.
+	All media is online.	ສື່ທັງໝົດພ້ອມໃຊ້ງານ.
+	All Panels	ທຸກແຜງ
+	Allow current tool to change trim type of previously selected edit point	ອະນຸຍາດໃຫ້ເຄື່ອງມືປັດຈຸບັນປ່ຽນປະເພດການຕັດແຕ່ງຂອງຈຸດຕັດຕໍ່ທີ່ເລືອກໄວ້ກ່ອນໜ້າ
+	Allow Duplicate Media During Project Import	ອະນຸຍາດສື່ຊ້ຳກັນລະຫວ່າງການນຳເຂົ້າໂຄງການ
+	Allow duplicate media during project import	ອະນຸຍາດສື່ຊ້ຳກັນລະຫວ່າງການນຳເຂົ້າໂຄງການ
+	Allow Selection tool to choose Roll and Ripple trims without modifier key	ອະນຸຍາດໃຫ້ເຄື່ອງມືເລືອກສາມາດເລືອກການຕັດແຕ່ງແບບເລື່ອນຮ່ວມ ແລະ ເລື່ອນຕິດໂດຍບໍ່ຕ້ອງກົດປຸ່ມເສີມ
+	Alpha Adjust	ປັບອັນຟາ
+	Alpha Blurriness	ຄວາມມົວອັນຟາ
+	Alpha Channel	ຊ່ອງອັນຟາ
+	Alpha Glow	ແສງເຮືອງອັນຟາ
+	Always Deinterlace	ແຍກເສັ້ນສະຫຼັບສະເໝີ
+	Always import embedded CEA-708 closed captions with wide aspect.	ນຳເຂົ້າຄຳບັນຍາຍປິດ CEA-708 ທີ່ຝັງຢູ່ໃນອັດຕາສ່ວນກວ້າງສະເໝີ.
+	Always override audio tags	ຂຽນທັບປ້າຍກຳກັບສຽງສະເໝີ
+	Ambience	ບັນຍາກາດ
+	Ambience Intensity	ຄວາມເຂັ້ມຂອງບັນຍາກາດ
+	Ambience Light Color	ສີແສງບັນຍາກາດ
+	Amount	ປະລິມານ
+	Amount of Noise	ປະລິມານສຽງລົບກວນ
+	Amount to Decolor	ປະລິມານການລົດສີ
+	Amount to Tint	ປະລິມານການຍ້ອມສີ
+	Amplifier	ເຄື່ອງຂະຫຍາຍສຽງ
+	Amplify	ຂະຫຍາຍສຽງ
+	Amplitude	ແອມພລິຈູດ
+	Amplitude and Compression	ແອມພລິຈູດ ແລະ ການບີບອັດ
+	An earlier start failed with the default graphics. Updating the graphics driver usually fixes this.	ການເປີດຄັ້ງກ່ອນໜ້າລົ້ມເຫຼວດ້ວຍກຣາຟິກຄ່າເລີ່ມຕົ້ນ. ການອັບເດດໄດຣເວີກຣາຟິກມັກຈະແກ້ໄຂບັນຫານີ້ໄດ້.
+	Analog	ອະນາລັອກ
+	Analog Delay	ດີເລອະນາລັອກ
+	Analyze	ວິເຄາະ
+	Analyze all imported media to search for visuals or audio	ວິເຄາະສື່ທີ່ນຳເຂົ້າທັງໝົດເພື່ອຄົ້ນຫາພາບ ຫຼື ສຽງ
+	Anamorphic	ອານາມໍຟິກ
+	Anamorphic 2:1 (2.0)	ອານາມໍຟິກ 2:1 (2.0)
+	Anchor	ຈຸດຍຶດ
+	Anchor Point	ຈຸດຍຶດ
+	Anchor point	ຈຸດຍຶດ
+	Anchor to In Point	ຍຶດກັບຈຸດເຂົ້າ
+	Anchor to Out Point	ຍຶດກັບຈຸດອອກ
+	Animated GIF	GIF ເຄື່ອນໄຫວ
+	Animated GIF 640×360	GIF ເຄື່ອນໄຫວ 640×360
+	Anti-aliasing Quality	ຄຸນນະພາບການລົບຂອບຫຍັກ
+	Anti-flicker Filter	ຕົວກອງປ້ອງກັນພາບກະພິບ
+	Antialiasing for Best Quality	ລົບຂອບຫຍັກເພື່ອຄຸນນະພາບສູງສຸດ
+	Appearance Mode	ຮູບແບບການສະແດງຜົນ
+	Appearance…	ຮູບແບບ…
+	Apple ProRes	Apple ProRes
+	Apple ProRes 422	Apple ProRes 422
+	Apple ProRes 422 HQ	Apple ProRes 422 HQ
+	Apple ProRes 422 LT	Apple ProRes 422 LT
+	Apple ProRes 422 Proxy	Apple ProRes 422 Proxy
+	Apple ProRes 4444	Apple ProRes 4444
+	Apple ProRes 4444 with Alpha	Apple ProRes 4444 ພ້ອມອັນຟາ
+	Apple ProRes 4444 XQ	Apple ProRes 4444 XQ
+	Application shortcuts work whatever panel has focus	ປຸ່ມລັດຂອງແອັບພລິເຄຊັນເຮັດວຽກໄດ້ບໍ່ວ່າແຜງໃດຈະຖືກເລືອກຢູ່
+	Apply a cut at each detected cut point	ຕັດແບ່ງທີ່ແຕ່ລະຈຸດຕັດທີ່ກວດພົບ
+	Apply Audio Transition	ນຳໃຊ້ການປ່ຽນສຽງ
+	Apply Default Audio Transition	ນຳໃຊ້ການປ່ຽນສຽງເລີ່ມຕົ້ນ
+	Apply Default Transitions	ນຳໃຊ້ການປ່ຽນສາກເລີ່ມຕົ້ນ
+	Apply Default Transitions to Selection	ນຳໃຊ້ການປ່ຽນສາກເລີ່ມຕົ້ນໃສ່ສ່ວນທີ່ເລືອກ
+	Apply Default Transitions to Selection (Shift+D)	ນຳໃຊ້ການປ່ຽນສາກເລີ່ມຕົ້ນໃສ່ສ່ວນທີ່ເລືອກ (Shift+D)
+	Apply Default Video Transition	ນຳໃຊ້ການປ່ຽນສາກວິດີໂອເລີ່ມຕົ້ນ
+	Apply Guide Template	ນຳໃຊ້ແມ່ແບບເສັ້ນແນວທາງ
+	Apply Match	ນຳໃຊ້ການທຽບສີ
+	Apply to Selected Clips	ນຳໃຊ້ກັບຄລິບທີ່ເລືອກ
+	Apply Video Transition	ນຳໃຊ້ການປ່ຽນສາກວິດີໂອ
+	APV	APV
+	APV 422-10	APV 422-10
+	APV 422-12	APV 422-12
+	Are you sure you want to discard your changes to '{file}'?	ທ່ານແນ່ໃຈບໍ່ວ່າຕ້ອງການຍົກເລີກການປ່ຽນແປງຂອງ '{file}'?
+	ASC CDL	ASC CDL
+	Aspect	ອັດຕາສ່ວນພາບ
+	Assembly	ການປະກອບ
+	Assign an audio type to the selection:	ກຳນົດປະເພດສຽງໃຫ້ສ່ວນທີ່ເລືອກ:
+	Assign {key} to {command}	ກຳນົດ {key} ໃຫ້ {command}
+	Asymmetry	ຄວາມບໍ່ສົມມາດ
+	At playback end, return to beginning when restarting playback	ເມື່ອຫຼິ້ນຈົບແລ້ວ ໃຫ້ກັບຄືນໄປຈຸດເລີ່ມຕົ້ນເມື່ອເລີ່ມຫຼິ້ນໃໝ່
+	At Startup	ເມື່ອເລີ່ມຕົ້ນ
+	At Unnumbered Markers	ທີ່ເຄື່ອງໝາຍທີ່ບໍ່ມີເລກ
+	Att	ການຫຼຸດທອນ
+	Attach Proxies…	ແນບພຣັອກຊີ…
+	Attack	ຈັງຫວະເຂົ້າ
+	Attempt to force hardware to document sample rate	ພະຍາຍາມບັງຄັບຮາດແວໃຫ້ໃຊ້ອັດຕາສຸ່ມຕົວຢ່າງຂອງເອກະສານ
+	Audio analysis:	ການວິເຄາະສຽງ:
+	Audio Attributes	ຄຸນລັກສະນະສຽງ
+	Audio Bitrate	ອັດຕາບິດສຽງ
+	Audio Channels…	ຊ່ອງສຽງ…
+	Audio Clip Mixer	ຕົວປະສົມສຽງຄລິບ
+	Audio Codec	ຕົວລະຫັດສຽງ
+	Audio Duration	ໄລຍະເວລາສຽງ
+	Audio Effects	ເອັບເຟັກສຽງ
+	Audio effects	ເອັບເຟັກສຽງ
+	Audio File Format:	ຮູບແບບໄຟລ໌ສຽງ:
+	Audio Format	ຮູບແບບສຽງ
+	Audio Gain	ເກນສຽງ
+	Audio Gain…	ເກນສຽງ…
+	Audio Hardware	ຮາດແວສຽງ
+	Audio Hardware…	ຮາດແວສຽງ…
+	Audio In	ສຽງເຂົ້າ
+	Audio In Point	ຈຸດເຂົ້າສຽງ
+	Audio Info	ຂໍ້ມູນສຽງ
+	Audio Meters	ເຄື່ອງວັດລະດັບສຽງ
+	Audio on track {t}	ສຽງໃນແທຣັກ {t}
+	Audio Only	ສະເພາະສຽງ
+	Audio only	ສະເພາະສຽງ
+	Audio Options	ຕົວເລືອກສຽງ
+	Audio Out	ສຽງອອກ
+	Audio Out Point	ຈຸດອອກສຽງ
+	Audio output failed: playing without sound (check Settings ▸ Audio Hardware)	ສັນຍານສຽງອອກລົ້ມເຫຼວ: ກຳລັງຫຼິ້ນໂດຍບໍ່ມີສຽງ (ກວດເບິ່ງ ການຕັ້ງຄ່າ ▸ ຮາດແວສຽງ)
+	Audio output is not responding: playing without sound (check Settings ▸ Audio Hardware)	ສັນຍານສຽງອອກບໍ່ຕອບສະໜອງ: ກຳລັງຫຼິ້ນໂດຍບໍ່ມີສຽງ (ກວດເບິ່ງ ການຕັ້ງຄ່າ ▸ ຮາດແວສຽງ)
+	Audio Previews:	ພາບຕົວຢ່າງສຽງ:
+	Audio Samples	ຕົວຢ່າງສຽງ
+	Audio Time Units	ໜ່ວຍເວລາສຽງ
+	Audio Track Mixer	ຕົວປະສົມແທຣັກສຽງ
+	Audio Track Mixer menu	ເມນູຕົວປະສົມແທຣັກສຽງ
+	Audio Tracks	ແທຣັກສຽງ
+	Audio Transition Default Duration	ໄລຍະເວລາເລີ່ມຕົ້ນຂອງການປ່ຽນສຽງ
+	Audio Transitions	ການປ່ຽນສຽງ
+	Audio Usage	ການໃຊ້ງານສຽງ
+	Audio Waveform	ຄື້ນສຽງ
+	Audio Waveforms	ຄື້ນສຽງ
+	Audio {n}:	ສຽງ {n}:
+	Audio:	ສຽງ:
+	Audio…	ສຽງ…
+	Auto	ອັດຕະໂນມັດ
+	Auto (system)	ອັດຕະໂນມັດ (ລະບົບ)
+	Auto Align	ຈັດແຖວອັດຕະໂນມັດ
+	Auto Bezier	ເບຊີເອອັດຕະໂນມັດ
+	Auto Gate	ຕົວຕັດສຽງອັດຕະໂນມັດ
+	Auto Makeup	ຊົດເຊີຍສຽງອັດຕະໂນມັດ
+	Auto Reframe	ຈັດເຟຣມໃໝ່ອັດຕະໂນມັດ
+	Auto Save	ບັນທຶກອັດຕະໂນມັດ
+	Auto Save also saves the current project(s)	ການບັນທຶກອັດຕະໂນມັດຈະບັນທຶກໂຄງການປັດຈຸບັນນຳ
+	Auto Save Now	ບັນທຶກອັດຕະໂນມັດດຽວນີ້
+	Auto Save…	ບັນທຶກອັດຕະໂນມັດ…
+	Auto Tone Map Media (HDR and log into SDR)	ປັບໂທນສີສື່ອັດຕະໂນມັດ (HDR ແລະ log ເປັນ SDR)
+	Auto tone map media (HDR and log into SDR)	ປັບໂທນສີສື່ອັດຕະໂນມັດ (HDR ແລະ log ເປັນ SDR)
+	Auto-Adjust Multi-Camera Playback Quality	ປັບຄຸນນະພາບການຫຼິ້ນຫຼາຍກ້ອງອັດຕະໂນມັດ
+	Auto-Match	ທຽບຄ່າອັດຕະໂນມັດ
+	Auto-Match Loudness	ປັບຄວາມດັງໃຫ້ເທົ່າກັນອັດຕະໂນມັດ
+	Auto-saves go to: {dir}	ໄຟລ໌ບັນທຶກອັດຕະໂນມັດໄປທີ່: {dir}
+	Auto-tag audio types in the timeline	ຕິດປ້າຍປະເພດສຽງອັດຕະໂນມັດໃນໄທມ໌ໄລນ໌
+	Auto-transcribe all imported clips	ຖອດສຽງເປັນຂໍ້ຄວາມອັດຕະໂນມັດສຳລັບຄລິບທີ່ນຳເຂົ້າທັງໝົດ
+	Auto-transcribe only clips in sequences	ຖອດສຽງເປັນຂໍ້ຄວາມອັດຕະໂນມັດສະເພາະຄລິບໃນລຳດັບ
+	Automatch Time	ເວລາທຽບຄ່າອັດຕະໂນມັດ
+	Automate To Sequence	ຈັດລົງລຳດັບອັດຕະໂນມັດ
+	Automate to Sequence	ຈັດລົງລຳດັບອັດຕະໂນມັດ
+	Automate to Sequence…	ຈັດລົງລຳດັບອັດຕະໂນມັດ…
+	Automatic Click Remover	ຕົວລຶບສຽງກິກອັດຕະໂນມັດ
+	Automatically delete cache files older than	ລຶບໄຟລ໌ແຄສທີ່ເກົ່າກວ່າໂດຍອັດຕະໂນມັດ
+	Automatically delete oldest cache files when cache exceeds	ລຶບໄຟລ໌ແຄສທີ່ເກົ່າທີ່ສຸດໂດຍອັດຕະໂນມັດເມື່ອແຄສເກີນ
+	Automatically Hide Dependent Clips	ເຊື່ອງຄລິບທີ່ກ່ຽວຂ້ອງໂດຍອັດຕະໂນມັດ
+	Automatically refresh growing files	ໂຫຼດຂໍ້ມູນຄືນໃໝ່ອັດຕະໂນມັດສຳລັບໄຟລ໌ທີ່ກຳລັງເພີ່ມຂະໜາດ
+	Automatically resume playback for growing files in Source Monitor	ຫຼິ້ນຕໍ່ອັດຕະໂນມັດສຳລັບໄຟລ໌ທີ່ກຳລັງເພີ່ມຂະໜາດໃນຈໍຕົ້ນສະບັບ
+	Automatically Save Every	ບັນທຶກອັດຕະໂນມັດທຸກໆ
+	Automatically save projects	ບັນທຶກໂຄງການໂດຍອັດຕະໂນມັດ
+	Automatically transcribe clips	ຖອດສຽງຄລິບໂດຍອັດຕະໂນມັດ
+	Automation Keyframe Optimization	ການປັບແຕ່ງເຟຣມຫຼັກອັດຕະໂນມັດໃຫ້ເໝາະສົມ
+	AV1	AV1
+	Average Data Rate	ອັດຕາຂໍ້ມູນສະເລ່ຍ
+	Avid DNxHR	Avid DNxHR
+	Avid DNxHR HQ	Avid DNxHR HQ
+	Avid DNxHR LB	Avid DNxHR LB
+	Avid DNxHR SQ	Avid DNxHR SQ
+	Avid Log Exchange	Avid Log Exchange
+	Avid Log Exchange…	Avid Log Exchange…
+	Avid-style OP-Atom: DNxHR HQ picture file plus one 24-bit 48 kHz PCM file per channel (_A1, _A2…)	OP-Atom ແບບ Avid: ໄຟລ໌ພາບ DNxHR HQ ພ້ອມໄຟລ໌ PCM 24 ບິດ 48 kHz ໜຶ່ງໄຟລ໌ຕໍ່ຊ່ອງ (_A1, _A2…)
+	Background Corner Radius	ລັດສະໝີມຸມພື້ນຫຼັງ
+	Background fill	ການຖົມສີພື້ນຫຼັງ
+	Background Opacity	ຄວາມທຶບແສງພື້ນຫຼັງ
+	Background Size	ຂະໜາດພື້ນຫຼັງ
+	Balanced Voice	ສຽງເວົ້າສົມດຸນ
+	Band 1	ແຖບຄວາມຖີ່ 1
+	Band 2	ແຖບຄວາມຖີ່ 2
+	Band 3	ແຖບຄວາມຖີ່ 3
+	Band 4	ແຖບຄວາມຖີ່ 4
+	Band 5	ແຖບຄວາມຖີ່ 5
+	Band Pass	ຜ່ານແຖບຄວາມຖີ່
+	Band Slide	ເລື່ອນເປັນແຖບ
+	Band Stop	ຕັດແຖບຄວາມຖີ່
+	Band {n}	ແຖບຄວາມຖີ່ {n}
+	Bandpass	ຜ່ານແຖບຄວາມຖີ່
+	Bar Color	ສີແຖບ
+	Barn Doors	ບານປະຕູຄູ່
+	Bars and Tone	ແຖບສີ ແລະ ສຽງທົດສອບ
+	Bars and Tone…	ແຖບສີ ແລະ ສຽງທົດສອບ…
+	Baseline	ເສັ້ນພື້ນຖານ
+	Basic 3D	3 ມິຕິພື້ນຖານ
+	Basic Correction	ການແກ້ໄຂພື້ນຖານ
+	Bass	ສຽງທຸ້ມ
+	Before First Track	ກ່ອນແທຣັກທຳອິດ
+	Begin Text Editing for a Graphic Layer	ເລີ່ມແກ້ໄຂຂໍ້ຄວາມສຳລັບຊັ້ນກຣາຟິກ
+	Begins With	ຂຶ້ນຕົ້ນດ້ວຍ
+	Behind	ທາງຫຼັງ
+	Bessel	Bessel
+	Bevel Alpha	ຂອບອຽງອັນຟາ
+	Bevel join	ຈຸດຕໍ່ແບບຕັດມຸມ
+	Bezier	ເບຊີເອ
+	Bin	ກ່ອງເກັບ
+	Bin From Selection	ສ້າງກ່ອງເກັບຈາກສ່ວນທີ່ເລືອກ
+	Bin: {name}	ກ່ອງເກັບ: {name}
+	Binary assets added	ເພີ່ມຊັບພະຍາກອນໄບນາຣີແລ້ວ
+	Binauralizer - Ambisonics	ແປງສຽງສອງຫູ - ອ້ອມທິດທາງ
+	Bins	ກ່ອງເກັບ
+	Bitrate Encoding	ການເຂົ້າລະຫັດອັດຕາບິດ
+	Bits per Sample:	ບິດຕໍ່ຕົວຢ່າງ:
+	Black and white with crushed blacks and strong contrast	ຂາວດຳທີ່ມີສີດຳເຂັ້ມ ແລະ ຄວາມຄົມຕ່າງສູງ
+	Black Input Level	ລະດັບສີດຳຂາເຂົ້າ
+	Black Video…	ວິດີໂອສີດຳ…
+	Bleach Bypass	ບໍ່ຟອກຂາວ
+	Bleach-bypass style: desaturated with hard contrast	ແບບບໍ່ຟອກຂາວ: ສີຈືດ ແລະ ຄວາມຄົມຕ່າງແຮງ
+	Blend	ປະສົມ
+	Blend With Original	ປະສົມກັບຕົ້ນສະບັບ
+	Block Dissolve	ຈາງຊ້ອນແບບບລັອກ
+	Block Height	ຄວາມສູງບລັອກ
+	Block Motion	ການເຄື່ອນໄຫວບລັອກ
+	Block Size	ຂະໜາດບລັອກ
+	Block Width	ຄວາມກວ້າງບລັອກ
+	Blue Blurriness	ຄວາມມົວສີຟ້າ
+	Blue Curve	ເສັ້ນໂຄ້ງສີຟ້າ
+	Blue Offset	ຄ່າຊົດເຊີຍສີຟ້າ
+	Blue Power	ກຳລັງສີຟ້າ
+	Blue Slope	ຄວາມຊັນສີຟ້າ
+	Blue-Blue	ຟ້າ-ຟ້າ
+	Blue-Const	ຟ້າ-ຄ່າຄົງທີ່
+	Blue-Green	ຟ້າ-ຂຽວ
+	Blue-Red	ຟ້າ-ແດງ
+	Blur & Sharpen	ມົວ ແລະ ຄົມຊັດ
+	Blur Amount	ປະລິມານຄວາມມົວ
+	Blur Dimensions	ມິຕິຄວາມມົວ
+	Blur Dissolve	ຈາງຊ້ອນແບບມົວ
+	Blur In	ມົວເຂົ້າ
+	Blur Layer	ຊັ້ນຄວາມມົວ
+	Blur Length	ຄວາມຍາວຄວາມມົວ
+	Blur Out	ມົວອອກ
+	Blurriness	ຄວາມມົວ
+	BMP	BMP
+	BMP Sequence	ລຳດັບພາບ BMP
+	Bokeh Blur	ມົວແບບໂບເກ້
+	Boost	ເພີ່ມພະລັງ
+	Boost Vibrance	ເພີ່ມຄວາມສົດໃສຂອງສີ
+	Border Color	ສີຂອບ
+	Border Width	ຄວາມກວ້າງຂອບ
+	Bottom Center	ລຸ່ມກາງ
+	Bounce	ເດັ້ງ
+	Box	ກ່ອງ
+	Box Color	ສີກ່ອງ
+	Box Opacity	ຄວາມທຶບແສງກ່ອງ
+	Branching	ການແຕກກິ່ງ
+	Breakout to Mono	ແຍກອອກເປັນໂມໂນ
+	Breakout to mono	ແຍກອອກເປັນໂມໂນ
+	Bright	ສະຫວ່າງ
+	Bright Air	ໂປ່ງສະຫວ່າງ
+	Bright Studio	ສະຕູດິໂອສະຫວ່າງ
+	Brightens inside a feathered circular mask	ເພີ່ມຄວາມສະຫວ່າງພາຍໃນໜ້າກາກວົງມົນຂອບຟຸ້ງ
+	Brightness & Contrast	ຄວາມສະຫວ່າງ ແລະ ຄວາມຄົມຕ່າງ
+	Bring Forward	ນຳມາທາງໜ້າໜຶ່ງຊັ້ນ
+	British Stack	ຕູ້ແອມອັງກິດ
+	Broadcast	ການອອກອາກາດ
+	Browse files…	ເລືອກເບິ່ງໄຟລ໌…
+	Brush Hardness	ຄວາມແຂງຂອງແປງ
+	Brush Opacity	ຄວາມທຶບແສງຂອງແປງ
+	Brush Position	ຕຳແໜ່ງແປງ
+	Brush Spacing (secs)	ໄລຍະຫ່າງແປງ (ວິນາທີ)
+	Brush Strokes	ຮອຍແປງ
+	Bubbles	ຟອງອາກາດ
+	Bulge Smoother	ເຮັດໃຫ້ຮອຍນູນລຽບນຽນ
+	Bump Height	ຄວາມສູງຮອຍນູນ
+	Burn Alpha	ເຜົາສີອັນຟາ
+	Burn Captions Into Video	ຝັງຄຳບັນຍາຍລົງໃນວິດີໂອ
+	Burn Chroma	ເຜົາສີໂຄຣມາ
+	Burn Color	ເຜົາສີ
+	Butt cap	ປາຍຕັດຊື່
+	Butterworth	Butterworth
+	Button Editor	ຕົວແກ້ໄຂປຸ່ມ
+	Bypass	ຂ້າມຜ່ານ
+	Cache analysis results for re-use	ເກັບຜົນການວິເຄາະໄວ້ໃນແຄສເພື່ອໃຊ້ຄືນ
+	Callout – Pointer	ປ້າຍບອກ – ຕົວຊີ້
+	Callout – Tag	ປ້າຍບອກ – ປ້າຍກຳກັບ
+	Callouts	ປ້າຍບອກ
+	Camera 1	ກ້ອງ 1
+	Camera Angle	ມຸມກ້ອງ
+	Camera Angle Metadata	ຂໍ້ມູນມິຕິມຸມກ້ອງ
+	Camera Blur	ຄວາມມົວຂອງກ້ອງ
+	Camera Names	ຊື່ກ້ອງ
+	Camera Shake	ກ້ອງສັ່ນ
+	Camera {n} — {name}	ກ້ອງ {n} — {name}
+	Cameras shown in the Multi-Camera view (uncheck to hide).	ກ້ອງທີ່ສະແດງໃນມຸມມອງຫຼາຍກ້ອງ (ເອົາເຄື່ອງໝາຍອອກເພື່ອເຊື່ອງ).
+	Cancel Dynamic Trim	ຍົກເລີກການຕັດແຕ່ງແບບໄດນາມິກ
+	Cancel Queued Export	ຍົກເລີກການສົ່ງອອກໃນຄິວ
+	Cancelled	ຍົກເລີກແລ້ວ
+	Cannot open {dir}: {e}	ບໍ່ສາມາດເປີດ {dir}: {e}
+	Capitalisation	ຕົວພິມໃຫຍ່-ນ້ອຍ
+	Caption track options	ຕົວເລືອກແທຣັກຄຳບັນຍາຍ
+	Caption Tracks	ແທຣັກຄຳບັນຍາຍ
+	Captions	ຄຳບັນຍາຍ
+	Captions and Graphics	ຄຳບັນຍາຍ ແລະ ກຣາຟິກ
+	Captions…	ຄຳບັນຍາຍ…
+	Capture	ບັນທຶກພາບ
+	Capture Format:	ຮູບແບບການບັນທຶກພາບ:
+	Captured and Generated:	ທີ່ບັນທຶກ ແລະ ສ້າງຂຶ້ນ:
+	Captured View:	ມຸມມອງທີ່ບັນທຶກໄວ້:
+	Caribbean	ແຄຣິບບຽນ
+	Cathedral	ໂບດໃຫຍ່
+	CBR	CBR
+	CEA-608	CEA-608
+	CEA-708	CEA-708
+	Cell Pattern	ລວດລາຍເຊວ
+	Center Align Text	ຈັດຂໍ້ຄວາມຢູ່ກາງ
+	Center align text	ຈັດຂໍ້ຄວາມຢູ່ກາງ
+	Center Channel Pan	ປັບທິດທາງຊ່ອງກາງ
+	Center Gradient	ໄລ່ສີຈາກກາງ
+	Center Horizontally	ຈັດກາງຕາມລວງນອນ
+	Center Input	ສັນຍານເຂົ້າຊ່ອງກາງ
+	Center Left	ກາງຊ້າຍ
+	Center of Sphere	ຈຸດສູນກາງໜ່ວຍກົມ
+	Center Out	ຈາກກາງອອກນອກ
+	Center Point (Latitude)	ຈຸດກາງ (ເສັ້ນຂະໜານ)
+	Center Point (Longitude)	ຈຸດກາງ (ເສັ້ນແວງ)
+	Center Right	ກາງຂວາ
+	Center Split	ແຍກອອກຈາກກາງ
+	Center Vertically	ຈັດກາງຕາມລວງຕັ້ງ
+	Centred credits that roll up from below the frame and leave at the top.	ລາຍຊື່ທ້າຍເລື່ອງຈັດກາງທີ່ເລື່ອນຂຶ້ນຈາກດ້ານລຸ່ມ ແລະ ອອກໄປທາງດ້ານເທິງ.
+	Cents	ເຊັນ
+	Cerulean	ສີຟ້າເຊີຣູລຽນ
+	Ch. {n}	ຊ່ອງ {n}
+	Change Mask	ປ່ຽນໜ້າກາກ
+	Change to Color	ປ່ຽນເປັນສີ
+	Changes are copied in the background a moment after each edit. If FilmCraft quits unexpectedly, they are offered the next time it starts.	ການປ່ຽນແປງຈະຖືກສຳເນົາໄວ້ໃນພື້ນຫຼັງບໍ່ດົນຫຼັງຈາກການແກ້ໄຂແຕ່ລະຄັ້ງ. ຖ້າ FilmCraft ປິດລົງໂດຍບໍ່ຄາດຄິດ, ລະບົບຈະສະເໜີໃຫ້ກູ້ຄືນໃນຄັ້ງຕໍ່ໄປທີ່ເປີດ.
+	Channel Blur	ຄວາມມົວຂອງຊ່ອງສີ
+	Channel Format:	ຮູບແບບຊ່ອງ:
+	Channel Mix	ການປະສົມຊ່ອງ
+	Channel Volume	ລະດັບສຽງຊ່ອງ
+	Channel {n}	ຊ່ອງ {n}
+	Chaos	ຄວາມວຸ້ນວາຍ
+	Chebyshev	Chebyshev
+	Checker Wipe	ປັດຜ່ານແບບຕາໝາກຮຸກ
+	Chinese	ພາສາຈີນ
+	Choke	ຫົດເຂົ້າ
+	Chorus	ຄໍຣັສ
+	Chorus/Flanger	ຄໍຣັສ/ແຟລງເຈີ
+	Chroma	ໂຄຣມາ
+	Chroma Leak	ສີໂຄຣມາຮົ່ວ
+	Chromatic Aberration (Blue)	ຄວາມຄາດເຄື່ອນສີ (ສີຟ້າ)
+	Chromatic Aberration (Green)	ຄວາມຄາດເຄື່ອນສີ (ສີຂຽວ)
+	Chromatic Aberration (Red)	ຄວາມຄາດເຄື່ອນສີ (ສີແດງ)
+	Cinematic	ແບບຮູບເງົາ
+	Cineon Converter	ຕົວແປງ Cineon
+	Clamp Signal	ຈຳກັດຂອບເຂດສັນຍານ
+	Clean Combo	ຊຸດສຽງສະອາດ
+	Clean Up Noisy Dialogue	ທຳຄວາມສະອາດສຽງສົນທະນາທີ່ມີສຽງລົບກວນ
+	Clear (Delete)	ລ້າງ (ລຶບ)
+	Clear All Events	ລ້າງທຸກເຫດການ
+	Clear Audio Type	ລ້າງປະເພດສຽງ
+	Clear Edit Point Selection	ລ້າງການເລືອກຈຸດຕັດຕໍ່
+	Clear Finished	ລ້າງລາຍການທີ່ສຳເລັດແລ້ວ
+	Clear Finished Exports	ລ້າງການສົ່ງອອກທີ່ສຳເລັດແລ້ວ
+	Clear In	ລ້າງຈຸດເຂົ້າ
+	Clear In and Out	ລ້າງຈຸດເຂົ້າ ແລະ ຈຸດອອກ
+	Clear Markers	ລ້າງເຄື່ອງໝາຍ
+	Clear Muddiness	ລົດສຽງອູ້ອີ້
+	Clear Out	ລ້າງຈຸດອອກ
+	Clear Poster Frame	ລ້າງເຟຣມໜ້າປົກ
+	Clear Recent Directories	ລ້າງໂຟລເດີຫຼ້າສຸດ
+	Clear Recent Files	ລ້າງໄຟລ໌ຫຼ້າສຸດ
+	Clear Selected Marker	ລ້າງເຄື່ອງໝາຍທີ່ເລືອກ
+	Clear Transition	ລ້າງການປ່ຽນສາກ
+	Cleared {n} shortcut(s) of {command}	ລ້າງ {n} ປຸ່ມລັດຂອງ {command} ແລ້ວ
+	Click a command's Shortcut cell and press keys to assign it; + adds another shortcut.	ຄລິກໃສ່ຊ່ອງປຸ່ມລັດຂອງຄຳສັ່ງ ແລ້ວກົດປຸ່ມເພື່ອກຳນົດ; + ເພື່ອເພີ່ມປຸ່ມລັດອື່ນ.
+	Click a key on the keyboard to see its shortcuts	ຄລິກໃສ່ປຸ່ມເທິງແປ້ນພິມເພື່ອເບິ່ງປຸ່ມລັດຂອງມັນ
+	Click in the Program monitor to place mask points (drag for curves); click the first point or press Enter to close	ຄລິກໃນຈໍໂປຣແກຣມເພື່ອວາງຈຸດໜ້າກາກ (ລາກເພື່ອສ້າງເສັ້ນໂຄ້ງ); ຄລິກຈຸດທຳອິດ ຫຼື ກົດ Enter ເພື່ອປິດ
+	Click to select all clips to the left in all tracks. Shift-click for a single track.	ຄລິກເພື່ອເລືອກຄລິບທັງໝົດທາງຊ້າຍໃນທຸກແທຣັກ. Shift+ຄລິກ ສຳລັບແທຣັກດຽວ.
+	Click to select all clips to the right in all tracks. Shift-click for a single track.	ຄລິກເພື່ອເລືອກຄລິບທັງໝົດທາງຂວາໃນທຸກແທຣັກ. Shift+ຄລິກ ສຳລັບແທຣັກດຽວ.
+	Click to select, or click in empty space and drag to marquee select. Use Shift, Alt, and Ctrl for other options.	ຄລິກເພື່ອເລືອກ ຫຼື ຄລິກໃນພື້ນທີ່ຫວ່າງແລ້ວລາກເພື່ອລ້ອມເລືອກ. ໃຊ້ Shift, Alt ແລະ Ctrl ສຳລັບຕົວເລືອກອື່ນ.
+	Click to select, or click in empty space and drag to marquee select. Use Shift, Opt, and Cmd for other options.	ຄລິກເພື່ອເລືອກ ຫຼື ຄລິກໃນພື້ນທີ່ຫວ່າງແລ້ວລາກເພື່ອລ້ອມເລືອກ. ໃຊ້ Shift, Opt ແລະ Cmd ສຳລັບຕົວເລືອກອື່ນ.
+	Click to split a clip. Shift-click to split all tracks.	ຄລິກເພື່ອແບ່ງຄລິບ. Shift+ຄລິກ ເພື່ອແບ່ງທຸກແທຣັກ.
+	Click to zoom in; Alt-click to zoom out.	ຄລິກເພື່ອຊູມເຂົ້າ; Alt+ຄລິກ ເພື່ອຊູມອອກ.
+	Click to zoom in; Opt-click to zoom out.	ຄລິກເພື່ອຊູມເຂົ້າ; Opt+ຄລິກ ເພື່ອຊູມອອກ.
+	Client	ລູກຄ້າ
+	Clip	ຄລິບ
+	Clip Channel Format:	ຮູບແບບຊ່ອງຂອງຄລິບ:
+	Clip Fx Editor	ຕົວແກ້ໄຂເອັບເຟັກຄລິບ
+	Clip ID (fingerprint)	ID ຄລິບ (ລາຍນິ້ວມື)
+	Clip Keyframes	ເຟຣມຫຼັກຂອງຄລິບ
+	Clip Level	ລະດັບຄລິບ
+	Clip Marker	ເຄື່ອງໝາຍຄລິບ
+	Clip Name	ຊື່ຄລິບ
+	Clip Name:	ຊື່ຄລິບ:
+	Clip Names	ຊື່ຄລິບ
+	Clip Names and Markers	ຊື່ຄລິບ ແລະ ເຄື່ອງໝາຍ
+	Clip Overlap:	ການຊ້ອນທັບຂອງຄລິບ:
+	Clip Size	ຂະໜາດຄລິບ
+	Clip Speed / Duration	ຄວາມໄວ / ໄລຍະເວລາຄລິບ
+	Clip Volume	ລະດັບສຽງຄລິບ
+	Clip {n}	ຄລິບ {n}
+	Clip: {name}	ຄລິບ: {name}
+	Clipping	ສຽງແຕກເກີນຂອບ
+	Clips	ຄລິບ
+	Clock Wipe	ປັດຜ່ານແບບໂມງ
+	Clock Wipe (Legacy)	ປັດຜ່ານແບບໂມງ (ແບບເກົ່າ)
+	Clockwise	ຕາມເຂັມໂມງ
+	Close All Other Projects	ປິດໂຄງການອື່ນທັງໝົດ
+	Close All Projects	ປິດທຸກໂຄງການ
+	Close Bin	ປິດກ່ອງເກັບ
+	Close Gap	ປິດຊ່ອງຫວ່າງ
+	Close Other Timeline Panels	ປິດແຜງໄທມ໌ໄລນ໌ອື່ນໆ
+	Close Project	ປິດໂຄງການ
+	Close Sequence	ປິດລຳດັບ
+	Closed Captions	ຄຳບັນຍາຍປິດ
+	Codec:	ຕົວລະຫັດ:
+	Codec: {codec}	ຕົວລະຫັດ: {codec}
+	Cold Mono	ໂມໂນໂທນເຢັນ
+	Collect Files and Copy to New Location	ລວບລວມໄຟລ໌ ແລະ ສຳເນົາໄປຕຳແໜ່ງໃໝ່
+	Color & Alpha	ສີ ແລະ ອັນຟາ
+	Color 1	ສີ 1
+	Color 2	ສີ 2
+	Color 3	ສີ 3
+	Color 4	ສີ 4
+	Color Burn	ເຜົາໄໝ້ສີ
+	Color Channel	ຊ່ອງສີ
+	Color Correction	ການແກ້ໄຂສີ
+	Color Distortion	ການບິດເບືອນສີ
+	Color Dodge	ເຮັດໃຫ້ສີສະຫວ່າງຂຶ້ນ
+	Color Emboss	ພາບນູນສີ
+	Color Key	ຕັດສີພື້ນຫຼັງ
+	Color Management · {n} item	ການຈັດການສີ · {n} ລາຍການ
+	Color Management · {n} items	ການຈັດການສີ · {n} ລາຍການ
+	Color Management…	ການຈັດການສີ…
+	Color Match	ການທຽບສີ
+	Color Matte Color	ສີຂອງແຜ່ນສີພື້ນ
+	Color Matte…	ແຜ່ນສີພື້ນ…
+	Color Pass	ເກັບໄວ້ສະເພາະສີ
+	Color Replace	ແທນທີ່ສີ
+	Color Theme	ຮູບແບບສີ
+	Color To Leave	ສີທີ່ຈະເກັບໄວ້
+	Color Tolerance	ຄວາມຄາດເຄື່ອນສີ
+	Color Wheels & Match	ວົງລໍ້ສີ ແລະ ການທຽບສີ
+	Color/Black	ສີ/ສີດຳ
+	Color/Gray	ສີ/ສີເທົາ
+	Colour Space	ຂອບເຂດສີ
+	Column order	ລຳດັບຖັນ
+	Comments:	ຄຳເຫັນ:
+	Comparison View	ມຸມມອງປຽບທຽບ
+	Complexity	ຄວາມຊັບຊ້ອນ
+	Composite In Back	ຊ້ອນພາບທາງຫຼັງ
+	Composite In Front	ຊ້ອນພາບທາງໜ້າ
+	Composite in Linear Color	ຊ້ອນພາບໃນສີເຊີງເສັ້ນ
+	Composite on Original	ຊ້ອນເທິງພາບຕົ້ນສະບັບ
+	Composite on the GPU when available	ຊ້ອນພາບເທິງ GPU ເມື່ອໃຊ້ງານໄດ້
+	Composite Using	ຊ້ອນພາບໂດຍໃຊ້
+	Composite Video	ວິດີໂອຄອມໂພຊິດ
+	Compound Blur	ຄວາມມົວແບບປະສົມ
+	Compression Before Clipping	ການບີບອັດກ່ອນສຽງແຕກ
+	Compressor	ຕົວບີບອັດສຽງ
+	Configure…	ກຳນົດຄ່າ…
+	Conflict: {key} is assigned to {commands} ({ctx})	ຂໍ້ຂັດແຍ່ງ: {key} ຖືກກຳນົດໃຫ້ {commands} ({ctx})
+	Consolidate and Transcode	ລວມໄຟລ໌ ແລະ ແປງລະຫັດ
+	Consolidate Duplicates	ລວມລາຍການຊ້ຳກັນ
+	Constant Gain	ເກນຄົງທີ່
+	Constant Power	ກຳລັງຄົງທີ່
+	Containers	ຕົວບັນຈຸໄຟລ໌
+	Contains:	ມີຄຳວ່າ:
+	Continuous	ຕໍ່ເນື່ອງ
+	Continuous Bezier	ເບຊີເອຕໍ່ເນື່ອງ
+	Conversion Type	ປະເພດການແປງ
+	Convert to Master Clip	ແປງເປັນຄລິບຫຼັກ
+	Convolution Reverb	ສຽງສະທ້ອນແບບຄອນໂວລູຊັນ
+	Cool Blue	ສີຟ້າເຢັນ
+	Cool, desaturated and punchy	ໂທນເຢັນ, ສີຈາງ ແລະ ຄົມເຂັ້ມ
+	Copy and Create Proxies	ສຳເນົາ ແລະ ສ້າງພຣັອກຊີ
+	Copy Paste Includes Sequence Markers	ການສຳເນົາ ແລະ ວາງລວມເອົາເຄື່ອງໝາຍລຳດັບນຳ
+	Core Width	ຄວາມກວ້າງແກນກາງ
+	Corner	ມຸມ
+	Corner Pin	ປັກໝຸດມຸມ
+	Corner Radius	ລັດສະໝີມຸມ
+	Count	ຈຳນວນ
+	Countdown Sound Cues	ສຽງສັນຍານນັບຖອຍຫຼັງ
+	Counter-clockwise	ທວນເຂັມໂມງ
+	Crash Recovery	ການກູ້ຄືນຫຼັງໂປຣແກຣມຂັດຂ້ອງ
+	Crawl Left	ແລ່ນຊ້າຍ
+	Crawl Right	ແລ່ນຂວາ
+	Create 4-point polygon mask	ສ້າງໜ້າກາກຫຼາຍຫຼ່ຽມ 4 ຈຸດ
+	Create a bin of subclips from each detected cut point	ສ້າງກ່ອງເກັບຄລິບຍ່ອຍຈາກແຕ່ລະຈຸດຕັດທີ່ກວດພົບ
+	Create a caption track or import a caption file.	ສ້າງແທຣັກຄຳບັນຍາຍ ຫຼື ນຳເຂົ້າໄຟລ໌ຄຳບັນຍາຍ.
+	Create a clip marker at each detected cut point	ສ້າງເຄື່ອງໝາຍຄລິບທີ່ແຕ່ລະຈຸດຕັດທີ່ກວດພົບ
+	Create captions	ສ້າງຄຳບັນຍາຍ
+	Create Captions from Transcript…	ສ້າງຄຳບັນຍາຍຈາກບົດຖອດສຽງ…
+	Create ellipse mask	ສ້າງໜ້າກາກວົງຮີ
+	Create Folder For Imported Projects	ສ້າງໂຟລເດີສຳລັບໂຄງການທີ່ນຳເຂົ້າ
+	Create folder for imported projects	ສ້າງໂຟລເດີສຳລັບໂຄງການທີ່ນຳເຂົ້າ
+	Create Multi-Camera Source Sequence	ສ້າງລຳດັບຕົ້ນສະບັບຫຼາຍກ້ອງ
+	Create Multi-Camera Source Sequence…	ສ້າງລຳດັບຕົ້ນສະບັບຫຼາຍກ້ອງ…
+	Create new caption track	ສ້າງແທຣັກຄຳບັນຍາຍໃໝ່
+	Create new graphic	ສ້າງກຣາຟິກໃໝ່
+	Create Proxies	ສ້າງພຣັອກຊີ
+	Create Proxies…	ສ້າງພຣັອກຊີ…
+	Create Search Bin	ສ້າງກ່ອງເກັບການຄົ້ນຫາ
+	Create Sidecar File	ສ້າງໄຟລ໌ຄຽງຄູ່
+	Creating {n} proxy file(s)…	ກຳລັງສ້າງໄຟລ໌ພຣັອກຊີ {n} ໄຟລ໌…
+	Creative	ສ້າງສັນ
+	Creator	ຜູ້ສ້າງ
+	Credits	ລາຍຊື່ທ້າຍເລື່ອງ
+	Credits – Roll	ລາຍຊື່ທ້າຍເລື່ອງ – ເລື່ອນຂຶ້ນ
+	CRF (constant quality)	CRF (ຄຸນນະພາບຄົງທີ່)
+	Crop	ຕັດຂອບ
+	Crop Less <-> Smooth More	ຕັດຂອບໜ້ອຍລົງ <-> ລຽບຂຶ້ນ
+	Cross Displacement	ການເລື່ອນພາບຂ້າມ
+	Cross Dissolve	ຈາງຊ້ອນຂ້າມສາກ
+	Cross Dissolve (Legacy)	ຈາງຊ້ອນຂ້າມສາກ (ແບບເກົ່າ)
+	Cross Processed	ລ້າງຟິມຂ້າມນ້ຳຢາ
+	Cross Zoom	ຊູມຂ້າມສາກ
+	Cross Zoom (Legacy)	ຊູມຂ້າມສາກ (ແບບເກົ່າ)
+	Crossfade	ຈາງສຽງຂ້າມ
+	Crossovers	ຈຸດແບ່ງຄວາມຖີ່
+	Crystallize	ເຮັດເປັນຜລຶກ
+	Crystals	ຜລຶກ
+	Cube Spin	ໝຸນລູກບາດ
+	Curl Radius	ລັດສະໝີການມ້ວນ
+	Current duration {seconds} s	ໄລຍະເວລາປັດຈຸບັນ {seconds} ວິນາທີ
+	Currently: {loc} — {files} file(s), {size}	ປັດຈຸບັນ: {loc} — {files} ໄຟລ໌, {size}
+	Cursor	ເຄີເຊີ
+	Custom ({n} points)	ກຳນົດເອງ ({n} ຈຸດ)
+	Custom ({ratio})	ກຳນົດເອງ ({ratio})
+	Custom Color	ສີກຳນົດເອງ
+	Custom Setup	ການຕັ້ງຄ່າກຳນົດເອງ
+	Cut to Camera 1	ຕັດໄປກ້ອງ 1
+	Cut to Camera 2	ຕັດໄປກ້ອງ 2
+	Cut to Camera 3	ຕັດໄປກ້ອງ 3
+	Cut to Camera 4	ຕັດໄປກ້ອງ 4
+	Cut to Camera 5	ຕັດໄປກ້ອງ 5
+	Cut to Camera 6	ຕັດໄປກ້ອງ 6
+	Cut to Camera 7	ຕັດໄປກ້ອງ 7
+	Cut to Camera 8	ຕັດໄປກ້ອງ 8
+	Cut to Camera 9	ຕັດໄປກ້ອງ 9
+	Cutoff	ຈຸດຕັດຄວາມຖີ່
+	Cyan-teal shadows and warm highlights with a little more contrast	ເງົາມືດສີຟ້າອົມຂຽວ ແລະ ສ່ວນສະຫວ່າງໂທນອຸ່ນພ້ອມຄວາມຄົມຕ່າງເພີ່ມເລັກນ້ອຍ
+	Cycle (in Revolutions)	ຮອບ (ເປັນຈຳນວນຮອບ)
+	Cycle Evolution	ວິວັດທະນາການເປັນຮອບ
+	D1/DV NTSC (0.9091)	D1/DV NTSC (0.9091)
+	D1/DV PAL (1.0940)	D1/DV PAL (1.0940)
+	Damping	ການໜ່ວງ
+	Damping HF	ການໜ່ວງຄວາມຖີ່ສູງ
+	Damping LF	ການໜ່ວງຄວາມຖີ່ຕ່ຳ
+	Darken	ເຮັດໃຫ້ມືດລົງ
+	Darkens outside a feathered oval mask	ເຮັດໃຫ້ດ້ານນອກໜ້າກາກວົງຮີຂອບຟຸ້ງມືດລົງ
+	Darker Color	ສີເຂັ້ມກວ່າ
+	Darkest	ມືດທີ່ສຸດ
+	Date Modified	ວັນທີແກ້ໄຂ
+	Day for night: darker, cooler and less saturated	ຖ່າຍກາງເວັນໃຫ້ເປັນກາງຄືນ: ມືດລົງ, ເຢັນຂຶ້ນ ແລະ ສີຈາງລົງ
+	days	ມື້
+	Decay	ການຈາງຫາຍ
+	Decay Time (RT60)	ເວລາຈາງຫາຍ (RT60)
+	Decoded frames held for the monitors and thumbnails: {used} of {budget}.	ເຟຣມທີ່ຖອດລະຫັດແລ້ວເກັບໄວ້ສຳລັບຈໍພາບ ແລະ ພາບຫຍໍ້: {used} ຈາກ {budget}.
+	Decoders	ຕົວຖອດລະຫັດ
+	Decrease Audio Tracks Height	ຫຼຸດຄວາມສູງແທຣັກສຽງ
+	Decrease Clip Volume	ຫຼຸດລະດັບສຽງຄລິບ
+	Decrease Clip Volume Many	ຫຼຸດລະດັບສຽງຄລິບຫຼາຍໆ
+	Decrease Font Size by Five Units	ຫຼຸດຂະໜາດຕົວອັກສອນລົງຫ້າໜ່ວຍ
+	Decrease Font Size by One Unit	ຫຼຸດຂະໜາດຕົວອັກສອນລົງໜຶ່ງໜ່ວຍ
+	Decrease Leading by Five Units	ຫຼຸດໄລຍະຫ່າງແຖວລົງຫ້າໜ່ວຍ
+	Decrease Leading by One Unit	ຫຼຸດໄລຍະຫ່າງແຖວລົງໜຶ່ງໜ່ວຍ
+	Decrease Video Tracks Height	ຫຼຸດຄວາມສູງແທຣັກວິດີໂອ
+	DeEss	ລົດສຽງສຽດແຫຼມ
+	DeEsser	ຕົວລົດສຽງສຽດແຫຼມ
+	Default Audio Tracks	ແທຣັກສຽງເລີ່ມຕົ້ນ
+	Default clip size:	ຂະໜາດຄລິບເລີ່ມຕົ້ນ:
+	Default closed caption font	ຕົວອັກສອນເລີ່ມຕົ້ນຂອງຄຳບັນຍາຍປິດ
+	Default Emoji font	ຕົວອັກສອນອີໂມຈິເລີ່ມຕົ້ນ
+	Default Input	ສັນຍານເຂົ້າເລີ່ມຕົ້ນ
+	Default language	ພາສາເລີ່ມຕົ້ນ
+	Default location	ຕຳແໜ່ງເລີ່ມຕົ້ນ
+	Default Media Scaling	ການປັບຂະໜາດສື່ເລີ່ມຕົ້ນ
+	Default Output	ສັນຍານອອກເລີ່ມຕົ້ນ
+	Default paragraph direction	ທິດທາງຫຍໍ້ໜ້າເລີ່ມຕົ້ນ
+	Default subtitle and text font	ຕົວອັກສອນເລີ່ມຕົ້ນຂອງຄຳບັນຍາຍ ແລະ ຂໍ້ຄວາມ
+	DeHum	ລົດສຽງຮຳ
+	DeHummer	ຕົວລົດສຽງຮຳ
+	Delay	ດີເລ
+	Delay 1	ດີເລ 1
+	Delay 2	ດີເລ 2
+	Delay 3	ດີເລ 3
+	Delay 4	ດີເລ 4
+	Delay and Echo	ດີເລ ແລະ ສຽງກ້ອງ
+	Delete Arrangement	ລຶບການຈັດວາງ
+	Delete Audio Tracks	ລຶບແທຣັກສຽງ
+	Delete Caption Track	ລຶບແທຣັກຄຳບັນຍາຍ
+	Delete Caption Tracks	ລຶບແທຣັກຄຳບັນຍາຍ
+	Delete Captions	ລຶບຄຳບັນຍາຍ
+	Delete Empty Caption Tracks	ລຶບແທຣັກຄຳບັນຍາຍທີ່ຫວ່າງ
+	Delete files older than	ລຶບໄຟລ໌ທີ່ເກົ່າກວ່າ
+	Delete Graphic Layer	ລຶບຊັ້ນກຣາຟິກ
+	Delete Guide Template	ລຶບແມ່ແບບເສັ້ນແນວທາງ
+	Delete Media Cache Files	ລຶບໄຟລ໌ແຄສສື່
+	Delete oldest files when the cache exceeds	ລຶບໄຟລ໌ທີ່ເກົ່າທີ່ສຸດເມື່ອແຄສເກີນ
+	Delete Preset	ລຶບຄ່າຕັ້ງລ່ວງໜ້າ
+	Delete Render Files	ລຶບໄຟລ໌ເຣັນເດີ
+	Delete Render Files In to Out	ລຶບໄຟລ໌ເຣັນເດີແຕ່ຈຸດເຂົ້າຫາຈຸດອອກ
+	Delete Search Bin	ລຶບກ່ອງເກັບການຄົ້ນຫາ
+	Delete selected captions	ລຶບຄຳບັນຍາຍທີ່ເລືອກ
+	Delete this preset	ລຶບຄ່າຕັ້ງລ່ວງໜ້ານີ້
+	Delete Tracks	ລຶບແທຣັກ
+	Delete Tracks…	ລຶບແທຣັກ…
+	Delete Transcript	ລຶບບົດຖອດສຽງ
+	Delete Video Tracks	ລຶບແທຣັກວິດີໂອ
+	Deleted preset “{active}”	ລຶບຄ່າຕັ້ງລ່ວງໜ້າ “{active}” ແລ້ວ
+	Deleted {n} file(s), {size}.	ລຶບ {n} ໄຟລ໌ແລ້ວ, {size}.
+	Demo Footage	ວິດີໂອຕົວຢ່າງ
+	Demo footage	ວິດີໂອຕົວຢ່າງ
+	Demo Project	ໂຄງການຕົວຢ່າງ
+	Demo project	ໂຄງການຕົວຢ່າງ
+	DeNoise	ລົດສຽງລົບກວນ
+	Denoise	ລົດສຽງລົບກວນ
+	DeReverb	ລົດສຽງສະທ້ອນ
+	Deselect All Project Items	ຍົກເລີກການເລືອກລາຍການໂຄງການທັງໝົດ
+	Destination Path	ເສັ້ນທາງປາຍທາງ
+	Destination:	ປາຍທາງ:
+	Destinations	ປາຍທາງ
+	Detach Proxies	ຖອດພຣັອກຊີອອກ
+	Detail Amplitude	ຄວາມແຮງລາຍລະອຽດ
+	Detail Level	ລະດັບລາຍລະອຽດ
+	Detailed Analysis	ການວິເຄາະລະອຽດ
+	Details: {path}	ລາຍລະອຽດ: {path}
+	Device Class	ປະເພດອຸປະກອນ
+	Dialogue	ບົດສົນທະນາ
+	Dimmed	ມົວລົງ
+	Dip to Black	ຈາງລົງສູ່ສີດຳ
+	Dip to Black (Legacy)	ຈາງລົງສູ່ສີດຳ (ແບບເກົ່າ)
+	Dip to Color	ຈາງລົງສູ່ສີ
+	Dip to White	ຈາງລົງສູ່ສີຂາວ
+	Dip to White (Legacy)	ຈາງລົງສູ່ສີຂາວ (ແບບເກົ່າ)
+	Directional	ມີທິດທາງ
+	Directional Blur	ມົວຕາມທິດທາງ
+	Directional Blur (Legacy)	ມົວຕາມທິດທາງ (ແບບເກົ່າ)
+	DirectX 12 only	DirectX 12 ເທົ່ານັ້ນ
+	Disable video output when in the background	ປິດການສົ່ງພາບອອກເມື່ອຢູ່ໃນພື້ນຫຼັງ
+	Disabled clips	ຄລິບທີ່ປິດໃຊ້ງານ
+	Discard take	ຖິ້ມເທັກນີ້
+	Discard Unsaved Changes	ຍົກເລີກການປ່ຽນແປງທີ່ຍັງບໍ່ໄດ້ບັນທຶກ
+	Disk space: original {original} · resulting {result} ({n} files)	ພື້ນທີ່ດິສກ໌: ຕົ້ນສະບັບ {original} · ຜົນລັບ {result} ({n} ໄຟລ໌)
+	Disk space: —	ພື້ນທີ່ດິສກ໌: —
+	Disperse	ກະຈາຍອອກ
+	Displacement	ການເລື່ອນຕຳແໜ່ງ
+	Display Color Management	ການຈັດການສີໜ້າຈໍ
+	Display Color Settings	ການຕັ້ງຄ່າສີໜ້າຈໍ
+	Display Format:	ຮູບແບບການສະແດງຜົນ:
+	Display Mode	ໂໝດການສະແດງຜົນ
+	Display out of sync indicators for unlinked clips	ສະແດງຕົວບອກຄວາມບໍ່ກົງຈັງຫວະສຳລັບຄລິບທີ່ແຍກອອກຈາກກັນ
+	Dissolve	ຈາງຊ້ອນ
+	Dissolve Blocks	ບລັອກຈາງຊ້ອນ
+	Distance to Image	ໄລຍະຫ່າງຫາພາບ
+	Distort	ບິດເບືອນ
+	Distortion Complexity	ຄວາມຊັບຊ້ອນການບິດເບືອນ
+	Distortion Rate	ອັດຕາການບິດເບືອນ
+	Distortion Type	ປະເພດການບິດເບືອນ
+	Distribute Horizontally	ກະຈາຍຕາມລວງນອນ
+	Distribute Space Horizontally	ກະຈາຍໄລຍະຫ່າງຕາມລວງນອນ
+	Distribute Space Vertically	ກະຈາຍໄລຍະຫ່າງຕາມລວງຕັ້ງ
+	Distribute Vertically	ກະຈາຍຕາມລວງຕັ້ງ
+	Divide	ຫານ
+	Do not delete cache files automatically	ບໍ່ຕ້ອງລຶບໄຟລ໌ແຄສອັດຕະໂນມັດ
+	Does Not Contain	ບໍ່ມີຄຳວ່າ
+	Don't label speakers	ບໍ່ຕ້ອງໃສ່ຊື່ຜູ້ເວົ້າ
+	Done	ສຳເລັດແລ້ວ
+	Dot Color	ສີຈຸດ
+	Double-click a sequence in the Project panel to open it here.	ຄລິກສອງເທື່ອໃສ່ລຳດັບໃນແຜງໂຄງການເພື່ອເປີດຢູ່ບ່ອນນີ້.
+	Download Speech Model	ດາວໂຫຼດໂມເດວສຽງເວົ້າ
+	Draft decoding at reduced playback resolution (H.264: faster, some frames less filtered)	ຖອດລະຫັດແບບຮ່າງທີ່ຄວາມລະອຽດຕ່ຳລົງ (H.264: ໄວຂຶ້ນ, ບາງເຟຣມກອງໜ້ອຍລົງ)
+	Drag a clip to slide it between its neighbours.	ລາກຄລິບເພື່ອເລື່ອນໄປມາລະຫວ່າງຄລິບຂ້າງຄຽງ.
+	Drag a clip to slip its source in/out without moving it.	ລາກຄລິບເພື່ອເລື່ອນຈຸດເຂົ້າ/ອອກຂອງຕົ້ນສະບັບໂດຍບໍ່ຍ້າຍຄລິບ.
+	Drag an edge to change the clip's speed so it fills the new duration.	ລາກຂອບເພື່ອປ່ຽນຄວາມໄວຂອງຄລິບໃຫ້ພໍດີກັບໄລຍະເວລາໃໝ່.
+	Drag an edit point to ripple trim; later clips move to keep the gap closed.	ລາກຈຸດຕັດຕໍ່ເພື່ອຕັດແຕ່ງແບບເລື່ອນຕິດ; ຄລິບຖັດໄປຈະຍ້າຍຕາມເພື່ອບໍ່ໃຫ້ມີຊ່ອງຫວ່າງ.
+	Drag an edit point to roll it: the out of one clip and the in of the next move together.	ລາກຈຸດຕັດຕໍ່ເພື່ອຕັດແຕ່ງແບບເລື່ອນຮ່ວມ: ຈຸດອອກຂອງຄລິບໜຶ່ງ ແລະ ຈຸດເຂົ້າຂອງຄລິບຖັດໄປຈະຍ້າຍພ້ອມກັນ.
+	Drag inward to round the corners	ລາກເຂົ້າດ້ານໃນເພື່ອເຮັດມຸມມົນ
+	Drag the edge of a music clip to remix it to the new duration at musically matching beats.	ລາກຂອບຂອງຄລິບດົນຕີເພື່ອຣີມິກຊ໌ໃຫ້ໄດ້ຄວາມຍາວໃໝ່ຕາມຈັງຫວະດົນຕີທີ່ເຂົ້າກັນ.
+	Drag to scroll the timeline.	ລາກເພື່ອເລື່ອນໄທມ໌ໄລນ໌.
+	Drag: move · Alt-click: smooth/corner · Cmd-click: delete	ລາກ: ຍ້າຍ · Alt+ຄລິກ: ມົນ/ມຸມ · Cmd+ຄລິກ: ລຶບ
+	Drag: move · Alt-click: smooth/corner · Ctrl-click: delete	ລາກ: ຍ້າຍ · Alt+ຄລິກ: ມົນ/ມຸມ · Ctrl+ຄລິກ: ລຶບ
+	Drive	ຄວາມອີ່ມອະນາລັອກ
+	Dry	ສຽງແຫ້ງ
+	Dry Out	ສຽງແຫ້ງອອກ
+	Dry Up a Roomy Voice	ຫຼຸດສຽງກ້ອງຫ້ອງຂອງສຽງເວົ້າ
+	Duck against:	ຫຼຸດສຽງຕາມ:
+	Duck Deep Under Dialogue	ຫຼຸດສຽງລົງຫຼາຍພາຍໃຕ້ບົດສົນທະນາ
+	Duck Under Dialogue	ຫຼຸດສຽງພາຍໃຕ້ບົດສົນທະນາ
+	Duck Under Voice and Effects	ຫຼຸດສຽງພາຍໃຕ້ສຽງເວົ້າ ແລະ ເອັບເຟັກ
+	Ducking	ການຫຼຸດສຽງອັດຕະໂນມັດ
+	Duration:	ໄລຍະເວລາ:
+	DVCPRO HD (1.5)	DVCPRO HD (1.5)
+	Dynamic Audio Waveforms	ຄື້ນສຽງແບບໄດນາມິກ
+	Dynamic Link	Dynamic Link
+	Dynamic Trim Stop	ຢຸດການຕັດແຕ່ງແບບໄດນາມິກ
+	Dynamics Processing	ການປະມວນຜົນໄດນາມິກ
+	Early Reflections	ສຽງສະທ້ອນທຳອິດ
+	Earthquake	ແຜ່ນດິນໄຫວ
+	Ease In	ຜ່ອນເຂົ້າ
+	Ease In and Out	ຜ່ອນເຂົ້າ ແລະ ອອກ
+	Ease Out	ຜ່ອນອອກ
+	Easing	ການຜ່ອນຈັງຫວະ
+	Echo	ສຽງກ້ອງ
+	Echo Glow	ແສງເຮືອງສຽງກ້ອງ
+	Echo Operator	ຕົວປະຕິບັດການສຽງກ້ອງ
+	Echo Time (seconds)	ເວລາສຽງກ້ອງ (ວິນາທີ)
+	Echoes	ສຽງກ້ອງ
+	Edge Color	ສີຂອບ
+	Edge Feather	ຂອບຟຸ້ງດ້ານຂ້າງ
+	Edge Glow	ແສງເຮືອງຂອບ
+	Edge Sharpness	ຄວາມຄົມຂອງຂອບ
+	Edge Softness	ຄວາມນຸ້ມຂອງຂອບ
+	Edge Thickness	ຄວາມໜາຂອງຂອບ
+	Edge Thin	ເຮັດຂອບບາງລົງ
+	Edge Threshold	ຂີດແບ່ງຂອບ
+	Edge Type	ປະເພດຂອບ
+	Edit Cameras	ແກ້ໄຂກ້ອງ
+	Edit Cameras…	ແກ້ໄຂກ້ອງ…
+	Edit Caption Text	ແກ້ໄຂຂໍ້ຄວາມຄຳບັນຍາຍ
+	Edit Columns	ແກ້ໄຂຖັນ
+	Edit Columns…	ແກ້ໄຂຖັນ…
+	Edit Narration	ແກ້ໄຂສຽງບັນຍາຍ
+	Edit Offline File	ແກ້ໄຂໄຟລ໌ອອຟໄລນ໌
+	Edit Offline…	ແກ້ໄຂແບບອອຟໄລນ໌…
+	Edit Original	ແກ້ໄຂຕົ້ນສະບັບ
+	Edit Project Notes	ແກ້ໄຂບັນທຶກໂຄງການ
+	Edit Subclip	ແກ້ໄຂຄລິບຍ່ອຍ
+	Edit Subclip…	ແກ້ໄຂຄລິບຍ່ອຍ…
+	Edit Workspaces	ແກ້ໄຂພື້ນທີ່ເຮັດວຽກ
+	Edit Workspaces…	ແກ້ໄຂພື້ນທີ່ເຮັດວຽກ…
+	Editable properties:	ຄຸນສົມບັດທີ່ແກ້ໄຂໄດ້:
+	Editing	ການຕັດຕໍ່
+	Editing Mode:	ໂໝດການຕັດຕໍ່:
+	EDL…	EDL…
+	Effect Controls	ການຄວບຄຸມເອັບເຟັກ
+	Effect presets	ຄ່າຕັ້ງລ່ວງໜ້າເອັບເຟັກ
+	Elliptical	ຮູບວົງຮີ
+	Emboss	ພາບນູນ
+	Empty tracks	ແທຣັກຫວ່າງ
+	Enable clip and XMP metadata linking	ເປີດໃຊ້ການເຊື່ອມໂຍງຂໍ້ມູນມິຕິຄລິບ ແລະ XMP
+	Enable developer mode	ເປີດໃຊ້ໂໝດນັກພັດທະນາ
+	Enable hardware accelerated decoding (requires restart)	ເປີດໃຊ້ການຖອດລະຫັດເລັ່ງຄວາມໄວດ້ວຍຮາດແວ (ຕ້ອງເປີດໂປຣແກຣມໃໝ່)
+	Enable HSL Secondary	ເປີດໃຊ້ HSL ຮອງ
+	Enable language auto-detection	ເປີດໃຊ້ການກວດຈັບພາສາອັດຕະໂນມັດ
+	Enable Mercury Transmit	ເປີດໃຊ້ Mercury Transmit
+	Enable ProRes hardware accelerated encoding, if available	ເປີດໃຊ້ການເຂົ້າລະຫັດ ProRes ເລັ່ງຄວາມໄວດ້ວຍຮາດແວ ຖ້າມີ
+	Enable proxies	ເປີດໃຊ້ພຣັອກຊີ
+	Enable Remix	ເປີດໃຊ້ Remix
+	Enable track for recording	ເປີດແທຣັກສຳລັບການບັນທຶກສຽງ
+	Encapsulate	ຫຸ້ມຫໍ່
+	Encoder	ຕົວເຂົ້າລະຫັດ
+	Encoding {n}%	ກຳລັງເຂົ້າລະຫັດ {n}%
+	End Color	ສີສຸດທ້າຍ
+	End Credits	ລາຍຊື່ທ້າຍເລື່ອງ
+	End Credits – Roll	ລາຍຊື່ທ້າຍເລື່ອງ – ເລື່ອນຂຶ້ນ
+	End of Ramp	ຈຸດສິ້ນສຸດການໄລ່ລະດັບ
+	End Off Screen	ຈົບນອກໜ້າຈໍ
+	End Point	ຈຸດສິ້ນສຸດ
+	End:	ສິ້ນສຸດ:
+	Ends With	ລົງທ້າຍດ້ວຍ
+	Enhance Speech	ປັບປຸງຄຸນນະພາບສຽງເວົ້າ
+	Entire Source	ທັງໝົດຕົ້ນສະບັບ
+	Enumerate Cameras	ໃສ່ເລກລຳດັບກ້ອງ
+	EQ	ອີຄວອໄລເຊີ
+	Errors Only	ສະເພາະຂໍ້ຜິດພາດ
+	Essential Graphics	ກຣາຟິກສຳຄັນ
+	Essential Sound	ສຽງສຳຄັນ
+	EssentialSound	ສຽງສຳຄັນ
+	Estimated file size: {size}	ຂະໜາດໄຟລ໌ໂດຍປະມານ: {size}
+	Events	ເຫດການ
+	Evolution	ວິວັດທະນາການ
+	Evolution Options	ຕົວເລືອກວິວັດທະນາການ
+	Exact name matches only	ກົງກັບຊື່ທຸກຕົວອັກສອນເທົ່ານັ້ນ
+	Exciter Amount	ປະລິມານຕົວກະຕຸ້ນສຽງ
+	Exciter Mode	ໂໝດຕົວກະຕຸ້ນສຽງ
+	Exclude Unused Clips	ຍົກເວັ້ນຄລິບທີ່ບໍ່ໄດ້ໃຊ້
+	Existing XMP files written by other applications are left unchanged.	ໄຟລ໌ XMP ທີ່ມີຢູ່ແລ້ວຊຶ່ງຂຽນໂດຍແອັບພລິເຄຊັນອື່ນຈະບໍ່ຖືກປ່ຽນແປງ.
+	Exit Trim Mode	ອອກຈາກໂໝດຕັດແຕ່ງ
+	Expand All Tracks	ຂະຫຍາຍທຸກແທຣັກ
+	Expander	ຕົວຂະຫຍາຍໄດນາມິກ
+	Exponential Fade	ຈາງແບບເອັກສ໌ໂພເນັນຊຽວ
+	Export As Motion Graphics Template	ສົ່ງອອກເປັນແມ່ແບບກຣາຟິກເຄື່ອນໄຫວ
+	Export As Motion Graphics Template…	ສົ່ງອອກເປັນແມ່ແບບກຣາຟິກເຄື່ອນໄຫວ…
+	Export Audio	ສົ່ງອອກສຽງ
+	Export formats	ຮູບແບບການສົ່ງອອກ
+	Export Frame	ສົ່ງອອກເຟຣມ
+	Export Frame (Shift+E)	ສົ່ງອອກເຟຣມ (Shift+E)
+	Export Frame: use Export mode (M6)	ສົ່ງອອກເຟຣມ: ໃຊ້ໂໝດສົ່ງອອກ (M6)
+	Export Markers as CSV…	ສົ່ງອອກເຄື່ອງໝາຍເປັນ CSV…
+	Export presets	ຄ່າຕັ້ງລ່ວງໜ້າການສົ່ງອອກ
+	Export Preset…	ສົ່ງອອກຄ່າຕັ້ງລ່ວງໜ້າ…
+	Export the labels to a preset file…	ສົ່ງອອກປ້າຍຊື່ເປັນໄຟລ໌ຄ່າຕັ້ງລ່ວງໜ້າ…
+	Export: no file chosen (agents: export.presets.export {path, names})	ສົ່ງອອກ: ຍັງບໍ່ໄດ້ເລືອກໄຟລ໌ (agents: export.presets.export {path, names})
+	Export: no file chosen (agents: shortcuts.export {path})	ສົ່ງອອກ: ຍັງບໍ່ໄດ້ເລືອກໄຟລ໌ (agents: shortcuts.export {path})
+	Exported graphics template to {path}	ສົ່ງອອກແມ່ແບບກຣາຟິກໄປທີ່ {path} ແລ້ວ
+	Exported {path}	ສົ່ງອອກ {path} ແລ້ວ
+	Exporting	ກຳລັງສົ່ງອອກ
+	Exporting {path}	ກຳລັງສົ່ງອອກ {path}
+	Extend Next Edit To Playhead	ຂະຫຍາຍຈຸດຕັດຕໍ່ຖັດໄປຫາຫົວອ່ານ
+	Extend Previous Edit To Playhead	ຂະຫຍາຍຈຸດຕັດຕໍ່ກ່ອນໜ້າຫາຫົວອ່ານ
+	Extend Selected Edit to Playhead	ຂະຫຍາຍຈຸດຕັດຕໍ່ທີ່ເລືອກຫາຫົວອ່ານ
+	Extend Selection Down	ຂະຫຍາຍການເລືອກລົງລຸ່ມ
+	Extend Selection Left	ຂະຫຍາຍການເລືອກໄປທາງຊ້າຍ
+	Extend Selection Right	ຂະຫຍາຍການເລືອກໄປທາງຂວາ
+	Extend Selection Up	ຂະຫຍາຍການເລືອກຂຶ້ນເທິງ
+	Extended Dynamic Range Monitoring	ການກວດສອບພາບຊ່ວງໄດນາມິກຂະຫຍາຍ
+	Extract (')	ແຍກອອກ (')
+	Extract Audio	ແຍກສຽງອອກ
+	Extract selected text	ແຍກຂໍ້ຄວາມທີ່ເລືອກ
+	Eyedropper (pick a color from the Program monitor)	ຫຼອດດູດສີ (ເລືອກສີຈາກຈໍໂປຣແກຣມ)
+	Eyedropper: no picture to sample	ຫຼອດດູດສີ: ບໍ່ມີພາບໃຫ້ດູດສີ
+	Face Detection (protect skin tones)	ກວດຈັບໃບໜ້າ (ປົກປ້ອງໂທນສີຜິວ)
+	Fade	ຈາງ
+	Fade In	ຄ່ອຍໆປະກົດ
+	Fade Out	ຄ່ອຍໆຈາງຫາຍ
+	Faded Matte	ຜິວດ້ານສີຈາງ
+	Faded Print	ພາບພິມສີຈາງ
+	Fades	ການຈາງເຂົ້າ-ອອກ
+	Failed: {e}	ລົ້ມເຫຼວ: {e}
+	Falloff	ການຄ່ອຍໆຫຼຸດລົງ
+	Far Away	ໄກອອກໄປ
+	Faster Motion	ການເຄື່ອນໄຫວໄວຂຶ້ນ
+	Faux Bold	ຕົວໜາຈຳລອງ
+	Faux Italic	ຕົວອຽງຈຳລອງ
+	Favorites only	ສະເພາະລາຍການທີ່ມັກ
+	FCPXML…	FCPXML…
+	Feather	ຂອບຟຸ້ງ
+	Feedback	ສຽງສະທ້ອນກັບ
+	Feedback 1	ສຽງສະທ້ອນກັບ 1
+	Feedback 2	ສຽງສະທ້ອນກັບ 2
+	Feedback 3	ສຽງສະທ້ອນກັບ 3
+	Feedback 4	ສຽງສະທ້ອນກັບ 4
+	Feet + Frames 16mm	ຟຸດ + ເຟຣມ 16 ມມ
+	Feet + Frames 35mm	ຟຸດ + ເຟຣມ 35 ມມ
+	Female	ຍິງ
+	Fewer · More	ໜ້ອຍລົງ · ຫຼາຍຂຶ້ນ
+	FFT Filter	ຕົວກອງ FFT
+	Field Options	ຕົວເລືອກຟີວ
+	Field Options…	ຕົວເລືອກຟີວ…
+	Field Order	ລຳດັບຟີວ
+	File Extension	ນາມສະກຸນໄຟລ໌
+	File Name & Location	ຊື່ໄຟລ໌ ແລະ ຕຳແໜ່ງ
+	File Name:	ຊື່ໄຟລ໌:
+	File Path	ເສັ້ນທາງໄຟລ໌
+	File Types Displayed	ປະເພດໄຟລ໌ທີ່ສະແດງ
+	File…	ໄຟລ໌…
+	Fill Background	ຖົມສີພື້ນຫຼັງ
+	Fill Color	ສີຖົມ
+	Fill frame	ຖົມໃຫ້ເຕັມເຟຣມ
+	Fill Left with Right	ຖົມຂ້າງຊ້າຍດ້ວຍຂ້າງຂວາ
+	Fill Point	ຈຸດຖົມສີ
+	Fill Right with Left	ຖົມຂ້າງຂວາດ້ວຍຂ້າງຊ້າຍ
+	Fill Selector	ຕົວເລືອກການຖົມສີ
+	Fill the slots above first	ຕື່ມໃສ່ຊ່ອງດ້ານເທິງກ່ອນ
+	Fill Type	ປະເພດການຖົມສີ
+	Film Dissolve	ຈາງຊ້ອນແບບຟິມ
+	Film Dissolve (Legacy)	ຈາງຊ້ອນແບບຟິມ (ແບບເກົ່າ)
+	Film Emulation	ຈຳລອງຟິມ
+	Film Roll	ມ້ວນຟິມ
+	FilmCraft always composites in linear light	FilmCraft ຊ້ອນພາບໃນແສງເຊີງເສັ້ນສະເໝີ
+	FilmCraft Graphics Template	ແມ່ແບບກຣາຟິກ FilmCraft
+	FilmCraft Help…	ຄວາມຊ່ວຍເຫຼືອ FilmCraft…
+	FilmCraft hit an error	FilmCraft ພົບຂໍ້ຜິດພາດ
+	FilmCraft keeps the rest of the RAM free for other applications.	FilmCraft ຈະຈົ່ງ RAM ສ່ວນທີ່ເຫຼືອໄວ້ໃຫ້ແອັບພລິເຄຊັນອື່ນ.
+	FilmCraft on getartcraft.com	FilmCraft ເທິງ getartcraft.com
+	FilmCraft on GitHub	FilmCraft ເທິງ GitHub
+	FilmCraft Project	ໂຄງການ FilmCraft
+	FilmCraft quit unexpectedly while “{name}” had unsaved changes.	FilmCraft ປິດລົງໂດຍບໍ່ຄາດຄິດ ໃນຂະນະທີ່ “{name}” ມີການປ່ຽນແປງທີ່ຍັງບໍ່ໄດ້ບັນທຶກ.
+	FilmCraft was closed while “{name}” had unsaved changes.	FilmCraft ຖືກປິດລົງ ໃນຂະນະທີ່ “{name}” ມີການປ່ຽນແປງທີ່ຍັງບໍ່ໄດ້ບັນທຶກ.
+	Filter and EQ	ຕົວກອງ ແລະ ອີຄວອໄລເຊີ
+	Filter Frequency	ຄວາມຖີ່ຕົວກອງ
+	Filter Resonance	Résonance du filtre	ຄວາມກ້ອງຂອງຟິວເຕີ
+	Final Cut Pro XML…	Final Cut Pro XML…	Final Cut Pro XML…
+	Final Delay	Retard final	ຄວາມໜ່ວງສຸດທ້າຍ
+	Find Edges	Détection des contours	ກວດຈັບຂອບພາບ
+	Find in:	Rechercher dans :	ຄົ້ນຫາໃນ:
+	first marker	premier marqueur	ເຄື່ອງໝາຍທຳອິດ
+	Fit to frame	Adapter à l'image	ປັບໃຫ້ພໍດີກັບເຟຣມ
+	FLAC stores whole-number samples only	FLAC ne stocke que des échantillons entiers	FLAC ເກັບສະເພາະແຊມເປິລທີ່ເປັນຈຳນວນຖ້ວນເທົ່ານັ້ນ
+	Flanger	Flanger	ແຟລັງເຈີ
+	Flare	Reflet	ແສງຈ້າ
+	Flare Brightness	Luminosité du reflet	ຄວາມສະຫວ່າງຂອງແສງຈ້າ
+	Flare Center	Centre du reflet	ຈຸດກາງຂອງແສງຈ້າ
+	Flare Color	Couleur du reflet	ສີຂອງແສງຈ້າ
+	Flash Cue Marker	Marqueur de repère Flash	ເຄື່ອງໝາຍຄິວ Flash
+	Flicker	Scintillement	ການກະພິບ
+	Flicker Removal	Suppression du scintillement	ລຶບການກະພິບ
+	Flickers	Scintillements	ແສງກະພິບ
+	Flip Motion	Mouvement de retournement	ການເຄື່ອນໄຫວແບບປີ້ນພາບ
+	Flip Over	Retourner	ປີ້ນກັບ
+	Float	Virgule flottante	ທົດສະນິຍົມເລື່ອນ (Float)
+	Focus Blur	Flou de mise au point	ມົວຕາມຈຸດໂຟກັສ
+	Focus Point	Point de mise au point	ຈຸດໂຟກັສ
+	Focus Shape	Forme de la mise au point	ຮູບຮ່າງຂອງໂຟກັສ
+	Focus Size	Taille de la mise au point	ຂະໜາດຂອງໂຟກັສ
+	Fold Motion	Mouvement de pliage	ການເຄື່ອນໄຫວແບບພັບ
+	Foldback	Retour	ສຽງຕອບກັບ (Foldback)
+	Font family	Famille de polices	ຕະກຸນຟອນຕ໌
+	Font Style	Style de police	ຮູບແບບຟອນຕ໌
+	Fonts used in the project:	Polices utilisées dans le projet :	ຟອນຕ໌ທີ່ໃຊ້ໃນໂຄງການ:
+	For color management parameters, go to the Settings tab in the Lumetri Color panel.	Pour les paramètres de gestion des couleurs, accédez à l'onglet Paramètres du panneau Couleur Lumetri.	ສຳລັບຄ່າການຈັດການສີ, ໃຫ້ໄປທີ່ແຖບ ການຕັ້ງຄ່າ ໃນແຜງສີ Lumetri.
+	Forest	Forêt	ປ່າໄມ້
+	Format and size	Format et taille	ຮູບແບບ ແລະ ຂະໜາດ
+	Four Scopes (RGB, 8 bit)	Quatre oscilloscopes (RGB, 8 bits)	ສະໂຄບ 4 ໜ້າຈໍ (RGB, 8 ບິດ)
+	Four Scopes (YUV, float, no clamp)	Quatre oscilloscopes (YUV, virgule flottante, sans écrêtage)	ສະໂຄບ 4 ໜ້າຈໍ (YUV, float, ບໍ່ຕັດຂອບສັນຍານ)
+	Fractal Influence	Influence fractale	ອິດທິພົນແຟຣັກທັລ
+	Fractal Type	Type de fractale	ປະເພດແຟຣັກທັລ
+	Frame Blending	Fusion d'images	ການຜະສານເຟຣມ
+	Frame cache for monitors and thumbnails	Cache d'images pour les moniteurs et les vignettes	ແຄສເຟຣມສຳລັບຈໍສະແດງຜົນ ແລະ ຮູບຫຍໍ້
+	Frame Color	Couleur du cadre	ສີຂອງຂອບເຟຣມ
+	Frame Count	Nombre d'images	ຈຳນວນເຟຣມ
+	Frame Hold Options	Options d'image figée	ຕົວເລືອກການຄ້າງເຟຣມ
+	Frame Hold Options…	Options d'image figée…	ຕົວເລືອກການຄ້າງເຟຣມ…
+	Frame Layout	Disposition de l'image	ການຈັດວາງເຟຣມ
+	Frame Rate	Fréquence d'images	ອັດຕາເຟຣມ
+	Frame Rate:	Fréquence d'images :	ອັດຕາເຟຣມ:
+	Frame Sampling	Échantillonnage d'images	ການສຸ່ມຕົວຢ່າງເຟຣມ
+	Frame Size	Taille d'image	ຂະໜາດເຟຣມ
+	Frame Size / Rate	Taille/fréquence d'images	ຂະໜາດ / ອັດຕາເຟຣມ
+	Frame Size:	Taille de l'image :	ຂະໜາດເຟຣມ:
+	Frame Width	Largeur du cadre	ຄວາມກວ້າງຂອງຂອບເຟຣມ
+	Frames	Images	ເຟຣມ
+	frames	images	ເຟຣມ
+	Frames per Still:	Images par image fixe :	ຈຳນວນເຟຣມຕໍ່ພາບນິ້ງ:
+	Framing	Cadrage	ການຈັດອົງປະກອບພາບ
+	Free draw bezier	Bézier à main levée	ແຕ້ມເສັ້ນເບຊີເອແບບອິດສະຫຼະ
+	Freeform	Libre	ຮູບແບບອິດສະຫຼະ
+	Freeform View	Vue libre	ມຸມມອງແບບອິດສະຫຼະ
+	Freeform View Options	Options de la vue libre	ຕົວເລືອກມຸມມອງແບບອິດສະຫຼະ
+	Freeform View Options…	Options de la vue libre…	ຕົວເລືອກມຸມມອງແບບອິດສະຫຼະ…
+	From Bin	Depuis le chutier	ຈາກແຟ້ມສື່
+	From East	Depuis l'est	ຈາກທິດຕາເວັນອອກ
+	From file…	Depuis un fichier…	ຈາກໄຟລ໌…
+	From North	Depuis le nord	ຈາກທິດເໜືອ
+	From Source Monitor	Depuis le moniteur source	ຈາກຈໍຕົ້ນສະບັບ
+	From Source Monitor, Match Frame	Depuis le moniteur source, faire correspondre l'image	ຈາກຈໍຕົ້ນສະບັບ, ຈັບຄູ່ເຟຣມ
+	From South	Depuis le sud	ຈາກທິດໃຕ້
+	From the Left	Depuis la gauche	ຈາກດ້ານຊ້າຍ
+	From the Right	Depuis la droite	ຈາກດ້ານຂວາ
+	From West	Depuis l'ouest	ຈາກທິດຕາເວັນຕົກ
+	Front + LFE	Avant + LFE	ດ້ານໜ້າ + LFE
+	Front + Rear	Avant + arrière	ດ້ານໜ້າ + ດ້ານຫຼັງ
+	Front + Rear + LFE	Avant + arrière + LFE	ດ້ານໜ້າ + ດ້ານຫຼັງ + LFE
+	Front Only	Avant uniquement	ດ້ານໜ້າເທົ່ານັ້ນ
+	Full screen	Plein écran	ເຕັມໜ້າຈໍ
+	Fuzz	Fuzz	ຟັສ (Fuzz)
+	Gain	Gain	ເກນ (Gain)
+	Gamut Warning	Avertissement de gamut	ແຈ້ງເຕືອນຂອບເຂດສີ (Gamut)
+	Gamut Warning Color	Couleur d'avertissement de gamut	ສີແຈ້ງເຕືອນຂອບເຂດສີ
+	Gang to Program	Coupler au moniteur programme	ເຊື່ອມຕໍ່ກັບຈໍໂປຣແກຣມ
+	Gap	Espace vide	ຊ່ອງຫວ່າງ
+	Gap Color	Couleur des espaces vides	ສີຂອງຊ່ອງຫວ່າງ
+	Gaps	Espaces vides	ຊ່ອງຫວ່າງ
+	Gaussian Blur (Legacy)	Flou gaussien (ancien)	ມົວແບບເກົາຊຽນ (ຮຸ່ນເກົ່າ)
+	Gaussian Blur from 0 to 60 over the last second	Flou gaussien de 0 à 60 sur la dernière seconde	ມົວແບບເກົາຊຽນຈາກ 0 ຫາ 60 ໃນວິນາທີສຸດທ້າຍ
+	Gaussian Blur from 60 to 0 over the first second	Flou gaussien de 60 à 0 sur la première seconde	ມົວແບບເກົາຊຽນຈາກ 60 ຫາ 0 ໃນວິນາທີທຳອິດ
+	GB	Go	GB
+	Generate Audio Waveform	Générer la forme d'onde audio	ສ້າງຮູບຄື້ນສຽງ
+	Generate Ducking Keyframes	Générer des images clés d'atténuation	ສ້າງຄີເຟຣມຫຼຸດສຽງອັດຕະໂນມັດ
+	Generate Keyframes	Générer des images clés	ສ້າງຄີເຟຣມ
+	Generate Timecode	Générer le timecode	ສ້າງລະຫັດເວລາ
+	Generate waveforms and conform audio using multithreading	Générer les formes d'onde et conformer l'audio en multithread	ສ້າງຮູບຄື້ນສຽງ ແລະ ປັບສຽງໂດຍໃຊ້ການປະມວນຜົນຫຼາຍເທຣດ
+	Generate waveforms automatically during import	Générer automatiquement les formes d'onde lors de l'importation	ສ້າງຮູບຄື້ນສຽງອັດຕະໂນມັດໃນລະຫວ່າງການນຳເຂົ້າ
+	Generating waveform…	Génération de la forme d'onde…	ກຳລັງສ້າງຮູບຄື້ນສຽງ…
+	Get Media File Properties for	Obtenir les propriétés du fichier média pour	ດຶງຄຸນສົມບັດໄຟລ໌ສື່ສຳລັບ
+	Get Project Notes	Obtenir les notes du projet	ດຶງບັນທຶກຂອງໂຄງການ
+	Ghosts	Fantômes	ພາບຊ້ອນເງົາ
+	Glint	Scintillement lumineux	ປະກາຍແສງ
+	Glitch	Glitch	ກລິດຊ໌ (Glitch)
+	Glow Color	Couleur de la lueur	ສີຂອງແສງເຮືອງ
+	Glow Only	Lueur uniquement	ສະເພາະແສງເຮືອງ
+	Glow Radius	Rayon de la lueur	ລັດສະໝີແສງເຮືອງ
+	Glow Saturation	Saturation de la lueur	ຄວາມອີ່ມຕົວຂອງແສງເຮືອງ
+	Glow Width	Largeur de la lueur	ຄວາມກວ້າງຂອງແສງເຮືອງ
+	Go Back	Précédent	ກັບຄືນ
+	Go Forward	Suivant	ໄປໜ້າ
+	Go to Gap	Atteindre l'espace vide	ໄປທີ່ຊ່ອງຫວ່າງ
+	Go to In	Atteindre l'entrée	ໄປທີ່ຈຸດເຂົ້າ
+	Go to In (Shift+I)	Aller à l'entrée (Maj+I)	ໄປທີ່ຈຸດເຂົ້າ (Shift+I)
+	Go to In Point	Atteindre le point d'entrée	ໄປທີ່ຈຸດເຂົ້າ
+	Go to Next Caption Segment	Atteindre le segment de sous-titre suivant	ໄປທີ່ຊ່ວງຄຳບັນຍາຍຖັດໄປ
+	Go to Next Edit Point	Aller au point de montage suivant	ໄປທີ່ຈຸດຕັດຕໍ່ຖັດໄປ
+	Go to Next Edit Point on Any Track	Aller au point de montage suivant sur n'importe quelle piste	ໄປທີ່ຈຸດຕັດຕໍ່ຖັດໄປໃນທຸກແທຣັກ
+	Go to next keyframe	Aller à l'image clé suivante	ໄປທີ່ຄີເຟຣມຖັດໄປ
+	Go to Next Marker	Atteindre le marqueur suivant	ໄປທີ່ເຄື່ອງໝາຍຖັດໄປ
+	Go to Out	Atteindre la sortie	ໄປທີ່ຈຸດອອກ
+	Go to Out (Shift+O)	Aller à la sortie (Maj+O)	ໄປທີ່ຈຸດອອກ (Shift+O)
+	Go to Out Point	Atteindre le point de sortie	ໄປທີ່ຈຸດອອກ
+	Go to Previous Caption Segment	Atteindre le segment de sous-titre précédent	ໄປທີ່ຊ່ວງຄຳບັນຍາຍກ່ອນໜ້າ
+	Go to Previous Edit Point	Aller au point de montage précédent	ໄປທີ່ຈຸດຕັດຕໍ່ກ່ອນໜ້າ
+	Go to Previous Edit Point on Any Track	Aller au point de montage précédent sur n'importe quelle piste	ໄປທີ່ຈຸດຕັດຕໍ່ກ່ອນໜ້າໃນທຸກແທຣັກ
+	Go to previous keyframe	Aller à l'image clé précédente	ໄປທີ່ຄີເຟຣມກ່ອນໜ້າ
+	Go to Previous Marker	Atteindre le marqueur précédent	ໄປທີ່ເຄື່ອງໝາຍກ່ອນໜ້າ
+	Go to Selected Clip End	Aller à la fin du clip sélectionné	ໄປທີ່ທ້າຍຄລິບທີ່ເລືອກ
+	Go to Selected Clip Start	Aller au début du clip sélectionné	ໄປທີ່ຕົ້ນຄລິບທີ່ເລືອກ
+	Go to Sequence End	Aller à la fin de la séquence	ໄປທີ່ທ້າຍຊີເຄວັນ
+	Go to Sequence Start	Aller au début de la séquence	ໄປທີ່ຕົ້ນຊີເຄວັນ
+	Go to Split	Atteindre la division	ໄປທີ່ຈຸດແຍກ
+	Golden Dusk	Crépuscule doré	ຍາມແລງສີຄຳ
+	Golden Hour	Heure dorée	ຊ່ວງແສງສີຄຳ
+	GPU acceleration is unavailable; preview renders on the CPU	L'accélération GPU n'est pas disponible ; l'aperçu est rendu par le CPU	ບໍ່ສາມາດໃຊ້ການເລັ່ງຄວາມໄວດ້ວຍ GPU ໄດ້; ພາບຕົວຢ່າງຈະປະມວນຜົນດ້ວຍ CPU
+	GPU Rendering	Rendu GPU	ການປະມວນຜົນດ້ວຍ GPU
+	Grab bag	Pêle-mêle	ຊຸດລວມ
+	Gradient Angle	Angle du dégradé	ມຸມການໄລ່ສີ
+	Gradient End	Fin du dégradé	ຈຸດສິ້ນສຸດການໄລ່ສີ
+	Gradient Layer	Calque de dégradé	ຊັ້ນການໄລ່ສີ
+	Gradient Placement	Placement du dégradé	ການຈັດວາງການໄລ່ສີ
+	Gradient Scatter	Dispersion du dégradé	ການກະຈາຍການໄລ່ສີ
+	Gradient Shape	Forme du dégradé	ຮູບຮ່າງການໄລ່ສີ
+	Gradient Start	Début du dégradé	ຈຸດເລີ່ມຕົ້ນການໄລ່ສີ
+	Gradient Wipe	Balayage en dégradé	ປັດພາບແບບໄລ່ສີ
+	Gradient Wipe (Legacy)	Balayage en dégradé (ancien)	ປັດພາບແບບໄລ່ສີ (ຮຸ່ນເກົ່າ)
+	Grain Size	Taille du grain	ຂະໜາດເມັດສີ (Grain)
+	Graphic Equalizer (10 Bands)	Égaliseur graphique (10 bandes)	ອີຄວໍໄລເຊີກຣາບຟິກ (10 ຍ່ານ)
+	Graphic Equalizer (20 Bands)	Égaliseur graphique (20 bandes)	ອີຄວໍໄລເຊີກຣາບຟິກ (20 ຍ່ານ)
+	Graphic Equalizer (30 Bands)	Égaliseur graphique (30 bandes)	ອີຄວໍໄລເຊີກຣາບຟິກ (30 ຍ່ານ)
+	Graphics and Titles	Graphiques et titres	ກຣາບຟິກ ແລະ ຫົວຂໍ້
+	Graphics problem: switched to software compositing	Problème graphique : passage à la composition logicielle	ບັນຫາກຣາບຟິກ: ປ່ຽນໄປໃຊ້ການລວມພາບດ້ວຍຊອບແວແລ້ວ
+	Graphics text search arrives with M10.1–M10.2	La recherche de texte dans les graphiques arrive avec M10.1–M10.2	ການຄົ້ນຫາຂໍ້ຄວາມໃນກຣາບຟິກຈະມາພ້ອມ M10.1–M10.2
+	Graphics…	Graphiques…	ກຣາບຟິກ…
+	Green Blurriness	Flou du vert	ຄວາມມົວຂອງສີຂຽວ
+	Green Curve	Courbe du vert	ເສັ້ນໂຄ້ງສີຂຽວ
+	Green Offset	Décalage du vert	ຄ່າຊົດເຊີຍສີຂຽວ
+	Green Power	Puissance du vert	ກຳລັງສີຂຽວ
+	Green Slope	Pente du vert	ຄວາມຊັນສີຂຽວ
+	Green-Blue	Vert-bleu	ຂຽວ-ຟ້າ
+	Green-Const	Vert-constante	ຂຽວ-ຄ່າຄົງທີ່
+	Green-Green	Vert-vert	ຂຽວ-ຂຽວ
+	Green-Red	Vert-rouge	ຂຽວ-ແດງ
+	Grid spacing:	Espacement de la grille :	ໄລຍະຫ່າງຕາຕະລາງ:
+	Grow	Croissance	ຂະຫຍາຍອອກ
+	Growing Files	Fichiers en croissance	ໄຟລ໌ທີ່ກຳລັງເພີ່ມຂະໜາດ
+	Grunge	Grunge	ກຣັນຈ໌ (Grunge)
+	Grunge & Distort	Grunge et distorsion	ກຣັນຈ໌ ແລະ ບິດເບືອນ
+	Guide Templates	Modèles de repères	ແມ່ແບບເສັ້ນນຳ
+	GuitarSuite	GuitarSuite	GuitarSuite
+	H.264	H.264	H.264
+	H.264 1920×1080 for video sharing sites, VBR 1 pass, 16 Mbps	H.264 1920×1080 pour sites de partage vidéo, VBR 1 passe, 16 Mbps	H.264 1920×1080 ສຳລັບເວັບໄຊແບ່ງປັນວິດີໂອ, VBR 1 ຮອບ, 16 Mbps
+	H.264 1920×1080, VBR 1 pass, 20 Mbps target, AAC 320 kbps	H.264 1920×1080, VBR 1 passe, 20 Mbps cible, AAC 320 kbps	H.264 1920×1080, VBR 1 ຮອບ, ເປົ້າໝາຍ 20 Mbps, AAC 320 kbps
+	H.264 1920×1080, VBR 2 pass, 18 Mbps	H.264 1920×1080, VBR 2 passes, 18 Mbps	H.264 1920×1080, VBR 2 ຮອບ, 18 Mbps
+	H.264 3840×2160 for video sharing sites, VBR 1 pass, 45 Mbps	H.264 3840×2160 pour sites de partage vidéo, VBR 1 passe, 45 Mbps	H.264 3840×2160 ສຳລັບເວັບໄຊແບ່ງປັນວິດີໂອ, VBR 1 ຮອບ, 45 Mbps
+	H.264 3840×2160, VBR 1 pass, 60 Mbps target, AAC 320 kbps	H.264 3840×2160, VBR 1 passe, 60 Mbps cible, AAC 320 kbps	H.264 3840×2160, VBR 1 ຮອບ, ເປົ້າໝາຍ 60 Mbps, AAC 320 kbps
+	H.264 3840×2160, VBR 2 pass, 50 Mbps	H.264 3840×2160, VBR 2 passes, 50 Mbps	H.264 3840×2160, VBR 2 ຮອບ, 50 Mbps
+	H.264 9:16 portrait for short-form social video, scaled to fill, 12 Mbps	H.264 9:16 portrait pour vidéos courtes sur les réseaux sociaux, mis à l'échelle pour remplir, 12 Mbps	H.264 9:16 ແນວຕັ້ງສຳລັບວິດີໂອສັ້ນລົງສື່ສັງຄົມ, ປັບຂະໜາດໃຫ້ເຕັມ, 12 Mbps
+	H.264 at the sequence's frame size and rate; 0.05 bits per pixel	H.264 à la taille et à la fréquence d'images de la séquence ; 0,05 bit par pixel	H.264 ຕາມຂະໜາດ ແລະ ອັດຕາເຟຣມຂອງຊີເຄວັນ; 0.05 ບິດຕໍ່ພິກເຊລ
+	H.264 at the sequence's frame size and rate; 0.1 bits per pixel	H.264 à la taille et à la fréquence d'images de la séquence ; 0,1 bit par pixel	H.264 ຕາມຂະໜາດ ແລະ ອັດຕາເຟຣມຂອງຊີເຄວັນ; 0.1 ບິດຕໍ່ພິກເຊລ
+	H.264 at the sequence's frame size and rate; bitrate adapts to the frame size (0.2 bits per pixel)	H.264 à la taille et à la fréquence d'images de la séquence ; le débit s'adapte à la taille d'image (0,2 bit par pixel)	H.264 ຕາມຂະໜາດ ແລະ ອັດຕາເຟຣມຂອງຊີເຄວັນ; ອັດຕາບິດປັບຕາມຂະໜາດເຟຣມ (0.2 ບິດຕໍ່ພິກເຊລ)
+	H.265 (HEVC)	H.265 (HEVC)	H.265 (HEVC)
+	Half Saturation	Saturation à 50 %	ຄວາມອີ່ມຕົວສີ 50 %
+	Handle Frames:	Images de marge :	ເຟຣມເຜື່ອ:
+	Hard Clip	Écrêtage dur	ຕັດຄື້ນສັນຍານແບບແຂງ
+	Hard Light	Lumière dure	ແສງຈ້າ
+	Hard Limiter	Limiteur dur	ຕົວຈຳກັດສັນຍານແບບແຂງ
+	Hard Mono	Monochrome contrasté	ຂາວດຳຄອນທຣາສສູງ
+	Hard Sun	Soleil dur	ແສງແດດຈ້າ
+	Hardware (AV1 has no software encoder)	Matériel (AV1 n'a pas d'encodeur logiciel)	ຮາດແວ (AV1 ບໍ່ມີຕົວເຂົ້າລະຫັດຊອບແວ)
+	Hardware (H.265 has no software encoder)	Matériel (H.265 n'a pas d'encodeur logiciel)	ຮາດແວ (H.265 ບໍ່ມີຕົວເຂົ້າລະຫັດຊອບແວ)
+	Hardware decoding	Décodage matériel	ການຖອດລະຫັດດ້ວຍຮາດແວ
+	Hardware decoding: Auto uses the system's video decoder (VideoToolbox on macOS, Media Foundation on Windows, VA-API or NVDEC for H.264 and HEVC on Linux) for the streams it supports, and FilmCraft's own decoder for everything else or if the hardware fails. Media that is already open keeps its decoder until it is reopened.	Décodage matériel : Auto utilise le décodeur vidéo du système (VideoToolbox sur macOS, Media Foundation sur Windows, VA-API ou NVDEC pour H.264 et HEVC sous Linux) pour les flux qu'il prend en charge, et le décodeur propre à FilmCraft pour tout le reste ou en cas d'échec du matériel. Les médias déjà ouverts conservent leur décodeur jusqu'à leur réouverture.	ການຖອດລະຫັດດ້ວຍຮາດແວ: ອັດຕະໂນມັດ ຈະໃຊ້ຕົວຖອດລະຫັດວິດີໂອຂອງລະບົບ (VideoToolbox ໃນ macOS, Media Foundation ໃນ Windows, VA-API ຫຼື NVDEC ສຳລັບ H.264 ແລະ HEVC ໃນ Linux) ສຳລັບສະຕຣີມທີ່ຮອງຮັບ, ແລະ ໃຊ້ຕົວຖອດລະຫັດຂອງ FilmCraft ເອງສຳລັບສ່ວນທີ່ເຫຼືອ ຫຼື ໃນກໍລະນີຮາດແວເຮັດວຽກບໍ່ສຳເລັດ. ສື່ທີ່ເປີດຢູ່ແລ້ວຈະຍັງຄົງໃຊ້ຕົວຖອດລະຫັດເດີມຈົນກວ່າຈະເປີດໃໝ່.
+	HD Anamorphic 1080 (1.333)	HD anamorphique 1080 (1.333)	HD ອານາມໍຟິກ 1080 (1.333)
+	HDR	HDR	HDR
+	HDR Graphics White (Nits)	Blanc des graphiques HDR (nits)	ສີຂາວກຣາບຟິກ HDR (ນິດ)
+	HDR Range	Plage HDR	ຊ່ວງ HDR
+	HDR Specular	Spéculaire HDR	ແສງສະທ້ອນ HDR
+	HDR White	Blanc HDR	ສີຂາວ HDR
+	Head	Début	ສ່ວນຕົ້ນ
+	Head and Tail	Début et fin	ສ່ວນຕົ້ນ ແລະ ສ່ວນທ້າຍ
+	Head Size	Taille de la tête	ຂະໜາດສ່ວນຫົວ
+	Heading	En-tête	ຫົວຂໍ້
+	Hide All Caption Tracks	Masquer toutes les pistes de sous-titres	ເຊື່ອງແທຣັກຄຳບັນຍາຍທັງໝົດ
+	Hide Back Face	Masquer la face arrière	ເຊື່ອງດ້ານຫຼັງ
+	High contrast with held highlights and deep shadows	Contraste élevé avec tons clairs préservés et tons foncés profonds	ຄອນທຣາສສູງ ໂດຍຮັກສາສ່ວນສະຫວ່າງ ແລະ ໃຫ້ເງົາມືດເລິກ
+	High Cutoff	Coupure des aigus	ຈຸດຕັດຄວາມຖີ່ສູງ
+	High Frequency Cut	Coupure des hautes fréquences	ຕັດຄວາມຖີ່ສູງ
+	High Frequency Damping	Amortissement des hautes fréquences	ຫຼຸດທອນຄວາມຖີ່ສູງ
+	High Quality 1080p HD	Haute qualité 1080p HD	ຄຸນນະພາບສູງ 1080p HD
+	High Quality 2160p 4K	Haute qualité 2160p 4K	ຄຸນນະພາບສູງ 2160p 4K
+	High Quality Playback	Lecture haute qualité	ການຫຼິ້ນຄຸນນະພາບສູງ
+	High Shelf	Plateau aigu	ຍ່ານສຽງແຫຼມ (High Shelf)
+	High Shelf Gain	Gain du plateau aigu	ເກນຍ່ານສຽງແຫຼມ
+	High Tone	Aigus	ສຽງແຫຼມ
+	Highlight	Ton clair	ສ່ວນສະຫວ່າງ
+	Highlight Blue Balance	Balance du bleu des tons clairs	ສົມດຸນສີຟ້າຂອງສ່ວນສະຫວ່າງ
+	Highlight Brightness	Luminosité des tons clairs	ຄວາມສະຫວ່າງຂອງສ່ວນສະຫວ່າງ
+	Highlight Color	Couleur de surbrillance	ສີເນັ້ນ
+	Highlight Green Balance	Balance du vert des tons clairs	ສົມດຸນສີຂຽວຂອງສ່ວນສະຫວ່າງ
+	Highlight Red Balance	Balance du rouge des tons clairs	ສົມດຸນສີແດງຂອງສ່ວນສະຫວ່າງ
+	Highlight Rolloff	Atténuation des tons clairs	ຄວາມລຽບນຽນຂອງສ່ວນສະຫວ່າງ
+	Highlight Threshold	Seuil des tons clairs	ຂີດແບ່ງສ່ວນສະຫວ່າງ
+	Highlight Tint	Nuance des tons clairs	ໂທນສີຂອງສ່ວນສະຫວ່າງ
+	Highlights Lightness	Luminosité des tons clairs	ຄວາມສະຫວ່າງຂອງສ່ວນສະຫວ່າງ
+	Highpass	Passe-haut	ຜ່ານຄວາມຖີ່ສູງ (Highpass)
+	Hindi digits	Chiffres hindis	ຕົວເລກຮິນດີ
+	HLS Vectorscope + Histogram	Vectorscope HLS + histogramme	ເວັກເຕີສະໂຄບ HLS + ຮິສໂຕແກຣມ
+	Hold	Maintien	ຄ້າງໄວ້
+	Hold Filters	Figer les filtres	ຄ້າງຄ່າຟິວເຕີ
+	Hold On	Figer sur	ຄ້າງໄວ້ທີ່
+	horizontal	horizontal	ແນວນອນ
+	Horizontal 16:9	Horizontal 16:9	ແນວນອນ 16:9
+	Horizontal Alignment	Alignement horizontal	ການຈັດລຽງແນວນອນ
+	Horizontal and Vertical	Horizontal et vertical	ແນວນອນ ແລະ ແນວຕັ້ງ
+	Horizontal Blocks	Blocs horizontaux	ບລັອກແນວນອນ
+	Horizontal Decentering	Décentrage horizontal	ການເລື່ອນຈາກຈຸດກາງແນວນອນ
+	Horizontal Displacement	Déplacement horizontal	ການຍ້າຍຕຳແໜ່ງແນວນອນ
+	Horizontal Flip	Retournement horizontal	ປີ້ນຕາມແນວນອນ
+	Horizontal Margin	Marge horizontale	ຂອບແນວນອນ
+	Hover Scrub	Défilement au survol	ເລື່ອນເບິ່ງເມື່ອເອົາເມົ້າສ໌ຊີ້
+	HSL Secondary	HSL secondaire	HSL ຂັ້ນຮອງ
+	Hue Center	Centre de teinte	ຈຸດກາງຄ່າສີ
+	Hue Range	Plage de teinte	ຊ່ວງຄ່າສີ
+	Hue Saturation Curves	Courbes de teinte et saturation	ເສັ້ນໂຄ້ງຄ່າສີ ແລະ ຄວາມອີ່ມຕົວສີ
+	Hue Tolerance	Tolérance de teinte	ຄ່າຄວາມຄາດເຄື່ອນຂອງສີ
+	Hue vs Hue	Teinte vs teinte	ຄ່າສີ ທຽບ ຄ່າສີ
+	Hue vs Luma	Teinte vs luminance	ຄ່າສີ ທຽບ ຄວາມສະຫວ່າງ
+	Hue vs Sat	Teinte vs saturation	ຄ່າສີ ທຽບ ຄວາມອີ່ມຕົວສີ
+	I/O Buffer Size	Taille du tampon d'E/S	ຂະໜາດບັບເຟີເຂົ້າ/ອອກ (I/O)
+	Icon View	Affichage en icônes	ມຸມມອງແບບໄອຄອນ
+	Ignore Alpha	Ignorer l'alpha	ບໍ່ສົນໃຈຊ່ອງອານຟາ
+	Ignore Audio	Ignorer l'audio	ບໍ່ສົນໃຈສຽງ
+	Ignore Hours	Ignorer les heures	ບໍ່ສົນໃຈຊົ່ວໂມງ
+	Ignore Options	Options d'exclusion	ຕົວເລືອກການຂ້າມ
+	Ignore Video	Ignorer la vidéo	ບໍ່ສົນໃຈວິດີໂອ
+	Image Control	Contrôle de l'image	ການຄວບຄຸມພາບ
+	Image Overlay	Superposition d'image	ການຊ້ອນພາບ
+	Image Sequence	Séquence d'images	ລຳດັບຮູບພາບ
+	Immersive Video	Vidéo immersive	ວິດີໂອສະເໝືອນຈິງ
+	Import a preset file…	Importer un fichier de paramètre prédéfini…	ນຳເຂົ້າໄຟລ໌ຄ່າຕັ້ງລ່ວງໜ້າ…
+	Import as Image Sequence	Importer en tant que séquence d'images	ນຳເຂົ້າເປັນລຳດັບຮູບພາບ
+	Import captions file…	Importer un fichier de sous-titres…	ນຳເຂົ້າໄຟລ໌ຄຳບັນຍາຍ…
+	Import From	Importer depuis	ນຳເຂົ້າຈາກ
+	Import from Media Browser	Importer depuis l'Explorateur de médias	ນຳເຂົ້າຈາກຕົວຄົ້ນຫາສື່
+	Import Image Sequence…	Importer une séquence d'images…	ນຳເຂົ້າລຳດັບຮູບພາບ…
+	Import numbered stills as image sequences	Importer les images fixes numérotées comme séquences d'images	ນຳເຂົ້າພາບນິ້ງທີ່ມີເລກລຳດັບເປັນລຳດັບຮູບພາບ
+	Import Presets…	Importer des préréglages…	ນຳເຂົ້າຄ່າຕັ້ງລ່ວງໜ້າ…
+	Import: no file chosen (agents: export.presets.import {path})	Importer : aucun fichier choisi (agents : export.presets.import {path})	ນຳເຂົ້າ: ຍັງບໍ່ໄດ້ເລືອກໄຟລ໌ (agents: export.presets.import {path})
+	Import: no file chosen (agents: shortcuts.import {path})	Importer : aucun fichier choisi (agents : shortcuts.import {path})	ນຳເຂົ້າ: ຍັງບໍ່ໄດ້ເລືອກໄຟລ໌ (agents: shortcuts.import {path})
+	Imported “{name}”	« {name} » importé	ນຳເຂົ້າ “{name}” ແລ້ວ
+	Impulse	Impulsion	ແຮງກະຕຸ້ນ
+	In	Entrée	ເຂົ້າ
+	in	entrée	ເຂົ້າ
+	In a Room	Dans une pièce	ໃນຫ້ອງ
+	In Point	Point d'entrée	ຈຸດເຂົ້າ
+	In Points	Points d'entrée	ຈຸດເຂົ້າ
+	In the Media Cache	Dans le cache des médias	ໃນແຄສສື່
+	In the project	Dans le projet	ໃນໂຄງການ
+	In/Out Duration	Durée de l'entrée à la sortie	ໄລຍະເວລາ ເຂົ້າ/ອອກ
+	In: {name}	Entrée : {name}	ເຂົ້າ: {name}
+	Include Alpha Channel	Inclure la couche alpha	ລວມຊ່ອງອານຟາ
+	Include captions on import	Inclure les sous-titres lors de l'importation	ລວມຄຳບັນຍາຍເມື່ອນຳເຂົ້າ
+	Include Handles:	Inclure les marges :	ລວມເຟຣມເຜື່ອ:
+	Include Preview Files	Inclure les fichiers d'aperçu	ລວມໄຟລ໌ພາບຕົວຢ່າງ
+	Include Proxies	Inclure les proxys	ລວມໄຟລ໌ພຣັອກຊີ
+	Incoming	Entrant	ຂາເຂົ້າ
+	Increase Audio Tracks Height	Augmenter la hauteur des pistes audio	ເພີ່ມຄວາມສູງຂອງແທຣັກສຽງ
+	Increase Clip Volume	Augmenter le volume du clip	ເພີ່ມລະດັບສຽງຄລິບ
+	Increase Clip Volume Many	Augmenter fortement le volume du clip	ເພີ່ມລະດັບສຽງຄລິບໃຫ້ຫຼາຍຂຶ້ນ
+	Increase Font Size by Five Units	Augmenter la taille de police de cinq unités	ເພີ່ມຂະໜາດຟອນຕ໌ຂຶ້ນ 5 ໜ່ວຍ
+	Increase Font Size by One Unit	Augmenter la taille de police d'une unité	ເພີ່ມຂະໜາດຟອນຕ໌ຂຶ້ນ 1 ໜ່ວຍ
+	Increase Leading by Five Units	Augmenter l'interlignage de cinq unités	ເພີ່ມໄລຍະຫ່າງແຖວຂຶ້ນ 5 ໜ່ວຍ
+	Increase Leading by One Unit	Augmenter l'interlignage d'une unité	ເພີ່ມໄລຍະຫ່າງແຖວຂຶ້ນ 1 ໜ່ວຍ
+	Increase Video Tracks Height	Augmenter la hauteur des pistes vidéo	ເພີ່ມຄວາມສູງຂອງແທຣັກວິດີໂອ
+	Indeterminate Media Timebase	Base temporelle des médias indéterminée	ຖານເວລາຂອງສື່ບໍ່ແນ່ນອນ
+	Ingest	Ingestion	ການນຳເຂົ້າສື່ (Ingest)
+	Ingest Settings	Paramètres d'ingestion	ການຕັ້ງຄ່າການນຳເຂົ້າສື່
+	Ingest Settings…	Paramètres d'ingestion…	ການຕັ້ງຄ່າການນຳເຂົ້າສື່…
+	Initial Delay	Retard initial	ຄວາມໜ່ວງເລີ່ມຕົ້ນ
+	Inner	Intérieur	ດ້ານໃນ
+	Inner Radius	Rayon intérieur	ລັດສະໝີດ້ານໃນ
+	Input Boost	Amplification d'entrée	ການເພີ່ມກຳລັງຂາເຂົ້າ
+	Input LUT	LUT d'entrée	LUT ຂາເຂົ້າ
+	Insert (,)	Insérer (,)	ແຊກ (,)
+	Insert and overwrite sequences as nests or individual clips	Insérer et écraser des séquences en tant que séquences imbriquées ou clips individuels	ແຊກ ແລະ ວາງທັບຊີເຄວັນເປັນຊີເຄວັນຊ້ອນ ຫຼື ຄລິບແຍກ
+	Insert Edit	Montage par insertion	ການຕັດຕໍ່ແບບແຊກ
+	Insert Frame Hold Segment	Insérer un segment d'image figée	ແຊກຊ່ວງພາບຄ້າງ
+	Inset	Encart	ຫຍັບເຂົ້າດ້ານໃນ
+	Inside Color	Couleur intérieure	ສີດ້ານໃນ
+	Install Motion Graphics Template (.fcgt)	Installer un modèle d'animation graphique (.fcgt)	ຕິດຕັ້ງແມ່ແບບກຣາບຟິກເຄື່ອນໄຫວ (.fcgt)
+	Install Motion Graphics Template…	Installer un modèle d'animation graphique…	ຕິດຕັ້ງແມ່ແບບກຣາບຟິກເຄື່ອນໄຫວ…
+	Install…	Installer…	ຕິດຕັ້ງ…
+	Inter	Inter	Inter
+	Interior Room Tone	Ambiance de pièce intérieure	ສຽງບັນຍາກາດພາຍໃນຫ້ອງ
+	Internal Black Point	Point noir interne	ຈຸດສີດຳພາຍໃນ
+	Internal White Point	Point blanc interne	ຈຸດສີຂາວພາຍໃນ
+	Interpret Footage	Interpréter le métrage	ຕີຄວາມຟຸດເທດ
+	Interpret Footage…	Interpréter le métrage…	ຕີຄວາມຟຸດເທດ…
+	Intro Duration	Durée de l'introduction	ໄລຍະເວລາສ່ວນເປີດ
+	Inverse Falloff	Atténuation inverse	ການຫຼຸດລະດັບແບບປີ້ນກັບ
+	Invert Alpha	Inverser l'alpha	ປີ້ນກັບຄ່າອານຟາ
+	Invert Blur	Inverser le flou	ປີ້ນກັບຄວາມມົວ
+	Invert Fill	Inverser le remplissage	ປີ້ນກັບການຖົມສີ
+	Invert Gradient	Inverser le dégradé	ປີ້ນກັບການໄລ່ສີ
+	Invert Left	Inverser la gauche	ປີ້ນກັບດ້ານຊ້າຍ
+	Invert Right	Inverser la droite	ປີ້ນກັບດ້ານຂວາ
+	Inverted	Inversé	ປີ້ນກັບແລ້ວ
+	Iris	Iris	ມ່ານຕາ (Iris)
+	Iris Box	Iris carré	ມ່ານຕາຮູບສີ່ຫຼ່ຽມ
+	Iris Cross	Iris en croix	ມ່ານຕາຮູບກາກະບາດ
+	Iris Diamond	Iris en losange	ມ່ານຕາຮູບສີ່ຫຼ່ຽມຂ້າວຫຼາມຕັດ
+	Iris Radius	Rayon de l'iris	ລັດສະໝີມ່ານຕາ
+	Iris Rotation	Rotation de l'iris	ການໝຸນມ່ານຕາ
+	Iris Round	Iris rond	ມ່ານຕາຮູບວົງມົນ
+	Iris Shape	Forme de l'iris	ຮູບຮ່າງມ່ານຕາ
+	JetBrains Mono	JetBrains Mono	JetBrains Mono
+	Join the ArtCraft Discord (discord.gg/artcraft)	Rejoindre le Discord d'ArtCraft (discord.gg/artcraft)	ເຂົ້າຮ່ວມ ArtCraft Discord (discord.gg/artcraft)
+	Join Through Edits	Joindre les points de montage traversants	ເຊື່ອມຕໍ່ຈຸດຕັດຕໍ່ເນື່ອງ
+	Kaleidoscope	Kaléidoscope	ກ້ອງສະຫຼັບລາຍ (Kaleidoscope)
+	Keep a recovery copy of unsaved changes	Conserver une copie de récupération des modifications non enregistrées	ເກັບສຳເນົາກູ້ຄືນສຳລັບການປ່ຽນແປງທີ່ຍັງບໍ່ໄດ້ບັນທຶກ
+	Keep:	Conserver :	ເກັບໄວ້:
+	Key	Incrustation	ຄີ (ເຈາະພື້ນຫຼັງ)
+	Key Color	Couleur d'incrustation	ສີທີ່ໃຊ້ເຈາະ
+	Key Frame Distance	Intervalle entre images clés	ໄລຍະຫ່າງຄີເຟຣມ
+	Key:	Touche :	ປຸ່ມ:
+	Keyboard: US	Clavier : américain	ແປ້ນພິມ: US
+	Keyboard: US (macOS)	Clavier : américain (macOS)	ແປ້ນພິມ: US (macOS)
+	Keying	Incrustation	ການເຈາະພື້ນຫຼັງ (Keying)
+	Label Color Presets	Paramètres prédéfinis de couleur d'étiquette	ຄ່າຕັ້ງລ່ວງໜ້າສີປ້າຍກຳກັບ
+	Label Colors	Couleurs d'étiquette	ສີປ້າຍກຳກັບ
+	Label Defaults	Étiquettes par défaut	ປ້າຍກຳກັບເລີ່ມຕົ້ນ
+	Label speakers	Étiqueter les intervenants	ລະບຸຊື່ຜູ້ເວົ້າ
+	Labels…	Étiquettes…	ປ້າຍກຳກັບ…
+	Language:	Langue :	ພາສາ:
+	Large blocks resolving to the picture over the first second	Gros blocs se résolvant en image sur la première seconde	ບລັອກຂະໜາດໃຫຍ່ທີ່ຄ່ອຍໆຊັດເຈນເປັນພາບໃນວິນາທີທຳອິດ
+	Large centred title, accent rule and subtitle.	Grand titre centré, filet d'accentuation et sous-titre.	ຫົວຂໍ້ໃຫຍ່ຢູ່ກາງ, ເສັ້ນເນັ້ນ ແລະ ຄຳບັນຍາຍຍ່ອຍ.
+	Large Hall	Grande salle	ຫ້ອງໂຖງໃຫຍ່
+	Large Trim Offset	Grand décalage de rognage	ໄລຍະເລື່ອນການຕັດຂອບຂະໜາດໃຫຍ່
+	Large Volume Adjustment	Réglage de volume important	ການປັບລະດັບສຽງຂະໜາດໃຫຍ່
+	Larger	Plus grand	ໃຫຍ່ຂຶ້ນ
+	Last auto-save {a}	Dernier enregistrement automatique {a}	ບັນທຶກອັດຕະໂນມັດຫຼ້າສຸດ {a}
+	Last auto-save {a} · last recovery copy {j}	Dernier enregistrement automatique {a} · dernière copie de récupération {j}	ບັນທຶກອັດຕະໂນມັດຫຼ້າສຸດ {a} · ສຳເນົາກູ້ຄືນຫຼ້າສຸດ {j}
+	Last recovery copy {j}	Dernière copie de récupération {j}	ສຳເນົາກູ້ຄືນຫຼ້າສຸດ {j}
+	Latch	Verrouillage	ບັນທຶກຕໍ່ເນື່ອງ (Latch)
+	Lavender	Lavande	ສີດອກລາເວັນເດີ
+	Layer Name	Nom du calque	ຊື່ຊັ້ນ (Layer)
+	Layout:	Disposition :	ການຈັດວາງ:
+	Learning	Apprentissage	ການຮຽນຮູ້
+	Leave Color	Conserver une couleur	ເຫຼືອໄວ້ສະເພາະສີດຽວ
+	Left - Left	Gauche - gauche	ຊ້າຍ - ຊ້າຍ
+	Left - Right	Gauche - droite	ຊ້າຍ - ຂວາ
+	Left Align Text	Aligner le texte à gauche	ຈັດຂໍ້ຄວາມຊິດຊ້າຍ
+	Left align text	Aligner le texte à gauche	ຈັດຂໍ້ຄວາມຊິດຊ້າຍ
+	Left channel to device output	Canal gauche vers la sortie du périphérique	ຊ່ອງຊ້າຍໄປຫາຊ່ອງອອກຂອງອຸປະກອນ
+	Left to right	De gauche à droite	ຈາກຊ້າຍຫາຂວາ
+	Legacy	Anciens	ຮຸ່ນເກົ່າ
+	Legal Range Squeeze	Compression en niveaux légaux	ບີບອັດຊ່ວງສັນຍານມາດຕະຖານ
+	Lens Blur	Flou de l'objectif	ມົວແບບເລນ
+	Lens Distortion	Distorsion de l'objectif	ຄວາມບິດເບືອນຂອງເລນ
+	Lens Type	Type d'objectif	ປະເພດເລນ
+	Lift	Soulever	ຍົກອອກ
+	Lift (;)	Soulever (;)	ຍົກອອກ (;)
+	Lift selected text	Soulever le texte sélectionné	ຍົກຂໍ້ຄວາມທີ່ເລືອກອອກ
+	Lift Shadows	Relever les tons foncés	ຍົກສ່ວນມືດຂຶ້ນ
+	Lifted blacks, softer contrast, muted colour	Noirs relevés, contraste plus doux, couleurs atténuées	ສີດຳຖືກຍົກຂຶ້ນ, ຄອນທຣາສນຸ່ມນວນ, ສີອ່ອນລົງ
+	Ligatures	Ligatures	ຕົວອັກສອນເຊື່ອມ
+	Light 1	Lumière 1	ແສງ 1
+	Light 2	Lumière 2	ແສງ 2
+	Light 3	Lumière 3	ແສງ 3
+	Light 4	Lumière 4	ແສງ 4
+	Light 5	Lumière 5	ແສງ 5
+	Light Angle	Angle de la lumière	ມຸມຂອງແສງ
+	Light Color	Couleur de la lumière	ສີຂອງແສງ
+	Light Leak	Fuite de lumière	ແສງຮົ່ວ
+	Light Leaks	Fuites de lumière	ແສງຮົ່ວ
+	Light Sweep	Balayage lumineux	ກວາດແສງ
+	Lightning	Éclair	ຟ້າຜ່າ
+	Lights & Blurs	Lumières et flous	ແສງ ແລະ ຄວາມມົວ
+	Lights & Glows	Lumières et lueurs	ແສງ ແລະ ແສງເຮືອງ
+	Limiter	Limiteur	ຕົວຈຳກັດສັນຍານ
+	Limiter Release	Relâchement du limiteur	ການປ່ອຍຂອງຕົວຈຳກັດສັນຍານ
+	Limiter Threshold	Seuil du limiteur	ຂີດແບ່ງຕົວຈຳກັດສັນຍານ
+	Line delta	Delta de lignes	ຄ່າຕ່າງຂອງເສັ້ນ
+	Line Thickness	Épaisseur de ligne	ຄວາມໜາຂອງເສັ້ນ
+	Linear Dodge (Add)	Éclaircissement linéaire (ajout)	ເພີ່ມຄວາມສະຫວ່າງແບບເສັ້ນຊື່ (Add)
+	Linear keyframe thinning	Réduction linéaire des images clés	ການຫຼຸດຈຳນວນຄີເຟຣມແບບເສັ້ນຊື່
+	Linear Ramp	Rampe linéaire	ໄລ່ລະດັບແບບເສັ້ນຊື່
+	Linear to Log	Linéaire vers log	Linear ຫາ Log
+	Linear Wipe	Balayage linéaire	ປັດພາບແບບເສັ້ນຊື່
+	Linear Wipe (Legacy)	Balayage linéaire (ancien)	ປັດພາບແບບເສັ້ນຊື່ (ຮຸ່ນເກົ່າ)
+	Link	Lier	ເຊື່ອມໂຍງ
+	Link Channels	Lier les canaux	ເຊື່ອມໂຍງຊ່ອງ
+	Link Media	Lier les médias	ເຊື່ອມໂຍງສື່
+	Link Media…	Lier le média…	ເຊື່ອມໂຍງສື່…
+	Link to Media	Lien vers les médias	ເຊື່ອມໂຍງໄປຫາສື່
+	Linked Selection	Sélection liée	ການເລືອກແບບເຊື່ອມໂຍງ
+	Linked {n} clip(s)	{n} clip(s) lié(s)	ເຊື່ອມໂຍງ {n} ຄລິບແລ້ວ
+	Liquid Distortion	Distorsion liquide	ການບິດເບືອນແບບຂອງແຫຼວ
+	List View	Affichage en liste	ມຸມມອງແບບລາຍການ
+	Loaded “{name}”	« {name} » chargé	ໂຫຼດ “{name}” ແລ້ວ
+	Local Drives	Disques locaux	ໄດຣຟ໌ໃນເຄື່ອງ
+	Local Projects	Projets locaux	ໂຄງການໃນເຄື່ອງ
+	Locate…	Localiser…	ຄົ້ນຫາຕຳແໜ່ງ…
+	Log Note	Note de journal	ບັນທຶກການຄັດເລືອກພາບ
+	Log Note:	Note de dérushage :	ບັນທຶກການຄັດເລືອກພາບ:
+	Log to Linear	Log vers linéaire	Log ຫາ Linear
+	Log to Log	Log vers log	Log ຫາ Log
+	Logo Cutout	Découpe de logo	ຕັດຂອບໂລໂກ້
+	Long Shadow	Ombre longue	ເງົາຍາວ
+	Look	Look	ລຸກ (Look)
+	Look LUT	LUT de look	LUT ສຳລັບລຸກສີ
+	Look-Ahead Time	Temps d'anticipation	ເວລາອ່ານລ່ວງໜ້າ
+	Loop	Boucle	ຫຼິ້ນວົນຊ້ຳ
+	Loop marked range	Boucler la plage marquée	ຫຼິ້ນວົນຊ້ຳໃນຊ່ວງທີ່ໝາຍໄວ້
+	Looping GIF, 640×360 at 15 fps	GIF en boucle, 640×360 à 15 fps	GIF ຫຼິ້ນວົນຊ້ຳ, 640×360 ທີ່ 15 fps
+	Loudness	Sonie	ຄວາມດັງ (Loudness)
+	Loudness Maximizer	Maximiseur de sonie	ຕົວເພີ່ມຄວາມດັງສູງສຸດ
+	Loudness Meter	Sonomètre	ມາດວັດຄວາມດັງ
+	Loudness Normalization	Normalisation de la sonie	ການປັບລະດັບຄວາມດັງໃຫ້ເປັນມາດຕະຖານ
+	Louver	Persienne	ບານເກັດ
+	Low Frequency Cut	Coupure des basses fréquences	ຕັດຄວາມຖີ່ຕ່ຳ
+	Low Pass	Passe-bas	ຜ່ານຄວາມຖີ່ຕ່ຳ (Low Pass)
+	Low Shelf	Plateau grave	ຍ່ານສຽງທຸ້ມ (Low Shelf)
+	Low Shelf Gain	Gain du plateau grave	ເກນຍ່ານສຽງທຸ້ມ
+	Low Tone	Graves	ສຽງທຸ້ມ
+	Lower First	Trame inférieure en premier	ເສັ້ນລຸ່ມກ່ອນ
+	Lower Left	En bas à gauche	ລຸ່ມຊ້າຍ
+	Lower Right	En bas à droite	ລຸ່ມຂວາ
+	Lower Third – Rule	Tiers inférieur – Filet	ແຖບຊື່ດ້ານລຸ່ມ – ເສັ້ນຂີດ
+	Lower Third – Slab	Tiers inférieur – Bloc	ແຖບຊື່ດ້ານລຸ່ມ – ແຜ່ນທຶບ
+	Lower Thirds	Tiers inférieurs	ແຖບຊື່ດ້ານລຸ່ມ
+	lowest (V1…)	la plus basse (V1…)	ຕ່ຳສຸດ (V1…)
+	Lowpass	Passe-bas	ຜ່ານຄວາມຖີ່ຕ່ຳ (Lowpass)
+	Luma	Luma	ຄວາມສະຫວ່າງ (Luma)
+	Luma and Chroma	Luma et chroma	ຄວາມສະຫວ່າງ ແລະ ສີ (Luma ແລະ Chroma)
+	Luma Curve	Courbe de luma	ເສັ້ນໂຄ້ງ Luma
+	Luma Fade	Fondu de luma	ຈາງແບບ Luma
+	Luma Key	Incrustation en luma	ເຈາະພື້ນຫຼັງດ້ວຍຄວາມສະຫວ່າງ (Luma Key)
+	Luma Max	Luminance max.	ຄ່າ Luma ສູງສຸດ
+	Luma Min	Luminance min.	ຄ່າ Luma ຕ່ຳສຸດ
+	Luma Min / Max	Luminance min. / max.	ຄ່າ Luma ຕ່ຳສຸດ / ສູງສຸດ
+	Luma Source	Source de luma	ແຫຼ່ງ Luma
+	Luma vs Sat	Luminance vs saturation	ຄວາມສະຫວ່າງ ທຽບ ຄວາມອີ່ມຕົວສີ
+	Lumetri	Lumetri	Lumetri
+	Lumetri Color	Couleur Lumetri	ສີ Lumetri
+	Lumetri Presets	Préréglages Lumetri	ຄ່າຕັ້ງລ່ວງໜ້າ Lumetri
+	Lumetri Scopes	Oscilloscopes Lumetri	ສະໂຄບ Lumetri
+	Luminance Threshold	Seuil de luminance	ຂີດແບ່ງຄວາມສະຫວ່າງ
+	LUT	LUT	LUT
+	Magnify	Loupe	ແວ່ນຂະຫຍາຍ
+	Magnify (Legacy)	Loupe (ancien)	ແວ່ນຂະຫຍາຍ (ຮຸ່ນເກົ່າ)
+	Main	Main	Main
+	Main (8-bit)	Main (8 bits)	Main (8 ບິດ)
+	Main (8-bit; Main 10 for HDR sequences)	Main (8 bits ; Main 10 pour les séquences HDR)	Main (8 ບິດ; Main 10 ສຳລັບຊີເຄວັນ HDR)
+	Main 10 (10-bit, HDR)	Main 10 (10 bits, HDR)	Main 10 (10 ບິດ, HDR)
+	Maintain pitch while shuttling	Conserver la hauteur tonale pendant le défilement	ຮັກສາລະດັບສຽງສູງຕ່ຳໄວ້ໃນລະຫວ່າງການເລື່ອນໄວ
+	Major Radius	Grand rayon	ລັດສະໝີໃຫຍ່
+	Make Offline	Mettre hors ligne	ເຮັດໃຫ້ອອບໄລນ໌
+	Make Offline…	Rendre hors ligne…	ເຮັດໃຫ້ອອບໄລນ໌…
+	Make Subclip	Créer un sous-clip	ສ້າງຄລິບຍ່ອຍ
+	Make Subclip…	Créer un sous-clip…	ສ້າງຄລິບຍ່ອຍ…
+	Make Subsequence	Créer une sous-séquence	ສ້າງຊີເຄວັນຍ່ອຍ
+	Make {n} selected clip(s) offline. Their clips show the offline slate until you link them again.	Mettre hors ligne {n} clip(s) sélectionné(s). Ces clips affichent le carton hors ligne jusqu'à ce que vous les liiez à nouveau.	ເຮັດໃຫ້ {n} ຄລິບທີ່ເລືອກເປັນອອບໄລນ໌. ຄລິບເຫຼົ່ານັ້ນຈະສະແດງປ້າຍອອບໄລນ໌ຈົນກວ່າທ່ານຈະເຊື່ອມໂຍງພວກມັນອີກຄັ້ງ.
+	Makeup	Compensation	ການຊົດເຊີຍສຽງ
+	Male	Homme	ຊາຍ
+	Manage Guides	Gérer les repères	ຈັດການເສັ້ນນຳ
+	Manage Guides…	Gérer les repères…	ຈັດການເສັ້ນນຳ…
+	Manage Saved View Presets	Gérer les préréglages d'affichage enregistrés	ຈັດການຄ່າຕັ້ງລ່ວງໜ້າມຸມມອງທີ່ບັນທຶກໄວ້
+	Mango	Mangue	ສີໝາກມ່ວງ
+	Map Black To	Associer le noir à	ຈັບຄູ່ສີດຳກັບ
+	Map White To	Associer le blanc à	ຈັບຄູ່ສີຂາວກັບ
+	Maps full-range levels into 16–235 (video range) with a luma curve	Convertit les niveaux pleine plage en 16–235 (plage vidéo) avec une courbe de luma	ແປງລະດັບເຕັມຊ່ວງໃຫ້ເປັນ 16–235 (ຊ່ວງວິດີໂອ) ດ້ວຍເສັ້ນໂຄ້ງ Luma
+	Mark Clip	Marquer le clip	ໝາຍຄລິບ
+	Mark In	Marquer l'entrée	ໝາຍຈຸດເຂົ້າ
+	Mark In (Hover Scrub)	Marquer l'entrée (défilement au survol)	ໝາຍຈຸດເຂົ້າ (ເລື່ອນເມື່ອຊີ້)
+	Mark In (I)	Marquer l'entrée (I)	ໝາຍຈຸດເຂົ້າ (I)
+	Mark Out	Marquer la sortie	ໝາຍຈຸດອອກ
+	Mark Out (Hover Scrub)	Marquer la sortie (défilement au survol)	ໝາຍຈຸດອອກ (ເລື່ອນເມື່ອຊີ້)
+	Mark Out (O)	Marquer la sortie (O)	ໝາຍຈຸດອອກ (O)
+	Mark Selection	Marquer la sélection	ໝາຍສ່ວນທີ່ເລືອກ
+	Mark Split	Marquer la division	ໝາຍຈຸດແຍກ
+	Marker	Marqueur	ເຄື່ອງໝາຍ
+	Markers	Marqueurs	ເຄື່ອງໝາຍ
+	Mask Only	Masque uniquement	ສະເພາະໜ້າກາກ (Mask)
+	Master Amplitude	Amplitude générale	ຄວາມແຮງຫຼັກ
+	Master Gain	Gain principal	ເກນຫຼັກ
+	Master volume: use the Audio Track Mixer	Volume principal : utilisez le Mixeur de pistes audio	ລະດັບສຽງຫຼັກ: ໃຫ້ໃຊ້ຕົວປະສົມແທຣັກສຽງ
+	Master · {name}	Maître · {name}	ຕົ້ນສະບັບ · {name}
+	Mastering	Mastering	ການເຮັດມາສເຕີ (Mastering)
+	Match file properties:	Propriétés de fichier à faire correspondre :	ຄຸນສົມບັດໄຟລ໌ທີ່ຕ້ອງກົງກັນ:
+	Match Frame	Faire correspondre l'image	ຈັບຄູ່ເຟຣມ
+	Match frame sets in point	L'image correspondante définit le point d'entrée	ການຈັບຄູ່ເຟຣມຈະກຳນົດຈຸດເຂົ້າ
+	Match Playhead	Faire correspondre la tête de lecture	ຈັບຄູ່ກັບຫົວອ່ານ
+	Match Source	Identique à la source	ກົງກັບຕົ້ນສະບັບ
+	Match Source ({seq_sr} Hz)	Identique à la source ({seq_sr} Hz)	ກົງກັບຕົ້ນສະບັບ ({seq_sr} Hz)
+	Match Source – Adaptive High Bitrate	Identique à la source – débit adaptatif élevé	ກົງກັບຕົ້ນສະບັບ – ອັດຕາບິດປັບຕົວລະດັບສູງ
+	Match Source – Adaptive Low Bitrate	Identique à la source – débit adaptatif faible	ກົງກັບຕົ້ນສະບັບ – ອັດຕາບິດປັບຕົວລະດັບຕ່ຳ
+	Match Source – Adaptive Medium Bitrate	Identique à la source – débit adaptatif moyen	ກົງກັບຕົ້ນສະບັບ – ອັດຕາບິດປັບຕົວລະດັບກາງ
+	Match {n} of {total}	Résultat {n} sur {total}	ລາຍການທີ່ກົງກັນ {n} ຈາກ {total}
+	Match:	Correspondance :	ກົງກັບ:
+	Matches	Correspond à	ກົງກັບ
+	Matches each of the {n} clips on its own.	Met en correspondance chacun des {n} clips séparément.	ຈັບຄູ່ຄລິບທັງ {n} ຄລິບແຍກກັນເປັນລາຍອັນ.
+	Matte Alpha	Cache alpha	ແຜ່ນບັງອານຟາ (Matte Alpha)
+	Matte Cleanup	Nettoyage du cache	ການປັບແຕ່ງຂອບແຜ່ນບັງ
+	Matte Generation	Génération du cache	ການສ້າງແຜ່ນບັງ
+	Matte Luma	Cache de luma	ແຜ່ນບັງ Luma
+	Maximize Frame	Agrandir le cadre	ຂະຫຍາຍຂອບໃຫ້ເຕັມ
+	Maximize or Restore Active Frame	Agrandir ou restaurer le cadre actif	ຂະຫຍາຍ ຫຼື ຄືນຂະໜາດຂອບທີ່ໃຊ້ງານຢູ່
+	Maximize or Restore Frame Under Cursor	Agrandir ou restaurer le cadre sous le pointeur	ຂະຫຍາຍ ຫຼື ຄືນຂະໜາດຂອບທີ່ຢູ່ກ້ອງເຄີເຊີ
+	Maximum Amplitude	Amplitude maximale	ຄວາມແຮງສູງສຸດ
+	Maximum Bit Depth	Profondeur de bits maximale	ຄວາມເລິກບິດສູງສຸດ
+	Maximum Bitrate	Débit maximal	ອັດຕາບິດສູງສຸດ
+	Maximum Block Size	Taille de bloc maximale	ຂະໜາດບລັອກສູງສຸດ
+	Maximum Blur	Flou maximal	ຄວາມມົວສູງສຸດ
+	Maximum Project Versions	Nombre maximal de versions du projet	ຈຳນວນລຸ້ນສູງສຸດຂອງໂຄງການ
+	Maximum Reduction	Réduction maximale	ການຫຼຸດຜ່ອນສູງສຸດ
+	Maximum Render Quality	Qualité de rendu maximale	ຄຸນນະພາບການປະມວນຜົນສູງສຸດ
+	Maximum Scale	Échelle maximale	ມາດຕາສ່ວນສູງສຸດ
+	MB	Mo	MB
+	Media	Médias	ສື່
+	Media Analysis	Analyse des médias	ການວິເຄາະສື່
+	Media Analysis & Transcription	Analyse et transcription des médias	ການວິເຄາະ ແລະ ຖອດຄວາມສື່
+	Media Analysis & Transcription…	Analyse et transcription des médias…	ການວິເຄາະ ແລະ ຖອດຄວາມສື່…
+	Media analysis and transcriptions will be cached in the Media Cache folder. Reanalysis won't be required if the media is imported into another project on this computer.	Les analyses et transcriptions des médias seront mises en cache dans le dossier du cache des médias. Aucune nouvelle analyse ne sera nécessaire si les médias sont importés dans un autre projet sur cet ordinateur.	ການວິເຄາະ ແລະ ການຖອດຄວາມສື່ຈະຖືກເກັບໄວ້ໃນແຄສຂອງໂຟນເດີແຄສສື່. ຈະບໍ່ຈຳເປັນຕ້ອງວິເຄາະໃໝ່ຖ້ານຳເຂົ້າສື່ໄປຍັງໂຄງການອື່ນໃນຄອມພິວເຕີໜ່ວຍນີ້.
+	Media Browser	Explorateur de médias	ຕົວຄົ້ນຫາສື່
+	Media Browser Settings	Paramètres de l'Explorateur de médias	ການຕັ້ງຄ່າຕົວຄົ້ນຫາສື່
+	Media Cache	Cache des médias	ແຄສສື່
+	Media Cache Database	Base de données du cache des médias	ຖານຂໍ້ມູນແຄສສື່
+	Media Cache Files	Fichiers du cache des médias	ໄຟລ໌ແຄສສື່
+	Media Cache Management	Gestion du cache des médias	ການຈັດການແຄສສື່
+	Media Cache…	Cache des médias…	ແຄສສື່…
+	Media colour space (from file metadata): {detected}	Espace colorimétrique du média (d'après les métadonnées du fichier) : {detected}	ພື້ນທີ່ສີຂອງສື່ (ຈາກຂໍ້ມູນເມຕາຂອງໄຟລ໌): {detected}
+	Media Duration	Durée du média	ໄລຍະເວລາສື່
+	Media End	Fin du média	ຈຸດສິ້ນສຸດສື່
+	Media File	Fichier média	ໄຟລ໌ສື່
+	Media files are deleted	Les fichiers média sont supprimés	ໄຟລ໌ສື່ຖືກລຶບແລ້ວ
+	Media files remain on disk	Les fichiers média restent sur le disque	ໄຟລ໌ສື່ຍັງຄົງຢູ່ໃນດິສກ໌
+	Media missing	Média manquant	ບໍ່ພົບສື່
+	Media Name:	Nom du média :	ຊື່ສື່:
+	Media Source Channels	Canaux source du média	ຊ່ອງຕົ້ນສະບັບຂອງສື່
+	Media Start	Début du média	ຈຸດເລີ່ມຕົ້ນສື່
+	Media Start:	Début du média :	ຈຸດເລີ່ມຕົ້ນສື່:
+	Media Time	Temps du média	ເວລາສື່
+	Media Timecode	Timecode du média	ລະຫັດເວລາສື່
+	Media Type	Type de média	ປະເພດສື່
+	MediaBrowser	Explorateur de médias	ຕົວຄົ້ນຫາສື່
+	MediaCache	Cache des médias	ແຄສສື່
+	Media…	Média…	ສື່…
+	Medium	Moyenne	ປານກາງ
+	Medium Room	Pièce moyenne	ຫ້ອງຂະໜາດກາງ
+	Memory	Mémoire	ໜ່ວຍຄວາມຈຳ
+	Memory…	Mémoire…	ໜ່ວຍຄວາມຈຳ…
+	Merge Captions	Fusionner les sous-titres	ລວມຄຳບັນຍາຍ
+	Merge Clips	Fusionner les clips	ລວມຄລິບ
+	Merge Clips…	Fusionner des clips…	ລວມຄລິບ…
+	Merge selected captions	Fusionner les sous-titres sélectionnés	ລວມຄຳບັນຍາຍທີ່ເລືອກ
+	Merged clip created	Clip fusionné créé	ສ້າງຄລິບທີ່ລວມແລ້ວ
+	Metadata & Timecode Burn-in	Incrustation des métadonnées et du timecode	ຝັງຂໍ້ມູນເມຕາ ແລະ ລະຫັດເວລາລົງພາບ
+	Metadata Display	Affichage des métadonnées	ການສະແດງຂໍ້ມູນເມຕາ
+	Metadata Display…	Affichage des métadonnées…	ການສະແດງຂໍ້ມູນເມຕາ…
+	Meter Input(s) Only	Mesurer uniquement les entrées	ວັດແທກສະເພາະຂາເຂົ້າ
+	Method:	Méthode :	ວິທີການ:
+	Metrics Kerning	Crénage métrique	ໄລຍະຫ່າງຕົວອັກສອນຕາມມາດຕະຖານ
+	Mid	Médiums	ສຽງກາງ
+	Mid Point	Point médian	ຈຸດກຶ່ງກາງ
+	Midtone Blue Balance	Balance du bleu des tons moyens	ສົມດຸນສີຟ້າຂອງໂທນກາງ
+	Midtone Green Balance	Balance du vert des tons moyens	ສົມດຸນສີຂຽວຂອງໂທນກາງ
+	Midtone Red Balance	Balance du rouge des tons moyens	ສົມດຸນສີແດງຂອງໂທນກາງ
+	Midtones Lightness	Luminosité des tons moyens	ຄວາມສະຫວ່າງຂອງໂທນກາງ
+	Milliseconds	Millisecondes	ມິນລິວິນາທີ
+	milliseconds	millisecondes	ມິນລິວິນາທີ
+	Minimize All Tracks	Réduire toutes les pistes	ຫຍໍ້ທຸກແທຣັກ
+	Minimum time	Durée minimale	ເວລາຕ່ຳສຸດ
+	Minimum time interval thinning	Réduction par intervalle de temps minimal	ການຫຼຸດຕາມຊ່ວງເວລາຕ່ຳສຸດ
+	Minor Radius	Petit rayon	ລັດສະໝີນ້ອຍ
+	minute(s)	minute(s)	ນາທີ
+	Mirror Alternate	Miroir alterné	ສະທ້ອນກະຈົກສະຫຼັບກັນ
+	Missing	Introuvable	ບໍ່ພົບ
+	Missing font replacement	Remplacement des polices manquantes	ການແທນທີ່ຟອນຕ໌ທີ່ຂາດຫາຍ
+	MIT OR Apache-2.0. Fonts: Inter, Noto Serif and JetBrains Mono (SIL OFL 1.1).	MIT OR Apache-2.0. Polices : Inter, Noto Serif et JetBrains Mono (SIL OFL 1.1).	MIT ຫຼື Apache-2.0. ຟອນຕ໌: Inter, Noto Serif ແລະ JetBrains Mono (SIL OFL 1.1).
+	Miter join	Jointure en onglet	ການເຊື່ອມມຸມແຫຼມ
+	Miter limit	Limite de l'onglet	ຂີດຈຳກັດມຸມແຫຼມ
+	Mix	Mixage	ປະສົມ
+	Mixdown video	Mixage final de la vidéo	ລວມຜົນວິດີໂອ
+	Mixed Crystals	Cristaux mélangés	ຜະລຶກປະສົມ
+	Mixer	Mixeur	ຕົວປະສົມສຽງ (Mixer)
+	Modern High Gain	Gain élevé moderne	ເກນສູງສະໄໝໃໝ່
+	Modifier held / selected	Modificateur maintenu / sélectionné	ປຸ່ມປັບແຕ່ງທີ່ກົດຄ້າງ / ເລືອກໄວ້
+	Modifiers	Modificateurs	ປຸ່ມປັບແຕ່ງ
+	Modify Clip: Audio Channels	Modifier le clip : canaux audio	ແກ້ໄຂຄລິບ: ຊ່ອງສຽງ
+	Modify Clip: Timecode	Modifier le clip : timecode	ແກ້ໄຂຄລິບ: ລະຫັດເວລາ
+	Modulation	Modulation	ການປັບປ່ຽນຄື້ນ (Modulation)
+	Modulation Rate	Vitesse de modulation	ອັດຕາການປັບປ່ຽນຄື້ນ
+	Mono Media	Médias mono	ສື່ແບບໂມໂນ
+	Monochrome toned cyan-blue	Monochrome viré bleu cyan	ສີດຽວໂທນຟ້າອົມຂຽວ
+	Monochrome toned warm brown	Monochrome viré brun chaud	ສີດຽວໂທນນ້ຳຕານອົບອຸ່ນ
+	Monoscopic	Monoscopique	ພາບທຳມະດາ (Monoscopic)
+	Monospace only	Chasse fixe uniquement	ສະເພາະຟອນຕ໌ຄວາມກວ້າງຄົງທີ່
+	More colour in the less saturated areas	Plus de couleur dans les zones moins saturées	ເພີ່ມສີໃນບໍລິເວນທີ່ມີຄວາມອີ່ມຕົວສີໜ້ອຍ
+	More presets…	Plus de préréglages…	ຄ່າຕັ້ງລ່ວງໜ້າເພີ່ມເຕີມ…
+	Morph Cut	Fondu morphologique	ຕັດຕໍ່ແບບກົມກືນ (Morph Cut)
+	Mosaic (Legacy)	Mosaïque (ancien)	ໂມເສກ (ຮຸ່ນເກົ່າ)
+	Mosaic In	Entrée en mosaïque	ເຂົ້າແບບໂມເສກ
+	Motion Blur	Flou de mouvement	ຄວາມມົວຈາກການເຄື່ອນໄຫວ
+	Motion Camera	Caméra en mouvement	ກ້ອງເຄື່ອນໄຫວ
+	Motion Graphics Template…	Modèle d'animation graphique…	ແມ່ແບບກຣາບຟິກເຄື່ອນໄຫວ…
+	Motion Preset	Préréglage de mouvement	ຄ່າຕັ້ງລ່ວງໜ້າການເຄື່ອນໄຫວ
+	Motion Tween	Interpolation de mouvement	ການເຄື່ອນໄຫວຕໍ່ເນື່ອງ (Tween)
+	Move All Audio Targets Down	Descendre toutes les cibles audio	ຍ້າຍເປົ້າໝາຍສຽງທັງໝົດລົງ
+	Move All Audio Targets Up	Monter toutes les cibles audio	ຍ້າຍເປົ້າໝາຍສຽງທັງໝົດຂຶ້ນ
+	Move All Video Targets Down	Descendre toutes les cibles vidéo	ຍ້າຍເປົ້າໝາຍວິດີໂອທັງໝົດລົງ
+	Move All Video Targets Up	Monter toutes les cibles vidéo	ຍ້າຍເປົ້າໝາຍວິດີໂອທັງໝົດຂຶ້ນ
+	Move clips to the lowest track possible	Déplacer les clips vers la piste la plus basse possible	ຍ້າຍຄລິບໄປຍັງແທຣັກທີ່ຕ່ຳສຸດເທົ່າທີ່ເປັນໄປໄດ້
+	Move Selection Down	Déplacer la sélection vers le bas	ຍ້າຍສ່ວນທີ່ເລືອກລົງ
+	Move Selection End	Déplacer la sélection à la fin	ຍ້າຍສ່ວນທີ່ເລືອກໄປທ້າຍສຸດ
+	Move Selection Home	Déplacer la sélection au début	ຍ້າຍສ່ວນທີ່ເລືອກໄປຕົ້ນສຸດ
+	Move Selection Left	Déplacer la sélection vers la gauche	ຍ້າຍສ່ວນທີ່ເລືອກໄປທາງຊ້າຍ
+	Move Selection Page Down	Déplacer la sélection d'une page vers le bas	ຍ້າຍສ່ວນທີ່ເລືອກລົງໜຶ່ງໜ້າ
+	Move Selection Page Up	Déplacer la sélection d'une page vers le haut	ຍ້າຍສ່ວນທີ່ເລືອກຂຶ້ນໜຶ່ງໜ້າ
+	Move Selection Right	Déplacer la sélection vers la droite	ຍ້າຍສ່ວນທີ່ເລືອກໄປທາງຂວາ
+	Move Selection Up	Déplacer la sélection vers le haut	ຍ້າຍສ່ວນທີ່ເລືອກຂຶ້ນ
+	Move source clips to Processed Clips bin	Déplacer les clips source dans le chutier Clips traités	ຍ້າຍຄລິບຕົ້ນສະບັບໄປຍັງແຟ້ມສື່ຄລິບທີ່ປະມວນຜົນແລ້ວ
+	Movie	Film	ຮູບເງົາ
+	Movie (audio and video)	Film (audio et vidéo)	ຮູບເງົາ (ສຽງ ແລະ ວິດີໂອ)
+	Movies, audio and stills from disk	Films, audio et images fixes depuis le disque	ຮູບເງົາ, ສຽງ ແລະ ພາບນິ້ງຈາກດິສກ໌
+	MPEG-4 audio (.m4a), stereo 48 kHz AAC-LC at 320 kbps	Audio MPEG-4 (.m4a), AAC-LC stéréo 48 kHz à 320 kbps	ສຽງ MPEG-4 (.m4a), ສະເຕີລິໂອ 48 kHz AAC-LC ທີ່ 320 kbps
+	Multi-Camera	Multicaméra	ຫຼາຍກ້ອງ
+	Multi-Camera Audio Follows Video	L'audio multicaméra suit la vidéo	ສຽງຫຼາຍກ້ອງຕິດຕາມວິດີໂອ
+	Multi-Camera Layout	Disposition multicaméra	ການຈັດວາງຫຼາຍກ້ອງ
+	Multi-Camera Record	Enregistrement multicaméra	ການບັນທຶກຫຼາຍກ້ອງ
+	Multi-Camera Record off	Enregistrement multicaméra désactivé	ປິດການບັນທຶກຫຼາຍກ້ອງ
+	Multi-Camera Record on	Enregistrement multicaméra activé	ເປີດການບັນທຶກຫຼາຍກ້ອງ
+	Multi-Camera Record On/Off (0)	Activer/désactiver l'enregistrement multicaméra (0)	ເປີດ/ປິດ ການບັນທຶກຫຼາຍກ້ອງ (0)
+	Multi-Camera Record On/Off Toggle	Activer/désactiver l'enregistrement multicaméra	ສະຫຼັບ ເປີດ/ປິດ ການບັນທຶກຫຼາຍກ້ອງ
+	Multi-Camera Selection Top Down	Sélection multicaméra de haut en bas	ການເລືອກຫຼາຍກ້ອງຈາກເທິງລົງລຸ່ມ
+	Multi-camera source sequence with {n} camera(s)	Séquence source multicaméra avec {n} caméra(s)	ຊີເຄວັນຕົ້ນສະບັບຫຼາຍກ້ອງທີ່ມີ {n} ກ້ອງ
+	Multi-Camera View	Vue multicaméra	ມຸມມອງຫຼາຍກ້ອງ
+	Multiband Compressor	Compresseur multibande	ຕົວບີບອັດສຽງຫຼາຍຍ່ານຄວາມຖີ່
+	Multicam	Multicaméra	ຫຼາຍກ້ອງ
+	Multichannel Mono Media	Médias mono multicanaux	ສື່ໂມໂນຫຼາຍຊ່ອງ
+	Multiple Clips Selected	Plusieurs clips sélectionnés	ເລືອກໄວ້ຫຼາຍຄລິບ
+	Multiplexer	Multiplexeur	ຕົວລວມສັນຍານ (Multiplexer)
+	Multiply	Multiplier	ຄູນ (Multiply)
+	Multitap Delay	Retard multiprise	ດີເລຫຼາຍຈັງຫວະ
+	Music	Musique	ດົນຕີ
+	Mute	Couper le son	ປິດສຽງ
+	Mute input during timeline recording	Couper le son de l'entrée pendant l'enregistrement dans la timeline	ປິດສຽງຂາເຂົ້າລະຫວ່າງການບັນທຶກລົງໃນທາມລາຍ
+	Mute Send	Couper le son de l'envoi	ປິດສຽງຊ່ອງສົ່ງອອກ
+	MXF export writes integer PCM only	L’export MXF n’écrit que du PCM entier	ການສົ່ງອອກ MXF ຂຽນສະເພາະ PCM ຈຳນວນຖ້ວນເທົ່ານັ້ນ
+	MXF OP-Atom	MXF OP-Atom	MXF OP-Atom
+	MXF OP-Atom DNxHR (Avid)	MXF OP-Atom DNxHR (Avid)	MXF OP-Atom DNxHR (Avid)
+	MXF OP1a	MXF OP1a	MXF OP1a
+	MXF OP1a DNxHR HQ	MXF OP1a DNxHR HQ	MXF OP1a DNxHR HQ
+	MXF OP1a H.264	MXF OP1a H.264	MXF OP1a H.264
+	MXF OP1a ProRes 422 HQ	MXF OP1a ProRes 422 HQ	MXF OP1a ProRes 422 HQ
+	MXF OP1a, DNxHR HQ (8-bit 4:2:2), 24-bit 48 kHz PCM, start timecode	MXF OP1a, DNxHR HQ (8 bits 4:2:2), PCM 24 bits 48 kHz, timecode de début	MXF OP1a, DNxHR HQ (8 ບິດ 4:2:2), PCM 24 ບິດ 48 kHz, ລະຫັດເວລາເລີ່ມຕົ້ນ
+	MXF OP1a, H.264 High long GOP (0.3 bits per pixel), 24-bit 48 kHz PCM	MXF OP1a, H.264 High GOP long (0,3 bit par pixel), PCM 24 bits 48 kHz	MXF OP1a, H.264 High long GOP (0.3 ບິດຕໍ່ພິກເຊລ), PCM 24 ບິດ 48 kHz
+	MXF OP1a, ProRes 422 HQ, 24-bit 48 kHz PCM, start timecode	MXF OP1a, ProRes 422 HQ, PCM 24 bits 48 kHz, timecode de début	MXF OP1a, ProRes 422 HQ, PCM 24 ບິດ 48 kHz, ລະຫັດເວລາເລີ່ມຕົ້ນ
+	My Shortcuts	Mes raccourcis	ປຸ່ມລັດຂອງຂ້ອຍ
+	My Templates	Mes modèles	ແມ່ແບບຂອງຂ້ອຍ
+	Name and role on a coloured slab that widens with the name.	Nom et fonction sur un bloc coloré qui s'élargit avec le nom.	ຊື່ ແລະ ບົດບາດເທິງແຖບສີທີ່ຂະຫຍາຍກວ້າງຕາມຄວາມຍາວຂອງຊື່.
+	Name Color	Couleur du nom	ສີຂອງຊື່
+	Name over a thin rule that always matches the name's width.	Nom sur un filet fin qui épouse toujours la largeur du nom.	ຊື່ເທິງເສັ້ນບາງທີ່ປັບຄວາມກວ້າງໃຫ້ພໍດີກັບຊື່ສະເໝີ.
+	Name Overlay	Superposition du nom	ແຖບຊື່ຊ້ອນທັບ
+	Name Size	Taille du nom	ຂະໜາດຊື່
+	Narrow	Étroit	ແຄບ
+	Navigate to End of Segment	Aller à la fin du segment	ໄປທີ່ທ້າຍຊ່ວງ
+	Navigate to Next Line	Aller à la ligne suivante	ໄປທີ່ແຖວຖັດໄປ
+	Navigate to Next Word	Aller au mot suivant	ໄປທີ່ຄຳຖັດໄປ
+	Navigate to Previous Line	Aller à la ligne précédente	ໄປທີ່ແຖວກ່ອນໜ້າ
+	Navigate to Previous Word	Aller au mot précédent	ໄປທີ່ຄຳກ່ອນໜ້າ
+	Navigate to Start of Segment	Aller au début du segment	ໄປທີ່ຕົ້ນຊ່ວງ
+	Neon Color	Couleur néon	ສີນີອອນ
+	Neon Wipe	Balayage néon	ປັດພາບແບບນີອອນ
+	Nested Sequence Name	Nom de la séquence imbriquée	ຊື່ຊີເຄວັນຊ້ອນ
+	Nest…	Imbriquer…	ສ້າງຊີເຄວັນຊ້ອນ…
+	Network	Réseau	ເຄືອຂ່າຍ
+	Neutral Mono	Monochrome neutre	ຂາວດຳໂທນກາງ
+	New Bin	Nouveau chutier	ແຟ້ມສື່ໃໝ່
+	New Bin From Selection	Nouveau chutier à partir de la sélection	ສ້າງແຟ້ມສື່ໃໝ່ຈາກສ່ວນທີ່ເລືອກ
+	New Color Matte	Nouveau cache couleur	ແຜ່ນສີພື້ນໃໝ່
+	New Ellipse	Nouvelle ellipse	ຮູບວົງຣີໃໝ່
+	New Item	Nouvel élément	ລາຍການໃໝ່
+	New Media Browser Panel	Nouveau panneau Explorateur de médias	ແຜງຕົວຄົ້ນຫາສື່ໃໝ່
+	New Offline File	Nouveau fichier hors ligne	ໄຟລ໌ອອບໄລນ໌ໃໝ່
+	New Project Panel	Nouveau panneau Projet	ແຜງໂຄງການໃໝ່
+	New Project Shortcut	Nouveau raccourci de projet	ປຸ່ມລັດໂຄງການໃໝ່
+	New Rectangle	Nouveau rectangle	ຮູບສີ່ຫຼ່ຽມສາກໃໝ່
+	New Search Bin	Nouveau chutier de recherche	ແຟ້ມຄົ້ນຫາໃໝ່
+	New Sequence	Nouvelle séquence	ຊີເຄວັນໃໝ່
+	New Sequence From Clip	Nouvelle séquence à partir du clip	ສ້າງຊີເຄວັນໃໝ່ຈາກຄລິບ
+	New Submix	Nouveau sous-mixage	ຊັບມິກໃໝ່
+	New Text	Nouveau texte	ຂໍ້ຄວາມໃໝ່
+	New Text Layer	Nouveau calque de texte	ຊັ້ນຂໍ້ຄວາມໃໝ່
+	New {format} track	Nouvelle piste {format}	ແທຣັກ {format} ໃໝ່
+	Next in Sequence	Suivant dans la séquence	ຖັດໄປໃນຊີເຄວັນ
+	Next in Track	Suivant dans la piste	ຖັດໄປໃນແທຣັກ
+	Next Multi-Camera Page	Page multicaméra suivante	ໜ້າຫຼາຍກ້ອງຖັດໄປ
+	Next to original media files	À côté des fichiers médias d'origine	ຢູ່ຂ້າງໄຟລ໌ສື່ຕົ້ນສະບັບ
+	Next to the media	À côté des médias	ຢູ່ຂ້າງສື່
+	Next to the original media, in a Proxies folder	À côté des médias d'origine, dans un dossier Proxies	ຢູ່ຂ້າງສື່ຕົ້ນສະບັບ, ໃນໂຟນເດີ Proxies
+	Night	Nuit	ກາງຄືນ
+	Night Exterior	Extérieur nuit	ນອກອາຄານຕອນກາງຄືນ
+	No background jobs.	Aucune tâche en arrière-plan.	ບໍ່ມີວຽກທີ່ເຮັດຢູ່ເບື້ອງຫຼັງ.
+	No candidates yet — Search a folder or Locate the file.	Aucun candidat pour l'instant — recherchez dans un dossier ou localisez le fichier.	ຍັງບໍ່ມີໄຟລ໌ທີ່ກົງກັນ — ໃຫ້ຄົ້ນຫາໃນໂຟນເດີ ຫຼື ຊອກຫາຕຳແໜ່ງໄຟລ໌.
+	No captions on this track. Press + to add one at the playhead.	Aucun sous-titre sur cette piste. Appuyez sur + pour en ajouter un à la tête de lecture.	ບໍ່ມີຄຳບັນຍາຍໃນແທຣັກນີ້. ກົດ + ເພື່ອເພີ່ມຢູ່ຕຳແໜ່ງຫົວອ່ານ.
+	no Chinese font is installed on this system; the interface stays in English	aucune police chinoise n'est installée sur ce système ; l'interface reste en anglais	ບໍ່ໄດ້ຕິດຕັ້ງຟອນຕ໌ພາສາຈີນໃນລະບົບນີ້; ສ່ວນຕິດຕໍ່ຜູ້ໃຊ້ຈະຍັງເປັນພາສາອັງກິດ
+	No contributor data was built into this copy.	Aucune donnée de contributeurs n'est intégrée à cette copie.	ບໍ່ມີຂໍ້ມູນຜູ້ປະກອບສ່ວນຕິດມາໃນສຳເນົາຊຸດນີ້.
+	No effects	Aucun effet	ບໍ່ມີເອັບເຟັກ
+	No events.	Aucun événement.	ບໍ່ມີເຫດການ.
+	No export preset named `{name}`	Aucun préréglage d'exportation nommé `{name}`	ບໍ່ມີຄ່າຕັ້ງລ່ວງໜ້າການສົ່ງອອກທີ່ຊື່ `{name}`
+	No Fields (Progressive Scan)	Aucune trame (balayage progressif)	ບໍ່ມີຟິວ (ສະແກນແບບຕໍ່ເນື່ອງ)
+	no GPU adapter: the CPU compositor is used	aucun adaptateur GPU : le compositeur CPU est utilisé	ບໍ່ມີອຸປະກອນ GPU: ຈະໃຊ້ຕົວລວມພາບຂອງ CPU ແທນ
+	no Japanese font is installed on this system; the interface stays in English	aucune police japonaise n'est installée sur ce système ; l'interface reste en anglais	ບໍ່ໄດ້ຕິດຕັ້ງຟອນຕ໌ພາສາຍີ່ປຸ່ນໃນລະບົບນີ້; ສ່ວນຕິດຕໍ່ຜູ້ໃຊ້ຈະຍັງເປັນພາສາອັງກິດ
+	no Korean font is installed on this system; the interface stays in English	aucune police coréenne n'est installée sur ce système ; l'interface reste en anglais	ບໍ່ໄດ້ຕິດຕັ້ງຟອນຕ໌ພາສາເກົາຫຼີໃນລະບົບນີ້; ສ່ວນຕິດຕໍ່ຜູ້ໃຊ້ຈະຍັງເປັນພາສາອັງກິດ
+	No markers. Press M to add one.	Aucun marqueur. Appuyez sur M pour en ajouter un.	ບໍ່ມີເຄື່ອງໝາຍ. ກົດ M ເພື່ອເພີ່ມ.
+	No matching captions.	Aucun sous-titre correspondant.	ບໍ່ພົບຄຳບັນຍາຍທີ່ກົງກັນ.
+	No model credits were built into this copy.	Aucun crédit de modèle n'est intégré à cette copie.	ບໍ່ມີຂໍ້ມູນເຄຣດິດໂມເດລຕິດມາໃນສຳເນົາຊຸດນີ້.
+	No Motion	Aucun mouvement	ບໍ່ມີການເຄື່ອນໄຫວ
+	No multi-camera clip at the playhead	Aucun clip multicaméra à la tête de lecture	ບໍ່ມີຄລິບຫຼາຍກ້ອງຢູ່ຕຳແໜ່ງຫົວອ່ານ
+	No plugins are installed. Changes will take effect the next time you start FilmCraft.	Aucun plug-in n'est installé. Les modifications prendront effet au prochain démarrage de FilmCraft.	ບໍ່ມີປລັກອິນຕິດຕັ້ງຢູ່. ການປ່ຽນແປງຈະມີຜົນໃນຄັ້ງຕໍ່ໄປທີ່ທ່ານເປີດ FilmCraft.
+	No saved guide templates.	Aucun modèle de repères enregistré.	ບໍ່ມີແມ່ແບບເສັ້ນນຳທີ່ບັນທຶກໄວ້.
+	No Scroll	Aucun défilement	ບໍ່ເລື່ອນ
+	No templates match.	Aucun modèle ne correspond.	ບໍ່ມີແມ່ແບບທີ່ກົງກັນ.
+	Noise & Grain	Bruit et grain	ສັນຍານລົບກວນ ແລະ ເມັດສີ
+	Noise (Legacy)	Bruit (ancien)	ສັນຍານລົບກວນ (ຮຸ່ນເກົ່າ)
+	Noise Level	Niveau de bruit	ລະດັບສັນຍານລົບກວນ
+	Noise Reduction/Restoration	Réduction du bruit/restauration	ການຫຼຸດສຽງລົບກວນ/ຟື້ນຟູສຽງ
+	Noise Type	Type de bruit	ປະເພດສັນຍານລົບກວນ
+	Non-Additive Dissolve	Fondu enchaîné non additif	ລະລາຍພາບແບບບໍ່ບວກເພີ່ມ
+	Normalize All Peaks to:	Normaliser tous les pics à :	ປັບລະດັບສູງສຸດທັງໝົດເປັນ:
+	Normalize Max Peak to:	Normaliser le pic maximal à :	ປັບລະດັບສູງສຸດເປັນ:
+	Normalize Mix Track	Normaliser la piste de mixage	ປັບລະດັບມາດຕະຖານແທຣັກປະສົມ
+	Normalize Mix Track to:	Normaliser la piste de mixage à :	ປັບລະດັບແທຣັກປະສົມເປັນ:
+	Normalize Mix Track…	Normaliser la piste de mixage…	ປັບລະດັບມາດຕະຖານແທຣັກປະສົມ…
+	not available in this session	non disponible dans cette session	ບໍ່ສາມາດໃຊ້ງານໄດ້ໃນເຊສຊັນນີ້
+	Not matched yet	Pas encore mis en correspondance	ຍັງບໍ່ໄດ້ຈັບຄູ່ເທື່ອ
+	Not Now	Pas maintenant	ຍັງບໍ່ແມ່ນຕອນນີ້
+	Not supported by FilmCraft's encoders yet	Pas encore pris en charge par les encodeurs de FilmCraft	ຍັງບໍ່ຮອງຮັບໂດຍຕົວເຂົ້າລະຫັດຂອງ FilmCraft ເທື່ອ
+	Not supported in FilmCraft yet	Pas encore pris en charge dans FilmCraft	ຍັງບໍ່ຮອງຮັບໃນ FilmCraft ເທື່ອ
+	Notch 1	Coupe-bande 1	ຕັດແຖບຄວາມຖີ່ 1
+	Notch 2	Coupe-bande 2	ຕັດແຖບຄວາມຖີ່ 2
+	Notch 3	Coupe-bande 3	ຕັດແຖບຄວາມຖີ່ 3
+	Notch 4	Coupe-bande 4	ຕັດແຖບຄວາມຖີ່ 4
+	Notch 5	Coupe-bande 5	ຕັດແຖບຄວາມຖີ່ 5
+	Notch 6	Coupe-bande 6	ຕັດແຖບຄວາມຖີ່ 6
+	Notch Filter	Filtre coupe-bande	ຟິວເຕີຕັດແຖບຄວາມຖີ່
+	Notch Width	Largeur du coupe-bande	ຄວາມກວ້າງຂອງແຖບທີ່ຕັດ
+	Notes for this project: to-dos, instructions, frame numbers… Saved with the project.	Notes pour ce projet : tâches, instructions, numéros d'image… Enregistrées avec le projet.	ບັນທຶກສຳລັບໂຄງການນີ້: ສິ່ງທີ່ຕ້ອງເຮັດ, ຄຳແນະນຳ, ເລກເຟຣມ… ຈະຖືກບັນທຶກໄວ້ກັບໂຄງການ.
+	Nothing found with that name.	Aucun élément trouvé avec ce nom.	ບໍ່ພົບລາຍການໃດທີ່ມີຊື່ນັ້ນ.
+	Nothing is assigned to this key	Rien n'est attribué à cette touche	ບໍ່ມີຄຳສັ່ງໃດຖືກກຳນົດໃຫ້ປຸ່ມນີ້
+	Nudge Clip Selection Down	Déplacer la sélection de clips vers le bas	ຂະຫຍັບຄລິບທີ່ເລືອກລົງ
+	Nudge Clip Selection Left Five Frames	Déplacer la sélection de clips de cinq images vers la gauche	ຂະຫຍັບຄລິບທີ່ເລືອກໄປຊ້າຍ 5 ເຟຣມ
+	Nudge Clip Selection Left One Frame	Déplacer la sélection de clips d'une image vers la gauche	ຂະຫຍັບຄລິບທີ່ເລືອກໄປຊ້າຍ 1 ເຟຣມ
+	Nudge Clip Selection Right Five Frames	Déplacer la sélection de clips de cinq images vers la droite	ຂະຫຍັບຄລິບທີ່ເລືອກໄປຂວາ 5 ເຟຣມ
+	Nudge Clip Selection Right One Frame	Déplacer la sélection de clips d'une image vers la droite	ຂະຫຍັບຄລິບທີ່ເລືອກໄປຂວາ 1 ເຟຣມ
+	Nudge Clip Selection Up	Déplacer la sélection de clips vers le haut	ຂະຫຍັບຄລິບທີ່ເລືອກຂຶ້ນ
+	Nudge Selected Object down by five	Déplacer l'objet sélectionné de cinq unités vers le bas	ຂະຫຍັບວັດຖຸທີ່ເລືອກລົງ 5 ໜ່ວຍ
+	Nudge Selected Object down by one	Déplacer l'objet sélectionné d'une unité vers le bas	ຂະຫຍັບວັດຖຸທີ່ເລືອກລົງ 1 ໜ່ວຍ
+	Nudge Selected Object to left by five	Déplacer l'objet sélectionné de cinq unités vers la gauche	ຂະຫຍັບວັດຖຸທີ່ເລືອກໄປຊ້າຍ 5 ໜ່ວຍ
+	Nudge Selected Object to left by one	Déplacer l'objet sélectionné d'une unité vers la gauche	ຂະຫຍັບວັດຖຸທີ່ເລືອກໄປຊ້າຍ 1 ໜ່ວຍ
+	Nudge Selected Object to right by five	Déplacer l'objet sélectionné de cinq unités vers la droite	ຂະຫຍັບວັດຖຸທີ່ເລືອກໄປຂວາ 5 ໜ່ວຍ
+	Nudge Selected Object to right by one	Déplacer l'objet sélectionné d'une unité vers la droite	ຂະຫຍັບວັດຖຸທີ່ເລືອກໄປຂວາ 1 ໜ່ວຍ
+	Nudge Selected Object up by five	Déplacer l'objet sélectionné de cinq unités vers le haut	ຂະຫຍັບວັດຖຸທີ່ເລືອກຂຶ້ນ 5 ໜ່ວຍ
+	Nudge Selected Object up by one	Déplacer l'objet sélectionné d'une unité vers le haut	ຂະຫຍັບວັດຖຸທີ່ເລືອກຂຶ້ນ 1 ໜ່ວຍ
+	Nudge Volume +1dB	Ajuster le volume de +1 dB	ປັບລະດັບສຽງ +1dB
+	Nudge Volume +3dB	Ajuster le volume de +3 dB	ປັບລະດັບສຽງ +3dB
+	Nudge Volume -1dB	Ajuster le volume de -1 dB	ປັບລະດັບສຽງ -1dB
+	Nudge Volume -3dB	Ajuster le volume de -3 dB	ປັບລະດັບສຽງ -3dB
+	Number of Audio Clips:	Nombre de clips audio :	ຈຳນວນຄລິບສຽງ:
+	Number of Channels:	Nombre de canaux :	ຈຳນວນຊ່ອງ:
+	Number Of Echoes	Nombre d'échos	ຈຳນວນສຽງສະທ້ອນ
+	Number of Harmonics	Nombre d'harmoniques	ຈຳນວນຮາໂມນິກ
+	Numbered BMP stills (24-bit)	Images fixes BMP numérotées (24 bits)	ພາບນິ້ງ BMP ທີ່ມີເລກລຳດັບ (24 ບິດ)
+	Numbered PNG stills at the sequence's frame size	Images fixes PNG numérotées à la taille d'image de la séquence	ພາບນິ້ງ PNG ທີ່ມີເລກລຳດັບຕາມຂະໜາດເຟຣມຂອງຊີເຄວັນ
+	Numbered TIFF stills (RGB, 8-bit)	Images fixes TIFF numérotées (RGB, 8 bits)	ພາບນິ້ງ TIFF ທີ່ມີເລກລຳດັບ (RGB, 8 ບິດ)
+	Obsolete	Obsolètes	ລ້າສະໄໝ
+	Offline All	Tout mettre hors ligne	ເຮັດໃຫ້ອອບໄລນ໌ທັງໝົດ
+	Offline File…	Fichier hors ligne…	ໄຟລ໌ອອບໄລນ໌…
+	Offset (Turbulence)	Décalage (turbulence)	ຄ່າຊົດເຊີຍ (ຄວາມປັ່ນປ່ວນ)
+	Offset Audio by:	Décaler l'audio de :	ເລື່ອນສຽງອອກໄປ:
+	Offset From	Décaler depuis	ເລື່ອນຈາກ
+	Offset To	Décaler jusqu'à	ເລື່ອນໄປຫາ
+	Offset:	Décalage :	ໄລຍະເລື່ອນ:
+	OMF Export Settings	Paramètres d'exportation OMF	ການຕັ້ງຄ່າການສົ່ງອອກ OMF
+	OMF Title:	Titre OMF :	ຊື່ຫົວຂໍ້ OMF:
+	OMF…	OMF…	OMF…
+	Omni	Omni	ຮອບທິດທາງ (Omni)
+	On	Activé	ເປີດ
+	On Original Image	Sur l'image d'origine	ເທິງພາບຕົ້ນສະບັບ
+	On Transparent	Sur fond transparent	ເທິງພື້ນຫຼັງໂປ່ງໃສ
+	Opacity 0 → 100 % over the first second	Opacité 0 → 100 % sur la première seconde	ຄວາມທຶບແສງ 0 → 100 % ໃນວິນາທີທຳອິດ
+	Opacity 100 → 0 % over the last second	Opacité 100 → 0 % sur la dernière seconde	ຄວາມທຶບແສງ 100 → 0 % ໃນວິນາທີສຸດທ້າຍ
+	Open a sequence to export	Ouvrez une séquence à exporter	ເປີດຊີເຄວັນເພື່ອສົ່ງອອກ
+	Open a sequence to see its transcript	Ouvrez une séquence pour voir sa transcription	ເປີດຊີເຄວັນເພື່ອເບິ່ງບົດຖອດຄວາມ
+	Open a sequence to work with captions	Ouvrez une séquence pour travailler sur les sous-titres	ເປີດຊີເຄວັນເພື່ອເຮັດວຽກກັບຄຳບັນຍາຍ
+	Open Air	Plein air	ກາງແຈ້ງ
+	Open Bin	Ouvrir le chutier	ເປີດແຟ້ມສື່
+	Open Demo Project	Ouvrir le projet de démonstration	ເປີດໂຄງການຕົວຢ່າງ
+	Open in New Tab	Ouvrir dans un nouvel onglet	ເປີດໃນແຖບໃໝ່
+	Open in New Window	Ouvrir dans une nouvelle fenêtre	ເປີດໃນໜ້າຕ່າງໃໝ່
+	Open in new window	Ouvrir dans une nouvelle fenêtre	ເປີດໃນໜ້າຕ່າງໃໝ່
+	Open in Place	Ouvrir sur place	ເປີດໃນຕຳແໜ່ງເດີມ
+	Open in place	Ouvrir sur place	ເປີດໃນຕຳແໜ່ງເດີມ
+	Open In Source Monitor	Ouvrir dans le moniteur source	ເປີດໃນຈໍຕົ້ນສະບັບ
+	Open in Source Monitor	Ouvrir dans le moniteur source	ເປີດໃນຈໍຕົ້ນສະບັບ
+	Open in Timeline	Ouvrir dans la timeline	ເປີດໃນທາມລາຍ
+	Open Ingest Settings	Ouvrir les paramètres d'ingestion	ເປີດການຕັ້ງຄ່າການນຳເຂົ້າສື່
+	Open Most Recent	Ouvrir le plus récent	ເປີດລາຍການຫຼ້າສຸດ
+	Open new tab	Ouvrir un nouvel onglet	ເປີດແຖບໃໝ່
+	Open Project…	Ouvrir un projet…	ເປີດໂຄງການ…
+	Open Search	Ouvrir la recherche	ເປີດການຄົ້ນຫາ
+	Opened {url}	{url} ouvert	ເປີດ {url} ແລ້ວ
+	Opens up the shadows	Débouche les tons foncés	ເປີດລາຍລະອຽດໃນສ່ວນມືດ
+	OpenTimelineIO…	OpenTimelineIO…	OpenTimelineIO…
+	Optical Flow	Flux optique	ການໄຫຼທາງແສງ (Optical Flow)
+	Order	Ordre	ລຳດັບ
+	Ordering:	Ordre :	ການຈັດລຳດັບ:
+	Out	Sortie	ອອກ
+	out	sortie	ອອກ
+	Out Point	Point de sortie	ຈຸດອອກ
+	Out Points	Points de sortie	ຈຸດອອກ
+	Out: {name}	Sortie : {name}	ອອກ: {name}
+	Outer	Extérieur	ດ້ານນອກ
+	Outgoing	Sortant	ຂາອອກ
+	Output Gain	Gain de sortie	ເກນຂາອອກ
+	Output Mapping	Affectation des sorties	ການຈັບຄູ່ຊ່ອງອອກ
+	Outro Duration	Durée de la conclusion	ໄລຍະເວລາສ່ວນປິດ
+	Outside Color	Couleur extérieure	ສີດ້ານນອກ
+	Overflow	Dépassement	ລົ້ນຂອບ
+	Overlay	Superposition	ຊ້ອນທັບ (Overlay)
+	Override media colour space:	Remplacer l'espace colorimétrique du média :	ແທນທີ່ພື້ນທີ່ສີຂອງສື່:
+	Overshoot	Dépassement de crête	ສັນຍານເກີນຂີດຈຳກັດ
+	Overwrite	Écraser	ວາງທັບ
+	Overwrite (.)	Écraser (.)	ວາງທັບ (.)
+	Overwrite Edit	Montage par écrasement	ການຕັດຕໍ່ແບບວາງທັບ
+	Overwrite with Current View	Remplacer par la vue actuelle	ວາງທັບດ້ວຍມຸມມອງປັດຈຸບັນ
+	Page Peel	Page décollée	ລອກໜ້າເຈ້ຍ
+	Page Scroll	Défilement de page	ເລື່ອນໜ້າ
+	Page Turn	Page tournée	ພິກໜ້າເຈ້ຍ
+	Paint Bucket	Pot de peinture	ຖັງສີ
+	Paint On Black	Peindre sur du noir	ລະບາຍສີເທິງພື້ນດຳ
+	Paint On Original Image	Peindre sur l'image d'origine	ລະບາຍສີເທິງພາບຕົ້ນສະບັບ
+	Paint On Transparent	Peindre sur fond transparent	ລະບາຍສີເທິງພື້ນຫຼັງໂປ່ງໃສ
+	Paint On White	Peindre sur fond blanc	ລະບາຍສີເທິງພື້ນຂາວ
+	Paint Style	Style de peinture	ຮູບແບບການລະບາຍສີ
+	Paint Surface	Surface de peinture	ພື້ນຜິວການລະບາຍສີ
+	Pan	Panoramique	ແພນ (Pan)
+	Pan (Y Axis)	Panoramique (axe Y)	ແພນ (ແກນ Y)
+	Pan / balance (drag; double-click: centre)	Panoramique / balance (faites glisser ; double-clic : centre)	ແພນ / ສົມດຸນ (ລາກ; ດັບເບິນຄລິກ: ຈຸດກາງ)
+	Panel shortcuts override application shortcuts while that panel has focus	Les raccourcis de panneau remplacent ceux de l'application tant que ce panneau est actif	ປຸ່ມລັດຂອງແຜງຈະໃຊ້ແທນປຸ່ມລັດຂອງແອັບພລິເຄຊັນໃນຂະນະທີ່ແຜງນັ້ນຖືກເລືອກຢູ່
+	Panel Wipe	Balayage par panneaux	ປັດພາບແບບແຜງ
+	Panner	Panoramique	ຕົວແພນສຽງ
+	Panner - Ambisonics	Panoramique - Ambisonics	ຕົວແພນສຽງ - Ambisonics
+	Parade	Parade	ພາເຣດ (Parade)
+	Parade (RGB)	Parade (RGB)	ພາເຣດ (RGB)
+	Parade ({kind})	Parade ({kind})	ພາເຣດ ({kind})
+	Parade Type	Type de parade	ປະເພດພາເຣດ
+	Paragraph Text	Texte de paragraphe	ຂໍ້ຄວາມແບບຫຍໍ້ໜ້າ
+	Parametric Equalizer	Égaliseur paramétrique	ອີຄວໍໄລເຊີແບບພາຣາມິເຕີ
+	Passband Ripple	Ondulation de la bande passante	ຄື້ນກະເພື່ອມໃນຊ່ວງຄວາມຖີ່ຜ່ານ
+	Paste Attributes	Coller les attributs	ວາງຄຸນສົມບັດ
+	Paste Attributes…	Coller les attributs…	ວາງຄຸນສົມບັດ…
+	Paste Insert	Coller en insertion	ວາງແບບແຊກ
+	Path Points	Points du tracé	ຈຸດຂອງເສັ້ນທາງ
+	Path: {path}	Chemin : {path}	ເສັ້ນທາງ: {path}
+	Pause Media Encoder queue during playback	Suspendre la file d'encodage pendant la lecture	ຢຸດຄິວຕົວເຂົ້າລະຫັດສື່ຊົ່ວຄາວລະຫວ່າງການຫຼິ້ນ
+	Paused Resolution	Résolution en pause	ຄວາມລະອຽດເມື່ອຢຸດຊົ່ວຄາວ
+	Peak Amplitude: {peak}	Amplitude de crête : {peak}	ຄວາມແຮງສູງສຸດ: {peak}
+	Peak Frequency	Fréquence de crête	ຄວາມຖີ່ຈຸດສູງສຸດ
+	Peak Gain	Gain de crête	ເກນຈຸດສູງສຸດ
+	Pedestal	Piédestal	ລະດັບພື້ນຖານ (Pedestal)
+	Per line	Par ligne	ຕໍ່ແຖວ
+	Percent Blur	Pourcentage de flou	ເປີເຊັນຄວາມມົວ
+	Phase Difference	Différence de phase	ຄວາມຕ່າງເຟສ
+	Phaser	Phaser	ເຟເຊີ (Phaser)
+	Phone Call	Appel téléphonique	ສາຍໂທລະສັບ
+	Phosphor	Phosphore	ຟອສຟໍ
+	Phosphor Color	Couleur du phosphore	ສີຟອສຟໍ
+	Photocopy Color	Couleur de photocopie	ສີສຳເນົາເອກະສານ
+	Picture-in-picture: 35 % scale in the upper right	Image dans l'image : échelle de 35 % en haut à droite	ພາບຊ້ອນພາບ: ຂະໜາດ 35 % ຢູ່ມຸມຂວາເທິງ
+	Pillow	Coussin	ຂອບນູນ (Pillow)
+	Pin All	Tout épingler	ປັກໝຸດທັງໝົດ
+	Pin Horizontal	Épingler horizontalement	ປັກໝຸດແນວນອນ
+	Pin To	Épingler à	ປັກໝຸດໄປທີ່
+	Pin Vertical	Épingler verticalement	ປັກໝຸດແນວຕັ້ງ
+	Pinned Edges	Bords épinglés	ຂອບທີ່ປັກໝຸດໄວ້
+	Pinning	Épinglage	ການປັກໝຸດ
+	PiP 35% Upper Right	PiP 35 % en haut à droite	PiP 35% ມຸມຂວາເທິງ
+	Pitch Shifter	Modificateur de hauteur	ຕົວປ່ຽນລະດັບສຽງສູງຕ່ຳ
+	Pixel Aspect Ratio:	Rapport L/H des pixels :	ອັດຕາສ່ວນພິກເຊລ:
+	Place files dropped onto the Timeline directly on the Timeline	Placer les fichiers déposés sur la timeline directement dans la timeline	ວາງໄຟລ໌ທີ່ລາກມາໃສ່ທາມລາຍລົງໃນທາມລາຍໂດຍກົງ
+	Placement	Emplacement	ການຈັດວາງ
+	Placement:	Placement :	ການຈັດວາງ:
+	Plate	Plaque	ແຜ່ນໂລຫະ (Plate)
+	Plateau Wipe	Balayage en plateaux	ປັດພາບແບບແທ່ນ
+	Plateaus	Plateaux	ແທ່ນພຽງ
+	Plates	Plaques	ແຜ່ນ
+	Play after rendering previews	Lire après le rendu des aperçus	ຫຼິ້ນຫຼັງຈາກປະມວນຜົນພາບຕົວຢ່າງແລ້ວ
+	Play Around	Lire autour	ຫຼິ້ນອ້ອມຈຸດປັດຈຸບັນ
+	Play Around Edit (Space loops, Shift+K once)	Lire autour du point de montage (Espace en boucle, Maj+K une fois)	ຫຼິ້ນອ້ອມຈຸດຕັດຕໍ່ (Space ຫຼິ້ນວົນຊ້ຳ, Shift+K ຄັ້ງດຽວ)
+	Play audio while scrubbing in Source and Program Monitors	Lire l'audio pendant le défilement dans les moniteurs source et programme	ຫຼິ້ນສຽງຂະນະເລື່ອນໃນຈໍຕົ້ນສະບັບ ແລະ ຈໍໂປຣແກຣມ
+	Play from Playhead to Out Point	Lire de la tête de lecture au point de sortie	ຫຼິ້ນຈາກຫົວອ່ານໄປຫາຈຸດອອກ
+	Play In to Out	Lire de l'entrée à la sortie	ຫຼິ້ນຈາກຈຸດເຂົ້າຫາຈຸດອອກ
+	Play In to Out with Preroll/Postroll	Lire de l'entrée à la sortie avec pré-roll/post-roll	ຫຼິ້ນຈາກຈຸດເຂົ້າຫາຈຸດອອກພ້ອມຊ່ວງກ່ອນ/ຫຼັງ
+	Play Source	Lire la source	ຫຼິ້ນຕົ້ນສະບັບ
+	Play-Stop Toggle (Space)	Lecture/arrêt (Espace)	ສະຫຼັບ ຫຼິ້ນ-ຢຸດ (Space)
+	Play/Stop	Lire/arrêter	ຫຼິ້ນ/ຢຸດ
+	Playback	Lecture	ການຫຼິ້ນ
+	Playback Resolution	Résolution de lecture	ຄວາມລະອຽດການຫຼິ້ນ
+	Playback starts the pre-roll before the playhead (or the In point); with In/Out marked, recording punches in and out there.	La lecture démarre au pré-roll avant la tête de lecture (ou le point d'entrée) ; si l'entrée et la sortie sont définies, l'enregistrement démarre et s'arrête à ces points.	ການຫຼິ້ນຈະເລີ່ມຈາກຊ່ວງຫຼິ້ນກ່ອນໜ້າຫົວອ່ານ (ຫຼື ຈຸດເຂົ້າ); ຖ້າມີການໝາຍຈຸດເຂົ້າ/ອອກໄວ້, ການບັນທຶກຈະເລີ່ມ ແລະ ຢຸດຢູ່ຈຸດເຫຼົ່ານັ້ນ.
+	Playback…	Lecture…	ການຫຼິ້ນ…
+	Playhead	Tête de lecture	ຫົວອ່ານ
+	Playhead position determines trim monitor loop playback	La position de la tête de lecture détermine la lecture en boucle du moniteur de rognage	ຕຳແໜ່ງຫົວອ່ານຈະກຳນົດການຫຼິ້ນວົນຊ້ຳຂອງຈໍຕັດຂອບ
+	Playhead:	Tête de lecture :	ຫົວອ່ານ:
+	Plugins	Modules externes	ປລັກອິນ
+	Plugins…	Plug-ins…	ປລັກອິນ…
+	PNG	PNG	PNG
+	PNG or JPEG file	Fichier PNG ou JPEG	ໄຟລ໌ PNG ຫຼື JPEG
+	PNG Sequence	Séquence PNG	ລຳດັບຮູບພາບ PNG
+	Podcast Voice	Voix de podcast	ສຽງພອດແຄສຕ໌
+	Point 1	Point 1	ຈຸດ 1
+	Point 1 Color	Couleur du point 1	ສີຂອງຈຸດ 1
+	Point 1 Latitude	Latitude du point 1	ເສັ້ນຂະໜານຂອງຈຸດ 1
+	Point 1 Longitude	Longitude du point 1	ເສັ້ນແວງຂອງຈຸດ 1
+	Point 2	Point 2	ຈຸດ 2
+	Point 2 Color	Couleur du point 2	ສີຂອງຈຸດ 2
+	Point 2 Latitude	Latitude du point 2	ເສັ້ນຂະໜານຂອງຈຸດ 2
+	Point 2 Longitude	Longitude du point 2	ເສັ້ນແວງຂອງຈຸດ 2
+	Point 3	Point 3	ຈຸດ 3
+	Point 3 Color	Couleur du point 3	ສີຂອງຈຸດ 3
+	Point 3 Latitude	Latitude du point 3	ເສັ້ນຂະໜານຂອງຈຸດ 3
+	Point 3 Longitude	Longitude du point 3	ເສັ້ນແວງຂອງຈຸດ 3
+	Point 4	Point 4	ຈຸດ 4
+	Point 5	Point 5	ຈຸດ 5
+	Point 6	Point 6	ຈຸດ 6
+	Point 7	Point 7	ຈຸດ 7
+	Point 8	Point 8	ຈຸດ 8
+	Point Text	Texte ponctuel	ຂໍ້ຄວາມແບບຈຸດ
+	Pointer Color	Couleur du pointeur	ສີຕົວຊີ້
+	Policy	Politique	ນະໂຍບາຍ
+	Polygon Sides	Côtés du polygone	ຈຳນວນດ້ານຂອງຮູບຫຼາຍຫຼ່ຽມ
+	Pop Motion	Mouvement surgissant	ການເຄື່ອນໄຫວແບບເດັ້ງຂຶ້ນ
+	Position & Rotation	Position et rotation	ຕຳແໜ່ງ ແລະ ການໝຸນ
+	Position Amount	Quantité de position	ປະລິມານຕຳແໜ່ງ
+	Position, Scale & Rotation	Position, échelle et rotation	ຕຳແໜ່ງ, ຂະໜາດ ແລະ ການໝຸນ
+	Position, Scale, Rotation	Position, échelle, rotation	ຕຳແໜ່ງ, ຂະໜາດ, ການໝຸນ
+	Position: bottom	Position : bas	ຕຳແໜ່ງ: ດ້ານລຸ່ມ
+	Position: middle	Position : milieu	ຕຳແໜ່ງ: ກາງ
+	Position: top	Position : haut	ຕຳແໜ່ງ: ດ້ານເທິງ
+	Post-Fader	Post-fader	ຫຼັງເຟດເດີ (Post-Fader)
+	Post-roll	Post-roll	ຫຼິ້ນຕໍ່ທ້າຍ (Post-roll)
+	Post-roll:	Post-roll :	ຫຼິ້ນຕໍ່ທ້າຍ:
+	Posterize Time	Postériser le temps	ຫຼຸດອັດຕາເຟຣມພາບ (Posterize Time)
+	Postroll	Post-roll	ຫຼິ້ນຕໍ່ທ້າຍ
+	pre 	pré 	ກ່ອນ 
+	Pre-Delay	Pré-retard	ຄວາມໜ່ວງກ່ອນໜ້າ
+	Pre-Fader	Pré-fader	ກ່ອນເຟດເດີ (Pre-Fader)
+	Pre-roll:	Pré-roll :	ຫຼິ້ນກ່ອນໜ້າ:
+	Preroll	Pré-roll	ຫຼິ້ນກ່ອນໜ້າ
+	Presence Lift	Accentuation de la présence	ເພີ່ມຄວາມຄົມຊັດຂອງສຽງ
+	Preserve Scale	Conserver l'échelle	ຮັກສາມາດຕາສ່ວນຂະໜາດ
+	Preset name	Nom du préréglage	ຊື່ຄ່າຕັ້ງລ່ວງໜ້າ
+	Preset:	Préréglage :	ຄ່າຕັ້ງລ່ວງໜ້າ:
+	Preview Area	Zone d'aperçu	ພື້ນທີ່ສະແດງຕົວຢ່າງ
+	Preview File Format:	Format des fichiers de prévisualisation :	ຮູບແບບໄຟລ໌ສະແດງຕົວຢ່າງ:
+	Previous in Sequence	Précédent dans la séquence	ກ່ອນໜ້າໃນຊີເຄວັນ
+	Previous in Track	Précédent dans la piste	ກ່ອນໜ້າໃນແທຣັກ
+	Previous Multi-Camera Page	Page multicaméra précédente	ໜ້າຫຼາຍກ້ອງກ່ອນໜ້າ
+	ProcAmp	ProcAmp	ProcAmp
+	Processing Options	Options de traitement	ຕົວເລືອກການປະມວນຜົນ
+	Program	Programme	ໂປຣແກຣມ
+	Programme left → device output {l}, right → device output {r}{dev}. Outputs beyond the device's channels fall back to 1 and 2.	Programme gauche → sortie {l} du périphérique, droite → sortie {r}{dev}. Les sorties au-delà des canaux du périphérique reviennent à 1 et 2.	ໂປຣແກຣມຊ້າຍ → ຊ່ອງອອກອຸປະກອນ {l}, ຂວາ → ຊ່ອງອອກອຸປະກອນ {r}{dev}. ຊ່ອງອອກທີ່ເກີນຈຳນວນຊ່ອງຂອງອຸປະກອນຈະກັບໄປໃຊ້ 1 ແລະ 2.
+	Progress	Progression	ຄວາມຄືບໜ້າ
+	Project	Projet	ໂຄງການ
+	Project Auto Save:	Enregistrement automatique du projet :	ບັນທຶກໂຄງການອັດຕະໂນມັດ:
+	Project Manager	Gestionnaire de projets	ຕົວຈັດການໂຄງການ
+	Project Manager: writing {path}	Gestionnaire de projets : écriture de {path}	ຕົວຈັດການໂຄງການ: ກຳລັງຂຽນ {path}
+	Project Manager…	Gestionnaire de projets…	ຕົວຈັດການໂຄງການ…
+	Project Metadata	Métadonnées du projet	ຂໍ້ມູນເມຕາຂອງໂຄງການ
+	Project Notes	Notes du projet	ບັນທຶກໂຄງການ
+	Project Settings	Paramètres du projet	ການຕັ້ງຄ່າໂຄງການ
+	Project View Preset {n}	Préréglage d'affichage du projet {n}	ຄ່າຕັ້ງລ່ວງໜ້າມຸມມອງໂຄງການ {n}
+	Project: {name}	Projet : {name}	ໂຄງການ: {name}
+	Projecting cap	Extrémité en saillie	ປາຍຍື່ນອອກ
+	Projection:	Projection :	ການສາຍພາບ:
+	ProjectPanel	Panneau Projet	ແຜງໂປຣເຈັກ
+	Projects	Projets	ໂປຣເຈັກ
+	Project…	Projet…	ໂປຣເຈັກ…
+	Protect Highlights	Protéger les tons clairs	ປົກປ້ອງສ່ວນສະຫວ່າງ
+	Proxies are made in the background and attached when done. Export always uses full-resolution media.	Les proxys sont créés en arrière-plan et associés une fois terminés. L'exportation utilise toujours les médias en pleine résolution.	ພຣັອກຊີຈະຖືກສ້າງຢູ່ເບື້ອງຫຼັງ ແລະ ເຊື່ອມຕໍ່ເມື່ອສຳເລັດ. ການສົ່ງອອກຈະໃຊ້ສື່ຄວາມລະອຽດເຕັມສະເໝີ.
+	Proxy	Proxy	ພຣັອກຊີ
+	Pull Motion	Mouvement de traction	ການເຄື່ອນໄຫວແບບດຶງ
+	Pulls highlights and whites down	Abaisse les tons clairs et les blancs	ຫຼຸດສ່ວນສະຫວ່າງ ແລະ ສີຂາວລົງ
+	Push	Pousser	ຍູ້
+	Push (Legacy)	Pousser (ancien)	ຍູ້ (ແບບເກົ່າ)
+	Q	Q	Q
+	Quality (CRF)	Qualité (CRF)	ຄຸນນະພາບ (CRF)
+	Queue ({n})	File d'attente ({n})	ຄິວ ({n})
+	Quick Export	Exportation rapide	ສົ່ງອອກໄວ
+	Quick Export: open a sequence first	Exportation rapide : ouvrez d'abord une séquence	ສົ່ງອອກໄວ: ເປີດຊີເຄວັນກ່ອນ
+	Quick Export: {path}	Exportation rapide : {path}	ສົ່ງອອກໄວ: {path}
+	QuickTime (Motion JPEG)	QuickTime (Motion JPEG)	QuickTime (Motion JPEG)
+	QuickTime, APV 422-10 (10-bit 4:2:2), 24-bit 48 kHz PCM	QuickTime, APV 422-10 (10 bits 4:2:2), PCM 24 bits 48 kHz	QuickTime, APV 422-10 (10-bit 4:2:2), 24-bit 48 kHz PCM
+	QuickTime, APV 422-12 (12-bit 4:2:2), 24-bit 48 kHz PCM	QuickTime, APV 422-12 (12 bits 4:2:2), PCM 24 bits 48 kHz	QuickTime, APV 422-12 (12-bit 4:2:2), 24-bit 48 kHz PCM
+	QuickTime, DNxHR HQ (8-bit 4:2:2), 24-bit 48 kHz PCM	QuickTime, DNxHR HQ (8 bits 4:2:2), PCM 24 bits 48 kHz	QuickTime, DNxHR HQ (8-bit 4:2:2), 24-bit 48 kHz PCM
+	QuickTime, DNxHR LB (8-bit 4:2:2), 24-bit 48 kHz PCM	QuickTime, DNxHR LB (8 bits 4:2:2), PCM 24 bits 48 kHz	QuickTime, DNxHR LB (8-bit 4:2:2), 24-bit 48 kHz PCM
+	QuickTime, DNxHR SQ (8-bit 4:2:2), 24-bit 48 kHz PCM	QuickTime, DNxHR SQ (8 bits 4:2:2), PCM 24 bits 48 kHz	QuickTime, DNxHR SQ (8-bit 4:2:2), 24-bit 48 kHz PCM
+	QuickTime, ProRes 422 HQ, 24-bit 48 kHz PCM	QuickTime, ProRes 422 HQ, PCM 24 bits 48 kHz	QuickTime, ProRes 422 HQ, 24-bit 48 kHz PCM
+	QuickTime, ProRes 422 LT, 24-bit 48 kHz PCM	QuickTime, ProRes 422 LT, PCM 24 bits 48 kHz	QuickTime, ProRes 422 LT, 24-bit 48 kHz PCM
+	QuickTime, ProRes 422 Proxy, 24-bit 48 kHz PCM	QuickTime, ProRes 422 Proxy, PCM 24 bits 48 kHz	QuickTime, ProRes 422 Proxy, 24-bit 48 kHz PCM
+	QuickTime, ProRes 422, 24-bit 48 kHz PCM	QuickTime, ProRes 422, PCM 24 bits 48 kHz	QuickTime, ProRes 422, 24-bit 48 kHz PCM
+	QuickTime, ProRes 4444 (4:4:4) with alpha channel, 24-bit 48 kHz PCM	QuickTime, ProRes 4444 (4:4:4) avec couche alpha, PCM 24 bits 48 kHz	QuickTime, ProRes 4444 (4:4:4) ພ້ອມຊ່ອງອັລຟາ, 24-bit 48 kHz PCM
+	QuickTime, ProRes 4444 (4:4:4), 24-bit 48 kHz PCM	QuickTime, ProRes 4444 (4:4:4), PCM 24 bits 48 kHz	QuickTime, ProRes 4444 (4:4:4), 24-bit 48 kHz PCM
+	QuickTime, ProRes 4444 XQ (4:4:4), 24-bit 48 kHz PCM	QuickTime, ProRes 4444 XQ (4:4:4), PCM 24 bits 48 kHz	QuickTime, ProRes 4444 XQ (4:4:4), 24-bit 48 kHz PCM
+	Quit FilmCraft	Quitter FilmCraft	ອອກຈາກ FilmCraft
+	Radial Ramp	Dégradé radial	ໄລ່ລະດັບສີແບບລັດສະໝີ
+	Radial Wipe	Balayage radial	ກວາດພາບແບບລັດສະໝີ
+	Radial Wipe (Legacy)	Balayage radial (ancien)	ກວາດພາບແບບລັດສະໝີ (ແບບເກົ່າ)
+	Radio Announcer	Animateur radio	ໂຄສົກວິທະຍຸ
+	Radio Voice	Voix radio	ສຽງວິທະຍຸ
+	RAM reserved for other applications	RAM réservée aux autres applications	RAM ທີ່ສະຫງວນໄວ້ສຳລັບແອັບພລິເຄຊັນອື່ນ
+	Ramp	Dégradé	ໄລ່ລະດັບສີ
+	Ramp Shape	Forme du dégradé	ຮູບຮ່າງການໄລ່ລະດັບສີ
+	Random Seed	Graine aléatoire	ຄ່າສຸ່ມເລີ່ມຕົ້ນ
+	Rate Stretch Tool	Outil Étirement de la vitesse	ເຄື່ອງມືຍືດຄວາມໄວ
+	Ratio	Ratio	ອັດຕາສ່ວນ
+	Ray	Rayon lumineux	ລຳແສງ
+	Ray Color	Couleur des rayons	ສີຂອງລຳແສງ
+	Ray Length	Longueur des rayons	ຄວາມຍາວຂອງລຳແສງ
+	Rays Only	Rayons uniquement	ສະເພາະລຳແສງ
+	Razor Tool	Outil Cutter	ເຄື່ອງມືຕັດ
+	Read	Lecture	ອ່ານ
+	Rec. 2100	Rec. 2100	Rec. 2100
+	Rec. 601	Rec. 601	Rec. 601
+	Rec. 709	Rec. 709	Rec. 709
+	Recent Directories	Dossiers récents	ໂຟລເດີຫຼ້າສຸດ
+	Recognize when different speakers are talking	Reconnaître les changements d'intervenant	ຈຳແນກເມື່ອມີຜູ້ເວົ້າຕ່າງກັນສົນທະນາ
+	Reconnect Full Resolution Media…	Reconnecter les médias en pleine résolution…	ເຊື່ອມຕໍ່ສື່ຄວາມລະອຽດເຕັມຄືນໃໝ່…
+	Record	Enregistrer	ບັນທຶກ
+	Record (voice-over on the record-enabled track)	Enregistrer (voix off sur la piste activée pour l'enregistrement)	ບັນທຶກ (ສຽງພາກໃນແທຣັກທີ່ເປີດການບັນທຶກ)
+	Recorded {n} multi-camera cut(s)	{n} coupe(s) multicaméra enregistrée(s)	ບັນທຶກການຕັດຫຼາຍກ້ອງ {n} ຈຸດແລ້ວ
+	Recording voice-over…	Enregistrement de la voix off…	ກຳລັງບັນທຶກສຽງພາກ…
+	Recover Unsaved Changes	Récupérer les modifications non enregistrées	ກູ້ຄືນການປ່ຽນແປງທີ່ຍັງບໍ່ໄດ້ບັນທຶກ
+	Recover unsaved changes from {when}?	Récupérer les modifications non enregistrées de {when} ?	ກູ້ຄືນການປ່ຽນແປງທີ່ຍັງບໍ່ໄດ້ບັນທຶກຈາກ {when} ບໍ່?
+	Recover Unsaved Changes…	Récupérer les modifications non enregistrées…	ກູ້ຄືນການປ່ຽນແປງທີ່ຍັງບໍ່ໄດ້ບັນທຶກ…
+	Recovery copy: {dir}	Copie de récupération : {dir}	ສຳເນົາກູ້ຄືນ: {dir}
+	Red Blurriness	Flou du rouge	ຄວາມມົວຂອງສີແດງ
+	Red Curve	Courbe du rouge	ເສັ້ນໂຄ້ງສີແດງ
+	Red Offset	Décalage du rouge	ຄ່າເລື່ອນສີແດງ
+	Red Power	Puissance du rouge	ກຳລັງສີແດງ
+	Red Slope	Pente du rouge	ຄວາມຊັນສີແດງ
+	Red-Blue	Rouge-bleu	ແດງ-ຟ້າ
+	Red-Const	Rouge-constante	ແດງ-ຄົງທີ່
+	Red-Green	Rouge-vert	ແດງ-ຂຽວ
+	Red-Red	Rouge-rouge	ແດງ-ແດງ
+	Reduce Axis	Réduire l'axe	ຫຼຸດແກນ
+	Reduce By	Réduire de	ຫຼຸດລົງ
+	Reduce Interlace Flicker	Réduire le scintillement d'entrelacement	ຫຼຸດອາການກະພິບແບບສະຫຼັບເສັ້ນ
+	Reduce Reverb	Réduire la réverbération	ຫຼຸດສຽງກ້ອງ
+	Reduce Rumble	Réduire les grondements	ຫຼຸດສຽງສັ່ນສະເທືອນ
+	Reference	Référence	ອ້າງອີງ
+	Reference  {tc}	Référence  {tc}	ອ້າງອີງ  {tc}
+	Reference Monitor	Moniteur de référence	ມໍນິເຕີອ້າງອີງ
+	Reference track:	Piste de référence :	ແທຣັກອ້າງອີງ:
+	Reference: next frame	Référence : image suivante	ອ້າງອີງ: ເຟຣມຖັດໄປ
+	Reference: previous frame	Référence : image précédente	ອ້າງອີງ: ເຟຣມກ່ອນໜ້າ
+	Reflection Angle	Angle de réflexion	ມຸມສະທ້ອນ
+	Reflection Center	Centre de réflexion	ຈຸດກາງການສະທ້ອນ
+	Refraction	Réfraction	ການຫັກເຫແສງ
+	Reframe Offset	Décalage du cadrage	ຄ່າເລື່ອນການຈັດກອບໃໝ່
+	Reframe Zoom	Zoom du cadrage	ຊູມການຈັດກອບໃໝ່
+	Refresh Changed Media	Actualiser les médias modifiés	ໂຫຼດສື່ທີ່ມີການປ່ຽນແປງຄືນໃໝ່
+	Refresh growing Files Every	Actualiser les fichiers en croissance toutes les	ໂຫຼດໄຟລ໌ທີ່ກຳລັງເພີ່ມຂະໜາດໃໝ່ທຸກໆ
+	Refresh Project	Actualiser le projet	ໂຫຼດໂປຣເຈັກຄືນໃໝ່
+	Refresh Sort Order	Actualiser l'ordre de tri	ໂຫຼດລຳດັບການຈັດລຽງຄືນໃໝ່
+	Rel	Rel	Rel
+	Release	Relâchement	ການປ່ອຍ
+	Release Time	Temps de relâchement	ເວລາປ່ອຍ
+	Relink others automatically	Relier les autres automatiquement	ເຊື່ອມຕໍ່ສ່ວນອື່ນໂດຍອັດຕະໂນມັດ
+	Remaining	Restant	ທີ່ເຫຼືອ
+	Remix	Remix	ຣີມິກ
+	Remix Properties	Propriétés du remix	ຄຸນສົມບັດການຣີມິກ
+	Remix Properties…	Propriétés du remix…	ຄຸນສົມບັດການຣີມິກ…
+	Remix Tool	Outil Remixage	ເຄື່ອງມືຣີມິກ
+	Remixed to {seconds} s	Remixé à {seconds} s	ຣີມິກເປັນ {seconds} ວິນາທີແລ້ວ
+	Remixing music to a target duration is not available yet. Trim the clip and add a crossfade instead.	Le remixage de la musique à une durée cible n'est pas encore disponible. Rognez plutôt le clip et ajoutez un fondu enchaîné.	ການຣີມິກເພງຕາມໄລຍະເວລາເປົ້າໝາຍຍັງບໍ່ພ້ອມໃຊ້ງານເທື່ອ. ໃຫ້ຕັດຂອບຄລິບ ແລະ ເພີ່ມການຈາງຊ້ອນກັນແທນ.
+	Remove Attributes	Supprimer les attributs	ເອົາຄຸນສົມບັດອອກ
+	Remove Attributes…	Supprimer les attributs…	ເອົາຄຸນສົມບັດອອກ…
+	Remove Audio from AV Clip	Retirer l'audio du clip AV	ເອົາສຽງອອກຈາກຄລິບ AV
+	Remove Effect	Retirer l'effet	ເອົາເອັບເຟັກອອກ
+	Remove Filler Words	Supprimer les mots parasites	ລຶບຄຳເວົ້າສ່ວນເກີນ
+	Remove filler words	Supprimer les mots parasites	ລຶບຄຳເວົ້າສ່ວນເກີນ
+	Remove Fringe	Supprimer la frange	ລຶບຂອບສີຟຸ້ງ
+	Remove from Favorites	Retirer des favoris	ເອົາອອກຈາກລາຍການມັກ
+	Remove keyframe	Supprimer l'image clé	ລຶບຄີເຟຣມ
+	Remove Media Cache Files	Supprimer les fichiers du cache des médias	ລຶບໄຟລ໌ແຄຊສື່
+	Remove Pauses	Supprimer les pauses	ລຶບຊ່ວງຢຸດງຽບ
+	Remove Row	Supprimer la ligne	ລຶບແຖວ
+	Remove Send	Retirer l'envoi	ເອົາການສົ່ງສັນຍານອອກ
+	Remove Unused	Supprimer les éléments inutilisés	ເອົາສ່ວນທີ່ບໍ່ໄດ້ໃຊ້ອອກ
+	Render at Maximum Depth	Rendu à la profondeur maximale	ເຣັນເດີດ້ວຍຄວາມເລິກສີສູງສຸດ
+	Render Audio	Effectuer le rendu audio	ເຣັນເດີສຽງ
+	Render audio clip effects	Effectuer le rendu des effets de clips audio	ເຣັນເດີເອັບເຟັກຄລິບສຽງ
+	Render audio when rendering video	Effectuer le rendu de l'audio lors du rendu de la vidéo	ເຣັນເດີສຽງເມື່ອເຣັນເດີວິດີໂອ
+	Render Edit in Audition files to:	Effectuer le rendu des fichiers modifiés dans Audition vers :	ເຣັນເດີໄຟລ໌ທີ່ແກ້ໄຂໃນ Audition ໄປທີ່:
+	Render Effects In to Out	Rendu des effets de l'entrée à la sortie	ເຣັນເດີເອັບເຟັກຈາກຈຸດເຂົ້າຫາຈຸດອອກ
+	Render In to Out	Rendu de l'entrée à la sortie	ເຣັນເດີຈາກຈຸດເຂົ້າຫາຈຸດອອກ
+	Render Selection	Effectuer le rendu de la sélection	ເຣັນເດີສ່ວນທີ່ເລືອກ
+	Rendered preview	Aperçu rendu	ພາບຕົວຢ່າງທີ່ເຣັນເດີແລ້ວ
+	Renderer:	Moteur de rendu :	ຕົວເຣັນເດີ:
+	Rendering:	Rendu :	ກຳລັງເຣັນເດີ:
+	Repair	Réparer	ສ້ອມແປງ
+	Repeat Edge Pixels	Répéter les pixels du bord	ເຮັດຊ້ຳພິກເຊລຂອບ
+	Replace Color	Remplacer la couleur	ແທນທີ່ສີ
+	Replace Fonts in Projects	Remplacer les polices dans les projets	ແທນທີ່ຟອນຕ໌ໃນໂປຣເຈັກ
+	Replace Fonts in Projects…	Remplacer les polices dans les projets…	ແທນທີ່ຟອນຕ໌ໃນໂປຣເຈັກ…
+	Replace With Clip	Remplacer par le clip	ແທນທີ່ດ້ວຍຄລິບ
+	Replace With Clip From Source Monitor	Remplacer par le clip du moniteur source	ແທນທີ່ດ້ວຍຄລິບຈາກມໍນິເຕີຕົ້ນສະບັບ
+	Replaced {n} font uses	{n} utilisations de polices remplacées	ແທນທີ່ການໃຊ້ຟອນຕ໌ແລ້ວ {n} ຈຸດ
+	Replicate	Répliquer	ຈຳລອງຊ້ຳ
+	Report an issue	Signaler un problème	ລາຍງານບັນຫາ
+	Reset All Parameters	Réinitialiser tous les paramètres	ຄືນຄ່າພາຣາມິເຕີທັງໝົດ
+	Reset Duration	Réinitialiser la durée	ຄືນຄ່າໄລຍະເວລາ
+	Reset Effect	Réinitialiser l'effet	ຄືນຄ່າເອັບເຟັກ
+	Reset Parameter	Réinitialiser le paramètre	ຄືນຄ່າພາຣາມິເຕີ
+	Reset to Grid	Réinitialiser sur la grille	ຄືນຄ່າເປັນຕາໜ່າງ
+	Reset to Saved Layout	Réinitialiser la disposition enregistrée	ຄືນຄ່າເປັນໂຄງຮ່າງທີ່ບັນທຶກໄວ້
+	Responsive Design - Position	Conception adaptative - position	ການອອກແບບຕອບສະໜອງ - ຕຳແໜ່ງ
+	Responsive Design - Time	Conception adaptative - temps	ການອອກແບບຕອບສະໜອງ - ເວລາ
+	Restore Arrangement	Restaurer la disposition	ກູ້ຄືນການຈັດລຽງ
+	Restore Captions from Source Clip	Restaurer les sous-titres du clip source	ກູ້ຄືນຄຳບັນຍາຍຈາກຄລິບຕົ້ນສະບັບ
+	Restore Frame	Restaurer le cadre	ກູ້ຄືນກອບພາບ
+	Restore open sequences when opening projects	Restaurer les séquences ouvertes à l'ouverture des projets	ກູ້ຄືນຊີເຄວັນທີ່ເປີດຄ້າງໄວ້ເມື່ອເປີດໂປຣເຈັກ
+	Restore Original	Restaurer l'original	ກູ້ຄືນຕົ້ນສະບັບ
+	Restore View Preset	Restaurer le préréglage d'affichage	ກູ້ຄືນພຣີເຊັດມຸມມອງ
+	Restore Workspace	Restaurer l'espace de travail	ກູ້ຄືນພື້ນທີ່ເຮັດວຽກ
+	Restrict Trims To Subclip Boundaries	Limiter le rognage aux limites du sous-clip	ຈຳກັດການຕັດຂອບພາຍໃນຂອບເຂດຄລິບຍ່ອຍ
+	Resulting Project	Projet résultant	ໂປຣເຈັກຜົນລັບ
+	Retro	Rétro	ຍ້ອນຍຸກ
+	Reveal in Finder	Afficher dans le gestionnaire de fichiers	ສະແດງໃນຕົວຈັດການໄຟລ໌
+	Reveal in Project	Afficher dans le projet	ສະແດງໃນໂປຣເຈັກ
+	Reveal Log Files…	Afficher les fichiers journaux…	ສະແດງໄຟລ໌ບັນທຶກລະບົບ…
+	Reveal Nested Sequence	Afficher la séquence imbriquée	ສະແດງຊີເຄວັນຊ້ອນໃນ
+	Reveal Original Image	Afficher l'image d'origine	ສະແດງພາບຕົ້ນສະບັບ
+	Reveal Project in Finder…	Afficher le projet dans le gestionnaire de fichiers…	ສະແດງໂປຣເຈັກໃນຕົວຈັດການໄຟລ໌…
+	Reveal Sequence in Project	Afficher la séquence dans le projet	ສະແດງຊີເຄວັນໃນໂປຣເຈັກ
+	Reverb	Réverbération	ສຽງກ້ອງ
+	Reverb Amount	Quantité de réverbération	ປະລິມານສຽງກ້ອງ
+	Reverse Field Dominance	Inverser la dominance de trame	ປີ້ນລຳດັບຟິລດ໌
+	Reverse Match Frame	Correspondance d'image inverse	ຈັບຄູ່ເຟຣມແບບປີ້ນກັບ
+	Reverse Speed	Vitesse inversée	ຄວາມໄວປີ້ນກັບ
+	Revert Remix	Annuler le remix	ຍົກເລີກການຣີມິກ
+	Revert to the preset's colors and names	Revenir aux couleurs et aux noms du paramètre prédéfini	ກັບຄືນໄປຫາສີ ແລະ ຊື່ຂອງພຣີເຊັດ
+	RGB	RGB	RGB
+	RGB Curves	Courbes RGB	ເສັ້ນໂຄ້ງ RGB
+	RGB Split	Séparation RGB	ແຍກສີ RGB
+	RGB-White	RGB-blanc	RGB-ຂາວ
+	RGBA Channels	Canaux RGBA	ຊ່ອງສັນຍານ RGBA
+	Right - Left	Droite - gauche	ຂວາ - ຊ້າຍ
+	Right - Right	Droite - droite	ຂວາ - ຂວາ
+	Right Align Text	Aligner le texte à droite	ຈັດຂໍ້ຄວາມຊິດຂວາ
+	Right align text	Aligner le texte à droite	ຈັດຂໍ້ຄວາມຊິດຂວາ
+	Right channel to device output	Canal droit vers la sortie du périphérique	ຊ່ອງຂວາໄປຫາສັນຍານອອກຂອງອຸປະກອນ
+	Right to left	De droite à gauche	ຈາກຂວາຫາຊ້າຍ
+	Ripple Delete	Supprimer avec décalage	ລຶບແບບເລື່ອນຕໍ່ເນື່ອງ
+	Ripple Delete Head Frame	Supprimer le début avec décalage	ລຶບເຟຣມຕົ້ນແບບເລື່ອນຕໍ່ເນື່ອງ
+	Ripple Edit Tool	Outil Montage avec décalage	ເຄື່ອງມືຕັດຕໍ່ແບບເລື່ອນຕໍ່ເນື່ອງ
+	Ripple Edit, Shifting Trailing Clips	Montage avec décalage, déplacement des clips suivants	ຕັດຕໍ່ແບບເລື່ອນຕໍ່ເນື່ອງ, ຍ້າຍຄລິບທາງຫຼັງຕາມ
+	Ripple Sequence Markers	Décaler les marqueurs de séquence	ເລື່ອນເຄື່ອງໝາຍຊີເຄວັນຕາມ
+	Ripple trim adds edits to keep both sides of trim in sync	Le rognage avec décalage ajoute des points de montage pour garder les deux côtés synchronisés	ການຕັດຂອບແບບເລື່ອນຕໍ່ເນື່ອງຈະເພີ່ມຈຸດຕັດເພື່ອໃຫ້ທັງສອງຝັ່ງຊິງຄ໌ກັນ
+	Ripple Trim In	Rogner l'entrée avec décalage	ຕັດຂອບເຂົ້າແບບເລື່ອນຕໍ່ເນື່ອງ
+	Ripple Trim Next Edit to Playhead	Rogner avec décalage le point de montage suivant jusqu'à la tête de lecture	ຕັດຂອບຈຸດຕັດຕໍ່ຖັດໄປຫາຫົວອ່ານແບບເລື່ອນຕໍ່ເນື່ອງ
+	Ripple Trim Out	Rogner la sortie avec décalage	ຕັດຂອບອອກແບບເລື່ອນຕໍ່ເນື່ອງ
+	Ripple Trim Previous Edit to Playhead	Rogner avec décalage le point de montage précédent jusqu'à la tête de lecture	ຕັດຂອບຈຸດຕັດຕໍ່ກ່ອນໜ້າຫາຫົວອ່ານແບບເລື່ອນຕໍ່ເນື່ອງ
+	Role	Fonction	ບົດບາດ
+	Roll	Défilement	ເລື່ອນ
+	Roll (Z Axis)	Roulis (axe Z)	ໝຸນອຽງ (ແກນ Z)
+	Roll Edit	Montage par roulement	ຕັດຕໍ່ແບບເລື່ອນຈຸດຕັດ
+	Rolling Edit Tool	Outil Montage par roulement	ເຄື່ອງມືຕັດຕໍ່ແບບເລື່ອນຈຸດຕັດ
+	Room Size	Taille de la pièce	ຂະໜາດຫ້ອງ
+	Rose	Rose	ສີກຸຫຼາບ
+	Rotation Amount	Quantité de rotation	ປະລິມານການໝຸນ
+	Roughen	Rugosité	ຄວາມຫຍາບ
+	Roughen Color	Couleur de rugosité	ສີຄວາມຫຍາບ
+	Roughen Edges	Bords rugueux	ຂອບຫຍາບ
+	Round cap	Extrémité arrondie	ປາຍມົນ
+	Round join	Jointure arrondie	ຂໍ້ຕໍ່ມົນ
+	Rounded Crop	Recadrage arrondi	ຕັດຂອບມົນ
+	Rule Color	Couleur du filet	ສີເສັ້ນແບ່ງ
+	Rusty	Rouillé	ເປັນຂີ້ໝ້ຽງ
+	Rusty Color	Couleur rouille	ສີຂີ້ໝ້ຽງ
+	Safe graphics mode: {mode}	Mode graphique sans échec : {mode}	ໂໝດກຣາບຟິກປອດໄພ: {mode}
+	Safe Margins	Marges de sécurité	ຂອບເຂດປອດໄພ
+	Same as Project	Identique au projet	ຄືກັບໂປຣເຈັກ
+	Sample Rate	Fréquence d'échantillonnage	ອັດຕາແຊມເປິລ
+	Sample Rate:	Fréquence d'échantillonnage :	ອັດຕາແຊມເປິລ:
+	Sat vs Sat	Saturation vs saturation	ຄວາມອີ່ມສີ ຕໍ່ ຄວາມອີ່ມສີ
+	Saturation at 50 %	Saturation à 50 %	ຄວາມອີ່ມສີທີ່ 50 %
+	Saturation Min	Saturation min.	ຄວາມອີ່ມສີຕ່ຳສຸດ
+	Save .cfa and .pek media cache files next to original media files when possible	Enregistrer les fichiers de cache média .cfa et .pek à côté des fichiers média d'origine si possible	ບັນທຶກໄຟລ໌ແຄຊສື່ .cfa ແລະ .pek ໄວ້ຂ້າງໄຟລ໌ສື່ຕົ້ນສະບັບເມື່ອເປັນໄປໄດ້
+	Save All	Tout enregistrer	ບັນທຶກທັງໝົດ
+	Save Arrangement	Enregistrer la disposition	ບັນທຶກການຈັດລຽງ
+	Save Arrangement…	Enregistrer la disposition…	ບັນທຶກການຈັດລຽງ…
+	Save As New View Preset	Enregistrer comme nouveau préréglage d'affichage	ບັນທຶກເປັນພຣີເຊັດມຸມມອງໃໝ່
+	Save as New Workspace…	Enregistrer comme nouvel espace de travail…	ບັນທຶກເປັນພື້ນທີ່ເຮັດວຽກໃໝ່…
+	Save Changes to this Workspace	Enregistrer les modifications de cet espace de travail	ບັນທຶກການປ່ຽນແປງໃສ່ພື້ນທີ່ເຮັດວຽກນີ້
+	Save changes to “{project_name}” before closing?	Enregistrer les modifications de « {project_name} » avant de fermer ?	ບັນທຶກການປ່ຽນແປງໃນ “{project_name}” ກ່ອນປິດບໍ່?
+	Save current settings as:	Enregistrer les paramètres actuels sous :	ບັນທຶກການຕັ້ງຄ່າປັດຈຸບັນເປັນ:
+	Save Current View Preset	Enregistrer le préréglage d'affichage actuel	ບັນທຶກພຣີເຊັດມຸມມອງປັດຈຸບັນ
+	Save Guides as Template	Enregistrer les repères comme modèle	ບັນທຶກເສັ້ນນຳທາງເປັນແມ່ແບບ
+	Save Guides as Template…	Enregistrer les repères comme modèle…	ບັນທຶກເສັ້ນນຳທາງເປັນແມ່ແບບ…
+	Save Preset	Enregistrer le préréglage	ບັນທຶກພຣີເຊັດ
+	Save preset as:	Enregistrer le préréglage sous :	ບັນທຶກພຣີເຊັດເປັນ:
+	Save Project	Enregistrer le projet	ບັນທຶກໂປຣເຈັກ
+	Saved as a FilmCraft graphics template (.fcgt) in your templates folder.	Enregistré en tant que modèle de graphiques FilmCraft (.fcgt) dans votre dossier de modèles.	ບັນທຶກເປັນແມ່ແບບກຣາບຟິກ FilmCraft (.fcgt) ໃນໂຟລເດີແມ່ແບບຂອງທ່ານແລ້ວ.
+	Saved preset “{name}”	Préréglage « {name} » enregistré	ບັນທຶກພຣີເຊັດ “{name}” ແລ້ວ
+	Saved template {path}	Modèle enregistré : {path}	ບັນທຶກແມ່ແບບ {path} ແລ້ວ
+	Saves the view, columns, sort, thumbnail and font size.	Enregistre la vue, les colonnes, le tri, la vignette et la taille de police.	ບັນທຶກມຸມມອງ, ຖັນ, ການຈັດລຽງ, ພາບຫຍໍ້ ແລະ ຂະໜາດຟອນຕ໌.
+	Scale (Degrees)	Échelle (degrés)	ຂະໜາດ (ອົງສາ)
+	Scale Amount	Quantité d'échelle	ປະລິມານຂະໜາດ
+	Scale Attribute Times	Adapter le minutage des attributs	ປັບເວລາຂອງຄຸນສົມບັດຕາມຂະໜາດ
+	Scale From	Mettre à l'échelle depuis	ປັບຂະໜາດຈາກ
+	Scale Height	Échelle de la hauteur	ປັບຂະໜາດຄວາມສູງ
+	Scale Match	Correspondance d'échelle	ຈັບຄູ່ຂະໜາດ
+	Scale motion effects proportionally when changing frame size	Mettre à l'échelle les effets de mouvement proportionnellement lors du changement de taille d'image	ປັບຂະໜາດເອັບເຟັກການເຄື່ອນໄຫວຕາມອັດຕາສ່ວນເມື່ອປ່ຽນຂະໜາດເຟຣມ
+	Scale To	Mettre à l'échelle vers	ປັບຂະໜາດເປັນ
+	Scale To Fill	Mettre à l'échelle pour remplir	ປັບຂະໜາດໃຫ້ເຕັມ
+	Scale To Fit	Mettre à l'échelle pour adapter	ປັບຂະໜາດໃຫ້ພໍດີ
+	Scale to Frame Size	Adapter à la taille de l'image	ປັບຂະໜາດໃຫ້ພໍດີກັບເຟຣມ
+	Scale to frame size	Mettre à l'échelle selon la taille de l'image	ປັບຂະໜາດໃຫ້ພໍດີກັບເຟຣມ
+	Scale Width	Échelle de la largeur	ປັບຂະໜາດຄວາມກວ້າງ
+	Scaling	Mise à l'échelle	ການປັບຂະໜາດ
+	Scan Lines	Lignes de balayage	ເສັ້ນສະແກນ
+	Scene	Scène	ສາກ
+	Scene Edit Detection	Détection des changements de scène	ການກວດຈັບການປ່ຽນສາກ
+	Scene Edit Detection: analysing in the background (see Progress)	Détection des changements de scène : analyse en arrière-plan (voir Progression)	ການກວດຈັບການປ່ຽນສາກ: ກຳລັງວິເຄາະຢູ່ເບື້ອງຫຼັງ (ເບິ່ງໃນຄວາມຄືບໜ້າ)
+	Scene Edit Detection…	Détection des changements de scène…	ການກວດຈັບການປ່ຽນສາກ…
+	Scene:	Scène :	ສາກ:
+	Scientific Filter	Filtre scientifique	ຕົວກອງແບບວິທະຍາສາດ
+	Scratch disk location for Captured Audio	Emplacement du disque de travail pour l'audio capturé	ຕຳແໜ່ງດິສກ໌ຊົ່ວຄາວສຳລັບສຽງທີ່ບັນທຶກ
+	Search Bin	Chutier de recherche	ບິນຄົ້ນຫາ
+	Search commands or keys	Rechercher des commandes ou des touches	ຄົ້ນຫາຄຳສັ່ງ ຫຼື ຄີ
+	Search effects	Rechercher des effets	ຄົ້ນຫາເອັບເຟັກ
+	Search fields	Rechercher dans les champs	ຄົ້ນຫາຊ່ອງຂໍ້ມູນ
+	Search in:	Rechercher dans :	ຄົ້ນຫາໃນ:
+	Search presets	Rechercher des préréglages	ຄົ້ນຫາພຣີເຊັດ
+	Search templates	Rechercher des modèles	ຄົ້ນຫາແມ່ແບບ
+	Search:	Rechercher :	ຄົ້ນຫາ:
+	second(s)	seconde(s)	ວິນາທີ
+	Seconds	Secondes	ວິນາທີ
+	seconds	secondes	ວິນາທີ
+	Segments:	Segments :	ຊ່ວງ:
+	Select a clip to grade	Sélectionnez un clip à étalonner	ເລືອກຄລິບເພື່ອປັບສີ
+	Select a clip to see its properties	Sélectionnez un clip pour voir ses propriétés	ເລືອກຄລິບເພື່ອເບິ່ງຄຸນສົມບັດ
+	Select a clip to view its metadata.	Sélectionnez un clip pour afficher ses métadonnées.	ເລືອກຄລິບເພື່ອເບິ່ງເມຕາດາຕາ.
+	Select a graphic clip, or use the Type tool (T) on the Program monitor	Sélectionnez un clip graphique ou utilisez l'outil Texte (T) dans le moniteur programme	ເລືອກຄລິບກຣາບຟິກ ຫຼື ໃຊ້ເຄື່ອງມືຂໍ້ຄວາມ (T) ໃນມໍນິເຕີໂປຣແກຣມ
+	Select a layer to edit its properties.	Sélectionnez un calque pour modifier ses propriétés.	ເລືອກຊັ້ນເພື່ອແກ້ໄຂຄຸນສົມບັດ.
+	Select All Matching	Sélectionner toutes les correspondances	ເລືອກທັງໝົດທີ່ກົງກັນ
+	Select All Project Items	Sélectionner tous les éléments du projet	ເລືອກລາຍການໂປຣເຈັກທັງໝົດ
+	Select an item to preview it	Sélectionnez un élément pour le prévisualiser	ເລືອກລາຍການເພື່ອເບິ່ງຕົວຢ່າງ
+	Select audio clips to edit them here	Sélectionnez des clips audio pour les modifier ici	ເລືອກຄລິບສຽງເພື່ອແກ້ໄຂທີ່ນີ້
+	Select audio clips, then click a preset to apply it.	Sélectionnez des clips audio, puis cliquez sur un préréglage pour l'appliquer.	ເລືອກຄລິບສຽງ ແລ້ວຄລິກພຣີເຊັດເພື່ອນຳໃຊ້.
+	Select Camera 1	Sélectionner la caméra 1	ເລືອກກ້ອງ 1
+	Select Camera 2	Sélectionner la caméra 2	ເລືອກກ້ອງ 2
+	Select Camera 3	Sélectionner la caméra 3	ເລືອກກ້ອງ 3
+	Select Camera 4	Sélectionner la caméra 4	ເລືອກກ້ອງ 4
+	Select Camera 5	Sélectionner la caméra 5	ເລືອກກ້ອງ 5
+	Select Camera 6	Sélectionner la caméra 6	ເລືອກກ້ອງ 6
+	Select Camera 7	Sélectionner la caméra 7	ເລືອກກ້ອງ 7
+	Select Camera 8	Sélectionner la caméra 8	ເລືອກກ້ອງ 8
+	Select Camera 9	Sélectionner la caméra 9	ເລືອກກ້ອງ 9
+	Select Clip at Playhead	Sélectionner le clip sous la tête de lecture	ເລືອກຄລິບທີ່ຕຳແໜ່ງຫົວອ່ານ
+	Select Find Box	Sélectionner le champ de recherche	ເລືອກຊ່ອງຄົ້ນຫາ
+	Select items to clear	Sélectionnez les éléments à effacer	ເລືອກລາຍການທີ່ຈະລ້າງ
+	Select Label Group	Sélectionner le groupe d'étiquettes	ເລືອກກຸ່ມປ້າຍສີ
+	Select Next Clip	Sélectionner le clip suivant	ເລືອກຄລິບຖັດໄປ
+	Select Next Graphic	Sélectionner le graphique suivant	ເລືອກກຣາບຟິກຖັດໄປ
+	Select Next Layer	Sélectionner le calque suivant	ເລືອກຊັ້ນຖັດໄປ
+	Select Next Panel	Sélectionner le panneau suivant	ເລືອກແຜງຖັດໄປ
+	Select Previous Clip	Sélectionner le clip précédent	ເລືອກຄລິບກ່ອນໜ້າ
+	Select Previous Graphic	Sélectionner le graphique précédent	ເລືອກກຣາບຟິກກ່ອນໜ້າ
+	Select Previous Layer	Sélectionner le calque précédent	ເລືອກຊັ້ນກ່ອນໜ້າ
+	Select Previous Panel	Sélectionner le panneau précédent	ເລືອກແຜງກ່ອນໜ້າ
+	Select to Next Line	Sélectionner jusqu'à la ligne suivante	ເລືອກໄປຫາແຖວຖັດໄປ
+	Select to Next Word	Sélectionner jusqu'au mot suivant	ເລືອກໄປຫາຄຳຖັດໄປ
+	Select to Previous Line	Sélectionner jusqu'à la ligne précédente	ເລືອກໄປຫາແຖວກ່ອນໜ້າ
+	Select to Previous Word	Sélectionner jusqu'au mot précédent	ເລືອກໄປຫາຄຳກ່ອນໜ້າ
+	Select to Segment End	Sélectionner jusqu'à la fin du segment	ເລືອກໄປຫາທ້າຍຊ່ວງ
+	Select to Segment Start	Sélectionner jusqu'au début du segment	ເລືອກໄປຫາຕົ້ນຊ່ວງ
+	Selected: {command}	Sélection : {command}	ເລືອກແລ້ວ: {command}
+	Selection as FilmCraft Project…	Sélection en tant que projet FilmCraft…	ສ່ວນທີ່ເລືອກເປັນໂປຣເຈັກ FilmCraft…
+	Selection Follows Playhead	La sélection suit la tête de lecture	ການເລືອກຕິດຕາມຫົວອ່ານ
+	Selection Order	Ordre de sélection	ລຳດັບການເລືອກ
+	Selection…	Sélection…	ສ່ວນທີ່ເລືອກ…
+	Semi-tones	Demi-tons	ເຄິ່ງສຽງ
+	Send Backward	Reculer	ສົ່ງໄປທາງຫຼັງ
+	Send exports here with Send to Queue, then start the queue.	Envoyez des exportations ici avec Envoyer vers la file d'attente, puis lancez la file d'attente.	ສົ່ງລາຍການສົ່ງອອກມາທີ່ນີ້ດ້ວຍ "ສົ່ງໄປຄິວ" ແລ້ວເລີ່ມຄິວ.
+	Send to Queue	Envoyer vers la file d'attente	ສົ່ງໄປຄິວ
+	Send {n} Level	Niveau du départ {n}	ລະດັບການສົ່ງ {n}
+	Sensitivity:	Sensibilité :	ຄວາມໄວຕອບສະໜອງ:
+	Separate Audio	Audio séparé	ແຍກສຽງ
+	Separate Files	Fichiers séparés	ແຍກໄຟລ໌
+	Sepia Tone	Virage sépia	ໂທນສີຊີເປຍ
+	Sequence	Séquence	ຊີເຄວັນ
+	Sequence Color Management	Gestion des couleurs de la séquence	ການຈັດການສີຂອງຊີເຄວັນ
+	Sequence From Clip	Séquence à partir du clip	ສ້າງຊີເຄວັນຈາກຄລິບ
+	Sequence Name	Nom de la séquence	ຊື່ຊີເຄວັນ
+	Sequence name	Nom de la séquence	ຊື່ຊີເຄວັນ
+	Sequence Name:	Nom de la séquence :	ຊື່ຊີເຄວັນ:
+	Sequence Settings	Paramètres de séquence	ການຕັ້ງຄ່າຊີເຄວັນ
+	Sequence Settings…	Paramètres de séquence…	ການຕັ້ງຄ່າຊີເຄວັນ…
+	Sequence Time	Temps de la séquence	ເວລາຊີເຄວັນ
+	Sequence Timecode	Timecode de la séquence	ໄທມ໌ໂຄດຊີເຄວັນ
+	Sequence, {w}x{h}, {fps} fps, {rate} Hz	Séquence, {w}x{h}, {fps} fps, {rate} Hz	ຊີເຄວັນ, {w}x{h}, {fps} fps, {rate} Hz
+	Sequences	Séquences	ຊີເຄວັນ
+	Sequence…	Séquence…	ຊີເຄວັນ…
+	Sequentially	Séquentiellement	ຕາມລຳດັບ
+	Set Comparison Reference	Définir la référence de comparaison	ຕັ້ງຄ່າອ້າງອີງການປຽບທຽບ
+	Set Creative Look	Définir le look créatif	ຕັ້ງຄ່າລຸກສ້າງສັນ
+	Set focus on the Timeline when performing Insert/Overwrite edits	Placer le focus sur la timeline lors des montages par insertion/écrasement	ໂຟກັສທີ່ໄທມ໌ໄລນ໌ເມື່ອເຮັດການຕັດຕໍ່ແບບແຊກ/ຂຽນທັບ
+	Set Gain to:	Définir le gain sur :	ຕັ້ງຄ່າເກນເປັນ:
+	Set Input LUT	Définir la LUT d'entrée	ຕັ້ງຄ່າ LUT ຂາເຂົ້າ
+	Set Poster Frame	Définir l'image d'affiche	ຕັ້ງເປັນພາບໜ້າປົກ
+	Set Project Panel View	Définir l'affichage du panneau Projet	ຕັ້ງຄ່າມຸມມອງແຜງໂປຣເຈັກ
+	Set the reference to the playhead	Placer la référence sur la tête de lecture	ຕັ້ງຄ່າອ້າງອີງທີ່ຕຳແໜ່ງຫົວອ່ານ
+	Set Timecode:	Définir le timecode :	ຕັ້ງໄທມ໌ໂຄດ:
+	Set to frame size	Définir sur la taille de l'image	ຕັ້ງເປັນຂະໜາດເຟຣມ
+	Set Transition Duration	Définir la durée de la transition	ຕັ້ງໄລຍະເວລາທຣານຊິຊັນ
+	Setting	Paramètre	ການຕັ້ງຄ່າ
+	Settings	Préférences	ການຕັ້ງຄ່າ
+	SFX	Effets sonores	ສຽງປະກອບ (SFX)
+	Shadow Angle	Angle de l'ombre	ມຸມເງົາ
+	Shadow Blue Balance	Balance du bleu dans les tons foncés	ສົມດຸນສີຟ້າໃນສ່ວນມືດ
+	Shadow Blur	Flou de l'ombre	ຄວາມມົວຂອງເງົາ
+	Shadow Color	Couleur de l'ombre	ສີຂອງເງົາ
+	Shadow Distance	Distance de l'ombre	ໄລຍະຫ່າງເງົາ
+	Shadow Green Balance	Balance du vert dans les tons foncés	ສົມດຸນສີຂຽວໃນສ່ວນມືດ
+	Shadow Only	Ombre seule	ສະເພາະເງົາ
+	Shadow Opacity	Opacité de l'ombre	ຄວາມທຶບແສງຂອງເງົາ
+	Shadow Red Balance	Balance du rouge dans les tons foncés	ສົມດຸນສີແດງໃນສ່ວນມືດ
+	Shadow Size	Taille de l'ombre	ຂະໜາດເງົາ
+	Shadow Tint	Teinte des tons foncés	ໂທນສີສ່ວນມືດ
+	Shadows Lightness	Luminosité des tons foncés	ຄວາມສະຫວ່າງສ່ວນມືດ
+	Shake	Tremblement	ສັ່ນ
+	Shape Dissolve	Fondu par formes	ຈາງປ່ຽນດ້ວຍຮູບຮ່າງ
+	Shape Flow	Flux de formes	ການໄຫຼຂອງຮູບຮ່າງ
+	Shape Size	Taille de la forme	ຂະໜາດຮູບຮ່າງ
+	Shard Size	Taille des éclats	ຂະໜາດເສດແຕກ
+	Sharp Colors	Couleurs nettes	ສີຄົມຊັດ
+	Sharpen Amount	Quantité de netteté	ປະລິມານຄວາມຄົມຊັດ
+	Shift Center To	Déplacer le centre vers	ຍ້າຍຈຸດກາງໄປທີ່
+	Shift clips that overlap trim point during ripple trimming	Décaler les clips qui chevauchent le point de rognage lors d'un rognage avec décalage	ເລື່ອນຄລິບທີ່ຊ້ອນທັບຈຸດຕັດຂອບລະຫວ່າງການຕັດຂອບແບບເລື່ອນຕໍ່ເນື່ອງ
+	Shot	Plan	ຊັອດ
+	Shot/Take:	Plan/prise :	ຊັອດ/ເທັກ:
+	Show "Project:" and "Bin:" in Project panel tab	Afficher « Projet : » et « Chutier : » dans l'onglet du panneau Projet	ສະແດງ "ໂປຣເຈັກ:" ແລະ "ບິນ:" ໃນແຖບແຜງໂປຣເຈັກ
+	Show Active Caption Tracks Only	Afficher uniquement les pistes de sous-titres actives	ສະແດງສະເພາະແທຣັກຄຳບັນຍາຍທີ່ເປີດໃຊ້
+	Show All Caption Tracks	Afficher toutes les pistes de sous-titres	ສະແດງແທຣັກຄຳບັນຍາຍທັງໝົດ
+	Show All Marker Colors	Afficher toutes les couleurs de marqueur	ສະແດງສີເຄື່ອງໝາຍທັງໝົດ
+	Show Audio Waveform	Afficher la forme d'onde audio	ສະແດງຮູບຄື້ນສຽງ
+	Show Clip Mismatch Warning dialog	Afficher l'avertissement de non-concordance de clip	ສະແດງກ່ອງແຈ້ງເຕືອນເມື່ອຄລິບບໍ່ກົງກັນ
+	Show clip names	Afficher les noms des clips	ສະແດງຊື່ຄລິບ
+	Show Dot	Afficher le point	ສະແດງຈຸດ
+	Show durations	Afficher les durées	ສະແດງໄລຍະເວລາ
+	Show Event Indicator	Afficher l'indicateur d'événement	ສະແດງຕົວບອກເຫດການ
+	Show finished jobs	Afficher les tâches terminées	ສະແດງວຽກທີ່ສຳເລັດແລ້ວ
+	Show Focus Area	Afficher la zone de mise au point	ສະແດງພື້ນທີ່ໂຟກັສ
+	Show graphs	Afficher les graphiques	ສະແດງກຣາຟ
+	Show Home	Afficher l'accueil	ສະແດງໜ້າຫຼັກ
+	Show in the Preset menu	Afficher dans le menu Préréglage	ສະແດງໃນເມນູພຣີເຊັດ
+	Show Keyframes	Afficher les images clés	ສະແດງຄີເຟຣມ
+	Show Mask Tracker Preview	Afficher l'aperçu du suivi de masque	ສະແດງຕົວຢ່າງການຕິດຕາມໜ້າກາກ
+	Show Multi-Camera Preview Monitor	Afficher le moniteur d'aperçu multicaméra	ສະແດງມໍນິເຕີຕົວຢ່າງຫຼາຍກ້ອງ
+	Show Next Screen	Afficher l'écran suivant	ສະແດງໜ້າຈໍຖັດໄປ
+	Show Only Noise	Afficher uniquement le bruit	ສະແດງສະເພາະສຽງລົບກວນ
+	Show Open Dialog	Afficher la boîte de dialogue Ouvrir	ສະແດງກ່ອງໂຕ້ຕອບເປີດ
+	Show or hide {color} markers	Afficher ou masquer les marqueurs {color}	ສະແດງ ຫຼື ເຊື່ອງເຄື່ອງໝາຍ {color}
+	Show Previous Screen	Afficher l'écran précédent	ສະແດງໜ້າຈໍກ່ອນໜ້າ
+	Show Program Transcript	Afficher la transcription du programme	ສະແດງບົດຖອດຄວາມຂອງໂປຣແກຣມ
+	Show Project Load Error Dialog	Afficher la boîte de dialogue d'erreur de chargement du projet	ສະແດງກ່ອງແຈ້ງຂໍ້ຜິດພາດການໂຫຼດໂປຣເຈັກ
+	Show Rich Tool Tips	Afficher les info-bulles enrichies	ສະແດງຄຳແນະນຳເຄື່ອງມືແບບລະອຽດ
+	Show Role	Afficher la fonction	ສະແດງບົດບາດ
+	Show system compatibility issues at startup	Afficher les problèmes de compatibilité système au démarrage	ສະແດງບັນຫາຄວາມເຂົ້າກັນໄດ້ຂອງລະບົບຕອນເປີດໂປຣແກຣມ
+	Show the presets folder	Afficher le dossier des paramètres prédéfinis	ສະແດງໂຟລເດີພຣີເຊັດ
+	Show Through Edits	Afficher les points de montage traversants	ສະແດງຈຸດຕັດຕໍ່ເນື່ອງ
+	Show Transport Controls	Afficher les commandes de transport	ສະແດງປຸ່ມຄວບຄຸມການຫຼິ້ນ
+	Show Video Thumbnails	Afficher les vignettes vidéo	ສະແດງພາບຫຍໍ້ວິດີໂອ
+	Show Workspace Reset Warning dialog on double click	Afficher l'avertissement de réinitialisation de l'espace de travail lors d'un double-clic	ສະແດງກ່ອງແຈ້ງເຕືອນການຄືນຄ່າພື້ນທີ່ເຮັດວຽກເມື່ອດັບເບິລຄລິກ
+	Show {n}	Afficher {n}	ສະແດງ {n}
+	Show/Hide Effects and Sends	Afficher/masquer les effets et les envois	ສະແດງ/ເຊື່ອງເອັບເຟັກ ແລະ ການສົ່ງສັນຍານ
+	Show/Hide Tracks	Afficher/masquer les pistes	ສະແດງ/ເຊື່ອງແທຣັກ
+	Show/Hide Tracks…	Afficher/masquer les pistes…	ສະແດງ/ເຊື່ອງແທຣັກ…
+	Show:	Afficher :	ສະແດງ:
+	Shrink	Rétrécir	ຫົດເຂົ້າ
+	Shutter Angle	Angle d'obturation	ມຸມຊັດເຕີ
+	Shuttle Left	Navette vers la gauche	ເລື່ອນໄປທາງຊ້າຍ
+	Shuttle Right	Navette vers la droite	ເລື່ອນໄປທາງຂວາ
+	Shuttle Slow Left	Navette lente vers la gauche	ເລື່ອນຊ້າໆໄປທາງຊ້າຍ
+	Shuttle Slow Right	Navette lente vers la droite	ເລື່ອນຊ້າໆໄປທາງຂວາ
+	Shuttle Stop	Arrêter la navette	ຢຸດການເລື່ອນ
+	Signal Scale	Échelle du signal	ຂະໜາດສັນຍານ
+	Silver Retention	Rétention d'argent	ການຮັກສາເມັດເງິນ
+	Similarity	Similarité	ຄວາມຄ້າຍຄື
+	Simple Notch Filter	Filtre coupe-bande simple	ຕົວກອງຕັດຄວາມຖີ່ແບບງ່າຍ
+	Simple Parametric EQ	Égaliseur paramétrique simple	ພາຣາເມທຣິກ EQ ແບບງ່າຍ
+	Simple Text	Texte simple	ຂໍ້ຄວາມທຳມະດາ
+	Simplify Sequence	Simplifier la séquence	ເຮັດໃຫ້ຊີເຄວັນຮຽບງ່າຍ
+	Simplify Sequence…	Simplifier la séquence…	ເຮັດໃຫ້ຊີເຄວັນຮຽບງ່າຍ…
+	Single-band Compressor	Compresseur monobande	ຕົວບີບອັດສຽງຊ່ວງດຽວ
+	Sinusoidal	Sinusoïdal	ແບບຄື້ນຊາຍ
+	Six procedural 1080p clips with sound	Six clips procéduraux 1080p avec son	ຄລິບສ້າງຂຶ້ນແບບ 1080p ຫົກຄລິບພ້ອມສຽງ
+	Size / Opacity	Taille / opacité	ຂະໜາດ / ຄວາມທຶບແສງ
+	Skew	Biais	ອຽງ
+	Skew Axis	Axe du biais	ແກນອຽງ
+	Slab Color	Couleur du bloc	ສີແຜ່ນ
+	Slats	Lamelles	ແຜ່ນຊ້ອນ
+	Slide	Coulissement	ເລື່ອນຕຳແໜ່ງ
+	Slide (Legacy)	Coulissement (ancien)	ເລື່ອນຕຳແໜ່ງ (ແບບເກົ່າ)
+	Slide Clip Selection Left Five Frames	Coulisser la sélection de clips de cinq images vers la gauche	ເລື່ອນຕຳແໜ່ງຄລິບທີ່ເລືອກໄປຊ້າຍຫ້າເຟຣມ
+	Slide Clip Selection Left One Frame	Coulisser la sélection de clips d'une image vers la gauche	ເລື່ອນຕຳແໜ່ງຄລິບທີ່ເລືອກໄປຊ້າຍໜຶ່ງເຟຣມ
+	Slide Clip Selection Right Five Frames	Coulisser la sélection de clips de cinq images vers la droite	ເລື່ອນຕຳແໜ່ງຄລິບທີ່ເລືອກໄປຂວາຫ້າເຟຣມ
+	Slide Clip Selection Right One Frame	Coulisser la sélection de clips d'une image vers la droite	ເລື່ອນຕຳແໜ່ງຄລິບທີ່ເລືອກໄປຂວາໜຶ່ງເຟຣມ
+	Slide Tool	Outil Coulissement	ເຄື່ອງມືເລື່ອນຕຳແໜ່ງ
+	Slip Clip Selection Left Five Frames	Glisser la sélection de clips de cinq images vers la gauche	ເລື່ອນເນື້ອໃນຄລິບທີ່ເລືອກໄປຊ້າຍຫ້າເຟຣມ
+	Slip Clip Selection Left One Frame	Glisser la sélection de clips d'une image vers la gauche	ເລື່ອນເນື້ອໃນຄລິບທີ່ເລືອກໄປຊ້າຍໜຶ່ງເຟຣມ
+	Slip Clip Selection Right Five Frames	Glisser la sélection de clips de cinq images vers la droite	ເລື່ອນເນື້ອໃນຄລິບທີ່ເລືອກໄປຂວາຫ້າເຟຣມ
+	Slip Clip Selection Right One Frame	Glisser la sélection de clips d'une image vers la droite	ເລື່ອນເນື້ອໃນຄລິບທີ່ເລືອກໄປຂວາໜຶ່ງເຟຣມ
+	Slip Tool	Outil Glissement	ເຄື່ອງມືເລື່ອນເນື້ອໃນ
+	Slope	Pente	ຄວາມຊັນ
+	Slow	Lent	ຊ້າ
+	Slower Motion	Ralenti accentué	ການເຄື່ອນໄຫວຊ້າລົງ
+	Small Room	Petite pièce	ຫ້ອງນ້ອຍ
+	Smaller	Plus petit	ນ້ອຍລົງ
+	Smart Limit	Limitation intelligente	ການຈຳກັດອັດສະລິຍະ
+	Smart Tools	Outils intelligents	ເຄື່ອງມືອັດສະລິຍະ
+	Smooth	Lisse	ລຽບນຽນ
+	Smooth Motion	Mouvement fluide	ການເຄື່ອນໄຫວລື່ນໄຫຼ
+	Smooth Scroll	Défilement fluide	ເລື່ອນລື່ນໄຫຼ
+	SMPTE HD bars with 1 kHz reference tone	Barres SMPTE HD avec tonalité de référence à 1 kHz	ແຖບສີ SMPTE HD ພ້ອມສຽງອ້າງອີງ 1 kHz
+	Snap in Program Monitor	Magnétisme dans le moniteur programme	ດຶງຕິດໃນມໍນິເຕີໂປຣແກຣມ
+	Snap in Timeline	Magnétisme dans la timeline	ດຶງຕິດໃນໄທມ໌ໄລນ໌
+	Snap in Timeline (S)	Magnétisme dans la timeline (S)	ດຶງຕິດໃນໄທມ໌ໄລນ໌ (S)
+	Snap playhead in Timeline when Snap is enabled	Aligner la tête de lecture dans la timeline lorsque le magnétisme est activé	ດຶງຕິດຫົວອ່ານໃນໄທມ໌ໄລນ໌ເມື່ອເປີດໃຊ້ການດຶງຕິດ
+	Snap to grid	Magnétisme sur la grille	ດຶງຕິດກັບຕາໜ່າງ
+	Social Vertical 1080×1920	Vertical réseaux sociaux 1080×1920	ລວງຕັ້ງໂຊຊຽວ 1080×1920
+	Soft Clamp	Écrêtage doux	ຈຳກັດຂອບແບບນຸ້ມ
+	Soft Clip	Écrêtage doux	ຕັດຍອດແບບນຸ້ມ
+	Soft Edges (Best Quality)	Bords adoucis (qualité optimale)	ຂອບນຸ້ມ (ຄຸນນະພາບດີທີ່ສຸດ)
+	Soft Vignette	Vignettage doux	ຂອບມືດແບບນຸ້ມ
+	Soft Wipe	Balayage doux	ກວາດພາບແບບນຸ້ມ
+	Soften Harshness	Atténuer la dureté	ຫຼຸດຄວາມແຂງກະດ້າງ
+	Softness	Adoucissement	ຄວາມນຸ້ມນວນ
+	software rendering	rendu logiciel	ການເຣັນເດີດ້ວຍຊອບແວ
+	Solid	Uni	ສີທຶບ
+	Solid Colors	Couleurs unies	ສີທຶບ
+	Solo	Solo	ໂຊໂລ
+	Solo safe	Protection solo	ປ້ອງກັນການໂຊໂລ
+	Something went wrong while drawing the window. Your project is still open; save it to be safe.	Une erreur s'est produite lors de l'affichage de la fenêtre. Votre projet est toujours ouvert ; enregistrez-le par précaution.	ເກີດຂໍ້ຜິດພາດຂະນະສະແດງໜ້າຕ່າງ. ໂປຣເຈັກຂອງທ່ານຍັງເປີດຢູ່; ກະລຸນາບັນທຶກໄວ້ເພື່ອຄວາມປອດໄພ.
+	Sort Icons	Trier les icônes	ຈັດລຽງໄອຄອນ
+	Sort Order	Ordre de tri	ລຳດັບການຈັດລຽງ
+	Source channels the selected audio clips play:	Canaux source lus par les clips audio sélectionnés :	ຊ່ອງສັນຍານຕົ້ນສະບັບທີ່ຄລິບສຽງທີ່ເລືອກຫຼິ້ນ:
+	Source In/Out	Entrée/sortie source	ຈຸດເຂົ້າ/ອອກຕົ້ນສະບັບ
+	Source Play/Stop	Lire/arrêter la source	ຫຼິ້ນ/ຢຸດຕົ້ນສະບັບ
+	Source Point	Point source	ຈຸດຕົ້ນສະບັບ
+	Source Settings	Paramètres de la source	ການຕັ້ງຄ່າຕົ້ນສະບັບ
+	Source Settings…	Paramètres de la source…	ການຕັ້ງຄ່າຕົ້ນສະບັບ…
+	Source Text	Texte source	ຂໍ້ຄວາມຕົ້ນສະບັບ
+	Source Timecode	Timecode source	ໄທມ໌ໂຄດຕົ້ນສະບັບ
+	Source · {name}	Source · {name}	ຕົ້ນສະບັບ · {name}
+	Source:	Source :	ຕົ້ນສະບັບ:
+	Spacer	Espaceur	ຕົວຂັ້ນ
+	Speaker	Intervenant	ຜູ້ເວົ້າ
+	Speaker Angle	Angle du haut-parleur	ມຸມລຳໂພງ
+	Speaker Labeling	Identification des intervenants	ການລະບຸຊື່ຜູ້ເວົ້າ
+	Special Effects	Effets spéciaux	ເອັບເຟັກພິເສດ
+	Speech model	Modèle de parole	ໂມເດລສຽງເວົ້າ
+	Speech-to-text turns the dialogue into editable text.	La reconnaissance vocale convertit les dialogues en texte modifiable.	ການແປງສຽງເວົ້າເປັນຂໍ້ຄວາມຈະປ່ຽນບົດສົນທະນາໃຫ້ເປັນຂໍ້ຄວາມທີ່ແກ້ໄຂໄດ້.
+	Speed {n}%	Vitesse {n} %	ຄວາມໄວ {n}%
+	Speed/Duration…	Vitesse/durée…	ຄວາມໄວ/ໄລຍະເວລາ…
+	Speed:	Vitesse :	ຄວາມໄວ:
+	Spiky	Hérissé	ແຫຼມ
+	Spill	Débordement	ສີສະທ້ອນລົ້ນ
+	Spill Suppression	Suppression du débordement	ການລົບສີສະທ້ອນລົ້ນ
+	Spin	Tournoiement	ໝຸນວົນ
+	Spin Direction	Sens du tournoiement	ທິດທາງການໝຸນວົນ
+	Spin Motion	Mouvement de tournoiement	ການເຄື່ອນໄຫວແບບໝຸນວົນ
+	Split	Séparation	ແຍກ
+	Split (Legacy)	Séparation (ancien)	ແຍກ (ແບບເກົ່າ)
+	Split Caption	Scinder le sous-titre	ແຍກຄຳບັນຍາຍ
+	Split caption at playhead	Scinder le sous-titre à la tête de lecture	ແຍກຄຳບັນຍາຍທີ່ຕຳແໜ່ງຫົວອ່ານ
+	Spotlight	Projecteur	ໄຟສະປອດໄລທ໌
+	Spread	Étalement	ການແຜ່ກະຈາຍ
+	Spring Motion	Mouvement élastique	ການເຄື່ອນໄຫວແບບສະປຣິງ
+	Square (Width Only)	Carré (largeur uniquement)	ສີ່ຫຼ່ຽມຈະຕຸລັດ (ຄວາມກວ້າງເທົ່ານັ້ນ)
+	Square 1:1	Carré 1:1	ສີ່ຫຼ່ຽມຈະຕຸລັດ 1:1
+	Square Pixels (1.0)	Pixels carrés (1.0)	ພິກເຊລຈະຕຸລັດ (1.0)
+	Stabilization	Stabilisation	ການກັນສັ່ນ
+	Stabilize Only	Stabiliser uniquement	ກັນສັ່ນເທົ່ານັ້ນ
+	Stabilize, Crop	Stabiliser, recadrer	ກັນສັ່ນ, ຕັດຂອບ
+	Stabilize, Crop, Auto-scale	Stabiliser, recadrer, mise à l'échelle auto	ກັນສັ່ນ, ຕັດຂອບ, ປັບຂະໜາດອັດຕະໂນມັດ
+	Stabilize, Synthesize Edges	Stabiliser, synthétiser les bords	ກັນສັ່ນ, ສັງເຄາະຂອບພາບ
+	Stack	Empiler	ຊ້ອນທັບ
+	Stack Clips	Empiler les clips	ຊ້ອນທັບຄລິບ
+	Stages	Étapes	ຂັ້ນຕອນ
+	Star Wipe	Balayage en étoile	ກວາດພາບຮູບດາວ
+	Start Angle	Angle de départ	ມຸມເລີ່ມຕົ້ນ
+	Start at 0	Commencer à 0	ເລີ່ມທີ່ 0
+	Start at 1	Commencer à 1	ເລີ່ມທີ່ 1
+	Start Color	Couleur de départ	ສີເລີ່ມຕົ້ນ
+	Start Export Queue	Démarrer la file d'attente d'exportation	ເລີ່ມຄິວສົ່ງອອກ
+	Start of Ramp	Début du dégradé	ຈຸດເລີ່ມການໄລ່ລະດັບສີ
+	Start Off Screen	Commencer hors de l'écran	ເລີ່ມນອກໜ້າຈໍ
+	Start Point	Point de départ	ຈຸດເລີ່ມຕົ້ນ
+	Start Queue	Lancer la file d'attente	ເລີ່ມຄິວ
+	Start Voice-over Recording	Démarrer l'enregistrement de la voix off	ເລີ່ມບັນທຶກສຽງພາກ
+	Start with an Empty Project	Commencer avec un projet vide	ເລີ່ມດ້ວຍໂປຣເຈັກເປົ່າ
+	Start:	Début :	ເລີ່ມຕົ້ນ:
+	Starting Intensity	Intensité de départ	ຄວາມເຂັ້ມເລີ່ມຕົ້ນ
+	Static Plates	Plaques statiques	ແຜ່ນພາບນິ້ງ
+	Steel Blue	Bleu acier	ສີຟ້າເຫຼັກ
+	Step Back 1 Frame	Reculer d'une image	ຖອຍຫຼັງ 1 ເຟຣມ
+	Step Back 1 Frame (Left)	Reculer d'une image (Gauche)	ຖອຍຫຼັງ 1 ເຟຣມ (ຊ້າຍ)
+	Step Back Five Frames	Reculer de cinq images	ຖອຍຫຼັງຫ້າເຟຣມ
+	Step Back One Frame	Reculer d'une image	ຖອຍຫຼັງໜຶ່ງເຟຣມ
+	Step Forward 1 Frame	Avancer d'une image	ໄປໜ້າ 1 ເຟຣມ
+	Step Forward 1 Frame (Right)	Avancer d'une image (Droite)	ໄປໜ້າ 1 ເຟຣມ (ຂວາ)
+	Step Forward Five Frames	Avancer de cinq images	ໄປໜ້າຫ້າເຟຣມ
+	Step Forward One Frame	Avancer d'une image	ໄປໜ້າໜຶ່ງເຟຣມ
+	Step forward/back many	Avancer/reculer de plusieurs images	ໄປໜ້າ/ຖອຍຫຼັງຫຼາຍເຟຣມ
+	Stereo	Stéréo	ສະເຕີຣິໂອ
+	Stereo Expand	Élargissement stéréo	ຂະຫຍາຍມິຕິສະເຕີຣິໂອ
+	Stereo Expander	Élargisseur stéréo	ຕົວຂະຫຍາຍສະເຕີຣິໂອ
+	Stereo Imagery	Image stéréo	ພາບລວງສຽງສະເຕີຣິໂອ
+	Stereo Media	Médias stéréo	ສື່ສະເຕີຣິໂອ
+	Stereo Phasing	Phase stéréo	ເຟສສະເຕີຣິໂອ
+	Stereo Width	Largeur stéréo	ຄວາມກວ້າງສະເຕີຣິໂອ
+	Stereoscopic - Over/Under	Stéréoscopique - dessus/dessous	ສະເຕີຣິໂອສະໂຄປິກ - ເທິງ/ລຸ່ມ
+	Stereoscopic - Side by Side	Stéréoscopique - côte à côte	ສະເຕີຣິໂອສະໂຄປິກ - ຂ້າງຄຽງກັນ
+	Still	Image fixe	ພາບນິ້ງ
+	Still Image Default Duration	Durée par défaut des images fixes	ໄລຍະເວລາເລີ່ມຕົ້ນຂອງພາບນິ້ງ
+	Stone Church	Église en pierre	ໂບດຫີນ
+	Stop Export Queue	Arrêter la file d'attente d'exportation	ຢຸດຄິວສົ່ງອອກ
+	Stop Multi-Camera Recording	Arrêter l'enregistrement multicaméra	ຢຸດການບັນທຶກຫຼາຍກ້ອງ
+	Stop Source	Arrêter la source	ຢຸດຕົ້ນສະບັບ
+	Stop tracking	Arrêter le suivi	ຢຸດການຕິດຕາມ
+	Stop Voice-over Recording	Arrêter l'enregistrement de la voix off	ຢຸດບັນທຶກສຽງພາກ
+	Stopband Attenuation	Atténuation de la bande coupée	ການຫຼຸດທອນຊ່ວງຄວາມຖີ່ຕັດ
+	Straight Color	Couleur directe	ສີກົງ
+	Strength	Intensité	ຄວາມແຮງ
+	Stretch Gradient to Fit	Étirer le dégradé pour l'adapter	ຍືດການໄລ່ລະດັບສີໃຫ້ພໍດີ
+	Stretch Map to Fit	Étirer la carte pour l'adapter	ຍືດແຜນທີ່ໃຫ້ພໍດີ
+	Stretch To Fill	Étirer pour remplir	ຍືດໃຫ້ເຕັມ
+	Stretch to Fit Frame	Étirer à la taille de l'image	ຍືດໃຫ້ພໍດີກັບເຟຣມ
+	Stretch Width or Height	Étirer la largeur ou la hauteur	ຍືດຄວາມກວ້າງ ຫຼື ຄວາມສູງ
+	Stretch Wipe	Balayage étiré	ກວາດພາບແບບຍືດ
+	Stripe	Rayure	ເສັ້ນລາຍ
+	Stripes	Rayures	ເສັ້ນລາຍ
+	Strobe Color	Couleur du stroboscope	ສີແສງກະພິບ
+	Strobe Duration (secs)	Durée du stroboscope (s)	ໄລຍະເວລາແສງກະພິບ (ວິນາທີ)
+	Strobe Light	Lumière stroboscopique	ແສງກະພິບ
+	Strobe Period (secs)	Période du stroboscope (s)	ຮອບວຽນແສງກະພິບ (ວິນາທີ)
+	Stroke 2	Contour 2	ເສັ້ນຂອບ 2
+	Stroke 2 Color	Couleur du contour 2	ສີເສັ້ນຂອບ 2
+	Stroke 2 Type	Type du contour 2	ປະເພດເສັ້ນຂອບ 2
+	Stroke 2 Width	Largeur du contour 2	ຄວາມກວ້າງເສັ້ນຂອບ 2
+	Stroke Angle	Angle du trait	ມຸມເສັ້ນ
+	Stroke Density	Densité des traits	ຄວາມໜາແໜ້ນຂອງເສັ້ນ
+	Stroke Length	Longueur du trait	ຄວາມຍາວຂອງເສັ້ນ
+	Stroke Length (secs)	Longueur du trait (s)	ຄວາມຍາວຂອງເສັ້ນ (ວິນາທີ)
+	Stroke line cap	Extrémité du contour	ປາຍເສັ້ນຂອບ
+	Stroke line join	Jointure du contour	ຂໍ້ຕໍ່ເສັ້ນຂອບ
+	Stroke Only	Contour uniquement	ສະເພາະເສັ້ນຂອບ
+	Stroke Randomness	Caractère aléatoire des traits	ຄວາມສຸ່ມຂອງເສັ້ນ
+	Stroke Type	Type de contour	ປະເພດເສັ້ນຂອບ
+	Stroke Width	Largeur du contour	ຄວາມກວ້າງເສັ້ນຂອບ
+	Studio Reverb	Réverbération de studio	ສຽງກ້ອງສະຕູດິໂອ
+	Subclip End	Fin du sous-clip	ຈຸດສິ້ນສຸດຄລິບຍ່ອຍ
+	Subclip Start	Début du sous-clip	ຈຸດເລີ່ມຕົ້ນຄລິບຍ່ອຍ
+	Subclip: {name}	Sous-clip : {name}	ຄລິບຍ່ອຍ: {name}
+	SubRip Subtitle (.srt)	Sous-titres SubRip (.srt)	ຄຳບັນຍາຍ SubRip (.srt)
+	Subspace Warp	Déformation de sous-espace	ການບິດເບືອນພື້ນທີ່ຍ່ອຍ
+	Sum multichannel outputs to mono in Source Monitor	Mixer les sorties multicanaux en mono dans le moniteur source	ລວມສັນຍານອອກຫຼາຍຊ່ອງເປັນໂມໂນໃນມໍນິເຕີຕົ້ນສະບັບ
+	Super Narrow	Extra-étroit	ແຄບພິເສດ
+	Surface Gloss	Brillance de la surface	ຄວາມເງົາຂອງພື້ນຜິວ
+	Surface Material	Matériau de la surface	ວັດສະດຸພື້ນຜິວ
+	Surround Reverb	Réverbération surround	ສຽງກ້ອງອ້ອມທິດທາງ
+	Swap	Permuter	ສະຫຼັບ
+	Swap Channels	Permuter les canaux	ສະຫຼັບຊ່ອງສັນຍານ
+	Switch Audio	Changer d'audio	ສະຫຼັບສຽງ
+	Swivel	Pivotement	ຫັນພິກ
+	Sync Voice-over Capture	Synchroniser la capture de la voix off	ຊິງຄ໌ການບັນທຶກສຽງພາກ
+	Synchronize Clips	Synchroniser les clips	ຊິງຄ໌ຄລິບ
+	Synchronize Point	Point de synchronisation	ຈຸດຊິງຄ໌
+	Synchronized {n} clip group(s)	{n} groupe(s) de clips synchronisé(s)	ຊິງຄ໌ {n} ກຸ່ມຄລິບແລ້ວ
+	Synchronize…	Synchroniser…	ຊິງຄ໌…
+	Synthetic	Synthétique	ສັງເຄາະ
+	System Compatibility Report	Rapport de compatibilité système	ລາຍງານຄວາມເຂົ້າກັນໄດ້ຂອງລະບົບ
+	System Compatibility Report…	Rapport de compatibilité système…	ລາຍງານຄວາມເຂົ້າກັນໄດ້ຂອງລະບົບ…
+	System Default	Par défaut du système	ຄ່າເລີ່ມຕົ້ນຂອງລະບົບ
+	System Language	Langue du système	ພາສາຂອງລະບົບ
+	Tag Color	Couleur de l'étiquette	ສີປ້າຍກຳກັບ
+	Tan	Beige	ສີນ້ຳຕານອ່ອນ
+	Tape	Bande	ເທັບ
+	Tape Name	Nom de la bande	ຊື່ເທັບ
+	Tape Name:	Nom de la bande :	ຊື່ເທັບ:
+	Tape/Tube	Bande/lampe	ເທັບ/ຫຼອດສູນຍາກາດ
+	Target Aspect	Format cible	ອັດຕາສ່ວນເປົ້າໝາຍ
+	Target Bitrate	Débit cible	ບິດເຣດເປົ້າໝາຍ
+	Target Color	Couleur cible	ສີເປົ້າໝາຍ
+	Target Duration:	Durée cible :	ໄລຍະເວລາເປົ້າໝາຍ:
+	Target Field of View	Champ de vision cible	ມຸມມອງເປົ້າໝາຍ
+	Target Loudness	Sonie cible	ຄວາມດັງເປົ້າໝາຍ
+	Teal	Bleu canard	ສີຂຽວອົມຟ້າ
+	Teal & Orange	Bleu canard et orange	ສີຂຽວອົມຟ້າ ແລະ ສີສົ້ມ
+	Teal Shadows, Warm Skin	Tons foncés bleu canard, carnations chaudes	ສ່ວນມືດສີຂຽວອົມຟ້າ, ສີຜິວໂທນອຸ່ນ
+	Technical	Technique	ດ້ານເຕັກນິກ
+	Telephone	Téléphone	ໂທລະສັບ
+	Teletext	Télétexte	ເທເລເທັກ
+	Template Name:	Nom du modèle :	ຊື່ແມ່ແບບ:
+	Template Properties	Propriétés du modèle	ຄຸນສົມບັດແມ່ແບບ
+	Temporal Interpolation	Interpolation temporelle	ການແຊກຄ່າຕາມເວລາ
+	Text (graphics and captions)	Texte (graphiques et sous-titres)	ຂໍ້ຄວາມ (ກຣາບຟິກ ແລະ ຄຳບັນຍາຍ)
+	Text Animator	Animateur de texte	ຕົວສ້າງການເຄື່ອນໄຫວຂໍ້ຄວາມ
+	Text Box Height	Hauteur de la zone de texte	ຄວາມສູງກ່ອງຂໍ້ຄວາມ
+	Text Box Width	Largeur de la zone de texte	ຄວາມກວ້າງກ່ອງຂໍ້ຄວາມ
+	Text Color	Couleur du texte	ສີຂໍ້ຄວາມ
+	Text Layer Type	Type de calque de texte	ປະເພດຊັ້ນຂໍ້ຄວາມ
+	Text Properties	Propriétés du texte	ຄຸນສົມບັດຂໍ້ຄວາມ
+	Text Styling	Style du texte	ຮູບແບບຂໍ້ຄວາມ
+	Text to Speech	Synthèse vocale	ແປງຂໍ້ຄວາມເປັນສຽງເວົ້າ
+	TextPanel	Panneau Texte	ແຜງຂໍ້ຄວາມ
+	The default graphics are used from the next start.	Les graphismes par défaut seront utilisés au prochain démarrage.	ກຣາບຟິກເລີ່ມຕົ້ນຈະຖືກໃຊ້ໃນການເປີດໂປຣແກຣມຄັ້ງຕໍ່ໄປ.
+	The language changed but could not be saved: {e}	La langue a été changée mais n'a pas pu être enregistrée : {e}	ປ່ຽນພາສາແລ້ວ ແຕ່ບໍ່ສາມາດບັນທຶກໄດ້: {e}
+	The media cache holds render previews of unsaved projects and other files FilmCraft can recreate. Deleting them is always safe; FilmCraft rebuilds them as needed.	Le cache média contient les aperçus de rendu des projets non enregistrés et d'autres fichiers que FilmCraft peut recréer. Vous pouvez toujours les supprimer sans risque ; FilmCraft les reconstruit au besoin.	ແຄຊສື່ເກັບພາບຕົວຢ່າງການເຣັນເດີຂອງໂປຣເຈັກທີ່ຍັງບໍ່ໄດ້ບັນທຶກ ແລະ ໄຟລ໌ອື່ນໆທີ່ FilmCraft ສາມາດສ້າງໃໝ່ໄດ້. ການລຶບໄຟລ໌ເຫຼົ່ານີ້ແມ່ນປອດໄພສະເໝີ; FilmCraft ຈະສ້າງຂຶ້ນໃໝ່ເມື່ອຈຳເປັນ.
+	The project had not been saved yet.	Le projet n'avait pas encore été enregistré.	ໂປຣເຈັກນີ້ຍັງບໍ່ທັນໄດ້ບັນທຶກເທື່ອ.
+	The selected clips have different audio types. Assign one type to edit them together.	Les clips sélectionnés ont des types audio différents. Attribuez-leur un même type pour les modifier ensemble.	ຄລິບທີ່ເລືອກມີປະເພດສຽງຕ່າງກັນ. ໃຫ້ກຳນົດເປັນປະເພດດຽວກັນເພື່ອແກ້ໄຂຮ່ວມກັນ.
+	The sequence has no caption track.	La séquence ne comporte aucune piste de sous-titres.	ຊີເຄວັນນີ້ບໍ່ມີແທຣັກຄຳບັນຍາຍ.
+	This build has no speech-to-text; import a transcript with transcript.set.	Cette version n'inclut pas la reconnaissance vocale ; importez une transcription avec transcript.set.	ເວີຊັນນີ້ບໍ່ມີລະບົບແປງສຽງເວົ້າເປັນຂໍ້ຄວາມ; ໃຫ້ນຳເຂົ້າບົດຖອດຄວາມດ້ວຍ transcript.set.
+	Thr	Seuil	ຂີດເລີ່ມ
+	Thumbnail controls for all pointing devices	Commandes de vignettes pour tous les périphériques de pointage	ຕົວຄວບຄຸມພາບຫຍໍ້ສຳລັບອຸປະກອນຊີ້ທັງໝົດ
+	Thumbnail Size Next	Taille de vignette suivante	ຂະໜາດພາບຫຍໍ້ຖັດໄປ
+	Thumbnail Size Previous	Taille de vignette précédente	ຂະໜາດພາບຫຍໍ້ກ່ອນໜ້າ
+	Thumbnail View	Affichage en vignettes	ມຸມມອງພາບຫຍໍ້
+	Thumbnails show effects applied	Les vignettes affichent les effets appliqués	ພາບຫຍໍ້ສະແດງເອັບເຟັກທີ່ນຳໃຊ້
+	Ticker – Crawl	Bandeau d'infos – Défilement horizontal	ແຖບຂ່າວ – ເລື່ອນຕາມລວງນອນ
+	TIFF	TIFF	TIFF
+	TIFF Sequence	Séquence TIFF	ລຳດັບພາບ TIFF
+	Tile Gradient	Dégradé en mosaïque	ໄລ່ລະດັບສີແບບກະເບື້ອງ
+	Tilt (X Axis)	Inclinaison (axe X)	ກົ້ມເງີຍ (ແກນ X)
+	Time	Temps	ເວລາ
+	Time and Pitch	Temps et hauteur	ເວລາ ແລະ ລະດັບສຽງ
+	Time Interpolation	Interpolation temporelle	ການແຊກຄ່າເວລາ
+	Time Remapping	Remappage temporel	ການຈັດການຄວາມໄວຕາມເວລາ
+	Timebase:	Base de temps :	ຖານເວລາ:
+	Timecode Conversion	Conversion du timecode	ການແປງໄທມ໌ໂຄດ
+	Timecode Overlay	Superposition du timecode	ຊ້ອນທັບໄທມ໌ໂຄດ
+	Timecode:	Timecode :	ໄທມ໌ໂຄດ:
+	Timecode…	Timecode…	ໄທມ໌ໂຄດ…
+	Timeline Display Settings	Paramètres d'affichage de la timeline	ການຕັ້ງຄ່າການສະແດງຜົນໄທມ໌ໄລນ໌
+	Timeline Mouse Scrolling	Défilement à la souris dans la timeline	ການເລື່ອນດ້ວຍເມົ້າສ໌ໃນໄທມ໌ໄລນ໌
+	Timeline Playback Auto-Scrolling	Défilement automatique de la timeline pendant la lecture	ການເລື່ອນໄທມ໌ໄລນ໌ອັດຕະໂນມັດລະຫວ່າງຫຼິ້ນ
+	Timeline: (no sequences)	Timeline : (aucune séquence)	ໄທມ໌ໄລນ໌: (ບໍ່ມີຊີເຄວັນ)
+	Timeline…	Timeline…	ໄທມ໌ໄລນ໌…
+	Title Color	Couleur du titre	ສີຫົວຂໍ້
+	Title Safe Area	Zone de sécurité titre	ພື້ນທີ່ປອດໄພຂອງຫົວຂໍ້
+	Title Size	Taille du titre	ຂະໜາດຫົວຂໍ້
+	Title – Boxed	Titre – Encadré	ຫົວຂໍ້ – ມີກອບ
+	Title – Centered	Titre – Centré	ຫົວຂໍ້ – ຈັດກາງ
+	Titles	Titres	ຫົວຂໍ້
+	To {name}	Vers {name}	ໄປທີ່ {name}
+	Toggle All Audio Targets	Activer/désactiver toutes les cibles audio	ສະຫຼັບເປົ້າໝາຍສຽງທັງໝົດ
+	Toggle All Source Audio	Activer/désactiver tout l'audio source	ສະຫຼັບສຽງຕົ້ນສະບັບທັງໝົດ
+	Toggle All Source Video	Activer/désactiver toute la vidéo source	ສະຫຼັບວິດີໂອຕົ້ນສະບັບທັງໝົດ
+	Toggle All Video Targets	Activer/désactiver toutes les cibles vidéo	ສະຫຼັບເປົ້າໝາຍວິດີໂອທັງໝົດ
+	Toggle animation	Activer/désactiver l'animation	ເປີດ/ປິດການເຄື່ອນໄຫວ
+	Toggle Audio During Scrubbing	Activer/désactiver l'audio pendant le défilement	ເປີດ/ປິດສຽງລະຫວ່າງການລາກຫົວອ່ານ
+	Toggle Full Screen	Activer/désactiver le plein écran	ສະຫຼັບເຕັມໜ້າຈໍ
+	Toggle Mute for All Targeted Audio Tracks	Activer/désactiver la coupure du son de toutes les pistes audio ciblées	ເປີດ/ປິດສຽງສຳລັບແທຣັກສຽງເປົ້າໝາຍທັງໝົດ
+	Toggle Proxies	Activer/désactiver les proxys	ເປີດ/ປິດພຣັອກຊີ
+	Toggle Solo for All Targeted Audio Tracks	Activer/désactiver le solo de toutes les pistes audio ciblées	ເປີດ/ປິດໂຊໂລສຳລັບແທຣັກສຽງເປົ້າໝາຍທັງໝົດ
+	Toggle Source/Program Monitor Focus	Basculer entre moniteur source et moniteur programme	ສະຫຼັບໂຟກັສລະຫວ່າງມໍນິເຕີຕົ້ນສະບັບ/ໂປຣແກຣມ
+	Toggle Target Audio 1	Activer/désactiver la cible audio 1	ສະຫຼັບເປົ້າໝາຍສຽງ 1
+	Toggle Target Audio 2	Activer/désactiver la cible audio 2	ສະຫຼັບເປົ້າໝາຍສຽງ 2
+	Toggle Target Audio 3	Activer/désactiver la cible audio 3	ສະຫຼັບເປົ້າໝາຍສຽງ 3
+	Toggle Target Audio 4	Activer/désactiver la cible audio 4	ສະຫຼັບເປົ້າໝາຍສຽງ 4
+	Toggle Target Audio 5	Activer/désactiver la cible audio 5	ສະຫຼັບເປົ້າໝາຍສຽງ 5
+	Toggle Target Audio 6	Activer/désactiver la cible audio 6	ສະຫຼັບເປົ້າໝາຍສຽງ 6
+	Toggle Target Audio 7	Activer/désactiver la cible audio 7	ສະຫຼັບເປົ້າໝາຍສຽງ 7
+	Toggle Target Audio 8	Activer/désactiver la cible audio 8	ສະຫຼັບເປົ້າໝາຍສຽງ 8
+	Toggle Target Video 1	Activer/désactiver la cible vidéo 1	ສະຫຼັບເປົ້າໝາຍວິດີໂອ 1
+	Toggle Target Video 2	Activer/désactiver la cible vidéo 2	ສະຫຼັບເປົ້າໝາຍວິດີໂອ 2
+	Toggle Target Video 3	Activer/désactiver la cible vidéo 3	ສະຫຼັບເປົ້າໝາຍວິດີໂອ 3
+	Toggle Target Video 4	Activer/désactiver la cible vidéo 4	ສະຫຼັບເປົ້າໝາຍວິດີໂອ 4
+	Toggle Target Video 5	Activer/désactiver la cible vidéo 5	ສະຫຼັບເປົ້າໝາຍວິດີໂອ 5
+	Toggle Target Video 6	Activer/désactiver la cible vidéo 6	ສະຫຼັບເປົ້າໝາຍວິດີໂອ 6
+	Toggle Target Video 7	Activer/désactiver la cible vidéo 7	ສະຫຼັບເປົ້າໝາຍວິດີໂອ 7
+	Toggle Target Video 8	Activer/désactiver la cible vidéo 8	ສະຫຼັບເປົ້າໝາຍວິດີໂອ 8
+	Toggle Track Output for All Targeted Video Tracks	Activer/désactiver la sortie de toutes les pistes vidéo ciblées	ເປີດ/ປິດການສະແດງຜົນສຳລັບແທຣັກວິດີໂອເປົ້າໝາຍທັງໝົດ
+	Toggle Trim Type	Basculer le type de rognage	ສະຫຼັບປະເພດການຕັດຂອບ
+	Toggle View	Basculer l'affichage	ສະຫຼັບມຸມມອງ
+	Tone	Ton	ໂທນສຽງ
+	Top Center	En haut au centre	ເທິງກາງ
+	Total Duration	Durée totale	ໄລຍະເວລາທັງໝົດ
+	Touch	Toucher	ສຳຜັດ
+	Track Fx Editor	Éditeur d'effets de piste	ຕົວແກ້ໄຂເອັບເຟັກແທຣັກ
+	Track Keyframes	Images clés de la piste	ຄີເຟຣມຂອງແທຣັກ
+	Track Matte Key	Incrustation par cache de piste	ການເຈາະພາບດ້ວຍແຜ່ນບັງແທຣັກ
+	Track Select Backward Tool	Outil Sélection de piste en arrière	ເຄື່ອງມືເລືອກແທຣັກໄປທາງຫຼັງ
+	Track Select Forward Tool	Outil Sélection de piste en avant	ເຄື່ອງມືເລືອກແທຣັກໄປທາງໜ້າ
+	Track Selected Mask	Suivre le masque sélectionné	ຕິດຕາມໜ້າກາກທີ່ເລືອກ
+	Track selected mask backward	Suivre le masque sélectionné en arrière	ຕິດຕາມໜ້າກາກທີ່ເລືອກຍ້ອນຫຼັງ
+	Track selected mask backward 1 frame	Suivre le masque sélectionné d'une image en arrière	ຕິດຕາມໜ້າກາກທີ່ເລືອກຍ້ອນຫຼັງ 1 ເຟຣມ
+	Track selected mask forward	Suivre le masque sélectionné en avant	ຕິດຕາມໜ້າກາກທີ່ເລືອກໄປໜ້າ
+	Track selected mask forward 1 frame	Suivre le masque sélectionné d'une image en avant	ຕິດຕາມໜ້າກາກທີ່ເລືອກໄປໜ້າ 1 ເຟຣມ
+	Track type	Type de piste	ປະເພດແທຣັກ
+	Tracking method: {method}	Méthode de suivi : {method}	ວິທີການຕິດຕາມ: {method}
+	Tracks	Pistes	ແທຣັກ
+	tracks	pistes	ແທຣັກ
+	Transcode	Transcoder	ແປງລະຫັດ
+	Transcribe	Transcrire	ຖອດຄວາມ
+	Transcribe Sequence	Transcrire la séquence	ຖອດຄວາມຊີເຄວັນ
+	Transcribe sequence	Transcrire la séquence	ຖອດຄວາມຊີເຄວັນ
+	Transcribe Sequence…	Transcrire la séquence…	ຖອດຄວາມຊີເຄວັນ…
+	Transcribe…	Transcrire…	ຖອດຄວາມ…
+	Transcript	Transcription	ບົດຖອດຄວາມ
+	Transcription	Transcription	ການຖອດຄວາມ
+	Transcription preferences	Préférences de transcription	ການຕັ້ງຄ່າການຖອດຄວາມ
+	Transformers	Transformateurs	ໝໍ້ແປງ
+	Transience	Transitoires	ສຽງກະທົບຕົ້ນ
+	Transition Completion	Achèvement de la transition	ຄວາມສຳເລັດຂອງທຣານຊິຊັນ
+	Transition Softness	Adoucissement de la transition	ຄວາມນຸ້ມນວນຂອງທຣານຊິຊັນ
+	Transitions	Transitions	ທຣານຊິຊັນ
+	Transmit Multi-Camera View	Transmettre la vue multicaméra	ສົ່ງສັນຍານມຸມມອງຫຼາຍກ້ອງ
+	Transparent Video…	Vidéo transparente…	ວິດີໂອໂປ່ງໃສ…
+	Trash	Corbeille	ຖັງຂີ້ເຫຍື້ອ
+	Travel Motion	Mouvement de déplacement	ການເຄື່ອນໄຫວແບບເດີນທາງ
+	Treble	Aigus	ສຽງແຫຼມ
+	Trim	Rognage	ຕັດຂອບ
+	Trim audio files	Rogner les fichiers audio	ຕັດຂອບໄຟລ໌ສຽງ
+	Trim Backward	Rogner en arrière	ຕັດຂອບໄປທາງຫຼັງ
+	Trim Backward Many	Rogner de plusieurs images en arrière	ຕັດຂອບໄປທາງຫຼັງຫຼາຍເຟຣມ
+	Trim Edit	Rogner le point de montage	ຕັດຂອບຈຸດຕັດຕໍ່
+	Trim Forward	Rogner en avant	ຕັດຂອບໄປທາງໜ້າ
+	Trim Forward Many	Rogner de plusieurs images en avant	ຕັດຂອບໄປທາງໜ້າຫຼາຍເຟຣມ
+	Trim In	Rogner l'entrée	ຕັດຂອບເຂົ້າ
+	Trim Next Edit to Playhead	Rogner le point de montage suivant jusqu'à la tête de lecture	ຕັດຂອບຈຸດຕັດຕໍ່ຖັດໄປຫາຫົວອ່ານ
+	Trim Out	Rogner la sortie	ຕັດຂອບອອກ
+	Trim Previous Edit to Playhead	Rogner le point de montage précédent jusqu'à la tête de lecture	ຕັດຂອບຈຸດຕັດຕໍ່ກ່ອນໜ້າຫາຫົວອ່ານ
+	Trimming	Rognage	ການຕັດຂອບ
+	Trim…	Rogner…	ຕັດຂອບ…
+	True Peak Limit	Limite de crête réelle	ຂີດຈຳກັດຍອດສັນຍານແທ້
+	Tube	Lampe	ຫຼອດສູນຍາກາດ
+	Tube-modeled Compressor	Compresseur à modélisation de lampe	ຕົວບີບອັດສຽງຈຳລອງຫຼອດສູນຍາກາດ
+	Tubular	Tubulaire	ແບບທໍ່
+	Turbulent Displace	Déplacement turbulent	ການເລື່ອນພາບແບບປັ່ນປ່ວນ
+	Turbulent Sharp	Turbulent net	ປັ່ນປ່ວນແບບຄົມ
+	Turbulent Smooth	Turbulent lisse	ປັ່ນປ່ວນແບບນຸ້ມ
+	Turbulent Smoother	Turbulent plus lisse	ປັ່ນປ່ວນແບບນຸ້ມຂຶ້ນ
+	Turn on animation and add keyframe	Activer l'animation et ajouter une image clé	ເປີດການເຄື່ອນໄຫວ ແລະ ເພີ່ມຄີເຟຣມ
+	TV Power	Allumage TV	ເປີດ/ປິດໂທລະພາບ
+	Tweed	Tweed	ລາຍຜ້າທະວີດ
+	Twirl (Legacy)	Tourbillon (ancien)	ໝຸນບິດ (ແບບເກົ່າ)
+	Twirl Center	Centre du tourbillon	ຈຸດກາງການໝຸນບິດ
+	Twirl Radius	Rayon du tourbillon	ລັດສະໝີການໝຸນບິດ
+	Twist Smoother	Torsion plus lisse	ບິດກຽວແບບນຸ້ມຂຶ້ນ
+	Type a shortcut… (Esc cancels)	Saisissez un raccourci… (Échap pour annuler)	ພິມຄີລັດ… (ກົດ Esc ເພື່ອຍົກເລີກ)
+	Type:	Type :	ປະເພດ:
+	UI Scale	Échelle de l'interface	ຂະໜາດ UI
+	UI:	Interface :	UI:
+	Ultra Key	Ultra Key	Ultra Key
+	Uncompressed (PCM)	Non compressé (PCM)	ບໍ່ບີບອັດ (PCM)
+	Underline	Souligné	ຂີດກ້ອງ
+	Ungroup	Dissocier le groupe	ຍົກເລີກການຈັດກຸ່ມ
+	Uniform Scale	Échelle uniforme	ຂະໜາດສະໝ່ຳສະເໝີ
+	Uniform Spacing	Espacement uniforme	ໄລຍະຫ່າງສະໝ່ຳສະເໝີ
+	Universal Counting Leader…	Amorce de décompte universelle…	ພາບນັບຖອຍຫຼັງມາດຕະຖານ…
+	Unlink	Dissocier	ຍົກເລີກການເຊື່ອມໂຍງ
+	Unreadable	Illisible	ອ່ານບໍ່ໄດ້
+	Unrendered: render to play back in real time	Sans rendu : effectuez le rendu pour une lecture en temps réel	ຍັງບໍ່ໄດ້ເຣັນເດີ: ໃຫ້ເຣັນເດີເພື່ອຫຼິ້ນແບບທັນທີ
+	Unrendered: should play back in real time	Sans rendu : devrait être lu en temps réel	ຍັງບໍ່ໄດ້ເຣັນເດີ: ຄວນຈະຫຼິ້ນໄດ້ແບບທັນທີ
+	Unsharp Mask	Masque flou	ເພີ່ມຄວາມຄົມຊັດ (Unsharp Mask)
+	Unstack	Désempiler	ຍົກເລີກການຊ້ອນທັບ
+	Unstack Clips	Désempiler les clips	ຍົກເລີກການຊ້ອນທັບຄລິບ
+	Untagged	Non classé	ບໍ່ມີປ້າຍກຳກັບ
+	Untitled Workspace	Espace de travail sans titre	ພື້ນທີ່ເຮັດວຽກບໍ່ມີຊື່
+	Up One Level	Remonter d'un niveau	ຂຶ້ນໄປໜຶ່ງລະດັບ
+	Up one level	Remonter d'un niveau	ຂຶ້ນໄປໜຶ່ງລະດັບ
+	Update it at least every	Mettre à jour au moins toutes les	ອັບເດດຢ່າງໜ້ອຍທຸກໆ
+	Update Metadata	Mettre à jour les métadonnées	ອັບເດດເມຕາດາຕາ
+	Update Metadata…	Mettre à jour les métadonnées…	ອັບເດດເມຕາດາຕາ…
+	Update timeline dynamically during ripple edits.	Mettre à jour la timeline dynamiquement pendant les montages avec décalage.	ອັບເດດໄທມ໌ໄລນ໌ທັນທີລະຫວ່າງການຕັດຕໍ່ແບບເລື່ອນຕໍ່ເນື່ອງ.
+	Upgrade Caption to Graphic	Convertir le sous-titre en graphique	ອັບເກຣດຄຳບັນຍາຍເປັນກຣາບຟິກ
+	Upgrade to Source Graphic	Convertir en graphique source	ອັບເກຣດເປັນກຣາບຟິກຕົ້ນສະບັບ
+	Upper First	Trame supérieure d'abord	ເສັ້ນເທິງກ່ອນ
+	Upper Frequency	Fréquence supérieure	ຄວາມຖີ່ສູງສຸດ
+	Upper Left	En haut à gauche	ເທິງຊ້າຍ
+	Upper Right	En haut à droite	ເທິງຂວາ
+	Use Color Noise	Utiliser un bruit coloré	ໃຊ້ນອຍສ໌ສີ
+	Use Default Graphics	Utiliser les graphismes par défaut	ໃຊ້ກຣາບຟິກເລີ່ມຕົ້ນ
+	Use Effect Shutter Angle	Utiliser l'angle d'obturation de l'effet	ໃຊ້ມຸມຊັດເຕີຂອງເອັບເຟັກ
+	Use End Color	Utiliser la couleur de fin	ໃຊ້ສີສຸດທ້າຍ
+	Use File	Utiliser un fichier	ໃຊ້ໄຟລ໌
+	Use file metadata	Utiliser les métadonnées du fichier	ໃຊ້ເມຕາດາຕາຂອງໄຟລ໌
+	Use Glow Color	Utiliser la couleur de lueur	ໃຊ້ສີແສງເຮືອງ
+	Use Maximum Render Quality	Utiliser la qualité de rendu maximale	ໃຊ້ຄຸນນະພາບການເຣັນເດີສູງສຸດ
+	Use Media Source	Utiliser la source du média	ໃຊ້ຕົ້ນສະບັບຂອງສື່
+	Use the file's timecode	Utiliser le timecode du fichier	ໃຊ້ໄທມ໌ໂຄດຂອງໄຟລ໌
+	Use Tint Color	Utiliser la couleur de teinte	ໃຊ້ສີໂທນ
+	User Order	Ordre utilisateur	ລຳດັບຂອງຜູ້ໃຊ້
+	Utility	Utilitaire	ເຄື່ອງມືຊ່ວຍ
+	Validate Content Credentials on import	Vérifier les identifiants de contenu à l'importation	ກວດສອບຂໍ້ມູນຢືນຢັນເນື້ອຫາເມື່ອນຳເຂົ້າ
+	Variations:	Variantes :	ຮູບແບບຍ່ອຍ:
+	VBR, 1 pass	VBR, 1 passe	VBR, 1 ຮອບ
+	VBR, 2 pass	VBR, 2 passes	VBR, 2 ຮອບ
+	Vectorscope (YUV)	Vectorscope (YUV)	ເວັກເຕີສະໂຄບ (YUV)
+	Vectorscope + Waveform YC	Vectorscope + forme d'onde YC	ເວັກເຕີສະໂຄບ + ຮູບຄື້ນ YC
+	Vectorscope HLS	Vectorscope HLS	ເວັກເຕີສະໂຄບ HLS
+	Vectorscope Targets	Cibles du vectorscope	ເປົ້າໝາຍເວັກເຕີສະໂຄບ
+	Vectorscope YUV	Vectorscope YUV	ເວັກເຕີສະໂຄບ YUV
+	Velocity	Vélocité	ຄວາມໄວຕົ້ນ
+	Venetian Blinds	Store vénitien	ມູ່ລີ່
+	vertical	vertical	ລວງຕັ້ງ
+	Vertical 4:5	Vertical 4:5	ລວງຕັ້ງ 4:5
+	Vertical 9:16	Vertical 9:16	ລວງຕັ້ງ 9:16
+	Vertical Blocks	Blocs verticaux	ບລັອກລວງຕັ້ງ
+	Vertical Decentering	Décentrage vertical	ການເຍື້ອງສູນກາງລວງຕັ້ງ
+	Vertical Displacement	Déplacement vertical	ການເລື່ອນຕາມລວງຕັ້ງ
+	Vertical Flip	Retournement vertical	ພິກຕາມລວງຕັ້ງ
+	Vertical Margin	Marge verticale	ຂອບລວງຕັ້ງ
+	Vertical Text	Texte vertical	ຂໍ້ຄວາມລວງຕັ້ງ
+	Very Narrow	Très étroit	ແຄບຫຼາຍ
+	VHS Damage	Dégradation VHS	ຄວາມເສຍຫາຍແບບ VHS
+	Video 1	Vidéo 1	ວິດີໂອ 1
+	Video 2	Vidéo 2	ວິດີໂອ 2
+	Video 3	Vidéo 3	ວິດີໂອ 3
+	Video 4	Vidéo 4	ວິດີໂອ 4
+	Video 5	Vidéo 5	ວິດີໂອ 5
+	Video 6	Vidéo 6	ວິດີໂອ 6
+	Video 7	Vidéo 7	ວິດີໂອ 7
+	Video 8	Vidéo 8	ວິດີໂອ 8
+	Video and Audio	Vidéo et audio	ວິດີໂອ ແລະ ສຽງ
+	Video and Audio Waveform Split	Vidéo et forme d'onde audio séparées	ແຍກວິດີໂອ ແລະ ຮູບຄື້ນສຽງ
+	Video and Waveform	Vidéo et forme d'onde	ວິດີໂອ ແລະ ຮູບຄື້ນ
+	Video Attributes	Attributs vidéo	ຄຸນສົມບັດວິດີໂອ
+	Video Codec	Codec vidéo	ໂຄເດັກວິດີໂອ
+	Video Duration	Durée de la vidéo	ໄລຍະເວລາວິດີໂອ
+	Video Effects	Effets vidéo	ເອັບເຟັກວິດີໂອ
+	Video effects	Effets vidéo	ເອັບເຟັກວິດີໂອ
+	Video Frame	Cadre vidéo	ເຟຣມວິດີໂອ
+	Video In	Entrée vidéo	ຈຸດເຂົ້າວິດີໂອ
+	Video In Point	Point d'entrée vidéo	ຈຸດເຂົ້າວິດີໂອ
+	Video Info	Informations vidéo	ຂໍ້ມູນວິດີໂອ
+	Video Limiter	Limiteur vidéo	ຕົວຈຳກັດສັນຍານວິດີໂອ
+	Video Only	Vidéo uniquement	ສະເພາະວິດີໂອ
+	Video Options	Options vidéo	ຕົວເລືອກວິດີໂອ
+	Video Out	Sortie vidéo	ຈຸດອອກວິດີໂອ
+	Video Out Point	Point de sortie vidéo	ຈຸດອອກວິດີໂອ
+	Video Previews	Prévisualisations vidéo	ພາບຕົວຢ່າງວິດີໂອ
+	Video Previews:	Aperçus vidéo :	ພາບຕົວຢ່າງວິດີໂອ:
+	Video Rendering and Playback	Rendu et lecture vidéo	ການເຣັນເດີ ແລະ ການຫຼິ້ນວິດີໂອ
+	Video Thumbnails	Vignettes vidéo	ພາບຫຍໍ້ວິດີໂອ
+	Video Tracks	Pistes vidéo	ແທຣັກວິດີໂອ
+	Video Transition Default Duration	Durée par défaut des transitions vidéo	ໄລຍະເວລາເລີ່ມຕົ້ນຂອງທຣານຊິຊັນວິດີໂອ
+	Video Transitions	Transitions vidéo	ທຣານຊິຊັນວິດີໂອ
+	Video Usage	Utilisation vidéo	ການໃຊ້ງານວິດີໂອ
+	Video Usage: {vu}  Audio Usage: {au}	Utilisation vidéo : {vu}  Utilisation audio : {au}	ການໃຊ້ງານວິດີໂອ: {vu}  ການໃຊ້ງານສຽງ: {au}
+	Video {n}:	Vidéo {n} :	ວິດີໂອ {n}:
+	Video:	Vidéo :	ວິດີໂອ:
+	Vignette	Vignettage	ຂອບມືດ
+	Vimeo 1080p Full HD	Vimeo 1080p Full HD	Vimeo 1080p Full HD
+	Vimeo 2160p 4K Ultra HD	Vimeo 2160p 4K Ultra HD	Vimeo 2160p 4K Ultra HD
+	Vocal Booth	Cabine vocale	ຫ້ອງອັດສຽງຮ້ອງ
+	Vocal Enhancer	Optimiseur vocal	ຕົວປັບປຸງສຽງຮ້ອງ/ເວົ້າ
+	Voice in a Hall	Voix dans une salle	ສຽງໃນຫ້ອງໂຖງ
+	Voice-over Record	Enregistrement de voix off	ບັນທຶກສຽງພາກ
+	Voice-over record (right-click: Voice-Over Record Settings…)	Enregistrer une voix off (clic droit : Paramètres d'enregistrement de voix off…)	ບັນທຶກສຽງພາກ (ຄລິກຂວາ: ການຕັ້ງຄ່າການບັນທຶກສຽງພາກ…)
+	Voice-Over Record Settings	Paramètres d'enregistrement de voix off	ການຕັ້ງຄ່າການບັນທຶກສຽງພາກ
+	Voice-Over Record Settings…	Paramètres d'enregistrement de voix off…	ການຕັ້ງຄ່າການບັນທຶກສຽງພາກ…
+	Voice-over recorded: {p}	Voix off enregistrée : {p}	ບັນທຶກສຽງພາກແລ້ວ: {p}
+	Voice-over recording stopped (nothing recorded)	Enregistrement de la voix off arrêté (rien n'a été enregistré)	ຢຸດການບັນທຶກສຽງພາກແລ້ວ (ບໍ່ມີການບັນທຶກ)
+	Voice-over take discarded	Prise de voix off rejetée	ຖິ້ມເທັກສຽງພາກແລ້ວ
+	Voiceover	Voix off	ສຽງພາກ
+	Volume	Volume	ລະດັບສຽງ
+	Volume (drag; double-click: 0 dB)	Volume (faites glisser ; double-clic : 0 dB)	ລະດັບສຽງ (ລາກ; ດັບເບິລຄລິກ: 0 dB)
+	Volumetric Rays	Rayons volumétriques	ລຳແສງມີມິຕິ
+	VR Blur	Flou VR	ມົວ VR
+	VR Chroma Leaks	Fuites chromatiques VR	ແສງສີຮົ່ວ VR
+	VR Chromatic Aberrations	Aberrations chromatiques VR	ຄວາມຄາດເຄື່ອນສີ VR
+	VR Color Gradients	Dégradés de couleur VR	ໄລ່ລະດັບສີ VR
+	VR De-Noise	Réduction du bruit VR	ຫຼຸດນອຍສ໌ VR
+	VR Digital Glitch	Glitch numérique VR	ກລິດຈ໌ດິຈິຕອລ VR
+	VR Fractal Noise	Bruit fractal VR	ນອຍສ໌ແຟຣກທອລ VR
+	VR Glow	Lueur VR	ແສງເຮືອງ VR
+	VR Gradient Wipe	Balayage en dégradé VR	ກວາດພາບໄລ່ລະດັບ VR
+	VR Iris Wipe	Balayage en iris VR	ກວາດພາບຮູບມ່ານ VR
+	VR Light Leaks	Fuites de lumière VR	ແສງຮົ່ວ VR
+	VR Light Rays	Rayons lumineux VR	ລຳແສງ VR
+	VR Mobius Zoom	Zoom de Möbius VR	ຊູມເມິບິອຸສ VR
+	VR Plane to Sphere	Plan vers sphère VR	ແປງໜ້າພຽງເປັນຊົງກົມ VR
+	VR Projection	Projection VR	ການສາຍພາບ VR
+	VR Properties	Propriétés VR	ຄຸນສົມບັດ VR
+	VR Random Blocks	Blocs aléatoires VR	ບລັອກສຸ່ມ VR
+	VR Rotate Sphere	Rotation de sphère VR	ໝຸນຊົງກົມ VR
+	VR Sharpen	Netteté VR	ຄວາມຄົມຊັດ VR
+	VR Spherical Blur	Flou sphérique VR	ມົວຊົງກົມ VR
+	Warm Film	Pellicule chaude	ຟິມໂທນອຸ່ນ
+	Warm highlights, brown shadows	Tons clairs chauds, tons foncés bruns	ສ່ວນສະຫວ່າງໂທນອຸ່ນ, ສ່ວນມືດສີນ້ຳຕານ
+	Warm Negative	Négatif chaud	ຟິມເນກາທີບໂທນອຸ່ນ
+	Warm print stock with gentle roll-off	Pellicule de tirage chaude avec une atténuation douce	ຟິມອັດໂທນອຸ່ນທີ່ໄລ່ລະດັບສີຢ່າງນຸ້ມນວນ
+	Warm Room	Pièce chaleureuse	ຫ້ອງໂທນອຸ່ນ
+	Warm Tint	Dominante chaude	ໂທນສີອຸ່ນ
+	Warm Voice	Voix chaleureuse	ສຽງອົບອຸ່ນ
+	Warm, soft late-afternoon light	Lumière chaude et douce de fin d'après-midi	ແສງຍາມບ່າຍຄ້ອຍທີ່ອົບອຸ່ນ ແລະ ນຸ້ມນວນ
+	Warnings and Errors	Avertissements et erreurs	ຄຳເຕືອນ ແລະ ຂໍ້ຜິດພາດ
+	Warp Stabilizer	Stabilisateur de déformation	ຕົວກັນສັ່ນແບບປັບຮູບຊົງ
+	WAV, stereo 48 kHz 16-bit PCM	WAV, stéréo 48 kHz PCM 16 bits	WAV, ສະເຕີຣິໂອ 48 kHz 16-bit PCM
+	WAV, stereo 48 kHz 24-bit PCM	WAV, stéréo 48 kHz PCM 24 bits	WAV, ສະເຕີຣິໂອ 48 kHz 24-bit PCM
+	Wave Height	Hauteur de la vague	ຄວາມສູງຄື້ນ
+	Wave Speed	Vitesse de la vague	ຄວາມໄວຄື້ນ
+	Wave Warp	Déformation ondulée	ບິດເບືອນແບບຄື້ນ
+	Wave Width	Largeur de la vague	ຄວາມກວ້າງຄື້ນ
+	Waveform	Forme d'onde	ຮູບຄື້ນ
+	Waveform (Luma)	Forme d'onde (luma)	ຮູບຄື້ນ (Luma)
+	Waveform (RGB)	Forme d'onde (RGB)	ຮູບຄື້ນ (RGB)
+	Waveform ({kind})	Forme d'onde ({kind})	ຮູບຄື້ນ ({kind})
+	Waveform Audio	Waveform Audio	Waveform Audio
+	Waveform Audio 48 kHz 16-bit	Waveform Audio 48 kHz 16 bits	Waveform Audio 48 kHz 16-bit
+	Waveform Audio 48 kHz 24-bit	Waveform Audio 48 kHz 24 bits	Waveform Audio 48 kHz 24-bit
+	Waveform Type	Type de forme d'onde	ປະເພດຮູບຄື້ນ
+	Wavelength	Longueur d'onde	ຄວາມຍາວຄື້ນ
+	Web & Social	Web et réseaux sociaux	ເວັບ ແລະ ໂຊຊຽວ
+	WebVTT (.vtt)	WebVTT (.vtt)	WebVTT (.vtt)
+	Wet Out	Sortie traitée	ສັນຍານອອກທີ່ຜ່ານເອັບເຟັກ
+	When Opening a Project	À l'ouverture d'un projet	ເມື່ອເປີດໂປຣເຈັກ
+	Whip	Fouetté	ສະບັດ
+	Whip (Legacy)	Fouetté (ancien)	ສະບັດ (ແບບເກົ່າ)
+	Whisper base (balanced)	Whisper base (équilibré)	Whisper base (ສົມດຸນ)
+	Whisper small (most accurate)	Whisper small (le plus précis)	Whisper small (ແມ່ນຍຳທີ່ສຸດ)
+	Whisper tiny (fastest)	Whisper tiny (le plus rapide)	Whisper tiny (ໄວທີ່ສຸດ)
+	White Input Level	Niveau d'entrée du blanc	ລະດັບຂາເຂົ້າສີຂາວ
+	White/Black	Blanc/noir	ຂາວ/ດຳ
+	Wide gamut color (composite in BT.2020)	Couleurs à gamut étendu (composition en BT.2020)	ຂອບເຂດສີກວ້າງ (ປະສົມພາບໃນ BT.2020)
+	Wide Outdoor	Grand extérieur	ກາງແຈ້ງກວ້າງ
+	Widener	Élargisseur	ຕົວຂະຫຍາຍຄວາມກວ້າງ
+	Wiggle	Oscillation	ສັ່ນໄຫວ
+	Wipe	Balayage	ກວາດພາບ
+	Wipe Angle	Angle du balayage	ມຸມກວາດພາບ
+	with:	par :	ດ້ວຍ:
+	Without keyframes	Sans images clés	ບໍ່ມີຄີເຟຣມ
+	Wonder Glow	Lueur merveilleuse	ແສງເຮືອງມະຫັດສະຈັນ
+	Work Area	Zone de travail	ພື້ນທີ່ເຮັດວຽກ
+	Working Color Space	Espace colorimétrique de travail	ພື້ນທີ່ສີທີ່ໃຊ້ເຮັດວຽກ
+	Working Color Space:	Espace colorimétrique de travail :	ພື້ນທີ່ສີທີ່ໃຊ້ເຮັດວຽກ:
+	Wrap Back	Enroulement arrière	ມ້ວນກັບຫຼັງ
+	Write	Écriture	ຂຽນ
+	Write Automation	Écrire l'automatisation	ຂຽນລະບົບອັດຕະໂນມັດ
+	Write clip markers to XMP	Écrire les marqueurs de clip dans XMP	ຂຽນເຄື່ອງໝາຍຄລິບລົງໃນ XMP
+	Write keyframes	Écrire les images clés	ຂຽນຄີເຟຣມ
+	Write the metadata of the selected clip(s) ({n}) to XMP files next to their media?	Écrire les métadonnées des clips sélectionnés ({n}) dans des fichiers XMP à côté de leurs médias ?	ຂຽນເມຕາດາຕາຂອງຄລິບທີ່ເລືອກ ({n}) ລົງໃນໄຟລ໌ XMP ຂ້າງສື່ຂອງພວກມັນບໍ່?
+	Write XMP ID to files on import	Écrire l'ID XMP dans les fichiers à l'importation	ຂຽນ ID XMP ລົງໃນໄຟລ໌ເມື່ອນຳເຂົ້າ
+	Write-on	Écriture progressive	ຂຽນຕາມເສັ້ນ
+	X Rotation	Rotation X	ການໝຸນແກນ X
+	Y Rotation	Rotation Y	ການໝຸນແກນ Y
+	YC	YC	YC
+	YC no Chroma	YC sans chrominance	YC ບໍ່ມີສີ
+	Yellow-green highlights and blue-lifted shadows from crossed channel curves	Tons clairs jaune-vert et tons foncés relevés vers le bleu par des courbes de canaux croisées	ສ່ວນສະຫວ່າງສີເຫຼືອງອົມຂຽວ ແລະ ສ່ວນມືດຍົກສີຟ້າຈາກເສັ້ນໂຄ້ງຊ່ອງສີຕັດກັນ
+	YouTube 1080p Full HD	YouTube 1080p Full HD	YouTube 1080p Full HD
+	YouTube 2160p 4K Ultra HD	YouTube 2160p 4K Ultra HD	YouTube 2160p 4K Ultra HD
+	YUV	YUV	YUV
+	Z Position	Position Z	ຕຳແໜ່ງ Z
+	Z Rotation	Rotation Z	ການໝຸນແກນ Z
+	ZIP (1 scan line)	ZIP (1 ligne de balayage)	ZIP (1 ເສັ້ນສະແກນ)
+	ZIP (16 scan lines)	ZIP (16 lignes de balayage)	ZIP (16 ເສັ້ນສະແກນ)
+	Zoom Amount	Quantité de zoom	ປະລິມານການຊູມ
+	Zoom Blur	Flou de zoom	ມົວແບບຊູມ
+	Zoom Program Monitor to 100%	Zoomer le moniteur programme à 100 %	ຊູມມໍນິເຕີໂປຣແກຣມເປັນ 100%
+	Zoom Program Monitor to Fit	Adapter le moniteur programme à la fenêtre	ຊູມມໍນິເຕີໂປຣແກຣມໃຫ້ພໍດີ
+	Zoom Source Monitor to 100%	Zoomer le moniteur source à 100 %	ຊູມມໍນິເຕີຕົ້ນສະບັບເປັນ 100%
+	Zoom Source Monitor to Fit	Adapter le moniteur source à la fenêtre	ຊູມມໍນິເຕີຕົ້ນສະບັບໃຫ້ພໍດີ
+	Zoom Strength	Intensité du zoom	ຄວາມແຮງການຊູມ
+	Zoom to Sequence	Zoom sur la séquence	ຊູມຫາຊີເຄວັນ
+	{active} (modified)	{active} (modifié)	{active} (ແກ້ໄຂແລ້ວ)
+	{category} · My Template	{category} · Mon modèle	{category} · ແມ່ແບບຂອງຂ້ອຍ
+	{codec} · {rate} Hz · {n} channel(s)	{codec} · {rate} Hz · {n} canal(aux)	{codec} · {rate} Hz · {n} ຊ່ອງ
+	{first} - Merged	{first} - Fusionné	{first} - ຮວມແລ້ວ
+	{first} Multicam	{first} Multicaméra	{first} ຫຼາຍກ້ອງ
+	{fps} fps · {n} frames queued	{fps} fps · {n} images en file d'attente	{fps} fps · {n} ເຟຣມໃນຄິວ
+	{f} (missing)	{f} (manquante)	{f} (ຂາດຫາຍ)
+	{key} can't be used as a shortcut	{key} ne peut pas être utilisé comme raccourci	ບໍ່ສາມາດໃຊ້ {key} ເປັນຄີລັດໄດ້
+	{mode} · no clip	{mode} · aucun clip	{mode} · ບໍ່ມີຄລິບ
+	{mode} · no sequence	{mode} · aucune séquence	{mode} · ບໍ່ມີຊີເຄວັນ
+	{name} (copy)	{name} (copie)	{name} (ສຳເນົາ)
+	{name} (Modified)	{name} (modifié)	{name} (ແກ້ໄຂແລ້ວ)
+	{name} (Simplified)	{name} (simplifiée)	{name} (ເຮັດໃຫ້ຮຽບງ່າຍແລ້ວ)
+	{name} (user)	{name} (utilisateur)	{name} (ຜູ້ໃຊ້)
+	{name} - Edited	{name} - Modifié	{name} - ແກ້ໄຂແລ້ວ
+	{name} Selection.fcproj	{name} Sélection.fcproj	{name} Selection.fcproj
+	{n} clip(s) can't find their media. Locate them, search a folder, or leave them offline.	{n} clip(s) ne trouvent pas leurs médias. Localisez-les, recherchez dans un dossier ou laissez-les hors ligne.	{n} ຄລິບບໍ່ພົບໄຟລ໌ສື່. ໃຫ້ຊອກຫາຕຳແໜ່ງ, ຄົ້ນຫາໃນໂຟລເດີ ຫຼື ປ່ອຍໄວ້ແບບອອບໄລນ໌.
+	{n} clip(s) selected.	{n} clip(s) sélectionné(s).	ເລືອກ {n} ຄລິບແລ້ວ.
+	{n} clip(s) selected; the clip on the reference track stays put.	{n} clip(s) sélectionné(s) ; le clip de la piste de référence reste en place.	ເລືອກ {n} ຄລິບແລ້ວ; ຄລິບໃນແທຣັກອ້າງອີງຈະຢູ່ກັບທີ່.
+	{n} clip(s): {names}	{n} clip(s) : {names}	{n} ຄລິບ: {names}
+	{n} Color	Couleur de {n}	ສີຂອງ {n}
+	{n} editable properties	{n} propriétés modifiables	{n} ຄຸນສົມບັດທີ່ແກ້ໄຂໄດ້
+	{n} Font	Police de {n}	ຟອນຕ໌ຂອງ {n}
+	{n} items	{n} éléments	{n} ລາຍການ
+	{n} Position	Position de {n}	ຕຳແໜ່ງຂອງ {n}
+	{n} s ago	il y a {n} s	{n} ວິນາທີກ່ອນ
+	{n} sessions have unsaved changes:	{n} sessions contiennent des modifications non enregistrées :	{n} ເຊສຊັນມີການປ່ຽນແປງທີ່ຍັງບໍ່ໄດ້ບັນທຶກ:
+	{n} Size	Taille de {n}	ຂະໜາດຂອງ {n}
+	{n}. (empty)	{n}. (vide)	{n}. (ວ່າງເປົ່າ)
+	{panel} Panel	Panneau {panel}	ແຜງ {panel}
+	{panel} — coming in a later milestone	{panel} — disponible dans un jalon ultérieur	{panel} — ຈະມາໃນໄລຍະຕໍ່ໄປ
+	{rate} fps Drop-Frame Timecode	Timecode drop frame {rate} fps	ໄທມ໌ໂຄດ Drop-Frame {rate} fps
+	{rate} fps Non Drop-Frame Timecode	Timecode non-drop frame {rate} fps	ໄທມ໌ໂຄດ Non Drop-Frame {rate} fps
+	{rate} fps Timecode	Timecode {rate} fps	ໄທມ໌ໂຄດ {rate} fps
+	{rate} frames/second	{rate} images/seconde	{rate} ເຟຣມ/ວິນາທີ
+	{sel} of {total} items selected	{sel} éléments sélectionnés sur {total}	ເລືອກ {sel} ຈາກ {total} ລາຍການ
+	{tc}  Chapter	{tc}  Chapitre	{tc}  ບົດ
+	{total} items	{total} éléments	{total} ລາຍການ
+	✓ Enable	✓ Activer	✓ ເປີດໃຊ້ງານ
+	✔ matches	✔ correspond	✔ ກົງກັນ
+	✔ same file	✔ même fichier	✔ ໄຟລ໌ດຽວກັນ
+	✖ different file	✖ fichier différent	✖ ໄຟລ໌ຕ່າງກັນ

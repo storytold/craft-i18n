@@ -1,0 +1,2725 @@
+# ພາສາລາວ (lo) interface catalog for WordCraft.
+# Columns, separated by a TAB:  context <TAB> English source text <TAB> translation
+#   context  usually empty. `@plural`, `@id` and `@msg` mean something to the apps; any other
+#            word is a label that tells apart two meanings of the same English.
+#   escapes  \n  \t  \\  inside a column. `{name}` placeholders must appear in both columns (in any
+#            order), and a trailing "…" in one needs one in the other.
+#   @plural  English `one|other`; the translation lists this language's plural forms, `|`-separated.
+#   Lines starting with # and blank lines are ignored. A missing entry shows in English.
+#
+# Clean room: every entry was written from the plain meaning of the English text in ordinary
+# computing vocabulary. No other product's localisation, string table or translated UI was
+# consulted or copied; add entries the same way.
+
+	(All)	(Tous)	(ທັງໝົດ)
+	(no style)	(Aucun style)	(ບໍ່ມີສະໄຕລ໌)
+	(no suggestions)	(aucune suggestion)	(ບໍ່ມີຄຳແນະນຳ)
+	(normal text)	(texte normal)	(ຂໍ້ຄວາມປົກກະຕິ)
+	(not matched)	(aucune correspondance)	(ບໍ່ກົງກັນ)
+	(picture or object)	(image ou objet)	(ຮູບພາບ ຫຼື ວັດຖຸ)
+	0 or More Characters	0 caractère ou plus	0 ຕົວອັກສອນ ຫຼື ຫຼາຍກວ່າ
+	1. Formatting restrictions	1. Restrictions de mise en forme	1. ຂໍ້ຈຳກັດການຈັດຮູບແບບ
+	1.5 Line Spacing	Interligne 1,5	ໄລຍະຫ່າງແຖວ 1.5
+	1/4 Em Space	Espace quart de cadratin	ຍະຫວ່າງ 1/4 Em
+	1×2 Empty Matrix	Matrice vide 1×2	ມາຕຣິກເປົ່າ 1×2
+	1×3 Empty Matrix	Matrice vide 1×3	ມາຕຣິກເປົ່າ 1×3
+	2. Editing restrictions	2. Restrictions de modification	2. ຂໍ້ຈຳກັດການແກ້ໄຂ
+	2×1 Empty Matrix	Matrice vide 2×1	ມາຕຣິກເປົ່າ 2×1
+	2×2 Determinant	Déterminant 2×2	ເດແຕກມີນັງ 2×2
+	2×2 Empty Matrix	Matrice vide 2×2	ມາຕຣິກເປົ່າ 2×2
+	2×2 Identity Matrix	Matrice identité 2×2	ມາຕຣິກເອກະລັກ 2×2
+	2×2 Identity Matrix (sparse)	Matrice identité 2×2 (creuse)	ມາຕຣິກເອກະລັກ 2×2 (ແບບຫ່າງ)
+	2×2 Matrix in Brackets	Matrice 2×2 entre crochets	ມາຕຣິກ 2×2 ໃນວົງເລັບຫຼ່ຽມ
+	2×2 Matrix in Double Bars	Matrice 2×2 entre doubles barres	ມາຕຣິກ 2×2 ໃນຂີດຕັ້ງຄູ່
+	2×2 Matrix in Parentheses	Matrice 2×2 entre parenthèses	ມາຕຣິກ 2×2 ໃນວົງເລັບກົງ
+	2×3 Empty Matrix	Matrice vide 2×3	ມາຕຣິກເປົ່າ 2×3
+	3-D	3-D	3 ມິຕິ
+	3. Start enforcement	3. Démarrer la protection	3. ເລີ່ມການປ້ອງກັນ
+	3×1 Empty Matrix	Matrice vide 3×1	ມາຕຣິກເປົ່າ 3×1
+	3×2 Empty Matrix	Matrice vide 3×2	ມາຕຣິກເປົ່າ 3×2
+	3×3 Empty Matrix	Matrice vide 3×3	ມາຕຣິກເປົ່າ 3×3
+	3×3 Identity Matrix	Matrice identité 3×3	ມາຕຣິກເອກະລັກ 3×3
+	3×3 Identity Matrix (sparse)	Matrice identité 3×3 (creuse)	ມາຕຣິກເອກະລັກ 3×3 (ແບບຫ່າງ)
+	<< Less	<< Moins	<< ໜ້ອຍລົງ
+	<< Remove	<< Supprimer	<< ເອົາອອກ
+	a drawing canvas can't be ungrouped	une zone de dessin ne peut pas être dissociée	ພື້ນທີ່ແຕ້ມຮູບບໍ່ສາມາດແຍກກຸ່ມໄດ້
+	a drawing canvas can't go inside a text box	une zone de dessin ne peut pas aller dans une zone de texte	ພື້ນທີ່ແຕ້ມຮູບບໍ່ສາມາດຢູ່ໃນກ່ອງຂໍ້ຄວາມໄດ້
+	A file dialog is already open.	Une boîte de dialogue de fichier est déjà ouverte.	ກ່ອງໂຕ້ຕອບເລືອກໄຟລ໌ເປີດຢູ່ແລ້ວ.
+	A free, open-source word processor written from scratch in Rust.\nPart of the Crafting Apps from the ArtCraft team.	Un traitement de texte gratuit et open source, écrit de zéro en Rust.\nPartie de la suite Crafting Apps de l’équipe ArtCraft.	ໂປຣແກຣມພິມເອກະສານທີ່ຟຣີ ແລະ ເປີດເຜີຍລະຫັດຕົ້ນສະບັບ, ຂຽນຂຶ້ນໃໝ່ທັງໝົດດ້ວຍ Rust.\nສ່ວນໜຶ່ງຂອງຊຸດແອັບ Crafting Apps ຈາກທີມງານ ArtCraft.
+	a group holding Word ink can't be ungrouped yet	un groupe contenant de l'encre Word ne peut pas encore être dissocié	ກຸ່ມທີ່ມີນ້ຳໝຶກ Word ຍັງບໍ່ສາມາດແຍກກຸ່ມໄດ້ເທື່ອ
+	A mail merge field	Un champ de fusion	ຊ່ອງຂໍ້ມູນຈົດໝາຍວຽນ
+	A numbered sequence (figures, tables…)	Une séquence numérotée (figures, tableaux…)	ລຳດັບຕົວເລກ (ຮູບພາບ, ຕາຕະລາງ…)
+	A password is required to open this document.	Un mot de passe est requis pour ouvrir ce document.	ຕ້ອງການລະຫັດຜ່ານເພື່ອເປີດເອກະສານນີ້.
+	A table of contents	Une table des matières	ສາລະບານ
+	A xor B	A ou exclusif B	A ຫຼືສະເພາະ B
+	A, B, C, …	A, B, C, …	A, B, C, …
+	a, b, c, …	a, b, c, …	a, b, c, …
+	AaBbCcDd	AaBbCcDd	AaBbCcDd
+	AaBbYyZz	AaBbYyZz	AaBbYyZz
+	About WordCraft	À propos de WordCraft	ກ່ຽວກັບ WordCraft
+	Above Chart	Au-dessus du graphique	ເທິງແຜນພູມ
+	Above the item	Au-dessus de l’élément	ເທິງລາຍການ
+	Absolute value cases	Valeur absolue par cas	ຄ່າສຳບູນແຍກກໍລະນີ
+	Accent	Accent	ເຄື່ອງໝາຍສຽງ
+	Accent Gradient	Dégradé d’accent	ໄລ່ສີເນັ້ນ
+	Accent with Reflection	Accent avec reflet	ເນັ້ນພ້ອມເງົາສະທ້ອນ
+	Accent {n}	Accentuation {n}	ສີເນັ້ນ {n}
+	Accents	Accents	ເຄື່ອງໝາຍເທິງອັກສອນ
+	Accept	Accepter	ຍອມຮັບ
+	Accept All Changes	Accepter toutes les modifications	ຍອມຮັບການປ່ຽນແປງທັງໝົດ
+	Accept This Change	Accepter cette modification	ຍອມຮັບການປ່ຽນແປງນີ້
+	Accessed on	Consulté le	ເຂົ້າເຖິງເມື່ອ
+	Accessibility Pane	Volet Accessibilité	ແຜງການເຂົ້າເຖິງ
+	Account	Compte	ບັນຊີ
+	Acute	Accent aigu	ຂີດສຽງຂຶ້ນ
+	Add >>	Ajouter >>	ເພີ່ມ >>
+	Add a Table	Ajouter un tableau	ເພີ່ມຕາຕະລາງ
+	Add at least one field.	Ajoutez au moins un champ.	ເພີ່ມຢ່າງໜ້ອຍໜຶ່ງຊ່ອງຂໍ້ມູນ.
+	Add Chart Element	Ajouter un élément de graphique	ເພີ່ມອົງປະກອບແຜນພູມ
+	Add Condition	Ajouter une condition	ເພີ່ມເງື່ອນໄຂ
+	Add Field	Ajouter un champ	ເພີ່ມຊ່ອງຂໍ້ມູນ
+	Add Font…	Ajouter une police…	ເພີ່ມຟອນຕ໌…
+	Add gradient stop	Ajouter un point de dégradé	ເພີ່ມຈຸດໄລ່ສີ
+	Add line numbering	Ajouter la numérotation des lignes	ເພີ່ມເລກລຳດັບແຖວ
+	Add New Source…	Ajouter une nouvelle source…	ເພີ່ມແຫຼ່ງອ້າງອີງໃໝ່…
+	Add Object to Selection	Ajouter l’objet à la sélection	ເພີ່ມວັດຖຸໃສ່ສ່ວນທີ່ເລືອກ
+	Add Pen	Ajouter un stylo	ເພີ່ມປາກກາ
+	Add Row	Ajouter une ligne	ເພີ່ມແຖວ
+	Add Series	Ajouter une série	ເພີ່ມຊຸດຂໍ້ມູນ
+	Add Shape	Ajouter une forme	ເພີ່ມຮູບຊົງ
+	Add Space Before Paragraph	Ajouter un espace avant le paragraphe	ເພີ່ມໄລຍະຫ່າງກ່ອນຫຍໍ້ໜ້າ
+	Add space between Asian and Latin text	Ajouter un espace entre le texte asiatique et le texte latin	ເພີ່ມຍະຫວ່າງລະຫວ່າງຂໍ້ຄວາມອາຊີ ແລະ ລາຕິນ
+	Add space between Asian text and numbers	Ajouter un espace entre le texte asiatique et les chiffres	ເພີ່ມຍະຫວ່າງລະຫວ່າງຂໍ້ຄວາມອາຊີ ແລະ ຕົວເລກ
+	Add tab stop at:	Ajouter un taquet de tabulation à :	ເພີ່ມຈຸດຢຸດແທັບຢູ່:
+	Add Text	Ajouter du texte	ເພີ່ມຂໍ້ຄວາມ
+	Add the chapter number	Ajouter le numéro de chapitre	ເພີ່ມເລກບົດ
+	Add to Document	Ajouter au document	ເພີ່ມໃສ່ເອກະສານ
+	Add to Quick Access Toolbar	Ajouter à la barre d’outils Accès rapide	ເພີ່ມໃສ່ແຖບເຄື່ອງມືເຂົ້າເຖິງດ່ວນ
+	Add to Style Gallery	Ajouter à la galerie de styles	ເພີ່ມໃສ່ຄັງສະໄຕລ໌
+	Add whether it is above or below	Indiquer s'il se trouve plus haut ou plus bas	ເພີ່ມບອກວ່າຢູ່ເທິງ ຫຼື ລຸ່ມ
+	Add/Edit\nBibliography	Ajouter/Modifier\nune bibliographie	ເພີ່ມ/ແກ້ໄຂ\nບັນນານຸກົມ
+	Add/Edit\nCitation	Ajouter/Modifier\nune citation	ເພີ່ມ/ແກ້ໄຂ\nການອ້າງອີງ
+	Add\nNote	Ajouter\nune note	ເພີ່ມ\nໝາຍເຫດ
+	Add\nPen	Ajouter\nun stylo	ເພີ່ມ\nປາກກາ
+	Add\nShape	Ajouter\nune forme	ເພີ່ມ\nຮູບຊົງ
+	Added 1 font	1 police ajoutée	ເພີ່ມ 1 ຟອນຕ໌ແລ້ວ
+	Added Fonts	Polices ajoutées	ຟອນຕ໌ທີ່ເພີ່ມແລ້ວ
+	Added {n} fonts	{n} polices ajoutées	ເພີ່ມ {n} ຟອນຕ໌ແລ້ວ
+	Address	Adresse	ທີ່ຢູ່
+	Address Block	Bloc d’adresse	ກຸ່ມທີ່ຢູ່
+	Address labels	Étiquettes d’adresse	ປ້າຍທີ່ຢູ່
+	Address:	Adresse :	ທີ່ຢູ່:
+	Address\nBlock	Bloc\nd’adresse	ກຸ່ມ\nທີ່ຢູ່
+	Adjust	Ajuster	ປັບແຕ່ງ
+	Advanced Find	Recherche avancée	ຄົ້ນຫາຂັ້ນສູງ
+	Advanced Find…	Recherche avancée…	ຄົ້ນຫາຂັ້ນສູງ…
+	After:	Après :	ຫຼັງຈາກ:
+	Agents	Agents	ຕົວແທນ (Agents)
+	Agents connected to WordCraft can show you messages through the Assistant. Muted, they're told you'd rather not.	Les agents connectés à WordCraft peuvent vous montrer des messages par l'intermédiaire de l'assistant. S'ils sont coupés, ils sont avertis que vous préférez ne pas en recevoir.	ຕົວແທນທີ່ເຊື່ອມຕໍ່ກັບ WordCraft ສາມາດສະແດງຂໍ້ຄວາມໃຫ້ເຈົ້າຜ່ານຜູ້ຊ່ວຍໄດ້. ຫາກປິດສຽງໄວ້, ພວກມັນຈະໄດ້ຮັບແຈ້ງວ່າເຈົ້າບໍ່ຕ້ອງການຮັບຂໍ້ຄວາມ.
+	Ah, Latin. The language of deadlines.	Ah, le latin. La langue officielle des dates limites.	ອໍ, ພາສາລາຕິນ. ພາສາແຫ່ງກຳນົດສົ່ງວຽກ.
+	Ah, the editing phase. My favourite. Very decisive.	Ah, la phase de révision. Ma préférée. Très tranchante.	ອໍ, ໄລຍະການກວດແກ້. ຂ້ອຍມັກທີ່ສຸດເລີຍ. ເດັດຂາດຫຼາຍ.
+	Align Bottom Center	Aligner en bas au centre	ຈັດແນວລຸ່ມເຄິ່ງກາງ
+	Align Bottom Left	Aligner en bas à gauche	ຈັດແນວລຸ່ມຊ້າຍ
+	Align Bottom Right	Aligner en bas à droite	ຈັດແນວລຸ່ມຂວາ
+	Align Center	Aligner au centre	ຈັດແນວເຄິ່ງກາງ
+	Align Center Left	Aligner au centre à gauche	ຈັດແນວກາງຊ້າຍ
+	Align Center Right	Aligner au centre à droite	ຈັດແນວກາງຂວາ
+	Align Top Center	Aligner en haut au centre	ຈັດແນວເທິງເຄິ່ງກາງ
+	Align Top Left	Aligner en haut à gauche	ຈັດແນວເທິງຊ້າຍ
+	Align Top Right	Aligner en haut à droite	ຈັດແນວເທິງຂວາ
+	Aligned at:	Aligné à :	ຈັດແນວຢູ່:
+	All	Tout	ທັງໝົດ
+	All - Linear	Tout - Linéaire	ທັງໝົດ - ເສັ້ນຊື່
+	All - Professional	Tout - Professionnel	ທັງໝົດ - ມືອາຊີບ
+	All Borders	Toutes les bordures	ຂອບທັງໝົດ
+	All Caps	Majuscules	ຕົວພິມໃຫຍ່ທັງໝົດ
+	All caps	Majuscules	ຕົວພິມໃຫຍ່ທັງໝົດ
+	All Commands	Toutes les commandes	ຄຳສັ່ງທັງໝົດ
+	All documents based on the Normal template?	Tous les documents basés sur le modèle Normal ?	ເອກະສານທັງໝົດທີ່ອີງຕາມແມ່ແບບປົກກະຕິບໍ່?
+	All Fonts	Toutes les polices	ຟອນຕ໌ທັງໝົດ
+	All Levels	Tous les niveaux	ທຸກລະດັບ
+	All Markup	Toutes les marques	ເຄື່ອງໝາຍທັງໝົດ
+	All pages in the range	Toutes les pages de la plage	ທຸກໜ້າໃນຊ່ວງທີ່ກຳນົດ
+	All symbol sets	Tous les jeux de symboles	ຊຸດສັນຍະລັກທັງໝົດ
+	All system fonts are already available.	Toutes les polices système sont déjà disponibles.	ຟອນຕ໌ລະບົບທັງໝົດມີພ້ອມໃຊ້ງານແລ້ວ.
+	Allow hanging punctuation	Autoriser la ponctuation suspendue	ອະນຸຍາດໃຫ້ໃຊ້ເຄື່ອງໝາຍວັກຕອນລົ້ນຂອບ
+	Allow Latin text to wrap in the middle of a word	Autoriser la coupure du texte latin au milieu d’un mot	ອະນຸຍາດໃຫ້ຕັດຂໍ້ຄວາມລາຕິນກາງຄຳສັບ
+	Allow line breaks	Autoriser les sauts de ligne	ອະນຸຍາດການຂຶ້ນແຖວໃໝ່
+	Allow row to break across pages	Autoriser le fractionnement des lignes sur plusieurs pages	ອະນຸຍາດໃຫ້ແຖວແບ່ງຂ້າມໜ້າໄດ້
+	Alphabetical	Alphabétique	ຕາມລຳດັບອັກສອນ
+	Alt Text	Texte de remplacement	ຂໍ້ຄວາມອະທິບາຍ (Alt Text)
+	Alt text	Texte de remplacement	ຂໍ້ຄວາມອະທິບາຍ
+	Alt Text Pane	Volet Texte de remplacement	ແຜງຂໍ້ຄວາມອະທິບາຍ
+	Alt:	Alt :	Alt:
+	Alt\nText	Texte\nde remplacement	ຂໍ້ຄວາມ\nອະທິບາຍ
+	an agent	un agent	ຕົວແທນ
+	And	Et	ແລະ
+	Angle Brackets	Chevrons	ວົງເລັບແຫຼມ
+	Angle Brackets with Separator	Chevrons avec séparateur	ວົງເລັບແຫຼມພ້ອມຕົວຂັ້ນ
+	Angle Brackets with Two Separators	Chevrons avec deux séparateurs	ວົງເລັບແຫຼມພ້ອມສອງຕົວຂັ້ນ
+	Animate the caret (it glides and fades)	Animer le curseur (il glisse et s’estompe)	ສ້າງພາບເຄື່ອນໄຫວໃຫ້ເຄີເຊີ (ເລື່ອນ ແລະ ຈາງລົງ)
+	Animation effects:	Effets d’animation :	ເອັບເຟັກພາບເຄື່ອນໄຫວ:
+	Annotation Reference	Marque de commentaire	ເຄື່ອງໝາຍຄຳເຫັນ
+	Annotation Subject	Objet du commentaire	ຫົວຂໍ້ຄຳເຫັນ
+	Annotation Text	Texte de commentaire	ຂໍ້ຄວາມຄຳເຫັນ
+	Annoying	Agaçant	ໜ້າລຳຄານ
+	Another file	Autre fichier	ໄຟລ໌ອື່ນ
+	Any Character	N’importe quel caractère	ຕົວອັກສອນໃດກໍໄດ້
+	Any Digit	N’importe quel chiffre	ຕົວເລກໃດກໍໄດ້
+	Any field	N’importe quel champ	ຊ່ອງຂໍ້ມູນໃດກໍໄດ້
+	Any Letter	N’importe quelle lettre	ຕົວໜັງສືໃດກໍໄດ້
+	Anyone can open this document. Encrypt it with a password to keep it private.	N’importe qui peut ouvrir ce document. Chiffrez-le avec un mot de passe pour le garder confidentiel.	ໃຜກໍສາມາດເປີດເອກະສານນີ້ໄດ້. ເຂົ້າລະຫັດດ້ວຍລະຫັດຜ່ານເພື່ອຮັກສາຄວາມເປັນສ່ວນຕົວ.
+	Anyone who opens the document will need this password.	Quiconque ouvre le document devra saisir ce mot de passe.	ຜູ້ທີ່ເປີດເອກະສານນີ້ຈະຕ້ອງໃສ່ລະຫັດຜ່ານນີ້.
+	APA	APA	APA
+	Apply as you type	Appliquer pendant la frappe	ນຳໃຊ້ໃນຂະນະພິມ
+	Apply Asian line-breaking rules (kinsoku)	Appliquer les règles de coupure de lignes asiatiques (kinsoku)	ນຳໃຊ້ກົດການຕັດແຖວພາສາອາຊີ (kinsoku)
+	Apply formatting to:	Appliquer la mise en forme à :	ນຳໃຊ້ການຈັດຮູບແບບກັບ:
+	Apply Style	Appliquer le style	ນຳໃຊ້ສະໄຕລ໌
+	Apply Styles	Appliquer les styles	ນຳໃຊ້ສະໄຕລ໌
+	Arabic	Arabe	ອາຣັບ
+	Arch Down	Arc vers le bas	ໂຄ້ງລົງ
+	Arch Up	Arc vers le haut	ໂຄ້ງຂຶ້ນ
+	Area	Aires	ພື້ນທີ່
+	Arrange	Organiser	ຈັດລຽງ
+	Arrange All	Réorganiser tout	ຈັດລຽງທັງໝົດ
+	Arrange\nAll	Organiser\ntout	ຈັດລຽງ\nທັງໝົດ
+	Article I.	Article I.	ມາດຕາ I.
+	Artistic Effects	Effets artistiques	ເອັບເຟັກສິລະປະ
+	As Recommended	Selon les recommandations	ຕາມຄຳແນະນຳ
+	As you type	Pendant la frappe	ໃນຂະນະພິມ
+	ASAP	AU PLUS VITE	ດ່ວນທີ່ສຸດ
+	Asian text font:	Police du texte asiatique :	ຟອນຕ໌ຂໍ້ຄວາມອາຊີ:
+	Asian Typography	Typographie asiatique	ການພິມພາສາອາຊີ
+	Assistant	Assistant	ຜູ້ຊ່ວຍ
+	Assistant Suggestions	Suggestions de l'assistant	ຄຳແນະນຳຈາກຜູ້ຊ່ວຍ
+	At least	Au moins	ຢ່າງໜ້ອຍ
+	At least {n}	Au moins {n}	ຢ່າງໜ້ອຍ {n}
+	Atelier	Atelier	ອາເຕີລີເຢ
+	Atmosphere	Atmosphère	ບັນຍາກາດ
+	Attach Template	Attacher un modèle	ແນບແມ່ແບບ
+	Attach…	Attacher…	ແນບ…
+	Auto	Auto	ອັດຕະໂນມັດ
+	Auto ({percent}%)	Auto ({percent}%)	ອັດຕະໂນມັດ ({percent}%)
+	AutoCorrect	Correction automatique	ແກ້ໄຂອັດຕະໂນມັດ
+	AutoCorrect Options	Options de correction automatique	ຕົວເລືອກການແກ້ໄຂອັດຕະໂນມັດ
+	AutoFit	Ajustement automatique	ປັບຂະໜາດອັດຕະໂນມັດ
+	AutoFit behavior	Comportement de l'ajustement automatique	ພຶດຕິກຳການປັບຂະໜາດອັດຕະໂນມັດ
+	AutoFit Column by Double-Clicking	Ajuster la colonne en double-cliquant	ປັບຖັນອັດຕະໂນມັດດ້ວຍການຄລິກສອງເທື່ອ
+	AutoFit Contents	Ajustement automatique au contenu	ປັບໃຫ້ພໍດີກັບເນື້ອໃນ
+	AutoFit to contents	Ajustement automatique au contenu	ປັບໃຫ້ພໍດີກັບເນື້ອໃນ
+	AutoFit to window	Ajustement automatique à la fenêtre	ປັບໃຫ້ພໍດີກັບໜ້າຕ່າງ
+	AutoFit Window	Ajustement automatique à la fenêtre	ປັບໃຫ້ພໍດີກັບໜ້າຕ່າງ
+	AutoFormat As You Type	Mise en forme automatique pendant la frappe	ຈັດຮູບແບບອັດຕະໂນມັດຂະນະພິມ
+	Automatic ({language})	Automatique ({language})	ອັດຕະໂນມັດ ({language})
+	Automatic ({region})	Automatique ({region})	ອັດຕະໂນມັດ ({region})
+	Automatic bulleted lists	Listes à puces automatiques	ລາຍການຫົວຂໍ້ຍ່ອຍແບບຈຸດອັດຕະໂນມັດ
+	Automatic follows your system's language. Menus and commands change; your documents don't.	Le mode Automatique suit la langue de votre système. Les menus et les commandes changent, mais pas vos documents.	ອັດຕະໂນມັດຈະໃຊ້ຕາມພາສາຂອງລະບົບ. ເມນູ ແລະ ຄຳສັ່ງຈະປ່ຽນໄປ, ແຕ່ເອກະສານຂອງເຈົ້າຈະບໍ່ປ່ຽນ.
+	Automatic numbered lists	Listes numérotées automatiques	ລາຍການຕົວເລກອັດຕະໂນມັດ
+	Automatic Table 1 (3 levels)	Table automatique 1 (3 niveaux)	ສາລະບານອັດຕະໂນມັດ 1 (3 ລະດັບ)
+	Automatic Table 2 (2 levels)	Table automatique 2 (2 niveaux)	ສາລະບານອັດຕະໂນມັດ 2 (2 ລະດັບ)
+	Automatically hyphenate document	Césure automatique du document	ຕັດຄຳດ້ວຍຂີດຕໍ່ໃນເອກະສານອັດຕະໂນມັດ
+	Automatically Update Document Styles	Mettre à jour automatiquement les styles du document	ອັບເດດສະໄຕລ໌ເອກະສານອັດຕະໂນມັດ
+	Automatically update document styles	Mettre à jour automatiquement les styles du document	ອັບເດດສະໄຕລ໌ເອກະສານອັດຕະໂນມັດ
+	AutoSave	Enregistrement automatique	ບັນທຶກອັດຕະໂນມັດ
+	AutoSave documents you have saved in WordCraft	Enregistrement automatique des documents que vous avez enregistrés dans WordCraft	ບັນທຶກອັດຕະໂນມັດສຳລັບເອກະສານທີ່ເຈົ້າໄດ້ບັນທຶກໄວ້ໃນ WordCraft
+	AutoSave failed: {error}. Save the document to turn AutoSave back on.	Échec de l’enregistrement automatique : {error}. Enregistrez le document pour réactiver l’enregistrement automatique.	ການບັນທຶກອັດຕະໂນມັດລົ້ມເຫຼວ: {error}. ກະລຸນາບັນທຶກເອກະສານເພື່ອເປີດການບັນທຶກອັດຕະໂນມັດຄືນໃໝ່.
+	AutoSave isn't available in the browser: it can't write to your files. Save downloads a copy.	L’enregistrement automatique n’est pas disponible dans le navigateur : il ne peut pas écrire dans vos fichiers. La commande Enregistrer télécharge une copie.	ການບັນທຶກອັດຕະໂນມັດບໍ່ສາມາດໃຊ້ໄດ້ໃນບຣາວເຊີ: ມັນບໍ່ສາມາດຂຽນລົງໃນໄຟລ໌ຂອງເຈົ້າໄດ້. ການບັນທຶກຈະເປັນການດາວໂຫຼດສຳເນົາແທນ.
+	AutoSave only keeps .docx, .odt and .rtf files; {name} can't keep all formatting. Save as .docx to turn on AutoSave.	L’enregistrement automatique ne prend en charge que les fichiers .docx, .odt et .rtf ; {name} ne peut pas conserver toute la mise en forme. Enregistrez au format .docx pour activer l’enregistrement automatique.	ການບັນທຶກອັດຕະໂນມັດຮອງຮັບສະເພາະໄຟລ໌ .docx, .odt ແລະ .rtf ເທົ່ານັ້ນ; {name} ບໍ່ສາມາດຮັກສາການຈັດຮູບແບບທັງໝົດໄວ້ໄດ້. ບັນທຶກເປັນ .docx ເພື່ອເປີດໃຊ້ການບັນທຶກອັດຕະໂນມັດ.
+	AutoSave saves every change to the file (needs a saved document)	L’enregistrement automatique enregistre chaque modification dans le fichier (nécessite un document enregistré)	ການບັນທຶກອັດຕະໂນມັດຈະບັນທຶກທຸກການປ່ຽນແປງລົງໃນໄຟລ໌ (ຕ້ອງເປັນເອກະສານທີ່ບັນທຶກແລ້ວ)
+	AutoSave writes your changes to the file a moment after you stop typing.	L’enregistrement automatique écrit vos modifications dans le fichier peu après que vous avez cessé de taper.	ການບັນທຶກອັດຕະໂນມັດຈະຂຽນການປ່ຽນແປງຂອງເຈົ້າລົງໃນໄຟລ໌ບໍ່ດົນຫຼັງຈາກທີ່ເຈົ້າຢຸດພິມ.
+	AutoText	Texte automatique	ຂໍ້ຄວາມອັດຕະໂນມັດ
+	B4 (JIS)   10.12" × 14.33"	B4 (JIS)   10.12" × 14.33"	B4 (JIS)   10.12" × 14.33"
+	B5 (JIS)   7.17" × 10.12"	B5 (JIS)   7.17" × 10.12"	B5 (JIS)   7.17" × 10.12"
+	Balloons	Bulles	ກ່ອງຂໍ້ຄວາມຄຳເຫັນ
+	Banded Columns	Colonnes à bandes	ຖັນສະຫຼັບສີ
+	Banded Rows	Lignes à bandes	ແຖວສະຫຼັບສີ
+	Base text:	Texte de base :	ຂໍ້ຄວາມພື້ນຖານ:
+	Based on: {style}	Basé sur : {style}	ອີງຕາມ: {style}
+	Baseline Dots	Points sur la ligne de base	ຈ້ຳເສັ້ນພື້ນ
+	Basic Cycle	Cycle de base	ວົງຈອນພື້ນຖານ
+	Basic List	Liste de base	ລາຍການພື້ນຖານ
+	Basic Math	Mathématiques de base	ຄະນິດສາດພື້ນຖານ
+	Basic Matrix	Matrice de base	ມາຕຣິກພື້ນຖານ
+	Basic Process	Processus de base	ຂະບວນການພື້ນຖານ
+	Basic Pyramid	Pyramide de base	ພີຣາມິດພື້ນຖານ
+	Basic Radial	Radial de base	ວົງລັດສະໝີພື້ນຖານ
+	Basic Venn	Venn de base	ແຜນວາດເວນພື້ນຖານ
+	Bayes' rule	Théorème de Bayes	ກົດເກນເບສ໌
+	Before:	Avant :	ກ່ອນ:
+	Beginning of Word	Début de mot	ຕົ້ນຄຳສັບ
+	Behind Text	Derrière le texte	ຢູ່ທາງຫຼັງຂໍ້ຄວາມ
+	Below text	Sous le texte	ຢູ່ກ້ອງຂໍ້ຄວາມ
+	Below the item	En dessous de l’élément	ຢູ່ກ້ອງລາຍການ
+	Between	Entre	ລະຫວ່າງ
+	Bibliography	Bibliographie	ບັນນານຸກົມ
+	Binary assets added	Ressources binaires ajoutées	ເພີ່ມຊັບພະຍາກອນໄບນາຣີແລ້ວ
+	Binomial Coefficient	Coefficient binomial	ສຳປະສິດທະວີພົດ
+	Binomial Coefficient (angle)	Coefficient binomial (chevrons)	ສຳປະສິດທະວີພົດ (ວົງເລັບແຫຼມ)
+	Binomial Coefficient with Angle Brackets	Coefficient binomial entre chevrons	ສຳປະສິດທະວີພົດໃນວົງເລັບແຫຼມ
+	Binomial expansion of (x+a)ⁿ	Développement binomial de (x+a)ⁿ	ການກະຈາຍທະວີພົດຂອງ (x+a)ⁿ
+	Blank	Vide	ເປົ່າວ່າງ
+	Blank (Three Columns)	Vide (trois colonnes)	ເປົ່າວ່າງ (ສາມຖັນ)
+	Blank document	Document vierge	ເອກະສານເປົ່າ
+	Blank Page	Page vierge	ໜ້າເປົ່າ
+	Block\nAuthors	Bloquer\nles auteurs	ບລັອກ\nຜູ້ຂຽນ
+	Blue:	Bleu :	ສີຟ້າ:
+	Body Text	Corps de texte	ເນື້ອໃນຂໍ້ຄວາມ
+	Body text in a short paragraph to show spacing.	Corps de texte dans un court paragraphe pour montrer l’espacement.	ເນື້ອໃນຂໍ້ຄວາມໃນຫຍໍ້ໜ້າສັ້ນໆເພື່ອສະແດງໄລຍະຫ່າງ.
+	Bold choice. Ctrl+Z is right there if you need it.	Choix audacieux. Ctrl+Z est juste là, au besoin.	ການຕັດສິນໃຈທີ່ກ້າຫານດີ. Ctrl+Z ຢູ່ຫັ້ນເດີ້ ຖ້າເຈົ້າຕ້ອງການໃຊ້.
+	Book	Livre	ປຶ້ມ
+	Book Title	Titre du livre	ຊື່ປຶ້ມ
+	Book title	Titre du livre	ຊື່ປຶ້ມ
+	Bookmark	Signet	ຂັ້ນໜ້າ (Bookmark)
+	Bookmark name:	Nom du signet :	ຊື່ຂັ້ນໜ້າ:
+	Border lines	Lignes de bordure	ເສັ້ນຂອບ
+	Border Painter	Pinceau de bordure	ພູ່ກັນແຕ້ມຂອບ
+	Border\nPainter	Pinceau\nde bordure	ພູ່ກັນ\nແຕ້ມຂອບ
+	Borders and Shading	Bordure et trame	ຂອບ ແລະ ສີພື້ນ
+	Borders and Shading…	Bordure et trame…	ຂອບ ແລະ ສີພື້ນ…
+	Both Sides	Des deux côtés	ທັງສອງດ້ານ
+	Bottom Border	Bordure basse	ຂອບລຸ່ມ
+	Bottom Left Cell	Cellule en bas à gauche	ຫ້ອງລຸ່ມຊ້າຍ
+	Bottom Margin	Marge basse	ຂອບລຸ່ມໜ້າເຈ້ຍ
+	Bottom of Page	Bas de page	ທ້າຍໜ້າເຈ້ຍ
+	Bottom Right Cell	Cellule en bas à droite	ຫ້ອງລຸ່ມຂວາ
+	Box	Encadré	ກ່ອງຂອບ
+	Boxed Formula	Formule encadrée	ສູດໃນກ່ອງຂອບ
+	Boxed Formula (example)	Formule encadrée (exemple)	ສູດໃນກ່ອງຂອບ (ຕົວຢ່າງ)
+	Boxed Formulas	Formules encadrées	ສູດໃນກ່ອງຂອບ
+	Braces	Accolades	ວົງເລັບປີກກາ
+	Braces with Separator	Accolades avec séparateur	ວົງເລັບປີກກາພ້ອມຕົວຂັ້ນ
+	Bracket	Crochets	ວົງເລັບຫຼ່ຽມ
+	Brackets	Crochets	ວົງເລັບ
+	Brackets with Separators	Crochets avec séparateurs	ວົງເລັບພ້ອມຕົວຂັ້ນ
+	Breaks	Sauts	ຕົວຂັ້ນ
+	Breve	Brève	ເຄື່ອງໝາຍເບຣຟ
+	Bring Forward	Avancer d’un niveau	ນຳມາຂ້າງໜ້າ
+	Browse in WordCraft…	Parcourir dans WordCraft…	ຊອກຫາໃນ WordCraft…
+	Building Block Gallery Content Control	Contrôle de contenu Galerie de blocs de construction	ຕົວຄວບຄຸມເນື້ອໃນຄັງສ່ວນປະກອບສ້າງ
+	Built-In	Intégrées	ມີມາໃນຕົວ
+	Built-in style	Style intégré	ສະໄຕລ໌ທີ່ມີມາໃນຕົວ
+	Built-in styles can't be deleted.	Les styles intégrés ne peuvent pas être supprimés.	ບໍ່ສາມາດລຶບສະໄຕລ໌ທີ່ມີມາໃນຕົວໄດ້.
+	Bullet Library	Galerie de puces	ຄັງຫົວຂໍ້ຍ່ອຍແບບຈຸດ
+	Bullets	Puces	ຫົວຂໍ້ຍ່ອຍແບບຈຸດ
+	By author	Par auteur	ຕາມຜູ້ຂຽນ
+	Calendar	Calendrier	ປະຕິທິນ
+	Can't be deleted	Suppression impossible	ບໍ່ສາມາດລຶບໄດ້
+	Can't find a command? Press {key} and type what you want to do.	Vous ne trouvez pas une commande ? Appuyez sur {key} et tapez ce que vous voulez faire.	ຫາຄຳສັ່ງບໍ່ເຫັນບໍ່? ກົດ {key} ແລ້ວພິມສິ່ງທີ່ເຈົ້າຕ້ອງການເຮັດ.
+	can't split at the first row	impossible de fractionner le tableau à la première ligne	ບໍ່ສາມາດແຍກຕາຕະລາງຢູ່ແຖວທຳອິດໄດ້
+	Canvas Member	Élément de la zone de dessin	ອົງປະກອບພື້ນທີ່ແຕ້ມຮູບ
+	Capitalize Each Word	Première lettre des mots en majuscule	ຕົວພິມໃຫຍ່ຂຶ້ນຕົ້ນທຸກຄຳ
+	Capitalize first letter of sentences	Majuscule en début de phrase	ຕົວພິມໃຫຍ່ຕົວທຳອິດຂອງປະໂຫຍກ
+	Capitalize first letter of table cells	Majuscule en début de cellule de tableau	ຕົວພິມໃຫຍ່ຕົວທຳອິດຂອງຫ້ອງຕາຕະລາງ
+	Capitalize names of days	Majuscule aux noms de jours	ຕົວພິມໃຫຍ່ຂຶ້ນຕົ້ນຊື່ວັນ
+	Capitalize the first word of a sentence	Mettre une majuscule au premier mot de la phrase	ປ່ຽນຕົວທຳອິດຂອງປະໂຫຍກເປັນຕົວພິມໃຫຍ່
+	Caption Numbering	Numérotation des légendes	ການໃສ່ເລກຄຳອະທິບາຍ
+	Caption text	Texte de la légende	ຂໍ້ຄວາມຄຳອະທິບາຍ
+	Caption:	Légende :	ຄຳອະທິບາຍ:
+	Captions	Légendes	ຄຳອະທິບາຍ
+	Careful, any further back and we'll undo the invention of paper.	Attention, encore un peu et on annule l’invention du papier.	ລະວັງເດີ້, ຖ້າຖອຍຫຼັງໄປກວ່ານີ້ ພວກເຮົາຄົງຈະຍົກເລີກການປະດິດເຈ້ຍແລ້ວ.
+	Caret Character	Caractère accent circonflexe	ເຄື່ອງໝາຍໝວກ (^)
+	Case changes	Modifications de casse	ການປ່ຽນຕົວພິມໃຫຍ່-ນ້ອຍ
+	Cases (Three Conditions)	Cas (trois conditions)	ກໍລະນີ (ສາມເງື່ອນໄຂ)
+	Cases (Two Conditions)	Cas (deux conditions)	ກໍລະນີ (ສອງເງື່ອນໄຂ)
+	Cases and Stacks	Cas et empilements	ກໍລະນີ ແລະ ການຊ້ອນທັບ
+	Categories	Catégories	ໝວດໝູ່
+	Categories:	Catégories :	ໝວດໝູ່:
+	Category {n}	Catégorie {n}	ໝວດໝູ່ {n}
+	Ceiling	Partie entière supérieure	ປັດຂຶ້ນ (Ceiling)
+	Cell	Cellule	ຫ້ອງ
+	Cell Margins	Marges de cellule	ຂອບຫ້ອງ
+	Cell\nMargins	Marges\nde cellule	ຂອບ\nຫ້ອງ
+	Center	Centrer	ເຄິ່ງກາງ
+	Center Glow	Halo central	ແສງເຮືອງເຄິ່ງກາງ
+	Centered as Group	Centré en groupe	ຈັດເຄິ່ງກາງເປັນກຸ່ມ
+	Change Chart Type	Modifier le type de graphique	ປ່ຽນປະເພດແຜນພູມ
+	Change Colors	Modifier les couleurs	ປ່ຽນສີ
+	Change in y over change in x	Variation de y sur variation de x	ການປ່ຽນແປງຂອງ y ທຽບກັບການປ່ຽນແປງຂອງ x
+	Change Layout	Modifier la disposition	ປ່ຽນໂຄງຮ່າງ
+	Change List Level	Modifier le niveau de liste	ປ່ຽນລະດັບລາຍການ
+	Change Password…	Modifier le mot de passe…	ປ່ຽນລະຫັດຜ່ານ…
+	Change Picture	Modifier l’image	ປ່ຽນຮູບພາບ
+	Change Picture…	Modifier l’image…	ປ່ຽນຮູບພາບ…
+	Change Shape	Modifier la forme	ປ່ຽນຮູບຊົງ
+	Change Structure	Modifier la structure	ປ່ຽນໂຄງສ້າງ
+	Change to Display	Passer en mode hors texte	ປ່ຽນເປັນແບບສະແດງແຍກແຖວ
+	Change to Inline	Passer en mode en ligne	ປ່ຽນເປັນແບບຢູ່ໃນແຖວດຽວກັນ
+	Change to Level 1	Passer au niveau 1	ປ່ຽນເປັນລະດັບ 1
+	Change to Level 2	Passer au niveau 2	ປ່ຽນເປັນລະດັບ 2
+	Change to Level 3	Passer au niveau 3	ປ່ຽນເປັນລະດັບ 3
+	Change to Level 4	Passer au niveau 4	ປ່ຽນເປັນລະດັບ 4
+	Change to Level 5	Passer au niveau 5	ປ່ຽນເປັນລະດັບ 5
+	Change to Level 6	Passer au niveau 6	ປ່ຽນເປັນລະດັບ 6
+	Change to Level 7	Passer au niveau 7	ປ່ຽນເປັນລະດັບ 7
+	Change to Level 8	Passer au niveau 8	ປ່ຽນເປັນລະດັບ 8
+	Change to Level 9	Passer au niveau 9	ປ່ຽນເປັນລະດັບ 9
+	Change\nChart Type	Modifier\nle type de graphique	ປ່ຽນ\nປະເພດແຜນພູມ
+	Change\nColors	Modifier les\ncouleurs	ປ່ຽນ\nສີ
+	Changed lines:	Lignes modifiées :	ແຖວທີ່ມີການປ່ຽນແປງ:
+	Changes	Modifications	ການປ່ຽນແປງ
+	Chapter 1	Chapitre 1	ບົດທີ 1
+	Chapter in a book	Chapitre de livre	ບົດໃນປຶ້ມ
+	Chapters begin at:	Les chapitres commencent à :	ບົດຕ່າງໆເລີ່ມຕົ້ນທີ່:
+	Character Border	Bordure de caractère	ຂອບຕົວອັກສອນ
+	Character code:	Code de caractère :	ລະຫັດຕົວອັກສອນ:
+	Character in Range	Caractère dans la plage	ຕົວອັກສອນໃນຊ່ວງ
+	Character level	Niveau du caractère	ລະດັບຕົວອັກສອນ
+	Character Position	Position des caractères	ຕຳແໜ່ງຕົວອັກສອນ
+	Character Scale	Échelle des caractères	ອັດຕາສ່ວນຕົວອັກສອນ
+	Character Shading	Trame de fond des caractères	ສີພື້ນຕົວອັກສອນ
+	Character Spacing	Espacement des caractères	ໄລຍະຫ່າງຕົວອັກສອນ
+	Character spacing	Espacement des caractères	ໄລຍະຫ່າງຕົວອັກສອນ
+	Character style	Style de caractère	ສະໄຕລ໌ຕົວອັກສອນ
+	Characters (no spaces)	Caractères (sans espaces)	ຕົວອັກສອນ (ບໍ່ລວມຍະຫວ່າງ)
+	Characters (with spaces)	Caractères (avec espaces)	ຕົວອັກສອນ (ລວມຍະຫວ່າງ)
+	Characters per line:	Caractères par ligne :	ຕົວອັກສອນຕໍ່ແຖວ:
+	Chart	Graphique	ແຜນພູມ
+	Chart Design	Création de graphique	ອອກແບບແຜນພູມ
+	Chart Layouts	Dispositions de graphique	ໂຄງຮ່າງແຜນພູມ
+	Chart Title	Titre du graphique	ຫົວຂໍ້ແຜນພູມ
+	charts and diagrams can't be moved or resized yet	les graphiques et diagrammes ne peuvent pas encore être déplacés ni redimensionnés	ແຜນພູມ ແລະ ແຜນວາດຍັງບໍ່ສາມາດຍ້າຍ ຫຼື ປັບຂະໜາດໄດ້ເທື່ອ
+	Check	Caron	ເຄື່ອງໝາຍກາຣົງ
+	Check Accessibility	Vérifier l’accessibilité	ກວດສອບການເຂົ້າເຖິງ
+	Check Box Content Control	Contrôle de contenu Case à cocher	ຕົວຄວບຄຸມເນື້ອໃນກ່ອງໝາຍຕິກ
+	Check Compatibility	Vérifier la compatibilité	ກວດສອບຄວາມເຂົ້າກັນໄດ້
+	Check for Errors	Vérifier les erreurs	ກວດສອບຂໍ້ຜິດພາດ
+	Check Spelling as You Type	Vérifier l’orthographe pendant la saisie	ກວດສອບການສະກົດຄຳຂະນະພິມ
+	Check spelling as you type	Vérifier l’orthographe pendant la frappe	ກວດສອບການສະກົດຄຳຂະນະພິມ
+	Check\nAccessibility	Vérifier\nl’accessibilité	ກວດສອບ\nການເຂົ້າເຖິງ
+	Checked styles are allowed:	Les styles cochés sont autorisés :	ສະໄຕລ໌ທີ່ໝາຍຕິກໄວ້ແມ່ນໄດ້ຮັບອະນຸຍາດ:
+	Checked symbol	Symbole de l’état coché	ສັນຍະລັກເມື່ອໝາຍຕິກ
+	Chevron Down	Chevron vers le bas	ລູກສອນຊີ້ລົງ
+	Chevron Up	Chevron vers le haut	ລູກສອນຊີ້ຂຶ້ນ
+	Chicago	Chicago	Chicago
+	Chinese (Simplified)	Chinois (simplifié)	ຈີນ (ຕົວຫຍໍ້)
+	Chinese (Traditional)	Chinois (traditionnel)	ຈີນ (ຕົວເຕັມ)
+	Choose a command	Choisir une commande	ເລືອກຄຳສັ່ງ
+	Choose a shortcut	Choisir un raccourci	ເລືອກປຸ່ມລັດ
+	Choose List Item	Choisir un élément de liste	ເລືອກລາຍການໃນບັນຊີ
+	Choose the sheet that holds the recipients.	Choisissez la feuille contenant les destinataires.	ເລືອກແຜ່ນງານທີ່ມີລາຍຊື່ຜູ້ຮັບ.
+	Circle area from its radius	Aire du cercle à partir de son rayon	ເນື້ອທີ່ວົງມົນຈາກລັດສະໝີຂອງມັນ
+	Circled Dot	Point cerclé	ຈຸດໃນວົງມົນ
+	Circled Plus	Plus cerclé	ບວກໃນວົງມົນ
+	Circled Times	Fois cerclé	ຄູນໃນວົງມົນ
+	Citation Style	Style de citation	ສະໄຕລ໌ການອ້າງອີງ
+	Citations	Citations	ການອ້າງອີງ
+	Citations & Bibliography	Citations et bibliographie	ການອ້າງອີງ ແລະ ບັນນານຸກົມ
+	Clear All	Effacer tout	ລ້າງທັງໝົດ
+	Clear All Formatting	Effacer toute la mise en forme	ລ້າງການຈັດຮູບແບບທັງໝົດ
+	Clear Character Formatting	Effacer la mise en forme des caractères	ລ້າງການຈັດຮູບແບບຕົວອັກສອນ
+	Clear Character Style	Effacer le style de caractère	ລ້າງສະໄຕລ໌ຕົວອັກສອນ
+	Clear Formatting Level	Effacer le niveau de mise en forme	ລ້າງລະດັບການຈັດຮູບແບບ
+	Clear Paragraph Formatting	Effacer la mise en forme de paragraphe	ລ້າງການຈັດຮູບແບບຫຍໍ້ໜ້າ
+	Click a border between two cells to merge them. Esc stops.	Cliquez sur une bordure entre deux cellules pour les fusionner. Appuyez sur Échap pour arrêter.	ຄລິກໃສ່ຂອບລະຫວ່າງສອງຫ້ອງເພື່ອລວມເຂົ້າກັນ. ກົດ Esc ເພື່ອຢຸດ.
+	Click an item to paste it.	Cliquez sur un élément pour le coller.	ຄລິກໃສ່ລາຍການເພື່ອວາງ.
+	Click level to modify:	Cliquez sur le niveau à modifier :	ຄລິກໃສ່ລະດັບເພື່ອແກ້ໄຂ:
+	Click the empty text box the text should continue in (Esc cancels)	Cliquez sur la zone de texte vide dans laquelle le texte doit se poursuivre (Échap pour annuler)	ຄລິກໃສ່ກ່ອງຂໍ້ຄວາມເປົ່າທີ່ຕ້ອງການໃຫ້ຂໍ້ຄວາມຕໍ່ເນື່ອງໄປ (Esc ເພື່ອຍົກເລີກ)
+	Click to switch back to inserting	Cliquez pour revenir au mode insertion	ຄລິກເພື່ອກັບຄືນໄປໂໝດແຊກ
+	Clipboard Contents	Contenu du Presse-papiers	ເນື້ອໃນຄລິບບອດ
+	Clipboard Items	Éléments du Presse-papiers	ລາຍການໃນຄລິບບອດ
+	Clipboard Pane	Volet Presse-papiers	ແຜງຄລິບບອດ
+	Close Equation	Fermer l’équation	ປິດສົມຜົນ
+	Close Header and Footer	Fermer l’en-tête et le pied de page	ປິດຫົວໜ້າເຈ້ຍ ແລະ ທ້າຍໜ້າເຈ້ຍ
+	Close Outline View	Fermer le mode Plan	ປິດມຸມມອງໂຄງຮ່າງ
+	Close Outline\nView	Fermer le\nmode Plan	ປິດມຸມມອງ\nໂຄງຮ່າງ
+	Clustered Bar	Barres groupées	ແຜນພູມແທ່ງນອນແບບກຸ່ມ
+	Clustered Column	Colonnes groupées	ແຜນພູມແທ່ງຕັ້ງແບບກຸ່ມ
+	cm	cm	ຊມ
+	Col #:	Colonne :	ຖັນທີ:
+	Collapse Selection	Réduire la sélection	ຫຍໍ້ສ່ວນທີ່ເລືອກ
+	Collate copies	Assembler les copies	ຈັດລຽງຊຸດສຳເນົາ
+	Collect entries from:	Rassembler les entrées à partir de :	ເກັບລວບລວມລາຍການຈາກ:
+	Colon Equal	Deux-points égal	ຈ້ຳສອງເມັດເທົ່າກັບ
+	Color model:	Modèle de couleur :	ລະບົບສີ:
+	Color only	Couleur uniquement	ສະເພາະສີ
+	Color: {color}	Couleur : {color}	ສີ: {color}
+	Colorful	Coloré	ຫຼາກສີ
+	Colors:	Couleurs :	ສີ:
+	Column	Colonne	ຖັນ
+	Column Break	Saut de colonne	ຕົວຂັ້ນຖັນ
+	Column Selection	Sélection de colonne	ການເລືອກຖັນ
+	Column {n}	Colonne {n}	ຖັນ {n}
+	Column:	Colonne :	ຖັນ:
+	Columns:	Colonnes :	ຖັນ:
+	Combine Documents	Combiner les documents	ລວມເອກະສານ
+	Combo Box Content Control	Contrôle de contenu Zone de liste déroulante	ຕົວຄວບຄຸມເນື້ອໃນກ່ອງລາຍການແບບປ້ອນໄດ້
+	Commands	Commandes	ຄຳສັ່ງ
+	Commas	Virgules	ເຄື່ອງໝາຍຈຸດ
+	Comments beside each page and tracked changes in PDFs, prints and images; a comment list at the end of web pages, Markdown and text.	Commentaires à côté de chaque page et modifications suivies dans les PDF, les impressions et les images ; liste des commentaires à la fin des pages web, du Markdown et du texte.	ຄຳເຫັນຢູ່ຂ້າງແຕ່ລະໜ້າ ແລະ ການຕິດຕາມການປ່ຽນແປງໃນ PDF, ການພິມ ແລະ ຮູບພາບ; ລາຍການຄຳເຫັນຢູ່ທ້າຍໜ້າເວັບ, Markdown ແລະ ຂໍ້ຄວາມ.
+	Comments Pane	Volet Commentaires	ແຜງຄຳເຫັນ
+	Common Accent Objects	Accents courants	ເຄື່ອງໝາຍເທິງອັກສອນທົ່ວໄປ
+	Common Brackets	Parenthèses et crochets courants	ວົງເລັບທົ່ວໄປ
+	Common Fractions	Fractions courantes	ເສດສ່ວນທົ່ວໄປ
+	Common Functions	Fonctions courantes	ຕຳລາທົ່ວໄປ
+	Common Large Operators	Grands opérateurs courants	ເຄື່ອງໝາຍດຳເນີນການຂະໜາດໃຫຍ່ທົ່ວໄປ
+	Common Operator Structures	Structures d’opérateurs courantes	ໂຄງສ້າງເຄື່ອງໝາຍດຳເນີນການທົ່ວໄປ
+	Common Operators	Opérateurs courants	ເຄື່ອງໝາຍດຳເນີນການທົ່ວໄປ
+	Common Radicals	Radicaux courants	ຮາກຂັ້ນທົ່ວໄປ
+	Common Subscripts and Superscripts	Indices et exposants courants	ຕົວຫ້ອຍ ແລະ ຕົວຍົກທົ່ວໄປ
+	Communication	Communication	ການສື່ສານ
+	Community\nDiscord	Communauté\nDiscord	ຊຸມຊົນ\nDiscord
+	Compact	Compact	ກະທັດຮັດ
+	Compare Documents	Comparer les documents	ປຽບທຽບເອກະສານ
+	Compare to	Comparer à	ປຽບທຽບກັບ
+	Compared: {changes} changes	Comparaison : {changes} modifications	ປຽບທຽບແລ້ວ: {changes} ການປ່ຽນແປງ
+	Comparing with another file needs the desktop app.	La comparaison avec un autre fichier nécessite l’application de bureau.	ການປຽບທຽບກັບໄຟລ໌ອື່ນຕ້ອງໃຊ້ແອັບເທິງຄອມພິວເຕີ.
+	Comparison settings	Options de comparaison	ການຕັ້ງຄ່າການປຽບທຽບ
+	Compress Pictures	Compresser les images	ບີບອັດຮູບພາບ
+	Compress punctuation at the start of a line	Compresser la ponctuation en début de ligne	ຫຍໍ້ເຄື່ອງໝາຍວັກຕອນຢູ່ຕົ້ນແຖວ
+	Conference	Conférence	ກອງປະຊຸມວິຊາການ
+	Conference paper	Article de conférence	ບົດຄວາມກອງປະຊຸມວິຊາການ
+	CONFIDENTIAL	CONFIDENTIEL	ເອກະສານລັບ
+	Confirm password:	Confirmer le mot de passe :	ຢືນຢັນລະຫັດຜ່ານ:
+	Connect Shapes	Connecter les formes	ເຊື່ອມຕໍ່ຮູບຊົງ
+	Container Title	Titre de la publication	ຊື່ແຫຼ່ງທີ່ພິມເຜີຍແຜ່
+	Content Control at Selection	Contrôle de contenu dans la sélection	ຕົວຄວບຄຸມເນື້ອໃນຢູ່ສ່ວນທີ່ເລືອກ
+	Content Control Properties	Propriétés du contrôle de contenu	ຄຸນສົມບັດຕົວຄວບຄຸມເນື້ອໃນ
+	Contents can't be edited	Contenu non modifiable	ບໍ່ສາມາດແກ້ໄຂເນື້ອໃນໄດ້
+	Context	Contexte	ບໍລິບົດ
+	Continue from previous section	Continuer depuis la section précédente	ຕໍ່ຈາກພາກສ່ວນກ່ອນໜ້າ
+	Continuous	Continu	ຕໍ່ເນື່ອງ
+	Continuous numbering	Numérotation continue	ການໃສ່ເລກຕໍ່ເນື່ອງ
+	Contour Integral	Intégrale curviligne	ສັງຄະນິດຕາມເສັ້ນໂຄ້ງປິດ
+	Contour Integral with Limits	Intégrale curviligne avec bornes	ສັງຄະນິດຕາມເສັ້ນໂຄ້ງປິດພ້ອມຂອບເຂດ
+	Contour Integral with Stacked Limits	Intégrale curviligne avec bornes empilées	ສັງຄະນິດຕາມເສັ້ນໂຄ້ງປິດພ້ອມຂອບເຂດຊ້ອນກັນ
+	Contour Integrals	Intégrales curvilignes	ສັງຄະນິດຕາມເສັ້ນໂຄ້ງປິດ
+	Controls	Contrôles	ຕົວຄວບຄຸມ
+	Conversions	Conversions	ການແປງຮູບແບບ
+	Convert between built-up and linear form	Basculer entre forme développée et forme linéaire	ສະຫຼັບລະຫວ່າງຮູບແບບມາດຕະຖານ ແລະ ຮູບແບບເສັ້ນຊື່
+	Convert Notes	Convertir les notes	ແປງໝາຍເຫດ
+	Convert Text to Table	Convertir le texte en tableau	ແປງຂໍ້ຄວາມເປັນຕາຕະລາງ
+	Convert Text to Table…	Convertir le texte en tableau…	ແປງຂໍ້ຄວາມເປັນຕາຕະລາງ…
+	Convert to Shapes	Convertir en formes	ແປງເປັນຮູບຊົງ
+	Convert to Text	Convertir en texte	ແປງເປັນຂໍ້ຄວາມ
+	Copies	Copies	ຈຳນວນສຳເນົາ
+	Coproduct	Coproduit	ຜົນຄູນຮ່ວມ (Coproduct)
+	Coproduct with Limits	Coproduit avec bornes	ຜົນຄູນຮ່ວມພ້ອມຂອບເຂດ
+	Coproduct with Lower Limit	Coproduit avec borne inférieure	ຜົນຄູນຮ່ວມພ້ອມຂອບເຂດລຸ່ມ
+	Coproduct with Subscript-Superscript Limits	Coproduit avec bornes en indice et exposant	ຜົນຄູນຮ່ວມພ້ອມຂອບເຂດຕົວຫ້ອຍ-ຕົວຍົກ
+	Copy Formatting	Copier la mise en forme	ສຳເນົາການຈັດຮູບແບບ
+	Copy of the text a bookmark marks	Copie du texte marqué par un signet	ສຳເນົາຂໍ້ຄວາມທີ່ຂັ້ນໜ້າໝາຍໄວ້
+	Copy Styles	Copier les styles	ສຳເນົາສະໄຕລ໌
+	Copy to	Copier vers	ສຳເນົາໄປຍັງ
+	Copyright Sign	Symbole de copyright	ເຄື່ອງໝາຍລິຂະສິດ
+	Correct accidental usage of cAPS LOCK key	Corriger l’utilisation accidentelle de la touche vERR. mAJ	ແກ້ໄຂການກົດປຸ່ມ cAPS LOCK ໂດຍບັງເອີນ
+	Correct TWo INitial CApitals	Corriger DEux MAjuscules EN début de mot	ແກ້ໄຂຕົວພິມໃຫຍ່ສອງຕົວທຳອິດ
+	Corrections	Corrections	ການແກ້ໄຂ
+	Cosecant Function	Cosécante	ຕຳລາໂກເຊກັງ
+	Cosine 2x	Cosinus 2x	ໂກຊິນ 2x
+	Cosine Function	Cosinus	ຕຳລາໂກຊິນ
+	Cotangent Function	Cotangente	ຕຳລາໂກຕັງຊັງ
+	Couldn't download {name}: {error}	Impossible de télécharger {name} : {error}	ບໍ່ສາມາດດາວໂຫຼດ {name} ໄດ້: {error}
+	Couldn't make WordCraft the default: {error}	Impossible de faire de WordCraft l’application par défaut : {error}	ບໍ່ສາມາດຕັ້ງ WordCraft ເປັນແອັບເລີ່ມຕົ້ນໄດ້: {error}
+	Couldn't open {path}: {error}	Impossible d’ouvrir {path} : {error}	ບໍ່ສາມາດເປີດ {path} ໄດ້: {error}
+	Count by:	Incrémenter de :	ນັບເທື່ອລະ:
+	Count words in text boxes and notes	Compter les mots dans les zones de texte et les notes	ນັບຄຳໃນກ່ອງຂໍ້ຄວາມ ແລະ ໝາຍເຫດ
+	Courtesy Title	Civilité	ຄຳນຳໜ້າຊື່
+	Cover Page	Page de garde	ໜ້າປົກ
+	Craft	Artisanat	ຫັດຖະກຳ
+	Create a Style	Créer un style	ສ້າງສະໄຕລ໌
+	Create an interactive outline of your document.\n\nIt's a great way to keep track of where you are or quickly move your content around.\n\nTo get started, go to the Home tab and apply Heading styles to the headings in your document.	Créez un plan interactif de votre document.\n\nC’est un excellent moyen de savoir où vous en êtes ou de déplacer rapidement votre contenu.\n\nPour commencer, accédez à l’onglet Accueil et appliquez les styles Titre aux titres de votre document.	ສ້າງໂຄງຮ່າງແບບໂຕ້ຕອບໄດ້ຂອງເອກະສານ.\n\nນີ້ເປັນວິທີທີ່ດີເພື່ອຕິດຕາມຕຳແໜ່ງທີ່ເຈົ້າຢູ່ ຫຼື ຍ້າຍເນື້ອໃນໄປມາໄດ້ຢ່າງວ່ອງໄວ.\n\nເພື່ອເລີ່ມຕົ້ນ, ໃຫ້ໄປທີ່ແຖບ ໜ້າຫຼັກ ແລ້ວນຳໃຊ້ສະໄຕລ໌ຫົວຂໍ້ໃສ່ຫົວຂໍ້ຕ່າງໆໃນເອກະສານຂອງເຈົ້າ.
+	Create Graphic	Créer un graphique	ສ້າງກຣາຟິກ
+	Create Link	Créer un lien	ສ້າງລິງກ໌
+	Create New Style	Créer un nouveau style	ສ້າງສະໄຕລ໌ໃໝ່
+	Create Source	Créer la source	ສ້າງແຫຼ່ງອ້າງອີງ
+	Croatian	Croate	ໂຄຣເອເຊຍ
+	Crop	Rogner	ຕັດຂອບຮູບ
+	Cross-reference	Renvoi	ການອ້າງອີງຂ້າມສ່ວນ
+	Cross-reference:	Référence croisée :	ການອ້າງອີງຂ້າມສ່ວນ:
+	{key} starts a new page. Much tidier than pressing Enter until it happens.	{key} commence une nouvelle page. Bien plus propre que d’appuyer sur Entrée jusqu’à ce que ça arrive.	{key} ເລີ່ມໜ້າໃໝ່. ເປັນລະບຽບກວ່າການກົດ Enter ຈົນກວ່າມັນຈະຂຶ້ນໜ້າໃໝ່.
+	{key} finds and replaces text, formatting and special characters.	{key} recherche et remplace du texte, des mises en forme et des caractères spéciaux.	{key} ຄົ້ນຫາ ແລະ ແທນທີ່ຂໍ້ຄວາມ, ການຈັດຮູບແບບ ແລະ ຕົວອັກສອນພິເສດ.
+	{key} turns the selected text into a link.	{key} transforme le texte sélectionné en lien.	{key} ປ່ຽນຂໍ້ຄວາມທີ່ເລືອກໃຫ້ເປັນລິງກ໌.
+	{key} counts your words, characters and paragraphs.	{key} compte vos mots, caractères et paragraphes.	{key} ນັບຈຳນວນຄຳ, ຕົວອັກສອນ ແລະ ຫຍໍ້ໜ້າຂອງເຈົ້າ.
+	Cube Root	Racine cubique	ຮາກຂັ້ນສາມ
+	Current	Actuelle	ປັດຈຸບັນ
+	Current - Linear	Sélection - Linéaire	ປັດຈຸບັນ - ເສັ້ນຊື່
+	Current - Professional	Sélection - Professionnel	ປັດຈຸບັນ - ມືອາຊີບ
+	Current Position	Position actuelle	ຕຳແໜ່ງປັດຈຸບັນ
+	Current record	Enregistrement actif	ລະບຽນປັດຈຸບັນ
+	Current style: {style}	Style actuel : {style}	ສະໄຕລ໌ປັດຈຸບັນ: {style}
+	Curved Arrow Connector	Connecteur incurvé avec flèche	ເສັ້ນເຊື່ອມຕໍ່ໂຄ້ງມີຫົວລູກສອນ
+	Curved Connector	Connecteur incurvé	ເສັ້ນເຊື່ອມຕໍ່ໂຄ້ງ
+	Custom dictionary	Dictionnaire personnel	ວັດຈະນານຸກົມສ່ວນຕົວ
+	Custom Margins…	Marges personnalisées…	ຂອບໜ້າເຈ້ຍກຳນົດເອງ…
+	Custom mark:	Marque personnalisée :	ເຄື່ອງໝາຍກຳນົດເອງ:
+	Custom range	Plage personnalisée	ຊ່ວງທີ່ກຳນົດເອງ
+	Custom size	Taille personnalisée	ຂະໜາດກຳນົດເອງ
+	Custom Table of Contents…	Table des matières personnalisée…	ສາລະບານກຳນົດເອງ…
+	Custom Watermark	Filigrane personnalisé	ລາຍນ້ຳກຳນົດເອງ
+	Custom Watermark…	Filigrane personnalisé…	ລາຍນ້ຳກຳນົດເອງ…
+	Customize	Personnaliser	ປັບແຕ່ງ
+	Customize Keyboard	Personnaliser le clavier	ປັບແຕ່ງແປ້ນພິມ
+	Customize Quick Access Toolbar	Personnaliser la barre d’outils Accès rapide	ປັບແຕ່ງແຖບເຄື່ອງມືເຂົ້າເຖິງດ່ວນ
+	Customize Quick Access Toolbar…	Personnaliser la barre d’outils Accès rapide…	ປັບແຕ່ງແຖບເຄື່ອງມືເຂົ້າເຖິງດ່ວນ…
+	Customize Ribbon	Personnaliser le ruban	ປັບແຕ່ງແຖບເຄື່ອງມືລິບບອນ
+	Customize the Ribbon…	Personnaliser le ruban…	ປັບແຕ່ງແຖບເຄື່ອງມືລິບບອນ…
+	Cycle	Cycle	ວົງຈອນ
+	Czech	Tchèque	ເຊັກ
+	Danish	Danois	ເດນມາກ
+	Dark Mode	Mode sombre	ໂໝດມືດ
+	Dark page (white text on black)	Page sombre (texte blanc sur noir)	ໜ້າສີເຂັ້ມ (ຕົວໜັງສືຂາວເທິງພື້ນດຳ)
+	Dark Variations	Variantes foncées	ໂທນສີເຂັ້ມ
+	Dark with Shadow	Sombre avec ombre	ສີເຂັ້ມພ້ອມເງົາ
+	Darkroom	Chambre noire	ຫ້ອງມືດ
+	Data Labels	Étiquettes de données	ປ້າຍກຳກັບຂໍ້ມູນ
+	Date & Time	Date et heure	ວັນທີ ແລະ ເວລາ
+	Date formats:	Formats de date :	ຮູບແບບວັນທີ:
+	Date Picker Content Control	Contrôle de contenu Sélecteur de date	ຕົວຄວບຄຸມເນື້ອໃນຕົວເລືອກວັນທີ
+	Day	Jour	ມື້
+	Decimal	Décimal	ທົດສະນິຍົມ
+	Decorative objects only add visual interest: screen readers skip them.	Les objets décoratifs n’ont qu’un rôle visuel : les lecteurs d’écran les ignorent.	ວັດຖຸຕົກແຕ່ງເພີ່ມຄວາມສວຍງາມທາງສາຍຕາເທົ່ານັ້ນ: ໂປຣແກຣມອ່ານໜ້າຈໍຈະຂ້າມພວກມັນໄປ.
+	Decrease Font Size	Réduire la taille de la police	ຫຼຸດຂະໜາດຟອນຕ໌
+	Decrease Indent	Diminuer le retrait	ຫຼຸດໄລຍະຫຍັບ
+	Deep	Profond	ເລິກ
+	Default formatting	Mise en forme par défaut	ການຈັດຮູບແບບເລີ່ມຕົ້ນ
+	Default Paragraph Font	Police par défaut	ຟອນຕ໌ຫຍໍ້ໜ້າເລີ່ມຕົ້ນ
+	Default tab stops:	Taquets de tabulation par défaut :	ຈຸດຢຸດແທັບເລີ່ມຕົ້ນ:
+	Define New Bullet	Définir une nouvelle puce	ກຳນົດຫົວຂໍ້ຍ່ອຍແບບຈຸດໃໝ່
+	Define New Multilevel List	Définir une nouvelle liste à plusieurs niveaux	ກຳນົດລາຍການຫຼາຍລະດັບໃໝ່
+	Define New Multilevel List…	Définir une nouvelle liste à plusieurs niveaux…	ກຳນົດລາຍການຫຼາຍລະດັບໃໝ່…
+	Define New Number Format	Définir un nouveau format de numérotation	ກຳນົດຮູບແບບຕົວເລກໃໝ່
+	Deflate	Dégonflement	ຫຍຸບລົງ
+	Delete Around Caret in Equation	Supprimer autour du point d’insertion dans l’équation	ລຶບອ້ອມຈຸດພິມໃນສົມຜົນ
+	Delete Back in Equation	Supprimer en arrière dans l’équation	ລຶບຖອຍຫຼັງໃນສົມຜົນ
+	Delete Bookmark	Supprimer le signet	ລຶບຂັ້ນໜ້າ
+	Delete Cells	Supprimer les cellules	ລຶບຫ້ອງ
+	Delete Clipboard Item	Supprimer l’élément du Presse-papiers	ລຶບລາຍການຄລິບບອດ
+	Delete Columns	Supprimer les colonnes	ລຶບຖັນ
+	Delete Comment	Supprimer le commentaire	ລຶບຄຳເຫັນ
+	Delete in Equation	Supprimer dans l’équation	ລຶບໃນສົມຜົນ
+	Delete Label	Supprimer l’étiquette	ລຶບປ້າຍຊື່
+	Delete Next Word	Supprimer le mot suivant	ລຶບຄຳຖັດໄປ
+	Delete Previous Word	Supprimer le mot précédent	ລຶບຄຳກ່ອນໜ້າ
+	Delete Rows	Supprimer les lignes	ລຶບແຖວ
+	Delete Selected Ink	Supprimer l’encre sélectionnée	ລຶບນ້ຳໝຶກທີ່ເລືອກ
+	Delete Table	Supprimer le tableau	ລຶບຕາຕະລາງ
+	Delete Table Style	Supprimer le style de tableau	ລຶບສະໄຕລ໌ຕາຕະລາງ
+	Deletions:	Suppressions :	ການລຶບ:
+	Delivery address:	Adresse de livraison :	ທີ່ຢູ່ຜູ້ຮັບ:
+	Delta Equal To	Delta égal à	ແດນຕາເທົ່າກັບ
+	Delta over arrow	Delta au-dessus d’une flèche	ແດນຕາຢູ່ເທິງລູກສອນ
+	Demote	Abaisser le niveau	ຫຼຸດລະດັບ
+	Demote to Body Text	Abaisser au niveau Corps de texte	ຫຼຸດລະດັບເປັນເນື້ອໃນຂໍ້ຄວາມ
+	Derivative as a limit	Dérivée comme limite	ຜົນຕຳລາໃນຮູບແບບຂອບເຂດ
+	Describe what this object shows, for people who can't see it.	Décrivez ce que montre cet objet, pour les personnes qui ne peuvent pas le voir.	ອະທິບາຍວ່າວັດຖຸນີ້ສະແດງຫຍັງ, ສຳລັບຜູ້ທີ່ບໍ່ສາມາດເບິ່ງເຫັນໄດ້.
+	Describe what this table shows, for people who can't see it.	Décrivez ce que montre ce tableau, pour les personnes qui ne peuvent pas le voir.	ອະທິບາຍວ່າຕາຕະລາງນີ້ສະແດງຫຍັງ, ສຳລັບຜູ້ທີ່ບໍ່ສາມາດເບິ່ງເຫັນໄດ້.
+	Design	Création	ອອກແບບ
+	Design Mode	Mode Création	ໂໝດອອກແບບ
+	Detach Template	Détacher le modèle	ຖອດແມ່ແບບອອກ
+	Detect language automatically	Détecter automatiquement la langue	ກວດຈັບພາສາອັດຕະໂນມັດ
+	Developer	Développeur	ນັກພັດທະນາ
+	development build	version de développement	ລຸ້ນພັດທະນາ
+	Diagonal Dots	Points diagonaux	ຈ້ຳສະຫຼຽງ
+	Dictate	Dicter	ພິມດ້ວຍສຽງ
+	Dictionaries	Dictionnaires	ວັດຈະນານຸກົມ
+	Dictionaries folder:	Dossier des dictionnaires :	ໂຟນເດີວັດຈະນານຸກົມ:
+	Different First Page	Première page différente	ໜ້າທຳອິດແຕກຕ່າງ
+	Different Odd & Even Pages	Pages paires et impaires différentes	ໜ້າຄູ່ ແລະ ໜ້າຄີກແຕກຕ່າງ
+	Differential	Différentielle	ຈຸນລະຄະນິດ
+	Differential theta	Différentielle thêta	ຈຸນລະຄະນິດ ເຕຕາ
+	Differential x	Différentielle x	ຈຸນລະຄະນິດ x
+	Differential y	Différentielle y	ຈຸນລະຄະນິດ y
+	Differentials	Différentielles	ຈຸນລະຄະນິດ
+	Direct formatting	Mise en forme directe	ການຈັດຮູບແບບໂດຍກົງ
+	Direction:	Sens :	ທິດທາງ:
+	Directory	Répertoire	ສາລະບົບລາຍຊື່
+	Discord community	Communauté Discord	ຊຸມຊົນ Discord
+	Display for Review	Affichage pour la révision	ການສະແດງຜົນເພື່ອກວດທານ
+	Display name	Nom d’affichage	ຊື່ທີ່ສະແດງ
+	Display text	Texte affiché	ຂໍ້ຄວາມທີ່ສະແດງ
+	Distance from text	Distance du texte	ໄລຍະຫ່າງຈາກຂໍ້ຄວາມ
+	Distance from text:	Distance du texte :	ໄລຍະຫ່າງຈາກຂໍ້ຄວາມ:
+	Distribute Columns	Répartir les colonnes	ແບ່ງຄວາມກວ້າງຖັນໃຫ້ເທົ່າກັນ
+	Distribute letters	Répartir les lettres	ກະຈາຍຕົວອັກສອນ
+	Distribute Rows	Répartir les lignes	ແບ່ງຄວາມສູງແຖວໃຫ້ເທົ່າກັນ
+	Distribute spacing	Répartir l’espacement	ກະຈາຍໄລຍະຫ່າງ
+	Distributed	Distribué	ກະຈາຍເຕັມແຖວ
+	Do Not Check Spelling or Grammar	Ne pas vérifier l’orthographe ni la grammaire	ບໍ່ຕ້ອງກວດສອບການສະກົດຄຳ ຫຼື ໄວຍາກອນ
+	Do not check spelling or grammar	Ne pas vérifier l’orthographe ni la grammaire	ບໍ່ຕ້ອງກວດສອບການສະກົດຄຳ ຫຼື ໄວຍາກອນ
+	DO NOT COPY	NE PAS COPIER	ຫ້າມສຳເນົາ
+	Do Not Show in TOC	Ne pas afficher dans la table des matières	ບໍ່ສະແດງໃນສາລະບານ
+	Do you want to save changes to {name}?	Voulez-vous enregistrer les modifications apportées à {name} ?	ເຈົ້າຕ້ອງການບັນທຶກການປ່ຽນແປງໃນ {name} ບໍ່?
+	Document End	Fin du document	ທ້າຍເອກະສານ
+	Document Formatting	Mise en forme du document	ການຈັດຮູບແບບເອກະສານ
+	Document Grid	Grille du document	ຕາໜ່າງເອກະສານ
+	Document Information	Informations sur le document	ຂໍ້ມູນເອກະສານ
+	Document name	Nom du document	ຊື່ເອກະສານ
+	Document Property	Propriété du document	ຄຸນສົມບັດເອກະສານ
+	Document Start	Début du document	ຕົ້ນເອກະສານ
+	Document template:	Modèle de document :	ແມ່ແບບເອກະສານ:
+	Document Text	Texte du document	ຂໍ້ຄວາມເອກະສານ
+	Document1	Document1	ເອກະສານ1
+	Document\nPreferences	Préférences\ndu document	ການຕັ້ງຄ່າ\nເອກະສານ
+	Documents you open will show up here.	Les documents que vous ouvrez s’affichent ici.	ເອກະສານທີ່ເຈົ້າເປີດຈະສະແດງຢູ່ບ່ອນນີ້.
+	Does not contain	Ne contient pas	ບໍ່ມີຄຳວ່າ
+	DOI	DOI	DOI
+	Don't add space between paragraphs of the same style	Ne pas ajouter d’espace entre les paragraphes de même style	ບໍ່ຕ້ອງເພີ່ມໄລຍະຫ່າງລະຫວ່າງຫຍໍ້ໜ້າທີ່ມີສະໄຕລ໌ດຽວກັນ
+	Don't capitalize after:	Ne pas mettre de majuscule après :	ບໍ່ຕ້ອງໃສ່ຕົວພິມໃຫຍ່ຫຼັງຈາກ:
+	Don't hyphenate	Ne pas couper les mots	ບໍ່ຕ້ອງຕັດຄຳດ້ວຍຂີດຕໍ່
+	Don't read Zotero, Mendeley or EndNote citations and bibliographies	Ne pas lire les citations et les bibliographies Zotero, Mendeley ou EndNote	ບໍ່ຕ້ອງອ່ານການອ້າງອີງ ແລະ ບັນນານຸກົມຂອງ Zotero, Mendeley ຫຼື EndNote
+	Don't show me this tip again	Ne plus afficher cette astuce	ບໍ່ຕ້ອງສະແດງຄຳແນະນຳນີ້ອີກ
+	Dot dash	Tiret-point	ຂີດສະຫຼັບຈ້ຳ
+	Dot-dash	Tiret-point	ຂີດ-ຈ້ຳ
+	Dot-dot-dash	Tiret-point-point	ຂີດ-ຈ້ຳ-ຈ້ຳ
+	Double	Double	ເສັ້ນຄູ່
+	Double Bar	Double barre	ຂີດຕັ້ງຄູ່
+	Double Closing Quote	Guillemet double fermant	ວົງຢືມຄູ່ປິດ
+	Double Dot	Double point	ຈ້ຳຄູ່
+	Double Integral	Intégrale double	ສັງຄະນິດສອງຊັ້ນ
+	Double Integral with Limits	Intégrale double avec bornes	ສັງຄະນິດສອງຊັ້ນພ້ອມຂອບເຂດ
+	Double Integral with Stacked Limits	Intégrale double avec bornes empilées	ສັງຄະນິດສອງຊັ້ນພ້ອມຂອບເຂດຊ້ອນກັນ
+	Double Left Arrow with Text Above	Double flèche gauche avec texte au-dessus	ລູກສອນຄູ່ຊ້າຍພ້ອມຂໍ້ຄວາມຢູ່ເທິງ
+	Double Left Arrow with Text Below	Double flèche gauche avec texte en dessous	ລູກສອນຄູ່ຊ້າຍພ້ອມຂໍ້ຄວາມຢູ່ກ້ອງ
+	Double Left Right Arrow with Text Above	Double flèche bidirectionnelle avec texte au-dessus	ລູກສອນຄູ່ສອງທິດທາງພ້ອມຂໍ້ຄວາມຢູ່ເທິງ
+	Double Left Right Arrow with Text Below	Double flèche bidirectionnelle avec texte en dessous	ລູກສອນຄູ່ສອງທິດທາງພ້ອມຂໍ້ຄວາມຢູ່ກ້ອງ
+	Double Opening Quote	Guillemet double ouvrant	ວົງຢືມຄູ່ເປີດ
+	Double Right Arrow with Text Above	Double flèche droite avec texte au-dessus	ລູກສອນຄູ່ຂວາພ້ອມຂໍ້ຄວາມຢູ່ເທິງ
+	Double Right Arrow with Text Below	Double flèche droite avec texte en dessous	ລູກສອນຄູ່ຂວາພ້ອມຂໍ້ຄວາມຢູ່ກ້ອງ
+	Double Spacing	Interligne double	ໄລຍະຫ່າງແຖວສອງເທົ່າ
+	Double Square Brackets	Doubles crochets	ວົງເລັບຫຼ່ຽມຄູ່
+	Double Strikethrough	Double barré	ຂີດຂ້າສອງເສັ້ນ
+	Double strikethrough	Double barré	ຂີດຂ້າສອງເສັ້ນ
+	Double summation	Somme double	ຜົນບວກສອງຊັ້ນ
+	Double Underline	Double soulignement	ຂີດກ້ອງສອງເສັ້ນ
+	Double Vertical Bars	Doubles barres verticales	ຂີດຕັ້ງຄູ່
+	Doughnut	Anneau	ແຜນພູມວົງແຫວນ
+	Down	Vers le bas	ລົງລຸ່ມ
+	DRAFT	BROUILLON	ສະບັບຮ່າງ
+	Drag a rectangle to draw a table, or a line across cells to split them. Esc stops.	Faites glisser un rectangle pour dessiner un tableau, ou une ligne à travers les cellules pour les fractionner. Appuyez sur Échap pour arrêter.	ລາກເປັນຮູບສີ່ແຈເພື່ອແຕ້ມຕາຕະລາງ, ຫຼື ລາກເສັ້ນຜ່ານຫ້ອງເພື່ອແຍກຫ້ອງ. ກົດ Esc ເພື່ອຢຸດ.
+	Draw	Dessin	ແຕ້ມ
+	Draw Ink	Dessiner à l’encre	ແຕ້ມດ້ວຍນ້ຳໝຶກ
+	Draw Table	Dessiner un tableau	ແຕ້ມຕາຕະລາງ
+	Draw\nTable	Dessiner\nun tableau	ແຕ້ມ\nຕາຕະລາງ
+	Drawing Canvas	Zone de dessin	ພື້ນທີ່ແຕ້ມຮູບ
+	Drawing Tools	Outils de dessin	ເຄື່ອງມືແຕ້ມຮູບ
+	Drawing\nCanvas	Canevas\nde dessin	ພື້ນທີ່\nແຕ້ມຮູບ
+	Drop Cap	Lettrine	ຕົວໃຫຍ່ຕົ້ນຫຍໍ້ໜ້າ
+	Drop cap	Lettrine	ຕົວໃຫຍ່ຕົ້ນຫຍໍ້ໜ້າ
+	Drop Cap Options…	Options de lettrine…	ຕົວເລືອກຕົວໃຫຍ່ຕົ້ນຫຍໍ້ໜ້າ…
+	drop caps can't go in a table	une lettrine ne peut pas aller dans un tableau	ຕົວໃຫຍ່ຕົ້ນຫຍໍ້ໜ້າບໍ່ສາມາດຢູ່ໃນຕາຕະລາງໄດ້
+	Drop-Down List Content Control	Contrôle de contenu Liste déroulante	ຕົວຄວບຄຸມເນື້ອໃນລາຍການເລື່ອນລົງ
+	Dropped	Dans le texte	ຢູ່ໃນຂໍ້ຄວາມ
+	Drops all formatting and pastes plain text.	Supprime toute la mise en forme et colle du texte brut.	ລຶບການຈັດຮູບແບບທັງໝົດອອກ ແລະ ວາງເປັນຂໍ້ຄວາມທຳມະດາ.
+	E-mail Messages	Messages électroniques	ຂໍ້ຄວາມອີເມວ
+	Edit Comment	Modifier le commentaire	ແກ້ໄຂຄຳເຫັນ
+	Edit Data	Modifier les données	ແກ້ໄຂຂໍ້ມູນ
+	Edit Document	Modifier le document	ແກ້ໄຂເອກະສານ
+	Edit Equation	Modifier l’équation	ແກ້ໄຂສົມຜົນ
+	Edit Field Code	Modifier le code de champ	ແກ້ໄຂລະຫັດຊ່ອງຂໍ້ມູນ
+	Edit Field…	Modifier le champ…	ແກ້ໄຂຊ່ອງຂໍ້ມູນ…
+	Edit Footer	Modifier le pied de page	ແກ້ໄຂທ້າຍໜ້າເຈ້ຍ
+	Edit Header	Modifier l’en-tête	ແກ້ໄຂຫົວໜ້າເຈ້ຍ
+	Edit Individual Documents…	Modifier les documents individuels…	ແກ້ໄຂເອກະສານແຕ່ລະສະບັບ…
+	Edit Items	Modifier les éléments	ແກ້ໄຂລາຍການ
+	Edit Recipient List	Modifier la liste des destinataires	ແກ້ໄຂລາຍຊື່ຜູ້ຮັບ
+	Edit Source	Modifier la source	ແກ້ໄຂແຫຼ່ງອ້າງອີງ
+	Edit\nData	Modifier\nles données	ແກ້ໄຂ\nຂໍ້ມູນ
+	Edit\nRecipient List	Modifier\nla liste des destinataires	ແກ້ໄຂ\nລາຍຊື່ຜູ້ຮັບ
+	Edited	Modifié	ແກ້ໄຂແລ້ວ
+	Editing endnote	Modification de la note de fin	ກຳລັງແກ້ໄຂໝາຍເຫດທ້າຍເລື່ອງ
+	Editing footnote	Modification de la note de bas de page	ກຳລັງແກ້ໄຂໝາຍເຫດທ້າຍໜ້າ
+	Editing header/footer	Modification de l’en-tête/pied de page	ກຳລັງແກ້ໄຂຫົວໜ້າເຈ້ຍ/ທ້າຍໜ້າເຈ້ຍ
+	Editing in this document is restricted.	La modification de ce document est restreinte.	ການແກ້ໄຂໃນເອກະສານນີ້ຖືກຈຳກັດໄວ້.
+	Editing — edit the document directly	Modification — modifier directement le document	ການແກ້ໄຂ — ແກ້ໄຂເອກະສານໂດຍກົງ
+	Edition	Édition	ສະບັບພິມ
+	Editor	Éditeur	ບັນນາທິການ
+	Elbow Arrow Connector	Connecteur coudé avec flèche	ເສັ້ນເຊື່ອມຕໍ່ຫັກມຸມມີຫົວລູກສອນ
+	Elbow Connector	Connecteur coudé	ເສັ້ນເຊື່ອມຕໍ່ຫັກມຸມ
+	Emphasis	Accentuation	ເນັ້ນສຽງ
+	Empty Matrices	Matrices vides	ມາຕຣິກເປົ່າ
+	Enclose Characters	Encadrer les caractères	ອ້ອມກອບຕົວອັກສອນ
+	Enclosure	Encadrement	ກອບອ້ອມ
+	Encrypt with Password	Chiffrer avec un mot de passe	ເຂົ້າລະຫັດດ້ວຍລະຫັດຜ່ານ
+	Encrypt with Password…	Chiffrer avec un mot de passe…	ເຂົ້າລະຫັດດ້ວຍລະຫັດຜ່ານ…
+	End of document	Fin du document	ທ້າຍເອກະສານ
+	End of section	Fin de section	ທ້າຍພາກສ່ວນ
+	End of Word	Fin de mot	ທ້າຍຄຳສັບ
+	Endnote Reference	Appel de note de fin	ເຄື່ອງໝາຍໝາຍເຫດທ້າຍເລື່ອງ
+	Endnote Text	Note de fin	ຂໍ້ຄວາມໝາຍເຫດທ້າຍເລື່ອງ
+	Endnotes	Notes de fin	ໝາຍເຫດທ້າຍເລື່ອງ
+	Endnotes to footnotes	Notes de fin en notes de bas de page	ປ່ຽນໝາຍເຫດທ້າຍເລື່ອງເປັນໝາຍເຫດທ້າຍໜ້າ
+	English (Australia)	Anglais (Australie)	ອັງກິດ (ອົດສະຕຣາລີ)
+	English (Canada)	Anglais (Canada)	ອັງກິດ (ການາດາ)
+	English (India)	Anglais (Inde)	ອັງກິດ (ອິນເດຍ)
+	English (Ireland)	Anglais (Irlande)	ອັງກິດ (ໄອແລນ)
+	English (New Zealand)	Anglais (Nouvelle-Zélande)	ອັງກິດ (ນິວຊີແລນ)
+	English (South Africa)	Anglais (Afrique du Sud)	ອັງກິດ (ອາຟຣິກາໃຕ້)
+	English (United Kingdom)	Anglais (Royaume-Uni)	ອັງກິດ (ສະຫະລາຊະອານາຈັກ)
+	English (United States)	Anglais (États-Unis)	ອັງກິດ (ສະຫະລັດອາເມຣິກາ)
+	Engrave	Gravure	ສະຫຼັກຫຼຸບ
+	Enlarge symbol	Agrandir le symbole	ຂະຫຍາຍສັນຍະລັກໃຫ້ໃຫຍ່
+	Enter a number.	Entrez un nombre.	ປ້ອນຕົວເລກ.
+	Enter bookmark name:	Nom du signet :	ປ້ອນຊື່ຂັ້ນໜ້າ:
+	Enter formatting for number:	Entrez la mise en forme des numéros :	ປ້ອນການຈັດຮູບແບບສຳລັບຕົວເລກ:
+	Enter in Equation	Enter dans l’équation	ກົດ Enter ໃນສົມຜົນ
+	Enter page number:	Entrez le numéro de page :	ປ້ອນເລກໜ້າ:
+	Entry marked.	Entrée marquée.	ໝາຍລາຍການແລ້ວ.
+	Envelope #10	Enveloppe n° 10	ຊອງຈົດໝາຍ #10
+	Envelope #10   4.12" × 9.50"	Enveloppe nº 10   4.12" × 9.50"	ຊອງຈົດໝາຍ #10   4.12" × 9.50"
+	Envelope Address	Adresse destinataire	ທີ່ຢູ່ເທິງຊອງຈົດໝາຍ
+	Envelope DL   4.33" × 8.66"	Enveloppe DL   4.33" × 8.66"	ຊອງຈົດໝາຍ DL   4.33" × 8.66"
+	Envelope Return	Adresse expéditeur	ທີ່ຢູ່ຜູ້ສົ່ງເທິງຊອງຈົດໝາຍ
+	Envelope size:	Taille de l’enveloppe :	ຂະໜາດຊອງຈົດໝາຍ:
+	Envelopes	Enveloppes	ຊອງຈົດໝາຍ
+	Equal by Definition	Égal par définition	ເທົ່າກັນໂດຍນິຍາມ
+	Equal column width	Colonnes de largeur égale	ຄວາມກວ້າງຖັນເທົ່າກັນ
+	Equal Equal	Égal égal	ເທົ່າກັບ ເທົ່າກັບ
+	Equal to	Égal à	ເທົ່າກັບ
+	Equals:	Égal à :	ເທົ່າກັບ:
+	Equation	Équation	ສົມຜົນ
+	Equation Gallery	Galerie d’équations	ຄັງສົມຜົນ
+	Equation Info	Informations sur l’équation	ຂໍ້ມູນສົມຜົນ
+	Equation Number	Numéro d’équation	ເລກສົມຜົນ
+	Equation Options	Options d’équation	ຕົວເລືອກສົມຜົນ
+	Erase Ink	Effacer l’encre	ລຶບນ້ຳໝຶກ
+	Errors ({n})	Erreurs ({n})	ຂໍ້ຜິດພາດ ({n})
+	Estonian	Estonien	ເອສໂຕເນຍ
+	Euler's identity	Identité d’Euler	ເອກະລັກຂອງອອຍເລີ
+	Even Banded Columns	Colonnes à bandes paires	ຖັນສະຫຼັບສີຄູ່
+	Even Banded Rows	Lignes à bandes paires	ແຖວສະຫຼັບສີຄູ່
+	Even Page	Page paire	ໜ້າຄູ່
+	Even pages only	Pages paires uniquement	ສະເພາະໜ້າຄູ່ເທົ່ານັ້ນ
+	Every change is recorded as a tracked change.	Chaque modification est enregistrée comme modification suivie.	ທຸກການປ່ຽນແປງຈະຖືກບັນທຶກເປັນການຕິດຕາມການປ່ຽນແປງ.
+	Every command is available to scripts and AI agents: run `wordcraft-cli mcp` for an MCP server, or start the app with `--control <port>` for the JSON control channel.	Chaque commande est disponible pour les scripts et les agents IA : exécutez `wordcraft-cli mcp` pour un serveur MCP, ou démarrez l’application avec `--control <port>` pour le canal de contrôle JSON.	ທຸກຄຳສັ່ງແມ່ນພ້ອມໃຊ້ງານສຳລັບສະຄຣິບ ແລະ ຕົວແທນ AI: ຣັນ `wordcraft-cli mcp` ສຳລັບເຊີບເວີ MCP, ຫຼື ເປີດແອັບດ້ວຍ `--control <port>` ສຳລັບຊ່ອງທາງຄວບຄຸມ JSON.
+	Every field needs a name.	Chaque champ doit avoir un nom.	ທຸກຊ່ອງຂໍ້ມູນຕ້ອງມີຊື່.
+	Everyone	Tout le monde	ທຸກຄົນ
+	Exactly	Exactement	ແນ່ນອນ
+	Exactly {n}	Exactement {n}	ແນ່ນອນ {n}
+	Exceptions (optional)	Exceptions (facultatives)	ຂໍ້ຍົກເວັ້ນ (ທາງເລືອກ)
+	Exceptions…	Exceptions…	ຂໍ້ຍົກເວັ້ນ…
+	Executive   7.25" × 10.50"	Executive   7.25" × 10.50"	Executive   7.25" × 10.50"
+	Existing File or Web Page	Fichier ou page web existant(e)	ໄຟລ໌ ຫຼື ໜ້າເວັບທີ່ມີຢູ່ແລ້ວ
+	Expand	Étendre	ຂະຫຍາຍອອກ
+	Expand or Collapse Heading	Développer ou réduire le titre	ຂະຫຍາຍ ຫຼື ຫຍໍ້ຫົວຂໍ້
+	Exponential	Exponentielle	ເອັກສ໌ໂປເນັນຊຽນ
+	Exponential series	Série exponentielle	ຊຸດອະນຸກົມເອັກສ໌ໂປເນັນຊຽນ
+	Export a copy to share (PDF, Word document)	Exporter une copie à partager (PDF, document Word)	ສົ່ງອອກສຳເນົາເພື່ອແບ່ງປັນ (PDF, ເອກະສານ Word)
+	Export Page as PNG	Exporter la page en PNG	ສົ່ງອອກໜ້າເປັນ PNG
+	Extend Selection	Étendre la sélection	ຂະຫຍາຍການເລືອກ
+	Extend Selection by Units	Étendre la sélection par unités	ຂະຫຍາຍການເລືອກຕາມໜ່ວຍ
+	Extra space	Espace en trop	ຍະຫວ່າງເກີນ
+	{key} repeats your last action. Formatting ten headings is suddenly one click and nine taps.	{key} répète votre dernière action. Mettre en forme dix titres ? Soudain, c’est un clic et neuf touches.	{key} ເຮັດຊ້ຳຄຳສັ່ງລ່າສຸດຂອງເຈົ້າ. ການຈັດຮູບແບບສິບຫົວຂໍ້ຈະກາຍເປັນພຽງໜຶ່ງຄລິກກັບກົດອີກເກົ້າເທື່ອ.
+	{key} checks the spelling and grammar of the whole document.	{key} vérifie l’orthographe et la grammaire de tout le document.	{key} ກວດສອບການສະກົດຄຳ ແລະ ໄວຍາກອນຂອງທັງໝົດເອກະສານ.
+	Faster: {command} is {key} on the keyboard.	Plus rapide : {command}, c’est {key} au clavier.	ໄວກວ່າ: {command} ແມ່ນປຸ່ມ {key} ເທິງແປ້ນພິມ.
+	Field code:	Code de champ :	ລະຫັດຊ່ອງຂໍ້ມູນ:
+	Field Codes	Codes de champ	ລະຫັດຊ່ອງຂໍ້ມູນ
+	Field codes:	Codes de champ :	ລະຫັດຊ່ອງຂໍ້ມູນ:
+	Field name	Nom de champ	ຊື່ຊ່ອງຂໍ້ມູນ
+	Field name:	Nom de champ :	ຊື່ຊ່ອງຂໍ້ມູນ:
+	Field names must be different.	Les noms de champs doivent être différents.	ຊື່ຊ່ອງຂໍ້ມູນຕ້ອງແຕກຕ່າງກັນ.
+	Field names:	Noms de champs :	ຊື່ຊ່ອງຂໍ້ມູນ:
+	Field:	Champ :	ຊ່ອງຂໍ້ມູນ:
+	Fields:	Champs :	ຊ່ອງຂໍ້ມູນ:
+	Field…	Champ…	ຊ່ອງຂໍ້ມູນ…
+	Figure	Figure	ຮູບພາບ
+	File locations	Dossiers par défaut	ຕຳແໜ່ງເກັບໄຟລ໌
+	File name:	Nom du fichier :	ຊື່ໄຟລ໌:
+	File › New lists the .dotx and .dotm templates here under Personal; Save as Word Template starts here.	Fichier › Nouveau affiche les modèles .dotx et .dotm de ce dossier sous Personnel ; Enregistrer comme modèle Word commence ici.	ໄຟລ໌ › ໃໝ່ ຈະສະແດງແມ່ແບບ .dotx ແລະ .dotm ຢູ່ບ່ອນນີ້ພາຍໃຕ້ ສ່ວນຕົວ; ການບັນທຶກເປັນແມ່ແບບ Word ຈະເລີ່ມຈາກບ່ອນນີ້.
+	Fill color:	Couleur de remplissage :	ສີເຕີມພື້ນ:
+	Filling in forms	Remplissage de formulaires	ການຕື່ມແບບຟອມ
+	Film	Film	ຟີມ
+	Filter and Sort	Filtrer et trier	ກັ່ນຕອງ ແລະ ຈັດລຽງ
+	Filter Recipients	Filtrer les destinataires	ກັ່ນຕອງຜູ້ຮັບ
+	Find in list:	Rechercher dans la liste :	ຄົ້ນຫາໃນລາຍການ:
+	Find Next	Suivant	ຄົ້ນຫາຖັດໄປ
+	Find Next Editable Region	Rechercher la zone modifiable suivante	ຄົ້ນຫາບໍລິເວນທີ່ແກ້ໄຂໄດ້ຖັດໄປ
+	Find Previous	Précédent	ຄົ້ນຫາກ່ອນໜ້າ
+	Find Recipient	Rechercher un destinataire	ຄົ້ນຫາຜູ້ຮັບ
+	Find What Expression	Expression recherchée	ນິພົດທີ່ຕ້ອງການຄົ້ນຫາ
+	Find What Text	Texte recherché	ຂໍ້ຄວາມທີ່ຕ້ອງການຄົ້ນຫາ
+	Find what:	Rechercher :	ສິ່ງທີ່ຄົ້ນຫາ:
+	Find “{text}” in the document	Rechercher « {text} » dans le document	ຄົ້ນຫາ “{text}” ໃນເອກະສານ
+	Finding printers…	Recherche d'imprimantes…	ກຳລັງຄົ້ນຫາເຄື່ອງພິມ…
+	Finish & Merge	Terminer et fusionner	ສຳເລັດ ແລະ ລວມເອກະສານ
+	Finish &\nMerge	Terminer et\nfusionner	ສຳເລັດ ແລະ\nລວມເອກະສານ
+	Finished	Terminé	ສຳເລັດແລ້ວ
+	Finnish	Finnois	ແຟງລັງ
+	First Column	Première colonne	ຖັນທຳອິດ
+	First line	Première ligne	ແຖວທຳອິດ
+	First line:	Première ligne :	ແຖວທຳອິດ:
+	First Name	Prénom	ຊື່
+	First Record	Premier enregistrement	ລະບຽນທຳອິດ
+	First row of data contains column headers	La première ligne de données contient les en-têtes de colonnes	ແຖວທຳອິດຂອງຂໍ້ມູນມີຫົວຂໍ້ຖັນ
+	Fit	Ajuster	ພໍດີ
+	Fix Position on Page	Fixer la position sur la page	ຕຶງຕຳແໜ່ງເທິງໜ້າເຈ້ຍ
+	Fixed Column Width	Largeur de colonne fixe	ຄວາມກວ້າງຖັນຄົງທີ່
+	Floor	Partie entière inférieure	ປັດລົງ (Floor)
+	Focus	Focus	ໂຟກັສ
+	Follow number with:	Faire suivre le numéro de :	ຕາມຫຼັງຕົວເລກດ້ວຍ:
+	Font Color	Couleur de police	ສີຟອນຕ໌
+	Font color	Couleur de police	ສີຟອນຕ໌
+	Font color:	Couleur de police :	ສີຟອນຕ໌:
+	Font Dialog	Boîte de dialogue Police	ກ່ອງໂຕ້ຕອບຟອນຕ໌
+	Font: {font}	Police : {font}	ຟອນຕ໌: {font}
+	Font…	Police…	ຟອນຕ໌…
+	Footer	Pied de page	ທ້າຍໜ້າເຈ້ຍ
+	Footnote and Endnote	Notes de bas de page et de fin	ໝາຍເຫດທ້າຍໜ້າ ແລະ ທ້າຍເລື່ອງ
+	Footnote Reference	Appel de note de bas de page	ເຄື່ອງໝາຍໝາຍເຫດທ້າຍໜ້າ
+	Footnote Text	Note de bas de page	ຂໍ້ຄວາມໝາຍເຫດທ້າຍໜ້າ
+	Footnotes	Notes de bas de page	ໝາຍເຫດທ້າຍໜ້າ
+	Footnotes and endnotes	Notes de bas de page et notes de fin	ໝາຍເຫດທ້າຍໜ້າ ແລະ ໝາຍເຫດທ້າຍເລື່ອງ
+	Footnotes to endnotes	Notes de bas de page en notes de fin	ປ່ຽນໝາຍເຫດທ້າຍໜ້າເປັນໝາຍເຫດທ້າຍເລື່ອງ
+	For which item:	Pour quel élément :	ສຳລັບລາຍການໃດ:
+	Format Page Numbers	Format numéros de page	ຮູບແບບເລກໜ້າ
+	Format Page Numbers…	Format numéros de page…	ຮູບແບບເລກໜ້າ…
+	Format Painter	Reproduire la mise en forme	ຄັດລອກຮູບແບບ
+	Format Shape	Mise en forme de la forme	ຈັດຮູບແບບຮູບຊົງ
+	Format Shape Pane	Volet Mise en forme de la forme	ແຜງຈັດຮູບແບບຮູບຊົງ
+	Format Shape…	Mise en forme de la forme…	ຈັດຮູບແບບຮູບຊົງ…
+	Formatted	Mis en forme	ຈັດຮູບແບບແລ້ວ
+	Formatted Text	Texte mis en forme	ຂໍ້ຄວາມທີ່ຈັດຮູບແບບແລ້ວ
+	Formatting	Mise en forme	ການຈັດຮູບແບບ
+	Formatting at Selection	Mise en forme de la sélection	ການຈັດຮູບແບບຢູ່ສ່ວນທີ່ເລືອກ
+	Formatting exceptions	Exceptions de mise en forme	ຂໍ້ຍົກເວັ້ນການຈັດຮູບແບບ
+	Formatting marks	Marques de mise en forme	ເຄື່ອງໝາຍການຈັດຮູບແບບ
+	Formatting saved for new documents:	Mise en forme enregistrée pour les nouveaux documents :	ການຈັດຮູບແບບທີ່ບັນທຶກໄວ້ສຳລັບເອກະສານໃໝ່:
+	Formatting, case changes, white space and tables are compared; the other settings are kept for later.	La mise en forme, les modifications de casse, les espaces et les tableaux sont comparés ; les autres paramètres sont conservés pour une utilisation ultérieure.	ການຈັດຮູບແບບ, ການປ່ຽນຕົວພິມໃຫຍ່-ນ້ອຍ, ຍະຫວ່າງ ແລະ ຕາຕະລາງຈະຖືກປຽບທຽບ; ການຕັ້ງຄ່າອື່ນໆຈະຖືກເກັບໄວ້ໃຊ້ພາຍຫຼັງ.
+	Formula	Formule	ສູດຄຳນວນ
+	Formula:	Formule :	ສູດຄຳນວນ:
+	Forward	Avancer	ໄປຂ້າງໜ້າ
+	Fraction	Fraction	ເສດສ່ວນ
+	Fractions (1/2) as fraction characters (½)	Fractions (1/2) en caractères de fraction (½)	ປ່ຽນເສດສ່ວນ (1/2) ເປັນຕົວອັກສອນເສດສ່ວນ (½)
+	French (France)	Français (France)	ຝຣັ່ງ (ຝຣັ່ງ)
+	From Bottom Left Corner	Depuis le coin en bas à gauche	ຈາກມຸມລຸ່ມຊ້າຍ
+	From Bottom Right Corner	Depuis le coin en bas à droite	ຈາກມຸມລຸ່ມຂວາ
+	From Center	Depuis le centre	ຈາກເຄິ່ງກາງ
+	From text:	Distance du texte :	ໄລຍະຈາກຂໍ້ຄວາມ:
+	From Top Left Corner	Depuis le coin en haut à gauche	ຈາກມຸມເທິງຊ້າຍ
+	From Top Right Corner	Depuis le coin en haut à droite	ຈາກມຸມເທິງຂວາ
+	from Unicode (hex)	depuis Unicode (hex)	ຈາກ Unicode (hex)
+	From {name}	De la part de {name}	ຈາກ {name}
+	From:	De :	ຈາກ:
+	Full page of the same label	Page entière d’étiquettes identiques	ປ້າຍຊື່ດຽວກັນເຕັມໜ້າ
+	Full Screen View	Affichage plein écran	ມຸມມອງເຕັມໜ້າຈໍ
+	Full\nScreen	Plein\nécran	ເຕັມ\nໜ້າຈໍ
+	Fun fact: a blank page is just a draft that hasn't been told yet.	Le saviez-vous ? Une page blanche, c’est juste un brouillon qui ne le sait pas encore.	ເລື່ອງໜ້າຮູ້: ໜ້າເຈ້ຍວ່າງກໍຄືຮ່າງເອກະສານທີ່ຍັງບໍ່ທັນຮູ້ໂຕເທື່ອນັ້ນເອງ.
+	Function	Fonction	ຕຳລາ
+	Gallery	Galerie	ຄັງຮູບແບບ
+	GB/T 7714	GB/T 7714	GB/T 7714
+	German (Germany)	Allemand (Allemagne)	ເຢຍລະມັນ (ເຢຍລະມັນ)
+	getartcraft.com/apps/wordcraft	getartcraft.com/apps/wordcraft	getartcraft.com/apps/wordcraft
+	Glow Colors	Couleurs de lueur	ສີແສງເຮືອງ
+	Go Back	Revenir en arrière	ກັບຄືນ
+	Go To	Atteindre	ໄປທີ່
+	Go to	Atteindre	ໄປທີ່
+	Go To (⌘⌥G)	Atteindre (⌘⌥G)	ໄປທີ່ (⌘⌥G)
+	Go to Record	Atteindre l’enregistrement	ໄປທີ່ລະບຽນ
+	Go to what:	Atteindre :	ໄປທີ່:
+	Go To…	Atteindre…	ໄປທີ່…
+	Gone! Like it was never written. Mostly because it now wasn't.	Disparu ! Comme si ça n’avait jamais été écrit. Surtout parce que, du coup, ça ne l’a jamais été.	ຫາຍໄປແລ້ວ! ຄືກັບບໍ່ເຄີຍຖືກຂຽນມາກ່ອນ. ສ່ວນຫຼາຍກໍຍ້ອນວ່າຕອນນີ້ມັນບໍ່ໄດ້ຖືກຂຽນແລ້ວ.
+	Good afternoon	Bon après-midi	ສະບາຍດີຕອນສວາຍ
+	Good evening	Bonsoir	ສະບາຍດີຕອນແລງ
+	Good morning	Bonjour	ສະບາຍດີຕອນເຊົ້າ
+	GOST (name sort)	GOST (tri par nom)	GOST (ລຽງຕາມຊື່)
+	GOST (title sort)	GOST (tri par titre)	GOST (ລຽງຕາມຫົວຂໍ້)
+	Grab bag	Divers	ອື່ນໆທົ່ວໄປ
+	Gradient fill	Remplissage dégradé	ເຕີມສີໄລ່ລະດັບ
+	Gradient stops	Points de dégradé	ຈຸດໄລ່ສີ
+	Grave	Accent grave	ຂີດສຽງລົງ
+	Greater than	Supérieur à	ຫຼາຍກວ່າ
+	Greater than or equal	Supérieur ou égal à	ຫຼາຍກວ່າ ຫຼື ເທົ່າກັບ
+	Greek	Grec	ກຣີກ
+	Greek Letters	Lettres grecques	ຕົວອັກສອນກຣີກ
+	Green:	Vert :	ສີຂຽວ:
+	Greeting Line	Ligne de salutation	ຄຳທັກທາຍ
+	Greeting\nLine	Ligne de\nsalutation	ຄຳ\nທັກທາຍ
+	Grid Table 1 Light	Grille claire 1	ຕາຕະລາງຕາໜ່າງ 1 ໂທນອ່ອນ
+	Grid Table 4 – Blue	Grille 4 – Bleu	ຕາຕະລາງຕາໜ່າງ 4 – ສີຟ້າ
+	Grid Table 4 – Green	Grille 4 – Vert	ຕາຕະລາງຕາໜ່າງ 4 – ສີຂຽວ
+	Grid Table 4 – Orange	Grille 4 – Orange	ຕາຕະລາງຕາໜ່າງ 4 – ສີສົ້ມ
+	Grid Table 4 – Purple	Grille 4 – Violet	ຕາຕະລາງຕາໜ່າງ 4 – ສີມ່ວງ
+	Gridlines	Quadrillage	ເສັ້ນຕາໜ່າງ
+	Grouping Character Above	Caractère de regroupement au-dessus	ເຄື່ອງໝາຍຈັດກຸ່ມຢູ່ເທິງ
+	Grouping Character Below	Caractère de regroupement en dessous	ເຄື່ອງໝາຍຈັດກຸ່ມຢູ່ກ້ອງ
+	Grow Font 1 Point	Agrandir la police de 1 point	ເພີ່ມຂະໜາດຟອນຕ໌ 1 ພອຍຕ໌
+	H:	H :	ສູງ:
+	Hanging Indent	Retrait suspendu	ຫຍັບແຖວຕໍ່ໄປ
+	Harvard (Anglia)	Harvard (Anglia)	Harvard (Anglia)
+	Hat	Accent circonflexe	ໝວກ
+	Header	En-tête	ຫົວໜ້າເຈ້ຍ
+	Header & Footer	En-tête et pied de page	ຫົວໜ້າເຈ້ຍ ແລະ ທ້າຍໜ້າເຈ້ຍ
+	Header Row	Ligne d’en-tête	ແຖວຫົວຂໍ້
+	Header row	Ligne d’en-tête	ແຖວຫົວຂໍ້
+	Header/Footer Position	Position en-tête/pied de page	ຕຳແໜ່ງຫົວໜ້າເຈ້ຍ/ທ້າຍໜ້າເຈ້ຍ
+	Headers and footers	En-têtes et pieds de page	ຫົວໜ້າເຈ້ຍ ແລະ ທ້າຍໜ້າເຈ້ຍ
+	Heading	Titre	ຫົວຂໍ້
+	Heading 1	Titre 1	ຫົວຂໍ້ 1
+	Heading 2	Titre 2	ຫົວຂໍ້ 2
+	Heading 3	Titre 3	ຫົວຂໍ້ 3
+	Heading styles (levels 1–{n})	Styles de titres (niveaux 1–{n})	ສະໄຕລ໌ຫົວຂໍ້ (ລະດັບ 1–{n})
+	Heading text	Texte de titre	ຂໍ້ຄວາມຫົວຂໍ້
+	Heading {n}	Titre {n}	ຫົວຂໍ້ {n}
+	Hebrew	Hébreu	ເຮັບເບີ
+	Hex:	Hex :	Hex:
+	Hi! I'm Nib, your writing assistant. I offer tips, shortcuts and the occasional unsolicited opinion. Shall I stick around?	Bonjour ! Je suis Nib, votre assistant d’écriture. Je propose des astuces, des raccourcis et, de temps en temps, un avis que personne n’a demandé. Je reste dans le coin ?	ສະບາຍດີ! ຂ້ອຍຊື່ Nib, ຜູ້ຊ່ວຍການຂຽນຂອງເຈົ້າ. ຂ້ອຍໃຫ້ຄຳແນະນຳ, ທາງລັດ ແລະ ຄວາມຄິດເຫັນແບບບໍ່ໄດ້ຮ້ອງຂໍເປັນບາງຄັ້ງ. ໃຫ້ຂ້ອຍຢູ່ໃກ້ໆນີ້ບໍ່?
+	Hidden	Masqué	ເຊື່ອງໄວ້
+	Hidden bookmarks	Signets masqués	ຂັ້ນໜ້າທີ່ເຊື່ອງໄວ້
+	Hide Codes	Masquer les codes	ເຊື່ອງລະຫັດ
+	Hide from style lists	Masquer dans les listes de styles	ເຊື່ອງຈາກລາຍການສະໄຕລ໌
+	Hide Ink	Masquer l’encre	ເຊື່ອງນ້ຳໝຶກ
+	Hide Quick Access Toolbar	Masquer la barre d’outils Accès rapide	ເຊື່ອງແຖບເຄື່ອງມືເຂົ້າເຖິງດ່ວນ
+	Hide White Space	Masquer les espaces blancs	ເຊື່ອງຊ່ອງວ່າງລະຫວ່າງໜ້າ
+	Hide\nInk	Masquer\nl’encre	ເຊື່ອງ\nນ້ຳໝຶກ
+	Hierarchy	Hiérarchie	ແຜນຜັງໂຄງສ້າງ
+	Highlight	Surlignage	ໄຮໄລທ໌ສີ
+	Highlight Merge Fields	Mettre en surbrillance les champs de fusion	ໄຮໄລທ໌ຊ່ອງຂໍ້ມູນຈົດໝາຍວຽນ
+	Highlight\nMerge Fields	Mettre en surbrillance\nles champs de fusion	ໄຮໄລທ໌ຊ່ອງຂໍ້ມູນ\nຈົດໝາຍວຽນ
+	Highlighter	Surligneur	ບິກໄຮໄລທ໌
+	Hollow	Creux	ໂປ່ງໃສ
+	Home folder	Dossier personnel	ໂຟນເດີຫຼັກ
+	Horizontal	Horizontale	ແນວນອນ
+	Horizontal Line	Ligne horizontale	ເສັ້ນແນວນອນ
+	How many pages the whole document has	Nombre de pages du document entier	ຈຳນວນໜ້າທັງໝົດຂອງເອກະສານ
+	How many pages this section has	Nombre de pages de cette section	ຈຳນວນໜ້າຂອງພາກສ່ວນນີ້
+	How many words the document holds	Nombre de mots du document	ຈຳນວນຄຳທັງໝົດໃນເອກະສານ
+	HTML Format	Format HTML	ຮູບແບບ HTML
+	Hue:	Teinte :	ໂທນສີ:
+	Hunspell .aff and .dic files here (pl_PL, pt_BR, it_IT, hr_HR, tr_TR) are used before the system's.	Les fichiers Hunspell .aff et .dic de ce dossier (pl_PL, pt_BR, it_IT, hr_HR, tr_TR) sont utilisés avant ceux du système.	ໄຟລ໌ Hunspell .aff ແລະ .dic ຢູ່ບ່ອນນີ້ (pl_PL, pt_BR, it_IT, hr_HR, tr_TR) ຈະຖືກໃຊ້ກ່ອນໄຟລ໌ຂອງລະບົບ.
+	Hyperbolic Cosecant Function	Cosécante hyperbolique	ຕຳລາໂກເຊກັງໄຮເປີໂບລິກ
+	Hyperbolic Cosine Function	Cosinus hyperbolique	ຕຳລາໂກຊິນໄຮເປີໂບລິກ
+	Hyperbolic Cotangent Function	Cotangente hyperbolique	ຕຳລາໂກຕັງຊັງໄຮເປີໂບລິກ
+	Hyperbolic Functions	Fonctions hyperboliques	ຕຳລາໄຮເປີໂບລິກ
+	Hyperbolic Secant Function	Sécante hyperbolique	ຕຳລາເຊກັງໄຮເປີໂບລິກ
+	Hyperbolic Sine Function	Sinus hyperbolique	ຕຳລາຊິນໄຮເປີໂບລິກ
+	Hyperbolic Tangent Function	Tangente hyperbolique	ຕຳລາຕັງຊັງໄຮເປີໂບລິກ
+	Hyperlink	Lien hypertexte	ລິງກ໌ເຊື່ອມໂຍງ
+	Hyphenate at:	Couper à :	ຕັດຄຳດ້ວຍຂີດຕໍ່ທີ່:
+	Hyphenate words in CAPS	Couper les mots en MAJUSCULES	ຕັດຄຳທີ່ເປັນຕົວພິມໃຫຍ່ທັງໝົດ
+	Hyphenation Options…	Options de césure…	ຕົວເລືອກການຕັດຄຳດ້ວຍຂີດຕໍ່…
+	Hyphenation zone:	Zone de césure :	ເຂດການຕັດຄຳດ້ວຍຂີດຕໍ່:
+	Hyphens (--) as dashes (—)	Traits d’union (--) en tirets (—)	ປ່ຽນຂີດຕໍ່ (--) ເປັນຂີດກາງ (—)
+	Hypotenuse	Hypoténuse	ຂ້າງກົງສາກ
+	I promise it's saved. I checked. Twice.	Promis, c’est enregistré. J’ai vérifié. Deux fois.	ສັນຍາວ່າບັນທຶກແລ້ວ. ຂ້ອຍກວດເບິ່ງແລ້ວ. ສອງເທື່ອພຸ້ນ.
+	I'd write something myself, but I'm all nib and no ink.	J’écrirais bien quelque chose moi-même, mais chez moi, c’est tout dans le bec et rien dans l’encrier.	ຂ້ອຍກໍຢາກຂຽນຫຍັງເອງຢູ່ດອກ, ແຕ່ຂ້ອຍມີແຕ່ປາຍປາກກາ ບໍ່ມີນ້ຳໝຶກ.
+	I, II, III, …	I, II, III, …	I, II, III, …
+	i, ii, iii, …	i, ii, iii, …	i, ii, iii, …
+	Icon Color	Couleur de l’icône	ສີໄອຄອນ
+	Icons	Icônes	ໄອຄອນ
+	Identity Matrices	Matrices identité	ມາຕຣິກເອກະລັກ
+	IEEE	IEEE	IEEE
+	If…Then…Else	Si…Alors…Sinon	ຖ້າ…ແລ້ວ…ຖ້າບໍ່ດັ່ງນັ້ນ
+	If…Then…Else…	Si…Alors…Sinon…	ຖ້າ…ແລ້ວ…ຖ້າບໍ່ດັ່ງນັ້ນ…
+	Ignore All	Ignorer tout	ຂ້າມທັງໝົດ
+	Ignore punctuation characters	Ignorer la ponctuation	ຂ້າມເຄື່ອງໝາຍວັກຕອນ
+	Ignore web and file addresses	Ignorer les adresses web et les chemins de fichiers	ຂ້າມທີ່ຢູ່ເວັບ ແລະ ທີ່ຢູ່ໄຟລ໌
+	Ignore white-space characters	Ignorer les espaces	ຂ້າມຕົວອັກສອນຍະຫວ່າງ
+	Ignore words in capitals	Ignorer les mots en majuscules	ຂ້າມຄຳທີ່ເປັນຕົວພິມໃຫຍ່ທັງໝົດ
+	Ignore words with numbers	Ignorer les mots contenant des chiffres	ຂ້າມຄຳທີ່ມີຕົວເລກປົນ
+	Illustrations	Illustrations	ຮູບພາບປະກອບ
+	Immersive	Immersif	ສະມາທິເຕັມຮູບແບບ
+	Immersive Reader	Lecteur immersif	ໂໝດອ່ານແບບມີສະມາທິ
+	Immersive\nReader	Lecteur\nimmersif	ໂໝດອ່ານ\nແບບມີສະມາທິ
+	In Default apps, choose WordCraft for the document types you want it to open.	Dans Applications par défaut, choisissez WordCraft pour les types de documents qu’il doit ouvrir.	ໃນ ແອັບເລີ່ມຕົ້ນ, ໃຫ້ເລືອກ WordCraft ສຳລັບປະເພດເອກະສານທີ່ເຈົ້າຕ້ອງການໃຫ້ມັນເປີດ.
+	In equations, typing a name after a backslash replaces it with its symbol.	Dans les équations, un nom saisi après une barre oblique inverse est remplacé par son symbole.	ໃນສົມຜົນ, ການພິມຊື່ຫຼັງເຄື່ອງໝາຍ backslash ຈະປ່ຽນມັນເປັນສັນຍະລັກຂອງຊື່ນັ້ນ.
+	In Front of Text	Devant le texte	ຢູ່ທາງໜ້າຂໍ້ຄວາມ
+	In Line with Text	Dans le texte	ຢູ່ໃນແຖວດຽວກັບຂໍ້ຄວາມ
+	In margin	Dans la marge	ຢູ່ໃນຂອບໜ້າເຈ້ຍ
+	In the margin	Dans la marge	ຢູ່ໃນຂອບໜ້າເຈ້ຍ
+	Include label and number	Inclure l’étiquette et le numéro	ລວມປ້າຍຊື່ ແລະ ຕົວເລກ
+	Include level number from:	Inclure le numéro de niveau de :	ລວມເລກລະດັບຈາກ:
+	Include page numbers	Inclure les numéros de page	ລວມເລກໜ້າ
+	Increase Font Size	Agrandir la police	ເພີ່ມຂະໜາດຟອນຕ໌
+	Increase Indent	Augmenter le retrait	ເພີ່ມໄລຍະຫຍັບ
+	Indent	Retrait	ໄລຍະຫຍັບ
+	Indent from left:	Retrait à gauche :	ຫຍັບຈາກດ້ານຊ້າຍ:
+	Indentation	Retrait	ການຫຍັບໜ້າ
+	Indented	Avec retrait	ແບບຫຍັບເຂົ້າ
+	Indents	Retraits	ການຫຍັບໜ້າ
+	Indents and Spacing	Retraits et espacement	ການຫຍັບໜ້າ ແລະ ໄລຍະຫ່າງ
+	Index and Tables	Index et tables	ດັດຊະນີ ແລະ ສາລະບານ
+	Index Heading	Titre d’index	ຫົວຂໍ້ດັດຊະນີ
+	Index {n}	Index {n}	ດັດຊະນີ {n}
+	Indonesian	Indonésien	ອິນໂດເນເຊຍ
+	Initial column width:	Largeur de colonne initiale :	ຄວາມກວ້າງຖັນເລີ່ມຕົ້ນ:
+	Initials:	Initiales :	ຕົວອັກສອນຫຍໍ້:
+	Ink	Encre	ນ້ຳໝຶກ
+	Ink Replay	Rejouer l’encre	ຫຼິ້ນການແຕ້ມນ້ຳໝຶກຄືນ
+	Ink to Shape	Convertir l’encre en forme	ແປງນ້ຳໝຶກເປັນຮູບຊົງ
+	Ink to\nMath	Entrée manuscrite\nen équation	ແປງນ້ຳໝຶກ\nເປັນສົມຜົນ
+	Ink to\nShape	Entrée manuscrite\nen forme	ແປງນ້ຳໝຶກ\nເປັນຮູບຊົງ
+	Ink\nReplay	Relecture\nmanuscrite	ຫຼິ້ນນ້ຳໝຶກ\nຄືນໃໝ່
+	Inline	En ligne	ຢູ່ໃນແຖວ
+	Input Format	Format d’entrée	ຮູບແບບການປ້ອນຂໍ້ມູນ
+	Insert	Insertion	ແຊກ
+	Insert a new equation (Alt+=)	Insérer une nouvelle équation (Alt+=)	ແຊກສົມຜົນໃໝ່ (Alt+=)
+	Insert Above	Insérer au-dessus	ແຊກດ້ານເທິງ
+	Insert Below	Insérer en dessous	ແຊກດ້ານລຸ່ມ
+	Insert Caption	Insérer une légende	ແຊກຄຳອະທິບາຍ
+	Insert Caption…	Insérer une légende…	ແຊກຄຳອະທິບາຍ…
+	Insert Chart	Insérer un graphique	ແຊກແຜນພູມ
+	Insert Citation	Insérer une citation	ແຊກການອ້າງອີງ
+	Insert Columns to the Left	Insérer des colonnes à gauche	ແຊກຖັນທາງຊ້າຍ
+	Insert Columns to the Right	Insérer des colonnes à droite	ແຊກຖັນທາງຂວາ
+	Insert Date Field	Insérer un champ de date	ແຊກຊ່ອງຂໍ້ມູນວັນທີ
+	Insert Endnote	Insérer une note de fin	ແຊກໝາຍເຫດທ້າຍເລື່ອງ
+	Insert Footnote	Insérer une note de bas de page	ແຊກໝາຍເຫດທ້າຍໜ້າ
+	Insert Hyperlink	Insérer un lien hypertexte	ແຊກລິງກ໌ເຊື່ອມໂຍງ
+	Insert Index	Insérer un index	ແຊກດັດຊະນີ
+	Insert Left	Insérer à gauche	ແຊກທາງຊ້າຍ
+	Insert Merge Field	Insérer un champ de fusion	ແຊກຊ່ອງຂໍ້ມູນຈົດໝາຍວຽນ
+	Insert Merge\nField	Insérer un champ\nde fusion	ແຊກຊ່ອງຂໍ້ມູນ\nຈົດໝາຍວຽນ
+	Insert New Equation	Insérer une nouvelle équation	ແຊກສົມຜົນໃໝ່
+	Insert one text or another, depending on a field's value.	Insérer un texte ou l’autre selon la valeur d’un champ.	ແຊກຂໍ້ຄວາມໃດໜຶ່ງ ໂດຍຂຶ້ນກັບຄ່າຂອງຊ່ອງຂໍ້ມູນ.
+	Insert Page Field	Insérer un champ de numéro de page	ແຊກຊ່ອງຂໍ້ມູນເລກໜ້າ
+	Insert reference to:	Insérer une référence à :	ແຊກການອ້າງອີງໄປຫາ:
+	Insert Right	Insérer à droite	ແຊກທາງຂວາ
+	Insert Row or Column by Clicking	Insérer une ligne ou une colonne en cliquant	ແຊກແຖວ ຫຼື ຖັນດ້ວຍການຄລິກ
+	Insert Rows Above	Insérer des lignes au-dessus	ແຊກແຖວດ້ານເທິງ
+	Insert Rows Below	Insérer des lignes en dessous	ແຊກແຖວດ້ານລຸ່ມ
+	Insert Shapes	Insérer des formes	ແຊກຮູບຊົງ
+	Insert SmartArt	Insérer un SmartArt	ແຊກ SmartArt
+	Insert Spike	Insérer le pique-notes	ແຊກຂໍ້ມູນຈາກບ່ອນເກັບຊົ່ວຄາວ (Spike)
+	Insert Structure	Insérer une structure	ແຊກໂຄງສ້າງ
+	Insert Symbol	Insérer un symbole	ແຊກສັນຍະລັກ
+	Insert Table	Insérer un tableau	ແຊກຕາຕະລາງ
+	Insert Table of Authorities	Insérer une table des autorités	ແຊກຕາຕະລາງແຫຼ່ງອ້າງອີງທາງກົດໝາຍ
+	Insert Table of Figures	Insérer une table des illustrations	ແຊກສາລະບານຮູບພາບ
+	Insert Table…	Insérer un tableau…	ແຊກຕາຕະລາງ…
+	Insert Time Field	Insérer un champ d’heure	ແຊກຊ່ອງຂໍ້ມູນເວລາ
+	Insert\nAbove	Insérer\nau-dessus	ແຊກ\nດ້ານເທິງ
+	Insert\nCaption	Insérer\nune légende	ແຊກ\nຄຳອະທິບາຍ
+	Insert\nCitation	Insérer\nune citation	ແຊກ\nການອ້າງອີງ
+	Insert\nFootnote	Insérer une\nnote de bas de page	ແຊກ\nໝາຍເຫດທ້າຍໜ້າ
+	Insertions and Deletions	Insertions et suppressions	ການແຊກ ແລະ ການລຶບ
+	Insertions:	Insertions :	ການແຊກ:
+	Inside Borders	Bordures intérieures	ຂອບດ້ານໃນ
+	Inside Horizontal Border	Bordure intérieure horizontale	ຂອບແນວນອນດ້ານໃນ
+	Inside Vertical Border	Bordure intérieure verticale	ຂອບແນວຕັ້ງດ້ານໃນ
+	Inside:	Intérieur :	ດ້ານໃນ:
+	Inspect Document	Vérifier le document	ກວດກາເອກະສານ
+	Inspect Styles at Selection	Inspecter les styles de la sélection	ກວດກາສະໄຕລ໌ຢູ່ສ່ວນທີ່ເລືອກ
+	Institution	Institution	ສະຖາບັນ
+	Integral	Intégrale	ສັງຄະນິດ
+	Integral of e^(−x²)	Intégrale de e^(−x²)	ສັງຄະນິດຂອງ e^(−x²)
+	Integral with Limits	Intégrale avec bornes	ສັງຄະນິດພ້ອມຂອບເຂດ
+	Integral with Stacked Limits	Intégrale avec bornes empilées	ສັງຄະນິດພ້ອມຂອບເຂດຊ້ອນກັນ
+	Integrals	Intégrales	ສັງຄະນິດ
+	Intense Emphasis	Accentuation intense	ເນັ້ນສຽງແຮງ
+	Intense Quote	Citation intense	ຄຳເວົ້າອ້າງອີງແບບເດັ່ນ
+	Intense Reference	Référence intense	ການອ້າງອີງແບບເດັ່ນ
+	Interface language	Langue de l’interface	ພາສາຂອງສ່ວນຕິດຕໍ່ຜູ້ໃຊ້
+	Interface language:	Langue de l’interface :	ພາສາຂອງສ່ວນຕິດຕໍ່ຜູ້ໃຊ້:
+	Interface size:	Taille de l’interface :	ຂະໜາດສ່ວນຕິດຕໍ່ຜູ້ໃຊ້:
+	Interface theme:	Thème de l’interface :	ຮູບແບບສີສ່ວນຕິດຕໍ່ຜູ້ໃຊ້:
+	Interface\nTheme	Thème de\nl’interface	ຮູບແບບສີ\nສ່ວນຕິດຕໍ່
+	Internet addresses as links	Adresses Internet en liens	ປ່ຽນທີ່ຢູ່ອິນເຕີເນັດເປັນລິງກ໌
+	Intersection with Limits	Intersection avec bornes	ອິນເຕີເຊັກຊັນພ້ອມຂອບເຂດ
+	Intersection with Lower Limit	Intersection avec borne inférieure	ອິນເຕີເຊັກຊັນພ້ອມຂອບເຂດລຸ່ມ
+	Intersection with Subscript-Superscript Limits	Intersection avec bornes en indice et exposant	ອິນເຕີເຊັກຊັນພ້ອມຂອບເຂດຕົວຫ້ອຍ-ຕົວຍົກ
+	Inverse Cosecant Function	Arc cosécante	ຕຳລາອາກໂກເຊກັງ
+	Inverse Cosine Function	Arc cosinus	ຕຳລາອາກໂກຊິນ
+	Inverse Cotangent Function	Arc cotangente	ຕຳລາອາກໂກຕັງຊັງ
+	Inverse Functions	Fonctions réciproques	ຕຳລາປີ້ນ
+	Inverse Hyperbolic Cosecant Function	Argument cosécante hyperbolique	ຕຳລາອາກໂກເຊກັງໄຮເປີໂບລິກ
+	Inverse Hyperbolic Cosine Function	Argument cosinus hyperbolique	ຕຳລາອາກໂກຊິນໄຮເປີໂບລິກ
+	Inverse Hyperbolic Cotangent Function	Argument cotangente hyperbolique	ຕຳລາອາກໂກຕັງຊັງໄຮເປີໂບລິກ
+	Inverse Hyperbolic Functions	Fonctions hyperboliques réciproques	ຕຳລາໄຮເປີໂບລິກປີ້ນ
+	Inverse Hyperbolic Secant Function	Argument sécante hyperbolique	ຕຳລາອາກເຊກັງໄຮເປີໂບລິກ
+	Inverse Hyperbolic Sine Function	Argument sinus hyperbolique	ຕຳລາອາກຊິນໄຮເປີໂບລິກ
+	Inverse Hyperbolic Tangent Function	Argument tangente hyperbolique	ຕຳລາອາກຕັງຊັງໄຮເປີໂບລິກ
+	Inverse Secant Function	Arc sécante	ຕຳລາອາກເຊກັງ
+	Inverse Sine Function	Arc sinus	ຕຳລາອາກຊິນ
+	Inverse Tangent Function	Arc tangente	ຕຳລາອາກຕັງຊັງ
+	Ionosphere	Ionosphère	ຊັ້ນໄອໂອໂນສເຟຍ
+	Is blank	Est vide	ວ່າງເປົ່າ
+	Is not blank	N'est pas vide	ບໍ່ວ່າງເປົ່າ
+	ISO 690 (author-date)	ISO 690 (auteur-date)	ISO 690 (ຜູ້ຂຽນ-ວັນທີ)
+	ISO 690 (numerical)	ISO 690 (numérique)	ISO 690 (ຕົວເລກ)
+	Issue	Numéro	ສະບັບທີ
+	It looks like you're writing a letter. Want an envelope for it, or a letter template to start from?	On dirait que vous écrivez une lettre. Voulez-vous une enveloppe, ou un modèle de lettre pour démarrer ?	ເບິ່ງຄືວ່າເຈົ້າກຳລັງຂຽນຈົດໝາຍຢູ່. ຕ້ອງການຊອງຈົດໝາຍ, ຫຼື ແມ່ແບບຈົດໝາຍເພື່ອເລີ່ມຕົ້ນບໍ່?
+	Join the ArtCraft community on Discord	Rejoignez la communauté ArtCraft sur Discord	ເຂົ້າຮ່ວມຊຸມຊົນ ArtCraft ເທິງ Discord
+	Join us on Discord: discord.gg/artcraft	Rejoignez-nous sur Discord : discord.gg/artcraft	ເຂົ້າຮ່ວມກັບພວກເຮົາເທິງ Discord: discord.gg/artcraft
+	Journal	Revue	ວາລະສານ
+	Justification of a display equation	Alignement d’une équation hors texte	ການຈັດແນວສົມຜົນແບບສະແດງແຍກແຖວ
+	Justified	Justifié	ຈັດສະເໝີຂອບ
+	Keep Lines Together	Lignes solidaires	ຮັກສາແຖວໃຫ້ຢູ່ນຳກັນ
+	Keep lines together	Lignes solidaires	ຮັກສາແຖວໃຫ້ຢູ່ນຳກັນ
+	Keep me around	Reste dans le coin	ຢູ່ນຳກັນຕໍ່ໄປ
+	Keep Text Only	Conserver le texte uniquement	ເກັບສະເພາະຂໍ້ຄວາມເທົ່ານັ້ນ
+	Keep the password somewhere safe: without it nobody, WordCraft included, can open the document. Leave both boxes empty to remove the password.	Conservez le mot de passe en lieu sûr : sans lui, personne, WordCraft inclus, ne peut ouvrir le document. Laissez les deux zones vides pour supprimer le mot de passe.	ເກັບລະຫັດຜ່ານໄວ້ໃນບ່ອນທີ່ປອດໄພ: ຫາກບໍ່ມີມັນ ກໍຈະບໍ່ມີໃຜສາມາດເປີດເອກະສານໄດ້ ລວມທັງ WordCraft ເອງ. ປະທັງສອງຫ້ອງໃຫ້ວ່າງໄວ້ເພື່ອລຶບລະຫັດຜ່ານອອກ.
+	Keep with Next	Paragraphes solidaires	ຮັກສາໃຫ້ຢູ່ກັບຫຍໍ້ໜ້າຖັດໄປ
+	Keep with next	Paragraphes solidaires	ຮັກສາໃຫ້ຢູ່ກັບຫຍໍ້ໜ້າຖັດໄປ
+	Keeps the fonts and formatting of the copied text.	Conserve les polices et la mise en forme du texte copié.	ຮັກສາຟອນຕ໌ ແລະ ການຈັດຮູບແບບຂອງຂໍ້ຄວາມທີ່ສຳເນົາໄວ້.
+	Kerning for fonts:	Crénage pour les polices :	ປັບໄລຍະຫ່າງລະຫວ່າງຕົວອັກສອນສຳລັບຟອນຕ໌:
+	Keyboard shortcuts:	Raccourcis clavier :	ປຸ່ມລັດແປ້ນພິມ:
+	Keys for this command:	Touches pour cette commande :	ປຸ່ມສຳລັບຄຳສັ່ງນີ້:
+	Label changes with:	Étiqueter les modifications avec :	ຕິດປ້າຍກຳກັບການປ່ຽນແປງດ້ວຍ:
+	Label:	Étiquette :	ປ້າຍຊື່:
+	Language Preferences…	Préférences linguistiques…	ການຕັ້ງຄ່າພາສາ…
+	Large\nOperator	Grand\nopérateur	ເຄື່ອງໝາຍດຳເນີນການ\nຂະໜາດໃຫຍ່
+	Largest Only	Le plus grand côté uniquement	ສະເພາະດ້ານທີ່ໃຫຍ່ທີ່ສຸດ
+	Lasso Select	Sélection au lasso	ເລືອກດ້ວຍວົງບ້ວງ
+	Last Column	Dernière colonne	ຖັນສຸດທ້າຍ
+	Last Name	Nom	ນາມສະກຸນ
+	Last Record	Dernier enregistrement	ລະບຽນສຸດທ້າຍ
+	Last, First; Last, First	Nom, Prénom ; Nom, Prénom	ນາມສະກຸນ, ຊື່; ນາມສະກຸນ, ຊື່
+	Latin text font:	Police du texte latin :	ຟອນຕ໌ຂໍ້ຄວາມລາຕິນ:
+	Layout	Mise en page	ໂຄງຮ່າງ
+	Layout Summary	Résumé de la mise en page	ສະຫຼຸບໂຄງຮ່າງ
+	Layouts	Dispositions	ໂຄງຮ່າງ
+	Leader	Point de suite	ເສັ້ນນຳສາຍຕາ
+	Leave a recipient out of the merge when a field has this value.	Exclure un destinataire de la fusion lorsqu’un champ a cette valeur.	ຍົກເວັ້ນຜູ້ຮັບອອກຈາກການລວມຈົດໝາຍເມື່ອຊ່ອງຂໍ້ມູນມີຄ່ານີ້.
+	Leave Equation	Quitter l’équation	ອອກຈາກສົມຜົນ
+	Leave out the date and time of comments and tracked changes when saving	Omettre la date et l’heure des commentaires et des modifications suivies à l’enregistrement	ຕັດວັນທີ ແລະ ເວລາຂອງຄຳເຫັນ ແລະ ການຕິດຕາມການປ່ຽນແປງອອກເມື່ອບັນທຶກ
+	Leave the equation (Esc)	Quitter l’équation (Esc)	ອອກຈາກສົມຜົນ (Esc)
+	leave the equation first	quittez d'abord l'équation	ອອກຈາກສົມຜົນກ່ອນ
+	Leave the label out of the caption	Ne pas inclure l’étiquette dans la légende	ບໍ່ຕ້ອງລວມປ້າຍຊື່ໃສ່ໃນຄຳອະທິບາຍ
+	Left Arrow with Text Above	Flèche gauche avec texte au-dessus	ລູກສອນຊ້າຍພ້ອມຂໍ້ຄວາມຢູ່ເທິງ
+	Left Arrow with Text Below	Flèche gauche avec texte en dessous	ລູກສອນຊ້າຍພ້ອມຂໍ້ຄວາມຢູ່ກ້ອງ
+	Left Border	Bordure gauche	ຂອບຊ້າຍ
+	Left border	Bordure gauche	ຂອບຊ້າຍ
+	Left Bracket Twice	Double crochet gauche	ວົງເລັບຫຼ່ຽມຊ້າຍສອງອັນ
+	Left indent	Retrait gauche	ໄລຍະຫຍັບຊ້າຍ
+	Left Margin	Marge gauche	ຂອບຊ້າຍໜ້າເຈ້ຍ
+	Left Only	À gauche uniquement	ສະເພາະດ້ານຊ້າຍ
+	Left Right Arrow Above	Flèche bidirectionnelle au-dessus	ລູກສອນສອງທິດທາງຢູ່ເທິງ
+	Left Right Arrow with Text Above	Flèche bidirectionnelle avec texte au-dessus	ລູກສອນສອງທິດທາງພ້ອມຂໍ້ຄວາມຢູ່ເທິງ
+	Left Right Arrow with Text Below	Flèche bidirectionnelle avec texte en dessous	ລູກສອນສອງທິດທາງພ້ອມຂໍ້ຄວາມຢູ່ກ້ອງ
+	Left Subscript-Superscript	Indice-exposant à gauche	ຕົວຫ້ອຍ-ຕົວຍົກທາງຊ້າຍ
+	Left-to-right	De gauche à droite	ຈາກຊ້າຍໄປຂວາ
+	Left-to-Right Text Direction	Sens du texte de gauche à droite	ທິດທາງຂໍ້ຄວາມຈາກຊ້າຍໄປຂວາ
+	Leftwards Arrow Above	Flèche vers la gauche au-dessus	ລູກສອນຊີ້ຊ້າຍຢູ່ເທິງ
+	Leftwards Harpoon Above	Harpon vers la gauche au-dessus	ລູກສອນເຄິ່ງຫົວຊີ້ຊ້າຍຢູ່ເທິງ
+	Legal   8.50" × 14.00"	Legal   8.50" × 14.00"	Legal   8.50" × 14.00"
+	Legal style numbering	Numérotation de style juridique	ການໃສ່ເລກແບບກົດໝາຍ
+	Legend	Légende	ຄຳອະທິບາຍສັນຍະລັກ
+	Less than	Inférieur à	ໜ້ອຍກວ່າ
+	Less than or equal	Inférieur ou égal à	ໜ້ອຍກວ່າ ຫຼື ເທົ່າກັບ
+	Letter	Lettre	ຈົດໝາຍ
+template	Letter	Lettre	ຈົດໝາຍ
+	Letter   8.50" × 11.00"	Letter   8.50" × 11.00"	Letter   8.50" × 11.00"
+	Letter headings	En-têtes alphabétiques	ຫົວຂໍ້ຕົວອັກສອນ
+	Letter template	Modèle de lettre	ແມ່ແບບຈົດໝາຍ
+	Letter-Like Symbols	Symboles de type lettre	ສັນຍະລັກຄ້າຍຄືຕົວອັກສອນ
+	Letters	Lettres	ຈົດໝາຍ
+	Level 5	Niveau 5	ລະດັບ 5
+	Level 6	Niveau 6	ລະດັບ 6
+	Level 7	Niveau 7	ລະດັບ 7
+	Level 8	Niveau 8	ລະດັບ 8
+	Level 9	Niveau 9	ລະດັບ 9
+	Level {n}	Niveau {n}	ລະດັບ {n}
+	Levels:	Niveaux :	ລະດັບ:
+	Light Variations	Variantes claires	ໂທນສີອ່ອນ
+	Light with Outline	Clair avec contour	ສີອ່ອນພ້ອມເສັ້ນຂອບ
+	Limit	Limite	ຂອບເຂດ (ລີມິດ)
+	Limit and	Limite et	ຂອບເຂດ ແລະ
+	Limit and\nLog	Limite et\nlog	ຂອບເຂດ ແລະ\nໂລກາຣິດ
+	Limit consecutive hyphens to:	Limiter les césures consécutives à :	ຈຳກັດຂີດຕໍ່ຄຳຕິດຕໍ່ກັນບໍ່ໃຫ້ເກີນ:
+	Limit Example	Exemple de limite	ຕົວຢ່າງຂອບເຂດ
+	Limit formatting to a selection of styles	Limiter la mise en forme à une sélection de styles	ຈຳກັດການຈັດຮູບແບບໃຫ້ໃຊ້ໄດ້ສະເພາະສະໄຕລ໌ທີ່ເລືອກ
+	Line and Page Breaks	Enchaînements	ການຂຶ້ນແຖວ ແລະ ຂຶ້ນໜ້າໃໝ່
+	Line and Paragraph Spacing	Espacement des lignes et des paragraphes	ໄລຍະຫ່າງແຖວ ແລະ ຫຍໍ້ໜ້າ
+	Line between	Ligne entre les colonnes	ເສັ້ນຂັ້ນລະຫວ່າງຖັນ
+	Line Break	Saut de ligne	ຕົວຂັ້ນແຖວ
+	Line breaking	Coupure de lignes	ການຕັດແຖວ
+	Line End	Fin de ligne	ທ້າຍແຖວ
+	Line Number	Numéro de ligne	ເລກແຖວ
+	Line Numbering Options…	Options de numérotation des lignes…	ຕົວເລືອກການໃສ່ເລກແຖວ…
+	Line Numbers	Numéros de ligne	ເລກແຖວ
+	Line Spacing	Interligne	ໄລຍະຫ່າງແຖວ
+	Line Spacing Options…	Options d’interligne…	ຕົວເລືອກໄລຍະຫ່າງແຖວ…
+	Line spacing:	Interligne :	ໄລຍະຫ່າງແຖວ:
+	Line Start	Début de ligne	ຕົ້ນແຖວ
+	Linear Diagonal - Bottom Left to Top Right	Linéaire diagonal – en bas à gauche vers en haut à droite	ເສັ້ນຊື່ສະຫຼຽງ - ລຸ່ມຊ້າຍຫາເທິງຂວາ
+	Linear Diagonal - Bottom Right to Top Left	Linéaire diagonal – en bas à droite vers en haut à gauche	ເສັ້ນຊື່ສະຫຼຽງ - ລຸ່ມຂວາຫາເທິງຊ້າຍ
+	Linear Diagonal - Top Left to Bottom Right	Linéaire diagonal – en haut à gauche vers en bas à droite	ເສັ້ນຊື່ສະຫຼຽງ - ເທິງຊ້າຍຫາລຸ່ມຂວາ
+	Linear Diagonal - Top Right to Bottom Left	Linéaire diagonal – en haut à droite vers en bas à gauche	ເສັ້ນຊື່ສະຫຼຽງ - ເທິງຂວາຫາລຸ່ມຊ້າຍ
+	Linear Down	Linéaire vers le bas	ເສັ້ນຊື່ລົງລຸ່ມ
+	Linear Fraction	Fraction linéaire	ເສດສ່ວນແນວນອນ
+	Linear Left	Linéaire vers la gauche	ເສັ້ນຊື່ໄປຊ້າຍ
+	Linear Right	Linéaire vers la droite	ເສັ້ນຊື່ໄປຂວາ
+	Linear Up	Linéaire vers le haut	ເສັ້ນຊື່ຂຶ້ນເທິງ
+	Lines and characters	Lignes et caractères	ແຖວ ແລະ ຕົວອັກສອນ
+	Lines only	Lignes uniquement	ສະເພາະແຖວເທົ່ານັ້ນ
+	Lines per page:	Lignes par page :	ຈຳນວນແຖວຕໍ່ໜ້າ:
+	Lines to drop:	Hauteur (lignes) :	ຈຳນວນແຖວທີ່ຢ່ອນລົງ:
+	Link entries to their headings	Lier les entrées à leurs titres	ເຊື່ອມຕໍ່ລາຍການກັບຫົວຂໍ້ຂອງພວກມັນ
+	Link level to style:	Lier le niveau au style :	ເຊື່ອມຕໍ່ລະດັບກັບສະໄຕລ໌:
+	Link to Previous	Identique au précédent	ເຊື່ອມຕໍ່ກັບສ່ວນກ່ອນໜ້າ
+	Link to:	Lier à :	ເຊື່ອມຕໍ່ໄປຫາ:
+	Linked style (paragraph and character)	Style lié (paragraphe et caractère)	ສະໄຕລ໌ເຊື່ອມໂຍງ (ຫຍໍ້ໜ້າ ແລະ ຕົວອັກສອນ)
+	Links and References	Liens et références	ລິງກ໌ ແລະ ການອ້າງອີງ
+	Link…	Lien…	ລິງກ໌…
+	List Definition	Définition de liste	ນິຍາມລາຍການ
+	List entries	Entrées de liste	ລາຍການໃນບັນຊີ
+	List Paragraph	Paragraphe de liste	ຫຍໍ້ໜ້າລາຍການ
+	List Table 3 – Blue	Liste 3 – Bleu	ຕາຕະລາງລາຍການ 3 – ສີຟ້າ
+	List Table 3 – Green	Liste 3 – Vert	ຕາຕະລາງລາຍການ 3 – ສີຂຽວ
+	List Table 3 – Orange	Liste 3 – Orange	ຕາຕະລາງລາຍການ 3 – ສີສົ້ມ
+	List Table 3 – Purple	Liste 3 – Violet	ຕາຕະລາງລາຍການ 3 – ສີມ່ວງ
+	Lit from Bottom	Éclairé par le bas	ແສງສ່ອງຈາກດ້ານລຸ່ມ
+	Lit from Top	Éclairé par le haut	ແສງສ່ອງຈາກດ້ານເທິງ
+	Load System Installed Fonts…	Charger les polices système installées…	ໂຫຼດຟອນຕ໌ທີ່ຕິດຕັ້ງໃນລະບົບ…
+	Loaded {count} system fonts.	{count} polices système chargées.	ໂຫຼດ {count} ຟອນຕ໌ລະບົບແລ້ວ.
+	Local font access is not supported by your browser.	L'accès aux polices locales n'est pas pris en charge par votre navigateur.	ບຣາວເຊີຂອງເຈົ້າບໍ່ຮອງຮັບການເຂົ້າເຖິງຟອນຕ໌ໃນເຄື່ອງ.
+	Local font access was denied.	L'accès aux polices locales a été refusé.	ການເຂົ້າເຖິງຟອນຕ໌ໃນເຄື່ອງຖືກປະຕິເສດ.
+	Location: {path}	Emplacement : {path}	ຕຳແໜ່ງທີ່ຕັ້ງ: {path}
+	Lock aspect ratio	Verrouiller les proportions	ລັອກອັດຕາສ່ວນພາບ
+	Lock Fields	Verrouiller les champs	ລັອກຊ່ອງຂໍ້ມູນ
+	Log	Log	ໂລກາຣິດ
+	Logarithm	Logarithme	ໂລກາຣິດ
+	Logarithm with Base	Logarithme de base donnée	ໂລກາຣິດພື້ນກຳນົດເອງ
+	Logical AND	ET logique	AND ທາງຕັກກະສາດ
+	Logical AND with Limits	ET logique avec bornes	AND ທາງຕັກກະສາດພ້ອມຂອບເຂດ
+	Logical OR	OU logique	OR ທາງຕັກກະສາດ
+	Logical OR with Limits	OU logique avec bornes	OR ທາງຕັກກະສາດພ້ອມຂອບເຂດ
+	Lorem ipsum: because the real words are still at the café.	Lorem ipsum : parce que les vrais mots sont encore en terrasse.	Lorem ipsum: ເພາະວ່າຄຳສັບແທ້ໆຍັງນັ່ງຫຼິ້ນຢູ່ຮ້ານກາເຟຢູ່.
+	Lum:	Lum. :	ຄວາມສະຫວ່າງ:
+	Macros	Macros	ມາໂຄຣ
+	Made from the author and year when empty	Généré à partir de l’auteur et de l’année si le champ est vide	ສ້າງຈາກຊື່ຜູ້ຂຽນ ແລະ ປີ ໂດຍອັດຕະໂນມັດເມື່ອຫ້ອງວ່າງ
+	Magazine or newspaper article	Article de magazine ou de journal	ບົດຄວາມວາລະສານ ຫຼື ໜັງສືພິມ
+	Mail Merge	Publipostage	ຈົດໝາຍວຽນ
+	Mailings	Publipostage	ການສົ່ງຈົດໝາຍ
+	Main entry:	Entrée principale :	ລາຍການຫຼັກ:
+	Make WordCraft the default for Word documents…	Faire de WordCraft l’application par défaut pour les documents Word…	ຕັ້ງ WordCraft ເປັນແອັບເລີ່ມຕົ້ນສຳລັບເອກະສານ Word…
+	Makes the ribbon, menus and dialogs larger or smaller. Auto follows your system's display scaling; 100% is one screen pixel per point. Document zoom is separate.	Agrandit ou réduit le ruban, les menus et les boîtes de dialogue. Auto suit la mise à l’échelle d’affichage de votre système ; 100% correspond à un pixel d’écran par point. Le zoom du document est distinct.	ປັບແຖບເຄື່ອງມືລິບບອນ, ເມນູ ແລະ ກ່ອງໂຕ້ຕອບໃຫ້ໃຫຍ່ ຫຼື ນ້ອຍລົງ. ອັດຕະໂນມັດຈະໃຊ້ຕາມອັດຕາສ່ວນໜ້າຈໍລະບົບ; 100% ເທົ່າກັບໜຶ່ງພິກເຊວໜ້າຈໍຕໍ່ໜຶ່ງພອຍຕ໌. ການຊູມເອກະສານຈະແຍກຕ່າງຫາກ.
+	Manage Sources	Gérer les sources	ຈັດການແຫຼ່ງອ້າງອີງ
+	Manage Styles	Gérer les styles	ຈັດການສະໄຕລ໌
+	Manage Styles…	Gérer les styles…	ຈັດການສະໄຕລ໌…
+	Manual Hyphenation	Césure manuelle	ການຕັດຄຳດ້ວຍຂີດຕໍ່ແບບກຳນົດເອງ
+	Manual hyphenation is complete.	La césure manuelle est terminée.	ການຕັດຄຳດ້ວຍຂີດຕໍ່ແບບກຳນົດເອງສຳເລັດແລ້ວ.
+	Manual Line Break	Saut de ligne manuel	ການຂຶ້ນແຖວໃໝ່ດ້ວຍຕົນເອງ
+	Manual Page Break	Saut de page manuel	ການຂຶ້ນໜ້າໃໝ່ດ້ວຍຕົນເອງ
+	Manual…	Manuelle…	ກຳນົດເອງ…
+	Many pages	Nombreuses pages	ຫຼາຍໜ້າ
+	Mark	Marquer	ໝາຍໄວ້
+	Mark All	Tout marquer	ໝາຍທັງໝົດ
+	Mark as decorative	Marquer comme décoratif	ໝາຍເປັນວັດຖຸຕົກແຕ່ງ
+	Mark Citation	Marquer une citation	ໝາຍການອ້າງອີງ
+	Mark Entry	Marquer l’entrée	ໝາຍລາຍການ
+	Mark Entry…	Marquer l’entrée…	ໝາຍລາຍການ…
+	Mark grammar errors as you type	Signaler les fautes de grammaire pendant la frappe	ໝາຍຂໍ້ຜິດພາດໄວຍາກອນຂະນະພິມ
+	Mark Index Entry	Marquer l’entrée d’index	ໝາຍລາຍການດັດຊະນີ
+	Mark selected text as:	Marquer le texte sélectionné comme :	ໝາຍຂໍ້ຄວາມທີ່ເລືອກເປັນ:
+	Mark\nCitation	Marquer une\ncitation	ໝາຍ\nການອ້າງອີງ
+	Mark\nEntry	Marquer\nl’entrée	ໝາຍ\nລາຍການ
+	Markdown (*.md)	Markdown (*.md)	Markdown (*.md)
+	Match case	Respecter la casse	ກົງຕົວພິມໃຫຍ່-ນ້ອຍ
+	Match Fields	Faire correspondre les champs	ຈັບຄູ່ຊ່ອງຂໍ້ມູນ
+	Match prefix	Respecter le préfixe	ກົງຄຳນຳໜ້າ
+	Match suffix	Respecter le suffixe	ກົງຄຳລົງທ້າຍ
+	Matches: {count}	Correspondances : {count}	ພົບທີ່ກົງກັນ: {count}
+	Math AutoCorrect	Correction automatique mathématique	ແກ້ໄຂອັດຕະໂນມັດທາງຄະນິດສາດ
+	Matrices with Brackets	Matrices entre crochets	ມາຕຣິກໃນວົງເລັບ
+	Matrix	Matrice	ມາຕຣິກ
+	Maximum Example	Exemple de maximum	ຕົວຢ່າງຄ່າສູງສຸດ
+	Measured By	Mesuré par	ວັດແທກໂດຍ
+	Measurement units:	Unités de mesure :	ໜ່ວຍວັດແທກ:
+	Medium	Moyenne	ປານກາງ
+	Merge cells before split	Fusionner les cellules avant le fractionnement	ລວມຫ້ອງກ່ອນແຍກ
+	Merge Formatting	Fusionner la mise en forme	ປະສານການຈັດຮູບແບບ
+	Merge Record #	N° d’enregistrement de fusion	ເລກລະບຽນຈົດໝາຍວຽນ
+	Mesosphere	Mésosphère	ຊັ້ນເມໂຊສເຟຍ
+	Midline Dots	Points médians	ຈ້ຳເຄິ່ງກາງ
+	Minus Equal	Moins égal	ລົບເທົ່າກັບ
+	Mirror indents	Retraits en miroir	ໄລຍະຫຍັບສະທ້ອນຊ້າຍ-ຂວາ
+	Mirror margins	Marges en vis-à-vis	ຂອບໜ້າເຈ້ຍສະທ້ອນຊ້າຍ-ຂວາ
+	Mirrored	Miroir	ສະທ້ອນຄືແວ່ນ
+	MIT OR Apache-2.0. Copyright (c) 2026 ArtCraft Team and the WordCraft contributors.	MIT OR Apache-2.0. Copyright (c) 2026 ArtCraft Team et les contributeurs de WordCraft.	MIT OR Apache-2.0. ສະຫງວນລິຂະສິດ (c) 2026 ທີມງານ ArtCraft ແລະ ຜູ້ຮ່ວມພັດທະນາ WordCraft.
+	MLA	MLA	MLA
+	mm	mm	ມມ
+	Moderate	Modérées	ປານກາງ
+	Modify Style	Modifier le style	ປັບປຸງສະໄຕລ໌
+	Modify Table Style	Modifier le style de tableau	ປັບປຸງສະໄຕລ໌ຕາຕະລາງ
+	Modify Table Style…	Modifier le style de tableau…	ປັບປຸງສະໄຕລ໌ຕາຕະລາງ…
+	Modify…	Modifier…	ປັບປຸງ…
+	Mon	lun.	ຈັນ
+	Month	Mois	ເດືອນ
+	More >>	Plus >>	ເພີ່ມເຕີມ >>
+	More Colors…	Autres couleurs…	ສີເພີ່ມເຕີມ…
+	More Columns…	Autres colonnes…	ຖັນເພີ່ມເຕີມ…
+	More Commands…	Plus de commandes…	ຄຳສັ່ງເພີ່ມເຕີມ…
+	More Gradients…	Autres dégradés…	ການໄລ່ສີເພີ່ມເຕີມ…
+	More Paper Sizes…	Autres tailles de papier…	ຂະໜາດເຈ້ຍເພີ່ມເຕີມ…
+	More Symbols…	Autres symboles…	ສັນຍະລັກເພີ່ມເຕີມ…
+	More tabs	Plus d'onglets	ແຖບເພີ່ມເຕີມ
+	More templates →	Plus de modèles →	ແມ່ແບບເພີ່ມເຕີມ →
+	More Underlines…	Autres soulignements…	ຮູບແບບຂີດກ້ອງເພີ່ມເຕີມ…
+	Move in Equation	Déplacement dans l’équation	ເຄື່ອນຍ້າຍໃນສົມຜົນ
+	Move or Resize	Déplacer ou redimensionner	ຍ້າຍ ຫຼື ປັບຂະໜາດ
+	Move Paragraph Down	Déplacer le paragraphe vers le bas	ຍ້າຍຫຍໍ້ໜ້າລົງລຸ່ມ
+	Move Paragraph Up	Déplacer le paragraphe vers le haut	ຍ້າຍຫຍໍ້ໜ້າຂຶ້ນເທິງ
+	Move Past Citation	Passer la citation	ເລື່ອນຜ່ານການອ້າງອີງ
+	Move Past\nCitation	Passer\nla citation	ເລື່ອນຜ່ານ\nການອ້າງອີງ
+	Move Selected Ink	Déplacer l’encre sélectionnée	ຍ້າຍນ້ຳໝຶກທີ່ເລືອກ
+	Move Table by Dragging	Déplacer le tableau en le faisant glisser	ຍ້າຍຕາຕະລາງດ້ວຍການລາກ
+	Move with Text	Déplacer avec le texte	ເຄື່ອນຍ້າຍໄປພ້ອມຂໍ້ຄວາມ
+	Moved from	Déplacé depuis	ຍ້າຍມາຈາກ
+	Moved from:	Déplacé depuis :	ຍ້າຍມາຈາກ:
+	Moved objects snap to the page's edges and centre, the margins and other objects. Hold Alt to move freely.	Les objets déplacés s'alignent sur les bords et le centre de la page, les marges et les autres objets. Maintenez Alt enfoncée pour les déplacer librement.	ວັດຖຸທີ່ຍ້າຍຈະຈັບເຂົ້າຂອບ ແລະ ຈຸດກາງຂອງໜ້າເຈ້ຍ, ໄລຍະຂອບ ແລະ ວັດຖຸອື່ນໂດຍອັດຕະໂນມັດ. ກົດ Alt ຄ້າງໄວ້ເພື່ອຍ້າຍຢ່າງອິດສະຫຼະ.
+	Moved to	Déplacé vers	ຍ້າຍໄປທີ່
+	Moved to:	Déplacé vers :	ຍ້າຍໄປທີ່:
+	Moves	Déplacements	ການຍ້າຍ
+	Multilevel List	Liste à plusieurs niveaux	ລາຍການຫຼາຍລະດັບ
+	Multilevel List Library	Bibliothèque de listes à plusieurs niveaux	ຄັງລາຍການຫຼາຍລະດັບ
+	Multiple Pages	Plusieurs pages	ຫຼາຍໜ້າ
+	Mute agent messages	Couper les messages des agents	ປິດສຽງຂໍ້ຄວາມຂອງຕົວແທນ
+	My list has	Ma liste a	ລາຍການຂອງຂ້ອຍມີ
+	Name of the file this document is saved as	Nom du fichier sous lequel ce document est enregistré	ຊື່ໄຟລ໌ທີ່ບັນທຶກເອກະສານນີ້
+	Narrow	Étroite	ແຄບ
+	Narrow  {size} all	Étroites — {size} partout	ແຄບ — {size} ທຸກດ້ານ
+	Natural Logarithm	Logarithme népérien	ໂລກາລິດທຳມະຊາດ
+	Nature	Nature	ທຳມະຊາດ
+	Navigation Pane	Volet de navigation	ແຜງນຳທາງ
+	Negated Relations	Relations niées	ຄວາມສຳພັນປະຕິເສດ
+	New Comment	Nouveau commentaire	ຄຳເຫັນໃໝ່
+	New comments and tracked changes are recorded under this name and these initials.	Les nouveaux commentaires et les modifications suivies sont enregistrés sous ce nom et ces initiales.	ຄຳເຫັນໃໝ່ ແລະ ການປ່ຽນແປງທີ່ຕິດຕາມຈະຖືກບັນທຶກພາຍໃຕ້ຊື່ ແລະ ຕົວຫຍໍ້ນີ້.
+	New Documents Based on This Template	Nouveaux documents basés sur ce modèle	ເອກະສານໃໝ່ທີ່ອີງຕາມແມ່ແບບນີ້
+	New documents based on this template	Nouveaux documents basés sur ce modèle	ເອກະສານໃໝ່ທີ່ອີງຕາມແມ່ແບບນີ້
+	New documents will use this font.	Les nouveaux documents utiliseront cette police.	ເອກະສານໃໝ່ຈະໃຊ້ແບບອັກສອນນີ້.
+	New documents will use this page setup.	Les nouveaux documents utiliseront cette mise en page.	ເອກະສານໃໝ່ຈະໃຊ້ການຕັ້ງຄ່າໜ້າເຈ້ຍນີ້.
+	New documents will use this paragraph formatting.	Les nouveaux documents utiliseront cette mise en forme de paragraphe.	ເອກະສານໃໝ່ຈະໃຊ້ການຈັດຮູບແບບຫຍໍ້ໜ້ານີ້.
+	New documents will use this style.	Les nouveaux documents utiliseront ce style.	ເອກະສານໃໝ່ຈະໃຊ້ສະໄຕລ໌ນີ້.
+	New documents will use WordCraft's built-in formatting.	Les nouveaux documents utiliseront la mise en forme intégrée de WordCraft.	ເອກະສານໃໝ່ຈະໃຊ້ການຈັດຮູບແບບໃນຕົວຂອງ WordCraft.
+	New documents will use WordCraft's built-in formatting. Your saved defaults can't be recovered. Reset?	Les nouveaux documents utiliseront la mise en forme intégrée de WordCraft. Vos paramètres par défaut enregistrés ne pourront pas être récupérés. Réinitialiser ?	ເອກະສານໃໝ່ຈະໃຊ້ການຈັດຮູບແບບໃນຕົວຂອງ WordCraft. ຄ່າເລີ່ມຕົ້ນທີ່ບັນທຶກໄວ້ຈະບໍ່ສາມາດກູ້ຄືນໄດ້. ຕັ້ງຄ່າໃໝ່ບໍ່?
+	New Drawing Canvas	Nouvelle zone de dessin	ພື້ນທີ່ແຕ້ມຮູບໃໝ່
+	New Entry	Nouvelle entrée	ລາຍການໃໝ່
+	New from Template	Nouveau à partir d’un modèle	ສ້າງໃໝ່ຈາກແມ່ແບບ
+	New Label	Nouvelle étiquette	ປ້າຍກຳກັບໃໝ່
+	New Label…	Nouvelle étiquette…	ປ້າຍກຳກັບໃໝ່…
+	New Paragraph	Nouveau paragraphe	ຫຍໍ້ໜ້າໃໝ່
+	New shortcut:	Nouveau raccourci :	ປຸ່ມລັດໃໝ່:
+	New Tab	Nouvel onglet	ແຖບໃໝ່
+	New Table Style	Nouveau style de tableau	ສະໄຕລ໌ຕາຕະລາງໃໝ່
+	New Table Style…	Nouveau style de tableau…	ສະໄຕລ໌ຕາຕະລາງໃໝ່…
+	New word	Nouveau mot	ຄຳສັບໃໝ່
+	New\nComment	Nouveau\ncommentaire	ຄຳເຫັນ\nໃໝ່
+	New\nWindow	Nouvelle\nfenêtre	ໜ້າຕ່າງ\nໃໝ່
+	New…	Nouvelle…	ໃໝ່…
+	Next Comment	Commentaire suivant	ຄຳເຫັນຖັດໄປ
+	Next Field	Champ suivant	ຊ່ອງຂໍ້ມູນຖັດໄປ
+	Next Footnote	Note de bas de page suivante	ໝາຍເຫດທ້າຍໜ້າຖັດໄປ
+	Next Record	Enregistrement suivant	ລະບຽນຂໍ້ມູນຖັດໄປ
+	Next Section	Section suivante	ພາກສ່ວນຖັດໄປ
+	Next Sentence	Phrase suivante	ປະໂຫຍກຖັດໄປ
+	Next sentence	Phrase suivante	ປະໂຫຍກຖັດໄປ
+	Nib floats over the window with tips and the occasional remark.	Nib flotte au-dessus de la fenêtre avec des conseils et quelques remarques.	Nib ຈະລອຍຢູ່ເທິງໜ້າຕ່າງພ້ອມຄຳແນະນຳ ແລະ ຂໍ້ສັງເກດເປັນບາງຄັ້ງຄາວ.
+	Nib, your assistant. Drag to move; right-click for options.	Nib, votre assistant. Faites-le glisser pour le déplacer ; clic droit pour les options.	Nib, ຜູ້ຊ່ວຍຂອງທ່ານ. ລາກເພື່ອຍ້າຍ; ຄລິກຂວາເພື່ອເບິ່ງຕົວເລືອກ.
+	No accessibility issues found.	Aucun problème d’accessibilité détecté.	ບໍ່ພົບບັນຫາດ້ານການເຂົ້າເຖິງ.
+	No Border	Sans bordure	ບໍ່ມີຂອບ
+	No changes (read only)	Aucune modification (lecture seule)	ບໍ່ມີການປ່ຽນແປງ (ອ່ານຢ່າງດຽວ)
+	No contributor data was built into this copy.	Aucune donnée de contributeur n’a été intégrée à cette copie.	ບໍ່ມີຂໍ້ມູນຜູ້ປະກອບສ່ວນໃນສຳເນົານີ້.
+	No document is open. Create a document or open one first.	Aucun document n’est ouvert. Créez ou ouvrez d’abord un document.	ບໍ່ມີເອກະສານທີ່ເປີດຢູ່. ກະລຸນາສ້າງ ຫຼື ເປີດເອກະສານກ່ອນ.
+	no equation at the caret	aucune équation au point d’insertion	ບໍ່ມີສົມຜົນຢູ່ຈຸດແຊກ
+	No errors found: every merge field is in the recipient list.	Aucune erreur détectée : chaque champ de fusion se trouve dans la liste des destinataires.	ບໍ່ພົບຂໍ້ຜິດພາດ: ທຸກຊ່ອງຂໍ້ມູນຜະສານຢູ່ໃນລາຍຊື່ຜູ້ຮັບແລ້ວ.
+	No Fill	Aucun remplissage	ບໍ່ຕື່ມສີ
+	No fill	Aucun remplissage	ບໍ່ຕື່ມສີ
+	No Glow	Sans lueur	ບໍ່ມີແສງເຮືອງ
+	No Gradient	Aucun dégradé	ບໍ່ໄລ່ລະດັບສີ
+	No grid	Sans grille	ບໍ່ມີຕາຂ່າຍ
+	No header row	Pas de ligne d’en-tête	ບໍ່ມີແຖວຫົວຂໍ້
+	No icons match your search.	Aucune icône ne correspond à votre recherche.	ບໍ່ມີໄອຄອນໃດກົງກັບການຄົ້ນຫາຂອງທ່ານ.
+	No limit	Sans limite	ບໍ່ຈຳກັດ
+	No Markup	Aucune marque	ບໍ່ມີເຄື່ອງໝາຍກວດແກ້
+	No model credits were built into this copy.	Aucune mention de modèles n’a été intégrée à cette copie.	ບໍ່ມີການໃຫ້ເຄຣດິດໂມເດວໃນສຳເນົານີ້.
+	No other WordCraft windows are open.	Aucune autre fenêtre WordCraft n'est ouverte.	ບໍ່ມີໜ້າຕ່າງ WordCraft ອື່ນເປີດຢູ່.
+	No Outline	Aucun contour	ບໍ່ມີເສັ້ນຂອບນອກ
+	No Paragraph Space	Sans espacement entre les paragraphes	ບໍ່ມີໄລຍະຫ່າງລະຫວ່າງຫຍໍ້ໜ້າ
+	No printers found. Configure a system printer or export a PDF.	Aucune imprimante trouvée. Configurez une imprimante système ou exportez un PDF.	ບໍ່ພົບເຄື່ອງພິມ. ກະລຸນາຕັ້ງຄ່າເຄື່ອງພິມລະບົບ ຫຼື ສົ່ງອອກເປັນ PDF.
+	No Reflection	Aucun reflet	ບໍ່ມີເງົາສະທ້ອນ
+	No Shadow	Sans ombre	ບໍ່ມີເງົາ
+	No Soft Edges	Sans bords adoucis	ບໍ່ມີຂອບນຸ່ມ
+	No sources yet.	Aucune source pour le moment.	ຍັງບໍ່ມີແຫຼ່ງຂໍ້ມູນເທື່ອ.
+	No Spacing	Sans interligne	ບໍ່ມີໄລຍະຫ່າງ
+	No spelling dictionary for {language} is installed, so it isn't checked. WordCraft looks for the Hunspell dictionary {name} in the WORDCRAFT_DICTIONARIES folder and in the usual system locations.	Aucun dictionnaire orthographique pour {language} n'est installé, la langue n'est donc pas vérifiée. WordCraft cherche le dictionnaire Hunspell {name} dans le dossier WORDCRAFT_DICTIONARIES et aux emplacements système habituels.	ຍັງບໍ່ໄດ້ຕິດຕັ້ງວັດຈະນານຸກົມກວດຕົວສະກົດສຳລັບ {language}, ຈຶ່ງບໍ່ໄດ້ກວດສອບພາສານີ້. WordCraft ຈະຊອກຫາວັດຈະນານຸກົມ Hunspell {name} ໃນໂຟນເດີ WORDCRAFT_DICTIONARIES ແລະ ຕຳແໜ່ງປົກກະຕິຂອງລະບົບ.
+	No templates match your search.	Aucun modèle ne correspond à votre recherche.	ບໍ່ມີແມ່ແບບໃດກົງກັບການຄົ້ນຫາຂອງທ່ານ.
+	No Transform	Aucune transformation	ບໍ່ມີການແປງຮູບ
+	No words yet. Add to Dictionary on a misspelled word puts it here.	Aucun mot pour l’instant. Utilisez Ajouter au dictionnaire sur un mot mal orthographié pour l’ajouter ici.	ຍັງບໍ່ມີຄຳສັບເທື່ອ. ໃຊ້ຄຳສັ່ງ ເພີ່ມໃສ່ວັດຈະນານຸກົມ ໃນຄຳທີ່ສະກົດຜິດເພື່ອເອົາມາໄວ້ທີ່ນີ້.
+	No-Width Non Break	Césure insécable sans chasse	ຕົວຂັ້ນບໍ່ມີຄວາມກວ້າງແບບບໍ່ຕັດແຖວ
+	No-Width Optional Break	Césure facultative sans chasse	ຕົວຂັ້ນບໍ່ມີຄວາມກວ້າງແບບເລືອກຕັດແຖວ
+	Nonbreaking Hyphen	Tiret insécable	ຂີດຕໍ່ແບບບໍ່ຕັດແຖວ
+	Normal  {size} all	Normales — {size} partout	ປົກກະຕິ — {size} ທຸກດ້ານ
+	Normal Indent	Retrait normal	ໄລຍະຍັບປົກກະຕິ
+	Normal probability density	Densité de la loi normale	ຄວາມໜາແໜ້ນຄວາມເປັນໄປໄດ້ປົກກະຕິ
+	Normal speed	Vitesse normale	ຄວາມໄວປົກກະຕິ
+	Normal Style	Style Normal	ສະໄຕລ໌ປົກກະຕິ
+	Normal Table	Tableau normal	ຕາຕະລາງປົກກະຕິ
+	Normal Text	Texte normal	ຂໍ້ຄວາມປົກກະຕິ
+	Normal Word Document	Document Word normal	ເອກະສານ Word ປົກກະຕິ
+	North	Nord	ເໜືອ
+	Norwegian (Bokmål)	Norvégien (bokmål)	ນໍເວ (ບຸກມໍລ)
+	Not	Non	ບໍ່
+	Not available right now	Indisponible pour le moment	ບໍ່ສາມາດໃຊ້ງານໄດ້ໃນຕອນນີ້
+	not editing an equation	aucune équation n’est en cours de modification	ບໍ່ໄດ້ແກ້ໄຂສົມຜົນຢູ່
+	Not equal to	Différent de	ບໍ່ເທົ່າກັບ
+	Not linked: click a text box	Pas de liaison : cliquez sur une zone de texte	ບໍ່ໄດ້ເຊື່ອມໂຍງ: ຄລິກໃສ່ກ່ອງຂໍ້ຄວາມ
+	Not now	Pas maintenant	ບໍ່ແມ່ນຕອນນີ້
+	Not saved	Non enregistré	ຍັງບໍ່ໄດ້ບັນທຶກ
+	Not saved yet	Pas encore enregistré	ຍັງບໍ່ທັນໄດ້ບັນທຶກ
+	Not set	Non défini	ຍັງບໍ່ໄດ້ຕັ້ງຄ່າ
+	Not set: the system's usual places	Non défini : emplacements habituels du système	ຍັງບໍ່ໄດ້ຕັ້ງຄ່າ: ຕຳແໜ່ງປົກກະຕິຂອງລະບົບ
+	Not used by any command	N’est utilisé par aucune commande	ບໍ່ໄດ້ຖືກໃຊ້ໂດຍຄຳສັ່ງໃດ
+	Not {name}	Sans {name}	ບໍ່ແມ່ນ {name}
+	Nothing	Rien	ບໍ່ມີຫຍັງ
+	Nothing collected yet. Items you copy or cut appear here.	Aucun élément collecté pour l’instant. Les éléments que vous copiez ou coupez apparaissent ici.	ຍັງບໍ່ມີລາຍການທີ່ເກັບໄວ້ເທື່ອ. ລາຍການທີ່ທ່ານສຳເນົາ ຫຼື ຕັດຈະປະກົດຢູ່ທີ່ນີ້.
+	nothing is selected	rien n’est sélectionné	ບໍ່ໄດ້ເລືອກຫຍັງ
+	Now used by {command}	Actuellement utilisé par {command}	ຕອນນີ້ຖືກໃຊ້ໂດຍ {command}
+	Nudge	Déplacer légèrement	ຍັບເລັກນ້ອຍ
+	Num Occurrences	Nombre d’occurrences	ຈຳນວນຄັ້ງທີ່ພົບ
+	Number	Numéro	ຕົວເລກ
+	Number alignment:	Alignement des numéros :	ການຈັດລຽນຕົວເລກ:
+	Number format	Format des numéros	ຮູບແບບຕົວເລກ
+	Number of columns:	Nombre de colonnes :	ຈຳນວນຖັນ:
+	Number of rows:	Nombre de lignes :	ຈຳນວນແຖວ:
+	Number of the page the field sits on	Numéro de la page où se trouve le champ	ເລກໜ້າທີ່ຊ່ອງຂໍ້ມູນນັ້ນຕັ້ງຢູ່
+	Number of the section the field sits in	Numéro de la section où se trouve le champ	ເລກພາກສ່ວນທີ່ຊ່ອງຂໍ້ມູນນັ້ນຕັ້ງຢູ່
+	Number only, without the label's words	Le numéro seul, sans les mots de l'étiquette	ຕົວເລກຢ່າງດຽວ, ບໍ່ມີຄຳຂອງປ້າຍກຳກັບ
+	Number style for this level:	Style de numéros pour ce niveau :	ສະໄຕລ໌ຕົວເລກສຳລັບລະດັບນີ້:
+	Number the equation; the number sits at the right margin (or type # then the number)	Numéroter l’équation ; le numéro se place dans la marge droite (ou tapez # puis le numéro)	ໃສ່ເລກສົມຜົນ; ເລກຈະຢູ່ຂອບເບື້ອງຂວາ (ຫຼື ພິມ # ແລ້ວຕາມດ້ວຍເລກ)
+	Numbering	Numérotation	ການໃສ່ເລກລຳດັບ
+	Numbering:	Numérotation :	ການໃສ່ເລກລຳດັບ:
+	Numbering…	Numérotation…	ການໃສ່ເລກລຳດັບ…
+	Numerals	Chiffres	ຕົວເລກ
+	Numerals:	Chiffres :	ຕົວເລກ:
+	n×n Identity Matrix	Matrice identité n×n	ມາຕຣິດເອກະລັກ n×n
+	n×n Matrix	Matrice n×n	ມາຕຣິດ n×n
+	Odd Banded Columns	Colonnes à bandes impaires	ຖັນສະຫຼັບສີຄີກ
+	Odd Banded Rows	Lignes à bandes impaires	ແຖວສະຫຼັບສີຄີກ
+	Odd Page	Page impaire	ໜ້າຄີກ
+	Odd pages only	Pages impaires uniquement	ສະເພາະໜ້າຄີກ
+	Off	Désactivés	ປິດ
+	Office	Bureau	ຫ້ອງການ
+	Office 2003 Default	Par défaut Office 2003	ຄ່າເລີ່ມຕົ້ນ Office 2003
+	Offset (pt):	Décalage (pt) :	ໄລຍະເລື່ອນ (pt):
+	Offset: Bottom	Décalage : en bas	ໄລຍະເລື່ອນ: ດ້ານລຸ່ມ
+	Offset: Bottom Left	Décalage : en bas à gauche	ໄລຍະເລື່ອນ: ລຸ່ມຊ້າຍ
+	Offset: Bottom Right	Décalage : en bas à droite	ໄລຍະເລື່ອນ: ລຸ່ມຂວາ
+	Offset: Center	Décalage : au centre	ໄລຍະເລື່ອນ: ເຄິ່ງກາງ
+	Offset: Left	Décalage : à gauche	ໄລຍະເລື່ອນ: ດ້ານຊ້າຍ
+	Offset: Right	Décalage : à droite	ໄລຍະເລື່ອນ: ດ້ານຂວາ
+	Offset: Top	Décalage : en haut	ໄລຍະເລື່ອນ: ດ້ານເທິງ
+	Offset: Top Left	Décalage : en haut à gauche	ໄລຍະເລື່ອນ: ເທິງຊ້າຍ
+	Offset: Top Right	Décalage : en haut à droite	ໄລຍະເລື່ອນ: ເທິງຂວາ
+	Old menu keys: Alt, {keys}. Keep typing, or press Esc to cancel.	Anciennes touches de menu : Alt, {keys}. Continuez la saisie ou appuyez sur Échap pour annuler.	ປຸ່ມເມນູແບບເກົ່າ: Alt, {keys}. ພິມຕໍ່ໄປ, ຫຼື ກົດ Esc ເພື່ອຍົກເລີກ.
+	On: the caret glides to its new place when you type or use the arrow keys, and its blink fades. Off: it jumps and blinks on and off.	Activé : le curseur glisse jusqu’à sa nouvelle position lorsque vous tapez ou utilisez les touches fléchées, et son clignotement s’estompe en douceur. Désactivé : il saute et clignote de façon nette.	ເປີດ: ເຄີເຊີຈະເລື່ອນໄປຕຳແໜ່ງໃໝ່ຢ່າງນຸ່ມນວນເມື່ອພິມ ຫຼື ໃຊ້ປຸ່ມລູກສອນ. ປິດ: ມັນຈະໂດດໄປ ແລະ ກະພິບແບບປົກກະຕິ.
+	On: WordCraft opens on File › Home, with a blank document, the templates and your recent documents. Off: it opens a blank document.	Activé : WordCraft s'ouvre sur Fichier › Accueil, avec un document vierge, les modèles et vos documents récents. Désactivé : il ouvre un document vierge.	ເປີດ: WordCraft ຈະເປີດໜ້າ ໄຟລ໌ › ໜ້າຫຼັກ, ພ້ອມເອກະສານເປົ່າ, ແມ່ແບບ ແລະ ເອກະສານຫຼ້າສຸດ. ປິດ: ມັນຈະເປີດເອກະສານເປົ່າເລີຍ.
+	One	Un	ໜຶ່ງ
+	One half	Un demi	ເຄິ່ງໜຶ່ງ
+	One label per recipient	Une étiquette par destinataire	ໜຶ່ງປ້າຍຕໍ່ໜຶ່ງຜູ້ຮັບ
+	One line per item. Enter adds an item.	Une ligne par élément. Entrée ajoute un élément.	ໜຶ່ງແຖວຕໍ່ໜຶ່ງລາຍການ. ກົດ Enter ເພື່ອເພີ່ມລາຍການ.
+	One Page	Une page	ໜຶ່ງໜ້າ
+	One-sided	Recto seul	ໜ້າດຽວ
+	Only allow this kind of editing:	Autoriser uniquement ce type de modification :	ອະນຸຍາດສະເພາະການແກ້ໄຂປະເພດນີ້:
+	Only comments can be added, except in regions marked editable.	Seuls les commentaires peuvent être ajoutés, à l’exception des zones marquées comme modifiables.	ສາມາດເພີ່ມໄດ້ສະເພາະຄຳເຫັນ, ຍົກເວັ້ນໃນບໍລິເວນທີ່ໝາຍວ່າແກ້ໄຂໄດ້.
+	Only for the selected text	Uniquement pour le texte sélectionné	ສະເພາະຂໍ້ຄວາມທີ່ເລືອກ
+	Only form fields can be filled in.	Seuls les champs de formulaire peuvent être remplis.	ສາມາດຕື່ມຂໍ້ມູນໄດ້ສະເພາະຊ່ອງແບບຟອມ.
+	only in Outline view	uniquement en mode Plan	ສະເພາະໃນມຸມມອງໂຄງຮ່າງ
+	Only in this document	Uniquement dans ce document	ສະເພາະໃນເອກະສານນີ້
+	Only the allowed styles can be applied.	Seuls les styles autorisés peuvent être appliqués.	ສາມາດນຳໃຊ້ໄດ້ສະເພາະສະໄຕລ໌ທີ່ອະນຸຍາດ.
+	Only web (http, https) and email (mailto) links can be followed	Seuls les liens Web (http, https) et les liens de messagerie (mailto) peuvent être suivis	ສາມາດເປີດໄດ້ສະເພາະລິ້ງເວັບ (http, https) ແລະ ອີເມວ (mailto)
+	Open a document first	Ouvrez d'abord un document	ເປີດເອກະສານກ່ອນ
+	Open a file with WordCraft's own browser when the system file dialog doesn't appear.	Ouvrir un fichier avec le navigateur de fichiers intégré à WordCraft lorsque la boîte de dialogue de fichiers du système n’apparaît pas.	ເປີດໄຟລ໌ດ້ວຍຕົວເລືອກໄຟລ໌ຂອງ WordCraft ເອງເມື່ອໜ້າຕ່າງເລືອກໄຟລ໌ຂອງລະບົບບໍ່ປະກົດຂຶ້ນ.
+	OpenDocument Text (*.odt)	Texte OpenDocument (*.odt)	ຂໍ້ຄວາມ OpenDocument (*.odt)
+	Opening print dialog…	Ouverture de la boîte de dialogue d’impression…	ກຳລັງເປີດໜ້າຕ່າງການພິມ…
+	Opens .docx, .doc, .rtf and .odt files and Word templates with WordCraft from now on.	Ouvre désormais les fichiers .docx, .doc, .rtf et .odt ainsi que les modèles Word avec WordCraft.	ຕັ້ງແຕ່ນີ້ໄປໃຫ້ເປີດໄຟລ໌ .docx, .doc, .rtf, .odt ແລະ ແມ່ແບບ Word ດ້ວຍ WordCraft.
+	Opens Settings › Default apps, where you choose WordCraft for .docx and the other document types.	Ouvre Paramètres › Applications par défaut, où vous choisissez WordCraft pour .docx et les autres types de documents.	ເປີດ ການຕັ້ງຄ່າ › ແອັບເລີ່ມຕົ້ນ, ເຊິ່ງທ່ານສາມາດເລືອກ WordCraft ສຳລັບ .docx ແລະ ເອກະສານປະເພດອື່ນໆ.
+	Operator	Opérateur	ເຄື່ອງໝາຍດຳເນີນການ
+	Operator Structures	Structures d’opérateurs	ໂຄງສ້າງເຄື່ອງໝາຍດຳເນີນການ
+	Operators	Opérateurs	ເຄື່ອງໝາຍດຳເນີນການ
+	Optional Hyphen	Tiret conditionnel	ຂີດຕໍ່ທາງເລືອກ
+	Or	Ou	ຫຼື
+	Or save a copy in another format:	Ou enregistrez une copie dans un autre format :	ຫຼື ບັນທຶກສຳເນົາໃນຮູບແບບອື່ນ:
+	Ordinals (1st) as superscript	Nombres ordinaux (1er) en exposant	ເລກລຳດັບ (1st) ເປັນຕົວຍົກ
+	Organizer	Organiseur	ຕົວຈັດລະບຽບ
+	Organizer…	Organiseur…	ຕົວຈັດລະບຽບ…
+	Original document	Document d’origine	ເອກະສານຕົ້ນສະບັບ
+	Original size	Taille d'origine	ຂະໜາດເດີມ
+	Other Large Operators	Autres grands opérateurs	ເຄື່ອງໝາຍດຳເນີນການຂະໜາດໃຫຍ່ອື່ນໆ
+	Other styles and their TOC level:	Autres styles et leur niveau dans la table des matières :	ສະໄຕລ໌ອື່ນໆ ແລະ ລະດັບສາລະບານຂອງພວກມັນ:
+	Other:	Autre :	ອື່ນໆ:
+	Otherwise insert:	Sinon insérer :	ຖ້າບໍ່ດັ່ງນັ້ນໃຫ້ແຊກ:
+	Outline	Plan	ໂຄງຮ່າງ
+	Outline Level	Niveau de plan	ລະດັບໂຄງຮ່າງ
+	Outline level	Niveau de plan	ລະດັບໂຄງຮ່າງ
+	Outline levels	Niveaux hiérarchiques	ລະດັບໂຄງຮ່າງ
+	Outline State	État du plan	ສະຖານະໂຄງຮ່າງ
+	Outline Tools	Outils Plan	ເຄື່ອງມືໂຄງຮ່າງ
+	Outlining	Mode Plan	ໂໝດໂຄງຮ່າງ
+	Outside border	Bordure extérieure	ຂອບດ້ານນອກ
+	Outside Borders	Bordures extérieures	ຂອບດ້ານນອກ
+	Outside:	Extérieur :	ດ້ານນອກ:
+	Outward Brackets	Crochets inversés	ວົງເລັບປີ້ນອອກ
+	Oval	Ovale	ຮູບໄຂ່
+	Overbar	Barre supérieure	ຂີດເທິງ
+	Overbars and Underbars	Barres supérieures et inférieures	ຂີດເທິງ ແລະ ຂີດລຸ່ມ
+	Overbrace	Accolade supérieure	ວົງເລັບປີກກາເທິງ
+	Overtype	Refrappe	ພິມທັບ
+	Overtype (typing replaces the characters after the caret)	Refrappe (la frappe remplace les caractères situés après le curseur)	ພິມທັບ (ການພິມຈະແທນທີ່ຕົວອັກສອນທີ່ຢູ່ຫຼັງເຄີເຊີ)
+	Page Background	Arrière-plan de page	ພື້ນຫຼັງໜ້າເຈ້ຍ
+	Page Border	Bordure de page	ຂອບໜ້າເຈ້ຍ
+	Page Borders	Bordures de page	ຂອບໜ້າເຈ້ຍ
+	Page Break	Saut de page	ຕັດໜ້າ
+	Page Break Before	Saut de page avant	ຕັດໜ້າກ່ອນ
+	Page break before	Saut de page avant	ຕັດໜ້າກ່ອນ
+	Page Breaks	Sauts de page	ການຕັດໜ້າ
+	Page Color	Couleur de page	ສີໜ້າເຈ້ຍ
+	Page display	Affichage de la page	ການສະແດງໜ້າເຈ້ຍ
+	Page Down	Une page vers le bas	ລົງໜຶ່ງໜ້າ
+	Page image (*.png)	Image de page (*.png)	ຮູບພາບໜ້າເຈ້ຍ (*.png)
+	Page Movement	Déplacement par page	ການເລື່ອນໜ້າເຈ້ຍ
+	Page Number	Numéro de page	ເລກໜ້າ
+	Page Number Format	Format des numéros de page	ຮູບແບບເລກໜ້າ
+	Page number style	Style des numéros de page	ສະໄຕລ໌ເລກໜ້າ
+	Page numbering	Numérotation des pages	ການໃສ່ເລກໜ້າ
+	Page numbers at the right margin	Numéros de page à la marge de droite	ເລກໜ້າຢູ່ຂອບເບື້ອງຂວາ
+	Page on which a bookmarked passage falls	Page où se trouve le passage marqué d’un signet	ໜ້າທີ່ຂໍ້ຄວາມທີ່ຂັ້ນໄວ້ຕັ້ງຢູ່
+	Page Setup	Mise en page	ຕັ້ງຄ່າໜ້າເຈ້ຍ
+	Page title	Titre de la page	ຫົວຂໍ້ໜ້າ
+	Page Up	Une page vers le haut	ຂຶ້ນໜຶ່ງໜ້າ
+	Page Width	Largeur de page	ຄວາມກວ້າງໜ້າເຈ້ຍ
+	Page width	Largeur de page	ຄວາມກວ້າງໜ້າເຈ້ຍ
+	Page X of Y	Page X sur Y	ໜ້າ X ຈາກ Y
+	Page {page}	Page {page}	ໜ້າ {page}
+	Page\nBorders	Bordures\nde page	ຂອບ\nໜ້າເຈ້ຍ
+	Page\nColor	Couleur\nde page	ສີ\nໜ້າເຈ້ຍ
+	Page\nNumber	Numéro\nde page	ເລກ\nໜ້າ
+	Pages like 1-3, 5	Pages, par exemple 1-3, 5	ໜ້າ ເຊັ່ນ 1-3, 5
+	Pages of bookmark:	Pages du signet :	ໜ້າຂອງທີ່ຂັ້ນໜ້າ:
+	Paper size:	Taille du papier :	ຂະໜາດເຈ້ຍ:
+	Paragraph Character	Caractère de paragraphe	ສັນຍາລັກຫຍໍ້ໜ້າ
+	Paragraph Details	Détails du paragraphe	ລາຍລະອຽດຫຍໍ້ໜ້າ
+	Paragraph Down	Un paragraphe vers le bas	ລົງໜຶ່ງຫຍໍ້ໜ້າ
+	Paragraph Mark	Marque de paragraphe	ເຄື່ອງໝາຍຫຍໍ້ໜ້າ
+	Paragraph marks	Marques de paragraphe	ເຄື່ອງໝາຍຫຍໍ້ໜ້າ
+	Paragraph Settings	Paramètres de paragraphe	ການຕັ້ງຄ່າຫຍໍ້ໜ້າ
+	Paragraph Spacing	Espacement des paragraphes	ໄລຍະຫ່າງຫຍໍ້ໜ້າ
+	Paragraph style	Style de paragraphe	ສະໄຕລ໌ຫຍໍ້ໜ້າ
+	Paragraph Up	Un paragraphe vers le haut	ຂຶ້ນໜຶ່ງຫຍໍ້ໜ້າ
+	Paragraphs	Paragraphes	ຫຍໍ້ໜ້າ
+	Paragraph…	Paragraphe…	ຫຍໍ້ໜ້າ…
+	Parentheses	Parenthèses	ວົງເລັບມົນ
+	Parentheses with Separator	Parenthèses avec séparateur	ວົງເລັບມົນພ້ອມຕົວຂັ້ນ
+	Partial Differential	Différentielle partielle	ຜົນຕຳລາຍ່ອຍ
+	Password:	Mot de passe :	ລະຫັດຜ່ານ:
+	Paste (⌘V)	Coller (⌘V)	ວາງ (⌘V)
+	Paste All	Coller tout	ວາງທັງໝົດ
+	Paste as:	Coller en tant que :	ວາງເປັນ:
+	Paste Clipboard Item	Coller l’élément du Presse-papiers	ວາງລາຍການຈາກຄລິບບອດ
+	Paste Formatting	Coller la mise en forme	ວາງການຈັດຮູບແບບ
+	Paste function:	Coller une fonction :	ວາງຟັງຊັນ:
+	Paste Special…	Collage spécial…	ວາງແບບພິເສດ…
+	Paste: Keep Text Only	Collage : conserver le texte uniquement	ວາງ: ເກັບໄວ້ສະເພາະຂໍ້ຄວາມ
+	Paste: Merge Formatting	Collage : fusionner la mise en forme	ວາງ: ຜະສານການຈັດຮູບແບບ
+	Pastes the clipboard's picture.	Colle l'image du Presse-papiers.	ວາງຮູບພາບຈາກຄລິບບອດ.
+	Paused	En pause	ຢຸດຊົ່ວຄາວ
+	PDF document (*.pdf)	Document PDF (*.pdf)	ເອກະສານ PDF (*.pdf)
+	Pen	Stylo	ປາກກາ
+	Pens	Stylos	ປາກກາ
+	People	Personnes	ຜູ້ຄົນ
+	Periodical	Périodique	ວາລະສານ
+	Personal	Personnel	ສ່ວນຕົວ
+	Personal Templates	Modèles personnels	ແມ່ແບບສ່ວນຕົວ
+	Personalize	Personnaliser	ປັບແຕ່ງສ່ວນຕົວ
+	Phonetic Guide	Guide phonétique	ຄູ່ມືການອອກສຽງ
+	pi	pi	pi
+	Pi Over 2	Pi sur 2	Pi ສ່ວນ 2
+	Pick a custom group (New Group makes one)	Choisir un groupe personnalisé (« Nouveau groupe » en crée un)	ເລືອກກຸ່ມກຳນົດເອງ (“ກຸ່ມໃໝ່” ຈະສ້າງກຸ່ມໃໝ່ຂຶ້ນມາ)
+	Pick a field from the list	Choisissez un champ dans la liste	ເລືອກຊ່ອງຂໍ້ມູນຈາກລາຍການ
+	Picture	Image	ຮູບພາບ
+	Picture Border	Bordure de l’image	ຂອບຮູບພາບ
+	Picture Content Control	Contrôle de contenu Image	ຕົວຄວບຄຸມເນື້ອຫາຮູບພາບ
+	Picture Format	Format de l’image	ຮູບແບບຮູບພາບ
+	Picture Styles	Styles d’image	ສະໄຕລ໌ຮູບພາບ
+	Pictures	Images	ຮູບພາບ
+	Pie	Secteurs	ວົງມົນ
+	Place in This Document	Emplacement dans ce document	ຕຳແໜ່ງໃນເອກະສານນີ້
+	Placeholder text	Texte de l’espace réservé	ຂໍ້ຄວາມຕົວຢ່າງ
+	Plain Table 1	Tableau simple 1	ຕາຕະລາງທຳມະດາ 1
+	Plain text (*.txt)	Texte brut (*.txt)	ຂໍ້ຄວາມທຳມະດາ (*.txt)
+	Plain Text Content Control	Contrôle de contenu Texte brut	ຕົວຄວບຄຸມເນື້ອຫາຂໍ້ຄວາມທຳມະດາ
+	Play/Pause	Lecture/Pause	ຫຼິ້ນ/ຢຸດຊົ່ວຄາວ
+	Plus Equal	Plus égal	ບວກເທົ່າກັບ
+	Points and above	points et plus	ພອຍຂຶ້ນໄປ
+	Polish	Polonais	ໂປແລນ
+	Portuguese (Brazil)	Portugais (Brésil)	ປອກຕຸຍການ (ບຣາຊິລ)
+	Portuguese (Portugal)	Portugais (Portugal)	ປອກຕຸຍການ (ປອກຕຸຍການ)
+	Possible spelling mistake	Faute d’orthographe possible	ອາດຈະສະກົດຜິດ
+	Postal Code	Code postal	ລະຫັດໄປສະນີ
+	Power series of (1+x)ⁿ	Série entière de (1+x)ⁿ	ອະນຸກົມກຳລັງຂອງ (1+x)ⁿ
+	Preferred width:	Largeur préférée :	ຄວາມກວ້າງທີ່ຕ້ອງການ:
+	Preserve formatting during updates	Conserver la mise en forme lors des mises à jour	ຮັກສາການຈັດຮູບແບບໄວ້ລະຫວ່າງການອັບເດດ
+	Preset gradients	Dégradés prédéfinis	ການໄລ່ລະດັບສີທີ່ຕັ້ງໄວ້ລ່ວງໜ້າ
+	Press a key combination	Appuyez sur une combinaison de touches	ກົດປຸ່ມປະສົມ
+	Preview Results	Aperçu des résultats	ສະແດງຕົວຢ່າງຜົນລັບ
+	Preview\nResults	Aperçu des\nrésultats	ຕົວຢ່າງ\nຜົນລັບ
+	Previous 1 or More	1 occurrence ou plus du précédent	ລາຍການກ່ອນໜ້າ 1 ລາຍການ ຫຼື ຫຼາຍກວ່າ
+	Previous Comment	Commentaire précédent	ຄຳເຫັນກ່ອນໜ້າ
+	Previous Field	Champ précédent	ຊ່ອງຂໍ້ມູນກ່ອນໜ້າ
+	Previous Record	Enregistrement précédent	ລະບຽນຂໍ້ມູນກ່ອນໜ້າ
+	Previous Section	Section précédente	ພາກສ່ວນກ່ອນໜ້າ
+	Previous Sentence	Phrase précédente	ປະໂຫຍກກ່ອນໜ້າ
+	Previous sentence	Phrase précédente	ປະໂຫຍກກ່ອນໜ້າ
+	Print Documents	Imprimer les documents	ພິມເອກະສານ
+	Print Documents…	Imprimer les documents…	ພິມເອກະສານ…
+	Print failed: the printing worker stopped.	L'impression a échoué : le processus d'impression s'est arrêté.	ການພິມລົ້ມເຫຼວ: ຕົວປະມວນຜົນການພິມຢຸດເຮັດວຽກ.
+	Print failed: {error}	Échec de l’impression : {error}	ການພິມລົ້ມເຫຼວ: {error}
+	Print job submitted.	Travail d'impression envoyé.	ສົ່ງງານພິມແລ້ວ.
+	Print job submitted: spooled {count} sheet(s)	Travail d’impression envoyé : {count} feuille(s) mise(s) en file d’attente	ສົ່ງງານພິມແລ້ວ: ຈັດຄິວ {count} ໃບ
+	Print job submitted: {receipt}	Travail d'impression envoyé : {receipt}	ສົ່ງງານພິມແລ້ວ: {receipt}
+	Print Layout	Mode Page	ໂຄງຮ່າງການພິມ
+	Print Markup	Imprimer les marques de révision	ພິມເຄື່ອງໝາຍກວດແກ້
+	Print settings	Paramètres d'impression	ການຕັ້ງຄ່າການພິມ
+	Print the page color	Imprimer la couleur de la page	ພິມສີໜ້າເຈ້ຍ
+	Print to PDF	Imprimer en PDF	ພິມເປັນ PDF
+	Print\nLayout	Mise\nen page	ໂຄງຮ່າງ\nການພິມ
+	Printer default	Valeur par défaut de l'imprimante	ຄ່າເລີ່ມຕົ້ນຂອງເຄື່ອງພິມ
+	Printer discovery failed.	La recherche d'imprimantes a échoué.	ການຄົ້ນຫາເຄື່ອງພິມລົ້ມເຫຼວ.
+	Privacy for this document	Confidentialité de ce document	ຄວາມເປັນສ່ວນຕົວສຳລັບເອກະສານນີ້
+	Privacy Options	Options de confidentialité	ຕົວເລືອກຄວາມເປັນສ່ວນຕົວ
+	Privacy Settings	Paramètres de confidentialité actuels	ການຕັ້ງຄ່າຄວາມເປັນສ່ວນຕົວ
+	Process	Processus	ຂະບວນການ
+	Product	Produit	ຜົນຄູນ
+	Product of A	Produit de A	ຜົນຄູນຂອງ A
+	Product with Limits	Produit avec bornes	ຜົນຄູນພ້ອມຂອບເຂດ
+	Product with Lower Limit	Produit avec borne inférieure	ຜົນຄູນພ້ອມຂອບເຂດລຸ່ມ
+	Product with Subscript-Superscript Limits	Produit avec bornes en indice et exposant	ຜົນຄູນພ້ອມຂອບເຂດຕົວຫ້ອຍ-ຕົວຍົກ
+	Products and Coproducts	Produits et coproduits	ຜົນຄູນ ແລະ ຜົນຄູນຮ່ວມ
+	Professional	Professionnel	ມືອາຊີບ
+	Promote	Élever d’un niveau	ເລື່ອນຂຶ້ນໜຶ່ງລະດັບ
+	Promote to Heading 1	Élever au niveau Titre 1	ເລື່ອນຂຶ້ນເປັນຫົວຂໍ້ 1
+	Proofing	Vérification	ການກວດແກ້
+	Proofing Issues	Problèmes de vérification	ບັນຫາການກວດແກ້
+	Proofing language	Langue de vérification	ພາສາກວດແກ້
+	Protect	Protection	ປ້ອງກັນ
+	Protect Document	Protéger le document	ປ້ອງກັນເອກະສານ
+	pt	pt	pt
+	Publisher	Éditeur	ສຳນັກພິມ
+	Put the caret in a content control first.	Placez d’abord le curseur dans un contrôle de contenu.	ວາງເຄີເຊີໄວ້ໃນຕົວຄວບຄຸມເນື້ອຫາກ່ອນ.
+	Put the default commands back on the Quick Access Toolbar?	Rétablir les commandes par défaut sur la barre d’outils Accès rapide ?	ຄືນຄ່າຄຳສັ່ງເລີ່ມຕົ້ນໃສ່ແຖບເຄື່ອງມືດ່ວນບໍ່?
+	Quadratic Root	Racine du trinôme	ຮາກສົມຜົນຂັ້ນສອງ
+	Quick Access Toolbar	Barre d’outils Accès rapide	ແຖບເຄື່ອງມືດ່ວນ
+	Quick Parts	Briques de contenu	ສ່ວນປະກອບດ່ວນ
+	Quick Tables	Tableaux rapides	ຕາຕະລາງດ່ວນ
+	Quote	Citation	ຄຳເວົ້າອ້າງອີງ
+	Radical	Radical	ເຄື່ອງໝາຍຮາກ
+	Radical with Degree	Radical avec indice	ເຄື່ອງໝາຍຮາກພ້ອມອັນດັບ
+	Radicals	Radicaux	ເຄື່ອງໝາຍຮາກ
+	Raised/lowered	Élevé/abaissé	ຍົກຂຶ້ນ/ຫຼຸດລົງ
+	Read Aloud	Lire à voix haute	ອ່ານອອກສຽງ
+	Read Aloud Status	État de la lecture à voix haute	ສະຖານະການອ່ານອອກສຽງ
+	Read Mode	Mode Lecture	ໂໝດອ່ານ
+	Read\nAloud	Lire\nà voix haute	ອ່ານ\nອອກສຽງ
+	Read\nMode	Mode\nLecture	ໂໝດ\nອ່ານ
+	Reading	Lecture	ການອ່ານ
+	Reading Column Width	Largeur de colonne de lecture	ຄວາມກວ້າງຖັນການອ່ານ
+	Reading Highlight	Surbrillance de lecture	ໄຮໄລທ໌ການອ່ານ
+	Reading Line Spacing	Interligne de lecture	ໄລຍະຫ່າງແຖວການອ່ານ
+	Reading Mode	Mode Lecture	ໂໝດອ່ານ
+	Reading Speed	Vitesse de lecture	ຄວາມໄວການອ່ານ
+	Reading Text Size	Taille du texte de lecture	ຂະໜາດຂໍ້ຄວາມການອ່ານ
+	Reads the clipboard's rich text and keeps its formatting.	Lit le texte enrichi du presse-papiers et conserve sa mise en forme.	ອ່ານຂໍ້ຄວາມຈັດຮູບແບບຈາກຄລິບບອດ ແລະ ຮັກສາການຈັດຮູບແບບໄວ້.
+	Reads the clipboard's web content and keeps its formatting.	Lit le contenu web du presse-papiers et conserve sa mise en forme.	ອ່ານເນື້ອຫາເວັບຈາກຄລິບບອດ ແລະ ຮັກສາການຈັດຮູບແບບໄວ້.
+	Recent documents to show:	Nombre de documents récents à afficher :	ຈຳນວນເອກະສານຫຼ້າສຸດທີ່ຈະສະແດງ:
+	Recently Used Fonts	Polices récemment utilisées	ແບບອັກສອນທີ່ໃຊ້ຫຼ້າສຸດ
+	Recently used symbols:	Symboles récemment utilisés :	ສັນຍາລັກທີ່ໃຊ້ຫຼ້າສຸດ:
+	Recipient List	Liste des destinataires	ລາຍຊື່ຜູ້ຮັບ
+	Recipient lists	Listes de destinataires	ລາຍຊື່ຜູ້ຮັບ
+	Recipients: {count}	Destinataires : {count}	ຜູ້ຮັບ: {count}
+	Recolor a one-color picture, such as an icon	Recolorier une image monochrome, par exemple une icône	ປ່ຽນສີຮູບພາບສີດຽວ, ເຊັ່ນ: ໄອຄອນ
+	Recolor Selected Ink	Recolorer l’encre sélectionnée	ປ່ຽນສີນ້ຳມຶກທີ່ເລືອກ
+	Record Macro	Enregistrer une macro	ບັນທຶກມາໂຄຣ
+	Recover Unsaved Documents	Récupérer les documents non enregistrés	ກູ້ຄືນເອກະສານທີ່ຍັງບໍ່ໄດ້ບັນທຶກ
+	Red:	Rouge :	ແດງ:
+	Reduce Hanging Indent	Réduire le retrait suspendu	ຫຼຸດໄລຍະຍັບແຂວນ
+	Reference type:	Type de référence :	ປະເພດການອ້າງອີງ:
+	References	Références	ການອ້າງອີງ
+	Reflection	Reflet	ເງົາສະທ້ອນ
+	Refresh printers	Actualiser les imprimantes	ໂຫຼດເຄື່ອງພິມຄືນໃໝ່
+	Region:	Région :	ພາກພື້ນ:
+	Registered	Marque déposée	ເຄື່ອງໝາຍການຄ້າຈົດທະບຽນ
+	Registered Sign	Signe de marque déposée	ສັນຍາລັກຈົດທະບຽນ
+	Regular expressions	Expressions régulières	ນິພົດປົກກະຕິ
+	Reject	Refuser	ປະຕິເສດ
+	Reject All Changes	Refuser toutes les modifications	ປະຕິເສດການປ່ຽນແປງທັງໝົດ
+	Reject Change	Refuser la modification	ປະຕິເສດການປ່ຽນແປງ
+	Relationship	Relation	ຄວາມສຳພັນ
+	Relative to original picture size	Proportionnellement à la taille d'origine de l'image	ທຽບກັບຂະໜາດເດີມຂອງຮູບພາບ
+	Remove	Supprimer	ລຶບອອກ
+	Remove Added Font	Supprimer la police ajoutée	ລຶບແບບອັກສອນທີ່ເພີ່ມອອກ
+	Remove Background	Supprimer l’arrière-plan	ລຶບພື້ນຫຼັງອອກ
+	Remove condition	Supprimer la condition	ລຶບເງື່ອນໄຂອອກ
+	Remove Content Control	Supprimer le contrôle de contenu	ລຶບຕົວຄວບຄຸມເນື້ອຫາອອກ
+	Remove every custom shortcut and restore the built-in keys?	Supprimer tous les raccourcis personnalisés et rétablir les touches d’origine ?	ລຶບປຸ່ມລັດທີ່ກຳນົດເອງທັງໝົດ ແລະ ຄືນຄ່າປຸ່ມເດີມບໍ່?
+	Remove every custom tab and group and show all tabs again?	Supprimer tous les onglets et groupes personnalisés et réafficher tous les onglets ?	ລຶບແຖບ ແລະ ກຸ່ມທີ່ກຳນົດເອງທັງໝົດ ແລະ ສະແດງແຖບທັງໝົດຄືນບໍ່?
+	Remove field	Supprimer le champ	ລຶບຊ່ອງຂໍ້ມູນອອກ
+	Remove Footer	Supprimer le pied de page	ລຶບທ້າຍເຈ້ຍອອກ
+	Remove from Quick Access Toolbar	Supprimer de la barre d’outils Accès rapide	ລຶບອອກຈາກແຖບເຄື່ອງມືດ່ວນ
+	Remove gradient stop	Supprimer le point de dégradé	ລຶບຈຸດໄລ່ລະດັບສີອອກ
+	Remove Header	Supprimer l’en-tête	ລຶບຫົວເຈ້ຍອອກ
+	Remove Hyperlink	Supprimer le lien hypertexte	ລຶບລິ້ງເຊື່ອມໂຍງອອກ
+	Remove my name from comments, changes and file properties when saving	Supprimer mon nom des commentaires, des modifications et des propriétés du fichier à l’enregistrement	ລຶບຊື່ຂອງຂ້ອຍອອກຈາກຄຳເຫັນ, ການປ່ຽນແປງ ແລະ ຄຸນສົມບັດໄຟລ໌ເມື່ອບັນທຶກ
+	Remove Password	Supprimer le mot de passe	ລຶບລະຫັດຜ່ານອອກ
+	Remove Pen	Supprimer le stylo	ລຶບປາກກາອອກ
+	Remove recipient	Supprimer le destinataire	ລຶບຜູ້ຮັບອອກ
+	Remove row	Supprimer la ligne	ລຶບແຖວອອກ
+	Remove series	Supprimer la série	ລຶບຊຸດຂໍ້ມູນອອກ
+	Remove Space After Paragraph	Supprimer l’espace après le paragraphe	ລຶບໄລຍະຫ່າງຫຼັງຫຍໍ້ໜ້າ
+	Remove Table of Contents	Supprimer la table des matières	ລຶບສາລະບານອອກ
+	Remove the control once edited	Supprimer le contrôle une fois le contenu modifié	ລຶບຕົວຄວບຄຸມອອກຫຼັງຈາກແກ້ໄຂແລ້ວ
+	Remove the space before the punctuation	Supprimer l’espace avant la ponctuation	ລຶບຍະຫວ່າງກ່ອນເຄື່ອງໝາຍວັກຕອນ
+	Remove Watermark	Supprimer le filigrane	ລຶບລາຍນ້ຳອອກ
+	No watermark	Aucun filigrane	ບໍ່ມີລາຍນ້ຳ
+	Picture watermark	Filigrane image	ລາຍນ້ຳຮູບພາບ
+	Text watermark	Filigrane texte	ລາຍນ້ຳຂໍ້ຄວາມ
+	Select Picture…	Sélectionner une image…	ເລືອກຮູບພາບ…
+	Washout	Délavé	ສີຈາງ
+	Semitransparent	Semi-transparent	ເຄິ່ງໂປ່ງໃສ
+	Transparency:	Transparence :	ຄວາມໂປ່ງໃສ:
+	Select a picture first.	Sélectionnez d'abord une image.	ເລືອກຮູບພາບກ່ອນ.
+	Rename Document	Renommer le document	ປ່ຽນຊື່ເອກະສານ
+	Reopen	Rouvrir	ເປີດຄືນໃໝ່
+	Repeat as header row on each page	Répéter en tant que ligne d’en-tête sur chaque page	ຊ້ຳເປັນແຖວຫົວຂໍ້ໃນທຸກໜ້າ
+	Repeat Header Rows	Répéter les lignes d’en-tête	ຊ້ຳແຖວຫົວຂໍ້
+	Repeating Section Content Control	Contrôle de contenu Section répétable	ຕົວຄວບຄຸມເນື້ອຫາພາກສ່ວນທີ່ຊ້ຳໄດ້
+	Replace All	Remplacer tout	ແທນທີ່ທັງໝົດ
+	Replace as you type	Remplacer pendant la frappe	ແທນທີ່ຂະນະພິມ
+	Replace Document Text	Remplacer le texte du document	ແທນທີ່ຂໍ້ຄວາມໃນເອກະສານ
+	Replace text as you type	Remplacer le texte pendant la frappe	ແທນທີ່ຂໍ້ຄວາມຂະນະພິມ
+	Replace with:	Remplacer par :	ແທນທີ່ດ້ວຍ:
+	Replay	Rejouer	ຫຼິ້ນຄືນ
+	Research	Recherche	ຄົ້ນຄວ້າ
+	Researcher	Chercheur	ຕົວຊ່ວຍຄົ້ນຄວ້າ
+	Researcher needs an online service; WordCraft keeps your documents offline.	Chercheur nécessite un service en ligne ; WordCraft garde vos documents hors ligne.	ຕົວຊ່ວຍຄົ້ນຄວ້າຕ້ອງການບໍລິການອອນລາຍ; WordCraft ຈະຮັກສາເອກະສານຂອງທ່ານໄວ້ແບບອອບລາຍ.
+	Reset All…	Tout réinitialiser…	ຕັ້ງຄ່າໃໝ່ທັງໝົດ…
+	Reset Character Formatting	Réinitialiser la mise en forme des caractères	ຕັ້ງຄ່າການຈັດຮູບແບບຕົວອັກສອນໃໝ່
+	Reset Crop	Réinitialiser le rognage	ຕັ້ງຄ່າການຕັດຂອບໃໝ່
+	Reset Default Formatting	Réinitialiser la mise en forme par défaut	ຕັ້ງຄ່າການຈັດຮູບແບບເລີ່ມຕົ້ນໃໝ່
+	Reset Graphic	Rétablir le graphique	ຄືນຄ່າກຣາຟິກ
+	Reset Paragraph Formatting	Réinitialiser la mise en forme des paragraphes	ຕັ້ງຄ່າການຈັດຮູບແບບຫຍໍ້ໜ້າໃໝ່
+	Reset Picture	Réinitialiser l’image	ຕັ້ງຄ່າຮູບພາບໃໝ່
+	Reset tips	Réinitialiser les conseils	ຕັ້ງຄ່າຄຳແນະນຳໃໝ່
+	Reset to Normal	Réinitialiser à la normale	ຕັ້ງຄ່າເປັນປົກກະຕິ
+	Reset\nGraphic	Rétablir le\ngraphique	ຄືນຄ່າ\nກຣາຟິກ
+	Resize Table by Dragging	Redimensionner le tableau en le faisant glisser	ປັບຂະໜາດຕາຕະລາງໂດຍການລາກ
+	Resolve	Résoudre	ແກ້ໄຂສຳເລັດ
+	Resolved	Résolu	ແກ້ໄຂແລ້ວ
+	Restart at 1	Recommencer à 1	ເລີ່ມຕົ້ນໃໝ່ທີ່ 1
+	Restart Each Page	Recommencer à chaque page	ເລີ່ມຕົ້ນໃໝ່ທຸກໜ້າ
+	Restart Each Section	Recommencer à chaque section	ເລີ່ມຕົ້ນໃໝ່ທຸກພາກສ່ວນ
+	Restart list after:	Redémarrer la liste après :	ເລີ່ມຕົ້ນລາຍການໃໝ່ຫຼັງຈາກ:
+	Restrict Editing	Restreindre la modification	ຈຳກັດການແກ້ໄຂ
+	Restrict\nEditing	Restreindre\nla modification	ຈຳກັດ\nການແກ້ໄຂ
+	Results	Résultats	ຜົນລັບ
+	Return address labels	Étiquettes d’adresse de retour	ປ້າຍທີ່ຢູ່ຜູ້ສົ່ງ
+	Return address:	Adresse de retour :	ທີ່ຢູ່ຜູ້ສົ່ງ:
+	Reverse the order	Inverser l’ordre	ປີ້ນລຳດັບ
+	Reviewing	Révision	ການກວດທານ
+	Reviewing Pane	Volet Révision	ແຜງກວດທານ
+	Reviewing — edits become suggestions	Révision — les modifications deviennent des suggestions	ການກວດທານ — ການແກ້ໄຂຈະກາຍເປັນຄຳແນະນຳ
+	Revised document	Document révisé	ເອກະສານທີ່ກວດແກ້ແລ້ວ
+	Rewind	Rembobiner	ຖອຍກັບ
+	Rewinding. Tell me when to stop.	Je rembobine. Dites-moi quand m’arrêter.	ກຳລັງຖອຍກັບ. ບອກຂ້ອຍເມື່ອຕ້ອງການໃຫ້ຢຸດ.
+	Ribbon	Ruban	ແຖບຣິບບອນ
+	Ribbon and Quick Access Toolbar:	Ruban et barre d’outils Accès rapide :	ແຖບຣິບບອນ ແລະ ແຖບເຄື່ອງມືດ່ວນ:
+	Ribbon tabs	Onglets du ruban	ແຖບໃນຣິບບອນ
+	Rich Text Content Control	Contrôle de contenu Texte enrichi	ຕົວຄວບຄຸມເນື້ອຫາຂໍ້ຄວາມຈັດຮູບແບບ
+	Rich Text Format (*.rtf)	Format RTF (*.rtf)	ຮູບແບບ Rich Text (*.rtf)
+	Rich Text Format (RTF)	Format RTF (Rich Text Format)	ຮູບແບບ Rich Text (RTF)
+	Right (vertical)	Droite (vertical)	ຂວາ (ແນວຕັ້ງ)
+	Right Arrow with Text Above	Flèche droite avec texte au-dessus	ລູກສອນຂວາພ້ອມຂໍ້ຄວາມດ້ານເທິງ
+	Right Arrow with Text Below	Flèche droite avec texte en dessous	ລູກສອນຂວາພ້ອມຂໍ້ຄວາມດ້ານລຸ່ມ
+	Right Border	Bordure droite	ຂອບຂວາ
+	Right border	Bordure droite	ຂອບຂວາ
+	Right Bracket Twice	Double crochet droit	ວົງເລັບຫຼ່ຽມຂວາຄູ່
+	Right indent	Retrait droit	ໄລຍະຍັບຂວາ
+	Right Margin	Marge droite	ຂອບເຈ້ຍເບື້ອງຂວາ
+	Right Only	À droite uniquement	ສະເພາະເບື້ອງຂວາ
+	Right-to-left	De droite à gauche	ຈາກຂວາຫາຊ້າຍ
+	Right-to-Left Section	Section de droite à gauche	ພາກສ່ວນຈາກຂວາຫາຊ້າຍ
+	Right-to-Left Table	Tableau de droite à gauche	ຕາຕະລາງຈາກຂວາຫາຊ້າຍ
+	Right-to-Left Text Direction	Sens du texte de droite à gauche	ທິດທາງຂໍ້ຄວາມຈາກຂວາຫາຊ້າຍ
+	Rightwards Arrow Above	Flèche vers la droite au-dessus	ລູກສອນຊີ້ຂວາດ້ານເທິງ
+	Rightwards Harpoon Above	Harpon vers la droite au-dessus	ລູກສອນປາຍດຽວຊີ້ຂວາດ້ານເທິງ
+	Romanian	Roumain	ໂຣມາເນຍ
+	Roots of ax²+bx+c	Racines de ax²+bx+c	ຮາກຂອງ ax²+bx+c
+	Rotate	Faire pivoter	ໝຸນ
+	Rotate all text 270°	Faire pivoter tout le texte de 270°	ໝຸນຂໍ້ຄວາມທັງໝົດ 270°
+	Rotate all text 90°	Faire pivoter tout le texte de 90°	ໝຸນຂໍ້ຄວາມທັງໝົດ 90°
+	Rotate Left 90°	Faire pivoter à gauche de 90°	ໝຸນຊ້າຍ 90°
+	Rotate Right 90°	Faire pivoter à droite de 90°	ໝຸນຂວາ 90°
+	Rotate with shape	Pivoter avec la forme	ໝຸນໄປພ້ອມກັບຮູບຮ່າງ
+	Row	Ligne	ແຖວ
+	Row:	Ligne :	ແຖວ:
+	Rows & Columns	Lignes et colonnes	ແຖວ ແລະ ຖັນ
+	Ruby text:	Texte ruby :	ຂໍ້ຄວາມ Ruby:
+	Rules	Règles	ກົດເກນ
+	Run-in	À la suite	ຕໍ່ເນື່ອງໃນແຖວ
+	Résumé	CV	ຊີວະປະຫວັດຫຍໍ້
+	SAMPLE	SPÉCIMEN	ຕົວຢ່າງ
+	Sat:	Sat. :	Sat.:
+	Save a copy in another format. Printing goes through a PDF you can print from any viewer.	Enregistrez une copie dans un autre format. L’impression passe par un PDF que vous pouvez imprimer depuis n’importe quelle visionneuse.	ບັນທຶກສຳເນົາໃນຮູບແບບອື່ນ. ການພິມຈະຜ່ານໄຟລ໌ PDF ເຊິ່ງທ່ານສາມາດພິມຈາກໂປຣແກຣມອ່ານ PDF ໃດກໍໄດ້.
+	Save as Word Template…	Enregistrer comme modèle Word…	ບັນທຶກເປັນແມ່ແບບ Word…
+	Save documents	Enregistrer les documents	ບັນທຶກເອກະສານ
+	Save the document to turn on AutoSave	Enregistrez le document pour activer l’enregistrement automatique	ບັນທຶກເອກະສານເພື່ອເປີດໃຊ້ການບັນທຶກອັດຕະໂນມັດ
+	Save the document to turn on AutoSave (a file you have only opened isn't rewritten until you save it)	Enregistrez le document pour activer l’enregistrement automatique (un fichier que vous avez simplement ouvert n’est pas réécrit tant que vous ne l’enregistrez pas)	ບັນທຶກເອກະສານເພື່ອເປີດໃຊ້ການບັນທຶກອັດຕະໂນມັດ (ໄຟລ໌ທີ່ທ່ານຫາກໍເປີດຈະບໍ່ຖືກຂຽນທັບຈົນກວ່າທ່ານຈະບັນທຶກ)
+	Save these pages as PDF…	Enregistrer ces pages au format PDF…	ບັນທຶກໜ້າເຫຼົ່ານີ້ເປັນ PDF…
+	Saved. Saved again. Still saved. It's very saved.	Enregistré. Encore enregistré. Toujours enregistré. C’est très, très enregistré.	ບັນທຶກແລ້ວ. ບັນທຶກອີກແລ້ວ. ກໍຍັງບັນທຶກຢູ່. ບັນທຶກຮຽບຮ້ອຍດີແລ້ວ.
+	Saves a .dotx template in your templates folder. It shows up in File › New under Personal.	Enregistre un modèle .dotx dans votre dossier de modèles. Il apparaît dans Fichier › Nouveau, sous Personnel.	ບັນທຶກແມ່ແບບ .dotx ໄວ້ໃນໂຟນເດີແມ່ແບບຂອງທ່ານ. ມັນຈະປະກົດໃນ ໄຟລ໌ › ໃໝ່ ພາຍໃຕ້ ສ່ວນຕົວ.
+	Saving {name} was cancelled, so it is still open and nothing was lost.	L'enregistrement de {name} a été annulé : le document reste ouvert et rien n'a été perdu.	ການບັນທຶກ {name} ຖືກຍົກເລີກແລ້ວ, ສະນັ້ນມັນຈຶ່ງຍັງເປີດຢູ່ ແລະ ບໍ່ມີຫຍັງສູນເສຍ.
+	Sayings	Petites phrases	ຄຳເວົ້າ
+	Sayings:	Répliques :	ຄຳເວົ້າ:
+	Scale Drawing	Mettre le dessin à l’échelle	ປັບຂະໜາດຮູບແຕ້ມ
+	Scatter	Nuage de points	ກຣາຟຈຸດກະຈາຍ
+	Script	Script	ຕົວຂຽນ
+	Scripts	Indices et exposants	ຕົວຫ້ອຍ ແລະ ຕົວຍົກ
+	Scroll ribbon left	Faire défiler le ruban vers la gauche	ເລື່ອນແຖບຣິບບອນໄປທາງຊ້າຍ
+	Scroll ribbon right	Faire défiler le ruban vers la droite	ເລື່ອນແຖບຣິບບອນໄປທາງຂວາ
+	Search Commands	Rechercher des commandes	ຄົ້ນຫາຄຳສັ່ງ
+	Search commands and help	Rechercher des commandes et de l’aide	ຄົ້ນຫາຄຳສັ່ງ ແລະ ການຊ່ວຍເຫຼືອ
+	Search document	Rechercher dans le document	ຄົ້ນຫາໃນເອກະສານ
+	Search for templates	Rechercher des modèles	ຄົ້ນຫາແມ່ແບບ
+	Search icons	Rechercher des icônes	ຄົ້ນຫາໄອຄອນ
+	Search Options	Options de recherche	ຕົວເລືອກການຄົ້ນຫາ
+	Secant Function	Sécante	ຟັງຊັນເຊກັງ
+	Section 1.01	Section 1.01	ພາກສ່ວນ 1.01
+	Section Break	Saut de section	ຕັດພາກສ່ວນ
+	Section Breaks	Sauts de section	ການຕັດພາກສ່ວນ
+	Section Character	Caractère de section (§)	ສັນຍາລັກພາກສ່ວນ (§)
+	Section direction:	Direction de la section :	ທິດທາງຂອງພາກສ່ວນ:
+	Section Mark	Marque de section	ເຄື່ອງໝາຍພາກສ່ວນ
+	Section Properties	Propriétés de la section	ຄຸນສົມບັດພາກສ່ວນ
+	Sections	Sections	ພາກສ່ວນ
+	See	Voir	ເບິ່ງ
+	select a chart first	sélectionnez d’abord un graphique	ເລືອກແຜນພູມກ່ອນ
+	select a connector first	sélectionnez d’abord un connecteur	ເລືອກເສັ້ນເຊື່ອມຕໍ່ກ່ອນ
+	select a drawing canvas first	sélectionnez d’abord une zone de dessin	ເລືອກພື້ນທີ່ແຕ້ມຮູບກ່ອນ
+	select a floating picture or shape first	sélectionnez d’abord une image ou une forme flottante	ເລືອກຮູບພາບ ຫຼື ຮູບຮ່າງແບບລອຍກ່ອນ
+	select a group first	sélectionnez d’abord un groupe	ເລືອກກຸ່ມກ່ອນ
+	select a picture first	sélectionnez d’abord une image	ເລືອກຮູບພາບກ່ອນ
+	select a picture or shape first	sélectionnez d’abord une image ou une forme	ເລືອກຮູບພາບ ຫຼື ຮູບຮ່າງກ່ອນ
+	Select a picture, shape, chart or table to describe it.	Sélectionnez une image, une forme, un graphique ou un tableau pour le décrire.	ເລືອກຮູບພາບ, ຮູບຮ່າງ, ແຜນພູມ ຫຼື ຕາຕະລາງເພື່ອອະທິບາຍມັນ.
+	Select a printer	Sélectionnez une imprimante	ເລືອກເຄື່ອງພິມ
+	select a shape first	sélectionnez d’abord une forme	ເລືອກຮູບຮ່າງກ່ອນ
+	Select a shape, text box or drawing canvas to format its fill.	Sélectionnez une forme, une zone de texte ou une zone de dessin pour mettre en forme son remplissage.	ເລືອກຮູບຮ່າງ, ກ່ອງຂໍ້ຄວາມ ຫຼື ພື້ນທີ່ແຕ້ມຮູບເພື່ອຈັດຮູບແບບການຕື່ມສີ.
+	select a SmartArt graphic first	sélectionnez d’abord un graphique SmartArt	ເລືອກກຣາຟິກ SmartArt ກ່ອນ
+	select a text box first	sélectionnez d’abord une zone de texte	ເລືອກກ່ອງຂໍ້ຄວາມກ່ອນ
+	select a text box linked to another first	sélectionnez d’abord une zone de texte liée à une autre	ເລືອກກ່ອງຂໍ້ຄວາມທີ່ເຊື່ອມໂຍງກັບກ່ອງອື່ນກ່ອນ
+	Select All	Sélectionner tout	ເລືອກທັງໝົດ
+	Select Cell	Sélectionner la cellule	ເລືອກຫ້ອງ
+	Select Column	Sélectionner la colonne	ເລືອກຖັນ
+	Select Heading and Content	Sélectionner le titre et son contenu	ເລືອກຫົວຂໍ້ ແລະ ເນື້ອຫາ
+	Select Line	Sélectionner la ligne	ເລືອກແຖວ
+	Select Paragraph	Sélectionner le paragraphe	ເລືອກຫຍໍ້ໜ້າ
+	Select Range	Sélectionner la plage	ເລືອກຊ່ວງຂໍ້ມູນ
+	Select Recipients	Sélectionner les destinataires	ເລືອກຜູ້ຮັບ
+	select recipients first	sélectionnez d’abord les destinataires	ເລືອກຜູ້ຮັບກ່ອນ
+	Select recipients first to choose from their fields.	Sélectionnez d’abord les destinataires pour choisir parmi leurs champs.	ເລືອກຜູ້ຮັບກ່ອນເພື່ອເລືອກຈາກຊ່ອງຂໍ້ມູນຂອງພວກເຂົາ.
+	Select recipients first to match their fields.	Sélectionnez d’abord les destinataires pour faire correspondre leurs champs.	ເລືອກຜູ້ຮັບກ່ອນເພື່ອຈັບຄູ່ຊ່ອງຂໍ້ມູນຂອງພວກເຂົາ.
+	Select Row	Sélectionner la ligne de tableau	ເລືອກແຖວ
+	Select Sentence	Sélectionner la phrase	ເລືອກປະໂຫຍກ
+	Select Table	Sélectionner le tableau	ເລືອກຕາຕະລາງ
+	Select Table Cells by Clicking	Sélectionner des cellules du tableau en cliquant	ເລືອກຫ້ອງຕາຕະລາງໂດຍການຄລິກ
+	Select Text	Sélectionner le texte	ເລືອກຂໍ້ຄວາມ
+	Select Text with Similar Formatting	Sélectionner le texte avec une mise en forme similaire	ເລືອກຂໍ້ຄວາມທີ່ມີຮູບແບບຄ້າຍຄືກັນ
+	Select text, then tick who can still edit it.	Sélectionnez le texte, puis cochez qui peut encore le modifier.	ເລືອກຂໍ້ຄວາມ, ແລ້ວໝາຍຕິກວ່າໃຜສາມາດແກ້ໄຂໄດ້.
+	select two or more cells to merge	sélectionnez au moins deux cellules à fusionner	ເລືອກສອງຫ້ອງຂຶ້ນໄປເພື່ອຮວມເຂົ້າກັນ
+	select two or more pictures or shapes first (Shift+click)	sélectionnez d’abord au moins deux images ou formes (Maj+clic)	ເລືອກສອງຮູບພາບ ຫຼື ຮູບຮ່າງຂຶ້ນໄປກ່ອນ (Shift+ຄລິກ)
+	Select Word	Sélectionner le mot	ເລືອກຄຳສັບ
+	Select\nRecipients	Sélectionner\nles destinataires	ເລືອກ\nຜູ້ຮັບ
+	Selected Fields	Champs sélectionnés	ຊ່ອງຂໍ້ມູນທີ່ເລືອກ
+	Selected text	Texte sélectionné	ຂໍ້ຄວາມທີ່ເລືອກ
+	Selection Pane	Volet Sélection	ແຜງການເລືອກ
+	Send Backward	Reculer d’un niveau	ສົ່ງໄປທາງຫຼັງໜຶ່ງຊັ້ນ
+	Send the document straight to the system print dialog, or save a copy in another format below.	Envoyez le document directement à la boîte de dialogue d’impression du système, ou enregistrez une copie dans un autre format ci-dessous.	ສົ່ງເອກະສານໄປຍັງໜ້າຕ່າງການພິມຂອງລະບົບໂດຍກົງ, ຫຼື ບັນທຶກສຳເນົາໃນຮູບແບບອື່ນດ້ານລຸ່ມ.
+	Sentence	Phrase	ປະໂຫຍກ
+	Sentence case.	Comme une phrase.	ຕົວພິມໃຫຍ່ຕົ້ນປະໂຫຍກ.
+	Separate text at	Séparer le texte au niveau des	ແຍກຂໍ້ຄວາມທີ່
+	Separator:	Séparateur :	ຕົວຂັ້ນ:
+	Sequence name:	Nom de la séquence :	ຊື່ລຳດັບ:
+	Serbian (Cyrillic)	Serbe (cyrillique)	ເຊີເບຍ (ຊີຣິລິກ)
+	Serbian (Latin)	Serbe (latin)	ເຊີເບຍ (ລາຕິນ)
+	Series name	Nom de la série	ຊື່ຊຸດຂໍ້ມູນ
+	Series {n}	Série {n}	ຊຸດຂໍ້ມູນ {n}
+	Set As Default	Définir par défaut	ຕັ້ງເປັນຄ່າເລີ່ມຕົ້ນ
+	Set As Default (Font)	Définir par défaut (Police)	ຕັ້ງເປັນຄ່າເລີ່ມຕົ້ນ (ແບບອັກສອນ)
+	Set As Default (Page Setup)	Définir par défaut (Mise en page)	ຕັ້ງເປັນຄ່າເລີ່ມຕົ້ນ (ຕັ້ງຄ່າໜ້າເຈ້ຍ)
+	Set As Default (Paragraph)	Définir par défaut (Paragraphe)	ຕັ້ງເປັນຄ່າເລີ່ມຕົ້ນ (ຫຍໍ້ໜ້າ)
+	Set Caret	Placer le point d’insertion	ວາງຈຸດແຊກ
+	Set Character Formatting	Définir la mise en forme des caractères	ຕັ້ງຄ່າການຈັດຮູບແບບຕົວອັກສອນ
+	Set Date	Définir la date	ຕັ້ງວັນທີ
+	Set Equation	Définir l’équation	ຕັ້ງສົມຜົນ
+	Set Numbering Value	Définir la valeur de la numérotation	ກຳນົດຄ່າເລກລຳດັບ
+	Set Paragraph Formatting	Définir la mise en forme des paragraphes	ຕັ້ງຄ່າການຈັດຮູບແບບຫຍໍ້ໜ້າ
+	Set Proofing Language…	Définir la langue de vérification…	ຕັ້ງພາສາກວດແກ້…
+	Setting:	Type :	ການຕັ້ງຄ່າ:
+	Settings…	Options…	ການຕັ້ງຄ່າ…
+	Shading	Trame de fond	ສີພື້ນ
+	Shadow, glow and soft edges	Ombre, lueur et bords adoucis	ເງົາ, ແສງເຮືອງ ແລະ ຂອບນຸ່ມ
+	Shape Fill	Remplissage de forme	ຕື່ມສີຮູບຮ່າງ
+	Shape Format	Format de la forme	ຮູບແບບຮູບຮ່າງ
+	Shape Outline	Contour de forme	ເສັ້ນຂອບຮູບຮ່າງ
+	Shape Styles	Styles de formes	ສະໄຕລ໌ຮູບຮ່າງ
+	{key} starts a new line without starting a new paragraph.	{key} commence une nouvelle ligne sans commencer de nouveau paragraphe.	{key} ຂຶ້ນແຖວໃໝ່ໂດຍບໍ່ເລີ່ມຫຍໍ້ໜ້າໃໝ່.
+	Shift+Tab	Shift+Tab	Shift+Tab
+	Shipping labels	Étiquettes d’expédition	ປ້າຍຈັດສົ່ງ
+	Shortcut key:	Touche de raccourci :	ປຸ່ມລັດ:
+	Show alignment guides when moving pictures and shapes	Afficher les repères d'alignement lors du déplacement des images et des formes	ສະແດງເສັ້ນນຳການຈັດລຽນເມື່ອຍ້າຍຮູບພາບ ແລະ ຮູບຮ່າງ
+	Show all formatting marks	Afficher toutes les marques de mise en forme	ສະແດງເຄື່ອງໝາຍຈັດຮູບແບບທັງໝົດ
+	Show All Levels	Afficher tous les niveaux	ສະແດງທຸກລະດັບ
+	Show all revisions inline	Afficher toutes les révisions dans le texte	ສະແດງການແກ້ໄຂທັງໝົດໃນແຖວຂໍ້ຄວາມ
+	Show changes at:	Afficher les modifications au niveau :	ສະແດງການປ່ຽນແປງທີ່:
+	Show changes in:	Afficher les modifications dans :	ສະແດງການປ່ຽນແປງໃນ:
+	Show Comments	Afficher les commentaires	ສະແດງຄຳເຫັນ
+	Show documents with their colours inverted, like View › Switch Modes. Saving, printing and PDFs are unchanged.	Affiche les documents avec les couleurs inversées, comme dans Affichage › Changer de mode. L’enregistrement, l’impression et les PDF restent inchangés.	ສະແດງເອກະສານແບບສີປີ້ນກັບ, ຄືກັບ ມຸມມອງ › ສະຫຼັບໂໝດ. ການບັນທຶກ, ການພິມ ແລະ PDF ຈະບໍ່ປ່ຽນແປງ.
+	Show every bibliography field	Afficher tous les champs bibliographiques	ສະແດງທຸກຊ່ອງຂໍ້ມູນບັນນານຸກົມ
+	Show First Line Only	Afficher seulement la première ligne	ສະແດງສະເພາະແຖວທຳອິດ
+	Show in the Styles gallery	Afficher dans la galerie de styles	ສະແດງໃນຄັງສະໄຕລ໌
+	Show its list number	Afficher son numéro de liste	ສະແດງເລກລຳດັບໃນລາຍການ
+	Show its number relative to this field	Afficher son numéro par rapport à ce champ	ສະແດງເລກຂອງມັນທຽບກັບຊ່ອງຂໍ້ມູນນີ້
+	Show its number with all higher levels	Afficher son numéro avec tous les niveaux supérieurs	ສະແດງເລກຂອງມັນພ້ອມທຸກລະດັບທີ່ສູງກວ່າ
+	Show KeyTips (Alt or F10)	Afficher les info-touches (Alt ou F10)	ສະແດງຄຳແນະນຳປຸ່ມລັດ (Alt ຫຼື F10)
+	Show Level	Afficher le niveau	ສະແດງລະດັບ
+	Show Level 1	Afficher le niveau 1	ສະແດງລະດັບ 1
+	Show Level 2	Afficher le niveau 2	ສະແດງລະດັບ 2
+	Show Level 3	Afficher le niveau 3	ສະແດງລະດັບ 3
+	Show Level 4	Afficher le niveau 4	ສະແດງລະດັບ 4
+	Show Level 5	Afficher le niveau 5	ສະແດງລະດັບ 5
+	Show Level 6	Afficher le niveau 6	ສະແດງລະດັບ 6
+	Show Level 7	Afficher le niveau 7	ສະແດງລະດັບ 7
+	Show Level 8	Afficher le niveau 8	ສະແດງລະດັບ 8
+	Show Level 9	Afficher le niveau 9	ສະແດງລະດັບ 9
+	Show Markup	Afficher les marques	ສະແດງເຄື່ອງໝາຍກວດແກ້
+	Show Notes	Afficher les notes	ສະແດງໝາຍເຫດ
+	Show only comments and formatting in balloons	Afficher uniquement les commentaires et la mise en forme dans les bulles	ສະແດງສະເພາະຄຳເຫັນ ແລະ ການຈັດຮູບແບບໃນກ່ອງຂໍ້ຄວາມຍ່ອຍ
+	Show only records that will be merged	Afficher uniquement les enregistrements fusionnés	ສະແດງສະເພາະລະບຽນຂໍ້ມູນທີ່ຈະຜະສານ
+	Show or Hide Style	Afficher ou masquer le style	ສະແດງ ຫຼື ເຊື່ອງສະໄຕລ໌
+	Show Quick Access Toolbar	Afficher la barre d’outils Accès rapide	ສະແດງແຖບເຄື່ອງມືດ່ວນ
+	Show revisions in balloons	Afficher les révisions dans les bulles	ສະແດງການແກ້ໄຂໃນກ່ອງຂໍ້ຄວາມຍ່ອຍ
+	Show Text Formatting	Afficher la mise en forme du texte	ສະແດງການຈັດຮູບແບບຂໍ້ຄວາມ
+	Show the Assistant	Afficher l'assistant	ສະແດງຜູ້ຊ່ວຍ
+	Show the community button in the title bar	Afficher le bouton Communauté dans la barre de titre	ສະແດງປຸ່ມຊຸມຊົນໃນແຖບຊື່ເລື່ອງ
+	Show the equation in the line of text	Afficher l’équation dans la ligne de texte	ສະແດງສົມຜົນໃນແຖວຂໍ້ຄວາມ
+	Show the equation on a line of its own	Afficher l’équation sur sa propre ligne	ສະແດງສົມຜົນໃນແຖວແຍກຕ່າງຫາກ
+	Show the mini toolbar when text is selected	Afficher la mini barre d’outils lors de la sélection de texte	ສະແດງແຖບເຄື່ອງມືຂະໜາດນ້ອຍເມື່ອເລືອກຂໍ້ຄວາມ
+	Show the ribbon	Afficher le ruban	ສະແດງແຖບຣິບບອນ
+	Show the Start screen when WordCraft starts	Afficher l'écran d'accueil au démarrage de WordCraft	ສະແດງໜ້າເລີ່ມຕົ້ນເມື່ອເປີດ WordCraft
+	Show the tips you asked not to see again.	Affiche de nouveau les conseils que vous avez masqués.	ສະແດງຄຳແນະນຳທີ່ທ່ານເຄີຍເຊື່ອງໄວ້ຄືນໃໝ່.
+	Show/Hide ¶	Afficher/Masquer ¶	ສະແດງ/ເຊື່ອງ ¶
+	Show/Hide ¶ ({key}) shows the spaces, tabs and breaks hiding in your text.	Afficher/Masquer ¶ ({key}) révèle les espaces, tabulations et sauts cachés dans votre texte.	ສະແດງ/ເຊື່ອງ ¶ ({key}) ຈະສະແດງຍະຫວ່າງ, ແຖບ ແລະ ການຕັດໜ້າທີ່ເຊື່ອງຢູ່ໃນຂໍ້ຄວາມ.
+	Show\nComments	Afficher\nles commentaires	ສະແດງ\nຄຳເຫັນ
+	Showing the first {count} items.	Affichage des {count} premiers éléments.	ກຳລັງສະແດງ {count} ລາຍການທຳອິດ.
+	Shows a tree: each item below the item it belongs to.	Affiche une arborescence : chaque élément sous celui auquel il appartient.	ສະແດງເປັນໂຄງສ້າງຕົ້ນໄມ້: ແຕ່ລະລາຍການຢູ່ລຸ່ມລາຍການຫຼັກຂອງມັນ.
+	Shows items around a central idea: the first item is the centre.	Affiche des éléments autour d’une idée centrale : le premier élément est au centre.	ສະແດງລາຍການອ້ອມຮອບແນວຄິດຫຼັກ: ລາຍການທຳອິດຢູ່ໃຈກາງ.
+	Shows items of equal weight as blocks in rows.	Affiche des éléments de même importance sous forme de blocs en lignes.	ສະແດງລາຍການທີ່ມີນ້ຳໜັກເທົ່າກັນເປັນບລັອກຕາມແຖວ.
+	Shows overlapping ideas as overlapping circles.	Affiche des idées qui se chevauchent sous forme de cercles superposés.	ສະແດງແນວຄິດທີ່ກ່ຽວຂ້ອງກັນເປັນວົງມົນຊ້ອນທັບກັນ.
+	Shows parts of a whole as quadrants.	Affiche les parties d’un tout sous forme de quadrants.	ສະແດງສ່ວນປະກອບຂອງທັງໝົດເປັນສີ່ສ່ວນ.
+	Shows parts that build on each other, largest at the bottom.	Affiche des parties qui s’appuient les unes sur les autres, la plus grande en bas.	ສະແດງສ່ວນຕ່າງໆທີ່ຕໍ່ຍອດກັນ, ສ່ວນໃຫຍ່ທີ່ສຸດຢູ່ດ້ານລຸ່ມ.
+	Shows steps in order, left to right, with arrows between them.	Affiche des étapes dans l’ordre, de gauche à droite, reliées par des flèches.	ສະແດງຂັ້ນຕອນຕາມລຳດັບ ຈາກຊ້າຍຫາຂວາ ພ້ອມລູກສອນເຊື່ອມຕໍ່.
+	Shows steps that repeat, around a circle.	Affiche des étapes qui se répètent, disposées en cercle.	ສະແດງຂັ້ນຕອນທີ່ໝູນວຽນຊ້ຳກັນເປັນວົງມົນ.
+	Shrink Font 1 Point	Réduire la police d’1 point	ຫຼຸດຂະໜາດອັກສອນລົງ 1 ພອຍ
+	Shrink text	Réduire le texte	ຫຍໍ້ຂໍ້ຄວາມ
+	Side to Side	Côte à côte	ຄຽງຂ້າງກັນ
+	Side\nto Side	Côte\nà côte	ຄຽງ\nຂ້າງກັນ
+	Sides of a right triangle	Côtés d’un triangle rectangle	ຂ້າງຂອງຮູບສາມແຈສາກ
+	Signature Line	Ligne de signature	ເສັ້ນລາຍເຊັນ
+	Sine and cosine series of f(x)	Séries de sinus et cosinus de f(x)	ອະນຸກົມຊີນ ແລະ ໂກຊີນຂອງ f(x)
+	Sine Function	Sinus	ຟັງຊັນຊີນ
+	Sine theta	Sinus thêta	ຊີນ ເຕຕາ
+	Single	Simple	ດ່ຽວ
+	Single Brackets	Délimiteurs simples	ວົງເລັບດ່ຽວ
+	Single Closing Quote	Guillemet simple fermant	ວົງຢືມດ່ຽວປິດ
+	Single label	Étiquette unique	ປ້າຍດ່ຽວ
+	Single Left Angle	Chevron gauche seul	ວົງເລັບແຫຼມຊ້າຍດ່ຽວ
+	Single Left Bar	Barre gauche seule	ຂີດຕັ້ງຊ້າຍດ່ຽວ
+	Single Left Brace	Accolade gauche seule	ວົງເລັບປີກກາຊ້າຍດ່ຽວ
+	Single Left Bracket	Crochet gauche seul	ວົງເລັບຫຼ່ຽມຊ້າຍດ່ຽວ
+	Single Left Parenthesis	Parenthèse gauche seule	ວົງເລັບມົນຊ້າຍດ່ຽວ
+	Single Opening Quote	Guillemet simple ouvrant	ວົງຢືມດ່ຽວເປີດ
+	Single Right Brace	Accolade droite seule	ວົງເລັບປີກກາຂວາດ່ຽວ
+	Single Right Bracket	Crochet droit seul	ວົງເລັບຫຼ່ຽມຂວາດ່ຽວ
+	Single Right Parenthesis	Parenthèse droite seule	ວົງເລັບມົນຂວາດ່ຽວ
+	Single Spacing	Interligne simple	ໄລຍະຫ່າງແຖວດ່ຽວ
+	SIST02	SIST02	SIST02
+	Site name	Nom du site	ຊື່ເວັບໄຊ
+	Size (pt):	Taille (pt) :	ຂະໜາດ (pt):
+	Size and Crop…	Taille et rognage…	ຂະໜາດ ແລະ ຕັດຂອບ…
+	Size:	Taille :	ຂະໜາດ:
+	Sketchbook	Carnet de croquis	ປຶ້ມແຕ້ມຮູບ
+	Skewed Fraction	Fraction oblique	ເລກສ່ວນຂຽງ
+	Skip citations & bibliography	Ignorer les citations et la bibliographie	ຂ້າມການອ້າງອີງ ແລະ ບັນນານຸກົມ
+	Skip Citations and Bibliography	Ignorer les citations et la bibliographie	ຂ້າມການອ້າງອີງ ແລະ ບັນນານຸກົມ
+	Skip Record If	Ignorer l’enregistrement si	ຂ້າມລະບຽນຂໍ້ມູນຖ້າ
+	Skip Record If…	Ignorer l’enregistrement si…	ຂ້າມລະບຽນຂໍ້ມູນຖ້າ…
+	Slant Down	Inclinaison vers le bas	ອຽງລົງ
+	Slant Up	Inclinaison vers le haut	ອຽງຂຶ້ນ
+	Small Caps	Petites majuscules	ຕົວພິມໃຫຍ່ຂະໜາດນ້ອຍ
+	Small caps	Petites majuscules	ຕົວພິມໃຫຍ່ຂະໜາດນ້ອຍ
+	Small change	Petite variation	ການປ່ຽນແປງເລັກນ້ອຍ
+	Smart quotes instead of straight quotes	Guillemets courbes au lieu de guillemets droits	ວົງຢືມໂຄ້ງແທນວົງຢືມຊື່
+	SmartArt	SmartArt	SmartArt
+	SmartArt Design	Création SmartArt	ອອກແບບ SmartArt
+	SmartArt Styles	Styles SmartArt	ສະໄຕລ໌ SmartArt
+	Smooth scrolling and zooming, and menus and buttons that fade in. Off shows every change at once.	Défilement et zoom fluides, et menus et boutons qui apparaissent en fondu. Désactivés : chaque changement s’affiche immédiatement.	ການເລື່ອນ ແລະ ຊູມແບບລື່ນໄຫຼ, ພ້ອມເມນູ ແລະ ປຸ່ມທີ່ຄ່ອຍໆປະກົດ. ປິດ: ສະແດງທຸກການປ່ຽນແປງທັນທີ.
+	Soft Edges	Bords adoucis	ຂອບນຸ່ມ
+	Soft Glow	Lueur douce	ແສງເຮືອງອ່ອນ
+	Solid Accent	Accent uni	ສີເນັ້ນທຶບ
+	Solid fill	Remplissage uni	ຕື່ມສີທຶບ
+	Sometimes	Parfois	ບາງຄັ້ງ
+	Sort by:	Trier par :	ຈັດລຽງຕາມ:
+	Sort order:	Ordre de tri :	ລຳດັບການຈັດລຽງ:
+	Sort Recipients	Trier les destinataires	ຈັດລຽງຜູ້ຮັບ
+	Source code: github.com/storytold/wordcraft	Code source : github.com/storytold/wordcraft	ຊອສໂຄດ: github.com/storytold/wordcraft
+	Source Manager	Gestionnaire de sources	ຕົວຈັດການແຫຼ່ງຂໍ້ມູນ
+	Source type:	Type de source :	ປະເພດແຫຼ່ງຂໍ້ມູນ:
+	Sources in this document:	Sources dans ce document :	ແຫຼ່ງຂໍ້ມູນໃນເອກະສານນີ້:
+	South	Sud	ໃຕ້
+	Space	Espace	ຍະຫວ່າງ
+	Space after	Espace après	ໄລຍະຫ່າງຫຼັງ
+	Space after: {pt} pt	Espace après : {pt} pt	ໄລຍະຫ່າງຫຼັງ: {pt} pt
+	Space before	Espace avant	ໄລຍະຫ່າງກ່ອນ
+	Space before/after:	Espacement avant/après :	ໄລຍະຫ່າງກ່ອນ/ຫຼັງ:
+	Space before: {pt} pt	Espace avant : {pt} pt	ໄລຍະຫ່າງກ່ອນ: {pt} pt
+	Spacing (pt):	Espacement (pt) :	ໄລຍະຫ່າງ (pt):
+	Spacing:	Espacement :	ໄລຍະຫ່າງ:
+	Spanish (Mexico)	Espagnol (Mexique)	ສະເປນ (ເມັກຊິໂກ)
+	Spanish (Spain)	Espagnol (Espagne)	ສະເປນ (ສະເປນ)
+	Sparse Matrices	Matrices creuses	ມາຕຣິດເບົາບາງ
+	Special Characters	Caractères spéciaux	ຕົວອັກສອນພິເສດ
+	Specify height:	Spécifier la hauteur :	ລະບຸຄວາມສູງ:
+	Speech	Parole	ສຽງເວົ້າ
+	Spelling & Grammar	Orthographe et grammaire	ການສະກົດຄຳ ແລະ ໄວຍາກອນ
+	Spelling &\nGrammar	Orthographe et\ngrammaire	ການສະກົດຄຳ ແລະ\nໄວຍາກອນ
+	Spelling and grammar are checked in {language}.	Langue de vérification de l’orthographe et de la grammaire : {language}.	ກວດສອບການສະກົດຄຳ ແລະ ໄວຍາກອນໃນພາສາ {language}.
+	Spelling Suggestions	Suggestions orthographiques	ຄຳແນະນຳການສະກົດ
+	Spike	Pique-notes	Spike
+	Split Cells	Fractionner les cellules	ແຍກຫ້ອງ
+	Split Table	Fractionner le tableau	ແຍກຕາຕະລາງ
+	Spreadsheet Table	Tableau de feuille de calcul	ຕາຕະລາງຄຳນວນ
+	Square Root	Racine carrée	ຮາກຂັ້ນສອງ
+	Square Root with Degree	Racine carrée avec indice	ຮາກຂັ້ນສອງພ້ອມອັນດັບ
+	Square Union	Union carrée	ໂຮມສີ່ຫຼ່ຽມ
+	Stack Object	Empilement	ວັດຖຸຊ້ອນກັນ
+	Stack Object (Three)	Empilement (trois)	ວັດຖຸຊ້ອນກັນ (ສາມອັນ)
+	Stacked Bar	Barres empilées	ແທ່ງນອນຊ້ອນກັນ
+	Stacked Column	Colonnes empilées	ແທ່ງຕັ້ງຊ້ອນກັນ
+	Stacked Fraction	Fraction empilée	ເລກສ່ວນຊ້ອນຕັ້ງ
+	Stacked, no bar	Empilé, sans barre	ຊ້ອນຕັ້ງ, ບໍ່ມີຂີດຂັ້ນ
+	Standard Colors	Couleurs standard	ສີມາດຕະຖານ
+	Start Enforcing Protection	Démarrer la protection	ເລີ່ມບັງຄັບໃຊ້ການປ້ອງກັນ
+	Start Mail Merge	Démarrer la fusion et le publipostage	ເລີ່ມຜະສານຈົດໝາຍ
+	Start Mail\nMerge	Démarrer la fusion et\nle publipostage	ເລີ່ມຜະສານ\nຈົດໝາຍ
+	Start-up	Démarrage	ການເລີ່ມຕົ້ນ
+	State	État	ລັດ/ແຂວງ
+	Statement   5.50" × 8.50"	Statement   5.50" × 8.50"	Statement   5.50" × 8.50"
+	Still there? I can hear you thinking.	Toujours là ? Je vous entends réfléchir.	ຍັງຢູ່ບໍ່? ຂ້ອຍໄດ້ຍິນສຽງທ່ານຄິດຢູ່ເດີ້.
+	Stop Protection	Arrêter la protection	ຢຸດການປ້ອງກັນ
+	Stop Reading	Arrêter la lecture	ຢຸດການອ່ານ
+	Stopped	Arrêté	ຢຸດແລ້ວ
+	Straight Arrow Connector	Connecteur droit avec flèche	ເສັ້ນເຊື່ອມຕໍ່ຊື່ພ້ອມລູກສອນ
+	Straight Connector	Connecteur droit	ເສັ້ນເຊື່ອມຕໍ່ຊື່
+	Stroke {n} of {total}	Trait {n} sur {total}	ເສັ້ນທີ່ {n} ຈາກ {total}
+	Strong	Élevé	ເຂັ້ມ
+	Structure Actions	Actions de structure	ຄຳສັ່ງໂຄງສ້າງ
+	Structures	Structures	ໂຄງສ້າງ
+	Studio cover	Couverture du studio	ໜ້າປົກສະຕູດິໂອ
+	Studio handbook (sample)	Manuel du studio (exemple)	ປຶ້ມຄູ່ມືສະຕູດິໂອ (ຕົວຢ່າງ)
+	Style based on:	Style basé sur :	ສະໄຕລ໌ທີ່ອີງຕາມ:
+	Style Inspector	Inspecteur de styles	ຕົວກວດສອບສະໄຕລ໌
+	Style name:	Nom du style :	ຊື່ສະໄຕລ໌:
+	Style Set	Jeu de styles	ຊຸດສະໄຕລ໌
+	Style:	Style :	ສະໄຕລ໌:
+	Style: APA	Style : APA	ສະໄຕລ໌: APA
+	Style: {style}	Style : {style}	ສະໄຕລ໌: {style}
+	Styles Pane	Volet Styles	ແຜງສະໄຕລ໌
+	Styles:	Styles :	ສະໄຕລ໌:
+	Subentry:	Sous-entrée :	ລາຍການຍ່ອຍ:
+	Subject	Objet	ຫົວເລື່ອງ
+	Submit print job	Envoyer le travail d'impression	ສົ່ງງານພິມ
+	Submitting print job…	Envoi du travail d'impression…	ກຳລັງສົ່ງງານພິມ…
+	Subscript-Superscript	Indice-exposant	ຕົວຫ້ອຍ-ຕົວຍົກ
+	Subscripts and Superscripts	Indices et exposants	ຕົວຫ້ອຍ ແລະ ຕົວຍົກ
+	Subset:	Sous-ensemble :	ຊຸດຍ່ອຍ:
+	Subtle Emphasis	Accentuation légère	ເນັ້ນບາງໆ
+	Subtle Reference	Référence légère	ການອ້າງອີງແບບເບົາ
+	Suggested	Suggestions	ແນະນຳ
+	Sum	Somme	ຜົນບວກ
+	Sum of cosines	Somme de cosinus	ຜົນບວກຂອງໂກຊີນ
+	Sum or difference of sines	Somme ou différence de sinus	ຜົນບວກ ຫຼື ຜົນລົບຂອງຊີນ
+	Summation	Somme	ຜົນບວກ
+	Summation from 0 to n	Somme de 0 à n	ຜົນບວກຕັ້ງແຕ່ 0 ຫາ n
+	Summation over binomials	Somme de coefficients binomiaux	ຜົນບວກເທິງສຳປະສິດທະວີນາມ
+	Summation with Limits	Somme avec bornes	ຜົນບວກພ້ອມຂອບເຂດ
+	Summation with Lower Limit	Somme avec borne inférieure	ຜົນບວກພ້ອມຂອບເຂດລຸ່ມ
+	Summation with Subscript Limit	Somme avec borne en indice	ຜົນບວກພ້ອມຂອບເຂດຕົວຫ້ອຍ
+	Summation with Subscript-Superscript Limits	Somme avec bornes en indice et exposant	ຜົນບວກພ້ອມຂອບເຂດຕົວຫ້ອຍ-ຕົວຍົກ
+	Summations	Sommes	ຜົນບວກ
+	Suppress line numbers	Ne pas afficher les numéros de ligne	ບໍ່ສະແດງເລກແຖວ
+	Surface Integral	Intégrale de surface	ສັງຄະນິດພື້ນຜິວ
+	Surface Integral with Limits	Intégrale de surface avec bornes	ສັງຄະນິດພື້ນຜິວພ້ອມຂອບເຂດ
+	Surface Integral with Stacked Limits	Intégrale de surface avec bornes empilées	ສັງຄະນິດພື້ນຜິວພ້ອມຂອບເຂດຊ້ອນຕັ້ງ
+	Swap footnotes and endnotes	Échanger les notes de bas de page et les notes de fin	ສະຫຼັບໝາຍເຫດທ້າຍໜ້າ ແລະ ໝາຍເຫດທ້າຍເອກະສານ
+	Swedish	Suédois	ຊູແອັດ
+	Switch Modes	Changer de mode	ສະຫຼັບໂໝດ
+	Switch Windows	Changer de fenêtre	ສະຫຼັບໜ້າຕ່າງ
+	Switch\nModes	Changer\nde mode	ສະຫຼັບ\nໂໝດ
+	Switch\nWindows	Changer de\nfenêtre	ສະຫຼັບ\nໜ້າຕ່າງ
+	Synchronous Scrolling	Défilement synchrone	ເລື່ອນໜ້າພ້ອມກັນ
+	Synonyms	Synonymes	ຄຳຄ້າຍຄວາມໝາຍ
+	Tab Character	Caractère de tabulation	ຕົວອັກສອນແຖບ
+	Tab character	Caractère de tabulation	ຕົວອັກສອນແຖບ
+	Tab characters	Caractères de tabulation	ຕົວອັກສອນແຖບ
+	Tab leader:	Remplissage de tabulation :	ເສັ້ນນຳແຖບ:
+	Tab stop position:	Position du taquet de tabulation :	ຕຳແໜ່ງຢຸດແຖບ:
+	Tab stops to be cleared:	Taquets de tabulation à supprimer :	ຕຳແໜ່ງຢຸດແຖບທີ່ຈະລ້າງອອກ:
+	Table Column Width	Largeur de colonne du tableau	ຄວາມກວ້າງຖັນຕາຕະລາງ
+	Table Design	Création de tableau	ອອກແບບຕາຕະລາງ
+	Table direction:	Direction du tableau :	ທິດທາງຕາຕະລາງ:
+	Table Grid	Grille du tableau	ຕາຕະລາງມີເສັ້ນຂອບ
+	Table Layout	Disposition du tableau	ໂຄງຮ່າງຕາຕະລາງ
+	Table of Authorities	Table des autorités	ສາລະບານແຫຼ່ງອ້າງອີງທາງກົດໝາຍ
+	Table of Contents	Table des matières	ສາລະບານ
+	Table of Contents Options	Options de la table des matières	ຕົວເລືອກສາລະບານ
+	Table of Contents Styles	Styles de la table des matières	ສະໄຕລ໌ສາລະບານ
+	Table of Figures	Table des illustrations	ສາລະບານຮູບພາບ
+	Table of\nContents	Table des\nmatières	ສາລະບານ\nເນື້ອຫາ
+	Table Properties	Propriétés du tableau	ຄຸນສົມບັດຕາຕະລາງ
+	Table Properties…	Propriétés du tableau…	ຄຸນສົມບັດຕາຕະລາງ…
+	Table Row Height	Hauteur de ligne du tableau	ຄວາມສູງແຖວຕາຕະລາງ
+	Table size	Taille du tableau	ຂະໜາດຕາຕະລາງ
+	Table Style Options	Options de style de tableau	ຕົວເລືອກສະໄຕລ໌ຕາຕະລາງ
+	Table Styles	Styles de tableau	ສະໄຕລ໌ຕາຕະລາງ
+	Tabloid   11.00" × 17.00"	Tabloïd   11.00" × 17.00"	Tabloid   11.00" × 17.00"
+	Tabs…	Tabulations…	ແຖບ…
+	Tabular List	Liste tabulaire	ລາຍການແບບຕາຕະລາງ
+	Tag	Balise	ແທັກ
+	Take the last match on the page	Prendre la dernière correspondance de la page	ໃຊ້ລາຍການສຸດທ້າຍທີ່ກົງກັນໃນໜ້າ
+	Take your time. The page isn't going anywhere. Neither am I. Ever.	Prenez votre temps. La page ne va nulle part. Moi non plus. Jamais.	ບໍ່ຕ້ອງຟ້າວເດີ້. ໜ້າເຈ້ຍບໍ່ໜີໄປໃສດອກ. ຂ້ອຍກໍຄືກັນ.
+	Tangent formula	Formule de la tangente	ສູດຕັງຊັງ
+	Tangent Function	Tangente	ຟັງຊັນຕັງຊັງ
+	TC entry fields	Champs d’entrée TC	ຊ່ອງຂໍ້ມູນລາຍການ TC
+	Technology	Technologie	ເຕັກໂນໂລຊີ
+	Templates and Add-ins	Modèles et compléments	ແມ່ແບບ ແລະ ສ່ວນເສີມ
+	Templates you save in your templates folder show up here.	Les modèles que vous enregistrez dans votre dossier de modèles apparaissent ici.	ແມ່ແບບທີ່ທ່ານບັນທຶກໄວ້ໃນໂຟນເດີແມ່ແບບຈະສະແດງຢູ່ທີ່ນີ້.
+	Text Box	Zone de texte	ກ່ອງຂໍ້ຄວາມ
+	Text boxes	Zones de texte	ກ່ອງຂໍ້ຄວາມ
+	text boxes can't go inside a text box	une zone de texte ne peut pas aller dans une zone de texte	ບໍ່ສາມາດໃສ່ກ່ອງຂໍ້ຄວາມໄວ້ໃນກ່ອງຂໍ້ຄວາມໄດ້
+	Text Direction	Sens du texte	ທິດທາງຂໍ້ຄວາມ
+	Text Effects	Effets de texte	ເອັບເຟັກຂໍ້ຄວາມ
+	Text Effects and Typography	Effets de texte et typographie	ເອັບເຟັກຂໍ້ຄວາມ ແລະ ການຈັດພິມ
+	Text Fill	Remplissage du texte	ຕື່ມສີຂໍ້ຄວາມ
+	Text from File	Texte à partir d’un fichier	ຂໍ້ຄວາມຈາກໄຟລ໌
+	Text Highlight Color	Couleur de surbrillance du texte	ສີໄຮໄລທ໌ຂໍ້ຄວາມ
+	Text indent at:	Retrait du texte :	ໄລຍະຍັບຂໍ້ຄວາມທີ່:
+	Text of the nearest paragraph with a given style (running headers)	Texte du paragraphe le plus proche ayant un style donné (titres courants)	ຂໍ້ຄວາມຂອງຫຍໍ້ໜ້າທີ່ໃກ້ທີ່ສຸດເຊິ່ງມີສະໄຕລ໌ທີ່ກຳນົດ (ຫົວຂໍ້ຕໍ່ເນື່ອງ)
+	Text Outline	Contour du texte	ເສັ້ນຂອບຂໍ້ຄວາມ
+	Text over Colon Equal	Texte au-dessus de deux-points égal	ຂໍ້ຄວາມເທິງເຄື່ອງໝາຍ :=
+	Text over Equal	Texte au-dessus du signe égal	ຂໍ້ຄວາມເທິງເຄື່ອງໝາຍ =
+	Text Pane	Volet Texte	ແຜງຂໍ້ຄວາມ
+	Text size	Taille du texte	ຂະໜາດຂໍ້ຄວາມ
+	Text snaps to characters	Le texte s’aligne sur les caractères	ຂໍ້ຄວາມຈັດຕົງກັບຕົວອັກສອນ
+	Text to display:	Texte à afficher :	ຂໍ້ຄວາມທີ່ຈະສະແດງ:
+	Text Wrapping	Habillage du texte	ການຫໍ່ຂໍ້ຄວາມ
+	Text\nBox	Zone de\ntexte	ກ່ອງ\nຂໍ້ຄວາມ
+	Text\nDirection	Sens du\ntexte	ທິດທາງ\nຂໍ້ຄວາມ
+	That format doesn't keep everything, so the document is still open. Save it as a Word document (.docx) to go on.	Ce format ne conserve pas tout, le document reste donc ouvert. Enregistrez-le en tant que document Word (.docx) pour continuer.	ຮູບແບບນັ້ນບໍ່ສາມາດເກັບຂໍ້ມູນທຸກຢ່າງໄດ້, ເອກະສານຈຶ່ງຍັງເປີດຢູ່. ບັນທຶກເປັນເອກະສານ Word (.docx) ເພື່ອດຳເນີນການຕໍ່.
+	That password isn't right. Check it (passwords are case-sensitive) and try again.	Ce mot de passe est incorrect. Vérifiez-le (les mots de passe respectent la casse) et réessayez.	ລະຫັດຜ່ານນັ້ນບໍ່ຖືກຕ້ອງ. ກວດສອບຄືນ (ລະຫັດຜ່ານແຍກຕົວພິມໃຫຍ່-ນ້ອຍ) ແລ້ວລອງໃໝ່.
+	The clipboard is empty.	Le Presse-papiers est vide.	ຄລິບບອດວ່າງເປົ່າ.
+	the Clipboard pane is empty	le volet Presse-papiers est vide	ແຜງຄລິບບອດວ່າງເປົ່າ
+	the cursor isn't in a table	le curseur n’est pas dans un tableau	ເຄີເຊີບໍ່ໄດ້ຢູ່ໃນຕາຕະລາງ
+	The date it is today	La date d’aujourd’hui	ວັນທີຂອງມື້ນີ້
+	The document has no bookmarks yet.	Le document ne contient pas encore de signets.	ເອກະສານຍັງບໍ່ມີທີ່ຂັ້ນໜ້າເທື່ອ.
+	the document is protected	le document est protégé	ເອກະສານຖືກປ້ອງກັນຢູ່
+	The document is read only, except for regions marked editable.	Le document est en lecture seule, à l’exception des zones marquées comme modifiables.	ເອກະສານນີ້ອ່ານໄດ້ຢ່າງດຽວ, ຍົກເວັ້ນບໍລິເວນທີ່ໝາຍວ່າແກ້ໄຂໄດ້.
+	The document will be saved with a password. Save it to protect it.	Le document sera enregistré avec un mot de passe. Enregistrez-le pour le protéger.	ເອກະສານຈະຖືກບັນທຶກພ້ອມລະຫັດຜ່ານ. ບັນທຶກເພື່ອປ້ອງກັນມັນ.
+	The document you are editing keeps the names and dates; only the saved file leaves them out.	Le document en cours de modification garde les noms et les dates ; seul le fichier enregistré les omet.	ເອກະສານທີ່ກຳລັງແກ້ໄຂຈະຍັງຄົງມີຊື່ ແລະ ວັນທີ; ສະເພາະໄຟລ໌ທີ່ບັນທຶກເທົ່ານັ້ນທີ່ຈະຕັດອອກ.
+	The margins don't fit on a page this size; make the margins smaller first.	Les marges ne tiennent pas sur une page de cette taille ; réduisez d’abord les marges.	ຂອບເຈ້ຍບໍ່ພໍດີກັບໜ້າຂະໜາດນີ້; ໃຫ້ຫຼຸດຂອບເຈ້ຍລົງກ່ອນ.
+	The measurement must be between {min} and {max}.	La mesure doit être comprise entre {min} et {max}.	ຄ່າວັດແທກຕ້ອງຢູ່ລະຫວ່າງ {min} ຫາ {max}.
+	The new style takes the formatting of the current paragraph.	Le nouveau style reprend la mise en forme du paragraphe actuel.	ສະໄຕລ໌ໃໝ່ຈະໃຊ້ການຈັດຮູບແບບຂອງຫຍໍ້ໜ້າປັດຈຸບັນ.
+	The Normal template couldn't be read, so this document uses WordCraft's built-in formatting.	Impossible de lire le modèle Normal : ce document utilise donc la mise en forme intégrée de WordCraft.	ບໍ່ສາມາດອ່ານແມ່ແບບ Normal ໄດ້, ເອກະສານນີ້ຈຶ່ງໃຊ້ການຈັດຮູບແບບໃນຕົວຂອງ WordCraft.
+	The number must be between 1 and {max}.	Le nombre doit être compris entre 1 et {max}.	ຕົວເລກຕ້ອງຢູ່ລະຫວ່າງ 1 ຫາ {max}.
+	the paragraph is empty	le paragraphe est vide	ຫຍໍ້ໜ້າວ່າງເປົ່າ
+	the paragraph starts with a space	le paragraphe commence par une espace	ຫຍໍ້ໜ້າຂຶ້ນຕົ້ນດ້ວຍຍະຫວ່າງ
+	The password is optional; without it anyone can stop the protection.	Le mot de passe est facultatif ; sans lui, n’importe qui peut arrêter la protection.	ລະຫັດຜ່ານເປັນທາງເລືອກ; ຖ້າບໍ່ມີ, ໃຜກໍສາມາດຢຸດການປ້ອງກັນໄດ້.
+	The password is removed. Save the document to keep the change.	Le mot de passe est supprimé. Enregistrez le document pour conserver cette modification.	ລຶບລະຫັດຜ່ານອອກແລ້ວ. ບັນທຶກເອກະສານເພື່ອຮັກສາການປ່ຽນແປງນີ້.
+	The printer, two-sided printing and pages per sheet are chosen in that dialog.	L’imprimante, l’impression recto verso et le nombre de pages par feuille se choisissent dans cette boîte de dialogue.	ເຄື່ອງພິມ, ການພິມສອງໜ້າ ແລະ ຈຳນວນໜ້າຕໍ່ໃບສາມາດເລືອກໄດ້ໃນໜ້າຕ່າງນັ້ນ.
+	The recipient-list field that fills each part of an address block and greeting line.	Le champ de la liste des destinataires qui remplit chaque partie d’un bloc d’adresse et d’une ligne de salutation.	ຊ່ອງຂໍ້ມູນຈາກລາຍຊື່ຜູ້ຮັບທີ່ຈະຕື່ມໃສ່ແຕ່ລະສ່ວນຂອງບລັອກທີ່ຢູ່ ແລະ ແຖວຄຳທັກທາຍ.
+	The spelling and grammar check is complete.	La vérification de l’orthographe et de la grammaire est terminée.	ການກວດສອບການສະກົດຄຳ ແລະ ໄວຍາກອນສຳເລັດແລ້ວ.
+	the Spike is empty	le pique-notes est vide	Spike ວ່າງເປົ່າ
+	The system file dialog isn't available, so WordCraft shows its own. To get the system dialog, install a file chooser portal (such as xdg-desktop-portal-gtk) or zenity.	La boîte de dialogue de fichiers du système n’est pas disponible, WordCraft affiche donc la sienne. Pour utiliser celle du système, installez un portail de sélection de fichiers (comme xdg-desktop-portal-gtk) ou zenity.	ໜ້າຕ່າງເລືອກໄຟລ໌ຂອງລະບົບບໍ່ພ້ອມໃຊ້ງານ, WordCraft ຈຶ່ງສະແດງໜ້າຕ່າງຂອງຕົນເອງ. ເພື່ອໃຊ້ໜ້າຕ່າງຂອງລະບົບ, ໃຫ້ຕິດຕັ້ງ file chooser portal (ເຊັ່ນ xdg-desktop-portal-gtk) ຫຼື zenity.
+	The text at the insertion point is marked Do not check spelling or grammar.	Le texte au point d’insertion est marqué : Ne pas vérifier l’orthographe ni la grammaire.	ຂໍ້ຄວາມຢູ່ຈຸດແຊກຖືກໝາຍວ່າ ບໍ່ຕ້ອງກວດສອບການສະກົດຄຳ ຫຼື ໄວຍາກອນ.
+	The time right now	L’heure actuelle	ເວລາໃນຂະນະນີ້
+	Theme Colors	Couleurs du thème	ສີຂອງທີມ
+	Theme Fonts	Polices du thème	ແບບອັກສອນຂອງທີມ
+	Theme List	Liste des thèmes	ລາຍການທີມ
+	Themes	Thèmes	ທີມ
+	Then by	Puis par	ຈາກນັ້ນຕາມດ້ວຍ
+	Then insert:	Alors insérer :	ແລ້ວໃຫ້ແຊກ:
+	there is no ink to replay	il n’y a pas d’encre à rejouer	ບໍ່ມີນ້ຳມຶກໃຫ້ຫຼິ້ນຄືນ
+	there is nothing to undo	il n’y a rien à annuler	ບໍ່ມີຫຍັງໃຫ້ຍົກເລີກ
+	there's no citation after the caret	il n’y a pas de citation après le curseur	ບໍ່ມີການອ້າງອີງຫຼັງເຄີເຊີ
+	Thesaurus	Thésaurus	ຄຳຄ້າຍຄວາມໝາຍ
+	These marks show even when Show/Hide ¶ is off.	Ces marques s’affichent même lorsque Afficher/Masquer ¶ est désactivé.	ເຄື່ອງໝາຍເຫຼົ່ານີ້ຈະສະແດງເຖິງແມ່ນວ່າຈະປິດ ສະແດງ/ເຊື່ອງ ¶ ຢູ່ກໍຕາມ.
+	These merge fields aren't in the recipient list:	Ces champs de fusion ne figurent pas dans la liste des destinataires :	ຊ່ອງຂໍ້ມູນຜະສານເຫຼົ່ານີ້ບໍ່ຢູ່ໃນລາຍຊື່ຜູ້ຮັບ:
+	These settings will be used for new documents.	Ces paramètres seront utilisés pour les nouveaux documents.	ການຕັ້ງຄ່າເຫຼົ່ານີ້ຈະຖືກໃຊ້ກັບເອກະສານໃໝ່.
+	Thick	Épaisse	ໜາ
+	this chart was made in another program: WordCraft shows it but can't edit it	ce graphique a été créé dans un autre programme : WordCraft l’affiche mais ne peut pas le modifier	ແຜນພູມນີ້ຖືກສ້າງໃນໂປຣແກຣມອື່ນ: WordCraft ສາມາດສະແດງໄດ້ ແຕ່ບໍ່ສາມາດແກ້ໄຂໄດ້
+	This document	Ce document	ເອກະສານນີ້
+	This document only?	Ce document uniquement ?	ສະເພາະເອກະສານນີ້ບໍ່?
+	This field has no options.	Ce champ n’a pas d’options.	ຊ່ອງຂໍ້ມູນນີ້ບໍ່ມີຕົວເລືອກ.
+	This folder can't be read: {error}	Impossible de lire ce dossier : {error}	ບໍ່ສາມາດອ່ານໂຟນເດີນີ້ໄດ້: {error}
+	This font has no characters to show.	Cette police ne contient aucun caractère à afficher.	ແບບອັກສອນນີ້ບໍ່ມີຕົວອັກສອນໃຫ້ສະແດງ.
+	this item is already at the top level	cet élément est déjà au niveau supérieur	ລາຍການນີ້ຢູ່ລະດັບສູງສຸດແລ້ວ
+	This page	Cette page	ໜ້ານີ້
+	This password type isn't supported.	Ce type de mot de passe n’est pas pris en charge.	ບໍ່ຮອງຮັບລະຫັດຜ່ານປະເພດນີ້.
+	This point forward	À partir de ce point	ຈາກຈຸດນີ້ເປັນຕົ້ນໄປ
+	This section	Cette section	ພາກສ່ວນນີ້
+	this session has no Normal template (headless or without preferences)	cette session n’a pas de modèle Normal (sans interface ou sans préférences)	ຊ່ວງການໃຊ້ງານນີ້ບໍ່ມີແມ່ແບບ Normal (ແບບບໍ່ມີໜ້າຈໍ ຫຼື ບໍ່ມີການຕັ້ງຄ່າ)
+	this session has no Normal template (headless or without preferences): use "scope": "document"	cette session n’a pas de modèle Normal (sans interface ou sans préférences) : utilisez "scope": "document"	ຊ່ວງການໃຊ້ງານນີ້ບໍ່ມີແມ່ແບບ Normal (ແບບບໍ່ມີໜ້າຈໍ ຫຼື ບໍ່ມີການຕັ້ງຄ່າ): ໃຫ້ໃຊ້ "scope": "document"
+	this SmartArt was made in another program: WordCraft shows it but can't edit it	ce SmartArt a été créé dans un autre programme : WordCraft l’affiche mais ne peut pas le modifier	SmartArt ນີ້ຖືກສ້າງໃນໂປຣແກຣມອື່ນ: WordCraft ສາມາດສະແດງໄດ້ ແຕ່ບໍ່ສາມາດແກ້ໄຂໄດ້
+	this text box is already linked: break the link first	cette zone de texte est déjà liée : rompez d’abord le lien	ກ່ອງຂໍ້ຄວາມນີ້ຖືກເຊື່ອມໂຍງແລ້ວ: ໃຫ້ຕັດການເຊື່ອມໂຍງກ່ອນ
+	Three	Trois	ສາມ
+	Through	Au travers	ທະລຸຜ່ານ
+	Tight	Rapproché	ຊິດ
+	Tilde	Tilde	ເຄື່ອງໝາຍ Tilde (~)
+	Tip	Astuce	ເຄັດລັບ
+	Tips ({n})	Conseils ({n})	ເຄັດລັບ ({n})
+preview	Title	Titre	ຫົວຂໍ້
+	Title Bar	Barre de titre	ແຖບຊື່ເລື່ອງ
+	Title from the document properties	Titre indiqué dans les propriétés du document	ຫົວຂໍ້ຈາກຄຸນສົມບັດຂອງເອກະສານ
+	Title:	Titre :	ຫົວຂໍ້:
+	To open Word documents with WordCraft by default: select one in Finder, choose File › Get Info, pick WordCraft under Open with, then click Change All.	Pour ouvrir les documents Word avec WordCraft par défaut : sélectionnez-en un dans le Finder, choisissez Fichier › Lire les informations, choisissez WordCraft sous « Ouvrir avec », puis cliquez sur « Tout modifier ».	ເພື່ອເປີດເອກະສານ Word ດ້ວຍ WordCraft ເປັນຄ່າເລີ່ມຕົ້ນ: ເລືອກໄຟລ໌ໜຶ່ງໃນ Finder, ເລືອກ File › Get Info, ເລືອກ WordCraft ພາຍໃຕ້ Open with, ແລ້ວຄລິກ Change All.
+	To:	À :	ເຖິງ:
+	TOA Heading	En-tête de table des autorités	ຫົວຂໍ້ສາລະບານແຫຼ່ງອ້າງອີງທາງກົດໝາຍ
+	TOC Heading	En-tête de table des matières	ຫົວຂໍ້ສາລະບານ
+	TOC {n}	TM {n}	ສາລະບານ {n}
+	Today	Aujourd’hui	ມື້ນີ້
+	tOGGLE cASE	iNVERSER lA cASSE	ສະຫຼັບຕົວພິມໃຫຍ່-ນ້ອຍ
+	Toggle Check Box	Basculer la case à cocher	ສະຫຼັບກ່ອງໝາຍຕິກ
+	Toggle Field Codes	Basculer les codes de champ	ສະຫຼັບລະຫັດຊ່ອງຂໍ້ມູນ
+	Toggle Unicode Character	Basculer le caractère Unicode	ສະຫຼັບຕົວອັກສອນ Unicode
+	Top and Bottom	Haut et bas	ເທິງ ແລະ ລຸ່ມ
+	Top Border	Bordure haute	ຂອບເທິງ
+	Top Left Cell	Cellule en haut à gauche	ຫ້ອງເທິງຊ້າຍ
+	Top Margin	Marge supérieure	ຂອບເຈ້ຍດ້ານເທິງ
+	Top of Page	Haut de page	ດ້ານເທິງຂອງໜ້າ
+	Top Right Cell	Cellule en haut à droite	ຫ້ອງເທິງຂວາ
+	Total Row	Ligne de totaux	ແຖວຜົນລວມ
+	Track Changes	Suivi des modifications	ຕິດຕາມການປ່ຽນແປງ
+	Track Changes Options	Options de suivi des modifications	ຕົວເລືອກການຕິດຕາມການປ່ຽນແປງ
+	Track Changes: On	Suivi des modifications : activé	ຕິດຕາມການປ່ຽນແປງ: ເປີດ
+	Track formatting	Suivre la mise en forme	ຕິດຕາມການຈັດຮູບແບບ
+	Track\nChanges	Suivi des\nmodifications	ຕິດຕາມ\nການປ່ຽນແປງ
+	Track\nChanges ✓	Suivi des\nmodifications ✓	ຕິດຕາມ\nການປ່ຽນແປງ ✓
+	Tracked changes	Modifications suivies	ການປ່ຽນແປງທີ່ຕິດຕາມ
+	Tracking	Suivi	ການຕິດຕາມ
+	Trademark	Marque	ເຄື່ອງໝາຍການຄ້າ
+	Trademark Sign	Signe de marque commerciale	ສັນຍາລັກເຄື່ອງໝາຍການຄ້າ
+	Transport	Transports	ການຂົນສົ່ງ
+	Triangle Down	Triangle vers le bas	ສາມແຈຊີ້ລົງ
+	Triangle Up	Triangle vers le haut	ສາມແຈຊີ້ຂຶ້ນ
+	Trigonometric Functions	Fonctions trigonométriques	ຟັງຊັນໄຕມຸມມິຕິ
+	Triple	Triple	ສາມຊັ້ນ
+	Triple Dot	Triple point	ສາມຈຸດ
+	Triple Integral	Intégrale triple	ສັງຄະນິດສາມຊັ້ນ
+	Triple Integral with Limits	Intégrale triple avec bornes	ສັງຄະນິດສາມຊັ້ນພ້ອມຂອບເຂດ
+	Triple Integral with Stacked Limits	Intégrale triple avec bornes empilées	ສັງຄະນິດສາມຊັ້ນພ້ອມຂອບເຂດຊ້ອນຕັ້ງ
+	Trust Center	Centre de gestion de la confidentialité	ສູນຄວາມເຊື່ອໝັ້ນ
+	Tue	mar.	ອັງຄານ
+	Turabian	Turabian	Turabian
+	Turkish	Turc	ຕວກກີ
+	Two	Deux	ສອງ
+	Two-sided printing	Impression recto verso	ການພິມສອງໜ້າ
+	Two-sided: long edge	Recto verso : bord long	ສອງໜ້າ: ດ້ານຍາວ
+	Two-sided: short edge	Recto verso : bord court	ສອງໜ້າ: ດ້ານສັ້ນ
+	Type +2 or -1 to move from the page you are on.	Tapez +2 ou -1 pour vous déplacer à partir de la page actuelle.	ພິມ +2 ຫຼື -1 ເພື່ອຍ້າຍຈາກໜ້າທີ່ທ່ານຢູ່.
+	Type a command, e.g. "insert table"	Tapez une commande, par exemple « insérer un tableau »	ພິມຄຳສັ່ງ, ເຊັ່ນ: "ແຊກຕາຕະລາງ"
+	Type a New List…	Entrer une nouvelle liste…	ພິມລາຍຊື່ໃໝ່…
+	Type a page number, or +2 / -1.	Saisissez un numéro de page, ou +2 / -1.	ພິມເລກໜ້າ, ຫຼື +2 / -1.
+	Type a size in any unit, such as 5 cm or 300 px. The other side follows, so the picture keeps its proportions.	Tapez une taille dans n'importe quelle unité, par exemple 5 cm ou 300 px. L'autre côté suit, et l'image garde ses proportions.	ພິມຂະໜາດໃນໜ່ວຍໃດກໍໄດ້, ເຊັ່ນ: 5 cm ຫຼື 300 px. ອີກດ້ານໜຶ່ງຈະປັບຕາມ ເພື່ອຮັກສາອັດຕາສ່ວນຂອງຮູບພາບ.
+	Type at least one recipient.	Saisissez au moins un destinataire.	ພິມຜູ້ຮັບຢ່າງໜ້ອຍໜຶ່ງຄົນ.
+	Type Character Code	Saisir un code de caractère	ພິມລະຫັດຕົວອັກສອນ
+	Type equations in LaTeX	Saisir les équations en LaTeX	ພິມສົມຜົນເປັນ LaTeX
+	Type equations in the linear format (UnicodeMath)	Saisir les équations au format linéaire (UnicodeMath)	ພິມສົມຜົນໃນຮູບແບບເສັ້ນຊື່ (UnicodeMath)
+	Type in Equation	Saisie dans l’équation	ພິມໃນສົມຜົນ
+	Type normal (non-math) text in the equation	Saisir du texte normal (non mathématique) dans l’équation	ພິມຂໍ້ຄວາມທຳມະດາ (ບໍ່ແມ່ນຄະນິດສາດ) ໃນສົມຜົນ
+	Type Text	Saisir du texte	ພິມຂໍ້ຄວາມ
+	Type the categories down the side and a column of values per series.	Saisissez les catégories sur le côté et une colonne de valeurs pour chaque série.	ພິມໝວດໝູ່ລົງຕາມດ້ານຂ້າງ ແລະ ໜຶ່ງຖັນຄ່າຂໍ້ມູນຕໍ່ໜຶ່ງຊຸດຂໍ້ມູນ.
+	Type the field's name and its switches, for example PAGE \\* roman.	Saisissez le nom du champ et ses commutateurs, par exemple PAGE \\* roman.	ພິມຊື່ຊ່ອງຂໍ້ມູນ ແລະ ຕົວປ່ຽນຂອງມັນ, ເຊັ່ນ: PAGE \\* roman.
+	Type the password to stop the protection.	Tapez le mot de passe pour arrêter la protection.	ພິມລະຫັດຜ່ານເພື່ອຢຸດການປ້ອງກັນ.
+	Type the recipients, or load them from a file.	Saisissez les destinataires ou chargez-les à partir d’un fichier.	ພິມລາຍຊື່ຜູ້ຮັບ, ຫຼື ໂຫຼດຈາກໄຟລ໌.
+	Type:	Type :	ປະເພດ:
+	Typing replaces selected text	La frappe remplace le texte sélectionné	ການພິມຈະແທນທີ່ຂໍ້ຄວາມທີ່ເລືອກ
+	Ukrainian	Ukrainien	ຢູເຄຣນ
+	Unchecked symbol	Symbole de l’état décoché	ສັນຍາລັກເມື່ອບໍ່ໄດ້ໝາຍຕິກ
+	Underbar	Barre inférieure	ຂີດລຸ່ມ
+	Underbrace	Accolade inférieure	ວົງເລັບປີກກາລຸ່ມ
+	Underline	Souligné	ຂີດກ້ອງ
+	Underline Color	Couleur de soulignement	ສີເສັ້ນຂີດກ້ອງ
+	Underline color	Couleur de soulignement	ສີເສັ້ນຂີດກ້ອງ
+	Underline Words Only	Souligner uniquement les mots	ຂີດກ້ອງສະເພາະຄຳສັບ
+	Undo 1 Action	Annuler 1 action	ຍົກເລີກ 1 ການກະທຳ
+	Undo Actions	Annuler plusieurs actions	ຍົກເລີກການກະທຳ
+	Undo History	Historique des annulations	ປະຫວັດການຍົກເລີກ
+	Undo {n} Actions	Annuler {n} actions	ຍົກເລີກ {n} ການກະທຳ
+	Undo, undo, undo… we're time travelling now.	Annuler, annuler, annuler… on voyage dans le temps, là.	ຍົກເລີກ, ຍົກເລີກ, ຍົກເລີກ… ຕອນນີ້ພວກເຮົາກຳລັງຍ້ອນເວລາແລ້ວ.
+	Unformatted Text	Texte non mis en forme	ຂໍ້ຄວາມທີ່ບໍ່ໄດ້ຈັດຮູບແບບ
+	Union of intersections	Union d’intersections	ການໂຮມຂອງການຕັດກັນ
+	Union with Limits	Union avec bornes	ການໂຮມພ້ອມຂອບເຂດ
+	Union with Lower Limit	Union avec borne inférieure	ການໂຮມພ້ອມຂອບເຂດລຸ່ມ
+	Union with Plus	Union disjointe	ການໂຮມພ້ອມເຄື່ອງໝາຍບວກ
+	Union with Subscript-Superscript Limits	Union avec bornes en indice et exposant	ການໂຮມພ້ອມຂອບເຂດຕົວຫ້ອຍ-ຕົວຍົກ
+	Unions and Intersections	Unions et intersections	ການໂຮມ ແລະ ການຕັດກັນ
+	Unlink Fields	Dissocier les champs	ຍົກເລີກການເຊື່ອມໂຍງຊ່ອງຂໍ້ມູນ
+	Unlink\nCitations	Dissocier\nles citations	ຍົກເລີກ\nການເຊື່ອມໂຍງການອ້າງອີງ
+	Unlock Fields	Déverrouiller les champs	ປົດລັອກຊ່ອງຂໍ້ມູນ
+	Up	Vers le haut	ຂຶ້ນເທິງ
+	Up Diagonal Dots	Points diagonaux montants	ຈຸດທະແຍງຂຶ້ນ
+	Up one level	Dossier parent	ຂຶ້ນໜຶ່ງລະດັບ
+	Update Field	Mettre à jour le champ	ອັບເດດຊ່ອງຂໍ້ມູນ
+	Update fields before printing	Mettre à jour les champs avant l’impression	ອັບເດດຊ່ອງຂໍ້ມູນກ່ອນພິມ
+	Update Index	Mettre à jour l’index	ອັບເດດດັດຊະນີ
+	Update Style to Match Selection	Mettre à jour le style pour qu’il corresponde à la sélection	ອັບເດດສະໄຕລ໌ໃຫ້ກົງກັບສ່ວນທີ່ເລືອກ
+	Update Styles from Template	Mettre à jour les styles depuis le modèle	ອັບເດດສະໄຕລ໌ຈາກແມ່ແບບ
+	Update Table	Mettre à jour la table	ອັບເດດສາລະບານ
+	Update Table of Figures	Mettre à jour la table des illustrations	ອັບເດດສາລະບານຮູບພາບ
+	Update to Match	Mettre à jour pour correspondre	ອັບເດດໃຫ້ກົງກັນ
+	Update to Match Selection	Mettre à jour en fonction de la sélection	ອັບເດດໃຫ້ກົງກັບສ່ວນທີ່ເລືອກ
+	URGENT	URGENT	ດ່ວນທີ່ສຸດ
+	URL	URL	URL
+	Use "a" before a consonant sound	Utiliser « a » devant un son consonne	ໃຊ້ "a" ກ່ອນສຽງພະຍັນຊະນະ
+	Use "an" before a vowel sound	Utiliser « an » devant un son voyelle	ໃຊ້ "an" ກ່ອນສຽງສະຫຼະ
+	Use an Existing List…	Utiliser une liste existante…	ໃຊ້ລາຍຊື່ທີ່ມີຢູ່ແລ້ວ…
+	Use system setting	Utiliser le paramètre système	ໃຊ້ການຕັ້ງຄ່າຂອງລະບົບ
+	Use the browser's full screen (F11)	Utilisez le plein écran du navigateur (F11)	ໃຊ້ໂໝດເຕັມໜ້າຈໍຂອງບຣາວເຊີ (F11)
+	Use the current style set and theme for all new documents?	Utiliser le jeu de styles et le thème actuels pour tous les nouveaux documents ?	ໃຊ້ຊຸດສະໄຕລ໌ ແລະ ທີມປັດຈຸບັນສຳລັບເອກະສານໃໝ່ທັງໝົດບໍ່?
+	Use the Insert key to switch overtype on and off	Utiliser la touche Inser pour activer ou désactiver le mode Refrappe	ໃຊ້ປຸ່ມ Insert ເພື່ອເປີດ ແລະ ປິດການພິມທັບ
+	Use this formatting as the default for:	Utiliser cette mise en forme par défaut pour :	ໃຊ້ການຈັດຮູບແບບນີ້ເປັນຄ່າເລີ່ມຕົ້ນສຳລັບ:
+	Use wildcards	Utiliser les caractères génériques	ໃຊ້ຕົວອັກສອນແທນ
+	User Name	Nom d’utilisateur	ຊື່ຜູ້ໃຊ້
+	User name:	Nom d’utilisateur :	ຊື່ຜູ້ໃຊ້:
+	User templates:	Modèles utilisateur :	ແມ່ແບບຂອງຜູ້ໃຊ້:
+	Username	Nom d’utilisateur	ຊື່ຜູ້ໃຊ້
+	Vector A	Vecteur A	ເວັກເຕີ A
+	Vector AB	Vecteur AB	ເວັກເຕີ AB
+	Version History	Historique des versions	ປະຫວັດສະບັບ
+	Version {version} ({build})	Version {version} ({build})	ສະບັບ {version} ({build})
+	Vertical alignment:	Alignement vertical :	ການຈັດລຽນແນວຕັ້ງ:
+	Vertical Bars	Barres verticales	ຂີດຕັ້ງ
+	Vertical Dots	Points verticaux	ຈຸດແນວຕັ້ງ
+	View Alt Text…	Afficher le texte de remplacement…	ເບິ່ງຂໍ້ຄວາມສຳຮອງ…
+	View Gridlines	Afficher les quadrillages	ສະແດງເສັ້ນຕາຂ່າຍ
+	View Side by Side	Afficher côte à côte	ເບິ່ງຄຽງຂ້າງກັນ
+	View State	État de l’affichage	ສະຖານະມຸມມອງ
+	View › Focus hides everything but your words. I'll wait outside.	Affichage › Focus masque tout sauf vos mots. J’attends dehors.	ມຸມມອງ › ໂຟກັສ ຈະເຊື່ອງທຸກຢ່າງຍົກເວັ້ນຂໍ້ຄວາມຂອງທ່ານ. ຂ້ອຍຈະລໍຖ້າຢູ່ທາງນອກເດີ້.
+	Views	Affichages	ມຸມມອງ
+	Visual effects	Effets visuels	ເອັບເຟັກພາບ
+	Volume	Volume	ບໍລິມາດ
+	Volume Integral	Intégrale de volume	ສັງຄະນິດບໍລິມາດ
+	Volume Integral with Limits	Intégrale de volume avec bornes	ສັງຄະນິດບໍລິມາດພ້ອມຂອບເຂດ
+	Volume Integral with Stacked Limits	Intégrale de volume avec bornes empilées	ສັງຄະນິດບໍລິມາດພ້ອມຂອບເຂດຊ້ອນຕັ້ງ
+	W:	L :	ກວ້າງ:
+	Wait for the print job to finish submitting before closing.	Attendez la fin de l’envoi du travail d’impression avant de fermer.	ລໍຖ້າໃຫ້ການສົ່ງງານພິມສຳເລັດກ່ອນປິດ.
+	Waiting for the save to finish…	En attente de la fin de l'enregistrement…	ກຳລັງລໍຖ້າໃຫ້ການບັນທຶກສຳເລັດ…
+	Waiting for Zotero…	En attente de Zotero…	ກຳລັງລໍຖ້າ Zotero…
+	Warm Gradient with Outline	Dégradé chaud avec contour	ໄລ່ລະດັບສີໂທນອຸ່ນພ້ອມເສັ້ນຂອບ
+	Warnings ({n})	Avertissements ({n})	ຄຳເຕືອນ ({n})
+	Weather	Météo	ສະພາບອາກາດ
+	Web Layout	Mode Web	ໂຄງຮ່າງເວັບ
+	Web page (*.html)	Page Web (*.html)	ໜ້າເວັບ (*.html)
+	Web\nLayout	Mode\nWeb	ໂຄງຮ່າງ\nເວັບ
+	Wed	mer.	ພຸດ
+	West	Ouest	ຕາເວັນຕົກ
+	When this document was first created	Quand ce document a été créé pour la première fois	ເມື່ອເອກະສານນີ້ຖືກສ້າງຂຶ້ນຄັ້ງທຳອິດ
+	When this document was most recently printed	Quand ce document a été imprimé pour la dernière fois	ເມື່ອເອກະສານນີ້ຖືກພິມຄັ້ງຫຼ້າສຸດ
+	When this document was most recently saved	Quand ce document a été enregistré pour la dernière fois	ເມື່ອເອກະສານນີ້ຖືກບັນທຶກຄັ້ງຫຼ້າສຸດ
+	White Space	Espace blanc	ຊ່ອງວ່າງ
+	White space	Espaces	ຊ່ອງວ່າງ
+	Who the document properties name as author	L’auteur désigné dans les propriétés du document	ຜູ້ຂຽນທີ່ລະບຸໄວ້ໃນຄຸນສົມບັດເອກະສານ
+	Whole document	Tout le document	ທັງເອກະສານ
+	Whole page	Page entière	ທັງໜ້າ
+	Whole Table	Tableau entier	ທັງຕາຕະລາງ
+	Whole words	Mots entiers	ທັງຄຳ
+	Wide	Large	ກວ້າງ
+	Widow/Orphan Control	Contrôle des veuves et orphelines	ຄວບຄຸມແຖວໂດດ
+	Widow/Orphan control	Contrôle des veuves et orphelines	ຄວບຄຸມແຖວໂດດ
+	Width and spacing	Largeur et espacement	ຄວາມກວ້າງ ແລະ ໄລຍະຫ່າງ
+	Wildcards (regex)	Caractères génériques (regex)	ຕົວອັກສອນແທນ (regex)
+	With:	Avec :	ດ້ວຍ:
+	Word 2003 XML Document (*.xml)	Document XML Word 2003 (*.xml)	ເອກະສານ XML Word 2003 (*.xml)
+	Word Count	Nombre de mots	ນັບຈຳນວນຄຳ
+	Word document	Document Word	ເອກະສານ Word
+	Word document (*.docx)	Document Word (*.docx)	ເອກະສານ Word (*.docx)
+	Word Left	Mot vers la gauche	ເລື່ອນຊ້າຍໜຶ່ງຄຳ
+	Word level	Niveau du mot	ລະດັບຄຳສັບ
+	Word Right	Mot vers la droite	ເລື່ອນຂວາໜຶ່ງຄຳ
+	Word XML Document (*.xml)	Document XML Word (*.xml)	ເອກະສານ XML Word (*.xml)
+	WordArt	WordArt	WordArt
+	WordArt Styles	Styles WordArt	ສະໄຕລ໌ WordArt
+	WordCraft	WordCraft	WordCraft
+	WordCraft is now the default app for Word documents.	WordCraft est désormais l’application par défaut pour les documents Word.	ຕອນນີ້ WordCraft ເປັນແອັບເລີ່ມຕົ້ນສຳລັບເອກະສານ Word ແລ້ວ.
+	Words only	Mots uniquement	ສະເພາະຄຳສັບ
+	Wrap Text	Habillage du texte	ການຫໍ່ຂໍ້ຄວາມ
+	Wrap Text Sides	Côtés de l’habillage	ດ້ານການຫໍ່ຂໍ້ຄວາມ
+	Wrap\nText	Habillage\ndu texte	ການຫໍ່\nຂໍ້ຄວາມ
+	Write & Insert Fields	Écriture et insertion de champs	ຂຽນ ແລະ ແຊກຊ່ອງຂໍ້ມູນ
+	Write a reply	Écrire une réponse	ຂຽນຄຳຕອບ
+	Writer's block? I find staring at the cursor helps. It's been blinking at me for years.	Syndrome de la page blanche ? Moi, je fixe le curseur, ça aide. Il me fait de l’œil depuis des années.	ຄິດຫຍັງບໍ່ອອກບໍ່? ຂ້ອຍວ່າການຈ້ອງເຄີເຊີກໍຊ່ວຍໄດ້ໃດ. ມັນກະພິບຕາໃສ່ຂ້ອຍມາຫຼາຍປີແລ້ວ.
+	x bar	x barre	x ບາ
+	Year	Année	ປີ
+	Yields	Donne	ໃຫ້ຜົນເປັນ
+	You haven't saved in a while, and AutoSave is off. Save now?	Vous n’avez pas enregistré depuis un moment, et l’enregistrement automatique est désactivé. Enregistrer maintenant ?	ທ່ານບໍ່ໄດ້ບັນທຶກມາດົນແລ້ວ, ແລະ ການບັນທຶກອັດຕະໂນມັດກໍປິດຢູ່. ບັນທຶກຕອນນີ້ບໍ່?
+	You started a list. Press Enter twice to end it, or Backspace at the start of an item to turn it back into text.	Vous avez commencé une liste. Appuyez deux fois sur Entrée pour la terminer, ou sur Retour arrière au début d’un élément pour le retransformer en texte.	ທ່ານໄດ້ເລີ່ມສ້າງລາຍການແລ້ວ. ກົດ Enter ສອງຄັ້ງເພື່ອຈົບ, ຫຼື ກົດ Backspace ຕອນຕົ້ນລາຍການເພື່ອປ່ຽນກັບເປັນຂໍ້ຄວາມທຳມະດາ.
+	Your document is now the most saved document in history.	Votre document est désormais le document le plus enregistré de l’histoire.	ຕອນນີ້ເອກະສານຂອງທ່ານກາຍເປັນເອກະສານທີ່ຖືກບັນທຶກຫຼາຍທີ່ສຸດໃນປະຫວັດສາດແລ້ວ.
+	Your system doesn't report an animation setting, so animation effects stay on.	Votre système n’indique aucun réglage d’animation, les effets d’animation restent donc activés.	ລະບົບຂອງທ່ານບໍ່ໄດ້ແຈ້ງການຕັ້ງຄ່າພາບເຄື່ອນໄຫວ, ດັ່ງນັ້ນເອັບເຟັກພາບເຄື່ອນໄຫວຈະຍັງເປີດຢູ່.
+	Your system has animation effects turned off.	Les effets d’animation sont désactivés sur votre système.	ລະບົບຂອງທ່ານໄດ້ປິດເອັບເຟັກພາບເຄື່ອນໄຫວໄວ້.
+	Your system has animation effects turned on.	Les effets d’animation sont activés sur votre système.	ລະບົບຂອງທ່ານໄດ້ເປີດເອັບເຟັກພາບເຄື່ອນໄຫວໄວ້.
+	Zotero	Zotero	Zotero
+	Zotero: cancelled	Zotero : annulé	Zotero: ຍົກເລີກແລ້ວ
+	Zotero: done	Zotero : terminé	Zotero: ສຳເລັດແລ້ວ
+	{added}; {count} couldn't be read: {names}	{added} ; {count} illisibles : {names}	{added}; {count} ບໍ່ສາມາດອ່ານໄດ້: {names}
+	{added}; {n} skipped (limit {max})	{added} ; {n} ignorées (limite {max})	{added}; ຂ້າມ {n} ລາຍການ (ຈຳກັດ {max})
+	{cols}×{rows} Table	Tableau {cols}×{rows}	ຕາຕະລາງ {cols}×{rows}
+	{contributors} contributors · {commits} commits	{contributors} contributeurs · {commits} commits	ຜູ້ປະກອບສ່ວນ {contributors} ຄົນ · {commits} commits
+	{count} items highlighted	{count} éléments en surbrillance	ໄຮໄລທ໌ {count} ລາຍການແລ້ວ
+	{count} of {total} pages will print	{count} pages sur {total} seront imprimées	ຈະພິມ {count} ໜ້າ ຈາກທັງໝົດ {total} ໜ້າ
+	{count} of {total} recipients will be merged.	{count} destinataires sur {total} seront fusionnés.	ຈະຜະສານຜູ້ຮັບ {count} ຄົນ ຈາກທັງໝົດ {total} ຄົນ.
+	{group} settings	Paramètres de {group}	ການຕັ້ງຄ່າ {group}
+	{key}+Click to follow link	{key}+clic pour suivre le lien	{key}+ຄລິກ ເພື່ອເປີດລິ້ງ
+	{kind}, {columns} × {rows}, {size} ({paper})	{kind}, {columns} × {rows}, {size} ({paper})	{kind}, {columns} × {rows}, {size} ({paper})
+	{language} (no dictionary)	{language} (pas de dictionnaire)	{language} (ບໍ່ມີວັດຈະນານຸກົມ)
+	{language} is now the document's default language.	{language} est désormais la langue par défaut du document.	ຕອນນີ້ {language} ເປັນພາສາເລີ່ມຕົ້ນຂອງເອກະສານແລ້ວ.
+	{language}: no dictionary found	{language} : aucun dictionnaire trouvé	{language}: ບໍ່ພົບວັດຈະນານຸກົມ
+	{language}: WordCraft doesn't check spelling or grammar in this language yet.	{language} : WordCraft ne vérifie pas encore l’orthographe ni la grammaire dans cette langue.	{language}: WordCraft ຍັງບໍ່ສາມາດກວດສອບການສະກົດຄຳ ຫຼື ໄວຍາກອນໃນພາສານີ້ເທື່ອ.
+	{language}: {file}	{language} : {file}	{language}: {file}
+	{names} and {n} more	{names} et {n} autres	{names} ແລະ ອີກ {n} ລາຍການ
+	{name}   {height} × {width} in	{name}   {height} × {width} po	{name}   {height} × {width} ນິ້ວ
+	{name}   {height} × {width} mm	{name}   {height} × {width} mm	{name}   {height} × {width} ມມ
+	{name} already exists. Choose Save again to replace it.	{name} existe déjà. Choisissez à nouveau Enregistrer pour le remplacer.	ມີ {name} ຢູ່ແລ້ວ. ເລືອກ ບັນທຶກ ອີກຄັ້ງເພື່ອຂຽນທັບ.
+	{name} is protected with a password.	{name} est protégé par un mot de passe.	{name} ຖືກປ້ອງກັນດ້ວຍລະຫັດຜ່ານ.
+	{name} wasn't found.	{name} est introuvable.	ບໍ່ພົບ {name}.
+	{n} entries marked.	{n} entrées sélectionnées.	ໝາຍໄວ້ {n} ລາຍການແລ້ວ.
+	{n} lines	{n} lignes	{n} ແຖວ
+	{n} pt	{n} pt	{n} pt
+	{selected} of {words} words	{selected} mots sur {words}	{selected} ຄຳ ຈາກ {words} ຄຳ
+	{size} pt	{size} pt	{size} pt
+	{width} × {height} mm	{width} × {height} mm	{width} × {height} ມມ
+	{width} × {height} pixels	{width} × {height} pixels	{width} × {height} ພິກເຊວ
+	{words} words	{words} mots	{words} ຄຳ
+	{words} words and counting. Literally. I'm counting.	{words} mots, et ça continue. Je compte. Pour de vrai.	{words} ຄຳ ແລະ ກຳລັງເພີ່ມຂຶ້ນ. ຂ້ອຍນັບຢູ່ແທ້ໆໃດ.
+	{words} words! I'd throw confetti but I'd have to clean it up.	{words} mots ! Je lancerais bien des confettis, mais après, il faudrait ranger.	{words} ຄຳ! ຢາກໂຍນເຈ້ຍສີສະຫຼອງໃຫ້ຢູ່, ແຕ່ຢ້ານໄດ້ເກັບກວາດເອງ.
+	{words} words. That's {words} more than I've written today.	{words} mots. C’est {words} de plus que moi aujourd’hui.	{words} ຄຳ. ນັ້ນຫຼາຍກວ່າທີ່ຂ້ອຍຂຽນໃນມື້ນີ້ຕັ້ງ {words} ຄຳ.
+	“{text}” ({row}, {series}) isn't a number.	« {text} » ({row}, {series}) n’est pas un nombre.	“{text}” ({row}, {series}) ບໍ່ແມ່ນຕົວເລກ.
+	✓ None	✓ Aucun	✓ ບໍ່ມີ
+	➕ New comment	➕ Nouveau commentaire	➕ ຄຳເຫັນໃໝ່
+	📂  Browse…	📂  Parcourir…	📂  ເລືອກເບິ່ງ…
+	Restore opens an unsaved copy. Your original file stays unchanged.	La restauration ouvre une copie non enregistrée. Votre fichier d’origine reste inchangé.	ການກູ້ຄືນຈະເປີດສຳເນົາທີ່ຍັງບໍ່ໄດ້ບັນທຶກ. ໄຟລ໌ຕົ້ນສະບັບຂອງທ່ານຈະບໍ່ປ່ຽນແປງ.
+	Recovery is disabled while this document has a password.	La récupération est désactivée tant que ce document est protégé par un mot de passe.	ການກູ້ຄືນຖືກປິດໃຊ້ງານໃນຂະນະທີ່ເອກະສານນີ້ມີລະຫັດຜ່ານ.
+	Local recovery is unavailable or still loading.	La récupération locale est indisponible ou en cours de chargement.	ການກູ້ຄືນໃນເຄື່ອງບໍ່ພ້ອມໃຊ້ງານ ຫຼື ກຳລັງໂຫຼດຢູ່.
+	No recovery copies.	Aucune copie de récupération.	ບໍ່ມີສຳເນົາກູ້ຄືນ.
+	Recovery copy	Copie de récupération	ສຳເນົາກູ້ຄືນ
+	Discard…	Supprimer…	ຖິ້ມ…
+	Continue without restoring	Continuer sans restaurer	ດຳເນີນການຕໍ່ໂດຍບໍ່ກູ້ຄືນ
+	Advanced Properties…	Propriétés avancées…	ຄຸນສົມບັດຂັ້ນສູງ…
+	View and edit the document's custom properties.	Afficher et modifier les propriétés personnalisées du document.	ເບິ່ງ ແລະ ແກ້ໄຂຄຸນສົມບັດກຳນົດເອງຂອງເອກະສານ.
+	The spelling dictionary for {language} couldn't be read, so it isn't checked. File: {file}. Reason: {reason}	Le dictionnaire orthographique pour {language} n’a pas pu être lu ; il n’est donc pas vérifié. Fichier : {file}. Raison : {reason}	ບໍ່ສາມາດອ່ານວັດຈະນານຸກົມກວດຕົວສະກົດສຳລັບ {language} ໄດ້, ຈຶ່ງບໍ່ໄດ້ກວດສອບ. ໄຟລ໌: {file}. ສາເຫດ: {reason}
+	{language} (dictionary unreadable)	{language} (dictionnaire illisible)	{language} (ອ່ານວັດຈະນານຸກົມບໍ່ໄດ້)
+	Text Size	Taille du texte	ຂະໜາດຂໍ້ຄວາມ
+	Crop on the page works on unturned pictures: set Rotation to 0° first, or use the crop boxes	Le rognage sur la page fonctionne sur les images non pivotées : réglez d’abord la rotation sur 0°, ou utilisez les cadres de rognage	ການຕັດຂອບເທິງໜ້າເຈ້ຍໃຊ້ໄດ້ກັບຮູບພາບທີ່ບໍ່ໄດ້ໝຸນ: ຕັ້ງຄ່າການໝຸນເປັນ 0° ກ່ອນ, ຫຼື ໃຊ້ກ່ອງຕັດຂອບ
+	Folder path	Chemin du dossier	ເສັ້ນທາງໂຟນເດີ
+	No items to show.	Aucun élément à afficher.	ບໍ່ມີລາຍການໃຫ້ສະແດງ.
+	File type	Type de fichier	ປະເພດໄຟລ໌
+	No new sources in that file	Aucune nouvelle source dans ce fichier	ບໍ່ມີແຫຼ່ງຂໍ້ມູນໃໝ່ໃນໄຟລ໌ນັ້ນ
+	Imported 1 source	1 source importée	ນຳເຂົ້າ 1 ແຫຼ່ງຂໍ້ມູນແລ້ວ
+	Imported {n} sources	{n} sources importées	ນຳເຂົ້າ {n} ແຫຼ່ງຂໍ້ມູນແລ້ວ
+	{n} MB	{n} Mo	{n} MB
+	{n} KB	{n} Ko	{n} KB
+	Couldn't get the list of languages: {error}	Impossible d’obtenir la liste des langues : {error}	ບໍ່ສາມາດດຶງລາຍຊື່ພາສາໄດ້: {error}
+	Couldn't install: {error}	Impossible d’installer : {error}	ບໍ່ສາມາດຕິດຕັ້ງໄດ້: {error}
+	Only you can turn on downloading: click the button yourself. Agents can install once it is on.	Seul vous pouvez activer le téléchargement : cliquez vous-même sur le bouton. Les agents pourront installer une fois qu’il est activé.	ມີພຽງທ່ານເທົ່ານັ້ນທີ່ເປີດການດາວໂຫຼດໄດ້: ໃຫ້ກົດປຸ່ມດ້ວຍຕົວເອງ. ຕົວແທນຈະຕິດຕັ້ງໄດ້ເມື່ອເປີດແລ້ວ.
+	Couldn't turn on downloading: {error}	Impossible d’activer le téléchargement : {error}	ບໍ່ສາມາດເປີດການດາວໂຫຼດໄດ້: {error}
+	Couldn't remove: {error}	Impossible de supprimer : {error}	ບໍ່ສາມາດລຶບອອກໄດ້: {error}
+	{language} proofing isn't installed.	Les outils de vérification pour {language} ne sont pas installés.	ຍັງບໍ່ໄດ້ຕິດຕັ້ງເຄື່ອງມືກວດແກ້ສຳລັບ {language}.
+	Installing… {percent}%	Installation… {percent} %	ກຳລັງຕິດຕັ້ງ… {percent}%
+	Install ({size})	Installer ({size})	ຕິດຕັ້ງ ({size})
+	Licence: {licence}. Source: {source}	Licence : {licence}. Source : {source}	ໃບອະນຸຍາດ: {licence}. ແຫຼ່ງທີ່ມາ: {source}
+	Installing turns on downloading of fonts and Language packs from GitHub.	L’installation active le téléchargement des polices et des packs de langue depuis GitHub.	ການຕິດຕັ້ງຈະເປີດການດາວໂຫຼດແບບອັກສອນ ແລະ ຊຸດພາສາຈາກ GitHub.
+	Language packs come from a test source: {source}	Les packs de langue proviennent d’une source de test : {source}	ຊຸດພາສາມາຈາກແຫຼ່ງທົດສອບ: {source}
+	Language packs aren't available in the browser.	Les packs de langue ne sont pas disponibles dans le navigateur.	ຊຸດພາສາບໍ່ສາມາດໃຊ້ໃນບຣາວເຊີໄດ້.
+	Language packs need the font store folder, and there is none on this computer.	Les packs de langue ont besoin du dossier de stockage des polices, et cet ordinateur n’en a pas.	ຊຸດພາສາຕ້ອງການໂຟນເດີເກັບແບບອັກສອນ, ເຊິ່ງຄອມພິວເຕີນີ້ບໍ່ມີ.
+	Getting the list of languages…	Récupération de la liste des langues…	ກຳລັງດຶງລາຍຊື່ພາສາ…
+	Get the list of languages again	Récupérer à nouveau la liste des langues	ດຶງລາຍຊື່ພາສາອີກຄັ້ງ
+	Installed	Installé	ຕິດຕັ້ງແລ້ວ
+	Install	Installer	ຕິດຕັ້ງ
+	The spelling and hyphenation data WordCraft uses, and their licences.	Les données d’orthographe et de césure utilisées par WordCraft, et leurs licences.	ຂໍ້ມູນການສະກົດຄຳ ແລະ ການຕັດຄຳທີ່ WordCraft ໃຊ້, ພ້ອມດ້ວຍໃບອະນຸຍາດຂອງພວກມັນ.
+	{language}: {file} (unreadable: {reason})	{language} : {file} (illisible : {reason})	{language}: {file} (ອ່ານບໍ່ໄດ້: {reason})
+	Spanish (Latin America)	Espagnol (Amérique latine)	ສະເປນ (ອາເມຣິກາລາຕິນ)
+	Spanish (Uruguay)	Espagnol (Uruguay)	ສະເປນ (ອູຣູກວາຍ)
+	Pages in the range	Pages de la plage	ໜ້າໃນຊ່ວງທີ່ລະບຸ
+	Scale to paper size	Adapter au format du papier	ປັບຂະໜາດໃຫ້ພໍດີກັບເຈ້ຍ
+	The document or selection changed. Check again to continue.	Le document ou la sélection a changé. Vérifiez à nouveau pour continuer.	ເອກະສານ ຫຼື ສ່ວນທີ່ເລືອກມີການປ່ຽນແປງ. ກວດສອບອີກຄັ້ງເພື່ອດຳເນີນການຕໍ່.
+	Not in Dictionary	Absent du dictionnaire	ບໍ່ມີໃນວັດຈະນານຸກົມ
+	Suggestions	Suggestions	ຄຳແນະນຳ
+	Change…	Modifier…	ປ່ຽນ…
+	Add to AutoCorrect	Ajouter à la correction automatique	ເພີ່ມໃສ່ການແກ້ໄຂອັດຕະໂນມັດ
+	AutoCorrect Options…	Options de correction automatique…	ຕົວເລືອກການແກ້ໄຂອັດຕະໂນມັດ…
+	More options	Plus d’options	ຕົວເລືອກເພີ່ມເຕີມ
+	Change to:	Modifier en :	ປ່ຽນເປັນ:
+	Update check is not supported in the web browser.	La recherche de mises à jour n’est pas prise en charge dans le navigateur web.	ບໍ່ຮອງຮັບການກວດຫາການອັບເດດໃນເວັບບຣາວເຊີ.
+	Couldn't save {name}, so it is still open and nothing was lost: {error}	Impossible d’enregistrer {name} ; il reste donc ouvert et rien n’a été perdu : {error}	ບໍ່ສາມາດບັນທຶກ {name} ໄດ້, ມັນຈຶ່ງຍັງເປີດຢູ່ ແລະ ບໍ່ມີຫຍັງສູນເສຍ: {error}
+	Current Document	Document actuel	ເອກະສານປັດຈຸບັນ
+	Macro name:	Nom de la macro :	ຊື່ມາໂຄຣ:
+	There are no macros yet. Record one to add it here.	Il n’y a pas encore de macro. Enregistrez-en une pour l’ajouter ici.	ຍັງບໍ່ມີມາໂຄຣເທື່ອ. ບັນທຶກມາໂຄຣເພື່ອເພີ່ມໃສ່ທີ່ນີ້.
+	Run	Exécuter	ເປີດໃຊ້
+	Stop Recording	Arrêter l’enregistrement	ຢຸດການບັນທຶກ
+	Record…	Enregistrer…	ບັນທຶກ…
+	*Bold* and _italic_ as real formatting	*Gras* et _italique_ en véritable mise en forme	*ຕົວໜາ* ແລະ _ຕົວອຽງ_ ເປັນການຈັດຮູບແບບຈິງ
+	Add a period with double-space	Ajouter un point avec un double espace	ເພີ່ມຈຸດເມື່ອຍະຫວ່າງສອງເທື່ອ
+	Built-in Heading styles	Styles de titre intégrés	ສະໄຕລ໌ຫົວຂໍ້ໃນຕົວ
+	Set left- and first-indent with tabs and backspaces	Définir le retrait gauche et de première ligne avec des tabulations et des retours arrière	ຕັ້ງໄລຍະຍັບຊ້າຍ ແລະ ແຖວທຳອິດດ້ວຍແຖບ ແລະ Backspace
+	Automatically add words to list (First Letter)	Ajouter automatiquement des mots à la liste (Première lettre)	ເພີ່ມຄຳສັບໃສ່ລາຍການອັດຕະໂນມັດ (ຕົວອັກສອນທຳອິດ)
+	Automatically add words to list (INitial CAps)	Ajouter automatiquement des mots à la liste (Deux majuscules initiales)	ເພີ່ມຄຳສັບໃສ່ລາຍການອັດຕະໂນມັດ (ສອງຕົວພິມໃຫຍ່ທຳອິດ)
+	Select a place in this document:	Sélectionnez un emplacement dans ce document :	ເລືອກຕຳແໜ່ງໃນເອກະສານນີ້:
+	Top of the Document	Haut du document	ເທິງສຸດຂອງເອກະສານ
+	Bookmarks	Signets	ທີ່ຂັ້ນໜ້າ
+	Discard the recovery copy of {name}?	Supprimer la copie de récupération de {name} ?	ຖິ້ມສຳເນົາກູ້ຄືນຂອງ {name} ບໍ່?
+	This cannot be undone. Your original file stays unchanged.	Cette action est irréversible. Votre fichier d’origine reste inchangé.	ບໍ່ສາມາດຍົກເລີກການກະທຳນີ້ໄດ້. ໄຟລ໌ຕົ້ນສະບັບຂອງທ່ານຈະບໍ່ປ່ຽນແປງ.
+	Property names are 1–{max} characters.	Les noms de propriété comptent de 1 à {max} caractères.	ຊື່ຄຸນສົມບັດຕ້ອງມີ 1–{max} ຕົວອັກສອນ.
+	Property values are at most {max} bytes.	Les valeurs de propriété font au plus {max} octets.	ຄ່າຂອງຄຸນສົມບັດຕ້ອງບໍ່ເກີນ {max} ໄບຕ໌.
+	Only text properties can be changed.	Seules les propriétés de type texte peuvent être modifiées.	ສາມາດປ່ຽນໄດ້ສະເພາະຄຸນສົມບັດປະເພດຂໍ້ຄວາມ.
+	Select a property to change.	Sélectionnez une propriété à modifier.	ເລືອກຄຸນສົມບັດເພື່ອປ່ຽນ.
+	This document has no custom properties.	Ce document n’a aucune propriété personnalisée.	ເອກະສານນີ້ບໍ່ມີຄຸນສົມບັດກຳນົດເອງ.
+	Text properties only: Word's number, date and yes-no types aren't offered.	Propriétés de type texte uniquement : les types nombre, date et oui/non de Word ne sont pas proposés.	ສະເພາະຄຸນສົມບັດຂໍ້ຄວາມ: ບໍ່ຮອງຮັບປະເພດຕົວເລກ, ວັນທີ ແລະ ແມ່ນ/ບໍ່ແມ່ນ ຂອງ Word.
+	{field}, record {n}	{field}, enregistrement {n}	{field}, ລະບຽນຂໍ້ມູນ {n}
+	Pane Options	Options du volet	ຕົວເລືອກແຜງ
+	Dock Left	Ancrer à gauche	ຕິດໄວ້ທາງຊ້າຍ
+	Dock Right	Ancrer à droite	ຕິດໄວ້ທາງຂວາ
+	Float	Flottant	ລອຍຕົວ
+	Move Pane: {title}	Déplacer le volet : {title}	ຍ້າຍແຜງ: {title}
+	Resize Pane	Redimensionner le volet	ປັບຂະໜາດແຜງ
+	Page color	Couleur de page	ສີໜ້າເຈ້ຍ
+	{name} options	Options de {name}	ຕົວເລືອກຂອງ {name}
+	The number must be a divisor of {max}.	Le nombre doit être un diviseur de {max}.	ຕົວເລກຕ້ອງຫານ {max} ລົງຕົວ.
+	Nothing of this type in the document.	Aucun élément de ce type dans le document.	ບໍ່ມີລາຍການປະເພດນີ້ໃນເອກະສານ.
+	Corporate Author	Auteur collectif	ຜູ້ຂຽນປະເພດອົງກອນ
+	Add a language…	Ajouter une langue…	ເພີ່ມພາສາ…
+	Add a language	Ajouter une langue	ເພີ່ມພາສາ
+	Your languages	Vos langues	ພາສາຂອງທ່ານ
+	English, the languages of this document and every installed Language pack. Language packs add spelling dictionaries and hyphenation.	L’anglais, les langues de ce document et chaque pack de langue installé. Les packs de langue ajoutent des dictionnaires orthographiques et la césure.	ພາສາອັງກິດ, ພາສາຂອງເອກະສານນີ້ ແລະ ທຸກຊຸດພາສາທີ່ຕິດຕັ້ງແລ້ວ. ຊຸດພາສາຈະເພີ່ມວັດຈະນານຸກົມກວດຕົວສະກົດ ແລະ ການຕັດຄຳ.
+	Set as default	Définir par défaut	ຕັ້ງເປັນຄ່າເລີ່ມຕົ້ນ
+	New blank documents are written in this language	Les nouveaux documents vierges sont rédigés dans cette langue	ເອກະສານເປົ່າໃໝ່ຈະຖືກຂຽນໃນພາສານີ້
+	{language} (default)	{language} (par défaut)	{language} (ຄ່າເລີ່ມຕົ້ນ)
+	Built in	Intégré	ໃນຕົວ
+	Your own dictionary	Votre propre dictionnaire	ວັດຈະນານຸກົມຂອງທ່ານເອງ
+	System dictionary	Dictionnaire du système	ວັດຈະນານຸກົມຂອງລະບົບ
+	Not available yet	Pas encore disponible	ຍັງບໍ່ພ້ອມໃຊ້ງານເທື່ອ
+	Grammar built in	Grammaire intégrée	ໄວຍາກອນໃນຕົວ
+	Install spelling ({size})	Installer l’orthographe ({size})	ຕິດຕັ້ງຕົວກວດສະກົດຄຳ ({size})
+	Its dictionary couldn't be read: {reason}	Son dictionnaire n’a pas pu être lu : {reason}	ບໍ່ສາມາດອ່ານວັດຈະນານຸກົມຂອງມັນໄດ້: {reason}
+	Downloading is off. Clicking Add a language… or Install turns it on: WordCraft then downloads language packs and fonts from GitHub.	Le téléchargement est désactivé. Cliquer sur « Ajouter une langue… » ou « Installer » l’active : WordCraft télécharge alors des packs de langue et des polices depuis GitHub.	ການດາວໂຫຼດປິດຢູ່. ການກົດ “ເພີ່ມພາສາ…” ຫຼື “ຕິດຕັ້ງ” ຈະເປີດມັນ: ຈາກນັ້ນ WordCraft ຈະດາວໂຫຼດຊຸດພາສາ ແລະ ແບບອັກສອນຈາກ GitHub.
+	Search:	Rechercher :	ຄົ້ນຫາ:
+	Dutch, Nederlands or nl	Néerlandais, Nederlands ou nl	ໂຮນລັງ, Nederlands ຫຼື nl
+	No languages to show yet.	Aucune langue à afficher pour l’instant.	ຍັງບໍ່ມີພາສາໃຫ້ສະແດງເທື່ອ.
+	No language matches your search.	Aucune langue ne correspond à votre recherche.	ບໍ່ມີພາສາໃດກົງກັບການຄົ້ນຫາຂອງທ່ານ.
+	An installed Language pack is used after this folder.	Un pack de langue installé est utilisé après ce dossier.	ຊຸດພາສາທີ່ຕິດຕັ້ງແລ້ວຈະຖືກໃຊ້ຫຼັງຈາກໂຟນເດີນີ້.
+	Dictionary files	Fichiers de dictionnaire	ໄຟລ໌ວັດຈະນານຸກົມ
+	Gets the list of Language packs, then this language's pack if there is one.	Récupère la liste des packs de langue, puis le pack de cette langue s’il y en a un.	ດຶງລາຍຊື່ຊຸດພາສາ, ຈາກນັ້ນດຶງຊຸດຂອງພາສານີ້ຖ້າມີ.
+	Afrikaans	Afrikaans	ອາຟຣິກາອັນ
+	Belarusian	Biélorusse	ເບລາຣຸສ
+	Bulgarian	Bulgare	ບຸນກາຣີ
+	Bosnian	Bosniaque	ບອສເນຍ
+	Catalan	Catalan	ກາຕາລັງ
+	Catalan (Valencian)	Catalan (valencien)	ກາຕາລັງ (ວາເລັນເຊຍ)
+	Welsh	Gallois	ເວວສ໌
+	Esperanto	Espéranto	ເອສເປີຣັນໂຕ
+	Persian	Persan	ເປີເຊຍ
+	Irish	Irlandais	ໄອຣິຊ
+	Galician	Galicien	ກາລິເຊຍ
+	Hungarian	Hongrois	ຮັງກາຣີ
+	Armenian	Arménien	ອາເມເນຍ
+	Icelandic	Islandais	ໄອສແລນ
+	Georgian	Géorgien	ຈໍເຈຍ
+	Lithuanian	Lituanien	ລິທົວເນຍ
+	Latvian	Letton	ລັດເວຍ
+	Macedonian	Macédonien	ມາເຊໂດເນຍ
+	Norwegian (Nynorsk)	Norvégien (nynorsk)	ນໍເວ (ນີນໍສກ໌)
+	Slovak	Slovaque	ສະໂລວັກ
+	Slovenian	Slovène	ສະໂລເວນີ
+	Albanian	Albanais	ອານບານີ
+	Swahili	Swahili	ສະວາຮີລີ
+	Tamil	Tamoul	ທະມິນ
+	Thai	Thaï	ໄທ
+	Vietnamese	Vietnamien	ຫວຽດນາມ
+	Set as Default Language	Définir comme langue par défaut	ຕັ້ງເປັນພາສາເລີ່ມຕົ້ນ
+	U.A.E.	Émirats arabes unis	ສະຫະລັດອາຣັບເອມີເຣດ
+	Angola	Angola	ອັງໂກລາ
+	Argentina	Argentine	ອາເຈນຕິນາ
+	Austria	Autriche	ໂອຕຣິດ
+	Australia	Australie	ອົດສະຕຣາລີ
+	Bosnia and Herzegovina	Bosnie-Herzégovine	ບອສເນຍ ແລະ ແຮກເຊໂກວີນາ
+	Belgium	Belgique	ແບນຊິກ
+	Bolivia	Bolivie	ໂບລິເວຍ
+	Brazil	Brésil	ບຣາຊິລ
+	Belarus	Biélorussie	ເບລາຣຸສ
+	Canada	Canada	ການາດາ
+	Switzerland	Suisse	ສະວິດເຊີແລນ
+	Chile	Chili	ຊີລີ
+	China	Chine	ຈີນ
+	Colombia	Colombie	ໂກລົມບີ
+	Costa Rica	Costa Rica	ຄອສຕາຣິກາ
+	Cuba	Cuba	ກູບາ
+	Cabo Verde	Cap-Vert	ກາໂບເວີດ
+	Cyprus	Chypre	ໄຊປຣັສ
+	Germany	Allemagne	ເຢຍລະມັນ
+	Dominican Republic	République dominicaine	ສາທາລະນະລັດໂດມິນິກັນ
+	Ecuador	Équateur	ເອກວາດໍ
+	Egypt	Égypte	ເອຢິບ
+	Spain	Espagne	ສະເປນ
+	Finland	Finlande	ແຟງລັງ
+	France	France	ຝຣັ່ງ
+	United Kingdom	Royaume-Uni	ສະຫະຣາຊະອານາຈັກ
+	Equatorial Guinea	Guinée équatoriale	ກີເນເອກວາຕໍຣຽນ
+	Guatemala	Guatemala	ກົວເຕມາລາ
+	Hong Kong SAR	R.A.S. de Hong Kong	ເຂດບໍລິຫານພິເສດຮົງກົງ
+	Honduras	Honduras	ຮອນດູຣັສ
+	Ireland	Irlande	ໄອແລນ
+	India	Inde	ອິນເດຍ
+	Iraq	Irak	ອີຣັກ
+	Italy	Italie	ອີຕາລີ
+	Jamaica	Jamaïque	ຈາໄມກາ
+	Jordan	Jordanie	ຈໍແດນ
+	Kuwait	Koweït	ຄູເວດ
+	Kazakhstan	Kazakhstan	ກາຊັກສະຖານ
+	Lebanon	Liban	ເລບານອນ
+	Liechtenstein	Liechtenstein	ລິກເຕນສະໄຕ
+	Luxembourg	Luxembourg	ລຸກຊຳບວກ
+	Morocco	Maroc	ມາຣົກ
+	Monaco	Monaco	ໂມນາໂກ
+	Montenegro	Monténégro	ມອນເຕເນໂກຣ
+	Macao SAR	R.A.S. de Macao	ເຂດບໍລິຫານພິເສດມາເກົ້າ
+	Mexico	Mexique	ເມັກຊິໂກ
+	Malaysia	Malaisie	ມາເລເຊຍ
+	Mozambique	Mozambique	ໂມຊຳບິກ
+	Nicaragua	Nicaragua	ນິກາຣາກົວ
+	Netherlands	Pays-Bas	ເນເທີແລນ
+	New Zealand	Nouvelle-Zélande	ນິວຊີແລນ
+	Panama	Panama	ປານາມາ
+	Peru	Pérou	ເປຣູ
+	Philippines	Philippines	ຟີລິບປິນ
+	Puerto Rico	Porto Rico	ປອກໂຕຣິໂກ
+	Portugal	Portugal	ປອກຕຸຍການ
+	Paraguay	Paraguay	ປາຣາກວາຍ
+	Qatar	Qatar	ກາຕາ
+	Russia	Russie	ຣັດເຊຍ
+	Singapore	Singapour	ສິງກະໂປ
+	El Salvador	Salvador	ເອນຊານວາດໍ
+	Syria	Syrie	ຊີເຣຍ
+	Taiwan	Taïwan	ໄຕ້ຫວັນ
+	Ukraine	Ukraine	ຢູເຄຣນ
+	United States	États-Unis	ສະຫະລັດອາເມຣິກາ
+	Uruguay	Uruguay	ອູຣູກວາຍ
+	Venezuela	Venezuela	ເວເນຊູເອລາ
+	South Africa	Afrique du Sud	ອາຟຣິກາໃຕ້
+
+# Descriptive feature names; legacy rows remain for earlier app pins.
+	Diagram	Diagramme	ແຜນວາດ
+	Insert Diagram	Insérer un diagramme	ແຊກແຜນວາດ
+	Diagram Design	Conception du diagramme	ອອກແບບແຜນວາດ
+	Diagram Styles	Styles de diagramme	ສະໄຕລ໌ແຜນວາດ
+	Decorative Text	Texte décoratif	ຂໍ້ຄວາມປະດັບ
+	Decorative Text Styles	Styles de texte décoratif	ສະໄຕລ໌ຂໍ້ຄວາມປະດັບ
+	select a diagram first	sélectionnez d’abord un diagramme	ເລືອກແຜນວາດກ່ອນ
+	this diagram was made in another program: WordCraft shows it but can't edit it	ce diagramme a été créé dans un autre programme : WordCraft l’affiche mais ne peut pas le modifier	ແຜນວາດນີ້ຖືກສ້າງໃນໂປຣແກຣມອື່ນ: WordCraft ສາມາດສະແດງໄດ້ ແຕ່ບໍ່ສາມາດແກ້ໄຂໄດ້
+	this diagram can't be edited	ce diagramme ne peut pas être modifié	ແຜນວາດນີ້ບໍ່ສາມາດແກ້ໄຂໄດ້
+@msg	a diagram holds at most {MAX_ITEMS} items	un diagramme contient au maximum {MAX_ITEMS} éléments	ແຜນວາດສາມາດບັນຈຸໄດ້ສູງສຸດ {MAX_ITEMS} ລາຍການ
+@msg	unknown decorative text style `{id}`	style de texte décoratif inconnu `{id}`	ບໍ່ຮູ້ຈັກສະໄຕລ໌ຂໍ້ຄວາມປະດັບ `{id}`
+	select a shape or decorative text first	sélectionnez d’abord une forme ou du texte décoratif	ເລືອກຮູບຮ່າງ ຫຼື ຂໍ້ຄວາມປະດັບກ່ອນ
