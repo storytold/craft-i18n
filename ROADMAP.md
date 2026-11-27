@@ -1,6 +1,6 @@
 # craft-i18n roadmap
 
-> **Last updated:** 2026-11-08 · **Change:** minor (3b: PhotoCraft cutover started)
+> **Last updated:** 2026-11-09 · **Change:** patch (Serbian spelling from sociolog/serbian-dictionaries 1.1.1)
 
 Shared translations for the storytold Crafting Apps: one catalog per locale for shared strings,
 one per app, checked in CI and embedded by each app at build time. Vocabulary is in
@@ -106,3 +106,4 @@ As surveyed on 2026-10-16 (VectorCraft recounted 2026-10-18). Locale counts excl
 | 2026-11-03 | minor | File sizes (storytold/craft-libs#204): `@plural {n} byte\|{n} bytes` moved from 20 locales' `pdfcraft.tsv` to `common.tsv` (additive, ADR 0003); `unit` rows (`{n} KB`, `{n} MiB`, …) only where the symbol differs from English: `fr`, `ru`, `uk` |
 | 2026-11-05 | minor | CADCraft resync before its cutover (`cadcraft@b23d362` → `cadcraft@c4d9e6a`): its Greek, Hungarian, Turkish and Vietnamese catalogs (added in the app after the 3b migration) are new here; every other CADCraft catalog takes the app's added and corrected rows and drops the prompt texts the app reworded |
 | 2026-11-08 | minor | 3b: PhotoCraft cutover sync (`photocraft@8d2e615` → `photocraft@70c0911`, 12 new PhotoCraft locales: ar, az, da, fi, he, hi, nb, ro, sv, ta, th, ur; `az` is new to craft-i18n); Hebrew's 35 `@plural` rows repeat the `other` form for CLDR's third form; credits follow PhotoCraft's `LICENSE-translations.txt` |
+| 2026-11-09 | patch | sr and sr-latn spelling from sociolog/serbian-dictionaries 1.1.1 (`49e667a`) instead of LibreOffice's `sr/`: LibreOffice's dictionary (4f1df64) with its errors corrected, under the same licences; check words for both |
