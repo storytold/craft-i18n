@@ -386,3 +386,9 @@ catalogs, with the same AI-assisted origin and no native-speaker review.
 ## PhotoCraft workspace recovery
 
 The two panel layout recovery messages were migrated from PhotoCraft commit `786d033ec` for `ar`, `cs`, `da`, `de`, `el`, `es`, `fi`, `fr`, `hi`, `hu`, `id`, `it`, `ja`, `ko`, `nb`, `nl`, `pl`, `pt-br`, `ru`, `sv`, `tr`, `uk`, `vi`, `zh-hans`, `zh-hant`. The sentence break and the Russian wording were edited with Codex assistance. No native-speaker review is recorded.
+
+## Hebrew LightCraft catalog
+
+Migrates 926 existing Hebrew UI translations (912 plain strings and 14 named format templates) from @nocturney's AI-assisted LightCraft PR #4101 (head c6574f53909cb98b47c52fa5a9dac03ca1e57056), checked against the current German and Spanish source-key inventories at ea033fbe1c6dacdc7e1e99ee5a3e9fa0ce35d78c. Original wording is retained; shared collisions and three anonymous positional format templates are deferred. No independent native-speaker review has been recorded.
+
+LightCraft follow-up: 32 existing library, import/export, metadata and rating labels migrated verbatim from @hrb9's official app PR storytold/lightcraft#4536 (83e852cc20e11ca0471539ac4b61e02343a18bb3), intersected with both current German and Spanish key inventories at 9866f15af8f768f03e038a8bd5c434974f39cdf9; prior partial source PR #4101, existing catalog and pending common catalogs excluded. No new translations claimed. The original author's AI-assistance and independent native-speaker review status are not documented in the source PR body; ChatGPT-assisted selection and structural verification only. Independent Hebrew and installed RTL/runtime review pending.

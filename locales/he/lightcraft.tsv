@@ -1,0 +1,973 @@
+# Hebrew (he) interface catalog for LightCraft.
+# Columns, separated by a TAB:  context <TAB> English source text <TAB> translation
+#   context  usually empty. `@plural`, `@id` and `@msg` mean something to the apps; any other
+#            word is a label that tells apart two meanings of the same English.
+#   escapes  \n  \t  \\  inside a column. `{name}` placeholders must appear in both columns (in any
+#            order), and a trailing "…" in one needs one in the other.
+#   @plural  English `one|other`; the translation lists this language's plural forms, `|`-separated.
+#   Lines starting with # and blank lines are ignored. A missing entry shows in English.
+#
+# Clean room: every entry was written from the plain meaning of the English text in ordinary
+# computing vocabulary. No other product's localisation, string table or translated UI was
+# consulted or copied; add entries the same way.
+
+	(not in the library)	(לא בספרייה)
+	A fast, non-destructive photo library and raw developer: your originals stay untouched, and every edit can be revisited or reset.	ספריית תמונות מהירה וכלי לפיתוח קובצי RAW, עם עריכה שאינה משנה את המקור: הקבצים המקוריים נשארים כפי שהם, ואפשר לחזור לכל עריכה או לאפס אותה.
+	A folder is already being synchronized	כבר מתבצע סנכרון של תיקייה
+	A folder is being synchronized	מתבצע סנכרון של תיקייה
+	A keyword set needs a name	יש לתת שם לערכת מילות מפתח
+	AI Mask Model Status	מצב מודל מסכות AI
+	About LightCraft	אודות LightCraft
+	Accept & Download	אישור והורדה
+	Activity	פעילות
+	Actual size	גודל מקורי
+	Add Catchlight	הוספת החזר אור בעין
+	Add Face Model…	הוספת מודל לזיהוי פנים…
+	Add Folder to Local	הוספת תיקייה לאחסון המקומי
+	Add Keywords	הוספת מילות מפתח
+	Add Mask	הוספת מסכה
+	Add Object Click	הוספת לחיצה לבחירת אובייקט
+	Add Point Color Sample	הוספת דגימת צבע נקודתית
+	Add Red Eye Correction	הוספת תיקון עיניים אדומות
+	Add Remove Spot	הוספת נקודת תיקון
+	Add Selected Photos	הוספת התמונות הנבחרות
+	Add in place	הוספה מהמיקום הקיים
+	Add in place: the library references the files where they are; nothing is copied or moved.	הוספה מהמיקום הקיים: הספרייה מפנה לקבצים במיקומם הנוכחי, ללא העתקה או העברה.
+	Add keyword	הוספת מילת מפתח
+	Add number	הוספת מספר
+	Add or Remove Keyword Shortcut	הוספה או הסרה של קיצור למילת מפתח
+	Add text overlay	הוספת רכיב טקסט מעל התמונה
+	Add to	הוספה אל
+	Add to Album	הוספה לאלבום
+	Add to All Selected Photos	הוספה לכל התמונות הנבחרות
+	Add to Apple Photos	הוספה ל־Apple Photos
+	Add to Favorites	הוספה למועדפים
+	Add to Local	הוספה לאחסון המקומי
+	Add to My Photos	הוספה לתמונות שלי
+	Add to My Photos First	יש להוסיף תחילה לתמונות שלי
+	Add to Selected Photos	הוספה לתמונות הנבחרות
+	Add to Target Album	הוספה לאלבום היעד
+	Add to this mask	הוספה למסכה זו
+	Add/Subtract/Intersect Mask	הוספה למסכה / גריעה ממנה / חיתוך משותף
+	Adding	מתבצעת הוספה
+	Adding Lightroom photos…	מתבצעת הוספת תמונות מ־Lightroom…
+	Adding photos…	מוסיף תמונות…
+	Adding to Apple Photos	מתבצעת הוספה ל־Apple Photos
+	Advanced search…	חיפוש מתקדם…
+	After 30 days	לאחר 30 יום
+	After 7 days	לאחר 7 ימים
+	After 90 days	לאחר 90 יום
+	After a year	לאחר שנה
+	Album	אלבום
+	Albums	אלבומים
+	Albums hold library photos: Add to My Photos first	אלבומים מכילים תמונות מהספרייה: תחילה הוסיפו אותן ל״התמונות שלי״
+	All Mask Overlays	כל שכבות־העל של המסכות
+	All Metadata	כל המטא־נתונים
+	All Metadata…	כל המטא־נתונים…
+	All Photos	כל התמונות
+	All rights reserved	כל הזכויות שמורות
+	All the photos imported from this disk are included.	כל התמונות שיובאו מהדיסק הזה נכללות.
+	All types	כל הסוגים
+	Already installed. Remove it before installing a replacement.	כבר מותקן. יש להסיר אותו לפני התקנת גרסה חלופית.
+	Alt Text	טקסט חלופי
+	Analyzing the photo for AI masks…	מנתח את התמונה לזיהוי מסכות באמצעות בינה מלאכותית…
+	Anchored to	מעוגן אל
+	Any Searchable Text	כל טקסט הניתן לחיפוש
+	Any keyword	כל מילת מפתח
+	Aperture	מפתח צמצם
+	Apply Color Label Set	החלת ערכת תוויות צבע
+	Apply Filter Preset	החלת מסנן שמור
+	Apply Metadata Preset	החלת ערכת מטא־נתונים
+	Apply Point Curve Preset	החלת ערכת עקומת נקודות
+	Apply Preset	החלת ערכת הגדרות
+	Apply Settings JSON	החל הגדרות JSON
+	Aqua Saturation	רוויה בתכלת
+	Arrange Panel	סדר את החלונית
+	As Shot	כפי שצולם
+	Aspect preview	תצוגה מקדימה של יחס הממדים
+	Assisted Culling	סינון תמונות בסיוע
+	Assisted Culling scores focus and exposure, finds bursts, and flags blurry shots as rejects, so the keepers surface fast.	המיון המסייע מדרג חדות וחשיפה, מזהה רצפי צילום ומסמן תמונות מטושטשות לדחייה, כדי למצוא במהירות את התמונות הטובות.
+	Assisted Culling…	סינון תמונות בסיוע…
+	Auto Advance	מעבר אוטומטי לתמונה הבאה
+	Auto Advance Off	מעבר אוטומטי כבוי
+	Auto Advance On	מעבר אוטומטי מופעל
+	Auto Advance after rating or flagging	מעבר אוטומטי אחרי דירוג או סימון בדגל
+	Auto Advance: move to the next photo after rating or flagging	התקדמות אוטומטית: מעבר לתמונה הבאה לאחר דירוג או סימון בדגל
+	Auto Align	יישור אוטומטי
+	Auto B&W Mix	ערבוב שחור־לבן אוטומטי
+	Auto Crop	חיתוך אוטומטי
+	Auto Import	ייבוא אוטומטי
+	Auto Import Now	ייבוא אוטומטי עכשיו
+	Auto Import Settings	הגדרות ייבוא אוטומטי
+	Auto Mask	מסכה אוטומטית
+	Auto Select	בחירה אוטומטית
+	Auto Settings	הגדרות אוטומטיות
+	Auto Straighten	יישור אופק אוטומטי
+	Auto Sync	סנכרון אוטומטי
+	Auto settings applied	ההגדרות האוטומטיות הוחלו
+	Auto-Stack by Capture Time	יצירת ערימות אוטומטית לפי זמן הצילום
+	Auto-Stack by Capture Time…	יצירת ערימות אוטומטית לפי זמן הצילום…
+	Auto-Tag Photos from Tracklog	תיוג תמונות אוטומטי לפי יומן מסלול
+	Auto-Tag from Tracklog	תיוג אוטומטי לפי יומן מסלול
+	Auto-Tag from Tracklog…	תיוג אוטומטי לפי יומן מסלול…
+	Auto: the photo's subject, estimated	אוטומטי: זיהוי משוער של נושא התמונה
+	Automatically Write Changes into XMP	כתיבת שינויים אוטומטית לקובצי XMP
+	Automatically write changes into XMP sidecars	כתיבת שינויים אוטומטית לקובצי XMP נלווים
+	Back	הקודם
+	Back Up Library…	גיבוי הספרייה…
+	Back to Edit (E)	חזרה לעריכה (E)
+	Back to Grid	חזרה לתצוגת רשת
+	Backdrop	רקע אחורי
+	Background colour	צבע הרקע
+	Background image	תמונת רקע
+	Before/After (Y)	לפני/אחרי (Y)
+	Before/After Side by Side	השוואת לפני ואחרי זה לצד זה
+	Blue Saturation	רוויה בכחול
+	Bring photos in with File › Import Photos…	כדי לייבא תמונות, בחרו קובץ › ייבוא תמונות…
+	Browse Folder	עיון בתיקייה
+	Browse Folder…	עיון בתיקייה…
+	Brush	מברשת
+	Brush Settings	הגדרות מברשת
+	Brush Stroke	משיכת מברשת
+	Build Smart Previews	צור תצוגות מקדימות חכמות
+	By Date	לפי תאריך
+	Camera	מצלמה
+	Camera Info	מידע על המצלמה
+	Camera make and model	יצרן ודגם המצלמה
+	Camera preview	תצוגה מקדימה מהמצלמה
+	Cameras and Cards	מצלמות וכרטיסי זיכרון
+	Cancel AI Mask Model Download	ביטול הורדת מודל מסכות AI
+	Cancel Denoise	ביטול הפחתת רעש
+	Cancel Denoise Model Download	ביטול הורדת מודל הפחתת רעש
+	Cancel Download	ביטול הורדה
+	Cancel Face Model Download	ביטול הורדת מודל זיהוי פנים
+	Cancel Interaction	ביטול פעולה
+	Cancel Preview Build	ביטול יצירת תצוגה מקדימה
+	Candidate	מועמד
+	Capture Date	תאריך הצילום
+	Capture date as YYYYMMDD	תאריך הצילום בפורמט YYYYMMDD
+	Captured	מועד הצילום
+	Cast shadow	הטלת צל
+	Catalog Statistics	נתונים סטטיסטיים של הקטלוג
+	Check All	סימון הכול
+	Check Output Path	בדיקת נתיב הפלט
+	Check the files of this type	בדיקת הקבצים מסוג זה
+	Checking free disk space	בודק מקום פנוי בדיסק
+	Checking names…	בודק שמות…
+	Checking raw files	בודק קובצי RAW
+	Checking the GPU for faces	בודק זיהוי פנים במעבד הגרפי (GPU)
+	Checking the GPU…	בודק את המעבד הגרפי (GPU)…
+	Checking…	בודק…
+	Choose Another Library…	בחירת ספרייה אחרת…
+	Choose Edit Settings to Copy	בחירת הגדרות עריכה להעתקה
+	Choose Edit Settings to Copy…	בחירת הגדרות עריכה להעתקה…
+	Choose Folder…	בחירת תיקייה…
+	Choose a PDF destination after confirming. Print the PDF from your viewer.	בחרו יעד לקובץ ה־PDF לאחר האישור. הדפיסו אותו באמצעות מציג ה־PDF.
+	Choose a photo in the grid or filmstrip	בחרו תמונה ברשת או ברצועת התמונות
+	Choose an album…	בחירת אלבום…
+	Clear Filters	ניקוי מסננים
+	Clear Quick Collection	ניקוי האוסף המהיר
+	Clear Recent Libraries	ניקוי רשימת הספריות האחרונות
+	Clear Reference	הסרת תמונת הייחוס
+	Clear rating	ניקוי הדירוג
+	Clear rating and advance	ניקוי הדירוג ומעבר לתמונה הבאה
+	Click photos in the grid to toggle the keyword; Esc stops	לחצו על תמונות ברשת להוספה או להסרה של מילת המפתח; Esc לסיום
+	Click to clear these filters	לחצו לניקוי המסננים האלה
+	Close file	סגור קובץ
+	Color Grading	דירוג צבעים
+	Color Label	תווית צבע
+	Color Label Names	שמות תוויות צבע
+	Color Label Sets	ערכות תוויות צבע
+	Color Mixer	מערבל צבעים
+	Color Noise Reduction	הפחתת רעש צבע
+	Color Priority	עדיפות צבע
+	Color Range	טווח צבעים
+	Color label cleared	תווית הצבע נוקתה
+	Color space	מרחב צבע
+	Color space: Rec. 2020 PQ (HDR AVIF)	מרחב צבע: Rec. 2020 PQ (HDR AVIF)
+	Color space: Rec. 2020 PQ (HDR JPEG XL)	מרחב צבע: Rec. 2020 PQ (HDR JPEG XL)
+	Color space: Rec. 2020 PQ, 16-bit (HDR PNG)	מרחב צבע: Rec. 2020 PQ,‏ 16 סיביות (HDR PNG)
+	Color space: sRGB (AVIF)	מרחב צבע: sRGB (AVIF)
+	Colour wash	שכבת גוון
+	Compare (Shift+C)	השוואה (Shift+C)
+	Compare needs at least two photos	להשוואה דרושות לפחות שתי תמונות
+	Confirm before deleting	בקשת אישור לפני מחיקה
+	Confirm before moving photos to Recently Deleted	בקשת אישור לפני העברת תמונות לנמחקו לאחרונה
+	Confirm before moving photos to another folder on disk	בקשת אישור לפני העברת תמונות לתיקייה אחרת בדיסק
+	Constrain Crop	הגבלת החיתוך למסגרת
+	Contact Sheet PDF	גיליון תמונות ממוזערות ב־PDF
+	Content-Aware	מילוי מותאם לתוכן
+	Copy After's Settings to Before	העתקת הגדרות ״אחרי״ אל ״לפני״
+	Copy Before to After	העתקת ״לפני״ אל ״אחרי״
+	Copy Before's Settings to After	העתקת הגדרות ״לפני״ אל ״אחרי״
+	Copy Edit Settings	העתקת הגדרות עריכה
+	Copy History Step Settings to Before	העתקת הגדרות שלב בהיסטוריה למצב ״לפני״
+	Copy Metadata	העתקת מטא־נתונים
+	Copy Name	העתקת השם
+	Copy as DNG	העתקה כ־DNG
+	Copy into the library (else use the files where they are)	העתקה לספרייה (אחרת משתמשים בקבצים במיקומם הנוכחי)
+	Copy pages	העתקת עמודים
+	Copy to	העתקה אל
+	Copy to Clipboard	העתקה ללוח
+	Copyright Info URL	כתובת מידע על זכויות יוצרים
+	Copyright Status	מצב זכויות היוצרים
+	Create Album	צור אלבום
+	Create Album…	צור אלבום…
+	Create Folder	יצירת תיקייה
+	Create Folder…	יצירת תיקייה…
+	Create Keyword Tag	יצירת תגית מילת מפתח
+	Create New Mask	יצירת מסכה חדשה
+	Create Preset…	יצירת ערכת הגדרות…
+	Create Smart Album	יצירת אלבום חכם
+	Create Smart Album from Filter…	יצירת אלבום חכם מהמסנן…
+	Create Smart Album…	יצירת אלבום חכם…
+	Create Virtual Copy	יצירת עותק וירטואלי
+	Creator	יוצר
+	Crop & Rotate	חיתוך וסיבוב
+	Crop & Rotate (C)	חיתוך וסיבוב (C)
+	Crop Aspect	יחס ממדי החיתוך
+	Crop, Rotate, Geometry	חיתוך, סיבוב וגאומטריה
+	Cropped	חתוך
+	Cull a shoot	בחירת התמונות המוצלחות
+	Cycle Crop Overlay	החלפת שכבת העזר לחיתוך
+	Cycle Crop Overlay Orientation	החלפת כיוון שכבת העזר לחיתוך
+	Cycle Mask Overlay Color	מעבר בין צבעי שכבת־העל של המסכה
+	Cycle Mask Overlay Mode	מעבר בין מצבי שכבת־העל של המסכה
+	Date Groups	קבוצות תאריכים
+	Decrease Brush Feather	הקטנת ריכוך שולי המברשת
+	Decrease Brush Size	הקטנת גודל המברשת
+	Dehaze	הסרת אובך
+	Delete (⌫)	מחיקה (⌫)
+	Delete Album	מחק אלבום
+	Delete All Masks	מחיקת כל המסכות
+	Delete Color Label Set	מחיקת ערכת תוויות צבע
+	Delete Component	מחיקת רכיב
+	Delete Export Preset	מחיקת ערכת ייצוא
+	Delete Filter Preset	מחיקת מסנן שמור
+	Delete Imported Profile	מחיקת פרופיל שיובא
+	Delete Keyword	מחיקת מילת מפתח
+	Delete Keyword Set	מחיקת ערכת מילות מפתח
+	Delete Keyword…	מחיקת מילת מפתח…
+	Delete Metadata Preset	מחיקת ערכת מטא־נתונים
+	Delete Permanently	מחיקה לצמיתות
+	Delete Photo	מחיקת תמונה
+	Delete Photos	מחיקת תמונות
+	Delete Point Color	מחיקת צבע נקודתי
+	Delete Point Color Sample	מחיקת דגימת צבע נקודתי
+	Delete Point Curve Preset	מחיקת ערכת עקומת נקודות
+	Delete Preset	מחיקת ערכת הגדרות
+	Delete Red Eye	מחיקת תיקון עיניים אדומות
+	Delete Red Eye Correction	מחיקת תיקון העיניים האדומות
+	Delete Spot	מחיקת תיקון נקודתי
+	Delete Version	מחיקת גרסה
+	Delete all	מחיקת הכול
+	Delete all spots	מחיקת כל התיקונים הנקודתיים
+	Delete mask	מחיקת מסכה
+	Delete them	מחיקת הפריטים
+	Denoise Model Downloads	הורדות מודלים להפחתת רעש
+	Denoise Models	מודלים להפחתת רעש
+	Denoise Photos	הפחתת רעש מתמונות
+	Denoise Settings	הגדרות הפחתת רעש
+	Denoise Status	מצב הפחתת רעש
+	Denoise all photos with an Amount	הפחתת רעש בכל התמונות לפי עוצמה
+	Destination library	ספריית היעד
+	Detail	פירוט
+	Detect Faces	זיהוי פנים
+	Detect Faces (Photo menu) needs it: a small one-time download.	התכונה ״זיהוי פנים״ בתפריט תמונה זקוקה למודל הזה: הורדה חד־פעמית קטנה.
+	Detection	זיהוי
+	Develop a photo	פיתוח תמונה
+	Discard Preview Cache	מחיקת מטמון התצוגות המקדימות
+	Discarding smart previews	מחיקת תצוגות מקדימות חכמות
+	Download Lens Database	הורדת מסד נתוני עדשות
+	Drag along the horizon; double-click for Auto	יש לגרור לאורך קו האופק; לחיצה כפולה ליישור אוטומטי
+	Draw Guides	ציור קווי עזר
+	Drop to import	שחררו כדי לייבא
+	Duplicate Component	שכפול רכיב
+	Duplicate Mask	שכפול מסכה
+	Duplicate and Invert Mask	שכפול מסכה והיפוכה
+	Edit (E)	עריכה (E)
+	Edit Capture Time	עריכת זמן הצילום
+	Edit Capture Time…	עריכת זמן הצילום…
+	Edit Color Label Names	עריכת שמות תוויות הצבע
+	Edit Color Label Names…	עריכת שמות תוויות הצבע…
+	Edit Copy for External Editor	עותק עריכה לעורך חיצוני
+	Edit Date	עריכת תאריך
+	Edit Info	עריכת מידע
+	Edit Keyword Set	עריכת ערכת מילות מפתח
+	Edit Keyword Tag	עריכת תגית מילת מפתח
+	Edit Keyword Tag…	עריכת תגית מילת מפתח…
+	Edit Keywords	עריכת מילות מפתח
+	Edit Label Names	עריכת שמות התוויות
+	Edit Label Names…	עריכת שמות התוויות…
+	Edit Mask	עריכת מסכה
+	Edit Mask Component	עריכת רכיב מסכה
+	Edit Panel	חלונית עריכה
+	Edit Sections	עריכת מקטעים
+	Edit Set…	עריכת ערכה…
+	Edit Smart Album	עריכת אלבום חכם
+	Edit Smart Album…	עריכת אלבום חכם…
+	Edit Spot	עריכת תיקון נקודתי
+	Edit in External Editor	עריכה בעורך חיצוני
+	Edit settings copied	הגדרות העריכה הועתקו
+	Edited	נערך
+	Edited or not	נערך או לא נערך
+	Empty Recently Deleted	ריקון נמחקו לאחרונה
+	Enable Lens Corrections	הפעלת תיקוני עדשה
+	Enable Profile Corrections	הפעלת תיקונים לפי פרופיל
+	Enter Keywords	הזנת מילות מפתח
+	Enter a date as YYYY-MM-DD HH:MM:SS	הזינו תאריך בפורמט YYYY-MM-DD HH:MM:SS
+	Every EXIF, GPS and XMP field in the file	כל שדות EXIF, GPS ו־XMP בקובץ
+	Everything in LightCraft is a command, so AI agents can drive the running app over MCP: culling, editing, exporting on your word.	כל פעולה ב־LightCraft היא פקודה, ולכן סוכני AI יכולים להפעיל את היישום דרך MCP: למיין תמונות, לערוך ולייצא לפי ההנחיות שלכם.
+	Export Album with Preset	ייצוא אלבום באמצעות ערכת הגדרות
+	Export Album…	ייצוא אלבום…
+	Export Containing Keywords	ייצוא מילות מפתח מכילות
+	Export Group…	ייצוא קבוצה…
+	Export JPEG…	ייצוא JPEG…
+	Export Keywords	ייצוא מילות מפתח
+	Export Keywords…	ייצוא מילות מפתח…
+	Export Now	ייצוא כעת
+	Export PDF…	ייצוא PDF…
+	Export Point Curve Presets	ייצוא ערכות עקומת נקודות
+	Export Point Curve Presets…	ייצוא ערכות עקומת נקודות…
+	Export Presets	ייצוא ערכות הגדרות
+	Export Presets…	ייצוא ערכות הגדרות…
+	Export Slideshow	ייצוא מצגת
+	Export Slideshow Template	ייצוא תבנית מצגת
+	Export Slideshow: folder for the JPEG files	ייצוא מצגת: תיקייה לקובצי JPEG
+	Export Slideshow…	ייצוא מצגת…
+	Export Synonyms	ייצוא מילים נרדפות
+	Export User Presets…	ייצוא ערכות משתמש…
+	Export Video…	ייצוא וידאו…
+	Export renders JPEG, PNG, TIFF, WebP and more, sized as you like; Print lays a photo out on a page as PDF.	הייצוא יוצר קובצי JPEG, PNG, TIFF, WebP ועוד, בגודל שתבחרו; ההדפסה מסדרת תמונה בעמוד PDF.
+	Export stopped unexpectedly	הייצוא נעצר באופן בלתי צפוי
+	Export with Preset	ייצוא באמצעות ערכת הגדרות
+	Export with Previous	ייצוא עם ההגדרות הקודמות
+	Exporting	מייצא
+	Exporting contact sheet	מייצא גיליון תמונות ממוזערות
+	Exporting slideshow	מייצא מצגת
+	Exposure (shutter · aperture · ISO)	חשיפה (מהירות תריס · מפתח צמצם · ISO)
+	Extended Description	תיאור מורחב
+	Face Boxes	תיבות זיהוי פנים
+	Face Model Downloads	הורדות מודלים לזיהוי פנים
+	Face Models	מודלים לזיהוי פנים
+	Face Recognition On/Off	הפעלה או כיבוי של זיהוי פנים
+	Face Tracking	מעקב פנים
+	Face boxes	תיבות זיהוי פנים
+	Face detector	מזהה פנים
+	Face names written to XMP by Lightroom and other apps show up here.	שמות פנים שנכתבו בקובצי XMP באמצעות Lightroom ויישומים אחרים מופיעים כאן.
+	Face recognition	זיהוי פנים
+	Face recognition is off. Turn it on to get name suggestions and see look-alike faces together.	זיהוי הפנים כבוי. הפעילו אותו לקבלת הצעות לשמות ולצפייה בפרצופים דומים יחד.
+	Face recognition is on	זיהוי הפנים מופעל
+	Face recognition needs a model to suggest names: a one-time download, in Settings.	כדי להציע שמות, זיהוי הפנים דורש מודל שאפשר להוריד פעם אחת דרך ההגדרות.
+	Face tracking	מעקב פנים
+	Faces	פנים
+	Faces of a Person	תמונות פנים של אדם
+	Failed	נכשל
+	Failed its last test	הבדיקה האחרונה שלו נכשלה
+	Favorite	מועדף
+	Favorite Preset	ערכת הגדרות מועדפת
+	Favorite Profile	פרופיל מועדף
+	File & date	קובץ ותאריך
+	File Path	נתיב הקובץ
+	File Type	סוג הקובץ
+	File name	שם קובץ
+	File types:	סוגי קבצים:
+	File › Export…	קובץ › ייצוא…
+	File › Export… · File › Print…	קובץ › ייצוא… · קובץ › הדפסה…
+	Filename	שם קובץ
+	Filename captions	כיתובים מתוך שמות קבצים
+	Fill Location	מילוי פרטי מיקום
+	Filter Bar	סרגל סינון
+	Filter Keywords	סינון מילות מפתח
+	Filter Presets	מסננים שמורים
+	Filter bar	סרגל סינון
+	Filter fields	שדות סינון
+	Find Dust Spots	איתור כתמי אבק
+	Find Missing Photos	איתור תמונות חסרות
+	Find Missing Photos…	איתור תמונות חסרות…
+	Find Similar Photos	איתור תמונות דומות
+	Find Subject	איתור נושא התמונה
+	Find and organize	איתור וארגון
+	Find tools and commands…	חיפוש כלים ופקודות…
+	Finding faces	מאתר פנים
+	Finding the subject… The first time on a photo takes a while.	מאתר את נושא התמונה… הפעולה הראשונה בתמונה עשויה להימשך זמן מה.
+	Finish Lightroom catalog import before adding photos	יש לסיים את ייבוא קטלוג Lightroom לפני הוספת תמונות
+	Fix the marked rules to save this album.	תקנו את הכללים המסומנים כדי לשמור את האלבום.
+	Flag	סימון בדגל
+	Flagged as Pick	סומנה כנבחרת
+	Flagged as Reject	סומנה לדחייה
+	Flip H	היפוך אופקי
+	Flip Overlay (⇧O)	היפוך שכבת העזר (⇧O)
+	Flip V	היפוך אנכי
+	Focal length	אורך מוקד
+	Focus point	נקודת מיקוד
+	Folder name (renamed on disk; its photos follow)	שם התיקייה (ישתנה גם בדיסק, יחד עם התמונות שבה)
+	GPS Track Log	יומן מסלול GPS
+	Generated demo photo	תמונת הדגמה שנוצרה
+	Get Started	בואו נתחיל
+	Global Saturation	רוויה כללית
+	Green Saturation	רוויה בירוק
+	Grid Info	מידע ברשת
+	Group by Date: Automatic	קיבוץ לפי תאריך: אוטומטי
+	Group by date	קיבוץ לפי תאריך
+	Guided	מונחה
+	Guided Perspective	תיקון פרספקטיבה מודרך
+	HDR TIFF needs 32-bit float.	TIFF ב־HDR מחייב נקודה צפה של 32 סיביות.
+	HDR output	פלט HDR
+	Heal	תיקון
+	Heal the small, soft dark spots sensor dust leaves on smooth areas	תיקון כתמים כהים קטנים ומטושטשים שאבק על החיישן מותיר באזורים חלקים
+	Hide Mask	הסתרת מסכה
+	Hide This Section	הסתרת המקטע הזה
+	Highlight	הדגשה
+	Highlights Hue	גוון באזורים בהירים
+	Highlights Luminance	בהיקות באזורים בהירים
+	Highlights Saturation	רוויה באזורים בהירים
+	Identity plate	לוחית מיתוג
+	If file exists	אם הקובץ קיים
+	Import Date	תאריך ייבוא
+	Import Keywords	ייבוא מילות מפתח
+	Import Keywords…	ייבוא מילות מפתח…
+	Import Lightroom Catalog	ייבוא קטלוג Lightroom
+	Import Lightroom Catalog…	ייבוא קטלוג Lightroom…
+	Import Photos	ייבוא תמונות
+	Import Photos…	ייבוא תמונות…
+	Import Point Curve Presets	ייבוא ערכות עקומת נקודות
+	Import Point Curve Presets…	ייבוא ערכות עקומת נקודות…
+	Import Presets	ייבוא ערכות הגדרות
+	Import Presets…	ייבוא ערכות הגדרות…
+	Import Profiles	ייבוא פרופילים
+	Import Profiles & Presets…	ייבוא פרופילים וערכות הגדרות…
+	Import Slideshow Templates	ייבוא תבניות מצגת
+	Import Thumbnail Size	גודל תמונות ממוזערות בעת ייבוא
+	Import as new	ייבוא כחדש
+	Import dropped files without review	ייבוא קבצים שנגררו ללא סקירה
+	Import from Device	ייבוא מהתקן
+	Import from Folder…	ייבוא מתיקייה…
+	Import new photos	ייבוא תמונות חדשות
+	Import photos to get started	ייבוא תמונות כדי להתחיל
+	Imported	יובא
+	Imported Photos	תמונות שיובאו
+	Importing	מייבא
+	Importing Lightroom Catalog	מייבא קטלוג Lightroom
+	Importing Lightroom catalog	מייבא קטלוג Lightroom
+	In Recently Deleted	בנמחקו לאחרונה
+	In library	בספרייה
+	Include on Export	הכללה בייצוא
+	Include subfolders	כולל תיקיות משנה
+	Increase Brush Feather	הגדלת ריכוך שולי המברשת
+	Increase Brush Size	הגדלת גודל המברשת
+	Info Overlay: Exposure	שכבת מידע: חשיפה
+	Inspect Photo	בדיקת תמונה
+	Into one folder	לתיקייה אחת
+	Intro screen	מסך פתיחה
+	It tests this album, so testing it back would loop	הוא בודק את האלבום הזה; בדיקה הפוכה תיצור לולאה
+	JPEG (Large)	JPEG (גדול)
+	JPEG (Small)	JPEG (קטן)
+	Keyword	מילת מפתח
+	Keyword Count	מספר מילות מפתח
+	Keyword List	רשימת מילות מפתח
+	Keyword Lists	רשימות מילות מפתח
+	Keyword Name	שם מילת המפתח
+	Keyword Painter	מברשת מילות מפתח
+	Keyword Set	ערכת מילות מפתח
+	Keyword Sets	ערכות מילות מפתח
+	Keyword Shortcut	קיצור למילת מפתח
+	Keyword Suggestions	הצעות למילות מפתח
+	Keyword Tag Options	אפשרויות תגית מילת מפתח
+	Keyword to paint	מילת מפתח לצביעה
+	Keywords & People	מילות מפתח ואנשים
+	Keywords (K)	מילות מפתח (K)
+	Keywords (⌥1–⌥9)	מילות מפתח (⌥1–⌥9)
+	Keywords of the selection	מילות המפתח של הבחירה
+	Keywords you add appear here; ⌥1–⌥9 apply them.	מילות המפתח שתוסיפו יופיעו כאן; המקשים ⌥1–⌥9 יחילו אותן.
+	Keywords, separated by commas	מילות מפתח, מופרדות בפסיקים
+	Lens	עדשה
+	Lens Blur	טשטוש עדשה
+	Lens Corrections	תיקוני עדשה
+	Lens Profiles	פרופילי עדשות
+	Lens database	מסד נתוני עדשות
+	Lens profiles	פרופילי עדשות
+	Library Folders	תיקיות הספרייה
+	Library Info	מידע על הספרייה
+	Library Originals	קובצי המקור של הספרייה
+	Library Preferences	העדפות הספרייה
+	Library State	מצב הספרייה
+	Library name	שם הספרייה
+	Library saved	הספרייה נשמרה
+	Lightroom Catalog Import	ייבוא קטלוג Lightroom
+	Lightroom import cancelled	ייבוא מ־Lightroom בוטל
+	Lightroom inspection cancelled	סריקת קטלוג Lightroom בוטלה
+	Limit file size (KB, 0 = off)	מגבלת גודל קובץ (KB, 0 = ללא הגבלה)
+	Link all margins	קישור כל השוליים
+	List Albums	רשימת אלבומים
+	Locate Photo	איתור תמונה
+	Lock Crop Aspect	נעילת יחס החיתוך
+	Looking for photos…	מחפש תמונות…
+	Magenta Saturation	רוויה במג׳נטה
+	Make Candidate the Select	הפיכת המועמד לנבחר
+	Mask Adjustment	כוונון המסכה
+	Mask Overlay	שכבת מידע של מסכה
+	Mask Pins	נעצי מסכה
+	Masking	מיסוך
+	Masking (M)	מיסוך (M)
+	Merge Keywords	מיזוג מילות מפתח
+	Metadata Preset	ערכת מטא־נתונים
+	Metadata Presets	ערכות מטא־נתונים
+	Metadata preset	ערכת מטא־נתונים
+	Metadata read	מטא־נתונים נקראו
+	Midtones Saturation	רוויה בגווני ביניים
+	Missing Photos	תמונות חסרות
+	Modified Date	תאריך שינוי
+	More preset options	אפשרויות נוספות לערכת ההגדרות
+	Move Album	העברת אלבום
+	Move Folder	העברת תיקייה
+	Move Folder To…	העברת תיקייה אל…
+	Move Photos	העברת תמונות
+	Move Selected Photos Here	העברת התמונות שנבחרו לכאן
+	Move to Folder	העברה לתיקייה
+	Move to Folder…	העברה לתיקייה…
+	Moves the files and their XMP sidecars into this folder; never overwrites	העברת הקבצים וקובצי ה־XMP הנלווים לתיקייה הזו, ללא דריסת קבצים קיימים
+	New Album	אלבום חדש
+	New Album…	אלבום חדש…
+	New Folder on Disk	תיקייה חדשה בדיסק
+	New Folder on Disk…	תיקייה חדשה בדיסק…
+	New Folder…	תיקייה חדשה…
+	New Group…	קבוצה חדשה…
+	New Library	ספרייה חדשה
+	New Library: Choose Where to Put It	ספרייה חדשה: בחירת מיקום
+	New Library…	ספרייה חדשה…
+	New Smart Album	אלבום חכם חדש
+	New Smart Album from Filter…	אלבום חכם חדש מהמסנן…
+	New Smart Album…	אלבום חכם חדש…
+	New album	אלבום חדש
+	New album…	אלבום חדש…
+	New blank PDF	PDF ריק חדש
+	New name	שם חדש
+	New template name	שם תבנית חדשה
+	New time	זמן חדש
+	Next Keyword Set	ערכת מילות המפתח הבאה
+	Next Photo	התמונה הבאה
+	No Camera or Card Found	לא נמצאו מצלמה או כרטיס זיכרון
+	No Date Groups	אין קבוצות תאריכים
+	No Label	ללא תווית
+	No Recent Libraries	אין ספריות אחרונות
+	No Stars	אין דירוג כוכבים
+	No Tool	אין כלי
+	No albums match	לא נמצאו אלבומים תואמים
+	No albums yet	עדיין אין אלבומים
+	No automatic versions.	אין גרסאות אוטומטיות.
+	No camera	אין מצלמה
+	No contributor data was built into this copy.	לא נכללו נתוני ייחוס במהדורה זו.
+	No date	אין תאריך
+	No dust spots found	לא נמצאו כתמי אבק
+	No edits yet.	עדיין אין עריכות.
+	No exposure information	אין מידע על חשיפה
+	No filter presets yet	עדיין אין מסננים שמורים
+	No folders to browse	אין תיקיות לעיון
+	No graphics processor found: LightCraft renders on the CPU, which is much slower. Details in Help → System Info.	לא נמצא מעבד גרפי: LightCraft יעבד באמצעות המעבד הראשי (CPU), וזה איטי בהרבה. פרטים בעזרה ← מידע על המערכת.
+	No imported folders yet	עדיין לא יובאו תיקיות
+	No keywords are exported	לא מיוצאות מילות מפתח
+	No keywords match	לא נמצאו מילות מפתח תואמות
+	No keywords yet	עדיין אין מילות מפתח
+	No lens data embedded in this file.	אין בקובץ הזה נתוני עדשה מוטמעים.
+	No masks yet. Choose a mask type above.	עדיין אין מסכות. בחרו סוג מסכה למעלה.
+	No matching photos	לא נמצאו תמונות תואמות
+	No metadata found	לא נמצאו מטא־נתונים
+	No model credits were built into this copy.	לא נכללו פרטי ייחוס למודל במהדורה זו.
+	No named people in these photos	אין אנשים מזוהים בשמם בתמונות האלה
+	No named people yet	עדיין אין אנשים מזוהים בשמם
+	No new presets	אין ערכות הגדרות חדשות
+	No photo selected	לא נבחרה תמונה
+	No photos	אין תמונות
+	No photos found	לא נמצאו תמונות
+	No photos in this folder	אין תמונות בתיקייה הזאת
+	No photos match the active filters	אין תמונות שמתאימות למסננים הפעילים
+	No photos match the filters (View → Clear Filters)	אין תמונות שמתאימות למסננים (תצוגה ← ניקוי מסננים)
+	No photos yet	עדיין אין תמונות
+	No raw photos yet: cameras appear here once their photos are in the library.	עדיין אין תמונות RAW: המצלמות יופיעו כאן לאחר ייבוא התמונות לספרייה.
+	No reference photo	אין תמונת ייחוס
+	No usable GPU found: rendering on the CPU	לא נמצא GPU מתאים: העיבוד מתבצע במעבד הראשי (CPU)
+	No versions yet. Create one to keep this look.	עדיין אין גרסאות. צרו גרסה לשמירת המראה הזה.
+	Noise Reduction	הפחתת רעש
+	Nothing to compare	אין מה להשוות
+	Nothing to survey	אין תמונות לסקירה
+	Object Mask	מסכת אובייקט
+	Open Library	פתח ספרייה
+	Open Library…	פתח ספרייה…
+	Open Log Folder	פתיחת תיקיית יומני הרישום
+	Open Recent Library	פתח ספרייה מהאחרונות
+	Open a photo to develop it: exposure, colour, detail and masks, all non-destructive. Use View › Before/After Side by Side to compare before and after.	פתחו תמונה כדי לכוונן חשיפה, צבע, פרטים ומסכות, בלי לשנות את הקובץ המקורי. להשוואה בחרו תצוגה › לפני ואחרי זה לצד זה.
+	Optimize Library	מיטוב הספרייה
+	Orange Saturation	רוויה בכתום
+	Original + Settings	מקור והגדרות
+	Original extension without the dot	סיומת הקובץ המקורי ללא נקודה
+	Original file name without its extension	שם הקובץ המקורי ללא הסיומת
+	Original files	קבצים מקוריים
+	Original offline · editing the smart preview	קובץ המקור אינו זמין · עורכים תצוגה מקדימה חכמה
+	Original offline · no smart preview	קובץ המקור אינו זמין · אין תצוגה מקדימה חכמה
+	Originals	קובצי מקור
+	Overlays	שכבות־על
+	Overwrite	דריסה
+	Paint over a distraction on the photo to remove it.	יש לצבוע מעל העצם המפריע בתמונה כדי להסיר אותו.
+	Parametric curve	עקומה פרמטרית
+	Part of the keyword shortcut	חלק מקיצור מילת המפתח
+	People	אנשים
+	People Count	מספר אנשים
+	Person	אדם
+	Perspective Correction	תיקון פרספקטיבה
+	Perspective Guides	קווי עזר לפרספקטיבה
+	Photo Counts	ספירת תמונות
+	Photo Grid	רשת תמונות
+	Photo Grid (G)	רשת תמונות (G)
+	Photo Merge	מיזוג תמונות
+	Photo › Assisted Culling…	תמונה › מיון מסייע…
+	Photos	תמונות
+	Photos per bracket (0 = auto)	תמונות בכל רצף חשיפות (0 = אוטומטי)
+	Pick	סימון לבחירה
+	Pick Flag	דגל בחירה
+	Pick a date	בחירת תאריך
+	Pick the sharpest photo of each burst	בחירת התמונה החדה ביותר מכל רצף צילום
+	Picked	נבחרו
+	Picks	תמונות שנבחרו
+	Place names download cancelled	הורדת שמות מקומות בוטלה
+	Playback	ניגון
+	Point Color	צבע נקודתי
+	Point Curve	עקומת נקודות
+	Point Curve Presets	ערכות עקומת נקודות
+	Preview Build Progress	התקדמות יצירת תצוגות מקדימות
+	Preview only	תצוגה מקדימה בלבד
+	Preview size	גודל תצוגה מקדימה
+	Preview unavailable	תצוגה מקדימה אינה זמינה
+	Previews	תצוגות מקדימות
+	Previous Keyword Set	ערכת מילות המפתח הקודמת
+	Previous Photo	התמונה הקודמת
+	Purge Unused Keywords	מחיקת מילות מפתח שאינן בשימוש
+	Purple Saturation	רוויה בסגול
+	Put New Keywords Inside This Keyword	הוספת מילות מפתח חדשות תחת מילת המפתח הזו
+	Put agents to work	עבודה עם סוכני AI
+	Quick Collection	אוסף מהיר
+	Quick Develop	פיתוח מהיר
+	Quit	יציאה
+	Rate ★	דירוג ★
+	Rate ★ and advance	דירוג ★ ומעבר הלאה
+	Rate ★★	דירוג ★★
+	Rate ★★ and advance	דירוג ★★ ומעבר הלאה
+	Rate ★★★	דירוג ★★★
+	Rate ★★★ and advance	דירוג ★★★ ומעבר הלאה
+	Rate ★★★★	דירוג ★★★★
+	Rate ★★★★ and advance	דירוג ★★★★ ומעבר הלאה
+	Rate ★★★★★	דירוג ★★★★★
+	Rate ★★★★★ and advance	דירוג ★★★★★ ומעבר הלאה
+	Rating stars	כוכבי דירוג
+	Read metadata updates from XMP sidecars	קריאת עדכוני מטא־נתונים מקובצי XMP נלווים
+	Reading photos…	קורא תמונות…
+	Recent Keywords	מילות מפתח אחרונות
+	Recent Keywords is built in: choose another name	״מילות מפתח אחרונות״ היא ערכה מובנית: בחרו שם אחר
+	Recent Libraries	ספריות אחרונות
+	Recently Added	נוספו לאחרונה
+	Recently Deleted	נמחקו לאחרונה
+	Red Eye	עיניים אדומות
+	Red Saturation	רוויה באדום
+	Refine AI Mask Detail	עידון פרטי מסכת AI
+	Refine Mask Edges	עידון קצוות המסכה
+	Refining the mask's detail…	משפר את פרטי המסכה…
+	Refresh Source (/)	רענון המקור (/)
+	Reject	דחייה
+	Reject below focus	דחיית תמונות מתחת לסף המיקוד
+	Rejected	נדחו
+	Rejects	תמונות שנדחו
+	Relink Photo	קישור מחדש של תמונה
+	Remove (H)	הסרה (H)
+	Remove CA	הסרת סטייה כרומטית
+	Remove Chromatic Aberration	הסרת סטייה כרומטית
+	Remove Denoise Model	הסרת מודל הפחתת רעש
+	Remove Disk from Library	הסרת דיסק מהספרייה
+	Remove Disk from Library…	הסרת דיסק מהספרייה…
+	Remove Face Box	הסרת תיבת זיהוי פנים
+	Remove Face Model	הסרת מודל זיהוי פנים
+	Remove Folder from Library	הסרת תיקייה מהספרייה
+	Remove a filter above, or choose Clear all	הסירו מסנן למעלה או בחרו ניקוי הכול
+	Remove from Album	הסרה מהאלבום
+	Remove from Favorites	הסרה מהמועדפים
+	Remove from Library…	הסרה מהספרייה…
+	Remove from Local	הסרה מהמקומי
+	Remove from Photo	הסרה מהתמונה
+	Remove from Selected Photos	הסרה מהתמונות שנבחרו
+	Remove from Stack	הסרה מערימת התמונות
+	Remove from Target Album	הסרה מאלבום היעד
+	Remove from survey	הסרה מתצוגת השוואה
+	Remove location info	הסרת פרטי מיקום
+	Remove missing photos from the library	הסרת תמונות חסרות מהספרייה
+	Remove shortcut	הסרת קיצור מקשים
+	Remove this face box (undo with Edit → Undo)	הסרת תיבת הפנים (אפשר לבטל באמצעות עריכה ▸ ביטול פעולה)
+	Remove this filter	הסרת המסנן הזה
+	Remove this group	הסרת הקבוצה הזו
+	Remove this rule	הסרת הכלל הזה
+	Removed	הוסר
+	Rename Album	שנה שם לאלבום
+	Rename Component	שינוי שם רכיב
+	Rename Folder	שינוי שם תיקייה
+	Rename Folder…	שנה שם לתיקייה…
+	Rename Keyword	שינוי שם מילת מפתח
+	Rename Keyword…	שינוי שם מילת מפתח…
+	Rename Mask	שינוי שם המסכה
+	Rename Photos	שינוי שמות תמונות
+	Rename Photos…	שינוי שמות תמונות…
+	Rename Preset	שינוי שם ערכת הגדרות
+	Rename Preview	שינוי שם תצוגה מקדימה
+	Rename Template Tags	שינוי שמות תגיות תבנית
+	Rename Version	שינוי שם גרסה
+	Render behind image	ציור מאחורי התמונה
+	Rendering	מעבד
+	Rendering…	מעבד…
+	Reorder Album	שינוי סדר האלבום
+	Reset All	איפוס הכול
+	Reset All Curves	איפוס כל העקומות
+	Reset Crop	איפוס החיתוך
+	Reset Edits	איפוס עריכות
+	Reset Parametric Curve	איפוס העקומה הפרמטרית
+	Reset Tone Curve	איפוס עקומת הגוונים
+	Reset all edits	איפוס כל העריכות
+	Reset layout	איפוס הפריסה
+	Resolution (ppi)	רזולוציה (ppi)
+	Restore (no shortcut)	שחזור (ללא קיצור מקשים)
+	Restore Library from Backup…	שחזור ספרייה מגיבוי…
+	Restore Version	שחזור גרסה
+	Restore them	שחזור הפריטים
+	Return applies the edit to the selected photos; Esc gives it up. An asterisk marks a keyword only some of them have.	הקשה על Enter מחילה את השינוי על התמונות שנבחרו; Esc מבטלת אותו. כוכבית מציינת מילת מפתח שקיימת רק בחלק מהן.
+	Return creates this keyword and gives it to the selected photos	Return ייצור את מילת המפתח ויחיל אותה על התמונות שנבחרו
+	Rights Usage Terms	תנאי שימוש בזכויות
+	Rotate Crop	סיבוב החיתוך
+	Rotate Crop Aspect	סיבוב יחס החיתוך
+	Rotate Left	סיבוב שמאלה
+	Rotate Right	סיבוב ימינה
+	Sample Mask Color	דגימת צבע המסכה
+	Saturation Range	טווח רוויה
+	Save Color Label Set	שמירת ערכת תוויות צבע
+	Save Current Filter as Preset…	שמירת המסנן הנוכחי כערכה…
+	Save Current Keywords as Set…	שמירת מילות המפתח הנוכחיות כערכה…
+	Save Export Preset	שמירת ערכת הגדרות ייצוא
+	Save Filter Preset	שמירת מסנן
+	Save Keyword Set	שמירת ערכת מילות מפתח
+	Save Metadata Preset	שמירת ערכת מטא־נתונים
+	Save Metadata Preset…	שמירת ערכת מטא־נתונים…
+	Save Metadata to File	שמירת מטא־נתונים בקובץ
+	Save Point Curve Preset	שמירת ערכת עקומת נקודות
+	Save Point Curve…	שמירת עקומת נקודות…
+	Save as Preset	שמירה כערכת הגדרות
+	Save as Set…	שמירה כערכה…
+	Save as Smart Album…	שמירה כאלבום חכם…
+	Save as a new set	שמירה כערכה חדשה
+	Save as set	שמירה כערכה
+	Save as…	שמור בשם…
+	Save preset	שמירת ערכת הגדרות
+	Scan failed	הסריקה נכשלה
+	Scanning	סורק
+	Scanning folder	סורק תיקייה
+	Scanning…	סורק…
+	Search Photos	חיפוש תמונות
+	Search albums	חיפוש באלבומים
+	Search commands or keys	חיפוש פקודות או מקשים
+	Search…	חיפוש…
+	Select Luminance Range	בחירת טווח בהיקות
+	Select Mask	בחירת מסכה
+	Select Photos	בחירת תמונות
+	Select Spot	בחירת תיקון נקודתי
+	Select a photo to edit	בחרו תמונה לעריכה
+	Select a photo to preview its slide	יש לבחור תמונה לתצוגה מקדימה של השקופית שלה
+	Select by	בחירה לפי
+	Select by Flag, Rating or Label	בחירה לפי דגל, דירוג או תווית
+	Select photos to give them keywords.	בחרו תמונות כדי להחיל עליהן מילות מפתח.
+	Select photos, then choose View → Survey (N)	בחרו תמונות ולאחר מכן תצוגה ← סקירה (N)
+	Select two photos, then choose View → Compare (Shift+C)	בחרו שתי תמונות ולאחר מכן תצוגה ← השוואה (Shift+C)
+	Selected	נבחרים
+	Separate several keywords with commas. Return gives them to the selected photos.	הפרידו בין מילות מפתח בפסיקים. Return יחיל אותן על התמונות שנבחרו.
+	Set Album Cover	הגדרת עטיפת אלבום
+	Set Crop	הגדרת חיתוך
+	Set Keyword Shortcut	הגדרת קיצור למילת מפתח
+	Set Keyword Shortcut…	הגדרת קיצור למילת מפתח…
+	Set as Album Cover	הגדרה כעטיפת אלבום
+	Set as Reference Photo	הגדרה כתמונת ייחוס
+	Set as Target Album	הגדרה כאלבום יעד
+	Set as Target Album (B adds to it)	הגדרה כאלבום יעד (B להוספה אליו)
+	Set date & time	הגדרת תאריך ושעה
+	Settings file problem	בעיה בקובץ ההגדרות
+	Settings new raw photos start from. Changing them doesn't touch photos already in the library.	הגדרות ברירת מחדל לתמונות RAW חדשות. שינוי שלהן לא ישפיע על תמונות שכבר בספרייה.
+	Settings pasted	ההגדרות הודבקו
+	Settings to include	הגדרות להכללה
+	Share your work	שיתוף העבודות
+	Sharpening	חידוד
+	Show Hidden Local Locations	הצגת מיקומים מקומיים מוסתרים
+	Show Original	הצגת המקור
+	Show Person	הצגת האדם
+	Show Photos with Keyword	הצגת תמונות עם מילת מפתח
+	Show Pins	הצגת נעצים
+	Show Sidebar Section	הצגת מקטע בסרגל הצד
+	Show Source	הצגת מקור
+	Show Thumbnails	הצגת תמונות ממוזערות
+	Show all overlays	הצגת כל שכבות המידע
+	Show commands without a shortcut	הצגת פקודות ללא קיצור מקשים
+	Show destination gamut warning	הצגת אזהרה על טווח צבעים ביעד
+	Show display gamut warning	הצגת אזהרה על טווח הצבעים במסך
+	Show every keyword of the selected photos	הצגת כל מילות המפתח של התמונות שנבחרו
+	Show fewer	הצגת פחות
+	Show file names	הצגת שמות הקבצים
+	Show guides	הצגת קווי עזר
+	Show in Explorer	הצגה בסייר הקבצים
+	Show in File Manager	הצגה במנהל הקבצים
+	Show in Finder	הצגה ב־Finder
+	Show in Folders	הצגה בתיקיות
+	Show in Library	הצגה בספרייה
+	Show less	הצגת פחות
+	Show on Map	הצגה במפה
+	Show overlay (O)	הצגת שכבת מידע (O)
+	Show ratings, flags and edit badges	הצגת דירוגים, דגלים וסימוני עריכה
+	Show the Navigator while zoomed in	הצגת חלונית הניווט בזמן הגדלה
+	Show the import review when a camera or card is connected	הצגת סקירת הייבוא בעת חיבור מצלמה או כרטיס
+	Show the template tags; click one to insert it	הצגת תגיות התבנית; לחצו על תגית כדי להוסיף אותה
+	Show/Hide Mask	הצגת מסכה או הסתרתה
+	Show/hide My Photos panel	הצגת חלונית התמונות שלי או הסתרתה
+	Shutter speed	מהירות תריס
+	Skip	דילוג
+	Slide	שקופית
+	Slideshow	הצגת שקופיות
+	Slideshow Templates	תבניות מצגת
+	Slideshow paused	המצגת הושהתה
+	Slideshow resumed	המצגת חודשה
+	Slideshow · Space pauses · Esc ends	מצגת · רווח להשהיה · Esc לסיום
+	Smart Album	אלבום חכם
+	Smart Album Rule Fields	שדות כללים של אלבום חכם
+	Smart Preview Status	מצב תצוגה מקדימה חכמה
+	Smart Previews Location	מיקום תצוגות מקדימות חכמות
+	Smart preview available	תצוגה מקדימה חכמה זמינה
+	Smart previews	תצוגות מקדימות חכמות
+	Smart previews folder changed	תיקיית התצוגות המקדימות החכמות שונתה
+	Some rules need fixing (Edit Smart Album…):	יש כללים שדורשים תיקון (עריכת אלבום חכם…):
+	Sort Albums A–Z	מיון אלבומים מא׳ עד ת׳
+	Sort Albums by Name	מיון אלבומים לפי שם
+	Sort Contents A–Z	מיון התוכן מא׳ עד ת׳
+	Spiral	ספירלה
+	Start the app with --control 7980 (or LIGHTCRAFT_CONTROL_PORT), then lightcraft-cli mcp --connect attaches one to it.	הפעילו את היישום עם --control 7980 (או הגדירו LIGHTCRAFT_CONTROL_PORT), ואז חברו סוכן באמצעות lightcraft-cli mcp --connect.
+	State / Province	מדינה / מחוז
+	Stop Building Previews	עצירת יצירת תצוגות מקדימות
+	Stop Using as Target Album	הפסקת שימוש כאלבום יעד
+	Stopped by an error (see the log)	הפעולה נעצרה עקב שגיאה (פרטים ביומן)
+	Straighten	יישור
+	Straighten Tool	כלי יישור
+	Stroke border	קו מסגרת
+	Subtract from this mask	החסרה מהמסכה הזו
+	Suggestions	הצעות
+	Swap Aspect (X)	החלפת כיוון יחס הגובה־רוחב (X)
+	Synchronize Folder	סנכרון תיקייה
+	Synchronize Folder…	סנכרון תיקייה…
+	Tags	תגיות
+	Template	תבנית
+	Text overlays	רכיבי טקסט מעל התמונה
+	The Photo Grid lays the library out as justified rows: rate, flag and colour-label, filter, and gather photos into albums.	רשת התמונות מציגה את הספרייה בשורות מיושרות. אפשר לדרג תמונות, לסמן אותן בדגל או בתווית צבע, לסנן ולארגן באלבומים.
+	The download didn't work:	ההורדה נכשלה:
+	The download failed	ההורדה נכשלה
+	The library is up to date with this folder.	הספרייה מעודכנת מול התיקייה הזו.
+	There is no LightCraft library in this folder any more.	בתיקייה הזו כבר אין ספריית LightCraft.
+	They can be restored from Recently Deleted until it is emptied.	אפשר לשחזר אותן מתוך נמחקו לאחרונה עד לריקון האזור.
+	Thirds	שלישים
+	This file cannot be used yet	עדיין אי אפשר להשתמש בקובץ הזה
+	This folder can't be read:	לא ניתן לקרוא את התיקייה:
+	This group is empty: add a rule or remove it.	הקבוצה ריקה: הוסיפו כלל או הסירו אותה.
+	This is the album you're editing	זה האלבום שאתם עורכים
+	This photo can't be opened	לא ניתן לפתוח את התמונה
+	Titles	כותרות
+	Toggle Keyword from Set	הוספה או הסרה של מילת מפתח מהערכה
+	Tone Curve	עקומת גוונים
+	Try Again	ניסיון חוזר
+	Try Saving Again	ניסיון שמירה נוסף
+	Try again	ניסיון חוזר
+	Try the graphics card again	ניסיון נוסף עם המעבד הגרפי
+	Unknown Date	תאריך לא ידוע
+	Update Preset with Current Settings	עדכון ערכת ההגדרות לפי ההגדרות הנוכחיות
+	Update Rules from Current Filter	עדכון הכללים לפי המסנן הנוכחי
+	Update Version	עדכון גרסה
+	Update Version with Current Settings	עדכון גרסה לפי ההגדרות הנוכחיות
+	Update with Current Settings	עדכון לפי ההגדרות הנוכחיות
+	Use Keyword Set	שימוש בערכת מילות מפתח
+	Use Library Folder	שימוש בתיקיית הספרייה
+	Use This as Keyword Shortcut	שימוש בזו כקיצור למילת מפתח
+	Use export watermark	שימוש בסימן המים לייצוא
+	Use selected photo	שימוש בתמונה הנבחרת
+	View › Detail View.	תצוגה › תצוגת פרטים.
+	View › Photo Grid.	תצוגה › רשת תמונות.
+	Viewing and sharing	צפייה ושיתוף
+	Visualize Spots (A)	המחשת כתמים (A)
+	Wait for the import to finish	יש להמתין לסיום הייבוא
+	Welcome	ברוכים הבאים
+	Welcome to LightCraft	ברוכים הבאים ל־LightCraft
+	White Balance	איזון לבן
+	White Balance Selector	בורר איזון לבן
+	White Balance Selector (W)	בורר איזון לבן (W)
+	Will Export	ייכלל בייצוא
+	Will be replaced	יוחלף
+	You can close this: the download continues, and resumes if interrupted.	אפשר לסגור את החלון: ההורדה תימשך ותתחדש אם תופרע.
+	Your library couldn't be opened	לא ניתן לפתוח את ספריית התמונות
+	Your library is empty	ספריית התמונות ריקה
+	Your name or studio	השם שלך או שם הסטודיו
+	Zoom 100%	הגדלה ל־100%
+	Zoom to Fit	התאמה לחלון
+	Zoom to fill frame	הגדלה למילוי המסגרת
+	can't test a folder; choose an album in it	אי אפשר לבדוק תיקייה; בחרו אלבום שבתוכה
+	has the first date after the second	התאריך הראשון מאוחר מהתאריך השני
+	latitude, longitude	קו רוחב, קו אורך
+	names an album that no longer exists	מציין אלבום שכבר אינו קיים
+	needs a date like 2026, 2026-08 or 2026-08-14	נדרש תאריך כגון 2026, 2026-08 או 2026-08-14
+	needs an album	נדרש אלבום
+	new keyword	מילת מפתח חדשה
+	photo waiting	תמונה ממתינה
+	photos waiting	תמונות ממתינות
+	this photo	התמונה הזו
+	would make this album include itself through other smart albums	יגרום לאלבום הזה לכלול את עצמו דרך אלבומים חכמים אחרים
+
+# Named format templates from LightCraft PR #4101
+	+{n} more	עוד {n}+
+	A keyword name can't end with an asterisk: “{name}”	שם מילת מפתח אינו יכול להסתיים בכוכבית: „{name}”
+	Bring photos in with File › Import Photos… ({keys}).	ייבוא תמונות דרך קובץ › ייבוא תמונות… ({keys}).
+	Create the keyword “{name}”	יצירת מילת המפתח „{name}”
+	Delete “{current}”	מחיקת „{current}”
+	File › Export… · File › Print… ({keys}).	קובץ › ייצוא… · קובץ › הדפסה… ({keys}).
+	Keywords of {n} selected photos	מילות המפתח של {n} תמונות שנבחרו
+	Move {what} to Recently Deleted?	להעביר את {what} אל „נמחקו לאחרונה”?
+	On {have} of {of} selected photos	ב־{have} מתוך {of} התמונות שנבחרו
+	Remove “{name}”	הסרת „{name}”
+	Removed “{name}” from {n} photos. Edit → Undo puts it back.	מילת המפתח „{name}” הוסרה מ־{n} תמונות. עריכה ▸ ביטול תחזיר אותה.
+	View › Detail View ({keys}).	תצוגה › תצוגת פרטים ({keys}).
+	new, inside {parent}	חדשה, בתוך {parent}
+	these {count} photos	{count} התמונות האלה
+	Creator metadata	יוצר במטא־נתונים
+	Folders	תיקיות
+	Inspect Lightroom Catalog	בדיקת קטלוג Lightroom
+	Inspecting Lightroom Catalog	בודק קטלוג Lightroom
+	Lightroom Classic Catalog	קטלוג Lightroom Classic
+	Local folders	תיקיות מקומיות
+	Local library — no cloud account needed	ספרייה מקומית — אין צורך בחשבון ענן
+	Name of the folder the original is in	שם התיקייה שבה נמצא המקור
+	Paste Metadata	הדבקת מטא־נתונים
+	Rating	דירוג
+	Rating cleared	הדירוג נוקה
+	Ratings & flags	דירוגים ודגלים
+	Read Metadata from File	קריאת מטא־נתונים מקובץ
+	Reading Lightroom catalog…	קורא את קטלוג Lightroom…
+	Reading folder…	קורא תיקייה…
+	Reset Before to Import State	איפוס מצב ״לפני״ למצב הייבוא
+	Review Import	סקירת ייבוא
+	Saving Lightroom import index…	שומר את אינדקס הייבוא של Lightroom…
+	Set Rating	קביעת דירוג
+	Star rating (0–5)	דירוג כוכבים (0–5)
+	Title metadata	כותרת ממטא־נתונים
+	Watched folder	תיקייה במעקב
+	Decrease Rating	הפחתת דירוג
+	Increase Rating	העלאת דירוג
+	Skipped: files already in the library elsewhere	דולגו: קבצים שכבר נמצאים בספרייה במקום אחר
+	Reading folder	קורא תיקייה
+	Reading Lightroom catalog	קורא קטלוג Lightroom
+	Synchronizing folder	מסנכרן תיקייה
+	Specific folder	תיקייה מסוימת
+	Same folder as original photo	אותה תיקייה כמו התמונה המקורית
+	An import is running	ייבוא מתבצע כעת
+	The photos are imported once it ends	התמונות ייובאו עם סיומו
