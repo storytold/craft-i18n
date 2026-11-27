@@ -386,3 +386,9 @@ catalogs, with the same AI-assisted origin and no native-speaker review.
 ## PhotoCraft workspace recovery
 
 The two panel layout recovery messages were migrated from PhotoCraft commit `786d033ec` for `ar`, `cs`, `da`, `de`, `el`, `es`, `fi`, `fr`, `hi`, `hu`, `id`, `it`, `ja`, `ko`, `nb`, `nl`, `pl`, `pt-br`, `ru`, `sv`, `tr`, `uk`, `vi`, `zh-hans`, `zh-hant`. The sentence break and the Russian wording were edited with Codex assistance. No native-speaker review is recorded.
+
+## PdfCraft: Hebrew rows for strings with none
+
+Yonatan Langer (@yonatan-langer83) added 1,014 Hebrew (`he`) rows to `locales/he/pdfcraft.tsv` for PdfCraft strings that had no Hebrew row, AI-assisted with Claude and written from the plain meaning of the English, in the terminology the Hebrew catalogs already use. No other product's localisation was consulted. Not yet reviewed line by line by a native speaker. Strings whose Hebrew would read the same as the English (product and format names such as `CMYK`, `USB`, `PDF/X…`) are left out.
+
+996 other strings are left out because an open Hebrew PdfCraft proposal already has a row for that key: 23 in nocturney's #474 (21 of those also in #299) and 973 only in #299. Four keys are still translated here, because the row in #299 gives a different English meaning: `Saved Settings` (settings that were saved, not a notice that saving finished), `Printing condition:` (the printing condition, not the state of a print job), `Find form fields` (search for the fields, not identify them), and `Show art, trim and bleed boxes` (the art box, the trim box and the bleed box).
