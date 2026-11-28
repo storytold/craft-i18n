@@ -386,3 +386,17 @@ catalogs, with the same AI-assisted origin and no native-speaker review.
 ## PhotoCraft workspace recovery
 
 The two panel layout recovery messages were migrated from PhotoCraft commit `786d033ec` for `ar`, `cs`, `da`, `de`, `el`, `es`, `fi`, `fr`, `hi`, `hu`, `id`, `it`, `ja`, `ko`, `nb`, `nl`, `pl`, `pt-br`, `ru`, `sv`, `tr`, `uk`, `vi`, `zh-hans`, `zh-hant`. The sentence break and the Russian wording were edited with Codex assistance. No native-speaker review is recorded.
+
+### SoundCraft Hebrew (he)
+
+- Migrated existing Hebrew translations contributed by @hrb9 in storytold/soundcraft#1644 (commit 06d0bbd7be15d923bdc198e738344da9db971ce3).
+- Exact English-key intersection with the SoundCraft catalog inventory in storytold/craft-i18n#499 (commit 17bc2d34e541bf979521d654b923ad526adfbd85); shared keys and ambiguous or formatting-sensitive entries omitted. No new translations claimed.
+- AI assistance and native-speaker review status for @hrb9's original translations were not recorded in the source PR.
+- Catalog migration and structural checks by @nocturney with ChatGPT assistance. Independent native-speaker and in-app review have not been performed for this migration. The app integration is separate.
+- Follow-up: three verbatim legacy rows recovered from app PR #1644 (aaa6e9d904da0f22a269f4e9fa12022218717003), and five legacy audio-bus entries corrected for the routing meaning in SoundCraft source 97e38ba3c35e22cb4953d99c93914f6d31813dc6. See PR #501 comments for source context. Terminology corrections are ChatGPT-assisted; independent native-speaker and in-app RTL review remain pending. No new translations claimed.
+
+- Follow-up: ten existing session recovery and panel status entries proposed in PR #501 comment 7182496124, sourced from @hrb9 app PR #1644 (aaa6e9d904da0f22a269f4e9fa12022218717003). Current SoundCraft source 417a326b90f40a8ca8f6aa76412c58f993470994 and #499 inventory checked. Rust quote escapes converted to literal TSV quotes; missing-media count and panel terminology adapted with ChatGPT assistance. No new translations claimed; central data only, Hebrew app lookup and independent native-speaker/RTL review remain pending.
+
+- Follow-up: five verbatim existing Hebrew strings recovered from @hrb9 app PR storytold/soundcraft#1644 (a1f521f9d1af306638f91b8756918154ae99beed), including multiline Rust match arms omitted during extraction. Active localization calls verified at SoundCraft 4f91806d62e9a7d8c9d5537136897cd109844961 and keys checked against #499. Migration only, no new translations; independent native-speaker and in-app RTL review pending.
+
+- Follow-up: migrate all 254 `@msg` engine message keys from the English-key inventory in storytold/craft-i18n#499 (`80e1d8f5790396b0efc8eeb00517e9369899d255`), using @hrb9's existing Hebrew `error_templates!` in storytold/soundcraft#1644 (`a1f521f9d1af306638f91b8756918154ae99beed`). The 253 direct key matches include four audio-bus terminology corrections and one preserved literal `{{id: value}}` code example; the remaining combined singular/plural key is adapted from the two existing Hebrew variants. The current engine provides the English `s` suffix, so the latter retains `clip{plural}` in a parenthetical until native plural handling is available. ChatGPT-assisted migration; no new translation authorship claimed. All 1,058 existing active rows retained, 1,312 active rows total; independent Hebrew review and runtime integration/RTL verification remain pending.
