@@ -14,6 +14,7 @@
 	  Cancel  	  Annulla
 	  OK  	  OK
 	 or [	 o [
+	(select)	(seleziona)
 	* Wildcard Match	* Corrispondenza con caratteri jolly
 	*VARIES*	*VARIA*
 	+  |  Top  |  2D Wireframe	+  |  Alto  |  Wireframe 2D
@@ -43,6 +44,7 @@
 	> Greater than	> Maggiore di
 	A built-in table: editing it keeps an edited copy in the drawing.	Tabella incorporata: modificandola, una copia modificata resta nel disegno.
 	A drawing opened from a file keeps that file's format.	Un disegno aperto da un file conserva il formato di quel file.
+	A file path is required.	Il percorso del file è obbligatorio.
 	A variable name starts with a letter and has only letters, digits and _	Un nome di variabile inizia con una lettera e contiene solo lettere, cifre e _
 	About CADCraft	Informazioni su CADCraft
 	Add Current Scale	Aggiungi scala corrente
@@ -88,6 +90,7 @@
 	Automatic save file location	Percorso dei file di salvataggio automatico
 	Axis, End	Asse, fine
 	Base	Base
+	Base point	Punto base
 	Batch Publish	Pubblicazione batch
 	Batch Publish...	Pubblicazione batch...
 	Bind	Unisci
@@ -358,6 +361,7 @@
 	External Reference	Riferimento esterno
 	External References	Riferimenti esterni
 	Extrude	Estrudi
+	File name and path	Nome file e percorso
 	File Tab	Scheda file
 	Fillet	Raccordo
 	Filters	Filtri
@@ -451,6 +455,8 @@
 	Inspection	Ispezione
 	Interface scale	Scala dell'interfaccia
 	Interface theme	Tema dell'interfaccia
+	Invalid base X coordinate.	Coordinata X del punto base non valida.
+	Invalid base Y coordinate.	Coordinata Y del punto base non valida.
 	Inverted	Invertita
 	Island	Isola
 	Island detection	Rilevamento isole
@@ -578,6 +584,7 @@ menu	Modify	Edita
 	No contributor data was built into this copy.	In questa copia non sono inclusi i dati dei collaboratori.
 	No external references are attached.	Nessun riferimento esterno associato.
 	No model credits were built into this copy.	In questa copia non sono inclusi i crediti dei modelli.
+	No objects selected	Nessun oggetto selezionato
 	No plot style tables.	Nessuna tabella stili di stampa.
 	No saved layer states	Nessuno stato layer salvato
 	No supported 3D mouse found	Nessun mouse 3D supportato trovato
@@ -600,6 +607,7 @@ menu	Modify	Edita
 	Object Snap Tracking Settings	Impostazioni puntamento snap ad oggetto
 	Object type:	Tipo di oggetto:
 	objects	oggetti
+	Objects	Oggetti
 	Objects on locked layers	Oggetti su layer bloccati
 	Oblique	Obliquo
 	On/Off	Attiva/Disattiva
@@ -650,6 +658,7 @@ menu	Modify	Edita
 	Path Array	Serie su traiettoria
 	Pattern	Modello
 	Perpendicular	Perpendicolare
+	Pick point	Scegli punto
 	Pickbox size	Dimensione casella di selezione
 	Plot	Stampa
 	Plot (click: do not plot)	Stampa (clic: non stampare)
@@ -776,6 +785,7 @@ menu	Modify	Edita
 	Select 2D polyline	Selezionare una polilinea 2D
 	Select a 2D polyline.	Selezionare una polilinea 2D.
 	Select a block reference.	Selezionare un riferimento di blocco.
+	Select a block.	Selezionare un blocco.
 	Select a circle or arc.	Selezionare un cerchio o un arco.
 	Select a closed polyline	Selezionare una polilinea chiusa
 	Select a closed polyline, circle, ellipse or closed spline.	Selezionare una polilinea chiusa, un cerchio, un'ellisse o una spline chiusa.
@@ -1147,6 +1157,8 @@ menu	View	Visualizza
 	Working Set	Set di lavoro
 	Workspace Switching	Cambio area di lavoro
 	Write Block	Scrivi blocco
+	Write Block Pick	Selezione per Scrivi blocco
+	Write Block was opened on another drawing; open it again.	Scrivi blocco era aperto su un altro disegno; aprilo di nuovo.
 	Xline	Xlinea
 	Xref and Block In-place Editing	Modifica sul posto di xrif e blocchi
 	Xref Clip Frame	Cornice ritaglio xrif

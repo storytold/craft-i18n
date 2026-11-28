@@ -14,6 +14,7 @@
 	  Cancel  	Скасувати
 	  OK  	Гаразд
 	 or [	 або [
+	(select)	(оберіть)
 	* Wildcard Match	* За шаблоном
 	*VARIES*	*РІЗНІ*
 	+  |  Top  |  2D Wireframe	+  |  Зверху  |  2D-каркас
@@ -43,6 +44,7 @@
 	> Greater than	> Більше ніж
 	A built-in table: editing it keeps an edited copy in the drawing.	Вбудована таблиця: зміни зберігаються як її копія в кресленні.
 	A drawing opened from a file keeps that file's format.	Креслення, відкрите з файлу, зберігає формат цього файлу.
+	A file path is required.	Необхідно вказати шлях до файлу.
 	A variable name starts with a letter and has only letters, digits and _	Ім'я змінної починається з літери й містить лише літери, цифри та _
 	About	Про програму
 	About CADCraft	Про CADCraft
@@ -94,6 +96,7 @@
 	Axis, End	Вісь, кінець
 	Backup copy	Резервна копія
 	Base	База
+	Base point	Базова точка
 	Baseline	Базовий
 	Batch Publish	Пакетне публікування
 	Batch Publish...	Пакетна публікація...
@@ -377,6 +380,7 @@
 	External Reference	Зовнішнє посилання
 	External References	Зовнішні посилання
 	Extrude	Видавити
+	File name and path	Ім'я файлу та шлях
 	File Tab	Вкладка файлу
 	Fillet	Спряження
 	Filters	Фільтри
@@ -477,6 +481,8 @@
 	Inspection	Контрольний розмір
 	Interface scale	Масштаб інтерфейсу
 	Interface theme	Тема інтерфейсу
+	Invalid base X coordinate.	Неприпустима координата X базової точки.
+	Invalid base Y coordinate.	Неприпустима координата Y базової точки.
 	Inverted	Інвертований
 	Island	Острів
 	Island detection	Виявлення островів
@@ -615,6 +621,7 @@
 	No contributor data was built into this copy.	Ця збірка не містить даних про учасників.
 	No external references are attached.	Зовнішні посилання не приєднано.
 	No model credits were built into this copy.	Ця збірка не містить даних про моделі.
+	No objects selected	Жодного об'єкта не вибрано
 	No plot style tables.	Немає таблиць стилів друку.
 	No saved layer states	Немає збережених станів шарів
 	No selection	Нічого не вибрано
@@ -639,6 +646,7 @@
 	Object Snap Tracking Settings	Параметри відстеження об'єктної прив'язки
 	Object type:	Тип об'єкта:
 	objects	об'єктів
+	Objects	Об'єкти
 	Objects on locked layers	Об'єкти на заблокованих шарах
 	Oblique	Похилий
 	OK	Гаразд
@@ -691,6 +699,7 @@
 	Path Array	Масив уздовж траєкторії
 	Percent	Відсоток
 	Perpendicular	Перпендикулярність
+	Pick point	Вказати точку
 	Pickbox size	Розмір прицілу вибору
 	Plot	Друк креслення
 	Plot (click: do not plot)	Друкувати (натисніть, щоб вимкнути друк)
@@ -831,6 +840,7 @@
 	Select 2D polyline	Виберіть 2D-полілінію
 	Select a 2D polyline.	Виберіть 2D-полілінію.
 	Select a block reference.	Виберіть посилання на блок.
+	Select a block.	Виберіть блок.
 	Select a circle or arc.	Виберіть коло або дугу.
 	Select a closed polyline	Виберіть замкнену полілінію
 	Select a closed polyline, circle, ellipse or closed spline.	Виберіть замкнену полілінію, коло, еліпс або замкнений сплайн.
@@ -1208,6 +1218,8 @@
 	Working Set	Робочий набір
 	Workspace Switching	Перемикання робочого простору
 	Write Block	Записати блок у файл
+	Write Block Pick	Вибір для запису блока
+	Write Block was opened on another drawing; open it again.	Вікно «Записати блок у файл» відкрито для іншого креслення; відкрийте його знову.
 	Xline	Допоміжна пряма
 	Xref and Block In-place Editing	Редагування xref і блоків на місці
 	Xref Clip Frame	Рамка обрізки зовнішнього посилання
