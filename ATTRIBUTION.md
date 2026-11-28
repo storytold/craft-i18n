@@ -24,7 +24,7 @@ catalog came from (`<app>@<sha>`). Translations are contributed under the reposi
 | `fi` | VectorCraft: mostly agent-written (`bflatastic`), AI-assisted (Claude Code), checked by a native speaker in the running app, not proofread line by line; PdfCraft: PdfCraft contributors with Claude Code, AI-assisted, not yet proofread by a native speaker; PhotoCraft: PhotoCraft contributors, combined from the catalogs contributed by @Janiz-zzz and @metuuu and reviewed with Claude (Anthropic) as an AI contributor; original translations of PhotoCraft's English labels; PdfCraft (pdfcraft#5880, "Preferences → JavaScript"): @austin62jake with Claude Code, AI-assisted, not recorded as native-reviewed; PdfCraft (pdfcraft#5699, native script prompts): @FredApps, AI-assisted, not reviewed by a native speaker | `photocraft@2772ac1`, `vectorcraft@73f40e3`, `pdfcraft@ecdd1e6`, `pdfcraft#5880`, `pdfcraft#5699` |
 | `fr` | WordCraft: @pechnikov2026-star; WordCraft (89 additional rows: Language packs, recovery copies, custom properties, panes, macros, proofing): @jayzed80 with Claude Code (Sonnet 5.5), AI-translated from the English meaning, not reviewed by a native speaker; PdfCraft: PdfCraft contributors, clean-room; later additions AI-assisted, not separately native-reviewed; PhotoCraft: no individual credit recorded upstream (some rows from PR #582 by neko233-com); PhotoCraft (2 additional rows): Erwan Paccard (@erwanpaccard) with Claude, AI-translated, partially human-reviewed; PhotoCraft (photocraft#4474, 1,037 additional rows: filter parameter names, Camera Raw settings and other labels missing from `fr.tsv`): @Atalantis, a native French speaker, machine-translated from the plain meaning of the English labels (tool not named) and checked by a second, independent automated review; not yet proofread line by by a person; VectorCraft: mostly agent-written (`bflatastic`), not recorded as native-reviewed; FilmCraft: FilmCraft contributors (catalog added by vangel76); CADCraft: @pechnikov2026-star; ArtCraft Launcher: no individual credit recorded upstream; PdfCraft (pdfcraft#162, redaction messages): @eliets2, AI assistance not stated, not reviewed by a native speaker; PdfCraft (pdfcraft#2298, "Coming soon"): @snipeTR, AI assistance not stated, not recorded as native-reviewed; PdfCraft (pdfcraft#5880, "Preferences → JavaScript"): @austin62jake with Claude Code, AI-assisted, not recorded as native-reviewed; VectorCraft (300 additional rows: tool, panel, export and message labels): @jayzed80 with Claude Code (Sonnet 5.5), drafted by a local model (Gemma-4-26B) from the English, read back by two other local models and reviewed and corrected by Claude Code (Opus), not reviewed by a native speaker; PdfCraft (553 additional rows: accessibility and PDF/A checker messages, tool and panel labels): @jayzed80 with Claude Code (Sonnet 5.5), drafted by a local model (Gemma-4-26B) from the English, read back by two other local models and reviewed and corrected by Claude Code (Opus), not reviewed by a native speaker; CADCraft (292 additional rows: drawing, dimension, layer and panel labels and messages): @jayzed80 with Claude Code (Sonnet 5.5), drafted by a local model (Gemma-4-26B) from the English, read back by two other local models and reviewed and corrected by Claude Code (Opus), not reviewed by a native speaker; DeckCraft (new catalog: slide, animation, panel and message labels): @jayzed80 with Claude Code (Sonnet 5.5), drafted by a local model (Gemma-4-26B) from the English, read back by another local model and reviewed and corrected by Claude Code (Opus), not reviewed by a native speaker; DeckCraft (deckcraft#2109, 8 rows: placeholder prompts on slides): @filforce95 with Claude Code (Opus 5.5), AI-translated from the plain meaning of the English in the wording of the existing French rows, not reviewed by a native speaker; PhotoCraft (829 additional rows: tool, filter, panel and message labels): @jayzed80 with Claude Code (Sonnet 5.5), drafted by a local model (Gemma-4-26B) from the English, read back by two other local models and reviewed and corrected by Claude Code (Opus), not reviewed by a native speaker; PdfCraft (pdfcraft#5699, native script prompts): @FredApps, AI-assisted, not reviewed by a native speaker; GridCraft (gridcraft#795, Quick Analysis): @vangel76 with Claude Code, AI-assisted, not reviewed by a native speaker | `wordcraft@67a0e72`, `pdfcraft@ecdd1e6`, `photocraft@2772ac1`, `photocraft#4474`, `vectorcraft@73f40e3`, `filmcraft@48088e3`, `cadcraft@c4d9e6a`, `craft-launcher@ad7f24a`, `pdfcraft#162`, `pdfcraft#2298`, `pdfcraft#5880`, `pdfcraft#5699`, `deckcraft#2109`, `gridcraft#795` |
 | `gl` | Shared catalog and Craft Launcher: Alberto Xosé Méndez Taboada (@B1NAR10, @galician-translators) with Antigravity, AI-assisted, written from the plain meaning of the English; reviewed by the translator, a native speaker | — (written here) |
-| `he` | WordCraft: Chagai Wild (@WildChagai) with Claude Code, AI-assisted; used in the running app (Hebrew interface, mirrored right to left) on Windows 11; individual rows not yet reviewed by a second speaker; PhotoCraft: machine-translated for @tronicum with Claude (Anthropic) as an AI contributor, not yet reviewed by a native speaker; original translations of PhotoCraft's English labels; PdfCraft (pdfcraft#5699, native script prompts): @FredApps, AI-assisted, not reviewed by a native speaker | catalog of storytold/wordcraft#1303 (`wordcraft@553d2ee`), `photocraft@2772ac1`, `pdfcraft#5699` |
+| `he` | WordCraft: Chagai Wild (@WildChagai) with Claude Code, AI-assisted; used in the running app (Hebrew interface, mirrored right to left) on Windows 11; individual rows not yet reviewed by a second speaker; PhotoCraft: machine-translated for @tronicum with Claude (Anthropic) as an AI contributor, not yet reviewed by a native speaker; original translations of PhotoCraft's English labels; PdfCraft (pdfcraft#5699, native script prompts): @FredApps, AI-assisted, not reviewed by a native speaker; PhotoCraft (5 additional panel labels): @nocturney with ChatGPT, AI-assisted, written from the English call sites, not independently native-speaker reviewed; PhotoCraft (7 Record Again messages): @nocturney with ChatGPT, AI-assisted from official English source, not independently native-speaker reviewed; PhotoCraft (5 additional data set, resolution and perspective crop strings): @nocturney with ChatGPT, AI-assisted, written from the official English call sites, not independently native-speaker reviewed; PhotoCraft (two preference alerts): @nocturney with ChatGPT (OpenAI), AI-assisted original translations from English; independent native review pending; PhotoCraft group dialog title: @nocturney with ChatGPT (OpenAI) assistance, independent native-speaker review unverified | catalog of storytold/wordcraft#1303 (`wordcraft@553d2ee`), `photocraft@2772ac1`, `pdfcraft#5699` |
 | `hi` | PdfCraft: PdfCraft contributors, clean-room; later additions AI-assisted, not separately native-reviewed; PhotoCraft: PhotoCraft contributors (not named in PhotoCraft's `LICENSE-translations.txt`); PdfCraft (pdfcraft#5880, "Preferences → JavaScript"): @austin62jake with Claude Code, AI-assisted, not recorded as native-reviewed; PdfCraft (pdfcraft#5699, native script prompts): @FredApps, AI-assisted, not reviewed by a native speaker | `pdfcraft@ecdd1e6`, `photocraft@2772ac1`, `pdfcraft#5880`, `pdfcraft#5699` |
 | `hr` | WordCraft: Andrej Škvorc (@andrejskvorc) with Claude Code (Sonnet 5.5); proofread with Gemini | `wordcraft@67a0e72` |
 | `hu` | WordCraft: @Skaywalker; PdfCraft: PdfCraft contributors, clean-room; later additions AI-assisted, not separately native-reviewed; PhotoCraft: PhotoCraft contributors; VectorCraft: mostly agent-written (`bflatastic`), not recorded as native-reviewed; CADCraft: @Skaywalker; ArtCraft Launcher: no individual credit recorded upstream; PdfCraft (pdfcraft#162, redaction messages): @eliets2, AI assistance not stated, not reviewed by a native speaker; PdfCraft (pdfcraft#2298, "Coming soon"): @snipeTR, AI assistance not stated, not recorded as native-reviewed; PdfCraft (pdfcraft#5880, "Preferences → JavaScript"): @austin62jake with Claude Code, AI-assisted, not recorded as native-reviewed; PdfCraft (pdfcraft#5699, native script prompts): @FredApps, AI-assisted, not reviewed by a native speaker | `wordcraft@67a0e72`, `pdfcraft@ecdd1e6`, `photocraft@2772ac1`, `vectorcraft@73f40e3`, `cadcraft@c4d9e6a`, `craft-launcher@ad7f24a`, `pdfcraft#162`, `pdfcraft#2298`, `pdfcraft#5880`, `pdfcraft#5699` |
@@ -386,3 +386,193 @@ catalogs, with the same AI-assisted origin and no native-speaker review.
 ## PhotoCraft workspace recovery
 
 The two panel layout recovery messages were migrated from PhotoCraft commit `786d033ec` for `ar`, `cs`, `da`, `de`, `el`, `es`, `fi`, `fr`, `hi`, `hu`, `id`, `it`, `ja`, `ko`, `nb`, `nl`, `pl`, `pt-br`, `ru`, `sv`, `tr`, `uk`, `vi`, `zh-hans`, `zh-hant`. The sentence break and the Russian wording were edited with Codex assistance. No native-speaker review is recorded.
+
+## PhotoCraft Hebrew: timeline and panel labels
+
+@nocturney with ChatGPT added five Hebrew rows for the timeline transport and playhead, style library, swatch export status, and note editing hint. AI-assisted from the official English call sites; not independently reviewed by a native speaker. The `{file}` placeholder is preserved.
+
+## PhotoCraft Hebrew: Record Again messages
+
+@nocturney with ChatGPT added seven Hebrew rows from active `tl!` call sites in PhotoCraft `record_again.rs` at `b609bc7d3c6bae486d80a21bfb32d25c990bd954`. AI-assisted from the English meaning; no independent native-speaker or running RTL review is claimed.
+
+## PhotoCraft Hebrew: data set, resolution and perspective crop
+
+@nocturney with ChatGPT added five Hebrew rows from the official PhotoCraft English call sites. AI-assisted, not independently reviewed by a native speaker. The `{dpi}` placeholder is preserved.
+
+## PhotoCraft Hebrew: new group from layers (2026-11-24)
+
+One active dialog title from `storytold/photocraft` `crates/ui-egui/src/dialogs/new_group_ui.rs` (blob `af393044ea24d493683055864ab728c254b6dcfa`), contributed by @nocturney with ChatGPT (OpenAI) assistance. Original Hebrew wording follows the existing matching menu label, without its ellipsis. Independent native-speaker review and installed-app RTL review have not been performed.
+
+## PhotoCraft Hebrew: filter dialogs and preference alert (2026-11-23)
+
+Four active PhotoCraft English UI keys from `storytold/photocraft` (`crates/ui-egui/src/dialogs/alerts.rs` and `filter_dialog.rs`) have original Hebrew translations contributed by @nocturney with assistance from ChatGPT (OpenAI). Translated from the source English strings without copying proprietary localization tables; the `{error}` placeholder is preserved. Independent native-speaker review and installed-app RTL review have not been verified. No native release or upstream merge is claimed.
+
+## Hebrew: PhotoCraft Image Processor XML settings controls (2026-11-23)
+
+Eight Hebrew strings for the active Image Processor Load/Save settings file picker and
+XML error paths in `storytold/photocraft` `crates/ui-egui/src/dialogs/image_processor_ui.rs`.
+Translated by @nocturney with ChatGPT assistance from the English UI source and
+existing PhotoCraft terminology; no other product's localization files were copied.
+Independent native-speaker review and installed-app RTL verification have not been recorded.
+
+## PhotoCraft: Hebrew Equalize selection options (2026-11-23)
+
+@nocturney contributed two original Hebrew labels for the selected-area choices of PhotoCraft Image > Adjustments > Equalize (`crates/ui-egui/src/dialogs/equalize_ui.rs`, source blob `388762aec7a4`). Translations were drafted from English with ChatGPT (OpenAI) assistance and existing Hebrew terminology. No native-speaker review or installed app RTL UI test is claimed.
+
+## PhotoCraft: Hebrew Variables panel controls (2026-11-23)
+
+@nocturney authored four new Hebrew `he` rows in `locales/he/photocraft.tsv` for active PhotoCraft UI labels `Add Variable`, `Remove Variable`, `Previous Data Set`, and `Next Data Set` (source: `storytold/photocraft`, `crates/ui-egui/src/panels/variables_ui.rs`). The translations were drafted with ChatGPT assistance from the English source strings and existing Hebrew terminology in this catalog. No external product translations were copied. Native-speaker in-app review has not been verified; this contribution is proposed for upstream review.
+
+
+## PhotoCraft: Hebrew vector path alignment and arrangement (2026-11-23)
+
+Three previously untranslated active PhotoCraft labels from
+storytold/photocraft crates/ui-egui/src/tools/vector_ui/path_menus.rs
+(commit 033ed7d34c3d8b079498bd522434f6220563a2e2):
+Path alignment, Distribute:, and Path arrangement.
+Original Hebrew translations by @nocturney, AI-assisted using ChatGPT (OpenAI),
+translated from the English source wording and existing public Hebrew UI terminology.
+No independent native-speaker review or installed PhotoCraft RTL visual check yet.
+The already-proposed Align:, Align To:, and Distribute Spacing: translations
+are deliberately omitted because they exist in open upstream PR #42.
+
+## PhotoCraft Hebrew: Object Finder options (2026-11-23)
+
+Five strings from `storytold/photocraft` `crates/ui-egui/src/tools/retouch_ui/bar/select.rs`: Object Finder refresh tooltip, additional-options button, Object Subtract, and automatic/manual refresh.
+Contributed by @nocturney with ChatGPT (OpenAI) assistance; clean-room wording from source English, not independently reviewed by a native speaker. No external translation catalog was copied.
+
+## PhotoCraft (he): Count Group Name dialog
+
+- Contributor: @nocturney; ChatGPT (OpenAI) assisted the clean-room drafting of three Hebrew UI strings from the English literals in `storytold/photocraft` (`crates/ui-egui/src/dialogs/count_group_name_ui.rs`).
+- The new strings cover the dialog title, the form label and the stale-document refusal message. The existing `Count Group` translation is reused for consistency, not duplicated here.
+- No proprietary translation tables were consulted or copied. Independent review in the installed Hebrew UI by a native speaker is not recorded and remains pending.
+
+## PhotoCraft Hebrew: history dialog and brush preset tip (2026-11-23)
+
+Two original, AI-assisted Hebrew UI translations, derived independently from the active English `tl!()` source strings in official PhotoCraft:
+- `crates/ui-egui/src/dialogs/history_options_ui.rs` (source blob `3dc18bf044bb28df8c2eafc03cbe1b5813c1ee4`): `History Options` (history-settings dialog title, distinct from `History Options…`).
+- `crates/ui-egui/src/dialogs/brush_preset_dialog.rs` (source blob `fde37ee0892452eedabbf5fc8f2b2049ff74d614`): `Tip` (brush-tip preview row in the preset dialog).
+
+The Hebrew wording follows existing `he/photocraft.tsv` terminology, including `Brush Tip` and `History Options…`. English keys and any placeholders are preserved; no external proprietary translation tables were copied. Independent native-speaker review, RTL GUI testing, hosted CI, official maintainer merge and host installation remain pending.
+
+## PhotoCraft: Hebrew crop presets and brush refusal controls
+
+- PhotoCraft (Crop Preset dialogs, three new labels): submitted by @nocturney with ChatGPT AI assistance, clean-room translation of the English application source, independent Hebrew-speaker proofreading and right-to-left UI testing pending.
+- PhotoCraft (brush refusal tool names and alerts, 15 entries): submitted by @nocturney with ChatGPT, AI-assisted clean-room Hebrew drafts from the official English source.
+
+## PhotoCraft Hebrew: duplicate-layer dialog (2026-11-23)
+
+Five previously absent active `tl!` strings from `storytold/photocraft/crates/ui-egui/src/dialogs/duplicate_layer_ui.rs` were translated into `locales/he/photocraft.tsv` by @nocturney with ChatGPT AI assistance. The Hebrew was authored from the English source in a clean-room process; no proprietary localisation was copied. Independent native-speaker and visual RTL reviews are pending. No installed UI, app release or upstream merge is claimed.
+
+## Hebrew PhotoCraft: Rotate Canvas dialog (2026-11-22)
+
+Two original Hebrew strings for the Rotate Canvas dialog and its counter-clockwise option. Contributed by @nocturney with ChatGPT (OpenAI), AI-assisted, written clean-room from the English in storytold/photocraft dialogs/rotate_canvas_ui.rs. Not independently reviewed by a native Hebrew speaker or verified in the running RTL UI.
+
+## PhotoCraft: Hebrew Note tool deletion confirmations (2026-11-22)
+
+Six original Hebrew translations for PhotoCraft note deletion confirmation and stale-document safety messages. English source: storytold/photocraft crates/ui-egui/src/tools/analysis/note_alerts.rs at c05c4c5fdfb8995de773773c623b07646e66eb32. Exact tl! labels were checked against official Hebrew PhotoCraft/shared catalogs and other open Hebrew PhotoCraft contributions. The translation is clean-room AI-assisted and has not been independently native-speaker reviewed, visually RTL tested, or installed in the app.
+
+## Hebrew PhotoCraft: Contact Sheet II and file forms (23 November 2026; consolidation)
+
+Retains nine of the ten original Hebrew interface translations from PR #423 for Contact Sheet II, Script Events, Package and Export Paths to File. English UI callsites reverified in storytold/photocraft crates/ui-egui/src/dialogs/file_forms.rs at commit 301922ccef074624c9827d3b064416c9be274d03. The remaining Flatten key overlaps pending proposals and is not copied here.
+
+Clean-room Hebrew wording originally drafted with ChatGPT (OpenAI) as an AI contributor from the English UI meanings; no separate human translator identity is recorded. The contribution was submitted by @nocturney. Translations from another language were not copied. Independent native-speaker, running-app RTL and maintainer review remain outstanding.
+
+## Hebrew PhotoCraft: editing and memory warnings (23 November 2026; consolidation)
+
+Retains all eight previously submitted Hebrew interface translations from PR #419 by @nocturney with ChatGPT (OpenAI GPT-6) assistance, written clean-room from the official English UI meanings. Current source verified at storytold/photocraft commit 301922ccef074624c9827d3b064416c9be274d03 in open_prompt.rs, image_processor_ui.rs, live_shape_prompt.rs and stroke_ui.rs. Independent native-speaker, RTL and installed-app verification remain pending. No new translation count or upstream merge is claimed.
+
+The six wording adjustments to existing Record Again and note instructions follow the review by @yonatan-langer83 in PR #473. No additional native or installed-app review is claimed.
+
+## Hebrew PhotoCraft: mode conversion, adjustment, measurement and Actions dialogs (November 2026)
+
+Nine additional Hebrew interface strings for PhotoCraft were translated from the exact English
+`tl!` strings in the official `storytold/photocraft` source: mode-conversion source/target
+sections, a missing adjustment target, measurement data-point headings and missing-document
+feedback, and Actions set/stop dialog controls. These are original clean-room Hebrew
+translations drafted with ChatGPT assistance from the English meaning and UI context;
+no other product's translation table was copied. Native Hebrew-speaker review, RTL rendering
+in the installed app, maintainer review, and upstream inclusion are still pending.
+- Original contribution: @nocturney, PR #416; exact source callsites reverified at PhotoCraft 301922ccef074624c9827d3b064416c9be274d03. All nine existing translations retained verbatim.
+
+## Hebrew PhotoCraft: channel and filter-dialog labels (November 2026)
+
+Nine previously submitted translations from craft-i18n #415, by @nocturney with ChatGPT (OpenAI), AI-assisted clean-room Hebrew from English source; independent native proofreading and installed RTL review pending. Exact source callsites verified in storytold/photocraft@391cb0171004a5cb6b7b5138ac96c1ceb5ed8ae1, `crates/ui-egui/src/dialogs/channel_options_ui.rs` and `crates/ui-egui/src/dialogs/filter_dialog/rows.rs`. Original translations retained verbatim.
+
+## PhotoCraft: Hebrew Retouch, Count and Image Stack controls (2026-11-22)
+
+@nocturney contributed 16 new Hebrew (`he`) UI entries to `locales/he/photocraft.tsv`, covering the Retouch options bar (healing/remix), Count tool group controls and Image Stack dialogs. The wording was AI-assisted with ChatGPT and checked against active `tl!` source text in `storytold/photocraft` (`tools/retouch_ui/bar/heal.rs`, `tools/analysis/bars.rs`, `dialogs/stack_dialog.rs`) and existing Hebrew terminology. No independent native-speaker review or running UI/RTL verification is claimed. No third-party product localisation was copied.
+
+## PhotoCraft: Hebrew artboard export, batch and document dialogs (2026-11-22)
+
+Adds 37 Hebrew translations for new-to-Hebrew source-backed UI labels in
+`storytold/photocraft` `crates/ui-egui/src/menus/view_cmds/dialogs.rs`.
+They cover document/artboard export, file formats, batch folders,
+layer selection, resampling and image-processing choices. The translations
+are AI-assisted clean-room original Hebrew based on the exact English UI
+source and existing catalog terminology. Compared against the official
+Hebrew PhotoCraft/common catalogs and the still-open Hebrew PhotoCraft PR
+branch catalogs (#219, #268, #370, #371, #373-#376, #387, #390, #392)
+to avoid duplicate source keys. Native speaker, UI/RTL and installed
+application verification are still outstanding. Only the Hebrew PhotoCraft
+catalog and this attribution file were changed.
+
+Consolidation note: 37 of 37 existing rows from #393 retained verbatim in #473; no newly authored translations.
+
+## PhotoCraft Hebrew: file-drop and open errors (2026-11-22)
+
+Two original Hebrew UI error messages added to `locales/he/photocraft.tsv`
+by @nocturney with ChatGPT (OpenAI) AI assistance. Exact English keys
+are used in `storytold/photocraft` at `crates/ui-egui/src/file_open.rs`:
+a directory dropped as a file, and unreadable dropped file bytes.
+Wording was written clean-room from the English meaning without copying
+a third-party product's translation. The official Hebrew app/shared
+catalogs and current relevant open Hebrew PhotoCraft patches were
+checked for these exact keys. Independent native-speaker review and
+running PhotoCraft Hebrew/RTL UI verification are still pending.
+
+Consolidation note: 2 of 2 existing rows from #390 retained verbatim in #473; no newly authored translations.
+
+## PhotoCraft Hebrew: browser low-memory warning (2026-11-22)
+
+Three original Hebrew translations were added for the low-memory warning shown in the
+PhotoCraft web interface. English source: `storytold/photocraft`
+`crates/ui-egui/src/memory_warning.rs` (`TITLE` and `post` notice lines).
+The `Notice::text` display path in `crates/ui-egui/src/notices.rs` translates
+these English notice strings at render time. The labels for Edit, Purge and All
+were checked against the existing Hebrew PhotoCraft/common catalog terminology.
+
+Wording is AI-assisted clean-room translation of the English source, with no
+copied third-party localization. The three keys were absent from the official
+Hebrew PhotoCraft/common catalogs; selected open PhotoCraft Hebrew proposals
+(#219, #268, #375, #376, #387, #390) were checked for overlap.
+Independent native-speaker review, browser memory-state visual QA, upstream
+merge and installed-release acceptance remain pending.
+
+Consolidation note: 3 of 3 existing rows from #392 retained verbatim in #473; no newly authored translations.
+
+## PhotoCraft: Hebrew lens correction dialog controls (2026-11-22)
+
+Adds eight original Hebrew interface translations for the Lens Correction dialog in
+`storytold/photocraft` `crates/ui-egui/src/dialogs/lens_batch_ui.rs`.
+English sources are literal `tl!` UI keys, checked against the official Hebrew
+PhotoCraft and shared catalogs and against already proposed Hebrew translation
+keys. The work is clean-room AI-assisted Hebrew, with established PhotoCraft
+terminology consulted for vignette and technical lens settings. No independent
+native speaker review, running Hebrew RTL UI check, or app installation is claimed.
+Individual translator identity is not independently recorded; contributor/submission: @nocturney, AI-assisted. This addresses the attribution finding on #395 without inferring translator identity.
+
+Consolidation note: 8 of 8 existing rows from #395 retained verbatim in #473; no newly authored translations.
+
+## PhotoCraft Hebrew: save status and batch interruption prompt (2026-11-22)
+
+Two original Hebrew UI strings added to `locales/he/photocraft.tsv` by @nocturney
+with ChatGPT (OpenAI) AI assistance. Both keys are used in the live English
+PhotoCraft source at `crates/ui-egui/src/jobs_ui.rs`: the Save-job progress
+label and the batch-run interruption question. Wording was drafted clean-room
+from the English meanings, without copying another product's localization.
+Existing Hebrew app/shared catalogs and relevant open PR patches were checked
+for exact-key overlap. An independent native-speaker review and a running
+PhotoCraft RTL/visual check have not been performed.
+
+Consolidation note: 2 of 2 existing rows from #387 retained verbatim in #473; no newly authored translations.
