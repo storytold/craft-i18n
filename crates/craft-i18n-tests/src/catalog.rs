@@ -58,6 +58,29 @@ fn parse_row(line: usize, text: &str, forms: usize) -> Result<Row, String> {
             "invisible character {c:?} in the row; write \\n or \\t, or delete it"
         ));
     }
+    // Keep CI aligned with the sync tool so rejected rows never disappear silently.
+    if let Some(c) = text
+        .chars()
+        .find(|&c| ('\u{202a}'..='\u{202e}').contains(&c) || ('\u{206a}'..='\u{206f}').contains(&c))
+    {
+        return Err(format!(
+            "deprecated directional formatting character {c:?} in the row; delete it"
+        ));
+    }
+    for column in &columns {
+        let mut depth = 0usize;
+        for c in column.chars() {
+            match c {
+                '\u{2066}'..='\u{2068}' => depth += 1,
+                '\u{2069}' if depth == 0 => return Err("unbalanced directional isolate".into()),
+                '\u{2069}' => depth -= 1,
+                _ => {}
+            }
+        }
+        if depth != 0 {
+            return Err("unbalanced directional isolate".into());
+        }
+    }
     if source.is_empty() {
         return Err("empty source text".into());
     }
@@ -187,6 +210,27 @@ mod tests {
         assert_eq!(problems, Vec::<String>::new());
         assert_eq!(rows.len(), 5);
         assert_eq!(rows[0].line, 3);
+    }
+
+    #[test]
+    fn directional_controls_match_sync_validation() {
+        for text in [
+            "\tSave\tSave\u{206b}",
+            "menu\u{202e}\tSave\tSave",
+            "\tSave\u{202a}\tSave",
+            "\u{2066}\tSave\tSave\u{2069}",
+            "\tSave\tSave\u{2069}",
+        ] {
+            assert!(!read_catalog(text, 2).1.is_empty(), "{text:?}");
+        }
+        assert!(
+            read_catalog(
+                "\tSaved {path}\t\u{200f}\u{2067}\u{2066}{path}\u{2069}\u{2069}",
+                2
+            )
+            .1
+            .is_empty()
+        );
     }
 
     #[test]

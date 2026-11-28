@@ -87,6 +87,88 @@ class Sync(unittest.TestCase):
     def snapshot(self):
         return {p: p.read_bytes() for p in sorted(self.root.rglob("*.tsv"))}
 
+    def test_directional_overrides_cannot_hide_english_or_translations(self):
+        # Only dangerous LRO/RLO controls are rejected; legitimate isolation
+        # for mixed Hebrew/Latin labels still passes through unchanged.
+        for mark in ("\u202d", "\u202e"):
+            for context, source, value in (
+                (mark, "Save", "שמירה"),
+                ("", "Save" + mark, "שמירה"),
+                ("", "Save", "שמירה" + mark),
+            ):
+                with self.subTest(mark=hex(ord(mark)), source=source, context=context):
+                    self.assertEqual(sync_app.unusable_row(context, source, value),
+                                     "directional override character")
+                    self.assertEqual(sync_app.fix((context, source), value, 2),
+                                     (None, "directional override character"))
+        # Isolating a Latin filename inside Hebrew is not an override and
+        # must remain valid for correctly rendered mixed-direction labels.
+        self.assertIsNone(sync_app.unusable_row("", "Saved {path}",
+                                              "נשמר \u2066{path}\u2069"))
+        self.assertEqual(sync_app.fix(("", "Saved {path}"),
+                                      "נשמר \u2066{path}\u2069", 2)[1], "נשמר \u2066{path}\u2069")
+
+    def test_legacy_directional_embedding_markers_are_rejected_in_each_field(self):
+        # LRE, RLE and PDF may reorder labels or close a surrounding span.
+        # Each TSV field is independently validated before writing.
+        for mark in ("\u202a", "\u202b", "\u202c"):
+            for context, source, value in (
+                (mark, "Save", "שמירה"),
+                ("", "Save" + mark, "שמירה"),
+                ("", "Save", "שמירה" + mark),
+            ):
+                with self.subTest(mark=hex(ord(mark)), context=context,
+                                  source=source, value=value):
+                    self.assertEqual(sync_app.unusable_row(context, source, value),
+                                     "legacy directional embedding character")
+                    self.assertEqual(sync_app.fix((context, source), value, 2),
+                                     (None, "legacy directional embedding character"))
+
+    def test_deprecated_directional_formatting_controls_are_rejected_per_field(self):
+        # U+206A..U+206F are deprecated bidi-format controls, not isolates.
+        for mark in ("\u206a", "\u206b", "\u206c", "\u206d", "\u206e", "\u206f"):
+            for context, source, value in (
+                (mark, "Save", "שמירה"),
+                ("", "Save" + mark, "שמירה"),
+                ("", "Save", "שמירה" + mark),
+            ):
+                with self.subTest(mark=hex(ord(mark)), context=context,
+                                  source=source, value=value):
+                    self.assertEqual(sync_app.unusable_row(context, source, value),
+                                     "deprecated directional formatting character")
+                    self.assertEqual(sync_app.fix((context, source), value, 2),
+                                     (None, "deprecated directional formatting character"))
+        # Do not ban valid locale punctuation or modern bidirectional marks.
+        for mark in ("\u200e", "\u200f", "\u061c"):
+            self.assertIsNone(sync_app.unusable_row("", "Save", "נשמר " + mark + "כעת"))
+
+    def test_unbalanced_directional_isolates_are_rejected_per_column(self):
+        # Every TSV column is a separate BiDi context; balancing across columns
+        # is invalid even when the overall concatenated text is balanced.
+        openers = ("\u2066", "\u2067", "\u2068")  # LRI, RLI, FSI
+        for opener in openers:
+            for context, source, value in (
+                ("", "Save", "שמירה" + opener),
+                ("", "Save" + opener, "שמירה"),
+                (opener, "Save", "שמירה"),
+                ("", "Save", "\u2069שמירה"),
+                ("", "Save\u2069", "שמירה"),
+                ("\u2069", "Save", "שמירה"),
+                ("", "Saved {path}", "נשמר " + opener + "{path}\u2069\u2069"),
+            ):
+                with self.subTest(opener=hex(ord(opener)), context=context,
+                                  source=source, value=value):
+                    self.assertEqual(sync_app.unusable_row(context, source, value),
+                                     "unbalanced directional isolate")
+                    self.assertEqual(sync_app.fix((context, source), value, 2),
+                                     (None, "unbalanced directional isolate"))
+
+        # Balanced nested isolates still allow embedded Latin paths in Hebrew.
+        balanced = "נשמר \u2067שם \u2066{path}\u2069\u2069"
+        self.assertIsNone(sync_app.unusable_row("", "Saved {path}", balanced))
+        self.assertEqual(sync_app.fix(("", "Saved {path}"), balanced, 2)[1],
+                         balanced)
+
     def test_unchanged_app_changes_nothing_and_round_trips(self):
         before = self.snapshot()
         code, out = self.run_sync()
