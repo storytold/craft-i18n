@@ -386,3 +386,7 @@ catalogs, with the same AI-assisted origin and no native-speaker review.
 ## PhotoCraft workspace recovery
 
 The two panel layout recovery messages were migrated from PhotoCraft commit `786d033ec` for `ar`, `cs`, `da`, `de`, `el`, `es`, `fi`, `fr`, `hi`, `hu`, `id`, `it`, `ja`, `ko`, `nb`, `nl`, `pl`, `pt-br`, `ru`, `sv`, `tr`, `uk`, `vi`, `zh-hans`, `zh-hant`. The sentence break and the Russian wording were edited with Codex assistance. No native-speaker review is recorded.
+
+## PhotoCraft: startup splash screen labels
+
+@sbjwin added the startup splash screen rows (`v{version}  ·  Open Source Native Image Editor`, `Initializing graphics & engine…`, `Loading workspace & font assets…`, `Click anywhere to skip`, and `Ready` in `hi`) to `locales/<code>/photocraft.tsv` across all 35 PhotoCraft catalogs. Clean-room translations written from the plain meaning of the English text and existing catalog terminology, AI-assisted; Korean (`ko`) reviewed by @sbjwin, a native speaker, and the remaining locales not yet reviewed by a native speaker.
