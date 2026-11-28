@@ -386,3 +386,7 @@ catalogs, with the same AI-assisted origin and no native-speaker review.
 ## PhotoCraft workspace recovery
 
 The two panel layout recovery messages were migrated from PhotoCraft commit `786d033ec` for `ar`, `cs`, `da`, `de`, `el`, `es`, `fi`, `fr`, `hi`, `hu`, `id`, `it`, `ja`, `ko`, `nb`, `nl`, `pl`, `pt-br`, `ru`, `sv`, `tr`, `uk`, `vi`, `zh-hans`, `zh-hant`. The sentence break and the Russian wording were edited with Codex assistance. No native-speaker review is recorded.
+
+## PhotoCraft: Swedish rows kept up to date
+
+Patrik Lermon (@kler) adds and updates PhotoCraft's `sv` rows as PhotoCraft gains strings, written from the English meaning with craft-sv-translate. Terms follow the existing Swedish rows. AI-drafted with Claude Code from the English source. The author is a native Swedish speaker who spot-checks the Swedish but has not checked every string.
