@@ -24,7 +24,7 @@ catalog came from (`<app>@<sha>`). Translations are contributed under the reposi
 | `fi` | VectorCraft: mostly agent-written (`bflatastic`), AI-assisted (Claude Code), checked by a native speaker in the running app, not proofread line by line; PdfCraft: PdfCraft contributors with Claude Code, AI-assisted, not yet proofread by a native speaker; PhotoCraft: PhotoCraft contributors, combined from the catalogs contributed by @Janiz-zzz and @metuuu and reviewed with Claude (Anthropic) as an AI contributor; original translations of PhotoCraft's English labels; PdfCraft (pdfcraft#5880, "Preferences → JavaScript"): @austin62jake with Claude Code, AI-assisted, not recorded as native-reviewed; PdfCraft (pdfcraft#5699, native script prompts): @FredApps, AI-assisted, not reviewed by a native speaker | `photocraft@2772ac1`, `vectorcraft@73f40e3`, `pdfcraft@ecdd1e6`, `pdfcraft#5880`, `pdfcraft#5699` |
 | `fr` | WordCraft: @pechnikov2026-star; WordCraft (89 additional rows: Language packs, recovery copies, custom properties, panes, macros, proofing): @jayzed80 with Claude Code (Sonnet 5.5), AI-translated from the English meaning, not reviewed by a native speaker; PdfCraft: PdfCraft contributors, clean-room; later additions AI-assisted, not separately native-reviewed; PhotoCraft: no individual credit recorded upstream (some rows from PR #582 by neko233-com); PhotoCraft (2 additional rows): Erwan Paccard (@erwanpaccard) with Claude, AI-translated, partially human-reviewed; PhotoCraft (photocraft#4474, 1,037 additional rows: filter parameter names, Camera Raw settings and other labels missing from `fr.tsv`): @Atalantis, a native French speaker, machine-translated from the plain meaning of the English labels (tool not named) and checked by a second, independent automated review; not yet proofread line by by a person; VectorCraft: mostly agent-written (`bflatastic`), not recorded as native-reviewed; FilmCraft: FilmCraft contributors (catalog added by vangel76); CADCraft: @pechnikov2026-star; ArtCraft Launcher: no individual credit recorded upstream; PdfCraft (pdfcraft#162, redaction messages): @eliets2, AI assistance not stated, not reviewed by a native speaker; PdfCraft (pdfcraft#2298, "Coming soon"): @snipeTR, AI assistance not stated, not recorded as native-reviewed; PdfCraft (pdfcraft#5880, "Preferences → JavaScript"): @austin62jake with Claude Code, AI-assisted, not recorded as native-reviewed; VectorCraft (300 additional rows: tool, panel, export and message labels): @jayzed80 with Claude Code (Sonnet 5.5), drafted by a local model (Gemma-4-26B) from the English, read back by two other local models and reviewed and corrected by Claude Code (Opus), not reviewed by a native speaker; PdfCraft (553 additional rows: accessibility and PDF/A checker messages, tool and panel labels): @jayzed80 with Claude Code (Sonnet 5.5), drafted by a local model (Gemma-4-26B) from the English, read back by two other local models and reviewed and corrected by Claude Code (Opus), not reviewed by a native speaker; CADCraft (292 additional rows: drawing, dimension, layer and panel labels and messages): @jayzed80 with Claude Code (Sonnet 5.5), drafted by a local model (Gemma-4-26B) from the English, read back by two other local models and reviewed and corrected by Claude Code (Opus), not reviewed by a native speaker; DeckCraft (new catalog: slide, animation, panel and message labels): @jayzed80 with Claude Code (Sonnet 5.5), drafted by a local model (Gemma-4-26B) from the English, read back by another local model and reviewed and corrected by Claude Code (Opus), not reviewed by a native speaker; DeckCraft (deckcraft#2109, 8 rows: placeholder prompts on slides): @filforce95 with Claude Code (Opus 5.5), AI-translated from the plain meaning of the English in the wording of the existing French rows, not reviewed by a native speaker; PhotoCraft (829 additional rows: tool, filter, panel and message labels): @jayzed80 with Claude Code (Sonnet 5.5), drafted by a local model (Gemma-4-26B) from the English, read back by two other local models and reviewed and corrected by Claude Code (Opus), not reviewed by a native speaker; PdfCraft (pdfcraft#5699, native script prompts): @FredApps, AI-assisted, not reviewed by a native speaker; GridCraft (gridcraft#795, Quick Analysis): @vangel76 with Claude Code, AI-assisted, not reviewed by a native speaker | `wordcraft@67a0e72`, `pdfcraft@ecdd1e6`, `photocraft@2772ac1`, `photocraft#4474`, `vectorcraft@73f40e3`, `filmcraft@48088e3`, `cadcraft@c4d9e6a`, `craft-launcher@ad7f24a`, `pdfcraft#162`, `pdfcraft#2298`, `pdfcraft#5880`, `pdfcraft#5699`, `deckcraft#2109`, `gridcraft#795` |
 | `gl` | Shared catalog and Craft Launcher: Alberto Xosé Méndez Taboada (@B1NAR10, @galician-translators) with Antigravity, AI-assisted, written from the plain meaning of the English; reviewed by the translator, a native speaker | — (written here) |
-| `he` | WordCraft: Chagai Wild (@WildChagai) with Claude Code, AI-assisted; used in the running app (Hebrew interface, mirrored right to left) on Windows 11; individual rows not yet reviewed by a second speaker; PhotoCraft: machine-translated for @tronicum with Claude (Anthropic) as an AI contributor, not yet reviewed by a native speaker; original translations of PhotoCraft's English labels; PdfCraft (pdfcraft#5699, native script prompts): @FredApps, AI-assisted, not reviewed by a native speaker | catalog of storytold/wordcraft#1303 (`wordcraft@553d2ee`), `photocraft@2772ac1`, `pdfcraft#5699` |
+| `he` | WordCraft: Chagai Wild (@WildChagai) with Claude Code, AI-assisted; used in the running app (Hebrew interface, mirrored right to left) on Windows 11; individual rows not yet reviewed by a second speaker; PhotoCraft: machine-translated for @tronicum with Claude (Anthropic) as an AI contributor, not yet reviewed by a native speaker; original translations of PhotoCraft's English labels; PdfCraft (pdfcraft#5699, native script prompts): @FredApps, AI-assisted, not reviewed by a native speaker; WordCraft (AppImage update and clipboard picture notices): @nocturney, AI-assisted with ChatGPT, not yet reviewed by a native speaker; WordCraft (two index dialog labels): @nocturney with ChatGPT (OpenAI), AI-assisted, not independently native-reviewed; WordCraft (hidden-text guidance): @nocturney with ChatGPT (OpenAI), AI-assisted, not independently native-reviewed | catalog of storytold/wordcraft#1303 (`wordcraft@553d2ee`), `photocraft@2772ac1`, `pdfcraft#5699` |
 | `hi` | PdfCraft: PdfCraft contributors, clean-room; later additions AI-assisted, not separately native-reviewed; PhotoCraft: PhotoCraft contributors (not named in PhotoCraft's `LICENSE-translations.txt`); PdfCraft (pdfcraft#5880, "Preferences → JavaScript"): @austin62jake with Claude Code, AI-assisted, not recorded as native-reviewed; PdfCraft (pdfcraft#5699, native script prompts): @FredApps, AI-assisted, not reviewed by a native speaker | `pdfcraft@ecdd1e6`, `photocraft@2772ac1`, `pdfcraft#5880`, `pdfcraft#5699` |
 | `hr` | WordCraft: Andrej Škvorc (@andrejskvorc) with Claude Code (Sonnet 5.5); proofread with Gemini | `wordcraft@67a0e72` |
 | `hu` | WordCraft: @Skaywalker; PdfCraft: PdfCraft contributors, clean-room; later additions AI-assisted, not separately native-reviewed; PhotoCraft: PhotoCraft contributors; VectorCraft: mostly agent-written (`bflatastic`), not recorded as native-reviewed; CADCraft: @Skaywalker; ArtCraft Launcher: no individual credit recorded upstream; PdfCraft (pdfcraft#162, redaction messages): @eliets2, AI assistance not stated, not reviewed by a native speaker; PdfCraft (pdfcraft#2298, "Coming soon"): @snipeTR, AI assistance not stated, not recorded as native-reviewed; PdfCraft (pdfcraft#5880, "Preferences → JavaScript"): @austin62jake with Claude Code, AI-assisted, not recorded as native-reviewed; PdfCraft (pdfcraft#5699, native script prompts): @FredApps, AI-assisted, not reviewed by a native speaker | `wordcraft@67a0e72`, `pdfcraft@ecdd1e6`, `photocraft@2772ac1`, `vectorcraft@73f40e3`, `cadcraft@c4d9e6a`, `craft-launcher@ad7f24a`, `pdfcraft#162`, `pdfcraft#2298`, `pdfcraft#5880`, `pdfcraft#5699` |
@@ -386,3 +386,133 @@ catalogs, with the same AI-assisted origin and no native-speaker review.
 ## PhotoCraft workspace recovery
 
 The two panel layout recovery messages were migrated from PhotoCraft commit `786d033ec` for `ar`, `cs`, `da`, `de`, `el`, `es`, `fi`, `fr`, `hi`, `hu`, `id`, `it`, `ja`, `ko`, `nb`, `nl`, `pl`, `pt-br`, `ru`, `sv`, `tr`, `uk`, `vi`, `zh-hans`, `zh-hant`. The sentence break and the Russian wording were edited with Codex assistance. No native-speaker review is recorded.
+
+## WordCraft Hebrew: index dialog labels
+
+@nocturney contributed two Hebrew labels from the current WordCraft index-entry dialog (`dialogs_refs/index.rs`), written from the English meaning and existing catalog terminology with ChatGPT (OpenAI) assistance. No independent native-speaker or installed RTL review has been performed.
+
+## WordCraft Hebrew: hidden-text guidance
+
+@nocturney contributed the Hebrew font-dialog hidden-text message (`dialogs/font.rs`), translated from its English meaning with ChatGPT (OpenAI) assistance and existing catalog terminology. No independent native-speaker or installed RTL review has been performed.
+
+
+## WordCraft Hebrew: contextual UI hints and accessibility labels (2026-11-24)
+
+@nocturney contributed four new Hebrew translations for active WordCraft `tl!` strings:
+row visibility, table-style editing guidance, SmartArt shape color and a missing hyperlink
+target warning. Drafted with ChatGPT assistance from the English source and code context.
+No independent native-speaker or installed RTL review is claimed.
+
+## Hebrew: WordCraft template picker (2026-11-24)
+
+@nocturney contributed two original Hebrew strings for WordCraft's template-management
+dialog (`Pick a template on the desktop app` and `Template`) from the active
+English `tl!` call sites in `storytold/wordcraft`
+(`crates/ui-egui/src/dialogs/dialogs_templates.rs`, blob
+`835ca864e58a3d2fc777261675f6d320905f8eec`).
+Written from the English UI meaning with ChatGPT (OpenAI GPT-6) assistance;
+independent native-speaker review and installed-app RTL testing not recorded.
+No third-party localized UI was consulted.
+
+## WordCraft Hebrew table sort and height controls (2026-11-23)
+
+@nocturney translated the active English UI strings `Order` (table sorting and mail merge sort order) and `Specify height` (table row settings), with ChatGPT (OpenAI) assistance. Clean-room translations from WordCraft English source. Independent native-speaker review and installed RTL GUI testing are pending.
+
+## WordCraft Hebrew: Define New Bullet character controls
+
+Two original Hebrew translations in `locales/he/wordcraft.tsv` for the active
+WordCraft `crates/ui-egui/src/dialogs/dialogs_bullet.rs` Define New Bullet UI:
+`Bullet character` and `Symbol…`. Translations by @nocturney,
+assisted by ChatGPT (OpenAI); sourced from the original English UI and
+the existing Hebrew terminology for bullet lists and symbols.
+Independent native-speaker proofreading and installed GUI/RTL validation
+have not been performed.
+
+
+## WordCraft Hebrew: zoom preset and recovery copy title (2026-11-23)
+
+@nocturney contributed two original Hebrew WordCraft UI strings in
+`locales/he/wordcraft.tsv`: `Zoom to` (zoom preset radio group in
+`crates/ui-egui/src/dialogs/dialogs_view.rs`) and `Discard recovery copy`
+(confirmation title in `crates/ui-egui/src/dialogs/prompts.rs`).
+Translated from the official English UI source with ChatGPT (OpenAI)
+assistance, following the existing catalog's `תקריב` and `עותק שחזור`
+terminology. No independent native-speaker review or in-app RTL test
+has been verified; no app install or recovery-file operation was performed.
+
+## WordCraft Hebrew: macro guard, gradient stop and picture source (2026-11-23)
+
+Three original Hebrew rows in `locales/he/wordcraft.tsv`: `Stop recording first`,
+`Stop color` and `Picture source`. These are sourced from the active WordCraft
+English UI strings in `dialogs/macros.rs`, `format_shape.rs` and `crop.rs`,
+respectively. Translations were written from English meaning and established
+Hebrew UI terminology, not copied from other products' localization tables.
+Original Hebrew translations contributed by @nocturney with ChatGPT (OpenAI)
+assistance. Native-speaker review has not been verified, including any review
+by the contributor; no in-app RTL visual test or independent human review is claimed.
+
+## WordCraft: object selection and transform overlay labels (Hebrew)
+
+Five new Hebrew entries in `locales/he/wordcraft.tsv` from the active WordCraft
+object overlay UI (`crates/ui-egui/src/objects.rs`, upstream 6837508):
+Connection sites, Object frame, Picked objects, Text box frame, and Turning object.
+Contributor: @nocturney, AI-assisted with ChatGPT (OpenAI); translated from the
+English source meaning and existing catalog terminology, without copying another
+product localization. Native-speaker translation review status: unverified. No independent native-speaker UI review has been performed.
+
+
+## Hebrew WordCraft output and proofing safety notices (2026-11-23)
+
+Fourteen new Hebrew UI strings from the active official WordCraft source
+(storytold/wordcraft commit c369c3a20befef8742f8913128cacd79002435d6):
+`printing.rs`, `md_source.rs`, `chrome/status_bar.rs`, `options.rs`,
+and `language_packs.rs`. This covers cancellation uncertainty, Markdown
+content-loss warnings, missing-font status, dictionary setup and language names.
+The Hebrew strings were drafted with ChatGPT assistance from the cited English
+UI source and submitted by contributor @nocturney. No separate individual
+human translator is credited. Native-speaker, installed-app and RTL visual
+review have not been performed.
+
+## Hebrew WordCraft: Recent list removal status (2026-11-23)
+
+Two original Hebrew translations for the WordCraft recent-document removal and clear-list status messages. The English keys were independently checked against [storytold/wordcraft `app/commands.rs`](https://github.com/storytold/wordcraft/blob/c369c3a20befef8742f8913128cacd79002435d6/crates/ui-egui/src/app/commands.rs). Translations were written clean-room from the English meanings with GPT-6 assistance, without using another product's locale assets. The `{name}` and `{count}` placeholders are unchanged. No native-speaker or RTL UI review has been performed.
+
+## WordCraft Hebrew keyboard shortcut and date/time format feedback (2026-11-22)
+
+Added two original Hebrew UI translations in `locales/he/wordcraft.tsv`: `Use a key combination with Ctrl, Alt or a function key.` and `Default format saved.`. Based on the active English `tl!` calls in the official WordCraft source, `crates/ui-egui/src/dialogs/customize_keyboard.rs` and `crates/ui-egui/src/dialogs/dialogs_insert/date_time.rs`, respectively. Drafted by @nocturney with AI assistance using clean-room computing terminology; no third-party translations were copied. Independent Hebrew-speaker review and native RTL UI verification remain pending.
+
+## WordCraft Hebrew chart and diagram controls (2026-11-22)
+
+Added three original Hebrew labels in `locales/he/wordcraft.tsv`: `Chart types`, `Chart data`, and `Style Color`. Based on their English meanings and active `tl!` call sites in official WordCraft `crates/ui-egui/src/dialogs/dialogs_chart.rs` (blob `83019b21ea80220abe9539a4db2217a3918bdec0`) and `dialogs_smart_art.rs` (blob `ba018f06fcec120d5d945b63fef3f290ca8d6253`). Written by contributor @nocturney with AI assistance using clean-room, ordinary Hebrew computing vocabulary; no third-party translated string table was consulted. Independent Hebrew-speaker review and live right-to-left UI verification remain outstanding.
+
+## Hebrew WordCraft simple-dialog inputs and field-code feedback (2026-11-22)
+
+Five original clean-room Hebrew translations for active WordCraft `crates/ui-egui/src/dialogs/simple_forms.rs` UI strings: table-insertion column/row counts, field-code label/title and the cell-margin missing-table notice. Source file blob `dd746799d24af1a521aaae8686bd3b07b26541ea`. Translation was AI-assisted from the English literals and existing Hebrew office terminology; independent native-speaker and installed WordCraft RTL UI review are not yet recorded. No external localized strings were copied.
+
+## Hebrew — WordCraft print preview (2026-11-22)
+
+Four Hebrew translations for the existing WordCraft Print preview sheet navigation,
+sheet count and rendering-failure UI, based on literal source strings in
+`storytold/wordcraft` `crates/ui-egui/src/print_page/preview.rs`.
+These are original clean-room, AI-assisted Hebrew translations from the English
+meaning; existing Hebrew Craft terminology was consulted. No native-speaker
+review, native/RTL visual test or installed-app acceptance has been performed.
+Proposed under the official `storytold/craft-i18n` repository; no merge implied.
+
+## WordCraft Hebrew: accessibility, proofing and print controls (2026-11-22)
+
+Five original source-backed Hebrew translations contributed by @nocturney with ChatGPT (OpenAI) AI assistance.
+The keys come from active WordCraft UI source: crates/ui-egui/src/a11y_pane.rs, proofing_pane.rs, and print_page.rs.
+Drafted clean-room from English meaning, without copying other product localizations. Official he/wordcraft.tsv
+and he/common.tsv plus relevant open Hebrew WordCraft PR patches were checked for exact-key overlap.
+Independent native-speaker review, running Hebrew UI/RTL validation and upstream release remain pending.
+
+
+## WordCraft Hebrew: consolidation of retained interface contributions (2026-11-28)
+
+20 existing, unchanged translations by @nocturney with ChatGPT (OpenAI) assistance were consolidated from craft-i18n#439 (4 rows), craft-i18n#406 (7 rows), craft-i18n#399 (6 rows), craft-i18n#391 (3 rows). Original English WordCraft source checked at `5796c665b9fe9936c9decda2c7ff42930d24b6ad`; source areas: content controls, mail-merge dialogs, table/document properties and font download guidance, as applicable. Original contributor attribution and earlier catalog content are retained. No new translation count, proprietary localization, independent native-speaker review or installed RTL acceptance is claimed.
+
+
+## WordCraft Hebrew: retained Linux font-install guidance (2026-11-28)
+
+One previously submitted translation from craft-i18n#391 by @nocturney with ChatGPT (OpenAI) assistance was consolidated, retaining the literal Linux path and replacing two LRM marks with ordinary punctuation for source readability. Exact WordCraft source checked at `5796c665b9fe9936c9decda2c7ff42930d24b6ad`. No new translation count, independent native-speaker review or installed RTL acceptance claimed.
