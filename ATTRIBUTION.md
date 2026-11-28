@@ -24,7 +24,7 @@ catalog came from (`<app>@<sha>`). Translations are contributed under the reposi
 | `fi` | VectorCraft: mostly agent-written (`bflatastic`), AI-assisted (Claude Code), checked by a native speaker in the running app, not proofread line by line; PdfCraft: PdfCraft contributors with Claude Code, AI-assisted, not yet proofread by a native speaker; PhotoCraft: PhotoCraft contributors, combined from the catalogs contributed by @Janiz-zzz and @metuuu and reviewed with Claude (Anthropic) as an AI contributor; original translations of PhotoCraft's English labels; PdfCraft (pdfcraft#5880, "Preferences → JavaScript"): @austin62jake with Claude Code, AI-assisted, not recorded as native-reviewed; PdfCraft (pdfcraft#5699, native script prompts): @FredApps, AI-assisted, not reviewed by a native speaker | `photocraft@2772ac1`, `vectorcraft@73f40e3`, `pdfcraft@ecdd1e6`, `pdfcraft#5880`, `pdfcraft#5699` |
 | `fr` | WordCraft: @pechnikov2026-star; WordCraft (89 additional rows: Language packs, recovery copies, custom properties, panes, macros, proofing): @jayzed80 with Claude Code (Sonnet 5.5), AI-translated from the English meaning, not reviewed by a native speaker; PdfCraft: PdfCraft contributors, clean-room; later additions AI-assisted, not separately native-reviewed; PhotoCraft: no individual credit recorded upstream (some rows from PR #582 by neko233-com); PhotoCraft (2 additional rows): Erwan Paccard (@erwanpaccard) with Claude, AI-translated, partially human-reviewed; PhotoCraft (photocraft#4474, 1,037 additional rows: filter parameter names, Camera Raw settings and other labels missing from `fr.tsv`): @Atalantis, a native French speaker, machine-translated from the plain meaning of the English labels (tool not named) and checked by a second, independent automated review; not yet proofread line by by a person; VectorCraft: mostly agent-written (`bflatastic`), not recorded as native-reviewed; FilmCraft: FilmCraft contributors (catalog added by vangel76); CADCraft: @pechnikov2026-star; ArtCraft Launcher: no individual credit recorded upstream; PdfCraft (pdfcraft#162, redaction messages): @eliets2, AI assistance not stated, not reviewed by a native speaker; PdfCraft (pdfcraft#2298, "Coming soon"): @snipeTR, AI assistance not stated, not recorded as native-reviewed; PdfCraft (pdfcraft#5880, "Preferences → JavaScript"): @austin62jake with Claude Code, AI-assisted, not recorded as native-reviewed; VectorCraft (300 additional rows: tool, panel, export and message labels): @jayzed80 with Claude Code (Sonnet 5.5), drafted by a local model (Gemma-4-26B) from the English, read back by two other local models and reviewed and corrected by Claude Code (Opus), not reviewed by a native speaker; PdfCraft (553 additional rows: accessibility and PDF/A checker messages, tool and panel labels): @jayzed80 with Claude Code (Sonnet 5.5), drafted by a local model (Gemma-4-26B) from the English, read back by two other local models and reviewed and corrected by Claude Code (Opus), not reviewed by a native speaker; CADCraft (292 additional rows: drawing, dimension, layer and panel labels and messages): @jayzed80 with Claude Code (Sonnet 5.5), drafted by a local model (Gemma-4-26B) from the English, read back by two other local models and reviewed and corrected by Claude Code (Opus), not reviewed by a native speaker; DeckCraft (new catalog: slide, animation, panel and message labels): @jayzed80 with Claude Code (Sonnet 5.5), drafted by a local model (Gemma-4-26B) from the English, read back by another local model and reviewed and corrected by Claude Code (Opus), not reviewed by a native speaker; DeckCraft (deckcraft#2109, 8 rows: placeholder prompts on slides): @filforce95 with Claude Code (Opus 5.5), AI-translated from the plain meaning of the English in the wording of the existing French rows, not reviewed by a native speaker; PhotoCraft (829 additional rows: tool, filter, panel and message labels): @jayzed80 with Claude Code (Sonnet 5.5), drafted by a local model (Gemma-4-26B) from the English, read back by two other local models and reviewed and corrected by Claude Code (Opus), not reviewed by a native speaker; PdfCraft (pdfcraft#5699, native script prompts): @FredApps, AI-assisted, not reviewed by a native speaker; GridCraft (gridcraft#795, Quick Analysis): @vangel76 with Claude Code, AI-assisted, not reviewed by a native speaker | `wordcraft@67a0e72`, `pdfcraft@ecdd1e6`, `photocraft@2772ac1`, `photocraft#4474`, `vectorcraft@73f40e3`, `filmcraft@48088e3`, `cadcraft@c4d9e6a`, `craft-launcher@ad7f24a`, `pdfcraft#162`, `pdfcraft#2298`, `pdfcraft#5880`, `pdfcraft#5699`, `deckcraft#2109`, `gridcraft#795` |
 | `gl` | Shared catalog and Craft Launcher: Alberto Xosé Méndez Taboada (@B1NAR10, @galician-translators) with Antigravity, AI-assisted, written from the plain meaning of the English; reviewed by the translator, a native speaker | — (written here) |
-| `he` | WordCraft: Chagai Wild (@WildChagai) with Claude Code, AI-assisted; used in the running app (Hebrew interface, mirrored right to left) on Windows 11; individual rows not yet reviewed by a second speaker; PhotoCraft: machine-translated for @tronicum with Claude (Anthropic) as an AI contributor, not yet reviewed by a native speaker; original translations of PhotoCraft's English labels; PdfCraft (pdfcraft#5699, native script prompts): @FredApps, AI-assisted, not reviewed by a native speaker | catalog of storytold/wordcraft#1303 (`wordcraft@553d2ee`), `photocraft@2772ac1`, `pdfcraft#5699` |
+| `he` | WordCraft: Chagai Wild (@WildChagai) with Claude Code, AI-assisted; used in the running app (Hebrew interface, mirrored right to left) on Windows 11; individual rows not yet reviewed by a second speaker; PhotoCraft: machine-translated for @tronicum with Claude (Anthropic) as an AI contributor, not yet reviewed by a native speaker; original translations of PhotoCraft's English labels; PdfCraft (pdfcraft#5699, native script prompts): @FredApps, AI-assisted, not reviewed by a native speaker; PdfCraft (30 additional rows: accessibility and tags, signature and certificate labels, action editor, form table and calculation order links, OCR options and verification, redaction dialog labels, comparison controls and numbered annotation line ending): @nocturney with ChatGPT (OpenAI), AI-assisted, native-speaker and installed RTL review pending | catalog of storytold/wordcraft#1303 (`wordcraft@553d2ee`), `photocraft@2772ac1`, `pdfcraft#5699` |
 | `hi` | PdfCraft: PdfCraft contributors, clean-room; later additions AI-assisted, not separately native-reviewed; PhotoCraft: PhotoCraft contributors (not named in PhotoCraft's `LICENSE-translations.txt`); PdfCraft (pdfcraft#5880, "Preferences → JavaScript"): @austin62jake with Claude Code, AI-assisted, not recorded as native-reviewed; PdfCraft (pdfcraft#5699, native script prompts): @FredApps, AI-assisted, not reviewed by a native speaker | `pdfcraft@ecdd1e6`, `photocraft@2772ac1`, `pdfcraft#5880`, `pdfcraft#5699` |
 | `hr` | WordCraft: Andrej Škvorc (@andrejskvorc) with Claude Code (Sonnet 5.5); proofread with Gemini | `wordcraft@67a0e72` |
 | `hu` | WordCraft: @Skaywalker; PdfCraft: PdfCraft contributors, clean-room; later additions AI-assisted, not separately native-reviewed; PhotoCraft: PhotoCraft contributors; VectorCraft: mostly agent-written (`bflatastic`), not recorded as native-reviewed; CADCraft: @Skaywalker; ArtCraft Launcher: no individual credit recorded upstream; PdfCraft (pdfcraft#162, redaction messages): @eliets2, AI assistance not stated, not reviewed by a native speaker; PdfCraft (pdfcraft#2298, "Coming soon"): @snipeTR, AI assistance not stated, not recorded as native-reviewed; PdfCraft (pdfcraft#5880, "Preferences → JavaScript"): @austin62jake with Claude Code, AI-assisted, not recorded as native-reviewed; PdfCraft (pdfcraft#5699, native script prompts): @FredApps, AI-assisted, not reviewed by a native speaker | `wordcraft@67a0e72`, `pdfcraft@ecdd1e6`, `photocraft@2772ac1`, `vectorcraft@73f40e3`, `cadcraft@c4d9e6a`, `craft-launcher@ad7f24a`, `pdfcraft#162`, `pdfcraft#2298`, `pdfcraft#5880`, `pdfcraft#5699` |
@@ -386,3 +386,110 @@ catalogs, with the same AI-assisted origin and no native-speaker review.
 ## PhotoCraft workspace recovery
 
 The two panel layout recovery messages were migrated from PhotoCraft commit `786d033ec` for `ar`, `cs`, `da`, `de`, `el`, `es`, `fi`, `fr`, `hi`, `hu`, `id`, `it`, `ja`, `ko`, `nb`, `nl`, `pl`, `pt-br`, `ru`, `sv`, `tr`, `uk`, `vi`, `zh-hans`, `zh-hant`. The sentence break and the Russian wording were edited with Codex assistance. No native-speaker review is recorded.
+
+## PdfCraft Hebrew: accessibility and tags
+
+Six original Hebrew translations of active PdfCraft labels in `workflows/a11y_ui.rs` (blob `92205e93faa66b7b480a05901a6d47b415ec7cd9`) and `tools/tags_ui.rs` (blob `4d0d5e1ccb683ee1f0ae4ab3166910b6f9b58f57`), contributed by @nocturney with ChatGPT (OpenAI) assistance. Native-speaker and installed RTL review have not yet been performed.
+
+## PdfCraft Hebrew: signature and certificate labels
+
+Five original Hebrew translations of active PdfCraft labels in `tools/sign_ui/cert_viewer.rs`, `dialog.rs` and `panel.rs`, contributed by @nocturney with ChatGPT (OpenAI) assistance from the English meanings and existing catalog terminology. Native-speaker and installed RTL review have not yet been performed.
+
+## PdfCraft Hebrew: action editor labels
+
+Three original Hebrew translations of active PdfCraft labels and messages in `workflows/actions_ui.rs`, contributed by @nocturney with ChatGPT (OpenAI) assistance from the English meanings and existing catalog terminology. Native-speaker and installed RTL review have not yet been performed.
+
+## PdfCraft Hebrew: form table and calculation order links
+
+Two original Hebrew translations from active PdfCraft `tools/field_table_ui.rs` and `tools/calc_order_ui.rs`, contributed by @nocturney with ChatGPT (OpenAI) assistance. Native-speaker and installed RTL review pending.
+
+## PdfCraft Hebrew: OCR options and verification
+
+Six original Hebrew translations from active PdfCraft `workflows/ocr_verify/screen.rs` and `panes.rs`, contributed by @nocturney with ChatGPT (OpenAI) assistance. Native-speaker and installed RTL review pending.
+
+## PdfCraft Hebrew: redaction dialog labels
+
+Five original Hebrew translations from active PdfCraft `tools/redact_ui/dialogs.rs` (6e91067), contributed by @nocturney with ChatGPT (OpenAI) assistance. Native-speaker and installed RTL review pending.
+
+## PdfCraft Hebrew: comparison controls
+
+Two original Hebrew translations of active PdfCraft labels in `compare_ui.rs` (blob `af0e173f6e26c5a9b2150cbd47e1fa8407743f81`), contributed by @nocturney with ChatGPT (OpenAI) assistance. Native-speaker and installed RTL review have not yet been performed.
+
+## PdfCraft Hebrew: numbered annotation line ending
+
+One original Hebrew translation of the active PdfCraft label in `comment_props.rs` (blob `769842925d7f096a71435cc554947b7bafae1363`), contributed by @nocturney with ChatGPT (OpenAI) assistance. Native-speaker and installed RTL review have not yet been performed.
+
+## PdfCraft Hebrew: PDF/A findings heading
+
+One original Hebrew translation of the active PdfCraft label in `standards_ui.rs` (blob `ae348c32eda49a151246e71dd92649b05a8093c6`), contributed by @nocturney with ChatGPT (OpenAI) assistance. Native-speaker and installed RTL review have not yet been performed.
+
+## PdfCraft Hebrew: header/footer and watermark controls
+
+Eleven original Hebrew translations from the English labels in PdfCraft `marks_ui.rs` (blob `f2eff5fc7e3dc5f7c7fd8e9cd4f827e371ee723b`), contributed by @nocturney with ChatGPT (OpenAI) assistance. Independent native-speaker review and installed RTL review have not yet been performed.
+
+## PdfCraft: Hebrew measurement calibration and saved-results messages
+
+@nocturney contributed seven Hebrew (`he`) source-backed UI rows for PdfCraft's
+measurement calibration, saved measurements, unsupported-result feedback and CSV
+export notification: `Page length`, `Real distance`, `Saved measurements: {n}`,
+`Page {page}: {reason}`, `Page {page}: {reading} {label}`,
+`Unsupported measurements: {n}`, and `Downloaded measurements.`.
+The source is the active official PdfCraft `crates/ui-egui/src/tools/measure_ui.rs`
+(blob `da9dc1f98a6ae5ea5e95a203229e961cf8422f7d`).
+Translations were independently drafted with OpenAI ChatGPT GPT-6 using plain English
+UI meaning and existing Hebrew terminology; named placeholders are preserved.
+`Reading the drawing for snapping…` was excluded because another open proposal
+(#438) already covers it. Independent native-speaker review and installed-app
+RTL visual testing have not been completed.
+
+## PdfCraft: Hebrew link properties controls
+
+@nocturney contributed six Hebrew (`he`) rows for the PdfCraft link properties and
+appearance controls (`Action`, `Selected link`, `Link Type`, `Highlight Style`,
+`Line Thickness`, and `Line Style`) from the active `link_ui.rs` English source.
+Translations were drafted with OpenAI ChatGPT (GPT-6) from the plain English UI
+meaning and the established vocabulary in the existing Hebrew catalog, without
+copying another application's translations. No native-speaker review or
+installed-app visual RTL check has been recorded.
+
+## PdfCraft (he): print grid, measurement snapping, link zoom and document properties
+
+- Contributor: @nocturney. Four original Hebrew UI strings drafted with ChatGPT (OpenAI) assistance from active `tl!` call sites in official `storytold/pdfcraft` at source `9b3e6d6f38de906c758d93e8ece45cbf105fd515`: `crates/ui-egui/src/workflows/print_ui/draft.rs`, `tools/measure_ui.rs`, `tools/link_ui.rs`, and `properties_session.rs`.
+- English keys: `Columns and rows must each be 1 to 99.`, `Reading the drawing for snapping…`, `Inherit Zoom`, and `The document changed. Reopen Document Properties to edit the current version.` They were absent from official Hebrew PdfCraft and common catalogs; checked open related proposals for overlap. No third-party translations were copied. Native-speaker review and installed-app RTL verification remain pending.
+
+## PdfCraft: PDF/A internal checks are not validator results (he, 2026-11-23)
+
+Two additional Hebrew UI messages sourced from the active `tl!` strings in
+`storytold/pdfcraft/crates/ui-egui/src/dialogs/standards_ui.rs`.
+These are original AI-assisted clean-room translations from the English
+source and UI context. No native-speaker or installed UI review is claimed.
+
+## PdfCraft: preferences — updates, links, middle-button drag and signatures (he, 2026-11-23)
+
+Five additional Hebrew UI strings sourced from the active `tl!` calls in the
+official PdfCraft `crates/ui-egui/src/dialogs/preferences.rs`.
+Translations are original AI-assisted proposals based on the English source
+and surrounding UI context; no native-speaker or installed GUI review is claimed.
+No third-party locale translations were copied. Terms preserve the application's
+PDF and desktop input semantics.
+
+## Hebrew — PdfCraft rename and comment properties dialogs (Nov 2026)
+
+9 clean-room Hebrew UI translations drafted by ChatGPT for contributor @nocturney from the English `tl!` strings in `storytold/pdfcraft` `crates/ui-egui/src/dialogs/rename_ui.rs` and `comment_props.rs`. AI-assisted, native-speaker and in-app RTL review pending; no other product's localisation consulted.
+
+## PdfCraft Hebrew: printer marks dialog (2026-11-23)
+
+Eleven original Hebrew interface translations for the print-production printer-marks dialog
+from the official `storytold/pdfcraft` file `crates/ui-egui/src/dialogs/printer_marks_ui.rs`
+(source blob `5331cfa3a5e8640030cee5d206ba8cc697de3ee2`). The English keys occur
+in the active `tl!` UI callsites and were absent from the Hebrew PdfCraft and common
+catalogs at the upstream main base `fd44ae8cbb5b076dc77a12ea6c7ddd7cf8b1c360`.
+Translations were submitted by @nocturney. The Hebrew wording was drafted with ChatGPT
+as an AI-assisted clean-room translation from the official English UI source; no named human
+translator is claimed for these eleven new rows, and no other product's localized text was
+copied. Independent native-speaker proofreading, running-application RTL review, and
+maintainer acceptance remain pending.
+
+## PdfCraft Hebrew: page management controls (2026-11-25)
+
+Four original Hebrew translations by @nocturney with ChatGPT (OpenAI) assistance, previously submitted in craft-i18n #500. The exact English `tl!` callsites are in `storytold/pdfcraft@6e910675c68dd5092e889065cfe8d0274c1b2742`, `crates/ui-egui/src/dialogs/page_dialogs.rs` (lines 89, 106, 258 and 316; source blob `5118e2e0b43c50a1a1355a3ce330228981593448`). This consolidation preserves all four original translations and named placeholders without counting them again as newly authored. Independent native-speaker proofreading, installed RTL review and maintainer acceptance remain pending.
