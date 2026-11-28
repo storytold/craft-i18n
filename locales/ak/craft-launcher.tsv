@@ -1,0 +1,304 @@
+# Asante Twi (ak) interface catalog for ArtCraft Launcher.
+# Columns, separated by a TAB:  context <TAB> English source text <TAB> translation
+#   context  usually empty. `@plural`, `@id` and `@msg` mean something to the apps; any other
+#            word is a label that tells apart two meanings of the same English.
+#   escapes  \n  \t  \\  inside a column. `{name}` placeholders must appear in both columns (in any
+#            order), and a trailing "…" in one needs one in the other.
+#   @plural  English `one|other`; the translation lists this language's plural forms, `|`-separated.
+#   Lines starting with # and blank lines are ignored. A missing entry shows in English.
+#
+# Clean room: every entry was written from the plain meaning of the English text in ordinary
+# computing vocabulary. No other product's localisation, string table or translated UI was
+# consulted or copied; add entries the same way.
+
+	A new version is available. Download it to replace this version?	Update foforɔ aba oo, wopɛsɛ wotwe anaa?
+	A new version is available. Would you like to relaunch with the updated version?	Update foforɔ aba. Wopɛsɛ wobue ɛno anaa?
+	All releases	Releases ne nyinaa
+#	App	
+column	App	App
+	App details	App no ho asɛm
+#@id	app.download	
+#@id	app.github	
+#@id	app.install	
+#@id	app.notes	
+#@id	app.open	
+#@id	app.reinstall	
+#@id	app.releases	
+#@id	app.reveal	
+#@id	app.uninstall	
+#@id	app.update	
+#@id	app.website	
+#@id	appearance.theme	
+	Apps are placed inside this folder.	Apps no bɛkɔ folder wei mu
+	Apps on this computer	Apps a w'atwe  dada
+	Apps you can install	Nea wobetumi atwe
+	Apps you hid	Nea wode esie
+#month	Apr	
+#	Arch package (.pkg.tar.zst)	
+#	ArtCraft Launcher	
+#	ArtCraft Launcher is still running	
+#	ArtCraft Launcher {version}	ArtCraft Launcher {version}
+#	ArtCraft Launcher {version} is available.	ArtCraft Launcher {version} ɛyɛ available.
+#@plural	ArtCraft Launcher · {n} update available|ArtCraft Launcher · {n} updates available	ArtCraft Launcher · updates {n} na ɛwɔ hɔ|ArtCraft Launcher · updates {n} na ɛwɔ hɔ
+#	ArtCraft on GitHub	ArtCraftfoɔ GitHub
+#	ArtCraft on {name}	ArtCraftfoɔ {name}
+#month	Aug	
+#	Automatically download and install updates	
+#	Available to install	
+#	Cancel download	
+#	Cancel update	
+#	Checked {ago}	
+#	Checked {ago} · using {sources}	
+#	Checking for updates…	
+#	Checking…	
+#	Classic apps	
+#	Click to enlarge	
+#	Click to reverse the order	
+#	Click to sort by this column	
+#	Coming soon	
+#cadcraft	Computer-aided design and drafting	
+#	Couldn't change the login item: {e}	
+#	Couldn't check for updates: {f}	
+#@msg	couldn't move {path} to Trash ({reason}). Remove it in Finder instead.	
+#@msg	couldn't use install folder {path}: {reason}	
+#	Craft App Suite	
+#	Custom folders use AppImage on Linux.	
+#@msg	custom install folders aren't supported on this system	
+#	Debian package (.deb)	
+#month	Dec	
+#	Default install folder	
+#	Discard download	
+#	Disk image (.dmg)	
+#	Download again	
+#	Download cancelled	
+#@msg	Download cancelled	
+#	Download for {os}	
+#	Download paused	
+#	Downloading	
+#	Downloading {done} of {total}	
+#	Downloading…	
+#	Downloads for {platform}	
+#	Downloads the new version, replaces this one and opens it again	
+#	Enlarge picture	
+#	Every Craft app	
+#	Features	
+#month	Feb	
+#@id	filter.all	
+#@id	filter.installed	
+#@id	filter.notinstalled	
+#@id	filter.updates	
+#	Flatpak bundle	
+#	Frequently used	
+#	Full changelog	
+#	GitHub limit hit; back in {min} min	
+#	GitHub repository	
+#	GitHub's hourly limit was reached; full details return in {min} min	
+#@id	help.discord	
+#@id	help.github	
+#@id	help.website	
+#	Hidden Apps	
+#	Hide App	
+#photocraft	Image editing	
+#	Include pre-releases (betas and release candidates)	
+#	Inspired by	
+#	Install	
+#	Install cancelled	
+#	Install cancelled. The download is kept for the next try.	
+#	Install folder	
+#	Install new apps as	
+#	Installed	
+#column	Installed	
+#filter	Installed	
+#	installed	
+#	Installed apps with a newer version	
+#	Installed version	
+#	Installed · latest {latest}	
+#	Installed · up to date	
+#	Installer (.msi)	
+#	Installing for {platform}	
+#	Installing on Linux	
+#	Installing on Windows	
+#	Installing, then restarting…	
+#	Installing…	
+#figcraft	Interface design and prototyping	
+#	It's in the tray: open it or quit it from the tray icon, or turn this off in the settings.	
+#month	Jan	
+#	Join the ArtCraft community on Discord	
+#	Join the Discord	
+#month	Jul	
+#month	Jun	
+#	Keep running in the tray when the window is closed	
+#	Last updated: {date}	
+#	Latest	
+#column	Latest	
+#	Latest release	
+#	Latest version	
+#	Launcher	
+#@id	launcher.dismiss	
+#@id	launcher.download	
+#@id	launcher.notes	
+#@id	launcher.update	
+#	Learn more	
+#	Like {name}	
+#	link	
+#@id	linux.preferred_kind	
+#	Loading ArtCraft Launcher…	
+#	Loading pictures…	
+#month	Mar	
+#	Match system	
+#month	May	
+#	More actions for {name}	
+#effectcraft	Motion graphics and visual effects	
+#	Name (Z–A)	
+#	NEW	
+#	New apps	
+#	New installs use this folder. Updates stay in their current location.	
+#	Newest release	
+#	Next app	
+#	Next picture (→)	
+#	No apps match	
+#	No downloads for this system	
+#	No notes were published with this release.	
+#	No release published yet	
+#	Not available here	
+#	Not checked yet	
+#	Not installed	
+#	Notify me when an installed app has an update	
+#month	Nov	
+#month	Oct	
+#	On Linux, custom folders use AppImage format.	
+#	Only when I ask	
+#	Open ArtCraft Launcher to update.	
+	Open on GitHub	Bue wɔ Github
+#	Open Source Tools for Creatives, Makers, and Builders	
+#designcraft	Page layout and publishing	
+	Pause download	Pausi download yi
+#lightcraft	Photo library and raw development	
+	Pictures couldn't be loaded. Reopen this page to try again.	Mfoni no entumi enbue, reloadi page yi na try bio
+	Platforms	Platforms ahodoɔ
+#	Portable (.zip)	
+#deckcraft	Presentations and slide shows	
+#	Previous app	
+#	Previous picture (←)	
+#	Questions, ideas and news from the ArtCraft team	
+#	Quit ArtCraft Launcher	
+#pdfcraft	Reading, organizing and protecting PDFs	
+#	Recently updated	
+#	Reconnecting…	
+#soundcraft	Recording, editing and mixing audio	
+#	Reinstall	
+#	Release notes	
+#	Released	
+#column	Released	
+#	Released {date}	
+#	Releases	
+#	Removing…	
+#	Replace what's there?	
+#	Resume download	
+#	Retry install	
+#	Retry update to {version}	
+#	RPM package (.rpm)	
+#	Running in the background	
+#	Search apps	
+#month	Sep	
+#@id	settings.open	
+#@id	settings.quit	
+#	Show apps as a table	
+#	Show apps as cards	
+#	Show ArtCraft Launcher	
+#	Show in Explorer	
+#	Show in Files	
+#	Show in Finder	
+#	Show the window on the current desktop	
+#	Show {n} more changes	
+#@id	sort.inspired	
+#@id	sort.installed	
+#@id	sort.latest	
+#@id	sort.name	
+#@id	sort.released	
+#@id	sort.status	
+#@id	sort.suite	
+#gridcraft	Spreadsheets and data	
+#	Start ArtCraft Launcher when I log in	
+#	Stop waiting; the update can be started again later	
+#	Suite order	
+#	System default	
+#	System package (recommended)	
+#	Tarball (.tar.gz)	
+#	The app will be moved to the Trash. Your documents and settings stay.	
+#	The app will be removed. Your documents and settings stay.	
+#	The download is still here. It's checked again, then installed.	
+#	The system manages install locations here.	
+#	These notes weren't fetched (GitHub's request limit was reached). They're on the release page.	
+#@msg	this release has no AppImage for a custom install folder	
+#@id	tray.close_to_tray	
+#@id	tray.login_item	
+#@id	tray.show_on_current_desktop	
+#	Unhide App	
+#	Uninstall	
+#	Uninstall cancelled	
+#	Uninstall {name}?	
+#	Uninstall…	
+#	Update 1 app	
+#	Update all ({count})	
+#	Update and restart	
+#	Update available	
+#	Update cancelled	
+#	Update paused	
+#	Update to {v}	
+#@id	update.check	
+#@id	update.check_auto	
+#@id	update.notify	
+#@id	update.prereleases	
+#	Updates always use the format an app was installed with.	
+#	Updating…	
+#	Use default	
+#vectorcraft	Vector illustration	
+#	Verifying checksum…	
+#	Verifying…	
+#column	Version	
+#	Version {latest}	
+#	Version {version} installed	
+#filmcraft	Video editing, color and sound	
+#@id	view.grid	
+#@id	view.table	
+	Visit getartcraft.com	Kɔ getartcraft.com
+	Waiting for another app…	Yɛretwɛn app foforɔ bi…
+	Waiting for other installs…	Installations afoforɔ wɔ hɔ dada, yɛretwɛn wɔn…
+	Website (coming soon)	Wɛbsaet no nam wan so reba.
+	What's new	Ɛdɛn na ɛkɔ?
+	When on, opening the launcher from the menu bar brings its window to the desktop you're on. When off, macOS switches you to the desktop the window was on.	Sɛ eyi si so, na sɛ wubue launcher no fi menu bar no so a, ɛde ne window no kɔ desktop a wowɔ so no so. Nanso sɛ wodum eyi yi a, macOS dan wo kɔ desktop so a na window no wɔ so.
+	Windows will remove it like any installed program. Your documents and settings stay.	Windows b'eyi efiri wo system no so, nanso wo dɔkumenti ne settings no bɛwɔ hɔ
+wordcraft	Writing and document design	Yɛ de nkyerɛwyɛ ne dɔkumenti ho ndwuma
+	Your system's package manager will remove it, and may ask for your password. Your documents and settings stay.	Package manager a ɛwɔ wo system no so no b'eyi efiri hɔ nanso wo dɔkumenti ne wo sɛttings no bɛwɔ hɔ. System no so bebusa wo password no.
+	{a} and {b}	{a} ne {b}
+	{count} updates are available	Updates {count} ɛna ɛwɔ hɔ sesiara
+	{done} downloaded	emu {done} na w'atwe
+	{done} of {total}	{done} pɛ na w'atwe efiri {total} no mu
+	{done} of {total} downloaded	{done} pɛ na w'atwe efiri {total} no mu
+	{installed} installed · latest {latest}	{installed} na ye instɔle · foforɔ a aba yɛ {latest}
+	{month} {day}, {year}	da a ɛtɔ so {day} ɛwɔ bosome {month} mu, afe {year}
+	{name} details	{name} ho nsɛm
+	{name} icon	{name} ahyɛnsodeɛ
+@msg	{name} installed: {version}	W'atwe {name} {version}
+@msg	{name} installed: {version} (this release publishes no checksum, so only its size was checked)	W'atwe {name} {version} (release yi nni checksum biara, nti ne kɛseɛ nkoa na yɛhwɛe)
+@msg	{name} is running. Quit it, then try again.	{name} da so di dwuma. Dum no na san try bio.
+@msg	{name} updated to {version}	{name} updati kɔ version {version}
+@msg	{name} updated to {version} (this release publishes no checksum, so only its size was checked)	{name} updati kɔ version {version} (release yi nni checksum biara, nti ne kɛseɛ nkoa na yɛhwɛe)
+	{name} was installed from the AUR ({pkg}). Update it with your AUR helper (for example: yay -S {pkg})	Wo instɔlee {name} firii AUR({pkg}), nti fa wo AUR helper no yɛ update no. (Wobetumi de yay -S {pkg} ayɛ)
+	{name} was installed from the AUR ({pkg}). Update it with {cmd}	Wo instɔlee {name} firii AUR({pkg}). Fa {cmd} yɛ update no.
+	{name} was installed from the {repo} repository or the AUR ({pkg}). Update it with your AUR helper (for example: yay -S {pkg}) or sudo pacman -Syu	Wo instɔlee {name} firii {repo} repository anaa AUR({pkg}), nti fa wo AUR helper no yɛ update no. (Wobetumi de yay -S {pkg} anaa sudo pacman -Syu ayɛ)
+	{name} was installed from the {repo} repository or the AUR ({pkg}). Update it with {cmd} or sudo pacman -Syu	Wo instɔlee {name} firii {repo} repository anaa AUR({pkg}). Fa {cmd} anaa sudo pacman -Syu yɛ update no.
+@msg	{name} was removed	W'eyi {name} efiri wo system no so
+	{name} {version}	{name} {version}
+	{name} {v} is available	{name} a ɛwɔ version {v} yɛ available
+@plural	{n} app|{n} apps	apps {n}|apps {n}
+@plural	{n} day ago|{n} days ago	da {n} ni|nda {n} nie
+@plural	{n} h ago|{n} h ago	dɔnwhere {n} ni|ndɔnwhere {n} a abɛsen kɔ
+@plural	{n} min ago|{n} min ago	sima {n} nie|sima {n} a abɛsen kɔ
+@msg	{path} already exists and wasn't installed by ArtCraft Launcher	{path} no wɔ hɔ dada, nanso ɛnyɛ ArtCraft Launcher na ɛyɛeɛ
+	{path} already exists. Installing {name} will overwrite it.	{path} no wɔ hɔ dada. Sɛ wo instɔle {name}, ɛbɛsesa no.
+	{version} installed → {latest} released	Wo wɔ {version} → {latest} ne latest no
+	⊞  Grid	Grid
+	☰  Table	Table
+	🔍  Search apps	Hwehwɛ apps
