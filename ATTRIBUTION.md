@@ -277,6 +277,9 @@ committed: `language-data/manifest.toml` records each pack file's source, licenc
 ([format](docs/language-data-format.md)). `language-data/licences/<SPDX id>.txt` are the standard
 licence texts from [spdx/license-list-data](https://github.com/spdx/license-list-data) @
 `31846481de7ea17d92f2f46fad76abe58b2e9bb0`, copied verbatim as each licence permits.
+Latin (`la`) and Ancient Greek (`grc`) use the source release's standard spelling profiles. Its
+macron-enforcing Latin and polytonic-enforcing Ancient Greek profiles are not represented by the
+current one-pair-per-locale language-pack format and are not included.
 
 | File | Author | Source | Licence | Licence class | Notes |
 |---|---|---|---|---|---|
